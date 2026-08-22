@@ -1,230 +1,113 @@
-﻿import express from 'express';
+﻿import 'dotenv/config';
+import express from 'express';
 import cors from 'cors';
-import dotenv from 'dotenv';
+import cookieParser from 'cookie-parser';
 
-import { pool } from './db/pool.js';
+import healthRouter from './routes/health.js';
+import authRouter from './routes/auth.js';
 import examsRouter from './routes/exams.js';
 import collegesRouter from './routes/colleges.js';
 import counsellingRouter from './routes/counselling.js';
-
-dotenv.config();
+import paymentsRouter from './routes/payments.js';
 
 const app = express();
 
-/*
-|--------------------------------------------------------------------------
-| CORS
-|--------------------------------------------------------------------------
-| Vite can run on 5173 or 5174.
-|--------------------------------------------------------------------------
-*/
+const PORT = Number(process.env.PORT) || 4000;
 
-const allowedOrigins = new Set([
+const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:5174',
-]);
+  'https://counselling-wallah-frontend.vercel.app',
+];
 
-app.use(
-  cors({
-    origin: (origin, callback) => {
-      if (!origin) {
-        callback(null, true);
-        return;
-      }
+const configuredOrigin = process.env.CORS_ORIGIN;
 
-      if (allowedOrigins.has(origin)) {
-        callback(null, true);
-        return;
-      }
-
-      callback(
-        new Error(
-          `CORS blocked origin: ${origin}`
-        )
-      );
-    },
-    credentials: true,
-  })
-);
-
-/*
-|--------------------------------------------------------------------------
-| JSON
-|--------------------------------------------------------------------------
-*/
-
-app.use(
-  express.json()
-);
-
-/*
-|--------------------------------------------------------------------------
-| HEALTH
-|--------------------------------------------------------------------------
-*/
-
-app.get(
-  '/api/health',
-  async (req, res) => {
-    try {
-      await pool.query(
-        'SELECT 1'
-      );
-
-      res.json({
-        ok: true,
-        database: 'postgresql',
-        time:
-          new Date().toISOString(),
-      });
-    } catch (error) {
-      console.error(
-        'HEALTH CHECK ERROR:',
-        error
-      );
-
-      res.status(500).json({
-        ok: false,
-        error:
-          'Database connection failed',
-      });
+const corsOptions = {
+  origin: (origin, callback) => {
+    if (!origin) {
+      return callback(null, true);
     }
-  }
-);
-
-/*
-|--------------------------------------------------------------------------
-| ROUTES
-|--------------------------------------------------------------------------
-*/
-
-app.use(
-  '/api/exams',
-  examsRouter
-);
-
-app.use(
-  '/api/colleges',
-  collegesRouter
-);
-
-app.use(
-  '/api/counselling',
-  counsellingRouter
-);
-
-/*
-|--------------------------------------------------------------------------
-| 404
-|--------------------------------------------------------------------------
-*/
-
-app.use(
-  (req, res) => {
-    res.status(404).json({
-      error:
-        `Route not found: ${req.method} ${req.originalUrl}`,
-    });
-  }
-);
-
-/*
-|--------------------------------------------------------------------------
-| ERROR HANDLER
-|--------------------------------------------------------------------------
-*/
-
-app.use(
-  (error, req, res, next) => {
-    console.error(
-      'API ERROR:',
-      error
-    );
 
     if (
-      error?.message?.startsWith(
-        'CORS blocked origin:'
-      )
+      allowedOrigins.includes(origin) ||
+      origin === configuredOrigin
     ) {
-      res.status(403).json({
-        error:
-          error.message,
-      });
-
-      return;
+      return callback(null, true);
     }
 
-    res.status(
-      error?.status || 500
-    ).json({
-      error:
-        error?.message ||
-        'Internal server error',
-    });
-  }
+    console.warn(`CORS blocked origin: ${origin}`);
+    return callback(new Error(`CORS blocked origin: ${origin}`));
+  },
+
+  credentials: true,
+
+  methods: [
+    'GET',
+    'POST',
+    'PUT',
+    'PATCH',
+    'DELETE',
+    'OPTIONS',
+  ],
+
+  allowedHeaders: [
+    'Content-Type',
+    'Authorization',
+  ],
+
+  optionsSuccessStatus: 204,
+};
+
+app.use(cors(corsOptions));
+
+app.use(express.json({ limit: '100kb' }));
+
+app.use(cookieParser());
+
+console.log(
+  '[CORS] Production origin: https://counselling-wallah-frontend.vercel.app'
 );
 
-/*
-|--------------------------------------------------------------------------
-| SERVER
-|--------------------------------------------------------------------------
-*/
+console.log(
+  `[CORS] Configured origin: ${configuredOrigin || 'not set'}`
+);
 
-const PORT =
-  Number(
-    process.env.PORT
-  ) || 4000;
+app.get('/api', (_req, res) => {
+  res.json({
+    name: 'Counselling Wallah API',
+    phase: 2,
+    status: 'development',
+  });
+});
 
-const server =
-  app.listen(
-    PORT,
-    () => {
-      console.log(
-        `Counselling Wallah API listening on port ${PORT}`
-      );
-    }
+app.use('/api/health', healthRouter);
+
+app.use('/api/auth', authRouter);
+
+app.use('/api/exams', examsRouter);
+
+app.use('/api/colleges', collegesRouter);
+
+app.use('/api/counselling', counsellingRouter);
+
+app.use('/api/payments', paymentsRouter);
+
+app.use((req, res) => {
+  res.status(404).json({
+    error: 'Route not found',
+  });
+});
+
+app.use((err, _req, res, _next) => {
+  console.error(err);
+
+  res.status(500).json({
+    error: 'Internal server error',
+  });
+});
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(
+    `Counselling Wallah API listening on 0.0.0.0:${PORT}`
   );
-
-/*
-|--------------------------------------------------------------------------
-| SHUTDOWN
-|--------------------------------------------------------------------------
-*/
-
-const shutdown =
-  async () => {
-    console.log(
-      'Shutting down server...'
-    );
-
-    server.close(
-      async () => {
-        try {
-          await pool.end();
-
-          console.log(
-            'Database pool closed.'
-          );
-
-          process.exit(0);
-        } catch (error) {
-          console.error(
-            'Shutdown error:',
-            error
-          );
-
-          process.exit(1);
-        }
-      }
-    );
-  };
-
-process.on(
-  'SIGINT',
-  shutdown
-);
-
-process.on(
-  'SIGTERM',
-  shutdown
-);
+});
