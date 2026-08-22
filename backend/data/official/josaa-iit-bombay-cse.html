@@ -1,0 +1,604 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head><link href="../App_Themes/NewTheme/css/bootstrap.min.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/NewTheme/css/chosen.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/NewTheme/css/chosen_New.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/NewTheme/css/style.css" type="text/css" rel="stylesheet" /><title>
+	JoSAA
+</title><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><link rel="icon" href="../images/favicon.ico" type="image/x-icon" /><link href="../FaIcons/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="../Bootstrap5/js/bootstrap.bundle.min.js"></script>
+    <script src="../Scripts/jquery-3.5.1.min.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript" src="../Scripts/Common.js"></script>
+    <script language="javascript" type="text/javascript">
+        window.history.forward(); function noBack() { window.history.forward(); }
+        function burstCache() {
+            if (!navigator.onLine) {
+                window.location = "../SessionExpire.htm";
+            }
+        }
+        history.go(1);
+    </script>
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="./currentorcr.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm" autocomplete="off">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/Applicant/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZKg2M3zHCwGO1-6eKoPnj0rI7fywUOiU7IXjO5HFqNWjSPuKgg2&amp;t=639191042600000000" type="text/javascript"></script>
+
+
+<script src="/Applicant/WebResource.axd?d=x2nkrMJGXkMELz33nwnakFFWM7UD_32h-1mtUnVwFS8Fx5joAQ3d-ySHlc1bYeaSAMdda5w5FQMOMPs9uSMzncyOkwc1&amp;t=639191042600000000" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9CC9AD0F" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="mt9xJWBIUK0llqP35nsXHWGJIL3J1u3R2Wq7O8ItgnqSBCE1c//tFkYFQnHUS+M36ghF3pEmZDrDw/tneERZxX8rT3LO7ya1KlLt6uG/AoV4VvfRUZETc0e2LX26hXGjpY0khDePE7GAlqCqsKD0T19zy/GS23bckOVCyAU1J3OlVxQVQdd1BxYjcvBpedvPgPggKNSq2ExcBe4hSaWd3PwJh8QYCXF4fSPDaw3JuysmDC0i7DX3UD8ArYA4xid5OpuU+qBo0N2O3Gi3lKLdnoAeWmfdy5nPmbPKlcrwpC83f4dKHF4aqeNKQ3922OvW7gXN4kkfl2gIxGZ71zE7lCDiBnNkzW5CvRZMpersf6WJdMFTo8XuZSjMfSM8C+JiikL6raefsMPB4M1ohVWu3QaSo5FSr30DPkZdjTJF6mUoNs8pzqFCCIcFqKdX49fUr8WQdwolruRr6QEpEo1eC8Fqf/kpPYSKhq/QJLzk2lWCkXJbSmUlCLeh6K/CC8Fcu7zTiFBmV63WRAqdAteItTtagLoFASl+e0VujDTnfCvSSTiRuJPdCdonCOTC2601ovV7zm6BRgdWGwy1+ikAHVX5fO8s8du0DGZGLSYAZTfFyfFbEi9QMqXnyxZdUUgREHZogwLYVUOyLuIgWOWbatA3Kgn/BoQcU6RWrgRACDOppJ4TTNnKTQKHT0TEZ2aHGKQgmqEhvd8YVZdqva70L+eM9DzTl686Zhhn3CXo1F5uOVnfkx5KSb8VYocNr18+77WpHNBuUcL74jwhFJaBlAVpKvJZhh+uXoEfzcVEbQC0mG6FCbX5kaRN6mNI/jAID0YbzFoAXZa2L9T/zPn4lx7Yux2VPR7Ia2Sxk9Nt3LTpdDGuVGSpH5WuA/t3TsE6jidJQThYsafhVM4wxHpeUCZdvFbriU1Ia42Q9PwwsVrrVnSaJ1VsqgNOgg0WFNPZwnx6vGem7Wp/CnBn/njdFZzVjBoKv8Ue+qKVN4rWzb0phR1cXR4z5go2hy1wFXHZhkAJYJ9e1J5gWt9NyOoUj2Rei2wTCZiEMMsOivX7WTHebu5JwMwQI6iDZd6AFsxUKf41ZaxQgt4vGdzoo4rFNbFgATEkARQihjB5NRiUzFufLkvYmGrRBwSxV6ew/BBbNOG+Ez/OKkIkKaZldjAX5HqvhfimiFa2NX1MvfIdkaUmQl41DvmCuIy1vW6hOXi0bxtrC5APxUEEDjJ6u/RYTbHl+xZ6/sFHGG76X+UduDcuOGOaD4yuIawilnR9fqR5tGTVsmrZ8ekATvVPGoYsc7ZcYS6Jq4fC/Sp3ad3YjfJGyCZiQumpHEfv3i4XAKs8Ywz45zetZAUmWwva0DGKsoTL7KL+x3h78LkkqHjVzkhaeAD7sSpwosN01oU3dWSThLvRSLcCHsQxZpUQtoBPRrn+i5EWy0F4aa09fiAUQX3/w2ma40AO5u99RNxiP/dw/TTy55svTBDNm2m5QbOo0wpGVJPurJvlW6FvvzhNn4RguxrHmQfwNy6rE/JvTRCwWpC8G0F+HAntZfo4tVrsAHl3+v9x/Za3nVIDuavFRhQoyy6xbV7BrWB9O0IvZoKgYhbPw8RWN51KjOPo14S4IG/mHc7DdKpwEnA0lXBQxv7yom8aOO6XKkImK3Au554XnUo8cOZ/9jaHejVtcpcaQ8jdS+c=" />
+</div>
+        <input type="hidden" name="ctl00$hdnSecKey" id="ctl00_hdnSecKey" />
+        <section class="headerfirst">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-12">
+                        <img src="../Images/jossa_logo.png" class="img-fluid pull-left" alt="" />
+                    </div>
+                    <div class="col-xl-8 col-lg-6 col-md-6 col-sm-12">
+                        <h1 class="text-center pt-2">
+                            <span id="ctl00_lblCounsellingBoardHeader">Joint Seat Allocation Authority 2026</span>
+                        </h1>
+                        <h3 class="text-center pb-2">
+                            <span id="ctl00_lblCounsellingBoardHeaderDesc">IITs, IISc, NITs, IIEST, IIITs and Other-GFTIs for the Academic Year 2026-27</span>
+                        </h3>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-12">
+                        <img src="../Images/e-counsellig-logo2020.png" class="img-fluid pull-right pt-2 pb-1" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-custom p-0">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="../Root/CandidateLogin.aspx" id="ctl00_lnkHome" class="nav-link" aria-current="page">
+                                <i class="fa fa-home"></i>&nbsp;Home
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li  class="nav-item">
+                             <a id="ctl00_BtnCscLogin" class="nav-link" href="javascript:__doPostBack(&#39;ctl00$BtnCscLogin&#39;,&#39;&#39;)">
+                                 <i class="fa fa-sign-in"></i> CSC Login
+                             </a>                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!---------------Start Script to Use active class in Each menu --------------->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var url = window.location;
+                $('ul.navbar-nav li a').each(function () {
+                    if (this.href == url) {
+                        $("ul.nav li a").each(function () {
+                            if ($(this).hasClass("active")) {
+                                $(this).removeClass("active");
+                            }
+                        });
+                        $(this).addClass('active');
+                        //$(this).parents().addClass('active');
+                    }
+
+                });
+
+            });
+        </script>
+        <!---------------End Script to Use active class in Each menu --------------->
+        
+    <div class="container-fluid contentmid">
+        <div class="contentmiddivChoice">
+            <h4>Opening and Closing Ranks
+            </h4>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fs-7 fw-bold text-xl-end text-lg-end">
+                    Round No
+                </label>
+                <div class="col-sm-4">
+                    <select name="ctl00$ContentPlaceHolder1$ddlroundno" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlroundno\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ContentPlaceHolder1_ddlroundno" class="chosen-select">
+	<option value="0">--Select--</option>
+	<option selected="selected" value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+
+</select>
+                    <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator1" style="color:Red;font-size:Small;display:none;">Required ?</span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fs-7 fw-bold text-xl-end text-lg-end">
+                    Institute Type
+                </label>
+                <div class="col-sm-4">
+                    <select name="ctl00$ContentPlaceHolder1$ddlInstype" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlInstype\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ContentPlaceHolder1_ddlInstype" class="chosen-select">
+	<option value="0">--Select--</option>
+	<option value="ALL">ALL</option>
+	<option value="CFI">Government Funded Technical Institutions</option>
+	<option selected="selected" value="IIT">Indian Institute of Technology</option>
+	<option value="3IT">Indian Institute of Information Technology</option>
+	<option value="NIT">National Institute of Technology</option>
+
+</select>
+                    <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator2" style="color:Red;font-size:Small;display:none;">Required ?</span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fs-7 fw-bold text-xl-end text-lg-end">
+                    Institute Name
+                </label>
+                <div class="col-sm-4">
+                    <select name="ctl00$ContentPlaceHolder1$ddlInstitute" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlInstitute\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ContentPlaceHolder1_ddlInstitute" class="chosen-select">
+	<option value="0">--Select--</option>
+	<option value="ALL">ALL</option>
+	<option value="101">Indian Institute  of Technology Bhubaneswar</option>
+	<option selected="selected" value="102">Indian Institute  of Technology Bombay</option>
+	<option value="103">Indian Institute  of Technology Mandi</option>
+	<option value="104">Indian Institute  of Technology Delhi</option>
+	<option value="105">Indian Institute  of Technology Indore</option>
+	<option value="106">Indian Institute  of Technology Kharagpur</option>
+	<option value="107">Indian Institute  of Technology Hyderabad</option>
+	<option value="108">Indian Institute  of Technology Jodhpur</option>
+	<option value="109">Indian Institute  of Technology Kanpur</option>
+	<option value="110">Indian Institute  of Technology Madras</option>
+	<option value="111">Indian Institute  of Technology Gandhinagar</option>
+	<option value="112">Indian Institute  of Technology Patna</option>
+	<option value="113">Indian Institute  of Technology Roorkee</option>
+	<option value="114">Indian Institute  of Technology (ISM) Dhanbad</option>
+	<option value="115">Indian Institute  of Technology Ropar</option>
+	<option value="116">Indian Institute  of Technology (BHU) Varanasi</option>
+	<option value="117">Indian Institute  of Technology Guwahati</option>
+	<option value="118">Indian Institute of Technology Bhilai</option>
+	<option value="119">Indian Institute of Technology Goa</option>
+	<option value="120">Indian Institute  of Technology Palakkad</option>
+	<option value="121">Indian Institute  of Technology Tirupati</option>
+	<option value="122">Indian Institute of Technology Jammu</option>
+	<option value="123">Indian Institute of Technology Dharwad</option>
+	<option value="124">Indian Institute of Science, Bangalore</option>
+
+</select>
+                    <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator3" style="color:Red;font-size:Small;display:none;">Required ?</span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fs-7 fw-bold text-xl-end text-lg-end">
+                    Academic Program
+                </label>
+                <div class="col-sm-4">
+                    <select name="ctl00$ContentPlaceHolder1$ddlBranch" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlBranch\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ContentPlaceHolder1_ddlBranch" class="chosen-select">
+	<option value="0">--Select--</option>
+	<option value="ALL">ALL</option>
+	<option value="4101">Aerospace Engineering (4 Years, Bachelor of Technology)</option>
+	<option value="4107">Chemical Engineering (4 Years, Bachelor of Technology)</option>
+	<option value="4109">Civil Engineering (4 Years, Bachelor of Technology)</option>
+	<option value="410U">Environmental Science and Engineering (4 Years, Bachelor of Technology)</option>
+	<option selected="selected" value="4110">Computer Science and Engineering (4 Years, Bachelor of Technology)</option>
+	<option value="4111">Electrical Engineering (4 Years, Bachelor of Technology)</option>
+	<option value="4117">Engineering Physics (4 Years, Bachelor of Technology)</option>
+	<option value="4125">Mechanical Engineering (4 Years, Bachelor of Technology)</option>
+	<option value="4128">Metallurgical Engineering and Materials Science (4 Years, Bachelor of Technology)</option>
+	<option value="412I">Industrial Engineering and Operations Research (4 Years, Bachelor of Technology)</option>
+	<option value="4198">Energy Engineering (4 Years, Bachelor of Technology)</option>
+	<option value="4201">Chemistry (4 Years, Bachelor of Science)</option>
+	<option value="4202">Economics (4 Years, Bachelor of Science)</option>
+	<option value="4206">BS in Mathematics (4 Years, Bachelor of Science)</option>
+	<option value="4215">Applied Geophysics (4 Years, Bachelor of Science)</option>
+	<option value="5217">Electrical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))</option>
+
+</select>
+                    <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator4" style="color:Red;font-size:Small;display:none;">Required ?</span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fs-7 fw-bold text-xl-end text-lg-end">
+                    Seat Type / Category
+                </label>
+                <div class="col-sm-4">
+                    <select name="ctl00$ContentPlaceHolder1$ddlSeattype" id="ctl00_ContentPlaceHolder1_ddlSeattype" class="chosen-select">
+	<option value="0">--Select--</option>
+	<option value="ALL">ALL</option>
+	<option value="SCNO">SC</option>
+	<option value="STPH">ST (PwD)</option>
+	<option value="SCPH">SC (PwD)</option>
+	<option value="OPNO">OPEN</option>
+	<option value="BCPH">OBC-NCL (PwD)</option>
+	<option value="EWPH">EWS (PwD)</option>
+	<option value="OPPH">OPEN (PwD)</option>
+	<option value="STNO">ST</option>
+	<option value="EWNO">EWS</option>
+	<option value="BCNO">OBC-NCL</option>
+
+</select>
+                    <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator5" style="color:Red;font-size:Small;display:none;">Required ?</span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-12 text-center">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnSubmit&quot;, &quot;&quot;, true, &quot;sub&quot;, &quot;&quot;, false, false))" id="ctl00_ContentPlaceHolder1_btnSubmit" class="btn btn-primary" />
+                </div>
+            </div>
+        </div>
+        <div class="contentmiddivChoice fs-7">
+            <div class="col-sm-12">
+                <p class="text-primary text-center">
+                    Opening/Closing Ranks for Open Seats represent CRL. Opening/Closing Ranks for EWS, OBC-NCL, SC and ST Seats represent respective Category Ranks. Opening/Closing Ranks for PwD Seats represent PwD Ranks within Respective Categories.
+                </p>
+                <p class="text-danger fw-bold text-center">
+                    If the Closing/Opening rank has a suffix 'P', it indicates that the corresponding rank is from Preparatory Rank List.
+                </p>
+            </div>
+            <div id="ctl00_ContentPlaceHolder1_pnlDisplayDetails">
+	
+                <div class="table-responsive">
+                    <div>
+
+	</div>
+                </div>
+            
+</div>
+        </div>
+        
+
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ChangeInPage = false;
+
+            $('#ctl00_ContentPlaceHolder1_ddlInstitute_chosen').click(function () {
+                ChangeInPage = true;
+                var instcdType = $('#ctl00_ContentPlaceHolder1_ddlInstitute').val().substring(0, 1);
+                if (instcdType != 0)
+                    $('#ctl00_ContentPlaceHolder1_chkInstituteList_' + (parseInt(instcdType) - 1)).prop('checked', true);
+                //FilterSeat();
+            });
+
+            $('#ctl00_ContentPlaceHolder1_ddlBranch_chosen').click(function () {
+                ChangeInPage = true;
+                var brcdType = $('#ctl00_ContentPlaceHolder1_ddlBranch').val().substring(0, 1);
+                if (brcdType != 0)
+                    $('#ctl00_ContentPlaceHolder1_chkCourseDuration_' + (parseInt(brcdType) - 4)).prop('checked', true);
+                //FilterSeat();
+            });
+
+            function FilterSeat() {
+                if (!ChangeInPage)
+                    return;
+                var instType, courseType, instcd, brcd;
+                var cInsttype = "";
+                var cInstcd = "";
+                var cBrcd = "";
+                var preResult = false;
+                var AllRows = $('#GridView1 TR');
+                var show = true;
+                var i = 1;
+                var RowInDisplay = 0;
+                var preInstcd = "";
+                var preBrcd = "";
+                var currRow = AllRows.first();
+                try {
+                    RowInDisplay = 0;
+                    for (i = 3; i <= AllRows.length - 2; i++) {
+                        show = true;
+                        currRow = AllRows.eq(i);
+                        cInstcd = currRow.find('#lblInstCode').text();
+                        if (!$('#ctl00_ContentPlaceHolder1_chkInstituteList_0').is(":checked")) {
+                            if (cInstcd.substring(0, 1) == "1")
+                                show = false;
+                        }
+
+                        if (show && !$('#ctl00_ContentPlaceHolder1_chkInstituteList_1').is(":checked")) {
+                            if (cInstcd.substring(0, 1) == "2")
+                                show = false;
+                        }
+
+                        if (show && !$('#ctl00_ContentPlaceHolder1_chkInstituteList_2').is(":checked")) {
+                            if (cInstcd.substring(0, 1) == "3")
+                                show = false;
+                        }
+
+                        if (show && !$('#ctl00_ContentPlaceHolder1_chkInstituteList_3').is(":checked")) {
+                            if (cInstcd.substring(0, 1) == "4")
+                                show = false;
+                        }
+
+                        cBrcd = currRow.find('#lblAcademicProgramCode').text();
+
+                        if (show && !$('#ctl00_ContentPlaceHolder1_chkCourseDuration_0').is(":checked")) {
+                            if (cBrcd.substring(0, 1) == "4")
+                                show = false;
+                        }
+
+                        if (show && !$('#ctl00_ContentPlaceHolder1_chkCourseDuration_1').is(":checked")) {
+                            if (cBrcd.substring(0, 1) == "5")
+                                show = false;
+                        }
+
+                        instcd = $('#ctl00_ContentPlaceHolder1_ddlInstitute').val();
+                        if (show && instcd != "0" && instcd != cInstcd) {
+                            show = false;
+                        }
+
+                        brcd = $('#ctl00_ContentPlaceHolder1_ddlBranch').val();
+                        if (show && brcd != "0" && brcd != cBrcd) {
+                            show = false;
+                        }
+
+
+                        if (show) {
+                            if (preInstcd != cInstcd || preBrcd != cBrcd) {
+                                RowInDisplay = RowInDisplay + 1;
+                                preInstcd = cInstcd;
+                                preBrcd = cBrcd;
+                            }
+                            currRow.show();
+                            currRow.next().show();
+                            currRow.next().next().show();
+
+                        }
+                        else {
+
+                            currRow.hide();
+                            currRow.next().hide();
+                            currRow.next().next().hide();
+                        }
+                        i = i + 2;
+                    }
+
+                } catch (e) {
+                    alert(e.Message);
+                }
+
+                //var RowInDisplay = parseInt($('#GridView1 TR:not([style*="display: none"])').length / 3) - 1;
+                if (RowInDisplay == 0) {
+                    alert("Sorry no record exists on selected criteria!");
+                }
+                $('#ctl00_ContentPlaceHolder1_lbltotal').html(RowInDisplay);
+                //$('#divloader').removeClass('loader');
+                return;
+            }
+
+        });
+
+    </script>
+
+    <script src="../Scripts/chosen.jquery.js"></script>
+    
+    <script type="text/javascript">
+        var config = { '.chosen-select': {}, }
+        for (var selector in config) {
+            $(selector).chosen(config[selector]);
+        }
+        //On UpdatePanel Refresh
+        var prm = Sys.WebForms.PageRequestManager.getInstance();
+        if (prm != null) {
+            prm.add_endRequest(function (sender, e) {
+                if (sender._postBackSettings.panelsToUpdate != null) {
+                    $(".chosen-select").chosen();
+                }
+                else {
+                    $(".chosen-select").chosen();
+                }
+            });
+        };
+    </script>
+
+
+        <section class="footerthird">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 linkcenter">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="../FooterPages/termsconditions.aspx">Terms and Conditions
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="../FooterPages/hyperlinkPolicy.aspx">Hyperlink Policy
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="../FooterPages/privacyPolicy.aspx">Privacy Policy
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="../FooterPages/copyrightPolicy.aspx">Copyright Policy
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="../FooterPages/disclaimer.aspx">Disclaimer
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footersec">
+            <div class="container footersec">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <div class="copyRights">
+                            <div class="disclaimerText">
+                                <p>
+                                    This site is designed and hosted by NIC and the contents are provided by JoSAA.
+                                    <br />
+                                    For any further information, please contact JoSAA.
+                                </p>
+                            </div>
+
+                            <div class="disclaimerLogo">
+                                <a href="https://ecounselling.nic.in/" onclick="return confirm('You are being redirected to an external website. ');" title="https://s3waas.gov.in/" target="_blank">
+                                    <img src="../Images/footerLogo/ecounselling.png" alt="e-Counselling" />
+                                </a>
+                                <a href="http://www.nic.in/" onclick="return confirm('You are being redirected to an external website. ');" title="http://www.nic.in/" target="_blank">
+                                    <img src="../Images/footerLogo/nicLogo.png" alt="National Informatics Centre" />
+                                </a>
+                                <a href="http://www.digitalindia.gov.in/" onclick="return confirm('You are being redirected to an external website. ');" title="http://www.digitalindia.gov.in/" target="_blank">
+                                    <img src="../Images/footerLogo/digitalIndia.png" alt="Digital India" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button id="backToTopBtn" onclick="topFunction(); return false;"><i class="fa fa-arrow-up"></i>Top</button>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator1"), document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator2"), document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator3"), document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator4"), document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator5"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator1 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator1"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator1");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator1.controltovalidate = "ctl00_ContentPlaceHolder1_ddlroundno";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator1.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator1.errormessage = "Required ?";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator1.display = "Dynamic";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator1.validationGroup = "sub";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator1.initialvalue = "0";
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator2 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator2"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator2");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator2.controltovalidate = "ctl00_ContentPlaceHolder1_ddlInstype";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator2.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator2.errormessage = "Required ?";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator2.display = "Dynamic";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator2.validationGroup = "sub";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator2.initialvalue = "0";
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator3 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator3"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator3");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.controltovalidate = "ctl00_ContentPlaceHolder1_ddlInstitute";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.errormessage = "Required ?";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.display = "Dynamic";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.validationGroup = "sub";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.initialvalue = "0";
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator4 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator4"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator4");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator4.controltovalidate = "ctl00_ContentPlaceHolder1_ddlBranch";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator4.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator4.errormessage = "Required ?";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator4.display = "Dynamic";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator4.validationGroup = "sub";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator4.initialvalue = "0";
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator5 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator5"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator5");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator5.controltovalidate = "ctl00_ContentPlaceHolder1_ddlSeattype";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator5.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator5.errormessage = "Required ?";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator5.display = "Dynamic";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator5.validationGroup = "sub";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator5.initialvalue = "0";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>
+    <script src="../Scripts/chosen.jquery.js"></script>
+    <script type="text/javascript">
+        var config = { '.chosen-select': {}, }
+        for (var selector in config) {
+            $(selector).chosen(config[selector]);
+        }
+        //On UpdatePanel Refresh
+        if (typeof (Sys) !== 'undefined') {
+            var prm = Sys.WebForms.PageRequestManager.getInstance();
+            if (prm != null) {
+                prm.add_endRequest(function (sender, e) {
+                    if (sender._postBackSettings.panelsToUpdate != null) {
+                        $(".chosen-select").chosen();
+                    }
+                    else {
+                        $(".chosen-select").chosen();
+                    }
+                });
+            };
+        }
+    </script>
+    <script>
+        //Get the button:
+        mybutton = document.getElementById("backToTopBtn");
+
+        // When the user scrolls down 50px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera            
+        }
+
+    </script>
+</body>
+</html>

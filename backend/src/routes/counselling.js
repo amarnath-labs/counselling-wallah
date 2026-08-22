@@ -1,0 +1,634 @@
+﻿import { Router } from 'express';
+import { pool } from '../db/pool.js';
+
+const router = Router();
+
+/*
+|--------------------------------------------------------------------------
+| Helpers
+|--------------------------------------------------------------------------
+*/
+
+function normalize(value) {
+  return String(value || '')
+    .trim()
+    .toLowerCase();
+}
+
+function isJeeMainInstitute(
+  collegeName,
+  collegeType
+) {
+  const name = normalize(collegeName);
+  const type = normalize(collegeType);
+
+  // IIT must NEVER appear in JEE Main.
+  if (
+    type === 'iit' ||
+    name.includes(
+      'indian institute of technology'
+    ) ||
+    name.startsWith('iit ')
+  ) {
+    return false;
+  }
+
+  return (
+    type === 'nit' ||
+    type === 'iiit' ||
+    type === 'gfti' ||
+    type === 'gftis' ||
+
+    name.startsWith(
+      'national institute of technology'
+    ) ||
+
+    name.includes(
+      'indian institute of information technology'
+    )
+  );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| COUNSELLING EVENTS
+|--------------------------------------------------------------------------
+*/
+
+router.get(
+  '/events',
+  async (req, res, next) => {
+    try {
+
+      const params = [];
+
+      let query = `
+        SELECT
+          name,
+          event_date_text AS date,
+          status,
+          is_demo AS "isDemo"
+        FROM counselling_events
+      `;
+
+      if (req.query.examId) {
+
+        params.push(
+          String(
+            req.query.examId
+          ).trim()
+        );
+
+        query += `
+          WHERE exam_id = $1::text
+        `;
+      }
+
+      query += `
+        ORDER BY id
+      `;
+
+      const { rows } =
+        await pool.query(
+          query,
+          params
+        );
+
+      res.json({
+        data: rows,
+      });
+
+    } catch (error) {
+
+      console.error(
+        'COUNSELLING EVENTS ERROR:',
+        error
+      );
+
+      next(error);
+    }
+  }
+);
+
+
+/*
+|--------------------------------------------------------------------------
+| COUNSELLING RESULTS
+|--------------------------------------------------------------------------
+*/
+
+router.get(
+  '/results',
+  async (req, res, next) => {
+
+    try {
+
+      /*
+      |--------------------------------------------------------------------------
+      | EXAM
+      |--------------------------------------------------------------------------
+      */
+
+      const examId =
+        normalize(
+          req.query.examId ||
+          'jee-main'
+        );
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | INPUTS
+      |--------------------------------------------------------------------------
+      */
+
+      const rank =
+        Number(
+          req.query.rank
+        );
+
+      const category =
+        String(
+          req.query.category ||
+          'OPEN'
+        ).trim();
+
+      const year =
+        Number(
+          req.query.year ||
+          2026
+        );
+
+      const round =
+        String(
+          req.query.round ||
+          '1'
+        ).trim();
+
+      const requestedQuota =
+        req.query.quota
+          ? String(
+              req.query.quota
+            ).trim()
+          : null;
+
+      const requestedGender =
+        req.query.gender
+          ? String(
+              req.query.gender
+            ).trim()
+          : null;
+
+      const homeState =
+        req.query.homeState
+          ? String(
+              req.query.homeState
+            ).trim()
+          : null;
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | VALIDATION
+      |--------------------------------------------------------------------------
+      */
+
+      if (
+        !Number.isInteger(rank) ||
+        rank <= 0
+      ) {
+        return res.status(400).json({
+          error:
+            'Valid rank is required',
+        });
+      }
+
+      if (
+        !Number.isInteger(year)
+      ) {
+        return res.status(400).json({
+          error:
+            'Valid year is required',
+        });
+      }
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | CURRENT DATASET
+      |--------------------------------------------------------------------------
+      |
+      | Current cutoff data = JoSAA.
+      |
+      | Therefore only:
+      |
+      | JEE Main
+      | JEE Advanced
+      |
+      | can use this cutoff table.
+      |
+      */
+
+      const SUPPORTED_JOSAA_EXAMS = [
+        'jee-main',
+        'jee-advanced',
+      ];
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | BLOCK NON-JOSAA EXAMS
+      |--------------------------------------------------------------------------
+      */
+
+      if (
+        !SUPPORTED_JOSAA_EXAMS.includes(
+          examId
+        )
+      ) {
+
+        return res.json({
+          data: [],
+
+          meta: {
+            examId,
+            rank,
+            year,
+            round,
+            category,
+
+            quota:
+              requestedQuota,
+
+            gender:
+              requestedGender,
+
+            homeState,
+
+            count: 0,
+
+            message:
+              `${examId} data is not available yet. ` +
+              `JoSAA data will not be used for this exam.`,
+          },
+        });
+      }
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | SQL PARAMETERS
+      |--------------------------------------------------------------------------
+      */
+
+      const params = [
+        rank,       // $1
+        year,       // $2
+        round,      // $3
+        category,   // $4
+      ];
+
+      let paramIndex = 5;
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | BASE QUERY
+      |--------------------------------------------------------------------------
+      */
+
+      let query = `
+        SELECT
+          c.id AS college_id,
+          c.name AS college_name,
+          c.city,
+          c.state,
+          c.type,
+
+          b.id AS branch_id,
+          b.name AS branch_name,
+
+          co.year,
+          co.round,
+          co.category,
+          co.quota,
+          co.gender,
+
+          co.opening_rank AS "openingRank",
+          co.closing_rank AS "closingRank",
+
+          co.source_label AS source,
+          co.is_verified AS "isVerified",
+          co.verification_status AS "verificationStatus",
+          co.source_url AS "sourceUrl",
+          co.retrieved_at AS "retrievedAt"
+
+        FROM cutoffs co
+
+        INNER JOIN branches b
+          ON b.id = co.branch_id
+
+        INNER JOIN colleges c
+          ON c.id = b.college_id
+
+        WHERE
+          co.year = $2
+
+          AND co.round = $3
+
+          AND co.category = $4
+
+          AND co.opening_rank <= $1
+
+          AND co.closing_rank >= $1
+      `;
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | JEE MAIN
+      |--------------------------------------------------------------------------
+      |
+      | JEE Main:
+      |
+      | NIT   ✅
+      | IIIT  ✅
+      | GFTI  ✅
+      | IIT   ❌
+      |
+      */
+
+      if (
+        examId === 'jee-main'
+      ) {
+
+        query += `
+          AND (
+            LOWER(c.type) IN (
+              'nit',
+              'iiit',
+              'gfti',
+              'gftis'
+            )
+
+            OR LOWER(c.name) LIKE
+              'national institute of technology%'
+
+            OR LOWER(c.name) LIKE
+              '%indian institute of information technology%'
+          )
+
+          AND LOWER(c.type) <> 'iit'
+
+          AND LOWER(c.name) NOT LIKE
+            'indian institute of technology%'
+
+          AND LOWER(c.name) NOT LIKE
+            'iit %'
+        `;
+      }
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | JEE ADVANCED
+      |--------------------------------------------------------------------------
+      |
+      | JEE Advanced:
+      |
+      | IIT ✅
+      |
+      */
+
+      if (
+        examId === 'jee-advanced'
+      ) {
+
+        query += `
+          AND (
+            LOWER(c.type) = 'iit'
+
+            OR LOWER(c.name) LIKE
+              'indian institute of technology%'
+
+            OR LOWER(c.name) LIKE
+              'iit %'
+          )
+        `;
+      }
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | GENDER
+      |--------------------------------------------------------------------------
+      */
+
+      if (
+        requestedGender
+      ) {
+
+        const gender =
+          normalize(
+            requestedGender
+          );
+
+        if (
+          gender.includes(
+            'female'
+          )
+        ) {
+
+          query += `
+            AND co.gender IN (
+              'Female-only (including Supernumerary)',
+              'Gender-Neutral'
+            )
+          `;
+
+        } else {
+
+          query += `
+            AND co.gender =
+              'Gender-Neutral'
+          `;
+        }
+      }
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | QUOTA
+      |--------------------------------------------------------------------------
+      |
+      | DO NOT force AI automatically.
+      |
+      */
+
+      if (
+        requestedQuota
+      ) {
+
+        params.push(
+          requestedQuota
+        );
+
+        const quotaParam =
+          `$${paramIndex++}`;
+
+        query += `
+          AND co.quota =
+            ${quotaParam}
+        `;
+      }
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | ORDER
+      |--------------------------------------------------------------------------
+      */
+
+      query += `
+        ORDER BY
+          co.closing_rank ASC,
+          c.name ASC,
+          b.name ASC
+      `;
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | EXECUTE
+      |--------------------------------------------------------------------------
+      */
+
+      const { rows } =
+        await pool.query(
+          query,
+          params
+        );
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | REMOVE DUPLICATES
+      |--------------------------------------------------------------------------
+      */
+
+      const seen =
+        new Set();
+
+      const uniqueRows =
+        rows.filter(
+          (row) => {
+
+            const key = [
+              row.college_id,
+              row.branch_id,
+              row.year,
+              row.round,
+              row.category,
+              row.quota,
+              row.gender,
+            ].join('|');
+
+            if (
+              seen.has(key)
+            ) {
+              return false;
+            }
+
+            seen.add(key);
+
+            return true;
+          }
+        );
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | FINAL JEE MAIN SAFETY FILTER
+      |--------------------------------------------------------------------------
+      |
+      | Even if college metadata is imperfect,
+      | IIT can NEVER appear in JEE Main.
+      |
+      */
+
+      let finalRows =
+        uniqueRows;
+
+      if (
+        examId === 'jee-main'
+      ) {
+
+        finalRows =
+          uniqueRows.filter(
+            (row) =>
+              isJeeMainInstitute(
+                row.college_name,
+                row.type
+              )
+          );
+      }
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | RESPONSE
+      |--------------------------------------------------------------------------
+      */
+
+      res.json({
+
+        data:
+          finalRows,
+
+        meta: {
+
+          examId,
+
+          rank,
+
+          year,
+
+          round,
+
+          category,
+
+          quota:
+            requestedQuota,
+
+          gender:
+            requestedGender,
+
+          homeState,
+
+          count:
+            finalRows.length,
+        },
+
+      });
+
+    } catch (error) {
+
+      console.error(
+        'COUNSELLING RESULTS ERROR:',
+        error
+      );
+
+      next(error);
+    }
+  }
+);
+
+
+/*
+|--------------------------------------------------------------------------
+| EXPORT
+|--------------------------------------------------------------------------
+*/
+
+export default router;

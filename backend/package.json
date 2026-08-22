@@ -1,0 +1,29 @@
+{
+  "name": "counselling-wallah-backend",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "db:migrate": "node src/db/migrate.js",
+    "db:seed": "node src/db/seed.js",
+    "check": "node --check src/server.js && node --check src/db/migrate.js && node --check src/db/seed.js"
+  },
+  "dependencies": {
+    "axios": "^1.19.0",
+    "axios-cookiejar-support": "^7.0.0",
+    "bcryptjs": "^3.0.3",
+    "cheerio": "^1.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.13.1",
+    "pino": "^10.3.1",
+    "pino-http": "^11.0.0",
+    "tough-cookie": "^6.0.2",
+    "zod": "^4.4.3"
+  }
+}
