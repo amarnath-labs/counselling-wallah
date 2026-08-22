@@ -1,4 +1,4 @@
-import { Router } from "express";
+﻿import { Router } from "express";
 import { pool } from "../db/pool.js";
 
 const router = Router();
@@ -361,7 +361,15 @@ router.get("/", async (req, res, next) => {
 
       ${where}
 
-      GROUP BY c.id
+      GROUP BY
+        c.id,
+        c.name,
+        c.city,
+        c.state,
+        c.type,
+        c.established,
+        c.website,
+        c.portal
 
       ORDER BY c.name
       `,
@@ -391,7 +399,15 @@ router.get("/:id", async (req, res, next) => {
 
       WHERE c.id = $1
 
-      GROUP BY c.id
+      GROUP BY
+        c.id,
+        c.name,
+        c.city,
+        c.state,
+        c.type,
+        c.established,
+        c.website,
+        c.portal
       `,
       [req.params.id]
     );
@@ -547,3 +563,4 @@ router.get("/:id/cutoffs", async (req, res, next) => {
 */
 
 export default router;
+
