@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Counselling Wallah — Aapki Rank, Aapka College, Aapka Right Decision</title>
+<!--
+  SECURITY NOTE (read before deploying):
+  This file is a self-contained front-end prototype — it has no server, no database and
+  no auth backend, so several protections below are "best we can do in a static file".
+  A production build MUST also add, on the server side: HttpOnly/Secure session cookies,
+  CSRF tokens on state-changing requests, server-side input re-validation (never trust the
+  client), rate limiting on login/payment endpoints, and a CSP served as a real HTTP header
+  (not a <meta> tag, which cannot restrict frame-ancestors or report-uri).
+-->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; form-action 'self'; frame-ancestors 'none';">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<style>
+:root{
+  --navy:#0F2454;
+  --navy-2:#16336F;
+  --blue:#2853E0;
+  --blue-soft:#EAF0FF;
+  --orange:#FF7A1A;
+  --orange-soft:#FFF1E4;
+  --green:#189A5B;
+  --green-soft:#E7F8EF;
+  --amber:#E8A400;
+  --amber-soft:#FFF6DE;
+  --red:#D64545;
+  --red-soft:#FDEAEA;
+  --ink:#101828;
+  --ink-2:#475069;
+  --ink-3:#8A93A8;
+  --line:#E4E9F5;
+  --paper:#FFFFFF;
+  --canvas:#F6F8FE;
+  --radius:16px;
+  --font-display: 'CW-Display', 'Sora', 'Segoe UI', sans-serif;
+  --font-body: 'CW-Body', 'Inter', 'Segoe UI', sans-serif;
+  --font-data: 'CW-Data', 'IBM Plex Mono', monospace;
+}
+@font-face{font-family:'CW-Display';src:local('Sora');}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  font-family:var(--font-body);
+  color:var(--ink);
+  background:var(--canvas);
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:64px;
+}
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;margin:0 0 8px;letter-spacing:-0.01em;}
+p{margin:0 0 12px;color:var(--ink-2);line-height:1.55;}
+a{color:inherit;text-decoration:none;}
+button{font-family:var(--font-body);cursor:pointer;border:none;}
+.mono{font-family:var(--font-data);}
+.container{max-width:1120px;margin:0 auto;padding:0 20px;}
+.hide{display:none !important;}
+
+/* ---------- NAV ---------- */
+.topnav{
+  position:sticky;top:0;z-index:50;background:rgba(255,255,255,0.92);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line);
+}
+.topnav-inner{max-width:1120px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;}
+.brand{display:flex;align-items:center;gap:9px;font-family:var(--font-display);font-weight:800;font-size:19px;color:var(--navy);}
+.brand .mark{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--blue),var(--navy));position:relative;flex:none;}
+.brand .mark::after{content:"";position:absolute;inset:7px;border-radius:5px;background:var(--orange);}
+.nav-links{display:flex;gap:26px;align-items:center;}
+.nav-links a{font-size:14.5px;font-weight:600;color:var(--ink-2);}
+.nav-links a:hover{color:var(--navy);}
+.nav-cta{display:flex;gap:10px;align-items:center;}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 20px;border-radius:11px;font-weight:700;font-size:14.5px;transition:transform .12s ease, box-shadow .12s ease;}
+.btn:active{transform:scale(0.97);}
+.btn-primary{background:var(--navy);color:#fff;box-shadow:0 6px 18px -8px rgba(15,36,84,0.55);}
+.btn-primary:hover{background:var(--navy-2);}
+.btn-orange{background:var(--orange);color:#fff;box-shadow:0 6px 18px -8px rgba(255,122,26,0.6);}
+.btn-ghost{background:transparent;color:var(--navy);border:1.5px solid var(--line);}
+.btn-ghost:hover{border-color:var(--navy);}
+.btn-sm{padding:8px 14px;font-size:13.5px;border-radius:9px;}
+.btn-block{width:100%;}
+@media(max-width:840px){.nav-links{display:none;} .nav-cta .btn-ghost{display:none;}}
+
+/* ---------- HERO ---------- */
+.hero{
+  background:radial-gradient(120% 140% at 15% -10%, #DCE6FF 0%, #F6F8FE 45%, #F6F8FE 100%);
+  padding:56px 0 40px;
+}
+.hero-grid{display:grid;grid-template-columns:1.05fr 0.95fr;gap:44px;align-items:start;}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr;}}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;background:var(--orange-soft);color:#B25200;font-weight:700;font-size:12.5px;padding:6px 12px;border-radius:999px;margin-bottom:16px;}
+.hero h1{font-size:clamp(30px,4.4vw,46px);color:var(--navy);line-height:1.08;}
+.hero h1 .accent{color:var(--orange);}
+.hero p.lead{font-size:16.5px;max-width:520px;}
+.hero-actions{display:flex;gap:12px;margin-top:22px;flex-wrap:wrap;}
+.hero-stats{display:flex;gap:28px;margin-top:34px;flex-wrap:wrap;}
+.hero-stats div b{display:block;font-family:var(--font-data);font-size:22px;color:var(--navy);}
+.hero-stats div span{font-size:12.5px;color:var(--ink-3);}
+
+/* rank search card */
+.rank-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 24px 60px -30px rgba(16,24,60,0.35);}
+.rank-card h3{font-size:15px;color:var(--navy);}
+.rank-card .sub{font-size:12.5px;color:var(--ink-3);margin-bottom:16px;}
+.field{margin-bottom:13px;}
+.field label{display:block;font-size:12.5px;font-weight:700;color:var(--ink-2);margin-bottom:6px;}
+.field select, .field input{
+  width:100%;padding:11px 12px;border-radius:10px;border:1.5px solid var(--line);
+  font-family:var(--font-body);font-size:14px;background:#FCFDFF;color:var(--ink);
+}
+.field select:focus,.field input:focus{outline:none;border-color:var(--blue);}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.free-note{font-size:12px;color:var(--ink-3);text-align:center;margin-top:10px;}
+
+/* ---------- SECTIONS ---------- */
+.section{padding:52px 0;}
+.section-head{max-width:600px;margin-bottom:32px;}
+.section-head .kicker{font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--blue);margin-bottom:6px;}
+.section-head h2{font-size:clamp(22px,3vw,30px);color:var(--navy);}
+.trust-strip{background:var(--navy);color:#fff;border-radius:18px;padding:18px 24px;text-align:center;font-weight:700;font-size:14.5px;margin-top:8px;}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+@media(max-width:900px){.grid-4{grid-template-columns:1fr 1fr;} .grid-3{grid-template-columns:1fr;}}
+@media(max-width:560px){.grid-4{grid-template-columns:1fr;}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:20px;}
+.icon-badge{width:42px;height:42px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:12px;}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;counter-reset:step;}
+@media(max-width:900px){.steps{grid-template-columns:1fr 1fr;}}
+@media(max-width:560px){.steps{grid-template-columns:1fr;}}
+.step-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:20px;position:relative;}
+.step-num{font-family:var(--font-data);font-size:13px;color:var(--blue);font-weight:700;margin-bottom:10px;}
+
+/* DTSB legend */
+.dtsb-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+@media(max-width:900px){.dtsb-row{grid-template-columns:1fr 1fr;}}
+@media(max-width:560px){.dtsb-row{grid-template-columns:1fr;}}
+.dtsb-chip{border-radius:14px;padding:16px;border:1px solid var(--line);}
+.dtsb-chip.dream{background:var(--red-soft);}
+.dtsb-chip.target{background:var(--amber-soft);}
+.dtsb-chip.safe{background:var(--green-soft);}
+.dtsb-chip.backup{background:var(--blue-soft);}
+.dtsb-chip b{display:block;margin-bottom:4px;font-size:14px;}
+.dtsb-chip.dream b{color:#A63333;}
+.dtsb-chip.target b{color:#9A6E00;}
+.dtsb-chip.safe b{color:#0F7A47;}
+.dtsb-chip.backup b{color:var(--navy);}
+.dtsb-chip span{font-size:12.5px;color:var(--ink-2);}
+
+/* pricing */
+.price-card{background:var(--paper);border:1.5px solid var(--line);border-radius:18px;padding:24px;display:flex;flex-direction:column;}
+.price-card.pop{border-color:var(--orange);box-shadow:0 18px 40px -22px rgba(255,122,26,0.5);position:relative;}
+.pop-tag{position:absolute;top:-12px;right:20px;background:var(--orange);color:#fff;font-size:11px;font-weight:800;padding:5px 10px;border-radius:999px;}
+.price-card .amt{font-family:var(--font-data);font-size:32px;color:var(--navy);margin:6px 0 14px;}
+.price-card ul{list-style:none;margin:0 0 18px;padding:0;flex:1;}
+.price-card li{font-size:13.5px;color:var(--ink-2);padding:6px 0;border-top:1px dashed var(--line);}
+.price-card li:first-child{border-top:none;}
+
+/* footer */
+footer{background:var(--navy);color:#B9C4E8;padding:44px 0 20px;margin-top:20px;}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px;}
+@media(max-width:800px){.footer-grid{grid-template-columns:1fr 1fr;}}
+footer h4{color:#fff;font-size:13.5px;}
+footer a{display:block;font-size:13px;color:#B9C4E8;padding:4px 0;}
+footer a:hover{color:#fff;}
+.foot-bottom{border-top:1px solid rgba(255,255,255,0.12);margin-top:28px;padding-top:16px;font-size:12px;color:#8A9AC9;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+
+/* bottom mobile nav */
+.bottomnav{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--line);display:flex;z-index:60;box-shadow:0 -8px 20px -14px rgba(0,0,0,0.2);}
+.bottomnav button{flex:1;background:none;padding:9px 4px 8px;display:flex;flex-direction:column;align-items:center;gap:3px;color:var(--ink-3);font-size:10.5px;font-weight:700;}
+.bottomnav button.active{color:var(--blue);}
+.bottomnav .bnicon{font-size:17px;}
+
+/* ---------- VIEW PAGES (app flow) ---------- */
+.view{display:none;min-height:60vh;}
+.view.active{display:block;}
+.page-hero{background:var(--navy);color:#fff;padding:30px 0 26px;}
+.page-hero h1{color:#fff;font-size:24px;}
+.page-hero p{color:#B9C4E8;margin:0;}
+.crumb{font-size:12.5px;color:#93A6D9;margin-bottom:10px;}
+.crumb b{color:#fff;cursor:pointer;}
+
+/* exam grid */
+.exam-search{margin:22px 0;}
+.exam-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+@media(max-width:900px){.exam-grid{grid-template-columns:1fr 1fr;}}
+@media(max-width:560px){.exam-grid{grid-template-columns:1fr;}}
+.exam-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:8px;}
+.exam-card.inactive{opacity:0.55;}
+.exam-logo{width:38px;height:38px;border-radius:10px;background:var(--blue-soft);display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--blue);font-size:13px;}
+.tag{display:inline-block;font-size:11px;font-weight:800;padding:3px 8px;border-radius:999px;background:var(--green-soft);color:#0F7A47;width:fit-content;}
+.tag.soon{background:#EEF0F5;color:var(--ink-3);}
+
+/* profile form */
+.form-shell{max-width:760px;margin:0 auto;}
+.form-section{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;margin-bottom:16px;}
+.form-section h3{font-size:15px;color:var(--navy);margin-bottom:14px;}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.grid-3f{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;}
+@media(max-width:640px){.grid-2,.grid-3f{grid-template-columns:1fr;}}
+.chip-select{display:flex;flex-wrap:wrap;gap:8px;}
+.chip{padding:8px 13px;border-radius:999px;border:1.5px solid var(--line);font-size:13px;font-weight:600;color:var(--ink-2);background:#fff;}
+.chip.on{background:var(--navy);border-color:var(--navy);color:#fff;}
+
+/* results */
+.results-summary{display:flex;gap:14px;flex-wrap:wrap;margin:18px 0 6px;}
+.sum-pill{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 18px;min-width:120px;}
+.sum-pill b{display:block;font-family:var(--font-data);font-size:20px;color:var(--navy);}
+.sum-pill span{font-size:11.5px;color:var(--ink-3);}
+.filter-bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0;}
+.filter-bar select{padding:9px 12px;border-radius:9px;border:1.5px solid var(--line);font-size:13px;background:#fff;}
+.result-group{margin-top:26px;}
+.group-label{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+.group-label .dot{width:11px;height:11px;border-radius:50%;}
+.group-label h3{font-size:16px;margin:0;}
+.group-label span.count{font-size:12.5px;color:var(--ink-3);font-weight:600;}
+.college-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;}
+@media(max-width:800px){.college-grid{grid-template-columns:1fr;}}
+.cw-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;display:flex;gap:14px;}
+.cw-meter{flex:none;width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;position:relative;}
+.cw-meter span{font-family:var(--font-data);font-weight:800;font-size:14px;color:var(--navy);}
+.cw-body{flex:1;min-width:0;}
+.cw-body h4{font-size:15px;margin-bottom:2px;}
+.cw-body .loc{font-size:12px;color:var(--ink-3);margin-bottom:8px;}
+.cw-meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;}
+.meta-chip{font-size:11px;font-weight:700;background:var(--canvas);border:1px solid var(--line);padding:4px 8px;border-radius:8px;color:var(--ink-2);}
+.cw-actions{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;}
+
+/* college detail */
+.detail-head{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:flex-start;}
+.detail-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:20px 0;border-bottom:1px solid var(--line);padding-bottom:0;}
+.dtab{padding:9px 14px;font-size:13px;font-weight:700;color:var(--ink-3);border-bottom:2.5px solid transparent;}
+.dtab.on{color:var(--navy);border-color:var(--orange);}
+.cutoff-table{width:100%;border-collapse:collapse;font-size:13px;}
+.cutoff-table th,.cutoff-table td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--line);}
+.cutoff-table th{color:var(--ink-3);font-size:11.5px;text-transform:uppercase;letter-spacing:.04em;}
+.source-note{font-size:11.5px;color:var(--ink-3);background:var(--canvas);border-radius:8px;padding:8px 10px;margin-top:10px;}
+
+/* compare */
+.compare-table{width:100%;border-collapse:collapse;}
+.compare-table th,.compare-table td{padding:12px 10px;border-bottom:1px solid var(--line);font-size:13.5px;text-align:left;vertical-align:top;}
+.compare-table th{color:var(--ink-3);font-size:11.5px;text-transform:uppercase;background:var(--canvas);position:sticky;top:56px;}
+.rec-banner{background:var(--green-soft);border:1px solid #BFE6D2;border-radius:14px;padding:16px 18px;margin:18px 0;}
+
+/* choice list */
+.choice-item{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px;cursor:grab;}
+.choice-num{width:26px;height:26px;border-radius:50%;background:var(--navy);color:#fff;font-family:var(--font-data);font-size:12px;display:flex;align-items:center;justify-content:center;flex:none;}
+.choice-item .grip{color:var(--ink-3);}
+
+/* disclaimer */
+.disclaimer{background:var(--amber-soft);border:1px solid #F1DA9C;border-radius:12px;padding:12px 16px;font-size:12.5px;color:#7A5B00;margin:16px 0;}
+
+/* dashboard */
+.dash-grid{display:grid;grid-template-columns:280px 1fr;gap:20px;}
+@media(max-width:800px){.dash-grid{grid-template-columns:1fr;}}
+.quick-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px;}
+@media(max-width:560px){.quick-grid{grid-template-columns:1fr 1fr;}}
+.qa{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;text-align:center;font-size:12.5px;font-weight:700;color:var(--navy);}
+.journey{display:flex;align-items:center;gap:0;overflow-x:auto;margin-top:16px;}
+.jstep{flex:1;min-width:110px;text-align:center;position:relative;font-size:11.5px;font-weight:700;color:var(--ink-3);}
+.jstep .jdot{width:14px;height:14px;border-radius:50%;background:var(--line);margin:0 auto 8px;}
+.jstep.done .jdot{background:var(--green);}
+.jstep.now .jdot{background:var(--orange);box-shadow:0 0 0 4px var(--orange-soft);}
+.jstep.done{color:var(--green);}
+.jstep.now{color:var(--orange);}
+.jline{position:absolute;top:6px;left:-50%;width:100%;height:2px;background:var(--line);z-index:-1;}
+.jstep:first-child .jline{display:none;}
+
+.empty-state{text-align:center;padding:60px 20px;background:#fff;border:1px dashed var(--line);border-radius:16px;}
+.empty-state h3{color:var(--navy);}
+
+.demo-tag{display:inline-block;font-size:10.5px;font-weight:800;background:#FFF1E4;color:#B25200;padding:2px 8px;border-radius:999px;margin-left:8px;vertical-align:middle;}
+</style>
+</head>
+<body>
+
+<!-- ============ TOP NAV ============ -->
+<nav class="topnav">
+  <div class="topnav-inner">
+    <div class="brand" onclick="go('home')" style="cursor:pointer">
+      <div class="mark"></div>
+      Counselling Wallah
+    </div>
+    <div class="nav-links">
+      <a onclick="go('home')">Home</a>
+      <a onclick="go('exams')">Find Colleges</a>
+      <a onclick="go('exams')">Exams</a>
+      <a onclick="go('compare')">Compare</a>
+      <a onclick="go('pricing')">Pricing</a>
+    </div>
+    <div class="nav-cta">
+      <button class="btn btn-ghost btn-sm" onclick="go('dashboard')">Login</button>
+      <button class="btn btn-primary btn-sm" onclick="go('exams')">Find My College</button>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HOME VIEW ============ -->
+<div class="view active" id="view-home">
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">🇮🇳 Made for Indian students &amp; parents</span>
+        <h1>Apni Rank Batao. <span class="accent">Apna Best College</span> Jaano.</h1>
+        <p class="lead">JEE, MHT-CET, WBJEE, CUET aur other entrance exams ke basis par apne liye best college aur branch options discover karein — sirf rank se, guesswork se nahi.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" onclick="go('exams')">Find My Colleges →</button>
+          <button class="btn btn-ghost" onclick="go('exams')">Explore Colleges</button>
+        </div>
+        <div class="hero-stats">
+          <div><b class="mono">10</b><span>Exams supported</span></div>
+          <div><b class="mono">1,200+</b><span>College &amp; branch profiles</span></div>
+          <div><b class="mono">₹0</b><span>To get started</span></div>
+        </div>
+        <p style="font-size:11px;color:var(--ink-3);margin-top:18px;">Sample figures shown for illustration <span class="demo-tag">DEMO DATA</span></p>
+      </div>
+
+      <div class="rank-card">
+        <h3>Find Colleges Based On Your Rank</h3>
+        <div class="sub">2 minute ka form — turant results.</div>
+        <div class="field">
+          <label>Select Exam</label>
+          <select id="h-exam">
+            <option>JEE Main</option>
+            <option>JEE Advanced</option>
+            <option>MHT-CET</option>
+            <option>WBJEE</option>
+            <option>CUET</option>
+          </select>
+        </div>
+        <div class="field-row">
+          <div class="field"><label>Rank / Percentile</label><input id="h-rank" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="7" autocomplete="off" placeholder="e.g. 18452"></div>
+          <div class="field"><label>Category</label>
+            <select id="h-cat"><option>General</option><option>EWS</option><option>OBC-NCL</option><option>SC</option><option>ST</option></select>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field"><label>Home State</label>
+            <select id="h-state" class="state-select"></select>
+          </div>
+          <div class="field"><label>Preferred Branch</label>
+            <select id="h-branch"><option>CSE</option><option>IT</option><option>ECE</option><option>Mechanical</option><option>Civil</option><option>Any</option></select>
+          </div>
+        </div>
+        <button class="btn btn-orange btn-block" onclick="quickFind()">Find My Colleges →</button>
+        <div class="free-note">Free basic results available.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="kicker">Why Us</div>
+        <h2>Why Students Choose Counselling Wallah</h2>
+      </div>
+      <div class="grid-4">
+        <div class="card"><div class="icon-badge" style="background:var(--blue-soft)">🎯</div><h4>Personalized</h4><p>Recommendations based on your actual rank, category and preferences.</p></div>
+        <div class="card"><div class="icon-badge" style="background:var(--green-soft)">📊</div><h4>Data Driven</h4><p>Historical cutoff, seat and admission data to help you decide with confidence.</p></div>
+        <div class="card"><div class="icon-badge" style="background:var(--orange-soft)">🧭</div><h4>Complete Guidance</h4><p>From college discovery to choice filling and counselling deadlines.</p></div>
+        <div class="card"><div class="icon-badge" style="background:var(--amber-soft)">❤️</div><h4>Student First</h4><p>Recommendations prioritize your needs — not paid promotions.</p></div>
+      </div>
+      <div class="trust-strip">"We help you choose. We don't choose based on who pays us."</div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section" style="background:#fff;">
+    <div class="container">
+      <div class="section-head"><div class="kicker">The Process</div><h2>How It Works</h2></div>
+      <div class="steps">
+        <div class="step-card"><div class="step-num">STEP 01</div><h4>Select Your Exam</h4><p>JEE Main, JEE Advanced, MHT-CET, WBJEE, CUET and more.</p></div>
+        <div class="step-card"><div class="step-num">STEP 02</div><h4>Enter Your Rank</h4><p>Rank, percentile or score, along with category and preferences.</p></div>
+        <div class="step-card"><div class="step-num">STEP 03</div><h4>Discover Your Options</h4><p>Personalized colleges sorted into Dream, Target, Safe and Backup.</p></div>
+        <div class="step-card"><div class="step-num">STEP 04</div><h4>Make Your Decision</h4><p>Compare colleges, build your preference list and get counselling guidance.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DTSB explainer -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><div class="kicker">Your Result Categories</div><h2>Dream, Target, Safe &amp; Backup — explained</h2></div>
+      <div class="dtsb-row">
+        <div class="dtsb-chip dream"><b>🎯 Dream</b><span>High-value, competitive options — worth trying, admission not guaranteed.</span></div>
+        <div class="dtsb-chip target"><b>📌 Target</b><span>Realistic and strong options based on historical trends.</span></div>
+        <div class="dtsb-chip safe"><b>✅ Safe</b><span>Higher-probability options, comfortably within your rank range.</span></div>
+        <div class="dtsb-chip backup"><b>🛟 Backup</b><span>Extra options to keep in hand so you never miss admission.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section" style="background:#fff;" id="home-pricing">
+    <div class="container">
+      <div class="section-head"><div class="kicker">Counselling Wallah Pro</div><h2>Simple, honest pricing</h2></div>
+      <div class="grid-3">
+        <div class="price-card">
+          <b style="color:var(--ink-3);font-size:13px;">FREE</b>
+          <div class="amt">₹0</div>
+          <ul><li>Basic college search</li><li>Limited results</li><li>Basic college information</li></ul>
+          <button class="btn btn-ghost btn-block" onclick="go('exams')">Start Free</button>
+        </div>
+        <div class="price-card pop">
+          <span class="pop-tag">MOST USED</span>
+          <b style="color:var(--ink-3);font-size:13px;">COLLEGE FINDER</b>
+          <div class="amt">₹99</div>
+          <ul><li>Full personalized college list</li><li>Advanced filters</li><li>Dream/Target/Safe/Backup classification</li><li>College comparison</li><li>Preference-list builder</li></ul>
+          <button class="btn btn-orange btn-block" onclick="go('pricing')">Unlock College Finder</button>
+        </div>
+        <div class="price-card">
+          <b style="color:var(--ink-3);font-size:13px;">COUNSELLING SUPPORT</b>
+          <div class="amt">₹249<span style="font-size:14px;color:var(--ink-3);">–₹299</span></div>
+          <ul><li>Personalized counselling guidance</li><li>Choice-list review</li><li>Deadline reminders</li><li>Document guidance</li><li>Support chat</li></ul>
+          <button class="btn btn-primary btn-block" onclick="go('pricing')">View Details</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><div class="kicker">Questions</div><h2>Frequently asked</h2></div>
+      <div class="grid-3">
+        <div class="card"><h4 style="font-size:14px;">Is this affiliated with JoSAA or NTA?</h4><p style="font-size:13px;">No. Counselling Wallah is an independent guidance platform, not affiliated with any government counselling authority.</p></div>
+        <div class="card"><h4 style="font-size:14px;">Are results guaranteed?</h4><p style="font-size:13px;">No. We show historical, estimate-based possibilities — final admission depends on official counselling rules and seat availability.</p></div>
+        <div class="card"><h4 style="font-size:14px;">Is basic search free?</h4><p style="font-size:13px;">Yes — basic college search and limited results are always free.</p></div>
+        <div class="card"><h4 style="font-size:14px;">What about CSAB special rounds?</h4><p style="font-size:13px;">CSAB fills seats left vacant after JoSAA's regular rounds at NITs/IIITs/GFTIs. CSAB doesn't publish a bulk data file — cutoffs are looked up per institute/branch on csab.nic.in. This tool doesn't yet include CSAB-specific figures; check csab.nic.in directly for special-round cutoffs.</p></div>
+        <div class="card"><h4 style="font-size:14px;">Where does the cutoff data come from?</h4><p style="font-size:13px;">Closing ranks are sourced from JoSAA 2025/2026 official round data (cross-checked via Careers360 and cracku.in reporting) where marked; unmarked branches use trend-based estimates. Fee and placement figures remain illustrative. See the Cutoffs tab on any college page for per-branch sourcing.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="section">
+    <div class="container" style="text-align:center;background:var(--navy);border-radius:24px;padding:48px 20px;">
+      <h2 style="color:#fff;">Your Rank Deserves the Right Decision.</h2>
+      <p style="color:#B9C4E8;">Don't let confusion decide your college.</p>
+      <button class="btn btn-orange" onclick="go('exams')">Find My College — Free</button>
+    </div>
+  </section>
+</div>
+
+<!-- ============ EXAM SELECTION VIEW ============ -->
+<div class="view" id="view-exams">
+  <div class="page-hero"><div class="container">
+    <div class="crumb"><b onclick="go('home')">Home</b> / Select Exam</div>
+    <h1>Aapne Kaunsa Exam Diya Hai?</h1>
+    <p>Apna exam chunein — hum aapko personalized college options dikhayenge.</p>
+  </div></div>
+  <div class="container section">
+    <input class="exam-search" id="exam-search" maxlength="60" autocomplete="off" oninput="renderExams()" style="width:100%;padding:12px 14px;border-radius:12px;border:1.5px solid var(--line);font-size:14px;" placeholder="Search exam name…">
+    <div class="exam-grid" id="exam-grid"></div>
+  </div>
+</div>
+
+<!-- ============ PROFILE VIEW ============ -->
+<div class="view" id="view-profile">
+  <div class="page-hero"><div class="container">
+    <div class="crumb"><b onclick="go('home')">Home</b> / <b onclick="go('exams')">Exams</b> / Your Profile</div>
+    <h1>Tell Us About Yourself</h1>
+    <p id="profile-exam-sub">Selected exam: JEE Main</p>
+  </div></div>
+  <div class="container section form-shell">
+    <div class="form-section">
+      <h3>Academic</h3>
+      <div class="grid-3f">
+        <div class="field"><label>Rank</label><input id="p-rank" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="7" autocomplete="off" placeholder="e.g. 18452"></div>
+        <div class="field"><label>Percentile (optional)</label><input id="p-pct" type="text" inputmode="decimal" maxlength="6" autocomplete="off" placeholder="e.g. 98.7"></div>
+        <div class="field"><label>Exam Year</label><select id="p-year"><option>2026</option><option>2025</option></select></div>
+      </div>
+    </div>
+    <div class="form-section">
+      <h3>Personal Admission Information</h3>
+      <div class="grid-3f">
+        <div class="field"><label>Category</label><select id="p-cat"><option>General</option><option>EWS</option><option>OBC-NCL</option><option>SC</option><option>ST</option></select></div>
+        <div class="field"><label>Gender</label><select id="p-gender"><option>Male</option><option>Female</option><option>Other</option></select></div>
+        <div class="field"><label>Home State</label><select id="p-state" class="state-select"></select></div>
+      </div>
+    </div>
+    <div class="form-section">
+      <h3>Preferences</h3>
+      <div class="field"><label>Preferred Branches</label>
+        <div class="chip-select" id="p-branches">
+          <div class="chip" data-v="CSE">CSE</div><div class="chip" data-v="IT">IT</div><div class="chip" data-v="AI/ML">AI/ML</div>
+          <div class="chip" data-v="ECE">ECE</div><div class="chip" data-v="Electrical">Electrical</div><div class="chip" data-v="Mechanical">Mechanical</div>
+          <div class="chip" data-v="Civil">Civil</div><div class="chip" data-v="Chemical">Chemical</div>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="field"><label>Maximum Budget (total, ₹)</label><select id="p-budget"><option value="500000">Under ₹5 Lakh</option><option value="1000000" selected>Under ₹10 Lakh</option><option value="2000000">Under ₹20 Lakh</option><option value="99999999">No limit</option></select></div>
+        <div class="field"><label>College Type</label><select id="p-type"><option>Both</option><option>Government</option><option>Private</option></select></div>
+      </div>
+      <div class="grid-2">
+        <div class="field"><label>Hostel Required</label><select id="p-hostel"><option>Yes</option><option>No</option></select></div>
+        <div class="field"><label>Preferred State (leave blank for any)</label><select id="p-prefstate" class="state-select-any"></select></div>
+      </div>
+    </div>
+    <button class="btn btn-orange btn-block" onclick="generateResults()">Generate My College Options →</button>
+  </div>
+</div>
+
+<!-- ============ RESULTS VIEW ============ -->
+<div class="view" id="view-results">
+  <div class="page-hero"><div class="container">
+    <div class="crumb"><b onclick="go('home')">Home</b> / <b onclick="go('exams')">Exams</b> / Your Options</div>
+    <h1>Your College Options</h1>
+    <p id="results-sub">JEE Main Rank: 18,452</p>
+  </div></div>
+  <div class="container section">
+    <div class="results-summary" id="results-summary"></div>
+    <div class="filter-bar">
+      <select id="f-branch" onchange="renderResults()"><option value="">All Branches</option></select>
+      <select id="f-state" onchange="renderResults()"><option value="">All States</option></select>
+      <select id="f-type" onchange="renderResults()"><option value="">All College Types</option><option>Government</option><option>Private</option></select>
+      <select id="f-sort" onchange="renderResults()"><option value="match">Sort: Best Overall Match</option><option value="fees">Sort: Lowest Fees</option><option value="rank">Sort: Closest to Rank</option><option value="placement">Sort: Best Placement</option></select>
+    </div>
+    <div id="results-groups"></div>
+  </div>
+</div>
+
+<!-- ============ COLLEGE DETAIL VIEW ============ -->
+<div class="view" id="view-college">
+  <div class="page-hero"><div class="container">
+    <div class="crumb"><b onclick="go('home')">Home</b> / <b onclick="backTo('results')">Results</b> / College Detail</div>
+    <div class="detail-head">
+      <div>
+        <h1 id="cd-name">College Name</h1>
+        <p id="cd-loc" style="color:#B9C4E8;">City, State</p>
+      </div>
+      <div style="display:flex;gap:10px;">
+        <button class="btn btn-ghost btn-sm" style="background:#fff;" onclick="addToCompare()">+ Add to Compare</button>
+        <button class="btn btn-orange btn-sm" onclick="addToChoiceList(currentCollege)">Add to Preference List</button>
+      </div>
+    </div>
+  </div></div>
+  <div class="container section">
+    <div class="detail-tabs" id="cd-tabs"></div>
+    <div id="cd-content"></div>
+  </div>
+</div>
+
+<!-- ============ COMPARE VIEW ============ -->
+<div class="view" id="view-compare">
+  <div class="page-hero"><div class="container">
+    <div class="crumb"><b onclick="go('home')">Home</b> / Compare Colleges</div>
+    <h1>Compare Colleges</h1>
+    <p>Select up to 5 colleges added from results or college pages.</p>
+  </div></div>
+  <div class="container section" id="compare-container"></div>
+</div>
+
+<!-- ============ CHOICE LIST VIEW ============ -->
+<div class="view" id="view-choicelist">
+  <div class="page-hero"><div class="container">
+    <div class="crumb"><b onclick="go('home')">Home</b> / Build My Choice List</div>
+    <h1>Build My Choice List</h1>
+    <p>Drag to reorder your preferences — this becomes your counselling choice list.</p>
+  </div></div>
+  <div class="container section">
+    <div class="disclaimer">⚠️ Counselling Wallah provides recommendations and guidance. Final choice filling and submission must be completed by you on the official counselling portal.</div>
+    <div id="choice-list-items"></div>
+    <div id="choice-empty" class="empty-state hide">
+      <h3>No colleges added yet</h3>
+      <p>Add colleges from your results to start building your preference list.</p>
+      <button class="btn btn-primary" onclick="go('results')">Go to Results</button>
+    </div>
+    <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;">
+      <button class="btn btn-ghost" onclick="alert('Demo: PDF export is illustrative in this prototype.')">Download Preference List PDF</button>
+      <button class="btn btn-primary" onclick="alert('Choice list saved to your dashboard (demo).')">Save My Choice List</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ PRICING VIEW ============ -->
+<div class="view" id="view-pricing">
+  <div class="page-hero"><div class="container">
+    <div class="crumb"><b onclick="go('home')">Home</b> / Pricing</div>
+    <h1>Counselling Wallah Pro</h1>
+    <p>Pricing shown below is configurable and set here for demo purposes. <span class="demo-tag">DEMO DATA</span></p>
+  </div></div>
+  <div class="container section">
+    <div class="grid-3">
+      <div class="price-card">
+        <b style="color:var(--ink-3);font-size:13px;">FREE</b><div class="amt">₹0</div>
+        <ul><li>Basic college search</li><li>Limited results</li><li>Basic college information</li></ul>
+        <button class="btn btn-ghost btn-block" onclick="go('exams')">Continue Free</button>
+      </div>
+      <div class="price-card pop">
+        <span class="pop-tag">MOST USED</span>
+        <b style="color:var(--ink-3);font-size:13px;">COLLEGE FINDER</b><div class="amt">₹99</div>
+        <ul><li>Full personalized college list</li><li>Advanced filters</li><li>Dream/Target/Safe/Backup classification</li><li>College comparison</li><li>Historical cutoff analysis</li><li>Preference-list builder</li></ul>
+        <button class="btn btn-orange btn-block" onclick="mockPay(99,'College Finder', this)">Pay ₹99 &amp; Unlock</button>
+      </div>
+      <div class="price-card">
+        <b style="color:var(--ink-3);font-size:13px;">COUNSELLING SUPPORT</b><div class="amt">₹249</div>
+        <ul><li>Personalized counselling guidance</li><li>Choice-list review</li><li>Counselling process guidance</li><li>Deadline reminders</li><li>Document guidance</li><li>Support chat</li></ul>
+        <button class="btn btn-primary btn-block" onclick="mockPay(249,'Counselling Support', this)">Pay ₹249 &amp; Unlock</button>
+      </div>
+    </div>
+    <div id="pay-result"></div>
+  </div>
+</div>
+
+<!-- ============ DASHBOARD VIEW ============ -->
+<div class="view" id="view-dashboard">
+  <div class="page-hero"><div class="container">
+    <h1>Welcome back, Student 👋</h1>
+    <p>Yeh raha aapka admission journey overview.</p>
+  </div></div>
+  <div class="container section">
+    <div class="disclaimer">This is a prototype view — there is no real account system yet. "Login" just opens this dashboard with your in-session profile; nothing is saved once you close or refresh the page. <b>NOT IMPLEMENTED — REQUIRES BACKEND (auth + database)</b>.</div>
+    <div class="journey" id="journey"></div>
+    <div class="dash-grid" style="margin-top:26px;">
+      <div>
+        <div class="card">
+          <h4 style="font-size:14px;">Your Profile</h4>
+          <p style="font-size:13px;margin-bottom:4px;">Exam: <b id="dp-exam">JEE Main</b></p>
+          <p style="font-size:13px;margin-bottom:4px;">Rank: <b id="dp-rank" class="mono">—</b></p>
+          <p style="font-size:13px;margin-bottom:4px;">Category: <b id="dp-cat">General</b></p>
+          <p style="font-size:13px;">Preferred Branch: <b id="dp-branch">CSE</b></p>
+          <button class="btn btn-ghost btn-sm btn-block" onclick="go('profile')" style="margin-top:8px;">Edit Profile</button>
+        </div>
+      </div>
+      <div>
+        <div class="quick-grid">
+          <div class="qa" onclick="go('exams')" style="cursor:pointer">🔍<br>Find Colleges</div>
+          <div class="qa" onclick="go('compare')" style="cursor:pointer">⚖️<br>Compare Colleges</div>
+          <div class="qa" onclick="go('choicelist')" style="cursor:pointer">📝<br>Build Choice List</div>
+          <div class="qa" onclick="go('calendar')" style="cursor:pointer">📅<br>Counselling Calendar</div>
+          <div class="qa" onclick="go('documents')" style="cursor:pointer">📄<br>Documents</div>
+          <div class="qa" onclick="go('pricing')" style="cursor:pointer">💳<br>My Payments</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ CALENDAR VIEW ============ -->
+<div class="view" id="view-calendar">
+  <div class="page-hero"><div class="container">
+    <div class="crumb"><b onclick="go('dashboard')">Dashboard</b> / Counselling Timeline</div>
+    <h1>Your Counselling Timeline</h1>
+    <p>Sample JoSAA-style timeline. <span class="demo-tag" style="background:#3a5bd9;color:#fff;">DEMO DATA — verify on official portal</span></p>
+  </div></div>
+  <div class="container section" id="calendar-container"></div>
+</div>
+
+<!-- ============ DOCUMENTS VIEW ============ -->
+<div class="view" id="view-documents">
+  <div class="page-hero"><div class="container">
+    <div class="crumb"><b onclick="go('dashboard')">Dashboard</b> / Document Checklist</div>
+    <h1>Admission Document Checklist</h1>
+    <p>Based on your profile — requirements can vary, verify on the official counselling website.</p>
+  </div></div>
+  <div class="container section">
+    <div class="card" id="doc-list"></div>
+  </div>
+</div>
+
+<!-- ============ BOTTOM NAV ============ -->
+<div class="bottomnav" id="bottomnav">
+  <button data-v="home" onclick="go('home')"><span class="bnicon">🏠</span>Home</button>
+  <button data-v="exams" onclick="go('exams')"><span class="bnicon">🎓</span>Colleges</button>
+  <button data-v="compare" onclick="go('compare')"><span class="bnicon">⚖️</span>Compare</button>
+  <button data-v="calendar" onclick="go('calendar')"><span class="bnicon">📅</span>Counselling</button>
+  <button data-v="dashboard" onclick="go('dashboard')"><span class="bnicon">👤</span>Profile</button>
+</div>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <div class="brand" style="color:#fff;margin-bottom:10px;"><div class="mark"></div>Counselling Wallah</div>
+      <p style="color:#93A6D9;font-size:13px;">Aapki Rank, Aapka College, Aapka Right Decision.</p>
+    </div>
+    <div><h4>Product</h4><a onclick="go('exams')">Find Colleges</a><a onclick="go('compare')">Compare</a><a onclick="go('pricing')">Pricing</a><a onclick="go('choicelist')">Choice List</a></div>
+    <div><h4>Company</h4><a>About Us</a><a>Contact Us</a><a>Careers</a><a>Blog / Resources</a></div>
+    <div><h4>Legal</h4><a>Privacy Policy</a><a>Terms &amp; Conditions</a><a>Refund Policy</a><a>Disclaimer</a></div>
+  </div>
+  <div class="container foot-bottom">
+    <span>© 2026 Counselling Wallah. Independent education guidance platform — not affiliated with NTA, JoSAA, CSAB, IITs, NITs, CUET or any government counselling authority unless explicitly stated.</span>
+    <span>Predictions are informational estimates and do not guarantee admission.</span>
+  </div>
+</footer>
+
+<script>
+/* ===================================================================
+   SECURITY HELPERS
+   Everything the app renders today comes from trusted, hard-coded data
+   (COLLEGES/EXAMS arrays) or from <select>/chip values, not free text —
+   so there's no live XSS path right now. These helpers are defense-in-
+   depth: if a future version pulls college data from an API or lets
+   users type free text that gets rendered, it will already be escaped.
+=================================================================== */
+function escapeHtml(str){
+  if(str===null || str===undefined) return '';
+  return String(str)
+    .replace(/&/g,'&amp;')
+    .replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;')
+    .replace(/'/g,'&#39;');
+}
+// Only allow http(s) links to render as hrefs — blocks javascript: / data: URL injection
+// if a college's website/portal field is ever sourced from untrusted/admin-entered data.
+function safeUrl(url){
+  try{
+    const u = new URL(url, window.location.href);
+    return (u.protocol==='https:'||u.protocol==='http:') ? u.href : '#';
+  }catch(e){ return '#'; }
+}
+// Clamp rank to a sane positive integer range so a malformed/adversarial
+// value can't produce absurd match-score math or break downstream display.
+function sanitizeRank(raw, fallback){
+  const n = parseInt(String(raw).replace(/[^0-9]/g,''), 10);
+  if(!Number.isFinite(n) || n<=0) return fallback;
+  return Math.min(n, 2000000); // no exam has ranks beyond this order of magnitude
+}
+// Percentile must be a number between 0 and 100.
+function sanitizePercentile(raw){
+  const n = parseFloat(String(raw).replace(/[^0-9.]/g,''));
+  if(!Number.isFinite(n)) return '';
+  return Math.max(0, Math.min(100, n)).toString();
+}
+
+/* ===================================================================
+   CUTOFF DATA — mixed provenance, labeled per field:
+   - closingRank        : JoSAA 2025 Round 6 (final round), Open/General category,
+                           Other-State quota unless noted. Sourced from josaa.nic.in
+                           archives via cross-checked secondary reporting
+                           (Careers360, cracku.in) where official PDFs aren't
+                           bulk-fetchable. See `source` field per branch.
+   - closingRank2026     : JoSAA 2026, round noted in `round2026` (2026 counselling
+                           ran Rounds 1–5, concluding ~16 Jul 2026). Where only an
+                           early round was available, it's labeled "provisional" —
+                           NOT the final closing rank.
+   - sourced: false      : No verified JoSAA figure was available for this branch;
+                           the value is a trend-based estimate off the college's
+                           sourced CSE rank, kept only for match-engine continuity.
+   - fees/median/average/highest/placement : JoSAA and CSAB do not publish fee or
+                           placement data — these remain ILLUSTRATIVE DEMO figures.
+   Other-category ranks are NOT individually sourced; they are computed with the
+   CATEGORY_RELAXATION multiplier below, which is a rough typical ratio, not an
+   official figure. Always verify exact numbers at josaa.nic.in before deciding.
+   Institutes admitting via MHT-CET/VITEEE/WBJEE/private counselling (not JoSAA)
+   are out of scope for this pass and remain DEMO DATA.
+=================================================================== */
+const ALL_STATES = [
+  'Andhra Pradesh','Arunachal Pradesh','Assam','Bihar','Chhattisgarh','Goa','Gujarat','Haryana',
+  'Himachal Pradesh','Jharkhand','Karnataka','Kerala','Madhya Pradesh','Maharashtra','Manipur',
+  'Meghalaya','Mizoram','Nagaland','Odisha','Punjab','Rajasthan','Sikkim','Tamil Nadu','Telangana',
+  'Tripura','Uttar Pradesh','Uttarakhand','West Bengal',
+  'Delhi (NCT)','Jammu & Kashmir','Ladakh','Puducherry','Chandigarh','Andaman & Nicobar Islands',
+  'Dadra & Nagar Haveli and Daman & Diu','Lakshadweep'
+];
+
+const EXAMS = [
+  {id:'jee-main', name:'JEE Main', desc:'National engineering entrance for NITs, IIITs and GFTIs.', active:true},
+  {id:'jee-advanced', name:'JEE Advanced', desc:'Gateway to the IITs, for JEE Main top scorers.', active:true},
+  {id:'mht-cet', name:'MHT-CET', desc:"Maharashtra's state CET for engineering & pharmacy.", active:true},
+  {id:'wbjee', name:'WBJEE', desc:'West Bengal state entrance for engineering colleges.', active:false},
+  {id:'cuet', name:'CUET', desc:'Common university entrance for central universities.', active:false},
+  {id:'comedk', name:'COMEDK', desc:'Karnataka private engineering college entrance.', active:false},
+  {id:'bitsat', name:'BITSAT', desc:'Entrance for BITS Pilani campuses.', active:false},
+  {id:'viteee', name:'VITEEE', desc:'Entrance for VIT campuses.', active:false},
+  {id:'met', name:'MET', desc:'Manipal Entrance Test for Manipal group colleges.', active:false},
+  {id:'srmjeee', name:'SRMJEEE', desc:'Entrance for SRM group of institutions.', active:false},
+];
+
+// closingRank = JoSAA 2025 Round 6, Open/General, OS quota (sourced unless branch has sourced:false).
+// closingRank2026 = JoSAA 2026, round given in round2026 (sourced unless branch has sourced:false).
+const COLLEGES = [
+  {id:'nit-trichy', name:'NIT Tiruchirappalli', city:'Tiruchirappalli', state:'Tamil Nadu', type:'Government', established:1964,
+    website:'https://www.nitt.edu', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:1449, closingRank2026:1317, round2026:'Round 1 (provisional)', source:'JoSAA archives via Careers360/cracku.in', fees:520000, median:1800000, average:2000000, highest:5200000, placement:96},
+      {name:'ECE', closingRank:3700, sourced:false, fees:520000, median:1200000, average:1350000, highest:3800000, placement:92},
+      {name:'Mechanical', closingRank:14644, source:'JoSAA 2025 R6 via cracku.in', fees:520000, median:900000, average:980000, highest:2600000, placement:88},
+      {name:'Civil', closingRank:22809, source:'JoSAA 2025 R6 via cracku.in', fees:520000, median:750000, average:800000, highest:2000000, placement:82},
+    ]},
+  {id:'iiit-hyderabad', name:'IIIT Hyderabad', city:'Hyderabad', state:'Telangana', type:'Government', established:1998,
+    website:'https://www.iiit.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:1200, source:'JoSAA 2025 R6 via jeecounselling.in', fees:1200000, median:2800000, average:3200000, highest:8500000, placement:98},
+      {name:'IT', closingRank:1800, sourced:false, fees:1200000, median:2200000, average:2500000, highest:6000000, placement:97},
+    ]},
+  {id:'nit-surathkal', name:'NIT Karnataka, Surathkal', city:'Surathkal', state:'Karnataka', type:'Government', established:1960,
+    website:'https://www.nitk.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:2726, round:'2025 Round 5', source:'Careers360 official round data', fees:530000, median:1700000, average:1900000, highest:4800000, placement:95},
+      {name:'AI/ML', closingRank:3579, round:'2025 Round 5', source:'Careers360 official round data', fees:530000, median:1500000, average:1650000, highest:4000000, placement:93},
+      {name:'Civil', closingRank:25859, round:'2025 Round 5', source:'Careers360 official round data', fees:530000, median:650000, average:700000, highest:1600000, placement:80},
+      {name:'ECE', closingRank:5573, round:'2025 Round 5', source:'Careers360 official round data', fees:530000, median:1300000, average:1400000, highest:3600000, placement:92},
+      {name:'Mechanical', closingRank:12126, round:'2025 Round 5', source:'Careers360 official round data', fees:530000, median:900000, average:950000, highest:2200000, placement:87},
+      {name:'IT', closingRank:4086, round:'2025 Round 5', source:'Careers360 official round data', fees:530000, median:1600000, average:1750000, highest:4200000, placement:94},
+    ]},
+  {id:'vjti-mumbai', name:'VJTI Mumbai', city:'Mumbai', state:'Maharashtra', type:'Government', established:1887,
+    website:'https://www.vjti.ac.in', portal:'https://cetcell.mahacet.org',
+    branches:[
+      {name:'CSE', closingRank:1500, fees:150000, median:1600000, average:1800000, highest:4200000, placement:94},
+      {name:'IT', closingRank:2600, fees:150000, median:1400000, average:1500000, highest:3600000, placement:92},
+      {name:'Mechanical', closingRank:9000, fees:150000, median:750000, average:800000, highest:1900000, placement:85},
+    ]},
+  {id:'coep-pune', name:'COEP Technological University, Pune', city:'Pune', state:'Maharashtra', type:'Government', established:1854,
+    website:'https://www.coeptech.ac.in', portal:'https://cetcell.mahacet.org',
+    branches:[
+      {name:'CSE', closingRank:2100, fees:140000, median:1500000, average:1650000, highest:3800000, placement:93},
+      {name:'ECE', closingRank:6200, fees:140000, median:950000, average:1000000, highest:2400000, placement:87},
+    ]},
+  {id:'iiit-pune', name:'IIIT Pune', city:'Pune', state:'Maharashtra', type:'Government', established:2016,
+    website:'https://iiitp.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:20112, closingRank2026:20112, round2026:'Round 4', source:'Careers360 official round data', fees:400000, median:1100000, average:1200000, highest:2800000, placement:89},
+      {name:'AI & Data Science', closingRank:21605, closingRank2026:21605, round2026:'Round 4', source:'Careers360 official round data', fees:400000, median:1000000, average:1100000, highest:2500000, placement:87},
+      {name:'ECE', closingRank:25585, closingRank2026:25585, round2026:'Round 4', source:'Careers360 official round data', fees:400000, median:800000, average:850000, highest:1900000, placement:82},
+      {name:'Cyber Security', closingRank:24833, closingRank2026:24833, round2026:'Round 4', source:'Careers360 official round data', fees:400000, median:850000, average:900000, highest:2000000, placement:83},
+    ]},
+  {id:'thapar-patiala', name:'Thapar Institute, Patiala', city:'Patiala', state:'Punjab', type:'Private', established:1956,
+    website:'https://www.thapar.edu', portal:'https://www.thapar.edu/admissions',
+    branches:[
+      {name:'CSE', closingRank:16000, fees:1900000, median:1300000, average:1450000, highest:4500000, placement:90},
+      {name:'IT', closingRank:24000, fees:1800000, median:1050000, average:1150000, highest:3200000, placement:87},
+      {name:'Mechanical', closingRank:60000, fees:1700000, median:600000, average:650000, highest:1400000, placement:76},
+    ]},
+  {id:'manit-bhopal', name:'MANIT Bhopal', city:'Bhopal', state:'Madhya Pradesh', type:'Government', established:1960,
+    website:'https://www.manit.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:8500, sourced:false, fees:500000, median:1200000, average:1350000, highest:3200000, placement:90},
+      {name:'Civil', closingRank:35000, sourced:false, fees:500000, median:550000, average:600000, highest:1200000, placement:74},
+    ]},
+  {id:'dtu-delhi', name:'Delhi Technological University', city:'New Delhi', state:'Delhi', type:'Government', established:1941,
+    website:'https://www.dtu.ac.in', portal:'https://jacdelhi.admissions.nic.in',
+    branches:[
+      {name:'CSE', closingRank:1900, sourced:false, fees:400000, median:1900000, average:2100000, highest:5000000, placement:96},
+      {name:'AI/ML', closingRank:3600, sourced:false, fees:400000, median:1600000, average:1750000, highest:4300000, placement:94},
+      {name:'Electrical', closingRank:12000, sourced:false, fees:400000, median:850000, average:920000, highest:2100000, placement:86},
+    ]},
+  {id:'vit-vellore', name:'VIT Vellore', city:'Vellore', state:'Tamil Nadu', type:'Private', established:1984,
+    website:'https://vit.ac.in', portal:'https://viteee.vit.ac.in',
+    branches:[
+      {name:'CSE', closingRank:32000, fees:2200000, median:900000, average:1050000, highest:4400000, placement:85},
+      {name:'IT', closingRank:45000, fees:2000000, median:750000, average:850000, highest:2800000, placement:82},
+    ]},
+  {id:'nit-rourkela', name:'NIT Rourkela', city:'Rourkela', state:'Odisha', type:'Government', established:1961,
+    website:'https://www.nitrkl.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:3400, closingRank2026:3606, round2026:'Round 1 (provisional)', source:'cracku.in JoSAA 2026 R1 official data', fees:510000, median:1650000, average:1800000, highest:4300000, placement:94},
+      {name:'Mechanical', closingRank:14000, sourced:false, fees:510000, median:800000, average:850000, highest:2000000, placement:84},
+    ]},
+  {id:'nit-warangal', name:'NIT Warangal', city:'Warangal', state:'Telangana', type:'Government', established:1959,
+    website:'https://www.nitw.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:2300, closingRank2026:2581, round2026:'Round 5 (final)', source:'cracku.in JoSAA 2026 R5 official data', fees:530000, median:1900000, average:2100000, highest:5000000, placement:96},
+      {name:'ECE', closingRank:4300, sourced:false, fees:530000, median:1300000, average:1400000, highest:3600000, placement:92},
+      {name:'Civil', closingRank:24000, closingRank2026:26626, round2026:'Round 5 (final)', source:'cracku.in JoSAA 2026 R5 official data', fees:530000, median:650000, average:700000, highest:1600000, placement:80},
+    ]},
+  {id:'nit-kurukshetra', name:'NIT Kurukshetra', city:'Kurukshetra', state:'Haryana', type:'Government', established:1963,
+    website:'https://www.nitkkr.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:6800, sourced:false, fees:500000, median:1350000, average:1450000, highest:3400000, placement:91},
+      {name:'Civil', closingRank:28000, sourced:false, fees:500000, median:600000, average:650000, highest:1300000, placement:75},
+    ]},
+  {id:'mnit-jaipur', name:'MNIT Jaipur', city:'Jaipur', state:'Rajasthan', type:'Government', established:1963,
+    website:'https://www.mnit.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:5600, closingRank2026:5255, round2026:'Round 1 (provisional)', source:'cracku.in JoSAA 2026 R1 official data', fees:510000, median:1500000, average:1650000, highest:3900000, placement:93},
+      {name:'Electrical', closingRank:19000, sourced:false, fees:510000, median:750000, average:800000, highest:1800000, placement:82},
+    ]},
+  {id:'nit-jalandhar', name:'NIT Jalandhar', city:'Jalandhar', state:'Punjab', type:'Government', established:1987,
+    website:'https://www.nitj.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:9200, sourced:false, fees:495000, median:1200000, average:1300000, highest:3000000, placement:89},
+      {name:'IT', closingRank:13500, sourced:false, fees:495000, median:1050000, average:1100000, highest:2600000, placement:86},
+    ]},
+  {id:'nit-silchar', name:'NIT Silchar', city:'Silchar', state:'Assam', type:'Government', established:1967,
+    website:'https://www.nits.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:16000, sourced:false, fees:480000, median:1050000, average:1150000, highest:2700000, placement:87},
+      {name:'ECE', closingRank:27000, sourced:false, fees:480000, median:700000, average:750000, highest:1600000, placement:78},
+    ]},
+  {id:'iit-gandhinagar', name:'IIT Gandhinagar', city:'Gandhinagar', state:'Gujarat', type:'Government', established:2008,
+    website:'https://www.iitgn.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:2600, closingRank2026:2315, round2026:'Round 5 (final)', source:'Careers360 JoSAA 2026 R5 official data', fees:920000, median:2200000, average:2500000, highest:6200000, placement:97},
+      {name:'Mechanical', closingRank:7200, closingRank2026:7236, round2026:'Round 5 (final)', source:'Careers360 JoSAA 2026 R5 official data', fees:920000, median:1250000, average:1350000, highest:3200000, placement:90},
+      {name:'Electrical', closingRank:3900, closingRank2026:3874, round2026:'Round 4', source:'Careers360 JoSAA 2026 R4 official data', fees:920000, median:1550000, average:1700000, highest:4100000, placement:93},
+    ]},
+  {id:'iiit-allahabad', name:'IIIT Allahabad', city:'Prayagraj', state:'Uttar Pradesh', type:'Government', established:1999,
+    website:'https://www.iiita.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'IT', closingRank:4900, closingRank2026:5098, round2026:'Round 4', source:'Careers360 JoSAA 2026 R4 official data', fees:420000, median:1500000, average:1650000, highest:4200000, placement:93},
+      {name:'IT-Business Informatics', closingRank:4700, closingRank2026:4786, round2026:'Round 4', source:'Careers360 JoSAA 2026 R4 official data', fees:420000, median:1300000, average:1400000, highest:3600000, placement:90},
+      {name:'ECE', closingRank:6900, closingRank2026:7074, round2026:'Round 4', source:'Careers360 JoSAA 2026 R4 official data', fees:420000, median:1050000, average:1150000, highest:2800000, placement:86},
+    ]},
+  {id:'iiitm-gwalior', name:'ABV-IIITM Gwalior', city:'Gwalior', state:'Madhya Pradesh', type:'Government', established:1997,
+    website:'https://www.iiitm.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:8100, closingRank2026:8336, round2026:'Round 4', source:'Careers360 JoSAA 2026 R4 official data', fees:390000, median:1150000, average:1250000, highest:3000000, placement:88},
+    ]},
+  {id:'bit-mesra', name:'BIT Mesra, Ranchi', city:'Ranchi', state:'Jharkhand', type:'Government (GFTI)', established:1955,
+    website:'https://www.bitmesra.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:22800, closingRank2026:23545, round2026:'Round 4', source:'Careers360 JoSAA 2026 R4 official data', fees:450000, median:950000, average:1050000, highest:2700000, placement:85},
+      {name:'ECE', closingRank:32700, closingRank2026:33441, round2026:'Round 4', source:'Careers360 JoSAA 2026 R4 official data', fees:450000, median:700000, average:750000, highest:1800000, placement:78},
+    ]},
+  {id:'nit-calicut', name:'NIT Calicut', city:'Kozhikode', state:'Kerala', type:'Government', established:1961,
+    website:'https://www.nitc.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:3900, closingRank2026:5100, round2026:'Round 1 (provisional)', source:'cracku.in JoSAA 2026 R1 official data', fees:520000, median:1700000, average:1850000, highest:4500000, placement:95},
+      {name:'Chemical', closingRank:22000, sourced:false, fees:520000, median:700000, average:750000, highest:1700000, placement:79},
+    ]},
+  {id:'nit-patna', name:'NIT Patna', city:'Patna', state:'Bihar', type:'Government', established:1886,
+    website:'https://www.nitp.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:18500, sourced:false, fees:490000, median:1000000, average:1100000, highest:2500000, placement:86},
+      {name:'Civil', closingRank:42000, sourced:false, fees:490000, median:550000, average:600000, highest:1200000, placement:70},
+    ]},
+  {id:'nit-jamshedpur', name:'NIT Jamshedpur', city:'Jamshedpur', state:'Jharkhand', type:'Government', established:1960,
+    website:'https://www.nitjsr.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:12000, sourced:false, fees:495000, median:1150000, average:1250000, highest:2900000, placement:88},
+    ]},
+  {id:'nit-hamirpur', name:'NIT Hamirpur', city:'Hamirpur', state:'Himachal Pradesh', type:'Government', established:1986,
+    website:'https://www.nith.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:17000, sourced:false, fees:485000, median:1000000, average:1080000, highest:2400000, placement:85},
+    ]},
+  {id:'nit-uttarakhand', name:'NIT Uttarakhand', city:'Srinagar (Garhwal)', state:'Uttarakhand', type:'Government', established:2009,
+    website:'https://www.nituk.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:38000, sourced:false, fees:470000, median:850000, average:900000, highest:1900000, placement:77},
+    ]},
+  {id:'jadavpur-university', name:'Jadavpur University', city:'Kolkata', state:'West Bengal', type:'Government', established:1955,
+    website:'https://www.jaduniv.edu.in', portal:'https://wbjeeb.nic.in',
+    branches:[
+      {name:'CSE', closingRank:1200, fees:60000, median:1600000, average:1750000, highest:4200000, placement:93},
+      {name:'ECE', closingRank:2600, fees:60000, median:1150000, average:1250000, highest:3000000, placement:89},
+    ]},
+  {id:'lnmiit-jaipur', name:'LNM Institute of Information Technology, Jaipur', city:'Jaipur', state:'Rajasthan', type:'Private', established:2002,
+    website:'https://www.lnmiit.ac.in', portal:'https://www.lnmiit.ac.in/admissions',
+    branches:[
+      {name:'CSE', closingRank:21000, fees:1600000, median:1050000, average:1150000, highest:3000000, placement:88},
+    ]},
+  {id:'goa-engineering-college', name:'Goa Engineering College', city:'Ponda', state:'Goa', type:'Government', established:1946,
+    website:'https://www.gec.ac.in', portal:'https://dte.goa.gov.in',
+    branches:[
+      {name:'CSE', closingRank:26000, fees:200000, median:850000, average:900000, highest:1900000, placement:80},
+    ]},
+  {id:'iiit-guwahati', name:'IIIT Guwahati', city:'Guwahati', state:'Assam', type:'Government', established:2013,
+    website:'https://www.iiitg.ac.in', portal:'https://josaa.nic.in',
+    branches:[
+      {name:'CSE', closingRank:20000, fees:410000, median:1000000, average:1080000, highest:2300000, placement:83},
+    ]},
+];
+
+// Rough typical relaxation ratios vs. Open/General closing rank, based on the general
+// pattern reported across JoSAA 2025/2026 institute-wise data (e.g. NIT Trichy/Surathkal/
+// Warangal category spreads). These are NOT official JoSAA figures — actual relaxation
+// varies significantly by institute, branch, quota and year. Always check the exact
+// category-wise closing rank at josaa.nic.in before finalizing choices.
+const CATEGORY_RELAXATION = {'General':1.0,'EWS':1.15,'OBC-NCL':1.3,'SC':2.1,'ST':2.8};
+const BRANCH_LIST = ['CSE','IT','AI/ML','ECE','Electrical','Mechanical','Civil','Chemical'];
+
+// "What if I don't get CSE?" — branch-alternative guidance (spec §16). These are general,
+// commonly-cited relationships between branches (curriculum overlap / typical closing-rank
+// proximity), NOT college-specific verified data, and are explicitly labeled as such below.
+// They deliberately do NOT claim the branches are "equivalent".
+const BRANCH_ALTERNATIVES = {
+  'CSE': [
+    {name:'IT', note:'Very similar core CS curriculum; usually the next-closest closing rank to CSE at most institutes.'},
+    {name:'AI/ML', note:'Newer, CS-adjacent specialisation — strong overlap with CSE in first two years.'},
+    {name:'ECE', note:'Different core (electronics + some CS); still strong software-recruiting outcomes at top institutes.'}
+  ],
+  'IT': [
+    {name:'CSE', note:'Broader core CS curriculum; typically a tighter closing rank than IT.'},
+    {name:'AI/ML', note:'Overlapping foundations; more specialised toward ML/data roles.'}
+  ]
+};
+function renderBranchAlternatives(branchName){
+  const alts = BRANCH_ALTERNATIVES[branchName];
+  if(!alts) return '';
+  return `<div class="card" style="margin-top:14px;">
+    <h4 style="font-size:14px;">What if I don't get ${escapeHtml(branchName)}?</h4>
+    <p style="font-size:12.5px;margin-bottom:10px;">These are commonly considered alternatives — not equivalents. Actual availability, cutoffs and curriculum differ by college.</p>
+    <ul style="padding-left:18px;">
+      ${alts.map(a=>`<li style="font-size:13px;color:var(--ink-2);margin-bottom:6px;"><b>${escapeHtml(a.name)}</b> — ${escapeHtml(a.note)}</li>`).join('')}
+    </ul>
+    <div class="source-note">General guidance based on typical curriculum overlap and closing-rank patterns — not sourced from official data. <span class="demo-tag">GENERAL GUIDANCE</span></div>
+  </div>`;
+}
+
+/* ===================================================================
+   STATE
+=================================================================== */
+let STATE = {
+  view:'home',
+  selectedExamId:'jee-main',
+  profile:{rank:18452, pct:'', year:'2026', category:'General', gender:'Male', homeState:'Maharashtra',
+           branches:['CSE','IT'], budget:1000000, type:'Both', hostel:'Yes', prefState:''},
+  results:[],           // computed college+branch rows w/ scores
+  compareList:[],        // array of {collegeId, branchName}
+  choiceList:[],          // ordered array of {collegeId, branchName}
+  currentCollege:null,
+  currentBranchIdx:0,
+  cdTab:'overview',
+};
+let currentCollege=null; // used by detail-view buttons
+
+/* ===================================================================
+   NAVIGATION
+=================================================================== */
+function go(view){
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+  const el = document.getElementById('view-'+view);
+  if(el) el.classList.add('active');
+  STATE.view = view;
+  document.querySelectorAll('.bottomnav button').forEach(b=>b.classList.toggle('active', b.dataset.v===view));
+  window.scrollTo({top:0,behavior:'instant'});
+  if(view==='exams') renderExams();
+  if(view==='profile') { document.getElementById('profile-exam-sub').textContent = 'Selected exam: ' + examName(STATE.selectedExamId); }
+  if(view==='results') renderResults();
+  if(view==='compare') renderCompare();
+  if(view==='choicelist') renderChoiceList();
+  if(view==='dashboard') renderDashboard();
+  if(view==='calendar') renderCalendar();
+  if(view==='documents') renderDocuments();
+}
+function backTo(view){ go(view); }
+function examName(id){ const e=EXAMS.find(x=>x.id===id); return e?e.name:'JEE Main'; }
+
+function quickFind(){
+  STATE.profile.rank = sanitizeRank(document.getElementById('h-rank').value, STATE.profile.rank || 18452);
+  STATE.profile.category = document.getElementById('h-cat').value; // from <select>, already constrained
+  STATE.profile.homeState = document.getElementById('h-state').value; // from <select>, already constrained
+  const b = document.getElementById('h-branch').value;
+  STATE.profile.branches = b==='Any' ? ['CSE','IT','ECE','Mechanical','Civil'] : [b];
+  generateResults();
+}
+
+/* ===================================================================
+   EXAM SELECTION
+=================================================================== */
+function renderExams(){
+  const q = (document.getElementById('exam-search').value||'').toLowerCase();
+  const grid = document.getElementById('exam-grid');
+  grid.innerHTML = EXAMS.filter(e=>e.name.toLowerCase().includes(q)).map(e=>`
+    <div class="exam-card ${e.active?'':'inactive'}">
+      <div class="exam-logo">${e.name.split(' ').map(w=>w[0]).join('').slice(0,3)}</div>
+      <h4 style="font-size:15px;">${e.name}</h4>
+      <p style="font-size:12.5px;flex:1;">${e.desc}</p>
+      <span class="tag ${e.active?'':'soon'}">${e.active?'Live':'Coming soon'}</span>
+      <button class="btn ${e.active?'btn-primary':'btn-ghost'} btn-sm" ${e.active?'':'disabled style="opacity:.5;cursor:not-allowed;"'} onclick="selectExam('${e.id}')">Find Colleges</button>
+    </div>`).join('');
+}
+function selectExam(id){
+  STATE.selectedExamId = id;
+  go('profile');
+}
+
+/* ===================================================================
+   PROFILE FORM
+=================================================================== */
+document.addEventListener('click', function(e){
+  if(e.target.closest('#p-branches .chip')){
+    e.target.closest('.chip').classList.toggle('on');
+  }
+});
+function generateResults(){
+  // pull profile fields if visible
+  if(document.getElementById('view-profile').classList.contains('active')){
+    STATE.profile.rank = sanitizeRank(document.getElementById('p-rank').value, STATE.profile.rank);
+    STATE.profile.pct = sanitizePercentile(document.getElementById('p-pct').value);
+    STATE.profile.category = document.getElementById('p-cat').value;
+    STATE.profile.gender = document.getElementById('p-gender').value;
+    STATE.profile.homeState = document.getElementById('p-state').value;
+    STATE.profile.budget = parseInt(document.getElementById('p-budget').value);
+    STATE.profile.type = document.getElementById('p-type').value;
+    STATE.profile.hostel = document.getElementById('p-hostel').value;
+    STATE.profile.prefState = document.getElementById('p-prefstate').value;
+    const chosen = Array.from(document.querySelectorAll('#p-branches .chip.on')).map(c=>c.dataset.v);
+    if(chosen.length) STATE.profile.branches = chosen;
+  }
+  computeResults();
+  go('results');
+}
+
+function computeResults(){
+  const p = STATE.profile;
+  const relax = CATEGORY_RELAXATION[p.category] || 1.0;
+  let rows = [];
+  COLLEGES.forEach(c=>{
+    if(p.type!=='Both' && c.type!==p.type) return;
+    c.branches.forEach(b=>{
+      const effectiveClosing = Math.round(b.closingRank * relax);
+      const ratio = p.rank / effectiveClosing;
+      if(ratio > 1.15) return; // out of realistic range — not shown as a reach even
+      // BUCKET LOGIC (fixed): ratio = student rank ÷ effective closing rank.
+      // Lower ratio = rank comfortably better than last year's closing rank = safer bet.
+      // "Backup" must be the SAFEST bucket (that's the whole point of a backup/insurance
+      // option), not the riskiest — the previous version had this inverted, which meant
+      // colleges shown as "safe fallback options" were actually the least likely admits.
+      let bucket;
+      if(ratio<=0.35) bucket='backup';   // very comfortable margin — kept in hand as insurance
+      else if(ratio<=0.65) bucket='safe';   // comfortably within range
+      else if(ratio<=0.95) bucket='target'; // realistic, historically achievable
+      else bucket='dream';                  // competitive stretch, worth trying
+
+      const rankScore = Math.max(0, Math.min(100, Math.round(100 - Math.abs(ratio-0.6)*70)));
+      const branchScore = (p.branches.length===0 || p.branches.includes(b.name)) ? 95 : 62;
+      const budgetScore = b.fees<=p.budget ? 92 : (b.fees<=p.budget*1.25 ? 68 : 40);
+      const locScore = (!p.prefState || c.state===p.prefState) ? (c.state===p.homeState?96:82) : 60;
+      const overall = Math.round(rankScore*0.4 + branchScore*0.25 + budgetScore*0.2 + locScore*0.15);
+
+      rows.push({collegeId:c.id, college:c, branch:b, bucket, overall,
+        breakdown:{rank:rankScore, branch:branchScore, budget:budgetScore, location:locScore}});
+    });
+  });
+  rows.sort((a,b)=>b.overall-a.overall);
+  STATE.results = rows;
+}
+
+/* ===================================================================
+   RESULTS VIEW
+=================================================================== */
+const BUCKET_META = {
+  dream:{label:'Dream', color:'var(--red)', bg:'var(--red-soft)', desc:'High-value, competitive — worth trying.'},
+  target:{label:'Target', color:'var(--amber)', bg:'var(--amber-soft)', desc:'Realistic and strong options.'},
+  safe:{label:'Safe', color:'var(--green)', bg:'var(--green-soft)', desc:'Higher-probability options.'},
+  backup:{label:'Backup', color:'var(--blue)', bg:'var(--blue-soft)', desc:'Extra options to keep in hand.'},
+};
+function renderResults(){
+  if(!STATE.results.length) computeResults();
+  document.getElementById('results-sub').textContent = `${examName(STATE.selectedExamId)} Rank: ${STATE.profile.rank.toLocaleString('en-IN')} · Category: ${STATE.profile.category}`;
+
+  // populate branch filter once
+  const fb = document.getElementById('f-branch');
+  if(fb.options.length<=1){ BRANCH_LIST.forEach(b=>{ const o=document.createElement('option'); o.textContent=b; fb.appendChild(o); }); }
+  const fs = document.getElementById('f-state');
+  if(fs.options.length<=1){
+    const statesInData = [...new Set(COLLEGES.map(c=>c.state))].sort();
+    statesInData.forEach(s=>{ const o=document.createElement('option'); o.textContent=s; fs.appendChild(o); });
+  }
+
+  const branchF = document.getElementById('f-branch').value;
+  const stateF = document.getElementById('f-state').value;
+  const typeF = document.getElementById('f-type').value;
+  const sortF = document.getElementById('f-sort').value;
+
+  let rows = STATE.results.filter(r=>
+    (!branchF || r.branch.name===branchF) &&
+    (!stateF || r.college.state===stateF) &&
+    (!typeF || r.college.type===typeF)
+  );
+  // Category-adjusted closing rank, so "closest to my rank" sorting is consistent with the
+  // bucket/match-score math above (previously this compared the raw Open-category closing
+  // rank even for SC/ST/OBC/EWS profiles, which could sort results in a misleading order).
+  const sortRelax = CATEGORY_RELAXATION[STATE.profile.category] || 1;
+  const effRank = r => Math.round(r.branch.closingRank * sortRelax);
+  if(sortF==='fees') rows = [...rows].sort((a,b)=>a.branch.fees-b.branch.fees);
+  else if(sortF==='rank') rows = [...rows].sort((a,b)=>Math.abs(STATE.profile.rank-effRank(a))-Math.abs(STATE.profile.rank-effRank(b)));
+  else if(sortF==='placement') rows = [...rows].sort((a,b)=>b.branch.placement-a.branch.placement);
+  else rows = [...rows].sort((a,b)=>b.overall-a.overall);
+
+  const counts = {dream:0,target:0,safe:0,backup:0};
+  rows.forEach(r=>counts[r.bucket]++);
+  document.getElementById('results-summary').innerHTML = `
+    <div class="sum-pill"><b>${rows.length}</b><span>Colleges Found</span></div>
+    <div class="sum-pill"><b style="color:var(--red)">${counts.dream}</b><span>Dream</span></div>
+    <div class="sum-pill"><b style="color:var(--amber)">${counts.target}</b><span>Target</span></div>
+    <div class="sum-pill"><b style="color:var(--green)">${counts.safe}</b><span>Safe</span></div>
+    <div class="sum-pill"><b style="color:var(--blue)">${counts.backup}</b><span>Backup</span></div>`;
+
+  if(!rows.length){
+    document.getElementById('results-groups').innerHTML = `
+      <div class="empty-state">
+        <h3>No colleges found</h3>
+        <p>Your current filters are too restrictive. Try expanding your branch, location or budget preferences.</p>
+        <button class="btn btn-primary" onclick="go('profile')">Adjust Preferences</button>
+      </div>`;
+    return;
+  }
+
+  let html='';
+  ['dream','target','safe','backup'].forEach(bucket=>{
+    const group = rows.filter(r=>r.bucket===bucket);
+    if(!group.length) return;
+    const meta = BUCKET_META[bucket];
+    html += `<div class="result-group">
+      <div class="group-label"><span class="dot" style="background:${meta.color}"></span><h3>${meta.label}</h3><span class="count">${group.length} options · ${meta.desc}</span></div>
+      <div class="college-grid">
+        ${group.map(r=>collegeCardHTML(r)).join('')}
+      </div>
+    </div>`;
+  });
+  document.getElementById('results-groups').innerHTML = html;
+}
+
+function meterGradient(pct, color){
+  return `background:conic-gradient(${color} ${pct*3.6}deg, var(--canvas) ${pct*3.6}deg 360deg);`;
+}
+function collegeCardHTML(r){
+  const meta = BUCKET_META[r.bucket];
+  return `<div class="cw-card">
+    <div class="cw-meter" style="${meterGradient(r.overall, meta.color)}">
+      <div style="position:absolute;inset:6px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;">
+        <span>${r.overall}%</span>
+      </div>
+    </div>
+    <div class="cw-body">
+      <h4>${escapeHtml(r.college.name)}</h4>
+      <div class="loc">${escapeHtml(r.college.city)}, ${escapeHtml(r.college.state)} · ${escapeHtml(r.college.type)}</div>
+      <div class="cw-meta">
+        <span class="meta-chip">${escapeHtml(r.branch.name)}</span>
+        <span class="meta-chip">Closing ~${r.branch.closingRank.toLocaleString('en-IN')}</span>
+        <span class="meta-chip">₹${(r.branch.fees/100000).toFixed(1)}L total</span>
+        <span class="meta-chip" style="background:${meta.bg};color:${meta.color};border-color:transparent;">${meta.label}</span>
+      </div>
+      <div class="cw-actions">
+        <button class="btn btn-primary btn-sm" onclick="openCollege('${r.collegeId}','${r.branch.name}')">View College</button>
+        <button class="btn btn-ghost btn-sm" onclick="addToCompareRow('${r.collegeId}','${r.branch.name}')">Compare</button>
+        <button class="btn btn-ghost btn-sm" onclick="addToChoiceListRow('${r.collegeId}','${r.branch.name}')">+ Preference List</button>
+      </div>
+    </div>
+  </div>`;
+}
+
+/* ===================================================================
+   COLLEGE DETAIL
+=================================================================== */
+function openCollege(collegeId, branchName){
+  currentCollege = COLLEGES.find(c=>c.id===collegeId);
+  STATE.currentCollege = currentCollege;
+  STATE.currentBranchIdx = Math.max(0, currentCollege.branches.findIndex(b=>b.name===branchName));
+  STATE.cdTab='overview';
+  go('college');
+  renderCollegeDetail();
+}
+function renderCollegeDetail(){
+  const c = STATE.currentCollege;
+  const b = c.branches[STATE.currentBranchIdx];
+  // textContent (not innerHTML) is used here, which auto-escapes — kept as-is intentionally.
+  document.getElementById('cd-name').textContent = c.name;
+  document.getElementById('cd-loc').textContent = `${c.city}, ${c.state} · Est. ${c.established} · ${c.type}`;
+
+  const tabs=['overview','cutoffs','fees','placements','admission'];
+  document.getElementById('cd-tabs').innerHTML = tabs.map(t=>`<div class="dtab ${STATE.cdTab===t?'on':''}" onclick="setCdTab('${t}')">${t[0].toUpperCase()+t.slice(1)}</div>`).join('');
+
+  const p = STATE.profile;
+  const relax = CATEGORY_RELAXATION[p.category]||1;
+  const effClosing = Math.round(b.closingRank*relax);
+  const ratio = p.rank/effClosing;
+  const match = Math.max(0,Math.min(100, Math.round(100 - Math.abs(ratio-0.6)*70)));
+
+  let html='';
+  if(STATE.cdTab==='overview'){
+    html = `
+      <div class="grid-2">
+        <div class="card">
+          <h4 style="font-size:15px;">Why this college matches you — <span class="mono">${match}%</span> match</h4>
+          <p style="font-size:13px;">Rank compatibility: ${match}% &nbsp;·&nbsp; Branch preference: ${p.branches.includes(b.name)?95:62}% &nbsp;·&nbsp; Budget: ${b.fees<=p.budget?92:60}%</p>
+          <ul style="font-size:13px;color:var(--ink-2);padding-left:18px;">
+            <li>Your rank (${p.rank.toLocaleString('en-IN')}) is ${ratio<=1?'within':'close to'} the recent closing rank trend for ${b.name}.</li>
+            <li>${p.branches.includes(b.name)?'Your preferred branch is available here.':'This branch is a possible alternative to your top choice.'}</li>
+            <li>${b.fees<=p.budget?'Fees fit your selected budget.':'Fees are above your selected budget — worth reviewing scholarships.'}</li>
+            <li>Estimates are based on historical data — not a guarantee of admission.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4 style="font-size:15px;">Branches at this college</h4>
+          <div class="chip-select">
+            ${c.branches.map((bb,i)=>`<div class="chip ${i===STATE.currentBranchIdx?'on':''}" onclick="switchBranch(${i})">${bb.name}</div>`).join('')}
+          </div>
+          <p style="font-size:12.5px;margin-top:12px;">Pros: Strong alumni network, established recruiter base.<br>Cons: Competitive cutoffs for top branches.</p>
+        </div>
+      </div>
+      <div class="source-note">Match % uses the closing-rank data shown in the Cutoffs tab (real where sourced, estimated otherwise). Fee and placement figures below are illustrative. <span class="demo-tag">FEES/PLACEMENT: DEMO DATA</span></div>
+      ${renderBranchAlternatives(b.name)}
+    `;
+  } else if(STATE.cdTab==='cutoffs'){
+    const has2026 = typeof b.closingRank2026==='number';
+    const rows = [
+      {yr:2025, round: b.round||'Round 6 (final)', closing: b.closingRank},
+      ...(has2026 ? [{yr:2026, round: b.round2026||'Round (see note)', closing: b.closingRank2026}] : [])
+    ];
+    html = `<div class="card">
+      <table class="cutoff-table">
+        <thead><tr><th>Year</th><th>Round</th><th>Category</th><th>Quota</th><th>Branch</th><th>Closing (Open baseline)</th><th>Closing (${escapeHtml(p.category)}, est.)</th></tr></thead>
+        <tbody>
+          ${rows.map(r=>`<tr>
+            <td>${r.yr}</td><td>${escapeHtml(r.round)}</td><td>Open</td><td>OS</td><td>${escapeHtml(b.name)}</td>
+            <td class="mono">${r.closing.toLocaleString('en-IN')}</td>
+            <td class="mono">${Math.round(r.closing*relax).toLocaleString('en-IN')}</td>
+          </tr>`).join('')}
+        </tbody>
+      </table>
+      <div class="source-note">
+        ${b.sourced===false
+          ? 'No verified JoSAA figure was available for this branch — the Open baseline above is a trend-based estimate, not an official closing rank.'
+          : `Open/General baseline sourced from ${escapeHtml(b.source||'JoSAA archives')}.`}
+        ${escapeHtml(p.category)} column is estimated using a typical relaxation ratio (×${relax}), not an official per-category figure.
+        ${!has2026?'2026 final-round data not yet confirmed for this branch — showing 2025 only. ':''}
+        Always verify exact numbers at <a href="https://josaa.nic.in" target="_blank" rel="noopener">josaa.nic.in</a> before finalizing choices.
+      </div>
+    </div>`;
+  } else if(STATE.cdTab==='fees'){
+    html = `<div class="card">
+      <table class="cutoff-table">
+        <tr><td>Tuition (per year, approx.)</td><td class="mono">₹${Math.round(b.fees*0.8/100000)}L</td></tr>
+        <tr><td>Hostel &amp; Mess (per year, approx.)</td><td class="mono">₹${Math.round(b.fees*0.1/100000*10)/10}L</td></tr>
+        <tr><td>Other charges</td><td class="mono">₹0.3L</td></tr>
+        <tr><td><b>Estimated total (4 years)</b></td><td class="mono"><b>₹${(b.fees/100000).toFixed(1)}L</b></td></tr>
+      </table>
+      <div class="source-note">Fee estimates are illustrative. <span class="demo-tag">DEMO DATA</span></div>
+    </div>`;
+  } else if(STATE.cdTab==='placements'){
+    html = `<div class="card">
+      <div class="grid-3f">
+        <div><span style="font-size:12px;color:var(--ink-3);">Median Package</span><div class="mono" style="font-size:18px;color:var(--navy);">₹${(b.median/100000).toFixed(1)}L</div></div>
+        <div><span style="font-size:12px;color:var(--ink-3);">Average Package</span><div class="mono" style="font-size:18px;color:var(--navy);">₹${(b.average/100000).toFixed(1)}L</div></div>
+        <div><span style="font-size:12px;color:var(--ink-3);">Highest Package</span><div class="mono" style="font-size:18px;color:var(--navy);">₹${(b.highest/100000).toFixed(1)}L</div></div>
+      </div>
+      <p style="margin-top:14px;font-size:13px;">Placement rate: <b>${b.placement}%</b> of eligible students placed (demo figure).</p>
+      <div class="source-note">Placement figures shown are demo placeholders modeled for prototype purposes, year 2025. <span class="demo-tag">DEMO DATA</span></div>
+    </div>`;
+  } else {
+    html = `<div class="card">
+      <h4 style="font-size:15px;">Admission &amp; Counselling</h4>
+      <p style="font-size:13px;">This college participates in centralized counselling relevant to ${examName(STATE.selectedExamId)}. Seat allotment happens over multiple rounds based on rank, category and choice filling.</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;">
+        <a class="btn btn-ghost btn-sm" href="${safeUrl(c.website)}" target="_blank" rel="noopener noreferrer">Official Website ↗</a>
+        <a class="btn btn-ghost btn-sm" href="${safeUrl(c.portal)}" target="_blank" rel="noopener noreferrer">Official Counselling Portal ↗</a>
+      </div>
+    </div>`;
+  }
+  document.getElementById('cd-content').innerHTML = html;
+}
+function setCdTab(t){ STATE.cdTab=t; renderCollegeDetail(); }
+function switchBranch(i){ STATE.currentBranchIdx=i; renderCollegeDetail(); }
+function addToCompare(){ addToCompareRow(currentCollege.id, currentCollege.branches[STATE.currentBranchIdx].name); }
+
+/* ===================================================================
+   COMPARE
+=================================================================== */
+function addToCompareRow(collegeId, branchName){
+  if(STATE.compareList.length>=5){ alert('You can compare up to 5 colleges at a time.'); return; }
+  if(STATE.compareList.find(x=>x.collegeId===collegeId && x.branchName===branchName)){ alert('Already added to comparison.'); return; }
+  STATE.compareList.push({collegeId,branchName});
+  alert(`Added to Compare (${STATE.compareList.length}/5). Open "Compare" from the menu to view.`);
+}
+function removeFromCompare(idx){ STATE.compareList.splice(idx,1); renderCompare(); }
+function renderCompare(){
+  const el = document.getElementById('compare-container');
+  if(!STATE.compareList.length){
+    el.innerHTML = `<div class="empty-state"><h3>No colleges to compare yet</h3><p>Add colleges from your results or a college page.</p><button class="btn btn-primary" onclick="go('results')">Go to Results</button></div>`;
+    return;
+  }
+  const items = STATE.compareList.map(x=>{
+    const c = COLLEGES.find(cc=>cc.id===x.collegeId);
+    const b = c.branches.find(bb=>bb.name===x.branchName);
+    return {c,b};
+  });
+  const rows = [
+    ['Branch', i=>i.b.name],
+    ['Closing Rank (est.)', i=>i.b.closingRank.toLocaleString('en-IN')],
+    ['Fees (total, approx.)', i=>'₹'+(i.b.fees/100000).toFixed(1)+'L'],
+    ['Median Package', i=>'₹'+(i.b.median/100000).toFixed(1)+'L'],
+    ['Average Package', i=>'₹'+(i.b.average/100000).toFixed(1)+'L'],
+    ['Placement %', i=>i.b.placement+'%'],
+    ['College Type', i=>i.c.type],
+    ['Location', i=>i.c.city+', '+i.c.state],
+  ];
+  // simple recommendation: highest overall computed score vs profile
+  const p = STATE.profile; const relax = CATEGORY_RELAXATION[p.category]||1;
+  let best=null, bestScore=-1;
+  items.forEach(i=>{
+    const ratio = p.rank/(i.b.closingRank*relax);
+    const rankScore = Math.max(0,100-Math.abs(ratio-0.6)*70);
+    const branchScore = p.branches.includes(i.b.name)?95:62;
+    const budgetScore = i.b.fees<=p.budget?92:60;
+    const score = rankScore*0.4+branchScore*0.3+budgetScore*0.3;
+    if(score>bestScore){bestScore=score;best=i;}
+  });
+
+  el.innerHTML = `
+    <div style="overflow-x:auto;">
+    <table class="compare-table">
+      <tr><th>College</th>${items.map((i,idx)=>`<th>${escapeHtml(i.c.name)} <button class="btn btn-ghost btn-sm" style="padding:2px 8px;margin-left:6px;" onclick="removeFromCompare(${idx})">✕</button></th>`).join('')}</tr>
+      ${rows.map(([label,fn])=>`<tr><td><b>${label}</b></td>${items.map(i=>`<td>${fn(i)}</td>`).join('')}</tr>`).join('')}
+    </table>
+    </div>
+    <div class="rec-banner">
+      <b>Recommended for your profile: ${escapeHtml(best.c.name)} (${escapeHtml(best.b.name)})</b>
+      <p style="margin:6px 0 0;font-size:13px;">Best match on your rank compatibility, branch preference and budget — not a universal "best college," just the best fit for your profile.</p>
+    </div>
+  `;
+}
+
+/* ===================================================================
+   CHOICE LIST
+=================================================================== */
+function addToChoiceList(c){ addToChoiceListRow(c.id, c.branches[STATE.currentBranchIdx].name); }
+function addToChoiceListRow(collegeId, branchName){
+  if(STATE.choiceList.find(x=>x.collegeId===collegeId && x.branchName===branchName)){ alert('Already in your choice list.'); return; }
+  STATE.choiceList.push({collegeId,branchName});
+  alert('Added to your Choice List. Open "Build Choice List" to reorder.');
+}
+let dragIdx=null;
+function renderChoiceList(){
+  const wrap = document.getElementById('choice-list-items');
+  const empty = document.getElementById('choice-empty');
+  if(!STATE.choiceList.length){ wrap.innerHTML=''; empty.classList.remove('hide'); return; }
+  empty.classList.add('hide');
+  wrap.innerHTML = STATE.choiceList.map((x,idx)=>{
+    const c = COLLEGES.find(cc=>cc.id===x.collegeId);
+    return `<div class="choice-item" draggable="true" data-idx="${idx}"
+        ondragstart="dragIdx=${idx}" ondragover="event.preventDefault()" ondrop="dropReorder(${idx})">
+      <span class="grip">⠿</span>
+      <div class="choice-num">${idx+1}</div>
+      <div style="flex:1;">
+        <b style="font-size:14px;">${escapeHtml(c.name)} — ${escapeHtml(x.branchName)}</b>
+        <div style="font-size:12px;color:var(--ink-3);">${escapeHtml(c.city)}, ${escapeHtml(c.state)}</div>
+      </div>
+      <button class="btn btn-ghost btn-sm" onclick="removeChoice(${idx})">Remove</button>
+    </div>`;
+  }).join('') + `<div class="source-note" style="margin-top:8px;">Order suggested based on your branch preference, historical cutoff and budget fit — drag to fine-tune.</div>`;
+}
+function dropReorder(idx){
+  if(dragIdx===null || dragIdx===idx) return;
+  const item = STATE.choiceList.splice(dragIdx,1)[0];
+  STATE.choiceList.splice(idx,0,item);
+  dragIdx=null;
+  renderChoiceList();
+}
+function removeChoice(idx){ STATE.choiceList.splice(idx,1); renderChoiceList(); }
+
+/* ===================================================================
+   PRICING / MOCK PAYMENT
+=================================================================== */
+let paymentInFlight = false;
+function mockPay(amount,plan,btn){
+  // Guards against double-click/double-submit firing two "successful" payments.
+  // A real integration must also treat this as idempotent server-side via an order/idempotency key.
+  if(paymentInFlight) return;
+  paymentInFlight = true;
+  if(btn){ btn.disabled = true; btn.dataset.origText = btn.textContent; btn.textContent = 'Processing…'; }
+  setTimeout(()=>{
+    document.getElementById('pay-result').innerHTML = `<div class="card" style="margin-top:20px;max-width:420px;">
+      <h4 style="font-size:15px;color:var(--green);">✅ Payment Successful (Demo)</h4>
+      <p style="font-size:13px;">Plan: <b>${escapeHtml(plan)}</b><br>Amount: <b>₹${escapeHtml(amount)}</b><br>Status: <b>Successful</b></p>
+      <p style="font-size:12px;color:var(--ink-3);">This is a demo transaction — no real payment gateway is connected in this prototype.</p>
+    </div>`;
+    if(btn){ btn.disabled = false; btn.textContent = btn.dataset.origText; }
+    paymentInFlight = false;
+  }, 300);
+}
+
+/* ===================================================================
+   DASHBOARD / CALENDAR / DOCUMENTS
+=================================================================== */
+function renderDashboard(){
+  const p = STATE.profile;
+  document.getElementById('dp-exam').textContent = examName(STATE.selectedExamId);
+  document.getElementById('dp-rank').textContent = p.rank ? p.rank.toLocaleString('en-IN') : '—';
+  document.getElementById('dp-cat').textContent = p.category;
+  document.getElementById('dp-branch').textContent = p.branches.join(', ')||'—';
+
+  const stages = ['Profile Complete','College Search','Choice List','Counselling','Seat Allotment','Admission'];
+  const doneIdx = STATE.choiceList.length ? 2 : (STATE.results.length ? 1 : 0);
+  document.getElementById('journey').innerHTML = stages.map((s,i)=>`
+    <div class="jstep ${i<doneIdx?'done':(i===doneIdx?'now':'')}"><div class="jline"></div><div class="jdot"></div>${s}</div>`).join('');
+}
+function renderCalendar(){
+  const events = [
+    {name:'Registration Opens', date:'15 Jun 2026', status:'done'},
+    {name:'Registration Closes', date:'30 Jun 2026', status:'done'},
+    {name:'Choice Filling Window', date:'05–12 Jul 2026', status:'now'},
+    {name:'Choice Locking', date:'12 Jul 2026', status:'upcoming'},
+    {name:'Round 1 Seat Allotment', date:'18 Jul 2026', status:'upcoming'},
+    {name:'Document Verification', date:'20–22 Jul 2026', status:'upcoming'},
+    {name:'Round 2 Seat Allotment', date:'27 Jul 2026', status:'upcoming'},
+    {name:'Reporting / Final Admission', date:'10 Aug 2026', status:'upcoming'},
+  ];
+  document.getElementById('calendar-container').innerHTML = `
+    <div class="card" style="margin-bottom:16px;">🔔 <b>Choice Filling closes in 6 days</b> — based on the sample timeline below.</div>
+    ${events.map(e=>`<div class="card" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <div><b style="font-size:14px;">${e.name}</b><div style="font-size:12px;color:var(--ink-3);">${e.date}</div></div>
+      <span class="tag" style="background:${e.status==='done'?'var(--green-soft)':e.status==='now'?'var(--amber-soft)':'#EEF0F5'};color:${e.status==='done'?'#0F7A47':e.status==='now'?'#9A6E00':'var(--ink-3)'};">${e.status==='done'?'Completed':e.status==='now'?'Active now':'Upcoming'}</span>
+    </div>`).join('')}
+    <div class="source-note">Sample timeline modeled loosely on JoSAA-style counselling. Source: Demo · Last updated: Jan 2026. Always verify on the official counselling authority website. <span class="demo-tag">DEMO DATA</span></div>
+  `;
+}
+function renderDocuments(){
+  const p = STATE.profile;
+  const docs = ['Class 10 Certificate & Marksheet','Class 12 Certificate & Marksheet', examName(STATE.selectedExamId)+' Rank / Score Card',
+    p.category!=='General' ? p.category+' Category Certificate' : null,
+    'Domicile / Residence Certificate','Income Certificate (if applicable)','Government ID Proof (Aadhaar/Passport)',
+    'Passport-size Photographs (multiple)','Medical Fitness Certificate (where required)'].filter(Boolean);
+  document.getElementById('doc-list').innerHTML = `
+    <ul style="padding-left:18px;">${docs.map(d=>`<li style="font-size:14px;margin-bottom:8px;color:var(--ink-2);">${d}</li>`).join('')}</ul>
+    <div class="disclaimer">Requirements can vary by college and counselling authority. Verify the final list on the official counselling website.</div>`;
+}
+
+/* ===================================================================
+   STATE DROPDOWNS — every Indian state & UT, used across the app
+=================================================================== */
+function populateStateSelects(){
+  document.querySelectorAll('.state-select').forEach(sel=>{
+    sel.innerHTML = ALL_STATES.map(s=>`<option ${s==='Maharashtra'?'selected':''}>${s}</option>`).join('') + `<option value="Any">Any / Not sure</option>`;
+  });
+  document.querySelectorAll('.state-select-any').forEach(sel=>{
+    sel.innerHTML = `<option value="">Any</option>` + ALL_STATES.map(s=>`<option>${s}</option>`).join('');
+  });
+}
+populateStateSelects();
+
+/* init */
+renderExams();
+computeResults();
+</script>
+</body>
+</html>

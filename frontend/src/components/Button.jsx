@@ -1,0 +1,1 @@
+export default function Button({children,variant='primary',size='',block=false,...props}){return <button className={`btn btn-${variant} ${size?`btn-${size}`:''} ${block?'btn-block':''}`} {...props}>{children}</button>}

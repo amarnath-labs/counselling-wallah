@@ -1,0 +1,1 @@
+export default function PageHero({title,description,crumb}){return <div className="page-hero"><div className="container">{crumb&&<div className="crumb">{crumb}</div>}<h1>{title}</h1>{description&&<p>{description}</p>}</div></div>}

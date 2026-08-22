@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: counselling-wallah-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: counselling_wallah
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - counselling_wallah_pgdata:/var/lib/postgresql/data
+
+volumes:
+  counselling_wallah_pgdata:

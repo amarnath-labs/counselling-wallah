@@ -1,0 +1,2 @@
+import {NavLink} from 'react-router-dom';
+export default function BottomNavigation(){return <div className="bottomnav"><NavLink to="/"><span className="bnicon">🏠</span>Home</NavLink><NavLink to="/exams"><span className="bnicon">🎓</span>Colleges</NavLink><NavLink to="/compare"><span className="bnicon">⚖️</span>Compare</NavLink><NavLink to="/counselling"><span className="bnicon">📅</span>Counselling</NavLink><NavLink to="/dashboard"><span className="bnicon">👤</span>Profile</NavLink></div>}
