@@ -1,52 +1,178 @@
 function normalizeApiBaseUrl(value) {
-  const trimmed = String(value || '').replace(/\/+$/, '');
+  const trimmed = String(value || '')
+    .trim()
+    .replace(/\/+$/, '');
+
+  if (!trimmed) {
+    return '';
+  }
 
   return trimmed.endsWith('/api')
     ? trimmed
     : `${trimmed}/api`;
 }
 
-const API_BASE_URL = normalizeApiBaseUrl(
+/*
+|--------------------------------------------------------------------------
+| API BASE URL
+|--------------------------------------------------------------------------
+| Local:
+|   http://localhost:4000/api
+|
+| Production:
+|   https://counsellingwallah-backend.onrender.com/api
+|
+| Vercel:
+|   VITE_API_BASE_URL
+|--------------------------------------------------------------------------
+*/
+
+const localApiUrl =
+  'http://localhost:4000/api';
+
+const productionApiUrl =
+  'https://counsellingwallah-backend.onrender.com/api';
+
+const configuredApiUrl =
   import.meta.env.VITE_API_BASE_URL ||
-    import.meta.env.VITE_API_URL ||
-    'http://localhost:4000/api'
+  import.meta.env.VITE_API_URL ||
+  '';
+
+const API_BASE_URL =
+  normalizeApiBaseUrl(configuredApiUrl) ||
+  (
+    import.meta.env.PROD
+      ? productionApiUrl
+      : localApiUrl
+  );
+
+console.log(
+  '[API] Environment:',
+  import.meta.env.MODE
 );
 
-export async function apiRequest(path, options = {}) {
-  const response = await fetch(`${API_BASE_URL}${path}`, {
-    ...options,
-    credentials: 'include',
-    headers: {
-      'Content-Type': 'application/json',
-      ...(options.headers || {}),
-    },
-  });
+console.log(
+  '[API] Base URL:',
+  API_BASE_URL
+);
 
-  const body = await response.json().catch(() => ({}));
+export async function apiRequest(
+  path,
+  options = {}
+) {
+  const cleanPath =
+    String(path || '').startsWith('/')
+      ? path
+      : `/${path}`;
 
-  if (!response.ok) {
-    throw new Error(body.error || `API request failed: ${response.status}`);
+  const url =
+    `${API_BASE_URL}${cleanPath}`;
+
+  console.log(
+    '[API REQUEST]',
+    url
+  );
+
+  try {
+    const response =
+      await fetch(
+        url,
+        {
+          ...options,
+
+          credentials: 'include',
+
+          headers: {
+            'Content-Type':
+              'application/json',
+
+            ...(options.headers || {}),
+          },
+        }
+      );
+
+    const body =
+      await response
+        .json()
+        .catch(
+          () => ({})
+        );
+
+    if (!response.ok) {
+      throw new Error(
+        body?.error ||
+        body?.message ||
+        `API request failed: ${response.status}`
+      );
+    }
+
+    return body;
+
+  } catch (error) {
+    console.error(
+      '[API ERROR]',
+      {
+        url,
+        message:
+          error?.message,
+      }
+    );
+
+    throw error;
   }
-
-  return body;
 }
 
-export async function apiGet(path) {
-  return apiRequest(path);
+export async function apiGet(
+  path
+) {
+  return apiRequest(
+    path,
+    {
+      method: 'GET',
+    }
+  );
 }
 
 export async function getApiCatalog() {
-  const [exams, colleges, counselling] = await Promise.all([
-    apiGet('/exams'),
-    apiGet('/colleges'),
-    apiGet('/counselling/events?examId=jee-main'),
-  ]);
+  console.log(
+    '[FRONTEND] Loading API catalog...'
+  );
+
+  const [
+    exams,
+    colleges,
+    counselling,
+  ] =
+    await Promise.all([
+      apiGet('/exams'),
+
+      apiGet('/colleges'),
+
+      apiGet(
+        '/counselling/events?examId=jee-main'
+      ),
+    ]);
 
   return {
-    exams: exams.data,
-    colleges: colleges.data,
-    counsellingEvents: counselling.data,
+    exams:
+      Array.isArray(exams?.data)
+        ? exams.data
+        : [],
+
+    colleges:
+      Array.isArray(colleges?.data)
+        ? colleges.data
+        : [],
+
+    counsellingEvents:
+      Array.isArray(
+        counselling?.data
+      )
+        ? counselling.data
+        : [],
   };
 }
 
-export { API_BASE_URL };
+export {
+  API_BASE_URL,
+};
