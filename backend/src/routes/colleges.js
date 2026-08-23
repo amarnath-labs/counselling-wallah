@@ -3,12 +3,6 @@ import { pool } from "../db/pool.js";
 
 const router = Router();
 
-/*
-|--------------------------------------------------------------------------
-| Map college response
-|--------------------------------------------------------------------------
-*/
-
 function mapCollege(row) {
   return {
     id: row.id,
@@ -25,15 +19,8 @@ function mapCollege(row) {
 
 /*
 |--------------------------------------------------------------------------
-| College query
+| Optimized college query
 |--------------------------------------------------------------------------
-|
-| IMPORTANT:
-| - 2026 is the current JoSAA dataset
-| - Prefer Round 1 2026
-| - Return opening + closing rank
-| - Return verification/source information
-|
 */
 
 const collegeQuery = `
@@ -69,205 +56,44 @@ const collegeQuery = `
           'placement',
           b.placement_rate,
 
-          /*
-          |--------------------------------------------------------------------------
-          | 2025 fallback fields
-          |--------------------------------------------------------------------------
-          */
-
           'closingRank',
-          COALESCE(
-            (
-              SELECT co.closing_rank
-              FROM cutoffs co
-              WHERE co.branch_id = b.id
-                AND co.year = 2025
-              ORDER BY co.id DESC
-              LIMIT 1
-            ),
-            0
-          ),
-
-          /*
-          |--------------------------------------------------------------------------
-          | 2026 opening rank
-          |--------------------------------------------------------------------------
-          */
+          COALESCE(cutoff2025.closing_rank, 0),
 
           'openingRank2026',
-          (
-            SELECT co.opening_rank
-            FROM cutoffs co
-            WHERE co.branch_id = b.id
-              AND co.year = 2026
-              AND co.round = '1'
-            ORDER BY co.id DESC
-            LIMIT 1
-          ),
-
-          /*
-          |--------------------------------------------------------------------------
-          | 2026 closing rank
-          |--------------------------------------------------------------------------
-          */
+          cutoff2026r1.opening_rank,
 
           'closingRank2026',
-          (
-            SELECT co.closing_rank
-            FROM cutoffs co
-            WHERE co.branch_id = b.id
-              AND co.year = 2026
-              AND co.round = '1'
-            ORDER BY co.id DESC
-            LIMIT 1
-          ),
-
-          /*
-          |--------------------------------------------------------------------------
-          | 2026 round
-          |--------------------------------------------------------------------------
-          */
+          cutoff2026r1.closing_rank,
 
           'round2026',
-          (
-            SELECT co.round
-            FROM cutoffs co
-            WHERE co.branch_id = b.id
-              AND co.year = 2026
-            ORDER BY co.id DESC
-            LIMIT 1
-          ),
-
-          /*
-          |--------------------------------------------------------------------------
-          | 2026 category
-          |--------------------------------------------------------------------------
-          */
+          cutoff2026latest.round,
 
           'category2026',
-          (
-            SELECT co.category
-            FROM cutoffs co
-            WHERE co.branch_id = b.id
-              AND co.year = 2026
-            ORDER BY co.id DESC
-            LIMIT 1
-          ),
-
-          /*
-          |--------------------------------------------------------------------------
-          | 2026 quota
-          |--------------------------------------------------------------------------
-          */
+          cutoff2026latest.category,
 
           'quota2026',
-          (
-            SELECT co.quota
-            FROM cutoffs co
-            WHERE co.branch_id = b.id
-              AND co.year = 2026
-            ORDER BY co.id DESC
-            LIMIT 1
-          ),
-
-          /*
-          |--------------------------------------------------------------------------
-          | 2026 gender
-          |--------------------------------------------------------------------------
-          */
+          cutoff2026latest.quota,
 
           'gender2026',
-          (
-            SELECT co.gender
-            FROM cutoffs co
-            WHERE co.branch_id = b.id
-              AND co.year = 2026
-            ORDER BY co.id DESC
-            LIMIT 1
-          ),
-
-          /*
-          |--------------------------------------------------------------------------
-          | 2026 source
-          |--------------------------------------------------------------------------
-          */
+          cutoff2026latest.gender,
 
           'source2026',
-          (
-            SELECT co.source_label
-            FROM cutoffs co
-            WHERE co.branch_id = b.id
-              AND co.year = 2026
-            ORDER BY co.id DESC
-            LIMIT 1
-          ),
-
-          /*
-          |--------------------------------------------------------------------------
-          | 2026 verification
-          |--------------------------------------------------------------------------
-          */
+          cutoff2026latest.source_label,
 
           'verified2026',
           COALESCE(
-            (
-              SELECT co.is_verified
-              FROM cutoffs co
-              WHERE co.branch_id = b.id
-                AND co.year = 2026
-              ORDER BY co.id DESC
-              LIMIT 1
-            ),
+            cutoff2026latest.is_verified,
             FALSE
           ),
 
-          /*
-          |--------------------------------------------------------------------------
-          | 2026 verification status
-          |--------------------------------------------------------------------------
-          */
-
           'verificationStatus2026',
-          (
-            SELECT co.verification_status
-            FROM cutoffs co
-            WHERE co.branch_id = b.id
-              AND co.year = 2026
-            ORDER BY co.id DESC
-            LIMIT 1
-          ),
-
-          /*
-          |--------------------------------------------------------------------------
-          | 2026 source URL
-          |--------------------------------------------------------------------------
-          */
+          cutoff2026latest.verification_status,
 
           'sourceUrl2026',
-          (
-            SELECT co.source_url
-            FROM cutoffs co
-            WHERE co.branch_id = b.id
-              AND co.year = 2026
-            ORDER BY co.id DESC
-            LIMIT 1
-          ),
-
-          /*
-          |--------------------------------------------------------------------------
-          | 2026 retrieved timestamp
-          |--------------------------------------------------------------------------
-          */
+          cutoff2026latest.source_url,
 
           'retrievedAt2026',
-          (
-            SELECT co.retrieved_at
-            FROM cutoffs co
-            WHERE co.branch_id = b.id
-              AND co.year = 2026
-            ORDER BY co.id DESC
-            LIMIT 1
-          )
+          cutoff2026latest.retrieved_at
 
         )
 
@@ -282,32 +108,61 @@ const collegeQuery = `
 
   LEFT JOIN branches b
     ON b.college_id = c.id
+
+  LEFT JOIN LATERAL (
+    SELECT
+      co.closing_rank
+    FROM cutoffs co
+    WHERE co.branch_id = b.id
+      AND co.year = 2025
+    ORDER BY co.id DESC
+    LIMIT 1
+  ) cutoff2025
+    ON TRUE
+
+  LEFT JOIN LATERAL (
+    SELECT
+      co.opening_rank,
+      co.closing_rank
+    FROM cutoffs co
+    WHERE co.branch_id = b.id
+      AND co.year = 2026
+      AND co.round = '1'
+    ORDER BY co.id DESC
+    LIMIT 1
+  ) cutoff2026r1
+    ON TRUE
+
+  LEFT JOIN LATERAL (
+    SELECT
+      co.round,
+      co.category,
+      co.quota,
+      co.gender,
+      co.source_label,
+      co.is_verified,
+      co.verification_status,
+      co.source_url,
+      co.retrieved_at
+    FROM cutoffs co
+    WHERE co.branch_id = b.id
+      AND co.year = 2026
+    ORDER BY co.id DESC
+    LIMIT 1
+  ) cutoff2026latest
+    ON TRUE
 `;
 
 /*
 |--------------------------------------------------------------------------
 | GET ALL COLLEGES
 |--------------------------------------------------------------------------
-|
-| Examples:
-|
-| /api/colleges
-| /api/colleges?q=Gandhinagar
-| /api/colleges?state=Gujarat
-| /api/colleges?type=IIT
-|
 */
 
 router.get("/", async (req, res, next) => {
   try {
     const params = [];
     const conditions = [];
-
-    /*
-    |--------------------------------------------------------------------------
-    | State filter
-    |--------------------------------------------------------------------------
-    */
 
     if (req.query.state) {
       params.push(req.query.state);
@@ -317,12 +172,6 @@ router.get("/", async (req, res, next) => {
       );
     }
 
-    /*
-    |--------------------------------------------------------------------------
-    | Type filter
-    |--------------------------------------------------------------------------
-    */
-
     if (req.query.type) {
       params.push(req.query.type);
 
@@ -330,12 +179,6 @@ router.get("/", async (req, res, next) => {
         `c.type ILIKE $${params.length}`
       );
     }
-
-    /*
-    |--------------------------------------------------------------------------
-    | Search
-    |--------------------------------------------------------------------------
-    */
 
     if (req.query.q) {
       params.push(
@@ -431,30 +274,13 @@ router.get("/:id", async (req, res, next) => {
 |--------------------------------------------------------------------------
 | GET COLLEGE CUTOFFS
 |--------------------------------------------------------------------------
-|
-| Example:
-|
-| /api/colleges/indian-institute-of-technology-gandhinagar/cutoffs
-|
-| Returns complete 2026 + previous-year cutoff data.
-|
 */
 
 router.get("/:id/cutoffs", async (req, res, next) => {
   try {
-
     const params = [req.params.id];
 
     let yearCondition = "";
-
-    /*
-    |--------------------------------------------------------------------------
-    | Optional year filter
-    |--------------------------------------------------------------------------
-    |
-    | /cutoffs?year=2026
-    |
-    */
 
     if (req.query.year) {
       params.push(Number(req.query.year));
@@ -462,15 +288,6 @@ router.get("/:id/cutoffs", async (req, res, next) => {
       yearCondition =
         `AND co.year = $${params.length}`;
     }
-
-    /*
-    |--------------------------------------------------------------------------
-    | Optional round filter
-    |--------------------------------------------------------------------------
-    |
-    | /cutoffs?year=2026&round=1
-    |
-    */
 
     let roundCondition = "";
 
@@ -484,35 +301,20 @@ router.get("/:id/cutoffs", async (req, res, next) => {
     const { rows } = await pool.query(
       `
       SELECT
-
         b.id AS branch_id,
-
         b.name AS branch,
-
         co.year,
-
         co.round,
-
         co.category,
-
         co.quota,
-
         co.gender,
-
         co.opening_rank AS "openingRank",
-
         co.closing_rank AS "closingRank",
-
         co.source_label AS source,
-
         co.is_verified AS "isVerified",
-
         co.verification_status AS "verificationStatus",
-
         co.source_url AS "sourceUrl",
-
         co.retrieved_at AS "retrievedAt",
-
         co.counselling_type AS "counsellingType"
 
       FROM branches b
@@ -521,13 +323,10 @@ router.get("/:id/cutoffs", async (req, res, next) => {
         ON co.branch_id = b.id
 
       WHERE b.college_id = $1
-
         ${yearCondition}
-
         ${roundCondition}
 
       ORDER BY
-
         co.year DESC,
 
         CASE
@@ -537,11 +336,8 @@ router.get("/:id/cutoffs", async (req, res, next) => {
         END DESC,
 
         b.name,
-
         co.category,
-
         co.quota,
-
         co.gender
       `,
       params
@@ -556,11 +352,4 @@ router.get("/:id/cutoffs", async (req, res, next) => {
   }
 });
 
-/*
-|--------------------------------------------------------------------------
-| Export router
-|--------------------------------------------------------------------------
-*/
-
 export default router;
-
