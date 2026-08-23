@@ -18,6 +18,7 @@ const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:5174',
   'https://counselling-wallah-frontend.vercel.app',
+  'https://counselling-wallah-frontend-jdw4lkxu2.vercel.app',
 ];
 
 const configuredOrigin =
@@ -197,3 +198,4 @@ app.listen(
     );
   }
 );
+
