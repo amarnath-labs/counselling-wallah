@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS exams (
+﻿CREATE TABLE IF NOT EXISTS exams (
   id TEXT PRIMARY KEY,
   name TEXT NOT NULL UNIQUE,
   description TEXT NOT NULL,
@@ -71,4 +71,7 @@ CREATE TABLE IF NOT EXISTS counselling_events (
 CREATE INDEX IF NOT EXISTS idx_colleges_state ON colleges(state);
 CREATE INDEX IF NOT EXISTS idx_branches_college ON branches(college_id);
 CREATE INDEX IF NOT EXISTS idx_cutoffs_branch_year ON cutoffs(branch_id, year);
+CREATE INDEX IF NOT EXISTS idx_cutoffs_branch_year_round ON cutoffs(branch_id, year, round);
+CREATE INDEX IF NOT EXISTS idx_cutoffs_branch_year_id ON cutoffs(branch_id, year, id DESC);
 CREATE INDEX IF NOT EXISTS idx_counselling_events_exam ON counselling_events(exam_id);
+
