@@ -8,32 +8,16 @@ import {
   useAppState,
 } from '../hooks/useAppState';
 
-/*
-|--------------------------------------------------------------------------
-| CANONICAL EXAM ID
-|--------------------------------------------------------------------------
-*/
-
 function getCanonicalExamId(exam) {
   const name =
-    String(
-      exam?.name || ''
-    )
+    String(exam?.name || '')
       .trim()
       .toLowerCase();
 
   const id =
-    String(
-      exam?.id || ''
-    )
+    String(exam?.id || '')
       .trim()
       .toLowerCase();
-
-  /*
-  |--------------------------------------------------------------------------
-  | JEE ADVANCED
-  |--------------------------------------------------------------------------
-  */
 
   if (
     name.includes('jee') &&
@@ -42,24 +26,12 @@ function getCanonicalExamId(exam) {
     return 'jee-advanced';
   }
 
-  /*
-  |--------------------------------------------------------------------------
-  | JEE MAIN
-  |--------------------------------------------------------------------------
-  */
-
   if (
     name.includes('jee') &&
     name.includes('main')
   ) {
     return 'jee-main';
   }
-
-  /*
-  |--------------------------------------------------------------------------
-  | MHT CET
-  |--------------------------------------------------------------------------
-  */
 
   if (
     name.includes('mht') &&
@@ -68,20 +40,11 @@ function getCanonicalExamId(exam) {
     return 'mht-cet';
   }
 
-  /*
-  |--------------------------------------------------------------------------
-  | Fallback
-  |--------------------------------------------------------------------------
-  */
-
   return id;
 }
 
 export default function Exams() {
-  const [
-    q,
-    setQ,
-  ] = useState('');
+  const [q, setQ] = useState('');
 
   const {
     setSelectedExamId,
@@ -90,68 +53,41 @@ export default function Exams() {
     catalogError,
   } = useAppState();
 
-  const nav =
-    useNavigate();
+  const nav = useNavigate();
 
-  /*
-  |--------------------------------------------------------------------------
-  | FILTER EXAMS
-  |--------------------------------------------------------------------------
-  */
+  const exams = useMemo(() => {
+    const list = Array.isArray(allExams)
+      ? allExams
+      : [];
 
-  const exams =
-    useMemo(() => {
-      const list =
-        Array.isArray(allExams)
-          ? allExams
-          : [];
+    const search = String(q || '')
+      .trim()
+      .toLowerCase();
 
-      const search =
-        String(q || '')
-          .trim()
-          .toLowerCase();
+    if (!search) {
+      return list;
+    }
 
-      if (!search) {
-        return list;
-      }
+    return list.filter((exam) =>
+      String(exam?.name || '')
+        .toLowerCase()
+        .includes(search)
+    );
+  }, [allExams, q]);
 
-      return list.filter(
-        (exam) =>
-          String(
-            exam?.name || ''
-          )
-            .toLowerCase()
-            .includes(search)
-      );
-    }, [
-      allExams,
-      q,
-    ]);
-
-  /*
-  |--------------------------------------------------------------------------
-  | SELECT EXAM
-  |--------------------------------------------------------------------------
-  */
-
-  const handleSelectExam = (
-    exam
-  ) => {
-    if (!exam?.active) {
+  const handleSelectExam = (exam) => {
+    if (!exam) {
       return;
     }
 
     const examId =
-      getCanonicalExamId(
-        exam
-      );
+      getCanonicalExamId(exam);
 
     if (!examId) {
       console.error(
         '[EXAMS] Could not determine exam ID:',
         exam
       );
-
       return;
     }
 
@@ -160,26 +96,7 @@ export default function Exams() {
       examId
     );
 
-    console.log(
-      '[EXAM OBJECT]',
-      exam
-    );
-
-    /*
-    |--------------------------------------------------------------------------
-    | SAVE IN APP STATE
-    |--------------------------------------------------------------------------
-    */
-
-    setSelectedExamId(
-      examId
-    );
-
-    /*
-    |--------------------------------------------------------------------------
-    | SAVE IN BROWSER STORAGE
-    |--------------------------------------------------------------------------
-    */
+    setSelectedExamId(examId);
 
     try {
       localStorage.setItem(
@@ -189,12 +106,6 @@ export default function Exams() {
     } catch {
       // Ignore storage errors.
     }
-
-    /*
-    |--------------------------------------------------------------------------
-    | GO TO PROFILE
-    |--------------------------------------------------------------------------
-    */
 
     nav('/profile');
   };
@@ -209,7 +120,6 @@ export default function Exams() {
             <a href="/">
               Home
             </a>
-
             {' / Select Exam'}
           </>
         }
@@ -234,9 +144,7 @@ export default function Exams() {
           className="exam-search"
           value={q}
           onChange={(e) =>
-            setQ(
-              e.target.value
-            )
+            setQ(e.target.value)
           }
           maxLength={60}
           placeholder="Search exam name…"
@@ -247,7 +155,6 @@ export default function Exams() {
           !catalogError &&
           exams.length === 0 && (
             <div className="empty-state">
-
               <h3>
                 No exams found
               </h3>
@@ -257,125 +164,92 @@ export default function Exams() {
                 name or clear the
                 search.
               </p>
-
             </div>
           )}
 
         <div className="exam-grid">
 
-          {exams.map(
-            (exam) => {
+          {exams.map((exam) => {
 
-              const isActive =
-                Boolean(
-                  exam?.active
-                );
+            const examName =
+              String(
+                exam?.name ||
+                  'Unknown Exam'
+              );
 
-              const examName =
-                String(
-                  exam?.name ||
-                    'Unknown Exam'
-                );
+            const examDescription =
+              String(
+                exam?.desc ||
+                  'Exam information unavailable.'
+              );
 
-              const examDescription =
-                String(
-                  exam?.desc ||
-                    'Exam information unavailable.'
-                );
+            const initials =
+              examName
+                .split(/\s+/)
+                .filter(Boolean)
+                .map(
+                  (word) =>
+                    word[0]
+                )
+                .join('')
+                .slice(0, 3)
+                .toUpperCase();
 
-              const initials =
-                examName
-                  .split(/\s+/)
-                  .filter(Boolean)
-                  .map(
-                    (word) =>
-                      word[0]
-                  )
-                  .join('')
-                  .slice(0, 3)
-                  .toUpperCase();
+            const canonicalId =
+              getCanonicalExamId(
+                exam
+              );
 
-              const canonicalId =
-                getCanonicalExamId(
-                  exam
-                );
+            return (
+              <div
+                className="exam-card"
+                key={
+                  canonicalId ||
+                  examName
+                }
+              >
 
-              return (
-                <div
-                  className={
-                    `exam-card ${
-                      isActive
-                        ? ''
-                        : 'inactive'
-                    }`
-                  }
-                  key={
-                    canonicalId ||
-                    examName
+                <div className="exam-logo">
+                  {initials || 'EX'}
+                </div>
+
+                <h4
+                  style={{
+                    fontSize: 15,
+                  }}
+                >
+                  {examName}
+                </h4>
+
+                <p
+                  style={{
+                    fontSize: 12.5,
+                    flex: 1,
+                  }}
+                >
+                  {examDescription}
+                </p>
+
+                <span className="tag">
+                  Available
+                </span>
+
+                <Button
+                  variant="primary"
+                  size="sm"
+                  disabled={false}
+                  onClick={() =>
+                    handleSelectExam(
+                      exam
+                    )
                   }
                 >
+                  Select Exam →
+                </Button>
 
-                  <div className="exam-logo">
-                    {initials ||
-                      'EX'}
-                  </div>
-
-                  <h4
-                    style={{
-                      fontSize: 15,
-                    }}
-                  >
-                    {examName}
-                  </h4>
-
-                  <p
-                    style={{
-                      fontSize: 12.5,
-                      flex: 1,
-                    }}
-                  >
-                    {examDescription}
-                  </p>
-
-                  <span
-                    className={
-                      `tag ${
-                        isActive
-                          ? ''
-                          : 'soon'
-                      }`
-                    }
-                  >
-                    {isActive
-                      ? 'Live'
-                      : 'Coming soon'}
-                  </span>
-
-                  <Button
-                    variant={
-                      isActive
-                        ? 'primary'
-                        : 'ghost'
-                    }
-                    size="sm"
-                    disabled={
-                      !isActive
-                    }
-                    onClick={() =>
-                      handleSelectExam(
-                        exam
-                      )
-                    }
-                  >
-                    {isActive
-                      ? 'Select Exam →'
-                      : 'Coming Soon'}
-                  </Button>
-
-                </div>
-              );
-            }
-          )}
+              </div>
+            );
+          })}
 
         </div>
       </div>
