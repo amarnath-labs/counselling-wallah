@@ -6,3 +6,9 @@ dist/
 .DS_Store
 *.log
 counselling_wallah_before_cleanup.dump
+# Local UPTAC research/import files
+counselling_wallah_before_uptac_import.dump
+scripts/
+uptac_*.csv
+uptac_*.html
+uptac_csv_rows.txt
