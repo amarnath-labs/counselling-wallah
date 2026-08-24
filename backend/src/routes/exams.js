@@ -1,33 +1,3 @@
-// TEMPORARY: Inspect cutoffs table structure
-router.get('/admin/debug-cutoffs', async (_req, res, next) => {
-  try {
-    const columns = await pool.query(`
-      SELECT
-        column_name,
-        data_type,
-        is_nullable,
-        column_default
-      FROM information_schema.columns
-      WHERE table_name = 'cutoffs'
-      ORDER BY ordinal_position
-    `);
-
-    const count = await pool.query(`
-      SELECT COUNT(*)::int AS count
-      FROM cutoffs
-      WHERE LOWER(COALESCE(counselling_type, '')) = 'uptac'
-        AND year = 2025
-    `);
-
-    res.json({
-      success: true,
-      columns: columns.rows,
-      uptac2025Count: count.rows[0]?.count ?? 0
-    });
-  } catch (error) {
-    next(error);
-  }
-});
 import { Router } from 'express';
 import { pool } from '../db/pool.js';
 
@@ -36,14 +6,17 @@ const router = Router();
 // GET all exams
 router.get('/', async (_req, res, next) => {
   try {
-    const { rows } = await pool.query(
-      `SELECT id, name, description AS desc, active
-       FROM exams
-       ORDER BY name`
-    );
+    const { rows } = await pool.query(`
+      SELECT
+        id,
+        name,
+        description AS desc,
+        active
+      FROM exams
+      ORDER BY name
+    `);
 
-    // Temporary UPTAC fallback.
-    // If UPTAC already exists in DB, don't add it again.
+    // Temporary UPTAC fallback
     const hasUptac = rows.some(
       (exam) => exam.id === 'uptac'
     );
@@ -65,13 +38,42 @@ router.get('/', async (_req, res, next) => {
   }
 });
 
+// TEMPORARY: Inspect cutoffs table structure
+router.get('/admin/debug-cutoffs', async (_req, res, next) => {
+  try {
+    const columns = await pool.query(`
+      SELECT
+        column_name,
+        data_type,
+        is_nullable,
+        column_default
+      FROM information_schema.columns
+      WHERE table_name = 'cutoffs'
+      ORDER BY ordinal_position
+    `);
+
+    res.json({
+      success: true,
+      columns: columns.rows,
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
 // GET single exam
 router.get('/:id', async (req, res, next) => {
   try {
     const { rows } = await pool.query(
-      `SELECT id, name, description AS desc, active
-       FROM exams
-       WHERE id = $1`,
+      `
+        SELECT
+          id,
+          name,
+          description AS desc,
+          active
+        FROM exams
+        WHERE id = $1
+      `,
       [req.params.id]
     );
 
