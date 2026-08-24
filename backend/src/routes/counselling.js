@@ -155,10 +155,14 @@ router.get(
         ).trim();
 
       const year =
-        Number(
-          req.query.year ||
-          2026
-        );
+      Number(
+        req.query.year ||
+        (
+          examId === 'uptac'
+            ? 2025
+            : 2026
+        )
+      );
 
       const round =
         String(
@@ -230,9 +234,10 @@ router.get(
       |
       */
 
-      const SUPPORTED_JOSAA_EXAMS = [
+      const SUPPORTED_COUNSELLING_EXAMS = [
         'jee-main',
         'jee-advanced',
+        'uptac',
       ];
 
 
@@ -243,7 +248,7 @@ router.get(
       */
 
       if (
-        !SUPPORTED_JOSAA_EXAMS.includes(
+        !SUPPORTED_COUNSELLING_EXAMS.includes(
           examId
         )
       ) {
@@ -419,12 +424,25 @@ router.get(
       }
 
 
+
+      /*
+      |--------------------------------------------------------------------------
+      | UPTAC
+      |--------------------------------------------------------------------------
+      */
+
+      if (examId === 'uptac') {
+        query += `
+          AND co.counselling_type = 'UPTAC'
+          AND co.verification_status = 'VERIFIED'
+          AND co.is_verified = true
+        `;
+      }
       /*
       |--------------------------------------------------------------------------
       | GENDER
       |--------------------------------------------------------------------------
       */
-
       if (
         requestedGender
       ) {
@@ -434,36 +452,89 @@ router.get(
             requestedGender
           );
 
+        /*
+        |--------------------------------------------------------------------------
+        | UPTAC GENDER
+        |--------------------------------------------------------------------------
+        */
+
         if (
-          gender.includes(
-            'female'
-          )
+          examId === 'uptac'
         ) {
 
-          query += `
-            AND co.gender IN (
-              'Female-only (including Supernumerary)',
-              'Gender-Neutral'
+          if (
+            gender.includes(
+              'female'
             )
-          `;
+          ) {
+
+            query += `
+              AND (
+                LOWER(co.gender) LIKE '%female%'
+                OR LOWER(co.gender) LIKE '%both male and female%'
+              )
+            `;
+
+          } else if (
+            gender.includes(
+              'male'
+            )
+          ) {
+
+            query += `
+              AND (
+                LOWER(TRIM(co.gender)) =
+                  'both male and female seats'
+              )
+            `;
+
+          } else {
+
+            query += `
+              AND (
+                LOWER(TRIM(co.gender)) =
+                  'female'
+                OR LOWER(TRIM(co.gender)) =
+                  'both male and female seats'
+              )
+            `;
+          }
 
         } else {
 
-          query += `
-            AND co.gender =
-              'Gender-Neutral'
-          `;
+          /*
+          |--------------------------------------------------------------------------
+          | EXISTING JEE GENDER LOGIC — UNCHANGED
+          |--------------------------------------------------------------------------
+          */
+
+          if (
+            gender.includes(
+              'female'
+            )
+          ) {
+
+            query += `
+              AND co.gender IN (
+                'Female-only (including Supernumerary)',
+                'Gender-Neutral'
+              )
+            `;
+
+          } else {
+
+            query += `
+              AND co.gender =
+                'Gender-Neutral'
+            `;
+          }
         }
       }
 
-
       /*
       |--------------------------------------------------------------------------
-      | QUOTA
+      | NEXT FILTER
       |--------------------------------------------------------------------------
-      |
-      | DO NOT force AI automatically.
-      |
       */
 
       if (
@@ -632,3 +703,4 @@ router.get(
 */
 
 export default router;
+
