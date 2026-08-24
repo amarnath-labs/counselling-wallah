@@ -12,7 +12,24 @@ router.get('/', async (_req, res, next) => {
        ORDER BY name`
     );
 
-    res.json({ data: rows });
+    // Temporary UPTAC fallback.
+    // If UPTAC already exists in DB, don't add it again.
+    const hasUptac = rows.some(
+      (exam) => exam.id === 'uptac'
+    );
+
+    if (!hasUptac) {
+      rows.push({
+        id: 'uptac',
+        name: 'UPTAC',
+        desc: 'Uttar Pradesh Technical Admission Counselling for engineering admissions.',
+        active: true,
+      });
+    }
+
+    res.json({
+      data: rows,
+    });
   } catch (error) {
     next(error);
   }
@@ -28,45 +45,29 @@ router.get('/:id', async (req, res, next) => {
       [req.params.id]
     );
 
-    if (!rows[0]) {
-      return res.status(404).json({
-        error: 'Exam not found'
+    // Temporary UPTAC fallback
+    if (
+      req.params.id === 'uptac' &&
+      !rows[0]
+    ) {
+      return res.json({
+        data: {
+          id: 'uptac',
+          name: 'UPTAC',
+          desc: 'Uttar Pradesh Technical Admission Counselling for engineering admissions.',
+          active: true,
+        },
       });
     }
 
-    res.json({ data: rows[0] });
-  } catch (error) {
-    next(error);
-  }
-});
-
-// TEMPORARY: Add UPTAC to production database
-router.post('/admin/add-uptac', async (_req, res, next) => {
-  try {
-    await pool.query(`
-      INSERT INTO exams (
-        id,
-        name,
-        description,
-        active
-      )
-      VALUES (
-        'uptac',
-        'UPTAC',
-        'Uttar Pradesh Technical Admission Counselling for engineering admissions.',
-        TRUE
-      )
-      ON CONFLICT (id)
-      DO UPDATE SET
-        name = EXCLUDED.name,
-        description = EXCLUDED.description,
-        active = EXCLUDED.active,
-        updated_at = NOW()
-    `);
+    if (!rows[0]) {
+      return res.status(404).json({
+        error: 'Exam not found',
+      });
+    }
 
     res.json({
-      success: true,
-      message: 'UPTAC added successfully'
+      data: rows[0],
     });
   } catch (error) {
     next(error);
