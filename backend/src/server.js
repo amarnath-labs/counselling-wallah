@@ -1,4 +1,4 @@
-﻿import 'dotenv/config';
+import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
@@ -15,6 +15,7 @@ const app = express();
 const PORT = Number(process.env.PORT) || 4000;
 
 const allowedOrigins = [
+  'http://localhost:4173',
   'http://localhost:5173',
   'http://localhost:5174',
   'https://counselling-wallah-frontend.vercel.app',
@@ -198,4 +199,5 @@ app.listen(
     );
   }
 );
+
 
