@@ -5,7 +5,7 @@ const router = Router();
 
 /*
 |--------------------------------------------------------------------------
-| Helpers
+| HELPERS
 |--------------------------------------------------------------------------
 */
 
@@ -60,7 +60,6 @@ router.get(
   '/events',
   async (req, res, next) => {
     try {
-
       const params = [];
 
       let query = `
@@ -73,7 +72,6 @@ router.get(
       `;
 
       if (req.query.examId) {
-
         params.push(
           String(
             req.query.examId
@@ -155,20 +153,59 @@ router.get(
         ).trim();
 
       const year =
-      Number(
-        req.query.year ||
-        (
-          examId === 'uptac'
-            ? 2025
-            : 2026
-        )
-      );
+        Number(
+          req.query.year ||
+          (
+            examId === 'uptac'
+              ? 2025
+              : 2026
+          )
+        );
 
-      const round =
+
+      /*
+      |--------------------------------------------------------------------------
+      | ROUND
+      |--------------------------------------------------------------------------
+      |
+      | Frontend sends:
+      |
+      |   round=1
+      |
+      | UPTAC database stores:
+      |
+      |   Round 1
+      |
+      | Therefore normalize UPTAC rounds here.
+      |--------------------------------------------------------------------------
+      */
+
+      let round =
         String(
           req.query.round ||
           '1'
         ).trim();
+
+      if (examId === 'uptac') {
+
+        const roundNumber =
+          round
+            .replace(
+              /^round\s*/i,
+              ''
+            )
+            .trim();
+
+        if (
+          /^\d+$/.test(
+            roundNumber
+          )
+        ) {
+          round =
+            `Round ${roundNumber}`;
+        }
+      }
+
 
       const requestedQuota =
         req.query.quota
@@ -220,18 +257,8 @@ router.get(
 
       /*
       |--------------------------------------------------------------------------
-      | CURRENT DATASET
+      | SUPPORTED EXAMS
       |--------------------------------------------------------------------------
-      |
-      | Current cutoff data = JoSAA.
-      |
-      | Therefore only:
-      |
-      | JEE Main
-      | JEE Advanced
-      |
-      | can use this cutoff table.
-      |
       */
 
       const SUPPORTED_COUNSELLING_EXAMS = [
@@ -243,7 +270,7 @@ router.get(
 
       /*
       |--------------------------------------------------------------------------
-      | BLOCK NON-JOSAA EXAMS
+      | BLOCK UNSUPPORTED EXAMS
       |--------------------------------------------------------------------------
       */
 
@@ -424,25 +451,32 @@ router.get(
       }
 
 
-
       /*
       |--------------------------------------------------------------------------
       | UPTAC
       |--------------------------------------------------------------------------
       */
 
-      if (examId === 'uptac') {
+      if (
+        examId === 'uptac'
+      ) {
+
         query += `
           AND co.counselling_type = 'UPTAC'
+
           AND co.verification_status = 'VERIFIED'
+
           AND co.is_verified = true
         `;
       }
+
+
       /*
       |--------------------------------------------------------------------------
       | GENDER
       |--------------------------------------------------------------------------
       */
+
       if (
         requestedGender
       ) {
@@ -451,6 +485,7 @@ router.get(
           normalize(
             requestedGender
           );
+
 
         /*
         |--------------------------------------------------------------------------
@@ -471,7 +506,9 @@ router.get(
             query += `
               AND (
                 LOWER(co.gender) LIKE '%female%'
-                OR LOWER(co.gender) LIKE '%both male and female%'
+
+                OR LOWER(co.gender)
+                  LIKE '%both male and female%'
               )
             `;
 
@@ -494,6 +531,7 @@ router.get(
               AND (
                 LOWER(TRIM(co.gender)) =
                   'female'
+
                 OR LOWER(TRIM(co.gender)) =
                   'both male and female seats'
               )
@@ -504,7 +542,7 @@ router.get(
 
           /*
           |--------------------------------------------------------------------------
-          | EXISTING JEE GENDER LOGIC — UNCHANGED
+          | EXISTING JEE GENDER LOGIC
           |--------------------------------------------------------------------------
           */
 
@@ -531,9 +569,10 @@ router.get(
         }
       }
 
+
       /*
       |--------------------------------------------------------------------------
-      | NEXT FILTER
+      | QUOTA
       |--------------------------------------------------------------------------
       */
 
@@ -571,15 +610,37 @@ router.get(
 
       /*
       |--------------------------------------------------------------------------
-      | EXECUTE
+      | EXECUTE QUERY
       |--------------------------------------------------------------------------
       */
+
+      console.log(
+        '[COUNSELLING] Query params:',
+        {
+          examId,
+          rank,
+          year,
+          round,
+          category,
+          quota:
+            requestedQuota,
+          gender:
+            requestedGender,
+          homeState,
+        }
+      );
 
       const { rows } =
         await pool.query(
           query,
           params
         );
+
+
+      console.log(
+        '[COUNSELLING] DB rows:',
+        rows.length
+      );
 
 
       /*
@@ -623,7 +684,6 @@ router.get(
       | FINAL JEE MAIN SAFETY FILTER
       |--------------------------------------------------------------------------
       |
-      | Even if college metadata is imperfect,
       | IIT can NEVER appear in JEE Main.
       |
       */
@@ -703,4 +763,3 @@ router.get(
 */
 
 export default router;
-
