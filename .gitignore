@@ -12,3 +12,5 @@ scripts/
 uptac_*.csv
 uptac_*.html
 uptac_csv_rows.txt
+.vercel
+.env*
