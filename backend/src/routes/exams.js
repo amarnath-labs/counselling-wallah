@@ -1,3 +1,33 @@
+// TEMPORARY: Inspect cutoffs table structure
+router.get('/admin/debug-cutoffs', async (_req, res, next) => {
+  try {
+    const columns = await pool.query(`
+      SELECT
+        column_name,
+        data_type,
+        is_nullable,
+        column_default
+      FROM information_schema.columns
+      WHERE table_name = 'cutoffs'
+      ORDER BY ordinal_position
+    `);
+
+    const count = await pool.query(`
+      SELECT COUNT(*)::int AS count
+      FROM cutoffs
+      WHERE LOWER(COALESCE(counselling_type, '')) = 'uptac'
+        AND year = 2025
+    `);
+
+    res.json({
+      success: true,
+      columns: columns.rows,
+      uptac2025Count: count.rows[0]?.count ?? 0
+    });
+  } catch (error) {
+    next(error);
+  }
+});
 import { Router } from 'express';
 import { pool } from '../db/pool.js';
 
