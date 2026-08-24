@@ -2,18 +2,37 @@ const API_BASE =
   import.meta.env.VITE_API_BASE_URL ||
   'https://counsellingwallah-backend.onrender.com/api';
 
+
+/*
+|--------------------------------------------------------------------------
+| API REQUEST
+|--------------------------------------------------------------------------
+*/
+
 async function request(path) {
-  const response = await fetch(
+  console.log(
+    '[API REQUEST]',
     `${API_BASE}${path}`
   );
+
+  const response =
+    await fetch(
+      `${API_BASE}${path}`
+    );
 
   let data = null;
 
   try {
-    data = await response.json();
+    data =
+      await response.json();
   } catch {
     data = null;
   }
+
+  console.log(
+    '[API STATUS]',
+    response.status
+  );
 
   if (!response.ok) {
     throw new Error(
@@ -25,93 +44,146 @@ async function request(path) {
   return data;
 }
 
-export async function getCounsellingEvents(examId) {
-  const params = new URLSearchParams();
+
+/*
+|--------------------------------------------------------------------------
+| COUNSELLING EVENTS
+|--------------------------------------------------------------------------
+*/
+
+export async function getCounsellingEvents(
+  examId
+) {
+  const params =
+    new URLSearchParams();
 
   if (examId) {
-    params.set('examId', examId);
+    params.set(
+      'examId',
+      examId
+    );
   }
 
-  const query = params.toString();
+  const query =
+    params.toString();
 
-  const response = await request(
-    `/counselling/events${
-      query ? `?${query}` : ''
-    }`
-  );
+  const response =
+    await request(
+      `/counselling/events${
+        query
+          ? `?${query}`
+          : ''
+      }`
+    );
 
   return response?.data || [];
 }
 
+
 /*
 |--------------------------------------------------------------------------
-| Convert backend UPTAC flat rows into the structure
-| expected by Results.jsx / recommendationService.js
+| NORMALIZE UPTAC ROW
 |--------------------------------------------------------------------------
 */
 
-function normalizeUptacRow(row, profile = {}) {
-  const rank = Number(
-    profile.rank || 0
-  );
+function normalizeUptacRow(
+  row,
+  profile = {}
+) {
 
-  const closingRank = Number(
-    row.closingRank || 0
-  );
+  const rank =
+    Number(
+      profile.rank || 0
+    );
 
-  const openingRank = Number(
-    row.openingRank || 0
-  );
+  const closingRank =
+    Number(
+      row.closingRank || 0
+    );
 
-  const fees = Number(
-    row.fees || 0
-  );
+  const openingRank =
+    Number(
+      row.openingRank || 0
+    );
 
-  const medianPackage = Number(
-    row.medianPackage || 0
-  );
+  const fees =
+    Number(
+      row.fees || 0
+    );
 
-  const averagePackage = Number(
-    row.averagePackage || 0
-  );
+  const medianPackage =
+    Number(
+      row.medianPackage || 0
+    );
 
-  const highestPackage = Number(
-    row.highestPackage || 0
-  );
+  const averagePackage =
+    Number(
+      row.averagePackage || 0
+    );
+
+  const highestPackage =
+    Number(
+      row.highestPackage || 0
+    );
+
 
   /*
-   * Rank bucket
-   */
-  let bucket = 'dream';
+  |--------------------------------------------------------------------------
+  | RANK BUCKET
+  |--------------------------------------------------------------------------
+  */
+
+  let bucket =
+    'dream';
 
   if (
     closingRank > 0 &&
     rank > 0
   ) {
+
     const ratio =
       rank / closingRank;
 
-    if (ratio <= 0.35) {
-      bucket = 'backup';
-    } else if (ratio <= 0.65) {
-      bucket = 'safe';
-    } else if (ratio <= 0.95) {
-      bucket = 'target';
+    if (
+      ratio <= 0.35
+    ) {
+      bucket =
+        'backup';
+
+    } else if (
+      ratio <= 0.65
+    ) {
+      bucket =
+        'safe';
+
+    } else if (
+      ratio <= 0.95
+    ) {
+      bucket =
+        'target';
+
     } else {
-      bucket = 'dream';
+      bucket =
+        'dream';
     }
   }
 
+
   /*
-   * Branch matching
-   */
+  |--------------------------------------------------------------------------
+  | BRANCH MATCHING
+  |--------------------------------------------------------------------------
+  */
+
   const branchName =
     String(
       row.branch_name || ''
     );
 
   const preferredBranches =
-    Array.isArray(profile.branches)
+    Array.isArray(
+      profile.branches
+    )
       ? profile.branches
       : [];
 
@@ -122,30 +194,37 @@ function normalizeUptacRow(row, profile = {}) {
     preferredBranches.length === 0 ||
     preferredBranches.some(
       (branch) => {
+
         const b =
-          String(branch || '')
-            .toLowerCase();
+          String(
+            branch || ''
+          )
+            .toLowerCase()
+            .trim();
+
 
         if (
           b === 'cse' ||
           b === 'computer science'
         ) {
-          return (
-            branchLower.includes(
-              'computer science'
-            )
+          return branchLower.includes(
+            'computer science'
           );
         }
 
-        if (b === 'it') {
-          return (
-            branchLower.includes(
-              'information technology'
-            )
+
+        if (
+          b === 'it'
+        ) {
+          return branchLower.includes(
+            'information technology'
           );
         }
 
-        if (b === 'ece') {
+
+        if (
+          b === 'ece'
+        ) {
           return (
             branchLower.includes(
               'electronics'
@@ -156,65 +235,78 @@ function normalizeUptacRow(row, profile = {}) {
           );
         }
 
-        if (b === 'ee') {
-          return (
-            branchLower.includes(
-              'electrical engineering'
-            )
+
+        if (
+          b === 'ee'
+        ) {
+          return branchLower.includes(
+            'electrical engineering'
           );
         }
 
-        if (b === 'me') {
-          return (
-            branchLower.includes(
-              'mechanical engineering'
-            )
+
+        if (
+          b === 'me'
+        ) {
+          return branchLower.includes(
+            'mechanical engineering'
           );
         }
 
-        return branchLower.includes(b);
+
+        return branchLower.includes(
+          b
+        );
       }
     );
+
 
   const branchScore =
     branchMatches
       ? 95
       : 62;
 
+
   /*
-   * Rank score
-   */
-  let rankScore = 70;
+  |--------------------------------------------------------------------------
+  | RANK SCORE
+  |--------------------------------------------------------------------------
+  */
+
+  let rankScore =
+    70;
 
   if (
     rank > 0 &&
     closingRank > 0
   ) {
+
     const ratio =
       rank / closingRank;
 
-    rankScore = Math.max(
-      0,
-      Math.min(
-        100,
-        Math.round(
-          100 -
-            Math.abs(
-              ratio - 0.6
-            ) *
-              70
+    rankScore =
+      Math.max(
+        0,
+        Math.min(
+          100,
+          Math.round(
+            100 -
+              Math.abs(
+                ratio - 0.6
+              ) *
+                70
+          )
         )
-      )
-    );
+      );
   }
 
+
   /*
-   * Budget score
-   *
-   * UPTAC API currently does not
-   * provide branch fees in the
-   * cutoff response.
-   */
+  |--------------------------------------------------------------------------
+  | BUDGET SCORE
+  |--------------------------------------------------------------------------
+  */
+
   const budget =
     Number(
       profile.budget || 0
@@ -227,54 +319,87 @@ function normalizeUptacRow(row, profile = {}) {
       ? 75
       : fees <= budget
       ? 92
-      : fees <= budget * 1.25
+      : fees <=
+        budget * 1.25
       ? 68
       : 40;
 
+
   /*
-   * Location score
-   */
+  |--------------------------------------------------------------------------
+  | LOCATION SCORE
+  |--------------------------------------------------------------------------
+  */
+
   const preferredState =
-    profile.prefState || '';
+    profile.prefState ||
+    '';
 
   const homeState =
-    profile.homeState || '';
+    profile.homeState ||
+    '';
 
-  let locationScore = 82;
+  let locationScore =
+    82;
 
   if (
     preferredState &&
     preferredState !== 'Any'
   ) {
+
     locationScore =
-      String(row.state || '')
-        .toLowerCase() ===
-      String(preferredState)
-        .toLowerCase()
+      String(
+        row.state || ''
+      ).toLowerCase() ===
+      String(
+        preferredState
+      ).toLowerCase()
         ? 96
         : 60;
+
   } else if (
     homeState &&
-    String(row.state || '')
-      .toLowerCase() ===
-      String(homeState)
-        .toLowerCase()
+    String(
+      row.state || ''
+    ).toLowerCase() ===
+      String(
+        homeState
+      ).toLowerCase()
   ) {
-    locationScore = 96;
+
+    locationScore =
+      96;
   }
 
-  const overall = Math.round(
-    rankScore * 0.4 +
-    branchScore * 0.25 +
-    budgetScore * 0.2 +
-    locationScore * 0.15
-  );
+
+  /*
+  |--------------------------------------------------------------------------
+  | OVERALL SCORE
+  |--------------------------------------------------------------------------
+  */
+
+  const overall =
+    Math.round(
+      rankScore * 0.4 +
+      branchScore * 0.25 +
+      budgetScore * 0.2 +
+      locationScore * 0.15
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | FINAL NORMALIZED OBJECT
+  |--------------------------------------------------------------------------
+  */
 
   return {
+
     collegeId:
       row.college_id,
 
     college: {
+
       id:
         row.college_id,
 
@@ -283,19 +408,19 @@ function normalizeUptacRow(row, profile = {}) {
         'Unknown College',
 
       city:
-        row.city ||
-        '',
+        row.city || '',
 
       state:
-        row.state ||
-        '',
+        row.state || '',
 
       type:
         row.type ||
         'Unknown',
     },
 
+
     branch: {
+
       id:
         row.branch_id,
 
@@ -328,11 +453,14 @@ function normalizeUptacRow(row, profile = {}) {
         ),
     },
 
+
     bucket,
 
     overall,
 
+
     breakdown: {
+
       rank:
         rankScore,
 
@@ -346,13 +474,19 @@ function normalizeUptacRow(row, profile = {}) {
         locationScore,
     },
 
+
     /*
-     * Keep original UPTAC data
-     * available for the UI/debugging.
-     */
+    |--------------------------------------------------------------------------
+    | ORIGINAL COUNSELLING DATA
+    |--------------------------------------------------------------------------
+    */
+
     counselling: {
+
       year:
-        Number(row.year || 2025),
+        Number(
+          row.year || 2025
+        ),
 
       round:
         row.round,
@@ -376,7 +510,9 @@ function normalizeUptacRow(row, profile = {}) {
         row.source,
 
       isVerified:
-        Boolean(row.isVerified),
+        Boolean(
+          row.isVerified
+        ),
 
       verificationStatus:
         row.verificationStatus,
@@ -390,6 +526,13 @@ function normalizeUptacRow(row, profile = {}) {
   };
 }
 
+
+/*
+|--------------------------------------------------------------------------
+| GET COUNSELLING RESULTS
+|--------------------------------------------------------------------------
+*/
+
 export async function getCounsellingResults({
   examId = 'jee-main',
   rank,
@@ -401,66 +544,74 @@ export async function getCounsellingResults({
   homeState,
   profile,
 }) {
+
   if (
     rank === undefined ||
     rank === null ||
     rank === ''
   ) {
+
     throw new Error(
       'Rank is required'
     );
   }
 
+
   const params =
     new URLSearchParams();
+
 
   params.set(
     'examId',
     examId
   );
 
+
   params.set(
     'rank',
     String(rank)
   );
+
 
   params.set(
     'category',
     category
   );
 
+
   params.set(
     'year',
     String(
       year ||
-      (examId === 'uptac'
-        ? 2025
-        : 2026)
+      (
+        examId === 'uptac'
+          ? 2025
+          : 2026
+      )
     )
   );
+
 
   params.set(
     'round',
     String(round)
   );
 
+
   /*
-   * IMPORTANT:
-   *
-   * Do not send gender/homeState
-   * as exact backend filters for
-   * UPTAC here.
-   *
-   * UPTAC cutoff rows can contain
-   * Gender-Neutral/Female rows and
-   * Home State/All India rows.
-   *
-   * Backend already returns eligible
-   * cutoff records.
-   */
+  |--------------------------------------------------------------------------
+  | UPTAC
+  |--------------------------------------------------------------------------
+  |
+  | Do NOT send gender/homeState/quota
+  | as strict backend filters.
+  |
+  */
+
   if (
     examId !== 'uptac'
   ) {
+
     if (quota) {
       params.set(
         'quota',
@@ -483,115 +634,279 @@ export async function getCounsellingResults({
     }
   }
 
-  return request(
-    `/counselling/results?${params.toString()}`
+
+  const url =
+    `/counselling/results?${params.toString()}`;
+
+
+  console.log(
+    '[COUNSELLING] Request URL:',
+    `${API_BASE}${url}`
   );
+
+
+  return request(url);
 }
+
+
+/*
+|--------------------------------------------------------------------------
+| FETCH + NORMALIZE COUNSELLING RESULTS
+|--------------------------------------------------------------------------
+*/
 
 export async function fetchCounsellingResults(
   options = {}
 ) {
+
   const response =
     await getCounsellingResults(
       options
     );
 
+
   /*
-   * Backend UPTAC response:
-   *
-   * {
-   *   data: [ ...rows ],
-   *   meta: { ... }
-   * }
-   *
-   * Return the actual rows array to
-   * useAppState.jsx.
-   */
-
-  let rawRows = [];
-
-  if (Array.isArray(response)) {
-    rawRows = response;
-  } else if (
-    response &&
-    Array.isArray(response.data)
-  ) {
-    rawRows = response.data;
-  } else if (
-    response &&
-    Array.isArray(response.rows)
-  ) {
-    rawRows = response.rows;
-  } else if (
-    response &&
-    response.data &&
-    Array.isArray(response.data.data)
-  ) {
-    rawRows = response.data.data;
-  }
+  |--------------------------------------------------------------------------
+  | DEBUG
+  |--------------------------------------------------------------------------
+  */
 
   console.log(
     '[UPTAC] API response:',
     response
   );
 
+
+  /*
+  |--------------------------------------------------------------------------
+  | EXTRACT RAW ROWS
+  |--------------------------------------------------------------------------
+  |
+  | Backend response:
+  |
+  | {
+  |   data: [...],
+  |   meta: {...}
+  | }
+  |
+  |--------------------------------------------------------------------------
+  */
+
+  let rawRows = [];
+
+
+  /*
+  | Case 1:
+  | API directly returns array
+  */
+
+  if (
+    Array.isArray(
+      response
+    )
+  ) {
+
+    rawRows =
+      response;
+  }
+
+
+  /*
+  | Case 2:
+  | Normal backend response:
+  |
+  | response.data = [...]
+  */
+
+  else if (
+    response &&
+    Array.isArray(
+      response.data
+    )
+  ) {
+
+    rawRows =
+      response.data;
+  }
+
+
+  /*
+  | Case 3:
+  | response.rows = [...]
+  */
+
+  else if (
+    response &&
+    Array.isArray(
+      response.rows
+    )
+  ) {
+
+    rawRows =
+      response.rows;
+  }
+
+
+  /*
+  | Case 4:
+  | response.data.data = [...]
+  */
+
+  else if (
+    response &&
+    response.data &&
+    Array.isArray(
+      response.data.data
+    )
+  ) {
+
+    rawRows =
+      response.data.data;
+  }
+
+
   console.log(
     '[UPTAC] Raw API rows:',
     rawRows.length
   );
 
+
+  console.log(
+    '[UPTAC] First raw row:',
+    rawRows[0]
+  );
+
+
   /*
-   * UPTAC rows returned by backend are
-   * already filtered for rank/category/
-   * year/round.
-   *
-   * Only normalize their shape for the
-   * frontend.
-   */
+  |--------------------------------------------------------------------------
+  | NO DATA
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    rawRows.length === 0
+  ) {
+
+    console.warn(
+      '[UPTAC] API returned zero rows.',
+      {
+        examId:
+          options.examId,
+
+        rank:
+          options.rank,
+
+        category:
+          options.category,
+
+        year:
+          options.year,
+
+        round:
+          options.round,
+      }
+    );
+
+    return [];
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | UPTAC NORMALIZATION
+  |--------------------------------------------------------------------------
+  */
 
   if (
     String(
       options.examId || ''
-    ).toLowerCase() === 'uptac'
+    )
+      .toLowerCase() ===
+    'uptac'
   ) {
+
     const normalized =
       rawRows
-        .map((row) =>
-          normalizeUptacRow(
-            row,
-            options
-          )
+        .map(
+          (row) => {
+
+            try {
+
+              return normalizeUptacRow(
+                row,
+                options
+              );
+
+            } catch (error) {
+
+              console.error(
+                '[UPTAC] Row normalization failed:',
+                error,
+                row
+              );
+
+              return null;
+            }
+          }
         )
         .filter(Boolean);
+
 
     console.log(
       '[UPTAC] Normalized rows:',
       normalized.length
     );
 
+
     console.log(
       '[UPTAC] First normalized row:',
       normalized[0]
     );
 
+
     return normalized;
   }
 
+
+  /*
+  |--------------------------------------------------------------------------
+  | OTHER EXAMS
+  |--------------------------------------------------------------------------
+  */
+
   return rawRows;
 }
+
+
+/*
+|--------------------------------------------------------------------------
+| COUNSELLING EVENTS
+|--------------------------------------------------------------------------
+*/
+
 export async function fetchCounsellingEvents(
   examId
 ) {
+
   return getCounsellingEvents(
     examId
   );
 }
 
+
+/*
+|--------------------------------------------------------------------------
+| DOCUMENTS
+|--------------------------------------------------------------------------
+*/
+
 export function getDocuments(
   profile,
   examName
 ) {
+
   return [
+
     'Class 10 Certificate & Marksheet',
 
     'Class 12 Certificate & Marksheet',
@@ -611,9 +926,6 @@ export function getDocuments(
     'Passport-size Photographs (multiple)',
 
     'Medical Fitness Certificate (where required)',
+
   ].filter(Boolean);
 }
-
-
-
-
