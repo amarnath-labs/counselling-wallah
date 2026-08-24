@@ -1,6 +1,6 @@
-﻿const API_BASE =
+const API_BASE =
   import.meta.env.VITE_API_BASE_URL ||
-  'http://localhost:4000/api';
+  'https://counsellingwallah-backend.onrender.com/api';
 
 async function request(path) {
   const response = await fetch(

@@ -17,7 +17,7 @@ function normalizeApiBaseUrl(value) {
 | API BASE URL
 |--------------------------------------------------------------------------
 | Local:
-|   http://localhost:4000/api
+|   https://counsellingwallah-backend.onrender.com/api
 |
 | Production:
 |   https://counsellingwallah-backend.onrender.com/api
@@ -28,7 +28,7 @@ function normalizeApiBaseUrl(value) {
 */
 
 const localApiUrl =
-  'http://localhost:4000/api';
+  'https://counsellingwallah-backend.onrender.com/api';
 
 const productionApiUrl =
   'https://counsellingwallah-backend.onrender.com/api';
