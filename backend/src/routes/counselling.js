@@ -207,6 +207,12 @@ router.get(
       }
 
 
+      /*
+      |--------------------------------------------------------------------------
+      | OPTIONAL FILTERS
+      |--------------------------------------------------------------------------
+      */
+
       const requestedQuota =
         req.query.quota
           ? String(
@@ -371,7 +377,22 @@ router.get(
 
           AND co.category = $4
 
-          AND co.opening_rank <= $1
+          /*
+          |--------------------------------------------------------------------------
+          | IMPORTANT:
+          |
+          | Do NOT require:
+          |
+          |   opening_rank <= user rank
+          |
+          | A student with rank 3000 can be eligible
+          | for a historical cutoff that opened at 32326
+          | and closed at 50510.
+          |
+          | We therefore use closing rank as the
+          | minimum historical eligibility boundary.
+          |--------------------------------------------------------------------------
+          */
 
           AND co.closing_rank >= $1
       `;
