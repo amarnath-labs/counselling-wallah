@@ -10,6 +10,7 @@ import {
 
 import PageHero from '../components/PageHero';
 import CollegeCard from '../components/CollegeCard';
+import PremiumRecommendation from '../components/PremiumRecommendation';
 
 import {
   useAppState,
@@ -25,6 +26,12 @@ import {
   getExamName,
 } from '../services/examService';
 
+import {
+  addPremiumScores,
+  sortByPremiumScore,
+} from '../services/premiumRecommendationService';
+
+
 export default function Results() {
   const {
     results,
@@ -36,6 +43,7 @@ export default function Results() {
     resultsError,
   } = useAppState();
 
+
   const [
     filters,
     setFilters,
@@ -46,8 +54,10 @@ export default function Results() {
     sort: 'match',
   });
 
+
   const nav =
     useNavigate();
+
 
   /*
   |--------------------------------------------------------------------------
@@ -61,10 +71,17 @@ export default function Results() {
       ? results
       : [];
 
+
   /*
   |--------------------------------------------------------------------------
   | EXISTING RECOMMENDATION LOGIC
   |--------------------------------------------------------------------------
+  |
+  | IMPORTANT:
+  | This remains the source for:
+  |
+  | Dream / Target / Safe / Backup
+  |
   */
 
   const rows =
@@ -82,6 +99,58 @@ export default function Results() {
       ]
     );
 
+
+  /*
+  |--------------------------------------------------------------------------
+  | PREMIUM RECOMMENDATION LAYER
+  |--------------------------------------------------------------------------
+  |
+  | IMPORTANT:
+  |
+  | `rows` is NOT replaced.
+  |
+  | Existing admission buckets continue
+  | using `rows`.
+  |
+  | Premium creates a separate enriched
+  | copy called `premiumRows`.
+  |
+  */
+
+  const premiumRows =
+    useMemo(() => {
+      const enriched =
+        addPremiumScores(
+          rows,
+          profile
+        );
+
+      return sortByPremiumScore(
+        enriched
+      );
+    }, [
+      rows,
+      profile,
+    ]);
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | PREMIUM DEBUG
+  |--------------------------------------------------------------------------
+  */
+
+  console.log(
+    '[PREMIUM] Rows:',
+    premiumRows.length
+  );
+
+  console.log(
+    '[PREMIUM] First row:',
+    premiumRows[0]
+  );
+
+
   /*
   |--------------------------------------------------------------------------
   | BUCKET COUNTS
@@ -92,6 +161,7 @@ export default function Results() {
     summarizeBuckets(
       rows
     );
+
 
   /*
   |--------------------------------------------------------------------------
@@ -115,6 +185,7 @@ export default function Results() {
       safeResults,
     ]);
 
+
   /*
   |--------------------------------------------------------------------------
   | EXAM NAME
@@ -125,6 +196,7 @@ export default function Results() {
     getExamName(
       selectedExamId
     );
+
 
   return (
     <>
@@ -160,13 +232,19 @@ export default function Results() {
         }
       />
 
+
       <div className="container section">
+
+        {/* ============================================================
+            LOADING / ERROR
+        ============================================================ */}
 
         {catalogLoading && (
           <div className="source-note">
             Loading catalog...
           </div>
         )}
+
 
         {resultsLoading && (
           <div className="source-note">
@@ -178,6 +256,7 @@ export default function Results() {
           </div>
         )}
 
+
         {resultsError &&
           !resultsLoading && (
             <div className="source-note">
@@ -185,7 +264,10 @@ export default function Results() {
             </div>
           )}
 
-        {/* SUMMARY */}
+
+        {/* ============================================================
+            SUMMARY
+        ============================================================ */}
 
         <div className="results-summary">
 
@@ -220,7 +302,10 @@ export default function Results() {
 
         </div>
 
-        {/* FILTERS */}
+
+        {/* ============================================================
+            FILTERS
+        ============================================================ */}
 
         <div className="filter-bar">
 
@@ -236,7 +321,6 @@ export default function Results() {
               })
             }
           >
-
             <option value="">
               All Branches
             </option>
@@ -251,8 +335,8 @@ export default function Results() {
                 </option>
               )
             )}
-
           </select>
+
 
           <select
             value={
@@ -266,7 +350,6 @@ export default function Results() {
               })
             }
           >
-
             <option value="">
               All States
             </option>
@@ -281,8 +364,8 @@ export default function Results() {
                 </option>
               )
             )}
-
           </select>
+
 
           <select
             value={
@@ -296,7 +379,6 @@ export default function Results() {
               })
             }
           >
-
             <option value="">
               All College Types
             </option>
@@ -308,8 +390,8 @@ export default function Results() {
             <option value="Private">
               Private
             </option>
-
           </select>
+
 
           <select
             value={
@@ -323,7 +405,6 @@ export default function Results() {
               })
             }
           >
-
             <option value="match">
               Sort: Best Overall Match
             </option>
@@ -339,12 +420,14 @@ export default function Results() {
             <option value="placement">
               Sort: Best Placement
             </option>
-
           </select>
 
         </div>
 
-        {/* EMPTY */}
+
+        {/* ============================================================
+            EMPTY STATE
+        ============================================================ */}
 
         {!resultsLoading &&
           !rows.length && (
@@ -375,7 +458,211 @@ export default function Results() {
             </div>
           )}
 
-        {/* RESULT GROUPS */}
+
+        {/* ============================================================
+            PREMIUM RECOMMENDATION
+            ============================================================
+
+            ONLY ONE PREMIUM PREVIEW IS SHOWN.
+
+            Existing Dream / Target / Safe / Backup
+            results remain below this section.
+        ============================================================ */}
+
+        {!resultsLoading &&
+          premiumRows.length > 0 && (
+            <section
+              style={{
+                marginTop: 28,
+                marginBottom: 32,
+                padding: 20,
+                borderRadius: 18,
+                border:
+                  '1px solid #D9E2FF',
+                background:
+                  'linear-gradient(135deg,#F7F9FF,#FFFFFF)',
+                boxShadow:
+                  '0 8px 25px rgba(30,50,100,0.06)',
+              }}
+            >
+
+              {/* PREMIUM HEADER */}
+
+              <div
+                style={{
+                  marginBottom: 18,
+                }}
+              >
+
+                <div
+                  style={{
+                    fontSize: 11,
+                    fontWeight: 800,
+                    letterSpacing:
+                      '.08em',
+                    color:
+                      '#68738A',
+                  }}
+                >
+                  COUNSELLING WALLAH PRO
+                </div>
+
+
+                <h2
+                  style={{
+                    margin:
+                      '5px 0',
+                    color:
+                      '#172554',
+                  }}
+                >
+                  🔒 Your Personalized
+                  Recommendation
+                </h2>
+
+
+                <p
+                  style={{
+                    margin: 0,
+                    color:
+                      '#68738A',
+                    fontSize: 13,
+                    lineHeight: 1.5,
+                  }}
+                >
+                  One personalized college
+                  recommendation based on
+                  admission fit, branch,
+                  college quality, student
+                  reviews, budget and
+                  location.
+                </p>
+
+              </div>
+
+
+              {/* PREMIUM CARD */}
+
+              <div
+                style={{
+                  display:
+                    'grid',
+                  gap: 16,
+                }}
+              >
+
+                {premiumRows
+                  .slice(0, 1)
+                  .map(
+                    (
+                      row,
+                      index
+                    ) => {
+
+                      const collegeId =
+                        row?.collegeId ||
+                        row?.college_id ||
+                        row?.college?.id ||
+                        row?.college?.name ||
+                        'college';
+
+
+                      const branchName =
+                        row?.branch?.name ||
+                        row?.branch_name ||
+                        row?.branchName ||
+                        row?.program ||
+                        'branch';
+
+
+                      return (
+                        <PremiumRecommendation
+                          key={
+                            `premium-${selectedExamId}-${collegeId}-${branchName}-${index}`
+                          }
+                          row={row}
+                          locked={true}
+                        />
+                      );
+                    }
+                  )}
+
+              </div>
+
+
+              {/* PREMIUM CTA */}
+
+              <div
+                style={{
+                  marginTop: 20,
+                  padding: 15,
+                  borderRadius: 12,
+                  background:
+                    '#101A3A',
+                  color:
+                    '#FFFFFF',
+                  textAlign:
+                    'center',
+                }}
+              >
+
+                <div
+                  style={{
+                    fontSize: 14,
+                    fontWeight: 800,
+                  }}
+                >
+                  🔒 Unlock Full
+                  Premium Analysis
+                </div>
+
+
+                <div
+                  style={{
+                    marginTop: 5,
+                    fontSize: 12,
+                    lineHeight: 1.5,
+                    opacity: 0.85,
+                  }}
+                >
+                  Get Top 10 personalized
+                  suggestions, detailed
+                  reasons, branch alternatives,
+                  college quality analysis,
+                  review analysis, budget/ROI
+                  analysis and college
+                  comparisons.
+                </div>
+
+
+                <button
+                  type="button"
+                  className="btn btn-primary"
+                  style={{
+                    marginTop: 12,
+                  }}
+                  onClick={() =>
+                    nav('/pricing')
+                  }
+                >
+                  View Premium Plans →
+                </button>
+
+              </div>
+
+            </section>
+          )}
+
+
+        {/* ============================================================
+            EXISTING RESULT GROUPS
+            ============================================================
+
+            DO NOT CHANGE THIS LOGIC.
+
+            Dream / Target / Safe / Backup
+            continue using the existing `rows`.
+        ============================================================ */}
 
         {!resultsLoading &&
           rows.length > 0 &&
@@ -394,11 +681,13 @@ export default function Results() {
                     bucket
                 );
 
+
               if (
                 !group.length
               ) {
                 return null;
               }
+
 
               const descriptions = {
                 dream:
@@ -414,6 +703,7 @@ export default function Results() {
                   'Extra options to keep in hand.',
               };
 
+
               const colors = {
                 dream:
                   'var(--red)',
@@ -428,13 +718,16 @@ export default function Results() {
                   'var(--blue)',
               };
 
+
               return (
                 <div
                   className="result-group"
                   key={bucket}
                 >
 
-                  <div className="group-label">
+                  <div
+                    className="group-label"
+                  >
 
                     <span
                       className="dot"
@@ -446,6 +739,7 @@ export default function Results() {
                       }}
                     />
 
+
                     <h3>
                       {bucket
                         .charAt(0)
@@ -455,7 +749,10 @@ export default function Results() {
                         )}
                     </h3>
 
-                    <span className="count">
+
+                    <span
+                      className="count"
+                    >
                       {group.length}{' '}
                       options ·{' '}
                       {
@@ -467,7 +764,10 @@ export default function Results() {
 
                   </div>
 
-                  <div className="college-grid">
+
+                  <div
+                    className="college-grid"
+                  >
 
                     {group.map(
                       (
@@ -481,10 +781,12 @@ export default function Results() {
                           row?.college_id ||
                           'college';
 
+
                         const branchName =
                           row?.branch?.name ||
                           row?.branch_name ||
                           'branch';
+
 
                         return (
                           <CollegeCard
@@ -508,6 +810,7 @@ export default function Results() {
     </>
   );
 }
+
 
 /*
 |--------------------------------------------------------------------------
