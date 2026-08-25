@@ -1342,7 +1342,7 @@ function PremiumUnlock({
     <section className="premium-unlock">
 
       <div className="premium-unlock-icon">
-        PRO
+        ðŸ”’
       </div>
 
       <div className="premium-unlock-label">
@@ -1354,49 +1354,56 @@ function PremiumUnlock({
       </h2>
 
       <p className="premium-unlock-lead">
+
         <strong>
           {count}
         </strong>{' '}
-        more matching college options are visible below.
+
+        more matching college
+        options are visible below.
+
         {' '}
-        Unlock Premium to see their exact scores
-        and personalized reasoning.
+
+        Unlock Premium to see
+        their exact scores and
+        personalized reasoning.
+
       </p>
 
       <div className="premium-feature-grid">
 
         <PremiumFeature
-          icon="TOP 10"
+          icon="ðŸ†"
           title="Top 10 Personalized Colleges"
           text="See your strongest options ranked specifically for your profile."
         />
 
         <PremiumFeature
-          icon="SCORE"
+          icon="ðŸ’Ž"
           title="Exact Match Score"
-          text="Unlock the complete 0-100 personalized match score."
+          text="Unlock the complete 0â€“100 personalized match score."
         />
 
         <PremiumFeature
-          icon="DETAILS"
+          icon="ðŸŽ¯"
           title="Full Score Breakdown"
           text="Admission, branch, quality, reviews, budget and location."
         />
 
         <PremiumFeature
-          icon="WHY"
+          icon="ðŸ§ "
           title="Why Recommended"
           text="Understand exactly why each college is strong or weak for you."
         />
 
         <PremiumFeature
-          icon="BRANCH"
+          icon="ðŸŽ“"
           title="Branch Alternatives"
           text="Discover other suitable branches in your best colleges."
         />
 
         <PremiumFeature
-          icon="COMPARE"
+          icon="âš–ï¸"
           title="College Comparison"
           text="Compare your strongest college choices side by side."
         />
@@ -1406,9 +1413,11 @@ function PremiumUnlock({
       <button
         type="button"
         className="btn btn-orange premium-unlock-button"
-        onClick={onUnlock}
+        onClick={
+          onUnlock
+        }
       >
-        Unlock Premium
+        ðŸ”“ Unlock Premium
       </button>
 
     </section>
@@ -1429,23 +1438,7 @@ function PremiumFeature({
   return (
     <div>
 
-      <div
-        style={{
-          display: 'inline-flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          minHeight: 20,
-          padding: '3px 7px',
-          marginBottom: 5,
-          borderRadius: 999,
-          background: 'rgba(255,255,255,0.10)',
-          border: '1px solid rgba(255,255,255,0.15)',
-          color: '#FFFFFF',
-          fontSize: 8,
-          fontWeight: 800,
-          letterSpacing: '0.04em',
-        }}
-      >
+      <div>
         {icon}
       </div>
 
@@ -1490,4 +1483,3 @@ function Pill({
     </div>
   );
 }
-

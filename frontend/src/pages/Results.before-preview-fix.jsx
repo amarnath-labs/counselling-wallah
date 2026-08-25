@@ -1,4 +1,4 @@
-﻿import {
+import {
   useMemo,
   useState,
 } from 'react';
@@ -220,7 +220,7 @@ export default function Results() {
           ).toLocaleString(
             'en-IN'
           )}` +
-          ` Â· Category: ` +
+          ` · Category: ` +
           `${profile?.category ||
             'General'}`
         }
@@ -668,7 +668,7 @@ export default function Results() {
                         <span className="count">
 
                           {group.length}{' '}
-                          options Â·{' '}
+                          options ·{' '}
 
                           {
                             bucketMeta[
@@ -791,7 +791,7 @@ export default function Results() {
                     <span className="count">
 
                       {group.length}{' '}
-                      options Â·{' '}
+                      options ·{' '}
 
                       {
                         bucketMeta[
@@ -866,427 +866,274 @@ function PremiumRecommendationPreview({
   row,
   onUnlock,
 }) {
-  const college = row?.college || {};
-  const branch = row?.branch || {};
-  const premium = row?.premium || {};
+  const college =
+    row?.college || {};
+
+  const branch =
+    row?.branch || {};
+
+  const premium =
+    row?.premium || {};
 
   const category =
-    premium?.category || null;
+    premium?.category ||
+    null;
 
   const strongReasons =
     Array.isArray(
-      premium?.reasons?.strong
+      premium
+        ?.reasons
+        ?.strong
     )
-      ? premium.reasons.strong
+      ? premium
+          .reasons
+          .strong
       : [];
 
   const weakReasons =
     Array.isArray(
-      premium?.reasons?.weak
+      premium
+        ?.reasons
+        ?.weak
     )
-      ? premium.reasons.weak
+      ? premium
+          .reasons
+          .weak
       : [];
 
-  const lockedRows = [
-    ['Admission Fit', '50%'],
-    ['Branch Preference', '15%'],
-    ['College Quality', '15%'],
-    ['Student Reviews', '10%'],
-    ['Budget', '7%'],
-    ['Location', '3%'],
-  ];
-
   return (
-    <section
-      style={{
-        marginTop: 24,
-        marginBottom: 28,
-      }}
-    >
-      <div
-        style={{
-          marginBottom: 8,
-          color: '#3558d4',
-          fontSize: 10,
-          fontWeight: 800,
-          letterSpacing: '0.08em',
-        }}
-      >
+    <section className="premium-preview-section">
+
+      <div className="premium-preview-kicker">
         PREMIUM RECOMMENDATION PREVIEW
       </div>
 
-      <div
-        style={{
-          overflow: 'hidden',
-          background: '#ffffff',
-          border: '1px solid #e0e6f2',
-          borderRadius: 16,
-          boxShadow:
-            '0 12px 32px rgba(15,36,84,0.08)',
-        }}
-      >
+      <div className="premium-preview-card">
 
-        {/* HEADER */}
+        {/* TOP */}
 
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'flex-start',
-            gap: 20,
-            padding: 20,
-            borderBottom:
-              '1px solid #e8edf5',
-            background:
-              'linear-gradient(135deg,#ffffff,#f7f9ff)',
-          }}
-        >
+        <div className="premium-preview-top">
+
           <div>
-            <div
-              style={{
-                marginBottom: 5,
-                color: '#d99b00',
-                fontSize: 9,
-                fontWeight: 800,
-                letterSpacing: '0.08em',
-              }}
-            >
+
+            <div className="premium-preview-label">
               PREMIUM RECOMMENDATION
             </div>
 
-            <h3
-              style={{
-                margin: '0 0 5px',
-                color: '#102451',
-                fontSize: 17,
-              }}
-            >
+            <h3>
               {college.name}
             </h3>
 
-            <div
-              style={{
-                color: '#7d879c',
-                fontSize: 11,
-              }}
-            >
+            <p>
               {branch.name}
-            </div>
+            </p>
+
           </div>
 
-          <div
-            style={{
-              minWidth: 90,
-              padding: '10px 12px',
-              borderRadius: 10,
-              background: '#edf2ff',
-              textAlign: 'center',
-            }}
-          >
-            <div
-              style={{
-                color: '#8993a8',
-                fontSize: 8,
-                fontWeight: 800,
-              }}
-            >
+          <div className="premium-preview-score-lock">
+
+            <span>
               EXACT SCORE
-            </div>
+            </span>
 
-            <div
-              style={{
-                marginTop: 3,
-                color: '#173273',
-                fontSize: 11,
-                fontWeight: 800,
-              }}
-            >
+            <strong>
               LOCKED
-            </div>
+            </strong>
+
           </div>
+
         </div>
 
         {/* CATEGORY */}
 
         {category?.label && (
-          <div
-            style={{
-              display: 'inline-flex',
-              margin: '14px 20px 0',
-              padding: '6px 10px',
-              border: '1px solid #dfe6f5',
-              borderRadius: 999,
-              background: '#f7f9ff',
-              color: '#173273',
-              fontSize: 10.5,
-              fontWeight: 800,
-            }}
-          >
+          <div className="premium-preview-match">
             {category.label}
           </div>
         )}
 
-        {/* REASONS */}
+        {/* WHY + SCORE FACTORS */}
 
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns:
-              'repeat(2,minmax(0,1fr))',
-            gap: 12,
-            padding: 20,
-          }}
-        >
-          <div
-            style={{
-              padding: 14,
-              border: '1px solid #e3e8f2',
-              borderRadius: 12,
-              background: '#fafbfe',
-            }}
-          >
-            <div
-              style={{
-                marginBottom: 8,
-                color: '#142858',
-                fontSize: 12,
-                fontWeight: 800,
-              }}
-            >
+        <div className="premium-preview-content">
+
+          <div className="premium-preview-reason">
+
+            <h4>
               Why we recommend this
-            </div>
+            </h4>
 
-            {strongReasons.length > 0 ? (
+            {strongReasons.length >
+              0 ? (
+
               strongReasons
-                .slice(0, 2)
-                .map((reason, index) => (
-                  <div
-                    key={index}
-                    style={{
-                      margin: '6px 0',
-                      color: '#167449',
-                      fontSize: 10.5,
-                      lineHeight: 1.45,
-                    }}
-                  >
-                    ✓ {reason}
-                  </div>
-                ))
+                .slice(
+                  0,
+                  2
+                )
+                .map(
+                  (
+                    reason,
+                    index
+                  ) => (
+                    <p
+                      key={
+                        index
+                      }
+                      className="premium-positive"
+                    >
+                      ✓ {reason}
+                    </p>
+                  )
+                )
+
             ) : (
-              <div
-                style={{
-                  color: '#7d879c',
-                  fontSize: 10.5,
-                  lineHeight: 1.45,
-                }}
-              >
-                Personalized recommendation
-                reasons are available in Premium.
-              </div>
+
+              <p className="premium-muted">
+                Personalized
+                recommendation
+                reasons are
+                available in
+                Premium.
+              </p>
+
             )}
+
           </div>
 
-          <div
-            style={{
-              padding: 14,
-              border: '1px solid #e3e8f2',
-              borderRadius: 12,
-              background: '#fafbfe',
-            }}
-          >
-            <div
-              style={{
-                marginBottom: 8,
-                color: '#142858',
-                fontSize: 12,
-                fontWeight: 800,
-              }}
-            >
-              What affects the score
-            </div>
+          <div className="premium-preview-reason">
 
-            {weakReasons.length > 0 ? (
+            <h4>
+              What affects the score
+            </h4>
+
+            {weakReasons.length >
+              0 ? (
+
               weakReasons
-                .slice(0, 2)
-                .map((reason, index) => (
-                  <div
-                    key={index}
-                    style={{
-                      margin: '6px 0',
-                      color: '#816829',
-                      fontSize: 10.5,
-                      lineHeight: 1.45,
-                    }}
-                  >
-                    - {reason}
-                  </div>
-                ))
+                .slice(
+                  0,
+                  2
+                )
+                .map(
+                  (
+                    reason,
+                    index
+                  ) => (
+                    <p
+                      key={
+                        index
+                      }
+                      className="premium-warning"
+                    >
+                      - {reason}
+                    </p>
+                  )
+                )
+
             ) : (
               <>
-                <div
-                  style={{
-                    margin: '6px 0',
-                    color: '#816829',
-                    fontSize: 10.5,
-                  }}
-                >
-                  - College quality data pending.
-                </div>
 
-                <div
-                  style={{
-                    margin: '6px 0',
-                    color: '#816829',
-                    fontSize: 10.5,
-                  }}
-                >
-                  - Review data pending.
-                </div>
+                <p className="premium-warning">
+                  - College quality
+                  data may require
+                  verified data.
+                </p>
+
+                <p className="premium-warning">
+                  - Review data may
+                  require verified
+                  data.
+                </p>
+
               </>
             )}
+
           </div>
+
         </div>
 
-        {/* SCORE */}
+        {/* ===============================================
+            PREMIUM SCORE BREAKDOWN
+        =============================================== */}
 
-        <div
-          style={{
-            margin: '0 20px 18px',
-            padding: 14,
-            border: '1px solid #e3e8f2',
-            borderRadius: 12,
-            background: '#fafbfe',
-          }}
-        >
-          <div
-            style={{
-              marginBottom: 7,
-              color: '#142858',
-              fontSize: 12,
-              fontWeight: 800,
-            }}
-          >
-            Premium Score Breakdown
-          </div>
+        <div className="premium-preview-breakdown">
 
-          {lockedRows.map(
-            ([label, weight], index) => (
-              <div
-                key={label}
-                style={{
-                  display: 'flex',
-                  justifyContent:
-                    'space-between',
-                  alignItems: 'center',
-                  gap: 12,
-                  padding: '8px 2px',
-                  borderBottom:
-                    index ===
-                    lockedRows.length - 1
-                      ? 'none'
-                      : '1px solid #e8edf5',
-                }}
-              >
-                <div
-                  style={{
-                    color: '#56627a',
-                    fontSize: 10.5,
-                  }}
-                >
-                  {label}
+          <h4>
+            Premium Score
+          </h4>
 
-                  <span
-                    style={{
-                      color: '#8a94a9',
-                      fontSize: 9,
-                    }}
-                  >
-                    {' '}· {weight}
-                  </span>
-                </div>
+          <PremiumLockedRow
+            label="Admission Fit"
+            weight="50%"
+          />
 
-                <div
-                  style={{
-                    padding: '4px 8px',
-                    borderRadius: 999,
-                    background: '#edf2ff',
-                    color: '#173273',
-                    fontSize: 9,
-                    fontWeight: 800,
-                  }}
-                >
-                  LOCKED
-                </div>
-              </div>
-            )
-          )}
+          <PremiumLockedRow
+            label="Branch Preference"
+            weight="15%"
+          />
+
+          <PremiumLockedRow
+            label="College Quality"
+            weight="15%"
+          />
+
+          <PremiumLockedRow
+            label="Student Reviews"
+            weight="10%"
+          />
+
+          <PremiumLockedRow
+            label="Budget"
+            weight="7%"
+          />
+
+          <PremiumLockedRow
+            label="Location"
+            weight="3%"
+          />
+
         </div>
 
-        {/* FINAL LOCK */}
+        {/* ===============================================
+            INNER PREMIUM LOCK
+        =============================================== */}
 
-        <div
-          style={{
-            margin: '0 20px 20px',
-            padding: 22,
-            border: '1px solid #dfe6f5',
-            borderRadius: 12,
-            background:
-              'linear-gradient(135deg,#fafcff,#f2f6ff)',
-            textAlign: 'center',
-          }}
-        >
-          <div
-            style={{
-              display: 'inline-block',
-              marginBottom: 8,
-              padding: '5px 9px',
-              borderRadius: 999,
-              background: '#eaf0ff',
-              color: '#173273',
-              fontSize: 9,
-              fontWeight: 800,
-            }}
-          >
-            LOCKED
+        <div className="premium-preview-inner-lock">
+
+          <div className="premium-preview-lock-icon">
+            🔒
           </div>
 
-          <div
-            style={{
-              color: '#142858',
-              fontSize: 13,
-              fontWeight: 800,
-            }}
-          >
+          <strong>
             Full Premium Analysis
-          </div>
+          </strong>
 
-          <div
-            style={{
-              maxWidth: 520,
-              margin: '6px auto 14px',
-              color: '#7c879b',
-              fontSize: 10.5,
-              lineHeight: 1.5,
-            }}
-          >
+          <span>
+
             Unlock exact scores,
             personalized reasoning,
             branch alternatives,
             college quality,
-            reviews, budget analysis
-            and location fit.
-          </div>
+            review analysis,
+            budget analysis and
+            location fit.
+
+          </span>
 
           <button
             type="button"
             className="btn btn-primary"
-            onClick={onUnlock}
+            onClick={
+              onUnlock
+            }
           >
             Unlock Full Analysis
           </button>
+
         </div>
 
       </div>
+
     </section>
   );
 }
@@ -1310,7 +1157,7 @@ function PremiumLockedRow({
 
         {weight && (
           <small>
-            {' '}Â· {weight}
+            {' '}· {weight}
           </small>
         )}
 
@@ -1342,7 +1189,7 @@ function PremiumUnlock({
     <section className="premium-unlock">
 
       <div className="premium-unlock-icon">
-        PRO
+        🔒
       </div>
 
       <div className="premium-unlock-label">
@@ -1354,49 +1201,56 @@ function PremiumUnlock({
       </h2>
 
       <p className="premium-unlock-lead">
+
         <strong>
           {count}
         </strong>{' '}
-        more matching college options are visible below.
+
+        more matching college
+        options are visible below.
+
         {' '}
-        Unlock Premium to see their exact scores
-        and personalized reasoning.
+
+        Unlock Premium to see
+        their exact scores and
+        personalized reasoning.
+
       </p>
 
       <div className="premium-feature-grid">
 
         <PremiumFeature
-          icon="TOP 10"
+          icon="🏆"
           title="Top 10 Personalized Colleges"
           text="See your strongest options ranked specifically for your profile."
         />
 
         <PremiumFeature
-          icon="SCORE"
+          icon="💎"
           title="Exact Match Score"
-          text="Unlock the complete 0-100 personalized match score."
+          text="Unlock the complete 0–100 personalized match score."
         />
 
         <PremiumFeature
-          icon="DETAILS"
+          icon="🎯"
           title="Full Score Breakdown"
           text="Admission, branch, quality, reviews, budget and location."
         />
 
         <PremiumFeature
-          icon="WHY"
+          icon="🧠"
           title="Why Recommended"
           text="Understand exactly why each college is strong or weak for you."
         />
 
         <PremiumFeature
-          icon="BRANCH"
+          icon="🎓"
           title="Branch Alternatives"
           text="Discover other suitable branches in your best colleges."
         />
 
         <PremiumFeature
-          icon="COMPARE"
+          icon="⚖️"
           title="College Comparison"
           text="Compare your strongest college choices side by side."
         />
@@ -1406,9 +1260,11 @@ function PremiumUnlock({
       <button
         type="button"
         className="btn btn-orange premium-unlock-button"
-        onClick={onUnlock}
+        onClick={
+          onUnlock
+        }
       >
-        Unlock Premium
+        🔓 Unlock Premium
       </button>
 
     </section>
@@ -1429,23 +1285,7 @@ function PremiumFeature({
   return (
     <div>
 
-      <div
-        style={{
-          display: 'inline-flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          minHeight: 20,
-          padding: '3px 7px',
-          marginBottom: 5,
-          borderRadius: 999,
-          background: 'rgba(255,255,255,0.10)',
-          border: '1px solid rgba(255,255,255,0.15)',
-          color: '#FFFFFF',
-          fontSize: 8,
-          fontWeight: 800,
-          letterSpacing: '0.04em',
-        }}
-      >
+      <div>
         {icon}
       </div>
 
@@ -1490,4 +1330,3 @@ function Pill({
     </div>
   );
 }
-
