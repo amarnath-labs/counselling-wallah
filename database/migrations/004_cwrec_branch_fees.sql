@@ -2,19 +2,16 @@
 -- CW-REC BRANCH FEES
 -- ADDITIVE / IDEMPOTENT
 -- NO DATA DELETE
+-- NO FOREIGN KEY DEPENDENCY
 -- ============================================================
 
 CREATE TABLE IF NOT EXISTS branch_fees (
 
   id BIGSERIAL PRIMARY KEY,
 
-  college_id TEXT NOT NULL
-    REFERENCES colleges(id)
-    ON DELETE CASCADE,
+  college_id TEXT NOT NULL,
 
-  branch_id BIGINT NULL
-    REFERENCES branches(id)
-    ON DELETE CASCADE,
+  branch_id BIGINT NULL,
 
   program VARCHAR(50) NOT NULL
     DEFAULT 'B.Tech',
