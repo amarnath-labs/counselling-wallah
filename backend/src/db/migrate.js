@@ -1,4 +1,4 @@
-﻿import fs from 'node:fs/promises';
+import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { pool } from './pool.js';
@@ -24,11 +24,14 @@ try {
     const migrationPath =
       path.join(migrationsDir, file);
 
-    const sql =
+    const rawSql =
       await fs.readFile(
         migrationPath,
         'utf8'
       );
+
+    const sql =
+      rawSql.replace(/^\uFEFF/, '');
 
     console.log(
       `Running migration: ${file}`
