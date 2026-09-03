@@ -7,6 +7,12 @@ import { requireAuth } from "../middleware/auth.js";
 
 const router = Router();
 
+/*
+|--------------------------------------------------------------------------
+| CONFIG
+|--------------------------------------------------------------------------
+*/
+
 const COOKIE_NAME =
   process.env.AUTH_COOKIE_NAME || "cw_auth";
 
@@ -16,231 +22,689 @@ const COOKIE_DAYS =
 const isProduction =
   process.env.NODE_ENV === "production";
 
+
+/*
+|--------------------------------------------------------------------------
+| VALIDATION
+|--------------------------------------------------------------------------
+*/
+
 const registerSchema = z.object({
-  name: z.string().trim().min(2).max(100),
-  email: z.string().trim().email().max(255),
-  password: z.string().min(8).max(128),
-  phone: z.string().trim().max(20).optional().or(z.literal("")),
+  name: z
+    .string()
+    .trim()
+    .min(2)
+    .max(100),
+
+  email: z
+    .string()
+    .trim()
+    .email()
+    .max(255),
+
+  password: z
+    .string()
+    .min(8)
+    .max(128),
+
+  phone: z
+    .string()
+    .trim()
+    .max(20)
+    .optional()
+    .or(z.literal("")),
 });
+
 
 const loginSchema = z.object({
-  email: z.string().trim().email(),
-  password: z.string().min(1),
+  email: z
+    .string()
+    .trim()
+    .email(),
+
+  password: z
+    .string()
+    .min(1),
 });
 
+
+/*
+|--------------------------------------------------------------------------
+| JWT
+|--------------------------------------------------------------------------
+*/
+
 function signToken(user) {
-  if (!process.env.AUTH_JWT_SECRET) {
-    throw new Error("AUTH_JWT_SECRET is not configured");
+  const secret =
+    process.env.AUTH_JWT_SECRET;
+
+  if (!secret) {
+    throw new Error(
+      "AUTH_JWT_SECRET is not configured"
+    );
   }
 
   return jwt.sign(
     {
       sub: String(user.id),
       email: user.email,
-      role: user.role,
+      role: user.role || "user",
     },
-    process.env.AUTH_JWT_SECRET,
+    secret,
     {
-      expiresIn: `${COOKIE_DAYS}d`,
+      expiresIn:
+        `${COOKIE_DAYS}d`,
     }
   );
 }
 
-function setAuthCookie(res, token) {
-  res.cookie(COOKIE_NAME, token, {
+
+/*
+|--------------------------------------------------------------------------
+| AUTH COOKIE
+|--------------------------------------------------------------------------
+|
+| Production:
+|
+| Frontend:
+| https://counselling-wallah-frontend.vercel.app
+|
+| Backend:
+| https://counsellingwallah-backend.onrender.com
+|
+| They are cross-site, therefore:
+|
+| SameSite=None
+| Secure=true
+|
+|--------------------------------------------------------------------------
+*/
+
+function getCookieOptions() {
+  if (isProduction) {
+    return {
+      httpOnly: true,
+
+      secure: true,
+
+      sameSite: "none",
+
+      path: "/",
+
+      maxAge:
+        COOKIE_DAYS *
+        24 *
+        60 *
+        60 *
+        1000,
+    };
+  }
+
+  return {
     httpOnly: true,
-    secure: isProduction,
-    sameSite: isProduction ? "none" : "lax",
-    maxAge: COOKIE_DAYS * 24 * 60 * 60 * 1000,
+
+    secure: false,
+
+    sameSite: "lax",
+
     path: "/",
-  });
+
+    maxAge:
+      COOKIE_DAYS *
+      24 *
+      60 *
+      60 *
+      1000,
+  };
 }
 
-function clearAuthCookie(res) {
-  res.clearCookie(COOKIE_NAME, {
-    httpOnly: true,
-    secure: isProduction,
-    sameSite: isProduction ? "none" : "lax",
-    path: "/",
-  });
+
+function setAuthCookie(
+  res,
+  token
+) {
+  res.cookie(
+    COOKIE_NAME,
+    token,
+    getCookieOptions()
+  );
 }
 
-router.post("/register", async (req, res, next) => {
-  try {
-    const input = registerSchema.parse(req.body);
-    const email = input.email.toLowerCase();
 
-    const existing = await pool.query(
-      `
-      SELECT id
-      FROM users
-      WHERE LOWER(email) = LOWER($1)
-      LIMIT 1
-      `,
-      [email]
-    );
+function clearAuthCookie(
+  res
+) {
+  const options =
+    getCookieOptions();
 
-    if (existing.rows.length) {
-      return res.status(409).json({
-        error: "An account with this email already exists",
-      });
-    }
+  /*
+  |--------------------------------------------------------------------------
+  | maxAge must not be supplied to clearCookie
+  |--------------------------------------------------------------------------
+  */
 
-    const passwordHash = await bcrypt.hash(
-      input.password,
-      12
-    );
+  delete options.maxAge;
 
-    const result = await pool.query(
-      `
-      INSERT INTO users (
-        name,
-        email,
-        password_hash,
-        phone
-      )
-      VALUES ($1, $2, $3, $4)
-      RETURNING
-        id,
-        name,
-        email,
-        phone,
-        role,
-        created_at
-      `,
-      [
-        input.name,
-        email,
-        passwordHash,
-        input.phone || null,
-      ]
-    );
+  res.clearCookie(
+    COOKIE_NAME,
+    options
+  );
+}
 
-    const user = result.rows[0];
-    const token = signToken(user);
 
-    setAuthCookie(res, token);
+/*
+|--------------------------------------------------------------------------
+| USER RESPONSE
+|--------------------------------------------------------------------------
+|
+| Never return password hashes.
+|
+|--------------------------------------------------------------------------
+*/
 
-    res.status(201).json({
-      data: {
-        user,
-      },
-    });
-  } catch (error) {
-    if (error?.name === "ZodError") {
-      return res.status(400).json({
-        error: "Invalid registration data",
-        details: error.issues,
-      });
-    }
-
-    next(error);
+function serializeUser(user) {
+  if (!user) {
+    return null;
   }
-});
 
-router.post("/login", async (req, res, next) => {
-  try {
-    const input = loginSchema.parse(req.body);
-    const email = input.email.toLowerCase();
+  return {
+    id:
+      user.id,
 
-    const result = await pool.query(
-      `
-      SELECT
-        id,
-        name,
-        email,
-        phone,
-        role,
-        password_hash,
-        created_at
-      FROM users
-      WHERE LOWER(email) = LOWER($1)
-      LIMIT 1
-      `,
-      [email]
-    );
+    name:
+      user.name,
 
-    if (!result.rows.length) {
-      return res.status(401).json({
-        error: "Invalid email or password",
-      });
+    email:
+      user.email,
+
+    phone:
+      user.phone || "",
+
+    role:
+      user.role || "user",
+
+    createdAt:
+      user.created_at || null,
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| REGISTER
+|--------------------------------------------------------------------------
+*/
+
+router.post(
+  "/register",
+  async (
+    req,
+    res,
+    next
+  ) => {
+    try {
+      const input =
+        registerSchema.parse(
+          req.body
+        );
+
+      const email =
+        input.email
+          .trim()
+          .toLowerCase();
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | Check existing account
+      |--------------------------------------------------------------------------
+      */
+
+      const existing =
+        await pool.query(
+          `
+          SELECT id
+          FROM users
+          WHERE LOWER(email) = LOWER($1)
+          LIMIT 1
+          `,
+          [
+            email,
+          ]
+        );
+
+
+      if (
+        existing.rows.length
+      ) {
+        return res
+          .status(409)
+          .json({
+            error:
+              "An account with this email already exists",
+          });
+      }
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | Hash password
+      |--------------------------------------------------------------------------
+      */
+
+      const passwordHash =
+        await bcrypt.hash(
+          input.password,
+          12
+        );
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | Create user
+      |--------------------------------------------------------------------------
+      */
+
+      const result =
+        await pool.query(
+          `
+          INSERT INTO users (
+            name,
+            email,
+            password_hash,
+            phone
+          )
+          VALUES (
+            $1,
+            $2,
+            $3,
+            $4
+          )
+          RETURNING
+            id,
+            name,
+            email,
+            phone,
+            role,
+            created_at
+          `,
+          [
+            input.name.trim(),
+
+            email,
+
+            passwordHash,
+
+            input.phone
+              ? input.phone.trim()
+              : null,
+          ]
+        );
+
+
+      const user =
+        result.rows[0];
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | Create login token
+      |--------------------------------------------------------------------------
+      */
+
+      const token =
+        signToken(
+          user
+        );
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | Store token in HTTP-only cookie
+      |--------------------------------------------------------------------------
+      */
+
+      setAuthCookie(
+        res,
+        token
+      );
+
+
+      return res
+        .status(201)
+        .json({
+          success:
+            true,
+
+          user:
+            serializeUser(
+              user
+            ),
+        });
+
+    } catch (
+      error
+    ) {
+      /*
+      |--------------------------------------------------------------------------
+      | Zod validation error
+      |--------------------------------------------------------------------------
+      */
+
+      if (
+        error instanceof
+        z.ZodError
+      ) {
+        return res
+          .status(400)
+          .json({
+            error:
+              "Invalid registration data",
+
+            details:
+              error.issues,
+          });
+      }
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | PostgreSQL unique email safety
+      |--------------------------------------------------------------------------
+      */
+
+      if (
+        error?.code ===
+        "23505"
+      ) {
+        return res
+          .status(409)
+          .json({
+            error:
+              "An account with this email already exists",
+          });
+      }
+
+
+      return next(
+        error
+      );
     }
-
-    const user = result.rows[0];
-
-    const valid = await bcrypt.compare(
-      input.password,
-      user.password_hash
-    );
-
-    if (!valid) {
-      return res.status(401).json({
-        error: "Invalid email or password",
-      });
-    }
-
-    delete user.password_hash;
-
-    const token = signToken(user);
-
-    setAuthCookie(res, token);
-
-    res.json({
-      data: {
-        user,
-      },
-    });
-  } catch (error) {
-    if (error?.name === "ZodError") {
-      return res.status(400).json({
-        error: "Invalid login data",
-      });
-    }
-
-    next(error);
   }
-});
+);
 
-router.get("/me", requireAuth, async (req, res, next) => {
-  try {
-    const result = await pool.query(
-      `
-      SELECT
-        id,
-        name,
-        email,
-        phone,
-        role,
-        created_at
-      FROM users
-      WHERE id = $1
-      LIMIT 1
-      `,
-      [req.user.id]
+
+/*
+|--------------------------------------------------------------------------
+| LOGIN
+|--------------------------------------------------------------------------
+*/
+
+router.post(
+  "/login",
+  async (
+    req,
+    res,
+    next
+  ) => {
+    try {
+      const input =
+        loginSchema.parse(
+          req.body
+        );
+
+
+      const email =
+        input.email
+          .trim()
+          .toLowerCase();
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | Find account
+      |--------------------------------------------------------------------------
+      */
+
+      const result =
+        await pool.query(
+          `
+          SELECT
+            id,
+            name,
+            email,
+            phone,
+            role,
+            password_hash,
+            created_at
+          FROM users
+          WHERE LOWER(email) = LOWER($1)
+          LIMIT 1
+          `,
+          [
+            email,
+          ]
+        );
+
+
+      const user =
+        result.rows[0];
+
+
+      if (!user) {
+        return res
+          .status(401)
+          .json({
+            error:
+              "Invalid email or password",
+          });
+      }
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | Verify password
+      |--------------------------------------------------------------------------
+      */
+
+      const passwordMatches =
+        await bcrypt.compare(
+          input.password,
+          user.password_hash
+        );
+
+
+      if (
+        !passwordMatches
+      ) {
+        return res
+          .status(401)
+          .json({
+            error:
+              "Invalid email or password",
+          });
+      }
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | Create JWT
+      |--------------------------------------------------------------------------
+      */
+
+      const token =
+        signToken(
+          user
+        );
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | Store JWT cookie
+      |--------------------------------------------------------------------------
+      */
+
+      setAuthCookie(
+        res,
+        token
+      );
+
+
+      return res.json({
+        success:
+          true,
+
+        user:
+          serializeUser(
+            user
+          ),
+      });
+
+    } catch (
+      error
+    ) {
+      if (
+        error instanceof
+        z.ZodError
+      ) {
+        return res
+          .status(400)
+          .json({
+            error:
+              "Invalid login data",
+
+            details:
+              error.issues,
+          });
+      }
+
+
+      return next(
+        error
+      );
+    }
+  }
+);
+
+
+/*
+|--------------------------------------------------------------------------
+| CURRENT USER
+|--------------------------------------------------------------------------
+*/
+
+router.get(
+  "/me",
+  requireAuth,
+  async (
+    req,
+    res,
+    next
+  ) => {
+    try {
+      /*
+      |--------------------------------------------------------------------------
+      | requireAuth should populate req.user
+      |--------------------------------------------------------------------------
+      */
+
+      const userId =
+        req.user?.id ||
+        req.user?.sub;
+
+
+      if (!userId) {
+        return res
+          .status(401)
+          .json({
+            error:
+              "Authentication required",
+          });
+      }
+
+
+      const result =
+        await pool.query(
+          `
+          SELECT
+            id,
+            name,
+            email,
+            phone,
+            role,
+            created_at
+          FROM users
+          WHERE id = $1
+          LIMIT 1
+          `,
+          [
+            userId,
+          ]
+        );
+
+
+      if (
+        !result.rows.length
+      ) {
+        clearAuthCookie(
+          res
+        );
+
+        return res
+          .status(401)
+          .json({
+            error:
+              "Authentication required",
+          });
+      }
+
+
+      return res.json({
+        success:
+          true,
+
+        user:
+          serializeUser(
+            result.rows[0]
+          ),
+      });
+
+    } catch (
+      error
+    ) {
+      return next(
+        error
+      );
+    }
+  }
+);
+
+
+/*
+|--------------------------------------------------------------------------
+| LOGOUT
+|--------------------------------------------------------------------------
+*/
+
+router.post(
+  "/logout",
+  (
+    req,
+    res
+  ) => {
+    clearAuthCookie(
+      res
     );
 
-    if (!result.rows.length) {
-      return res.status(401).json({
-        error: "User account no longer exists",
-      });
-    }
+    return res.json({
+      success:
+        true,
 
-    res.json({
-      data: {
-        user: result.rows[0],
-      },
+      message:
+        "Logged out successfully",
     });
-  } catch (error) {
-    next(error);
   }
-});
+);
 
-router.post("/logout", (_req, res) => {
-  clearAuthCookie(res);
-
-  res.json({
-    success: true,
-  });
-});
 
 export default router;
