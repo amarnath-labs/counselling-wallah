@@ -1,300 +1,900 @@
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import PageHero from '../components/PageHero';
-import { startCashfreeCheckout } from '../services/paymentService';
+import {
+  useEffect,
+  useMemo,
+  useState,
+} from 'react';
+
+import {
+  useNavigate,
+} from 'react-router-dom';
+
+import {
+  useAuth,
+} from '../hooks/AuthContext';
+
+import {
+  getMyPaymentAccess,
+  normalizePaymentAccess,
+  startCashfreeCheckout,
+} from '../services/paymentService';
+
 
 const PLANS = [
   {
-    id: 'free',
-    name: 'FREE',
-    amount: '₹0',
-    subtitle: 'Start exploring',
-    items: [
-      'Basic college search',
-      'Limited results',
-      'Basic college information',
-    ],
-    button: 'Start Free',
-  },
-  {
     id: 'basic',
-    name: 'BASIC',
-    amount: '₹49',
-    subtitle: 'For quick college research',
-    items: [
-      'Full eligible college list',
-      '2026 Round-wise cutoff details',
-      'Basic filters',
-      'College-wise cutoff information',
+    level: 1,
+    name: 'COLLEGE PREDICTOR',
+    price: 49,
+    subtitle: 'Check Your College Chances',
+    description:
+      'Get college admission chances based on your rank and counselling data.',
+    features: [
+      'College Predictor',
+      'Rank-based admission chances',
+      'Dream / Target / Safe / Backup',
+      'College & branch options',
     ],
-    button: 'Unlock Basic',
   },
+
   {
     id: 'finder',
-    name: 'COLLEGE FINDER',
-    amount: '₹99',
-    subtitle: 'For personalized counselling',
+    level: 2,
+    name: 'RECOMMENDATION',
+    price: 99,
+    subtitle: 'Personalized College Recommendations',
     popular: true,
-    items: [
-      'Everything in Basic',
-      'Dream / Target / Safe / Backup',
-      'Advanced filters',
-      'College comparison',
-      'Preference-list builder',
+    description:
+      'Get personalized recommendations using rank, branch preference, college quality and more.',
+    features: [
+      'Everything in College Predictor',
+      'Personalized Recommendations',
+      'Premium Match Score',
+      'Branch Preference Analysis',
+      'College Quality Analysis',
+      'Budget & Location Match',
     ],
-    button: 'Unlock College Finder',
   },
+
   {
     id: 'support',
-    name: 'COUNSELLING SUPPORT',
-    amount: '₹299',
-    subtitle: 'For personal guidance',
-    items: [
-      'Everything in College Finder',
-      'Personalized counselling guidance',
-      'Choice-list review',
-      'Deadline reminders',
-      'Document guidance',
-      'Support chat',
+    level: 3,
+    name: 'CALL SUPPORT',
+    price: 599,
+    subtitle: 'Personal Counselling Support',
+    description:
+      'Get premium recommendation access plus personal counselling support.',
+    features: [
+      'Everything in Recommendation',
+      'Personal Counselling Call',
+      'Choice Filling Guidance',
+      'College Selection Support',
+      'Priority Assistance',
     ],
-    button: 'Get Counselling Support',
   },
 ];
 
+
+function getPlanLevel(
+  planId
+) {
+  if (
+    planId === 'support'
+  ) {
+    return 3;
+  }
+
+  if (
+    planId === 'finder'
+  ) {
+    return 2;
+  }
+
+  if (
+    planId === 'basic'
+  ) {
+    return 1;
+  }
+
+  return 0;
+}
+
+
 export default function Pricing() {
-  const navigate = useNavigate();
-  const [selectedPlan, setSelectedPlan] = useState(null);
-  const [paymentLoading, setPaymentLoading] = useState(false);
-  const [paymentError, setPaymentError] = useState('');
+  const navigate =
+    useNavigate();
 
-  const handleClick = (plan) => {
-    setPaymentError('');
-    setSelectedPlan(plan);
 
-    if (plan.id === 'free') {
-      navigate('/exams');
-    }
-  };
+  const {
+    user,
+    authLoading,
+  } =
+    useAuth();
 
-  const handlePayment = async () => {
-    if (!selectedPlan || selectedPlan.id === 'free') {
+
+  const [
+    access,
+    setAccess,
+  ] =
+    useState({
+      planId: null,
+      hasPaidPlan: false,
+      collegePredictor: false,
+      recommendation: false,
+      callSupport: false,
+    });
+
+
+  const [
+    accessLoading,
+    setAccessLoading,
+  ] =
+    useState(true);
+
+
+  const [
+    paymentLoading,
+    setPaymentLoading,
+  ] =
+    useState(null);
+
+
+  const [
+    error,
+    setError,
+  ] =
+    useState('');
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | CURRENT PLAN LEVEL
+  |--------------------------------------------------------------------------
+  */
+
+  const currentLevel =
+    useMemo(
+      () =>
+        getPlanLevel(
+          access?.planId
+        ),
+      [
+        access?.planId,
+      ]
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | LOAD PAYMENT ACCESS
+  |--------------------------------------------------------------------------
+  */
+
+  async function loadAccess() {
+    /*
+    |--------------------------------------------------------------------------
+    | Logged out
+    |--------------------------------------------------------------------------
+    */
+
+    if (!user) {
+      setAccess({
+        planId: null,
+        hasPaidPlan: false,
+        collegePredictor: false,
+        recommendation: false,
+        callSupport: false,
+      });
+
+
+      setAccessLoading(
+        false
+      );
+
+
       return;
     }
 
-    setPaymentLoading(true);
-    setPaymentError('');
 
     try {
-      await startCashfreeCheckout(selectedPlan.id);
-    } catch (error) {
-      setPaymentError(
-        error?.message ||
-          'Unable to start payment. Please try again.'
+      setAccessLoading(
+        true
       );
-      setPaymentLoading(false);
+
+
+      setError('');
+
+
+      const response =
+        await getMyPaymentAccess();
+
+
+      const normalized =
+        normalizePaymentAccess(
+          response
+        );
+
+
+      setAccess(
+        normalized
+      );
+
+    } catch (
+      err
+    ) {
+      console.error(
+        '[PRICING ACCESS ERROR]',
+        err
+      );
+
+
+      if (
+        err?.status === 401 ||
+        err?.statusCode === 401
+      ) {
+        setAccess({
+          planId: null,
+          hasPaidPlan: false,
+          collegePredictor: false,
+          recommendation: false,
+          callSupport: false,
+        });
+
+
+        return;
+      }
+
+
+      setError(
+        err?.message ||
+        'Unable to load your plan.'
+      );
+
+    } finally {
+      setAccessLoading(
+        false
+      );
     }
-  };
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | LOAD WHEN AUTH CHANGES
+  |--------------------------------------------------------------------------
+  */
+
+  useEffect(
+    () => {
+      if (
+        authLoading
+      ) {
+        return;
+      }
+
+
+      loadAccess();
+    },
+    [
+      authLoading,
+      user,
+    ]
+  );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | LISTEN AFTER PAYMENT SUCCESS
+  |--------------------------------------------------------------------------
+  */
+
+  useEffect(
+    () => {
+      function handleAccessUpdated(
+        event
+      ) {
+        if (
+          event?.detail
+        ) {
+          setAccess(
+            event.detail
+          );
+        } else {
+          loadAccess();
+        }
+      }
+
+
+      window.addEventListener(
+        'cw-payment-access-updated',
+        handleAccessUpdated
+      );
+
+
+      return () => {
+        window.removeEventListener(
+          'cw-payment-access-updated',
+          handleAccessUpdated
+        );
+      };
+    },
+    [
+      user,
+    ]
+  );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | BUY PLAN
+  |--------------------------------------------------------------------------
+  */
+
+  async function handlePlanClick(
+    plan
+  ) {
+    setError('');
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | LOGIN REQUIRED
+    |--------------------------------------------------------------------------
+    */
+
+    if (!user) {
+      navigate(
+        '/login?redirect=/pricing'
+      );
+
+      return;
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | ALREADY OWNED / INCLUDED
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      currentLevel >=
+      plan.level
+    ) {
+      return;
+    }
+
+
+    try {
+      setPaymentLoading(
+        plan.id
+      );
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | Re-check entitlement before creating payment
+      |--------------------------------------------------------------------------
+      */
+
+      const response =
+        await getMyPaymentAccess();
+
+
+      const latestAccess =
+        normalizePaymentAccess(
+          response
+        );
+
+
+      setAccess(
+        latestAccess
+      );
+
+
+      const latestLevel =
+        getPlanLevel(
+          latestAccess
+            ?.planId
+        );
+
+
+      if (
+        latestLevel >=
+        plan.level
+      ) {
+        return;
+      }
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | CASHFREE
+      |--------------------------------------------------------------------------
+      */
+
+      await startCashfreeCheckout(
+        plan.id
+      );
+
+    } catch (
+      err
+    ) {
+      console.error(
+        '[PAYMENT START ERROR]',
+        err
+      );
+
+
+      if (
+        err?.status === 401 ||
+        err?.statusCode === 401
+      ) {
+        navigate(
+          '/login?redirect=/pricing'
+        );
+
+        return;
+      }
+
+
+      if (
+        err?.status === 409 ||
+        err?.statusCode === 409
+      ) {
+        await loadAccess();
+
+        return;
+      }
+
+
+      setError(
+        err?.message ||
+        'Unable to start payment.'
+      );
+
+    } finally {
+      setPaymentLoading(
+        null
+      );
+    }
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | BUTTON STATE
+  |--------------------------------------------------------------------------
+  */
+
+  function getPlanButton(
+    plan
+  ) {
+    if (
+      authLoading ||
+      accessLoading
+    ) {
+      return {
+        text:
+          'Checking...',
+        disabled:
+          true,
+      };
+    }
+
+
+    if (!user) {
+      return {
+        text:
+          'Login to Purchase',
+        disabled:
+          false,
+      };
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Exact current plan
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      access?.planId ===
+      plan.id
+    ) {
+      return {
+        text:
+          'Current Plan',
+        disabled:
+          true,
+      };
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Lower plan inherited by higher plan
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      currentLevel >
+      plan.level
+    ) {
+      return {
+        text:
+          'Included in Your Plan',
+        disabled:
+          true,
+      };
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Upgrade
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      currentLevel > 0 &&
+      currentLevel <
+        plan.level
+    ) {
+      return {
+        text:
+          `Upgrade to ${plan.name}`,
+        disabled:
+          false,
+      };
+    }
+
+
+    return {
+      text:
+        `Get ${plan.name}`,
+      disabled:
+        false,
+    };
+  }
+
 
   return (
-    <>
-      <PageHero
-        title="Counselling Wallah Pro"
-        description="Choose the plan that fits your counselling needs."
-        crumb={<a href="/">Home</a>}
-      />
+    <div
+      className="container section"
+    >
+      <div
+        style={{
+          textAlign:
+            'center',
 
-      <div className="container section">
-        <div className="section-head">
-          <div className="kicker">
-            Counselling Wallah Pro
-          </div>
+          maxWidth:
+            '760px',
 
-          <h2>
-            Simple, transparent pricing
-          </h2>
-        </div>
+          margin:
+            '0 auto 36px',
+        }}
+      >
+        <h1>
+          Choose Your Plan
+        </h1>
 
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns:
-              'repeat(auto-fit, minmax(260px, 1fr))',
-            gap: '18px',
-            alignItems: 'stretch',
-          }}
-        >
-          {PLANS.map((plan) => (
-            <div
-              key={plan.id}
-              className="card"
-              style={{
-                position: 'relative',
-                zIndex: 1,
-                padding: '28px',
-                minHeight: '470px',
-                display: 'flex',
-                flexDirection: 'column',
-                pointerEvents: 'auto',
-                borderRadius: '22px',
-                border: plan.popular
-                  ? '2px solid var(--orange)'
-                  : '1px solid var(--line)',
-              }}
-            >
-              {plan.popular && (
-                <div
-                  style={{
-                    position: 'absolute',
-                    top: '-14px',
-                    right: '20px',
-                    zIndex: 20,
-                    background: 'var(--orange)',
-                    color: '#fff',
-                    padding: '7px 15px',
-                    borderRadius: '999px',
-                    fontSize: '12px',
-                    fontWeight: 800,
-                    pointerEvents: 'none',
-                  }}
-                >
-                  MOST USED
-                </div>
-              )}
 
-              <div
-                style={{
-                  color: 'var(--ink-3)',
-                  fontWeight: 800,
-                  fontSize: '15px',
-                }}
-              >
-                {plan.name}
-              </div>
+        <p>
+          Simple counselling tools designed to help you make a better college decision.
+        </p>
 
-              <div
-                style={{
-                  fontSize: '42px',
-                  fontWeight: 800,
-                  color: 'var(--navy)',
-                  marginTop: '12px',
-                }}
-              >
-                {plan.amount}
-              </div>
 
-              <div
-                style={{
-                  color: 'var(--ink-3)',
-                  marginTop: '5px',
-                  marginBottom: '20px',
-                }}
-              >
-                {plan.subtitle}
-              </div>
-
-              <div style={{ flex: 1 }}>
-                {plan.items.map((item) => (
-                  <div
-                    key={item}
-                    style={{
-                      padding: '12px 0',
-                      borderBottom:
-                        '1px dashed var(--line)',
-                      color: 'var(--ink)',
-                    }}
-                  >
-                    ✓ {item}
-                  </div>
-                ))}
-              </div>
-
-              <button
-                type="button"
-                onClick={() => handleClick(plan)}
-                style={{
-                  position: 'relative',
-                  zIndex: 100,
-                  pointerEvents: 'auto',
-                  cursor: 'pointer',
-                  width: '100%',
-                  minHeight: '54px',
-                  marginTop: '24px',
-                  borderRadius: '14px',
-                  border: plan.popular
-                    ? 'none'
-                    : '1px solid #d8deef',
-                  background: plan.popular
-                    ? '#172451'
-                    : '#fff',
-                  color: plan.popular
-                    ? '#fff'
-                    : '#172451',
-                  fontSize: '16px',
-                  fontWeight: 800,
-                }}
-              >
-                {plan.button}
-              </button>
-            </div>
-          ))}
-        </div>
-
-        {selectedPlan && selectedPlan.id !== 'free' && (
-          <div
-            className="card"
+        {!authLoading &&
+          user && (
+          <p
             style={{
-              marginTop: '25px',
-              padding: '20px',
-              textAlign: 'center',
-              position: 'relative',
-              zIndex: 5,
+              marginTop:
+                '10px',
+
+              fontWeight:
+                600,
             }}
           >
-            <h3>
-              Selected: {selectedPlan.name}
-            </h3>
+            Logged in as{' '}
+            {user.name ||
+              user.email}
+          </p>
+        )}
 
-            <p>
-              Amount:{' '}
-              <strong>
-                {selectedPlan.amount}
-              </strong>
-            </p>
 
-            {paymentError && (
-              <p
-                style={{
-                  color: '#b00020',
-                  fontWeight: 700,
-                }}
-              >
-                {paymentError}
-              </p>
-            )}
+        {!authLoading &&
+          !user && (
+          <div
+            style={{
+              marginTop:
+                '16px',
 
-            <button
-              type="button"
-              disabled={paymentLoading}
-              style={{
-                marginTop: '10px',
-                padding: '12px 25px',
-                border: 'none',
-                borderRadius: '10px',
-                background: '#172451',
-                color: '#fff',
-                fontWeight: 800,
-                cursor: paymentLoading ? 'wait' : 'pointer',
-                opacity: paymentLoading ? 0.72 : 1,
-              }}
-              onClick={handlePayment}
-            >
-              {paymentLoading
-                ? 'Starting Payment...'
-                : 'Continue to Payment'}
-            </button>
+              padding:
+                '12px 16px',
+
+              borderRadius:
+                '10px',
+
+              background:
+                '#fff7df',
+            }}
+          >
+            Login is required before purchasing a plan.
           </div>
         )}
       </div>
-    </>
+
+
+      {error && (
+        <div
+          style={{
+            maxWidth:
+              '760px',
+
+            margin:
+              '0 auto 24px',
+
+            padding:
+              '14px',
+
+            borderRadius:
+              '10px',
+
+            background:
+              '#ffe8e8',
+
+            color:
+              '#b00020',
+
+            textAlign:
+              'center',
+          }}
+        >
+          {error}
+        </div>
+      )}
+
+
+      {access
+        ?.hasPaidPlan && (
+        <div
+          className="card"
+          style={{
+            maxWidth:
+              '760px',
+
+            margin:
+              '0 auto 30px',
+
+            padding:
+              '20px',
+
+            textAlign:
+              'center',
+          }}
+        >
+          <strong>
+            Active Plan:{' '}
+          </strong>
+
+          {access.planId ===
+            'basic' &&
+            'College Predictor'}
+
+          {access.planId ===
+            'finder' &&
+            'Recommendation'}
+
+          {access.planId ===
+            'support' &&
+            'Call Support'}
+        </div>
+      )}
+
+
+      <div
+        style={{
+          display:
+            'grid',
+
+          gridTemplateColumns:
+            'repeat(auto-fit, minmax(280px, 1fr))',
+
+          gap:
+            '24px',
+
+          alignItems:
+            'stretch',
+        }}
+      >
+        {PLANS.map(
+          (
+            plan
+          ) => {
+            const button =
+              getPlanButton(
+                plan
+              );
+
+
+            const isLoading =
+              paymentLoading ===
+              plan.id;
+
+
+            return (
+              <div
+                key={
+                  plan.id
+                }
+                className="card"
+                style={{
+                  position:
+                    'relative',
+
+                  padding:
+                    '28px',
+
+                  display:
+                    'flex',
+
+                  flexDirection:
+                    'column',
+                }}
+              >
+                {plan.popular && (
+                  <div
+                    style={{
+                      position:
+                        'absolute',
+
+                      top:
+                        '-13px',
+
+                      left:
+                        '50%',
+
+                      transform:
+                        'translateX(-50%)',
+
+                      padding:
+                        '6px 14px',
+
+                      borderRadius:
+                        '999px',
+
+                      background:
+                        '#111827',
+
+                      color:
+                        '#fff',
+
+                      fontSize:
+                        '12px',
+
+                      fontWeight:
+                        700,
+
+                      whiteSpace:
+                        'nowrap',
+                    }}
+                  >
+                    MOST POPULAR
+                  </div>
+                )}
+
+
+                <h3
+                  style={{
+                    marginTop:
+                      plan.popular
+                        ? '10px'
+                        : 0,
+                  }}
+                >
+                  {plan.name}
+                </h3>
+
+
+                <p
+                  style={{
+                    fontWeight:
+                      600,
+
+                    minHeight:
+                      '48px',
+                  }}
+                >
+                  {plan.subtitle}
+                </p>
+
+
+                <div
+                  style={{
+                    margin:
+                      '18px 0',
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize:
+                        '38px',
+
+                      fontWeight:
+                        800,
+                    }}
+                  >
+                    ₹{plan.price}
+                  </span>
+                </div>
+
+
+                <p>
+                  {plan.description}
+                </p>
+
+
+                <div
+                  style={{
+                    flex:
+                      1,
+
+                    marginTop:
+                      '16px',
+                  }}
+                >
+                  {plan.features.map(
+                    (
+                      feature
+                    ) => (
+                      <div
+                        key={
+                          feature
+                        }
+                        style={{
+                          marginBottom:
+                            '10px',
+                        }}
+                      >
+                        ✓{' '}
+                        {feature}
+                      </div>
+                    )
+                  )}
+                </div>
+
+
+                <button
+                  type="button"
+                  className="btn btn-primary"
+                  disabled={
+                    button.disabled ||
+                    isLoading
+                  }
+                  onClick={
+                    () =>
+                      handlePlanClick(
+                        plan
+                      )
+                  }
+                  style={{
+                    width:
+                      '100%',
+
+                    marginTop:
+                      '24px',
+                  }}
+                >
+                  {isLoading
+                    ? 'Opening Payment...'
+                    : button.text}
+                </button>
+              </div>
+            );
+          }
+        )}
+      </div>
+    </div>
   );
 }
