@@ -1,8 +1,7 @@
 function normalizeApiBaseUrl(value) {
-  const clean =
-    String(value || '')
-      .trim()
-      .replace(/\/+$/, '');
+  const clean = String(value || '')
+    .trim()
+    .replace(/\/+$/, '');
 
   if (!clean) {
     return '';
@@ -13,10 +12,21 @@ function normalizeApiBaseUrl(value) {
     : `${clean}/api`;
 }
 
-
 /*
 |--------------------------------------------------------------------------
 | API URL
+|--------------------------------------------------------------------------
+|
+| DEVELOPMENT
+| Browser -> localhost:4000
+|
+| PRODUCTION
+| Browser -> same Vercel origin /api
+| Vercel  -> Render backend through rewrite
+|
+| This keeps authentication requests same-origin in production and avoids
+| relying on third-party cookies between vercel.app and onrender.com.
+|
 |--------------------------------------------------------------------------
 */
 
@@ -25,25 +35,18 @@ const configuredApiUrl =
   import.meta.env.VITE_API_URL ||
   '';
 
-
 const localApiUrl =
   'http://localhost:4000/api';
 
-
-const productionApiUrl =
-  'https://counsellingwallah-backend.onrender.com/api';
-
-
 const API_BASE_URL =
-  normalizeApiBaseUrl(
-    configuredApiUrl
-  ) ||
-  (
-    import.meta.env.DEV
-      ? localApiUrl
-      : productionApiUrl
-  );
-
+  import.meta.env.DEV
+    ? (
+        normalizeApiBaseUrl(
+          configuredApiUrl
+        ) ||
+        localApiUrl
+      )
+    : '/api';
 
 console.log(
   '[API] Environment:',
@@ -52,12 +55,10 @@ console.log(
     : 'production'
 );
 
-
 console.log(
   '[API] Base URL:',
   API_BASE_URL
 );
-
 
 /*
 |--------------------------------------------------------------------------
@@ -70,21 +71,17 @@ export async function apiRequest(
   options = {}
 ) {
   const cleanPath =
-    String(path || '')
-      .startsWith('/')
+    String(path || '').startsWith('/')
       ? String(path)
       : `/${path}`;
 
-
   const url =
     `${API_BASE_URL}${cleanPath}`;
-
 
   console.log(
     '[API REQUEST]',
     url
   );
-
 
   try {
     const response =
@@ -95,12 +92,11 @@ export async function apiRequest(
 
           /*
           |--------------------------------------------------------------------------
-          | REQUIRED FOR LOGIN COOKIE
+          | AUTH COOKIE
           |--------------------------------------------------------------------------
           */
 
-          credentials:
-            'include',
+          credentials: 'include',
 
           headers: {
             'Content-Type':
@@ -117,7 +113,6 @@ export async function apiRequest(
         }
       );
 
-
     const data =
       await response
         .json()
@@ -125,10 +120,7 @@ export async function apiRequest(
           () => ({})
         );
 
-
-    if (
-      !response.ok
-    ) {
+    if (!response.ok) {
       const error =
         new Error(
           data?.error ||
@@ -136,43 +128,36 @@ export async function apiRequest(
           `API request failed: ${response.status}`
         );
 
-
       error.status =
         response.status;
-
 
       error.data =
         data;
 
-
       throw error;
     }
 
-
     return data;
 
-  } catch (
-    error
-  ) {
+  } catch (error) {
     console.error(
       '[API ERROR]',
       {
         url,
-
+        status:
+          error?.status,
         message:
           error?.message,
       }
     );
 
-
     throw error;
   }
 }
 
-
 /*
 |--------------------------------------------------------------------------
-| GET HELPER
+| GET
 |--------------------------------------------------------------------------
 */
 
@@ -182,16 +167,14 @@ export async function apiGet(
   return apiRequest(
     path,
     {
-      method:
-        'GET',
+      method: 'GET',
     }
   );
 }
 
-
 /*
 |--------------------------------------------------------------------------
-| POST HELPER
+| POST
 |--------------------------------------------------------------------------
 */
 
@@ -202,8 +185,7 @@ export async function apiPost(
   return apiRequest(
     path,
     {
-      method:
-        'POST',
+      method: 'POST',
 
       body:
         body === undefined
@@ -215,10 +197,9 @@ export async function apiPost(
   );
 }
 
-
 /*
 |--------------------------------------------------------------------------
-| PUT HELPER
+| PUT
 |--------------------------------------------------------------------------
 */
 
@@ -229,8 +210,7 @@ export async function apiPut(
   return apiRequest(
     path,
     {
-      method:
-        'PUT',
+      method: 'PUT',
 
       body:
         JSON.stringify(
@@ -240,10 +220,9 @@ export async function apiPut(
   );
 }
 
-
 /*
 |--------------------------------------------------------------------------
-| PATCH HELPER
+| PATCH
 |--------------------------------------------------------------------------
 */
 
@@ -254,8 +233,7 @@ export async function apiPatch(
   return apiRequest(
     path,
     {
-      method:
-        'PATCH',
+      method: 'PATCH',
 
       body:
         JSON.stringify(
@@ -265,10 +243,9 @@ export async function apiPatch(
   );
 }
 
-
 /*
 |--------------------------------------------------------------------------
-| DELETE HELPER
+| DELETE
 |--------------------------------------------------------------------------
 */
 
@@ -278,20 +255,14 @@ export async function apiDelete(
   return apiRequest(
     path,
     {
-      method:
-        'DELETE',
+      method: 'DELETE',
     }
   );
 }
 
-
 /*
 |--------------------------------------------------------------------------
 | LOAD APP CATALOG
-|--------------------------------------------------------------------------
-|
-| Required by:
-| frontend/src/hooks/useAppState.jsx
 |--------------------------------------------------------------------------
 */
 
@@ -299,7 +270,6 @@ export async function getApiCatalog() {
   console.log(
     '[FRONTEND] Loading API catalog...'
   );
-
 
   const [
     exams,
@@ -320,7 +290,6 @@ export async function getApiCatalog() {
       ),
     ]);
 
-
   return {
     exams:
       Array.isArray(
@@ -329,14 +298,12 @@ export async function getApiCatalog() {
         ? exams.data
         : [],
 
-
     colleges:
       Array.isArray(
         colleges?.data
       )
         ? colleges.data
         : [],
-
 
     counsellingEvents:
       Array.isArray(
@@ -346,7 +313,6 @@ export async function getApiCatalog() {
         : [],
   };
 }
-
 
 /*
 |--------------------------------------------------------------------------

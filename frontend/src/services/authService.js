@@ -2,6 +2,11 @@ import {
   apiRequest,
 } from './apiClient';
 
+/*
+|--------------------------------------------------------------------------
+| REGISTER
+|--------------------------------------------------------------------------
+*/
 
 export function register(
   payload
@@ -9,8 +14,7 @@ export function register(
   return apiRequest(
     '/auth/register',
     {
-      method:
-        'POST',
+      method: 'POST',
 
       body:
         JSON.stringify(
@@ -20,6 +24,11 @@ export function register(
   );
 }
 
+/*
+|--------------------------------------------------------------------------
+| LOGIN
+|--------------------------------------------------------------------------
+*/
 
 export function login(
   payload
@@ -27,8 +36,7 @@ export function login(
   return apiRequest(
     '/auth/login',
     {
-      method:
-        'POST',
+      method: 'POST',
 
       body:
         JSON.stringify(
@@ -38,20 +46,32 @@ export function login(
   );
 }
 
+/*
+|--------------------------------------------------------------------------
+| CURRENT USER
+|--------------------------------------------------------------------------
+*/
 
 export function getCurrentUser() {
   return apiRequest(
-    '/auth/me'
+    '/auth/me',
+    {
+      method: 'GET',
+    }
   );
 }
 
+/*
+|--------------------------------------------------------------------------
+| LOGOUT
+|--------------------------------------------------------------------------
+*/
 
 export function logout() {
   return apiRequest(
     '/auth/logout',
     {
-      method:
-        'POST',
+      method: 'POST',
     }
   );
 }
