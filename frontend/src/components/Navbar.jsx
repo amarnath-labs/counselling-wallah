@@ -32,7 +32,12 @@ function getInitials(user) {
     return 'U';
   }
 
-  // Email fallback
+  /*
+  |--------------------------------------------------------------------------
+  | EMAIL FALLBACK
+  |--------------------------------------------------------------------------
+  */
+
   if (name.includes('@')) {
     return name
       .charAt(0)
@@ -102,7 +107,7 @@ export default function Navbar() {
 
   /*
   |--------------------------------------------------------------------------
-  | CLOSE MENU WHEN CLICKED OUTSIDE
+  | CLOSE ACCOUNT MENU WHEN CLICKED OUTSIDE
   |--------------------------------------------------------------------------
   */
 
@@ -139,15 +144,18 @@ export default function Navbar() {
 
   /*
   |--------------------------------------------------------------------------
-  | CLOSE MENU WITH ESC
+  | CLOSE ACCOUNT MENU WITH ESCAPE
   |--------------------------------------------------------------------------
   */
 
   useEffect(
     () => {
-      function handleEscape(event) {
+      function handleEscape(
+        event
+      ) {
         if (
-          event.key === 'Escape'
+          event.key ===
+          'Escape'
         ) {
           setMenuOpen(false);
         }
@@ -178,11 +186,13 @@ export default function Navbar() {
   async function handleLogout() {
     try {
       await logoutUser();
+
     } catch (error) {
       console.error(
-        'LOGOUT ERROR:',
+        '[NAVBAR LOGOUT ERROR]',
         error
       );
+
     } finally {
       setMenuOpen(false);
 
@@ -196,12 +206,24 @@ export default function Navbar() {
   }
 
 
+  /*
+  |--------------------------------------------------------------------------
+  | USER DISPLAY VALUES
+  |--------------------------------------------------------------------------
+  */
+
   const initials =
     getInitials(user);
 
   const displayName =
     getDisplayName(user);
 
+
+  /*
+  |--------------------------------------------------------------------------
+  | UI
+  |--------------------------------------------------------------------------
+  */
 
   return (
     <nav className="navbar">
@@ -210,17 +232,25 @@ export default function Navbar() {
       >
 
         {/* =====================================================
-            LEFT — LOGO
+            LEFT — LOGO + BETA BADGE
         ===================================================== */}
 
         <Link
           to="/"
           className="brand"
+          aria-label="Counselling Wallah home"
         >
           <div className="mark" />
 
           <span>
             Counselling Wallah
+          </span>
+
+          <span
+            className="beta-badge"
+            title="Counselling Wallah Beta"
+          >
+            BETA
           </span>
         </Link>
 
@@ -260,16 +290,21 @@ export default function Navbar() {
 
         <div className="nav-cta">
 
-          {/* AUTH LOADING PLACEHOLDER */}
+          {/* ===================================================
+              AUTH LOADING
+          =================================================== */}
 
           {authLoading && (
             <div
               className="nav-auth-placeholder"
+              aria-hidden="true"
             />
           )}
 
 
-          {/* NOT LOGGED IN */}
+          {/* ===================================================
+              NOT LOGGED IN
+          =================================================== */}
 
           {!authLoading &&
             !user && (
@@ -282,7 +317,9 @@ export default function Navbar() {
             )}
 
 
-          {/* LOGGED IN */}
+          {/* ===================================================
+              LOGGED IN
+          =================================================== */}
 
           {!authLoading &&
             user && (
@@ -291,7 +328,9 @@ export default function Navbar() {
                 className="nav-user"
               >
 
-                {/* AVATAR */}
+                {/* =============================================
+                    USER AVATAR
+                ============================================= */}
 
                 <button
                   type="button"
@@ -303,6 +342,7 @@ export default function Navbar() {
                     )
                   }
                   aria-label="Open account menu"
+                  aria-haspopup="menu"
                   aria-expanded={
                     menuOpen
                   }
@@ -314,12 +354,17 @@ export default function Navbar() {
                 </button>
 
 
-                {/* ACCOUNT DROPDOWN */}
+                {/* =============================================
+                    ACCOUNT DROPDOWN
+                ============================================= */}
 
                 {menuOpen && (
                   <div
                     className="nav-account-menu"
+                    role="menu"
                   >
+
+                    {/* ACCOUNT HEADER */}
 
                     <div
                       className="nav-account-header"
@@ -340,9 +385,12 @@ export default function Navbar() {
                     </div>
 
 
+                    {/* MY ACCOUNT */}
+
                     <Link
                       to="/account"
                       className="nav-account-item"
+                      role="menuitem"
                       onClick={() =>
                         setMenuOpen(
                           false
@@ -353,9 +401,12 @@ export default function Navbar() {
                     </Link>
 
 
+                    {/* MY PROFILE */}
+
                     <Link
                       to="/profile"
                       className="nav-account-item"
+                      role="menuitem"
                       onClick={() =>
                         setMenuOpen(
                           false
@@ -366,9 +417,12 @@ export default function Navbar() {
                     </Link>
 
 
+                    {/* DASHBOARD */}
+
                     <Link
                       to="/dashboard"
                       className="nav-account-item"
+                      role="menuitem"
                       onClick={() =>
                         setMenuOpen(
                           false
@@ -379,9 +433,12 @@ export default function Navbar() {
                     </Link>
 
 
+                    {/* SAVED / CHOICE LIST */}
+
                     <Link
                       to="/choice-list"
                       className="nav-account-item"
+                      role="menuitem"
                       onClick={() =>
                         setMenuOpen(
                           false
@@ -392,9 +449,12 @@ export default function Navbar() {
                     </Link>
 
 
+                    {/* LOGOUT */}
+
                     <button
                       type="button"
                       className="nav-account-item nav-account-logout"
+                      role="menuitem"
                       onClick={
                         handleLogout
                       }
@@ -409,7 +469,9 @@ export default function Navbar() {
             )}
 
 
-          {/* FIND MY COLLEGE */}
+          {/* ===================================================
+              FIND MY COLLEGE
+          =================================================== */}
 
           <Link
             to="/exams"

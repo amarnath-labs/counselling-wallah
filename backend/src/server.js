@@ -1,4 +1,4 @@
-﻿import 'dotenv/config';
+import 'dotenv/config';
 
 import express from 'express';
 import cors from 'cors';
@@ -13,6 +13,7 @@ import collegesRouter from './routes/colleges.js';
 import counsellingRouter from './routes/counselling.js';
 import cwRecV1DevRouter from './routes/cwRecV1-dev.js';
 import paymentsRouter from './routes/payments.js';
+import feedbackRouter from './routes/feedback.js';
 
 
 const app = express();
@@ -577,6 +578,11 @@ app.use(
   paymentsRouter
 );
 
+app.use(
+  '/api/feedback',
+  feedbackRouter
+);
+
 
 /*
 |--------------------------------------------------------------------------
@@ -745,3 +751,4 @@ app.listen(
 
   }
 );
+
