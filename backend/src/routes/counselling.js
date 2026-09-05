@@ -478,11 +478,6 @@ router.get(
         );
 
       if (cachedEntry) {
-        console.log(
-          '[CACHE] LOCAL HIT',
-          resultsCacheKey
-        );
-
         return sendCachedResults(
           req,
           res,
@@ -499,11 +494,6 @@ router.get(
         );
 
       if (redisPayload) {
-        console.log(
-          '[CACHE] REDIS HIT',
-          redisCacheKey
-        );
-
         writeResultsCache(
           resultsCacheKey,
           redisPayload
@@ -523,11 +513,6 @@ router.get(
         }
       }
 
-
-      console.log(
-        '[CACHE] REDIS MISS',
-        redisCacheKey
-      );
 
       const params = [
         rank,       // $1
