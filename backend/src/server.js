@@ -1,8 +1,9 @@
-import 'dotenv/config';
+﻿import 'dotenv/config';
 
 import express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
+import compression from 'compression';
 
 import { pool } from './db/pool.js';
 
@@ -321,6 +322,13 @@ app.options(
 | BODY PARSERS
 |--------------------------------------------------------------------------
 */
+
+app.use(
+  compression({
+    threshold: 1024,
+  })
+);
+
 
 app.use(
   express.json({

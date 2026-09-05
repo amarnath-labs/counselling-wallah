@@ -3,6 +3,68 @@ import { pool } from '../db/pool.js';
 
 const router = Router();
 
+
+const RESULTS_CACHE_TTL_MS = 60 * 1000;
+const RESULTS_CACHE_MAX_ENTRIES = 200;
+
+const resultsCache = new Map();
+const resultsInFlight = new Map();
+
+function makeResultsCacheKey(values) {
+  return [
+    values.examId,
+    values.rank,
+    values.year,
+    values.round,
+    values.category,
+    values.requestedQuota || '',
+    values.requestedGender || '',
+    values.homeState || '',
+  ].join('|');
+}
+
+function readResultsCache(key) {
+  const entry = resultsCache.get(key);
+
+  if (!entry) return null;
+
+  if (
+    Date.now() - entry.createdAt >
+    RESULTS_CACHE_TTL_MS
+  ) {
+    resultsCache.delete(key);
+    return null;
+  }
+
+  return entry.payload;
+}
+
+function writeResultsCache(key, payload) {
+  if (resultsCache.has(key)) {
+    resultsCache.delete(key);
+  }
+
+  while (
+    resultsCache.size >=
+    RESULTS_CACHE_MAX_ENTRIES
+  ) {
+    const oldestKey =
+      resultsCache.keys().next().value;
+
+    if (oldestKey === undefined) {
+      break;
+    }
+
+    resultsCache.delete(oldestKey);
+  }
+
+  resultsCache.set(key, {
+    createdAt: Date.now(),
+    payload,
+  });
+}
+
+
 /*
 |--------------------------------------------------------------------------
 | HELPERS
@@ -201,8 +263,12 @@ router.get(
             roundNumber
           )
         ) {
+          /*
+           * UPTAC database stores rounds as:
+           * 1, 2, 3...
+           */
           round =
-            `Round ${roundNumber}`;
+            roundNumber;
         }
       }
 
@@ -319,6 +385,30 @@ router.get(
       | SQL PARAMETERS
       |--------------------------------------------------------------------------
       */
+
+      const resultsCacheKey =
+        makeResultsCacheKey({
+          examId,
+          rank,
+          year,
+          round,
+          category,
+          requestedQuota,
+          requestedGender,
+          homeState,
+        });
+
+      const cachedPayload =
+        readResultsCache(
+          resultsCacheKey
+        );
+
+      if (cachedPayload) {
+        return res.json(
+          cachedPayload
+        );
+      }
+
 
       const params = [
         rank,       // $1
@@ -626,6 +716,7 @@ router.get(
           co.closing_rank ASC,
           c.name ASC,
           b.name ASC
+        LIMIT 500
       `;
 
 
@@ -651,11 +742,43 @@ router.get(
         }
       );
 
-      const { rows } =
-        await pool.query(
-          query,
-          params
+      let queryPromise =
+        resultsInFlight.get(
+          resultsCacheKey
         );
+
+      if (!queryPromise) {
+        queryPromise =
+          pool.query(
+            query,
+            params
+          );
+
+        resultsInFlight.set(
+          resultsCacheKey,
+          queryPromise
+        );
+      }
+
+      let queryResult;
+
+      try {
+        queryResult =
+          await queryPromise;
+      } finally {
+        if (
+          resultsInFlight.get(
+            resultsCacheKey
+          ) === queryPromise
+        ) {
+          resultsInFlight.delete(
+            resultsCacheKey
+          );
+        }
+      }
+
+      const { rows } =
+        queryResult;
 
 
       console.log(
@@ -733,7 +856,7 @@ router.get(
       |--------------------------------------------------------------------------
       */
 
-      res.json({
+      const responsePayload = {
 
         data:
           finalRows,
@@ -762,7 +885,16 @@ router.get(
             finalRows.length,
         },
 
-      });
+      };
+
+      writeResultsCache(
+        resultsCacheKey,
+        responsePayload
+      );
+
+      res.json(
+        responsePayload
+      );
 
     } catch (error) {
 
