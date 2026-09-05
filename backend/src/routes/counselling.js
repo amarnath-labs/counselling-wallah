@@ -1,6 +1,7 @@
 ﻿import { Router } from 'express';
 import { pool } from '../db/pool.js';
 import { gzipSync } from 'node:zlib';
+import { redisGetJson, redisSetJson } from '../services/redisCache.js';
 
 const router = Router();
 
@@ -483,6 +484,34 @@ router.get(
         );
       }
 
+      const redisCacheKey =
+        `cw:results:${resultsCacheKey}`;
+
+      const redisPayload =
+        await redisGetJson(
+          redisCacheKey
+        );
+
+      if (redisPayload) {
+        writeResultsCache(
+          resultsCacheKey,
+          redisPayload
+        );
+
+        const redisEntry =
+          readResultsCache(
+            resultsCacheKey
+          );
+
+        if (redisEntry) {
+          return sendCachedResults(
+            req,
+            res,
+            redisEntry
+          );
+        }
+      }
+
 
       const params = [
         rank,       // $1
@@ -928,6 +957,15 @@ router.get(
             writeResultsCache(
               resultsCacheKey,
               responsePayload
+            );
+
+            void redisSetJson(
+              redisCacheKey,
+              responsePayload,
+              Math.ceil(
+                RESULTS_CACHE_TTL_MS /
+                1000
+              )
             );
 
             return responsePayload;
