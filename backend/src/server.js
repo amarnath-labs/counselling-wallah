@@ -60,6 +60,8 @@ const allowedOrigins =
     'http://localhost:5174',
 
     'https://counselling-wallah-frontend.vercel.app',
+    'https://trumarg.com',
+    'https://www.trumarg.com',
   ]);
 
 
@@ -751,4 +753,5 @@ app.listen(
 
   }
 );
+
 
