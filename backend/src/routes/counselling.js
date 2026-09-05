@@ -987,4 +987,62 @@ router.get(
   }
 );
 
+
+
+router.get(
+  '/admin/debug-production-uptac-values',
+  async (req, res) => {
+    try {
+      const rounds = await pool.query(`
+        SELECT
+          year,
+          round,
+          COUNT(*)::int AS count
+        FROM cutoffs
+        WHERE
+          LOWER(COALESCE(counselling_type, '')) = 'uptac'
+        GROUP BY year, round
+        ORDER BY year DESC, round
+      `);
+
+      const categories = await pool.query(`
+        SELECT
+          category,
+          COUNT(*)::int AS count
+        FROM cutoffs
+        WHERE
+          LOWER(COALESCE(counselling_type, '')) = 'uptac'
+        GROUP BY category
+        ORDER BY count DESC
+      `);
+
+      const samples = await pool.query(`
+        SELECT
+          year,
+          round,
+          category,
+          opening_rank,
+          closing_rank
+        FROM cutoffs
+        WHERE
+          LOWER(COALESCE(counselling_type, '')) = 'uptac'
+        ORDER BY year DESC
+        LIMIT 20
+      `);
+
+      return res.json({
+        ok: true,
+        rounds: rounds.rows,
+        categories: categories.rows,
+        samples: samples.rows,
+      });
+    } catch (error) {
+      return res.status(500).json({
+        ok: false,
+        error: error.message,
+      });
+    }
+  }
+);
+
 export default router;
