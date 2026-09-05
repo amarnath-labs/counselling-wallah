@@ -266,6 +266,49 @@ export async function apiDelete(
 |--------------------------------------------------------------------------
 */
 
+async function getCollegeCatalog() {
+
+  /*
+  |--------------------------------------------------------------------------
+  | COLLEGE CATALOG DELIVERY
+  |--------------------------------------------------------------------------
+  |
+  | DEVELOPMENT
+  | Local backend remains the source.
+  |
+  | PRODUCTION
+  | Static catalog is served directly by Vercel.
+  | This prevents the large read-only catalog request from reaching Render.
+  |
+  */
+
+  if (import.meta.env.DEV) {
+    return apiGet(
+      '/colleges'
+    );
+  }
+
+  const response =
+    await fetch(
+      '/colleges-catalog.json',
+      {
+        headers: {
+          Accept:
+            'application/json',
+        },
+      }
+    );
+
+  if (!response.ok) {
+    throw new Error(
+      `College catalog request failed: ${response.status}`
+    );
+  }
+
+  return response.json();
+}
+
+
 export async function getApiCatalog() {
   console.log(
     '[FRONTEND] Loading API catalog...'
@@ -281,9 +324,7 @@ export async function getApiCatalog() {
         '/exams'
       ),
 
-      apiGet(
-        '/colleges'
-      ),
+      getCollegeCatalog(),
 
       apiGet(
         '/counselling/events?examId=jee-main'
