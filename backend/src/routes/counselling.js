@@ -742,34 +742,139 @@ router.get(
         }
       );
 
-      let queryPromise =
+      let payloadPromise =
         resultsInFlight.get(
           resultsCacheKey
         );
 
-      if (!queryPromise) {
-        queryPromise =
-          pool.query(
-            query,
-            params
-          );
+      if (!payloadPromise) {
+        payloadPromise =
+          (async () => {
+            const queryResult =
+              await pool.query(
+                query,
+                params
+              );
+
+            const { rows } =
+              queryResult;
+
+            console.log(
+              '[COUNSELLING] DB rows:',
+              rows.length
+            );
+
+            /*
+            |--------------------------------------------------------------------------
+            | REMOVE DUPLICATES
+            |--------------------------------------------------------------------------
+            */
+
+            const seen =
+              new Set();
+
+            const uniqueRows =
+              rows.filter(
+                (row) => {
+
+                  const key = [
+                    row.college_id,
+                    row.branch_id,
+                    row.year,
+                    row.round,
+                    row.category,
+                    row.quota,
+                    row.gender,
+                  ].join('|');
+
+                  if (
+                    seen.has(key)
+                  ) {
+                    return false;
+                  }
+
+                  seen.add(key);
+
+                  return true;
+                }
+              );
+
+            /*
+            |--------------------------------------------------------------------------
+            | FINAL JEE MAIN SAFETY FILTER
+            |--------------------------------------------------------------------------
+            */
+
+            let finalRows =
+              uniqueRows;
+
+            if (
+              examId === 'jee-main'
+            ) {
+              finalRows =
+                uniqueRows.filter(
+                  (row) =>
+                    isJeeMainInstitute(
+                      row.college_name,
+                      row.type
+                    )
+                );
+            }
+
+            /*
+            |--------------------------------------------------------------------------
+            | RESPONSE
+            |--------------------------------------------------------------------------
+            */
+
+            const responsePayload = {
+              data:
+                finalRows,
+
+              meta: {
+                examId,
+                rank,
+                year,
+                round,
+                category,
+
+                quota:
+                  requestedQuota,
+
+                gender:
+                  requestedGender,
+
+                homeState,
+
+                count:
+                  finalRows.length,
+              },
+            };
+
+            writeResultsCache(
+              resultsCacheKey,
+              responsePayload
+            );
+
+            return responsePayload;
+          })();
 
         resultsInFlight.set(
           resultsCacheKey,
-          queryPromise
+          payloadPromise
         );
       }
 
-      let queryResult;
+      let responsePayload;
 
       try {
-        queryResult =
-          await queryPromise;
+        responsePayload =
+          await payloadPromise;
       } finally {
         if (
           resultsInFlight.get(
             resultsCacheKey
-          ) === queryPromise
+          ) === payloadPromise
         ) {
           resultsInFlight.delete(
             resultsCacheKey
@@ -777,122 +882,7 @@ router.get(
         }
       }
 
-      const { rows } =
-        queryResult;
-
-
-      console.log(
-        '[COUNSELLING] DB rows:',
-        rows.length
-      );
-
-
-      /*
-      |--------------------------------------------------------------------------
-      | REMOVE DUPLICATES
-      |--------------------------------------------------------------------------
-      */
-
-      const seen =
-        new Set();
-
-      const uniqueRows =
-        rows.filter(
-          (row) => {
-
-            const key = [
-              row.college_id,
-              row.branch_id,
-              row.year,
-              row.round,
-              row.category,
-              row.quota,
-              row.gender,
-            ].join('|');
-
-            if (
-              seen.has(key)
-            ) {
-              return false;
-            }
-
-            seen.add(key);
-
-            return true;
-          }
-        );
-
-
-      /*
-      |--------------------------------------------------------------------------
-      | FINAL JEE MAIN SAFETY FILTER
-      |--------------------------------------------------------------------------
-      |
-      | IIT can NEVER appear in JEE Main.
-      |
-      */
-
-      let finalRows =
-        uniqueRows;
-
-      if (
-        examId === 'jee-main'
-      ) {
-
-        finalRows =
-          uniqueRows.filter(
-            (row) =>
-              isJeeMainInstitute(
-                row.college_name,
-                row.type
-              )
-          );
-      }
-
-
-      /*
-      |--------------------------------------------------------------------------
-      | RESPONSE
-      |--------------------------------------------------------------------------
-      */
-
-      const responsePayload = {
-
-        data:
-          finalRows,
-
-        meta: {
-
-          examId,
-
-          rank,
-
-          year,
-
-          round,
-
-          category,
-
-          quota:
-            requestedQuota,
-
-          gender:
-            requestedGender,
-
-          homeState,
-
-          count:
-            finalRows.length,
-        },
-
-      };
-
-      writeResultsCache(
-        resultsCacheKey,
-        responsePayload
-      );
-
-      res.json(
+      return res.json(
         responsePayload
       );
 
