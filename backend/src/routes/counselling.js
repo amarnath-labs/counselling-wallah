@@ -1,5 +1,6 @@
 ﻿import { Router } from 'express';
 import { pool } from '../db/pool.js';
+import { gzipSync } from 'node:zlib';
 
 const router = Router();
 
@@ -36,7 +37,7 @@ function readResultsCache(key) {
     return null;
   }
 
-  return entry.payload;
+  return entry;
 }
 
 function writeResultsCache(key, payload) {
@@ -58,10 +59,81 @@ function writeResultsCache(key, payload) {
     resultsCache.delete(oldestKey);
   }
 
+  const serialized =
+    JSON.stringify(payload);
+
+  const gzipped =
+    gzipSync(
+      serialized,
+      {
+        level: 1,
+      }
+    );
+
   resultsCache.set(key, {
-    createdAt: Date.now(),
+    createdAt:
+      Date.now(),
+
     payload,
+
+    serialized,
+
+    gzipped,
   });
+}
+
+function sendCachedResults(
+  req,
+  res,
+  entry
+) {
+  const acceptEncoding =
+    String(
+      req.headers[
+        'accept-encoding'
+      ] || ''
+    ).toLowerCase();
+
+  res.type('application/json');
+
+  res.vary(
+    'Accept-Encoding'
+  );
+
+  if (
+    acceptEncoding.includes(
+      'gzip'
+    )
+  ) {
+    res.set(
+      'Content-Encoding',
+      'gzip'
+    );
+
+    res.set(
+      'Content-Length',
+      String(
+        entry.gzipped.length
+      )
+    );
+
+    return res.send(
+      entry.gzipped
+    );
+  }
+
+  res.set(
+    'Content-Length',
+    String(
+      Buffer.byteLength(
+        entry.serialized
+      )
+    )
+  );
+
+  return res.send(
+    entry.serialized
+  );
 }
 
 
@@ -398,14 +470,16 @@ router.get(
           homeState,
         });
 
-      const cachedPayload =
+      const cachedEntry =
         readResultsCache(
           resultsCacheKey
         );
 
-      if (cachedPayload) {
-        return res.json(
-          cachedPayload
+      if (cachedEntry) {
+        return sendCachedResults(
+          req,
+          res,
+          cachedEntry
         );
       }
 
