@@ -264,11 +264,11 @@ router.get(
           )
         ) {
           /*
-           * UPTAC database stores rounds as:
-           * 1, 2, 3...
+           * UPTAC production database stores rounds as:
+           * Round 1, Round 2, Round 3...
            */
           round =
-            roundNumber;
+            `Round ${roundNumber}`;
         }
       }
 
