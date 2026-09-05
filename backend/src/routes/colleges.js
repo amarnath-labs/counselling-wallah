@@ -1,4 +1,5 @@
 ﻿import { Router } from "express";
+import { gzipSync } from 'node:zlib';
 import { pool } from "../db/pool.js";
 import { getCollegeIdSqlCase } from "../services/collegeIdentityResolver.js";
 
@@ -1747,6 +1748,85 @@ let collegesCatalogCache = null;
 
 let collegesCatalogInFlight = null;
 
+function buildCollegeCatalogCacheEntry(
+  payload
+) {
+  const serialized =
+    JSON.stringify(payload);
+
+  const gzipped =
+    gzipSync(
+      serialized,
+      {
+        level: 1,
+      }
+    );
+
+  return {
+    payload,
+    serialized,
+    gzipped,
+
+    expiresAt:
+      Date.now() +
+      COLLEGES_CATALOG_CACHE_TTL_MS,
+  };
+}
+
+function sendCachedCollegeCatalog(
+  req,
+  res,
+  entry
+) {
+  const acceptEncoding =
+    String(
+      req.headers[
+        'accept-encoding'
+      ] || ''
+    ).toLowerCase();
+
+  res.type('application/json');
+
+  res.vary(
+    'Accept-Encoding'
+  );
+
+  if (
+    acceptEncoding.includes(
+      'gzip'
+    )
+  ) {
+    res.set(
+      'Content-Encoding',
+      'gzip'
+    );
+
+    res.set(
+      'Content-Length',
+      String(
+        entry.gzipped.length
+      )
+    );
+
+    return res.send(
+      entry.gzipped
+    );
+  }
+
+  res.set(
+    'Content-Length',
+    String(
+      Buffer.byteLength(
+        entry.serialized
+      )
+    )
+  );
+
+  return res.send(
+    entry.serialized
+  );
+}
+
 
 /*
 |--------------------------------------------------------------------------
@@ -1772,8 +1852,10 @@ router.get(
         collegesCatalogCache.expiresAt > Date.now()
       ) {
 
-        return res.json(
-          collegesCatalogCache.payload
+        return sendCachedCollegeCatalog(
+          req,
+          res,
+          collegesCatalogCache
         );
       }
 
@@ -1783,11 +1865,13 @@ router.get(
         collegesCatalogInFlight
       ) {
 
-        const payload =
+        const cacheEntry =
           await collegesCatalogInFlight;
 
-        return res.json(
-          payload
+        return sendCachedCollegeCatalog(
+          req,
+          res,
+          cacheEntry
         );
       }
 
@@ -1890,23 +1974,30 @@ router.get(
       ) {
 
         collegesCatalogInFlight =
-          executeCollegeQuery();
+          (async () => {
+            const payload =
+              await executeCollegeQuery();
+
+            const cacheEntry =
+              buildCollegeCatalogCacheEntry(
+                payload
+              );
+
+            collegesCatalogCache =
+              cacheEntry;
+
+            return cacheEntry;
+          })();
 
         try {
 
-          const payload =
+          const cacheEntry =
             await collegesCatalogInFlight;
 
-          collegesCatalogCache = {
-            payload,
-
-            expiresAt:
-              Date.now() +
-              COLLEGES_CATALOG_CACHE_TTL_MS,
-          };
-
-          return res.json(
-            payload
+          return sendCachedCollegeCatalog(
+            req,
+            res,
+            cacheEntry
           );
 
         } finally {
