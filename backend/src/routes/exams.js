@@ -3,39 +3,85 @@ import { pool } from '../db/pool.js';
 
 const router = Router();
 
+const EXAMS_CACHE_TTL_MS =
+  10 * 60 * 1000;
+
+let examsCache = null;
+let examsInFlight = null;
+
 // ============================================================
 // GET ALL EXAMS
 // ============================================================
 
 router.get('/', async (_req, res, next) => {
   try {
-    const { rows } = await pool.query(`
-      SELECT
-        id,
-        name,
-        description AS desc,
-        active
-      FROM exams
-      ORDER BY name
-    `);
-
-    const hasUptac = rows.some(
-      (exam) => exam.id === 'uptac'
-    );
-
-    if (!hasUptac) {
-      rows.push({
-        id: 'uptac',
-        name: 'UPTAC',
-        desc: 'Uttar Pradesh Technical Admission Counselling for engineering admissions.',
-        active: true,
-      });
+    if (
+      examsCache &&
+      examsCache.expiresAt > Date.now()
+    ) {
+      return res.json(
+        examsCache.payload
+      );
     }
 
-    res.json({
-      data: rows,
-    });
+    if (examsInFlight) {
+      const payload =
+        await examsInFlight;
+
+      return res.json(payload);
+    }
+
+    examsInFlight =
+      (async () => {
+        const { rows } =
+          await pool.query(`
+            SELECT
+              id,
+              name,
+              description AS desc,
+              active
+            FROM exams
+            ORDER BY name
+          `);
+
+        const hasUptac =
+          rows.some(
+            (exam) =>
+              exam.id === 'uptac'
+          );
+
+        if (!hasUptac) {
+          rows.push({
+            id: 'uptac',
+            name: 'UPTAC',
+            desc:
+              'Uttar Pradesh Technical Admission Counselling for engineering admissions.',
+            active: true,
+          });
+        }
+
+        return {
+          data: rows,
+        };
+      })();
+
+    try {
+      const payload =
+        await examsInFlight;
+
+      examsCache = {
+        payload,
+        expiresAt:
+          Date.now() +
+          EXAMS_CACHE_TTL_MS,
+      };
+
+      return res.json(payload);
+    } finally {
+      examsInFlight = null;
+    }
   } catch (error) {
+    examsInFlight = null;
     next(error);
   }
 });
