@@ -238,17 +238,17 @@ export default function Navbar() {
         <Link
           to="/"
           className="brand"
-          aria-label="Counselling Wallah home"
+          aria-label="TruMarg home"
         >
           <div className="mark" />
 
           <span>
-            Counselling Wallah
+            TruMarg
           </span>
 
           <span
             className="beta-badge"
-            title="Counselling Wallah Beta"
+            title="TruMarg Beta"
           >
             BETA
           </span>

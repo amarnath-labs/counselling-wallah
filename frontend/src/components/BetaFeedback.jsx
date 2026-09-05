@@ -98,7 +98,7 @@ export default function BetaFeedback() {
             <div className="beta-feedback-header">
               <div>
                 <strong>
-                  Counselling Wallah Beta
+                  TruMarg Beta
                 </strong>
 
                 <p>
@@ -194,3 +194,4 @@ export default function BetaFeedback() {
     </>
   );
 }
+
