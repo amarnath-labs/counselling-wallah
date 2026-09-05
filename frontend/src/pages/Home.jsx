@@ -500,8 +500,7 @@ export default function Home() {
             </div>
 
             <h2>
-              Why Students Choose Counselling
-              Wallah
+              Why Students Choose TruMarg
             </h2>
 
           </div>
