@@ -1845,6 +1845,15 @@ router.get(
         !req.query.type &&
         !req.query.q;
 
+      if (
+        isUnfilteredCatalogRequest
+      ) {
+        res.set(
+          'CDN-Cache-Control',
+          'public, s-maxage=300, stale-while-revalidate=60'
+        );
+      }
+
 
       if (
         isUnfilteredCatalogRequest &&
