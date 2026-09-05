@@ -27,6 +27,61 @@ function mapCollege(row) {
   };
 }
 
+function mapCollegeCatalog(row) {
+  const college =
+    mapCollege(row);
+
+  return {
+    ...college,
+
+    branches:
+      Array.isArray(college.branches)
+        ? college.branches.map(
+            (branch) => ({
+              id:
+                branch?.id ?? null,
+
+              name:
+                branch?.name ?? '',
+
+              fees:
+                branch?.fees ?? null,
+
+              annualFee:
+                branch?.annualFee ??
+                branch?.fees ??
+                null,
+
+              openingRank:
+                branch?.openingRank ??
+                null,
+
+              closingRank:
+                branch?.closingRank ??
+                null,
+
+              median:
+                branch?.median ??
+                null,
+
+              average:
+                branch?.average ??
+                null,
+
+              highest:
+                branch?.highest ??
+                null,
+
+              placement:
+                branch?.placement ??
+                null,
+            })
+          )
+        : [],
+  };
+}
+
+
 /*
 |--------------------------------------------------------------------------
 | COLLEGE QUERY
@@ -1824,7 +1879,7 @@ router.get(
           return {
             data:
               rows.map(
-                mapCollege
+                mapCollegeCatalog
               ),
           };
         };
