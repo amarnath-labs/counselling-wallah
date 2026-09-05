@@ -7,6 +7,7 @@ const router = Router();
 
 
 const RESULTS_CACHE_TTL_MS = 60 * 1000;
+const REDIS_RESULTS_TTL_SECONDS = 5 * 60;
 const RESULTS_CACHE_MAX_ENTRIES = 200;
 
 const resultsCache = new Map();
@@ -962,10 +963,7 @@ router.get(
             void redisSetJson(
               redisCacheKey,
               responsePayload,
-              Math.ceil(
-                RESULTS_CACHE_TTL_MS /
-                1000
-              )
+              REDIS_RESULTS_TTL_SECONDS
             );
 
             return responsePayload;
