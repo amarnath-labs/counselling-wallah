@@ -716,7 +716,7 @@ export default function Home() {
           <div className="section-head">
 
             <div className="kicker">
-              Counselling Wallah Pro
+              TruMarg Pro
             </div>
 
             <h2>
@@ -796,7 +796,7 @@ export default function Home() {
             {[
               [
                 'Is this affiliated with JoSAA or NTA?',
-                'No. Counselling Wallah is an independent guidance platform, not affiliated with any government counselling authority.',
+                'No. TruMarg is an independent guidance platform, not affiliated with any government counselling authority.',
               ],
               [
                 'Are results guaranteed?',
