@@ -916,6 +916,13 @@ router.get(
     req,
     res
   ) => {
+    if (
+      process.env.NODE_ENV === 'production'
+    ) {
+      return res.status(404).json({
+        error: 'Route not found',
+      });
+    }
     return res.json({
       ok:
         true,
