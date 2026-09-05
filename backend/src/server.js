@@ -4,6 +4,8 @@ import express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import compression from 'compression';
+import helmet from 'helmet';
+import { rateLimit } from 'express-rate-limit';
 
 import { pool } from './db/pool.js';
 
@@ -18,6 +20,14 @@ import feedbackRouter from './routes/feedback.js';
 
 
 const app = express();
+
+app.disable('x-powered-by');
+
+/*
+ * Render reverse proxy.
+ * Needed for correct client IP handling.
+ */
+app.set('trust proxy', 1);
 
 
 /*
@@ -299,6 +309,13 @@ app.use(
   )
 );
 
+app.use(
+  helmet({
+    contentSecurityPolicy: false,
+    crossOriginResourcePolicy: false,
+  })
+);
+
 
 /*
 |--------------------------------------------------------------------------
@@ -516,6 +533,36 @@ app.get(
 | POST /api/auth/logout
 |--------------------------------------------------------------------------
 */
+
+const authRateLimiter =
+  rateLimit({
+    windowMs:
+      15 * 60 * 1000,
+
+    limit:
+      30,
+
+    standardHeaders:
+      'draft-8',
+
+    legacyHeaders:
+      false,
+
+    message: {
+      error:
+        'Too many authentication attempts. Please try again later.',
+    },
+  });
+
+app.use(
+  '/api/auth/login',
+  authRateLimiter
+);
+
+app.use(
+  '/api/auth/register',
+  authRateLimiter
+);
 
 app.use(
   '/api/auth',
