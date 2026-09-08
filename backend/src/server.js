@@ -18,6 +18,12 @@ import cwRecV1DevRouter from './routes/cwRecV1-dev.js';
 import paymentsRouter from './routes/payments.js';
 import feedbackRouter from './routes/feedback.js';
 
+import careerAssessmentRouter
+  from './routes/careerAssessment.js';
+
+import careerAssessmentV2Router
+  from './routes/careerAssessmentV2.js';
+
 
 const app = express();
 
@@ -653,6 +659,30 @@ app.use(
 app.use(
   '/api/feedback',
   feedbackRouter
+);
+
+
+/*
+|--------------------------------------------------------------------------
+| CAREER V2
+|--------------------------------------------------------------------------
+*/
+
+app.use(
+  '/api/career',
+  careerAssessmentV2Router
+);
+
+
+/*
+|--------------------------------------------------------------------------
+| CAREER LEGACY
+|--------------------------------------------------------------------------
+*/
+
+app.use(
+  '/api/career',
+  careerAssessmentRouter
 );
 
 
