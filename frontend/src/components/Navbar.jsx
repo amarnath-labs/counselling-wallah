@@ -23,20 +23,14 @@ import {
 function getInitials(user) {
   const name = String(
     user?.name ||
-    user?.fullName ||
-    user?.email ||
-    ''
+      user?.fullName ||
+      user?.email ||
+      ''
   ).trim();
 
   if (!name) {
     return 'U';
   }
-
-  /*
-  |--------------------------------------------------------------------------
-  | EMAIL FALLBACK
-  |--------------------------------------------------------------------------
-  */
 
   if (name.includes('@')) {
     return name
@@ -265,6 +259,10 @@ export default function Navbar() {
             Home
           </Link>
 
+          <Link to="/career-discovery">
+            Career Explorer
+          </Link>
+
           <Link to="/exams">
             Find Colleges
           </Link>
@@ -290,9 +288,7 @@ export default function Navbar() {
 
         <div className="nav-cta">
 
-          {/* ===================================================
-              AUTH LOADING
-          =================================================== */}
+          {/* AUTH LOADING */}
 
           {authLoading && (
             <div
@@ -302,9 +298,7 @@ export default function Navbar() {
           )}
 
 
-          {/* ===================================================
-              NOT LOGGED IN
-          =================================================== */}
+          {/* NOT LOGGED IN */}
 
           {!authLoading &&
             !user && (
@@ -317,9 +311,7 @@ export default function Navbar() {
             )}
 
 
-          {/* ===================================================
-              LOGGED IN
-          =================================================== */}
+          {/* LOGGED IN */}
 
           {!authLoading &&
             user && (
@@ -327,10 +319,6 @@ export default function Navbar() {
                 ref={menuRef}
                 className="nav-user"
               >
-
-                {/* =============================================
-                    USER AVATAR
-                ============================================= */}
 
                 <button
                   type="button"
@@ -354,17 +342,11 @@ export default function Navbar() {
                 </button>
 
 
-                {/* =============================================
-                    ACCOUNT DROPDOWN
-                ============================================= */}
-
                 {menuOpen && (
                   <div
                     className="nav-account-menu"
                     role="menu"
                   >
-
-                    {/* ACCOUNT HEADER */}
 
                     <div
                       className="nav-account-header"
@@ -385,71 +367,53 @@ export default function Navbar() {
                     </div>
 
 
-                    {/* MY ACCOUNT */}
-
                     <Link
                       to="/account"
                       className="nav-account-item"
                       role="menuitem"
                       onClick={() =>
-                        setMenuOpen(
-                          false
-                        )
+                        setMenuOpen(false)
                       }
                     >
                       My Account
                     </Link>
 
 
-                    {/* MY PROFILE */}
-
                     <Link
                       to="/profile"
                       className="nav-account-item"
                       role="menuitem"
                       onClick={() =>
-                        setMenuOpen(
-                          false
-                        )
+                        setMenuOpen(false)
                       }
                     >
                       My Profile
                     </Link>
 
 
-                    {/* DASHBOARD */}
-
                     <Link
                       to="/dashboard"
                       className="nav-account-item"
                       role="menuitem"
                       onClick={() =>
-                        setMenuOpen(
-                          false
-                        )
+                        setMenuOpen(false)
                       }
                     >
                       Dashboard
                     </Link>
 
 
-                    {/* SAVED / CHOICE LIST */}
-
                     <Link
                       to="/choice-list"
                       className="nav-account-item"
                       role="menuitem"
                       onClick={() =>
-                        setMenuOpen(
-                          false
-                        )
+                        setMenuOpen(false)
                       }
                     >
                       Saved / Choice List
                     </Link>
 
-
-                    {/* LOGOUT */}
 
                     <button
                       type="button"
@@ -469,9 +433,7 @@ export default function Navbar() {
             )}
 
 
-          {/* ===================================================
-              FIND MY COLLEGE
-          =================================================== */}
+          {/* FIND MY COLLEGE */}
 
           <Link
             to="/exams"

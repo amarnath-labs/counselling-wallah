@@ -27,30 +27,24 @@ import PaymentResult from './pages/PaymentResult';
 import Dashboard from './pages/Dashboard';
 import CounsellingCalendar from './pages/CounsellingCalendar';
 import Documents from './pages/Documents';
-
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Account from './pages/Account';
+import CareerDiscovery from './pages/CareerDiscovery';
 
 import './styles/global.css';
-
 
 export default function App() {
   return (
     <AppStateProvider>
-
       <BrowserRouter>
-
         <AuthProvider>
-
           <Routes>
-
             <Route
               element={
                 <AppLayout />
               }
             >
-
               <Route
                 path="/"
                 element={
@@ -62,6 +56,13 @@ export default function App() {
                 path="/exams"
                 element={
                   <Exams />
+                }
+              />
+
+              <Route
+                path="/career-discovery"
+                element={
+                  <CareerDiscovery />
                 }
               />
 
@@ -165,15 +166,10 @@ export default function App() {
                   />
                 }
               />
-
             </Route>
-
           </Routes>
-
         </AuthProvider>
-
       </BrowserRouter>
-
     </AppStateProvider>
   );
 }
