@@ -822,13 +822,32 @@ export async function buildAssessmentQuestionPool({
 
 
   if (
-    core.length !==
-    32
-  ) {
-    throw new Error(
-      `Expected 32 V7 core questions for ${profile.stage}, found ${core.length}.`
-    );
-  }
+      core.length !==
+      32
+    ) {
+      const traitCounts =
+        candidates.reduce(
+          (counts, question) => {
+            counts[question.trait] =
+              (counts[question.trait] || 0) + 1;
+
+            return counts;
+          },
+          {}
+        );
+
+      throw new Error(
+        [
+          `Expected 32 V7 core questions for ${profile.stage}, found ${core.length}.`,
+          `candidates=${candidates.length}`,
+          `profileStage=${profile.stage}`,
+          `currentClass=${profile.currentClass ?? 'null'}`,
+          `normalizedCurrentClass=${normalizeCurrentClass(profile.currentClass) ?? 'null'}`,
+          `questionBankStage=${questionBankStage(profile)}`,
+          `traitCounts=${JSON.stringify(traitCounts)}`,
+        ].join(' ')
+      );
+    }
 
 
   const coreIds =
