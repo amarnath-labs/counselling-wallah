@@ -1,4 +1,4 @@
-﻿function normalizeText(value) {
+function normalizeText(value) {
   return String(value ?? '')
     .trim()
     .toLowerCase()
@@ -731,6 +731,31 @@ export function normalizeCareerProfile(
       input.careerFamilies ||
       []
     );
+    /*
+    |--------------------------------------------------------------------------
+    | Resolve exact educational class
+    |--------------------------------------------------------------------------
+    */
+
+    const stageLooksLikeSchoolClass =
+      /^(?:class[\s-]*)?(?:8|9|10|11|12)$/i.test(
+        String(
+          input.stage || ''
+        ).trim()
+      );
+
+
+    const currentClassInput =
+      input.currentClass ||
+      input.basics?.currentClass ||
+      input.basics?.class ||
+      input.class ||
+      (
+        stageLooksLikeSchoolClass
+          ? input.stage
+          : ''
+      );
+
 
 
   return {
@@ -742,9 +767,9 @@ export function normalizeCareerProfile(
 
     stage:
       normalizeStage(
-        input.stage,
-        input.currentClass
-      ),
+          input.stage,
+          currentClassInput
+        ),
 
 
     /*
@@ -765,9 +790,9 @@ export function normalizeCareerProfile(
     */
 
     currentClass:
-      normalizeClass(
-        input.currentClass
-      ),
+        normalizeClass(
+          currentClassInput
+        ),
 
 
     board:
