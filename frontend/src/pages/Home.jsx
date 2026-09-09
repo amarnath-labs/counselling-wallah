@@ -174,6 +174,23 @@ export default function Home() {
               >
                 Explore Colleges
               </Button>
+              <Link
+                to="/college-predictor"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: '11px 18px',
+                  borderRadius: '10px',
+                  fontWeight: 700,
+                  textDecoration: 'none',
+                  color: '#172554',
+                  border: '1px solid rgba(23, 37, 84, 0.22)',
+                  background: '#ffffff',
+                }}
+              >
+                College Predictor 2026 &rarr;
+              </Link>
 
             </div>
 
