@@ -31,6 +31,8 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Account from './pages/Account';
 import CareerDiscovery from './pages/CareerDiscovery';
+import About from './pages/About';
+import CollegePredictorSEO from './pages/CollegePredictorSEO';
 
 import './styles/global.css';
 
@@ -63,6 +65,20 @@ export default function App() {
                 path="/career-discovery"
                 element={
                   <CareerDiscovery />
+                }
+              />
+
+              <Route
+                path="/college-predictor"
+                element={
+                  <CollegePredictorSEO />
+                }
+              />
+
+              <Route
+                path="/about"
+                element={
+                  <About />
                 }
               />
 
