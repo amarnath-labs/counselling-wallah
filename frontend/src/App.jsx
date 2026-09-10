@@ -33,6 +33,7 @@ import Account from './pages/Account';
 import CareerDiscovery from './pages/CareerDiscovery';
 import About from './pages/About';
 import CollegePredictorSEO from './pages/CollegePredictorSEO';
+import RouteSEO from './components/RouteSEO';
 
 import './styles/global.css';
 
@@ -40,6 +41,8 @@ export default function App() {
   return (
     <AppStateProvider>
       <BrowserRouter>
+        <RouteSEO />
+
         <AuthProvider>
           <Routes>
             <Route
