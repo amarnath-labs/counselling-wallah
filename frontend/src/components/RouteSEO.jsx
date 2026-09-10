@@ -1,4 +1,4 @@
-import {
+﻿import {
   useEffect,
 } from 'react';
 
@@ -34,6 +34,27 @@ const ROUTE_SEO = {
       'index, follow',
   },
 
+  '/jee-main-college-predictor': {
+    title:
+      'JEE Main College Predictor 2026 | TruMarg',
+
+    description:
+      'Use TruMarg JEE Main College Predictor 2026 to explore NIT, IIIT, GFTI and engineering college options using rank, category, quota, preferences and historical cutoff data.',
+
+    robots:
+      'index, follow',
+  },
+
+  '/uptac-college-predictor': {
+    title:
+      'UPTAC College Predictor 2026 | TruMarg',
+
+    description:
+      'Use TruMarg UPTAC College Predictor 2026 to explore engineering college and branch options using rank, category, counselling preferences and historical UPTAC cutoff data.',
+
+    robots:
+      'index, follow',
+  },
   '/career-guidance': {
     title:
       'Career Guidance for Students & Career Assessment | TruMarg',

@@ -1,4 +1,4 @@
-import {
+﻿import {
   useEffect,
 } from 'react';
 
@@ -163,6 +163,11 @@ export default function CollegePredictorSEO() {
         options using historical opening
         and closing rank information.
       </p>
+      <p>
+        <Link to="/jee-main-college-predictor">
+          Use JEE Main College Predictor 2026
+        </Link>
+      </p>
 
 
       <h2>
@@ -175,6 +180,11 @@ export default function CollegePredictorSEO() {
         category, counselling preferences
         and historical UPTAC cutoff
         information.
+      </p>
+      <p>
+        <Link to="/uptac-college-predictor">
+          Use UPTAC College Predictor 2026
+        </Link>
       </p>
 
 

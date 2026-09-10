@@ -33,6 +33,7 @@ import Account from './pages/Account';
 import CareerDiscovery from './pages/CareerDiscovery';
 import About from './pages/About';
 import CollegePredictorSEO from './pages/CollegePredictorSEO';
+import ExamCollegePredictorSEO from './pages/ExamCollegePredictorSEO';
 import CareerGuidanceSEO from './pages/CareerGuidanceSEO';
 import CollegeCounsellingSEO from './pages/CollegeCounsellingSEO';
 import RouteSEO from './components/RouteSEO';
@@ -77,6 +78,23 @@ export default function App() {
                 path="/college-predictor"
                 element={
                   <CollegePredictorSEO />
+                }
+              />
+              <Route
+                path="/jee-main-college-predictor"
+                element={
+                  <ExamCollegePredictorSEO
+                    examId="jee-main"
+                  />
+                }
+              />
+
+              <Route
+                path="/uptac-college-predictor"
+                element={
+                  <ExamCollegePredictorSEO
+                    examId="uptac"
+                  />
                 }
               />
 
