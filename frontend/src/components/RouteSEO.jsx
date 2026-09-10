@@ -34,6 +34,28 @@ const ROUTE_SEO = {
       'index, follow',
   },
 
+  '/career-guidance': {
+    title:
+      'Career Guidance for Students & Career Assessment | TruMarg',
+
+    description:
+      'Get career guidance for students with TruMarg. Explore interests, strengths, preferences and suitable career paths through a structured career assessment experience.',
+
+    robots:
+      'index, follow',
+  },
+
+  '/college-counselling': {
+    title:
+      'College Counselling & Admission Guidance | TruMarg',
+
+    description:
+      'Explore college counselling and admission guidance with TruMarg. Understand college options, branches, counselling rounds, cutoffs and admission possibilities.',
+
+    robots:
+      'index, follow',
+  },
+
   '/about': {
     title:
       'About TruMarg - College & Career Guidance Platform',

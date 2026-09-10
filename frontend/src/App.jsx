@@ -1,4 +1,4 @@
-import {
+﻿import {
   BrowserRouter,
   Routes,
   Route,
@@ -33,6 +33,8 @@ import Account from './pages/Account';
 import CareerDiscovery from './pages/CareerDiscovery';
 import About from './pages/About';
 import CollegePredictorSEO from './pages/CollegePredictorSEO';
+import CareerGuidanceSEO from './pages/CareerGuidanceSEO';
+import CollegeCounsellingSEO from './pages/CollegeCounsellingSEO';
 import RouteSEO from './components/RouteSEO';
 
 import './styles/global.css';
@@ -75,6 +77,20 @@ export default function App() {
                 path="/college-predictor"
                 element={
                   <CollegePredictorSEO />
+                }
+              />
+
+              <Route
+                path="/career-guidance"
+                element={
+                  <CareerGuidanceSEO />
+                }
+              />
+
+              <Route
+                path="/college-counselling"
+                element={
+                  <CollegeCounsellingSEO />
                 }
               />
 

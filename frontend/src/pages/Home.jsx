@@ -191,6 +191,41 @@ export default function Home() {
               >
                 College Predictor 2026 &rarr;
               </Link>
+              <Link
+                to="/college-counselling"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: '11px 18px',
+                  borderRadius: '10px',
+                  fontWeight: 700,
+                  textDecoration: 'none',
+                  color: '#172554',
+                  border: '1px solid rgba(23, 37, 84, 0.22)',
+                  background: '#ffffff',
+                }}
+              >
+                College Counselling
+              </Link>
+
+              <Link
+                to="/career-guidance"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: '11px 18px',
+                  borderRadius: '10px',
+                  fontWeight: 700,
+                  textDecoration: 'none',
+                  color: '#172554',
+                  border: '1px solid rgba(23, 37, 84, 0.22)',
+                  background: '#ffffff',
+                }}
+              >
+                Career Guidance
+              </Link>
 
             </div>
 
