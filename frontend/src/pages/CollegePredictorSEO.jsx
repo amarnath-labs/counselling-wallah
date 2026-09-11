@@ -1,4 +1,5 @@
 import {
+  Link,
   useNavigate,
 } from 'react-router-dom';
 
@@ -11,6 +12,7 @@ const EXAMS = [
   {
     id: 'jee-main',
     name: 'JEE Main',
+    route: '/jee-main-college-predictor',
     title: 'JEE Main College Predictor 2026',
     description:
       'Explore NIT, IIIT, GFTI and other engineering college options using your JEE Main admission profile and historical cutoff data.',
@@ -18,6 +20,7 @@ const EXAMS = [
   {
     id: 'uptac',
     name: 'UPTAC',
+    route: '/uptac-college-predictor',
     title: 'UPTAC College Predictor 2026',
     description:
       'Explore UPTAC engineering college and branch options using your rank, category, counselling preferences and historical cutoff data.',
@@ -417,6 +420,22 @@ export default function CollegePredictorSEO() {
               >
                 Start {exam.name} Prediction
               </button>
+
+              <p
+                style={{
+                  margin:
+                    '18px 0 0',
+                }}
+              >
+                <Link
+                  to={exam.route}
+                  style={{
+                    fontWeight: 700,
+                  }}
+                >
+                  Learn more about {exam.title}
+                </Link>
+              </p>
             </article>
           )
         )}
@@ -605,29 +624,19 @@ export default function CollegePredictorSEO() {
             gap: '14px',
           }}
         >
-          <button
-            type="button"
-            onClick={() =>
-              navigate(
-                '/college-counselling'
-              )
-            }
+          <Link
+            to="/college-counselling"
             className="btn"
           >
             College Counselling
-          </button>
+          </Link>
 
-          <button
-            type="button"
-            onClick={() =>
-              navigate(
-                '/career-guidance'
-              )
-            }
+          <Link
+            to="/career-guidance"
             className="btn"
           >
             Career Guidance
-          </button>
+          </Link>
         </div>
       </section>
     </main>
