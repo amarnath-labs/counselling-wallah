@@ -30,16 +30,54 @@ export default function CollegePredictorSEO() {
     useNavigate();
 
   const {
+    selectedExamId,
     setSelectedExamId,
+    profile,
+    setProfile,
   } = useAppState();
+
+  const p =
+    profile || {};
+
+  const updateProfile = (
+    key,
+    value
+  ) => {
+    setProfile({
+      ...p,
+      [key]: value,
+    });
+  };
 
 
   const startPrediction = (
     examId
   ) => {
+    const rank =
+      Number(
+        p.rank
+      );
+
+    if (
+      !Number.isInteger(rank) ||
+      rank <= 0
+    ) {
+      window.alert(
+        'Please enter a valid rank.'
+      );
+
+      return;
+    }
+
     setSelectedExamId(
       examId
     );
+
+    setProfile({
+      ...p,
+      examId,
+      rank,
+    });
 
     navigate(
       '/profile'
@@ -99,6 +137,215 @@ export default function CollegePredictorSEO() {
           entrance exam rank, category,
           quota, counselling preferences
           and historical cutoff data.
+        </p>
+      </section>
+
+
+      <section
+        aria-label="Quick college predictor"
+        style={{
+          margin: '42px auto 0',
+          maxWidth: '900px',
+          padding: '28px',
+          border: '1px solid #e2e8f0',
+          borderRadius: '18px',
+          background: '#ffffff',
+          boxShadow:
+            '0 12px 32px rgba(15, 23, 42, 0.06)',
+        }}
+      >
+        <h2
+          style={{
+            marginTop: 0,
+            color: '#172554',
+            textAlign: 'center',
+          }}
+        >
+          Predict Colleges from Your Rank
+        </h2>
+
+        <p
+          style={{
+            textAlign: 'center',
+            color: '#64748b',
+            marginBottom: '24px',
+          }}
+        >
+          Enter your basic admission details
+          to start your personalized college
+          prediction.
+        </p>
+
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns:
+              'repeat(auto-fit, minmax(190px, 1fr))',
+            gap: '16px',
+          }}
+        >
+          <label>
+            <span
+              style={{
+                display: 'block',
+                fontWeight: 700,
+                marginBottom: '7px',
+              }}
+            >
+              Entrance Exam
+            </span>
+
+            <select
+              value={
+                selectedExamId ||
+                'jee-main'
+              }
+              onChange={(event) =>
+                setSelectedExamId(
+                  event.target.value
+                )
+              }
+              style={{
+                width: '100%',
+                padding: '12px',
+                borderRadius: '9px',
+                border:
+                  '1px solid #cbd5e1',
+              }}
+            >
+              <option value="jee-main">
+                JEE Main
+              </option>
+
+              <option value="uptac">
+                UPTAC
+              </option>
+            </select>
+          </label>
+
+
+          <label>
+            <span
+              style={{
+                display: 'block',
+                fontWeight: 700,
+                marginBottom: '7px',
+              }}
+            >
+              Rank
+            </span>
+
+            <input
+              type="number"
+              min="1"
+              value={
+                p.rank ?? ''
+              }
+              onChange={(event) =>
+                updateProfile(
+                  'rank',
+                  Number(
+                    event.target.value
+                  ) || 0
+                )
+              }
+              placeholder="Enter rank"
+              style={{
+                width: '100%',
+                boxSizing:
+                  'border-box',
+                padding: '12px',
+                borderRadius: '9px',
+                border:
+                  '1px solid #cbd5e1',
+              }}
+            />
+          </label>
+
+
+          <label>
+            <span
+              style={{
+                display: 'block',
+                fontWeight: 700,
+                marginBottom: '7px',
+              }}
+            >
+              Category
+            </span>
+
+            <select
+              value={
+                p.category ||
+                'General'
+              }
+              onChange={(event) =>
+                updateProfile(
+                  'category',
+                  event.target.value
+                )
+              }
+              style={{
+                width: '100%',
+                padding: '12px',
+                borderRadius: '9px',
+                border:
+                  '1px solid #cbd5e1',
+              }}
+            >
+              <option value="General">
+                General
+              </option>
+
+              <option value="OBC-NCL">
+                OBC-NCL
+              </option>
+
+              <option value="EWS">
+                EWS
+              </option>
+
+              <option value="SC">
+                SC
+              </option>
+
+              <option value="ST">
+                ST
+              </option>
+            </select>
+          </label>
+        </div>
+
+
+        <button
+          type="button"
+          className="btn btn-primary"
+          onClick={() =>
+            startPrediction(
+              selectedExamId ||
+              'jee-main'
+            )
+          }
+          style={{
+            display: 'block',
+            margin: '24px auto 0',
+          }}
+        >
+          Predict My Colleges
+        </button>
+
+        <p
+          style={{
+            margin:
+              '16px 0 0',
+            textAlign: 'center',
+            color: '#64748b',
+            fontSize: '14px',
+          }}
+        >
+          You can add home state, gender,
+          branch and other preferences on the
+          next step.
         </p>
       </section>
 
