@@ -123,6 +123,22 @@ export default function CollegeCounsellingSEO() {
           admission details and available historical
           counselling data.
         </p>
+
+        <div
+          style={{
+            display: 'flex',
+            gap: '16px',
+            flexWrap: 'wrap',
+          }}
+        >
+          <Link to="/jee-main-college-predictor">
+            JEE Main College Predictor 2026
+          </Link>
+
+          <Link to="/uptac-college-predictor">
+            UPTAC College Predictor 2026
+          </Link>
+        </div>
       </section>
     </main>
   );

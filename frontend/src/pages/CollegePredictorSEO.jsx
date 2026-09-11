@@ -347,12 +347,25 @@ export default function CollegePredictorSEO() {
       </p>
 
 
-      <Link
-        to="/exams"
-        className="btn btn-primary"
+      <div
+        style={{
+          display: 'flex',
+          gap: '16px',
+          flexWrap: 'wrap',
+          alignItems: 'center',
+        }}
       >
-        Start College Prediction
-      </Link>
+        <Link
+          to="/exams"
+          className="btn btn-primary"
+        >
+          Start College Prediction
+        </Link>
+
+        <Link to="/college-counselling">
+          Explore College Counselling
+        </Link>
+      </div>
     </main>
   );
 }
