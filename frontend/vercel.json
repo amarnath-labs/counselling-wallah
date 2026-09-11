@@ -16,6 +16,30 @@
       "destination": "https://counsellingwallah-backend.onrender.com/api/:path*"
     },
     {
+      "source": "/college-predictor",
+      "destination": "/college-predictor/index.html"
+    },
+    {
+      "source": "/jee-main-college-predictor",
+      "destination": "/jee-main-college-predictor/index.html"
+    },
+    {
+      "source": "/uptac-college-predictor",
+      "destination": "/uptac-college-predictor/index.html"
+    },
+    {
+      "source": "/college-counselling",
+      "destination": "/college-counselling/index.html"
+    },
+    {
+      "source": "/career-guidance",
+      "destination": "/career-guidance/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
