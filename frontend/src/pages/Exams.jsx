@@ -1,5 +1,8 @@
 import { useMemo, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import {
+  Link,
+  useNavigate,
+} from 'react-router-dom';
 
 import PageHero from '../components/PageHero';
 import Button from '../components/Button';
@@ -252,6 +255,68 @@ export default function Exams() {
           })}
 
         </div>
+
+        <section
+          aria-labelledby="college-predictor-guides"
+          style={{
+            marginTop: '56px',
+            padding: '28px',
+            border:
+              '1px solid #e2e8f0',
+            borderRadius: '18px',
+            background: '#f8fafc',
+          }}
+        >
+          <h2
+            id="college-predictor-guides"
+            style={{
+              marginTop: 0,
+            }}
+          >
+            College Predictor 2026
+          </h2>
+
+          <p
+            style={{
+              lineHeight: 1.7,
+              color: '#475569',
+            }}
+          >
+            Explore TruMarg college predictor
+            tools using your entrance exam
+            profile and historical cutoff data.
+          </p>
+
+          <div
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              gap: '14px',
+              marginTop: '20px',
+            }}
+          >
+            <Link
+              to="/college-predictor"
+              className="btn"
+            >
+              College Predictor 2026
+            </Link>
+
+            <Link
+              to="/jee-main-college-predictor"
+              className="btn"
+            >
+              JEE Main College Predictor
+            </Link>
+
+            <Link
+              to="/uptac-college-predictor"
+              className="btn"
+            >
+              UPTAC College Predictor
+            </Link>
+          </div>
+        </section>
       </div>
     </>
   );
