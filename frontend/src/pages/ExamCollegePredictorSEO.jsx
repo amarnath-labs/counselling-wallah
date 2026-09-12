@@ -15,48 +15,44 @@ const EXAM_CONFIG = {
     heading:
       'JEE Main College Predictor 2026',
 
+    eyebrow:
+      'JEE Main College Predictor',
+
     description:
-      'Use your JEE Main rank, category, quota and preferences to explore relevant NIT, IIIT, GFTI and other engineering college options using available historical admission data.',
+      'Explore relevant NIT, IIIT, GFTI and other engineering college options using your JEE Main admission profile and historical cutoff data.',
 
-    overview:
-      'The TruMarg JEE Main College Predictor helps students narrow down college and branch possibilities instead of manually checking large cutoff tables. Enter your admission details and preferences to explore options relevant to your profile.',
+    dataLabel:
+      'Historical JEE Main / JoSAA admission data',
 
-    inputs: [
+    coverageTitle:
+      'JEE Main Predictor Coverage',
+
+    coverageItems: [
+      'NIT college and branch possibilities',
+      'IIIT college and branch possibilities',
+      'GFTI college and branch possibilities',
+      'Rank, category, quota and home-state based admission profile',
+      'Historical opening and closing rank comparison',
+    ],
+
+    inputItems: [
       'JEE Main rank',
-      'Category and applicable quota',
+      'Category',
+      'Home state',
+      'Quota',
       'Branch preferences',
-      'Counselling preferences',
-      'Available historical opening and closing ranks',
+      'Other applicable counselling details',
     ],
 
-    dataText:
-      'TruMarg compares your admission profile with available historical opening and closing rank information. Previous cutoffs can help identify patterns, but they should be treated as guidance rather than a guarantee of future admission.',
+    methodology:
+      'TruMarg compares the student admission profile with available historical opening and closing rank information. The goal is to organize relevant college and branch possibilities for counselling planning.',
 
-    counsellingText:
-      'College prediction is most useful when combined with a sensible counselling strategy. Students can use predicted options to compare branches and colleges and prepare a broader preference list instead of depending on a single expected cutoff.',
+    siblingRoute:
+      '/uptac-college-predictor',
 
-    faq: [
-      {
-        question:
-          'How does the JEE Main College Predictor work?',
-        answer:
-          'It uses your admission profile together with available historical cutoff information to organize relevant college and branch possibilities.',
-      },
-      {
-        question:
-          'Can TruMarg predict NIT, IIIT and GFTI options?',
-        answer:
-          'Where relevant historical admission data is available, the JEE Main prediction flow can help students explore NIT, IIIT, GFTI and other supported engineering college options.',
-      },
-      {
-        question:
-          'Does a predicted college guarantee admission?',
-        answer:
-          'No. Final admission depends on official counselling rules, seat availability, category, quota, preference order and actual cutoff movement.',
-      },
-    ],
+    siblingLabel:
+      'UPTAC College Predictor 2026',
   },
-
 
   uptac: {
     name: 'UPTAC',
@@ -64,46 +60,42 @@ const EXAM_CONFIG = {
     heading:
       'UPTAC College Predictor 2026',
 
+    eyebrow:
+      'UPTAC College Predictor',
+
     description:
-      'Use your UPTAC rank, category and counselling preferences to explore engineering college and branch options using available historical UPTAC cutoff data.',
+      'Explore UPTAC engineering college and branch possibilities using your rank, category, counselling preferences and historical UPTAC cutoff data.',
 
-    overview:
-      'The TruMarg UPTAC College Predictor helps students explore relevant college and branch possibilities using their admission profile and available historical counselling data.',
+    dataLabel:
+      'UPTAC 2025 historical counselling cutoff data',
 
-    inputs: [
-      'UPTAC rank',
+    coverageTitle:
+      'UPTAC Predictor Data Coverage',
+
+    coverageItems: [
+      '10,804 historical UPTAC 2025 cutoff records',
+      'Round-wise historical counselling cutoff information',
+      'Category-aware historical cutoff information',
+      'Quota information where available',
+      'College and branch level admission possibilities',
+    ],
+
+    inputItems: [
+      'JEE Main / applicable UPTAC rank',
       'Category',
       'Counselling preferences',
       'Branch preferences',
-      'Available historical opening and closing ranks',
+      'Applicable quota or admission details',
     ],
 
-    dataText:
-      'TruMarg uses available historical UPTAC opening and closing rank information together with your admission details to organize relevant options. Historical cutoffs can change from one counselling cycle to another.',
+    methodology:
+      'TruMarg compares the student admission profile with historical UPTAC opening and closing rank information where available. The predictor then organizes relevant college and branch possibilities for counselling planning.',
 
-    counsellingText:
-      'Use predicted options as a starting point for counselling planning. A broader preference strategy can help students compare realistic, ambitious and additional backup options before final choice filling.',
+    siblingRoute:
+      '/jee-main-college-predictor',
 
-    faq: [
-      {
-        question:
-          'How does the UPTAC College Predictor work?',
-        answer:
-          'It combines your admission details with available historical UPTAC cutoff information to organize relevant college and branch possibilities.',
-      },
-      {
-        question:
-          'What information should I enter?',
-        answer:
-          'Use accurate rank, category and counselling preferences so that the prediction flow can evaluate options against the available admission data.',
-      },
-      {
-        question:
-          'Is UPTAC admission guaranteed by the prediction?',
-        answer:
-          'No. Predictions are indicative. Final seat allocation depends on official counselling rules, seat availability and actual cutoff movement.',
-      },
-    ],
+    siblingLabel:
+      'JEE Main College Predictor 2026',
   },
 };
 
@@ -111,7 +103,7 @@ const EXAM_CONFIG = {
 export default function ExamCollegePredictorSEO({
   examId,
 }) {
-  const nav =
+  const navigate =
     useNavigate();
 
   const {
@@ -131,39 +123,59 @@ export default function ExamCollegePredictorSEO({
       examId
     );
 
-    nav('/profile');
+    navigate(
+      '/profile'
+    );
   };
 
 
   return (
     <main
       style={{
-        maxWidth: '1050px',
+        maxWidth: '1120px',
         margin: '0 auto',
         padding: '48px 20px 80px',
-        lineHeight: 1.7,
       }}
     >
       <section
         style={{
-          maxWidth: '850px',
+          textAlign: 'center',
+          maxWidth: '860px',
+          margin: '0 auto',
         }}
       >
         <p
           style={{
-            fontWeight: 700,
+            margin: '0 0 12px',
             color: '#f97316',
-            marginBottom: '10px',
+            fontWeight: 800,
           }}
         >
-          TruMarg College Predictor
+          {config.eyebrow}
         </p>
 
-        <h1>
+        <h1
+          style={{
+            margin: 0,
+            color: '#172554',
+            fontSize:
+              'clamp(34px, 6vw, 56px)',
+            lineHeight: 1.08,
+          }}
+        >
           {config.heading}
         </h1>
 
-        <p>
+        <p
+          style={{
+            maxWidth: '760px',
+            margin:
+              '22px auto 0',
+            color: '#475569',
+            fontSize: '18px',
+            lineHeight: 1.75,
+          }}
+        >
           {config.description}
         </p>
 
@@ -171,9 +183,95 @@ export default function ExamCollegePredictorSEO({
           type="button"
           className="btn btn-primary"
           onClick={startPrediction}
+          style={{
+            marginTop: '24px',
+          }}
         >
-          Start {config.name} College Prediction
+          Start {config.name} Prediction
         </button>
+
+        <p
+          style={{
+            marginTop: '14px',
+            color: '#64748b',
+            fontSize: '14px',
+          }}
+        >
+          {config.dataLabel}
+        </p>
+      </section>
+
+
+      <section
+        aria-label={`${config.name} predictor inputs`}
+        style={{
+          marginTop: '52px',
+          display: 'grid',
+          gridTemplateColumns:
+            'repeat(auto-fit, minmax(240px, 1fr))',
+          gap: '18px',
+        }}
+      >
+        {config.inputItems.map(
+          item => (
+            <div
+              key={item}
+              style={{
+                border:
+                  '1px solid #e2e8f0',
+                borderRadius: '14px',
+                padding: '18px',
+                background: '#ffffff',
+              }}
+            >
+              <strong
+                style={{
+                  color: '#172554',
+                }}
+              >
+                {item}
+              </strong>
+            </div>
+          )
+        )}
+      </section>
+
+
+      <section
+        style={{
+          marginTop: '64px',
+        }}
+      >
+        <h2>
+          How the {config.name} College Predictor Works
+        </h2>
+
+        <ol
+          style={{
+            color: '#475569',
+            lineHeight: 1.9,
+          }}
+        >
+          <li>
+            Start the {config.name} predictor.
+          </li>
+
+          <li>
+            Enter your rank and applicable admission details.
+          </li>
+
+          <li>
+            Add category, quota, home-state or counselling preferences where applicable.
+          </li>
+
+          <li>
+            TruMarg compares your profile with available historical cutoff information.
+          </li>
+
+          <li>
+            Review relevant college and branch possibilities.
+          </li>
+        </ol>
       </section>
 
 
@@ -183,26 +281,16 @@ export default function ExamCollegePredictorSEO({
         }}
       >
         <h2>
-          {config.name} College Prediction Using Your Rank
+          {config.coverageTitle}
         </h2>
 
-        <p>
-          {config.overview}
-        </p>
-      </section>
-
-
-      <section
-        style={{
-          marginTop: '40px',
-        }}
-      >
-        <h2>
-          Information Used for Prediction
-        </h2>
-
-        <ul>
-          {config.inputs.map(
+        <ul
+          style={{
+            color: '#475569',
+            lineHeight: 1.9,
+          }}
+        >
+          {config.coverageItems.map(
             item => (
               <li key={item}>
                 {item}
@@ -215,151 +303,140 @@ export default function ExamCollegePredictorSEO({
 
       <section
         style={{
-          marginTop: '40px',
+          marginTop: '56px',
         }}
       >
         <h2>
-          How the {config.name} College Predictor Works
+          Historical Cutoff Methodology
         </h2>
 
-        <ol>
-          <li>
-            {config.name} is automatically selected.
-          </li>
-
-          <li>
-            Enter your rank and applicable admission details.
-          </li>
-
-          <li>
-            Add branch and counselling preferences.
-          </li>
-
-          <li>
-            TruMarg compares your profile with available historical admission data.
-          </li>
-
-          <li>
-            Review relevant college and branch possibilities.
-          </li>
-        </ol>
-      </section>
-
-
-      <section
-        style={{
-          marginTop: '40px',
-        }}
-      >
-        <h2>
-          Historical Cutoff Data
-        </h2>
-
-        <p>
-          {config.dataText}
-        </p>
-      </section>
-
-
-      <section
-        style={{
-          marginTop: '40px',
-        }}
-      >
-        <h2>
-          Dream, Target, Safe and Backup Options
-        </h2>
-
-        <p>
-          TruMarg may organize college possibilities into
-          admission-feasibility categories to make comparison
-          and counselling planning easier. These categories
-          are guidance estimates and do not guarantee admission.
-        </p>
-      </section>
-
-
-      <section
-        style={{
-          marginTop: '40px',
-        }}
-      >
-        <h2>
-          Use Prediction for College Counselling
-        </h2>
-
-        <p>
-          {config.counsellingText}
-        </p>
-
-        <p>
-          <Link to="/college-counselling">
-            Explore TruMarg College Counselling
-          </Link>
-        </p>
-
-        <p>
-          <Link to="/college-predictor">
-            View College Predictor 2026
-          </Link>
-        </p>
-      </section>
-
-
-      <section
-        style={{
-          marginTop: '40px',
-        }}
-      >
-        <h2>
-          {config.name} College Predictor FAQs
-        </h2>
-
-        {config.faq.map(
-          item => (
-            <div
-              key={item.question}
-              style={{
-                marginBottom: '22px',
-              }}
-            >
-              <h3>
-                {item.question}
-              </h3>
-
-              <p>
-                {item.answer}
-              </p>
-            </div>
-          )
-        )}
-      </section>
-
-
-      <section
-        style={{
-          marginTop: '40px',
-        }}
-      >
-        <h2>
-          Important Admission Disclaimer
-        </h2>
-
-        <p>
-          Historical cutoffs can change from year to year
-          because of competition, seat availability,
-          counselling rules, category, quota and student
-          preferences. Final admission depends on the
-          official counselling authority.
-        </p>
-
-        <button
-          type="button"
-          className="btn btn-primary"
-          onClick={startPrediction}
+        <p
+          style={{
+            color: '#475569',
+            lineHeight: 1.8,
+          }}
         >
-          Predict My Colleges
-        </button>
+          {config.methodology}
+        </p>
+
+        <p
+          style={{
+            color: '#475569',
+            lineHeight: 1.8,
+          }}
+        >
+          Historical cutoffs are useful for understanding previous admission patterns, but future cutoffs can change because of competition, seat availability, counselling rules, category, quota and student preferences.
+        </p>
+      </section>
+
+
+      <section
+        style={{
+          marginTop: '56px',
+        }}
+      >
+        <h2>
+          Dream, Target, Safe and Backup College Options
+        </h2>
+
+        <p
+          style={{
+            color: '#475569',
+            lineHeight: 1.8,
+          }}
+        >
+          TruMarg may organize recommendations into Dream, Target, Safe and Backup categories to make counselling options easier to compare. These categories are guidance estimates and do not guarantee admission.
+        </p>
+      </section>
+
+
+      <section
+        style={{
+          marginTop: '56px',
+        }}
+      >
+        <h2>
+          Frequently Asked Questions
+        </h2>
+
+        <h3>
+          What information does the {config.name} predictor use?
+        </h3>
+
+        <p>
+          It uses your admission profile together with available historical cutoff information and counselling preferences.
+        </p>
+
+        <h3>
+          Does TruMarg guarantee admission?
+        </h3>
+
+        <p>
+          No. Final admission depends on official counselling rules, seat availability and actual cutoff movement.
+        </p>
+
+        <h3>
+          Why can cutoff ranks change every year?
+        </h3>
+
+        <p>
+          Cutoffs can change because of applicant demand, seat availability, category, quota, counselling rounds and student choice preferences.
+        </p>
+      </section>
+
+
+      <section
+        style={{
+          marginTop: '64px',
+          padding: '28px',
+          borderRadius: '18px',
+          background: '#f8fafc',
+        }}
+      >
+        <h2
+          style={{
+            marginTop: 0,
+          }}
+        >
+          Start Your College Prediction
+        </h2>
+
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            gap: '14px',
+          }}
+        >
+          <button
+            type="button"
+            className="btn btn-primary"
+            onClick={startPrediction}
+          >
+            Predict My Colleges
+          </button>
+
+          <Link
+            to={config.siblingRoute}
+            className="btn"
+          >
+            {config.siblingLabel}
+          </Link>
+
+          <Link
+            to="/college-predictor"
+            className="btn"
+          >
+            All College Predictors
+          </Link>
+
+          <Link
+            to="/college-counselling"
+            className="btn"
+          >
+            College Counselling
+          </Link>
+        </div>
       </section>
     </main>
   );
