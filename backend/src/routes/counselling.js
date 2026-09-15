@@ -1,7 +1,8 @@
-﻿import { Router } from 'express';
+import { Router } from 'express';
 import { pool } from '../db/pool.js';
 import { gzipSync } from 'node:zlib';
 import { redisGetJson, redisSetJson } from '../services/redisCache.js';
+import { buildHistoricalAdmissionIntelligence } from '../services/historicalAdmissionIntelligence.js';
 
 const router = Router();
 
@@ -281,6 +282,30 @@ router.get(
         Number(
           req.query.rank
         );
+
+      const studentRank =
+        req.query.rank
+          ? Number(
+              req.query.rank
+            )
+          : null;
+
+
+      if (
+        studentRank !== null &&
+        (
+          !Number.isFinite(
+            studentRank
+          ) ||
+          studentRank <= 0
+        )
+      ) {
+        return res.status(400).json({
+          error:
+            'rank must be a positive number.',
+        });
+      }
+
 
       const category =
         String(
@@ -1014,5 +1039,730 @@ router.get(
 | EXPORT
 |--------------------------------------------------------------------------
 */
+
+/*
+|--------------------------------------------------------------------------
+| HISTORICAL CUTOFF INTELLIGENCE
+|--------------------------------------------------------------------------
+|
+| Read-only additive endpoint.
+| Existing /results logic remains unchanged.
+|
+*/
+
+/*
+|--------------------------------------------------------------------------
+| BATCH CSAB HISTORICAL MATCHES
+|--------------------------------------------------------------------------
+|
+| Additive/read-only endpoint.
+| Existing counselling result logic remains unchanged.
+|
+*/
+
+router.post(
+  '/csab-matches',
+  async (req, res, next) => {
+    try {
+      const rawBranchIds =
+        Array.isArray(
+          req.body?.branchIds
+        )
+          ? req.body.branchIds
+          : [];
+
+      const branchIds =
+        [
+          ...new Set(
+            rawBranchIds
+              .map(Number)
+              .filter(
+                (id) =>
+                  Number.isInteger(id) &&
+                  id > 0
+              )
+          ),
+        ];
+
+      if (
+        branchIds.length === 0
+      ) {
+        return res.json({
+          data: {},
+          meta: {
+            requested: 0,
+            matched: 0,
+          },
+        });
+      }
+
+      if (
+        branchIds.length > 1000
+      ) {
+        return res.status(400).json({
+          error:
+            'Maximum 1000 branchIds are allowed.',
+        });
+      }
+
+
+      const studentRank =
+        Number(
+          req.body?.rank
+        );
+
+      if (
+        !Number.isFinite(
+          studentRank
+        ) ||
+        studentRank <= 0
+      ) {
+        return res.status(400).json({
+          error:
+            'rank must be a positive number.',
+        });
+      }
+
+
+      const category =
+        req.body?.category
+          ? String(
+              req.body.category
+            ).trim()
+          : null;
+
+      const requestedQuota =
+        req.body?.quota
+          ? String(
+              req.body.quota
+            ).trim()
+          : null;
+
+      const gender =
+        req.body?.gender
+          ? String(
+              req.body.gender
+            ).trim()
+          : null;
+
+
+      const csabQuotaAliases = {
+        AI: 'All India',
+        'ALL INDIA': 'All India',
+
+        HS: 'Home State',
+        'HOME STATE': 'Home State',
+
+        OS: 'Other State',
+        'OTHER STATE': 'Other State',
+
+        GO: 'Home State for Goa',
+        'HOME STATE FOR GOA':
+          'Home State for Goa',
+
+        JK:
+          'Jammu & Kashmir (UT)',
+        'JAMMU & KASHMIR (UT)':
+          'Jammu & Kashmir (UT)',
+
+        LA: 'Ladakh (UT)',
+        'LADAKH (UT)':
+          'Ladakh (UT)',
+      };
+
+
+      const csabQuota =
+        requestedQuota
+          ? (
+              csabQuotaAliases[
+                requestedQuota
+                  .toUpperCase()
+              ] ||
+              requestedQuota
+            )
+          : null;
+
+
+      const result =
+        await pool.query(
+          `
+            SELECT
+              c.branch_id,
+              c.year,
+              c.round,
+              c.category,
+              c.quota,
+              c.gender,
+              c.opening_rank,
+              c.closing_rank
+
+            FROM cutoffs c
+
+            WHERE c.branch_id =
+              ANY($1::bigint[])
+
+              AND c.counselling_type =
+                'CSAB_SPECIAL'
+
+              AND c.year BETWEEN
+                2024 AND 2026
+
+              AND (
+                $2::text IS NULL
+                OR c.category = $2
+              )
+
+              AND (
+                $3::text IS NULL
+                OR c.quota = $3
+              )
+
+              AND (
+                $4::text IS NULL
+                OR c.gender = $4
+              )
+
+            ORDER BY
+              c.branch_id,
+              c.year DESC,
+
+              CASE
+                WHEN c.round ~ '^[0-9]+$'
+                THEN c.round::integer
+                ELSE 999
+              END,
+
+              c.round
+          `,
+          [
+            branchIds,
+            category,
+            csabQuota,
+            gender,
+          ]
+        );
+
+
+      const rowsByBranch =
+        new Map();
+
+
+      for (
+        const row
+        of result.rows
+      ) {
+        const branchId =
+          Number(
+            row.branch_id
+          );
+
+        if (
+          !rowsByBranch.has(
+            branchId
+          )
+        ) {
+          rowsByBranch.set(
+            branchId,
+            []
+          );
+        }
+
+        rowsByBranch
+          .get(branchId)
+          .push({
+            year:
+              Number(
+                row.year
+              ),
+
+            round:
+              row.round,
+
+            category:
+              row.category,
+
+            quota:
+              row.quota,
+
+            gender:
+              row.gender,
+
+            openingRank:
+              row.opening_rank === null
+                ? null
+                : Number(
+                    row.opening_rank
+                  ),
+
+            closingRank:
+              Number(
+                row.closing_rank
+              ),
+          });
+      }
+
+
+      const data = {};
+
+
+      for (
+        const branchId
+        of branchIds
+      ) {
+        const csabRows =
+          rowsByBranch.get(
+            branchId
+          ) || [];
+
+        const intelligence =
+          buildHistoricalAdmissionIntelligence({
+            studentRank,
+            josaaRows: [],
+            csabRows,
+          });
+
+        const csab =
+          intelligence?.csab;
+
+
+        data[
+          String(branchId)
+        ] = {
+          available:
+            Boolean(
+              csab?.available
+            ),
+
+          bucket:
+            csab
+              ?.historicalBucket ||
+            null,
+
+          weightedRankRatio:
+            csab
+              ?.weightedRankRatio ??
+            null,
+        };
+      }
+
+
+      const matched =
+        Object.values(data)
+          .filter(
+            (item) =>
+              item.available
+          )
+          .length;
+
+
+      return res.json({
+        data,
+
+        meta: {
+          requested:
+            branchIds.length,
+
+          matched,
+
+          years: [
+            2024,
+            2025,
+            2026,
+          ],
+
+          counsellingType:
+            'CSAB_SPECIAL',
+        },
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+);
+
+router.get(
+  '/cutoff-history',
+  async (req, res, next) => {
+    try {
+      const branchId =
+        Number(
+          req.query.branchId
+        );
+
+      if (
+        !Number.isInteger(branchId) ||
+        branchId <= 0
+      ) {
+        return res.status(400).json({
+          error:
+            'A valid branchId is required.',
+        });
+      }
+
+      const studentRank =
+        req.query.rank
+          ? Number(
+              req.query.rank
+            )
+          : null;
+
+
+      if (
+        studentRank !== null &&
+        (
+          !Number.isFinite(
+            studentRank
+          ) ||
+          studentRank <= 0
+        )
+      ) {
+        return res.status(400).json({
+          error:
+            'rank must be a positive number.',
+        });
+      }
+
+
+      const category =
+        req.query.category
+          ? String(
+              req.query.category
+            ).trim()
+          : null;
+
+      const requestedQuota =
+        req.query.quota
+          ? String(
+              req.query.quota
+            ).trim()
+          : null;
+
+      const gender =
+        req.query.gender
+          ? String(
+              req.query.gender
+            ).trim()
+          : null;
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | JoSAA / CSAB quota aliases
+      |--------------------------------------------------------------------------
+      */
+
+      const quotaAliases = {
+        AI: {
+          josaa: 'AI',
+          csab: 'All India',
+        },
+
+        'ALL INDIA': {
+          josaa: 'AI',
+          csab: 'All India',
+        },
+
+        HS: {
+          josaa: 'HS',
+          csab: 'Home State',
+        },
+
+        'HOME STATE': {
+          josaa: 'HS',
+          csab: 'Home State',
+        },
+
+        OS: {
+          josaa: 'OS',
+          csab: 'Other State',
+        },
+
+        'OTHER STATE': {
+          josaa: 'OS',
+          csab: 'Other State',
+        },
+
+        GO: {
+          josaa: 'GO',
+          csab: 'Home State for Goa',
+        },
+
+        'HOME STATE FOR GOA': {
+          josaa: 'GO',
+          csab: 'Home State for Goa',
+        },
+
+        JK: {
+          josaa: 'JK',
+          csab: 'Jammu & Kashmir (UT)',
+        },
+
+        'JAMMU & KASHMIR (UT)': {
+          josaa: 'JK',
+          csab: 'Jammu & Kashmir (UT)',
+        },
+
+        LA: {
+          josaa: 'LA',
+          csab: 'Ladakh (UT)',
+        },
+
+        'LADAKH (UT)': {
+          josaa: 'LA',
+          csab: 'Ladakh (UT)',
+        },
+      };
+
+
+      const quotaPair =
+        requestedQuota
+          ? (
+              quotaAliases[
+                requestedQuota
+                  .toUpperCase()
+              ] || {
+                josaa:
+                  requestedQuota,
+
+                csab:
+                  requestedQuota,
+              }
+            )
+          : null;
+
+
+      const result =
+        await pool.query(
+          `
+          SELECT
+            c.year,
+            c.round,
+            c.category,
+            c.quota,
+            c.gender,
+            c.opening_rank,
+            c.closing_rank,
+            c.counselling_type,
+            c.source_label,
+            c.source_url,
+            c.is_verified,
+
+            b.id AS branch_id,
+            b.name AS branch_name,
+
+            col.id AS college_id,
+            col.name AS college_name
+
+          FROM cutoffs c
+
+          JOIN branches b
+            ON b.id = c.branch_id
+
+          JOIN colleges col
+            ON col.id = b.college_id
+
+          WHERE c.branch_id = $1
+
+            AND c.counselling_type IN (
+              'JOSAA',
+              'CSAB_SPECIAL'
+            )
+
+            AND c.year BETWEEN
+              2024 AND 2026
+
+            AND (
+              $2::text IS NULL
+              OR c.category = $2
+            )
+
+            AND (
+              $3::text IS NULL
+
+              OR (
+                c.counselling_type = 'JOSAA'
+                AND c.quota = $3
+              )
+
+              OR (
+                c.counselling_type = 'CSAB_SPECIAL'
+                AND c.quota = $4
+              )
+            )
+
+            AND (
+              $5::text IS NULL
+              OR c.gender = $5
+            )
+
+          ORDER BY
+            c.year DESC,
+
+            CASE
+              WHEN c.round ~ '^[0-9]+$'
+              THEN c.round::integer
+              ELSE 999
+            END,
+
+            c.round
+          `,
+          [
+            branchId,
+            category,
+            quotaPair?.josaa || null,
+            quotaPair?.csab || null,
+            gender,
+          ]
+        );
+
+
+      const josaa = [];
+      const csab = [];
+
+
+      for (
+        const row
+        of result.rows
+      ) {
+        const item = {
+          year:
+            Number(row.year),
+
+          round:
+            row.round,
+
+          category:
+            row.category,
+
+          quota:
+            row.quota,
+
+          gender:
+            row.gender,
+
+          openingRank:
+            row.opening_rank === null
+              ? null
+              : Number(
+                  row.opening_rank
+                ),
+
+          closingRank:
+            Number(
+              row.closing_rank
+            ),
+
+          verified:
+            Boolean(
+              row.is_verified
+            ),
+
+          sourceLabel:
+            row.source_label,
+
+          sourceUrl:
+            row.source_url,
+        };
+
+
+        if (
+          row.counselling_type ===
+          'JOSAA'
+        ) {
+          josaa.push(item);
+        }
+
+        if (
+          row.counselling_type ===
+          'CSAB_SPECIAL'
+        ) {
+          csab.push(item);
+        }
+      }
+
+
+      const intelligence =
+        studentRank !== null
+          ? buildHistoricalAdmissionIntelligence({
+              studentRank,
+              josaaRows:
+                josaa,
+              csabRows:
+                csab,
+            })
+          : null;
+
+
+      const firstRow =
+        result.rows[0] || null;
+
+
+      return res.json({
+        data: {
+          college:
+            firstRow
+              ? {
+                  id:
+                    firstRow.college_id,
+
+                  name:
+                    firstRow.college_name,
+                }
+              : null,
+
+          branch: {
+            id:
+              branchId,
+
+            name:
+              firstRow
+                ? firstRow.branch_name
+                : null,
+          },
+
+          filters: {
+            rank:
+              studentRank,
+
+            category,
+            quota:
+              requestedQuota,
+            gender,
+          },
+
+          josaa,
+          csab,
+
+          intelligence,
+        },
+
+        meta: {
+          years: [
+            2024,
+            2025,
+            2026,
+          ],
+
+          josaaCount:
+            josaa.length,
+
+          csabCount:
+            csab.length,
+
+          totalCount:
+            result.rows.length,
+        },
+      });
+
+    } catch (error) {
+      console.error(
+        'CUTOFF HISTORY ERROR:',
+        error
+      );
+
+      next(error);
+    }
+  }
+);
 
 export default router;

@@ -1,3 +1,6 @@
+import {
+  apiGet,
+} from './apiClient';
 const API_BASE =
   import.meta.env.VITE_API_BASE_URL ||
   'https://counsellingwallah-backend.onrender.com/api';
@@ -481,6 +484,59 @@ function normalizeUptacRow(
     |--------------------------------------------------------------------------
     */
 
+    /*
+    |--------------------------------------------------------------------------
+    | OFFICIAL FEE DATA
+    |--------------------------------------------------------------------------
+    */
+
+    fee: {
+      feeYear:
+        row.feeYear ?? null,
+
+      tuitionFeePerSemester:
+        row.tuitionFeePerSemester ?? null,
+
+      academicFeePerSemester:
+        row.academicFeePerSemester ?? null,
+
+      firstSemesterFee:
+        row.firstSemesterFee ?? null,
+
+      messFeePerSemester:
+        row.messFeePerSemester ?? null,
+
+      annualAcademicFee:
+        row.annualAcademicFee ?? null,
+
+      estimatedAnnualBudgetFee:
+        row.estimatedAnnualBudgetFee ?? null,
+
+      feeCoverage:
+        row.feeCoverage ?? null,
+
+      feeConfidence:
+        row.feeConfidence ?? null,
+
+      feeVerificationStatus:
+        row.feeVerificationStatus ?? null,
+
+      feeSourceUrl:
+        row.feeSourceUrl ?? null,
+
+      studentAnnualBudget:
+        row.studentAnnualBudget ?? null,
+
+      budgetScore:
+        row.budgetScore ?? null,
+
+      weightedBudgetScore:
+        row.weightedBudgetScore ?? null,
+
+      budgetStatus:
+        row.budgetStatus ?? null,
+    },
+
     counselling: {
 
       year:
@@ -598,7 +654,33 @@ export async function getCounsellingResults({
   );
 
 
+  
   /*
+  |--------------------------------------------------------------------------
+  | OFFICIAL FEE / BUDGET
+  |--------------------------------------------------------------------------
+  */
+
+  const annualBudget =
+    Number(
+      profile?.annualBudget ??
+      profile?.budget ??
+      0
+    );
+
+  if (
+    Number.isFinite(annualBudget) &&
+    annualBudget > 0
+  ) {
+    params.set(
+      'annualBudget',
+      String(
+        Math.round(annualBudget)
+      )
+    );
+  }
+
+/*
   |--------------------------------------------------------------------------
   | UPTAC
   |--------------------------------------------------------------------------
@@ -884,6 +966,104 @@ export async function fetchCounsellingResults(
 |--------------------------------------------------------------------------
 */
 
+/*
+|--------------------------------------------------------------------------
+| HISTORICAL JOSAA + CSAB CUTOFF INTELLIGENCE
+|--------------------------------------------------------------------------
+|
+| Additive only.
+| Does not affect current recommendation generation.
+|
+*/
+
+export async function fetchCutoffHistory({
+  branchId,
+  rank,
+  category,
+  quota,
+  gender,
+}) {
+  const normalizedBranchId =
+    Number(branchId);
+
+  if (
+    !Number.isFinite(
+      normalizedBranchId
+    ) ||
+    normalizedBranchId <= 0
+  ) {
+    throw new Error(
+      'Valid branchId is required for cutoff history.'
+    );
+  }
+
+
+  const params =
+    new URLSearchParams();
+
+
+  params.set(
+    'branchId',
+    String(
+      normalizedBranchId
+    )
+  );
+
+
+  const normalizedRank =
+    Number(rank);
+
+  if (
+    Number.isFinite(
+      normalizedRank
+    ) &&
+    normalizedRank > 0
+  ) {
+    params.set(
+      'rank',
+      String(
+        normalizedRank
+      )
+    );
+  }
+
+
+  if (category) {
+    params.set(
+      'category',
+      String(category)
+    );
+  }
+
+
+  if (quota) {
+    params.set(
+      'quota',
+      String(quota)
+    );
+  }
+
+
+  if (gender) {
+    params.set(
+      'gender',
+      String(gender)
+    );
+  }
+
+
+  const response =
+    await apiGet(
+      `/counselling/cutoff-history?${params.toString()}`
+    );
+
+
+  return response || {
+    data: null,
+    meta: null,
+  };
+}
+
 export async function fetchCounsellingEvents(
   examId
 ) {
@@ -929,3 +1109,4 @@ export function getDocuments(
 
   ].filter(Boolean);
 }
+
