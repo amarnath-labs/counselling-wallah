@@ -926,8 +926,161 @@ router.get(
          SCORE
       ===================================== */
 
+      const recommendationRows =
+        (() => {
+          const rows =
+            Array.isArray(
+              realData?.rows
+            )
+              ? realData.rows
+              : [];
+
+          const normalizedExam =
+            String(
+              examId || ''
+            )
+              .trim()
+              .toLowerCase();
+
+          const normalizedGender =
+            String(
+              gender || ''
+            )
+              .trim()
+              .toLowerCase();
+
+          const femaleApplicant =
+            normalizedGender
+              .includes(
+                'female'
+              );
+
+          const supportsFemaleSeatPreference =
+            [
+              'jee-main',
+              'jee-advanced',
+              'csab',
+            ].includes(
+              normalizedExam
+            );
+
+          if (
+            !femaleApplicant ||
+            !supportsFemaleSeatPreference
+          ) {
+            return rows;
+          }
+
+          const selected =
+            new Map();
+
+          const order = [];
+
+          for (
+            const row of rows
+          ) {
+            const key =
+              [
+                row?.college_id,
+                row?.branch_id,
+                row?.quota,
+                row?.category,
+                row?.year,
+                row?.round,
+              ]
+                .map(
+                  (value) =>
+                    String(
+                      value ?? ''
+                    )
+                      .trim()
+                      .toLowerCase()
+                )
+                .join('::');
+
+            if (
+              !selected.has(
+                key
+              )
+            ) {
+              selected.set(
+                key,
+                row
+              );
+
+              order.push(
+                key
+              );
+
+              continue;
+            }
+
+            const current =
+              selected.get(
+                key
+              );
+
+            const currentGender =
+              String(
+                current?.gender ||
+                ''
+              )
+                .trim()
+                .toLowerCase();
+
+            const rowGender =
+              String(
+                row?.gender ||
+                ''
+              )
+                .trim()
+                .toLowerCase();
+
+            const currentIsFemaleOnly =
+              currentGender
+                .includes(
+                  'female-only'
+                );
+
+            const rowIsFemaleOnly =
+              rowGender
+                .includes(
+                  'female-only'
+                );
+
+            /*
+             * Female applicant:
+             *
+             * same college
+             * + same branch
+             * + same quota
+             * + same category/year/round
+             *
+             * Female-only wins over
+             * Gender-Neutral.
+             */
+            if (
+              rowIsFemaleOnly &&
+              !currentIsFemaleOnly
+            ) {
+              selected.set(
+                key,
+                row
+              );
+            }
+          }
+
+          return order.map(
+            (key) =>
+              selected.get(
+                key
+              )
+          );
+        })();
+
+
       const scored =
-        realData.rows.map(
+        recommendationRows.map(
           (row) => {
             /*
             ------------------------------------
