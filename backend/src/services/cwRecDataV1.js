@@ -63,7 +63,12 @@ function normalizeRound(
   */
 
   if (
-    examId === 'uptac'
+    [
+      'uptac',
+      'csab',
+    ].includes(
+      examId
+    )
   ) {
     return raw
       .replace(
@@ -90,6 +95,7 @@ export async function fetchCWRecRows({
   category = 'OPEN',
   quota = null,
   gender = null,
+  homeState = null,
   limit = 250,
 }) {
   const normalizedExam =
@@ -1360,16 +1366,90 @@ INNER JOIN colleges c
 
 
   /* =======================================================
+     UPTAC HOME-STATE QUOTA ELIGIBILITY
+  ======================================================= */
+
+  let effectiveQuota =
+    quota
+      ? String(quota).trim()
+      : null;
+
+
+  if (
+    normalizedExam === 'uptac' &&
+    !effectiveQuota &&
+    homeState
+  ) {
+    const normalizedHomeState =
+      normalize(
+        homeState
+      );
+
+
+    const isUttarPradesh =
+      normalizedHomeState === 'uttar pradesh' ||
+      normalizedHomeState === 'up' ||
+      normalizedHomeState === 'u p';
+
+
+    effectiveQuota =
+      isUttarPradesh
+        ? 'Home State'
+        : 'All India';
+  }
+
+
+  /* =======================================================
+     JOSAA HOME-STATE QUOTA ELIGIBILITY
+  ======================================================= */
+
+  if (
+    normalizedExam !== 'uptac' &&
+    !effectiveQuota &&
+    homeState
+  ) {
+    params.push(
+      String(homeState).trim()
+    );
+
+
+    const homeStateParam =
+      `$${paramIndex++}`;
+
+
+    query += `
+
+      AND (
+
+        co.quota = 'AI'
+
+        OR (
+          co.quota = 'HS'
+          AND LOWER(TRIM(c.state::text)) =
+              LOWER(TRIM(${homeStateParam}::text))
+        )
+
+        OR (
+          co.quota = 'OS'
+          AND LOWER(TRIM(c.state::text)) <>
+              LOWER(TRIM(${homeStateParam}::text))
+        )
+
+      )
+
+    `;
+  }
+
+
+  /* =======================================================
      OPTIONAL QUOTA
   ======================================================= */
 
   if (
-    quota
+    effectiveQuota
   ) {
     params.push(
-      String(
-        quota
-      ).trim()
+      effectiveQuota
     );
 
 
@@ -1855,6 +1935,7 @@ INNER JOIN colleges c
     },
   };
 }
+
 
 
 

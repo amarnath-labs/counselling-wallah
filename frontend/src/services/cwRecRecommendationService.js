@@ -532,6 +532,24 @@ export async function fetchCWRecommendations(
     );
   }
 
+
+  /*
+  |--------------------------------------------------------------------------
+  | HOME STATE
+  |--------------------------------------------------------------------------
+  |
+  | Hard eligibility input.
+  | This does NOT add score or bonus points.
+  |
+  */
+
+  if (profile.homeState) {
+    params.set(
+      'homeState',
+      String(profile.homeState)
+    );
+  }
+
   params.set(
     'locationMode',
     String(

@@ -702,6 +702,11 @@ router.get(
         null;
 
 
+      const homeState =
+        req.query.homeState ??
+        null;
+
+
       const limit =
         Number(
           req.query.limit ??
@@ -718,6 +723,7 @@ router.get(
           category,
           quota,
           gender,
+          homeState,
           limit,
         });
 
@@ -813,6 +819,11 @@ router.get(
         null;
 
 
+      const homeState =
+        req.query.homeState ??
+        null;
+
+
       const annualBudget =
         valueOrNull(
           req.query
@@ -905,6 +916,7 @@ router.get(
           category,
           quota,
           gender,
+          homeState,
           limit:
             candidatePoolLimit,
         });
