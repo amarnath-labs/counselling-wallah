@@ -19,7 +19,10 @@ function normalizeArray(values) {
         .map(normalize)
         .filter(Boolean)
     ),
-  ];
+  ].sort(
+    (left, right) =>
+      left.localeCompare(right)
+  );
 }
 
 function fuzzyEqual(left, right) {
@@ -302,6 +305,9 @@ export function profileCombinationScore(question, profile) {
     possible += 13;
 
     const interests = [
+      ...(profile.stream
+        ? [profile.stream]
+        : []),
       ...(profile.interestClusters || []),
       ...(profile.careerInterests || []),
     ];
@@ -485,3 +491,4 @@ export default {
   finalProfileQuestionScore,
   rankByProfileCombination,
 };
+

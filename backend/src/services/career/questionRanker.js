@@ -1,4 +1,4 @@
-﻿import {
+import {
   CORE_TRAITS_BY_STAGE,
 } from '../../data/careerTraitDefinitions.js';
 
@@ -10,6 +10,26 @@ function normalize(value) {
     .replace(/&/g, 'and')
     .replace(/[./(),_-]+/g, ' ')
     .replace(/\s+/g, ' ');
+}
+
+
+function canonicalArray(
+  values = []
+) {
+  return [
+    ...new Set(
+      (
+        Array.isArray(values)
+          ? values
+          : [values]
+      )
+        .map(normalize)
+        .filter(Boolean)
+    ),
+  ].sort(
+    (left, right) =>
+      left.localeCompare(right)
+  );
 }
 
 
@@ -140,19 +160,22 @@ function profileRelevance(
 
   const arrayChecks = [
     [
-      profile.skills || [],
+      canonicalArray(profile.skills),
       question.skills,
     ],
 
     [
-      profile.subjects || [],
+      canonicalArray(profile.subjects),
       question.subjects,
     ],
 
     [
       [
-        ...(profile.careerInterests || []),
-        ...(profile.interestClusters || []),
+        ...(profile.stream
+          ? [profile.stream]
+          : []),
+        ...(canonicalArray(profile.careerInterests)),
+        ...(canonicalArray(profile.interestClusters)),
       ],
       question.interestClusters,
     ],
@@ -1183,5 +1206,6 @@ export function rankQuestionCandidates({
       }
     );
 }
+
 
 

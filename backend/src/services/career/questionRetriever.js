@@ -1,4 +1,4 @@
-﻿import {
+import {
   getCandidateQuestions,
   getQuestionByIds,
 } from '../../repositories/careerQuestionRepository.js';
@@ -41,6 +41,128 @@ function normalizeList(values = []) {
   )
     .map(normalize)
     .filter(Boolean);
+}
+
+
+function canonicalProfileArray(
+  values
+) {
+  if (
+    !Array.isArray(
+      values
+    )
+  ) {
+    return values;
+  }
+
+
+  const map =
+    new Map();
+
+
+  for (
+    const value
+    of values
+  ) {
+    const key =
+      normalize(
+        value
+      );
+
+
+    if (
+      key &&
+      !map.has(
+        key
+      )
+    ) {
+      map.set(
+        key,
+        value
+      );
+    }
+  }
+
+
+  return [
+    ...map.entries(),
+  ]
+    .sort(
+      (
+        left,
+        right
+      ) =>
+        left[0].localeCompare(
+          right[0]
+        )
+    )
+    .map(
+      entry =>
+        entry[1]
+    );
+}
+
+
+function canonicalizeProfileArrays(
+  profile = {}
+) {
+  return {
+    ...profile,
+
+    subjects:
+      canonicalProfileArray(
+        profile.subjects
+      ),
+
+    targetExams:
+      canonicalProfileArray(
+        profile.targetExams
+      ),
+
+    entranceExams:
+      canonicalProfileArray(
+        profile.entranceExams
+      ),
+
+    targetCourses:
+      canonicalProfileArray(
+        profile.targetCourses
+      ),
+
+    skills:
+      canonicalProfileArray(
+        profile.skills
+      ),
+
+    interestClusters:
+      canonicalProfileArray(
+        profile.interestClusters
+      ),
+
+    careerInterests:
+      canonicalProfileArray(
+        profile.careerInterests
+      ),
+
+    careerFamilies:
+      canonicalProfileArray(
+        profile.careerFamilies
+      ),
+
+    experience:
+      Array.isArray(
+        profile.experience
+      )
+        ? canonicalProfileArray(
+            profile.experience
+          )
+        : profile.experience,
+
+    experiences:
+      canonicalProfileArray(
+        profile.experiences
+      ),
+  };
 }
 
 
@@ -701,33 +823,189 @@ function buildAnchorPool(
 ) {
   /*
   |--------------------------------------------------------------------------
-  | True psychometric anchor pool
+  | Stage/class neutral anchor pool + deterministic profile variants
   |--------------------------------------------------------------------------
   |
-  | Repository has already enforced:
-  | - V7
-  | - stage
-  | - exact class where applicable
+  | Important:
   |
-  | We intentionally DO NOT call hardEligible() here.
+  | - Anchors remain neutral.
+  | - We DO NOT use hardEligible() here.
+  | - Stream / subject / degree etc. do not make an anchor "relevant".
   |
-  | Therefore anchors are not restricted by:
-  | - stream
-  | - subject
-  | - entrance exam
-  | - course
-  | - career family
-  | - interest cluster
+  | Instead, the complete profile is used only as a deterministic seed
+  | for choosing among multiple equally valid neutral anchor variants.
   |
-  | This creates cross-profile psychometric linkage.
+  | Result:
+  |
+  | same exact profile
+  |   -> same anchor variants
+  |
+  | same selections in another click order
+  |   -> same anchor variants
+  |
+  | different profile combination
+  |   -> different neutral anchor variants
+  |
+  | different stage/class
+  |   -> repository class/stage isolation remains unchanged
+  |--------------------------------------------------------------------------
   */
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Canonical profile
+  |--------------------------------------------------------------------------
+  |
+  | Arrays are sorted so:
+  |
+  | [Mathematics, Physics]
+  |
+  | and
+  |
+  | [Physics, Mathematics]
+  |
+  | represent the SAME profile.
+  |--------------------------------------------------------------------------
+  */
+
+  function canonicalize(
+    value
+  ) {
+    if (
+      Array.isArray(
+        value
+      )
+    ) {
+      return value
+        .map(
+          canonicalize
+        )
+        .sort(
+          (
+            left,
+            right
+          ) =>
+            JSON.stringify(
+              left
+            ).localeCompare(
+              JSON.stringify(
+                right
+              )
+            )
+        );
+    }
+
+
+    if (
+      value &&
+      typeof value ===
+        'object'
+    ) {
+      const result = {};
+
+
+      for (
+        const key
+        of Object.keys(
+          value
+        ).sort()
+      ) {
+        if (
+          value[key] ===
+          undefined
+        ) {
+          continue;
+        }
+
+
+        result[key] =
+          canonicalize(
+            value[key]
+          );
+      }
+
+
+      return result;
+    }
+
+
+    if (
+      typeof value ===
+      'string'
+    ) {
+      return value
+        .trim()
+        .toLowerCase();
+    }
+
+
+    return value;
+  }
+
+
+  const profileFingerprint =
+    JSON.stringify(
+      canonicalize(
+        profile || {}
+      )
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Stable 32-bit hash
+  |--------------------------------------------------------------------------
+  */
+
+  function hash32(
+    text
+  ) {
+    let hash =
+      2166136261;
+
+
+    for (
+      let index = 0;
+      index < text.length;
+      index += 1
+    ) {
+      hash ^=
+        text.charCodeAt(
+          index
+        );
+
+
+      hash =
+        Math.imul(
+          hash,
+          16777619
+        );
+    }
+
+
+    return hash >>> 0;
+  }
+
+
+  function anchorVariantScore(
+    question
+  ) {
+    return (
+      hash32(
+        `${profileFingerprint}|${question.id}`
+      ) /
+      4294967295
+    );
+  }
+
 
   const prepared =
     candidates.map(
       question => {
         /*
-        | Anchor neutrality must be evaluated
-        | AFTER question-profile/domain mapping.
+        | Neutrality is evaluated AFTER
+        | question profile/domain mapping.
         */
 
         const profileMap =
@@ -744,7 +1022,8 @@ function buildAnchorPool(
           inferredDomains:
             profileMap.domains,
 
-          metadataTier: 0,
+          metadataTier:
+            0,
 
           classSpecificity:
             classSpecificity(
@@ -754,14 +1033,43 @@ function buildAnchorPool(
         };
 
 
+        const neutral =
+          isNeutralAnchorQuestion(
+            mappedQuestion
+          );
+
+
+        const variantScore =
+          anchorVariantScore(
+            mappedQuestion
+          );
+
+
         return {
           ...mappedQuestion,
 
+          /*
+          | Keep this available for diagnostics.
+          */
+          anchorVariantScore:
+            variantScore,
+
+          /*
+          | Neutral questions remain strongly preferred.
+          |
+          | Small deterministic variation is intentionally
+          | introduced only between valid neutral variants.
+          |
+          | It does NOT turn profile-specific questions
+          | into anchors.
+          */
           contextSpecificity:
-            isNeutralAnchorQuestion(
-              mappedQuestion
-            )
-              ? 1
+            neutral
+              ? (
+                  0.78 +
+                  variantScore *
+                    0.22
+                )
               : 0.05,
         };
       }
@@ -778,17 +1086,140 @@ function buildAnchorPool(
 
 
   /*
-  | If the bank has enough truly neutral anchors,
-  | use only those.
+  |--------------------------------------------------------------------------
+  | Deterministic variant pool by trait
+  |--------------------------------------------------------------------------
   |
-  | Otherwise gracefully fall back to the full
-  | stage/class pool instead of failing retrieval.
+  | We keep several variants per trait instead of choosing only one.
+  |
+  | This preserves the existing ranker's ability to handle:
+  | - broad trait coverage
+  | - uncertainty
+  | - diversity
+  | - priority
+  |
+  | while preventing every same-stage profile from receiving the exact
+  | same candidate universe.
+  |--------------------------------------------------------------------------
   */
 
-  return neutral.length >=
+  const byTrait =
+    new Map();
+
+
+  for (
+    const question
+    of neutral
+  ) {
+    const trait =
+      String(
+        question.trait ||
+        'unknown'
+      );
+
+
+    if (
+      !byTrait.has(
+        trait
+      )
+    ) {
+      byTrait.set(
+        trait,
+        []
+      );
+    }
+
+
+    byTrait
+      .get(
+        trait
+      )
+      .push(
+        question
+      );
+  }
+
+
+  const diversifiedNeutral =
+    [];
+
+
+  const MAX_VARIANTS_PER_TRAIT =
+    8;
+
+
+  for (
+    const questions
+    of byTrait.values()
+  ) {
+    questions
+      .sort(
+        (
+          left,
+          right
+        ) => {
+          const scoreDifference =
+            (
+              right.anchorVariantScore ||
+              0
+            ) -
+            (
+              left.anchorVariantScore ||
+              0
+            );
+
+
+          if (
+            scoreDifference !==
+            0
+          ) {
+            return scoreDifference;
+          }
+
+
+          return String(
+            left.id
+          ).localeCompare(
+            String(
+              right.id
+            )
+          );
+        }
+      );
+
+
+    diversifiedNeutral.push(
+      ...questions.slice(
+        0,
+        MAX_VARIANTS_PER_TRAIT
+      )
+    );
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Safe fallback
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    diversifiedNeutral.length >=
     requiredNeutralCount
-    ? neutral
-    : prepared;
+  ) {
+    return diversifiedNeutral;
+  }
+
+
+  if (
+    neutral.length >=
+    requiredNeutralCount
+  ) {
+    return neutral;
+  }
+
+
+  return prepared;
 }
 
 
@@ -843,6 +1274,12 @@ export async function retrieveRankedQuestionCandidates({
   careerMatches = [],
   limit = 10,
 }) {
+  profile =
+    canonicalizeProfileArrays(
+      profile
+    );
+
+
   const askedIds =
     answers
       .map(
