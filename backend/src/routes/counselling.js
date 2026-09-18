@@ -3,9 +3,6 @@ import { pool } from '../db/pool.js';
 import { gzipSync } from 'node:zlib';
 import { redisGetJson, redisSetJson } from '../services/redisCache.js';
 import { buildHistoricalAdmissionIntelligence } from '../services/historicalAdmissionIntelligence.js';
-
-import { buildReviewIntelligenceV4 } from '../services/reviewIntelligenceV4Service.js';
-
 const router = Router();
 
 
@@ -1828,83 +1825,6 @@ router.get(
       );
 
       next(error);
-    }
-  }
-);
-
-
-
-/*
-|--------------------------------------------------------------------------
-| TRUMARG REVIEW INTELLIGENCE V4 ENDPOINT
-|--------------------------------------------------------------------------
-|
-| Additive reliability / explanation endpoint.
-|
-| Does NOT modify:
-| - candidate selection
-| - admission bucket
-| - premium match score
-| - V3 review component
-| - recommendation ordering
-|
-*/
-
-router.get(
-  '/review-intelligence-v4',
-  async (
-    req,
-    res,
-    next
-  ) => {
-    let client;
-
-    try {
-      const collegeId =
-        String(
-          req.query.collegeId ||
-          ''
-        ).trim();
-
-      const branch =
-        String(
-          req.query.branch ||
-          ''
-        ).trim() ||
-        null;
-
-      if (!collegeId) {
-        return res
-          .status(400)
-          .json({
-            error:
-              'collegeId is required',
-          });
-      }
-
-      client =
-        await pool.connect();
-
-      const data =
-        await buildReviewIntelligenceV4(
-          client,
-          {
-            collegeId,
-            branch,
-          }
-        );
-
-      return res.json({
-        data,
-      });
-    }
-    catch (error) {
-      return next(error);
-    }
-    finally {
-      if (client) {
-        client.release();
-      }
     }
   }
 );
