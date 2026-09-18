@@ -1,4 +1,4 @@
-import {
+﻿import {
   useMemo,
   useState,
 } from 'react';
@@ -16,51 +16,7 @@ import {
 } from '../hooks/useAppState';
 
 
-function getCanonicalExamId(exam) {
-  const name =
-    String(exam?.name || '')
-      .trim()
-      .toLowerCase();
-
-  const id =
-    String(exam?.id || '')
-      .trim()
-      .toLowerCase();
-
-  if (id === 'josaa') {
-    return 'josaa';
-  }
-
-  if (id === 'csab') {
-    return 'csab';
-  }
-
-  if (
-    name.includes('jee') &&
-    name.includes('advanced')
-  ) {
-    return 'jee-advanced';
-  }
-
-  if (
-    name.includes('jee') &&
-    name.includes('main')
-  ) {
-    return 'jee-main';
-  }
-
-  if (
-    name.includes('mht') &&
-    name.includes('cet')
-  ) {
-    return 'mht-cet';
-  }
-
-  return id;
-}
-
-
-const ENABLED_EXAM_CARDS = [
+const ENABLED_EXAMS = [
   {
     id: 'jee-main',
     name: 'JEE Main',
@@ -68,13 +24,15 @@ const ENABLED_EXAM_CARDS = [
       'Explore NITs, IIITs and GFTIs using your JEE Main rank and admission profile.',
     active: true,
   },
+
   {
     id: 'jee-advanced',
     name: 'JEE Advanced',
     desc:
-      'Explore IIT admission options using your JEE Advanced rank and profile.',
+      'Explore IIT admission possibilities using your JEE Advanced rank.',
     active: true,
   },
+
   {
     id: 'uptac',
     name: 'UPTAC',
@@ -89,101 +47,141 @@ export default function Exams() {
   const [q, setQ] =
     useState('');
 
-  const [
-    selectedCounselling,
-    setSelectedCounselling,
-  ] = useState(null);
-
   const {
     setSelectedExamId,
-    exams: allExams = [],
-    catalogLoading,
-    catalogError,
   } = useAppState();
 
   const nav =
     useNavigate();
 
-      /*
-      |------------------------------------------------------
-      | OTHER EXAMS
-      |------------------------------------------------------
-      */
 
-      saveAndContinue({
-        examId,
-      });
-    };
+  /*
+  |--------------------------------------------------------------------------
+  | ONLY THREE ENABLED EXAMS
+  |--------------------------------------------------------------------------
+  */
+
+  const exams =
+    useMemo(() => {
+      const search =
+        String(q || '')
+          .trim()
+          .toLowerCase();
+
+      if (!search) {
+        return ENABLED_EXAMS;
+      }
+
+      return ENABLED_EXAMS.filter(
+        (exam) =>
+          String(
+            exam.name || ''
+          )
+            .toLowerCase()
+            .includes(search) ||
+          String(
+            exam.desc || ''
+          )
+            .toLowerCase()
+            .includes(search)
+      );
+    }, [
+      q,
+    ]);
 
 
   /*
   |--------------------------------------------------------------------------
-  | COUNSELLING + RANK SOURCE
+  | SELECT EXAM
   |--------------------------------------------------------------------------
   */
 
-  const selectRankSource =
-    (rankType) => {
-      if (
-        selectedCounselling ===
-        'josaa'
-      ) {
-        if (
-          rankType ===
-          'jee-main'
-        ) {
-          saveAndContinue({
-            counsellingId:
-              'josaa',
-            examId:
-              'jee-main',
-            rankType:
-              'jee-main',
-          });
-
-          return;
-        }
-
-        if (
-          rankType ===
-          'jee-advanced'
-        ) {
-          saveAndContinue({
-            counsellingId:
-              'josaa',
-            examId:
-              'jee-advanced',
-            rankType:
-              'jee-advanced',
-          });
-
-          return;
-        }
+  const handleSelectExam =
+    (exam) => {
+      if (!exam?.id) {
+        return;
       }
 
+      const examId =
+        String(
+          exam.id
+        )
+          .trim()
+          .toLowerCase();
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | FINAL SAFETY GATE
+      |--------------------------------------------------------------------------
+      */
+
+      const allowed =
+        new Set([
+          'jee-main',
+          'jee-advanced',
+          'uptac',
+        ]);
+
       if (
-        selectedCounselling ===
-          'csab' &&
-        rankType ===
-          'jee-main'
+        !allowed.has(
+          examId
+        )
       ) {
-        saveAndContinue({
-          counsellingId:
-            'csab',
-          examId:
-            'csab',
-          rankType:
-            'jee-main',
-        });
+        console.warn(
+          '[EXAMS] Disabled exam blocked:',
+          examId
+        );
+
+        return;
       }
+
+
+      console.log(
+        '[EXAM SELECTED]',
+        examId
+      );
+
+
+      setSelectedExamId(
+        examId
+      );
+
+
+      try {
+        localStorage.setItem(
+          'selectedExamId',
+          examId
+        );
+
+        localStorage.removeItem(
+          'selectedCounsellingId'
+        );
+
+        localStorage.setItem(
+          'selectedRankType',
+          examId
+        );
+      }
+      catch (error) {
+        console.warn(
+          '[EXAMS] localStorage unavailable:',
+          error
+        );
+      }
+
+
+      nav(
+        '/profile'
+      );
     };
 
 
   return (
     <>
       <PageHero
-        title="Aap Kis Counselling / Exam Ke Liye College Options Dekhna Chahte Hain?"
-        description="Counselling ya exam chunein — TruMarg aapke admission profile ke basis par personalized college options dikhayega."
+        title="Choose Your Exam"
+        description="Select JEE Main, JEE Advanced or UPTAC to continue with TruMarg college recommendations."
         crumb={
           <>
             <a href="/">
@@ -191,7 +189,7 @@ export default function Exams() {
             </a>
 
             {
-              ' / Select Counselling'
+              ' / Select Exam'
             }
           </>
         }
@@ -199,21 +197,6 @@ export default function Exams() {
 
 
       <div className="container section">
-
-        {catalogLoading && (
-          <div className="source-note">
-            Loading catalog from backend...
-          </div>
-        )}
-
-
-        {catalogError &&
-          !catalogLoading && (
-            <div className="source-note">
-              {catalogError}
-            </div>
-          )}
-
 
         <input
           className="exam-search"
@@ -224,25 +207,22 @@ export default function Exams() {
             )
           }
           maxLength={60}
-          placeholder="Search counselling or exam..."
+          placeholder="Search exam..."
           type="search"
         />
 
 
-        {!catalogLoading &&
-          !catalogError &&
-          exams.length === 0 && (
-            <div className="empty-state">
-              <h3>
-                No options found
-              </h3>
+        {exams.length === 0 && (
+          <div className="empty-state">
+            <h3>
+              No exam found
+            </h3>
 
-              <p>
-                Try a different name
-                or clear the search.
-              </p>
-            </div>
-          )}
+            <p>
+              Only JEE Main, JEE Advanced and UPTAC are currently available.
+            </p>
+          </div>
+        )}
 
 
         <div className="exam-grid">
@@ -252,13 +232,13 @@ export default function Exams() {
               const examName =
                 String(
                   exam?.name ||
-                    'Unknown'
+                  'Unknown'
                 );
 
               const examDescription =
                 String(
                   exam?.desc ||
-                    'Information unavailable.'
+                  ''
                 );
 
               const initials =
@@ -270,29 +250,17 @@ export default function Exams() {
                       word[0]
                   )
                   .join('')
-                  .slice(0, 3)
+                  .slice(
+                    0,
+                    3
+                  )
                   .toUpperCase();
 
-              const canonicalId =
-                getCanonicalExamId(
-                  exam
-                );
-
-              const isCounselling =
-                [
-                  'josaa',
-                  'csab',
-                ].includes(
-                  canonicalId
-                );
 
               return (
                 <div
                   className="exam-card"
-                  key={
-                    canonicalId ||
-                    examName
-                  }
+                  key={exam.id}
                 >
 
                   <div className="exam-logo">
@@ -303,11 +271,7 @@ export default function Exams() {
                   </div>
 
 
-                  <h4
-                    style={{
-                      fontSize: 15,
-                    }}
-                  >
+                  <h4>
                     {examName}
                   </h4>
 
@@ -316,7 +280,8 @@ export default function Exams() {
                     style={{
                       fontSize:
                         12.5,
-                      flex: 1,
+                      flex:
+                        1,
                     }}
                   >
                     {
@@ -331,8 +296,6 @@ export default function Exams() {
 
 
                   <Button
-                    variant="primary"
-                    size="sm"
                     disabled={false}
                     onClick={() =>
                       handleSelectExam(
@@ -340,11 +303,7 @@ export default function Exams() {
                       )
                     }
                   >
-                    {
-                      isCounselling
-                        ? 'Select Counselling →'
-                        : 'Select Exam →'
-                    }
+                    Select Exam →
                   </Button>
 
                 </div>
@@ -355,265 +314,18 @@ export default function Exams() {
         </div>
 
 
-        {selectedCounselling && (
-          <section
-            role="dialog"
-            aria-modal="true"
-            aria-label="Select rank type"
-            style={{
-              position:
-                'fixed',
-              top:
-                '50%',
-              left:
-                '50%',
-              transform:
-                'translate(-50%, -50%)',
-              width:
-                'min(760px, calc(100vw - 32px))',
-              maxHeight:
-                'calc(100vh - 40px)',
-              overflowY:
-                'auto',
-              padding:
-                '26px',
-              border:
-                '1px solid #e2e8f0',
-              borderRadius:
-                '18px',
-              background:
-                '#ffffff',
-              boxShadow:
-                '0 24px 80px rgba(15, 23, 42, 0.28)',
-              zIndex:
-                9999,
-            }}
-          >
-
-            <div
-              style={{
-                display:
-                  'flex',
-                justifyContent:
-                  'space-between',
-                gap: '16px',
-                alignItems:
-                  'flex-start',
-              }}
-            >
-
-              <div>
-                <div
-                  style={{
-                    fontSize:
-                      '12px',
-                    fontWeight:
-                      800,
-                    color:
-                      '#4f46e5',
-                    textTransform:
-                      'uppercase',
-                    letterSpacing:
-                      '.06em',
-                  }}
-                >
-                  Select Rank Type
-                </div>
-
-                <h2
-                  style={{
-                    margin:
-                      '8px 0 4px',
-                  }}
-                >
-                  {
-                    selectedCounselling ===
-                    'josaa'
-                      ? 'JoSAA'
-                      : 'CSAB'
-                  }
-                </h2>
-
-                <p
-                  style={{
-                    margin: 0,
-                    color:
-                      '#64748b',
-                  }}
-                >
-                  Choose the rank
-                  you want to use
-                  for prediction.
-                </p>
-              </div>
-
-
-              <button
-                type="button"
-                onClick={() =>
-                  setSelectedCounselling(
-                    null
-                  )
-                }
-                style={{
-                  border:
-                    'none',
-                  background:
-                    'transparent',
-                  cursor:
-                    'pointer',
-                  fontSize:
-                    '22px',
-                  color:
-                    '#64748b',
-                }}
-                aria-label="Close rank selector"
-              >
-                ×
-              </button>
-
-            </div>
-
-
-            <div
-              role="tablist"
-              aria-label="Rank type"
-              style={{
-                display:
-                  'grid',
-                gridTemplateColumns:
-                  selectedCounselling ===
-                  'josaa'
-                    ? '1fr 1fr'
-                    : '1fr',
-                gap:
-                  '12px',
-                marginTop:
-                  '24px',
-              }}
-            >
-
-              <button
-                type="button"
-                role="tab"
-                onClick={() =>
-                  selectRankSource(
-                    'jee-main'
-                  )
-                }
-                style={{
-                  padding:
-                    '16px 18px',
-                  borderRadius:
-                    '12px',
-                  border:
-                    '1px solid #c7d2fe',
-                  background:
-                    '#eef2ff',
-                  color:
-                    '#172554',
-                  fontWeight:
-                    800,
-                  cursor:
-                    'pointer',
-                }}
-              >
-                JEE Main Rank
-              </button>
-
-
-              {selectedCounselling ===
-                'josaa' && (
-                <button
-                  type="button"
-                  role="tab"
-                  onClick={() =>
-                    selectRankSource(
-                      'jee-advanced'
-                    )
-                  }
-                  style={{
-                    padding:
-                      '16px 18px',
-                    borderRadius:
-                      '12px',
-                    border:
-                      '1px solid #c7d2fe',
-                    background:
-                      '#eef2ff',
-                    color:
-                      '#172554',
-                    fontWeight:
-                      800,
-                    cursor:
-                      'pointer',
-                  }}
-                >
-                  JEE Advanced Rank
-                </button>
-              )}
-
-            </div>
-
-
-            {selectedCounselling ===
-              'csab' && (
-                <p
-                  style={{
-                    margin:
-                      '16px 0 0',
-                    fontSize:
-                      '13px',
-                    color:
-                      '#64748b',
-                  }}
-                >
-                  CSAB Special uses
-                  the applicable
-                  JEE Main rank for
-                  NIT+ seat allocation.
-                </p>
-              )}
-
-          </section>
-        )}
-
-
         <section
-          aria-labelledby="college-predictor-guides"
           style={{
             marginTop:
-              '56px',
-            padding:
-              '28px',
-            border:
-              '1px solid #e2e8f0',
-            borderRadius:
-              '18px',
-            background:
-              '#f8fafc',
+              '36px',
           }}
         >
-          <h2
-            id="college-predictor-guides"
-            style={{
-              marginTop: 0,
-            }}
-          >
-            College Predictor 2026
-          </h2>
+          <h3>
+            College Predictor Tools
+          </h3>
 
-          <p
-            style={{
-              lineHeight: 1.7,
-              color:
-                '#475569',
-            }}
-          >
-            Explore TruMarg college
-            predictor tools using your
-            counselling profile and
-            historical cutoff data.
+          <p>
+            Explore TruMarg college predictor tools using your rank and historical cutoff data.
           </p>
 
           <div
@@ -623,11 +335,10 @@ export default function Exams() {
               flexWrap:
                 'wrap',
               gap:
-                '14px',
-              marginTop:
-                '20px',
+                '12px',
             }}
           >
+
             <Link
               to="/college-predictor"
               className="btn"
@@ -636,11 +347,19 @@ export default function Exams() {
             </Link>
 
             <Link
+              to="/jee-main-college-predictor"
+              className="btn"
+            >
+              JEE Main College Predictor
+            </Link>
+
+            <Link
               to="/uptac-college-predictor"
               className="btn"
             >
               UPTAC College Predictor
             </Link>
+
           </div>
         </section>
 
