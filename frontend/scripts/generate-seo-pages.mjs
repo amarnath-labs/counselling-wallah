@@ -28,7 +28,7 @@ const routes = [
     path: 'college-predictor',
 
     title:
-      'College Predictor 2026 - JEE Main & UPTAC | TruMarg',
+      'College Predictor 2026 - JEE Main, JEE Advanced & UPTAC | TruMarg',
 
     description:
       'Use TruMarg College Predictor 2026 to explore engineering colleges using JEE Main or UPTAC rank, category, quota and historical cutoff data.',
@@ -342,6 +342,109 @@ const routes = [
           </li>
         </ul>
       </section>
+    `
+  },
+
+
+  {
+    path: 'uptac-cutoff-2025',
+
+    title:
+      'UPTAC Cutoff 2025 - Round & Category Wise | TruMarg',
+
+    description:
+      'Explore UPTAC Cutoff 2025 with historical opening and closing rank data by counselling round and category. Use TruMarg data to plan college counselling.',
+
+    canonical:
+      'https://www.trumarg.com/uptac-cutoff-2025',
+
+    heading:
+      'UPTAC Cutoff 2025',
+
+    intro:
+      'Explore historical UPTAC 2025 opening and closing rank data by counselling round and category.',
+
+    staticHtml: `
+      <section>
+        <h2>UPTAC 2025 Cutoff Data Overview</h2>
+
+        <p>
+          TruMarg's UPTAC 2025 dataset contains
+          10,804 historical cutoff records used
+          to understand previous counselling
+          patterns.
+        </p>
+      </section>
+
+      <section>
+        <h2>UPTAC Cutoff 2025 by Counselling Round</h2>
+
+        <ul>
+          <li>Round 1: 3,853 cutoff records</li>
+          <li>Round 2: 2,531 cutoff records</li>
+          <li>Round 3: 1,674 cutoff records</li>
+          <li>Round 4: 932 cutoff records</li>
+          <li>Round 6: 996 cutoff records</li>
+          <li>Round 7: 818 cutoff records</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>UPTAC Cutoff 2025 by Category</h2>
+
+        <ul>
+          <li>OPEN: 6,495 cutoff records</li>
+          <li>OBC: 1,702 cutoff records</li>
+          <li>EWS: 1,386 cutoff records</li>
+          <li>SC: 1,045 cutoff records</li>
+          <li>ST: 176 cutoff records</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>How to Use UPTAC Opening and Closing Ranks</h2>
+
+        <p>
+          Opening and closing ranks show historical
+          admission boundaries for particular
+          colleges, branches, categories and
+          counselling rounds. Previous cutoffs are
+          useful for planning but do not guarantee
+          future admission.
+        </p>
+      </section>
+
+      <section>
+        <h2>Use the UPTAC College Predictor</h2>
+
+        <p>
+          Instead of checking thousands of cutoff
+          records manually, use the TruMarg UPTAC
+          College Predictor to explore relevant
+          college and branch possibilities.
+        </p>
+
+        <ul>
+          <li>
+            <a href="/uptac-college-predictor">
+              UPTAC College Predictor 2026
+            </a>
+          </li>
+
+          <li>
+            <a href="/college-counselling">
+              College Counselling Guidance
+            </a>
+          </li>
+
+          <li>
+            <a href="/college-predictor">
+              All College Predictors
+            </a>
+          </li>
+        </ul>
+      </section>
+    
     `
   },
 

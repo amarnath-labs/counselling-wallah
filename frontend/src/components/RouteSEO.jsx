@@ -1,4 +1,4 @@
-﻿import {
+import {
   useEffect,
 } from 'react';
 
@@ -25,7 +25,7 @@ const ROUTE_SEO = {
 
   '/college-predictor': {
     title:
-      'College Predictor 2026 - JEE Main & UPTAC | TruMarg',
+      'College Predictor 2026 - JEE Main, JEE Advanced & UPTAC | TruMarg',
 
     description:
       'Use TruMarg College Predictor 2026 to explore engineering colleges using JEE Main or UPTAC rank, category, quota and historical cutoff data.',
@@ -55,6 +55,17 @@ const ROUTE_SEO = {
     robots:
       'index, follow',
   },
+  '/uptac-cutoff-2025': {
+    title:
+      'UPTAC Cutoff 2025 - Round & Category Wise | TruMarg',
+
+    description:
+      'Explore UPTAC Cutoff 2025 with historical opening and closing rank data by counselling round and category. Use TruMarg data to plan college counselling.',
+
+    robots:
+      'index, follow',
+  },
+
   '/career-guidance': {
     title:
       'Career Guidance for Students & Career Assessment | TruMarg',
