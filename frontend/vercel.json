@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=0, s-maxage=3600, stale-while-revalidate=86400"
+          "value": "public, max-age=0, s-maxage=86400, stale-while-revalidate=604800"
         }
       ]
     }
@@ -28,6 +28,10 @@
       "destination": "/uptac-college-predictor/index.html"
     },
     {
+      "source": "/uptac-cutoff-2025",
+      "destination": "/uptac-cutoff-2025/index.html"
+    },
+    {
       "source": "/college-counselling",
       "destination": "/college-counselling/index.html"
     },
@@ -43,5 +47,30 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "counselling-wallah-frontend.vercel.app"
+        }
+      ],
+      "destination": "https://www.trumarg.com/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "trumarg.com"
+        }
+      ],
+      "destination": "https://www.trumarg.com/:path*",
+      "statusCode": 301
+    }
+  ],
+  "$schema": "https://openapi.vercel.sh/vercel.json"
 }
