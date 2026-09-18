@@ -9,6 +9,8 @@ import {
 |--------------------------------------------------------------------------
 */
 
+import DecisionIntelligencePanel from './DecisionIntelligencePanel';
+
 const PARTS = [
   [
     'rank',
@@ -405,6 +407,50 @@ function comparePremiumRows(
   a,
   b
 ) {
+  /*
+  |--------------------------------------------------------------------------
+  | TRUMARG ZERO ADMISSION FIT GATE
+  |--------------------------------------------------------------------------
+  |
+  | A verified 0 admission-fit option cannot outrank
+  | another option with non-zero admission fit.
+  |
+  | Existing score / bucket / cutoff logic remains unchanged.
+  |--------------------------------------------------------------------------
+  */
+
+  const admissionFitA =
+    num(
+      a?.premium
+        ?.breakdown
+        ?.rank
+    );
+
+  const admissionFitB =
+    num(
+      b?.premium
+        ?.breakdown
+        ?.rank
+    );
+
+  const zeroAdmissionA =
+    admissionFitA !== null &&
+    admissionFitA <= 0;
+
+  const zeroAdmissionB =
+    admissionFitB !== null &&
+    admissionFitB <= 0;
+
+  if (
+    zeroAdmissionA !==
+    zeroAdmissionB
+  ) {
+    return zeroAdmissionA
+      ? 1
+      : -1;
+  }
+
+
   const A =
     getPremiumRankingMeta(
       a
@@ -2097,6 +2143,7 @@ function CoverageChip({
 function RecommendationCard({
   row,
   index,
+  allRows = [],
 }) {
   const premium =
     row?.premium || {};
@@ -2472,7 +2519,13 @@ function RecommendationCard({
           DATA POLICY
       ========================================== */}
 
-      <div className="rec-data-note">
+            <DecisionIntelligencePanel
+        row={row}
+        index={index}
+        rows={allRows}
+      />
+
+<div className="rec-data-note">
         Missing quality, review,
         fee or location data stays
         unknown — no artificial
@@ -2782,11 +2835,9 @@ export default function RecommendationSlide({
             7,
             3,
           ].map(
-            (value) => (
+            (value, index) => (
               <span
-                key={
-                  value
-                }
+                key={`${value}-${index}`}
               >
                 {value}
               </span>
@@ -2910,7 +2961,8 @@ export default function RecommendationSlide({
                             index={
                               index
                             }
-                          />
+                            allRows={rows}
+            />
                         );
                       }
                     )}
