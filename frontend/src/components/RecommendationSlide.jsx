@@ -2489,6 +2489,176 @@ function RecommendationCard({
 |--------------------------------------------------------------------------
 */
 
+
+/*
+|--------------------------------------------------------------------------
+| SORT INSIDE ADMISSION BUCKET
+|--------------------------------------------------------------------------
+|
+| Priority:
+|
+| 1. NIRF rank low -> high
+| 2. Closing rank low -> high
+| 3. Match score high -> low
+|
+*/
+
+function sortWithinBucket(
+  a,
+  b
+) {
+  const nirfA =
+    Number(
+      a?.nirfRank ??
+      a?.quality?.nirfRank ??
+      a?.college?.nirfRank
+    );
+
+  const nirfB =
+    Number(
+      b?.nirfRank ??
+      b?.quality?.nirfRank ??
+      b?.college?.nirfRank
+    );
+
+
+  const hasNirfA =
+    Number.isFinite(
+      nirfA
+    ) &&
+    nirfA > 0;
+
+  const hasNirfB =
+    Number.isFinite(
+      nirfB
+    ) &&
+    nirfB > 0;
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | NIRF RANK
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    hasNirfA &&
+    hasNirfB &&
+    nirfA !== nirfB
+  ) {
+    return (
+      nirfA -
+      nirfB
+    );
+  }
+
+
+  if (
+    hasNirfA &&
+    !hasNirfB
+  ) {
+    return -1;
+  }
+
+
+  if (
+    !hasNirfA &&
+    hasNirfB
+  ) {
+    return 1;
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | CLOSING RANK
+  |--------------------------------------------------------------------------
+  */
+
+  const cutoffA =
+    Number(
+      a?.branch?.closingRank ??
+      a?.closingRank
+    );
+
+  const cutoffB =
+    Number(
+      b?.branch?.closingRank ??
+      b?.closingRank
+    );
+
+
+  const hasCutoffA =
+    Number.isFinite(
+      cutoffA
+    ) &&
+    cutoffA > 0;
+
+  const hasCutoffB =
+    Number.isFinite(
+      cutoffB
+    ) &&
+    cutoffB > 0;
+
+
+  if (
+    hasCutoffA &&
+    hasCutoffB &&
+    cutoffA !== cutoffB
+  ) {
+    return (
+      cutoffA -
+      cutoffB
+    );
+  }
+
+
+  if (
+    hasCutoffA &&
+    !hasCutoffB
+  ) {
+    return -1;
+  }
+
+
+  if (
+    !hasCutoffA &&
+    hasCutoffB
+  ) {
+    return 1;
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | MATCH SCORE TIE BREAKER
+  |--------------------------------------------------------------------------
+  */
+
+  const scoreA =
+    Number(
+      a?.premium?.score ??
+      a?.matchScore ??
+      a?.overall ??
+      0
+    );
+
+  const scoreB =
+    Number(
+      b?.premium?.score ??
+      b?.matchScore ??
+      b?.overall ??
+      0
+    );
+
+
+  return (
+    scoreB -
+    scoreA
+  );
+}
+
+
 export default function RecommendationSlide({
   rows = [],
   hasRecommendationAccess = false,
@@ -2496,18 +2666,54 @@ export default function RecommendationSlide({
   onUnlock,
   onLogin,
 }) {
-  const rankedRows =
+  const groupedRows =
     useMemo(
-      () =>
-        [...rows]
-          .filter(Boolean)
-          .sort(
-            comparePremiumRows
+      () => {
+        const bucketOrder = [
+          'dream',
+          'target',
+          'safe',
+          'backup',
+        ];
+
+
+        return bucketOrder
+          .map(
+            (bucket) => {
+              const bucketRows =
+                [...rows]
+                  .filter(
+                    (row) =>
+                      row &&
+                      String(
+                        row?.bucket ||
+                        row?.premium
+                          ?.admissionBucket
+                          ?.key ||
+                        ''
+                      )
+                        .trim()
+                        .toLowerCase() ===
+                      bucket
+                  )
+                  .sort(
+                    sortWithinBucket
+                  );
+
+
+              return {
+                bucket,
+                rows:
+                  bucketRows,
+              };
+            }
           )
-          .slice(
-            0,
-            10
-          ),
+          .filter(
+            (group) =>
+              group.rows.length >
+              0
+          );
+      },
       [
         rows,
       ]
@@ -2594,7 +2800,7 @@ export default function RecommendationSlide({
           EMPTY
       ========================================== */}
 
-      {!rankedRows.length ? (
+      {!groupedRows.length ? (
         <div className="rec-empty">
           <h3>
             No recommendation
@@ -2609,33 +2815,107 @@ export default function RecommendationSlide({
           </p>
         </div>
       ) : (
-        <div className="rec-list">
-          {rankedRows.map(
+        <div className="recommendation-buckets">
+          {groupedRows.map(
             (
-              row,
-              index
+              group
             ) => {
-              const collegeId =
-                row?.collegeId ||
-                row?.college?.id ||
-                row?.college_id ||
-                'college';
+              const labels = {
+                dream:
+                  'Dream',
+                target:
+                  'Target',
+                safe:
+                  'Safe',
+                backup:
+                  'Backup',
+              };
 
-              const branchName =
-                row?.branch?.name ||
-                row?.branch_name ||
-                'branch';
+
+              const descriptions = {
+                dream:
+                  'Competitive options based on your admission profile.',
+                target:
+                  'Strong realistic options for your profile.',
+                safe:
+                  'Higher-probability admission options.',
+                backup:
+                  'Additional safer options to keep in hand.',
+              };
+
 
               return (
-                <RecommendationCard
+                <section
                   key={
-                    `${collegeId}-${branchName}-${index}`
+                    group.bucket
                   }
-                  row={row}
-                  index={
-                    index
-                  }
-                />
+                  className="recommendation-bucket"
+                >
+                  <div className="recommendation-bucket__header">
+                    <div>
+                      <h3>
+                        {
+                          labels[
+                            group.bucket
+                          ]
+                        }
+                      </h3>
+
+                      <p>
+                        {
+                          descriptions[
+                            group.bucket
+                          ]
+                        }
+                      </p>
+                    </div>
+
+                    <strong>
+                      {
+                        group.rows
+                          .length
+                      } options
+                    </strong>
+                  </div>
+
+
+                  <div className="rec-list">
+                    {group.rows.map(
+                      (
+                        row,
+                        index
+                      ) => {
+                        const collegeId =
+                          row?.collegeId ||
+                          row?.college
+                            ?.id ||
+                          row?.college_id ||
+                          'college';
+
+                        const branchName =
+                          row?.branch
+                            ?.name ||
+                          row?.branch_name ||
+                          'branch';
+
+
+                        return (
+                          <RecommendationCard
+                            key={
+                              `${group.bucket}-${collegeId}-${branchName}-${index}`
+                            }
+                            row={
+                              row
+                            }
+                            index={
+                              index
+                            }
+                          />
+                        );
+                      }
+                    )}
+                  </div>
+                </section>
               );
             }
           )}

@@ -761,6 +761,231 @@ router.get(
    REAL RECOMMENDATIONS
 ========================================================= */
 
+
+
+/*
+|--------------------------------------------------------------------------
+| FINAL RECOMMENDATION ORDER
+|--------------------------------------------------------------------------
+|
+| Bucket:
+| Dream -> Target -> Safe -> Backup
+|
+| Inside same bucket:
+| 1. NIRF rank low -> high
+| 2. Closing rank low -> high
+| 3. Match score high -> low
+|
+*/
+
+function compareBucketNirfCutoff(
+  a,
+  b
+) {
+  const bucketPriority = {
+    dream: 0,
+    target: 1,
+    safe: 2,
+    backup: 3,
+  };
+
+
+  const normalizeBucketKey =
+    (value) =>
+      String(
+        value || ''
+      )
+        .trim()
+        .toLowerCase();
+
+
+  const bucketA =
+    normalizeBucketKey(
+      a?.admission?.bucket ??
+      a?.bucket
+    );
+
+  const bucketB =
+    normalizeBucketKey(
+      b?.admission?.bucket ??
+      b?.bucket
+    );
+
+
+  const priorityA =
+    bucketPriority[
+      bucketA
+    ] ?? 99;
+
+  const priorityB =
+    bucketPriority[
+      bucketB
+    ] ?? 99;
+
+
+  if (
+    priorityA !==
+    priorityB
+  ) {
+    return (
+      priorityA -
+      priorityB
+    );
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | NIRF RANK
+  |--------------------------------------------------------------------------
+  */
+
+  const nirfA =
+    Number(
+      a?.nirfRank ??
+      a?.quality?.nirfRank ??
+      a?.college?.nirfRank
+    );
+
+  const nirfB =
+    Number(
+      b?.nirfRank ??
+      b?.quality?.nirfRank ??
+      b?.college?.nirfRank
+    );
+
+
+  const hasNirfA =
+    Number.isFinite(
+      nirfA
+    ) &&
+    nirfA > 0;
+
+  const hasNirfB =
+    Number.isFinite(
+      nirfB
+    ) &&
+    nirfB > 0;
+
+
+  if (
+    hasNirfA &&
+    hasNirfB &&
+    nirfA !== nirfB
+  ) {
+    return (
+      nirfA -
+      nirfB
+    );
+  }
+
+
+  if (
+    hasNirfA &&
+    !hasNirfB
+  ) {
+    return -1;
+  }
+
+
+  if (
+    !hasNirfA &&
+    hasNirfB
+  ) {
+    return 1;
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | CLOSING RANK
+  |--------------------------------------------------------------------------
+  */
+
+  const cutoffA =
+    Number(
+      a?.closingRank ??
+      a?.closing_rank ??
+      a?.branch?.closingRank
+    );
+
+  const cutoffB =
+    Number(
+      b?.closingRank ??
+      b?.closing_rank ??
+      b?.branch?.closingRank
+    );
+
+
+  const hasCutoffA =
+    Number.isFinite(
+      cutoffA
+    ) &&
+    cutoffA > 0;
+
+  const hasCutoffB =
+    Number.isFinite(
+      cutoffB
+    ) &&
+    cutoffB > 0;
+
+
+  if (
+    hasCutoffA &&
+    hasCutoffB &&
+    cutoffA !== cutoffB
+  ) {
+    return (
+      cutoffA -
+      cutoffB
+    );
+  }
+
+
+  if (
+    hasCutoffA &&
+    !hasCutoffB
+  ) {
+    return -1;
+  }
+
+
+  if (
+    !hasCutoffA &&
+    hasCutoffB
+  ) {
+    return 1;
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | MATCH SCORE FINAL TIE BREAKER
+  |--------------------------------------------------------------------------
+  */
+
+  const scoreA =
+    Number(
+      a?.matchScore ??
+      a?.premium?.score ??
+      0
+    );
+
+  const scoreB =
+    Number(
+      b?.matchScore ??
+      b?.premium?.score ??
+      0
+    );
+
+
+  return (
+    scoreB -
+    scoreA
+  );
+}
+
+
 router.get(
   '/recommendations',
   async (
@@ -907,8 +1132,7 @@ router.get(
          FETCH
       ===================================== */
 
-      const realData =
-        await fetchCWRecRows({
+      let realData = await fetchCWRecRows({
           examId,
           rank,
           year,
@@ -920,6 +1144,145 @@ router.get(
           limit:
             candidatePoolLimit,
         });
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | CW-REC HOME STATE HARD ELIGIBILITY
+      |--------------------------------------------------------------------------
+      |
+      | Eligibility only.
+      | Does NOT change premium score or scoring weights.
+      |
+      */
+
+      if (
+        examId === 'jee-main' &&
+        homeState &&
+        !quota
+      ) {
+        const normalizedHomeState =
+          homeState
+            .toLowerCase()
+            .trim();
+
+        
+        const cwRecSourceRows =
+          Array.isArray(realData)
+            ? realData
+            : Array.isArray(
+                realData?.rows
+              )
+              ? realData.rows
+              : Array.isArray(
+                  realData?.data
+                )
+                ? realData.data
+                : null;
+
+        if (
+          !cwRecSourceRows
+        ) {
+          throw new Error(
+            'CW-REC row collection not found.'
+          );
+        }
+
+        const cwRecFilteredRows =
+          cwRecSourceRows.filter(
+
+            (row) => {
+              const rowQuota =
+                String(
+                  row?.quota ??
+                  ''
+                )
+                  .trim()
+                  .toUpperCase();
+
+              const collegeState =
+                String(
+                  row?.state ??
+                  row?.college_state ??
+                  ''
+                )
+                  .trim()
+                  .toLowerCase();
+
+
+              /*
+              | All India quota
+              */
+
+              if (
+                rowQuota === 'AI'
+              ) {
+                return true;
+              }
+
+
+              /*
+              | Home State quota
+              */
+
+              if (
+                rowQuota === 'HS'
+              ) {
+                return (
+                  collegeState ===
+                  normalizedHomeState
+                );
+              }
+
+
+              /*
+              | Other State quota
+              */
+
+              if (
+                rowQuota === 'OS'
+              ) {
+                return (
+                  collegeState !==
+                  normalizedHomeState
+                );
+              }
+
+
+              /*
+              | GO / JK / LA / other
+              | special quota codes are
+              | not inferred automatically.
+              */
+
+              return false;
+            }
+          
+          );
+
+        if (
+          Array.isArray(
+            realData
+          )
+        ) {
+          realData =
+            cwRecFilteredRows;
+        }
+        else if (
+          Array.isArray(
+            realData.rows
+          )
+        ) {
+          realData.rows =
+            cwRecFilteredRows;
+        }
+        else {
+          realData.data =
+            cwRecFilteredRows;
+        }
+
+      }
+
 
 
       /* =====================================
@@ -1300,9 +1663,10 @@ router.get(
          SORT
       ===================================== */
 
-      scored.sort(
-        compareRecommendations
-      );
+      const sorted =
+        [...scored].sort(
+          compareBucketNirfCutoff
+        );
 
 
       /*

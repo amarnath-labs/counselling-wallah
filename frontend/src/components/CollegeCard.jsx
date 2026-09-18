@@ -508,6 +508,35 @@ export default function CollegeCard({
             </span>
           )}
 
+          {/* CW CATEGORY BADGE */}
+          {branch?.category && (
+            <span className="meta-chip">
+              {branch.category}
+            </span>
+          )}
+
+          {branch?.quota && (
+            <span className="meta-chip">
+              {branch.quota === 'HS'
+                ? 'Home State'
+                : branch.quota === 'OS'
+                  ? 'Other State'
+                  : branch.quota === 'AI'
+                    ? 'All India'
+                    : branch.quota}
+            </span>
+          )}
+
+          {branch?.gender && (
+            <span className="meta-chip">
+              {String(branch.gender)
+                .toLowerCase()
+                .includes('female')
+                ? 'Female Seat'
+                : 'Gender Neutral'}
+            </span>
+          )}
+
           {hasOpeningRank && (
             <span className="meta-chip">
 
@@ -618,6 +647,113 @@ export default function CollegeCard({
 
                       <div className="admission-history-title">
                         Historical Admission Intelligence
+                      </div>
+
+
+                      {/* =====================================================
+                          ELIGIBILITY PROFILE USED
+                      ===================================================== */}
+
+                      <div className="admission-profile-context">
+
+                        <div className="admission-profile-context__title">
+                          Admission Profile Used
+                        </div>
+
+
+                        <div className="admission-profile-context__grid">
+
+                          <div className="admission-profile-context__item">
+                            <span>
+                              Category
+                            </span>
+
+                            <strong>
+                              {
+                                branch?.category ||
+                                profile?.category ||
+                                '—'
+                              }
+                            </strong>
+                          </div>
+
+
+                          <div className="admission-profile-context__item">
+                            <span>
+                              Gender
+                            </span>
+
+                            <strong>
+                              {
+                                profile?.gender ||
+                                '—'
+                              }
+                            </strong>
+                          </div>
+
+
+                          <div className="admission-profile-context__item">
+                            <span>
+                              Home State
+                            </span>
+
+                            <strong>
+                              {
+                                profile?.homeState ||
+                                '—'
+                              }
+                            </strong>
+                          </div>
+
+
+                          <div className="admission-profile-context__item">
+                            <span>
+                              Applicable Quota
+                            </span>
+
+                            <strong>
+                              {
+                                branch?.quota === 'HS'
+                                  ? 'Home State'
+                                  : branch?.quota === 'OS'
+                                    ? 'Other State'
+                                    : branch?.quota === 'AI'
+                                      ? 'All India'
+                                      : branch?.quota ||
+                                        '—'
+                              }
+                            </strong>
+                          </div>
+
+
+                          <div className="admission-profile-context__item admission-profile-context__item--wide">
+                            <span>
+                              Eligible Seat Pool
+                            </span>
+
+                            <strong>
+                              {
+                                branch?.gender ===
+                                  'Female-only (including Supernumerary)'
+                                  ? 'Female-only'
+                                  : branch?.gender ===
+                                      'Gender-Neutral'
+                                    ? 'Gender-Neutral'
+                                    : branch?.gender ||
+                                      '—'
+                              }
+                            </strong>
+                          </div>
+
+                        </div>
+
+
+                        <div className="admission-profile-context__note">
+                          Historical cutoff comparison uses
+                          this category, applicable quota and
+                          eligible seat pool.
+                        </div>
+
                       </div>
 
 

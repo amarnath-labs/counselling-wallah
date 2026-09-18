@@ -114,7 +114,46 @@ function buildReasons(row) {
   };
 }
 
-export function adaptCWRecRow(row) {
+
+function getAdmissionBucketFromRank(
+  studentRank,
+  closingRank
+) {
+  const rank =
+    Number(studentRank);
+
+  const cutoff =
+    Number(closingRank);
+
+  if (
+    !Number.isFinite(rank) ||
+    rank <= 0 ||
+    !Number.isFinite(cutoff) ||
+    cutoff <= 0
+  ) {
+    return 'target';
+  }
+
+  const rankRatio =
+    rank / cutoff;
+
+  if (rankRatio <= 0.60) {
+    return 'backup';
+  }
+
+  if (rankRatio <= 0.85) {
+    return 'safe';
+  }
+
+  if (rankRatio <= 1.05) {
+    return 'target';
+  }
+
+  return 'dream';
+}
+
+
+export function adaptCWRecRow(row, studentRank = null) {
   const admissionScore =
     optionalNumber(row?.admission?.score);
 
@@ -136,8 +175,9 @@ export function adaptCWRecRow(row) {
       : null;
 
   const bucket =
-    normalizeBucket(
-      row?.admission?.bucket
+    getAdmissionBucketFromRank(
+      studentRank,
+      row?.closingRank
     );
 
   return {
@@ -433,7 +473,7 @@ function getAnnualBudget(profile = {}) {
 export async function fetchCWRecommendations(
   profile = {},
   {
-    limit = 100,
+    limit = 1000,
     locationMode = 'NONE',
   } = {}
 ) {
@@ -518,10 +558,63 @@ export async function fetchCWRecommendations(
     );
   }
 
-  if (profile.quota) {
+  /*
+  |--------------------------------------------------------------------------
+  | QUOTA
+  |--------------------------------------------------------------------------
+  |
+  | For JEE Main, HS/OS eligibility is derived from homeState.
+  | Do NOT force normal AI/HS/OS quota when homeState exists.
+  |
+  | Special quota values remain explicit.
+  |
+  */
+
+  const normalizedExamId =
+    String(
+      examId || ''
+    )
+      .trim()
+      .toLowerCase();
+
+  const normalizedQuota =
+    String(
+      profile.quota || ''
+    )
+      .trim()
+      .toUpperCase();
+
+  const normalJosaaQuotas =
+    new Set([
+      'AI',
+      'HS',
+      'OS',
+      'ALL INDIA',
+      'HOME STATE',
+      'OTHER STATE',
+    ]);
+
+  const shouldSendQuota =
+    Boolean(
+      profile.quota
+    ) &&
+    !(
+      normalizedExamId ===
+        'jee-main' &&
+      profile.homeState &&
+      normalJosaaQuotas.has(
+        normalizedQuota
+      )
+    );
+
+  if (
+    shouldSendQuota
+  ) {
     params.set(
       'quota',
-      String(profile.quota)
+      String(
+        profile.quota
+      )
     );
   }
 
@@ -593,7 +686,11 @@ export async function fetchCWRecommendations(
   const rows =
     Array.isArray(payload?.data)
       ? payload.data.map(
-          adaptCWRecRow
+          (row) =>
+            adaptCWRecRow(
+              row,
+              rank
+            )
         )
       : [];
 

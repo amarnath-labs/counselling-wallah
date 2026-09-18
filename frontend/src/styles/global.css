@@ -1992,3 +1992,78 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,[t
   }
 
 }
+/* ==========================================================================
+   ADMISSION INTELLIGENCE - ELIGIBILITY PROFILE
+   ========================================================================== */
+
+.admission-profile-context {
+  margin: 10px 0 12px;
+  padding: 12px;
+  border: 1px solid #dfe6f5;
+  border-radius: 10px;
+  background: #f8faff;
+}
+
+.admission-profile-context__title {
+  margin-bottom: 9px;
+  font-size: 11px;
+  font-weight: 800;
+  color: #172554;
+}
+
+.admission-profile-context__grid {
+  display: grid;
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+  gap: 7px;
+}
+
+.admission-profile-context__item {
+  min-width: 0;
+  padding: 8px 9px;
+  border: 1px solid #e5eaf5;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.admission-profile-context__item--wide {
+  grid-column: 1 / -1;
+}
+
+.admission-profile-context__item span {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 9px;
+  line-height: 1.25;
+  color: #718096;
+}
+
+.admission-profile-context__item strong {
+  display: block;
+  overflow-wrap: anywhere;
+  font-size: 11px;
+  line-height: 1.3;
+  color: #172554;
+}
+
+.admission-profile-context__note {
+  margin-top: 9px;
+  padding-top: 8px;
+  border-top: 1px solid #e5eaf5;
+  font-size: 9px;
+  line-height: 1.45;
+  color: #64748b;
+}
+
+@media (max-width: 520px) {
+  .admission-profile-context__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .admission-profile-context__item--wide {
+    grid-column: auto;
+  }
+}
