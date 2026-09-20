@@ -1,0 +1,191 @@
+[
+  {
+    "josaa_code": "121",
+    "josaa_name": "Indian Institute of Technology Tirupati",
+    "college_id": "indian-institute-of-technology-tirupati",
+    "college_name": "Indian Institute of Technology Tirupati",
+    "website": "https://www.iittp.ac.in",
+    "fee_year": 2026,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "204",
+    "josaa_name": "Motilal Nehru National Institute of Technology Allahabad",
+    "college_id": "motilal-nehru-national-institute-of-technology-allahabad",
+    "college_name": "Motilal Nehru National Institute of Technology Allahabad",
+    "website": "https://www.mnnit.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "208",
+    "josaa_name": "National Institute of Technology Durgapur",
+    "college_id": "national-institute-of-technology-durgapur",
+    "college_name": "National Institute of Technology Durgapur",
+    "website": "https://nitdgp.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "212",
+    "josaa_name": "National Institute of Technology Meghalaya",
+    "college_id": "national-institute-of-technology-meghalaya",
+    "college_name": "National Institute of Technology Meghalaya",
+    "website": "https://www.nitm.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "213",
+    "josaa_name": "National Institute of Technology Nagaland",
+    "college_id": "national-institute-of-technology-nagaland",
+    "college_name": "National Institute of Technology Nagaland",
+    "website": "https://nitnagaland.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "222",
+    "josaa_name": "National Institute of Technology, Mizoram",
+    "college_id": "national-institute-of-technology-mizoram",
+    "college_name": "National Institute of Technology, Mizoram",
+    "website": "https://www.nitmz.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "225",
+    "josaa_name": "National Institute of Technology, Srinagar",
+    "college_id": "national-institute-of-technology-srinagar",
+    "college_name": "National Institute of Technology, Srinagar",
+    "website": "https://nitsri.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "227",
+    "josaa_name": "National Institute of Technology, Uttarakhand",
+    "college_id": "national-institute-of-technology-uttarakhand",
+    "college_name": "National Institute of Technology, Uttarakhand",
+    "website": "https://nituk.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "228",
+    "josaa_name": "National Institute of Technology, Warangal",
+    "college_id": "national-institute-of-technology-warangal",
+    "college_name": "National Institute of Technology, Warangal",
+    "website": "https://www.nitw.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  }
+]

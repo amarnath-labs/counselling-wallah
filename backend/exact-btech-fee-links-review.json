@@ -1,0 +1,2969 @@
+[
+  {
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "college_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "source_family": "JOSAA",
+    "parent_url": "https://www.iiitm.ac.in/admissions/details-of-the-admission-process-for-the-first-semester-btech-cse-eee-msc-and-integrated-btech-it-mtechit-integrated-btech-it-mba-2026-27",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "Fee Structure & Payment",
+        "url": "https://iiitm.ac.in/public/uploads/media_uploads/1779189402_Fees-Details-2025-2026-f.pdf",
+        "context": "Fee Structure & PaymentFee Structure B. Tech-CSE, EEE, MSC/ IMT/ IMG StudentsFee Structure for 2025 and 2026 admission BatchOnline Fee Payment Link",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 90,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Fee Structure B. Tech-CSE, EEE, MSC/ IMT/ IMG Students",
+        "url": "https://iiitm.ac.in/public/uploads/media_uploads/1779189276_Fee-Structure-2022-2023-and-2024-new-f.pdf",
+        "context": "Fee Structure B. Tech-CSE, EEE, MSC/ IMT/ IMG Students",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 90,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "PDF"
+        ]
+      }
+    ],
+    "rejected_links": []
+  },
+  {
+    "college_id": "central-university-of-haryana",
+    "college_name": "Central University of Haryana",
+    "source_family": "JOSAA",
+    "parent_url": "https://www.cuh.ac.in/admission.aspx",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "🧑‍🎓 B.Tech.Admissions 2026-27 New",
+        "url": "https://www.cuh.ac.in/btech_admission.aspx",
+        "context": "🧑‍🎓 B.Tech.Admissions 2026-27 New 🧑‍🎓 Direct Admissions –2nd Year PG (3rd Semester) New 🧑‍🎓 CUET Post Graduation (PG) 2026-27 New 🧑‍🎓 CUET Under Graduation (UG) 2026 New 🧑‍🎓 Special Admission Drive (PG Programmes) 2026-27 New 🧑‍🎓 Open Counselling Admissions 2026-27 New 🧑‍🎓 Admission Notice ITEP (B.A.B.Ed.) 2026-27 New 🧑‍🎓 Supernumerary Admissions 2026-27 New 🧑‍🎓 B.B.A Admissions 2026-27 New 🧑‍🎓 Master of Arts(Hindu Studies) 2026-27 New 🧑‍🎓 B.Tech.(LEET) 2026-27 New 🏫 CUH at a Glance",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "🧑‍🎓 Direct Admissions –2nd Year PG (3rd Semester) New",
+        "url": "https://www.cuh.ac.in/2nd-year-direct-admissions.aspx",
+        "context": "🧑‍🎓 B.Tech.Admissions 2026-27 New 🧑‍🎓 Direct Admissions –2nd Year PG (3rd Semester) New 🧑‍🎓 CUET Post Graduation (PG) 2026-27 New 🧑‍🎓 CUET Under Graduation (UG) 2026 New 🧑‍🎓 Special Admission Drive (PG Programmes) 2026-27 New 🧑‍🎓 Open Counselling Admissions 2026-27 New 🧑‍🎓 Admission Notice ITEP (B.A.B.Ed.) 2026-27 New 🧑‍🎓 Supernumerary Admissions 2026-27 New 🧑‍🎓 B.B.A Admissions 2026-27 New 🧑‍🎓 Master of Arts(Hindu Studies) 2026-27 New 🧑‍🎓 B.Tech.(LEET) 2026-27 New 🏫 CUH at a Glance",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "🧑‍🎓 CUET Post Graduation (PG) 2026-27 New",
+        "url": "https://www.cuh.ac.in/cucetPG.aspx",
+        "context": "🧑‍🎓 B.Tech.Admissions 2026-27 New 🧑‍🎓 Direct Admissions –2nd Year PG (3rd Semester) New 🧑‍🎓 CUET Post Graduation (PG) 2026-27 New 🧑‍🎓 CUET Under Graduation (UG) 2026 New 🧑‍🎓 Special Admission Drive (PG Programmes) 2026-27 New 🧑‍🎓 Open Counselling Admissions 2026-27 New 🧑‍🎓 Admission Notice ITEP (B.A.B.Ed.) 2026-27 New 🧑‍🎓 Supernumerary Admissions 2026-27 New 🧑‍🎓 B.B.A Admissions 2026-27 New 🧑‍🎓 Master of Arts(Hindu Studies) 2026-27 New 🧑‍🎓 B.Tech.(LEET) 2026-27 New 🏫 CUH at a Glance",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "🧑‍🎓 CUET Under Graduation (UG) 2026 New",
+        "url": "https://www.cuh.ac.in/cucetUG.aspx",
+        "context": "🧑‍🎓 B.Tech.Admissions 2026-27 New 🧑‍🎓 Direct Admissions –2nd Year PG (3rd Semester) New 🧑‍🎓 CUET Post Graduation (PG) 2026-27 New 🧑‍🎓 CUET Under Graduation (UG) 2026 New 🧑‍🎓 Special Admission Drive (PG Programmes) 2026-27 New 🧑‍🎓 Open Counselling Admissions 2026-27 New 🧑‍🎓 Admission Notice ITEP (B.A.B.Ed.) 2026-27 New 🧑‍🎓 Supernumerary Admissions 2026-27 New 🧑‍🎓 B.B.A Admissions 2026-27 New 🧑‍🎓 Master of Arts(Hindu Studies) 2026-27 New 🧑‍🎓 B.Tech.(LEET) 2026-27 New 🏫 CUH at a Glance",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "🧑‍🎓 Special Admission Drive (PG Programmes) 2026-27 New",
+        "url": "https://www.cuh.ac.in/special-drive.aspx",
+        "context": "🧑‍🎓 B.Tech.Admissions 2026-27 New 🧑‍🎓 Direct Admissions –2nd Year PG (3rd Semester) New 🧑‍🎓 CUET Post Graduation (PG) 2026-27 New 🧑‍🎓 CUET Under Graduation (UG) 2026 New 🧑‍🎓 Special Admission Drive (PG Programmes) 2026-27 New 🧑‍🎓 Open Counselling Admissions 2026-27 New 🧑‍🎓 Admission Notice ITEP (B.A.B.Ed.) 2026-27 New 🧑‍🎓 Supernumerary Admissions 2026-27 New 🧑‍🎓 B.B.A Admissions 2026-27 New 🧑‍🎓 Master of Arts(Hindu Studies) 2026-27 New 🧑‍🎓 B.Tech.(LEET) 2026-27 New 🏫 CUH at a Glance",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "🧑‍🎓 Open Counselling Admissions 2026-27 New",
+        "url": "https://www.cuh.ac.in/open-counseling.aspx",
+        "context": "🧑‍🎓 B.Tech.Admissions 2026-27 New 🧑‍🎓 Direct Admissions –2nd Year PG (3rd Semester) New 🧑‍🎓 CUET Post Graduation (PG) 2026-27 New 🧑‍🎓 CUET Under Graduation (UG) 2026 New 🧑‍🎓 Special Admission Drive (PG Programmes) 2026-27 New 🧑‍🎓 Open Counselling Admissions 2026-27 New 🧑‍🎓 Admission Notice ITEP (B.A.B.Ed.) 2026-27 New 🧑‍🎓 Supernumerary Admissions 2026-27 New 🧑‍🎓 B.B.A Admissions 2026-27 New 🧑‍🎓 Master of Arts(Hindu Studies) 2026-27 New 🧑‍🎓 B.Tech.(LEET) 2026-27 New 🏫 CUH at a Glance",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "🧑‍🎓 Admission Notice ITEP (B.A.B.Ed.) 2026-27 New",
+        "url": "https://www.cuh.ac.in/itepbabed26.aspx",
+        "context": "🧑‍🎓 B.Tech.Admissions 2026-27 New 🧑‍🎓 Direct Admissions –2nd Year PG (3rd Semester) New 🧑‍🎓 CUET Post Graduation (PG) 2026-27 New 🧑‍🎓 CUET Under Graduation (UG) 2026 New 🧑‍🎓 Special Admission Drive (PG Programmes) 2026-27 New 🧑‍🎓 Open Counselling Admissions 2026-27 New 🧑‍🎓 Admission Notice ITEP (B.A.B.Ed.) 2026-27 New 🧑‍🎓 Supernumerary Admissions 2026-27 New 🧑‍🎓 B.B.A Admissions 2026-27 New 🧑‍🎓 Master of Arts(Hindu Studies) 2026-27 New 🧑‍🎓 B.Tech.(LEET) 2026-27 New 🏫 CUH at a Glance",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "🧑‍🎓 Supernumerary Admissions 2026-27 New",
+        "url": "https://www.cuh.ac.in/supernumerary-2026.aspx",
+        "context": "🧑‍🎓 B.Tech.Admissions 2026-27 New 🧑‍🎓 Direct Admissions –2nd Year PG (3rd Semester) New 🧑‍🎓 CUET Post Graduation (PG) 2026-27 New 🧑‍🎓 CUET Under Graduation (UG) 2026 New 🧑‍🎓 Special Admission Drive (PG Programmes) 2026-27 New 🧑‍🎓 Open Counselling Admissions 2026-27 New 🧑‍🎓 Admission Notice ITEP (B.A.B.Ed.) 2026-27 New 🧑‍🎓 Supernumerary Admissions 2026-27 New 🧑‍🎓 B.B.A Admissions 2026-27 New 🧑‍🎓 Master of Arts(Hindu Studies) 2026-27 New 🧑‍🎓 B.Tech.(LEET) 2026-27 New 🏫 CUH at a Glance",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "🧑‍🎓 B.B.A Admissions 2026-27 New",
+        "url": "https://www.cuh.ac.in/bba_admission.aspx",
+        "context": "🧑‍🎓 B.Tech.Admissions 2026-27 New 🧑‍🎓 Direct Admissions –2nd Year PG (3rd Semester) New 🧑‍🎓 CUET Post Graduation (PG) 2026-27 New 🧑‍🎓 CUET Under Graduation (UG) 2026 New 🧑‍🎓 Special Admission Drive (PG Programmes) 2026-27 New 🧑‍🎓 Open Counselling Admissions 2026-27 New 🧑‍🎓 Admission Notice ITEP (B.A.B.Ed.) 2026-27 New 🧑‍🎓 Supernumerary Admissions 2026-27 New 🧑‍🎓 B.B.A Admissions 2026-27 New 🧑‍🎓 Master of Arts(Hindu Studies) 2026-27 New 🧑‍🎓 B.Tech.(LEET) 2026-27 New 🏫 CUH at a Glance",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "🧑‍🎓 Master of Arts(Hindu Studies) 2026-27 New",
+        "url": "https://www.cuh.ac.in/mahs_admission.aspx",
+        "context": "🧑‍🎓 B.Tech.Admissions 2026-27 New 🧑‍🎓 Direct Admissions –2nd Year PG (3rd Semester) New 🧑‍🎓 CUET Post Graduation (PG) 2026-27 New 🧑‍🎓 CUET Under Graduation (UG) 2026 New 🧑‍🎓 Special Admission Drive (PG Programmes) 2026-27 New 🧑‍🎓 Open Counselling Admissions 2026-27 New 🧑‍🎓 Admission Notice ITEP (B.A.B.Ed.) 2026-27 New 🧑‍🎓 Supernumerary Admissions 2026-27 New 🧑‍🎓 B.B.A Admissions 2026-27 New 🧑‍🎓 Master of Arts(Hindu Studies) 2026-27 New 🧑‍🎓 B.Tech.(LEET) 2026-27 New 🏫 CUH at a Glance",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "🧑‍🎓 B.Tech.(LEET) 2026-27 New",
+        "url": "https://www.cuh.ac.in/leetadmission.aspx",
+        "context": "🧑‍🎓 B.Tech.Admissions 2026-27 New 🧑‍🎓 Direct Admissions –2nd Year PG (3rd Semester) New 🧑‍🎓 CUET Post Graduation (PG) 2026-27 New 🧑‍🎓 CUET Under Graduation (UG) 2026 New 🧑‍🎓 Special Admission Drive (PG Programmes) 2026-27 New 🧑‍🎓 Open Counselling Admissions 2026-27 New 🧑‍🎓 Admission Notice ITEP (B.A.B.Ed.) 2026-27 New 🧑‍🎓 Supernumerary Admissions 2026-27 New 🧑‍🎓 B.B.A Admissions 2026-27 New 🧑‍🎓 Master of Arts(Hindu Studies) 2026-27 New 🧑‍🎓 B.Tech.(LEET) 2026-27 New 🏫 CUH at a Glance",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "💰 Fee Structure w.e.f. 2025-26",
+        "url": "https://www.cuh.ac.in/admin/uploads/admission/2025/PG/A&C-D-433%20(Notification-Fee%20Structure%20w.e.f.%202025-26)%20(1).pdf",
+        "context": "🔧 B.Tech Admissions (LEET) 2025-26 📍 On the Spot Counselling (PG Admissions) 📋 Supernumerary Counselling 🔓 Open Counselling 💼 MBA (Executive) Admissions 2025-26 ⚙️ B.Tech Admissions 2025-26 🧑‍🎓 CUET Post Graduation (PG) 2025-26 🧒 CUET Undergraduate (UG) 2025-26 💰 Fee Structure w.e.f. 2025-26 📖 ITEP (B.A. B.Ed. Secondary Stage) Admissions 2025-26",
+        "score": 50,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 90,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "🏫 CUH at a Glance",
+        "url": "https://www.cuh.ac.in/admin/uploads/files/CUH%202025.pdf",
+        "context": "🧑‍🎓 B.Tech.Admissions 2026-27 New 🧑‍🎓 Direct Admissions –2nd Year PG (3rd Semester) New 🧑‍🎓 CUET Post Graduation (PG) 2026-27 New 🧑‍🎓 CUET Under Graduation (UG) 2026 New 🧑‍🎓 Special Admission Drive (PG Programmes) 2026-27 New 🧑‍🎓 Open Counselling Admissions 2026-27 New 🧑‍🎓 Admission Notice ITEP (B.A.B.Ed.) 2026-27 New 🧑‍🎓 Supernumerary Admissions 2026-27 New 🧑‍🎓 B.B.A Admissions 2026-27 New 🧑‍🎓 Master of Arts(Hindu Studies) 2026-27 New 🧑‍🎓 B.Tech.(LEET) 2026-27 New 🏫 CUH at a Glance",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "GENERIC_PROFILE",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "🔧 B.Tech Admissions (LEET) 2025-26",
+        "url": "https://cuh.ac.in/leetadmission2025.aspx",
+        "context": "🔧 B.Tech Admissions (LEET) 2025-26 📍 On the Spot Counselling (PG Admissions) 📋 Supernumerary Counselling 🔓 Open Counselling 💼 MBA (Executive) Admissions 2025-26 ⚙️ B.Tech Admissions 2025-26 🧑‍🎓 CUET Post Graduation (PG) 2025-26 🧒 CUET Undergraduate (UG) 2025-26 💰 Fee Structure w.e.f. 2025-26 📖 ITEP (B.A. B.Ed. Secondary Stage) Admissions 2025-26",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "OLD_YEAR"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH"
+        ]
+      },
+      {
+        "anchor_text": "📍 On the Spot Counselling (PG Admissions)",
+        "url": "https://www.cuh.ac.in/spotCounseling.aspx",
+        "context": "🔧 B.Tech Admissions (LEET) 2025-26 📍 On the Spot Counselling (PG Admissions) 📋 Supernumerary Counselling 🔓 Open Counselling 💼 MBA (Executive) Admissions 2025-26 ⚙️ B.Tech Admissions 2025-26 🧑‍🎓 CUET Post Graduation (PG) 2025-26 🧒 CUET Undergraduate (UG) 2025-26 💰 Fee Structure w.e.f. 2025-26 📖 ITEP (B.A. B.Ed. Secondary Stage) Admissions 2025-26",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "OLD_YEAR"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH"
+        ]
+      },
+      {
+        "anchor_text": "📋 Supernumerary Counselling",
+        "url": "https://www.cuh.ac.in/supernumerary.aspx",
+        "context": "🔧 B.Tech Admissions (LEET) 2025-26 📍 On the Spot Counselling (PG Admissions) 📋 Supernumerary Counselling 🔓 Open Counselling 💼 MBA (Executive) Admissions 2025-26 ⚙️ B.Tech Admissions 2025-26 🧑‍🎓 CUET Post Graduation (PG) 2025-26 🧒 CUET Undergraduate (UG) 2025-26 💰 Fee Structure w.e.f. 2025-26 📖 ITEP (B.A. B.Ed. Secondary Stage) Admissions 2025-26",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "OLD_YEAR"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH"
+        ]
+      },
+      {
+        "anchor_text": "🔓 Open Counselling",
+        "url": "https://www.cuh.ac.in/openCounseling.aspx",
+        "context": "🔧 B.Tech Admissions (LEET) 2025-26 📍 On the Spot Counselling (PG Admissions) 📋 Supernumerary Counselling 🔓 Open Counselling 💼 MBA (Executive) Admissions 2025-26 ⚙️ B.Tech Admissions 2025-26 🧑‍🎓 CUET Post Graduation (PG) 2025-26 🧒 CUET Undergraduate (UG) 2025-26 💰 Fee Structure w.e.f. 2025-26 📖 ITEP (B.A. B.Ed. Secondary Stage) Admissions 2025-26",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "OLD_YEAR"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH"
+        ]
+      },
+      {
+        "anchor_text": "💼 MBA (Executive) Admissions 2025-26",
+        "url": "https://www.cuh.ac.in/mbaexecutive.aspx",
+        "context": "🔧 B.Tech Admissions (LEET) 2025-26 📍 On the Spot Counselling (PG Admissions) 📋 Supernumerary Counselling 🔓 Open Counselling 💼 MBA (Executive) Admissions 2025-26 ⚙️ B.Tech Admissions 2025-26 🧑‍🎓 CUET Post Graduation (PG) 2025-26 🧒 CUET Undergraduate (UG) 2025-26 💰 Fee Structure w.e.f. 2025-26 📖 ITEP (B.A. B.Ed. Secondary Stage) Admissions 2025-26",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "OLD_YEAR"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH"
+        ]
+      },
+      {
+        "anchor_text": "⚙️ B.Tech Admissions 2025-26",
+        "url": "https://www.cuh.ac.in/btech_admission25-26.aspx",
+        "context": "🔧 B.Tech Admissions (LEET) 2025-26 📍 On the Spot Counselling (PG Admissions) 📋 Supernumerary Counselling 🔓 Open Counselling 💼 MBA (Executive) Admissions 2025-26 ⚙️ B.Tech Admissions 2025-26 🧑‍🎓 CUET Post Graduation (PG) 2025-26 🧒 CUET Undergraduate (UG) 2025-26 💰 Fee Structure w.e.f. 2025-26 📖 ITEP (B.A. B.Ed. Secondary Stage) Admissions 2025-26",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "OLD_YEAR"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH"
+        ]
+      },
+      {
+        "anchor_text": "🧑‍🎓 CUET Post Graduation (PG) 2025-26",
+        "url": "https://www.cuh.ac.in/cucetPG_2025_26.aspx",
+        "context": "🔧 B.Tech Admissions (LEET) 2025-26 📍 On the Spot Counselling (PG Admissions) 📋 Supernumerary Counselling 🔓 Open Counselling 💼 MBA (Executive) Admissions 2025-26 ⚙️ B.Tech Admissions 2025-26 🧑‍🎓 CUET Post Graduation (PG) 2025-26 🧒 CUET Undergraduate (UG) 2025-26 💰 Fee Structure w.e.f. 2025-26 📖 ITEP (B.A. B.Ed. Secondary Stage) Admissions 2025-26",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "OLD_YEAR"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH"
+        ]
+      },
+      {
+        "anchor_text": "📖 ITEP (B.A. B.Ed. Secondary Stage) Admissions 2025-26",
+        "url": "https://www.cuh.ac.in/itepbabed.aspx",
+        "context": "🔧 B.Tech Admissions (LEET) 2025-26 📍 On the Spot Counselling (PG Admissions) 📋 Supernumerary Counselling 🔓 Open Counselling 💼 MBA (Executive) Admissions 2025-26 ⚙️ B.Tech Admissions 2025-26 🧑‍🎓 CUET Post Graduation (PG) 2025-26 🧒 CUET Undergraduate (UG) 2025-26 💰 Fee Structure w.e.f. 2025-26 📖 ITEP (B.A. B.Ed. Secondary Stage) Admissions 2025-26",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "OLD_YEAR"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "college_name": "G.L. BAJAJ INSTITUTE OF TECHNOLOGY & MANAGEMENT,GAUTAM BUDDH NAGAR",
+    "source_family": "UPTAC",
+    "parent_url": "https://www.glbitm.org/admission-process/",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [],
+    "rejected_links": []
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-bhagalpur",
+    "college_name": "Indian Institute of Information Technology Bhagalpur",
+    "source_family": "JOSAA",
+    "parent_url": "https://iiitbh.ac.in/btech-admission",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "Fee Structure",
+        "url": "https://iiitbh.ac.in/fee-structure",
+        "context": "Fee Structure UG PG",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "Academics",
+        "url": "https://iiitbh.ac.in/",
+        "context": "Academics Academic Affairs Programmes UG PG PG Diploma PhD Curriculum & Syllabus UG PG PhD Admission UG (B Tech) PG (M. Tech & PhD) PG Diploma Financial Aid Opening and Closing Rank 2023 Student Statistics Online Fee Payment Fee Structure Academic Calendar Holiday List Summer Internship Forms",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE"
+        ],
+        "exact_score": 50,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "GENERIC_HOMEPAGE"
+        ]
+      },
+      {
+        "anchor_text": "Academic Calendar",
+        "url": "https://iiitbh.ac.in/sites/default/files/2025/Academic_Calendar/2026-27%20Autumn%20Academic%20Calendar.pdf",
+        "context": "Academic Calendar",
+        "score": 45,
+        "reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-senapati-manipur",
+    "college_name": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR",
+    "source_family": "JOSAA",
+    "parent_url": "https://www.iiitmanipur.ac.in/pages/academic/admission.php",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "Click here for academic and hostel Fees detail",
+        "url": "https://www.iiitmanipur.ac.in/pages/academic/admission2026/FeeSstructure2026_27.pdf",
+        "context": "You may click on the links below to check the complete fees detail: Click here for academic and hostel Fees detail",
+        "score": 57,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "BTech Regulation",
+        "url": "https://www.iiitmanipur.ac.in/snippets/2024/ORDINANCES_AND_REGULATIONS_BTECH_2023.pdf",
+        "context": "Rules & Regulations Code and Conducts of student BTech Regulation PhD Regulation Hostel Regulation Anti-Ragging Regulation Leave Rules",
+        "score": 52,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Code and Conducts of student",
+        "url": "https://www.iiitmanipur.ac.in/snippets/Ordinance.pdf",
+        "context": "Rules & Regulations Code and Conducts of student BTech Regulation PhD Regulation Hostel Regulation Anti-Ragging Regulation Leave Rules",
+        "score": 52,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "PhD Regulation",
+        "url": "https://www.iiitmanipur.ac.in/snippets/PhD/PhDOrdinances.pdf",
+        "context": "Rules & Regulations Code and Conducts of student BTech Regulation PhD Regulation Hostel Regulation Anti-Ragging Regulation Leave Rules",
+        "score": 52,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Hostel Regulation",
+        "url": "https://www.iiitmanipur.ac.in/snippets/hostelrules.pdf",
+        "context": "Rules & Regulations Code and Conducts of student BTech Regulation PhD Regulation Hostel Regulation Anti-Ragging Regulation Leave Rules",
+        "score": 52,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Leave Rules",
+        "url": "https://www.iiitmanipur.ac.in/snippets/Leave-Rules.pdf",
+        "context": "Rules & Regulations Code and Conducts of student BTech Regulation PhD Regulation Hostel Regulation Anti-Ragging Regulation Leave Rules",
+        "score": 52,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Link for Fee Payment",
+        "url": "https://eazypay.icicibank.com/eazypayLink?P1=8WqkKIMr1oiH8a4z4wmkjQ==",
+        "context": "The Institute fee for OBC/ SC/ ST/ PWD/ EWS or any other category of students can be paid in the following link. Link for Fee Payment. All students must stay in campus hostels.",
+        "score": 47,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      },
+      {
+        "anchor_text": "Click here for remaining Fees detail to be paid",
+        "url": "https://www.iiitmanipur.ac.in/pages/academic/admission2026/RemainingFeeToBePaid2026_27.pdf",
+        "context": "Click here for remaining Fees detail to be paid Click here for Payment Form and Fees detail to be paid Click here for Online Fees payment NB: Please fill 0(zero) wherever is not applicable in the payment gateway Click here to fill out the google form for personal information and payment details. Mandatory for all students",
+        "score": 45,
+        "reasons": [
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "Academic Calendar",
+        "url": "https://www.iiitmanipur.ac.in/snippets/2022.Academic.Calendar.pdf",
+        "context": "Academics BTech Admission 2026 - 2027 Academic Calendar Dept. of Computer Science & Engg Dept. of Elect. & Comm. Engg. Dept. of Humanities & Basic Sciences",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "",
+        "url": "https://www.iiitmanipur.ac.in/index.php",
+        "context": "IIIT Manipur Home About IIITM About Us Mission & Vision PPP for IIIT Manipur Governance & Management Director's Message Board of Governors Senate Finance Committee Building & Works Committee Board of Studies Facilities Statute of IIITM IIIT PPP ACT 2017 Academic Admission Procedure BTech PhD Course Offered BTech in Computer Science & Engineering BTech in Computer Science & Engineering & Spl. in AI & DS BTech in Computer Science & Engineering & Spl. Cyber Security BTech in Computer Science & Engineering & Spl. in Quantum Technologies BTech in Electronics & Communication Engineering BTech in Electronics & Communication Engineering Spl. in VLSI & Embedded System Optional Languages Offered Departments Computer Science & Engineering Electronics & Communication Engineering Humanities & Basic Sciences Results 2023 Batch onwards 2020 Batch onwards 2015-2019 Batch Semester Exchange Program Academic Calendar Academic Year 2026 Holiday List Center/Cell/Division Scholarships and Loans Training & Placement Cell Research and Development Projects IPR Innovation & Incubation Cell TEXMiN-IIIT Manipur CoE Alumni Association National & Internaltional Relations RTI Grievance Redressal Cell Anti-Ragging Committee Prevention of Sexual Harassment NEP 2020 Implementation Committee People Administrative Staff Technical Staff Teaching Staff Resources Gallery Events Guest House Campus and Facilities Glimpse of Hostel New Campus (Academic Block) Places to Visit @Manipur Quarterly Newsletter MOUs Manipur Central University NIT Nagaland IIT Madras Central Agricultural University Art of Living Cube Ten Delhi University DMU IGAR (S) Gandhigram Rural Institute GSH (India) Private Limited Chenna University of Kashmir IUST J&K STPI Anna University TCIL New Delhi Gujarat University Hindustan Group of Institution IIT Bhubaneswar IIT Hyderabad JNU Samagraha Shikha Manipur Technology Innovation in Exploration and Mining Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology Vels Institute of Sc. Technology and Advance Studies VIT Chennai Auditorium Booking Students' Corner Student's Gymkhana Council Student Testimonials Activities and Events Annual Tech fests AHOUBA 3.0 -2026 AHOUBA 2.0 -2025 AHOUBA 1.0 -2024 Scholarships and Loans Payment Link",
+        "score": 42,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 78,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "BTech Admission 2026 - 2027",
+        "url": "https://www.iiitmanipur.ac.in/pages/academic/admission.php",
+        "context": "Academics BTech Admission 2026 - 2027 Academic Calendar Dept. of Computer Science & Engg Dept. of Elect. & Comm. Engg. Dept. of Humanities & Basic Sciences",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Dept. of Computer Science & Engg",
+        "url": "https://www.iiitmanipur.ac.in/pages/academic/academicCSE.php",
+        "context": "Academics BTech Admission 2026 - 2027 Academic Calendar Dept. of Computer Science & Engg Dept. of Elect. & Comm. Engg. Dept. of Humanities & Basic Sciences",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Dept. of Elect. & Comm. Engg.",
+        "url": "https://www.iiitmanipur.ac.in/pages/academic/academicECE.php",
+        "context": "Academics BTech Admission 2026 - 2027 Academic Calendar Dept. of Computer Science & Engg Dept. of Elect. & Comm. Engg. Dept. of Humanities & Basic Sciences",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Dept. of Humanities & Basic Sciences",
+        "url": "https://www.iiitmanipur.ac.in/pages/academic/academicHBS.php",
+        "context": "Academics BTech Admission 2026 - 2027 Academic Calendar Dept. of Computer Science & Engg Dept. of Elect. & Comm. Engg. Dept. of Humanities & Basic Sciences",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "CLICK HERE FOR INSTITUTE LOCATION",
+        "url": "https://goo.gl/maps/X5LrddCmxpZg6jHc6",
+        "context": "Dear Students, Greetings from IIIT Senapati, Manipur and welcome you all. Congratulations on qualifying the JEE (Main) examination and having got admission to this prestigious Institute IIIT Senapati in Manipur (An Institute of National Importance Government of India.) : LAST DATE OF FEES PAYMENT: DATE: 15th of August 2026 NEW DATE: 17th of August 2026 Click here for remaining Fees detail to be paid Click here for Payment Form and Fees detail to be paid Click here for Online Fees payment NB: Please fill 0(zero) wherever is not applicable in the payment gateway Click here to fill out the google form for personal information and payment details. Mandatory for all students PHYSICAL REPORTING AT IIIT MANIPUR, CITY CAMPUS DATE AND TIME: 16th and 17th of August 2026 (9.00am - 6.00pm) Click here for the list of documents required at the time of physical reporting Click here for the sample anti-ragging affidavit by the student Click here for the sample anti-ragging affidavit by the parent/guardian DRESS CODE FOR BOYS AND GIRLS Formal Shirts with collar and full pants (any decent color) or any decent Indian traditional clothing’s are fine HOSTEL The candidates are advised to carry or purchase upon arrival the items such as winter cloths apart from normal clothes, Mosquito Net, bucket, own bed rolls (Matress), Pillow(s) INDUCTION PROGRAM (COMPULSORY FOR ALL THE STUDENTS) DATE: 18th to 22nd of August 2026 COMMENCE OF FIRST YEAR (2026-30) B.TECH CLASSES DATE: 24th of August 2026 TRAVEL ADVISORY TO THE NEW BATCH (2026-30) OF B.TECH STUDENTS: It is highly encouraged to travel by flight either from Kolkata or Guwahati due to frequent landslide/blockade on the highways. The institute is located at Mantripukhri near Manipur High Court, Imphal (capital city of Manipur). The nearest Airport is Imphal Airport and it is 12 km distance from the institute and nearest railway stations are Guwahati & Dimapur. The distances from the Institute are 450 km & 190 km respectively. CLICK HERE FOR INSTITUTE LOCATION Candidate coming by air: Usually, an Inner Line Permit (ILP) is required for individuals from other Indian states to enter Manipur. However, candidates are advised to present their Provisional Seat Allotment Letter to officials at the Imphal Airport terminal in lieu of the ILP. Further, the institute will provide hourly bus services from Imphal Airport to the campus on August 16 and 17, 2026. Volunteers from the institute will be stationed within a 30-meter radius of the airport to assist and guide you. The private Taxi/Autos are also available at the Imphal Airport or outside the Airport. The details are given below: 1. Virgo Cab, Mobile No: 6009060341 2. Imphal Cabs Taxi Service, Mobile No: 9362277665 3. Trueblue Tours and Taxi Pvt. Ltd, Mobile No: 8118938888 4. YMC CABS, Mobile No: 085758 04030 5. City Cab Imphal Contact No: 9362663782 6. My Cabs Imphal, Contact No: 9863613667 & 9366380800. The usual/normal fare from Imphal Airport to IIIT Manipur, Mantripukhri is Rs 600.00(plus/minus Rs. 100.00) Candidate coming by road: The nearest railway stations are Guwahati & Dimapur. The distances from the Institute are 450 km & 190 km respectively and approximate time required to reach the institute are 16 hours and 7 hours respectively. The bus stop for IIIT Senapati, Manipur is Toll Gate, Mantripukhri / Manipur Information Technology Park. The institute is just opposite the Toll Gate. Further, the candidates are requested to reach the institute directly. Volunteers will guide you ADMISSION CANCELLATION AND FEES REFUND POLICY: Please read carefully about the Admission Cancellation & Fees Refund Policy: Admission Cancellation & Fees Refund Policy COMPLETE FEES DETAIL: You may click on the links below to check the complete fees detail: Click here for academic and hostel Fees detail RELATED LINKS (for BTech 2026-30 admission): The Scholarship and loan related issues: (Click for more details) Admission for BTech 2026 can also be done through Central Seat Allocation Board (CSAB 2026) (Click for more details) Admission for BTech 2026 can be done through Joint Seat Allocation Authority (JOSAA 2026) (Click for more details) B.Tech. Admission for First Semester 2026 Admission to IIIT Manipur will be purely on the basis of the All-India JEE examination and the seat allocation will be through Joint Seat Allocation Authority (JoSAA 2026) and Central Seat Allocation Board (CSAB-2026). Keep visiting institute website for updates, such as, commencement of classes, class schedule etc. Point of contact for clarification of doubts (Call Timing: 10.00 AM till 5.00 PM) General enquiry: Mr. N Priyo (+91-87309-10900) Fees/registration/academic related queries: Dr. Sanjib Choudhury (+91-9485200604) Email: academic@iiitmanipur.ac.in Scholarship/ Loan related enquiry: Dr. Rajkumari Bidyalakshmi Devi(+91-70051-26046) Boys hostel related enquiry: Dr. Dr. Nagesh Ch (+91-69093-92194) Girls hostel related enquiry: Dr. Akoijam Malemnganbi (+91-60093-16734) Placement/International students related enquiry: Dr. Navanath Saharia (+91-96780-73826) Admission related queries: Dr. Kishorjit N (+91-87876-80259) Email: admission@iiitmanipur.ac.in",
+        "score": 92,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "NEW_ENTRANT",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 58,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "MAP_LINK",
+        "exact_reasons": [
+          "BTECH",
+          "NEW_ENTRANT",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Cut Offs (B.Tech 2024-25 batch)",
+        "url": "https://www.iiitmanipur.ac.in/pages/academic/admission2025/RankList2024.pdf",
+        "context": "Cut Offs (B.Tech 2025-26 batch) Cut Offs (B.Tech 2024-25 batch) Cut Offs (B.Tech 2023-24 batch) Cut Offs (B.Tech 2022-23 batch) Cut Offs (B.Tech 2021-22 batch) Course Structure for BTech CSE 2024-28 Course Structure for BTech CSE-AI & DS 2024-28 Course Structure for BTech ECE 2024-28 Course Structure for BTech ECE-VLSI & ES 2024-28 Placement Details BTech Ordinance Campus Tour Glimpses of Hostel Places to visit @Manipur",
+        "score": 27,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Cut Offs (B.Tech 2023-24 batch)",
+        "url": "https://www.iiitmanipur.ac.in/pages/academic/documents/cut_off_rank_2023-24.pdf",
+        "context": "Cut Offs (B.Tech 2025-26 batch) Cut Offs (B.Tech 2024-25 batch) Cut Offs (B.Tech 2023-24 batch) Cut Offs (B.Tech 2022-23 batch) Cut Offs (B.Tech 2021-22 batch) Course Structure for BTech CSE 2024-28 Course Structure for BTech CSE-AI & DS 2024-28 Course Structure for BTech ECE 2024-28 Course Structure for BTech ECE-VLSI & ES 2024-28 Placement Details BTech Ordinance Campus Tour Glimpses of Hostel Places to visit @Manipur",
+        "score": 27,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Cut Offs (B.Tech 2022-23 batch)",
+        "url": "https://www.iiitmanipur.ac.in/snippets/2022-23-Btech-Admission-Cut-off.pdf",
+        "context": "Cut Offs (B.Tech 2025-26 batch) Cut Offs (B.Tech 2024-25 batch) Cut Offs (B.Tech 2023-24 batch) Cut Offs (B.Tech 2022-23 batch) Cut Offs (B.Tech 2021-22 batch) Course Structure for BTech CSE 2024-28 Course Structure for BTech CSE-AI & DS 2024-28 Course Structure for BTech ECE 2024-28 Course Structure for BTech ECE-VLSI & ES 2024-28 Placement Details BTech Ordinance Campus Tour Glimpses of Hostel Places to visit @Manipur",
+        "score": 27,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Cut Offs (B.Tech 2021-22 batch)",
+        "url": "https://www.iiitmanipur.ac.in/snippets/2021-Btech-Admission-Cut-off.pdf",
+        "context": "Cut Offs (B.Tech 2025-26 batch) Cut Offs (B.Tech 2024-25 batch) Cut Offs (B.Tech 2023-24 batch) Cut Offs (B.Tech 2022-23 batch) Cut Offs (B.Tech 2021-22 batch) Course Structure for BTech CSE 2024-28 Course Structure for BTech CSE-AI & DS 2024-28 Course Structure for BTech ECE 2024-28 Course Structure for BTech ECE-VLSI & ES 2024-28 Placement Details BTech Ordinance Campus Tour Glimpses of Hostel Places to visit @Manipur",
+        "score": 27,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Course Structure for BTech CSE 2024-28",
+        "url": "https://www.iiitmanipur.ac.in/snippets/SyllabiCSE2023.pdf",
+        "context": "Cut Offs (B.Tech 2025-26 batch) Cut Offs (B.Tech 2024-25 batch) Cut Offs (B.Tech 2023-24 batch) Cut Offs (B.Tech 2022-23 batch) Cut Offs (B.Tech 2021-22 batch) Course Structure for BTech CSE 2024-28 Course Structure for BTech CSE-AI & DS 2024-28 Course Structure for BTech ECE 2024-28 Course Structure for BTech ECE-VLSI & ES 2024-28 Placement Details BTech Ordinance Campus Tour Glimpses of Hostel Places to visit @Manipur",
+        "score": 27,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Course Structure for BTech CSE-AI & DS 2024-28",
+        "url": "https://www.iiitmanipur.ac.in/snippets/SyllabiCSEAID2023.pdf",
+        "context": "Cut Offs (B.Tech 2025-26 batch) Cut Offs (B.Tech 2024-25 batch) Cut Offs (B.Tech 2023-24 batch) Cut Offs (B.Tech 2022-23 batch) Cut Offs (B.Tech 2021-22 batch) Course Structure for BTech CSE 2024-28 Course Structure for BTech CSE-AI & DS 2024-28 Course Structure for BTech ECE 2024-28 Course Structure for BTech ECE-VLSI & ES 2024-28 Placement Details BTech Ordinance Campus Tour Glimpses of Hostel Places to visit @Manipur",
+        "score": 27,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Course Structure for BTech ECE 2024-28",
+        "url": "https://www.iiitmanipur.ac.in/snippets/SyllabiECE2023.pdf",
+        "context": "Cut Offs (B.Tech 2025-26 batch) Cut Offs (B.Tech 2024-25 batch) Cut Offs (B.Tech 2023-24 batch) Cut Offs (B.Tech 2022-23 batch) Cut Offs (B.Tech 2021-22 batch) Course Structure for BTech CSE 2024-28 Course Structure for BTech CSE-AI & DS 2024-28 Course Structure for BTech ECE 2024-28 Course Structure for BTech ECE-VLSI & ES 2024-28 Placement Details BTech Ordinance Campus Tour Glimpses of Hostel Places to visit @Manipur",
+        "score": 27,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Course Structure for BTech ECE-VLSI & ES 2024-28",
+        "url": "https://www.iiitmanipur.ac.in/snippets/SyllabiECEVLSI2023.pdf",
+        "context": "Cut Offs (B.Tech 2025-26 batch) Cut Offs (B.Tech 2024-25 batch) Cut Offs (B.Tech 2023-24 batch) Cut Offs (B.Tech 2022-23 batch) Cut Offs (B.Tech 2021-22 batch) Course Structure for BTech CSE 2024-28 Course Structure for BTech CSE-AI & DS 2024-28 Course Structure for BTech ECE 2024-28 Course Structure for BTech ECE-VLSI & ES 2024-28 Placement Details BTech Ordinance Campus Tour Glimpses of Hostel Places to visit @Manipur",
+        "score": 27,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Admission Cancellation & Fees Refund Policy",
+        "url": "https://www.iiitmanipur.ac.in/snippets/2022-Admission-Cancellation-Fees-Refund-Policy.pdf",
+        "context": "Please read carefully about the Admission Cancellation & Fees Refund Policy: Admission Cancellation & Fees Refund Policy",
+        "score": 45,
+        "reasons": [
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 10,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "REFUND_POLICY",
+        "exact_reasons": [
+          "PDF"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-dharwad",
+    "college_name": "Indian Institute of Information Technology(IIIT) Dharwad",
+    "source_family": "JOSAA",
+    "parent_url": "https://www.iiitdwd.ac.in/admission/btech/",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "B.Tech Admission Fees Structure (Study in India/DASA)",
+        "url": "https://drive.google.com/file/d/1ExyeIsTPS2GCtol5W53ZbEk29YP9xfHb/view?usp=sharing",
+        "context": "B.Tech Admission Fees Structure (Study in India/DASA)Hostel Fee Structure",
+        "score": 77,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 88,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "General Admission Guidelines (SEA, OEA and SII)",
+        "url": "https://docs.google.com/document/d/1VMB7NvKJVvlVTA4_EvtELzk9ikDXHH3_7lGwrtoOl3w/edit?usp=sharing",
+        "context": "B.Tech Admission Fees Structure (Study in India/DASA)Hostel Fee StructureStudy in India (SII) Official WebsiteGeneral Admission Guidelines (SEA, OEA and SII)",
+        "score": 77,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 88,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Sports and Olympiad Application Form",
+        "url": "https://forms.gle/rWUJz8UECf2KLnAA8",
+        "context": "B.Tech Admission Fees Structure (JoSAA/CSAB/Sports/Olympiad)Hostel Fee StructureSports and Olympiad Application FormGeneral Admission Guidelines (SEA, OEA and SII)",
+        "score": 77,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 88,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Fee Structure",
+        "url": "https://www.iiitdwd.ac.in/admission/btech/",
+        "context": "Fee Structure",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE"
+        ],
+        "exact_score": 80,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH"
+        ]
+      },
+      {
+        "anchor_text": "Study in India (SII) Official Website",
+        "url": "https://www.studyinindia.gov.in/",
+        "context": "B.Tech Admission Fees Structure (Study in India/DASA)Hostel Fee StructureStudy in India (SII) Official WebsiteGeneral Admission Guidelines (SEA, OEA and SII)",
+        "score": 77,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 58,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "HOSTEL",
+          "GENERIC_HOMEPAGE"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "Fee Refund Policy",
+        "url": "https://www.iiitdwd.ac.in/docs/Fee-Refund.pdf",
+        "context": "B.Tech Admission Fees Structure (JoSAA/CSAB/Sports/Olympiad)Hostel Fee StructurePhysical Reporting Guidelines AY 2026-2027Admission form for B.Tech students allotted through JoSAA/CSAB Counselling 2025Fee Refund PolicyPM VIDYA LAXMI EDUCATION LOAN SCHEME - CANARA BANKScholarshipsFAQ'sPerformance in Class XII for candidates seeking admission in IIIT Dharwad - 2026Category wise Top-20 percentile cut-off marks out-of total 500 marks for 2026",
+        "score": 122,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 133,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "REFUND_POLICY",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "PM VIDYA LAXMI EDUCATION LOAN SCHEME - CANARA BANK",
+        "url": "https://www.iiitdwd.ac.in/docs/PM_VIDYA_LAXMI_EDUCATION_LOAN_-CANARA_BANK_FOR_IIIT_DHARWAD.pdf",
+        "context": "B.Tech Admission Fees Structure (JoSAA/CSAB/Sports/Olympiad)Hostel Fee StructurePhysical Reporting Guidelines AY 2026-2027Admission form for B.Tech students allotted through JoSAA/CSAB Counselling 2025Fee Refund PolicyPM VIDYA LAXMI EDUCATION LOAN SCHEME - CANARA BANKScholarshipsFAQ'sPerformance in Class XII for candidates seeking admission in IIIT Dharwad - 2026Category wise Top-20 percentile cut-off marks out-of total 500 marks for 2026",
+        "score": 122,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 133,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Performance in Class XII for candidates seeking admission in IIIT Dharwad - 2026",
+        "url": "https://www.iiitdwd.ac.in/docs/Performance_in%20Class_XII_2026.pdf",
+        "context": "B.Tech Admission Fees Structure (JoSAA/CSAB/Sports/Olympiad)Hostel Fee StructurePhysical Reporting Guidelines AY 2026-2027Admission form for B.Tech students allotted through JoSAA/CSAB Counselling 2025Fee Refund PolicyPM VIDYA LAXMI EDUCATION LOAN SCHEME - CANARA BANKScholarshipsFAQ'sPerformance in Class XII for candidates seeking admission in IIIT Dharwad - 2026Category wise Top-20 percentile cut-off marks out-of total 500 marks for 2026",
+        "score": 122,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 133,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Category wise Top-20 percentile cut-off marks out-of total 500 marks for 2026",
+        "url": "https://cdnbbsr.s3waas.gov.in/s313111c20aee51aeb480ecbd988cd8cc9/uploads/2026/06/2026060941.pdf",
+        "context": "B.Tech Admission Fees Structure (JoSAA/CSAB/Sports/Olympiad)Hostel Fee StructurePhysical Reporting Guidelines AY 2026-2027Admission form for B.Tech students allotted through JoSAA/CSAB Counselling 2025Fee Refund PolicyPM VIDYA LAXMI EDUCATION LOAN SCHEME - CANARA BANKScholarshipsFAQ'sPerformance in Class XII for candidates seeking admission in IIIT Dharwad - 2026Category wise Top-20 percentile cut-off marks out-of total 500 marks for 2026",
+        "score": 122,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 133,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "B.Tech Admission Fees Structure (JoSAA/CSAB/Sports/Olympiad)",
+        "url": "https://drive.google.com/file/d/1vemIWkvls_5Ynx31uEo2fyacJyHDgZXa/view?usp=sharing",
+        "context": "B.Tech Admission Fees Structure (JoSAA/CSAB/Sports/Olympiad)Hostel Fee StructurePhysical Reporting Guidelines AY 2026-2027Admission form for B.Tech students allotted through JoSAA/CSAB Counselling 2025Fee Refund PolicyPM VIDYA LAXMI EDUCATION LOAN SCHEME - CANARA BANKScholarshipsFAQ'sPerformance in Class XII for candidates seeking admission in IIIT Dharwad - 2026Category wise Top-20 percentile cut-off marks out-of total 500 marks for 2026",
+        "score": 112,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 123,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Hostel Fee Structure",
+        "url": "https://drive.google.com/file/d/1TZNjK_GEjStjE2HAEQ58fUguoJR6E94z/view?usp=sharing",
+        "context": "B.Tech Admission Fees Structure (JoSAA/CSAB/Sports/Olympiad)Hostel Fee StructurePhysical Reporting Guidelines AY 2026-2027Admission form for B.Tech students allotted through JoSAA/CSAB Counselling 2025Fee Refund PolicyPM VIDYA LAXMI EDUCATION LOAN SCHEME - CANARA BANKScholarshipsFAQ'sPerformance in Class XII for candidates seeking admission in IIIT Dharwad - 2026Category wise Top-20 percentile cut-off marks out-of total 500 marks for 2026",
+        "score": 112,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 123,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Physical Reporting Guidelines AY 2026-2027",
+        "url": "https://docs.google.com/document/d/16hbdM9KODkZmujKA5DYDLBtQfRJbINi38D-Qxp6ivTU/edit?usp=sharing",
+        "context": "B.Tech Admission Fees Structure (JoSAA/CSAB/Sports/Olympiad)Hostel Fee StructurePhysical Reporting Guidelines AY 2026-2027Admission form for B.Tech students allotted through JoSAA/CSAB Counselling 2025Fee Refund PolicyPM VIDYA LAXMI EDUCATION LOAN SCHEME - CANARA BANKScholarshipsFAQ'sPerformance in Class XII for candidates seeking admission in IIIT Dharwad - 2026Category wise Top-20 percentile cut-off marks out-of total 500 marks for 2026",
+        "score": 112,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 123,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Admission form for B.Tech students allotted through JoSAA/CSAB Counselling 2025",
+        "url": "https://forms.gle/HhFLbufmLBh8FwW56",
+        "context": "B.Tech Admission Fees Structure (JoSAA/CSAB/Sports/Olympiad)Hostel Fee StructurePhysical Reporting Guidelines AY 2026-2027Admission form for B.Tech students allotted through JoSAA/CSAB Counselling 2025Fee Refund PolicyPM VIDYA LAXMI EDUCATION LOAN SCHEME - CANARA BANKScholarshipsFAQ'sPerformance in Class XII for candidates seeking admission in IIIT Dharwad - 2026Category wise Top-20 percentile cut-off marks out-of total 500 marks for 2026",
+        "score": 112,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 123,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Scholarships",
+        "url": "https://www.iiitdwd.ac.in/scholarship/",
+        "context": "B.Tech Admission Fees Structure (JoSAA/CSAB/Sports/Olympiad)Hostel Fee StructurePhysical Reporting Guidelines AY 2026-2027Admission form for B.Tech students allotted through JoSAA/CSAB Counselling 2025Fee Refund PolicyPM VIDYA LAXMI EDUCATION LOAN SCHEME - CANARA BANKScholarshipsFAQ'sPerformance in Class XII for candidates seeking admission in IIIT Dharwad - 2026Category wise Top-20 percentile cut-off marks out-of total 500 marks for 2026",
+        "score": 112,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 123,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "FAQ's",
+        "url": "https://www.iiitdwd.ac.in/faq/",
+        "context": "B.Tech Admission Fees Structure (JoSAA/CSAB/Sports/Olympiad)Hostel Fee StructurePhysical Reporting Guidelines AY 2026-2027Admission form for B.Tech students allotted through JoSAA/CSAB Counselling 2025Fee Refund PolicyPM VIDYA LAXMI EDUCATION LOAN SCHEME - CANARA BANKScholarshipsFAQ'sPerformance in Class XII for candidates seeking admission in IIIT Dharwad - 2026Category wise Top-20 percentile cut-off marks out-of total 500 marks for 2026",
+        "score": 112,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 123,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Academic Calendar for 1st year B.Tech Students",
+        "url": "https://assets.iiitdwd.ac.in/docs/1st_Semester_and_2nd_semester_Academical_Calendar_2026-27.pdf",
+        "context": "Academic Calendar for 1st year B.Tech Students",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 95,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Academic Calendar",
+        "url": "https://www.iiitdwd.ac.in/docs/Final_Academic_Calendar_2026-27_Higher_Semester.pdf",
+        "context": "Academic Calendar",
+        "score": 45,
+        "reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-agartala",
+    "college_name": "Indian Institute of Information Technology, Agartala",
+    "source_family": "JOSAA",
+    "parent_url": "https://iiitagartala.ac.in/notices/fee-structure-for-the-academic-year-2026-2027",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "Download",
+        "url": "https://iiitagartala.s3.ap-south-1.amazonaws.com/website/uploads/notices/2249de93-c2eb-4446-ae4a-bc9b50a47a6e.pdf",
+        "context": "Attachment Fee Structure for the Academic Year 2026–2027. PDF document · PDF · 876 KB Download",
+        "score": 80,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 85,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "21 Aug 2026 Diksharambh: Induction Program 2026-2027 Announcements",
+        "url": "https://iiitagartala.ac.in/notices/diksharambh-induction-program-2026-2027",
+        "context": "21 Aug 2026 Diksharambh: Induction Program 2026-2027 Announcements 11 Aug 2026 Notice regarding physical reporting and admission for students allocated to IIIT Agartala... Announcements 03 Aug 2026 Notice regarding Institute Placement Policy. Announcements 17 Jul 2026 Notice regarding physical reporting for students allocated to IIIT Agartala for B.Tech cou... Announcements 14 Jul 2026 Notice for distribution of provisional graduation certificate and consolidated grade repor... Announcements",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "11 Aug 2026 Notice regarding physical reporting and admission for students allocated to IIIT Agartala... Announcements",
+        "url": "https://iiitagartala.ac.in/notices/notice-regarding-physical-reporting-and-admission-for-students-allocated-to-iiit-agartala-for-btech-courses-through-josaacsab-2026",
+        "context": "21 Aug 2026 Diksharambh: Induction Program 2026-2027 Announcements 11 Aug 2026 Notice regarding physical reporting and admission for students allocated to IIIT Agartala... Announcements 03 Aug 2026 Notice regarding Institute Placement Policy. Announcements 17 Jul 2026 Notice regarding physical reporting for students allocated to IIIT Agartala for B.Tech cou... Announcements 14 Jul 2026 Notice for distribution of provisional graduation certificate and consolidated grade repor... Announcements",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "17 Jul 2026 Notice regarding physical reporting for students allocated to IIIT Agartala for B.Tech cou... Announcements",
+        "url": "https://iiitagartala.ac.in/notices/notice-regarding-physical-reporting-for-students-allocated-to-iiit-agartala-for-btech-courses-through-josaacsab-2026-for-the-academic-session-2026-27",
+        "context": "21 Aug 2026 Diksharambh: Induction Program 2026-2027 Announcements 11 Aug 2026 Notice regarding physical reporting and admission for students allocated to IIIT Agartala... Announcements 03 Aug 2026 Notice regarding Institute Placement Policy. Announcements 17 Jul 2026 Notice regarding physical reporting for students allocated to IIIT Agartala for B.Tech cou... Announcements 14 Jul 2026 Notice for distribution of provisional graduation certificate and consolidated grade repor... Announcements",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "14 Jul 2026 Notice for distribution of provisional graduation certificate and consolidated grade repor... Announcements",
+        "url": "https://iiitagartala.ac.in/notices/notice-for-distribution-of-provisional-graduation-certificate-and-consolidated-grade-report-for-the-provisionally-graduated-students-of-ay-2025-26",
+        "context": "21 Aug 2026 Diksharambh: Induction Program 2026-2027 Announcements 11 Aug 2026 Notice regarding physical reporting and admission for students allocated to IIIT Agartala... Announcements 03 Aug 2026 Notice regarding Institute Placement Policy. Announcements 17 Jul 2026 Notice regarding physical reporting for students allocated to IIIT Agartala for B.Tech cou... Announcements 14 Jul 2026 Notice for distribution of provisional graduation certificate and consolidated grade repor... Announcements",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "03 Aug 2026 Notice regarding Institute Placement Policy. Announcements",
+        "url": "https://iiitagartala.ac.in/notices/notice-regarding-institute-placement-policy",
+        "context": "21 Aug 2026 Diksharambh: Induction Program 2026-2027 Announcements 11 Aug 2026 Notice regarding physical reporting and admission for students allocated to IIIT Agartala... Announcements 03 Aug 2026 Notice regarding Institute Placement Policy. Announcements 17 Jul 2026 Notice regarding physical reporting for students allocated to IIIT Agartala for B.Tech cou... Announcements 14 Jul 2026 Notice for distribution of provisional graduation certificate and consolidated grade repor... Announcements",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "PLACEMENT_PAGE",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Placement",
+        "url": "https://iiitagartala.ac.in/placements",
+        "context": "Home Institute About IIIT Agartala Mission & Vision Director's Desk Mentor Institute IIIT PPP Act 2017 Statutes of IIIT Agartala Academic Ordinance BoG Minutes Senate Minutes FC Minutes MoU with MoE Annual Report RTI Grievance Anti-Ragging Administration Chairman BOG Director's Desk Registrar BoG Members Dean Senate Members Administrative Officers Warden Recruitment Academics Department Faculty Courses Offered Courses Syllabi Exam Schedules Academic Calendar Holiday List Fee Structure Gymkhana Examination Notices All Downloads Admission Admission through JoSAA / CSAB 2026 Admission Notices Student Life Library Hostel Gallery Events Placement Notices",
+        "score": 47,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Notices",
+        "url": "https://iiitagartala.ac.in/notices",
+        "context": "Home Institute About IIIT Agartala Mission & Vision Director's Desk Mentor Institute IIIT PPP Act 2017 Statutes of IIIT Agartala Academic Ordinance BoG Minutes Senate Minutes FC Minutes MoU with MoE Annual Report RTI Grievance Anti-Ragging Administration Chairman BOG Director's Desk Registrar BoG Members Dean Senate Members Administrative Officers Warden Recruitment Academics Department Faculty Courses Offered Courses Syllabi Exam Schedules Academic Calendar Holiday List Fee Structure Gymkhana Examination Notices All Downloads Admission Admission through JoSAA / CSAB 2026 Admission Notices Student Life Library Hostel Gallery Events Placement Notices",
+        "score": 47,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Department",
+        "url": "https://iiitagartala.ac.in/departments/cse",
+        "context": "Department Faculty Courses Offered Courses Syllabi Exam Schedules Academic Calendar Holiday List Fee Structure Gymkhana Examination Notices All Downloads",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      },
+      {
+        "anchor_text": "Faculty",
+        "url": "https://iiitagartala.ac.in/academics/faculty",
+        "context": "Department Faculty Courses Offered Courses Syllabi Exam Schedules Academic Calendar Holiday List Fee Structure Gymkhana Examination Notices All Downloads",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      },
+      {
+        "anchor_text": "Courses Offered",
+        "url": "https://iiitagartala.ac.in/courses-offered",
+        "context": "Department Faculty Courses Offered Courses Syllabi Exam Schedules Academic Calendar Holiday List Fee Structure Gymkhana Examination Notices All Downloads",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      },
+      {
+        "anchor_text": "Courses Syllabi",
+        "url": "https://iiitagartala.ac.in/downloads?category=course-syllabi",
+        "context": "Department Faculty Courses Offered Courses Syllabi Exam Schedules Academic Calendar Holiday List Fee Structure Gymkhana Examination Notices All Downloads",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      },
+      {
+        "anchor_text": "Exam Schedules",
+        "url": "https://iiitagartala.ac.in/downloads?category=examinations",
+        "context": "Department Faculty Courses Offered Courses Syllabi Exam Schedules Academic Calendar Holiday List Fee Structure Gymkhana Examination Notices All Downloads",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      },
+      {
+        "anchor_text": "Academic Calendar",
+        "url": "https://iiitagartala.ac.in/downloads?category=academic-calendar",
+        "context": "Department Faculty Courses Offered Courses Syllabi Exam Schedules Academic Calendar Holiday List Fee Structure Gymkhana Examination Notices All Downloads",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      },
+      {
+        "anchor_text": "Holiday List",
+        "url": "https://iiitagartala.ac.in/downloads?category=holidays",
+        "context": "Department Faculty Courses Offered Courses Syllabi Exam Schedules Academic Calendar Holiday List Fee Structure Gymkhana Examination Notices All Downloads",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      },
+      {
+        "anchor_text": "Fee Structure",
+        "url": "https://iiitagartala.ac.in/downloads?category=fee-structure",
+        "context": "Department Faculty Courses Offered Courses Syllabi Exam Schedules Academic Calendar Holiday List Fee Structure Gymkhana Examination Notices All Downloads",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      },
+      {
+        "anchor_text": "Gymkhana",
+        "url": "https://iiitagartala.ac.in/downloads?category=gymkhana",
+        "context": "Department Faculty Courses Offered Courses Syllabi Exam Schedules Academic Calendar Holiday List Fee Structure Gymkhana Examination Notices All Downloads",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      },
+      {
+        "anchor_text": "Examination Notices",
+        "url": "https://iiitagartala.ac.in/notices/category/examinations",
+        "context": "Department Faculty Courses Offered Courses Syllabi Exam Schedules Academic Calendar Holiday List Fee Structure Gymkhana Examination Notices All Downloads",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      },
+      {
+        "anchor_text": "All Downloads",
+        "url": "https://iiitagartala.ac.in/downloads",
+        "context": "Department Faculty Courses Offered Courses Syllabi Exam Schedules Academic Calendar Holiday List Fee Structure Gymkhana Examination Notices All Downloads",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      },
+      {
+        "anchor_text": "भारतीय सूचना प्रौद्योगिकी संस्थान, अगरतला Indian Institute of Information Technology, Agartala",
+        "url": "https://iiitagartala.ac.in/",
+        "context": "भारतीय सूचना प्रौद्योगिकी संस्थान, अगरतला Indian Institute of Information Technology, Agartala Home Institute About IIIT Agartala Mission & Vision Director's Desk Mentor Institute IIIT PPP Act 2017 Statutes of IIIT Agartala Academic Ordinance BoG Minutes Senate Minutes FC Minutes MoU with MoE Annual Report RTI Grievance Anti-Ragging Administration Chairman BOG Director's Desk Registrar BoG Members Dean Senate Members Administrative Officers Warden Recruitment Academics Department Faculty Courses Offered Courses Syllabi Exam Schedules Academic Calendar Holiday List Fee Structure Gymkhana Examination Notices All Downloads Admission Admission through JoSAA / CSAB 2026 Admission Notices Student Life Library Hostel Gallery Events Placement Notices",
+        "score": 47,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 23,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "HOSTEL",
+          "GENERIC_HOMEPAGE"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "indian-institute-of-science-bangalore",
+    "college_name": "Indian Institute of Science, Bangalore",
+    "source_family": "JOSAA",
+    "parent_url": "https://www.iisc.ac.in/about/student-corner/",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "Fee Structure for students joining from AY 2026–27",
+        "url": "https://www.iisc.ac.in/wp-content/uploads/2026/04/Circular-Fee-Structure-AY-2026-27.pdf",
+        "context": "Fee Structure for students joining from AY 2026–27",
+        "score": 95,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "PDF"
+        ],
+        "exact_score": 105,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Fee Structure for students joined prior to AY 2026–27",
+        "url": "https://www.iisc.ac.in/wp-content/uploads/2025/07/Fee-Structure-for-AY-2025-26.pdf",
+        "context": "Fee Structure for students joined prior to AY 2026–27",
+        "score": 80,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 90,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "Student Corner",
+        "url": "https://www.iisc.ac.in/about/student-corner/",
+        "context": "Student Corner General Information Medium of instruction in IISc Status of IISc CGPA to Percentage Conversion Migration Certificate / TC R​elabelling of MSc(Engg) Campus Life My Life@IISc: a student perspective Hostels/Mess Gymkhana Official transcripts Campus Facilities Health Centre Auditoria and Seminar Halls Internal Committee Against Sexual Harassment (ICASH) Complaints related to caste-based discrimination Current Students Fee Structure IISc A/c for Tuition Fee Students Affairs Committee Ombudsperson Online Ph D thesis processing with ScholarOne Useful Forms Academic Integrity Students Council Student Information Handbook 2026 Scheme of Instruction Aug-Dec 2026 Term UG Students’ Handbook 2025-26 Office of Laboratory Safety and Environmental Health Student Code of Conduct – 2019 Opportunities for Current Students Guidelines for Student’s Grievance Redressal Prospective Students Why IISc Apply to IISc Announcements International Students Overview Campus Placement Student Achievements",
+        "score": 52,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "HOSTEL_OR_MESS",
+          "OLD_YEAR"
+        ],
+        "exact_score": 58,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "MESS",
+          "TUITION"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "indian-institute-of-technology-dharwad",
+    "college_name": "Indian Institute of Technology Dharwad",
+    "source_family": "JOSAA",
+    "parent_url": "https://www.iitdh.ac.in/jee-advanced",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "FEE STRUCTURE FOR B. TECH/ BS PROGRAMS",
+        "url": "https://www.iitdh.ac.in/sites/default/files/2026-06/B.Tech-BS%20fee%20pdf.pdf",
+        "context": "FEE STRUCTURE FOR B. TECH/ BS PROGRAMS",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 90,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "B.Tech./BS Offer Letter 2026–27",
+        "url": "https://www.iitdh.ac.in/sites/default/files/2026-07/B.Tech_.%20Offer%20Letter%202026-27.docx.pdf",
+        "context": "B.Tech./BS Offer Letter 2026–27",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Freshers’ Handbook Academic Year 2026–27",
+        "url": "https://www.iitdh.ac.in/sites/default/files/2026-07/Freshers%20Handbook.pdf",
+        "context": "Freshers’ Handbook Academic Year 2026–27",
+        "score": 45,
+        "reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 60,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "PDF"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "Academic Calendar - Autumn 2026-27",
+        "url": "https://www.iitdh.ac.in/sites/default/files/2026-07/AcademicCalendar%20Autumn%202026-27.docx_0.pdf",
+        "context": "Academic Calendar - Autumn 2026-27",
+        "score": 45,
+        "reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "indian-institute-of-technology-indore",
+    "college_name": "Indian Institute of Technology Indore",
+    "source_family": "JOSAA",
+    "parent_url": "https://academic.iiti.ac.in/newstudent_info.php",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "Download PDF",
+        "url": "https://academic.iiti.ac.in/orienration/docs/UG_Registration_Process_2026-27.pdf",
+        "context": "Download PDF Close",
+        "score": 45,
+        "reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Download for B.Tech/B.S.",
+        "url": "https://academic.iiti.ac.in/Admission/2026/UG/2026-B.Tech.+B.S.%20-%20For%20Website.pdf",
+        "context": "Prospective Students List of UG students. Download for B.Tech/B.S. Download for B.Des",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Download for B.Des",
+        "url": "https://academic.iiti.ac.in/Admission/2026/UG/2026%20B.Des.%20-%20For%20Website.pdf",
+        "context": "Prospective Students List of UG students. Download for B.Tech/B.S. Download for B.Des",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "PDF"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "Download PDF",
+        "url": "https://academic.iiti.ac.in/orienration/docs/ug/UG_Documents_Checklist_2026-27.pdf",
+        "context": "Download PDF Close",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "DOCUMENT_CHECKLIST",
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "indian-institute-of-technology-palakkad",
+    "college_name": "Indian Institute of Technology Palakkad",
+    "source_family": "JOSAA",
+    "parent_url": "https://iitpkd.ac.in/btech-admissions-2026-27",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "(Preparatory Students)",
+        "url": "https://iitpkd.ac.in/sites/default/files/2026-07/8e3869a7-8fc0-4704-91bd-0e69dcc2176e.pdf",
+        "context": "Admission Brochure | Help Desk for Prospective Girl Students | UG Admission Video 2026 | Glimpses of our Academic Programmes | Career Development Centre | Student Affairs Council | Fee Details(Regular Students) | Fee Details(Preparatory Students) | FAQ | B. Tech. Orientation Schedule",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 90,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Fee Details(",
+        "url": "https://iitpkd.ac.in/sites/default/files/2026-07/05640537-0097-42c9-8968-f0aac63124b9.pdf",
+        "context": "Admission Brochure | Help Desk for Prospective Girl Students | UG Admission Video 2026 | Glimpses of our Academic Programmes | Career Development Centre | Student Affairs Council | Fee Details(",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 75,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "UG",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "English",
+        "url": "https://iitpkd.ac.in/btech-admissions-2026-27",
+        "context": "English",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Admission Brochure",
+        "url": "https://drive.google.com/file/d/1F_5HnIiXgyskQ16ZGBj0GfBCh5mwTVNC/view",
+        "context": "Admission Brochure | Help Desk for Prospective Girl Students | UG Admission Video 2026 | Glimpses of our Academic Programmes | Career Development Centre | Student Affairs Council | Fee Details(",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE"
+        ],
+        "exact_score": 65,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "UG"
+        ]
+      },
+      {
+        "anchor_text": "Help Desk for Prospective Girl Students",
+        "url": "https://iitpkd.ac.in/help-desk-prospective-girl-students",
+        "context": "Admission Brochure | Help Desk for Prospective Girl Students | UG Admission Video 2026 | Glimpses of our Academic Programmes | Career Development Centre | Student Affairs Council | Fee Details(",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE"
+        ],
+        "exact_score": 65,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "UG"
+        ]
+      },
+      {
+        "anchor_text": "UG Admission Video 2026",
+        "url": "https://www.youtube.com/watch?v=Wk60eIwEFZo",
+        "context": "Admission Brochure | Help Desk for Prospective Girl Students | UG Admission Video 2026 | Glimpses of our Academic Programmes | Career Development Centre | Student Affairs Council | Fee Details(",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE"
+        ],
+        "exact_score": 65,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "UG"
+        ]
+      },
+      {
+        "anchor_text": "Glimpses of our Academic Programmes",
+        "url": "https://www.youtube.com/playlist?list=PLgyiZVq1OKdoRrQF36qzW1-X3q6IFpmpp",
+        "context": "Admission Brochure | Help Desk for Prospective Girl Students | UG Admission Video 2026 | Glimpses of our Academic Programmes | Career Development Centre | Student Affairs Council | Fee Details(",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE"
+        ],
+        "exact_score": 65,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "UG"
+        ]
+      },
+      {
+        "anchor_text": "Student Affairs Council",
+        "url": "https://iitpkd.ac.in/student-affairs-council",
+        "context": "Admission Brochure | Help Desk for Prospective Girl Students | UG Admission Video 2026 | Glimpses of our Academic Programmes | Career Development Centre | Student Affairs Council | Fee Details(",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE"
+        ],
+        "exact_score": 65,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "UG"
+        ]
+      },
+      {
+        "anchor_text": "FAQ",
+        "url": "https://iitpkd.ac.in/sites/default/files/2026-07/245d0a22-6c43-431c-959f-c8b08485c4ce.pdf",
+        "context": "| FAQ | B. Tech. Orientation Schedule",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "B. Tech. Orientation Schedule",
+        "url": "https://iitpkd.ac.in/sites/default/files/2026-07/3ad39088-3aa4-4832-9b79-bff84af2d935.pdf",
+        "context": "| FAQ | B. Tech. Orientation Schedule",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "",
+        "url": "https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=644327",
+        "context": "Institute Fee - Fee payment link can be found here",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      }
+    ],
+    "rejected_links": []
+  },
+  {
+    "college_id": "indian-institute-of-technology-roorkee",
+    "college_name": "Indian Institute of Technology Roorkee",
+    "source_family": "JOSAA",
+    "parent_url": "https://iitr.ac.in/Academics/Institute%20Fees.html",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "Fee Structure",
+        "url": "https://iitr.ac.in/Academics/Institute%20Fees.html",
+        "context": "Fee Structure",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "Academics",
+        "url": "https://iitr.ac.in/Academics/Home.html",
+        "context": "Academics Notifications Academic Calendar Fee Structure Academic Programmes Downloads DAPC/CAPC/ScAPC and DRC/CRC/ScRC Academic login LHCC Booking Portal Academic Documents Request Portal Research Award Portal OASIS",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "uptac-meerut-institute-of-engineering-technology-meerut",
+    "college_name": "MEERUT INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+    "source_family": "UPTAC",
+    "parent_url": "https://miet.ac.in/online-registration.php",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "Fee Structure",
+        "url": "https://miet.ac.in/fee-structure.php",
+        "context": "Fee Structure",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      },
+      {
+        "anchor_text": "UPTAC Fee Structure",
+        "url": "https://miet.ac.in/uptac-fee-structure.php",
+        "context": "UPTAC Fee Structure",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      }
+    ],
+    "rejected_links": []
+  },
+  {
+    "college_id": "national-institute-of-technology-goa",
+    "college_name": "National Institute of Technology Goa",
+    "source_family": "JOSAA",
+    "parent_url": "https://www.nitgoa.ac.in/admissions/mtech.html",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "Fee Structure",
+        "url": "https://www.nitgoa.ac.in/static/Fee_Structure.pdf",
+        "context": "B.Tech › JoSAA/CSAB DASA Facilities Strengths of NIT Goa M.Tech Ph.D Fee Structure Hostels › B.Tech Students M.Tech Students",
+        "score": 87,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 90,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "M.Tech",
+        "url": "https://www.nitgoa.ac.in/admissions/mtech.html",
+        "context": "B.Tech › JoSAA/CSAB DASA Facilities Strengths of NIT Goa M.Tech Ph.D Fee Structure Hostels › B.Tech Students M.Tech Students",
+        "score": 77,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 80,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH"
+        ]
+      },
+      {
+        "anchor_text": "Ph.D",
+        "url": "https://www.nitgoa.ac.in/admissions/phd.html",
+        "context": "B.Tech › JoSAA/CSAB DASA Facilities Strengths of NIT Goa M.Tech Ph.D Fee Structure Hostels › B.Tech Students M.Tech Students",
+        "score": 77,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 80,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH"
+        ]
+      },
+      {
+        "anchor_text": "B.Tech Students",
+        "url": "https://www.nitgoa.ac.in/static/Rules_of_NIT_Goa_Hostel_18July2022.pdf",
+        "context": "B.Tech Students M.Tech Students",
+        "score": 52,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "M.Tech Students",
+        "url": "https://www.nitgoa.ac.in/static/Rules_mtech_hostel_20june16.pdf",
+        "context": "B.Tech Students M.Tech Students",
+        "score": 52,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "PDF"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "Placement Brochure 2026-27",
+        "url": "https://nitgoa.ac.in/placementcell/Placement_Brochure2026.pdf",
+        "context": "Placement Brochure 2026-27",
+        "score": 45,
+        "reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "PLACEMENT_PAGE",
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "college_name": "National Institute of Technology Karnataka, Surathkal",
+    "source_family": "JOSAA",
+    "parent_url": "https://www.nitk.ac.in/institute-fee-structure-2026-27-",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "Institute Fee Structure 2026-27",
+        "url": "https://www.nitk.ac.in/document/attachments/9831/Fees_Structure_removed.pdf",
+        "context": "Institute Fee Structure 2026-27",
+        "score": 80,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 90,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Fee Structure",
+        "url": "https://www.nitk.ac.in/fee-structure",
+        "context": "Fee Structure",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      }
+    ],
+    "rejected_links": []
+  },
+  {
+    "college_id": "national-institute-of-technology-andhra-pradesh",
+    "college_name": "National Institute of Technology, Andhra Pradesh",
+    "source_family": "JOSAA",
+    "parent_url": "https://nitandhra.ac.in/main/hostels.php",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "B.Tech first year hostel fee circular",
+        "url": "https://nitandhra.ac.in/main/Announcements/2024/BTECH%20FIRST%20YEAR%20HOSTEL%20FEE%20CIRCULAR-New.pdf",
+        "context": "B.Tech first year hostel fee circular",
+        "score": 67,
+        "reasons": [
+          "BTECH_OR_UG",
+          "NEW_ENTRANT",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 113,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "NEW_ENTRANT",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "1st B.Tech Odd sem hostel fee circular",
+        "url": "https://nitandhra.ac.in/main/Announcements/2022/1st%20B.Tech%20ODD%20sem%20hostel%20fee%20circular.pdf",
+        "context": "1st B.Tech Odd sem hostel fee circular",
+        "score": 52,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 98,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Application for Hostel Fee Receipt/Estimation",
+        "url": "https://nitandhra.ac.in/main/Announcements/2024/APPLICATION%20FOR%20HOSTEL%20FEE%20RECEIPT%20OR%20ESTIMATION.pdf",
+        "context": "Application for Hostel Fee Receipt/Estimation",
+        "score": 22,
+        "reasons": [
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 63,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "HOSTEL"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "B.Tech 1st Year Odd Semester Hostel Fee circular of A.Y 2025-26",
+        "url": "https://nitandhra.ac.in/main/Announcements/2025/B.TECH%201st%20YEAR%20ODD%20SEM.%20HOSTEL%20FEE%20CIRCULAR.pdf",
+        "context": "B.Tech 1st Year Odd Semester Hostel Fee circular of A.Y 2025-26",
+        "score": 27,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 113,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "NEW_ENTRANT",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Notification for B.Tech Students even sem Hostel Fee Structure for the AY 2025-26",
+        "url": "https://nitandhra.ac.in/main/Announcements/2025/HF%20Structure%20for%20B.Tech%20even%20sem%20AY%202025-26.pdf",
+        "context": "Notification for B.Tech Students even sem Hostel Fee Structure for the AY 2025-26",
+        "score": 62,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "HOSTEL_OR_MESS",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 98,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Hostel Fee notification for I M.Tech students for the odd semester of AY 2026-27",
+        "url": "https://nitandhra.ac.in/main/Announcements/2026/UG/I%20M.Tech%20fee%20notification%20AY%202026-27.pdf",
+        "context": "Hostel Fee notification for I M.Tech students for the odd semester of AY 2026-27",
+        "score": 27,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS",
+          "PDF",
+          "OTHER_PROGRAMME_MTECH"
+        ],
+        "exact_score": 98,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "MTECH_ONLY",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Hostel fee notification for II M.Tech students for the odd Sem of AY 2026-27",
+        "url": "https://nitandhra.ac.in/main/Announcements/2026/UG/II%20M.TECH%20ODD%20SEM%20FEE%20CIRCULAR.pdf",
+        "context": "Hostel fee notification for II M.Tech students for the odd Sem of AY 2026-27",
+        "score": 27,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS",
+          "PDF",
+          "OTHER_PROGRAMME_MTECH"
+        ],
+        "exact_score": 98,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "MTECH_ONLY",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Notice for extension date for payment of hostel fee for I B.Tech students for the even sem of AY 2025-26",
+        "url": "https://nitandhra.ac.in/main/Announcements/2025/UG/Hostel%20fee%20extension%20date%20for%20I%20B.Tech%20students%20upto%2009.12.2025.pdf",
+        "context": "Notice for extension date for payment of hostel fee for I B.Tech students for the even sem of AY 2025-26",
+        "score": 27,
+        "reasons": [
+          "BTECH_OR_UG",
+          "HOSTEL_OR_MESS",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 98,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Notification regarding Hostel fee structure for even semester of A.Y.2022-23",
+        "url": "https://nitandhra.ac.in/main/Announcements/2022/HOSTEL%20FEE%20CIRCULAR%20FOR%20EVEN%20SEM%20OF%20AY%2022-23.pdf",
+        "context": "Notification regarding Hostel fee structure for even semester of A.Y.2022-23",
+        "score": 57,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 63,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "HOSTEL"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "national-institute-of-technology-mizoram",
+    "college_name": "National Institute of Technology, Mizoram",
+    "source_family": "JOSAA",
+    "parent_url": "https://nitmz.ac.in/admissions/b-tech-admissions/",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "",
+        "url": "https://drive.google.com/file/d/1NAM3GOkeL4cYN2Ll0mgdZbZNjgb44uHd/view?usp=drive_web",
+        "context": "Physical Reporting to NIT Mizoram for AdmissionThe physical verification of documents and reporting for admissions to NIT Mizoram will be from August 17 – 21, 2026 for all the candidates (seats allocated through different JoSAA and CSAB Special rounds for all B.Tech 1st year students.",
+        "score": 30,
+        "reasons": [
+          "BTECH_OR_UG"
+        ],
+        "exact_score": 50,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "NEW_ENTRANT"
+        ]
+      },
+      {
+        "anchor_text": "Admission Brochure 2026-27",
+        "url": "https://nitmz.ac.in/wp-content/uploads/2026/06/Information-Brochure-2026-2027-NIT-MIZORAM.pdf",
+        "context": "Admission Brochure 2026-27",
+        "score": 45,
+        "reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "DOCUMENTS TO BE SUBMITTED DURING PHYSICAL REPORTING (B. TECH)",
+        "url": "https://nitmz.ac.in/wp-content/uploads/2026/08/DOCUMENTS-TO-BE-SUBMITTED-DURING-PHYSICAL-REPORTING-B.-TECH.pdf",
+        "context": "DOCUMENTS TO BE SUBMITTED DURING PHYSICAL REPORTING (B. TECH)",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Fee Structure",
+        "url": "https://nitmz.ac.in/academics/fee-structure/",
+        "context": "Fee Structure",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "Academic Calendar Autumn Semester 2026-27 B.Tech 1st Semester",
+        "url": "https://nitmz.ac.in/wp-content/uploads/2026/06/Academic-Calendar_2026_2027-Autumn-Semester_BTech1st-Semester.pdf",
+        "context": "Academic Calendar Autumn Semester 2026-27 B.Tech 1st Semester",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 95,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Training and Placement Brochure of NIT Mizoram",
+        "url": "https://nitmz.ac.in/wp-content/uploads/2026/06/Training-and-Placement-Brochure-2026-2027-NIT-MIZORAM_compressed.pdf",
+        "context": "Information Brochure of NIT Mizoram Training and Placement Brochure of NIT Mizoram",
+        "score": 45,
+        "reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "PLACEMENT_PAGE",
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "national-institute-of-technology-uttarakhand",
+    "college_name": "National Institute of Technology, Uttarakhand",
+    "source_family": "JOSAA",
+    "parent_url": "https://nituk.ac.in/home",
+    "status": "EXACT_SOURCE_REVIEW",
+    "review_links": [
+      {
+        "anchor_text": "Instructions to the 1st year B.Tech. students regarding Institute Reporting/Admission for the Academic Year 2026–2027",
+        "url": "https://nituk.ac.in/uploads/topics/Instructions_for_1st_year_BTech_students.pdf",
+        "context": "Instructions to the 1st year B.Tech. students regarding Institute Reporting/Admission for the Academic Year 2026–2027",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 95,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "1st Year B.Tech. Admission Related Forms",
+        "url": "https://nituk.ac.in/uploads/topics/17851268193879.pdf",
+        "context": "1st Year B.Tech. Admission Related Forms",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 60,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "NEW_ENTRANT",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "CSAB special rounds and DASA UG 2026-27",
+        "url": "https://nituk.ac.in/uploads/topics/17845202798396.pdf",
+        "context": "CSAB special rounds and DASA UG 2026-27",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "",
+        "url": "https://nituk.ac.in/uploads/topics/17607630867144.pdf",
+        "context": "Faculty Portfolio | Samarth eGov | E-Books | BIS Dashboard | Student Feedback Hostel Leaving Form Telephone Directory - + Web Mail - + About NITUK About NIT Uttarakhand Institute Brochure Statute NIT Act Administration Board of Governors Statutory Committees Chairman Director Registrar Deans & Associate Deans Chief Vigilance Officer Administration Sections Official Academics Ordinance Programmes Admission Fees & Expenses Academic Calendar Academic Section Officials National Academic Depository (NAD) Scholarship Result & Certificates Passout & Dropout Students Data Departments Civil Engineering Computer Science & Engineering Electrical Engineering Electronics Engineering Mechanical Engineering Physics Chemistry Mathematics Humanities and Social Sciences Student Life Hostels Sports Clubs Student's grievance redressal cell National Service Scheme (NSS) Central Facilities Computer Centre Dispensary Design Innovation Center Library & Information Centre C2P Section Career Counselling and Placement Other Links TEQIP - lll Research and Consultancy Alumni Affairs Contact Us Contact Telephone Directory How To Reach Latest News Academic calendar for B.Tech , M.Tech, M.Sc 1st year (2026 batch) 1st International Conference on Intelligent Transportation and Sustainable Systems (i-TRANS 2027) Advertisement Cancellation Notice Academic Calendar Odd Sem 2026 View All News Tenders Programs Placement Gallery Message from the Director Established in 2009 under the Act of Parliament by the Ministry of Education, NITUK is a burgeoning institute of national importance in Uttarakhand (known as Devbhumi) amidst the serene and magnificent Himalayas. The impeccable geographical location endows natural advantage to the institution. It boosts learning, which is greatly reflected in the institute’s excellent teaching-learning ambiance, young and dedicated faculty, and significant contribution to research work and commitment to the community. Prof. Karunesh Kumar Shukla Incharge Director, National Institute of Technology, Uttarakhand About NIT Uttarakhand With rapid advancements in Science and Technology, the contemporary times demand immense contribution from young skilful minds, with a vision and aim to contribute towards efficient yet sustainable development. National Institute of Technology Uttarakhand- one of the thirty-one Institutes of National Importance in the country, abides by the afore-mentioned principle by constantly providing an encouraging environment for education and training of technical professionals as well as grooming the skills of the students through impeccable learning courses. Vision To provide a global impetus to education and innovation for sustainable development of industry and society. Mission To provide an encouraging environment for education and training of technical professionals. To establish as a centre of excellence for research on challenges and demands of future generations. To promote innovation and leadership skills for producing competent professionals. To develop research collaborations with institutions of repute. Read more Announcements View all Academic calendar for B.Tech , M.Tech, M.Sc 1st year (2026 batch) 2026-08-17 Applications are invited from the contractors those are registered in PWD (Uttarakhand)/CPWD for various civil - maintenance and pity works of National Institute of Technology, Uttarakhand 2026-08-13 Advertisement Cancellation Notice 2026-07-08 Academic Calendar Odd Sem 2026 2026-06-29 NOC format for Ph.D. scholar (Part Time) 2025-11-24 Quick & Download Links Email Policy Administration Forms Academics Related Forms Office Orders Recruitment Newsletter NIRF and ARIIA Annual Report BoG Meetings CAG Audit Report FC Meetings BWC Meetings Senate Meetings Tour Annual Accounts Special Cell Meeting Grievance Cell Meeting Property Returns Institute Calendar List of Holidays Institute Daily Diary Manual MoU Quaterly Return Clubs Cultural and Fine Art Club At the Cultural and Fine Arts Club, we believe in the power of the arts to inspire, connect, and transform. Read More Technical Club Technical Club is one of the most active societies aiming to promote and encourage technical innovation, practical experience in the modern technologies among students by organizing Workshops, Technical Seminars, Training Courses, etc. Read More Sports Club The Sports club is not only committed to provide a healthy sporting habit among the students but also to educate them to live in a better way by organizing Workshop, Seminar and Special Lectures. Read More Literary Club Students of NIT Uttarakhand jointly made efforts to establish the Literary Club (formerly called Literactivity) of the Institute. Read More Film and Photography Club Every year, Klick Film & photography Club of the Institute organizes workshop for the newly joined students. Under this workshop various indoor as well as outdoor activities are conducted where students get exposure to professional photography. Read More Adventure Activities & Community Service Club Uttarakhand lies in the Himalayan range with lot of opportunity for Adventurous activities. Read More SAE Club SAE INDIA organizes various competitions throughout the year to design and build an automobile for the future. Read More Tenders/Procurement Upcoming Events Student Corner Scholarship NAD Info NIT Uttarakhand invites online/offline quotations for the goods/services of \"Packers & Movers\" NIT, Uttarakhand invites online/offline quotation for the Electron Spin Resonance Spectrometer (ESR) NIT Uttarakhand invites Online/offline quotation for the goods/service of “Installation of Barbed Wire/Concertina Coil behind Hostel-7 for Enhanced Security” Applications are invited from the contractors those are registered in PWD (Uttarakhand)/CPWD for various civil - maintenance and pity works of National Institute of Technology, Uttarakhand GeM Bids LTE Tenders Notice for Proprietary Items CPPP Tender GST Number GSTIN- 05AABAN0300J1Z8 List of Approved Registered Supplier 10th IEEE India International Conference On Power Electronics (IICPE-2026) (13-15 December 2026) 1st International Conference on Intelligent Transportation and Sustainable Systems (i-TRANS 2027) 16–17 January 2027 1st Year B.Tech. Admission Related Forms Instructions to 1st Year M.Tech. / M.Sc. Candidates admitted through CCMT/CCMN 2026 regarding Institute Physical Reporting / Admission for the Academic Year 2026-2027 Payment of Partial Admission Fee (PAF) for NIT+ System only At the end of the fifth round of JoSAA-2026 CSAB special rounds and DASA UG 2026-27 Information brochure for Self-Sponsored (Full time) M.Sc./M.Tech and left over seats of CCMT–2026 Admissions for the Academic Year 2026-2027 Instructions to the 1st year B.Tech. students regarding Institute Reporting/Admission for the Academic Year 2026–2027 Registration Form For Anti-ragging Hostel Leaving Form No Scholarships found. Total Awards Lodged:- 5011 Awards Fetched:- 94 Total Degree:- 1809 Total Marksheet:- 3202 ABC Accounts Created:- 471 ABC Credit Count:- 2 Academic Programme UNDERGRADUATE POSTGRADUATE DOCTORAL PART TIME PROGRAMMES UNDERGRADUATE Admission to the undergraduate programs at NIT UK is done through the Joint Entrance Examination (JEE Main). The subsequent counseling and seat allocation process is managed by the Joint Seat Allocation Authority (JoSAA) or the Central Seat Allocation Board (CSAB). Admissions were given on the basis of All India Rank (AIR) prepared by JoSAA considering score in JEE (Main). POSTGRADUATE M. Tech. The admission to M. Tech. degree programmes at NIT Uttarakhand is done through Centralized counselling for M. Tech. / M. Arch. / M.Plan. / M. Des. Admissions (CCMT) and admissions are conducted on the basis of valid GATE score. For the admission in the Self Sponsored Category, candidates are shortlisted for written test on the basis of required qualification and the qualified candidates are called for personal interview for final selection. DOCTORAL The Institute provides facilities for research leading to the Degree of Doctor of Philosophy (PhD) in Engineering, Science, Humanities and Social Sciences in various disciplines. For the admission in the Ph.D. program, candidates are shortlisted for written test on the basis of required qualification (GATE/NET/SET qualified). The qualified candidates are called for personal interview. After qualifying, the candidates are provisionally admitted for Ph.D. in the Institute. Their registration for Ph.D. program at the Institute is confirmed only after successful completion of Pre-Registration viva-voce. PART TIME PROGRAMMES NIT Uttarakhand has opened its doors for working professionals. These programmes are designed to enable them to pursue higher study while continuing in their Job/Profession in order to help them to accelerate their career. ADMISSION 2026-27 JOSAA CSAB DASA CCMT CCMN Study in India (SII) #NUMBERS THAT PROVE NIT UTTARAKHAND Career Counselling Placement 32 LPA HIGHEST PACKAGE 60+ COMPANY VISITED 90+ STUDENTS PLACED Major Recruiter Photo Gallery View All 1+ Department 100+ Students 10+ Faculty & Staff 0+ Clubs & Cells National Institute of Technology, Uttarakhand Srinagar, Pauri (Garhwal)-246174 1346-257400 nituttarakhand@nituk.ac.in www.nituk.ac.in Important Links Fee Payment PMKVY 4.0 Institute Bank Account and GSTIN Career Counselling and Placement Section Internal Complaints Committee Grievance Cell Right To Information Special Cell Important Links Anti-Ragging Initiative Public Grievances CCMT 2026 CCMN 2026 DASA 2026 JoSAA 2026 CSAB 2026 Contact Us NITUK Uttarakhand Total Visitors: 585 Copyright © 2024 National Institute of Technology, Uttarakhand. All Rights Reserved. Developed & Maintained by Computer Centre, NIT, Uttarakhand Website Development Team NIT, Uttarakhand",
+        "score": 122,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 103,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "PDF",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "",
+        "url": "https://nituk.ac.in/index.html#",
+        "context": "Faculty Portfolio | Samarth eGov | E-Books | BIS Dashboard | Student Feedback Hostel Leaving Form Telephone Directory - + Web Mail - + About NITUK About NIT Uttarakhand Institute Brochure Statute NIT Act Administration Board of Governors Statutory Committees Chairman Director Registrar Deans & Associate Deans Chief Vigilance Officer Administration Sections Official Academics Ordinance Programmes Admission Fees & Expenses Academic Calendar Academic Section Officials National Academic Depository (NAD) Scholarship Result & Certificates Passout & Dropout Students Data Departments Civil Engineering Computer Science & Engineering Electrical Engineering Electronics Engineering Mechanical Engineering Physics Chemistry Mathematics Humanities and Social Sciences Student Life Hostels Sports Clubs Student's grievance redressal cell National Service Scheme (NSS) Central Facilities Computer Centre Dispensary Design Innovation Center Library & Information Centre C2P Section Career Counselling and Placement Other Links TEQIP - lll Research and Consultancy Alumni Affairs Contact Us Contact Telephone Directory How To Reach Latest News Academic calendar for B.Tech , M.Tech, M.Sc 1st year (2026 batch) 1st International Conference on Intelligent Transportation and Sustainable Systems (i-TRANS 2027) Advertisement Cancellation Notice Academic Calendar Odd Sem 2026 View All News Tenders Programs Placement Gallery Message from the Director Established in 2009 under the Act of Parliament by the Ministry of Education, NITUK is a burgeoning institute of national importance in Uttarakhand (known as Devbhumi) amidst the serene and magnificent Himalayas. The impeccable geographical location endows natural advantage to the institution. It boosts learning, which is greatly reflected in the institute’s excellent teaching-learning ambiance, young and dedicated faculty, and significant contribution to research work and commitment to the community. Prof. Karunesh Kumar Shukla Incharge Director, National Institute of Technology, Uttarakhand About NIT Uttarakhand With rapid advancements in Science and Technology, the contemporary times demand immense contribution from young skilful minds, with a vision and aim to contribute towards efficient yet sustainable development. National Institute of Technology Uttarakhand- one of the thirty-one Institutes of National Importance in the country, abides by the afore-mentioned principle by constantly providing an encouraging environment for education and training of technical professionals as well as grooming the skills of the students through impeccable learning courses. Vision To provide a global impetus to education and innovation for sustainable development of industry and society. Mission To provide an encouraging environment for education and training of technical professionals. To establish as a centre of excellence for research on challenges and demands of future generations. To promote innovation and leadership skills for producing competent professionals. To develop research collaborations with institutions of repute. Read more Announcements View all Academic calendar for B.Tech , M.Tech, M.Sc 1st year (2026 batch) 2026-08-17 Applications are invited from the contractors those are registered in PWD (Uttarakhand)/CPWD for various civil - maintenance and pity works of National Institute of Technology, Uttarakhand 2026-08-13 Advertisement Cancellation Notice 2026-07-08 Academic Calendar Odd Sem 2026 2026-06-29 NOC format for Ph.D. scholar (Part Time) 2025-11-24 Quick & Download Links Email Policy Administration Forms Academics Related Forms Office Orders Recruitment Newsletter NIRF and ARIIA Annual Report BoG Meetings CAG Audit Report FC Meetings BWC Meetings Senate Meetings Tour Annual Accounts Special Cell Meeting Grievance Cell Meeting Property Returns Institute Calendar List of Holidays Institute Daily Diary Manual MoU Quaterly Return Clubs Cultural and Fine Art Club At the Cultural and Fine Arts Club, we believe in the power of the arts to inspire, connect, and transform. Read More Technical Club Technical Club is one of the most active societies aiming to promote and encourage technical innovation, practical experience in the modern technologies among students by organizing Workshops, Technical Seminars, Training Courses, etc. Read More Sports Club The Sports club is not only committed to provide a healthy sporting habit among the students but also to educate them to live in a better way by organizing Workshop, Seminar and Special Lectures. Read More Literary Club Students of NIT Uttarakhand jointly made efforts to establish the Literary Club (formerly called Literactivity) of the Institute. Read More Film and Photography Club Every year, Klick Film & photography Club of the Institute organizes workshop for the newly joined students. Under this workshop various indoor as well as outdoor activities are conducted where students get exposure to professional photography. Read More Adventure Activities & Community Service Club Uttarakhand lies in the Himalayan range with lot of opportunity for Adventurous activities. Read More SAE Club SAE INDIA organizes various competitions throughout the year to design and build an automobile for the future. Read More Tenders/Procurement Upcoming Events Student Corner Scholarship NAD Info NIT Uttarakhand invites online/offline quotations for the goods/services of \"Packers & Movers\" NIT, Uttarakhand invites online/offline quotation for the Electron Spin Resonance Spectrometer (ESR) NIT Uttarakhand invites Online/offline quotation for the goods/service of “Installation of Barbed Wire/Concertina Coil behind Hostel-7 for Enhanced Security” Applications are invited from the contractors those are registered in PWD (Uttarakhand)/CPWD for various civil - maintenance and pity works of National Institute of Technology, Uttarakhand GeM Bids LTE Tenders Notice for Proprietary Items CPPP Tender GST Number GSTIN- 05AABAN0300J1Z8 List of Approved Registered Supplier 10th IEEE India International Conference On Power Electronics (IICPE-2026) (13-15 December 2026) 1st International Conference on Intelligent Transportation and Sustainable Systems (i-TRANS 2027) 16–17 January 2027 1st Year B.Tech. Admission Related Forms Instructions to 1st Year M.Tech. / M.Sc. Candidates admitted through CCMT/CCMN 2026 regarding Institute Physical Reporting / Admission for the Academic Year 2026-2027 Payment of Partial Admission Fee (PAF) for NIT+ System only At the end of the fifth round of JoSAA-2026 CSAB special rounds and DASA UG 2026-27 Information brochure for Self-Sponsored (Full time) M.Sc./M.Tech and left over seats of CCMT–2026 Admissions for the Academic Year 2026-2027 Instructions to the 1st year B.Tech. students regarding Institute Reporting/Admission for the Academic Year 2026–2027 Registration Form For Anti-ragging Hostel Leaving Form No Scholarships found. Total Awards Lodged:- 5011 Awards Fetched:- 94 Total Degree:- 1809 Total Marksheet:- 3202 ABC Accounts Created:- 471 ABC Credit Count:- 2 Academic Programme UNDERGRADUATE POSTGRADUATE DOCTORAL PART TIME PROGRAMMES UNDERGRADUATE Admission to the undergraduate programs at NIT UK is done through the Joint Entrance Examination (JEE Main). The subsequent counseling and seat allocation process is managed by the Joint Seat Allocation Authority (JoSAA) or the Central Seat Allocation Board (CSAB). Admissions were given on the basis of All India Rank (AIR) prepared by JoSAA considering score in JEE (Main). POSTGRADUATE M. Tech. The admission to M. Tech. degree programmes at NIT Uttarakhand is done through Centralized counselling for M. Tech. / M. Arch. / M.Plan. / M. Des. Admissions (CCMT) and admissions are conducted on the basis of valid GATE score. For the admission in the Self Sponsored Category, candidates are shortlisted for written test on the basis of required qualification and the qualified candidates are called for personal interview for final selection. DOCTORAL The Institute provides facilities for research leading to the Degree of Doctor of Philosophy (PhD) in Engineering, Science, Humanities and Social Sciences in various disciplines. For the admission in the Ph.D. program, candidates are shortlisted for written test on the basis of required qualification (GATE/NET/SET qualified). The qualified candidates are called for personal interview. After qualifying, the candidates are provisionally admitted for Ph.D. in the Institute. Their registration for Ph.D. program at the Institute is confirmed only after successful completion of Pre-Registration viva-voce. PART TIME PROGRAMMES NIT Uttarakhand has opened its doors for working professionals. These programmes are designed to enable them to pursue higher study while continuing in their Job/Profession in order to help them to accelerate their career. ADMISSION 2026-27 JOSAA CSAB DASA CCMT CCMN Study in India (SII) #NUMBERS THAT PROVE NIT UTTARAKHAND Career Counselling Placement 32 LPA HIGHEST PACKAGE 60+ COMPANY VISITED 90+ STUDENTS PLACED Major Recruiter Photo Gallery View All 1+ Department 100+ Students 10+ Faculty & Staff 0+ Clubs & Cells National Institute of Technology, Uttarakhand Srinagar, Pauri (Garhwal)-246174 1346-257400 nituttarakhand@nituk.ac.in www.nituk.ac.in Important Links Fee Payment PMKVY 4.0 Institute Bank Account and GSTIN Career Counselling and Placement Section Internal Complaints Committee Grievance Cell Right To Information Special Cell Important Links Anti-Ragging Initiative Public Grievances CCMT 2026 CCMN 2026 DASA 2026 JoSAA 2026 CSAB 2026 Contact Us NITUK Uttarakhand Total Visitors: 585 Copyright © 2024 National Institute of Technology, Uttarakhand. All Rights Reserved. Developed & Maintained by Computer Centre, NIT, Uttarakhand Website Development Team NIT, Uttarakhand",
+        "score": 112,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 93,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "1st International Conference on Intelligent Transportation and Sustainable Systems (i-TRANS 2027)",
+        "url": "https://nituk.ac.in/uploads/topics/17848694353425.pdf",
+        "context": "Academic calendar for B.Tech , M.Tech, M.Sc 1st year (2026 batch) 1st International Conference on Intelligent Transportation and Sustainable Systems (i-TRANS 2027) Advertisement Cancellation Notice Academic Calendar Odd Sem 2026",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 60,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "BTECH",
+          "NEW_ENTRANT",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Advertisement Cancellation Notice",
+        "url": "https://nituk.ac.in/uploads/topics/17834834556277.PDF",
+        "context": "Academic calendar for B.Tech , M.Tech, M.Sc 1st year (2026 batch) 1st International Conference on Intelligent Transportation and Sustainable Systems (i-TRANS 2027) Advertisement Cancellation Notice Academic Calendar Odd Sem 2026",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 60,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "BTECH",
+          "NEW_ENTRANT",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Academic calendar for B.Tech , M.Tech, M.Sc 1st year (2026 batch)",
+        "url": "https://nituk.ac.in/academic-calendar",
+        "context": "Academic calendar for B.Tech , M.Tech, M.Sc 1st year (2026 batch) 1st International Conference on Intelligent Transportation and Sustainable Systems (i-TRANS 2027) Advertisement Cancellation Notice Academic Calendar Odd Sem 2026",
+        "score": 30,
+        "reasons": [
+          "BTECH_OR_UG"
+        ],
+        "exact_score": 50,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "BTECH",
+          "NEW_ENTRANT"
+        ]
+      },
+      {
+        "anchor_text": "",
+        "url": "https://nituk.ac.in/",
+        "context": "About NITUK About NIT Uttarakhand Institute Brochure Statute NIT Act Administration Board of Governors Statutory Committees Chairman Director Registrar Deans & Associate Deans Chief Vigilance Officer Administration Sections Official Academics Ordinance Programmes Admission Fees & Expenses Academic Calendar Academic Section Officials National Academic Depository (NAD) Scholarship Result & Certificates Passout & Dropout Students Data Departments Civil Engineering Computer Science & Engineering Electrical Engineering Electronics Engineering Mechanical Engineering Physics Chemistry Mathematics Humanities and Social Sciences Student Life Hostels Sports Clubs Student's grievance redressal cell National Service Scheme (NSS) Central Facilities Computer Centre Dispensary Design Innovation Center Library & Information Centre C2P Section Career Counselling and Placement Other Links TEQIP - lll Research and Consultancy Alumni Affairs Contact Us Contact Telephone Directory How To Reach",
+        "score": 47,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": -30,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "GENERIC_HOMEPAGE"
+        ]
+      }
+    ]
+  }
+]

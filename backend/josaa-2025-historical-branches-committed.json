@@ -1,0 +1,71 @@
+{
+  "committedAt": "2026-09-13T15:13:51.356Z",
+  "insertedCount": 13,
+  "inserted": [
+    {
+      "id": "2686",
+      "college_id": "indian-institute-of-technology-jodhpur",
+      "name": "Chemistry with Specialization (4 Years, Bachelor of Science)"
+    },
+    {
+      "id": "2687",
+      "college_id": "indian-institute-of-technology-jodhpur",
+      "name": "Physics with Specialization (4 Years, Bachelor of Science)"
+    },
+    {
+      "id": "2688",
+      "college_id": "indian-institute-of-technology-dhanbad",
+      "name": "Applied Geology (5 Years, Integrated Master of Technology)"
+    },
+    {
+      "id": "2689",
+      "college_id": "indian-institute-of-technology-dhanbad",
+      "name": "Applied Geophysics (5 Years, Integrated Master of Technology)"
+    },
+    {
+      "id": "2690",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Bioengineering (4 Years, Bachelor of Technology)"
+    },
+    {
+      "id": "2691",
+      "college_id": "indian-institute-of-technology-jammu",
+      "name": "Materials Engineering (4 Years, Bachelor of Technology)"
+    },
+    {
+      "id": "2692",
+      "college_id": "indian-institute-of-technology-dharwad",
+      "name": "Interdisciplinary Sciences (5 Years, Bachelor of Science and Master of Science (Dual Degree))"
+    },
+    {
+      "id": "2693",
+      "college_id": "motilal-nehru-national-institute-of-technology-allahabad",
+      "name": "Production and Industrial Engineering (4 Years, Bachelor of Technology)"
+    },
+    {
+      "id": "2694",
+      "college_id": "national-institute-of-technology-rourkela",
+      "name": "Mathematics (5 Years, Integrated Master of Science)"
+    },
+    {
+      "id": "2695",
+      "college_id": "national-institute-of-technology-rourkela",
+      "name": "Physics (5 Years, Integrated Master of Science)"
+    },
+    {
+      "id": "2696",
+      "college_id": "birla-institute-of-technology-mesra-ranchi",
+      "name": "Architecture (5 Years, Bachelor of Architecture)"
+    },
+    {
+      "id": "2697",
+      "college_id": "national-institute-of-advanced-manufacturing-technology-ranchi",
+      "name": "Computer Engineering (4 Years, Bachelor of Technology)"
+    },
+    {
+      "id": "2698",
+      "college_id": "international-institute-of-information-technology-bhubaneswar",
+      "name": "Computer Engineering (4 Years, Bachelor of Technology)"
+    }
+  ]
+}

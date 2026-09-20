@@ -1,0 +1,93 @@
+﻿[
+  {
+    "college_id": "national-institute-of-technology-tiruchirappalli",
+    "college_name": "National Institute of Technology, Tiruchirappalli",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 62500,
+    "annual_academic_fee": 125000,
+    "first_semester_fee": 125550,
+    "total_course_fee": 500000,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 NIT Trichy B.Tech Fees 2026",
+    "source_url": "https://www.careers360.com/university/national-institute-of-technology-tiruchirappalli/courses",
+
+    "source_priority": 65,
+    "confidence_score": 88,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "2026 B.Tech tuition INR 62500 per semester. First-semester total INR 125550 includes additional institutional/one-time components. Shiksha independently reports INR 5 lakh total B.Tech tuition."
+  },
+
+  {
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "college_name": "National Institute of Technology Karnataka, Surathkal",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 62500,
+    "annual_academic_fee": 125000,
+    "first_semester_fee": 107890,
+    "total_course_fee": 500000,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 NIT Surathkal B.Tech Fees 2026",
+    "source_url": "https://www.careers360.com/university/national-institute-of-technology-karnataka-surathkal/courses",
+
+    "source_priority": 65,
+    "confidence_score": 90,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "2026 B.Tech tuition INR 62500 per semester. First-semester hosteller total INR 107890. Shiksha independently reports INR 5 lakh complete-course tuition."
+  },
+
+  {
+    "college_id": "national-institute-of-technology-calicut",
+    "college_name": "National Institute of Technology Calicut",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 62500,
+    "annual_academic_fee": 125000,
+    "first_semester_fee": 142600,
+    "first_year_fee": 211500,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 NIT Calicut B.Tech Fees 2026",
+    "source_url": "https://www.careers360.com/university/national-institute-of-technology-calicut/courses",
+
+    "source_priority": 65,
+    "confidence_score": 88,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Monsoon 2026-27 total INR 142600 and Winter 2026-27 total INR 68900. First-year total normalized as 211500. Tuition component follows standard INR 62500 per semester."
+  },
+
+  {
+    "college_id": "national-institute-of-technology-rourkela",
+    "college_name": "National Institute of Technology, Rourkela",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 62500,
+    "annual_academic_fee": 125000,
+    "mess_fee_per_semester": 30000,
+    "first_semester_fee": 136500,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 NIT Rourkela B.Tech Fees 2026",
+    "source_url": "https://www.careers360.com/university/national-institute-of-technology-rourkela/courses?degree=2",
+
+    "source_priority": 65,
+    "confidence_score": 90,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "2026 first semester: tuition 62500, other 5000, student activity 2000, medical 2000, hostel seat rent 5000, caution 10000, emergency fund 12500, hall establishment 5000 and mess advance 30000. First-semester total INR 136500."
+  }
+]

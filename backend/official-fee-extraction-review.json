@@ -1,0 +1,362 @@
+[
+  {
+    "college_id": "indian-institute-of-technology-madras",
+    "name": "Indian Institute of Technology Madras",
+    "nirf_rank": 1,
+    "website": "https://www.iitm.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "indian-institute-of-technology-delhi",
+    "name": "Indian Institute of Technology Delhi",
+    "nirf_rank": 2,
+    "website": "https://home.iitd.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "indian-institute-of-technology-kanpur",
+    "name": "Indian Institute of Technology Kanpur",
+    "nirf_rank": 4,
+    "website": "https://www.iitk.ac.in",
+    "source_url": "https://iitk.ac.in/doaa/",
+    "source_text": "Admission through Olympiad in Academic Year 2025-26 in B.Tech/BS",
+    "classifier_score": 30,
+    "validation_reason": "insufficient_fee_evidence"
+  },
+  {
+    "college_id": "indian-institute-of-technology-hyderabad",
+    "name": "Indian Institute of Technology Hyderabad",
+    "nirf_rank": 7,
+    "website": "https://www.iith.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "indian-institute-of-technology-guwahati",
+    "name": "Indian Institute of Technology Guwahati",
+    "nirf_rank": 8,
+    "website": "https://www.iitg.ac.in",
+    "source_url": "https://iitg.ac.in/acad/admission/fresher/",
+    "source_text": "Information for New UG (BTech, BDes & BS in BSE ), PG and PhD Students (July 2026)",
+    "classifier_score": 25,
+    "validation_reason": "insufficient_fee_evidence"
+  },
+  {
+    "college_id": "indian-institute-of-technology-patna",
+    "name": "Indian Institute of Technology Patna",
+    "nirf_rank": 19,
+    "website": "https://www.iitp.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "national-institute-of-technology-calicut",
+    "name": "National Institute of Technology Calicut",
+    "nirf_rank": 21,
+    "website": "https://nitc.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "indian-institute-of-technology-ropar",
+    "name": "Indian Institute of Technology Ropar",
+    "nirf_rank": 32,
+    "website": "https://www.iitrpr.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "indian-institute-of-technology-bhubaneswar",
+    "name": "Indian Institute of Technology Bhubaneswar",
+    "nirf_rank": 39,
+    "website": "https://www.iitbbs.ac.in",
+    "source_url": "https://www.iitbbs.ac.in/index.php/notice-for-online-application-for-remission-of-tuition-fees-fresh-for-the-academic-year-2026-27-for-b-tech-students-admitted-in-the-academic-year-2026-27/",
+    "source_text": "• Notice for Online application for Remission of Tuition Fees (Fresh) for the Academic Year 2026-27 for B.Tech. Students Admitted in the Academic Year 2026-27",
+    "classifier_score": 65,
+    "validation_reason": "hard_reject:remission"
+  },
+  {
+    "college_id": "national-institute-of-technology-durgapur",
+    "name": "National Institute of Technology Durgapur",
+    "nirf_rank": 49,
+    "website": "https://nitdgp.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "birla-institute-of-technology-mesra-ranchi",
+    "name": "Birla Institute of Technology, Mesra, Ranchi",
+    "nirf_rank": 51,
+    "website": "https://www.bitmesra.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+    "nirf_rank": 54,
+    "website": "https://www.iiests.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "dr-b-r-ambedkar-national-institute-of-technology-jalandhar",
+    "name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "nirf_rank": 55,
+    "website": "https://www.nitj.ac.in",
+    "source_url": "https://www.nitj.ac.in/admissions/index.html#btech",
+    "source_text": "B.Tech, B.Sc.-B.Ed. Undergraduate Program",
+    "classifier_score": 25,
+    "validation_reason": "insufficient_fee_evidence"
+  },
+  {
+    "college_id": "indian-institute-of-technology-jammu",
+    "name": "Indian Institute of Technology Jammu",
+    "nirf_rank": 56,
+    "website": "https://iitjammu.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "indian-institute-of-technology-tirupati",
+    "name": "Indian Institute of Technology Tirupati",
+    "nirf_rank": 57,
+    "website": "https://www.iittp.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "motilal-nehru-national-institute-of-technology-allahabad",
+    "name": "Motilal Nehru National Institute of Technology Allahabad",
+    "nirf_rank": 62,
+    "website": "https://www.mnnit.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "indian-institute-of-technology-palakkad",
+    "name": "Indian Institute of Technology Palakkad",
+    "nirf_rank": 64,
+    "website": "https://iitpkd.ac.in",
+    "source_url": "https://iitpkd.ac.in/btech-admissions-2024-25",
+    "source_text": "UG Admissions",
+    "classifier_score": 30,
+    "validation_reason": "insufficient_fee_evidence"
+  },
+  {
+    "college_id": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "name": "Sardar Vallabhbhai National Institute of Technology, Surat",
+    "nirf_rank": 66,
+    "website": "https://www.svnit.ac.in",
+    "source_url": "https://svnit.ac.in/Data/fee%20structure/Hostel%20Fees%20Structure%20of%20A.Y.%202025-26.pdf",
+    "source_text": "Hostel Fee Structure(2025-26)",
+    "classifier_score": 123,
+    "validation_reason": "hostel_only_source"
+  },
+  {
+    "college_id": "national-institute-of-technology-srinagar",
+    "name": "National Institute of Technology, Srinagar",
+    "nirf_rank": 73,
+    "website": "https://nitsri.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "university-of-hyderabad",
+    "name": "University of Hyderabad",
+    "nirf_rank": 74,
+    "website": "https://uohyd.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "indian-institute-of-technology-dharwad",
+    "name": "Indian Institute of Technology Dharwad",
+    "nirf_rank": 77,
+    "website": "https://www.iitdh.ac.in",
+    "source_url": "https://iitdh.ac.in/minor-programs",
+    "source_text": "Minor Program for UG (BTECH)",
+    "classifier_score": 25,
+    "validation_reason": "hard_reject:minor-program"
+  },
+  {
+    "college_id": "sant-longowal-institute-of-engineering-and-technology",
+    "name": "Sant Longowal Institute of Engineering and Technology",
+    "nirf_rank": 79,
+    "website": "https://sliet.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "national-institute-of-technology-jamshedpur",
+    "name": "National Institute of Technology, Jamshedpur",
+    "nirf_rank": 82,
+    "website": "https://www.nitjsr.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "coep-pune",
+    "name": "COEP Technological University, Pune",
+    "nirf_rank": 90,
+    "website": "https://www.coeptech.ac.in",
+    "source_url": "https://www.coeptech.ac.in/wp-content/uploads/2026/08/first-year-btech-hostel-admission-notification-AY-2026-27-boys-and-girls-with-hostel-application-form.pdf",
+    "source_text": "First year B-Tech hostel admission notification AY 2026-27 boys and girls with Hostel Application form",
+    "classifier_score": 28,
+    "validation_reason": "hostel_only_source"
+  },
+  {
+    "college_id": "national-institute-of-technology-hamirpur",
+    "name": "National Institute of Technology Hamirpur",
+    "nirf_rank": 97,
+    "website": "https://nith.ac.in",
+    "source_url": "https://nith.ac.in/uploads/files/may25/Hostel-Fee-Notice-2025-26.pdf",
+    "source_text": "Hostel Fee Notice 2025-26",
+    "classifier_score": 83,
+    "validation_reason": "hostel_only_source"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-guwahati",
+    "name": "Indian Institute of Information Technology Guwahati",
+    "nirf_rank": null,
+    "website": "https://www.iiitg.ac.in",
+    "source_url": "https://www.iiitg.ac.in/uploads/2026/07/20/d08fb41c5076362bda8385c7d832f9fe.pdf",
+    "source_text": "Admission Notification Notice AY 2026-27 CSAB Special Rounds & DASA (UG)",
+    "classifier_score": 38,
+    "validation_reason": "insufficient_fee_evidence"
+  },
+  {
+    "college_id": "islamic-university-of-science-and-technology-kashmir",
+    "name": "Islamic University of Science and Technology Kashmir",
+    "nirf_rank": null,
+    "website": "https://www.iust.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-kundli",
+    "name": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+    "nirf_rank": null,
+    "website": "https://niftem.ac.in",
+    "source_url": "https://niftem.ac.in/storage/updates/1779434382_ADMISSION%20PROSPECTUS%20Academic%20Session%202026%E2%80%9327%20Programmes%20for%20Admission%20%E2%80%A2%20B.Tech%20(FTM)%20%E2%80%A2%20Integrate...(FT)%20+%20MBA%20%E2%80%A2%20BBA%20(Hons)%20%E2%80%A2%20M.Tech%20%E2%80%A2%20M.Sc%20%E2%80%A2%20MBA%20%E2%80%A2%20Executive%20MBA%20%E2%80%A2%20Ph.D.%20(Regular%20Early%20Ph.D.)-compressed-compressed.pdf",
+    "source_text": "Admission Prospectus (Academic Session 2026-27)",
+    "classifier_score": 28,
+    "validation_reason": "insufficient_fee_evidence"
+  },
+  {
+    "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-thanjavur",
+    "name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+    "nirf_rank": null,
+    "website": "https://niftem-t.ac.in",
+    "source_url": "https://niftem-t.ac.in/ug.php",
+    "source_text": "BTech (Food Technology)",
+    "classifier_score": 25,
+    "validation_reason": "insufficient_fee_evidence"
+  },
+  {
+    "college_id": "national-institute-of-technology-agartala",
+    "name": "National Institute of Technology Agartala",
+    "nirf_rank": null,
+    "website": "https://nita.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "national-institute-of-technology-arunachal-pradesh",
+    "name": "National Institute of Technology Arunachal Pradesh",
+    "nirf_rank": null,
+    "website": "https://www.nitap.ac.in",
+    "source_url": "https://www.nitap.ac.in/notices/csab-2026-special-and-dasa-counselling-for-the-admission-in-btech-2026/",
+    "source_text": "CSAB 2026 Special & DASA Counselling for the Admission in B.Tech 20267/20/2026, 6:53:00 AM",
+    "classifier_score": 30,
+    "validation_reason": "insufficient_fee_evidence"
+  },
+  {
+    "college_id": "national-institute-of-technology-andhra-pradesh",
+    "name": "National Institute of Technology, Andhra Pradesh",
+    "nirf_rank": null,
+    "website": "https://nitandhra.ac.in",
+    "source_url": "https://nitandhra.ac.in/scholarships.php",
+    "source_text": "Institute Fee Remission Notice for II,III,IV Year B.Tech Students - A Y 2026-27",
+    "classifier_score": 40,
+    "validation_reason": "hard_reject:scholarship"
+  },
+  {
+    "college_id": "national-institute-of-technology-uttarakhand",
+    "name": "National Institute of Technology, Uttarakhand",
+    "nirf_rank": null,
+    "website": "https://nituk.ac.in",
+    "source_url": "https://nituk.ac.in/uploads/topics/17845202798396.pdf",
+    "source_text": "CSAB special rounds and DASA UG 2026-27",
+    "classifier_score": 38,
+    "validation_reason": "insufficient_fee_evidence"
+  },
+  {
+    "college_id": "pt-dwarka-prasad-mishra-indian-institute-of-information-technology-design-manufacture-jabalpur",
+    "name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+    "nirf_rank": null,
+    "website": "https://www.iiitdmj.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "puducherry-technological-university-puducherry",
+    "name": "Puducherry Technological University, Puducherry",
+    "nirf_rank": null,
+    "website": "https://www.ptuniv.edu.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  },
+  {
+    "college_id": "shri-mata-vaishno-devi-university-katra-jammu-kashmir",
+    "name": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+    "nirf_rank": null,
+    "website": "https://www.smvdu.ac.in",
+    "source_url": null,
+    "source_text": null,
+    "classifier_score": null,
+    "validation_reason": "no_candidate"
+  }
+]

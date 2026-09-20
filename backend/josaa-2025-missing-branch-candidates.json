@@ -1,0 +1,2197 @@
+{
+  "generatedAt": "2026-09-13T15:07:13.546Z",
+  "readOnly": true,
+  "missingCount": 23,
+  "mappings": [
+    {
+      "collegeId": "indian-institute-of-technology-jodhpur",
+      "college": "Indian Institute of Technology Jodhpur",
+      "officialProgram": "Chemistry with Specialization (4 Years, Bachelor of Science)",
+      "affectedRows": 54,
+      "dbBranchCount": 13,
+      "topCandidates": [
+        {
+          "branchId": "187",
+          "branchName": "Engineering Chemistry (4 Years, Bachelor of Science)",
+          "similarity": 0.625
+        },
+        {
+          "branchId": "188",
+          "branchName": "Engineering Physics (4 Years, Bachelor of Science)",
+          "similarity": 0.4444
+        },
+        {
+          "branchId": "190",
+          "branchName": "Mathematics and Computing (4 Years, Bachelor of Science)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "184",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        },
+        {
+          "branchId": "180",
+          "branchName": "Artificial Intelligence and Data Science (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "179",
+          "branchName": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "181",
+          "branchName": "Bio Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "182",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "179",
+          "branch_name": "Aerospace Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "180",
+          "branch_name": "Artificial Intelligence and Data Science (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "181",
+          "branch_name": "Bio Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "182",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "183",
+          "branch_name": "Civil and Infrastructure Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "184",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "185",
+          "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "186",
+          "branch_name": "Electronics Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "187",
+          "branch_name": "Engineering Chemistry (4 Years, Bachelor of Science)"
+        },
+        {
+          "branch_id": "188",
+          "branch_name": "Engineering Physics (4 Years, Bachelor of Science)"
+        },
+        {
+          "branch_id": "189",
+          "branch_name": "Materials Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "190",
+          "branch_name": "Mathematics and Computing (4 Years, Bachelor of Science)"
+        },
+        {
+          "branch_id": "191",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-jodhpur",
+      "college": "Indian Institute of Technology Jodhpur",
+      "officialProgram": "Physics with Specialization (4 Years, Bachelor of Science)",
+      "affectedRows": 54,
+      "dbBranchCount": 13,
+      "topCandidates": [
+        {
+          "branchId": "188",
+          "branchName": "Engineering Physics (4 Years, Bachelor of Science)",
+          "similarity": 0.625
+        },
+        {
+          "branchId": "187",
+          "branchName": "Engineering Chemistry (4 Years, Bachelor of Science)",
+          "similarity": 0.4444
+        },
+        {
+          "branchId": "190",
+          "branchName": "Mathematics and Computing (4 Years, Bachelor of Science)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "184",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        },
+        {
+          "branchId": "180",
+          "branchName": "Artificial Intelligence and Data Science (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "179",
+          "branchName": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "181",
+          "branchName": "Bio Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "182",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "179",
+          "branch_name": "Aerospace Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "180",
+          "branch_name": "Artificial Intelligence and Data Science (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "181",
+          "branch_name": "Bio Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "182",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "183",
+          "branch_name": "Civil and Infrastructure Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "184",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "185",
+          "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "186",
+          "branch_name": "Electronics Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "187",
+          "branch_name": "Engineering Chemistry (4 Years, Bachelor of Science)"
+        },
+        {
+          "branch_id": "188",
+          "branch_name": "Engineering Physics (4 Years, Bachelor of Science)"
+        },
+        {
+          "branch_id": "189",
+          "branch_name": "Materials Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "190",
+          "branch_name": "Mathematics and Computing (4 Years, Bachelor of Science)"
+        },
+        {
+          "branch_id": "191",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-dhanbad",
+      "college": "Indian Institute of Technology (ISM) Dhanbad",
+      "officialProgram": "Applied Geology (5 Years, Integrated Master of Technology)",
+      "affectedRows": 54,
+      "dbBranchCount": 18,
+      "topCandidates": [
+        {
+          "branchId": "285",
+          "branchName": "Chemical Science (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "301",
+          "branchName": "Physical Science (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "294",
+          "branchName": "Geophysical Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "286",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "287",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "289",
+          "branchName": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "291",
+          "branchName": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "292",
+          "branchName": "Environmental Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "284",
+          "branch_name": "B.Tech Mining Engineering and MBA in Logistic and Supply Chain Management (IIM Mumbai) (5 Years, Bachelor of Technology and MBA (Dual Degree))"
+        },
+        {
+          "branch_id": "286",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "285",
+          "branch_name": "Chemical Science (5 Years, Integrated Bachelor of Science-Master of Science)"
+        },
+        {
+          "branch_id": "287",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "288",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "289",
+          "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "290",
+          "branch_name": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "291",
+          "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "292",
+          "branch_name": "Environmental Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "293",
+          "branch_name": "Geological Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "294",
+          "branch_name": "Geophysical Technology (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "295",
+          "branch_name": "Mathematics and Computing (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "296",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "297",
+          "branch_name": "Mineral and Metallurgical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "298",
+          "branch_name": "Mining Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "299",
+          "branch_name": "Mining Machinery Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "300",
+          "branch_name": "Petroleum Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "301",
+          "branch_name": "Physical Science (5 Years, Integrated Bachelor of Science-Master of Science)"
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-dhanbad",
+      "college": "Indian Institute of Technology (ISM) Dhanbad",
+      "officialProgram": "Applied Geophysics (5 Years, Integrated Master of Technology)",
+      "affectedRows": 54,
+      "dbBranchCount": 18,
+      "topCandidates": [
+        {
+          "branchId": "285",
+          "branchName": "Chemical Science (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "301",
+          "branchName": "Physical Science (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "294",
+          "branchName": "Geophysical Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "286",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "287",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "289",
+          "branchName": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "291",
+          "branchName": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "292",
+          "branchName": "Environmental Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "284",
+          "branch_name": "B.Tech Mining Engineering and MBA in Logistic and Supply Chain Management (IIM Mumbai) (5 Years, Bachelor of Technology and MBA (Dual Degree))"
+        },
+        {
+          "branch_id": "286",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "285",
+          "branch_name": "Chemical Science (5 Years, Integrated Bachelor of Science-Master of Science)"
+        },
+        {
+          "branch_id": "287",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "288",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "289",
+          "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "290",
+          "branch_name": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "291",
+          "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "292",
+          "branch_name": "Environmental Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "293",
+          "branch_name": "Geological Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "294",
+          "branch_name": "Geophysical Technology (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "295",
+          "branch_name": "Mathematics and Computing (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "296",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "297",
+          "branch_name": "Mineral and Metallurgical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "298",
+          "branch_name": "Mining Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "299",
+          "branch_name": "Mining Machinery Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "300",
+          "branch_name": "Petroleum Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "301",
+          "branch_name": "Physical Science (5 Years, Integrated Bachelor of Science-Master of Science)"
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-dhanbad",
+      "college": "Indian Institute of Technology (ISM) Dhanbad",
+      "officialProgram": "B.Tech Mining Engineering and MBA in Logistic and Supply Chain Management (IIM Mumbai) (5 Years, Integrated B. Tech. and MBA)",
+      "affectedRows": 60,
+      "dbBranchCount": 18,
+      "topCandidates": [
+        {
+          "branchId": "284",
+          "branchName": "B.Tech Mining Engineering and MBA in Logistic and Supply Chain Management (IIM Mumbai) (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "similarity": 0.6842
+        },
+        {
+          "branchId": "298",
+          "branchName": "Mining Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1765
+        },
+        {
+          "branchId": "299",
+          "branchName": "Mining Machinery Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1667
+        },
+        {
+          "branchId": "288",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1579
+        },
+        {
+          "branchId": "290",
+          "branchName": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1579
+        },
+        {
+          "branchId": "297",
+          "branchName": "Mineral and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1579
+        },
+        {
+          "branchId": "286",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1111
+        },
+        {
+          "branchId": "287",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1111
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "284",
+          "branch_name": "B.Tech Mining Engineering and MBA in Logistic and Supply Chain Management (IIM Mumbai) (5 Years, Bachelor of Technology and MBA (Dual Degree))"
+        },
+        {
+          "branch_id": "286",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "285",
+          "branch_name": "Chemical Science (5 Years, Integrated Bachelor of Science-Master of Science)"
+        },
+        {
+          "branch_id": "287",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "288",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "289",
+          "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "290",
+          "branch_name": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "291",
+          "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "292",
+          "branch_name": "Environmental Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "293",
+          "branch_name": "Geological Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "294",
+          "branch_name": "Geophysical Technology (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "295",
+          "branch_name": "Mathematics and Computing (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "296",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "297",
+          "branch_name": "Mineral and Metallurgical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "298",
+          "branch_name": "Mining Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "299",
+          "branch_name": "Mining Machinery Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "300",
+          "branch_name": "Petroleum Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "301",
+          "branch_name": "Physical Science (5 Years, Integrated Bachelor of Science-Master of Science)"
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Bioengineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 48,
+      "dbBranchCount": 17,
+      "topCandidates": [
+        {
+          "branchId": "315",
+          "branchName": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5714
+        },
+        {
+          "branchId": "316",
+          "branchName": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5714
+        },
+        {
+          "branchId": "317",
+          "branchName": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5714
+        },
+        {
+          "branchId": "318",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5714
+        },
+        {
+          "branchId": "319",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5714
+        },
+        {
+          "branchId": "321",
+          "branchName": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5714
+        },
+        {
+          "branchId": "322",
+          "branchName": "Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5714
+        },
+        {
+          "branchId": "323",
+          "branchName": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "similarity": 0.5714
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "314",
+          "branch_name": "Architecture (5 Years, Bachelor of Architecture)"
+        },
+        {
+          "branch_id": "315",
+          "branch_name": "Biochemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "316",
+          "branch_name": "Biomedical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "317",
+          "branch_name": "Ceramic Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "318",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "319",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "320",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "321",
+          "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "322",
+          "branch_name": "Electronics Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "323",
+          "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "324",
+          "branch_name": "Industrial Chemistry (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "325",
+          "branch_name": "Materials Science and Technology (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "326",
+          "branch_name": "Mathematics and Computing (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "327",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "328",
+          "branch_name": "Metallurgical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "329",
+          "branch_name": "Mining Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "330",
+          "branch_name": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)"
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-jammu",
+      "college": "Indian Institute of Technology Jammu",
+      "officialProgram": "Materials Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 60,
+      "dbBranchCount": 9,
+      "topCandidates": [
+        {
+          "branchId": "371",
+          "branchName": "Materials and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.75
+        },
+        {
+          "branchId": "366",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7143
+        },
+        {
+          "branchId": "367",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7143
+        },
+        {
+          "branchId": "369",
+          "branchName": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7143
+        },
+        {
+          "branchId": "370",
+          "branchName": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "similarity": 0.7143
+        },
+        {
+          "branchId": "373",
+          "branchName": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7143
+        },
+        {
+          "branchId": "374",
+          "branchName": "Unified Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7143
+        },
+        {
+          "branchId": "368",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "366",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "367",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "368",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "369",
+          "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "370",
+          "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "371",
+          "branch_name": "Materials and Metallurgical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "372",
+          "branch_name": "Mathematics and Computing (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "373",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "374",
+          "branch_name": "Unified Engineering (4 Years, Bachelor of Technology)"
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-dharwad",
+      "college": "Indian Institute of Technology Dharwad",
+      "officialProgram": "Interdisciplinary Sciences (5 Years, Bachelor of Science and Master of Science (Dual Degree))",
+      "affectedRows": 60,
+      "dbBranchCount": 10,
+      "topCandidates": [
+        {
+          "branchId": "377",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3846
+        },
+        {
+          "branchId": "381",
+          "branchName": "Major in Mathematics (4 Years, Bachelor of Science)",
+          "similarity": 0.3077
+        },
+        {
+          "branchId": "382",
+          "branchName": "Major in Physics (4 Years, Bachelor of Science)",
+          "similarity": 0.3077
+        },
+        {
+          "branchId": "383",
+          "branchName": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.3077
+        },
+        {
+          "branchId": "375",
+          "branchName": "Chemical and Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2857
+        },
+        {
+          "branchId": "376",
+          "branchName": "Civil and Infrastructure Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2857
+        },
+        {
+          "branchId": "378",
+          "branchName": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2857
+        },
+        {
+          "branchId": "379",
+          "branchName": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2857
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "375",
+          "branch_name": "Chemical and Biochemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "376",
+          "branch_name": "Civil and Infrastructure Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "377",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "378",
+          "branch_name": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "379",
+          "branch_name": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "380",
+          "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "381",
+          "branch_name": "Major in Mathematics (4 Years, Bachelor of Science)"
+        },
+        {
+          "branch_id": "382",
+          "branch_name": "Major in Physics (4 Years, Bachelor of Science)"
+        },
+        {
+          "branch_id": "383",
+          "branch_name": "Mathematics and Computing (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "384",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        }
+      ]
+    },
+    {
+      "collegeId": "maulana-azad-national-institute-of-technology-bhopal",
+      "college": "Maulana Azad National Institute of Technology Bhopal",
+      "officialProgram": "Materials Science and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 128,
+      "dbBranchCount": 13,
+      "topCandidates": [
+        {
+          "branchId": "424",
+          "branchName": "Materials and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.8889
+        },
+        {
+          "branchId": "419",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "branchId": "422",
+          "branchName": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "branchId": "417",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "418",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "420",
+          "branchName": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "423",
+          "branchName": "Energy and Electrical Vehicle Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "426",
+          "branchName": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "415",
+          "branch_name": "Architecture (5 Years, Bachelor of Architecture)"
+        },
+        {
+          "branch_id": "416",
+          "branch_name": "B. Tech. and M. Tech. in Engineering and Computational Mechanics (Dual Degree) (5 Years, Bachelor and Master of Technology (Dual Degree))"
+        },
+        {
+          "branch_id": "417",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "418",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "419",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "420",
+          "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "421",
+          "branch_name": "Electrical Engineering with E Mobility (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "422",
+          "branch_name": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "423",
+          "branch_name": "Energy and Electrical Vehicle Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "424",
+          "branch_name": "Materials and Metallurgical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "425",
+          "branch_name": "Mathematics and Data Science (5 Years, Bachelor and Master of Technology (Dual Degree))"
+        },
+        {
+          "branch_id": "426",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "427",
+          "branch_name": "Planning (4 Years, Bachelor of Planning)"
+        }
+      ]
+    },
+    {
+      "collegeId": "motilal-nehru-national-institute-of-technology-allahabad",
+      "college": "Motilal Nehru National Institute of Technology Allahabad",
+      "officialProgram": "Production and Industrial Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 120,
+      "dbBranchCount": 10,
+      "topCandidates": [
+        {
+          "branchId": "431",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "433",
+          "branchName": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "434",
+          "branchName": "Engineering and Computational Mechanics (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "429",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "branchId": "430",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "branchId": "432",
+          "branchName": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "branchId": "435",
+          "branchName": "Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "branchId": "437",
+          "branchName": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "428",
+          "branch_name": "Bio Technology (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "429",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "430",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "431",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "432",
+          "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "433",
+          "branch_name": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "434",
+          "branch_name": "Engineering and Computational Mechanics (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "435",
+          "branch_name": "Materials Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "436",
+          "branch_name": "Mathematics and Computing (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "437",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        }
+      ]
+    },
+    {
+      "collegeId": "national-institute-of-technology-rourkela",
+      "college": "National Institute of Technology, Rourkela",
+      "officialProgram": "Mathematics (5 Years, Integrated Master of Science)",
+      "affectedRows": 72,
+      "dbBranchCount": 24,
+      "topCandidates": [
+        {
+          "branchId": "625",
+          "branchName": "Chemistry (5 Years, Integrated Master of Science)",
+          "similarity": 0.7143
+        },
+        {
+          "branchId": "634",
+          "branchName": "Life Science (5 Years, Integrated Master of Science)",
+          "similarity": 0.7143
+        },
+        {
+          "branchId": "627",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2727
+        },
+        {
+          "branchId": "616",
+          "branchName": "Architecture (5 Years, Bachelor of Architecture)",
+          "similarity": 0.25
+        },
+        {
+          "branchId": "618",
+          "branchName": "B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.25
+        },
+        {
+          "branchId": "624",
+          "branchName": "Chemical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.2308
+        },
+        {
+          "branchId": "639",
+          "branchName": "Mining Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.2308
+        },
+        {
+          "branchId": "620",
+          "branchName": "Bio Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.2222
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "616",
+          "branch_name": "Architecture (5 Years, Bachelor of Architecture)"
+        },
+        {
+          "branch_id": "617",
+          "branch_name": "Artificial Intelligence (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "618",
+          "branch_name": "B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "619",
+          "branch_name": "Bio Medical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "620",
+          "branch_name": "Bio Technology (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "621",
+          "branch_name": "Ceramic Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "622",
+          "branch_name": "Ceramic Engineering and M.Tech Industrial Ceramic (5 Years, Bachelor and Master of Technology (Dual Degree))"
+        },
+        {
+          "branch_id": "623",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "624",
+          "branch_name": "Chemical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+        },
+        {
+          "branch_id": "625",
+          "branch_name": "Chemistry (5 Years, Integrated Master of Science)"
+        },
+        {
+          "branch_id": "626",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "627",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "628",
+          "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "629",
+          "branch_name": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "630",
+          "branch_name": "Electronics and Instrumentation Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "631",
+          "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "632",
+          "branch_name": "Food Process Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "633",
+          "branch_name": "Industrial Design (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "634",
+          "branch_name": "Life Science (5 Years, Integrated Master of Science)"
+        },
+        {
+          "branch_id": "635",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "636",
+          "branch_name": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "637",
+          "branch_name": "Metallurgical and Materials Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+        },
+        {
+          "branch_id": "638",
+          "branch_name": "Mining Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "639",
+          "branch_name": "Mining Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+        }
+      ]
+    },
+    {
+      "collegeId": "national-institute-of-technology-rourkela",
+      "college": "National Institute of Technology, Rourkela",
+      "officialProgram": "Physics (5 Years, Integrated Master of Science)",
+      "affectedRows": 78,
+      "dbBranchCount": 24,
+      "topCandidates": [
+        {
+          "branchId": "625",
+          "branchName": "Chemistry (5 Years, Integrated Master of Science)",
+          "similarity": 0.7143
+        },
+        {
+          "branchId": "634",
+          "branchName": "Life Science (5 Years, Integrated Master of Science)",
+          "similarity": 0.7143
+        },
+        {
+          "branchId": "631",
+          "branchName": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "627",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2727
+        },
+        {
+          "branchId": "616",
+          "branchName": "Architecture (5 Years, Bachelor of Architecture)",
+          "similarity": 0.25
+        },
+        {
+          "branchId": "624",
+          "branchName": "Chemical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.2308
+        },
+        {
+          "branchId": "639",
+          "branchName": "Mining Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.2308
+        },
+        {
+          "branchId": "620",
+          "branchName": "Bio Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.2222
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "616",
+          "branch_name": "Architecture (5 Years, Bachelor of Architecture)"
+        },
+        {
+          "branch_id": "617",
+          "branch_name": "Artificial Intelligence (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "618",
+          "branch_name": "B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "619",
+          "branch_name": "Bio Medical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "620",
+          "branch_name": "Bio Technology (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "621",
+          "branch_name": "Ceramic Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "622",
+          "branch_name": "Ceramic Engineering and M.Tech Industrial Ceramic (5 Years, Bachelor and Master of Technology (Dual Degree))"
+        },
+        {
+          "branch_id": "623",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "624",
+          "branch_name": "Chemical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+        },
+        {
+          "branch_id": "625",
+          "branch_name": "Chemistry (5 Years, Integrated Master of Science)"
+        },
+        {
+          "branch_id": "626",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "627",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "628",
+          "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "629",
+          "branch_name": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "630",
+          "branch_name": "Electronics and Instrumentation Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "631",
+          "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "632",
+          "branch_name": "Food Process Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "633",
+          "branch_name": "Industrial Design (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "634",
+          "branch_name": "Life Science (5 Years, Integrated Master of Science)"
+        },
+        {
+          "branch_id": "635",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "636",
+          "branch_name": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "637",
+          "branch_name": "Metallurgical and Materials Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+        },
+        {
+          "branch_id": "638",
+          "branch_name": "Mining Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "639",
+          "branch_name": "Mining Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+        }
+      ]
+    },
+    {
+      "collegeId": "sardar-vallabhbhai-national-institute-of-technology-surat",
+      "college": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "officialProgram": "Chemistry (5 Years, Integrated Master of Science)",
+      "affectedRows": 63,
+      "dbBranchCount": 15,
+      "topCandidates": [
+        {
+          "branchId": "689",
+          "branchName": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.8571
+        },
+        {
+          "branchId": "697",
+          "branchName": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "branchId": "700",
+          "branchName": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "branchId": "696",
+          "branchName": "Industrial Chemistry (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "691",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2727
+        },
+        {
+          "branchId": "686",
+          "branchName": "Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "similarity": 0.2
+        },
+        {
+          "branchId": "687",
+          "branchName": "Artificial Intelligence (5 Years, Integrated B. Tech. and M. Tech.)",
+          "similarity": 0.2
+        },
+        {
+          "branchId": "688",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "686",
+          "branch_name": "Artificial Intelligence (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "687",
+          "branch_name": "Artificial Intelligence (5 Years, Integrated B. Tech. and M. Tech.)"
+        },
+        {
+          "branch_id": "688",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "689",
+          "branch_name": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)"
+        },
+        {
+          "branch_id": "690",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "691",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "692",
+          "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "693",
+          "branch_name": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "694",
+          "branch_name": "Electronics and VLSI Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "695",
+          "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "696",
+          "branch_name": "Industrial Chemistry (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "697",
+          "branch_name": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)"
+        },
+        {
+          "branch_id": "698",
+          "branch_name": "Mathematics and Computing (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "699",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "700",
+          "branch_name": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)"
+        }
+      ]
+    },
+    {
+      "collegeId": "sardar-vallabhbhai-national-institute-of-technology-surat",
+      "college": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "officialProgram": "Mathematics (5 Years, Integrated Master of Science)",
+      "affectedRows": 72,
+      "dbBranchCount": 15,
+      "topCandidates": [
+        {
+          "branchId": "697",
+          "branchName": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.8571
+        },
+        {
+          "branchId": "689",
+          "branchName": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "branchId": "700",
+          "branchName": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "branchId": "698",
+          "branchName": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "691",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2727
+        },
+        {
+          "branchId": "686",
+          "branchName": "Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "similarity": 0.2
+        },
+        {
+          "branchId": "687",
+          "branchName": "Artificial Intelligence (5 Years, Integrated B. Tech. and M. Tech.)",
+          "similarity": 0.2
+        },
+        {
+          "branchId": "688",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "686",
+          "branch_name": "Artificial Intelligence (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "687",
+          "branch_name": "Artificial Intelligence (5 Years, Integrated B. Tech. and M. Tech.)"
+        },
+        {
+          "branch_id": "688",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "689",
+          "branch_name": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)"
+        },
+        {
+          "branch_id": "690",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "691",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "692",
+          "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "693",
+          "branch_name": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "694",
+          "branch_name": "Electronics and VLSI Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "695",
+          "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "696",
+          "branch_name": "Industrial Chemistry (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "697",
+          "branch_name": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)"
+        },
+        {
+          "branch_id": "698",
+          "branch_name": "Mathematics and Computing (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "699",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "700",
+          "branch_name": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)"
+        }
+      ]
+    },
+    {
+      "collegeId": "sardar-vallabhbhai-national-institute-of-technology-surat",
+      "college": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "officialProgram": "Physics (5 Years, Integrated Master of Science)",
+      "affectedRows": 66,
+      "dbBranchCount": 15,
+      "topCandidates": [
+        {
+          "branchId": "700",
+          "branchName": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.8571
+        },
+        {
+          "branchId": "689",
+          "branchName": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "branchId": "697",
+          "branchName": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "branchId": "695",
+          "branchName": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "691",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2727
+        },
+        {
+          "branchId": "686",
+          "branchName": "Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "similarity": 0.2
+        },
+        {
+          "branchId": "687",
+          "branchName": "Artificial Intelligence (5 Years, Integrated B. Tech. and M. Tech.)",
+          "similarity": 0.2
+        },
+        {
+          "branchId": "688",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "686",
+          "branch_name": "Artificial Intelligence (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "687",
+          "branch_name": "Artificial Intelligence (5 Years, Integrated B. Tech. and M. Tech.)"
+        },
+        {
+          "branch_id": "688",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "689",
+          "branch_name": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)"
+        },
+        {
+          "branch_id": "690",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "691",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "692",
+          "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "693",
+          "branch_name": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "694",
+          "branch_name": "Electronics and VLSI Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "695",
+          "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "696",
+          "branch_name": "Industrial Chemistry (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "697",
+          "branch_name": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)"
+        },
+        {
+          "branch_id": "698",
+          "branch_name": "Mathematics and Computing (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "699",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "700",
+          "branch_name": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)"
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-information-technology-kilohrad-sonepat-haryana",
+      "college": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+      "officialProgram": "CSE ( Data Science & Analytics) (4 Years, Bachelor of Technology)",
+      "affectedRows": 36,
+      "dbBranchCount": 4,
+      "topCandidates": [
+        {
+          "branchId": "752",
+          "branchName": "Computer Science & Engineering (Data Science and Analytics) (4 Years, Bachelor of Technology)",
+          "similarity": 0.7273
+        },
+        {
+          "branchId": "753",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "branchId": "754",
+          "branchName": "Computer Science and Engineering (Artificial Intelligence) (4 Years, Bachelor of Technology)",
+          "similarity": 0.4615
+        },
+        {
+          "branchId": "755",
+          "branchName": "Information Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "752",
+          "branch_name": "Computer Science & Engineering (Data Science and Analytics) (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "753",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "754",
+          "branch_name": "Computer Science and Engineering (Artificial Intelligence) (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "755",
+          "branch_name": "Information Technology (4 Years, Bachelor of Technology)"
+        }
+      ]
+    },
+    {
+      "collegeId": "birla-institute-of-technology-mesra-ranchi",
+      "college": "Birla Institute of Technology, Mesra, Ranchi",
+      "officialProgram": "Architecture (5 Years, Bachelor of Architecture)",
+      "affectedRows": 54,
+      "dbBranchCount": 13,
+      "topCandidates": [
+        {
+          "branchId": "867",
+          "branchName": "Bio Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "868",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4286
+        },
+        {
+          "branchId": "869",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4286
+        },
+        {
+          "branchId": "876",
+          "branchName": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4286
+        },
+        {
+          "branchId": "874",
+          "branchName": "Food Engineering and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.375
+        },
+        {
+          "branchId": "870",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "872",
+          "branchName": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "873",
+          "branchName": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "867",
+          "branch_name": "Bio Technology (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "868",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "869",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "870",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "871",
+          "branch_name": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "872",
+          "branch_name": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "873",
+          "branch_name": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "874",
+          "branch_name": "Food Engineering and Technology (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "875",
+          "branch_name": "Mathematics and Computing (5 Years, Integrated Master of Science)"
+        },
+        {
+          "branch_id": "876",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "877",
+          "branch_name": "Physics (5 Years, Integrated Master of Science)"
+        },
+        {
+          "branch_id": "878",
+          "branch_name": "Production and Industrial Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "879",
+          "branch_name": "Quantitative Economics & Data Science (5 Years, Integrated Master of Science)"
+        }
+      ]
+    },
+    {
+      "collegeId": "birla-institute-of-technology-mesra-ranchi",
+      "college": "Birla Institute of Technology, Mesra, Ranchi",
+      "officialProgram": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+      "affectedRows": 84,
+      "dbBranchCount": 13,
+      "topCandidates": [
+        {
+          "branchId": "871",
+          "branchName": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)",
+          "similarity": 0.75
+        },
+        {
+          "branchId": "874",
+          "branchName": "Food Engineering and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "870",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "872",
+          "branchName": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "873",
+          "branchName": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "878",
+          "branchName": "Production and Industrial Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "867",
+          "branchName": "Bio Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "868",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "867",
+          "branch_name": "Bio Technology (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "868",
+          "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "869",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "870",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "871",
+          "branch_name": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "872",
+          "branch_name": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "873",
+          "branch_name": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "874",
+          "branch_name": "Food Engineering and Technology (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "875",
+          "branch_name": "Mathematics and Computing (5 Years, Integrated Master of Science)"
+        },
+        {
+          "branch_id": "876",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "877",
+          "branch_name": "Physics (5 Years, Integrated Master of Science)"
+        },
+        {
+          "branch_id": "878",
+          "branch_name": "Production and Industrial Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "879",
+          "branch_name": "Quantitative Economics & Data Science (5 Years, Integrated Master of Science)"
+        }
+      ]
+    },
+    {
+      "collegeId": "national-institute-of-advanced-manufacturing-technology-ranchi",
+      "college": "National Institute of Advanced Manufacturing Technology, Ranchi",
+      "officialProgram": "Computer Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 67,
+      "dbBranchCount": 4,
+      "topCandidates": [
+        {
+          "branchId": "904",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.75
+        },
+        {
+          "branchId": "905",
+          "branchName": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7143
+        },
+        {
+          "branchId": "906",
+          "branchName": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "branchId": "907",
+          "branchName": "Production and Industrial Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "904",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "905",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "906",
+          "branch_name": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "907",
+          "branch_name": "Production and Industrial Engineering (4 Years, Bachelor of Technology)"
+        }
+      ]
+    },
+    {
+      "collegeId": "national-institute-of-advanced-manufacturing-technology-ranchi",
+      "college": "National Institute of Advanced Manufacturing Technology, Ranchi",
+      "officialProgram": "Metallurgy and Materials Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 62,
+      "dbBranchCount": 4,
+      "topCandidates": [
+        {
+          "branchId": "906",
+          "branchName": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7778
+        },
+        {
+          "branchId": "904",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "907",
+          "branchName": "Production and Industrial Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "905",
+          "branchName": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "904",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "905",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "906",
+          "branch_name": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "907",
+          "branch_name": "Production and Industrial Engineering (4 Years, Bachelor of Technology)"
+        }
+      ]
+    },
+    {
+      "collegeId": "university-of-hyderabad",
+      "college": "University of Hyderabad",
+      "officialProgram": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 42,
+      "dbBranchCount": 2,
+      "topCandidates": [
+        {
+          "branchId": "963",
+          "branchName": "Computer Science and Engineering (5 Years, Integrated Master of Technology)",
+          "similarity": 0.6667
+        },
+        {
+          "branchId": "964",
+          "branchName": "Materials Engineering (5 Years, Integrated Master of Technology)",
+          "similarity": 0.3846
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "963",
+          "branch_name": "Computer Science and Engineering (5 Years, Integrated Master of Technology)"
+        },
+        {
+          "branch_id": "964",
+          "branch_name": "Materials Engineering (5 Years, Integrated Master of Technology)"
+        }
+      ]
+    },
+    {
+      "collegeId": "international-institute-of-information-technology-bhubaneswar",
+      "college": "International Institute of Information Technology, Bhubaneswar",
+      "officialProgram": "Computer Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 36,
+      "dbBranchCount": 4,
+      "topCandidates": [
+        {
+          "branchId": "979",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.75
+        },
+        {
+          "branchId": "982",
+          "branchName": "Information Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5714
+        },
+        {
+          "branchId": "980",
+          "branchName": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "branchId": "981",
+          "branchName": "Electronics and Telecommunication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "979",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "980",
+          "branch_name": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "981",
+          "branch_name": "Electronics and Telecommunication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "982",
+          "branch_name": "Information Technology (4 Years, Bachelor of Technology)"
+        }
+      ]
+    },
+    {
+      "collegeId": "birla-institute-of-technology-patna-off-campus",
+      "college": "Birla Institute of Technology, Patna Off-Campus",
+      "officialProgram": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+      "affectedRows": 74,
+      "dbBranchCount": 7,
+      "topCandidates": [
+        {
+          "branchId": "1047",
+          "branchName": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)",
+          "similarity": 0.75
+        },
+        {
+          "branchId": "1046",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "1048",
+          "branchName": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "1049",
+          "branchName": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "1045",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        },
+        {
+          "branchId": "1051",
+          "branchName": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        },
+        {
+          "branchId": "1050",
+          "branchName": "Mathematics and Computing (5 Years, Integrated Master of Science)",
+          "similarity": 0.2143
+        }
+      ],
+      "allDbBranches": [
+        {
+          "branch_id": "1045",
+          "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "1046",
+          "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "1047",
+          "branch_name": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "1048",
+          "branch_name": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "1049",
+          "branch_name": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)"
+        },
+        {
+          "branch_id": "1050",
+          "branch_name": "Mathematics and Computing (5 Years, Integrated Master of Science)"
+        },
+        {
+          "branch_id": "1051",
+          "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)"
+        }
+      ]
+    }
+  ]
+}

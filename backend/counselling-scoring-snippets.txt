@@ -1,0 +1,432 @@
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:232:          ? String(
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:233:              req.query.homeState
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:234:            ).trim()
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:235:          : null;
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:236:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:237:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:238:      /*
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:239:      |--------------------------------------------------------------------------
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:240:      | STUDENT ANNUAL BUDGET
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:241:      |--------------------------------------------------------------------------
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:242:      |
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:243:      | Preferred frontend parameter:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:244:      |
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:245:      |   annualBudget=300000
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:246:      |
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:247:      | Legacy/fallback:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:248:      |
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:249:      |   budget=300000
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:250:      |
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:251:      */
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:252:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:253:      const annualBudgetRaw =
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:254:        req.query.annualBudget ??
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:255:        req.query.budget ??
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:256:        null;
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:257:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:258:      const annualBudget =
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:259:        annualBudgetRaw === null ||
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:260:        annualBudgetRaw === undefined ||
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:261:        annualBudgetRaw === ''
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:262:          ? null
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:263:          : Number(annualBudgetRaw);
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:264:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:265:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:266:      /*
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:267:      |--------------------------------------------------------------------------
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:268:      | VALIDATION
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:269:      |--------------------------------------------------------------------------
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:270:      */
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:271:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:272:      if (
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:273:        !Number.isInteger(rank) ||
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:274:        rank <= 0
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:275:      ) {
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:284:      ) {
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:285:        return res.status(400).json({
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:286:          error:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:287:            'Valid year is required',
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:288:        });
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:289:      }
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:290:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:291:      if (
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:292:        annualBudget !== null &&
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:293:        (
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:294:          !Number.isFinite(annualBudget) ||
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:295:          annualBudget <= 0
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:296:        )
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:297:      ) {
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:298:        return res.status(400).json({
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:299:          error:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:300:            'annualBudget must be a positive number',
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:301:        });
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:302:      }
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:303:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:304:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:305:      /*
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:306:      |--------------------------------------------------------------------------
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:307:      | SUPPORTED EXAMS
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:308:      |--------------------------------------------------------------------------
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:309:      */
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:310:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:311:      const SUPPORTED_COUNSELLING_EXAMS = [
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:312:        'jee-main',
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:488:            AS "feeSourceLabel",
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:489:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:490:          /*
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:491:          |--------------------------------------------------------------------------
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:492:          | REVIEW + SENTIMENT SUMMARY
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:493:          |--------------------------------------------------------------------------
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:494:          */
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:495:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:496:          css.review_score AS "reviewScore",
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:497:          css.analyzed_reviews AS "analyzedReviews",
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:498:          css.confidence_score AS "reviewConfidence",
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:499:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:500:          css.overall_sentiment AS "overallSentiment",
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:501:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:502:          css.google_rating AS "googleRating",
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:503:          css.google_review_count AS "googleReviewCount",
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:504:          css.google_sentiment AS "googleSentiment",
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:505:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:506:          css.reddit_sentiment AS "redditSentiment",
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:507:          css.quora_sentiment AS "quoraSentiment",
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:508:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:536:        |--------------------------------------------------------------------------
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:537:        |
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:538:        | One fee record only.
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:539:        |
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:540:        | Priority:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:541:        |
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:542:        |   verified
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:543:        |   high_confidence
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:544:        |   review_recommended
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:545:        |
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:546:        | Then highest confidence + latest year.
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:547:        |
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:548:        */
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:549:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:550:        LEFT JOIN LATERAL (
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:551:          SELECT
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:552:            fp.fee_year,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:553:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:554:            fp.tuition_fee_per_semester,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:555:            fp.academic_fee_per_semester,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:556:            fp.first_semester_fee,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:567:          FROM college_fee_profiles fp
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:568:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:569:          WHERE
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:570:            fp.college_id = c.id::text
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:571:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:572:            AND fp.verification_status IN (
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:573:              'verified',
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:574:              'high_confidence',
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:575:              'review_recommended'
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:576:            )
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:577:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:578:          ORDER BY
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:579:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:580:            CASE
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:581:              WHEN fp.verification_status = 'verified'
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:582:                THEN 3
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:583:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:584:              WHEN fp.verification_status = 'high_confidence'
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:585:                THEN 2
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:586:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:587:              WHEN fp.verification_status = 'review_recommended'
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:588:                THEN 1
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:589:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:590:              ELSE 0
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:591:            END DESC,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:592:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:593:            fp.confidence_score DESC,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:594:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:595:            fp.fee_year DESC
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:596:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:597:          LIMIT 1
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:598:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:599:        ) cfp ON TRUE
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:659:              ) = 'high_confidence'
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:660:                THEN 3
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:661:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:662:              WHEN LOWER(
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:663:                COALESCE(
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:664:                  bf.verification_status,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:665:                  ''
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:666:                )
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:667:              ) = 'review_recommended'
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:668:                THEN 2
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:669:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:670:              WHEN LOWER(
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:671:                COALESCE(
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:672:                  bf.verification_status,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:673:                  ''
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:674:                )
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:675:              ) = 'pending_review'
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:676:                THEN 1
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:677:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:678:              ELSE 0
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:679:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:961:          year,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:962:          round,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:963:          category,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:964:          quota:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:965:            requestedQuota,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:966:          gender:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:967:            requestedGender,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:968:          homeState,
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:969:          annualBudget,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:970:        }
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:971:      );
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:972:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:973:      const { rows } =
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:974:        await pool.query(
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:975:          query,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:976:          params
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:977:        );
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:978:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:979:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:980:      console.log(
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:981:        '[COUNSELLING] DB rows:',
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1110:                row.annualAcademicFee
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1111:              ),
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1112:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1113:            feeConfidence:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1114:              numberOrNull(
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1115:                row.feeConfidence
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1116:              ),
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1117:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1118:            reviewScore:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1119:              numberOrNull(row.reviewScore),
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1120:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1121:            analyzedReviews:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1122:              numberOrNull(row.analyzedReviews),
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1123:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1124:            reviewConfidence:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1125:              numberOrNull(row.reviewConfidence),
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1126:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1127:            overallSentiment:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1128:              numberOrNull(row.overallSentiment),
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1129:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1130:            googleRating:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1131:              numberOrNull(row.googleRating),
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1160:            feeRoiSentiment:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1161:              numberOrNull(row.feeRoiSentiment),
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1162:          })
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1163:        );
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1164:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1165:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1166:      /*
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1167:      |--------------------------------------------------------------------------
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1168:      | BUDGET SCORE
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1169:      |--------------------------------------------------------------------------
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1170:      |
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1171:      | Premium weight = 7%
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1172:      |
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1173:      | Important:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1174:      |
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1175:      | Missing fee != bad college.
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1176:      |
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1177:      | If fee or student budget is unavailable:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1178:      |
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1179:      |   budgetScore = null
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1180:      |   weightedBudgetScore = null
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1181:      |
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1182:      | Therefore missing fee data does NOT create
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1183:      | an unfair zero score.
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1184:      |
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1185:      |--------------------------------------------------------------------------
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1186:      */
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1187:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1188:      function calculateBudgetScore(
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1189:        studentAnnualBudget,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1190:        estimatedAnnualFee
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1191:      ) {
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1192:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1193:        if (
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1194:          studentAnnualBudget === null ||
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1195:          estimatedAnnualFee === null ||
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1196:          !Number.isFinite(studentAnnualBudget) ||
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1197:          !Number.isFinite(estimatedAnnualFee) ||
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1198:          studentAnnualBudget <= 0 ||
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1199:          estimatedAnnualFee <= 0
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1200:        ) {
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1201:          return null;
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1202:        }
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1203:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1204:        const ratio =
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1205:          estimatedAnnualFee /
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1206:          studentAnnualBudget;
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1207:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1208:        /*
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1209:        | Fee <= budget
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1210:        */
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1211:        if (ratio <= 1) {
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1212:          return 100;
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1213:        }
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1214:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1215:        /*
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1216:        | Up to 10% above budget
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1217:        */
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1218:        if (ratio <= 1.10) {
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1219:          return 80;
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1220:        }
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1221:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1222:        /*
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1223:        | Up to 25% above budget
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1224:        */
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1225:        if (ratio <= 1.25) {
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1226:          return 55;
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1227:        }
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1228:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1229:        /*
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1230:        | Significantly above budget
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1231:        */
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1232:        return 20;
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1233:      }
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1234:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1235:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1236:      finalRows =
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1237:        finalRows.map((row) => {
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1238:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1239:          /*
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1240:          |--------------------------------------------------------------------------
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1241:          | SAFE ANNUAL FEE ESTIMATE
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1242:          |--------------------------------------------------------------------------
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1248:          |   2 semesters of mess fee
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1249:          |
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1250:          | Hostel is intentionally NOT added yet because
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1251:          | accommodation/campus variants are not normalized
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1252:          | strongly enough across all colleges.
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1253:          |
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1254:          */
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1255:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1256:          let estimatedAnnualBudgetFee =
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1257:            null;
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1258:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1259:          let feeCoverage =
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1260:            null;
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1261:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1262:          if (
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1263:            row.annualAcademicFee !== null
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1264:          ) {
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1265:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1266:            estimatedAnnualBudgetFee =
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1267:              row.annualAcademicFee;
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1268:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1269:            feeCoverage =
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1270:              'academic_only';
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1271:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1272:            if (
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1273:              row.messFeePerSemester !== null
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1274:            ) {
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1275:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1276:              estimatedAnnualBudgetFee +=
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1277:                row.messFeePerSemester * 2;
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1278:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1279:              feeCoverage =
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1280:                'academic_plus_mess';
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1281:            }
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1282:          }
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1283:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1284:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1285:          const budgetScore =
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1286:            calculateBudgetScore(
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1287:              annualBudget,
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1288:              estimatedAnnualBudgetFee
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1289:            );
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1290:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1291:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1292:          const weightedBudgetScore =
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1293:            budgetScore === null
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1294:              ? null
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1295:              : Number(
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1296:                  (
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1297:                    budgetScore * 0.07
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1298:                  ).toFixed(2)
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1299:                );
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1300:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1301:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1302:          const budgetDifference =
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1303:            (
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1304:              annualBudget !== null &&
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1305:              estimatedAnnualBudgetFee !== null
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1306:            )
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1307:              ? Math.round(
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1308:                  annualBudget -
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1309:                  estimatedAnnualBudgetFee
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1310:                )
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1311:              : null;
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1312:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1313:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1314:          const budgetStatus =
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1315:            budgetScore === null
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1316:              ? 'unavailable'
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1317:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1318:              : budgetScore === 100
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1319:                ? 'within_budget'
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1320:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1321:              : budgetScore === 80
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1322:                ? 'slightly_above_budget'
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1323:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1324:              : budgetScore === 55
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1325:                ? 'above_budget'
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1326:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1327:              : 'well_above_budget';
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1328:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1329:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1330:          return {
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1331:            ...row,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1332:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1333:            estimatedAnnualBudgetFee,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1334:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1335:            feeCoverage,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1336:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1337:            studentAnnualBudget:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1338:              annualBudget,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1339:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1340:            budgetScore,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1341:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1342:            weightedBudgetScore,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1343:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1344:            budgetWeight:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1345:              7,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1346:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1347:            budgetDifference,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1348:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1349:            budgetStatus,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1350:          };
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1351:        });
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1352:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1353:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1354:      /*
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1355:      |--------------------------------------------------------------------------
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1356:      | RESPONSE
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1357:      |--------------------------------------------------------------------------
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1358:      */
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1359:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1360:      res.json({
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1361:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1377:          quota:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1378:            requestedQuota,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1379:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1380:          gender:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1381:            requestedGender,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1382:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1383:          homeState,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1384:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1385:          annualBudget,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1386:
+> C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1387:          budgetWeight: 7,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1388:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1389:          count:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1390:            finalRows.length,
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1391:        },
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1392:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1393:      });
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1394:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1395:    } catch (error) {
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1396:
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1397:      console.error(
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1398:        'COUNSELLING RESULTS ERROR:',
+  C:\Users\amarn\Downloads\Counselling-Wallah phase-2\backend\src\routes\counselling.js:1399:        error

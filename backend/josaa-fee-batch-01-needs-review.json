@@ -1,0 +1,66 @@
+[
+  {
+    "college_id": "indian-institute-of-technology-dhanbad",
+    "college_name": "Indian Institute of Technology (ISM) Dhanbad",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+    "total_course_fee": 800000,
+    "one_time_fee": null,
+    "security_deposit": null,
+    "source_kind": "shiksha",
+    "source_label": "Indian Institute of Technology (ISM) Dhanbad fee source",
+    "source_url": "https://www.shiksha.com/college/iit-dhanbad-ism-indian-institute-of-technology-ism-13669",
+    "source_priority": 70,
+    "confidence_score": 65,
+    "verification_status": "review_recommended",
+    "extraction_method": "automatic",
+    "notes": "JoSAA 2026 mapped institute. Explicit fee values extracted only; missing fields left null.",
+    "numeric_fields": [
+      "total_course_fee"
+    ],
+    "numeric_count": 1,
+    "audit_safe": false,
+    "audit_issues": [
+      "WEAK_SECONDARY_SINGLE_FIELD_PAGE"
+    ]
+  },
+  {
+    "college_id": "dr-b-r-ambedkar-national-institute-of-technology-jalandhar",
+    "college_name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+    "total_course_fee": 30000,
+    "one_time_fee": null,
+    "security_deposit": null,
+    "source_kind": "shiksha",
+    "source_label": "Dr. B R Ambedkar National Institute of Technology, Jalandhar fee source",
+    "source_url": "https://www.shiksha.com/college/national-institute-of-technology-jalandhar-24247/admission",
+    "source_priority": 70,
+    "confidence_score": 65,
+    "verification_status": "review_recommended",
+    "extraction_method": "automatic",
+    "notes": "JoSAA 2026 mapped institute. Explicit fee values extracted only; missing fields left null.",
+    "numeric_fields": [
+      "total_course_fee"
+    ],
+    "numeric_count": 1,
+    "audit_safe": false,
+    "audit_issues": [
+      "WEAK_SECONDARY_SINGLE_FIELD_PAGE"
+    ]
+  }
+]

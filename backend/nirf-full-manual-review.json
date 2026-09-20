@@ -1,0 +1,3152 @@
+[
+  {
+    "institute_id": "IR-E-U-0391",
+    "college_name": "Birla Institute of Technology & Science -Pilani",
+    "city": "Pilani",
+    "state": "Rajasthan",
+    "nirf_rank": 11,
+    "nirf_score": 67.02,
+    "rank_band": null,
+    "ranking_type": "exact",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "verification_status": "verified",
+    "best_score": 0.556,
+    "candidates": [
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "city": "Howrah",
+        "state": "West Bengal",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+        "database_name": "Shri G. S. Institute of Technology and Science Indore",
+        "city": "Indore",
+        "state": "Madhya Pradesh",
+        "name_score": 0.455,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "birla-institute-of-technology-mesra-ranchi",
+        "database_name": "Birla Institute of Technology, Mesra, Ranchi",
+        "city": "Ranchi",
+        "state": "Jharkhand",
+        "name_score": 0.444,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.444,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": "IR-E-U-0473",
+    "college_name": "S.R.M. Institute of Science and Technology",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "nirf_rank": 14,
+    "nirf_score": 65.83,
+    "rank_band": null,
+    "ranking_type": "exact",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "uptac-s-r-institute-of-management-technology-lucknow",
+        "database_name": "S.R.INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+        "database_name": "Shri G. S. Institute of Technology and Science Indore",
+        "city": "Indore",
+        "state": "Madhya Pradesh",
+        "name_score": 0.545,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "city": "Howrah",
+        "state": "West Bengal",
+        "name_score": 0.455,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-deewan-v-s-institute-of-engineering-technology-meerut-meerut",
+        "database_name": "DEEWAN V.S. INSTITUTE OF ENGINEERING & TECHNOLOGY, MEERUT,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.417,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": "IR-E-U-0205",
+    "college_name": "Indian Institute of Technology (Indian School of Mines)",
+    "city": "Dhanbad",
+    "state": "Jharkhand",
+    "nirf_rank": 15,
+    "nirf_score": 65.37,
+    "rank_band": null,
+    "ranking_type": "exact",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "verification_status": "verified",
+    "best_score": 0.571,
+    "candidates": [
+      {
+        "college_id": "indian-institute-of-technology-bhilai",
+        "database_name": "Indian Institute of Technology Bhilai",
+        "city": "Bhilai",
+        "state": "Chhattisgarh",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-bhubaneswar",
+        "database_name": "Indian Institute of Technology Bhubaneswar",
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-bombay",
+        "database_name": "Indian Institute of Technology Bombay",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-delhi",
+        "database_name": "Indian Institute of Technology Delhi",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-dharwad",
+        "database_name": "Indian Institute of Technology Dharwad",
+        "city": "Dharwad",
+        "state": "Karnataka",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": "IR-E-U-0490",
+    "college_name": "Vellore Institute of Technology",
+    "city": "Vellore",
+    "state": "Tamil Nadu",
+    "nirf_rank": 16,
+    "nirf_score": 65.25,
+    "rank_band": null,
+    "ranking_type": "exact",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "database_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": "IR-E-U-0139",
+    "college_name": "Indian Institute of Technology Gandhinagar",
+    "city": "Gandhinagar",
+    "state": "Gujarat",
+    "nirf_rank": 25,
+    "nirf_score": 62.31,
+    "rank_band": null,
+    "ranking_type": "exact",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "verification_status": "verified",
+    "best_score": 0.667,
+    "candidates": [
+      {
+        "college_id": "indian-institute-of-technology-bhilai",
+        "database_name": "Indian Institute of Technology Bhilai",
+        "city": "Bhilai",
+        "state": "Chhattisgarh",
+        "name_score": 0.667,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-bhubaneswar",
+        "database_name": "Indian Institute of Technology Bhubaneswar",
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "name_score": 0.667,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-bombay",
+        "database_name": "Indian Institute of Technology Bombay",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "name_score": 0.667,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-delhi",
+        "database_name": "Indian Institute of Technology Delhi",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "name_score": 0.667,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-dharwad",
+        "database_name": "Indian Institute of Technology Dharwad",
+        "city": "Dharwad",
+        "state": "Karnataka",
+        "name_score": 0.667,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": "IR-E-U-0014",
+    "college_name": "International Institute of Information Technology Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "nirf_rank": 38,
+    "nirf_score": 58.45,
+    "rank_band": null,
+    "ranking_type": "exact",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "verification_status": "verified",
+    "best_score": 0.714,
+    "candidates": [
+      {
+        "college_id": "international-institute-of-information-technology-bhubaneswar",
+        "database_name": "International Institute of Information Technology, Bhubaneswar",
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "international-institute-of-information-technology-naya-raipur",
+        "database_name": "International Institute of Information Technology, Naya Raipur",
+        "city": "Naya Raipur",
+        "state": "Chhattisgarh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-hyderabad",
+        "database_name": "Indian Institute of Technology Hyderabad",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "name_score": 0.571,
+        "city_match": true,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-meerut-international-institute-of-technology-meerut",
+        "database_name": "MEERUT INTERNATIONAL INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-bhagalpur",
+        "database_name": "Indian Institute of Information Technology Bhagalpur",
+        "city": "Bhagalpur",
+        "state": "Bihar",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": "IR-E-U-0308",
+    "college_name": "Institute of Chemical Technology",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "nirf_rank": 41,
+    "nirf_score": 57.96,
+    "rank_band": null,
+    "ranking_type": "exact",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "database_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": "IR-E-C-7252",
+    "college_name": "Manipal Institute of Technology",
+    "city": "Manipal",
+    "state": "Karnataka",
+    "nirf_rank": 59,
+    "nirf_score": 52.55,
+    "rank_band": null,
+    "ranking_type": "exact",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "database_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": "IR-E-U-0255",
+    "college_name": "Indian Institute of Space Science and Technology",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "nirf_rank": 61,
+    "nirf_score": 52.44,
+    "rank_band": null,
+    "ranking_type": "exact",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "verification_status": "verified",
+    "best_score": 0.667,
+    "candidates": [
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "city": "Howrah",
+        "state": "West Bengal",
+        "name_score": 0.667,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-science-bangalore",
+        "database_name": "Indian Institute of Science, Bangalore",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-bhilai",
+        "database_name": "Indian Institute of Technology Bhilai",
+        "city": "Bhilai",
+        "state": "Chhattisgarh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-bhubaneswar",
+        "database_name": "Indian Institute of Technology Bhubaneswar",
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": "IR-E-U-0105",
+    "college_name": "Indraprastha Institute of Information Technology",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "nirf_rank": 63,
+    "nirf_score": 51.33,
+    "rank_band": null,
+    "ranking_type": "exact",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "verification_status": "verified",
+    "best_score": 0.571,
+    "candidates": [
+      {
+        "college_id": "indian-institute-of-information-technology-bhagalpur",
+        "database_name": "Indian Institute of Information Technology Bhagalpur",
+        "city": "Bhagalpur",
+        "state": "Bihar",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-bhopal",
+        "database_name": "Indian Institute of Information Technology Bhopal",
+        "city": "Bhopal",
+        "state": "Madhya Pradesh",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-guwahati",
+        "database_name": "Indian Institute of Information Technology Guwahati",
+        "city": "Guwahati",
+        "state": "Assam",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-lucknow",
+        "database_name": "Indian Institute of Information Technology Lucknow",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-surat",
+        "database_name": "Indian Institute of Information Technology Surat",
+        "city": "Surat",
+        "state": "Gujarat",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": "IR-E-U-0474",
+    "college_name": "Sathyabama Institute of Science and Technology",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "nirf_rank": 67,
+    "nirf_score": 50.64,
+    "rank_band": null,
+    "ranking_type": "exact",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "verification_status": "verified",
+    "best_score": 0.625,
+    "candidates": [
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "city": "Howrah",
+        "state": "West Bengal",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-sitapur",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,SITAPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-aligarh",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,ALIGARH",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": "IR-E-U-0221",
+    "college_name": "International Institute of Information Technology Bangalore",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "nirf_rank": 69,
+    "nirf_score": 50.46,
+    "rank_band": null,
+    "ranking_type": "exact",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "verification_status": "verified",
+    "best_score": 0.714,
+    "candidates": [
+      {
+        "college_id": "international-institute-of-information-technology-bhubaneswar",
+        "database_name": "International Institute of Information Technology, Bhubaneswar",
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "international-institute-of-information-technology-naya-raipur",
+        "database_name": "International Institute of Information Technology, Naya Raipur",
+        "city": "Naya Raipur",
+        "state": "Chhattisgarh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-international-institute-of-technology-meerut",
+        "database_name": "MEERUT INTERNATIONAL INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-bhagalpur",
+        "database_name": "Indian Institute of Information Technology Bhagalpur",
+        "city": "Bhagalpur",
+        "state": "Bihar",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-bhopal",
+        "database_name": "Indian Institute of Information Technology Bhopal",
+        "city": "Bhopal",
+        "state": "Madhya Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": "IR-E-U-0017",
+    "college_name": "Jawaharlal Nehru Technological University",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "nirf_rank": 94,
+    "nirf_score": 46.74,
+    "rank_band": null,
+    "ranking_type": "exact",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "jawaharlal-nehru-university-delhi",
+        "database_name": "Jawaharlal Nehru University, Delhi",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "name_score": 0.4,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "puducherry-technological-university-puducherry",
+        "database_name": "Puducherry Technological University, Puducherry",
+        "city": "Puducherry",
+        "state": "Puducherry",
+        "name_score": 0.4,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "coep-pune",
+        "database_name": "COEP Technological University, Pune",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "name_score": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-kamla-nehru-institute-of-technology-sultanpur",
+        "database_name": "KAMLA NEHRU INSTITUTE OF TECHNOLOGY,SULTANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.25,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": "IR-E-C-36995",
+    "college_name": "Sri Krishna College of Engineering and Technology",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "nirf_rank": 100,
+    "nirf_score": 45.55,
+    "rank_band": null,
+    "ranking_type": "exact",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "verification_status": "verified",
+    "best_score": 0.556,
+    "candidates": [
+      {
+        "college_id": "uptac-naraina-college-of-engineering-technology-kanpur",
+        "database_name": "NARAINA COLLEGE OF ENGINEERING & TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-neelam-college-of-engineering-technology-agra",
+        "database_name": "NEELAM COLLEGE OF ENGINEERING & TECHNOLOGY,AGRA",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-sanskar-college-of-engineering-technology-ghaziabad",
+        "database_name": "SANSKAR COLLEGE OF ENGINEERING & TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-sri-rammurti-smarak-college-of-engineering-technology-research-bareilly",
+        "database_name": "SRI RAMMURTI SMARAK COLLEGE OF ENGINEERING TECHNOLOGY & RESEARCH,BAREILLY",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.545,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+        "database_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Chennai Institute of Technology",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "101-150",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 101-150",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "database_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Coimbatore Institute of Technology",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "101-150",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 101-150",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "database_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Gandhi Institute of Technology And Management (GITAM)",
+    "city": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "101-150",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 101-150",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html",
+    "verification_status": "verified",
+    "best_score": 0.625,
+    "candidates": [
+      {
+        "college_id": "uptac-institute-of-technology-management-aligarh",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,ALIGARH",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-gorakhpur",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,GORAKHPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-lucknow",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-maharajganj",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,MAHARAJGANJ",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+        "database_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Hindustan Institute of Technology and Science (HITS)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "101-150",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 101-150",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html",
+    "verification_status": "verified",
+    "best_score": 0.556,
+    "candidates": [
+      {
+        "college_id": "uptac-hindustan-college-of-science-technology-mathura",
+        "database_name": "HINDUSTAN COLLEGE OF SCIENCE & TECHNOLOGY,MATHURA",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "city": "Howrah",
+        "state": "West Bengal",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+        "database_name": "Shri G. S. Institute of Technology and Science Indore",
+        "city": "Indore",
+        "state": "Madhya Pradesh",
+        "name_score": 0.455,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.444,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Jawaharlal Nehru Technological University",
+    "city": "Kakinada",
+    "state": "Andhra Pradesh",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "101-150",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 101-150",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "jawaharlal-nehru-university-delhi",
+        "database_name": "Jawaharlal Nehru University, Delhi",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "name_score": 0.4,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "puducherry-technological-university-puducherry",
+        "database_name": "Puducherry Technological University, Puducherry",
+        "city": "Puducherry",
+        "state": "Puducherry",
+        "name_score": 0.4,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "coep-pune",
+        "database_name": "COEP Technological University, Pune",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "name_score": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-kamla-nehru-institute-of-technology-sultanpur",
+        "database_name": "KAMLA NEHRU INSTITUTE OF TECHNOLOGY,SULTANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.25,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Jaypee Institute of Information Technology",
+    "city": "Noida",
+    "state": "Uttar Pradesh",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "101-150",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 101-150",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html",
+    "verification_status": "verified",
+    "best_score": 0.571,
+    "candidates": [
+      {
+        "college_id": "indian-institute-of-information-technology-bhagalpur",
+        "database_name": "Indian Institute of Information Technology Bhagalpur",
+        "city": "Bhagalpur",
+        "state": "Bihar",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-bhopal",
+        "database_name": "Indian Institute of Information Technology Bhopal",
+        "city": "Bhopal",
+        "state": "Madhya Pradesh",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-guwahati",
+        "database_name": "Indian Institute of Information Technology Guwahati",
+        "city": "Guwahati",
+        "state": "Assam",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-lucknow",
+        "database_name": "Indian Institute of Information Technology Lucknow",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-surat",
+        "database_name": "Indian Institute of Information Technology Surat",
+        "city": "Surat",
+        "state": "Gujarat",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "KPR Institute of Engineering and Technology",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "101-150",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 101-150",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html",
+    "verification_status": "verified",
+    "best_score": 0.714,
+    "candidates": [
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-sitapur",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,SITAPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lloyd-institute-of-engineering-and-technology",
+        "database_name": "LLOYD INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-engineering-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-azad-institute-of-engineering-technology-lucknow",
+        "database_name": "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Noida Institute of Engineering & Technology",
+    "city": "Greater Noida",
+    "state": "Uttar Pradesh",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "101-150",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 101-150",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html",
+    "verification_status": "verified",
+    "best_score": 0.714,
+    "candidates": [
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-sitapur",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,SITAPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-lloyd-institute-of-engineering-and-technology",
+        "database_name": "LLOYD INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-engineering-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-azad-institute-of-engineering-technology-lucknow",
+        "database_name": "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Siddaganga Institute of Technology",
+    "city": "Tumkur",
+    "state": "Karnataka",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "101-150",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 101-150",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "database_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "B.M.S. College of Engineering",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "151-200",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 151-200",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html",
+    "verification_status": "verified",
+    "best_score": 0.556,
+    "candidates": [
+      {
+        "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+        "database_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-b-s-a-college-of-engineering-technology-mathura",
+        "database_name": "B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY,MATHURA",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-i-m-s-engineering-college-ghaziabad",
+        "database_name": "I.M.S. ENGINEERING COLLEGE,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-s-d-college-of-engineering-technology-muzaffarnagar",
+        "database_name": "S.D.COLLEGE OF ENGINEERING & TECHNOLOGY,MUZAFFARNAGAR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.4,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-eshan-college-of-engineering-mathura",
+        "database_name": "ESHAN COLLEGE OF ENGINEERING,MATHURA",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.375,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "G.L.Bajaj Institute of Technology and Management",
+    "city": "Greater Noida",
+    "state": "Uttar Pradesh",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "151-200",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 151-200",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html",
+    "verification_status": "verified",
+    "best_score": 0.727,
+    "candidates": [
+      {
+        "college_id": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+        "database_name": "G.L. BAJAJ INSTITUTE OF TECHNOLOGY & MANAGEMENT,GAUTAM BUDDH NAGAR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.727,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-aligarh",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,ALIGARH",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-gorakhpur",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,GORAKHPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-lucknow",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-maharajganj",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,MAHARAJGANJ",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Goka Raju Ranga Raju Institute of Engineering & Technology",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "151-200",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 151-200",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html",
+    "verification_status": "verified",
+    "best_score": 0.556,
+    "candidates": [
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-sitapur",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,SITAPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lloyd-institute-of-engineering-and-technology",
+        "database_name": "LLOYD INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-engineering-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-azad-institute-of-engineering-technology-lucknow",
+        "database_name": "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Institute of Engineering & Management",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "151-200",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 151-200",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html",
+    "verification_status": "verified",
+    "best_score": 0.625,
+    "candidates": [
+      {
+        "college_id": "uptac-sunrise-institute-of-engineering-technical-management-unnao",
+        "database_name": "SUNRISE INSTITUTE OF ENGINEERING TECHNICAL & MANAGEMENT,UNNAO",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-sitapur",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,SITAPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-aligarh",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,ALIGARH",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-gorakhpur",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,GORAKHPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Jawaharlal Nehru Technological University",
+    "city": "Ananthapuramu",
+    "state": "Andhra Pradesh",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "151-200",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 151-200",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "jawaharlal-nehru-university-delhi",
+        "database_name": "Jawaharlal Nehru University, Delhi",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "name_score": 0.4,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "puducherry-technological-university-puducherry",
+        "database_name": "Puducherry Technological University, Puducherry",
+        "city": "Puducherry",
+        "state": "Puducherry",
+        "name_score": 0.4,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "coep-pune",
+        "database_name": "COEP Technological University, Pune",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "name_score": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-kamla-nehru-institute-of-technology-sultanpur",
+        "database_name": "KAMLA NEHRU INSTITUTE OF TECHNOLOGY,SULTANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.25,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "NMAM Institute of Technology",
+    "city": "Nitte, Udupi",
+    "state": "Karnataka",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "151-200",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 151-200",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "database_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Vignan Institute of Technology and Science",
+    "city": "Yadadri-Bhuvangiri",
+    "state": "Telangana",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "151-200",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 151-200",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html",
+    "verification_status": "verified",
+    "best_score": 0.625,
+    "candidates": [
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "city": "Howrah",
+        "state": "West Bengal",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-sitapur",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,SITAPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-aligarh",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,ALIGARH",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Aditya Institute of Technology and Management",
+    "city": "Tekkali",
+    "state": "Andhra Pradesh",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.714,
+    "candidates": [
+      {
+        "college_id": "uptac-institute-of-technology-management-aligarh",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,ALIGARH",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-gorakhpur",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,GORAKHPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-lucknow",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-maharajganj",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,MAHARAJGANJ",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+        "database_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Army Institute of Technology",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "database_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "BMS Institute of Technology & Management",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.714,
+    "candidates": [
+      {
+        "college_id": "uptac-institute-of-technology-management-aligarh",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,ALIGARH",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-gorakhpur",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,GORAKHPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-lucknow",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-maharajganj",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,MAHARAJGANJ",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+        "database_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Chandigarh Engineering College Jhanjeri",
+    "city": "Sahibzada Ajit Singh Nagar",
+    "state": "Punjab",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "punjab-engineering-college-chandigarh",
+        "database_name": "Punjab Engineering College, Chandigarh",
+        "city": "Chandigarh",
+        "state": "Chandigarh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "goa-engineering-college",
+        "database_name": "Goa Engineering College",
+        "city": "Ponda",
+        "state": "Goa",
+        "name_score": 0.4,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-fit-engineering-college-meerut",
+        "database_name": "FIT ENGINEERING COLLEGE,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-rajkiya-engineering-college-azamgarh",
+        "database_name": "RAJKIYA ENGINEERING COLLEGE,AZAMGARH",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-rajkiya-engineering-college-banda",
+        "database_name": "RAJKIYA ENGINEERING COLLEGE,BANDA",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.333,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "CMR College of Engineering & Technology",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.625,
+    "candidates": [
+      {
+        "college_id": "uptac-naraina-college-of-engineering-technology-kanpur",
+        "database_name": "NARAINA COLLEGE OF ENGINEERING & TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-neelam-college-of-engineering-technology-agra",
+        "database_name": "NEELAM COLLEGE OF ENGINEERING & TECHNOLOGY,AGRA",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-sanskar-college-of-engineering-technology-ghaziabad",
+        "database_name": "SANSKAR COLLEGE OF ENGINEERING & TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+        "database_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-rakshpal-bahadur-college-of-engineering-technology-bareilly",
+        "database_name": "RAKSHPAL BAHADUR COLLEGE OF ENGINEERING & TECHNOLOGY,BAREILLY",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "College of Engineering & Technology, Bhubaneswar",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.625,
+    "candidates": [
+      {
+        "college_id": "uptac-naraina-college-of-engineering-technology-kanpur",
+        "database_name": "NARAINA COLLEGE OF ENGINEERING & TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-neelam-college-of-engineering-technology-agra",
+        "database_name": "NEELAM COLLEGE OF ENGINEERING & TECHNOLOGY,AGRA",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-sanskar-college-of-engineering-technology-ghaziabad",
+        "database_name": "SANSKAR COLLEGE OF ENGINEERING & TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+        "database_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-rakshpal-bahadur-college-of-engineering-technology-bareilly",
+        "database_name": "RAKSHPAL BAHADUR COLLEGE OF ENGINEERING & TECHNOLOGY,BAREILLY",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Galgotias College of Engineering & Technology",
+    "city": "Greater Noida",
+    "state": "Uttar Pradesh",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.625,
+    "candidates": [
+      {
+        "college_id": "uptac-naraina-college-of-engineering-technology-kanpur",
+        "database_name": "NARAINA COLLEGE OF ENGINEERING & TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-neelam-college-of-engineering-technology-agra",
+        "database_name": "NEELAM COLLEGE OF ENGINEERING & TECHNOLOGY,AGRA",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-sanskar-college-of-engineering-technology-ghaziabad",
+        "database_name": "SANSKAR COLLEGE OF ENGINEERING & TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+        "database_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-rakshpal-bahadur-college-of-engineering-technology-bareilly",
+        "database_name": "RAKSHPAL BAHADUR COLLEGE OF ENGINEERING & TECHNOLOGY,BAREILLY",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "GMR Institute of Technology",
+    "city": "Rajam",
+    "state": "Andhra Pradesh",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "database_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Godavari Institute of Engineering & Technology",
+    "city": "Rajahmundry",
+    "state": "Andhra Pradesh",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.714,
+    "candidates": [
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-sitapur",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,SITAPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lloyd-institute-of-engineering-and-technology",
+        "database_name": "LLOYD INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-engineering-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-azad-institute-of-engineering-technology-lucknow",
+        "database_name": "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Hindusthan College of Engineering and Technology",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.625,
+    "candidates": [
+      {
+        "college_id": "uptac-naraina-college-of-engineering-technology-kanpur",
+        "database_name": "NARAINA COLLEGE OF ENGINEERING & TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-neelam-college-of-engineering-technology-agra",
+        "database_name": "NEELAM COLLEGE OF ENGINEERING & TECHNOLOGY,AGRA",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-sanskar-college-of-engineering-technology-ghaziabad",
+        "database_name": "SANSKAR COLLEGE OF ENGINEERING & TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+        "database_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-rakshpal-bahadur-college-of-engineering-technology-bareilly",
+        "database_name": "RAKSHPAL BAHADUR COLLEGE OF ENGINEERING & TECHNOLOGY,BAREILLY",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Kakatiya Institute of Technology & Science",
+    "city": "Warangal",
+    "state": "Telangana",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.625,
+    "candidates": [
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "city": "Howrah",
+        "state": "West Bengal",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-sitapur",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,SITAPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-aligarh",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,ALIGARH",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Madanapalle Institute of Technology & Science",
+    "city": "Madanapalle",
+    "state": "Andhra Pradesh",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.625,
+    "candidates": [
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "city": "Howrah",
+        "state": "West Bengal",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-sitapur",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,SITAPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-aligarh",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,ALIGARH",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "MLR Institute of Technology",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "database_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Narula Institute of Technology",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "database_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "PSNA College of Engineering and Technology, Dindigul",
+    "city": "Dindigul",
+    "state": "Tamil Nadu",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.556,
+    "candidates": [
+      {
+        "college_id": "uptac-naraina-college-of-engineering-technology-kanpur",
+        "database_name": "NARAINA COLLEGE OF ENGINEERING & TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-neelam-college-of-engineering-technology-agra",
+        "database_name": "NEELAM COLLEGE OF ENGINEERING & TECHNOLOGY,AGRA",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-sanskar-college-of-engineering-technology-ghaziabad",
+        "database_name": "SANSKAR COLLEGE OF ENGINEERING & TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+        "database_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-rakshpal-bahadur-college-of-engineering-technology-bareilly",
+        "database_name": "RAKSHPAL BAHADUR COLLEGE OF ENGINEERING & TECHNOLOGY,BAREILLY",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "QIS College of Engineering & Technology",
+    "city": "Ongole",
+    "state": "Andhra Pradesh",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.625,
+    "candidates": [
+      {
+        "college_id": "uptac-naraina-college-of-engineering-technology-kanpur",
+        "database_name": "NARAINA COLLEGE OF ENGINEERING & TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-neelam-college-of-engineering-technology-agra",
+        "database_name": "NEELAM COLLEGE OF ENGINEERING & TECHNOLOGY,AGRA",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-sanskar-college-of-engineering-technology-ghaziabad",
+        "database_name": "SANSKAR COLLEGE OF ENGINEERING & TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+        "database_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-rakshpal-bahadur-college-of-engineering-technology-bareilly",
+        "database_name": "RAKSHPAL BAHADUR COLLEGE OF ENGINEERING & TECHNOLOGY,BAREILLY",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "R.M.D Engineering College",
+    "city": "Thiruvallur",
+    "state": "Tamil Nadu",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.667,
+    "candidates": [
+      {
+        "college_id": "uptac-r-d-engineering-college-ghaziabad",
+        "database_name": "R.D.ENGINEERING COLLEGE,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.667,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-r-d-engineering-college-research-centre-ghaziabad",
+        "database_name": "R.D.ENGINEERING COLLEGE RESEARCH CENTRE,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-i-m-s-engineering-college-ghaziabad",
+        "database_name": "I.M.S. ENGINEERING COLLEGE,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.375,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "goa-engineering-college",
+        "database_name": "Goa Engineering College",
+        "city": "Ponda",
+        "state": "Goa",
+        "name_score": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-s-d-college-of-engineering-technology-muzaffarnagar",
+        "database_name": "S.D.COLLEGE OF ENGINEERING & TECHNOLOGY,MUZAFFARNAGAR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.3,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Rajalakshmi Institute of Technology",
+    "city": "Thiruvallur",
+    "state": "Tamil Nadu",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.6,
+    "candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "database_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Sikkim Manipal Institute of Technology (SMIT)",
+    "city": "Rangpo",
+    "state": "Sikkim",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.571,
+    "candidates": [
+      {
+        "college_id": "national-institute-of-technology-sikkim",
+        "database_name": "National Institute of Technology Sikkim",
+        "city": "Ravangla",
+        "state": "Sikkim",
+        "name_score": 0.571,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.429,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.429,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.429,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.429,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "institute_id": null,
+    "college_name": "Sri Venkateswara College of Engineering and Technology",
+    "city": "Chittoor",
+    "state": "Andhra Pradesh",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "rank_band": "201-300",
+    "ranking_type": "band",
+    "academic_year": 2025,
+    "category": "Engineering",
+    "source_label": "NIRF 2025 Engineering 201-300",
+    "source_url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html",
+    "verification_status": "verified",
+    "best_score": 0.556,
+    "candidates": [
+      {
+        "college_id": "uptac-naraina-college-of-engineering-technology-kanpur",
+        "database_name": "NARAINA COLLEGE OF ENGINEERING & TECHNOLOGY,KANPUR",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-neelam-college-of-engineering-technology-agra",
+        "database_name": "NEELAM COLLEGE OF ENGINEERING & TECHNOLOGY,AGRA",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-sanskar-college-of-engineering-technology-ghaziabad",
+        "database_name": "SANSKAR COLLEGE OF ENGINEERING & TECHNOLOGY,GHAZIABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-sri-rammurti-smarak-college-of-engineering-technology-research-bareilly",
+        "database_name": "SRI RAMMURTI SMARAK COLLEGE OF ENGINEERING TECHNOLOGY & RESEARCH,BAREILLY",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.545,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+        "database_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+        "city": "Uttar Pradesh",
+        "state": "Uttar Pradesh",
+        "name_score": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  }
+]

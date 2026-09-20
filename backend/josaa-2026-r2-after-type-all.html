@@ -1,0 +1,689 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head><link href="../App_Themes/NewTheme/css/bootstrap.min.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/NewTheme/css/chosen.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/NewTheme/css/chosen_New.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/NewTheme/css/style.css" type="text/css" rel="stylesheet" /><title>
+	JoSAA
+</title><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><link rel="icon" href="../images/favicon.ico" type="image/x-icon" /><link href="../FaIcons/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="../Bootstrap5/js/bootstrap.bundle.min.js"></script>
+    <script src="../Scripts/jquery-3.5.1.min.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript" src="../Scripts/Common.js"></script>
+    <script language="javascript" type="text/javascript">
+        window.history.forward(); function noBack() { window.history.forward(); }
+        function burstCache() {
+            if (!navigator.onLine) {
+                window.location = "../SessionExpire.htm";
+            }
+        }
+        history.go(1);
+    </script>
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="./CurrentORCR.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm" autocomplete="off">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/Applicant/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZKg2M3zHCwGO1-6eKoPnj0rI7fywUOiU7IXjO5HFqNWjSPuKgg2&amp;t=639191031332169432" type="text/javascript"></script>
+
+
+<script src="/Applicant/WebResource.axd?d=x2nkrMJGXkMELz33nwnakFFWM7UD_32h-1mtUnVwFS8Fx5joAQ3d-ySHlc1bYeaSAMdda5w5FQMOMPs9uSMzncyOkwc1&amp;t=639191031332169432" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9CC9AD0F" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+</div>
+        <input type="hidden" name="ctl00$hdnSecKey" id="ctl00_hdnSecKey" />
+        <section class="headerfirst">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-12">
+                        <img src="../Images/jossa_logo.png" class="img-fluid pull-left" alt="" />
+                    </div>
+                    <div class="col-xl-8 col-lg-6 col-md-6 col-sm-12">
+                        <h1 class="text-center pt-2">
+                            <span id="ctl00_lblCounsellingBoardHeader">Joint Seat Allocation Authority 2026</span>
+                        </h1>
+                        <h3 class="text-center pb-2">
+                            <span id="ctl00_lblCounsellingBoardHeaderDesc">IITs, IISc, NITs, IIEST, IIITs and Other-GFTIs for the Academic Year 2026-27</span>
+                        </h3>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-12">
+                        <img src="../Images/e-counsellig-logo2020.png" class="img-fluid pull-right pt-2 pb-1" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-custom p-0">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="../Root/CandidateLogin.aspx" id="ctl00_lnkHome" class="nav-link" aria-current="page">
+                                <i class="fa fa-home"></i>&nbsp;Home
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li  class="nav-item">
+                             <a id="ctl00_BtnCscLogin" class="nav-link" href="javascript:__doPostBack(&#39;ctl00$BtnCscLogin&#39;,&#39;&#39;)">
+                                 <i class="fa fa-sign-in"></i> CSC Login
+                             </a>                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!---------------Start Script to Use active class in Each menu --------------->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var url = window.location;
+                $('ul.navbar-nav li a').each(function () {
+                    if (this.href == url) {
+                        $("ul.nav li a").each(function () {
+                            if ($(this).hasClass("active")) {
+                                $(this).removeClass("active");
+                            }
+                        });
+                        $(this).addClass('active');
+                        //$(this).parents().addClass('active');
+                    }
+
+                });
+
+            });
+        </script>
+        <!---------------End Script to Use active class in Each menu --------------->
+        
+    <div class="container-fluid contentmid">
+        <div class="contentmiddivChoice">
+            <h4>Opening and Closing Ranks
+            </h4>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fs-7 fw-bold text-xl-end text-lg-end">
+                    Round No
+                </label>
+                <div class="col-sm-4">
+                    <select name="ctl00$ContentPlaceHolder1$ddlroundno" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlroundno\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ContentPlaceHolder1_ddlroundno" class="chosen-select">
+	<option value="0">--Select--</option>
+	<option value="1">1</option>
+	<option selected="selected" value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+
+</select>
+                    <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator1" style="color:Red;font-size:Small;display:none;">Required ?</span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fs-7 fw-bold text-xl-end text-lg-end">
+                    Institute Type
+                </label>
+                <div class="col-sm-4">
+                    <select name="ctl00$ContentPlaceHolder1$ddlInstype" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlInstype\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ContentPlaceHolder1_ddlInstype" class="chosen-select">
+	<option value="0">--Select--</option>
+	<option selected="selected" value="ALL">ALL</option>
+	<option value="CFI">Government Funded Technical Institutions</option>
+	<option value="IIT">Indian Institute of Technology</option>
+	<option value="3IT">Indian Institute of Information Technology</option>
+	<option value="NIT">National Institute of Technology</option>
+
+</select>
+                    <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator2" style="color:Red;font-size:Small;display:none;">Required ?</span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fs-7 fw-bold text-xl-end text-lg-end">
+                    Institute Name
+                </label>
+                <div class="col-sm-4">
+                    <select name="ctl00$ContentPlaceHolder1$ddlInstitute" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlInstitute\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ContentPlaceHolder1_ddlInstitute" class="chosen-select">
+	<option selected="selected" value="0">--Select--</option>
+	<option value="ALL">ALL</option>
+	<option value="101">Indian Institute  of Technology Bhubaneswar</option>
+	<option value="102">Indian Institute  of Technology Bombay</option>
+	<option value="103">Indian Institute  of Technology Mandi</option>
+	<option value="104">Indian Institute  of Technology Delhi</option>
+	<option value="105">Indian Institute  of Technology Indore</option>
+	<option value="106">Indian Institute  of Technology Kharagpur</option>
+	<option value="107">Indian Institute  of Technology Hyderabad</option>
+	<option value="108">Indian Institute  of Technology Jodhpur</option>
+	<option value="109">Indian Institute  of Technology Kanpur</option>
+	<option value="110">Indian Institute  of Technology Madras</option>
+	<option value="111">Indian Institute  of Technology Gandhinagar</option>
+	<option value="112">Indian Institute  of Technology Patna</option>
+	<option value="113">Indian Institute  of Technology Roorkee</option>
+	<option value="114">Indian Institute  of Technology (ISM) Dhanbad</option>
+	<option value="115">Indian Institute  of Technology Ropar</option>
+	<option value="116">Indian Institute  of Technology (BHU) Varanasi</option>
+	<option value="117">Indian Institute  of Technology Guwahati</option>
+	<option value="118">Indian Institute of Technology Bhilai</option>
+	<option value="119">Indian Institute of Technology Goa</option>
+	<option value="120">Indian Institute  of Technology Palakkad</option>
+	<option value="121">Indian Institute  of Technology Tirupati</option>
+	<option value="122">Indian Institute of Technology Jammu</option>
+	<option value="123">Indian Institute of Technology Dharwad</option>
+	<option value="124">Indian Institute of Science, Bangalore</option>
+	<option value="201">Dr. B R Ambedkar National Institute of Technology, Jalandhar</option>
+	<option value="202">Malaviya National Institute of Technology Jaipur</option>
+	<option value="203">Maulana Azad National Institute of Technology Bhopal</option>
+	<option value="204">Motilal Nehru National Institute of Technology Allahabad</option>
+	<option value="205">National Institute of Technology  Agartala</option>
+	<option value="206">National Institute of Technology Calicut</option>
+	<option value="207">National Institute of Technology Delhi</option>
+	<option value="208">National Institute of Technology Durgapur</option>
+	<option value="209">National Institute of Technology Goa</option>
+	<option value="210">National Institute of Technology Hamirpur</option>
+	<option value="211">National Institute of Technology Karnataka, Surathkal</option>
+	<option value="212">National Institute of Technology Meghalaya</option>
+	<option value="213">National Institute of Technology Nagaland</option>
+	<option value="214">National Institute of Technology Patna</option>
+	<option value="215">National Institute of Technology Puducherry</option>
+	<option value="216">National Institute of Technology Raipur</option>
+	<option value="217">National Institute of Technology Sikkim</option>
+	<option value="218">National Institute of Technology Arunachal Pradesh </option>
+	<option value="219">National Institute of Technology, Jamshedpur</option>
+	<option value="220">National Institute of Technology, Kurukshetra</option>
+	<option value="221">National Institute of Technology, Manipur</option>
+	<option value="222">National Institute of Technology, Mizoram</option>
+	<option value="223">National Institute of Technology, Rourkela</option>
+	<option value="224">National Institute of Technology, Silchar</option>
+	<option value="225">National Institute of Technology, Srinagar</option>
+	<option value="226">National Institute of Technology, Tiruchirappalli</option>
+	<option value="227">National Institute of Technology, Uttarakhand</option>
+	<option value="228">National Institute of Technology, Warangal</option>
+	<option value="229">Sardar Vallabhbhai National Institute of Technology, Surat</option>
+	<option value="230">Visvesvaraya National Institute of Technology, Nagpur</option>
+	<option value="231">National Institute of Technology, Andhra Pradesh</option>
+	<option value="232">Indian Institute of Engineering Science and Technology, Shibpur</option>
+	<option value="301">Atal Bihari Vajpayee Indian Institute of Information Technology &amp; Management Gwalior</option>
+	<option value="302">Indian Institute of Information Technology (IIIT)Kota, Rajasthan</option>
+	<option value="303">Indian Institute of Information Technology Guwahati</option>
+	<option value="304">Indian Institute of Information Technology(IIIT) Kalyani, West Bengal</option>
+	<option value="305">Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana</option>
+	<option value="306">Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh</option>
+	<option value="307">Indian Institute of Information Technology (IIIT), Sri City, Chittoor</option>
+	<option value="308">Indian Institute of Information Technology(IIIT), Vadodara, Gujrat</option>
+	<option value="309">Indian Institute of Information Technology, Allahabad</option>
+	<option value="310">Indian Institute of Information Technology, Design &amp; Manufacturing, Kancheepuram</option>
+	<option value="311">Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design &amp; Manufacture Jabalpur</option>
+	<option value="313">INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR</option>
+	<option value="314">Indian Institute of Information Technology Tiruchirappalli</option>
+	<option value="315">Indian Institute of Information Technology Lucknow</option>
+	<option value="316">Indian Institute of Information Technology(IIIT) Dharwad </option>
+	<option value="317">Indian Institute of Information Technology Design &amp; Manufacturing Kurnool, Andhra Pradesh</option>
+	<option value="318">Indian Institute of Information Technology(IIIT) Kottayam</option>
+	<option value="319">Indian Institute of Information Technology (IIIT) Ranchi</option>
+	<option value="320">Indian Institute of Information Technology (IIIT) Nagpur</option>
+	<option value="321">Indian Institute of Information Technology (IIIT) Pune</option>
+	<option value="322">Indian Institute of Information Technology Bhagalpur</option>
+	<option value="323">Indian Institute of Information Technology Bhopal</option>
+	<option value="324">Indian Institute of Information Technology Surat</option>
+	<option value="325">Indian Institute of Information Technology, Agartala</option>
+	<option value="326">Indian institute of information technology, Raichur, Karnataka</option>
+	<option value="327">Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)</option>
+	<option value="401">Assam University, Silchar</option>
+	<option value="402">Birla Institute of Technology, Mesra,  Ranchi</option>
+	<option value="403">Gurukula Kangri Vishwavidyalaya, Haridwar</option>
+	<option value="404">Indian Institute of Carpet Technology,  Bhadohi</option>
+	<option value="405">Institute of Infrastructure, Technology, Research and Management-Ahmedabad</option>
+	<option value="406">School of Studies of Engineering and Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur</option>
+	<option value="407">J.K. Institute of Applied Physics &amp; Technology, Department of Electronics &amp; Communication, University of Allahabad- Allahabad</option>
+	<option value="408">National Institute of Electronics and Information Technology, Aurangabad (Maharashtra)</option>
+	<option value="409">National Institute of Advanced Manufacturing Technology, Ranchi</option>
+	<option value="410">Sant Longowal Institute of Engineering and Technology</option>
+	<option value="411">Mizoram University, Aizawl</option>
+	<option value="412">School of Engineering, Tezpur University, Napaam, Tezpur</option>
+	<option value="413">School of Planning &amp; Architecture, Bhopal</option>
+	<option value="414">School of Planning &amp; Architecture, New Delhi</option>
+	<option value="415">School of Planning &amp; Architecture: Vijayawada</option>
+	<option value="416">Shri Mata Vaishno Devi University, Katra, Jammu &amp; Kashmir</option>
+	<option value="420">International Institute of Information Technology, Naya Raipur</option>
+	<option value="421">University of Hyderabad</option>
+	<option value="422">Punjab Engineering College, Chandigarh</option>
+	<option value="423">Jawaharlal Nehru University, Delhi</option>
+	<option value="424">International Institute of Information Technology, Bhubaneswar</option>
+	<option value="425">Central institute of Technology Kokrajar, Assam</option>
+	<option value="426">Puducherry Technological University, Puducherry</option>
+	<option value="427">Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal</option>
+	<option value="428">Central University of Rajasthan, Rajasthan</option>
+	<option value="430">National Institute of Food Technology Entrepreneurship and Management, Kundli</option>
+	<option value="431">National Institute of Food Technology Entrepreneurship and Management, Thanjavur</option>
+	<option value="432">North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh
+</option>
+	<option value="433">Indian Institute of Handloom Technology(IIHT), Varanasi</option>
+	<option value="434">Chhattisgarh Swami Vivekanada Technical University, Bhilai (CSVTU Bhilai)</option>
+	<option value="435">Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar</option>
+	<option value="436">North-Eastern Hill University, Shillong</option>
+	<option value="437">Central University of Jammu</option>
+	<option value="438">Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)</option>
+	<option value="439">Central University of Haryana</option>
+	<option value="440">Birla Institute of Technology, Deoghar Off-Campus</option>
+	<option value="441">Birla Institute of Technology, Patna Off-Campus</option>
+	<option value="442">Indian Institute of Handloom Technology, Salem</option>
+	<option value="443">Gati Shakti Vishwavidyalaya, Vadodara</option>
+	<option value="444">CU Jharkhand</option>
+	<option value="445">National Institute of Electronics and Information Technology, Ropar (Punjab)</option>
+	<option value="446">National Institute of Electronics and Information Technology, Patna (Bihar)</option>
+	<option value="447">National Institute of Electronics and Information Technology, Ajmer (Rajasthan)</option>
+	<option value="448">National Institute of Electronics and Information Technology, Gorakhpur (UP)</option>
+	<option value="449">Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)</option>
+	<option value="450">Islamic University of Science and Technology Kashmir</option>
+	<option value="451">Shri G. S. Institute of Technology and Science Indore</option>
+	<option value="452">National Institute of Technical Teachers Training and Research Bhopal</option>
+	<option value="453">Central University of Karnataka</option>
+	<option value="454">National Institute of Electronics and Information Technology, Agartala</option>
+	<option value="455">National Institute of Electronics and Information Technology, Aizawl</option>
+	<option value="456">National Institute of Electronics and Information Technology, Imphal</option>
+	<option value="457">National Institute of Electronics and Information Technology, Calicut</option>
+	<option value="458">National Institute of Electronics and Information Technology, Kohima</option>
+	<option value="459">National Institute of Electronics and Information Technology, Srinagar</option>
+	<option value="460">Central University of Punjab, Bathinda</option>
+
+</select>
+                    <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator3" style="color:Red;font-size:Small;display:none;">Required ?</span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fs-7 fw-bold text-xl-end text-lg-end">
+                    Academic Program
+                </label>
+                <div class="col-sm-4">
+                    <select name="ctl00$ContentPlaceHolder1$ddlBranch" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlBranch\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ContentPlaceHolder1_ddlBranch" class="chosen-select">
+
+</select>
+                    <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator4" style="color:Red;font-size:Small;display:none;">Required ?</span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label fs-7 fw-bold text-xl-end text-lg-end">
+                    Seat Type / Category
+                </label>
+                <div class="col-sm-4">
+                    <select name="ctl00$ContentPlaceHolder1$ddlSeattype" id="ctl00_ContentPlaceHolder1_ddlSeattype" class="chosen-select">
+
+</select>
+                    <span id="ctl00_ContentPlaceHolder1_RequiredFieldValidator5" style="color:Red;font-size:Small;display:none;">Required ?</span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-12 text-center">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnSubmit&quot;, &quot;&quot;, true, &quot;sub&quot;, &quot;&quot;, false, false))" id="ctl00_ContentPlaceHolder1_btnSubmit" class="btn btn-primary" />
+                </div>
+            </div>
+        </div>
+        <div class="contentmiddivChoice fs-7">
+            <div class="col-sm-12">
+                <p class="text-primary text-center">
+                    Opening/Closing Ranks for Open Seats represent CRL. Opening/Closing Ranks for EWS, OBC-NCL, SC and ST Seats represent respective Category Ranks. Opening/Closing Ranks for PwD Seats represent PwD Ranks within Respective Categories.
+                </p>
+                <p class="text-danger fw-bold text-center">
+                    If the Closing/Opening rank has a suffix 'P', it indicates that the corresponding rank is from Preparatory Rank List.
+                </p>
+            </div>
+            <div id="ctl00_ContentPlaceHolder1_pnlDisplayDetails">
+	
+                <div class="table-responsive">
+                    <div>
+
+	</div>
+                </div>
+            
+</div>
+        </div>
+        
+
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ChangeInPage = false;
+
+            $('#ctl00_ContentPlaceHolder1_ddlInstitute_chosen').click(function () {
+                ChangeInPage = true;
+                var instcdType = $('#ctl00_ContentPlaceHolder1_ddlInstitute').val().substring(0, 1);
+                if (instcdType != 0)
+                    $('#ctl00_ContentPlaceHolder1_chkInstituteList_' + (parseInt(instcdType) - 1)).prop('checked', true);
+                //FilterSeat();
+            });
+
+            $('#ctl00_ContentPlaceHolder1_ddlBranch_chosen').click(function () {
+                ChangeInPage = true;
+                var brcdType = $('#ctl00_ContentPlaceHolder1_ddlBranch').val().substring(0, 1);
+                if (brcdType != 0)
+                    $('#ctl00_ContentPlaceHolder1_chkCourseDuration_' + (parseInt(brcdType) - 4)).prop('checked', true);
+                //FilterSeat();
+            });
+
+            function FilterSeat() {
+                if (!ChangeInPage)
+                    return;
+                var instType, courseType, instcd, brcd;
+                var cInsttype = "";
+                var cInstcd = "";
+                var cBrcd = "";
+                var preResult = false;
+                var AllRows = $('#GridView1 TR');
+                var show = true;
+                var i = 1;
+                var RowInDisplay = 0;
+                var preInstcd = "";
+                var preBrcd = "";
+                var currRow = AllRows.first();
+                try {
+                    RowInDisplay = 0;
+                    for (i = 3; i <= AllRows.length - 2; i++) {
+                        show = true;
+                        currRow = AllRows.eq(i);
+                        cInstcd = currRow.find('#lblInstCode').text();
+                        if (!$('#ctl00_ContentPlaceHolder1_chkInstituteList_0').is(":checked")) {
+                            if (cInstcd.substring(0, 1) == "1")
+                                show = false;
+                        }
+
+                        if (show && !$('#ctl00_ContentPlaceHolder1_chkInstituteList_1').is(":checked")) {
+                            if (cInstcd.substring(0, 1) == "2")
+                                show = false;
+                        }
+
+                        if (show && !$('#ctl00_ContentPlaceHolder1_chkInstituteList_2').is(":checked")) {
+                            if (cInstcd.substring(0, 1) == "3")
+                                show = false;
+                        }
+
+                        if (show && !$('#ctl00_ContentPlaceHolder1_chkInstituteList_3').is(":checked")) {
+                            if (cInstcd.substring(0, 1) == "4")
+                                show = false;
+                        }
+
+                        cBrcd = currRow.find('#lblAcademicProgramCode').text();
+
+                        if (show && !$('#ctl00_ContentPlaceHolder1_chkCourseDuration_0').is(":checked")) {
+                            if (cBrcd.substring(0, 1) == "4")
+                                show = false;
+                        }
+
+                        if (show && !$('#ctl00_ContentPlaceHolder1_chkCourseDuration_1').is(":checked")) {
+                            if (cBrcd.substring(0, 1) == "5")
+                                show = false;
+                        }
+
+                        instcd = $('#ctl00_ContentPlaceHolder1_ddlInstitute').val();
+                        if (show && instcd != "0" && instcd != cInstcd) {
+                            show = false;
+                        }
+
+                        brcd = $('#ctl00_ContentPlaceHolder1_ddlBranch').val();
+                        if (show && brcd != "0" && brcd != cBrcd) {
+                            show = false;
+                        }
+
+
+                        if (show) {
+                            if (preInstcd != cInstcd || preBrcd != cBrcd) {
+                                RowInDisplay = RowInDisplay + 1;
+                                preInstcd = cInstcd;
+                                preBrcd = cBrcd;
+                            }
+                            currRow.show();
+                            currRow.next().show();
+                            currRow.next().next().show();
+
+                        }
+                        else {
+
+                            currRow.hide();
+                            currRow.next().hide();
+                            currRow.next().next().hide();
+                        }
+                        i = i + 2;
+                    }
+
+                } catch (e) {
+                    alert(e.Message);
+                }
+
+                //var RowInDisplay = parseInt($('#GridView1 TR:not([style*="display: none"])').length / 3) - 1;
+                if (RowInDisplay == 0) {
+                    alert("Sorry no record exists on selected criteria!");
+                }
+                $('#ctl00_ContentPlaceHolder1_lbltotal').html(RowInDisplay);
+                //$('#divloader').removeClass('loader');
+                return;
+            }
+
+        });
+
+    </script>
+
+    <script src="../Scripts/chosen.jquery.js"></script>
+    
+    <script type="text/javascript">
+        var config = { '.chosen-select': {}, }
+        for (var selector in config) {
+            $(selector).chosen(config[selector]);
+        }
+        //On UpdatePanel Refresh
+        var prm = Sys.WebForms.PageRequestManager.getInstance();
+        if (prm != null) {
+            prm.add_endRequest(function (sender, e) {
+                if (sender._postBackSettings.panelsToUpdate != null) {
+                    $(".chosen-select").chosen();
+                }
+                else {
+                    $(".chosen-select").chosen();
+                }
+            });
+        };
+    </script>
+
+
+        <section class="footerthird">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 linkcenter">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="../FooterPages/termsconditions.aspx">Terms and Conditions
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="../FooterPages/hyperlinkPolicy.aspx">Hyperlink Policy
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="../FooterPages/privacyPolicy.aspx">Privacy Policy
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="../FooterPages/copyrightPolicy.aspx">Copyright Policy
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="../FooterPages/disclaimer.aspx">Disclaimer
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footersec">
+            <div class="container footersec">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <div class="copyRights">
+                            <div class="disclaimerText">
+                                <p>
+                                    This site is designed and hosted by NIC and the contents are provided by JoSAA.
+                                    <br />
+                                    For any further information, please contact JoSAA.
+                                </p>
+                            </div>
+
+                            <div class="disclaimerLogo">
+                                <a href="https://ecounselling.nic.in/" onclick="return confirm('You are being redirected to an external website. ');" title="https://s3waas.gov.in/" target="_blank">
+                                    <img src="../Images/footerLogo/ecounselling.png" alt="e-Counselling" />
+                                </a>
+                                <a href="http://www.nic.in/" onclick="return confirm('You are being redirected to an external website. ');" title="http://www.nic.in/" target="_blank">
+                                    <img src="../Images/footerLogo/nicLogo.png" alt="National Informatics Centre" />
+                                </a>
+                                <a href="http://www.digitalindia.gov.in/" onclick="return confirm('You are being redirected to an external website. ');" title="http://www.digitalindia.gov.in/" target="_blank">
+                                    <img src="../Images/footerLogo/digitalIndia.png" alt="Digital India" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button id="backToTopBtn" onclick="topFunction(); return false;"><i class="fa fa-arrow-up"></i>Top</button>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator1"), document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator2"), document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator3"), document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator4"), document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator5"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator1 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator1"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator1");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator1.controltovalidate = "ctl00_ContentPlaceHolder1_ddlroundno";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator1.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator1.errormessage = "Required ?";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator1.display = "Dynamic";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator1.validationGroup = "sub";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator1.initialvalue = "0";
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator2 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator2"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator2");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator2.controltovalidate = "ctl00_ContentPlaceHolder1_ddlInstype";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator2.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator2.errormessage = "Required ?";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator2.display = "Dynamic";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator2.validationGroup = "sub";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator2.initialvalue = "0";
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator3 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator3"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator3");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.controltovalidate = "ctl00_ContentPlaceHolder1_ddlInstitute";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.errormessage = "Required ?";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.display = "Dynamic";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.validationGroup = "sub";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator3.initialvalue = "0";
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator4 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator4"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator4");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator4.controltovalidate = "ctl00_ContentPlaceHolder1_ddlBranch";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator4.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator4.errormessage = "Required ?";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator4.display = "Dynamic";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator4.validationGroup = "sub";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator4.initialvalue = "0";
+var ctl00_ContentPlaceHolder1_RequiredFieldValidator5 = document.all ? document.all["ctl00_ContentPlaceHolder1_RequiredFieldValidator5"] : document.getElementById("ctl00_ContentPlaceHolder1_RequiredFieldValidator5");
+ctl00_ContentPlaceHolder1_RequiredFieldValidator5.controltovalidate = "ctl00_ContentPlaceHolder1_ddlSeattype";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator5.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator5.errormessage = "Required ?";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator5.display = "Dynamic";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator5.validationGroup = "sub";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RequiredFieldValidator5.initialvalue = "0";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>
+    <script src="../Scripts/chosen.jquery.js"></script>
+    <script type="text/javascript">
+        var config = { '.chosen-select': {}, }
+        for (var selector in config) {
+            $(selector).chosen(config[selector]);
+        }
+        //On UpdatePanel Refresh
+        if (typeof (Sys) !== 'undefined') {
+            var prm = Sys.WebForms.PageRequestManager.getInstance();
+            if (prm != null) {
+                prm.add_endRequest(function (sender, e) {
+                    if (sender._postBackSettings.panelsToUpdate != null) {
+                        $(".chosen-select").chosen();
+                    }
+                    else {
+                        $(".chosen-select").chosen();
+                    }
+                });
+            };
+        }
+    </script>
+    <script>
+        //Get the button:
+        mybutton = document.getElementById("backToTopBtn");
+
+        // When the user scrolls down 50px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera            
+        }
+
+    </script>
+</body>
+</html>

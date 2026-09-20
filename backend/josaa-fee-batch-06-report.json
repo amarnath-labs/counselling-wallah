@@ -1,0 +1,370 @@
+[
+  {
+    "college": {
+      "josaa_code": "450",
+      "josaa_name": "Islamic University of Science and Technology Kashmir",
+      "college_id": "islamic-university-of-science-and-technology-kashmir",
+      "college_name": "Islamic University of Science and Technology Kashmir",
+      "website": "https://www.iust.ac.in",
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 85000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "a offers a B.Sc Nursing course through their Syed Mantaqi Memorial College of Nursing & Medical Technology. The average course fee at the Islamic University of Science and Technology, Pulwama ranges from INR 70,000 to INR 85,000. Before applying for BSc Nursing at the IUST Pulwama, applicants must make sure that they are meeting the eligibility criteria. According to the official website"
+        }
+      },
+      "source_url": "https://www.collegedekho.com/university/islamic-university-of-science-and-technology",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "451",
+      "josaa_name": "Shri G. S. Institute of Technology and Science Indore",
+      "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+      "college_name": "Shri G. S. Institute of Technology and Science Indore",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 85000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "b.tech fees",
+          "context": "ed. Below is a detailed breakdown for B.Tech students for 2025–26. All amounts are approximate and subject to revision. B.Tech Fees BreakdownFee HeadAmountTuition Fee (2025–26)₹85,000Examination Fee₹2,000Registration / Enrolment Fee₹3,500Gymkhana / Sports Fee₹1,500Medical Fee₹1,000Hostel Rent (per semester)₹8,500Mess Charges (approx., per semester)₹17,500Miscellaneous / Development Fee₹4,"
+        }
+      },
+      "source_url": "https://jeepredictor.in/colleges/shri-gs-institute-of-technology-and-science-indore-gfti",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "452",
+      "josaa_name": "National Institute of Technical Teachers Training and Research Bhopal",
+      "college_id": "national-institute-of-technical-teachers-training-and-research-bhopal",
+      "college_name": "National Institute of Technical Teachers Training and Research Bhopal",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 186000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "stitute of Technical Teachers' Training and Research Bhopal Top Courses With Fees 2025Preview SelectionCourseEligibilityTotal FeesPh.DPost Graduation₹ 633MBAGraduation₹ 1.26 LakhsM.TechPass in Graduation + GATE₹ 1.86 Lakhs+1 more rows in full viewView Full DetailsOfficial ScheduleAdmission Preview.ModeOnlineBasisMerit/EntranceScholarshipYesNITTTR Admission Highlights 2023Name of the Inst"
+        }
+      },
+      "source_url": "https://www.getedunext.com/college/national-institute-of-technical-teachers-training-and-research-bhopal",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "454",
+      "josaa_name": "National Institute of Electronics and Information Technology, Agartala",
+      "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+      "college_name": "National Institute of Electronics and Information Technology, Agartala",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 1000000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "ering(1)Engineering Physics(1)IoT and Connected Devices(1)Chemical Engineering(1)Big Data & Analytics(1)AI & Robotics(1)Total Fees< 1 Lakh(1)3 - 5 Lakh(3)5 - 7 Lakh(2)7 - 10 Lakh(1)Rating2 - 3 Star(2)3 - 4 Star(4)4 - 5 Star(5)CourseB.E. / B.Tech(7)M.E./M.Tech(7)After 10th Diploma(5)Certificate(4)Ph.D.(2)UG Diploma(2)PG Diploma(2) 7 resultsBest Engineering Colleges in Agartala - 2026 Admi"
+        }
+      },
+      "source_url": "https://www.shiksha.com/engineering/colleges/b-tech-colleges-agartala",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "455",
+      "josaa_name": "National Institute of Electronics and Information Technology, Aizawl",
+      "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+      "college_name": "National Institute of Electronics and Information Technology, Aizawl",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 1000000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "(1)Longowal (1)Bijapur (1)ExamsCSIR NET (1)UGC NET (1)GATE (1)CBSE Class 12 Exam (1)Institute TypePublic/Government (3)Total FeesLess than 1 Lakh (2)1 - 2 Lakh (2)2 - 3 Lakh (2)7 - 10 Lakh (1)NIT Mizoram - National Institute of TechnologyAizawlPublic/GovernmentExam AcceptedJEE Main+1 MoreFees₹ 1.67 L - ₹ 7.66 LTotal Courses14 CoursesCompareBrochureApply Nowplacementadmissionfacilitiesra"
+        }
+      },
+      "source_url": "https://www.kollegeapply.com/colleges/engineering-colleges-in-aizawl",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "456",
+      "josaa_name": "National Institute of Electronics and Information Technology, Imphal",
+      "college_id": "national-institute-of-electronics-and-information-technology-imphal",
+      "college_name": "National Institute of Electronics and Information Technology, Imphal",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 1500000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "ineering(4)Civil Engineering(4)Electronics Engineering(1)Food Technology(1)Artificial Intelligence & Machine Learning(1)Total Fees1 - 3 Lakh(3)5 - 7 Lakh(1)10 - 15 Lakh(1)Rating2 - 3 Star(2)3 - 4 Star(5)4 - 5 Star(1)CourseB.E. / B.Tech(7)After 10th Diploma(5)M.E./M.Tech(3)Ph.D.(2)Certificate(1)PG Diploma(1) 7 resultsBest Engineering Colleges in Imphal - 2026 Admission, Fees, PlacementsSo"
+        }
+      },
+      "source_url": "https://www.shiksha.com/engineering/colleges/b-tech-colleges-imphal",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "457",
+      "josaa_name": "National Institute of Electronics and Information Technology, Calicut",
+      "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+      "college_name": "National Institute of Electronics and Information Technology, Calicut",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 500000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "gal (1)Ponda (1)Agartala (1)Allahabad (1)Arunachal Pradesh - Other (1)Bhopal (1)Delhi (1)Durgapur (1)Tiruchirappalli (1)Total Fees> 5 Lakh (1)Rating> 4 - 5 Star (1)OwnershipPublic / Government (1)SpecializationComputer Science Engineering (1)Exams AcceptedJEE Main (1)Choose rank publishersNIRF 2025The Week 202321NIRF ' 25(All India)1. NIT Calicut - National Institute of Technology4.1Plac"
+        }
+      },
+      "source_url": "https://www.shiksha.com/engineering/ranking/top-nits-colleges-in-calicut/115-2-0-62-0",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "458",
+      "josaa_name": "National Institute of Electronics and Information Technology, Kohima",
+      "college_id": "national-institute-of-electronics-and-information-technology-kohima",
+      "college_name": "National Institute of Electronics and Information Technology, Kohima",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 100000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "reWhat is the fee for various courses at NIELIT Kohima?SSSaurya SnehalNIELIT Kohima offers various courses at different course fee. The course fee for courses available in the admission 2025 process are mentioned below: BCA: INR 1 lakhCertificate: Depending upon the specialisation varies from INR 2,100 to INR 36,100UG Diploma: epending upon the specialisation var...Read moreWhat are the"
+        }
+      },
+      "source_url": "https://ask.shiksha.com/what-is-the-fee-for-various-courses-at-national-institute-of-electronics-and-information-technology-kohima-qna-8736251",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  }
+]

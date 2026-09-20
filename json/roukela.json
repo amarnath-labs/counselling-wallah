@@ -1,0 +1,668 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 4 of 5 (NIT Rourkela). College 5 to follow in a separate response per user instruction."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Rourkela",
+        "verified_name": "National Institute of Technology, Rourkela",
+        "city": "Rourkela",
+        "state": "Odisha",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Regional Engineering College (REC) Rourkela, established 15 August 1961; renamed NIT Rourkela in 2002; declared Institute of National Importance in 2007. Single main campus (~650-723 acres depending on source, urban campus at the eastern end of Rourkela steel city). No conflicting institutions of similar name found; one Quora answer found in search results was authored by a student of the separate/unrelated 'NIT Nagaland' describing a brief visit, not a NIT Rourkela student — this is explicitly excluded from review_items to avoid misattributing outsider impressions as NIT Rourkela student sentiment."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews pages (course-filtered and general), infrastructure page, and Shiksha Q&A page retrieved."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page and general overview page retrieved with multiple narrative review snippets."},
+        {"platform": "Careers360", "status": "available", "notes": "Main overview page, placement page, admission/ROI article, and Rourkela-city engineering-college ranking listing page (with aggregate rating) retrieved."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located, including a long-form first-person account and hostel-facility-specific threads."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NIT Rourkela located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/ranking/top-engineering-colleges-in-rourkela",
+          "aggregate_rating": 4.6,
+          "rating_scale": "out of 5",
+          "review_count": 349,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "From a Rourkela-city engineering-college listing page: 'NIT Rourkela - National Institute of Technology Rourkela ... Rating: 4.6/5, 349 Reviews.'"
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/university/nit-rourkela-national-institute-of-technology-28530/reviews?course=252119&rating=3",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating visible in retrieved snippet; page is course-filtered (Food Process Engineering) and contains narrative review text but no visible star aggregate."
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/24260-national-institute-of-technology-nit-rourkela",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippets."
+        },
+        {
+          "platform": "Glassdoor",
+          "source_url": "https://www.glassdoor.com/Reviews/NIT-Rourkela-Reviews-E376030.htm",
+          "aggregate_rating": 4.3,
+          "rating_scale": "out of 5",
+          "review_count": 116,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "IMPORTANT SCOPE CAVEAT: This is an employee/employer review platform, not a student review platform. The rating and reviews reflect NIT Rourkela as a workplace (faculty/staff experience), not student sentiment. Included here only as a structured observation of a distinct source type, explicitly flagged as out-of-scope for student sentiment purposes."
+        },
+        {
+          "platform": "Glassdoor",
+          "source_url": "https://www.glassdoor.co.in/Overview/Working-at-NIT-Rourkela-EI_IE376030.11,23.htm",
+          "aggregate_rating": 4.2,
+          "rating_scale": "out of 5",
+          "review_count": 118,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Same scope caveat as above (employee reviews, not student reviews). Different review_count (118) and rating (4.2) than the other Glassdoor page (116 reviews, 4.3) observed in this same session — both retained as separate observations since retrieved from different URLs, likely reflecting different retrieval times for a live-updating counter, but not confirmed as historical snapshots per the strict definition requiring genuinely different observation timestamps, which are unavailable here."
+        }
+      ],
+
+      "platform_aspect_ratings": [],
+
+      "review_items": [
+        {
+          "college_name": "NIT Rourkela",
+          "source": "CollegeDekho",
+          "source_type": "aggregator",
+          "source_url": "https://www.collegedekho.com/colleges/national-institute-of-technology-rourkela-reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The overall placements included around 1170 offers which is about 85-90 percent students placed and the highest package was 1.2 crore [per annum] from electronics department, and the lowest was 3.3 LPA from many departments.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "Reviewer describes choosing NIT Rourkela CSE over a private university, citing 'the knowledge about future prospects I get here will always be unmatched by any private university.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Rourkela",
+          "source": "CollegeDekho",
+          "source_type": "aggregator",
+          "source_url": "https://www.collegedekho.com/colleges/national-institute-of-technology-rourkela-reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": "Life Science",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Life Science",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'My department's placements aren't that great because most of them chose further studies in this college only or in foreign universities. So in life science, highest 7 LPA, lowest 3.5 LPA in 2023-24, and there were only 3 offers, and these are generally from coaching institutes for teaching.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Rourkela",
+          "source": "CollegeDekho",
+          "source_type": "aggregator",
+          "source_url": "https://www.collegedekho.com/colleges/national-institute-of-technology-rourkela-reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "M.Tech",
+          "course": "M.Tech",
+          "course_verified": true,
+          "department": "School of Management",
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "department",
+              "sentiment": "positive",
+              "evidence_summary": "'Many companies visit NIT Rourkela to hire MTech students. Placement scenarios of School of Management, NIT Rourkela is increasing day by day.' Note: this directly conflicts with a separate, more negative School of Management placement review found on Shiksha (see below) — both preserved independently."
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "department",
+              "sentiment": "positive",
+              "evidence_summary": "'All the possible facilities and infrastructure are available for MTech course in School of Management NIT Rourkela. It has great sports facilities and large swimming pool as well.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "department",
+              "sentiment": "positive",
+              "evidence_summary": "'Teachers are very much enthusiastic and knowledgeable. They always clear each doubt. They are always available during class hours. The course curriculum is well-planned.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Rourkela has the in-campus hostel facilities. Meals are mostly good and tasty. Rooms are air conditioned with ventilation, markets are near to the campus.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Rourkela",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/24260-national-institute-of-technology-nit-rourkela/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'There are no almirahs in the hostel and also the internet speed is decent [but] the connectivity for NIT Rourkela is not so good, and the power cuts are very frequent and there is also no generator available for this.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The curriculum is not up to date. The college is only focusing on theory but not on the skills for the students, and therefore students have to work by their own to develop such skills which are required for the placements.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'The mess food is very decent and some lecture rooms are also not well maintained as there are issues of the echo of the voice of professor in the lecture halls.' (Mixed descriptive statement combining a neutral mess assessment with a facilities complaint; recorded as neutral for the mess-specific portion since 'very decent' is a lukewarm, non-strongly-valenced descriptor.)"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'In year 2024-25 the number of companies that visited the campus is around 330 and the total job offers offered is about 1200.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Rourkela",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/24260-national-institute-of-technology-nit-rourkela/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The highest package in the EC branch is about 1.2 crore per annum and the average package for the EC branch is around 13 to 14 lakhs. Profile of jobs are core electronics, VLSI and semiconductor roles, systems and embedded development, software engineering, IT services, consulting and analytics. The percentage of students getting placed is in the range of 90 to 99% for ECE branch.' Recruiters named: Apple, Google, Microsoft, Amazon, Wipro, Deloitte, Tata, Vedanta."
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'There are some subjects that are not related to the branch but we have to study them for grades, so I think those subjects should be removed. The subjects should be related to the branch.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Rourkela",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/24260-national-institute-of-technology-nit-rourkela/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The quality of infrastructure in this college is not so good as this college [was] made in the 1960s, but new buildings are also under construction, and the amenities that the campus provides include all sports access and an Olympic-level pool.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Inside the campus there are lots of shops, restaurants, stalls etc, so students don't have to go outside the campus to buy anything.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Rourkela",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/university/nit-rourkela-national-institute-of-technology-28530/reviews?course=252119&rating=3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Food Process Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Food Process Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Food Process Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The placements of NIT Rourkela is good. The average placement of the college is around 6-7 LPA. Mostly all the students got placed. Last year, the highest package was 29 LPA which is offered by Amazon. Many core and analytical companies visit every year. Around 90-100% of the students got placed.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The infrastructure of NIT Rourkela is very good. It is the second largest college in India (after IIT Kharagpur). The Wi-Fi facilities are available in most of the departments. About food, if you are coming from another place, you may not like the food. Many new hostels like Satish Dhawan are very neat and clean, whereas other older hostels are not much clean.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Rourkela",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/university/nit-rourkela-national-institute-of-technology-28530/reviews-24",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": "School of Management",
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "department",
+              "sentiment": "negative",
+              "evidence_summary": "'NIT Rourkela School of Management is one of the worst departments of the National Institute of Technology Rourkela with no placement assistance from its core placement committee.' Note: this directly conflicts with a separate, more positive School of Management placement review found on CollegeDekho (see above) — both preserved independently rather than reconciled."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Rourkela",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/university/nit-rourkela-national-institute-of-technology-28530/reviews-24",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Mining Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Mining Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "Batch of 2022 reviewer: 'Core branches get very good placements here. Placements in lower branches are quite low. More than 80% of the students get placed every year.' Companies named: Microsoft, Tata Steel, Mu Sigma, Adobe, Myntra, Qualcomm, Bajaj."
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The infrastructure is amazing. The hostels are also good. The mess facilities are also decent. The food served is up to the quality. The medical facility is also available 24/7 provided with certified doctors and nurses. The sports culture is given great importance too.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The curriculum is good although it is a little outdated. So the faculty members and administration should look over it again and update it. The teaching is also good. Some teachers are highly talented and encourage students to understand the subject with core understanding.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Mechanical engineering remains one of the most interesting and wonderful courses the college has to offer. Fests play a huge part in NIT Rourkela, it brings all the students together as one. Extra-curricular activities are also a very important factor of the institute, with numerous clubs and sports teams.' (Note: this sentence references mechanical engineering despite the reviewer's own course being listed as Mining Engineering — recorded at college scope since the campus-life claim itself is general, not branch-specific.)"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Rourkela",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/university/nit-rourkela-national-institute-of-technology-28530/infrastructure",
+          "source_review_id": null,
+          "author_display_name": "Venkata Mani Raja",
+          "review_title": "Review of National Institute of Technology, Rourkela",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": 5.0,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Facilities are good, and infrastructure is good. They provide the Wi-Fi, which is very useful for networking. In labs, provide the AC and projector. Classrooms are good, and we provide the AC and projector for display. The library is good, and it provides AC and a projector.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Rourkela",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-NIT-Rourkela",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is NIT Rourkela?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This thread has 25 answers per the page header. Only two are captured in the retrieved snippet: one appears to be a long-form first-person account explicitly written 'for north indian jee cleared aspirants' about the 2018-19 academic year (content largely truncated in the snippet), and one is explicitly from a student of a DIFFERENT institution (NIT Nagaland) describing a brief 3-day visit for an inter-NIT competition — this second one is excluded from aspect_evidence since it is not NIT Rourkela student testimony, only an outside visitor's impression. A third, more structured/summary-style answer covering departments and faculty is also present and captured below.",
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "From the structured overview answer: 'Good mix of experienced faculty and active young researchers. Increasing research [output/activity]' (sentence truncated in snippet). Strong departments named: Metallurgical & Materials, Electrical, Mechanical, Civil, Computer Science, Electronics."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Rourkela",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-are-the-facilities-in-hostels-at-NIT-Rourkela",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How are the facilities in hostels at NIT Rourkela?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'You got a mess, but food is not good except breakfast and Sunday lunch. You have dhobis to wash your clothes, they will collect from your room, but you have to pay for that, it's not free. Also, never give expensive clothes, they will ruin it. I had that experience.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Rourkela",
+          "source": "CollegeBatch.com",
+          "source_type": "aggregator",
+          "source_url": "https://www.collegebatch.com/reviews/31062-national-institute-of-technology-rourkela",
+          "source_review_id": "31062",
+          "author_display_name": "Thella Chetan",
+          "review_title": "NIT Rourkela: Hostels, Faculty, and Campus Placements Review",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The institute has good ranking in all India National Institute Ranking frameworks... The academics at the institute are very good with updated curriculum according to the recommendations of National Educational Policy, 2020. The labs also contain good instruments and chemicals.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The infrastructure of the institute is very good with well-equipped classrooms. The rooms have projectors and air conditioners as well. There is also a library with about 80,000 books... There is a health center in the campus for medical purposes. The sports facilities in the campus are also very good with good equipment for every sport.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'NIT Rourkela offers residential facilities for every student. There are about 11 hostels for boys, girls, and married students as well. The hostel fee is about Rs. 5,000 per semester and mess fee is about Rs. 4,000 per month.' Descriptive/factual rather than clearly valenced."
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The campus life is very good with the campus area being 650 acres. There are many clubs and they are very good. There are about 80 clubs under 4 societies, namely Technical Society, Games & Sports Society...' (list truncated in source)."
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 12,
+        "independent_sources": 4,
+        "reviews_with_dates": 0,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 12
+      },
+
+      "limitations": [
+        "Reddit: no genuine NIT Rourkela-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "Glassdoor data was located and is included in platform_aggregate_observations for completeness, but it reflects EMPLOYEE/staff sentiment about NIT Rourkela as a workplace, not student sentiment — it is explicitly out of scope for student review_items and was not used to generate any aspect_evidence.",
+        "Two directly conflicting reviews about the School of Management's placement quality were found (one positive on CollegeDekho, one strongly negative on Shiksha) — both preserved independently rather than reconciled, since resolving genuine disagreement between sources is a backend/analytical decision.",
+        "A Quora thread on 'How is NIT Rourkela?' contains an answer from a student at a different institution (NIT Nagaland) describing only a brief campus visit; this was excluded from aspect_evidence as it does not constitute NIT Rourkela student testimony.",
+        "No review in this extraction batch carried an explicit visible date; reviews_with_dates and reviews_last_24_months are both 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all reviews reported on Shiksha, Collegedunia, or Careers360 for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

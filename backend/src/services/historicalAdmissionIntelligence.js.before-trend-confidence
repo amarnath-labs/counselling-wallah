@@ -1,0 +1,639 @@
+﻿const DEFAULT_YEAR_WEIGHTS = {
+  2026: 0.50,
+  2025: 0.30,
+  2024: 0.20,
+};
+
+
+function toNumber(value) {
+  const number =
+    Number(value);
+
+  return Number.isFinite(number)
+    ? number
+    : null;
+}
+
+
+function numericRound(value) {
+  const match =
+    String(value ?? '')
+      .trim()
+      .match(/\d+/);
+
+  if (!match) {
+    return null;
+  }
+
+  return Number(
+    match[0]
+  );
+}
+
+
+function classifyRankRatio(
+  rankRatio
+) {
+  if (
+    !Number.isFinite(
+      rankRatio
+    )
+  ) {
+    return null;
+  }
+
+  if (
+    rankRatio <= 0.60
+  ) {
+    return 'Backup';
+  }
+
+  if (
+    rankRatio <= 0.85
+  ) {
+    return 'Safe';
+  }
+
+  if (
+    rankRatio <= 1.05
+  ) {
+    return 'Target';
+  }
+
+  return 'Dream';
+}
+
+
+function sortRounds(
+  rows
+) {
+  return [
+    ...rows,
+  ].sort(
+    (a, b) => {
+
+      const aRound =
+        numericRound(
+          a.round
+        );
+
+      const bRound =
+        numericRound(
+          b.round
+        );
+
+      if (
+        aRound !== null &&
+        bRound !== null
+      ) {
+        return (
+          aRound -
+          bRound
+        );
+      }
+
+      return String(
+        a.round
+      ).localeCompare(
+        String(
+          b.round
+        )
+      );
+    }
+  );
+}
+
+
+function getFinalRoundRow(
+  rows
+) {
+  if (
+    !Array.isArray(rows) ||
+    rows.length === 0
+  ) {
+    return null;
+  }
+
+  const sorted =
+    sortRounds(
+      rows
+    );
+
+  return (
+    sorted[
+      sorted.length - 1
+    ] || null
+  );
+}
+
+
+function buildYearSummaries(
+  rows,
+  studentRank
+) {
+  const byYear =
+    new Map();
+
+
+  for (
+    const row
+    of rows
+  ) {
+
+    const year =
+      Number(
+        row.year
+      );
+
+    if (
+      !Number.isInteger(year)
+    ) {
+      continue;
+    }
+
+    if (
+      !byYear.has(year)
+    ) {
+      byYear.set(
+        year,
+        []
+      );
+    }
+
+    byYear
+      .get(year)
+      .push(row);
+  }
+
+
+  const years =
+    [];
+
+
+  for (
+    const [
+      year,
+      yearRows,
+    ]
+    of byYear
+  ) {
+
+    const finalRow =
+      getFinalRoundRow(
+        yearRows
+      );
+
+    if (!finalRow) {
+      continue;
+    }
+
+
+    const openingRank =
+      toNumber(
+        finalRow.openingRank ??
+        finalRow.opening_rank
+      );
+
+
+    const closingRank =
+      toNumber(
+        finalRow.closingRank ??
+        finalRow.closing_rank
+      );
+
+
+    const rankRatio =
+      (
+        studentRank !== null &&
+        closingRank !== null &&
+        closingRank > 0
+      )
+        ? (
+            studentRank /
+            closingRank
+          )
+        : null;
+
+
+    years.push({
+      year,
+
+      finalRound:
+        String(
+          finalRow.round
+        ),
+
+      openingRank,
+
+      closingRank,
+
+      rankRatio,
+
+      bucket:
+        classifyRankRatio(
+          rankRatio
+        ),
+
+      roundCount:
+        yearRows.length,
+
+      rounds:
+        sortRounds(
+          yearRows
+        ),
+    });
+  }
+
+
+  return years.sort(
+    (a, b) =>
+      b.year - a.year
+  );
+}
+
+
+function calculateWeightedHistory(
+  yearSummaries,
+  yearWeights =
+    DEFAULT_YEAR_WEIGHTS
+) {
+
+  let weightedRatio =
+    0;
+
+  let usedWeight =
+    0;
+
+
+  const contributions =
+    [];
+
+
+  for (
+    const summary
+    of yearSummaries
+  ) {
+
+    if (
+      !Number.isFinite(
+        summary.rankRatio
+      )
+    ) {
+      continue;
+    }
+
+
+    const weight =
+      Number(
+        yearWeights[
+          summary.year
+        ]
+      );
+
+
+    if (
+      !Number.isFinite(weight) ||
+      weight <= 0
+    ) {
+      continue;
+    }
+
+
+    const contribution =
+      summary.rankRatio *
+      weight;
+
+
+    weightedRatio +=
+      contribution;
+
+    usedWeight +=
+      weight;
+
+
+    contributions.push({
+      year:
+        summary.year,
+
+      weight,
+
+      rankRatio:
+        summary.rankRatio,
+
+      contribution,
+    });
+  }
+
+
+  if (
+    usedWeight <= 0
+  ) {
+    return {
+      weightedRankRatio:
+        null,
+
+      bucket:
+        null,
+
+      usedWeight:
+        0,
+
+      contributions,
+    };
+  }
+
+
+  /*
+   * If one historical year is missing,
+   * renormalize using only available
+   * weights instead of treating missing
+   * data as zero.
+   */
+
+  const normalizedRatio =
+    weightedRatio /
+    usedWeight;
+
+
+  return {
+    weightedRankRatio:
+      normalizedRatio,
+
+    bucket:
+      classifyRankRatio(
+        normalizedRatio
+      ),
+
+    usedWeight,
+
+    contributions,
+  };
+}
+
+
+function findLikelyRound(
+  latestYearSummary,
+  studentRank
+) {
+
+  if (
+    !latestYearSummary ||
+    studentRank === null
+  ) {
+    return null;
+  }
+
+
+  const rounds =
+    sortRounds(
+      latestYearSummary.rounds
+    );
+
+
+  for (
+    const row
+    of rounds
+  ) {
+
+    const closingRank =
+      toNumber(
+        row.closingRank ??
+        row.closing_rank
+      );
+
+
+    if (
+      closingRank === null
+    ) {
+      continue;
+    }
+
+
+    if (
+      studentRank <=
+      closingRank
+    ) {
+
+      return {
+        year:
+          latestYearSummary.year,
+
+        round:
+          String(
+            row.round
+          ),
+
+        openingRank:
+          toNumber(
+            row.openingRank ??
+            row.opening_rank
+          ),
+
+        closingRank,
+
+        margin:
+          closingRank -
+          studentRank,
+      };
+    }
+  }
+
+
+  return null;
+}
+
+
+function buildRouteIntelligence({
+  rows,
+  studentRank,
+  route,
+  yearWeights =
+    DEFAULT_YEAR_WEIGHTS,
+}) {
+
+  const normalizedRank =
+    toNumber(
+      studentRank
+    );
+
+
+  if (
+    !Array.isArray(rows) ||
+    rows.length === 0
+  ) {
+
+    return {
+      route,
+
+      available:
+        false,
+
+      historicalBucket:
+        null,
+
+      weightedRankRatio:
+        null,
+
+      latestYear:
+        null,
+
+      likelyRound:
+        null,
+
+      years: [],
+    };
+  }
+
+
+  const years =
+    buildYearSummaries(
+      rows,
+      normalizedRank
+    );
+
+
+  const weighted =
+    calculateWeightedHistory(
+      years,
+      yearWeights
+    );
+
+
+  const latestYear =
+    years[0] || null;
+
+
+  const likelyRound =
+    findLikelyRound(
+      latestYear,
+      normalizedRank
+    );
+
+
+  return {
+    route,
+
+    available:
+      true,
+
+    historicalBucket:
+      weighted.bucket,
+
+    weightedRankRatio:
+      weighted.weightedRankRatio,
+
+    usedWeight:
+      weighted.usedWeight,
+
+    latestYear:
+      latestYear
+        ? latestYear.year
+        : null,
+
+    likelyRound,
+
+    years:
+      years.map(
+        year => ({
+          year:
+            year.year,
+
+          finalRound:
+            year.finalRound,
+
+          openingRank:
+            year.openingRank,
+
+          closingRank:
+            year.closingRank,
+
+          rankRatio:
+            year.rankRatio,
+
+          bucket:
+            year.bucket,
+
+          roundCount:
+            year.roundCount,
+        })
+      ),
+
+    contributions:
+      weighted.contributions,
+  };
+}
+
+
+function buildHistoricalAdmissionIntelligence({
+  studentRank,
+  josaaRows = [],
+  csabRows = [],
+  yearWeights =
+    DEFAULT_YEAR_WEIGHTS,
+}) {
+
+  return {
+    studentRank:
+      toNumber(
+        studentRank
+      ),
+
+    formula: {
+      rankRatio:
+        'studentRank / closingRank',
+
+      yearWeights,
+
+      thresholds: {
+        backupMax:
+          0.60,
+
+        safeMax:
+          0.85,
+
+        targetMax:
+          1.05,
+      },
+
+      openingRankUsage:
+        'display-only',
+
+      closingRankUsage:
+        'admission-boundary',
+    },
+
+    josaa:
+      buildRouteIntelligence({
+        rows:
+          josaaRows,
+
+        studentRank,
+
+        route:
+          'JOSAA',
+
+        yearWeights,
+      }),
+
+    csab:
+      buildRouteIntelligence({
+        rows:
+          csabRows,
+
+        studentRank,
+
+        route:
+          'CSAB_SPECIAL',
+
+        yearWeights,
+      }),
+  };
+}
+
+
+export {
+  DEFAULT_YEAR_WEIGHTS,
+  classifyRankRatio,
+  buildHistoricalAdmissionIntelligence,
+  buildRouteIntelligence,
+};

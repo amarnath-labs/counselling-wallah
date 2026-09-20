@@ -1,0 +1,23 @@
+[
+  {
+    "josaa_code": "435",
+    "josaa_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+    "college_id": "institute-of-chemical-technology-mumbai-indian-oil-odisha-campus-bhubaneswar",
+    "college_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  }
+]

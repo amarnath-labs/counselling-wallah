@@ -1,0 +1,5005 @@
+[
+  {
+    "college_id": "indian-institute-of-technology-madras",
+    "name": "Indian Institute of Technology Madras",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "nirf_rank": 1,
+    "website": "https://www.iitm.ac.in",
+    "candidates": [
+      {
+        "text": "UG Programme Admissions 2026",
+        "url": "https://www.iitm.ac.in/sites/default/files/Others/UG_Admission_2026_updated.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Fees",
+        "url": "https://www.iitm.ac.in/academics/academic-services/fees",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Hostel Life",
+        "url": "https://www.iitm.ac.in/campus-life/hostel-life",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "PG Programme Admissions 2026",
+        "url": "https://www.iitm.ac.in/sites/default/files/Others/PG_Admissions_2026_updated.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "P M VIDYALAXMI NODAL BANK LEAFLET",
+        "url": "https://www.iitm.ac.in/sites/default/files/Others/PM-VIDYALAXMI-NODAL-BANK-LEAFLET.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Undergraduate Programmes",
+        "url": "https://www.iitm.ac.in/academics/study-at-iitm/undergraduate-programmes",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-delhi",
+    "name": "Indian Institute of Technology Delhi",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "nirf_rank": 2,
+    "website": "https://home.iitd.ac.in",
+    "candidates": [
+      {
+        "text": "Rules, Charges and Form for Visiting Students (UG)",
+        "url": "https://home.iitd.ac.in/uploads/announcements/Rules%20&%20Charges%20for%20Visiting%20Students%20(Undergraduate)_13May24.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Read more",
+        "url": "https://home.iitd.ac.in/uploads/Director-Message.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Latest Issue: Apr-26",
+        "url": "https://home.iitd.ac.in/uploads/Newsletter-Apr-26-Issue.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "“Hearing Screening Device.”",
+        "url": "https://home.iitd.ac.in/uploads/EOI%20Hearing%20Screening%20Device.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "\"Notice for Document Verification of Shortlisted Applicants in lieu of Advt. No. IITD/Apprentice (1) / 2025 dated December 29, 2025 and associated corrigendum dated 08.05.2026 for the engagement of Apprentices under the Apprentices Act, 1961 at IIT DELHI\".",
+        "url": "https://home.iitd.ac.in/uploads/Notification%20%20for%20DV%20and%20Annexure-I.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "\"Notice regarding Shortlisting of Applications received against Advt. No. IITD/Apprentice (1) / 2025 dated December 29, 2025 for the engagement of Apprentices under the Apprentices Act, 1961 at IIT DELHI\".",
+        "url": "https://home.iitd.ac.in/uploads/Notice%20to%20be%20upload%20on%20Institute%20Website%2019-06-26.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Corrigendum to Advt. No. IITD/Apprentice (1) / 2025 dated 29.12.2025 for engagement of Apprentices under the Apprentices Act, 1961 at IIT DELHI",
+        "url": "https://home.iitd.ac.in/uploads/Corrigendum%20PDF.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Expression of Interest for commercialization of IITD technologies",
+        "url": "https://home.iitd.ac.in/uploads/Expression%20of%20Interest%20for%20commercialization%20of%20IITD%20technologies.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Advt. No. IITD/Apprentice (1) / 2025 dated December 29, 2025 for engagement of Apprentices",
+        "url": "https://home.iitd.ac.in/uploads/Advt.for-Apprenticeship-dated-29.12.2025.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "(हिन्दी)",
+        "url": "https://home.iitd.ac.in/uploads/Hindi-2025-Advt.for-Apprenticeship.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Call for Applications: Transformative Leadership in STEMM (TLS) Workshop...",
+        "url": "https://home.iitd.ac.in/uploads/announcements/TLS-Poster-2025-2026-neww.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "EXPRESSION OF INTEREST for Development of Indigenous Technology...",
+        "url": "https://home.iitd.ac.in/uploads/EOI%20Ceramic%20%20Ad%20(English%20+%20Hindi)%20(1).pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel related information1",
+        "url": "https://home.iitd.ac.in/pg-admissions.php#hostel",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "How to pay fees online?",
+        "url": "https://home.iitd.ac.in/#collapse4",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Director's message",
+        "url": "https://home.iitd.ac.in/for-faculty-director.php",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Whom to contact for Undergraduate admissions?",
+        "url": "https://home.iitd.ac.in/#collapse2",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-kanpur",
+    "name": "Indian Institute of Technology Kanpur",
+    "city": "Kanpur",
+    "state": "Uttar Pradesh",
+    "nirf_rank": 4,
+    "website": "https://www.iitk.ac.in",
+    "candidates": [
+      {
+        "text": "Anti Ragging Committee and Squad Team 2025",
+        "url": "https://iitk.ac.in/dosa/data/Anti-ragging-squad-2025-21-07-25.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Applications Are Invited for Sponsored M.Tech. and Ph.D Programme for…",
+        "url": "https://www.iitk.ac.in/data/Advertisement-Notice-PhD-MTech-Ladakh-Applications-2026-27-11-04-26.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Applications Are Invited for Internship for Students from Ladakh at…",
+        "url": "https://www.iitk.ac.in/data/Internship-Advertisement-Ladakh-2026-11-03-26.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Ph.D Admissions in Kotak School of Sustainability: Walk-in Interviews",
+        "url": "https://www.iitk.ac.in/kss/data/KSS_PhD_Walk_in_interview_Advertisement-27-11-25.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Statutes",
+        "url": "https://www.iitk.ac.in/data/statutes.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Ordinances",
+        "url": "https://www.iitk.ac.in/data/ordinances_03.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Admission through Olympiads in BTech-BS programmes at IIT Kanpur",
+        "url": "https://www.iitk.ac.in/admission-through-olympiads-btech-bs",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Admission through Olympiad in Academic Year 2025-26 in B.Tech/BS",
+        "url": "https://iitk.ac.in/doaa/",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-roorkee",
+    "name": "Indian Institute of Technology Roorkee",
+    "city": "Roorkee",
+    "state": "Uttarakhand",
+    "nirf_rank": 6,
+    "website": "https://www.iitr.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://iitr.ac.in/Academics/Institute%20Fees.html",
+        "score": 6,
+        "is_pdf": false
+      },
+      {
+        "text": "Hostel Life",
+        "url": "https://iitr.ac.in/Campus%20Life/Hostels.html",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Read More",
+        "url": "https://iitr.ac.in/Careers/static/TT_Poster_07April2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "UG Admissions",
+        "url": "https://iitr.ac.in/Academics/Admission%20To%20Undergraduate%20Programmes.html",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Online Fee Deposit",
+        "url": "https://iitr.ac.in/Resources/Funds%20Transfer/Online%20Fee%20Deposit.html",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-hyderabad",
+    "name": "Indian Institute of Technology Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "nirf_rank": 7,
+    "website": "https://www.iith.ac.in",
+    "candidates": [
+      {
+        "text": "View PDF",
+        "url": "https://iith.ac.in/assets/newsletters/issue-1-volume-8-Jan-Mar-2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Coordinating Unit",
+        "url": "http://hostel.iith.ac.in/",
+        "score": 2,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-guwahati",
+    "name": "Indian Institute of Technology Guwahati",
+    "city": "Guwahati",
+    "state": "Assam",
+    "nirf_rank": 8,
+    "website": "https://www.iitg.ac.in",
+    "candidates": [
+      {
+        "text": "ART of an Institution New",
+        "url": "https://www.iitg.ac.in/pdf/1cce6316f0ff22105a7e4f589ed65796-12-21-46A.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "ARIIA 2020 Report New",
+        "url": "http://www.iitg.ac.in/upload/ARI-U-0053.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Affairs Board",
+        "url": "https://www.iitg.ac.in/hab/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "International Students",
+        "url": "https://www.iitg.ac.in/aer/content/admissions/Admission_Guidelines_2019.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "RuTAG-NE",
+        "url": "https://www.iitg.ac.in/uba/doc/theme/rutag.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Fee Payment Portal New",
+        "url": "https://online.iitg.ac.in/epay/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Information for New UG (BTech, BDes & BS in BSE ), PG and PhD Students (July 2026)",
+        "url": "https://iitg.ac.in/acad/admission/fresher/",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-varanasi",
+    "name": "Indian Institute of Technology (BHU) Varanasi",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "nirf_rank": 10,
+    "website": "https://www.iitbhu.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://www.iitbhu.ac.in/dean/doaa/fee",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "Act",
+        "url": "https://www.iitbhu.ac.in/contents/institute/admin/doc/it_act_amended.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "English",
+        "url": "https://www.iitbhu.ac.in/contents/institute/admin/doc/first_statutes_IIT_BHU_english.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hindi",
+        "url": "https://www.iitbhu.ac.in/contents/institute/admin/doc/first_statutes_IIT_BHU_hindi.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "IIT (BHU), Varanasi Experience",
+        "url": "https://www.iitbhu.ac.in/contents/institute/media/pnm/doc/pnm_iitbhu_experience_brochure.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostels",
+        "url": "https://www.iitbhu.ac.in/hostels",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Patents",
+        "url": "https://www.iitbhu.ac.in/contents/institute/dean/dord/doc/dord_patents.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Start-up Policy",
+        "url": "https://www.iitbhu.ac.in/contents/institute/cf/misc/doc/innovation_start_up_policy.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Empanelled Hospitals",
+        "url": "https://www.iitbhu.ac.in/contents/institute/regular/empanelled_hospitals.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Directory (Intranet)",
+        "url": "https://intranet.iitbhu.ac.in/ccis/doc/telephone_directory.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Latest Alumni Newsletter",
+        "url": "https://www.iitbhu.ac.in/contents/institute/dean/dora/doc/alumni_newsletter_latest.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "View Brochure",
+        "url": "https://www.iitbhu.ac.in/contents/mst/doc/mst_brochure_17_18_dec_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "View Brochure",
+        "url": "https://www.iitbhu.ac.in/contents/eee/img/other/evnts_weorkshop_eee_21st_July_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "View Brochure",
+        "url": "https://www.iitbhu.ac.in/contents/institute/2025/event/events_conference_13mar_15mar_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "(Claim Form)",
+        "url": "https://www.iitbhu.ac.in/contents/institute/admin/doc/admin_claim_form.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "हिं",
+        "url": "https://www.iitbhu.ac.in/contents/institute/admin/doc/citizens_charter_hindi.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "En",
+        "url": "https://www.iitbhu.ac.in/contents/institute/admin/doc/citizens_charter_english.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "RPN -2019",
+        "url": "https://www.iitbhu.ac.in/contents/institute/admin/doc/RPN-2019.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "I",
+        "url": "https://www.iitbhu.ac.in/contents/institute/admin/doc/noti_admin_amendment_7457.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "II",
+        "url": "https://www.iitbhu.ac.in/contents/institute/admin/doc/admin_rpn_amendment_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-indore",
+    "name": "Indian Institute of Technology Indore",
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "nirf_rank": 12,
+    "website": "https://www.iiti.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Notice for Autumn 2026",
+        "url": "https://www.iiti.ac.in/uploads/academics/notice_updates/fee_notice_2026_autumn.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel",
+        "url": "https://hostel.iiti.ac.in/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Anti-Ragging Committee",
+        "url": "https://www.iiti.ac.in/uploads/Anti-Ragging%20Committee%20Details.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Read More",
+        "url": "https://www.iiti.ac.in/public/storage/news_items/2025/oct/Award%20news.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Read More",
+        "url": "http://beta.iiti.ac.in/uploads/events/2026/Aug/HYDRO_IITI_WEBPAGE.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Holidays",
+        "url": "https://library.iiti.ac.in/wp-content/uploads/2025/10/Circular-Holidays-2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Central Dining",
+        "url": "https://diningfee.iiti.ac.in/",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-rourkela",
+    "name": "National Institute of Technology, Rourkela",
+    "city": "Rourkela",
+    "state": "Odisha",
+    "nirf_rank": 13,
+    "website": "https://www.nitrkl.ac.in",
+    "candidates": [
+      {
+        "text": "Fee structure JoSAA/CSAB/DASA (AY 2026-27)",
+        "url": "https://www.nitrkl.ac.in/docs/Announcement/14072026180430277.pdf",
+        "score": 7,
+        "is_pdf": true
+      },
+      {
+        "text": "Fee Structure (PG)-2026-27",
+        "url": "https://www.nitrkl.ac.in/docs/Announcement/10072026171540377.pdf",
+        "score": 7,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice for admission to UG Programme under ICCR 2026-27",
+        "url": "https://www.nitrkl.ac.in/docs/Announcement/10072026175453591.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice for admission to UG Programme under SII 2026-27",
+        "url": "https://www.nitrkl.ac.in/docs/Announcement/10072026175422922.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice for admission to UG programmes for DASA Students for the AY 2026-27",
+        "url": "https://www.nitrkl.ac.in/docs/Announcement/10072026175337908.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice for admission to UG programmes under JoSAA/CSAB 2026-27",
+        "url": "https://www.nitrkl.ac.in/docs/Announcement/10072026175144558.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "IT Infrastructure Usage Policy",
+        "url": "https://www.nitrkl.ac.in/docs/IT%20Infrastructure%20Usage%20Policy.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "SELECTION LIST OF CANDIDATES FOR ADMISSION TO M.TECH (SELF-FINANCE)- 2026-27",
+        "url": "https://www.nitrkl.ac.in/docs/Announcement/25082026142029205.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice for Admission to M.Tech. / MURP Programmes against Vacant Seats after Admission through CCMT - 2026",
+        "url": "https://www.nitrkl.ac.in/docs/Announcement/10082026190739595.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Allocation of division on CGPA basis",
+        "url": "https://www.nitrkl.ac.in/docs/Announcement/05032025125911362.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Establishment of Prof. S.S.Pani Endowment Chair Professor",
+        "url": "https://www.nitrkl.ac.in/docs/Announcement/16012019192348556.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice for caution regarding fraudulent recruitment/admission",
+        "url": "https://www.nitrkl.ac.in/docs/Announcement/28022018190346623.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "CGPA to Percentage (%) Conversion",
+        "url": "https://www.nitrkl.ac.in/docs/Announcement/13032021173643119.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Know More",
+        "url": "https://www.nitrkl.ac.in/docs/Workshop/MM/21082026212706794B.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Know More",
+        "url": "https://www.nitrkl.ac.in/docs/Workshop/MM/24082026100758526B.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Know More",
+        "url": "https://www.nitrkl.ac.in/docs/Conference/EE/30072026172030486B.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Know More",
+        "url": "https://www.nitrkl.ac.in/docs/CEP/MN/24082026103220402B.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Know More",
+        "url": "https://www.nitrkl.ac.in/docs/Conference/PH/30062026181239287B.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Know More",
+        "url": "https://www.nitrkl.ac.in/docs/Workshop/HS/13052026123921735B.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Know More",
+        "url": "https://www.nitrkl.ac.in/docs/CEP/CS/12082026112859618B.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "name": "National Institute of Technology Karnataka, Surathkal",
+    "city": "Surathkal",
+    "state": "Karnataka",
+    "nirf_rank": 17,
+    "website": "https://www.nitk.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://www.nitk.ac.in/fee-structure",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "Jun 24, 2026",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2026-27-",
+        "score": 4,
+        "is_pdf": false
+      },
+      {
+        "text": "May 23, 2025",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26",
+        "score": 4,
+        "is_pdf": false
+      },
+      {
+        "text": "Jul 04, 2024",
+        "url": "https://www.nitk.ac.in/institute-fee-structure---2024-25",
+        "score": 4,
+        "is_pdf": false
+      },
+      {
+        "text": "Jun 23, 2022",
+        "url": "https://www.nitk.ac.in/fee-structure-2022-23",
+        "score": 4,
+        "is_pdf": false
+      },
+      {
+        "text": "Jul 19, 2021",
+        "url": "https://www.nitk.ac.in/institute-fee-structure---2021-22",
+        "score": 4,
+        "is_pdf": false
+      },
+      {
+        "text": "Dec 07, 2020",
+        "url": "https://www.nitk.ac.in/notification-for-hostels-establishment-fee-for-even-semester",
+        "score": 3,
+        "is_pdf": false
+      },
+      {
+        "text": "Oct 09, 2020",
+        "url": "https://www.nitk.ac.in/-hostel-fee-for-the-odd-semester-2020-21",
+        "score": 3,
+        "is_pdf": false
+      },
+      {
+        "text": "Institute Brochure",
+        "url": "https://www.nitk.ac.in/document/attachments/5132/Brochure_Dec_2022.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Organizational Chart",
+        "url": "https://www.nitk.ac.in/document/attachments/9416/Organisation_Structure.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Building and Works Committee",
+        "url": "https://www.nitk.ac.in/document/attachments/9915/NITK_BWC_members_%28as_on_14.07.2026%29.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "The Senate",
+        "url": "https://www.nitk.ac.in/document/attachments/9916/Senate_Members_%28as_on_14.07.2026%29.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Investment Policy",
+        "url": "https://www.nitk.ac.in/document/attachments/3548/img20220202_17092847.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Purchase Policy",
+        "url": "https://www.nitk.ac.in/document/attachments/3549/GFR2017.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "IPR",
+        "url": "https://www.nitk.ac.in/design-system/administration/Institute-IPR-Policy.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "IT policy",
+        "url": "https://www.nitk.ac.in/design-system/Docs/IT-Policy/nitk-it-policy-approved-25feb15.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Technologies for Transfer",
+        "url": "https://www.nitk.ac.in/document/attachments/9840/Patent_Details-_June_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostels",
+        "url": "https://www.hostels.nitk.ac.in/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Oct 29, 2025",
+        "url": "https://www.nitk.ac.in/hostel-accommodation-for-graduates-attending-the-23rd-convocation",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Feb 20, 2024",
+        "url": "https://www.nitk.ac.in/dedication-ceremony-of-hostels--3-blocks",
+        "score": 2,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-patna",
+    "name": "Indian Institute of Technology Patna",
+    "city": "Patna",
+    "state": "Bihar",
+    "nirf_rank": 19,
+    "website": "https://www.iitp.ac.in",
+    "candidates": [
+      {
+        "text": "Hostels",
+        "url": "https://www.iitp.ac.in/hostels",
+        "score": 2,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-calicut",
+    "name": "National Institute of Technology Calicut",
+    "city": "Kozhikode",
+    "state": "Kerala",
+    "nirf_rank": 21,
+    "website": "https://nitc.ac.in",
+    "candidates": [
+      {
+        "text": "UG Orientation Program 2026",
+        "url": "https://nitc.ac.in/imgserver/uploads/attachments/ug-orientation-program-2026_91d6637f-38d1-4064-9345-35d29228ebd3_0.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Swagatham-UG Brochure",
+        "url": "https://nitc.ac.in/imgserver/uploads/attachments/2026/Swagatham_26_NITC_for_Print_v3.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Telephone Directory",
+        "url": "https://nitc.ac.in/imgserver/uploads/attachments/telephone-directory-_4ee69fdf-cd9c-45aa-8131-cefc6ac5e307_0.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Students Conduct and Disciplinary Code 2022",
+        "url": "https://nitc.ac.in/imgserver/uploads/attachments/students-conduct-and-disciplinary-code-2022_b5a56f11-878a-4c54-b2da-4c552fa8f6c0_0.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostels",
+        "url": "https://nitc.ac.in/hostels/overview",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "OTHERS",
+        "url": "https://nitc.ac.in/hostel-rules-and-regulations",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Smart Laundry System Introduced in Ladies’ Hostels at NIT Calicut",
+        "url": "https://nitc.ac.in/news-and-events/smart-laundry-system-introduced-in-ladies-hostels-at-nit-calicut",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Smart Laundry Facility Inaugurated at NIT Calicut Hostels",
+        "url": "https://nitc.ac.in/news-and-events/smart-laundry-facility-inaugurated-at-nit-calicut-hostels",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "First Year PG/PhD – Orientation Program 2026",
+        "url": "https://nitc.ac.in/imgserver/uploads/attachments/pgphd--orientation-program-2026_99412b58-ef66-424a-900d-624f3151663c_0.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "View Certificate",
+        "url": "https://nitc.ac.in/imgserver/uploads/attachments/ce_architecture-and-planning---2supndsup_15_0.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "View Details",
+        "url": "https://nitc.ac.in/imgserver/uploads/attachments/architecture-and-planning---2supndsup_15_0.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "View Certificate",
+        "url": "https://nitc.ac.in/imgserver/uploads/attachments/ce_engineering--21supstsup_14_0.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "View Details",
+        "url": "https://nitc.ac.in/imgserver/uploads/attachments/engineering--21supstsup_14_0.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "View Certificate",
+        "url": "https://nitc.ac.in/imgserver/uploads/attachments/ce_overall--45supthsup_13_0.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "View Details",
+        "url": "https://nitc.ac.in/imgserver/uploads/attachments/overall--45supthsup_13_0.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "View Certificate",
+        "url": "https://nitc.ac.in/imgserver/uploads/attachments/ce_management----85supthsup_16_0.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "View Details",
+        "url": "https://nitc.ac.in/imgserver/uploads/attachments/management----85supthsup_16_0.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Programmes",
+        "url": "https://nitc.ac.in/ug-programmes",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Rules and Regulations",
+        "url": "https://nitc.ac.in/ug-rules-and-regulations",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Curriculum and Syllabus",
+        "url": "https://nitc.ac.in/ug-syllabi",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-mandi",
+    "name": "Indian Institute of Technology Mandi",
+    "city": "Mandi",
+    "state": "Himachal Pradesh",
+    "nirf_rank": 26,
+    "website": "https://www.iitmandi.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://academics.iitmandi.ac.in/fees",
+        "score": 6,
+        "is_pdf": false
+      },
+      {
+        "text": "Heartiest congratulations to Dr. Garima Agrawal, Associate Professor, School of Chemical Sciences for being selected to receive the SMC Bronze Medal – 2026 by the Society for Materials Chemistry (SMC India) in recognition of her outstanding contributions to the field of materials chemistry.",
+        "url": "http://iitmandi.ac.in/pdf/news/IIT_Mandi_website_Dr_Garima_award.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Prof. Dipankar Deb Appointed External Independent Member of the Apex Committee for R&D Board of Coal India Limited.",
+        "url": "http://iitmandi.ac.in/pdf/news/Prof_Dipankar.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Three days international conference on Fundamentals and Advanced Research in Chemistry (FARC-2026) organized by School of Chemical Sciences IIT Mandi from 8-10th June 2026",
+        "url": "http://iitmandi.ac.in/pdf/news/FARC-2026%20webpage%20release.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Congratulations to Shubham Saurabh, Ph.D. Scholar at IIT Mandi on receiving the ESSAI 2026 Grant and ANRF-ITS Grant to attend the European Summer School on Artificial Intelligence (ESSAI 2026).",
+        "url": "http://iitmandi.ac.in/pdf/news/Shubham.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "HIMSHIKHAR 2026: An Immersive 2-Month Multi-track Summer Residential Programme by CCE, IIT Mandi.",
+        "url": "http://iitmandi.ac.in/pdf/news/himshikhar2026_IITMandi.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "IIT Mandi is proud to announce that Prof. Pradeep C. Parameswaran, School of Chemical Sciences has been elected as a Fellow of the Royal Society of Chemistry (FRSC).",
+        "url": "http://iitmandi.ac.in/pdf/news/Prof_Pradeep.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "IIT Mandi congratulates Prof. Varun Dutt (SCEE) for receiving key international recognitions.",
+        "url": "http://iitmandi.ac.in/pdf/news/ProfVarunDutt_News.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hearty Congratulations to Prof. Venkata Krishnan, School of Chemical Sciences for being selected to receive the Materials Research Society of India (MRSI) Medal for the year 2025 in recognition of his outstanding contributions to the field of materials research.",
+        "url": "http://iitmandi.ac.in/pdf/news/VK_MRSI_Medal_2025.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "IIT Mandi is proud to announce that Prof. Suman K. Pal has been elected as a Fellow of the Royal Society of Chemistry (FRSC), one of the most prestigious honors in the global chemical sciences community. Hearty Congratulations!",
+        "url": "http://iitmandi.ac.in/pdf/news/Website%20content_FRSC.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "IIT Mandi Receives Top Honors at FICCI Higher Education Excellence Awards 2025",
+        "url": "http://iitmandi.ac.in/pdf/news/FICCI_website.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Congratulations to Dr. Muslim Malik, Professor, SMSS, IIT Mandi, on being selected as the Member of NATIONAL ACADEMY OF SCIENCES, INDIA in Mathematical Sciences!",
+        "url": "http://iitmandi.ac.in/pdf/news/Selected_Membership_2025.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "A One-day workshop on “Futuristic Technologies for Energy Efficient, Safe and Smart Ropeway Systems” was organized by Prof. Rajeev Kumar (Coordinator) and Prof Vishal Singh Chauhan (Co-cordinator), SMME,IIT Mandi on July 21, 2025.",
+        "url": "http://iitmandi.ac.in/pdf/news/Workshop_Ropeway_System.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Registration Open: 12 Day Refresher Course on Control Engineering For The Future: IoT, Robotics & Beyond (Online Mode).",
+        "url": "http://iitmandi.ac.in/pdf/announcements/Refresher_Course.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Registration Open: 6 day FDP on Theory and Application of Statistical Learning and Stochastic Processes (Online Mode).",
+        "url": "http://iitmandi.ac.in/pdf/announcements/FDP.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Registration Open: 6 day FDP on Mathematical Foundations for AI/ML/PINNs with Real- World Applications (Residential Mode).",
+        "url": "http://iitmandi.ac.in/pdf/announcements/FDP_Brochure_5th_October_To_10th_October.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Reporting Schedule for I-MBA/MA/MBA/MSc/M.Tech/I-PhD/PhD/MS(R)/MTech(R) (New Entrants) Students 2026",
+        "url": "http://iitmandi.ac.in/pdf/announcements/reporting_schedule_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Registration Open: 6 day FDP on Next-Generation Surface Engineering for Sustainable and High-Performance Engineering Applications.",
+        "url": "http://iitmandi.ac.in/pdf/announcements/Next_Generation_Surface_Engineering_for_Sustainable_and_High_Performance_Engineering_Applications_Brochure.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Registration Open: 6 day FDP on Advanced Semiconductor Materials and Device Technologies",
+        "url": "http://iitmandi.ac.in/pdf/announcements/Advanced_Semiconductor_Materials_and_Device_Technologies.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "IKSMHA Centre Admission Results for Ph.D. programme (Regular & Part-time).",
+        "url": "http://iitmandi.ac.in/pdf/admissions/IKSMHA_Centre_Result_for_PhD_August_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-ropar",
+    "name": "Indian Institute of Technology Ropar",
+    "city": "Rupnagar",
+    "state": "Punjab",
+    "nirf_rank": 32,
+    "website": "https://www.iitrpr.ac.in",
+    "candidates": [],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-bhubaneswar",
+    "name": "Indian Institute of Technology Bhubaneswar",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "nirf_rank": 39,
+    "website": "https://www.iitbbs.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://www.iitbbs.ac.in/index.php/home/academics/fee-structure/",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "• Notice for Online application for Remission of Tuition Fees (Fresh) for the Academic Year 2026-27 for B.Tech. Students Admitted in the Academic Year 2026-27",
+        "url": "https://www.iitbbs.ac.in/index.php/notice-for-online-application-for-remission-of-tuition-fees-fresh-for-the-academic-year-2026-27-for-b-tech-students-admitted-in-the-academic-year-2026-27/",
+        "score": 4,
+        "is_pdf": false
+      },
+      {
+        "text": "Quality Improvement Programme",
+        "url": "https://www.iitbbs.ac.in/documents/Admission-procedure-of-Ph.D.-Programme-under-QIP-22042021.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "CGPA Conversion Formula",
+        "url": "https://www.iitbbs.ac.in/wp-content/uploads/2025/11/CGPA-Conversion-21112025.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "English Language Proficiency Certificate",
+        "url": "https://www.iitbbs.ac.in/wp-content/uploads/2024/11/English-Language-Proficiency-Certificate.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Guidelines for utilization of Contingency Grant-PDF",
+        "url": "https://www.iitbbs.ac.in/wp-content/uploads/2025/04/PDF-Contingency-guidelines.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Placement Brouchure",
+        "url": "https://www.iitbbs.ac.in/wp-content/uploads/2025/11/IIT-BBS-Placement-Brochure-2025-26.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "ARIIA 2021 Report",
+        "url": "https://www.iitbbs.ac.in/documents/ARIIA%20website%20data%202021-11102021.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Cyber Security Best Practices",
+        "url": "https://www.iitbbs.ac.in/wp-content/uploads/2023/11/CyberSecurityBestPractices141123.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Registration Open for Professional PG Diploma in Advanced Robotics with AI",
+        "url": "https://www.iitbbs.ac.in/wp-content/uploads/2026/08/PG-Diploma-in-Advanced-Robotics-AI.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "UG",
+        "url": "https://www.iitbbs.ac.in/index.php/home/academics-ug/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "B.Tech.",
+        "url": "https://www.iitbbs.ac.in/index.php/home/academics/curriculum-b-tech/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "B.Tech. Dual Degree",
+        "url": "https://www.iitbbs.ac.in/index.php/home/academics/curriculum-dual-degree/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "• Notice regarding registration for Autumn Semester 2026-27 (B.Tech/Dual Degree/ITEP Students)",
+        "url": "https://www.iitbbs.ac.in/index.php/notice-regarding-registration-for-autumn-semester-2026-27-b-tech-dual-degree-itep-students/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Feedback",
+        "url": "https://www.iitbbs.ac.in/index.php/home/feedback-form/",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "malaviya-national-institute-of-technology-jaipur",
+    "name": "Malaviya National Institute of Technology Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "nirf_rank": 42,
+    "website": "https://mnit.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://mnit.ac.in/academics/fee_structure.php",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "Hostel",
+        "url": "https://mnit.ac.in/hostel",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "UG Regulations",
+        "url": "https://mnit.ac.in/academics/UG.php",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Read More",
+        "url": "https://mnit.ac.in/admin/directormessage",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Class Timetables of I-semester B.Tech. for Odd Semester 2026-27",
+        "url": "https://mnit.ac.in/news/news.php?newsid=Q6iK3Q==",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Privacy Policy for Online Fee Payment",
+        "url": "https://mnit.ac.in/footer/privacypolicy.php",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-durgapur",
+    "name": "National Institute of Technology Durgapur",
+    "city": "Durgapur",
+    "state": "West Bengal",
+    "nirf_rank": 49,
+    "website": "https://nitdgp.ac.in",
+    "candidates": [
+      {
+        "text": "Hostel Allotment Notice UG First Year 2026",
+        "url": "https://nitdgp.ac.in/uploads/ab439a0950d54eb3725971d5e07fd7ca.pdf",
+        "score": 5,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Allotment Notice for First-year PG (Mtech and MSc) 2026",
+        "url": "https://nitdgp.ac.in/uploads/9d3ffd58a66cd62fdf07b16cf07574b0.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Viksit Bharat @2047",
+        "url": "https://nitdgp.ac.in/uploads/e2e897d210f320bcf74381a713fb4be3.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "MSW admission Brochure 2026",
+        "url": "https://nitdgp.ac.in/uploads/a6c6a00bc06aac4e6c5fa4bf8d1e8b39.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Invitation for the Foundation Day & Blue Sapphire Jubilee Celebration",
+        "url": "https://nitdgp.ac.in/uploads/ce3cd88c3b6df405ae7a12018a464ce6.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "India-Australia Minerals Scholar Network Program organizing Short Term Course on “Green Steel Cour",
+        "url": "https://nitdgp.ac.in/uploads/6bb3aa53b16aca40735992e86513124c.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "PROF. SUBRATA BANERJEE Elected as a prestigious Fellow of the 'West Bengal Academy of Science & Tech",
+        "url": "https://nitdgp.ac.in/uploads/722da6c425054712810772a0def5625e.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "CREATING AND MANAGING BRANDS IN THE DIGITAL ERA FOR DIGITAL NATIVES under the aegis of Global Initia",
+        "url": "https://nitdgp.ac.in/uploads/409b0f2195d120c883c07ccafd2e97bc.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NIT Durgapur signs an MoU with Vilnius Tech University",
+        "url": "https://nitdgp.ac.in/uploads/c89c1c76b746c55f9eb164bf94b25816.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "134th Ambedkar Jayanti, 2024",
+        "url": "https://nitdgp.ac.in/uploads/e9e64a7be83cc688e9a2947a0c8ff75a.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "New Generation Ideation Contest-2023",
+        "url": "https://nitdgp.ac.in/uploads/6a286097427c3a494aaae4705484a121.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "IC Program for celebrating the event International Women's Day on 14.3.24",
+        "url": "https://nitdgp.ac.in/uploads/b3086d750e75e52e48595050ea35a9e4.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "SPIC MACAY NIT Durgapur is Organising VIRASAT 2024",
+        "url": "https://nitdgp.ac.in/uploads/620e637a467de034421705589daad92c.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Vote for Sure",
+        "url": "https://nitdgp.ac.in/uploads/7a5020b46abe85d9d2e18602696c4527.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Some glimpses of forgotten history the politics of syllabus making",
+        "url": "https://nitdgp.ac.in/uploads/65f880041d357e91da8016f9c94b54e6.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Achievement of NIT durgapur in cancer disease",
+        "url": "https://nitdgp.ac.in/uploads/42434f49ae90faa1f54e5252ef645ff7.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Notification regarding Martyrs Day - 2024",
+        "url": "https://nitdgp.ac.in/uploads/c0b4992738516d337eaf2c2446e974c0.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Road to Fulbright Fellowship by Sayari Misra, MSW Alumnus",
+        "url": "https://nitdgp.ac.in/uploads/c87b05b967e68acc8a6f8bb32c3739ab.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Notice",
+        "url": "https://nitdgp.ac.in/p/noticesnitd/hostel",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Hostels",
+        "url": "https://nitdgp.ac.in/p/hostels-1",
+        "score": 2,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-silchar",
+    "name": "National Institute of Technology, Silchar",
+    "city": "Silchar",
+    "state": "Assam",
+    "nirf_rank": 50,
+    "website": "https://www.nits.ac.in",
+    "candidates": [
+      {
+        "text": "UG Odd Semester Fee Structure for 3rd, 5th & 7th Semester",
+        "url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a3157f193dad.pdf",
+        "score": 9,
+        "is_pdf": true
+      },
+      {
+        "text": "M.Tech. 3rd semester fee structure for 2025-2027 Batch",
+        "url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a4460f9bc847.pdf",
+        "score": 8,
+        "is_pdf": true
+      },
+      {
+        "text": "M.Sc. 3rd semester fee structure for 2025-2027 Batch",
+        "url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a4460d14650e.pdf",
+        "score": 8,
+        "is_pdf": true
+      },
+      {
+        "text": "MBA 3rd semester fee structure for 2025-2027 Batch",
+        "url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a4460954403d.pdf",
+        "score": 8,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice regarding non-payment of mess/hostel fees (January–June 2026 semester).",
+        "url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_69eb5f589194b.pdf",
+        "score": 8,
+        "is_pdf": true
+      },
+      {
+        "text": "1st Semester UG & PG Hostel Admission Fee Payment Procedure",
+        "url": "https://www.nits.ac.in/storage/notice-documents/notice_6a7301e2af9341785922018.pdf",
+        "score": 7,
+        "is_pdf": true
+      },
+      {
+        "text": "M.Tech./M.Sc. Fee Structure and Physical Reporting Notice for 2026 Entry Batch",
+        "url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a4bbdf60c011.pdf",
+        "score": 7,
+        "is_pdf": true
+      },
+      {
+        "text": "MBA 1st semester revised fee structure for 2026-2028 Entry Batch",
+        "url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a476a28aced0.pdf",
+        "score": 7,
+        "is_pdf": true
+      },
+      {
+        "text": "Information - Hostel'Mess Fees and BHM Contribution",
+        "url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a4682b1e7a34.pdf",
+        "score": 7,
+        "is_pdf": true
+      },
+      {
+        "text": "Fee Structure (UG,PG, & Ph.D.)",
+        "url": "https://www.nits.ac.in/academic/fee-structure-ug-and-pg",
+        "score": 6,
+        "is_pdf": false
+      },
+      {
+        "text": "Procedure for Depositing Hostel Mess Fee for July-Dec, 2026 Session",
+        "url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a50c4c49de5c.pdf",
+        "score": 6,
+        "is_pdf": true
+      },
+      {
+        "text": "Notification for Balance Fees to be paid for B.Tech. Admission 2026",
+        "url": "https://www.nits.ac.in/storage/notice-documents/notice_6a79cd4a3545a1786367306.pdf",
+        "score": 5,
+        "is_pdf": true
+      },
+      {
+        "text": "UG 2nd Year Hostel Allotment",
+        "url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a526f55dae2b.pdf",
+        "score": 5,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel allotment for UG 3rd Year, UG 4th Year, PG 2nd Year, and MBA 1st Year students",
+        "url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a50d9fa253d6.pdf",
+        "score": 5,
+        "is_pdf": true
+      },
+      {
+        "text": "Corrigendum for Temporary Continuation of Existing Hostel Room Allotment for PG 2nd Year Girl Students Until Further Orders",
+        "url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a52076bce46b.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Non-Hosteller Application - July to December 2026",
+        "url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a4681a9e6244.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice regarding Document Submission by B.Tech. 1st Semester Students during Physical Reporting at NIT Silchar",
+        "url": "https://www.nits.ac.in/storage/notice-documents/notice_6a733a6b80c401785936491.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice regarding Document Submission by B.Tech. 1st Semester Students during Physical Reporting at NIT Silchar",
+        "url": "https://www.nits.ac.in/storage/notice-documents/notice_6a5f7fbd060711784643517.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Notification of Physical Reporting for B.Tech. Admission 2026 at NIT Silchar",
+        "url": "https://www.nits.ac.in/storage/notice-documents/notice_6a4d04b7382521783432375.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Calendar for UG Programs for the AY 2026-27",
+        "url": "https://www.nits.ac.in/storage/notice-documents/notice_69e042499fa711776304713.pdf",
+        "score": 3,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "birla-institute-of-technology-mesra-ranchi",
+    "name": "Birla Institute of Technology, Mesra, Ranchi",
+    "city": "Ranchi",
+    "state": "Jharkhand",
+    "nirf_rank": 51,
+    "website": "https://www.bitmesra.ac.in",
+    "candidates": [
+      {
+        "text": "Notice Payment of Fees and Registration for Monsoon 2026 (MO 2026 )",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/Notice%20Payment%20of%20Fees%20%26%20Registration%20MO%202026%20session.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "UG and PG Ordinance 2021",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/Ordinance2021/Ordinance%20for%20UG%20PG%20Program.PDF",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "UG and PG Ordinance 2018",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/UG_PG_Ordinances%20(1).pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice Extension of Last Date for Fee payment Without Late Fine-Eligible Ph.D Scholars Monsoon-2026 Session",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/Notice%2012%20Regarding%20Extension%20of%20date%20for%20Fee%20Payment%20and%20registration%20PHD.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Calendar For 1st Semester B.Tech.B.Pharma. Integrated M.Sc.(MO-2026)",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/Academic%20Calendar%20For%20Ist%20Semester%20%20MO-2026.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice Payment and Registration for Eligible Ph. D. Scholars Monsoon-2026",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/NOTICE%20for%20FEE%20payment%20and%20Registration%20for%20PHD%20Scholars%20MO%202026%20Session.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Calendar for Short Semester 2026 for UG and PG Students",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/Academic%20Calendar%20Short%20Semester%2026(2).pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "UG (except 1st semester) Academic Calendar MO 2026",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/UG%20(except%201st%20sem)%20Academic%20Calendar%20MO%202026).pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Recognition / Approval",
+        "url": "https://conference.bitmesra.ac.in/ContentUploaded/iqac/files/12%20B%20Status%20Letter.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Ph.D. Ordinance 2021",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/Ordinance2021/Ordinance%20for%20Ph_D_%20Program.PDF",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Ph.D. Ordinance 2018",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/Ph_D_%20Ordinance%202018(3).pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Examination Regulations",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/Exam%20Regulations%20(1).pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice Financial Assistance to Self-Financed PG Students (M.TechM.U.P.M.Pharm. M.Sc.) (Non-GATE/Non-GPAT) admitted in the A.Y.2025-26 (MO 2025)",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/Notice%20Financial%20Assistance%204_8_26.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice Financial Assistance Under M.Tech.Promotion Scheme",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/Notice%20Financial%20Assistance%20Under%20M_Tech_%20Promotion%20Scheme.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice Branch Change After First Year for the Students Admitted In A.Y.2025-26 (MO2025)",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/Notic%20Branch%20Change-07.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Room Allotment (MO/26)",
+        "url": "https://bitmesra.ac.in/Other-Department-Pages/content/1/191/546",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Revised List of Program Toppers for the Award of GP Birla Prize",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/admindsw/files/Revised%20List%20of%20Program%20Toppers_03072026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Ph. D. Academic Calendar MO 2026",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/PHD%20Academic%20Calendar%20MO%202026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "PG Academic Calendar MO 2026",
+        "url": "https://bitmesra.ac.in/UploadedDocuments/deanugpg/files/PG%20Academic%20Calendar%20MO%2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "PhD Ordinance 2018",
+        "url": "https://www.bitmesra.ac.in/UploadedDocuments/pratyush_869/NewsUPloaded/News06c696c43f044800b918b8b4cec12c48_PhD%20Ordinance_%20New-2018.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-patna",
+    "name": "National Institute of Technology Patna",
+    "city": "Patna",
+    "state": "Bihar",
+    "nirf_rank": 53,
+    "website": "https://www.nitp.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://www.nitp.ac.in/Academic/Fee",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "Hostel & Mess",
+        "url": "https://www.nitp.ac.in/Facilities/Hostel",
+        "score": 3,
+        "is_pdf": false
+      },
+      {
+        "text": "Fee Payment",
+        "url": "https://mis.nitp.ac.in/Miscellaneous.aspx",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+    "city": "Howrah",
+    "state": "West Bengal",
+    "nirf_rank": 54,
+    "website": "https://www.iiests.ac.in",
+    "candidates": [
+      {
+        "text": "DAAD Scholarship-WISE",
+        "url": "https://data.iiests.ac.in/cloud/2026/01/20260120_53775_daad.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NSP Portal for Scholarship",
+        "url": "https://data.iiests.ac.in/cloud/2026/01/20260120_16294_reactivation-of-nsp-20-87-institutes.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Climate Change Action Plan",
+        "url": "https://data.iiests.ac.in/cloud/2026/01/20260127_55403_climatechangeaction.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Live Feeds",
+        "url": "https://www.iiests.ac.in/en/content/livefeeds",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "dr-b-r-ambedkar-national-institute-of-technology-jalandhar",
+    "name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "city": "Jalandhar",
+    "state": "Punjab",
+    "nirf_rank": 55,
+    "website": "https://www.nitj.ac.in",
+    "candidates": [
+      {
+        "text": "B.Tech, B.Sc.-B.Ed. Undergraduate Program",
+        "url": "https://www.nitj.ac.in/admissions/index.html#btech",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-jammu",
+    "name": "Indian Institute of Technology Jammu",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "nirf_rank": 56,
+    "website": "https://iitjammu.ac.in",
+    "candidates": [],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-tirupati",
+    "name": "Indian Institute of Technology Tirupati",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "nirf_rank": 57,
+    "website": "https://www.iittp.ac.in",
+    "candidates": [],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "motilal-nehru-national-institute-of-technology-allahabad",
+    "name": "Motilal Nehru National Institute of Technology Allahabad",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "nirf_rank": 62,
+    "website": "https://www.mnnit.ac.in",
+    "candidates": [
+      {
+        "text": "Hostel Booklet",
+        "url": "https://www.mnnit.ac.in/swo/Hostel%20booklet%202021-22%20PDF%20File.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Constitution",
+        "url": "https://www.mnnit.ac.in/images/newstories/2026/constitution/Constitution_of_BoG_16.06.2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Constitution",
+        "url": "https://www.mnnit.ac.in/images/newstories/2026/constitution/Constitution_of_FC_16.06.2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Constitution",
+        "url": "https://www.mnnit.ac.in/images/newstories/2026/constitution/Constitution_of_BWC_16.06.2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Chairperson",
+        "url": "https://www.mnnit.ac.in/images/newstories/2022/DrVLBIOAugust2023v2.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NIT Act-2007",
+        "url": "https://www.mnnit.ac.in/images/stories/NIT__Act_2007.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NIT Amendment Act-2012",
+        "url": "https://www.mnnit.ac.in/images/stories/NIT_Amendment_Act_-__2012.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NIT Comprehensive Act-2012",
+        "url": "https://www.mnnit.ac.in/images/stories/NIT_Comprehensivev_Act_2012.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "First Statutes For NIT's",
+        "url": "https://www.mnnit.ac.in/images/stories/nit_act_statues.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "First Statutes of the National Institutes of Technology (Amendment) Statutes, 2017",
+        "url": "https://www.mnnit.ac.in/images/newstories/2020/NIT_First_Statutes_Ammendment_2017.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "First Statutes of the National Institutes of Technology (Amendment) Statutes, 2023",
+        "url": "https://www.mnnit.ac.in/images/newstories/2022/First_Statutes_of_the_National_Institutes_of_Technology_Amendment_Statutes_2023.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Statutes of the Motilal Nehru National Institutes of Technology, Allahabad (Amendment) Statute, 2025",
+        "url": "https://www.mnnit.ac.in/images/newstories/2025/Statutes_of_the_Motilal_Nehru_National_Institutes_of_Technology_Allahabad_Amendment_Statute_2025.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Constitution",
+        "url": "https://www.mnnit.ac.in/images/newstories/2026/constitution/Constitution_of_Senate_16.06.2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Doctoral Programmes",
+        "url": "https://www.mnnit.ac.in/images/newstories/2024/PhD_web_upload120224.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Publications",
+        "url": "https://www.mnnit.ac.in/images/newstories/2024/ECED_Complete_List_of_Publications_Faculty_wise.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Publications",
+        "url": "https://www.mnnit.ac.in/images/newstories/2024/Publication_details_updated.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Laboratories",
+        "url": "https://www.mnnit.ac.in/images/newstories/2022/med/MAJOR_LAB_EQUIPMENTS.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Industrial Visits",
+        "url": "https://www.mnnit.ac.in/images/newstories/2022/idustrial_visit_170723.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "M.Tech. Students",
+        "url": "https://www.mnnit.ac.in/images/newstories/2026/notices/List_of_M._Tech._Student_2016-2024.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Ph.D. Awarded",
+        "url": "https://www.mnnit.ac.in/images/newstories/2026/facultyCorner/Updated_list_of_PhD_Awarded_for_MNNIT_Portal_July_28_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-palakkad",
+    "name": "Indian Institute of Technology Palakkad",
+    "city": "Palakkad",
+    "state": "Kerala",
+    "nirf_rank": 64,
+    "website": "https://iitpkd.ac.in",
+    "candidates": [
+      {
+        "text": "Hostels",
+        "url": "https://iitpkd.ac.in/hostels",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Academic Calendar 2026",
+        "url": "https://iitpkd.ac.in/sites/default/files/2026-08/a22c1057-e53c-4fa7-8a1f-61d488e4f8d1.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Calendar 2025",
+        "url": "https://iitpkd.ac.in/sites/default/files/2025-10/5cb74a88-221f-4a01-9cfd-23c347bd323e.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Calendar 2024",
+        "url": "https://iitpkd.ac.in/sites/default/files/2024-11/Academic%20calendar%202024_20241111.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Postdoctoral Positions",
+        "url": "https://resap.iitpkd.ac.in/sites/research-admission.iitp-portal.local/files/2025-08/356fd9d6-2f4e-4b7c-b382-c2f38e66b818.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NIRF - Innovation 2022",
+        "url": "https://iitpkd.ac.in/sites/default/files/2023-06/ARIIA-FinalApplicationReport2022.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "IIT Palakkad RPN",
+        "url": "https://iitpkd.ac.in/sites/default/files/2021-06/IITPalakkadRPN.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Students' Code of Conduct",
+        "url": "https://iitpkd.ac.in/sites/default/files/2019-07/StudentCodeofConduct.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Grievance Cell Guidelines",
+        "url": "https://iitpkd.ac.in/sites/default/files/2024-10/33676753-qwer-3ed8-Imnk-dc36hh5263b9.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Bus Times",
+        "url": "https://iitpkd.ac.in/sites/default/files/2026-08/1591d7d7-ad08-41d7-88ca-25658c145acc.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Director's Message",
+        "url": "https://iitpkd.ac.in/directors-message",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "UG Admissions",
+        "url": "https://iitpkd.ac.in/btech-admissions-2024-25",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "UG Admissions 2026",
+        "url": "https://iitpkd.ac.in/notifications/ug-admissions-2026",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-delhi",
+    "name": "National Institute of Technology Delhi",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "nirf_rank": 65,
+    "website": "https://nitdelhi.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://nitdelhi.ac.in/academics/services/fee",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "Hostel Rules",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Hostel_Rules@nitdelhif4212830-9330-4068-af1d-a6f1c5641c91.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Withdraw & Refund Policy",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/withdrawal-and-refund-policy@nitdelhi878e4ccc-639a-4871-a174-1a0cdee72f83.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "UFM Form",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/UFM-Form@nitdelhic776dbfe-112f-48bc-965d-91dcfcccbf83.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "CGPA Calculation",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Multiplication-Factor-CGPA@nitdelhi2bcd2123-183a-4093-b229-a90bd8f67612.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Excellence Awards",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/MEDAL_AWARDEE_FINAL-1@nitdelhi3c2d2e45-87e8-47bb-9814-500eee68398d.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Medium of Instruction Certificate",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Medium-of-Instruction-Certificate@nitdelhi7e6e0b35-45fe-4474-8163-7e9ec7376601.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Student's Educational Verification Process",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Process-of-Students-Educational-Verification@nitdelhie9d393d9-9fcb-48f1-a608-f31f8aec845d.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Gender Sensitization",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Constitution-of-Gender-Sensitization-Cell-2023-24-1-1@nitdelhi6421ad04-57bb-4e9e-80c8-99e0a45507c7.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Fit India",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Fit-India-Movement-Report-NITD@nitdelhi1b41d162-e6ae-4024-9a6d-1c7c1cca4271.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Dauladhar Hostel",
+        "url": "https://nitdelhi.ac.in/campus/hostel/dauladhar",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Nilerd Hostel",
+        "url": "https://nitdelhi.ac.in/campus/hostel/nilerd",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "SRHC Hostel",
+        "url": "https://nitdelhi.ac.in/campus/hostel/srhc",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Yamuna Hostel",
+        "url": "https://nitdelhi.ac.in/campus/hostel/yamuna",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Structure",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/BSA-Formation-2022-23-1@nitdelhid76ffc65-9ea8-4710-af4d-e5591178e703.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "National Fellowships and Scholarship",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/tribalfellowshipguideline-1@nitdelhi9b7496d3-f97d-4574-8fef-1cf5eaabd83d.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Funding Agency",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/web-links-fa@nitdelhif6b79b34-c547-4333-97c8-84317b33a401.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Handbook on Sexual Harassment of Women",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Handbook-on-Sexual-Harassment-of-Women-at-Workplace@nitdelhide24a49d-1915-4e2a-90e8-b0cf03f6c52c.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "International Day of Yoga",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/7th-INTERNATIONAL-DAY-OF-YOGA-report@nitdelhib5109e75-6281-4d63-91d3-dea0542625ed.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Director's Message",
+        "url": "https://nitdelhi.ac.in/institute/leadership/director-message",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "name": "Sardar Vallabhbhai National Institute of Technology, Surat",
+    "city": "Surat",
+    "state": "Gujarat",
+    "nirf_rank": 66,
+    "website": "https://www.svnit.ac.in",
+    "candidates": [
+      {
+        "text": "Hostel Fee Structure(2026-27)",
+        "url": "https://svnit.ac.in/Data/Notice/2026/August/Hostel%20Fees%20Structure%20of%20A.Y.%202026-27-%20Director%20Sign.pdf",
+        "score": 11,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Fee Structure(2025-26)",
+        "url": "https://svnit.ac.in/Data/fee%20structure/Hostel%20Fees%20Structure%20of%20A.Y.%202025-26.pdf",
+        "score": 11,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Fees Structure of Academic Year 2026-27 for B.Tech, M.Sc, M.Tech & Ph.D all years",
+        "url": "https://www.svnit.ac.in/Data/Notice/2026/August/Hostel%20Fees%20Structure%20of%20A.Y.%202026-27-%20Director%20Sign.pdf",
+        "score": 8,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Fees Structure of Academic Year 2026-27 for B.Tech, M.Sc, M.Tech & Ph.D all years.",
+        "url": "https://www.svnit.ac.in/Data/Notice/2026/June/Hostel%20Fees%20Structure%20of%20A.Y.%202026-27-%20Director%20Sign.pdf",
+        "score": 8,
+        "is_pdf": true
+      },
+      {
+        "text": "Institute Fee Structure",
+        "url": "https://www.svnit.ac.in/web/fee-structure-inst.php",
+        "score": 6,
+        "is_pdf": false
+      },
+      {
+        "text": "Fee Structure",
+        "url": "https://www.svnit.ac.in/#custom-collapse-0-7",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "Notice-Possession of Hostel Rooms and Commencement of Regular Mess Facility",
+        "url": "https://www.svnit.ac.in/Data/Notice/2026/July/Notice-Possession%20of%20Hostel%20Rooms%20and%20Commencement%20of%20Mess%20Facility.pdf",
+        "score": 5,
+        "is_pdf": true
+      },
+      {
+        "text": "Online Hostel Allotment for the Existing Ph.D, M.Tech, MBA, B.Tech-II to IV & M.Sc-II to V Students for Season 2026-27",
+        "url": "https://www.svnit.ac.in/Data/Notice/2026/July/Hostel%20Allotment%20for%20Existing%20M.Tech,%20Ph.D,%20B.Tech%20&%20M.Sc%20Students%20for%20Session%202026-27.pdf",
+        "score": 5,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Level Anti Ragging Squad, 2026",
+        "url": "https://www.svnit.ac.in/Data/Notice/2026/August/Hostel%20Level%20Anti%20Ragging%20Squad%202026.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice of Hostel Admission for All Ph.D-I and M.B.A. I year Students (Odd Semester) of academic year 2026-27.",
+        "url": "https://www.svnit.ac.in/Data/Notice/2026/July/Ph.D-%20I%20&%20M.B.A%20I%202026-27%20(Odd%20Semester)%20Online%20Admission%20Circular.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice Room Handover procedure before leaving the hostel",
+        "url": "https://www.svnit.ac.in/Data/Notice/2026/April/Notice-%20Room%20handover%20procedure-2026-27.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice: Final Extension of Fees Payment Date",
+        "url": "https://www.svnit.ac.in/Data/Notice/2026/January/2.%20Extension%20of%20fees%20payment.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice: Date Extension for payment of Mess Advance Fee (Even Semester 2025-26)",
+        "url": "https://www.svnit.ac.in/Data/Notice/2026/January/Mess%20Advance%20extention%20Notice.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice regarding Extension of Fees Payment Date",
+        "url": "https://www.svnit.ac.in/Data/Notice/2026/January/1.%20Circular%20for%20fees%20payment.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Tender Notice for Water Proofing work for the entire terrace portion including parapet walls of Mother Teresa Bhavan Hostel at SVNIT Campus, Surat.",
+        "url": "https://www.svnit.ac.in/Data/Notice/2026/July/504InstituteNIT.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Accrediation Report: UG",
+        "url": "https://www.svnit.ac.in/qlinks/acr_ug.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic calendar (Year 2026-27) (B.Tech.-I, M.Sc.-I, and M.Tech.-I)",
+        "url": "https://www.svnit.ac.in/Data/Notice/2026/August/Academic%20Calendar-B.Tech-I,%20MSc-I,%20M.Tech-I.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic calendar (B.Tech.-I, M.Sc.-I, and M.Tech.-I)",
+        "url": "https://www.svnit.ac.in/Data/Notice/2025/August/Academic%20Calender%20-B.Tech-M.Tech.-I-Signed.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Calendar 2024-25 (B.Tech -I and M.Sc.-I)",
+        "url": "https://www.svnit.ac.in/Data/Notice/2024/August/Academic%20Calendar%20for%201st%20Year%20of%20B.Tech.%20and%20M.Sc.%20(1).pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Calendar 2023-24 (B.Tech.-1, M.Sc.-1, M.Tech.-1, & Ph.D.-1) (Even Semester)",
+        "url": "https://www.svnit.ac.in/Data/Notice/2023/November/Academic%20Calendar%202023-24%20(B.Tech.-1,%20M.Sc.-1,%20M.Tech.-1,%20&%20Ph.D.-1)%20(Even%20Semester).pdf",
+        "score": 3,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-srinagar",
+    "name": "National Institute of Technology, Srinagar",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "nirf_rank": 73,
+    "website": "https://nitsri.ac.in",
+    "candidates": [
+      {
+        "text": "Undergraduate",
+        "url": "https://nitsri.ac.in/uploaded_files/VariousProgrames.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Timetable for the B.Tech. 1st Semester, effective from 24 August 2026",
+        "url": "https://nitsri.ac.in/uploaded_files/Final_Timetable_for_the_B.Tech._1st_Semester,_effective_from_24_August_2026.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "iDream",
+        "url": "https://nitsri.ac.in/uploaded_files/iDREAM_NITSrinagar.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostels",
+        "url": "https://nitsri.ac.in/Department/Deptindex.aspx?page=a&ItemID=is&nDeptID=cq",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "List of Holidays",
+        "url": "https://nitsri.ac.in/uploaded_files/holidaylist_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Contacts",
+        "url": "https://nitsri.ac.in/uploaded_files/contacts.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Read more...",
+        "url": "https://nitsri.ac.in/uploaded_files/15_August_Independence_Day_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Handson Workshop on Multiphysics Modelling using COMSOL Multiphysics",
+        "url": "https://nitsri.ac.in/uploaded_files/COMSOL_Workshop_Poster_28_August_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "6th ICCBT NIT Srinagar 2026| 12 Aug, 2026",
+        "url": "https://nitsri.ac.in/uploaded_files/6th_ICCBT__NIT_Srinagar_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Institute Action Plan",
+        "url": "https://nitsri.ac.in/uploaded_files/INSTITUTE_ACTION_PLAN_2025.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "ARIIA 2021",
+        "url": "https://nitsri.ac.in/uploaded_files/Atal_Ranking_Report_2021_NIT_Srinagar.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Key Objectives",
+        "url": "https://nitsri.ac.in/uploaded_files/KEY_OBJECTIVES.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Public Procurement 2025-26",
+        "url": "https://nitsri.ac.in/uploaded_files/GEM_Orders_FY_2025-26.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "FAQs",
+        "url": "https://nitsri.ac.in/uploaded_files/NITS_FAQS.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "IT Policies",
+        "url": "https://nitsri.ac.in/uploaded_files/IT_Policy_(Approved).pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Security Certificate",
+        "url": "https://nitsri.ac.in/uploaded_files/AppSecReport-NationalInstituteofTechnologySrinagar-v1.0_1-6.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Mess Credit/Debit",
+        "url": "https://nitsri.ac.in/Pages/DisplayPages.aspx?page=caasi",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "university-of-hyderabad",
+    "name": "University of Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "nirf_rank": 74,
+    "website": "https://uohyd.ac.in",
+    "candidates": [
+      {
+        "text": "Hostels",
+        "url": "https://uohyd.ac.in/hostels/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Click Here",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2022/05/Research-Call-5-06-05-2022.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Recruitment of Temporary/Contract TGT Teachers in the UoH Campus School;",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2026/07/advertisement-of-TGTs1.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Application form",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2026/07/Application-Form-uohcs-1.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Recruitment of Temporary/Contract PRT Music teacher in the UoH Campus School;",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2026/06/Contract-Teachers-Recruitment-UoHCS-2026-27.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Notification",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2026/06/PRT-MUSIC-2026-27.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Application form",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2026/06/Application-Form-uohcs-2-1.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Application form",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2026/06/Application-Form-uohcs-1.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Admission notification for classes UKG, III to V & VII to IX for the academic year 2026-27",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2026/05/Admission-Notification-for-classes-UKG-III-to-V-and-VII-to-IX.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "LKG Admission Notification for the academic year 2026- 27",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2025/12/LKG-notifcation-2026-2027.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "25th Convocation Notification",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2025/08/25TH_CONVO_NOTIFN.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Date Extended",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2025/09/25th-convection-Last-Date-extended.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Visvesvaraya PhD Scheme",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2025/03/Visvesvaraya-PhD-Scheme.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Ph.D. Programme Admissions – 2024-25 :: Public Notice",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2024/08/UoH-PhD-Entranc-Exam-2024-Notification-1.8.2024.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Clarificatory Notification on Ph.D Admissions 2024-25",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2024/05/Clarificatory-Notification-on-Ph.D.-Admissions-2024-25.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "UoH NEP-2020 PHASE-I REPORT",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2022/03/UoH-NEP-2020-PHASE-I-REPORT_FIN_compressed-PDF.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NAAC SSR Report for UoH",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2022/02/Final-Approved-UH-SSR.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Idea gap and contribution UoH",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2026/07/Idea-gap-and-contribution-UoH.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "AICTE Mandatory Disclosure",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2021/04/aicte-man-disc_2020-21_29March2021.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Pradhan Mantri Vidyalaxmi (PM-Vidyalaxmi) Scheme",
+        "url": "https://uohyd.ac.in/wp-content/uploads/2025/06/Pradhan-Mantri-Vidyalaxmi-PM-Vidyalaxmi-Scheme_Brochure.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-dharwad",
+    "name": "Indian Institute of Technology Dharwad",
+    "city": "Dharwad",
+    "state": "Karnataka",
+    "nirf_rank": 77,
+    "website": "https://www.iitdh.ac.in",
+    "candidates": [
+      {
+        "text": "Wardens",
+        "url": "https://www.iitdh.ac.in/hostel-wardens",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "M.Tech by Research (PG)",
+        "url": "https://iitdh.ac.in//sites/default/files/2023-10/Senate%20Approved%20MS%20Ordinances.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "PhD (PG)",
+        "url": "https://www.iitdh.ac.in//sites/default/files/2023-10/Rules_PhD_2021_v2.0.1.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Fee Circular",
+        "url": "https://www.iitdh.ac.in/fee-circular",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Ph.D",
+        "url": "https://www.iitdh.ac.in/sites/default/files/2026-02/PhD%20Rulebook%20_Rulebook_27Jul25%20%281%29_0.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Feedback from Alumni",
+        "url": "https://www.iitdh.ac.in/alumni-feedback",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Minor Program for UG (BTECH)",
+        "url": "https://iitdh.ac.in/minor-programs",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "BTECH/BS-MS (UG)",
+        "url": "https://www.iitdh.ac.in/jee-advanced",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "SmartMess",
+        "url": "https://smartmess.iitdh.ac.in/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Minor Program for UG (BTECH)",
+        "url": "https://www.iitdh.ac.in/minor-programs",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "B.Tech. Curriculum",
+        "url": "https://www.iitdh.ac.in/btech-curriculum",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "UG",
+        "url": "https://www.iitdh.ac.in/ug",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "",
+        "url": "https://www.iitdh.ac.in/report-ug-pg-orientation-programme-2026",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "",
+        "url": "https://www.iitdh.ac.in/orientation-programme-iit-dharwad-provided-newly-admitted-ug-and-pg-students-valuable-insights-and",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "sant-longowal-institute-of-engineering-and-technology",
+    "name": "Sant Longowal Institute of Engineering and Technology",
+    "city": "Longowal",
+    "state": "Punjab",
+    "nirf_rank": 79,
+    "website": "https://sliet.ac.in",
+    "candidates": [
+      {
+        "text": "Organisation Chart",
+        "url": "http://sliet.ac.in/wp-content/uploads/2021/10/ORGNSCHART.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostels",
+        "url": "http://hostel.sliet.ac.in/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Notice regarding Anti-Ragging Squard for Girls Hostels",
+        "url": "https://sliet.ac.in/2026/07/anti-ragging-squard-for-girls-hostels/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Notification Regarding JOSAA, CSAB, CCMN, CCMT Reporting Dates and Documents",
+        "url": "https://sliet.ac.in/wp-content/uploads/2026/07/JOSAACSABCCMNCCMT-REPORTING-DATES-AND-DOCUMENTS.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Cyber Security Best Practices",
+        "url": "http://sliet.ac.in/wp-content/uploads/2025/08/cis_cyber_security.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Revised result of written test conducted on 11 August, 2026 for PhD admissions",
+        "url": "http://sliet.ac.in/wp-content/uploads/2024/09/Revised-result-of-written-test-conducted-on-11-August-2026-for-PhD-admissions.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "",
+        "url": "http://sliet.ac.in/wp-content/uploads/2025/03/ANSHUMAT-VOL.-VII-ISSUE-III-IV-July-Dec.-2024.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Result of Presentations conducted for PhD admissions Part- 3",
+        "url": "http://sliet.ac.in/wp-content/uploads/2024/09/Result-of-Presentations-conducted-for-PhD-admissions-Part-3.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Result of Presentations held on 12 August, 2026 for PhD admissions (Part-2)",
+        "url": "http://sliet.ac.in/wp-content/uploads/2024/09/Result-of-Presentations-held-on-12-August-2026-for-PhD-admissions-Part-2.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Result of Presentations for PhD admissions held on 12 August, 2026",
+        "url": "http://sliet.ac.in/wp-content/uploads/2024/09/Result-of-Presentations-for-PhD-admissions-held-on-12-August-2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Result of written test held on 11 August for PhD admissions 2026",
+        "url": "http://sliet.ac.in/wp-content/uploads/2024/09/Result-of-written-test-held-on-11-August-for-PhD-admissions-2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Establishment of International Cell",
+        "url": "http://rnc.sliet.ac.in/files/2025/08/Office-Order-for-Establishment-of-International-Cell.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "",
+        "url": "http://sliet.ac.in/wp-content/uploads/2025/07/Scholarship-Scheme.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "UGC’s Public Self-Disclosures",
+        "url": "http://sliet.ac.in/wp-content/uploads/2025/05/UGCs-Public-Self-Disclosures.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "SLIET Holidays Calendar 2026",
+        "url": "http://administration.sliet.ac.in/files/2025/10/Office-Order-regarding-Listed-Holidays-during-the-Calendar-Year-2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "",
+        "url": "https://sliet.ac.in/2019/03/directors-message/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "MOU with Greenhexa Techserve Pvt. Ltd., Faridabad, Delhi- NCR for B.Tech. and M.Tech. Students_30th October, 2024",
+        "url": "https://sliet.ac.in/2024/12/mou-with-greenhexa-techserve-pvt-ltd-faridabad-delhi-ncr-for-b-tech-and-m-tech-students_30th-october-2024/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "AICTE Feedback",
+        "url": "http://academic.sliet.ac.in/aicte-feedback/",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-jamshedpur",
+    "name": "National Institute of Technology, Jamshedpur",
+    "city": "Jamshedpur",
+    "state": "Jharkhand",
+    "nirf_rank": 82,
+    "website": "https://www.nitjsr.ac.in",
+    "candidates": [],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-meghalaya",
+    "name": "National Institute of Technology Meghalaya",
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "nirf_rank": 83,
+    "website": "https://www.nitm.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://www.nitm.ac.in/page_download.php?c=fee-structures/fee-structure",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "Hostels",
+        "url": "https://www.nitm.ac.in/page_details.php?page=hostel",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Hostels Information",
+        "url": "https://www.nitm.ac.in/page_details.php?page=hostel-information",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Hostel Forms",
+        "url": "https://www.nitm.ac.in/page_details.php?page=hostel-forms",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Hostel Patrolling Committee",
+        "url": "https://www.nitm.ac.in/page_details.php?page=hostel-patrolling-committee",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Hostel Rules & Regulations",
+        "url": "https://www.nitm.ac.in/page_details.php?page=hostel-rules-regulations",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Message from the Director",
+        "url": "https://www.nitm.ac.in/page_details.php?page=message-from-the-director",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "",
+        "url": "https://www.nitm.ac.in/programmes.php?p=undergraduate-programmes",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "coep-pune",
+    "name": "COEP Technological University, Pune",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "nirf_rank": 90,
+    "website": "https://www.coeptech.ac.in",
+    "candidates": [
+      {
+        "text": "DSY Hostel Allotment Instructions and Hostel Fees procedure",
+        "url": "https://www.coeptech.ac.in/wp-content/uploads/2026/08/DSY-Hostel-Allotment-Instructions-and-Hostel-Fees-procedure.docx",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "First year B-Tech hostel admission notification AY 2026-27 boys and girls with Hostel Application form",
+        "url": "https://www.coeptech.ac.in/wp-content/uploads/2026/08/first-year-btech-hostel-admission-notification-AY-2026-27-boys-and-girls-with-hostel-application-form.pdf",
+        "score": 5,
+        "is_pdf": true
+      },
+      {
+        "text": "Final Hostel Admission Merit List DSY A.Y. 2026-27",
+        "url": "https://www.coeptech.ac.in/wp-content/uploads/2026/08/Final-Hostel-Admission-Merit-List-DSY-A.Y.-2026-27.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Seat Matrix for DSY A.Y. 2026-27 and Provisional Hostel Admission Merit List A.Y. 2026-27 (For DSY Boys & Girls)",
+        "url": "https://www.coeptech.ac.in/wp-content/uploads/2026/08/Seat-Matrix-and-Provisional-hostel-merit-list-DSY-Boys-Girls.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Admission Notification 2026-27 DSY",
+        "url": "https://www.coeptech.ac.in/wp-content/uploads/2026/08/Hostel-Admission-Notification-2026-27-DSY-Copy-.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Fees Structure",
+        "url": "https://www.coeptech.ac.in/useful-links/university-sections/ac-section/fees-structure-1/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Hostel",
+        "url": "https://www.coeptech.ac.in/hostel/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "FY B-PLANNING Fees Structure",
+        "url": "https://www.coeptech.ac.in/news-and-announcement/fy-b-planning-fees-structure/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Working Professionals Fees Structure",
+        "url": "https://www.coeptech.ac.in/news-and-announcement/working-professionals-fees-structure/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "DSY B. Tech & B. Planning Fees Structure 2026-27",
+        "url": "https://www.coeptech.ac.in/news-and-announcement/dsy-b-tech-b-planning-fees-structure-2026-27/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "FY B. Tech & FY B. Planning Fees Structure 2026-27",
+        "url": "https://www.coeptech.ac.in/news-and-announcement/fy-b-tech-fy-b-planning-fees-structure-2026-27/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "CONVOCATION – IMPORTANT INSTRUCTIONS FOR ALL GRADUATING STUDENTS",
+        "url": "https://www.coeptech.ac.in/wp-content/uploads/2026/08/CONVOCATION-IMPORTANT-INSTRUCTIONS-FOR-ALL-GRADUATING-STUDENTS.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "पीएच.डी अधिछात्रवृत्ती जाहीरात प्रसिद्द करण्याबाबत शैक्षणीक वर्ष 2023, 2024 आधि 2025 करिता, 01 Aug 2026",
+        "url": "https://www.coeptech.ac.in/wp-content/uploads/2026/08/%E0%A4%AA%E0%A5%80%E0%A4%8F%E0%A4%9A%E0%A4%A1%E0%A5%80-%E0%A5%A8%E0%A5%A6%E0%A5%A8%E0%A5%AA-%E0%A4%B5-%E0%A5%A8%E0%A5%A6%E0%A5%A8%E0%A5%AB-%E0%A4%9C%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%B0%E0%A4%BE%E0%A4%A4-%E0%A4%AC%E0%A4%BE%E0%A4%AC%E0%A4%A4.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Circular No 30 Dt 30 July 2026 MaHa DBT 2.0 AY 2026-27",
+        "url": "https://www.coeptech.ac.in/wp-content/uploads/2026/07/Circular-No-30-Dt-30-July-2026-MaHa-DBT-2.0-AY-2026-27.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Undergraduate (B.Tech)",
+        "url": "https://www.coeptech.ac.in/admissions/undergraduate/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "First Year B.Tech.",
+        "url": "https://www.coeptech.ac.in/academics/schools/school-of-engineering-and-technology/first-year-b-tech-2/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Instructions to Candidates for Reporting and Confirmation of Admission AY-2026-27 (F.Y B.Tech / B.Planning CAP Rounds)",
+        "url": "https://www.coeptech.ac.in/news-and-announcement/instructions-to-candidates-for-reporting-and-confirmation-of-admission-ay-2026-27-f-y-b-tech-b-planning-cap-rounds/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Admissions",
+        "url": "https://www.coeptech.ac.in/admission/undergraduate/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "UG Convocation Registered Student List 2026",
+        "url": "https://www.coeptech.ac.in/wp-content/uploads/2026/08/UG-Convocation-Registered-Student-List-2026.xlsx",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "nirf_rank": 96,
+    "website": "https://www.iiitm.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure & Payment",
+        "url": "https://iiitm.ac.in/public/uploads/media_uploads/1779189402_Fees-Details-2025-2026-f.pdf",
+        "score": 8,
+        "is_pdf": true
+      },
+      {
+        "text": "Fee Structure B. Tech-CSE, EEE, MSC/ IMT/ IMG Students",
+        "url": "https://iiitm.ac.in/public/uploads/media_uploads/1779189276_Fee-Structure-2022-2023-and-2024-new-f.pdf",
+        "score": 7,
+        "is_pdf": true
+      },
+      {
+        "text": "ARIIA 2021",
+        "url": "https://iiitm.ac.in/public/uploads/media_uploads/1768758925_ARIIA-2021.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Institute’s Brochure",
+        "url": "https://iiitm.ac.in/public/uploads/media_uploads/1777443840_IB-202526-compressed.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "05 August 2026 Supply, Installation, Testing & Commissioning (SITC) of Wireless Access Points for Hostel Unit, ABV IIITM Campus, Gwalior",
+        "url": "https://www.iiitm.ac.in/tenders/supply-installation-testing-commissioning-sitc-of-wireless-access-points-for-hostel-unit-abv-iiitm-campus-gwalior",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "",
+        "url": "https://www.iiitm.ac.in/campus/hostel-life",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Feedback",
+        "url": "https://www.iiitm.ac.in/feedback",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Director’s Message",
+        "url": "https://www.iiitm.ac.in/director",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "B.Tech. Computer Science and Engineering",
+        "url": "https://iiitm.ac.in/course/b-tech-in-computer-science-engineering",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "B.Tech. Electrical and Electronics Engineering",
+        "url": "https://iiitm.ac.in/course/btech-electrical-and-electronics-engineering",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "B.Tech. Mathematics & Scientific Computing",
+        "url": "https://iiitm.ac.in/course/btech-mathematics-scientific-computing",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "",
+        "url": "https://www.iiitm.ac.in/course/btech-electrical-and-electronics-engineering",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "",
+        "url": "https://www.iiitm.ac.in/course/btech-mathematics-scientific-computing",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "17 July 2026 Details of the Admission Process for the First Semester B.Tech. (CSE, EEE, MSC) and Integrated B.Tech. (IT) + M.Tech.(IT) / Integrated B.Tech. (IT) + MBA 2026-27",
+        "url": "https://www.iiitm.ac.in/admissions/details-of-the-admission-process-for-the-first-semester-btech-cse-eee-msc-and-integrated-btech-it-mtechit-integrated-btech-it-mba-2026-27",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-hamirpur",
+    "name": "National Institute of Technology Hamirpur",
+    "city": "Hamirpur",
+    "state": "Himachal Pradesh",
+    "nirf_rank": 97,
+    "website": "https://nith.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://nith.ac.in/uploads/files/nov24/feestructure.pdf",
+        "score": 8,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice Regarding Hostel and Mess Fee",
+        "url": "https://nith.ac.in/uploads/files/jul26/hostel-fee.pdf",
+        "score": 6,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Fee Notice 2025-26",
+        "url": "https://nith.ac.in/uploads/files/may25/Hostel-Fee-Notice-2025-26.pdf",
+        "score": 6,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Booklet",
+        "url": "https://nith.ac.in/uploads/files/aug26/hostel-booklet26-27.pdf.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Old UG Manual",
+        "url": "https://nith.ac.in/uploads/topics/15826279581924.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Commencement of Regular Yoga Classes for First-Year UG Students",
+        "url": "https://nith.ac.in/uploads/files/sept25/Scan_20250915.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Calendar for the First Semester of UG and PG Programmes for the Academic Year 2026–27",
+        "url": "https://nith.ac.in/uploads/files/aug26/acad-calender1-26.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Help-Centre for Documents' Verification of Candidates Seeking Admission at NIT Hamirpur through CSAB-2026 / DASA-2026",
+        "url": "https://nith.ac.in/uploads/files/jun26/helpdesk-ug-26.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Calender for UG & PG 1st Semester (Updated)",
+        "url": "https://nith.ac.in/uploads/files/sept25/calenderugpg1st.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Prof. H.M. Suryawanshi, Director NIT Hamirpur HP & Dr. Vijay Kr. Bansal Head of the Civil Engineering Department congratulated Mr. Shourya (Roll No: 22BCE099) B.Tech 2nd Year student of the Civil Engineering Department Participated in the CESAFIESTA 2.0 Symposium, held at IIT Ropar on March 09 and 10, 2024.He has been awarded for the best oral presentation and outstanding performance in water resource/Geomatics/Environment Engineering for a project titled \"Development of an Advanced Groundwater Monitoring System for Sustainable Resource Management\" under the guidance of Dr. Ray Singh Meena, Assistant Professor (Gr-I) Civil Engineering Department NIT Hamirpur",
+        "url": "https://nith.ac.in/uploads/topics/best-award17102362759163.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Composition of BOG",
+        "url": "https://nith.ac.in/uploads/topics/17642163716028.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Composition of FC",
+        "url": "https://nith.ac.in/uploads/topics/17642162991410.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Composition of BWC",
+        "url": "https://nith.ac.in/uploads/topics/16624339297916.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Odd Semester 2026-27",
+        "url": "https://nith.ac.in/uploads/topics/17244223408638.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Even Semester 2026-27",
+        "url": "https://nith.ac.in/uploads/topics/academic-calander-even17180752079089.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Old PG Manual",
+        "url": "https://nith.ac.in/uploads/topics/15826281118842.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Certificate regarding Divisions/Percentage",
+        "url": "https://nith.ac.in/uploads/topics/16076810863021.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Old PG Manual",
+        "url": "https://nith.ac.in/uploads/topics/15826282142459.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Discipline Rules",
+        "url": "https://nith.ac.in/uploads/topics/studentdisplinerule16438814532264.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Counselling Rules",
+        "url": "https://nith.ac.in/uploads/topics/student-counselling-rule16438814713185.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-guwahati",
+    "name": "Indian Institute of Information Technology Guwahati",
+    "city": "Guwahati",
+    "state": "Assam",
+    "nirf_rank": null,
+    "website": "https://www.iiitg.ac.in",
+    "candidates": [
+      {
+        "text": "CSAB Special Rounds & DASA (UG) 2027",
+        "url": "https://www.iiitg.ac.in/uploads/2026/07/20/9ace5035dfb1c01ee7774ece444c4e32.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Admission Notification Notice AY 2026-27 CSAB Special Rounds & DASA (UG)",
+        "url": "https://www.iiitg.ac.in/uploads/2026/07/20/d08fb41c5076362bda8385c7d832f9fe.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Equity Action plan",
+        "url": "https://www.iiitg.ac.in/uploads/2023/03/13/IIITG__EAP_Dec20_March_21.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NIRF Data",
+        "url": "https://www.iiitg.ac.in/uploads/2026/04/02/9d88960a106447695e42d3b530162f1c.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Fees",
+        "url": "https://www.iiitg.ac.in/fees",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Scholarship and Financial Assistance",
+        "url": "https://www.iiitg.ac.in/uploads/2026/06/18/25c076ff3f2a2eb5fc6d78dff576a95a.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Post-Doc",
+        "url": "https://www.iiitg.ac.in/uploads/2025/10/28/e557c7acb934cc8e2a16723f2008ed22.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Induction Programme 2026",
+        "url": "https://www.iiitg.ac.in/uploads/2026/08/14/c5d8a59ec8a31d22f487092985695d8e.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "B. Tech Programme in Electronics Communication and Artificial Intelligence",
+        "url": "https://www.iiitg.ac.in/uploads/2026/06/14/827ed26dd0109ed6b2cf6454155c9bcc.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Induction Programme 2026 Groups",
+        "url": "https://www.iiitg.ac.in/uploads/2026/08/18/47184111d1892a0c5fff7faf94c4fd19.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Guidelines related to Disciplinary Action",
+        "url": "https://www.iiitg.ac.in/uploads/2026/05/29/c353f398e7435ae6cf96d8cb082af8df.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "National Scholarship for Higher Education of ST Students",
+        "url": "https://www.iiitg.ac.in/uploads/2026/06/24/3b06dfb4e3dd10eec91031f536ea9800.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "IIIT Guwahati Summer Internship 2026",
+        "url": "https://www.iiitg.ac.in/uploads/2026/05/08/266a4705578b22e0a32365d8423f5596.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NOTICE: Selection list of candidates for admission into PhD Programme in Computer Science and Engineering (CSE) at IIIT Guwahati_January 2026",
+        "url": "https://www.iiitg.ac.in/uploads/2026/02/12/6465e9f1fda886fc8d7840b15f3cf0b4.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NOTICE: Selection list of candidates for admission into PhD Programme in Humanities and Social Sciences (HSS) at IIIT Guwahati_January 2026",
+        "url": "https://www.iiitg.ac.in/uploads/2026/02/11/9126c1716cc77b0acc785504f06644fd.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NOTICE: Selection list of candidates for admission into PhD Programme in Science and Mathematics (S&M) at IIIT Guwahati_January 2026",
+        "url": "https://www.iiitg.ac.in/uploads/2026/02/11/8a664ccde11b28eb5b3d5a1f0e3a3c5b.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NOTICE: Selection list of candidates for admission into PhD Programme in Electronics and Communication Engineering (ECE) at IIIT Guwahati_January 2026",
+        "url": "https://www.iiitg.ac.in/uploads/2026/02/10/7e1c003abeba115e4124a9423cd3d336.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Advertisement for Post-Doctoral Fellowship Position 2025: Visvesvaraya Scheme Phase-II- Date Extended",
+        "url": "https://www.iiitg.ac.in/uploads/2025/08/11/560e05600e9571ae78edc18bd3a1fc67.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NOTICE: Waiting list of candidates for admission into M.Tech. Programme in Electronics and Communication Engineering (ECE) at IIIT Guwahati",
+        "url": "https://www.iiitg.ac.in/uploads/2026/07/24/2f69c72b1e093d9153178daf72cff9c7.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NOTICE: Waiting list of candidates for admission into M.Tech. Programme in Computer Science and Engineering (CSE) at IIIT Guwahati",
+        "url": "https://www.iiitg.ac.in/uploads/2026/07/24/ce6028e539324699df328c10ec6ede1a.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-allahabad",
+    "name": "Indian Institute of Information Technology, Allahabad",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "nirf_rank": null,
+    "website": "https://www.iiita.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://www.iiita.ac.in/fee-structure",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "CPPP Tender (Tender ID: 2026_IIITA_923622_1 ) for “Supply, Installation, Testing and Commissioning(SITC) of Commercial Reverse Osmosis(RO) Plant of 500 LPH in Hostels at IIIT-Allahabad",
+        "url": "https://www.iiita.ac.in/cppp-tender-tender-id-2026iiita9236221-supply-installation-testing-and-commissioningsitc-commercial",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Students Fee",
+        "url": "https://aaa.iiita.ac.in/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Director's Message",
+        "url": "https://www.iiita.ac.in/directors-profile-message",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Registrar's Message",
+        "url": "https://www.iiita.ac.in/registrars-message",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Office of Dean Academics",
+        "url": "https://www.iiita.ac.in/message-desk-dean-academic-affairs",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Fee Payment",
+        "url": "https://www.iiita.ac.in/fee-payment",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Read more",
+        "url": "https://www.iiita.ac.in/message-director",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Feedback",
+        "url": "https://www.iiita.ac.in/feedback",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+    "name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+    "city": "Kancheepuram",
+    "state": "Tamil Nadu",
+    "nirf_rank": null,
+    "website": "https://www.iiitdm.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "http://old.iiitdm.ac.in/img/academics/Fee_Structure_2026-27.pdf",
+        "score": 7,
+        "is_pdf": true
+      },
+      {
+        "text": "Orientation Programme for the B.Tech and Dual Degree 2026 batches on 17 August 2026",
+        "url": "http://old.iiitdm.ac.in/img/Events/2026/Orientation_2026.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Life",
+        "url": "https://www.iiitdm.ac.in/hostel",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Anti-Ragging",
+        "url": "http://old.iiitdm.ac.in/img/Others/antiragging.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Advertisement for the Post of Technician in NLC INDIA LIMITED Sponsored Project (PI: Prof. Sreekumar M) (Walk-in Interview: 28-August-2026)",
+        "url": "http://old.iiitdm.ac.in/img/Recruitment/2026/Advt_SRIC_Dr_Sreekumar_1.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Advertisement for the Post of Project Assistant in XYMA Analytics Pvt. Ltd Sponsored Project (PI: Dr. Srijith K) (Last Date to Apply: 01-September-2026)",
+        "url": "http://old.iiitdm.ac.in/img/Recruitment/2026/Advt_SRIC_Dr_Srijith.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "One Week STTP on AI, Vision, and Quantum Computing for Robot Integration: Theory and Practice, 10-15 Dec. 2026.",
+        "url": "http://old.iiitdm.ac.in/img/Events/2026/STTP%20AI%20and%20Robotics%20Dec%202026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Advertisement for the Post of Research Assistant in A. S. Hornby Educational Trust CIO, United Kingdom Sponsored Project (PI: Dr. Kandharaja KMC) (Last Date to Apply: 31-August-2026)",
+        "url": "http://old.iiitdm.ac.in/img/Recruitment/2026/Advt_SRIC_Dr_Kandharaja.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Advertisement for JRF in ANRF - PMECRG Sponsored Project (PI: Dr. Ratna Raju Mekala) (Last Date to Apply: 31-August-2026)",
+        "url": "http://old.iiitdm.ac.in/img/Recruitment/2026/Advt_SRIC_Dr_RatnaRajuMekala.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Advertisement for JRF in ANRF - PMECRG Sponsored Project (PI: Dr. Krishnakumar Gnanambikai) (Last Date to Apply: 31-August-2026)",
+        "url": "http://old.iiitdm.ac.in/img/Recruitment/2026/Advt_SRIC_Dr_Krishnakumar_Gnanambika.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Advertisement for the Post of Technician in NLC INDIA LIMITED Sponsored Project (PI: Prof. Sreekumar M)(Walk-in Interview: 14-August-2026)",
+        "url": "http://old.iiitdm.ac.in/img/Recruitment/2026/Advt_SRIC_Tecnician_DrSreeKumar.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Advertisement for Project Technical Support - III in ICMR Sponsored Project (PI: Dr. Rohini P)(Last Date to Apply: 11-August-2026)",
+        "url": "http://old.iiitdm.ac.in/img/Recruitment/2026/Advt_SRIC_Tech_Support_III_DrRohiniP.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "MMTTC Online Short Term Programme on AI Tools for Teaching and Learning in Higher Education (August 24-29, 2026).",
+        "url": "http://old.iiitdm.ac.in/img/Events/2026/MMTTC_STP_AI_Tools_Teaching_Learning_Aug24-29.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "MMTTC Online Short Term Programme on Teaching Freshers in Higher Education (August 17-22, 2026).",
+        "url": "http://old.iiitdm.ac.in/img/Events/2026/MMTTC_STP_Teaching_Freshers_Aug17-22.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "STTP on CAD/CAM/CAE and AI Driven Medical Technologies for Biomedical Device Development and Translational Research (MedTech BTR 2026) during 21 – 26 September 2026",
+        "url": "http://old.iiitdm.ac.in/img/Events/2026/MedTechBTR2026Final_Edit%20A4_Final.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Workshop on “AI-Powered Workspace Productivity” (30th June 2026, 09-July-2026 & 14-July-2026)",
+        "url": "http://old.iiitdm.ac.in/img/Events/2026/ICC_AI_WORKSHOP_PHAMPLET_Website.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Faculty Development Programme On Deep Learning and Foundation Models for Vision, Language, Multimodal, and Quantum AI (8- 13th June 2026 (Physical Mode))",
+        "url": "http://old.iiitdm.ac.in/img/Events/2026/Joint%20FDP%20Brochure_Deep%20Learning%20and%20Foundation%20Models%20for%20Vision,%20Language,%20Multimodal,%20and%20Quantum%20AI.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Refresher Course on Machine Learning and Optimization Techniques from 16th - 28th March 2026.",
+        "url": "http://old.iiitdm.ac.in/img/Events/2026/RC_on_MLOT.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "2nd Summer School on Medical Imaging 2026 (SuSMI '26) June 15-19, 2026",
+        "url": "http://old.iiitdm.ac.in/img/Events/2026/SuSMI%20Flyer%202026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "One Day Workshop on Bioinformatics and Healthcare: Concepts, Tools and Applications (27 February, 2026)",
+        "url": "http://old.iiitdm.ac.in/img/Events/2026/Workshop%20on%20Bioinformatics%20and%20Healthcare%20Concepts,%20Tools%20and%20Applications.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-goa",
+    "name": "Indian Institute of Technology Goa",
+    "city": "Ponda",
+    "state": "Goa",
+    "nirf_rank": null,
+    "website": "https://iitgoa.ac.in",
+    "candidates": [
+      {
+        "text": "B.Tech",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "Ph.D.",
+        "url": "https://iitgoa.ac.in/phd_fee_structure/",
+        "score": 4,
+        "is_pdf": false
+      },
+      {
+        "text": "M. Sc.",
+        "url": "https://iitgoa.ac.in/m-sc-fee-structure/",
+        "score": 4,
+        "is_pdf": false
+      },
+      {
+        "text": "M.Tech",
+        "url": "https://iitgoa.ac.in/mtech_fee_structure/",
+        "score": 4,
+        "is_pdf": false
+      },
+      {
+        "text": "IP Policy",
+        "url": "http://iitgoa.ac.in/wp-content/uploads/IP_Policy.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "2022",
+        "url": "https://iitgoa.ac.in/wp-content/uploads/RDBrochure2022.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "2021",
+        "url": "http://iitgoa.ac.in/wp-content/uploads/RD_Brochure_2021.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "ADVERTISEMENT FOR EMPANELMENT OF BOOK SUPPLIERS FOR CENTRAL LIBRARY",
+        "url": "https://iitgoa.ac.in/wp-content/uploads/Central-Library-Vendor-Empanelment-Advertisement-2026-28.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "COVID – related Research & Development Works done",
+        "url": "https://iitgoa.ac.in/wp-content/uploads/Covid-E-Book.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "India Space Lab: Winter Internship & Technical Training Program, 14th January 2026",
+        "url": "https://iitgoa.ac.in/wp-content/uploads/ISL-summer-internship-details.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Holiday List 2026",
+        "url": "https://iitgoa.ac.in/wp-content/uploads/Holiday-2026-Circular.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Undergraduate Programmes",
+        "url": "https://iitgoa.ac.in/undergraduate-programmes/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "B.Tech",
+        "url": "http://iitgoa.ac.in/undergraduate/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "B.Tech. Admissions",
+        "url": "https://iitgoa.ac.in/why-iit-goa/",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "islamic-university-of-science-and-technology-kashmir",
+    "name": "Islamic University of Science and Technology Kashmir",
+    "city": "Awantipora",
+    "state": "Jammu and Kashmir",
+    "nirf_rank": null,
+    "website": "https://www.iust.ac.in",
+    "candidates": [
+      {
+        "text": "24 - 08 - 2026: Hostel Allotment and Consent Notice-III Girls Hostels (Session: August - 2026 to January - 2027)",
+        "url": "https://www.iust.ac.in/Notifications/General/260824130827.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "18-08-2026: Hostel Allotment Notice and List No. 02 of 2026 Boys Hostel (Session: August-2026 to January-2027)",
+        "url": "https://www.iust.ac.in/Notifications/General/260818210646.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "14-08-2026: Hostel Allotment List 02 of 2016(Girls Hostels) (Session: August- 2026 to January - 2027)",
+        "url": "https://www.iust.ac.in/Notifications/General/260814212806.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "04-08-2026: Hostel Allotment and Notice No. 01 of 2026 for Girls Hostel (Session: August - 2026 to January - 2027)",
+        "url": "https://www.iust.ac.in/Notifications/General/260804132417.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "03-08-2026: Hostel Allotment Notice and List No. 01 of 2026 (Session: August-2026 to January-2027)",
+        "url": "https://www.iust.ac.in/Notifications/General/260803165613.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "30-07-2026: Hostel Consent Notice No. 01 of 2026 (Girls Hostel), Session: August-2026 to January-2027",
+        "url": "https://www.iust.ac.in/Notifications/General/260730104055.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "29-07-2026: Hostel Consent Notice 01 of 2026 Session: August-2026 to January-2027",
+        "url": "https://www.iust.ac.in/Notifications/General/260729131558.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Feedback Policy",
+        "url": "https://iust.ac.in/Downloads/FeedbackPolicyIUST.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "25 - 08 - 2026: Admission Selection Notification No. 29 of 2026 (UG)",
+        "url": "https://www.iust.ac.in/Notifications/Admissions/260825222832.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "19-08-2026: Notice regarding Fee Concession and Support to Students with Disabilities and Economically Weaker Sections (EWS)",
+        "url": "https://www.iust.ac.in/Notifications/General/260819091854.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "16-08-2026: Admission Selection Notification No. 26 of 2026 (UG)",
+        "url": "https://www.iust.ac.in/Notifications/Admissions/260816174133.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "12-08-2026: Extension of Date for Submission of Deficient Documents – B.Tech./ Diploma Engineering (Lateral Entry) Programmes for the Academic Session 2026",
+        "url": "https://www.iust.ac.in/Notifications/Admissions/260812161834.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "11-08-2026: Admission Selection Notification No. 25 of 2026 (UG & PG)",
+        "url": "https://www.iust.ac.in/Notifications/Admissions/260811221757.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "11-08-2026: IUST organises awareness programme on the eve of World Breastfeeding Week 2026",
+        "url": "https://www.iust.ac.in/Notifications/PressRelease/260811094318.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "05-08-2026: Admission Selection Notification No. 23 of 2026 (FYUGP/ Other UG Programmes)",
+        "url": "https://www.iust.ac.in/Notifications/Admissions/260805113146.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "31-07-2026: Date Sheet for End Term Examinations B.Tech. (ECE) 8th Semester Session Spring 2026",
+        "url": "https://www.iust.ac.in/Notifications/Examinations/260731141042.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "30-07-2026: Admission (Selection) Notification No. 21 of 2026 (FYUGP/ Other UG Programmes)",
+        "url": "https://www.iust.ac.in/Notifications/Admissions/260730154354.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "30-07-2026: Date Sheet of (Project Final Presentation) B.Tech Computer Science & Engineering (8th Semester) Session Spring 2026",
+        "url": "https://www.iust.ac.in/Notifications/Examinations/260730154005.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "27-07-2026: Admission Selection Notification No. 20 of 2026 (FYUGP/ Other UG Programmes)",
+        "url": "https://www.iust.ac.in/Notifications/Admissions/260727085636.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "24-07-2026: Date Sheet (Major Project) B.Tech Mechanical Engineering (8th Semester) Session Spring 2026",
+        "url": "https://www.iust.ac.in/Notifications/Examinations/260724120937.pdf",
+        "score": 3,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-kundli",
+    "name": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+    "city": "Kundli",
+    "state": "Haryana",
+    "nirf_rank": null,
+    "website": "https://niftem.ac.in",
+    "candidates": [
+      {
+        "text": "Admission Prospectus (Academic Session 2026-27)",
+        "url": "https://niftem.ac.in/storage/updates/1779434382_ADMISSION%20PROSPECTUS%20Academic%20Session%202026%E2%80%9327%20Programmes%20for%20Admission%20%E2%80%A2%20B.Tech%20(FTM)%20%E2%80%A2%20Integrate...(FT)%20+%20MBA%20%E2%80%A2%20BBA%20(Hons)%20%E2%80%A2%20M.Tech%20%E2%80%A2%20M.Sc%20%E2%80%A2%20MBA%20%E2%80%A2%20Executive%20MBA%20%E2%80%A2%20Ph.D.%20(Regular%20Early%20Ph.D.)-compressed-compressed.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Calendar",
+        "url": "https://niftem.ac.in/newsite/wp-content/uploads/2023/06/Academic-calendar_Even-Semester_AY-2022-23-1.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Corrigendum in connection with the Advertisement No. N/HR&H/2024/18, dated 25.06.2026",
+        "url": "https://niftem.ac.in/storage/updates/1786705973_Corrigendum%20(2).pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Advertisement for the post of Registrar & Deputy Controller (Finance & Accounts)",
+        "url": "https://niftem.ac.in/storage/updates/1782706618_FINAL%20ADVT%20DATED%2025.06.2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Extension of Last Date for MBA & EMBA Applications – 2026",
+        "url": "https://niftem.ac.in/storage/updates/1782218366_eOyYGbEz2hQNYffEGFWZxSbadaBAwDGgSFvcY5OW.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Corrigendum: Withdrawal of M.Sc. Food Nutrition & Dietetics Programme from Admission Process for the Academic Session 2026–27",
+        "url": "https://niftem.ac.in/storage/updates/1779260907_Corrigendum-%20Admissions%202026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Campus Life Discover vibrant student life, hostels, sports, clubs, and campus events at NIFTEM.",
+        "url": "https://niftem.ac.in/campus-life",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "EXPRESSION OF INTEREST (EOI) FOR RUNNING OF FRUITS AND VEGETABLE PROCESSING PILOT PLANT ON MONTHLY LICENSE BASIS IN NIFTEM CAMPUS. EXPRESSION OF INTEREST (EOI) FOR RUNNING OF FRUITS AND VEGETABLE PROCESSING PILO... 5 days left to apply",
+        "url": "https://niftem.ac.in/storage/tenders/documents/tender_1786444416_eoi%20(1).pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "EXPRESSION OF INTEREST (EOI) FOR RUNNING OF (i) READY-TO-EAT (RTE), (ii) TRADITIONAL FOODS PRODUCTS & (iii) BAKERY PRODUCTS PILOT PLANTS ON MONTHLY LICENSE BASIS IN NIFTEM CAMPUS. EXPRESSION OF INTEREST (EOI) FOR RUNNING OF (i) READY-TO-EAT (RTE), (ii) TRADITI... 5 days left to apply",
+        "url": "https://niftem.ac.in/storage/tenders/documents/tender_1786444002_eoi.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "CGHS (Cash)/Govt. empanelled hospitals",
+        "url": "https://niftem.ac.in/newsite/wp-content/uploads/2024/05/hos-2-1.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "B. Tech.",
+        "url": "https://niftem.ac.in/academics/programmes/btech",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "B.Tech + MBA (Integrated)",
+        "url": "https://niftem.ac.in/btechplusmba",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Read Full Message",
+        "url": "https://niftem.ac.in/directors-message",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-thanjavur",
+    "name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+    "city": "Thanjavur",
+    "state": "Tamil Nadu",
+    "nirf_rank": null,
+    "website": "https://niftem-t.ac.in",
+    "candidates": [
+      {
+        "text": "Golden Jubilee Year Book",
+        "url": "https://niftem-t.ac.in/img/IIFPT-GJYB-2018-Book.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Innovation & Startup Policy",
+        "url": "https://niftem-t.ac.in/docs/isp.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NIFTEM-T Ordinances",
+        "url": "https://niftem-t.ac.in/docs/niftem-t-ordinances.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "PM-DAKSH-DEPwD",
+        "url": "https://niftem-t.ac.in/docs/PM-DAKSH-DEPwD.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Students Grievances Redressal Committee",
+        "url": "https://niftem-t.ac.in/docs/sgrc.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Committee on the Sexual Harassment of Women",
+        "url": "https://niftem-t.ac.in/itcell/circulars/offie-order--contact-details-of-internal-complaints-committee-on-the-sexual-harassment-of-women-at-the-workplace.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Students Hostel",
+        "url": "https://niftem-t.ac.in/bro.php",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "BTech (Food Technology)",
+        "url": "https://niftem-t.ac.in/ug.php",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "BTech Sports Quota Admission",
+        "url": "https://niftem-t.ac.in/sq-admission.php",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-agartala",
+    "name": "National Institute of Technology Agartala",
+    "city": "Agartala",
+    "state": "Tripura",
+    "nirf_rank": null,
+    "website": "https://nita.ac.in",
+    "candidates": [
+      {
+        "text": "Notice regarding last date for hostel application for newly admitted local students (Tripura).",
+        "url": "https://nita.ac.in/Notice_19-08-2026_Hostel-TripuraStudent-Aug2026_admin.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "UG Regulations (old)",
+        "url": "https://nita.ac.in/Rules_BTech.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Chairman Alumni Affairs",
+        "url": "https://nita.ac.in/Message_Chairman_Alumni.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Alumni Feedback Form",
+        "url": "https://nita.ac.in/FeedbackForm_Alumni_2025.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Strategic Plan 2020-2030",
+        "url": "https://nita.ac.in/StrategicPlan_2020-30.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Calendar",
+        "url": "https://nita.ac.in/AcademicCalendar-Odd2026-Revised.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Regulations for M.tech Programme (2019)",
+        "url": "https://nita.ac.in/Rules_MTech_2019.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Regulations for M.tech Programme (Old)",
+        "url": "https://nita.ac.in/Rules_old_MTech.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Regulations for Ph.D Programme (2018)",
+        "url": "https://nita.ac.in/Rules_PhD_2018.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Regulations for Ph.D Programme (Old)",
+        "url": "https://nita.ac.in/Rules_old_PhD.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Prospectus",
+        "url": "https://nita.ac.in/Prospectus_2024-25.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "DASA at NIT Agartala",
+        "url": "https://nita.ac.in/Dasa_2023_NITA.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "First Year Syllabus",
+        "url": "https://nita.ac.in/FinalSyllabus_1stYear_2021.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "List of Holidays (July 2025 - June 2026)",
+        "url": "https://nita.ac.in/Holidays_July2025-June26.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Verification of Academic Credential",
+        "url": "https://nita.ac.in/Verification-AcademicCredentials-Aug2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "SOP for acquiring Academic Documents",
+        "url": "https://nita.ac.in/SOP_Modified_Nov2024.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Question Bank Link",
+        "url": "https://nita.ac.in/QuestionBank_31012024.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Student Discipline Manual",
+        "url": "https://nita.ac.in/DisciplineMannual2025.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Alumni Meet 2025",
+        "url": "https://nita.ac.in/Invitation_Alumnimeet2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Bylaws of the SARC",
+        "url": "https://nita.ac.in/ByLaws-SARC-Jan26.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-arunachal-pradesh",
+    "name": "National Institute of Technology Arunachal Pradesh",
+    "city": "Yupia",
+    "state": "Arunachal Pradesh",
+    "nirf_rank": null,
+    "website": "https://www.nitap.ac.in",
+    "candidates": [
+      {
+        "text": "Telephone Directory",
+        "url": "https://www.nitap.ac.in/documents/telephone-directory.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Campus LifeHostels, Clubs & Sports",
+        "url": "https://www.nitap.ac.in/institute/gallery/details/?slug=student-life",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Instruction for New Hostel Admission 2026-277/17/2026, 8:02:00 AM",
+        "url": "https://www.nitap.ac.in/notices/instruction-for-new-hostel-admission-2026-27/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Mechanical Engineering Student Society",
+        "url": "https://old.nitap.ac.in/society/MESS/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "CSAB 2026 Special & DASA Counselling for the Admission in B.Tech 20267/20/2026, 6:53:00 AM",
+        "url": "https://www.nitap.ac.in/notices/csab-2026-special-and-dasa-counselling-for-the-admission-in-btech-2026/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Read full message",
+        "url": "https://www.nitap.ac.in/administration/director/",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-goa",
+    "name": "National Institute of Technology Goa",
+    "city": "Ponda",
+    "state": "Goa",
+    "nirf_rank": null,
+    "website": "https://nitgoa.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://nitgoa.ac.in/static/Fee_Structure.pdf",
+        "score": 7,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice to the NIT Goa Hostellers for the Hostel Fee Payment",
+        "url": "https://nitgoa.ac.in/uploads/CIRCULAR%20FOR%20THE%20ACACDEMIC%20YEAR%202026-27-ODD%20SEMESTER.pdf",
+        "score": 6,
+        "is_pdf": true
+      },
+      {
+        "text": "B.Tech Students",
+        "url": "https://nitgoa.ac.in/static/Rules_of_NIT_Goa_Hostel_18July2022.pdf",
+        "score": 5,
+        "is_pdf": true
+      },
+      {
+        "text": "Cancellation of GeM Bid - Mess Service at NIT GOA Boys Hostels(Ref No:- GEM/2026/B/7357985 dated 14.03.2026)",
+        "url": "https://nitgoa.ac.in/tenderuploads/Bid_Cancellation_MessServices%2015april2026.pdf",
+        "score": 5,
+        "is_pdf": true
+      },
+      {
+        "text": "Cancellation of Tender \"Corrigendum - Mess Service at NIT GOA Hostels\"(Ref No:- NITGOA/ADMIN/CORRIGENDUM/2026/OW/77 dated.23.02.2026.)",
+        "url": "https://nitgoa.ac.in/tenderuploads/Cancellation%20TenderMess%2024feb2026.pdf",
+        "score": 5,
+        "is_pdf": true
+      },
+      {
+        "text": "Corrigendum - Mess Service at NIT GOA Hostels (Ref No:- NITGOA/ADMIN/CORRIGENDUM/2026/OW/06 dated. 07.01.2026)",
+        "url": "https://nitgoa.ac.in/tenderuploads/CorrigendumMess%207jan2026.pdf",
+        "score": 5,
+        "is_pdf": true
+      },
+      {
+        "text": "Extension of Last Date for Submission of Mess Tender – NITG/HOSTEL/PUR/2025-26/OW/466.",
+        "url": "https://nitgoa.ac.in/tenderuploads/MesstenderExtension%2020dec2025.pdf",
+        "score": 5,
+        "is_pdf": true
+      },
+      {
+        "text": "Tender - Mess Service at NIT GOA Hostel (Ref No:- NITG/HOSTEL/PUR/2025-26/OW/466 dated. 28.11.2025.)",
+        "url": "https://nitgoa.ac.in/tenderuploads/MessTender%2028nov2025.pdf",
+        "score": 5,
+        "is_pdf": true
+      },
+      {
+        "text": "M.Tech Students",
+        "url": "https://nitgoa.ac.in/static/Rules_mtech_hostel_20june16.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Procurement of Sanitary Napkins Incinerator (Ref No:- NITGOA/HOSTEL/PUR/2025/OW/103 dated 26.03.2025)",
+        "url": "https://nitgoa.ac.in/tenderuploads/Tender%20Incinerator%2027march2025.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Physical reporting and admission instructions for newly admitted B.Tech. Students through JoSAA/CSAB/DASA-2026 for the Academic Year 2026–27",
+        "url": "https://nitgoa.ac.in/uploads/BTech_Physical_Reporting2026.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice for fee remission for AY 2026-27.",
+        "url": "https://nitgoa.ac.in/uploads/Fee_Remission_NoticeA.Y.%202026-27.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "NIT Goa(Amendment) Statute,2023",
+        "url": "https://nitgoa.ac.in/uploads/NITGoaStatute-2023.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Organizational Structure",
+        "url": "https://nitgoa.ac.in/static/Org_Chart.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Admission Brochure",
+        "url": "https://nitgoa.ac.in/uploads/AdmissionBrochure%202august2024.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Telephone Directory",
+        "url": "https://nitgoa.ac.in/static/TelephoneDirectory.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "IPR Policy",
+        "url": "https://nitgoa.ac.in/static/NIT_Goa_IPR_10Nov2015.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Advertisement for the post of Estate Engineer on Temporary Basis",
+        "url": "https://nitgoa.ac.in/uploads/Advt_Estate_Engineer%2013august2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Advertisement for Walk in Interview for Faculty on Contract Basis (Computer Science and Engineering)",
+        "url": "https://nitgoa.ac.in/uploads/Advt_CSE%20august2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Result for waitlist candidate for the post of Junior Engineer (Civil) against advertisement No: NITGOA/RECT/2025/OW/07 dated 28-03-2025",
+        "url": "https://nitgoa.ac.in/uploads/Result_for_WL-2_JrEngineer%208august2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-sikkim",
+    "name": "National Institute of Technology Sikkim",
+    "city": "Ravangla",
+    "state": "Sikkim",
+    "nirf_rank": null,
+    "website": "https://nitsikkim.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://nitsikkim.ac.in/admissions/feeStructure.php",
+        "score": 6,
+        "is_pdf": false
+      },
+      {
+        "text": "Circular For Leaving Hostel",
+        "url": "https://kic.nitsikkim.ac.in/downloads/Circular%20for%20leaving%20hostel.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Physical Reporting for B.Tech. Program 2026 NEW",
+        "url": "http://nitsikkim.ac.in/documents/admission/B.%20Tech/2026/SCAN0071.PDF",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Physical Reporting Notice for B.Tech. Admission (DASA & SII) 2026",
+        "url": "http://nitsikkim.ac.in/documents/admission/B.%20Tech/2026/Physical%20Reporting%20Notice_Admission%20B.Tech%20under%20DASA-SII%202026.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Physical Reporting Notice for B.Tech. Admission (JOSAA & CSAB) 2026",
+        "url": "http://nitsikkim.ac.in/documents/admission/B.%20Tech/2026/Physical%20Reporting%20Notice_Admission%20B.Tech%20under%20JOSAA-CSAB%202026.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel",
+        "url": "https://nitsikkim.ac.in/students/hostels.php",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Physical Reporting Notice for M.Tech. & M.Sc. Admission (CCMT & CCMN) 2026",
+        "url": "http://nitsikkim.ac.in/documents/admission/M_Tech/2026/Physical%20Reporting%20Notice%20and%20guidelines%20for%20M.Tec%20&%20M.Sc%20Admission_CCMT-CCMN%202026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "The Department of Civil Engineering, NIT Sikkim, is organizing a one-week online short-term course (e-STC) on “Emerging Materials and Sustainable Civil Engineering Infrastructure Development” from 13th to 17th September 2024.",
+        "url": "https://nitsikkim.ac.in/documents/announcements/e-STC%20Brochure%20NIT%20SIKKIM%20sept%2024.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Application form for issuance of certificate/Academic Documents (English)",
+        "url": "https://nitsikkim.ac.in/documents/downloads/Proforma_Form%20for%20Issuing%20Certificate_English.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Application form for issuance of certificate/Academic Documents (Hindi)",
+        "url": "https://nitsikkim.ac.in/documents/downloads/Proforma_Form%20for%20Issuing%20Certificate_Hindi.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Student Gate Pass(Pdf)",
+        "url": "https://kic.nitsikkim.ac.in/downloads/Gate%20Pass%202%20(1).pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Book Requisition Form",
+        "url": "https://kic.nitsikkim.ac.in/downloads/Proforma_Book%20Requisition%20Forms_Bilingual.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NIQ (Notice Inviting Quotation) for printing of Annual Report 2025-26. Extended last date for the submission of NIQ is 22.08.2026",
+        "url": "https://nitsikkim.ac.in/documents/Tenders/2026/NIQ%20for%20Printing%20of%20Annual%20Reports%20updated.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NIQ for Procurement of equipment for Control System Laboratory for Department of EEE",
+        "url": "https://nitsikkim.ac.in/documents/Tenders/2026/NIQ%20Control%20System%20Lab.%20small%20equipment%20extended%20date.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Tender/Bid Document for the Chemistry Laboratory Equipment.",
+        "url": "https://nitsikkim.ac.in/documents/Tenders/2026/GeM-Bidding-9454578%20(1).pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Tender/Bid Document for Wireless Communication Laboratory",
+        "url": "https://nitsikkim.ac.in/documents/Tenders/2026/GeM-Bidding-9427988.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NIQ for the Procurement of equipment for Control System Laboratory for Department of EEE",
+        "url": "https://nitsikkim.ac.in/documents/Tenders/2026/NIQ%20Control%20System%20Lab.%20small%20equipment.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Tender Bid Document for the Supply of Estate Repair and Maintenance Items",
+        "url": "https://nitsikkim.ac.in/documents/Tenders/2026/Repair%20and%20Maintenance%20Items%20-Bid%20Document.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Guidelines for PhD Contingency Fund",
+        "url": "https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/guidelines/Guidelines%20for%20PhD%20Contingency_Final_2025.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Guidelines for JRF to SRF upgradation",
+        "url": "https://nitsikkim.ac.in/documents/For%20Faculty%20and%20Staff/guidelines/JRF%20to%20SRF%20Guidelines.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-andhra-pradesh",
+    "name": "National Institute of Technology, Andhra Pradesh",
+    "city": "Tadepalligudem",
+    "state": "Andhra Pradesh",
+    "nirf_rank": null,
+    "website": "https://nitandhra.ac.in",
+    "candidates": [
+      {
+        "text": "Institute Fee Remission Notice for II,III,IV Year B.Tech Students - A Y 2026-27",
+        "url": "https://nitandhra.ac.in/scholarships.php",
+        "score": 3,
+        "is_pdf": false
+      },
+      {
+        "text": "Organisation Chart",
+        "url": "https://nitandhra.ac.in/Announcements/2022/Notification%20of%20organizational%20Chart%2021062022-pages-2.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "List of Holidays",
+        "url": "https://nitandhra.ac.in/pdf/List%20of%20Gazetted%20holidays_Restricted%20holidays_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Research Areas",
+        "url": "https://nitandhra.ac.in/pdf/annexure-A.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "List of Major Equipments",
+        "url": "https://nitandhra.ac.in/pdf/list/List%20of%20Major%20Equipment-converted.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostels",
+        "url": "https://nitandhra.ac.in/hostels.php",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Extension of Last Date for Fee Remission Application - 2nd, 3rd & 4th Year B.Tech. Students A.Y. 2026–27",
+        "url": "https://nitandhra.ac.in/scholarsh",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Applications are invited from the interested candidates for Junior Research Fellow (JRF) in a MoES sponsored project titled \"Valorisation of crustacean and shellfishery waste towards ocean-based blue economy: Resource recovery and Life Cycle assessment towards biorefinery concept\"Last date: 05.09.2026",
+        "url": "https://nitandhra.ac.in/Announcements/2026/JRF/JRF_DBTH_MoES_Renotification.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Notification for the position of Civil Engineers under the TPQA consultancy project in the Department of Civil Engineering",
+        "url": "https://nitandhra.ac.in/Recruitment/Civil%20Engg%20Recruitment.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "The Motion of Resistance: Radical Autonomy and the Medicalization of the Mundane in Shoojit Sircar’s Piku",
+        "url": "https://nitandhra.ac.in/Publication/2026/Dr.Jose.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Ageing,Care and Trauma:Understanding Care Dynamics in Long-Term Residential Care in \"A Star Ain't Nothin' But A Hole in Heaven\" has been published in Medical Humanities,BMJ & IME (Q1).",
+        "url": "https://nitandhra.ac.in/Publication/2026/S.Madhu%20&%20S.Jose.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Solar Powered Waste Compactor for Sustainable Environmental Application Journal of Solar Energy Engineering. Advance online publication. [[I.F.: 1.9, Q2]",
+        "url": "https://nitandhra.ac.in/Publication/2026/Solar-Powered%20Waste%20Compactor%20for%20Sustainable%20Environmental%20Application.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "A combined approach study of dry and froth flotation techniques for optimization of resources by using CFD for quality enhancement of high ash coking coal. Braz. J. Chem. Eng. [I.F.: 1.2, Q3]",
+        "url": "https://nitandhra.ac.in/Publication/2026/A%20combined%20approach%20study%20of%20dry%20and%20froth%20flotation%20techniques%20for.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostels",
+        "url": "http://nitandhra.ac.in/main/hostels.php",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "B. Tech",
+        "url": "https://nitandhra.ac.in/btech.php",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "UG Programme",
+        "url": "https://nitandhra.ac.in/ug.php",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-manipur",
+    "name": "National Institute of Technology, Manipur",
+    "city": "Imphal",
+    "state": "Manipur",
+    "nirf_rank": null,
+    "website": "https://nitmanipur.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://nitmanipur.ac.in/DisplayPage.aspx?page=cs&ItemID=eg",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "Click here for revised fee structure starting 2025 batch onwards.",
+        "url": "https://nitmanipur.ac.in/DisplayPage.aspx?page=cs",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "Click here for Expression of Interest (EOI) regarding hiring a private building for boarding students including mess/kitchen facility within a peripheral distance of 5 kms from NIT Campus.",
+        "url": "https://nitmanipur.ac.in/Anns_files/EoI_Hostel_R-357_04072024.PDF",
+        "score": 5,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Rules and Regulations",
+        "url": "https://nitmanipur.ac.in/uploaded_files/NIT_MANIPUR_HOSTEL_Rules_Regulations_2026-July_Session_onwards.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Click here for 200 Mbps Internet Connectivity Leased Line (OFC) (1:1 uncompressed and unshared) at NIT Takyelpat Girls Hostel for one year.",
+        "url": "https://nitmanipur.ac.in/LatestUpdate/200MbpsTenderDoc.PDF",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Enquiry for supply of IP based CCTV camera installation at Girls hostel NIT Manipur.",
+        "url": "https://nitmanipur.ac.in/LatestUpdate/CCTV_Enquiry_147_19012024.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Click here for the payment of fees in the M.Tech.(NON-GATE ) and M.Sc. (NON-JAM) Admission-July 2025",
+        "url": "https://nitmanipur.ac.in/NOTIce-MIS.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Click here for the circular regarding physical reporting and admission through JOSAA/CSAB-2026",
+        "url": "https://nitmanipur.ac.in/303-Physical-report-BTech.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Click here for the notification and details regarding introduction of B.Tech + M.Tech (Dual Degree) Programmes at NIT Manipur",
+        "url": "https://nitmanipur.ac.in/Dual-Degree.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Notice Regarding 2024 batch (B.Tech, M.Tech, M.Sc) students to submit the bank details for smooth processing of their admissible JoSSA, CCMT and CCMN refunds.",
+        "url": "https://nitmanipur.ac.in/AcademicNotice/Notice_11072025.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Click here for the notification regarding allotment of enrollment number of B.Tech 1st Year students",
+        "url": "https://nitmanipur.ac.in/Notice-allotment-of-enrollment-number.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Click here for the notification regarding 'Date extension for physical reporting of BTech students admitted through JoSAA/CSAB 2025'",
+        "url": "https://nitmanipur.ac.in/Circular...pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Click here for the notification regarding the applications for Joint B.Tech + M.Tech programme with IIT Jodhpur",
+        "url": "https://nitmanipur.ac.in/326-Notice-regarding-Joint-BTech-MTech-at-IIT-Jodhpur.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Click here for the notification regarding the Induction Program for newly admitted B.Tech students (2026 Batch)",
+        "url": "https://nitmanipur.ac.in/Notice-Induction-Program-2026.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Click here for the anti-ragging affidavit",
+        "url": "https://nitmanipur.ac.in/BTechAntiRaggingAffidavit.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Institute newsletter Vol 2025/Q3",
+        "url": "https://nitmanipur.ac.in/uploaded_files/July_Sept__NITMN_Newsletter_Volume-2.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Institute newsletter Vol 2025/Q4",
+        "url": "https://nitmanipur.ac.in/uploaded_files/Newsletter_Q4_2025.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Institute newsletter Vol 2026/Q1",
+        "url": "https://nitmanipur.ac.in/uploaded_files/NewsletterQ12026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Forms",
+        "url": "https://nitmanipur.ac.in/uploaded_files/Honorarium_Claim_form_12072022.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Authorization Letter",
+        "url": "https://nitmanipur.ac.in/uploaded_files/Authorization_Letter_001.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-mizoram",
+    "name": "National Institute of Technology, Mizoram",
+    "city": "Aizawl",
+    "state": "Mizoram",
+    "nirf_rank": null,
+    "website": "https://www.nitmz.ac.in",
+    "candidates": [
+      {
+        "text": "Fee Structure",
+        "url": "https://nitmz.ac.in/academics/fee-structure/",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "Admission Brochure 2026-27",
+        "url": "https://nitmz.ac.in/wp-content/uploads/2026/06/Information-Brochure-2026-2027-NIT-MIZORAM.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostels",
+        "url": "https://nitmz.ac.in/campus-life/hostels/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "",
+        "url": "https://nitmz.ac.in/wp-content/uploads/2025/05/Covid-E-Book.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Rules & Regulations",
+        "url": "https://www.nitmz.ac.in/wp-content/uploads/2024/12/rules_regulation.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Anti-Ragging Committee",
+        "url": "https://nitmz.ac.in/wp-content/uploads/2026/06/NIT-Mizorm_Anti-Ragging-Committee-2025-2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Internal Committee for Sexual Harassment",
+        "url": "https://nitmz.ac.in/wp-content/uploads/2026/06/Order_Constitution-of-Internal-Committee-IC-for-Sexual-Harassment-Dt.-02.02.2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Feedback",
+        "url": "https://nitmz.ac.in/feedback/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Message from the Director",
+        "url": "https://nitmz.ac.in/the-institute/message-from-the-director/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "B.Tech Admissions (2026)",
+        "url": "https://nitmz.ac.in/admissions/b-tech-admissions/",
+        "score": 1,
+        "is_pdf": false
+      },
+      {
+        "text": "Read More",
+        "url": "https://www.nitmz.ac.in/the-institute/message-from-the-director/",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-uttarakhand",
+    "name": "National Institute of Technology, Uttarakhand",
+    "city": "Srinagar (Garhwal)",
+    "state": "Uttarakhand",
+    "nirf_rank": null,
+    "website": "https://nituk.ac.in",
+    "candidates": [
+      {
+        "text": "NIT Uttarakhand invites Online/offline quotation for the goods/service of “Installation of Barbed Wire/Concertina Coil behind Hostel-7 for Enhanced Security”",
+        "url": "https://nituk.ac.in/uploads/topics/17876348833214.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "Payment of Partial Admission Fee (PAF) for NIT+ System only At the end of the fifth round of JoSAA-2026",
+        "url": "https://nituk.ac.in/uploads/topics/17847042486100.pdf",
+        "score": 4,
+        "is_pdf": true
+      },
+      {
+        "text": "1st Year B.Tech. Admission Related Forms",
+        "url": "https://nituk.ac.in/uploads/topics/17851268193879.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "CSAB special rounds and DASA UG 2026-27",
+        "url": "https://nituk.ac.in/uploads/topics/17845202798396.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Instructions to the 1st year B.Tech. students regarding Institute Reporting/Admission for the Academic Year 2026–2027",
+        "url": "https://nituk.ac.in/uploads/topics/Instructions_for_1st_year_BTech_students.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel Leaving Form",
+        "url": "http://leavedesk.nituk.ac.in/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Institute Brochure",
+        "url": "https://nituk.ac.in/uploads/topics/16916759869060.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Fees & Expenses",
+        "url": "https://nituk.ac.in/fees-expenses",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Hostels",
+        "url": "https://nituk.ac.in/hostels",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "1st International Conference on Intelligent Transportation and Sustainable Systems (i-TRANS 2027)",
+        "url": "https://nituk.ac.in/uploads/topics/17848694353425.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Advertisement Cancellation Notice",
+        "url": "https://nituk.ac.in/uploads/topics/17834834556277.PDF",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Applications are invited from the contractors those are registered in PWD (Uttarakhand)/CPWD for various civil - maintenance and pity works of National Institute of Technology, Uttarakhand",
+        "url": "https://nituk.ac.in/uploads/topics/17866050339503.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NOC format for Ph.D. scholar (Part Time)",
+        "url": "https://nituk.ac.in/uploads/topics/17639831852465.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Email Policy",
+        "url": "https://www.nituk.ac.in/uploads/topics/16889740514188.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "NIT, Uttarakhand invites online/offline quotation for the Electron Spin Resonance Spectrometer (ESR)",
+        "url": "https://nituk.ac.in/uploads/topics/17877175991169.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Online/offline Notice Inviting quotation for the goods/service of “Upgradation of Water Purifiers Installed at the Srinagar Campus of the National Institute of Technology Uttarakhand",
+        "url": "https://nituk.ac.in/uploads/topics/17872057632810.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Applications are invited from the contractors those are registered in PWD (Uttarakhand)/CPWD for various civil - maintenance and pity works of National Institute of Technology, Uttarakhand",
+        "url": "https://nituk.ac.in/uploads/topics/17866147866449.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Instructions to 1st Year M.Tech. / M.Sc. Candidates admitted through CCMT/CCMN 2026 regarding Institute Physical Reporting / Admission for the Academic Year 2026-2027",
+        "url": "https://nituk.ac.in/uploads/topics/17849639416210.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "PMKVY 4.0",
+        "url": "https://www.nituk.ac.in/uploads/topics/16935480352459.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "",
+        "url": "https://nituk.ac.in/uploads/topics/17607630867144.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+    "name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+    "city": "Nirjuli",
+    "state": "Arunachal Pradesh",
+    "nirf_rank": null,
+    "website": "https://nerist.ac.in",
+    "candidates": [
+      {
+        "text": "UG Fee Structure",
+        "url": "https://nerist.ac.in/wp-content/uploads/2026/07/Revised-Fee-Structure-of-UG-programe-for-2026-28.pdf",
+        "score": 9,
+        "is_pdf": true
+      },
+      {
+        "text": "Fee structure for scholarship purpose",
+        "url": "https://nerist.ac.in/wp-content/uploads/2024/02/Fee-structure-for-Scholarships_updated.pdf",
+        "score": 7,
+        "is_pdf": true
+      },
+      {
+        "text": "Ph.D. Fee Structure",
+        "url": "https://nerist.ac.in/wp-content/uploads/2026/06/REVISED-FEE-STRUCTURE-OF-PhDFT-PT.pdf",
+        "score": 7,
+        "is_pdf": true
+      },
+      {
+        "text": "P.G. Fee Structure",
+        "url": "https://nerist.ac.in/wp-content/uploads/2026/07/Revised-Fee-Structure-of-PG-programe-for-2026-28.pdf",
+        "score": 7,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Bye Laws UG New",
+        "url": "https://nerist.ac.in/wp-content/uploads/2026/01/Academic-Bye-Laws_UG-Prog_New_updated.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Bye Laws UG",
+        "url": "https://nerist.ac.in/wp-content/uploads/2025/01/Academic-Bye_Laws_-U-G-_updated.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Calendar",
+        "url": "https://nerist.ac.in/wp-content/uploads/2026/01/Academic-Calender_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Bye Laws PG & Ph.D.",
+        "url": "https://nerist.ac.in/wp-content/uploads/2024/12/Academic-ByeLaws-PG_PhD-Programmes.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "List of students who left the Institute in 2023-24",
+        "url": "https://nerist.ac.in/wp-content/uploads/2024/12/List-of-Student-who-left-the-Institute-2023-24.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Students who has applied/drawn scholarships 2023-24",
+        "url": "https://nerist.ac.in/wp-content/uploads/2024/12/Scholarship_Fellowships-applied_drawn-during-2023-24-_updated.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostel",
+        "url": "https://nerist.ac.in/facilities/hostel/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Read more",
+        "url": "https://nerist.ac.in/wp-content/uploads/2026/08/Required-documents-for-candidates-admitted-throughCSAB-and-CSAB-NEUT-2026-27.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Read more",
+        "url": "https://nerist.ac.in/wp-content/uploads/2026/07/Circular-SSO-2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Read more",
+        "url": "https://nerist.ac.in/wp-content/uploads/2026/07/Vacancy-seat-for-NEE-I-2nd-Round.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Read more",
+        "url": "https://nerist.ac.in/wp-content/uploads/2026/07/Vaccancy-Status-of-NEE-II-III-2026-for-2nd-Round.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Read more",
+        "url": "https://nerist.ac.in/wp-content/uploads/2026/06/Notification-No.-EST-16-1-2024-1222-dated-29.06.2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Read more",
+        "url": "https://nerist.ac.in/wp-content/uploads/2026/06/Result_GL_ECE2026-27.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Read more",
+        "url": "https://nerist.ac.in/wp-content/uploads/2026/06/polio-circular.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Read more",
+        "url": "https://nerist.ac.in/wp-content/uploads/2026/06/Common-Counseling-Letter_PG_PhD_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Read more",
+        "url": "https://nerist.ac.in/wp-content/uploads/2026/06/Advt.-No.-02-2026-dated-24.06.2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "pt-dwarka-prasad-mishra-indian-institute-of-information-technology-design-manufacture-jabalpur",
+    "name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+    "city": "Jabalpur",
+    "state": "Madhya Pradesh",
+    "nirf_rank": null,
+    "website": "https://www.iiitdmj.ac.in",
+    "candidates": [
+      {
+        "text": "Fees Structure",
+        "url": "https://www.iiitdmj.ac.in/academics/admission/fee_structure.php",
+        "score": 5,
+        "is_pdf": false
+      },
+      {
+        "text": "Academic Guidelines (UG)",
+        "url": "https://www.iiitdmj.ac.in/academics/download/Annexure%20II%20_%20Academic%20Guidelines_UG%20modified%20Dec%202025.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Fee Refund Rule",
+        "url": "https://www.iiitdmj.ac.in/downloads/Notification_Revised_refund_rule.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "Ordinances",
+        "url": "https://www.iiitdmj.ac.in/administration/downloads/Ordinances%20of%20PDPM-IIITDM%20Jabalpur.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Post Doc Fellowship(under Visvesvaraya Scheme)",
+        "url": "https://www.iiitdmj.ac.in/downloads/Advertisement-Post-Doctoral-Fellow-recruitment.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Guidelines (PG)",
+        "url": "https://www.iiitdmj.ac.in/academics/download/Academic%20Guidelines_271017.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Academic Guidelines (Ph.D.)",
+        "url": "https://www.iiitdmj.ac.in/academics/download/Ph.D.%20Manual.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Guidelines - Time Table Sem II",
+        "url": "https://www.iiitdmj.ac.in/downloads/Guidelines%20for%20Timetable.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Hostels",
+        "url": "https://www.iiitdmj.ac.in/students/hostels.php",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Visitor's Hostel",
+        "url": "https://www.iiitdmj.ac.in/vh.php",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "Bank & ATM",
+        "url": "https://www.iiitdmj.ac.in/downloads/Banking%20Facilities%20in%20PDPM.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Faculty Development Programme on \"Biomimicking Techniques and CFD Simulation in Engineering\"",
+        "url": "https://www.iiitdmj.ac.in/ict.iiitdmj.ac.in/downloads/April-26/Biomimicking%20Techniques%20and%20CFD%20Simulation%20in%20Engineering.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Faculty Development Programme on \"Blockchain Security and Performance\"",
+        "url": "https://www.iiitdmj.ac.in/ict.iiitdmj.ac.in/downloads/April-26/Blockchain%20Security%20and%20Performance%20Sept.%201-12,%202026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Faculty Development Programme on \"Transforming Education through AI LMS and Digital Pedagogy\"",
+        "url": "https://www.iiitdmj.ac.in/ict.iiitdmj.ac.in/downloads/sep-26/Transforming%20Education%20through%20AI%20LMS%20and%20Digital%20Pedagogy.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Faculty Development Programme on \"Advances in Millimeter-Wave and Terahertz: Sources and Electromagnetic Structures for Next-Generation Applications\"",
+        "url": "https://www.iiitdmj.ac.in/ict.iiitdmj.ac.in/downloads/sep-26/Advances%20in%20Millimeter-Wave%20and%20Terahertz-Sources%20and%20Electromagnetic%20Structures%20for%20Next-Generation%20Applications.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Faculty Development Programme on \"Empowering Research and Teaching Through MATLAB Programming\"",
+        "url": "https://www.iiitdmj.ac.in/ict.iiitdmj.ac.in/downloads/sep-26/Empowering%20Research%20and%20Teaching%20Through%20MATLAB%20Programming.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Faculty Development Programme on \"Engineering Design and Smart Manufacturing of Implants and Medical Devices: Industry 4.0 and Beyond\"",
+        "url": "https://www.iiitdmj.ac.in/ict.iiitdmj.ac.in/downloads/April-26/FDP%20Brouchure%20Nov_2026.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Report on Swachhata Hi Seva (SHS- 2024)",
+        "url": "https://www.iiitdmj.ac.in/downloads/Swachhta-Hi-Sewa-Report-2024.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Inviting application(Fresh and renewal) for National Scholarship (Top class) for ST students financial year 2024-25",
+        "url": "https://www.iiitdmj.ac.in/downloads/1.%20Letter%20to%20Institutes%20for%20NSP%202.0%20%20Portal%20Opening%20for%202024-25%2024%20July%202024.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Government of Tamilnadu - BC, MBC, DNC Scholarship",
+        "url": "https://www.iiitdmj.ac.in/downloads/scholarship/lr%20to%20all%20Institution%20for%20date%20revision%20of%20application%20submission.pdf",
+        "score": 2,
+        "is_pdf": true
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "puducherry-technological-university-puducherry",
+    "name": "Puducherry Technological University, Puducherry",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "nirf_rank": null,
+    "website": "https://www.ptuniv.edu.in",
+    "candidates": [],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "shri-mata-vaishno-devi-university-katra-jammu-kashmir",
+    "name": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+    "city": "Katra",
+    "state": "Jammu and Kashmir",
+    "nirf_rank": null,
+    "website": "https://www.smvdu.ac.in",
+    "candidates": [
+      {
+        "text": "Stakeholder Feedback",
+        "url": "https://www.smvdu.ac.in/wp-content/uploads/2023/06/Summary_of_Stakeholder_Feedback.pdf",
+        "score": 3,
+        "is_pdf": true
+      },
+      {
+        "text": "IIQA",
+        "url": "https://www.smvdu.ac.in/wp-content/uploads/2023/06/24082022_IIQAappSubmitted.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Self-Study Report (SSR)",
+        "url": "https://www.smvdu.ac.in/wp-content/uploads/2023/06/24082022_NAAC_SSR.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Research Projects",
+        "url": "https://smvdu.ac.in/wp-content/uploads/2024/12/Research-Projects-at-SMVD-University-till-December-2024-Website.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Consultancy Projects",
+        "url": "https://smvdu.ac.in/wp-content/uploads/2024/12/Consultancy-Projects-at-SMVDU-till-December-2024.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Fees and Payments",
+        "url": "https://smvdu.ac.in/academics/fees-and-payments/",
+        "score": 2,
+        "is_pdf": false
+      },
+      {
+        "text": "JOSAA/CSAB Instructions",
+        "url": "https://smvdu.ac.in/wp-content/uploads/2024/08/Important-Instructions-for-JOSAACSAB-Reporting-Candidates-SMVDU.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "SMVDU Ordinances",
+        "url": "https://smvdu.ac.in/wp-content/uploads/2024/05/University-Statutes-Regulations-and-Ordinances-updated-upto-May-2024.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "IT Policy",
+        "url": "https://smvdu.ac.in/wp-content/uploads/2025/11/SMVDU_IT_Policy.pdf",
+        "score": 2,
+        "is_pdf": true
+      },
+      {
+        "text": "Read More",
+        "url": "https://www.smvdu.ac.in/vice-chancellors-message",
+        "score": 1,
+        "is_pdf": false
+      }
+    ],
+    "verification_status": "pending_review"
+  }
+]

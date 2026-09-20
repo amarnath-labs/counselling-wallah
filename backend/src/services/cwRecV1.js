@@ -1,4 +1,4 @@
-﻿export const CWREC_VERSION = 'CW-REC-1.0';
+export const CWREC_VERSION = 'CW-REC-1.0';
 
 export const DEFAULT_MATCH_WEIGHTS = Object.freeze({
   admission: 50,
@@ -212,10 +212,253 @@ export function getAdmissionBucketFromFit(
 
 export function calculateHistoricalFit({
   studentRank,
+
   closingRanks = [],
+
+  r1OpeningRank = null,
+
+  lastRoundClosingRank = null,
 }) {
   const rank =
-    toNumber(studentRank);
+    toNumber(
+      studentRank
+    );
+
+
+  const r1Opening =
+    toNumber(
+      r1OpeningRank
+    );
+
+
+  const finalClosing =
+    toNumber(
+      lastRoundClosingRank
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | PRIMARY ADMISSION MODEL
+  |--------------------------------------------------------------------------
+  |
+  | Round 1 Opening Rank -> Last Round Closing Rank
+  |
+  | <= R1 opening               = Backup
+  | first 60% of cutoff window = Safe
+  | remaining cutoff window    = Target
+  | beyond last closing        = Dream
+  |
+  */
+
+
+  if (
+
+    rank !== null &&
+
+    rank > 0 &&
+
+    r1Opening !== null &&
+
+    r1Opening > 0 &&
+
+    finalClosing !== null &&
+
+    finalClosing > r1Opening
+
+  ) {
+
+    const historicalPosition =
+      (
+        rank -
+        r1Opening
+      ) /
+      (
+        finalClosing -
+        r1Opening
+      );
+
+
+    let bucket;
+
+    let historicalFitScore;
+
+
+    /*
+    | BACKUP
+    */
+
+    if (
+      rank <= r1Opening
+    ) {
+
+      bucket =
+        'Backup';
+
+      historicalFitScore =
+        100;
+
+    }
+
+
+    /*
+    | SAFE
+    */
+
+    else if (
+      historicalPosition <= 0.60
+    ) {
+
+      bucket =
+        'Safe';
+
+
+      historicalFitScore =
+        clamp(
+
+          85 -
+
+          (
+            Math.max(
+              0,
+              historicalPosition
+            ) /
+            0.60
+          ) *
+
+          20
+
+        );
+
+    }
+
+
+    /*
+    | TARGET
+    */
+
+    else if (
+      rank <= finalClosing
+    ) {
+
+      bucket =
+        'Target';
+
+
+      historicalFitScore =
+        clamp(
+
+          65 -
+
+          (
+            (
+              historicalPosition -
+              0.60
+            ) /
+            0.40
+          ) *
+
+          30
+
+        );
+
+    }
+
+
+    /*
+    | DREAM
+    */
+
+    else {
+
+      bucket =
+        'Dream';
+
+
+      const excess =
+        (
+          rank -
+          finalClosing
+        ) /
+        finalClosing;
+
+
+      historicalFitScore =
+        clamp(
+
+          35 -
+
+          Math.min(
+
+            1,
+
+            Math.max(
+              0,
+              excess
+            )
+
+          ) *
+
+          35
+
+        );
+
+    }
+
+
+    return {
+
+      historicalFitScore,
+
+      bucket,
+
+
+      medianClosingRank:
+        finalClosing,
+
+
+      relativeMargin:
+
+        (
+          finalClosing -
+          rank
+        ) /
+        finalClosing,
+
+
+      yearsUsed:
+        1,
+
+
+      r1OpeningRank:
+        r1Opening,
+
+
+      lastRoundClosingRank:
+        finalClosing,
+
+
+      historicalPosition,
+
+
+      admissionModel:
+        'R1_OPENING_TO_LAST_ROUND_CLOSING',
+
+
+      status:
+        FACTOR_STATUS.AVAILABLE,
+
+    };
+
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Existing closing-rank model remains only as fallback.
+  |--------------------------------------------------------------------------
+  */
+
 
   const cleanClosingRanks =
     closingRanks

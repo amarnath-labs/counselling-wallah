@@ -1,0 +1,1969 @@
+[
+  {
+    "college_id": "indian-institute-of-technology-roorkee",
+    "name": "Indian Institute of Technology Roorkee",
+    "source_url": "https://iitr.ac.in/Academics/Institute%20Fees.html",
+    "source_type": "html",
+    "fee_signals": [
+      {
+        "line": "Hostel Life",
+        "context": "Fresher's FAQ | Guest House | Hostel Life | Sports | Student Groups | Departments",
+        "amounts": []
+      },
+      {
+        "line": "Institute Fees",
+        "context": "हिन्दी│Eng | Academics | Institute Fees | Institute Fees | Fee Structure 2026-27 | Fee Structure of UG program (B.Tech./B.Arch./BS-MS/Int.M.Tech./B.Des) (New Entrants) for Session 2026-27",
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "line": "Institute Fees",
+        "context": "Academics | Institute Fees | Institute Fees | Fee Structure 2026-27 | Fee Structure of UG program (B.Tech./B.Arch./BS-MS/Int.M.Tech./B.Des) (New Entrants) for Session 2026-27 | Fee Structure for Existing Students of UG Program (B.Tech./B.Arch./B.Des./Int.M.Tech./IDD/BS-MS) for Session 2026-27",
+        "amounts": [
+          2026
+        ]
+      }
+    ],
+    "all_amounts": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      1332,
+      285311
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-varanasi",
+    "name": "Indian Institute of Technology (BHU) Varanasi",
+    "source_url": "https://www.iitbhu.ac.in/dean/doaa/fee",
+    "source_type": "html",
+    "fee_signals": [
+      {
+        "line": "Fee Structure of the InstituteNew Fee Structure (2026-27 and onwards)M.Tech./M.Pharm.Ph.D. New Fee Structure (2019-20 and onwards) B.Tech./B.Pharm./B.Arch/Integrated M.Tech. (IMD)/Integrated Dual Degree(IDD)M.Tech./M.Pharm.M.scPh.D. Preparatory CourseZero Credit Registration or other condition New Fee Structure (2016-17 and onwards) B.Tech./B.Pharm./Integrated M.Tech. (IMD)/Integrated Dual Degree(IDD)Fee Structure (2013-14 and onwards)B.Tech./B.Pharm./Integrated M.Tech. (IMD)/Integrated Dual Degree(IDD) [Admission year only from 2013-14 to 2015-16]M.Tech./M.Pharm.Ph.D. Faculty MembersPreparatory CourseConsolidated Hosteller/Non-Hosteller fee of M.Tech./M.Pharm. and Ph.D.Old Fee StructureB.Tech./B.Pharm./Integrated M.Tech. (IMD)/Integrated Dual Degree(IDD)M.Tech./M.Pharm.",
+        "context": "HomePeopleCoursesAdmissions UGPGInformation Academic CalendarScholarshipOrdinancesFee StructureGalleryIIT(BHU) | DOAA - Fee Structure | Fee Structure of the InstituteNew Fee Structure (2026-27 and onwards)M.Tech./M.Pharm.Ph.D. New Fee Structure (2019-20 and onwards) B.Tech./B.Pharm./B.Arch/Integrated M.Tech. (IMD)/Integrated Dual Degree(IDD)M.Tech./M.Pharm.M.scPh.D. Preparatory CourseZero Credit Registration or other condition New Fee Structure (2016-17 and onwards) B.Tech./B.Pharm./Integrated M.Tech. (IMD)/Integrated Dual Degree(IDD)Fee Structure (2013-14 and onwards)B.Tech./B.Pharm./Integrated M.Tech. (IMD)/Integrated Dual Degree(IDD) [Admission year only from 2013-14 to 2015-16]M.Tech./M.Pharm.Ph.D. Faculty MembersPreparatory CourseConsolidated Hosteller/Non-Hosteller fee of M.Tech./M.Pharm. and Ph.D.Old Fee StructureB.Tech./B.Pharm./Integrated M.Tech. (IMD)/Integrated Dual Degree(IDD)M.Tech./M.Pharm. | Employee Login | | | Services (Intranet)",
+        "amounts": [
+          2026,
+          2019,
+          2016,
+          2013,
+          2015
+        ]
+      },
+      {
+        "line": "Hostels",
+        "context": "JEE (Advanced) | Fee Deposition | Hostels | Convocations | Orientation & Induction | Holidays:",
+        "amounts": []
+      }
+    ],
+    "all_amounts": [
+      2026,
+      2019,
+      2016,
+      2013,
+      2015,
+      2024,
+      2025
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-indore",
+    "name": "Indian Institute of Technology Indore",
+    "source_url": "https://www.iiti.ac.in/uploads/academics/notice_updates/fee_notice_2026_autumn.pdf",
+    "source_type": "pdf",
+    "fee_signals": [],
+    "all_amounts": [],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-rourkela",
+    "name": "National Institute of Technology, Rourkela",
+    "source_url": "https://www.nitrkl.ac.in/docs/Announcement/14072026180430277.pdf",
+    "source_type": "pdf",
+    "fee_signals": [
+      {
+        "line": "1 Admission fee(one time) 2500 0",
+        "context": "2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000",
+        "amounts": [
+          2500,
+          62500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "2 Tuition fee* 62500 62500",
+        "context": "(Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000",
+        "amounts": [
+          2500,
+          62500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "6 Hostel seat Rent 5000 5000",
+        "context": "4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0 | 8 Institute Emergency Fund (onetime fee- to be directly deposited into | corpus fund at the time of admission) 12500 0",
+        "amounts": [
+          2000,
+          5000,
+          10000,
+          12500
+        ]
+      },
+      {
+        "line": "1 Tuition fee* 62500 62500",
+        "context": "4th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000",
+        "amounts": [
+          62500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "5 Hostel seat Rent 5000 5000",
+        "context": "3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000 | 7 Mess Advance*** 30000 30000 | Total : 111,500 111,500",
+        "amounts": [
+          2000,
+          5000,
+          30000,
+          111500
+        ]
+      },
+      {
+        "line": "1 Tuition fee* 62500 62500",
+        "context": "6th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000",
+        "amounts": [
+          62500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "5 Hostel seat Rent 5000 5000",
+        "context": "3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000 | 7 Mess Advance*** 30000 30000 | Total : 111,500 111,500",
+        "amounts": [
+          2000,
+          5000,
+          30000,
+          111500
+        ]
+      },
+      {
+        "line": "1 Tuition fee* 62500 62500",
+        "context": "8th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000",
+        "amounts": [
+          62500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "6 Hostel seat Rent 5000 5000",
+        "context": "4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000 | 7 Hall Establishment fee 5000 5000 | 8 Mess Advance*** 30000 30000 | 9 Convocation Fee 2500 0",
+        "amounts": [
+          2000,
+          5000,
+          30000,
+          2500
+        ]
+      },
+      {
+        "line": "*For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted).",
+        "context": "9 Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. | Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc.",
+        "amounts": [
+          2500,
+          114500,
+          111500,
+          20833
+        ]
+      },
+      {
+        "line": "*For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e.",
+        "context": "Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. | Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount.",
+        "amounts": [
+          114500,
+          111500,
+          20833
+        ]
+      },
+      {
+        "line": "1 Admission fee(one time) 2500 0",
+        "context": "2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000",
+        "amounts": [
+          2500,
+          62500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "2 Tuition fee* 62500 62500",
+        "context": "(Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000",
+        "amounts": [
+          2500,
+          62500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "6 Hostel seat Rent 5000 5000",
+        "context": "4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0 | 8 Institute Emergency Fund (onetime fee- to be directly deposited into | corpus fund at the time of admission) 12500 0",
+        "amounts": [
+          2000,
+          5000,
+          10000,
+          12500
+        ]
+      },
+      {
+        "line": "1 Tuition fee* 62500 62500",
+        "context": "4th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000",
+        "amounts": [
+          62500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "5 Hostel seat Rent 5000 5000",
+        "context": "3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000 | 7 Mess Advance*** 30000 30000 | Total : 111,500 111,500",
+        "amounts": [
+          2000,
+          5000,
+          30000,
+          111500
+        ]
+      },
+      {
+        "line": "1 Tuition fee* 62500 62500",
+        "context": "6th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000",
+        "amounts": [
+          62500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "5 Hostel seat Rent 5000 5000",
+        "context": "3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000 | 7 Mess Advance*** 30000 30000 | Total : 111,500 111,500",
+        "amounts": [
+          2000,
+          5000,
+          30000,
+          111500
+        ]
+      },
+      {
+        "line": "1 Tuition fee* 62500 62500",
+        "context": "8th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000",
+        "amounts": [
+          62500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "5 Hostel seat Rent 5000 5000",
+        "context": "3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000 | 7 Mess Advance*** 30000 30000 | Total : 111,500 111,500",
+        "amounts": [
+          2000,
+          5000,
+          30000,
+          111500
+        ]
+      },
+      {
+        "line": "1 Tuition fee* 62500 62500",
+        "context": "10th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000",
+        "amounts": [
+          62500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "6 Hostel seat Rent 5000 5000",
+        "context": "4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000 | 7 Hall Establishment fee 5000 5000 | 8 Mess Advance*** 30000 30000 | 9 Convocation Fee 2500 0",
+        "amounts": [
+          2000,
+          5000,
+          30000,
+          2500
+        ]
+      },
+      {
+        "line": "*For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted).",
+        "context": "9 Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount.",
+        "amounts": [
+          2500,
+          114500,
+          111500,
+          20833
+        ]
+      },
+      {
+        "line": "*For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. Rs. 20,833).",
+        "context": "Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount. | Sd/-",
+        "amounts": [
+          114500,
+          111500,
+          20833
+        ]
+      },
+      {
+        "line": "1 Admission fee(one time) 2500 0",
+        "context": "2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees* 5000 5000 | 4 Student Activity fee 2000 2000",
+        "amounts": [
+          2500,
+          7500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "2 Tuition fee 7500 7500",
+        "context": "(Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees* 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000",
+        "amounts": [
+          2500,
+          7500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "6 Hostel seat Rent 5000 5000",
+        "context": "4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time Refundable) 10000 0 | 8 Institute Emergency Fund (onetime fee- to be directly deposited into | corpus fund at the time of admission) 12500 0",
+        "amounts": [
+          2000,
+          5000,
+          10000,
+          12500
+        ]
+      },
+      {
+        "line": "1 Tuition fee 7500 7500",
+        "context": "4th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000",
+        "amounts": [
+          7500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "5 Hostel seat Rent 5000 5000",
+        "context": "3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000 | 7 Mess Advance** 30000 30000 | Total : 56,500 56,500",
+        "amounts": [
+          2000,
+          5000,
+          30000,
+          56500
+        ]
+      },
+      {
+        "line": "1 Tuition fee 7500 7500",
+        "context": "6th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000",
+        "amounts": [
+          7500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "5 Hostel seat Rent 5000 5000",
+        "context": "3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000 | 7 Mess Advance** 30000 30000 | Total : 56,500 56,500",
+        "amounts": [
+          2000,
+          5000,
+          30000,
+          56500
+        ]
+      },
+      {
+        "line": "1 Tuition fee 7500 7500",
+        "context": "8th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000",
+        "amounts": [
+          7500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "5 Hostel seat Rent 5000 5000",
+        "context": "3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000 | 7 Mess Advance** 30000 30000 | Total : 56,500 56,500",
+        "amounts": [
+          2000,
+          5000,
+          30000,
+          56500
+        ]
+      },
+      {
+        "line": "1 Tuition fee 7500 7500",
+        "context": "10th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000",
+        "amounts": [
+          7500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "6 Hostel seat Rent 5000 5000",
+        "context": "4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000 | 7 Hall Establishment Fee 5000 5000 | 8 Mess Advance** 30000 30000 | 9 Convocation Fee 2500 0",
+        "amounts": [
+          2000,
+          5000,
+          30000,
+          2500
+        ]
+      },
+      {
+        "line": "1 Admission fee(one time) 2500 0",
+        "context": "2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000",
+        "amounts": [
+          2500,
+          62500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "2 Tuition fee 62500 62500",
+        "context": "(Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000",
+        "amounts": [
+          2500,
+          62500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "6 Hostel seat Rent 5000 5000",
+        "context": "4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0 | 8 Institute Emergency Fund (onetime fee- to be directly deposited into | corpus fund at the time of admission) 12500 0",
+        "amounts": [
+          2000,
+          5000,
+          10000,
+          12500
+        ]
+      },
+      {
+        "line": "1 Tuition fee 62500 62500",
+        "context": "4th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000",
+        "amounts": [
+          62500,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "5 Hostel seat Rent 5000 5000",
+        "context": "3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000 | 7 Mess Advance 30000 30000 | Total : 111,500 111,500",
+        "amounts": [
+          2000,
+          5000,
+          30000,
+          111500
+        ]
+      }
+    ],
+    "all_amounts": [
+      2026,
+      2500,
+      62500,
+      5000,
+      2000,
+      10000,
+      12500,
+      30000,
+      136500,
+      111500,
+      114500,
+      20833,
+      7500,
+      81500,
+      56500,
+      59500,
+      4000,
+      74000,
+      49000,
+      52000
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "name": "National Institute of Technology Karnataka, Surathkal",
+    "source_url": "https://www.nitk.ac.in/institute-fee-structure-2025-26",
+    "source_type": "html",
+    "fee_signals": [
+      {
+        "line": "Hostels",
+        "context": "Student Life | Overview | Hostels | Students' Council | Activities | NSS",
+        "amounts": []
+      },
+      {
+        "line": "Hostels",
+        "context": "Student Life | Overview | Hostels | Students' Council | Activities | NSS",
+        "amounts": []
+      },
+      {
+        "line": "Institute Fee Structure 2025-26",
+        "context": "Non-Teaching Positions | Tenders | Institute Fee Structure 2025-26 | Home | >Institute Fee Structure 2025-26 | Institute Fee Structure 2025-26",
+        "amounts": [
+          2025
+        ]
+      },
+      {
+        "line": ">Institute Fee Structure 2025-26",
+        "context": "Institute Fee Structure 2025-26 | Home | >Institute Fee Structure 2025-26 | Institute Fee Structure 2025-26 | NH 66, Srinivasnagar | Surathkal, Mangalore",
+        "amounts": [
+          2025
+        ]
+      },
+      {
+        "line": "Institute Fee Structure 2025-26",
+        "context": "Home | >Institute Fee Structure 2025-26 | Institute Fee Structure 2025-26 | NH 66, Srinivasnagar | Surathkal, Mangalore | Karnataka 575025",
+        "amounts": [
+          2025,
+          575025
+        ]
+      }
+    ],
+    "all_amounts": [
+      4000,
+      2025,
+      575025,
+      2474000,
+      2026
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-mandi",
+    "name": "Indian Institute of Technology Mandi",
+    "source_url": "https://academics.iitmandi.ac.in/fees",
+    "source_type": "html",
+    "fee_signals": [
+      {
+        "line": "General guidelines for tuition fee remission",
+        "context": "Fees Submission | Guidelines for Education Loan Facility | General guidelines for tuition fee remission | Fee Structure for Academic Year 2026-27 | Academic Fee Structure of ODD Semester for AY 2026-2027 for New Entrants in August 2026 | Click Here",
+        "amounts": [
+          2026,
+          2027
+        ]
+      },
+      {
+        "line": "Academic Fee Structure of ODD Semester for AY 2026-2027 for New Entrants in August 2026",
+        "context": "General guidelines for tuition fee remission | Fee Structure for Academic Year 2026-27 | Academic Fee Structure of ODD Semester for AY 2026-2027 for New Entrants in August 2026 | Click Here | Academic Fee Structure of ODD Semester for AY 2026-2027 for Existing Students | Click Here",
+        "amounts": [
+          2026,
+          2027
+        ]
+      },
+      {
+        "line": "Academic Fee Structure of ODD Semester for AY 2026-2027 for Existing Students",
+        "context": "Academic Fee Structure of ODD Semester for AY 2026-2027 for New Entrants in August 2026 | Click Here | Academic Fee Structure of ODD Semester for AY 2026-2027 for Existing Students | Click Here | Academic Fee Structure of ODD Semester for AY 2026-2027 for I-Ph.D Programme | Click Here",
+        "amounts": [
+          2026,
+          2027
+        ]
+      },
+      {
+        "line": "Academic Fee Structure of ODD Semester for AY 2026-2027 for I-Ph.D Programme",
+        "context": "Academic Fee Structure of ODD Semester for AY 2026-2027 for Existing Students | Click Here | Academic Fee Structure of ODD Semester for AY 2026-2027 for I-Ph.D Programme | Click Here | Hostel & Mess charges of Odd Semester for AY 2026-2027 for Existing Students | Click Here",
+        "amounts": [
+          2026,
+          2027
+        ]
+      },
+      {
+        "line": "Hostel & Mess charges of Odd Semester for AY 2026-2027 for Existing Students",
+        "context": "Academic Fee Structure of ODD Semester for AY 2026-2027 for I-Ph.D Programme | Click Here | Hostel & Mess charges of Odd Semester for AY 2026-2027 for Existing Students | Click Here | Hostel & Mess charges of Odd Semester for AY 2026-2027 for New Students | Click Here",
+        "amounts": [
+          2026,
+          2027
+        ]
+      },
+      {
+        "line": "Hostel & Mess charges of Odd Semester for AY 2026-2027 for New Students",
+        "context": "Hostel & Mess charges of Odd Semester for AY 2026-2027 for Existing Students | Click Here | Hostel & Mess charges of Odd Semester for AY 2026-2027 for New Students | Click Here | Mandatory Campus Amenities Charges | Click Here",
+        "amounts": [
+          2026,
+          2027
+        ]
+      },
+      {
+        "line": "Academic Fee Structure of Even Semester for AY 2025-2026 for New Entrants in Jan 2026.",
+        "context": "Click Here | Fee Structure for Academic Year 2025-26 | Academic Fee Structure of Even Semester for AY 2025-2026 for New Entrants in Jan 2026. | Click Here | Academic Fee Structure of Even Semester for AY 2025-2026 for Existing Students | Click Here",
+        "amounts": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "line": "Academic Fee Structure of Even Semester for AY 2025-2026 for Existing Students",
+        "context": "Academic Fee Structure of Even Semester for AY 2025-2026 for New Entrants in Jan 2026. | Click Here | Academic Fee Structure of Even Semester for AY 2025-2026 for Existing Students | Click Here | Academic Fee Structure of Odd Semester for AY 2025-2026 for Existing Students | Click Here",
+        "amounts": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "line": "Academic Fee Structure of Odd Semester for AY 2025-2026 for Existing Students",
+        "context": "Academic Fee Structure of Even Semester for AY 2025-2026 for Existing Students | Click Here | Academic Fee Structure of Odd Semester for AY 2025-2026 for Existing Students | Click Here | Academic Fee Structure of Odd Semester for AY 2025-2026 for New Students | Click Here",
+        "amounts": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "line": "Academic Fee Structure of Odd Semester for AY 2025-2026 for New Students",
+        "context": "Academic Fee Structure of Odd Semester for AY 2025-2026 for Existing Students | Click Here | Academic Fee Structure of Odd Semester for AY 2025-2026 for New Students | Click Here | Academic Fee Structure of Odd Semester for AY 2025-2026 for I-Ph.D Programme | Click Here",
+        "amounts": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "line": "Academic Fee Structure of Odd Semester for AY 2025-2026 for I-Ph.D Programme",
+        "context": "Academic Fee Structure of Odd Semester for AY 2025-2026 for New Students | Click Here | Academic Fee Structure of Odd Semester for AY 2025-2026 for I-Ph.D Programme | Click Here | Hostel, Mess & Facility charges of Odd Semester for AY 2025-2026 for Existing Students | Click Here",
+        "amounts": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "line": "Hostel, Mess & Facility charges of Odd Semester for AY 2025-2026 for Existing Students",
+        "context": "Academic Fee Structure of Odd Semester for AY 2025-2026 for I-Ph.D Programme | Click Here | Hostel, Mess & Facility charges of Odd Semester for AY 2025-2026 for Existing Students | Click Here | Hostel, Mess & Facility charges of Odd Semester for AY 2025-2026 for New Students. | Click Here",
+        "amounts": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "line": "Hostel, Mess & Facility charges of Odd Semester for AY 2025-2026 for New Students.",
+        "context": "Hostel, Mess & Facility charges of Odd Semester for AY 2025-2026 for Existing Students | Click Here | Hostel, Mess & Facility charges of Odd Semester for AY 2025-2026 for New Students. | Click Here | Hostel, Mess & Facility charges of Even Semester for AY 2025-2026 for Existing Students. | Click Here",
+        "amounts": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "line": "Hostel, Mess & Facility charges of Even Semester for AY 2025-2026 for Existing Students.",
+        "context": "Hostel, Mess & Facility charges of Odd Semester for AY 2025-2026 for New Students. | Click Here | Hostel, Mess & Facility charges of Even Semester for AY 2025-2026 for Existing Students. | Click Here | Hostel, Mess & Facility charges of Even Semester for AY 2025-2026 for New Students. | Click Here",
+        "amounts": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "line": "Hostel, Mess & Facility charges of Even Semester for AY 2025-2026 for New Students.",
+        "context": "Hostel, Mess & Facility charges of Even Semester for AY 2025-2026 for Existing Students. | Click Here | Hostel, Mess & Facility charges of Even Semester for AY 2025-2026 for New Students. | Click Here | Fee Structure for Academic Year 2024-25 | Fee structure of Odd Sem for AY 2024-2025 for Existing students",
+        "amounts": [
+          2025,
+          2026,
+          2024
+        ]
+      },
+      {
+        "line": "Academic Fee for Even Semester 2024-25 (Existing students).pdf",
+        "context": "Fee structure of Odd Sem for AY 2024-2025 for new students | Click Here | Academic Fee for Even Semester 2024-25 (Existing students).pdf | Click Here | Academic Fee for Even Semester 2024-25 (New Entrants ).pdf | Click Here",
+        "amounts": [
+          2024,
+          2025
+        ]
+      },
+      {
+        "line": "Academic Fee for Even Semester 2024-25 (New Entrants ).pdf",
+        "context": "Academic Fee for Even Semester 2024-25 (Existing students).pdf | Click Here | Academic Fee for Even Semester 2024-25 (New Entrants ).pdf | Click Here | Hostel and Mess Charges for Even Semester AY 2024-25. | Click Here",
+        "amounts": [
+          2024
+        ]
+      },
+      {
+        "line": "Hostel and Mess Charges for Even Semester AY 2024-25.",
+        "context": "Academic Fee for Even Semester 2024-25 (New Entrants ).pdf | Click Here | Hostel and Mess Charges for Even Semester AY 2024-25. | Click Here | Fee Structure for Academic Year 2023-24 | Fee structure of Even Sem for AY 2023-2024 for Existing students",
+        "amounts": [
+          2024,
+          2023
+        ]
+      },
+      {
+        "line": "Academic Fee for Odd Semester (Aug-Dec 2023) (Existing students)",
+        "context": "Fee structure of Even Sem for AY 2023-2024 for new students | Click Here | Academic Fee for Odd Semester (Aug-Dec 2023) (Existing students) | Click Here | Academic Fee for Odd Semester (Aug-Dec 2023) (New Entrants) | Click Here",
+        "amounts": [
+          2023,
+          2024
+        ]
+      },
+      {
+        "line": "Academic Fee for Odd Semester (Aug-Dec 2023) (New Entrants)",
+        "context": "Academic Fee for Odd Semester (Aug-Dec 2023) (Existing students) | Click Here | Academic Fee for Odd Semester (Aug-Dec 2023) (New Entrants) | Click Here | Fee Structure for Academic Year 2022-23 | Academic Fee for Even Semester (Feb-June 2023) (Existing students)",
+        "amounts": [
+          2023,
+          2022
+        ]
+      },
+      {
+        "line": "Academic Fee for Even Semester (Feb-June 2023) (Existing students)",
+        "context": "Click Here | Fee Structure for Academic Year 2022-23 | Academic Fee for Even Semester (Feb-June 2023) (Existing students) | Click Here | Academic Fee for Even Semester (Feb-June 2023) (New Entrants) | Click Here",
+        "amounts": [
+          2022,
+          2023
+        ]
+      },
+      {
+        "line": "Academic Fee for Even Semester (Feb-June 2023) (New Entrants)",
+        "context": "Academic Fee for Even Semester (Feb-June 2023) (Existing students) | Click Here | Academic Fee for Even Semester (Feb-June 2023) (New Entrants) | Click Here | Boarding and Lodging for Even Semester (Feb-June 2023) | Click Here",
+        "amounts": [
+          2023
+        ]
+      },
+      {
+        "line": "Notification 1: Revision in Fee Structure (Hostel/Mess) for Odd Semester (Sept-Dec) 2020: uploaded on 17 Sept.2020",
+        "context": "Fee Structure for Academic Year 2020-21 | Notification 2: Revision in Fee Structure (Consolidated) for Odd and Even Semester: uploaded on 15 Feb. 2021 | Notification 1: Revision in Fee Structure (Hostel/Mess) for Odd Semester (Sept-Dec) 2020: uploaded on 17 Sept.2020 | For B.Tech for Academic Year 2020-21 | Click Here | For B.Tech (Foreign students) for Academic Year 2020-21",
+        "amounts": [
+          2020,
+          2021
+        ]
+      }
+    ],
+    "all_amounts": [
+      2026,
+      2027,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      1000,
+      2000,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      175005,
+      1905,
+      7073
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "malaviya-national-institute-of-technology-jaipur",
+    "name": "Malaviya National Institute of Technology Jaipur",
+    "source_url": "https://mnit.ac.in/academics/fee_structure.php",
+    "source_type": "html",
+    "fee_signals": [
+      {
+        "line": "Hostel",
+        "context": "Notices/Information | Office Orders | Hostel | Anti-Ragging Campaign | National Cadet Corps | UG Regulations",
+        "amounts": []
+      },
+      {
+        "line": "Hostel Fee Structure",
+        "context": "PhD | 27/04/2017 | Hostel Fee Structure | # | Year | Title",
+        "amounts": [
+          2017
+        ]
+      },
+      {
+        "line": "Hostel Fee & Mess Advance for the Academic Session 2026-27",
+        "context": "1 | 2026-27 | Hostel Fee & Mess Advance for the Academic Session 2026-27 | 25-03-2026 | 2 | 2025-26",
+        "amounts": [
+          2026,
+          2025
+        ]
+      },
+      {
+        "line": "Hostel Fee & Mess Advance for the Academic Session 2025-26 (New Entrants)",
+        "context": "2 | 2025-26 | Hostel Fee & Mess Advance for the Academic Session 2025-26 (New Entrants) | 23-04-2025 | 3 | 2025-26",
+        "amounts": [
+          2025
+        ]
+      },
+      {
+        "line": "Hostel Fee & Mess Advance for the Academic Session 2025-26 (Old Resident)",
+        "context": "3 | 2025-26 | Hostel Fee & Mess Advance for the Academic Session 2025-26 (Old Resident) | 23-04-2025 | 4 | 2023-24",
+        "amounts": [
+          2025,
+          2023
+        ]
+      },
+      {
+        "line": "Hostel Fee",
+        "context": "4 | 2023-24 | Hostel Fee | 06-06-2023 | 5 | 2022-23",
+        "amounts": [
+          2023,
+          2022
+        ]
+      },
+      {
+        "line": "Hostel Fee",
+        "context": "5 | 2022-23 | Hostel Fee | 02-08-2022 | 6 | 2021-22",
+        "amounts": [
+          2022,
+          2021
+        ]
+      },
+      {
+        "line": "Hostel Fee",
+        "context": "6 | 2021-22 | Hostel Fee | 28-07-2021 | 7 | 2021-22",
+        "amounts": [
+          2021
+        ]
+      },
+      {
+        "line": "Hostel Fee [For Old Students]",
+        "context": "7 | 2021-22 | Hostel Fee [For Old Students] | 28-07-2021 | 8 | 2019-20",
+        "amounts": [
+          2021,
+          2019
+        ]
+      },
+      {
+        "line": "Hostel Fee",
+        "context": "8 | 2019-20 | Hostel Fee | 28-06-2019 | 9 | 2018-19",
+        "amounts": [
+          2019,
+          2018
+        ]
+      },
+      {
+        "line": "Hostel Fee",
+        "context": "9 | 2018-19 | Hostel Fee | 25-06-2018 | 10 | 2017-18",
+        "amounts": [
+          2018,
+          2017
+        ]
+      },
+      {
+        "line": "Hostel Fee",
+        "context": "10 | 2017-18 | Hostel Fee | 27-04-2017 | Insurance Fee Structure | #",
+        "amounts": [
+          2017
+        ]
+      }
+    ],
+    "all_amounts": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2009,
+      2012,
+      302017
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-silchar",
+    "name": "National Institute of Technology, Silchar",
+    "source_url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a3157f193dad.pdf",
+    "source_type": "pdf",
+    "fee_signals": [],
+    "all_amounts": [],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-patna",
+    "name": "National Institute of Technology Patna",
+    "source_url": "https://www.nitp.ac.in/Academic/Fee",
+    "source_type": "html",
+    "fee_signals": [
+      {
+        "line": "EnglishJobs@NITP|Fee Payment|Admission Portal|Academic Portal|Intranetराष्ट्रीय प्रौद्योगिकी संस्थान पटनाNATIONAL INSTITUTE OF TECHNOLOGY PATNAAn Institution of National Importanceराष्ट्रीय प्रौद्योगिकी संस्थान पटनाNATIONAL INSTITUTE OF TECHNOLOGY PATNAAn Institution of National Importance under Ministry of Education(Shiksha Mantralaya), Government of IndiaInstituteAboutAbout Institute Vision MissionInfrastructureNIT Status & ActsReportsAnnual ReportsNIRFMagazinePAN/GSTAdministrationVisitor NITs CouncilBoard of GovernorsSenateDirectorRegistrarDeansHoDCheif ProctorProctorial BoardChief Vigilance OfficerService Unit Heads Finance CommitteeBuilding Work Committee CommitteesInstitute Disciplinary CommitteeMinutes of Meeting Organization ChartAcademicsDepartmentsApplied Physics and Materials EngineeringArchitecture and PlanningChemical Science and TechnologyCivil EngineeringComputer Science and EngineeringElectrical EngineeringElectronics and Communication EngineeringHumanities & Social Sciences Mathematics and Computing TechnologyMechanical EngineeringMechatronics and Automation EngineeringIntranet PortalProgrammesRules and RegulationFee StructureAdmissionFormat of Official DocumentsAcademic NoticesCentre of ExcellenceTSSCISRO RACSPatentsPublicationsProjectsBIS DashboardScholarshipFaculty & Staff Faculty Directory Officers Directory Staff DirectoryAdmin PortalStaff Claim FormHolidays/Restricted Holidays StudentsHostel & MessScholarshipClubs/SocitiesAnnual Sports FestAnti RaggingFee PaymentWomen CellSC/ST CellStudent Activity Center Tech FestNSS@NITPE-CellUnnat BharatFacilitiesIncubation CenterComputer CenterHealth CenterSports FacilitiesLibraryBankEMUESUNational Institute of Technology PatnaAshok Rajpath, Mahendru, Patna, Bihar 800005 www.nitp.ac.inQuick LinksDepartmentsNIRFRTIStudy In IndiaExploreCampusSC/ST Grievance CellMagazine(Vol.4)Useful LinksHow to ReachNational Service SchemeTendersTerms of UsePatnaLoading weather data...Visitors:140071Copyright © 2026 National Institute of Technology Patna. All Rights Reserved.Developed & Maintained by WDC NIT PatnaTechScript.in - Tech SolutionsAshishK.online - PortfolioTechScript - Innovation & TechnologyAshish Kumar PortfolioPartner ResourcesTechScript.inAshishK.onlineFee StructureUGFee StructureDownload NowFee Structure 2024-25 onwardsDownloadFee Structure 2023-24 onwardsDownloadFee Structure 2022-23 onwardsDownloadPGFee StructureDownload NowFee Structure 2024-25 onwardsDownloadMCAFee StructureDownload NowFee Structure for MCA Regular 2023-24 onwards.DownloadFee Structure for MCA Self-financed 2023-24 onwards.DownloadPhDFee StructureDownload NowFee Structure 2023-24 OnwordsDownloadFee Structure 2025-26 OnwordsDownload",
+        "context": "EnglishJobs@NITP|Fee Payment|Admission Portal|Academic Portal|Intranetराष्ट्रीय प्रौद्योगिकी संस्थान पटनाNATIONAL INSTITUTE OF TECHNOLOGY PATNAAn Institution of National Importanceराष्ट्रीय प्रौद्योगिकी संस्थान पटनाNATIONAL INSTITUTE OF TECHNOLOGY PATNAAn Institution of National Importance under Ministry of Education(Shiksha Mantralaya), Government of IndiaInstituteAboutAbout Institute Vision MissionInfrastructureNIT Status & ActsReportsAnnual ReportsNIRFMagazinePAN/GSTAdministrationVisitor NITs CouncilBoard of GovernorsSenateDirectorRegistrarDeansHoDCheif ProctorProctorial BoardChief Vigilance OfficerService Unit Heads Finance CommitteeBuilding Work Committee CommitteesInstitute Disciplinary CommitteeMinutes of Meeting Organization ChartAcademicsDepartmentsApplied Physics and Materials EngineeringArchitecture and PlanningChemical Science and TechnologyCivil EngineeringComputer Science and EngineeringElectrical EngineeringElectronics and Communication EngineeringHumanities & Social Sciences Mathematics and Computing TechnologyMechanical EngineeringMechatronics and Automation EngineeringIntranet PortalProgrammesRules and RegulationFee StructureAdmissionFormat of Official DocumentsAcademic NoticesCentre of ExcellenceTSSCISRO RACSPatentsPublicationsProjectsBIS DashboardScholarshipFaculty & Staff Faculty Directory Officers Directory Staff DirectoryAdmin PortalStaff Claim FormHolidays/Restricted Holidays StudentsHostel & MessScholarshipClubs/SocitiesAnnual Sports FestAnti RaggingFee PaymentWomen CellSC/ST CellStudent Activity Center Tech FestNSS@NITPE-CellUnnat BharatFacilitiesIncubation CenterComputer CenterHealth CenterSports FacilitiesLibraryBankEMUESUNational Institute of Technology PatnaAshok Rajpath, Mahendru, Patna, Bihar 800005 www.nitp.ac.inQuick LinksDepartmentsNIRFRTIStudy In IndiaExploreCampusSC/ST Grievance CellMagazine(Vol.4)Useful LinksHow to ReachNational Service SchemeTendersTerms of UsePatnaLoading weather data...Visitors:140071Copyright © 2026 National Institute of Technology Patna. All Rights Reserved.Developed & Maintained by WDC NIT PatnaTechScript.in - Tech SolutionsAshishK.online - PortfolioTechScript - Innovation & TechnologyAshish Kumar PortfolioPartner ResourcesTechScript.inAshishK.onlineFee StructureUGFee StructureDownload NowFee Structure 2024-25 onwardsDownloadFee Structure 2023-24 onwardsDownloadFee Structure 2022-23 onwardsDownloadPGFee StructureDownload NowFee Structure 2024-25 onwardsDownloadMCAFee StructureDownload NowFee Structure for MCA Regular 2023-24 onwards.DownloadFee Structure for MCA Self-financed 2023-24 onwards.DownloadPhDFee StructureDownload NowFee Structure 2023-24 OnwordsDownloadFee Structure 2025-26 OnwordsDownload",
+        "amounts": [
+          800005,
+          140071,
+          2026,
+          2024,
+          2023,
+          2022,
+          2025
+        ]
+      }
+    ],
+    "all_amounts": [
+      800005,
+      140071,
+      2026,
+      2024,
+      2023,
+      2022,
+      2025
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-delhi",
+    "name": "National Institute of Technology Delhi",
+    "source_url": "https://nitdelhi.ac.in/academics/services/fee",
+    "source_type": "html",
+    "fee_signals": [
+      {
+        "line": "Old Website |IMS |e-Office |Samarth-eGov |Loading...राष्ट्रीय प्रौद्योगिकी संस्थान दिल्लीNational Institute of Technology Delhi(An autonomous Institute under the aegis of MoE, Govt. of India)HomeInstituteAcademicsResearchFacilitiesCampus LifeDownloadsराष्ट्रीय प्रौद्योगिकी संस्थान, दिल्लीNational Institute of Technology DelhiHomeInstituteAbout UsAbout NIT DelhiMission & VisionOrganization ChartPrevious Directors of NIT DelhiLeadershipDirector's ProfileDirector's MessageRegistrarDeans and Associate DeansHeads of DepartmentsGoverning BodiesBoard of GovernorsSenateFinance CommitteeBuilding & Works CommitteeAdministrationNIT CouncilOrganization StructureAdministrative OfficesPublic DisclosureChief Vigilance Officer (CVO)Public GrievancesIT PolicyRTI (Right to Information)NIRF DataAcademicsDepartmentsApplied Science & Humanities & ManagementCivil EngineeringComputer Science & EngineeringElectronics & Communication EngineeringElectrical EngineeringMechanical and Aerospace EngineeringPrograms OfferedUndergraduate (UG)Postgraduate (PG)Doctorate (PhD)Post-Doctorate (PDF)Academic ServicesAcademic TeamAdmissions / RegistrationAcademic CalendarTime TableFee StructureList of HolidaysNotificationsRequest FormsWithdraw & Refund PolicyUFM FormExam CellConvocation6th Convocation5th Convocation4th Convocation3rd Convocation2nd Convocation1st ConvocationMiscellaneousCGPA CalculationAcademic Excellence AwardsStudent StatisticsMedium of Instruction CertificateStudent's Educational Verification ProcessAcademic CounsellorResearchFootprintsIRINS PortalSponsored Research ProjectsConsultancy ProjectsResearch BulletinsPublicationsJournalPatentsConferencesBook ChapterBooksEventsSeminarsSTC / FDPWorkshopsAchievementsStartUpMOUsAwardsCentre of ExcellenceCOE (Ultratech)PHN LabAwadh LabFacilitiesCentral FacilitiesCentral LibraryComputer CenterInstitute Management System (IMS)Health CenterStore & PurchaseSamarthSports SectionCommitteesInternal Complaints CommitteeAnti-RaggingSpecialized CellGIAN CellFaculty, Staff & Students Grievance CellGender SensitizationSC / ST & OBC CellScholarship CellAccommodationGuest HouseHousing / ResidenceMiscellaneousFit IndiaNational Academic Depository (NAD)Swachh BharatVirtual Classroom (VCN)Campus LifeEventsZealOrientationDandiya NightYoga DayHostelsDauladhar HostelNilerd HostelSRHC HostelYamuna HostelHostel RulesClubs and CellsStructureAll Clubs & CellsArts ClubBIS ClubCultural ClubFinvision ClubGoogle Developers Student ClubAlumni CellClubs and CellsHindi CellLiterary ClubClairvoyance clubSocial Reform CellSports ClubTechnical ClubUBA CellVyomkriti ClubNova ClubLife @ NITDBank & ATMsCanteensGymMessTransportVirtual TourHow to ReachDownloadsAdministrativeAccountsLeaveStore & PurchaseMiscellaneousAcademicRules & RegulationB.Tech CurriculumM.Tech CurriculumMCA CurriculumAcademic CalendarManualsStudentsDownloads for UG studentsDownloads for PG studentsDownloads for PhD studentsDownloads for PDFsKey DocumentsNIT Act & StatutesMOE NotificationsMOU & CollaborationAnnual ReportsInstitute AssignmentsMandatory DisclosureMiscellaneousEmail address DirectoryTelephone DirectoryNews Letter (Vritaant)Fee StructureHomeAcademicsInstituteAbout UsAbout NIT DelhiMission & VisionOrganization ChartPrevious Directors of NIT DelhiLeadershipDirector's ProfileDirector's MessageRegistrarDeans and Associate DeansHeads of DepartmentsGoverning BodiesBoard of GovernorsSenateFinance CommitteeBuilding & Works CommitteeAdministrationNIT CouncilOrganization StructureAdministrative OfficesPublic DisclosureChief Vigilance Officer (CVO)Public GrievancesIT PolicyRTI (Right to Information)NIRF DataAcademicsDepartmentsApplied Science & Humanities & ManagementCivil EngineeringComputer Science & EngineeringElectronics & Communication EngineeringElectrical EngineeringMechanical and Aerospace EngineeringPrograms OfferedUndergraduate (UG)Postgraduate (PG)Doctorate (PhD)Post-Doctorate (PDF)Academic ServicesAcademic TeamAdmissions / RegistrationAcademic CalendarTime TableFee StructureList of HolidaysNotificationsRequest FormsWithdraw & Refund PolicyUFM FormExam CellConvocation6th Convocation5th Convocation4th Convocation3rd Convocation2nd Convocation1st ConvocationMiscellaneousCGPA CalculationAcademic Excellence AwardsStudent StatisticsMedium of Instruction CertificateStudent's Educational Verification ProcessAcademic CounsellorResearchFootprintsIRINS PortalSponsored Research ProjectsConsultancy ProjectsResearch BulletinsPublicationsJournalPatentsConferencesBook ChapterBooksEventsSeminarsSTC / FDPWorkshopsAchievementsStartUpMOUsAwardsCentre of ExcellenceCOE (Ultratech)PHN LabAwadh LabFacilitiesCentral FacilitiesCentral LibraryComputer CenterInstitute Management System (IMS)Health CenterStore & PurchaseSamarthSports SectionCommitteesInternal Complaints CommitteeAnti-RaggingSpecialized CellGIAN CellFaculty, Staff & Students Grievance CellGender SensitizationSC / ST & OBC CellScholarship CellAccommodationGuest HouseHousing / ResidenceMiscellaneousFit IndiaNational Academic Depository (NAD)Swachh BharatVirtual Classroom (VCN)Campus LifeEventsZealOrientationDandiya NightYoga DayHostelsDauladhar HostelNilerd HostelSRHC HostelYamuna HostelHostel RulesClubs and CellsStructureAll Clubs & CellsArts ClubBIS ClubCultural ClubFinvision ClubGoogle Developers Student ClubAlumni CellClubs and CellsHindi CellLiterary ClubClairvoyance clubSocial Reform CellSports ClubTechnical ClubUBA CellVyomkriti ClubNova ClubLife @ NITDBank & ATMsCanteensGymMessTransportVirtual TourHow to ReachDownloadsAdministrativeAccountsLeaveStore & PurchaseMiscellaneousAcademicRules & RegulationB.Tech CurriculumM.Tech CurriculumMCA CurriculumAcademic CalendarManualsStudentsDownloads for UG studentsDownloads for PG studentsDownloads for PhD studentsDownloads for PDFsKey DocumentsNIT Act & StatutesMOE NotificationsMOU & CollaborationAnnual ReportsInstitute AssignmentsMandatory DisclosureMiscellaneousEmail address DirectoryTelephone DirectoryNews Letter (Vritaant)ServicesDepartmentsApplied Science & Humanities & ManagementCivil EngineeringComputer Science & EngineeringElectronics & Communication EngineeringElectrical EngineeringMechanical and Aerospace EngineeringPrograms OfferedUndergraduate (UG)Postgraduate (PG)Doctorate (PhD)Post-Doctorate (PDF)Academic ServicesAcademic TeamAdmissions / RegistrationAcademic CalendarTime TableFee StructureList of HolidaysNotificationsRequest FormsWithdraw & Refund PolicyUFM FormExam CellConvocation6th Convocation5th Convocation4th Convocation3rd Convocation2nd Convocation1st ConvocationMiscellaneousCGPA CalculationAcademic Excellence AwardsStudent StatisticsMedium of Instruction CertificateStudent's Educational Verification ProcessAcademic CounsellorFee StructureAcademic TeamAdmissions / RegistrationAcademic CalendarTime TableFee StructureList of HolidaysNotificationsRequest FormsWithdraw & Refund PolicyUFM FormExam CellCollection of Hostel Fees & Balance Tuition Fees from Students.Online Fees other than Tuition FeeMake up registration feeFee Structure for Undergraduate/Postgraduate Programmes for Current SemesterThe Institute offers four-year Bachelor Degree programmes and two-year M Tech programmes in EngineeringB.Tech. Programme for the Academic Year 2022-23 (Autumn Semester)DownloadPhD Regular and Part Time New Admission (AY 2024-25)DownloadAcademic Year : 2026-27 (Autumn Semester-2026)B.TechFee Structure B.TechDownloadFee Structure B.Tech DASADownloadFee Structure UG under SIIDownloadB.Tech 3rd SemesterDownloadB.Tech 5th SemesterDownloadB.Tech 7th SemesterDownloadB.Tech DASA 3rd SemesterDownloadB.Tech DASA 5th SemesterDownloadB.Tech DASA 7th SemesterDownloadUG Under Study In India Program(SII) 3rd SemesterDownloadM.TechFee Structure M.TechDownloadFee Structure M.Tech DASADownloadFee Structure M.Tech for Self Financed/SponsoredDownloadFee Structure PG under SIIDownloadM.Tech 3rd SemesterDownloadM.Tech 5th SemesterDownloadM.Tech Self-Financed/Sponsored Students(SFS) 3rd SemesterDownloadM.Tech Self-Financed/Sponsored Students(SFS) 5th SemesterDownloadM.Tech DASA 3rd SemesterDownloadPG Under Study In India Program(SII) 3rd SemesterDownloadMCAFee Structure MCA RegularDownloadFee Structure MCA Self Financed/SponsoredDownloadMCA Regular 3rd SemesterDownloadMCA Self-Financed/Sponsored Students(SFS) 3rd SemesterDownloadPh.DPh.D Regular and Part Time Batch 2017 to 2023DownloadPh.D Regular and Part Time Batch 2024DownloadPh.D Regular and Part Time Batch 2025DownloadPh.D Regular and Part Time Batch 2026DownloadPh.D. Self-Financed/Sponsored Scholars(SFS) Batch 2021 to 2023DownloadPh.D. Self-Financed/Sponsored Scholars(SFS) Batch 2024DownloadPh.D. Self-Financed/Sponsored Scholars(SFS) Batch 2026DownloadPh.D. Under Study in India Program(SII) 3rd SemesterDownloadAcademic Year : 2025-26 (Autumn Semester-2025)Academic Year : 2024-25 (Spring Semester-2025)Academic Year: 2024-25 (Autumn Semester-2024)Academic Year 2024 (Spring Semester)Academic Year 2023 (Autumn Semester)Academic Year 2022-2023 (Delayed Spring 2023 Semester)Academic Year 2022-2023 (Spring 2023 Semester)OTHER LINKSCCMTMoEVirtual LabDSTVidya Laxmi PortalAICTENIMCETGATECATJAMDASA 2025GIAN PortalBIS CornerJoint Seat Allocation Authority (JoSAA)IMPORTANT LINKSNIT Act and StatutesMoE NotificationRules/PoliciesMoU & CollaborationAnnual ReportsInstitute AssignmentsInternal Complaints CommitteeParam Shavak FacilityGIAN CellFaculty, Staff and Students Grievance CellNational Fellowship and ScholarshipNITD Research BulletinGender Sensitization CellQUICK LINKSDASA AdmissionNational Fellowships and ScholarshipAnti Ragging SystemMandatory DisclosureFIT IndiaFunding AgencyPublic GrievancesStartup NIT DelhiNational Academic Depository (NAD)Handbook on Sexual Harassment of WomenSwachh Bharat MissionVirtual Classroom (NKN)International Day of YogaRight To InformationOTHER LINKSIMPORTANT LINKSQUICK LINKSContact Us:National Institute of Technology Delhi, Plot No. FA7,Zone P1, GT Karnal Road,Delhi-110036Email:secretary@nitdelhi.ac.inPhone:011-33861005© 2026 NIT Delhi. All rights reserved.All systems operational.Last Updated: N/A",
+        "context": "Old Website |IMS |e-Office |Samarth-eGov |Loading...राष्ट्रीय प्रौद्योगिकी संस्थान दिल्लीNational Institute of Technology Delhi(An autonomous Institute under the aegis of MoE, Govt. of India)HomeInstituteAcademicsResearchFacilitiesCampus LifeDownloadsराष्ट्रीय प्रौद्योगिकी संस्थान, दिल्लीNational Institute of Technology DelhiHomeInstituteAbout UsAbout NIT DelhiMission & VisionOrganization ChartPrevious Directors of NIT DelhiLeadershipDirector's ProfileDirector's MessageRegistrarDeans and Associate DeansHeads of DepartmentsGoverning BodiesBoard of GovernorsSenateFinance CommitteeBuilding & Works CommitteeAdministrationNIT CouncilOrganization StructureAdministrative OfficesPublic DisclosureChief Vigilance Officer (CVO)Public GrievancesIT PolicyRTI (Right to Information)NIRF DataAcademicsDepartmentsApplied Science & Humanities & ManagementCivil EngineeringComputer Science & EngineeringElectronics & Communication EngineeringElectrical EngineeringMechanical and Aerospace EngineeringPrograms OfferedUndergraduate (UG)Postgraduate (PG)Doctorate (PhD)Post-Doctorate (PDF)Academic ServicesAcademic TeamAdmissions / RegistrationAcademic CalendarTime TableFee StructureList of HolidaysNotificationsRequest FormsWithdraw & Refund PolicyUFM FormExam CellConvocation6th Convocation5th Convocation4th Convocation3rd Convocation2nd Convocation1st ConvocationMiscellaneousCGPA CalculationAcademic Excellence AwardsStudent StatisticsMedium of Instruction CertificateStudent's Educational Verification ProcessAcademic CounsellorResearchFootprintsIRINS PortalSponsored Research ProjectsConsultancy ProjectsResearch BulletinsPublicationsJournalPatentsConferencesBook ChapterBooksEventsSeminarsSTC / FDPWorkshopsAchievementsStartUpMOUsAwardsCentre of ExcellenceCOE (Ultratech)PHN LabAwadh LabFacilitiesCentral FacilitiesCentral LibraryComputer CenterInstitute Management System (IMS)Health CenterStore & PurchaseSamarthSports SectionCommitteesInternal Complaints CommitteeAnti-RaggingSpecialized CellGIAN CellFaculty, Staff & Students Grievance CellGender SensitizationSC / ST & OBC CellScholarship CellAccommodationGuest HouseHousing / ResidenceMiscellaneousFit IndiaNational Academic Depository (NAD)Swachh BharatVirtual Classroom (VCN)Campus LifeEventsZealOrientationDandiya NightYoga DayHostelsDauladhar HostelNilerd HostelSRHC HostelYamuna HostelHostel RulesClubs and CellsStructureAll Clubs & CellsArts ClubBIS ClubCultural ClubFinvision ClubGoogle Developers Student ClubAlumni CellClubs and CellsHindi CellLiterary ClubClairvoyance clubSocial Reform CellSports ClubTechnical ClubUBA CellVyomkriti ClubNova ClubLife @ NITDBank & ATMsCanteensGymMessTransportVirtual TourHow to ReachDownloadsAdministrativeAccountsLeaveStore & PurchaseMiscellaneousAcademicRules & RegulationB.Tech CurriculumM.Tech CurriculumMCA CurriculumAcademic CalendarManualsStudentsDownloads for UG studentsDownloads for PG studentsDownloads for PhD studentsDownloads for PDFsKey DocumentsNIT Act & StatutesMOE NotificationsMOU & CollaborationAnnual ReportsInstitute AssignmentsMandatory DisclosureMiscellaneousEmail address DirectoryTelephone DirectoryNews Letter (Vritaant)Fee StructureHomeAcademicsInstituteAbout UsAbout NIT DelhiMission & VisionOrganization ChartPrevious Directors of NIT DelhiLeadershipDirector's ProfileDirector's MessageRegistrarDeans and Associate DeansHeads of DepartmentsGoverning BodiesBoard of GovernorsSenateFinance CommitteeBuilding & Works CommitteeAdministrationNIT CouncilOrganization StructureAdministrative OfficesPublic DisclosureChief Vigilance Officer (CVO)Public GrievancesIT PolicyRTI (Right to Information)NIRF DataAcademicsDepartmentsApplied Science & Humanities & ManagementCivil EngineeringComputer Science & EngineeringElectronics & Communication EngineeringElectrical EngineeringMechanical and Aerospace EngineeringPrograms OfferedUndergraduate (UG)Postgraduate (PG)Doctorate (PhD)Post-Doctorate (PDF)Academic ServicesAcademic TeamAdmissions / RegistrationAcademic CalendarTime TableFee StructureList of HolidaysNotificationsRequest FormsWithdraw & Refund PolicyUFM FormExam CellConvocation6th Convocation5th Convocation4th Convocation3rd Convocation2nd Convocation1st ConvocationMiscellaneousCGPA CalculationAcademic Excellence AwardsStudent StatisticsMedium of Instruction CertificateStudent's Educational Verification ProcessAcademic CounsellorResearchFootprintsIRINS PortalSponsored Research ProjectsConsultancy ProjectsResearch BulletinsPublicationsJournalPatentsConferencesBook ChapterBooksEventsSeminarsSTC / FDPWorkshopsAchievementsStartUpMOUsAwardsCentre of ExcellenceCOE (Ultratech)PHN LabAwadh LabFacilitiesCentral FacilitiesCentral LibraryComputer CenterInstitute Management System (IMS)Health CenterStore & PurchaseSamarthSports SectionCommitteesInternal Complaints CommitteeAnti-RaggingSpecialized CellGIAN CellFaculty, Staff & Students Grievance CellGender SensitizationSC / ST & OBC CellScholarship CellAccommodationGuest HouseHousing / ResidenceMiscellaneousFit IndiaNational Academic Depository (NAD)Swachh BharatVirtual Classroom (VCN)Campus LifeEventsZealOrientationDandiya NightYoga DayHostelsDauladhar HostelNilerd HostelSRHC HostelYamuna HostelHostel RulesClubs and CellsStructureAll Clubs & CellsArts ClubBIS ClubCultural ClubFinvision ClubGoogle Developers Student ClubAlumni CellClubs and CellsHindi CellLiterary ClubClairvoyance clubSocial Reform CellSports ClubTechnical ClubUBA CellVyomkriti ClubNova ClubLife @ NITDBank & ATMsCanteensGymMessTransportVirtual TourHow to ReachDownloadsAdministrativeAccountsLeaveStore & PurchaseMiscellaneousAcademicRules & RegulationB.Tech CurriculumM.Tech CurriculumMCA CurriculumAcademic CalendarManualsStudentsDownloads for UG studentsDownloads for PG studentsDownloads for PhD studentsDownloads for PDFsKey DocumentsNIT Act & StatutesMOE NotificationsMOU & CollaborationAnnual ReportsInstitute AssignmentsMandatory DisclosureMiscellaneousEmail address DirectoryTelephone DirectoryNews Letter (Vritaant)ServicesDepartmentsApplied Science & Humanities & ManagementCivil EngineeringComputer Science & EngineeringElectronics & Communication EngineeringElectrical EngineeringMechanical and Aerospace EngineeringPrograms OfferedUndergraduate (UG)Postgraduate (PG)Doctorate (PhD)Post-Doctorate (PDF)Academic ServicesAcademic TeamAdmissions / RegistrationAcademic CalendarTime TableFee StructureList of HolidaysNotificationsRequest FormsWithdraw & Refund PolicyUFM FormExam CellConvocation6th Convocation5th Convocation4th Convocation3rd Convocation2nd Convocation1st ConvocationMiscellaneousCGPA CalculationAcademic Excellence AwardsStudent StatisticsMedium of Instruction CertificateStudent's Educational Verification ProcessAcademic CounsellorFee StructureAcademic TeamAdmissions / RegistrationAcademic CalendarTime TableFee StructureList of HolidaysNotificationsRequest FormsWithdraw & Refund PolicyUFM FormExam CellCollection of Hostel Fees & Balance Tuition Fees from Students.Online Fees other than Tuition FeeMake up registration feeFee Structure for Undergraduate/Postgraduate Programmes for Current SemesterThe Institute offers four-year Bachelor Degree programmes and two-year M Tech programmes in EngineeringB.Tech. Programme for the Academic Year 2022-23 (Autumn Semester)DownloadPhD Regular and Part Time New Admission (AY 2024-25)DownloadAcademic Year : 2026-27 (Autumn Semester-2026)B.TechFee Structure B.TechDownloadFee Structure B.Tech DASADownloadFee Structure UG under SIIDownloadB.Tech 3rd SemesterDownloadB.Tech 5th SemesterDownloadB.Tech 7th SemesterDownloadB.Tech DASA 3rd SemesterDownloadB.Tech DASA 5th SemesterDownloadB.Tech DASA 7th SemesterDownloadUG Under Study In India Program(SII) 3rd SemesterDownloadM.TechFee Structure M.TechDownloadFee Structure M.Tech DASADownloadFee Structure M.Tech for Self Financed/SponsoredDownloadFee Structure PG under SIIDownloadM.Tech 3rd SemesterDownloadM.Tech 5th SemesterDownloadM.Tech Self-Financed/Sponsored Students(SFS) 3rd SemesterDownloadM.Tech Self-Financed/Sponsored Students(SFS) 5th SemesterDownloadM.Tech DASA 3rd SemesterDownloadPG Under Study In India Program(SII) 3rd SemesterDownloadMCAFee Structure MCA RegularDownloadFee Structure MCA Self Financed/SponsoredDownloadMCA Regular 3rd SemesterDownloadMCA Self-Financed/Sponsored Students(SFS) 3rd SemesterDownloadPh.DPh.D Regular and Part Time Batch 2017 to 2023DownloadPh.D Regular and Part Time Batch 2024DownloadPh.D Regular and Part Time Batch 2025DownloadPh.D Regular and Part Time Batch 2026DownloadPh.D. Self-Financed/Sponsored Scholars(SFS) Batch 2021 to 2023DownloadPh.D. Self-Financed/Sponsored Scholars(SFS) Batch 2024DownloadPh.D. Self-Financed/Sponsored Scholars(SFS) Batch 2026DownloadPh.D. Under Study in India Program(SII) 3rd SemesterDownloadAcademic Year : 2025-26 (Autumn Semester-2025)Academic Year : 2024-25 (Spring Semester-2025)Academic Year: 2024-25 (Autumn Semester-2024)Academic Year 2024 (Spring Semester)Academic Year 2023 (Autumn Semester)Academic Year 2022-2023 (Delayed Spring 2023 Semester)Academic Year 2022-2023 (Spring 2023 Semester)OTHER LINKSCCMTMoEVirtual LabDSTVidya Laxmi PortalAICTENIMCETGATECATJAMDASA 2025GIAN PortalBIS CornerJoint Seat Allocation Authority (JoSAA)IMPORTANT LINKSNIT Act and StatutesMoE NotificationRules/PoliciesMoU & CollaborationAnnual ReportsInstitute AssignmentsInternal Complaints CommitteeParam Shavak FacilityGIAN CellFaculty, Staff and Students Grievance CellNational Fellowship and ScholarshipNITD Research BulletinGender Sensitization CellQUICK LINKSDASA AdmissionNational Fellowships and ScholarshipAnti Ragging SystemMandatory DisclosureFIT IndiaFunding AgencyPublic GrievancesStartup NIT DelhiNational Academic Depository (NAD)Handbook on Sexual Harassment of WomenSwachh Bharat MissionVirtual Classroom (NKN)International Day of YogaRight To InformationOTHER LINKSIMPORTANT LINKSQUICK LINKSContact Us:National Institute of Technology Delhi, Plot No. FA7,Zone P1, GT Karnal Road,Delhi-110036Email:secretary@nitdelhi.ac.inPhone:011-33861005© 2026 NIT Delhi. All rights reserved.All systems operational.Last Updated: N/A",
+        "amounts": [
+          2022,
+          2024,
+          2026,
+          2017,
+          2023,
+          2025,
+          2021,
+          110036
+        ]
+      }
+    ],
+    "all_amounts": [
+      2022,
+      2024,
+      2026,
+      2017,
+      2023,
+      2025,
+      2021,
+      110036
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-meghalaya",
+    "name": "National Institute of Technology Meghalaya",
+    "source_url": "https://www.nitm.ac.in/page_download.php?c=fee-structures/fee-structure",
+    "source_type": "html",
+    "fee_signals": [
+      {
+        "line": "Hostels",
+        "context": "SAC | Safety & Security | Hostels | Recognition & Accreditation | Strategic Plan | Campus Master Plan",
+        "amounts": []
+      },
+      {
+        "line": "Hostel",
+        "context": "MoUs | Student's Corner | Hostel | Hostels Information | Ordinance on Students' Council | Hostel Forms",
+        "amounts": []
+      },
+      {
+        "line": "Hostels Information",
+        "context": "Student's Corner | Hostel | Hostels Information | Ordinance on Students' Council | Hostel Forms | Hostel Patrolling Committee",
+        "amounts": []
+      },
+      {
+        "line": "Hostel Forms",
+        "context": "Hostels Information | Ordinance on Students' Council | Hostel Forms | Hostel Patrolling Committee | Hostel Rules & Regulations | Student Activity Center",
+        "amounts": []
+      },
+      {
+        "line": "Hostel Patrolling Committee",
+        "context": "Ordinance on Students' Council | Hostel Forms | Hostel Patrolling Committee | Hostel Rules & Regulations | Student Activity Center | Office Bearers",
+        "amounts": []
+      },
+      {
+        "line": "Hostel Rules & Regulations",
+        "context": "Hostel Forms | Hostel Patrolling Committee | Hostel Rules & Regulations | Student Activity Center | Office Bearers | Previous Students Council",
+        "amounts": []
+      }
+    ],
+    "all_amounts": [
+      2025,
+      2026,
+      2501294,
+      2501113,
+      793108,
+      272196,
+      328026,
+      352438,
+      299686,
+      96337,
+      539275,
+      550747,
+      2047,
+      4057
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "source_url": "https://iiitm.ac.in/public/uploads/media_uploads/1779189402_Fees-Details-2025-2026-f.pdf",
+    "source_type": "pdf",
+    "fee_signals": [
+      {
+        "line": "A Institute Fees (Per Semester)",
+        "context": "Admission | 2026 | A Institute Fees (Per Semester) | 1 Tuition Fees (*) 87,000 95,000 30,000 30,000 80,000 80,000 30,000 30,000 30,000 30000 | 2 Examination Fees 1,500 1,500 1,500 1,500 1,500 1,500 1,500 1,500 1,500 1500 | 3 Library Fee 2,000 2,000 2,000 2,000 2,000 2,000 2,000 2,000 2,000 2000",
+        "amounts": [
+          2026,
+          87000,
+          95000,
+          30000,
+          80000,
+          1500,
+          2000
+        ]
+      },
+      {
+        "line": "1 Tuition Fees (*) 87,000 95,000 30,000 30,000 80,000 80,000 30,000 30,000 30,000 30000",
+        "context": "2026 | A Institute Fees (Per Semester) | 1 Tuition Fees (*) 87,000 95,000 30,000 30,000 80,000 80,000 30,000 30,000 30,000 30000 | 2 Examination Fees 1,500 1,500 1,500 1,500 1,500 1,500 1,500 1,500 1,500 1500 | 3 Library Fee 2,000 2,000 2,000 2,000 2,000 2,000 2,000 2,000 2,000 2000 | 4 Registration/Enrolment Fees 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1000",
+        "amounts": [
+          2026,
+          87000,
+          95000,
+          30000,
+          80000,
+          1500,
+          2000,
+          1000
+        ]
+      },
+      {
+        "line": "Total Institute Fee (A) 97,000 105,000 40,000 40,000 90,000 90,000 40,000 40,000 40,000 40,000",
+        "context": "Fee | 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1000 | Total Institute Fee (A) 97,000 105,000 40,000 40,000 90,000 90,000 40,000 40,000 40,000 40,000 | B Hostel Fees (Per Semester) | 1 Hostel Room and basic | electricity Charges",
+        "amounts": [
+          1000,
+          97000,
+          105000,
+          40000,
+          90000
+        ]
+      },
+      {
+        "line": "B Hostel Fees (Per Semester)",
+        "context": "1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1000 | Total Institute Fee (A) 97,000 105,000 40,000 40,000 90,000 90,000 40,000 40,000 40,000 40,000 | B Hostel Fees (Per Semester) | 1 Hostel Room and basic | electricity Charges | 15,000 15,000 15,000 15,000 15000 15,000 15,000 15,000 15,000 15,000",
+        "amounts": [
+          1000,
+          97000,
+          105000,
+          40000,
+          90000,
+          15000
+        ]
+      },
+      {
+        "line": "1 Hostel Room and basic",
+        "context": "Total Institute Fee (A) 97,000 105,000 40,000 40,000 90,000 90,000 40,000 40,000 40,000 40,000 | B Hostel Fees (Per Semester) | 1 Hostel Room and basic | electricity Charges | 15,000 15,000 15,000 15,000 15000 15,000 15,000 15,000 15,000 15,000 | 2 Hostel Mess Fee 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000",
+        "amounts": [
+          97000,
+          105000,
+          40000,
+          90000,
+          15000,
+          20000
+        ]
+      },
+      {
+        "line": "2 Hostel Mess Fee 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000",
+        "context": "electricity Charges | 15,000 15,000 15,000 15,000 15000 15,000 15,000 15,000 15,000 15,000 | 2 Hostel Mess Fee 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 | Total Hostel Fee (B) 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 | C One-Time Payments | (at the time of admission",
+        "amounts": [
+          15000,
+          20000,
+          35000
+        ]
+      },
+      {
+        "line": "Total Hostel Fee (B) 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000",
+        "context": "15,000 15,000 15,000 15,000 15000 15,000 15,000 15,000 15,000 15,000 | 2 Hostel Mess Fee 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 | Total Hostel Fee (B) 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 | C One-Time Payments | (at the time of admission | only) includes a refundable",
+        "amounts": [
+          15000,
+          20000,
+          35000
+        ]
+      },
+      {
+        "line": "D Hostel Mess Security",
+        "context": "(Annex-II) | - 23,750 - 25,750 - 23,750 - 23,750 - 23,750 | D Hostel Mess Security | (refundable) | - 5,000 - 5,000 - 5,000 - 5,000 - 5000 | Grand Total - A+B+C+D (₹): 132000 168,750 75000 105,750 105000 153,750 75000 103,750 75000 103,750",
+        "amounts": [
+          23750,
+          25750,
+          5000,
+          132000,
+          168750,
+          75000,
+          105750,
+          105000,
+          153750,
+          103750
+        ]
+      },
+      {
+        "line": "(*) - Tuition fee waiver for SC/ST Students.",
+        "context": "- 5,000 - 5,000 - 5,000 - 5,000 - 5000 | Grand Total - A+B+C+D (₹): 132000 168,750 75000 105,750 105000 153,750 75000 103,750 75000 103,750 | (*) - Tuition fee waiver for SC/ST Students. | (*) - Tuition fee waiver for PwD Students in B. Tech. programs and up to the eighth semester of IMT/IMG programs. | -- 1 of 4 -- | Annexure-A",
+        "amounts": [
+          5000,
+          132000,
+          168750,
+          75000,
+          105750,
+          105000,
+          153750,
+          103750
+        ]
+      },
+      {
+        "line": "(*) - Tuition fee waiver for PwD Students in B. Tech. programs and up to the eighth semester of IMT/IMG programs.",
+        "context": "Grand Total - A+B+C+D (₹): 132000 168,750 75000 105,750 105000 153,750 75000 103,750 75000 103,750 | (*) - Tuition fee waiver for SC/ST Students. | (*) - Tuition fee waiver for PwD Students in B. Tech. programs and up to the eighth semester of IMT/IMG programs. | -- 1 of 4 -- | Annexure-A | ABV-IIITM, Gwalior (2026-27 Batch)",
+        "amounts": [
+          132000,
+          168750,
+          75000,
+          105750,
+          105000,
+          153750,
+          103750,
+          2026
+        ]
+      },
+      {
+        "line": "1 Admission Fees 1,500 1,500 1,500 1,500",
+        "context": "BEE/ BMS IMT/ IPG MBA /M- | Tech Ph.D. | 1 Admission Fees 1,500 1,500 1,500 1,500 | 2 Thesis Fees 0 0 0 3,000 | 3 Grade Card 750 750 750 750 | 4 Provisional Certificate 1,000 1,000 1,000 1,000",
+        "amounts": [
+          1500,
+          3000,
+          1000
+        ]
+      },
+      {
+        "line": "12 Hostel Development Fees 500 500 500 500",
+        "context": "10 Institute Security Deposit 5,000 5,000 5,000 5,000 | 11 Library security deposit 5,000 5,000 5,000 5,000 | 12 Hostel Development Fees 500 500 500 500 | Total (₹): 23,750 23,750 23,750 25,750 | -- 2 of 4 -- | Annexure-B",
+        "amounts": [
+          5000,
+          23750,
+          25750
+        ]
+      },
+      {
+        "line": "A Institute Fees (Per Semester)",
+        "context": "Batch 2025 Batch 2026 (New | Admissions) | A Institute Fees (Per Semester) | 1 Tuition Fees – CIWG/ Non-SAARC / SAARC 87,000 / $ 4000 / $2000 95,000 / $ 4000 / $2000 | 2 Examination Fees 1,500 1,500 | 3 Course Material Fees/Library Fee 2,000 2,000",
+        "amounts": [
+          2025,
+          2026,
+          87000,
+          4000,
+          2000,
+          95000,
+          1500
+        ]
+      },
+      {
+        "line": "1 Tuition Fees – CIWG/ Non-SAARC / SAARC 87,000 / $ 4000 / $2000 95,000 / $ 4000 / $2000",
+        "context": "Admissions) | A Institute Fees (Per Semester) | 1 Tuition Fees – CIWG/ Non-SAARC / SAARC 87,000 / $ 4000 / $2000 95,000 / $ 4000 / $2000 | 2 Examination Fees 1,500 1,500 | 3 Course Material Fees/Library Fee 2,000 2,000 | 4 Registration/Enrolment Fees 3,000 3,000",
+        "amounts": [
+          87000,
+          4000,
+          2000,
+          95000,
+          1500,
+          3000
+        ]
+      },
+      {
+        "line": "Total Institute Fee (A) 13,500",
+        "context": "8 Sports Activities & Techno- Managerial | Activity Fee 1,000 1,000 | Total Institute Fee (A) 13,500 | + Applicable Tuition Fee | 13,500 | + Applicable Tuition Fee",
+        "amounts": [
+          1000,
+          13500
+        ]
+      },
+      {
+        "line": "+ Applicable Tuition Fee",
+        "context": "Activity Fee 1,000 1,000 | Total Institute Fee (A) 13,500 | + Applicable Tuition Fee | 13,500 | + Applicable Tuition Fee | B Hostel Fees (Per Semester)",
+        "amounts": [
+          1000,
+          13500
+        ]
+      },
+      {
+        "line": "+ Applicable Tuition Fee",
+        "context": "+ Applicable Tuition Fee | 13,500 | + Applicable Tuition Fee | B Hostel Fees (Per Semester) | 1 Hostel Room and basic electricity Charges 30000 30000 | 2 Hostel Mess Fee 20,000 20,000",
+        "amounts": [
+          13500,
+          30000,
+          20000
+        ]
+      },
+      {
+        "line": "B Hostel Fees (Per Semester)",
+        "context": "13,500 | + Applicable Tuition Fee | B Hostel Fees (Per Semester) | 1 Hostel Room and basic electricity Charges 30000 30000 | 2 Hostel Mess Fee 20,000 20,000 | Total Hostel Fee (B) 50,000 50,000",
+        "amounts": [
+          13500,
+          30000,
+          20000,
+          50000
+        ]
+      },
+      {
+        "line": "1 Hostel Room and basic electricity Charges 30000 30000",
+        "context": "+ Applicable Tuition Fee | B Hostel Fees (Per Semester) | 1 Hostel Room and basic electricity Charges 30000 30000 | 2 Hostel Mess Fee 20,000 20,000 | Total Hostel Fee (B) 50,000 50,000 | C One-Time Payments (at the time of",
+        "amounts": [
+          30000,
+          20000,
+          50000
+        ]
+      },
+      {
+        "line": "2 Hostel Mess Fee 20,000 20,000",
+        "context": "B Hostel Fees (Per Semester) | 1 Hostel Room and basic electricity Charges 30000 30000 | 2 Hostel Mess Fee 20,000 20,000 | Total Hostel Fee (B) 50,000 50,000 | C One-Time Payments (at the time of | admission) - 28,250",
+        "amounts": [
+          30000,
+          20000,
+          50000,
+          28250
+        ]
+      },
+      {
+        "line": "Total Hostel Fee (B) 50,000 50,000",
+        "context": "1 Hostel Room and basic electricity Charges 30000 30000 | 2 Hostel Mess Fee 20,000 20,000 | Total Hostel Fee (B) 50,000 50,000 | C One-Time Payments (at the time of | admission) - 28,250 | D Hostel Mess Security Deposit 5,000 5,000",
+        "amounts": [
+          30000,
+          20000,
+          50000,
+          28250,
+          5000
+        ]
+      },
+      {
+        "line": "D Hostel Mess Security Deposit 5,000 5,000",
+        "context": "C One-Time Payments (at the time of | admission) - 28,250 | D Hostel Mess Security Deposit 5,000 5,000 | Grand Total - A+B+C+D (₹): 68,500 | + Applicable Tuition Fee | 96,750",
+        "amounts": [
+          28250,
+          5000,
+          68500,
+          96750
+        ]
+      },
+      {
+        "line": "+ Applicable Tuition Fee",
+        "context": "D Hostel Mess Security Deposit 5,000 5,000 | Grand Total - A+B+C+D (₹): 68,500 | + Applicable Tuition Fee | 96,750 | + Applicable Tuition Fee | One-Time Payments (at the time of admission in July 2026) for DASA New Admission 2026",
+        "amounts": [
+          5000,
+          68500,
+          96750,
+          2026
+        ]
+      },
+      {
+        "line": "+ Applicable Tuition Fee",
+        "context": "+ Applicable Tuition Fee | 96,750 | + Applicable Tuition Fee | One-Time Payments (at the time of admission in July 2026) for DASA New Admission 2026 | S. No. Particulars Fee (Rs) | 1 Admission Fees 5,000",
+        "amounts": [
+          96750,
+          2026,
+          5000
+        ]
+      },
+      {
+        "line": "1 Admission Fees 5,000",
+        "context": "One-Time Payments (at the time of admission in July 2026) for DASA New Admission 2026 | S. No. Particulars Fee (Rs) | 1 Admission Fees 5,000 | 2 Grade Card 750 | 3 Provisional Certificate 2,000 | 4 Student Welfare Fund 5,000",
+        "amounts": [
+          2026,
+          5000,
+          2000
+        ]
+      },
+      {
+        "line": "11 Hostel Development Fees 500",
+        "context": "9 Institute Security Deposit 5,000 | 10 Library security deposit 5,000 | 11 Hostel Development Fees 500 | Total (₹): 28,250 | -- 3 of 4 -- | -- 4 of 4 --",
+        "amounts": [
+          5000,
+          28250
+        ]
+      }
+    ],
+    "all_amounts": [
+      2025,
+      2026,
+      87000,
+      95000,
+      30000,
+      80000,
+      1500,
+      2000,
+      1000,
+      97000,
+      105000,
+      40000,
+      90000,
+      15000,
+      20000,
+      35000,
+      10000,
+      23750,
+      25750,
+      5000,
+      132000,
+      168750,
+      75000,
+      105750,
+      153750,
+      103750,
+      3000,
+      4000,
+      13500,
+      50000,
+      28250,
+      68500,
+      96750
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-allahabad",
+    "name": "Indian Institute of Information Technology, Allahabad",
+    "source_url": "https://www.iiita.ac.in/fee-structure",
+    "source_type": "html",
+    "fee_signals": [],
+    "all_amounts": [
+      2026,
+      2014,
+      2005,
+      2024,
+      211015,
+      2922000,
+      2922125
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+    "name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+    "source_url": "http://old.iiitdm.ac.in/img/academics/Fee_Structure_2026-27.pdf",
+    "source_type": "pdf",
+    "fee_signals": [
+      {
+        "line": "F.No/IIITDM/Acad/Institute Fee/10/01/B.Tech &DD",
+        "context": "(Office of Academic Affairs) | Ph : +91 44 2747 6323 Email : academics@iiitdm.ac.in | F.No/IIITDM/Acad/Institute Fee/10/01/B.Tech &DD | FEE STRUCTURE FOR THE B Tech & DD ADMISSSIONS – 2026-27 BATCH ONLY (For One semester) | Description B Tech DD | I. Institute Fees",
+        "amounts": [
+          2747,
+          6323,
+          2026
+        ]
+      },
+      {
+        "line": "I. Institute Fees",
+        "context": "FEE STRUCTURE FOR THE B Tech & DD ADMISSSIONS – 2026-27 BATCH ONLY (For One semester) | Description B Tech DD | I. Institute Fees | A. One time Fees: | Admission Fee 500 500 | Certificate/Thesis Fee 500 500",
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "line": "Admission Fee 500 500",
+        "context": "I. Institute Fees | A. One time Fees: | Admission Fee 500 500 | Certificate/Thesis Fee 500 500 | Student welfare fee 1000 1000 | Infrastructure Development Fee 1000 1000",
+        "amounts": [
+          1000
+        ]
+      },
+      {
+        "line": "B. Semester Fees:",
+        "context": "Cultural Fee 500 500 | Total (A) 5000 5000 | B. Semester Fees: | Tuition fee (+) 99000 99000 | Examination fee 500 500 | Registration 300 300",
+        "amounts": [
+          5000,
+          99000
+        ]
+      },
+      {
+        "line": "Tuition fee (+) 99000 99000",
+        "context": "Total (A) 5000 5000 | B. Semester Fees: | Tuition fee (+) 99000 99000 | Examination fee 500 500 | Registration 300 300 | Sports Fee 1000 1000",
+        "amounts": [
+          5000,
+          99000,
+          1000
+        ]
+      },
+      {
+        "line": "II. Hostel Fees",
+        "context": "Total (C) 500 500 | Grand Total [A+B+C] 109300 109300 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 700 | Hostel Seat Rent 3500 3500",
+        "amounts": [
+          109300,
+          3500
+        ]
+      },
+      {
+        "line": "A. Hostel Fees & Mess Charges per semester",
+        "context": "Grand Total [A+B+C] 109300 109300 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 700 | Hostel Seat Rent 3500 3500 | Hostel Maintenance Charges 17496 17496",
+        "amounts": [
+          109300,
+          3500,
+          17496
+        ]
+      },
+      {
+        "line": "Hostel Admission fee 700 700",
+        "context": "II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 700 | Hostel Seat Rent 3500 3500 | Hostel Maintenance Charges 17496 17496 | Dining charges - Advance 16800(**) 16800(**)",
+        "amounts": [
+          3500,
+          17496,
+          16800
+        ]
+      },
+      {
+        "line": "Hostel Seat Rent 3500 3500",
+        "context": "A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 700 | Hostel Seat Rent 3500 3500 | Hostel Maintenance Charges 17496 17496 | Dining charges - Advance 16800(**) 16800(**) | Establishment B Charges 1000 1000",
+        "amounts": [
+          3500,
+          17496,
+          16800,
+          1000
+        ]
+      },
+      {
+        "line": "Hostel Maintenance Charges 17496 17496",
+        "context": "Hostel Admission fee 700 700 | Hostel Seat Rent 3500 3500 | Hostel Maintenance Charges 17496 17496 | Dining charges - Advance 16800(**) 16800(**) | Establishment B Charges 1000 1000 | Development Fee 1000 1000",
+        "amounts": [
+          3500,
+          17496,
+          16800,
+          1000
+        ]
+      },
+      {
+        "line": "1. (+) SC/ST students of B Tech & DD are exempted from payment of tuition fee irrespective of their parental income and",
+        "context": "Total (A) 40496 40496 | 149796 149796 | 1. (+) SC/ST students of B Tech & DD are exempted from payment of tuition fee irrespective of their parental income and | PWD students B Tech & DD are exempted from payment of tuition fee irrespective of their parental income for the | period of 04 years. | 2. ** - Hostel is compulsory for all B Tech/DD students. If exemption is granted by the Institute, then day scholars will",
+        "amounts": [
+          40496,
+          149796
+        ]
+      },
+      {
+        "line": "PWD students B Tech & DD are exempted from payment of tuition fee irrespective of their parental income for the",
+        "context": "149796 149796 | 1. (+) SC/ST students of B Tech & DD are exempted from payment of tuition fee irrespective of their parental income and | PWD students B Tech & DD are exempted from payment of tuition fee irrespective of their parental income for the | period of 04 years. | 2. ** - Hostel is compulsory for all B Tech/DD students. If exemption is granted by the Institute, then day scholars will | have to pay the above mentioned Institute fees (Except Hostel Fees). (**) There may be variation in the dining charges",
+        "amounts": [
+          149796
+        ]
+      },
+      {
+        "line": "2. ** - Hostel is compulsory for all B Tech/DD students. If exemption is granted by the Institute, then day scholars will",
+        "context": "PWD students B Tech & DD are exempted from payment of tuition fee irrespective of their parental income for the | period of 04 years. | 2. ** - Hostel is compulsory for all B Tech/DD students. If exemption is granted by the Institute, then day scholars will | have to pay the above mentioned Institute fees (Except Hostel Fees). (**) There may be variation in the dining charges | based on tendering value. | -- 1 of 3 --",
+        "amounts": []
+      },
+      {
+        "line": "have to pay the above mentioned Institute fees (Except Hostel Fees). (**) There may be variation in the dining charges",
+        "context": "period of 04 years. | 2. ** - Hostel is compulsory for all B Tech/DD students. If exemption is granted by the Institute, then day scholars will | have to pay the above mentioned Institute fees (Except Hostel Fees). (**) There may be variation in the dining charges | based on tendering value. | -- 1 of 3 -- | INDIAN INSTITUTE OF INFORMATION",
+        "amounts": []
+      },
+      {
+        "line": "F.No/IIITDM/Acad/Institute Fee/10/01/M.Tech/MDes",
+        "context": "(Office of Academic Affairs) | Ph : +91 44 2747 6323 Email : academics@iiitdm.ac.in | F.No/IIITDM/Acad/Institute Fee/10/01/M.Tech/MDes | FEE STRUCTURE FOR THE M Tech/MDes ADMISSSIONS – 2026-27 BATCH (For one semester) | Description M.Tech/MDes | I. Institute Fees",
+        "amounts": [
+          2747,
+          6323,
+          2026
+        ]
+      },
+      {
+        "line": "I. Institute Fees",
+        "context": "FEE STRUCTURE FOR THE M Tech/MDes ADMISSSIONS – 2026-27 BATCH (For one semester) | Description M.Tech/MDes | I. Institute Fees | A. One time Fees: | Admission Fee 500 | Certificate/Thesis Fee 500",
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "line": "Admission Fee 500",
+        "context": "I. Institute Fees | A. One time Fees: | Admission Fee 500 | Certificate/Thesis Fee 500 | Student welfare fee 1000 | Infrastructure Development Fee 1000",
+        "amounts": [
+          1000
+        ]
+      },
+      {
+        "line": "B. Semester Fees:",
+        "context": "Cultural Fee 500 | Total (A) 5000 | B. Semester Fees: | Tuition fee (+) 50000 (*) | Examination fee 500 | Registration 500",
+        "amounts": [
+          5000,
+          50000
+        ]
+      },
+      {
+        "line": "Tuition fee (+) 50000 (*)",
+        "context": "Total (A) 5000 | B. Semester Fees: | Tuition fee (+) 50000 (*) | Examination fee 500 | Registration 500 | Sports Fee 1000",
+        "amounts": [
+          5000,
+          50000,
+          1000
+        ]
+      },
+      {
+        "line": "II. Hostel Fees",
+        "context": "Total (C) 500 | Grand Total [A+B+C] 60500 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500",
+        "amounts": [
+          60500,
+          3500
+        ]
+      },
+      {
+        "line": "A. Hostel Fees & Mess Charges per semester",
+        "context": "Grand Total [A+B+C] 60500 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496",
+        "amounts": [
+          60500,
+          3500,
+          17496
+        ]
+      },
+      {
+        "line": "Hostel Admission fee 700",
+        "context": "II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496 | Dining charges - Advance 24300(**)",
+        "amounts": [
+          3500,
+          17496,
+          24300
+        ]
+      },
+      {
+        "line": "Hostel Seat Rent 3500",
+        "context": "A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496 | Dining charges - Advance 24300(**) | Establishment B Charges 1000",
+        "amounts": [
+          3500,
+          17496,
+          24300,
+          1000
+        ]
+      },
+      {
+        "line": "Hostel Maintenance Charges 17496",
+        "context": "Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496 | Dining charges - Advance 24300(**) | Establishment B Charges 1000 | Development Fee 1000",
+        "amounts": [
+          3500,
+          17496,
+          24300,
+          1000
+        ]
+      },
+      {
+        "line": "Hostellers (I & II) 108496",
+        "context": "Development Fee 1000 | Total (A) 47996 | Hostellers (I & II) 108496 | Note: | 1. (+) SC/ST students are exempted from payment of tuition fee irrespective of their parental income. | 2. Hostel is compulsory for all students. If exemption is granted by the Institute, then day scholars will have to pay the",
+        "amounts": [
+          1000,
+          47996,
+          108496
+        ]
+      },
+      {
+        "line": "1. (+) SC/ST students are exempted from payment of tuition fee irrespective of their parental income.",
+        "context": "Hostellers (I & II) 108496 | Note: | 1. (+) SC/ST students are exempted from payment of tuition fee irrespective of their parental income. | 2. Hostel is compulsory for all students. If exemption is granted by the Institute, then day scholars will have to pay the | above mentioned Institute fees (Except Hostel Fees). | 3. (*) For PG students - Tuition fee of 50,000 per semester for the first year and 60,000 per semester for second year",
+        "amounts": [
+          108496,
+          50000,
+          60000
+        ]
+      },
+      {
+        "line": "2. Hostel is compulsory for all students. If exemption is granted by the Institute, then day scholars will have to pay the",
+        "context": "Note: | 1. (+) SC/ST students are exempted from payment of tuition fee irrespective of their parental income. | 2. Hostel is compulsory for all students. If exemption is granted by the Institute, then day scholars will have to pay the | above mentioned Institute fees (Except Hostel Fees). | 3. (*) For PG students - Tuition fee of 50,000 per semester for the first year and 60,000 per semester for second year | 4. (**) There may be variation in the dining charges based on tendering value.",
+        "amounts": [
+          50000,
+          60000
+        ]
+      },
+      {
+        "line": "above mentioned Institute fees (Except Hostel Fees).",
+        "context": "1. (+) SC/ST students are exempted from payment of tuition fee irrespective of their parental income. | 2. Hostel is compulsory for all students. If exemption is granted by the Institute, then day scholars will have to pay the | above mentioned Institute fees (Except Hostel Fees). | 3. (*) For PG students - Tuition fee of 50,000 per semester for the first year and 60,000 per semester for second year | 4. (**) There may be variation in the dining charges based on tendering value. | -- 2 of 3 --",
+        "amounts": [
+          50000,
+          60000
+        ]
+      },
+      {
+        "line": "3. (*) For PG students - Tuition fee of 50,000 per semester for the first year and 60,000 per semester for second year",
+        "context": "2. Hostel is compulsory for all students. If exemption is granted by the Institute, then day scholars will have to pay the | above mentioned Institute fees (Except Hostel Fees). | 3. (*) For PG students - Tuition fee of 50,000 per semester for the first year and 60,000 per semester for second year | 4. (**) There may be variation in the dining charges based on tendering value. | -- 2 of 3 -- | INDIAN INSTITUTE OF INFORMATION",
+        "amounts": [
+          50000,
+          60000
+        ]
+      },
+      {
+        "line": "F.No/IIITDM/Acad/Institute Fee/10/01/PhD",
+        "context": "(Office of Academic Affairs) | Ph : +91 44 2747 6323 Email : academics@iiitdm.ac.in | F.No/IIITDM/Acad/Institute Fee/10/01/PhD | FEE STRUCTURE FOR THE PhD ADMISSSIONS – 2026-27 BATCH (For one semester) | Description PhD | I. Institute Fees",
+        "amounts": [
+          2747,
+          6323,
+          2026
+        ]
+      },
+      {
+        "line": "I. Institute Fees",
+        "context": "FEE STRUCTURE FOR THE PhD ADMISSSIONS – 2026-27 BATCH (For one semester) | Description PhD | I. Institute Fees | A. One time Fees: | Admission Fee 500 | Certificate/Thesis Fee 1500",
+        "amounts": [
+          2026,
+          1500
+        ]
+      },
+      {
+        "line": "Admission Fee 500",
+        "context": "I. Institute Fees | A. One time Fees: | Admission Fee 500 | Certificate/Thesis Fee 1500 | Student welfare fee 1000 | Infrastructure Development Fee 1000",
+        "amounts": [
+          1500,
+          1000
+        ]
+      },
+      {
+        "line": "B. Semester Fees:",
+        "context": "Publication Fee / Library Fee 1500 | Total (A) 6000 | B. Semester Fees: | Tuition fee (+) 46000 (*) | Examination fee 500 | Registration 500",
+        "amounts": [
+          1500,
+          6000,
+          46000
+        ]
+      },
+      {
+        "line": "Tuition fee (+) 46000 (*)",
+        "context": "Total (A) 6000 | B. Semester Fees: | Tuition fee (+) 46000 (*) | Examination fee 500 | Registration 500 | Sports Fee 1000",
+        "amounts": [
+          6000,
+          46000,
+          1000
+        ]
+      },
+      {
+        "line": "II. Hostel Fees",
+        "context": "Total (C) 500 | Grand Total [A+B+C] 58500 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500",
+        "amounts": [
+          58500,
+          3500
+        ]
+      },
+      {
+        "line": "A. Hostel Fees & Mess Charges per semester",
+        "context": "Grand Total [A+B+C] 58500 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496",
+        "amounts": [
+          58500,
+          3500,
+          17496
+        ]
+      },
+      {
+        "line": "Hostel Admission fee 700",
+        "context": "II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496 | Dining charges - Advance 24300(**)",
+        "amounts": [
+          3500,
+          17496,
+          24300
+        ]
+      },
+      {
+        "line": "Hostel Seat Rent 3500",
+        "context": "A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496 | Dining charges - Advance 24300(**) | Establishment B Charges 1000",
+        "amounts": [
+          3500,
+          17496,
+          24300,
+          1000
+        ]
+      },
+      {
+        "line": "Hostel Maintenance Charges 17496",
+        "context": "Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496 | Dining charges - Advance 24300(**) | Establishment B Charges 1000 | Development Fee 1000",
+        "amounts": [
+          3500,
+          17496,
+          24300,
+          1000
+        ]
+      },
+      {
+        "line": "Hostellers (I & II) 106496",
+        "context": "Development Fee 1000 | Total (A) 47996 | Hostellers (I & II) 106496 | Note: | 1. (+) SC/ST students are exempted from payment of tuition fee irrespective of their parental income. | 2. Hostel is compulsory for all students. If exemption is granted by the Institute, then day scholars will have to pay the",
+        "amounts": [
+          1000,
+          47996,
+          106496
+        ]
+      }
+    ],
+    "all_amounts": [
+      2747,
+      6323,
+      2026,
+      1000,
+      5000,
+      99000,
+      2000,
+      103800,
+      109300,
+      3500,
+      17496,
+      16800,
+      40496,
+      149796,
+      50000,
+      55000,
+      60500,
+      24300,
+      47996,
+      108496,
+      60000,
+      1500,
+      6000,
+      46000,
+      3000,
+      52000,
+      58500,
+      106496
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-goa",
+    "name": "Indian Institute of Technology Goa",
+    "source_url": "https://iitgoa.ac.in/btech_fee_structure/",
+    "source_type": "html",
+    "fee_signals": [],
+    "all_amounts": [
+      2022,
+      2021,
+      2026,
+      2025,
+      2024
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-goa",
+    "name": "National Institute of Technology Goa",
+    "source_url": "https://nitgoa.ac.in/static/Fee_Structure.pdf",
+    "source_type": "pdf",
+    "fee_signals": [],
+    "all_amounts": [],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-sikkim",
+    "name": "National Institute of Technology Sikkim",
+    "source_url": "https://nitsikkim.ac.in/admissions/feeStructure.php",
+    "source_type": "html",
+    "fee_signals": [
+      {
+        "line": "Hostel",
+        "context": "Student | Student Facilities | Hostel | Sports | Scholarships | Anti-Ragging",
+        "amounts": []
+      },
+      {
+        "line": "Hostel",
+        "context": "Student | Student Facilities | Hostel | Sports | Scholarships | Anti-Ragging",
+        "amounts": []
+      },
+      {
+        "line": "Payment Gateway for Mess Fee",
+        "context": "Fee Structure | Online | Payment Gateway for Mess Fee | Online | Payment Gateway for Institute & Hostel Fee | B.Tech",
+        "amounts": []
+      },
+      {
+        "line": "Payment Gateway for Institute & Hostel Fee",
+        "context": "Payment Gateway for Mess Fee | Online | Payment Gateway for Institute & Hostel Fee | B.Tech | B.Tech fee structure for Academic Year 2026-27 | B.Tech fee structure for Academic Year 2025-26",
+        "amounts": [
+          2026,
+          2025
+        ]
+      }
+    ],
+    "all_amounts": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      737139
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-manipur",
+    "name": "National Institute of Technology, Manipur",
+    "source_url": "https://nitmanipur.ac.in/DisplayPage.aspx?page=cs",
+    "source_type": "html",
+    "fee_signals": [
+      {
+        "line": "FAQPublic Grievances CellAnnual Report and Audit ReportMinutes of BoG meetingAPAR format for Teaching StaffMinutes of FC MeetingsMinutes of Senate MeetingMinutes of BWC meetingAPAR format for Non-Teaching StaffIPR formatWorkshop/ConferenceHostel Rules and Regulations",
+        "context": "Finance & Accounts DetailsRTI | Guidelines for Information seekersGuidelines for CPIOsGuidelines for Public Authority | FAQPublic Grievances CellAnnual Report and Audit ReportMinutes of BoG meetingAPAR format for Teaching StaffMinutes of FC MeetingsMinutes of Senate MeetingMinutes of BWC meetingAPAR format for Non-Teaching StaffIPR formatWorkshop/ConferenceHostel Rules and Regulations | GALLERYOutreach Activities | Conferences and WorkshopsCBDE | CBDE Tripartite Agreement MMTTC NIT Manipur",
+        "amounts": []
+      }
+    ],
+    "all_amounts": [
+      2445812,
+      2413031,
+      2025,
+      2026,
+      2020,
+      2016,
+      2013,
+      2014,
+      2015,
+      795004
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-mizoram",
+    "name": "National Institute of Technology, Mizoram",
+    "source_url": "https://nitmz.ac.in/academics/fee-structure/",
+    "source_type": "html",
+    "fee_signals": [
+      {
+        "line": "Hostels",
+        "context": "Research & Development | Campus | Hostels | Student Activities | National Cadet Corps (NCC) | National Service Scheme (NSS)",
+        "amounts": []
+      },
+      {
+        "line": "Hostels",
+        "context": "Research & Development | Campus | Hostels | Student Activities | National Cadet Corps (NCC) | National Service Scheme (NSS)",
+        "amounts": []
+      },
+      {
+        "line": "A. Academic Fees (inclusive of Tuition Fees, Library Deposit & Other Charges)",
+        "context": "Fee structure from 2023-24Click here | For Students of 2019-20 batch onwardsClick here (for B.Tech)Click here (for M.Tech)Click here (For PhD) | A. Academic Fees (inclusive of Tuition Fees, Library Deposit & Other Charges) | 1st Year 2nd Year 3rd Year 4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem68,950.0062,900.0068,450.0062,900.0068,450.0062,900.0068,450.0063,200.00 | B.Hostel Fees (inclusive of Caution Money, One Time Deposit, Annual Charges & Mess Fees) | 1st Year 2nd Year 3rd Year 4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem26,400.0013,000.0017,800.0013,000.0017,800.0013,000.0017,800.0013,000.00",
+        "amounts": [
+          2023,
+          2019,
+          68950,
+          62900,
+          68450,
+          63200,
+          26400,
+          13000,
+          17800
+        ]
+      },
+      {
+        "line": "B.Hostel Fees (inclusive of Caution Money, One Time Deposit, Annual Charges & Mess Fees)",
+        "context": "A. Academic Fees (inclusive of Tuition Fees, Library Deposit & Other Charges) | 1st Year 2nd Year 3rd Year 4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem68,950.0062,900.0068,450.0062,900.0068,450.0062,900.0068,450.0063,200.00 | B.Hostel Fees (inclusive of Caution Money, One Time Deposit, Annual Charges & Mess Fees) | 1st Year 2nd Year 3rd Year 4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem26,400.0013,000.0017,800.0013,000.0017,800.0013,000.0017,800.0013,000.00 | (For Students of 2014 Batch) | A. Academic Fees (inclusive of Tuition Fees, Library Deposit & Other Charges)",
+        "amounts": [
+          68950,
+          62900,
+          68450,
+          63200,
+          26400,
+          13000,
+          17800,
+          2014
+        ]
+      },
+      {
+        "line": "A. Academic Fees (inclusive of Tuition Fees, Library Deposit & Other Charges)",
+        "context": "1st Year 2nd Year 3rd Year 4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem26,400.0013,000.0017,800.0013,000.0017,800.0013,000.0017,800.0013,000.00 | (For Students of 2014 Batch) | A. Academic Fees (inclusive of Tuition Fees, Library Deposit & Other Charges) | 1st Year 2nd Year 3rd Year 4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem76,850.00−40,950.0035,400.0040,950.0035,400.0040,950.0035,700.00 | B.Hostel Fees (inclusive of Caution Money, One Time Deposit, Annual Charges & Mess Fees) | 1st Year 2nd Year 3rd Year 4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem26,400.0013,000.0017,800.0013,000.0017,800.0013,000.0017,800.0013,000.00",
+        "amounts": [
+          26400,
+          13000,
+          17800,
+          2014,
+          76850,
+          40950,
+          35400,
+          35700
+        ]
+      },
+      {
+        "line": "B.Hostel Fees (inclusive of Caution Money, One Time Deposit, Annual Charges & Mess Fees)",
+        "context": "A. Academic Fees (inclusive of Tuition Fees, Library Deposit & Other Charges) | 1st Year 2nd Year 3rd Year 4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem76,850.00−40,950.0035,400.0040,950.0035,400.0040,950.0035,700.00 | B.Hostel Fees (inclusive of Caution Money, One Time Deposit, Annual Charges & Mess Fees) | 1st Year 2nd Year 3rd Year 4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem26,400.0013,000.0017,800.0013,000.0017,800.0013,000.0017,800.0013,000.00 | (For Students of 2011, 2012, 2013 Batch) | A. Academic Fees (inclusive of Tuition Fees, Library Deposit & Other Charges)",
+        "amounts": [
+          76850,
+          40950,
+          35400,
+          35700,
+          26400,
+          13000,
+          17800,
+          2011,
+          2012,
+          2013
+        ]
+      },
+      {
+        "line": "A. Academic Fees (inclusive of Tuition Fees, Library Deposit & Other Charges)",
+        "context": "1st Year 2nd Year 3rd Year 4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem26,400.0013,000.0017,800.0013,000.0017,800.0013,000.0017,800.0013,000.00 | (For Students of 2011, 2012, 2013 Batch) | A. Academic Fees (inclusive of Tuition Fees, Library Deposit & Other Charges) | 1st Year2nd Year3rd Year4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem41,850.00−23,450.0017,900.0023,450.0017,900.0023,450.0018,200.00 | B.Hostel Fees (inclusive of Caution Money, One Time Deposit, Annual Charges & Mess Fees) | 1st Year2nd Year3rd Year4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem26,400.0013,000.0017,800.0013,000.0017,800.0013,000.0017,800.0013,000.00",
+        "amounts": [
+          26400,
+          13000,
+          17800,
+          2011,
+          2012,
+          2013,
+          41850,
+          23450,
+          17900,
+          18200
+        ]
+      },
+      {
+        "line": "B.Hostel Fees (inclusive of Caution Money, One Time Deposit, Annual Charges & Mess Fees)",
+        "context": "A. Academic Fees (inclusive of Tuition Fees, Library Deposit & Other Charges) | 1st Year2nd Year3rd Year4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem41,850.00−23,450.0017,900.0023,450.0017,900.0023,450.0018,200.00 | B.Hostel Fees (inclusive of Caution Money, One Time Deposit, Annual Charges & Mess Fees) | 1st Year2nd Year3rd Year4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem26,400.0013,000.0017,800.0013,000.0017,800.0013,000.0017,800.0013,000.00 | Note: Students may need to deposit additional amount in case of deficit in the Mess Fee balance. This however,would be intimated by the authority. | Quick Links",
+        "amounts": [
+          41850,
+          23450,
+          17900,
+          18200,
+          26400,
+          13000,
+          17800
+        ]
+      },
+      {
+        "line": "Note: Students may need to deposit additional amount in case of deficit in the Mess Fee balance. This however,would be intimated by the authority.",
+        "context": "B.Hostel Fees (inclusive of Caution Money, One Time Deposit, Annual Charges & Mess Fees) | 1st Year2nd Year3rd Year4th Year1st sem2nd sem3rd sem4th sem5th sem6th sem7th sem8th sem26,400.0013,000.0017,800.0013,000.0017,800.0013,000.0017,800.0013,000.00 | Note: Students may need to deposit additional amount in case of deficit in the Mess Fee balance. This however,would be intimated by the authority. | Quick Links | Academic CalendarAcademic CurriculaProgrammesLibraryScholarshipsFee Structure | NIT MIZORAM",
+        "amounts": [
+          26400,
+          13000,
+          17800
+        ]
+      },
+      {
+        "line": "Hostels",
+        "context": "Departments | Research | Hostels | Library | Health Facility | Cells & Centres",
+        "amounts": []
+      }
+    ],
+    "all_amounts": [
+      2026,
+      2024,
+      2023,
+      2019,
+      68950,
+      62900,
+      68450,
+      63200,
+      26400,
+      13000,
+      17800,
+      2014,
+      76850,
+      40950,
+      35400,
+      35700,
+      2011,
+      2012,
+      2013,
+      41850,
+      23450,
+      17900,
+      18200,
+      796012,
+      2391236,
+      2391774
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+    "name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+    "source_url": "https://nerist.ac.in/wp-content/uploads/2026/07/Revised-Fee-Structure-of-UG-programe-for-2026-28.pdf",
+    "source_type": "pdf",
+    "fee_signals": [],
+    "all_amounts": [],
+    "verification_status": "pending_review"
+  }
+]

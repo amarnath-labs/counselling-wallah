@@ -1,0 +1,3202 @@
+[
+  {
+    "nirf_rank": 11,
+    "nirf_name": "Birla Institute of Technology & Science -Pilani",
+    "nirf_city": "Pilani",
+    "nirf_state": "Rajasthan",
+    "nirf_score": 67.02,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+      "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.556,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "database_city": "Howrah",
+        "database_state": "West Bengal",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+        "database_name": "Shri G. S. Institute of Technology and Science Indore",
+        "database_city": "Indore",
+        "database_state": "Madhya Pradesh",
+        "similarity": 0.455,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "birla-institute-of-technology-mesra-ranchi",
+        "database_name": "Birla Institute of Technology, Mesra, Ranchi",
+        "database_city": "Ranchi",
+        "database_state": "Jharkhand",
+        "similarity": 0.444,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.444,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 14,
+    "nirf_name": "S.R.M. Institute of Science and Technology",
+    "nirf_city": "Chennai",
+    "nirf_state": "Tamil Nadu",
+    "nirf_score": 65.83,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "uptac-s-r-institute-of-management-technology-lucknow",
+      "database_name": "S.R.INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.6,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-s-r-institute-of-management-technology-lucknow",
+        "database_name": "S.R.INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+        "database_name": "Shri G. S. Institute of Technology and Science Indore",
+        "database_city": "Indore",
+        "database_state": "Madhya Pradesh",
+        "similarity": 0.545,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "database_city": "Howrah",
+        "database_state": "West Bengal",
+        "similarity": 0.455,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-deewan-v-s-institute-of-engineering-technology-meerut-meerut",
+        "database_name": "DEEWAN V.S. INSTITUTE OF ENGINEERING & TECHNOLOGY, MEERUT,MEERUT",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.417,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 15,
+    "nirf_name": "Indian Institute of Technology (Indian School of Mines)",
+    "nirf_city": "Dhanbad",
+    "nirf_state": "Jharkhand",
+    "nirf_score": 65.37,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "indian-institute-of-technology-bhilai",
+      "database_name": "Indian Institute of Technology Bhilai",
+      "database_city": "Bhilai",
+      "database_state": "Chhattisgarh",
+      "similarity": 0.571,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "indian-institute-of-technology-bhilai",
+        "database_name": "Indian Institute of Technology Bhilai",
+        "database_city": "Bhilai",
+        "database_state": "Chhattisgarh",
+        "similarity": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-bhubaneswar",
+        "database_name": "Indian Institute of Technology Bhubaneswar",
+        "database_city": "Bhubaneswar",
+        "database_state": "Odisha",
+        "similarity": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-bombay",
+        "database_name": "Indian Institute of Technology Bombay",
+        "database_city": "Mumbai",
+        "database_state": "Maharashtra",
+        "similarity": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-delhi",
+        "database_name": "Indian Institute of Technology Delhi",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-dharwad",
+        "database_name": "Indian Institute of Technology Dharwad",
+        "database_city": "Dharwad",
+        "database_state": "Karnataka",
+        "similarity": 0.571,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 16,
+    "nirf_name": "Vellore Institute of Technology",
+    "nirf_city": "Vellore",
+    "nirf_state": "Tamil Nadu",
+    "nirf_score": 65.25,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+      "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.6,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-madras",
+        "database_name": "Indian Institute of Technology Madras",
+        "database_city": "Chennai",
+        "database_state": "Tamil Nadu",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "nirf_rank": 20,
+    "nirf_name": "Anna University",
+    "nirf_city": "Chennai",
+    "nirf_state": "Tamil Nadu",
+    "nirf_score": 63.51,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "jadavpur-university",
+      "database_name": "Jadavpur University",
+      "database_city": "Kolkata",
+      "database_state": "West Bengal",
+      "similarity": 0.333,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "database_name": "Lucknow University, Lucknow",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "database_name": "Assam University, Silchar",
+        "database_city": "Silchar",
+        "database_state": "Assam",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-bundelkhand-university-jhansi",
+        "database_name": "Bundelkhand University, Jhansi",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 22,
+    "nirf_name": "Siksha `O` Anusandhan",
+    "nirf_city": "Bhubaneswar",
+    "nirf_state": "Odisha",
+    "nirf_score": 62.58,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "indian-institute-of-technology-bhubaneswar",
+      "database_name": "Indian Institute of Technology Bhubaneswar",
+      "database_city": "Bhubaneswar",
+      "database_state": "Odisha",
+      "similarity": 0,
+      "city_match": true,
+      "state_match": true
+    },
+    "top_candidates": [
+      {
+        "college_id": "indian-institute-of-technology-bhubaneswar",
+        "database_name": "Indian Institute of Technology Bhubaneswar",
+        "database_city": "Bhubaneswar",
+        "database_state": "Odisha",
+        "similarity": 0,
+        "city_match": true,
+        "state_match": true
+      },
+      {
+        "college_id": "institute-of-chemical-technology-mumbai-indian-oil-odisha-campus-bhubaneswar",
+        "database_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+        "database_city": "Bhubaneswar",
+        "database_state": "Odisha",
+        "similarity": 0,
+        "city_match": true,
+        "state_match": true
+      },
+      {
+        "college_id": "international-institute-of-information-technology-bhubaneswar",
+        "database_name": "International Institute of Information Technology, Bhubaneswar",
+        "database_city": "Bhubaneswar",
+        "database_state": "Odisha",
+        "similarity": 0,
+        "city_match": true,
+        "state_match": true
+      },
+      {
+        "college_id": "national-institute-of-technology-rourkela",
+        "database_name": "National Institute of Technology, Rourkela",
+        "database_city": "Rourkela",
+        "database_state": "Odisha",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "nit-rourkela",
+        "database_name": "NIT Rourkela",
+        "database_city": "Rourkela",
+        "database_state": "Odisha",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "nirf_rank": 23,
+    "nirf_name": "Amrita Vishwa Vidyapeetham",
+    "nirf_city": "Coimbatore",
+    "nirf_state": "Tamil Nadu",
+    "nirf_score": 62.46,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "indian-institute-of-handloom-technology-salem",
+      "database_name": "Indian Institute of Handloom Technology, Salem",
+      "database_city": "Salem",
+      "database_state": "Tamil Nadu",
+      "similarity": 0,
+      "city_match": false,
+      "state_match": true
+    },
+    "top_candidates": [
+      {
+        "college_id": "indian-institute-of-handloom-technology-salem",
+        "database_name": "Indian Institute of Handloom Technology, Salem",
+        "database_city": "Salem",
+        "database_state": "Tamil Nadu",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-tiruchirappalli",
+        "database_name": "Indian Institute of Information Technology Tiruchirappalli",
+        "database_city": "Tiruchirappalli",
+        "database_state": "Tamil Nadu",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+        "database_name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+        "database_city": "Kancheepuram",
+        "database_state": "Tamil Nadu",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "indian-institute-of-technology-madras",
+        "database_name": "Indian Institute of Technology Madras",
+        "database_city": "Chennai",
+        "database_state": "Tamil Nadu",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-thanjavur",
+        "database_name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+        "database_city": "Thanjavur",
+        "database_state": "Tamil Nadu",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "nirf_rank": 24,
+    "nirf_name": "Jamia Millia Islamia",
+    "nirf_city": "New Delhi",
+    "nirf_state": "Delhi",
+    "nirf_score": 62.42,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "dtu-delhi",
+      "database_name": "Delhi Technological University",
+      "database_city": "New Delhi",
+      "database_state": "Delhi",
+      "similarity": 0,
+      "city_match": true,
+      "state_match": true
+    },
+    "top_candidates": [
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0,
+        "city_match": true,
+        "state_match": true
+      },
+      {
+        "college_id": "indian-institute-of-technology-delhi",
+        "database_name": "Indian Institute of Technology Delhi",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0,
+        "city_match": true,
+        "state_match": true
+      },
+      {
+        "college_id": "jawaharlal-nehru-university-delhi",
+        "database_name": "Jawaharlal Nehru University, Delhi",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0,
+        "city_match": true,
+        "state_match": true
+      },
+      {
+        "college_id": "national-institute-of-technology-delhi",
+        "database_name": "National Institute of Technology Delhi",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0,
+        "city_match": true,
+        "state_match": true
+      },
+      {
+        "college_id": "school-of-planning-architecture-new-delhi",
+        "database_name": "School of Planning & Architecture, New Delhi",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0,
+        "city_match": true,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "nirf_rank": 25,
+    "nirf_name": "Indian Institute of Technology Gandhinagar",
+    "nirf_city": "Gandhinagar",
+    "nirf_state": "Gujarat",
+    "nirf_score": 62.31,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "indian-institute-of-technology-bhilai",
+      "database_name": "Indian Institute of Technology Bhilai",
+      "database_city": "Bhilai",
+      "database_state": "Chhattisgarh",
+      "similarity": 0.667,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "indian-institute-of-technology-bhilai",
+        "database_name": "Indian Institute of Technology Bhilai",
+        "database_city": "Bhilai",
+        "database_state": "Chhattisgarh",
+        "similarity": 0.667,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-bhubaneswar",
+        "database_name": "Indian Institute of Technology Bhubaneswar",
+        "database_city": "Bhubaneswar",
+        "database_state": "Odisha",
+        "similarity": 0.667,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-bombay",
+        "database_name": "Indian Institute of Technology Bombay",
+        "database_city": "Mumbai",
+        "database_state": "Maharashtra",
+        "similarity": 0.667,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-delhi",
+        "database_name": "Indian Institute of Technology Delhi",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.667,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-dharwad",
+        "database_name": "Indian Institute of Technology Dharwad",
+        "database_city": "Dharwad",
+        "database_state": "Karnataka",
+        "similarity": 0.667,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 29,
+    "nirf_name": "Thapar Institute of Engineering and Technology (Deemed-to-be-university)",
+    "nirf_city": "Patiala",
+    "nirf_state": "Punjab",
+    "nirf_score": 60.97,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "uptac-institute-of-engineering-technology-lucknow",
+      "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.455,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.455,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-sitapur",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,SITAPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.455,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lloyd-institute-of-engineering-and-technology",
+        "database_name": "LLOYD INSTITUTE OF ENGINEERING AND TECHNOLOGY",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.455,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-engineering-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.455,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "sant-longowal-institute-of-engineering-and-technology",
+        "database_name": "Sant Longowal Institute of Engineering and Technology",
+        "database_city": "Longowal",
+        "database_state": "Punjab",
+        "similarity": 0.417,
+        "city_match": false,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "nirf_rank": 31,
+    "nirf_name": "Chandigarh University",
+    "nirf_city": "Mohali",
+    "nirf_state": "Punjab",
+    "nirf_score": 60.46,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "jadavpur-university",
+      "database_name": "Jadavpur University",
+      "database_city": "Kolkata",
+      "database_state": "West Bengal",
+      "similarity": 0.333,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "database_name": "Lucknow University, Lucknow",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "database_name": "Assam University, Silchar",
+        "database_city": "Silchar",
+        "database_state": "Assam",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-bundelkhand-university-jhansi",
+        "database_name": "Bundelkhand University, Jhansi",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 33,
+    "nirf_name": "Kalasalingam Academy of Research and Education",
+    "nirf_city": "Krishnan Koil",
+    "nirf_state": "Tamil Nadu",
+    "nirf_score": 59.03,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "uptac-united-college-of-engineering-research-allahabad",
+      "database_name": "UNITED COLLEGE OF ENGINEERING & RESEARCH,ALLAHABAD",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.3,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-united-college-of-engineering-research-allahabad",
+        "database_name": "UNITED COLLEGE OF ENGINEERING & RESEARCH,ALLAHABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.3,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "institute-of-infrastructure-technology-research-and-management-ahmedabad",
+        "database_name": "Institute of Infrastructure, Technology, Research and Management-Ahmedabad",
+        "database_city": "Ahmedabad",
+        "database_state": "Gujarat",
+        "similarity": 0.273,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-j-s-s-academy-of-technical-education-gautam-buddh-nagar",
+        "database_name": "J.S.S. ACADEMY OF TECHNICAL EDUCATION,GAUTAM BUDDH NAGAR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "national-institute-of-technical-teachers-training-and-research-bhopal",
+        "database_name": "National Institute of Technical Teachers Training and Research Bhopal",
+        "database_city": "Bhopal",
+        "database_state": "Madhya Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-saraswati-higher-education-technical-college-of-engineering-varanasi",
+        "database_name": "SARASWATI HIGHER EDUCATION & TECHNICAL COLLEGE OF ENGINEERING,VARANASI",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 34,
+    "nirf_name": "Aligarh Muslim University",
+    "nirf_city": "Aligarh",
+    "nirf_state": "Uttar Pradesh",
+    "nirf_score": 59.01,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "uptac-lucknow-university-lucknow",
+      "database_name": "Lucknow University, Lucknow",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.25,
+      "city_match": false,
+      "state_match": true
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "database_name": "Lucknow University, Lucknow",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-bundelkhand-university-jhansi",
+        "database_name": "Bundelkhand University, Jhansi",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "database_name": "Assam University, Silchar",
+        "database_city": "Silchar",
+        "database_state": "Assam",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 35,
+    "nirf_name": "Koneru Lakshmaiah Education Foundation University (K L College of Engineering)",
+    "nirf_city": "Vaddeswaram",
+    "nirf_state": "Andhra Pradesh",
+    "nirf_score": 58.95,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "uptac-saraswati-higher-education-technical-college-of-engineering-varanasi",
+      "database_name": "SARASWATI HIGHER EDUCATION & TECHNICAL COLLEGE OF ENGINEERING,VARANASI",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.267,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-saraswati-higher-education-technical-college-of-engineering-varanasi",
+        "database_name": "SARASWATI HIGHER EDUCATION & TECHNICAL COLLEGE OF ENGINEERING,VARANASI",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.267,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-eshan-college-of-engineering-mathura",
+        "database_name": "ESHAN COLLEGE OF ENGINEERING,MATHURA",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-dr-rizvi-college-of-engineering-kaushambi",
+        "database_name": "DR. RIZVI COLLEGE OF ENGINEERING,,KAUSHAMBI",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.231,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "school-of-engineering-tezpur-university-napaam-tezpur",
+        "database_name": "School of Engineering, Tezpur University, Napaam, Tezpur",
+        "database_city": "Mizoram University",
+        "database_state": "Mizoram",
+        "similarity": 0.231,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-iimt-college-of-engineering-gautam-buddh-nagar",
+        "database_name": "IIMT COLLEGE OF ENGINEERING,GAUTAM BUDDH NAGAR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.214,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 36,
+    "nirf_name": "Kalinga Institute of Industrial Technology",
+    "nirf_city": "Bhubaneswar",
+    "nirf_state": "Odisha",
+    "nirf_score": 58.79,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+      "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.5,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-bhubaneswar",
+        "database_name": "Indian Institute of Technology Bhubaneswar",
+        "database_city": "Bhubaneswar",
+        "database_state": "Odisha",
+        "similarity": 0.429,
+        "city_match": true,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "nirf_rank": 37,
+    "nirf_name": "Amity University",
+    "nirf_city": "Gautam Budh Nagar",
+    "nirf_state": "Uttar Pradesh",
+    "nirf_score": 58.53,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "uptac-lucknow-university-lucknow",
+      "database_name": "Lucknow University, Lucknow",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.333,
+      "city_match": false,
+      "state_match": true
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "database_name": "Lucknow University, Lucknow",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-bundelkhand-university-jhansi",
+        "database_name": "Bundelkhand University, Jhansi",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "database_name": "Assam University, Silchar",
+        "database_city": "Silchar",
+        "database_state": "Assam",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 38,
+    "nirf_name": "International Institute of Information Technology Hyderabad",
+    "nirf_city": "Hyderabad",
+    "nirf_state": "Telangana",
+    "nirf_score": 58.45,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "international-institute-of-information-technology-bhubaneswar",
+      "database_name": "International Institute of Information Technology, Bhubaneswar",
+      "database_city": "Bhubaneswar",
+      "database_state": "Odisha",
+      "similarity": 0.714,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "international-institute-of-information-technology-bhubaneswar",
+        "database_name": "International Institute of Information Technology, Bhubaneswar",
+        "database_city": "Bhubaneswar",
+        "database_state": "Odisha",
+        "similarity": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "international-institute-of-information-technology-naya-raipur",
+        "database_name": "International Institute of Information Technology, Naya Raipur",
+        "database_city": "Naya Raipur",
+        "database_state": "Chhattisgarh",
+        "similarity": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-hyderabad",
+        "database_name": "Indian Institute of Technology Hyderabad",
+        "database_city": "Hyderabad",
+        "database_state": "Telangana",
+        "similarity": 0.571,
+        "city_match": true,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-meerut-international-institute-of-technology-meerut",
+        "database_name": "MEERUT INTERNATIONAL INSTITUTE OF TECHNOLOGY,MEERUT",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-bhagalpur",
+        "database_name": "Indian Institute of Information Technology Bhagalpur",
+        "database_city": "Bhagalpur",
+        "database_state": "Bihar",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 40,
+    "nirf_name": "Shanmugha Arts Science Technology & Research Academy",
+    "nirf_city": "Thanjavur",
+    "nirf_state": "Tamil Nadu",
+    "nirf_score": 58.02,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "uptac-hindustan-college-of-science-technology-mathura",
+      "database_name": "HINDUSTAN COLLEGE OF SCIENCE & TECHNOLOGY,MATHURA",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.273,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-hindustan-college-of-science-technology-mathura",
+        "database_name": "HINDUSTAN COLLEGE OF SCIENCE & TECHNOLOGY,MATHURA",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.273,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "islamic-university-of-science-and-technology-kashmir",
+        "database_name": "Islamic University of Science and Technology Kashmir",
+        "database_city": "Awantipora",
+        "database_state": "Jammu and Kashmir",
+        "similarity": 0.273,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.273,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "database_city": "Howrah",
+        "database_state": "West Bengal",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "institute-of-infrastructure-technology-research-and-management-ahmedabad",
+        "database_name": "Institute of Infrastructure, Technology, Research and Management-Ahmedabad",
+        "database_city": "Ahmedabad",
+        "database_state": "Gujarat",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 41,
+    "nirf_name": "Institute of Chemical Technology",
+    "nirf_city": "Mumbai",
+    "nirf_state": "Maharashtra",
+    "nirf_score": 57.96,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+      "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.6,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-bombay",
+        "database_name": "Indian Institute of Technology Bombay",
+        "database_city": "Mumbai",
+        "database_state": "Maharashtra",
+        "similarity": 0.5,
+        "city_match": true,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "nirf_rank": 43,
+    "nirf_name": "UPES",
+    "nirf_city": "Dehradun",
+    "nirf_state": "Uttarakhand",
+    "nirf_score": 56.99,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "gurukula-kangri-vishwavidyalaya-haridwar",
+      "database_name": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+      "database_city": "Haridwar",
+      "database_state": "Uttarakhand",
+      "similarity": 0,
+      "city_match": false,
+      "state_match": true
+    },
+    "top_candidates": [
+      {
+        "college_id": "gurukula-kangri-vishwavidyalaya-haridwar",
+        "database_name": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+        "database_city": "Haridwar",
+        "database_state": "Uttarakhand",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "indian-institute-of-technology-roorkee",
+        "database_name": "Indian Institute of Technology Roorkee",
+        "database_city": "Roorkee",
+        "database_state": "Uttarakhand",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "national-institute-of-technology-uttarakhand",
+        "database_name": "National Institute of Technology, Uttarakhand",
+        "database_city": "Srinagar (Garhwal)",
+        "database_state": "Uttarakhand",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "nit-uttarakhand",
+        "database_name": "NIT Uttarakhand",
+        "database_city": "Srinagar (Garhwal)",
+        "database_state": "Uttarakhand",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-a-n-a-college-of-engineering-management-bareilly",
+        "database_name": "A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 45,
+    "nirf_name": "Saveetha Institute of Medical and Technical Sciences",
+    "nirf_city": "Chennai",
+    "nirf_state": "Tamil Nadu",
+    "nirf_score": 56.55,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "uptac-maharana-institute-of-tech-sciences-lucknow",
+      "database_name": "MAHARANA INSTITUTE OF TECH. & SCIENCES,LUCKNOW",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.4,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-maharana-institute-of-tech-sciences-lucknow",
+        "database_name": "MAHARANA INSTITUTE OF TECH. & SCIENCES,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.4,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-sunrise-institute-of-engineering-technical-management-unnao",
+        "database_name": "SUNRISE INSTITUTE OF ENGINEERING TECHNICAL & MANAGEMENT,UNNAO",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.364,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-kamla-nehru-institute-of-physical-social-sciences-sultanpur",
+        "database_name": "KAMLA NEHRU INSTITUTE OF PHYSICAL & SOCIAL SCIENCES,SULTANPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "national-institute-of-technical-teachers-training-and-research-bhopal",
+        "database_name": "National Institute of Technical Teachers Training and Research Bhopal",
+        "database_city": "Bhopal",
+        "database_state": "Madhya Pradesh",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.3,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 46,
+    "nirf_name": "Symbiosis International",
+    "nirf_city": "Pune",
+    "nirf_state": "Maharashtra",
+    "nirf_score": 56.22,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "uptac-meerut-international-institute-of-technology-meerut",
+      "database_name": "MEERUT INTERNATIONAL INSTITUTE OF TECHNOLOGY,MEERUT",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.167,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-meerut-international-institute-of-technology-meerut",
+        "database_name": "MEERUT INTERNATIONAL INSTITUTE OF TECHNOLOGY,MEERUT",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.167,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "international-institute-of-information-technology-bhubaneswar",
+        "database_name": "International Institute of Information Technology, Bhubaneswar",
+        "database_city": "Bhubaneswar",
+        "database_state": "Odisha",
+        "similarity": 0.143,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "international-institute-of-information-technology-naya-raipur",
+        "database_name": "International Institute of Information Technology, Naya Raipur",
+        "database_city": "Naya Raipur",
+        "database_state": "Chhattisgarh",
+        "similarity": 0.125,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-vadodara-international-campus-diu",
+        "database_name": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+        "database_city": "Diu",
+        "database_state": "Daman and Diu",
+        "similarity": 0.091,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "coep-pune",
+        "database_name": "COEP Technological University, Pune",
+        "database_city": "Pune",
+        "database_state": "Maharashtra",
+        "similarity": 0,
+        "city_match": true,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "nirf_rank": 47,
+    "nirf_name": "Sri Sivasubramaniya Nadar College of Engineering",
+    "nirf_city": "Kalavakkam",
+    "nirf_state": "Tamil Nadu",
+    "nirf_score": 56.08,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "uptac-eshan-college-of-engineering-mathura",
+      "database_name": "ESHAN COLLEGE OF ENGINEERING,MATHURA",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.375,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-eshan-college-of-engineering-mathura",
+        "database_name": "ESHAN COLLEGE OF ENGINEERING,MATHURA",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.375,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-dr-rizvi-college-of-engineering-kaushambi",
+        "database_name": "DR. RIZVI COLLEGE OF ENGINEERING,,KAUSHAMBI",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-sri-rammurti-smarak-college-of-engineering-technology-research-bareilly",
+        "database_name": "SRI RAMMURTI SMARAK COLLEGE OF ENGINEERING TECHNOLOGY & RESEARCH,BAREILLY",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-iimt-college-of-engineering-gautam-buddh-nagar",
+        "database_name": "IIMT COLLEGE OF ENGINEERING,GAUTAM BUDDH NAGAR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.3,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-naraina-college-of-engineering-technology-kanpur",
+        "database_name": "NARAINA COLLEGE OF ENGINEERING & TECHNOLOGY,KANPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.3,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 48,
+    "nirf_name": "Lovely Professional University",
+    "nirf_city": "Phagwara",
+    "nirf_state": "Punjab",
+    "nirf_score": 55.99,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "jadavpur-university",
+      "database_name": "Jadavpur University",
+      "database_city": "Kolkata",
+      "database_state": "West Bengal",
+      "similarity": 0.25,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "database_name": "Lucknow University, Lucknow",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "database_name": "Assam University, Silchar",
+        "database_city": "Silchar",
+        "database_state": "Assam",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-bundelkhand-university-jhansi",
+        "database_name": "Bundelkhand University, Jhansi",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 52,
+    "nirf_name": "Graphic Era University",
+    "nirf_city": "Dehradun",
+    "nirf_state": "Uttarakhand",
+    "nirf_score": 55.26,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "jadavpur-university",
+      "database_name": "Jadavpur University",
+      "database_city": "Kolkata",
+      "database_state": "West Bengal",
+      "similarity": 0.25,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "database_name": "Lucknow University, Lucknow",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "database_name": "Assam University, Silchar",
+        "database_city": "Silchar",
+        "database_state": "Assam",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-bundelkhand-university-jhansi",
+        "database_name": "Bundelkhand University, Jhansi",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 58,
+    "nirf_name": "Manipal University Jaipur",
+    "nirf_city": "Jaipur",
+    "nirf_state": "Rajasthan",
+    "nirf_score": 52.69,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "mnit-jaipur",
+      "database_name": "MNIT Jaipur",
+      "database_city": "Jaipur",
+      "database_state": "Rajasthan",
+      "similarity": 0.25,
+      "city_match": true,
+      "state_match": true
+    },
+    "top_candidates": [
+      {
+        "college_id": "mnit-jaipur",
+        "database_name": "MNIT Jaipur",
+        "database_city": "Jaipur",
+        "database_state": "Rajasthan",
+        "similarity": 0.25,
+        "city_match": true,
+        "state_match": true
+      },
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "database_name": "Lucknow University, Lucknow",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "database_name": "Assam University, Silchar",
+        "database_city": "Silchar",
+        "database_state": "Assam",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-bundelkhand-university-jhansi",
+        "database_name": "Bundelkhand University, Jhansi",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 59,
+    "nirf_name": "Manipal Institute of Technology",
+    "nirf_city": "Manipal",
+    "nirf_state": "Karnataka",
+    "nirf_score": 52.55,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+      "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.6,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-dharwad",
+        "database_name": "Indian Institute of Technology Dharwad",
+        "database_city": "Dharwad",
+        "database_state": "Karnataka",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "nirf_rank": 60,
+    "nirf_name": "Madan Mohan Malaviya University of Technology",
+    "nirf_city": "Gorakhpur",
+    "nirf_state": "Uttar Pradesh",
+    "nirf_score": 52.45,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "malaviya-national-institute-of-technology-jaipur",
+      "database_name": "Malaviya National Institute of Technology Jaipur",
+      "database_city": "Jaipur",
+      "database_state": "Rajasthan",
+      "similarity": 0.333,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "malaviya-national-institute-of-technology-jaipur",
+        "database_name": "Malaviya National Institute of Technology Jaipur",
+        "database_city": "Jaipur",
+        "database_state": "Rajasthan",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "islamic-university-of-science-and-technology-kashmir",
+        "database_name": "Islamic University of Science and Technology Kashmir",
+        "database_city": "Awantipora",
+        "database_state": "Jammu and Kashmir",
+        "similarity": 0.3,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "university-of-hyderabad",
+        "database_name": "University of Hyderabad",
+        "database_city": "Hyderabad",
+        "database_state": "Telangana",
+        "similarity": 0.286,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "nirf_rank": 61,
+    "nirf_name": "Indian Institute of Space Science and Technology",
+    "nirf_city": "Thiruvananthapuram",
+    "nirf_state": "Kerala",
+    "nirf_score": 52.44,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+      "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+      "database_city": "Howrah",
+      "database_state": "West Bengal",
+      "similarity": 0.667,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "database_city": "Howrah",
+        "database_state": "West Bengal",
+        "similarity": 0.667,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-palakkad",
+        "database_name": "Indian Institute of Technology Palakkad",
+        "database_city": "Palakkad",
+        "database_state": "Kerala",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "indian-institute-of-science-bangalore",
+        "database_name": "Indian Institute of Science, Bangalore",
+        "database_city": "Bengaluru",
+        "database_state": "Karnataka",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-technology-bhilai",
+        "database_name": "Indian Institute of Technology Bhilai",
+        "database_city": "Bhilai",
+        "database_state": "Chhattisgarh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 63,
+    "nirf_name": "Indraprastha Institute of Information Technology",
+    "nirf_city": "New Delhi",
+    "nirf_state": "Delhi",
+    "nirf_score": 51.33,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "indian-institute-of-information-technology-bhagalpur",
+      "database_name": "Indian Institute of Information Technology Bhagalpur",
+      "database_city": "Bhagalpur",
+      "database_state": "Bihar",
+      "similarity": 0.571,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "indian-institute-of-information-technology-bhagalpur",
+        "database_name": "Indian Institute of Information Technology Bhagalpur",
+        "database_city": "Bhagalpur",
+        "database_state": "Bihar",
+        "similarity": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-bhopal",
+        "database_name": "Indian Institute of Information Technology Bhopal",
+        "database_city": "Bhopal",
+        "database_state": "Madhya Pradesh",
+        "similarity": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-guwahati",
+        "database_name": "Indian Institute of Information Technology Guwahati",
+        "database_city": "Guwahati",
+        "database_state": "Assam",
+        "similarity": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-lucknow",
+        "database_name": "Indian Institute of Information Technology Lucknow",
+        "database_city": "Lucknow",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-surat",
+        "database_name": "Indian Institute of Information Technology Surat",
+        "database_city": "Surat",
+        "database_state": "Gujarat",
+        "similarity": 0.571,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 67,
+    "nirf_name": "Sathyabama Institute of Science and Technology",
+    "nirf_city": "Chennai",
+    "nirf_state": "Tamil Nadu",
+    "nirf_score": 50.64,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+      "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.625,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "database_city": "Howrah",
+        "database_state": "West Bengal",
+        "similarity": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-lucknow",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-engineering-technology-sitapur",
+        "database_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,SITAPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-institute-of-technology-management-aligarh",
+        "database_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,ALIGARH",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 67,
+    "nirf_name": "PSG College of Technology",
+    "nirf_city": "Coimbatore",
+    "nirf_state": "Tamil Nadu",
+    "nirf_score": 50.64,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "uptac-college-of-engg-rural-technology-meerut",
+      "database_name": "COLLEGE OF ENGG. & RURAL TECHNOLOGY,MEERUT",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.375,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-college-of-engg-rural-technology-meerut",
+        "database_name": "COLLEGE OF ENGG. & RURAL TECHNOLOGY,MEERUT",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.375,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-hindustan-college-of-science-technology-mathura",
+        "database_name": "HINDUSTAN COLLEGE OF SCIENCE & TECHNOLOGY,MATHURA",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.375,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-kipm-college-of-engg-technology-gorakhpur",
+        "database_name": "KIPM COLLEGE OF ENGG. & TECHNOLOGY,GORAKHPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.375,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-naraina-college-of-engineering-technology-kanpur",
+        "database_name": "NARAINA COLLEGE OF ENGINEERING & TECHNOLOGY,KANPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.375,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-neelam-college-of-engineering-technology-agra",
+        "database_name": "NEELAM COLLEGE OF ENGINEERING & TECHNOLOGY,AGRA",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.375,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 69,
+    "nirf_name": "International Institute of Information Technology Bangalore",
+    "nirf_city": "Bengaluru",
+    "nirf_state": "Karnataka",
+    "nirf_score": 50.46,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "international-institute-of-information-technology-bhubaneswar",
+      "database_name": "International Institute of Information Technology, Bhubaneswar",
+      "database_city": "Bhubaneswar",
+      "database_state": "Odisha",
+      "similarity": 0.714,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "international-institute-of-information-technology-bhubaneswar",
+        "database_name": "International Institute of Information Technology, Bhubaneswar",
+        "database_city": "Bhubaneswar",
+        "database_state": "Odisha",
+        "similarity": 0.714,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "international-institute-of-information-technology-naya-raipur",
+        "database_name": "International Institute of Information Technology, Naya Raipur",
+        "database_city": "Naya Raipur",
+        "database_state": "Chhattisgarh",
+        "similarity": 0.625,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-international-institute-of-technology-meerut",
+        "database_name": "MEERUT INTERNATIONAL INSTITUTE OF TECHNOLOGY,MEERUT",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.571,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-bhagalpur",
+        "database_name": "Indian Institute of Information Technology Bhagalpur",
+        "database_city": "Bhagalpur",
+        "database_state": "Bihar",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-bhopal",
+        "database_name": "Indian Institute of Information Technology Bhopal",
+        "database_city": "Bhopal",
+        "database_state": "Madhya Pradesh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 70,
+    "nirf_name": "Netaji Subhas University of Technology (NSUT)",
+    "nirf_city": "Delhi",
+    "nirf_state": "Delhi",
+    "nirf_score": 50.43,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "islamic-university-of-science-and-technology-kashmir",
+      "database_name": "Islamic University of Science and Technology Kashmir",
+      "database_city": "Awantipora",
+      "database_state": "Jammu and Kashmir",
+      "similarity": 0.3,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "islamic-university-of-science-and-technology-kashmir",
+        "database_name": "Islamic University of Science and Technology Kashmir",
+        "database_city": "Awantipora",
+        "database_state": "Jammu and Kashmir",
+        "similarity": 0.3,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "university-of-hyderabad",
+        "database_name": "University of Hyderabad",
+        "database_city": "Hyderabad",
+        "database_state": "Telangana",
+        "similarity": 0.286,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "central-university-of-haryana",
+        "database_name": "Central University of Haryana",
+        "database_city": "Mahendragarh",
+        "database_state": "Haryana",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "central-university-of-jammu",
+        "database_name": "Central University of Jammu",
+        "database_city": "North-Eastern Hill University Umshing-Mawkynroh",
+        "database_state": "Meghalaya",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "central-university-of-karnataka",
+        "database_name": "Central University of Karnataka",
+        "database_city": "Kalaburagi",
+        "database_state": "Karnataka",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 71,
+    "nirf_name": "Banasthali Vidyapith",
+    "nirf_city": "Banasthali",
+    "nirf_state": "Rajasthan",
+    "nirf_score": 50.38,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "central-university-of-rajasthan-rajasthan",
+      "database_name": "Central University of Rajasthan, Rajasthan",
+      "database_city": "Bandarsindri",
+      "database_state": "Rajasthan",
+      "similarity": 0,
+      "city_match": false,
+      "state_match": true
+    },
+    "top_candidates": [
+      {
+        "college_id": "central-university-of-rajasthan-rajasthan",
+        "database_name": "Central University of Rajasthan, Rajasthan",
+        "database_city": "Bandarsindri",
+        "database_state": "Rajasthan",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-kota-rajasthan",
+        "database_name": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
+        "database_city": "Kota",
+        "database_state": "Rajasthan",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "indian-institute-of-technology-jodhpur",
+        "database_name": "Indian Institute of Technology Jodhpur",
+        "database_city": "Jodhpur",
+        "database_state": "Rajasthan",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "lnmiit-jaipur",
+        "database_name": "LNM Institute of Information Technology, Jaipur",
+        "database_city": "Jaipur",
+        "database_state": "Rajasthan",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "malaviya-national-institute-of-technology-jaipur",
+        "database_name": "Malaviya National Institute of Technology Jaipur",
+        "database_city": "Jaipur",
+        "database_state": "Rajasthan",
+        "similarity": 0,
+        "city_match": false,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "nirf_rank": 75,
+    "nirf_name": "M. S. Ramaiah Institute of Technology",
+    "nirf_city": "Bengaluru",
+    "nirf_state": "Karnataka",
+    "nirf_score": 49.26,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+      "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.429,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.429,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.429,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.429,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.429,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-s-r-institute-of-management-technology-lucknow",
+        "database_name": "S.R.INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.4,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 76,
+    "nirf_name": "Christ University",
+    "nirf_city": "Bengaluru",
+    "nirf_state": "Karnataka",
+    "nirf_score": 49.03,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "jadavpur-university",
+      "database_name": "Jadavpur University",
+      "database_city": "Kolkata",
+      "database_state": "West Bengal",
+      "similarity": 0.333,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "database_name": "Lucknow University, Lucknow",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "database_name": "Assam University, Silchar",
+        "database_city": "Silchar",
+        "database_state": "Assam",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-bundelkhand-university-jhansi",
+        "database_name": "Bundelkhand University, Jhansi",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 78,
+    "nirf_name": "Rajiv Gandhi Institute of Petroleum Technology",
+    "nirf_city": "Amethi",
+    "nirf_state": "Uttar Pradesh",
+    "nirf_score": 48.52,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+      "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.429,
+      "city_match": false,
+      "state_match": true
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.429,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.429,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.429,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.429,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "uptac-feroze-gandhi-institute-of-engg-and-technology-raibareilly",
+        "database_name": "FEROZE GANDHI INSTITUTE OF ENGG AND TECHNOLOGY, RAIBAREILLY",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.4,
+        "city_match": false,
+        "state_match": true
+      }
+    ]
+  },
+  {
+    "nirf_rank": 80,
+    "nirf_name": "Vignan's Foundation for Science, Technology and Research",
+    "nirf_city": "Guntur",
+    "nirf_state": "Andhra Pradesh",
+    "nirf_score": 48.27,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+      "database_name": "Shri G. S. Institute of Technology and Science Indore",
+      "database_city": "Indore",
+      "database_state": "Madhya Pradesh",
+      "similarity": 0.308,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+        "database_name": "Shri G. S. Institute of Technology and Science Indore",
+        "database_city": "Indore",
+        "database_state": "Madhya Pradesh",
+        "similarity": 0.308,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-hindustan-college-of-science-technology-mathura",
+        "database_name": "HINDUSTAN COLLEGE OF SCIENCE & TECHNOLOGY,MATHURA",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "islamic-university-of-science-and-technology-kashmir",
+        "database_name": "Islamic University of Science and Technology Kashmir",
+        "database_city": "Awantipora",
+        "database_state": "Jammu and Kashmir",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+        "database_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.231,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 84,
+    "nirf_name": "Jain university,Bangalore",
+    "nirf_city": "Bengaluru",
+    "nirf_state": "Karnataka",
+    "nirf_score": 48.01,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "jadavpur-university",
+      "database_name": "Jadavpur University",
+      "database_city": "Kolkata",
+      "database_state": "West Bengal",
+      "similarity": 0.25,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "database_name": "Lucknow University, Lucknow",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "database_name": "Assam University, Silchar",
+        "database_city": "Silchar",
+        "database_state": "Assam",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-bundelkhand-university-jhansi",
+        "database_name": "Bundelkhand University, Jhansi",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 87,
+    "nirf_name": "Vel Tech Rangarajan Dr. Sagunthala R & D Institute of Science and Technology",
+    "nirf_city": "Chennai",
+    "nirf_state": "Tamil Nadu",
+    "nirf_score": 47.43,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+      "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.357,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-vivekanand-institute-of-technology-science-ghaziabad",
+        "database_name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE,GHAZIABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.357,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "database_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "database_city": "Howrah",
+        "database_state": "West Bengal",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-s-r-institute-of-management-technology-lucknow",
+        "database_name": "S.R.INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dr-b-r-ambedkar-national-institute-of-technology-jalandhar",
+        "database_name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+        "database_city": "Jalandhar",
+        "database_state": "Punjab",
+        "similarity": 0.313,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+        "database_name": "Shri G. S. Institute of Technology and Science Indore",
+        "database_city": "Indore",
+        "database_state": "Madhya Pradesh",
+        "similarity": 0.313,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 88,
+    "nirf_name": "AU College of Engineering (A)",
+    "nirf_city": "Visakhapatnam",
+    "nirf_state": "Andhra Pradesh",
+    "nirf_score": 47.37,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "uptac-a-n-a-college-of-engineering-management-bareilly",
+      "database_name": "A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.444,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-a-n-a-college-of-engineering-management-bareilly",
+        "database_name": "A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.444,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-eshan-college-of-engineering-mathura",
+        "database_name": "ESHAN COLLEGE OF ENGINEERING,MATHURA",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.429,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-b-s-a-college-of-engineering-technology-mathura",
+        "database_name": "B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY,MATHURA",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.4,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-dr-rizvi-college-of-engineering-kaushambi",
+        "database_name": "DR. RIZVI COLLEGE OF ENGINEERING,,KAUSHAMBI",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.375,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "goa-engineering-college",
+        "database_name": "Goa Engineering College",
+        "database_city": "Ponda",
+        "database_state": "Goa",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 89,
+    "nirf_name": "Chitkara University",
+    "nirf_city": "Rajpura",
+    "nirf_state": "Punjab",
+    "nirf_score": 47.34,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "jadavpur-university",
+      "database_name": "Jadavpur University",
+      "database_city": "Kolkata",
+      "database_state": "West Bengal",
+      "similarity": 0.333,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "database_name": "Lucknow University, Lucknow",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "database_name": "Assam University, Silchar",
+        "database_city": "Silchar",
+        "database_state": "Assam",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-bundelkhand-university-jhansi",
+        "database_name": "Bundelkhand University, Jhansi",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 91,
+    "nirf_name": "SR University",
+    "nirf_city": "Warangal",
+    "nirf_state": "Telangana",
+    "nirf_score": 47.16,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "jadavpur-university",
+      "database_name": "Jadavpur University",
+      "database_city": "Kolkata",
+      "database_state": "West Bengal",
+      "similarity": 0.333,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "database_name": "Lucknow University, Lucknow",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "university-of-hyderabad",
+        "database_name": "University of Hyderabad",
+        "database_city": "Hyderabad",
+        "database_state": "Telangana",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": true
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "database_name": "Assam University, Silchar",
+        "database_city": "Silchar",
+        "database_state": "Assam",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-bundelkhand-university-jhansi",
+        "database_name": "Bundelkhand University, Jhansi",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 92,
+    "nirf_name": "Defence Institute of Advanced Technology",
+    "nirf_city": "Pune",
+    "nirf_state": "Maharashtra",
+    "nirf_score": 46.98,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+      "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.5,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-kanpur-institute-of-technology-kanpur",
+        "database_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-institute-of-technology-lucknow",
+        "database_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-meerut-institute-of-technology-meerut",
+        "database_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-moradabad-institute-of-technology-moradabad",
+        "database_name": "MORADABAD INSTITUTE OF TECHNOLOGY,MORADABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "national-institute-of-advanced-manufacturing-technology-ranchi",
+        "database_name": "National Institute of Advanced Manufacturing Technology, Ranchi",
+        "database_city": "Ranchi",
+        "database_state": "Jharkhand",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 93,
+    "nirf_name": "Panjab University",
+    "nirf_city": "Chandigarh",
+    "nirf_state": "Chandigarh",
+    "nirf_score": 46.9,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "jadavpur-university",
+      "database_name": "Jadavpur University",
+      "database_city": "Kolkata",
+      "database_state": "West Bengal",
+      "similarity": 0.333,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "database_name": "Lucknow University, Lucknow",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "database_name": "Assam University, Silchar",
+        "database_city": "Silchar",
+        "database_state": "Assam",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-bundelkhand-university-jhansi",
+        "database_name": "Bundelkhand University, Jhansi",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.25,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 94,
+    "nirf_name": "Jawaharlal Nehru Technological University",
+    "nirf_city": "Hyderabad",
+    "nirf_state": "Telangana",
+    "nirf_score": 46.74,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "jawaharlal-nehru-university-delhi",
+      "database_name": "Jawaharlal Nehru University, Delhi",
+      "database_city": "New Delhi",
+      "database_state": "Delhi",
+      "similarity": 0.6,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "jawaharlal-nehru-university-delhi",
+        "database_name": "Jawaharlal Nehru University, Delhi",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.6,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.4,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "puducherry-technological-university-puducherry",
+        "database_name": "Puducherry Technological University, Puducherry",
+        "database_city": "Puducherry",
+        "database_state": "Puducherry",
+        "similarity": 0.4,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "coep-pune",
+        "database_name": "COEP Technological University, Pune",
+        "database_city": "Pune",
+        "database_state": "Maharashtra",
+        "similarity": 0.333,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 95,
+    "nirf_name": "C.V. Raman Global University, Odisha",
+    "nirf_city": "Bhubaneswar",
+    "nirf_state": "Odisha",
+    "nirf_score": 46.62,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "jadavpur-university",
+      "database_name": "Jadavpur University",
+      "database_city": "Kolkata",
+      "database_state": "West Bengal",
+      "similarity": 0.143,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.143,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "database_name": "Lucknow University, Lucknow",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.143,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "database_name": "Assam University, Silchar",
+        "database_city": "Silchar",
+        "database_state": "Assam",
+        "similarity": 0.125,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-bundelkhand-university-jhansi",
+        "database_name": "Bundelkhand University, Jhansi",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.125,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.125,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 98,
+    "nirf_name": "Pandit Deendayal Energy University",
+    "nirf_city": "Gandhinagar",
+    "nirf_state": "Gujarat",
+    "nirf_score": 45.97,
+    "recommended_action": "likely_missing_from_db",
+    "best_candidate": {
+      "college_id": "jadavpur-university",
+      "database_name": "Jadavpur University",
+      "database_city": "Kolkata",
+      "database_state": "West Bengal",
+      "similarity": 0.2,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "jadavpur-university",
+        "database_name": "Jadavpur University",
+        "database_city": "Kolkata",
+        "database_state": "West Bengal",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "database_name": "Lucknow University, Lucknow",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.2,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "database_name": "Assam University, Silchar",
+        "database_city": "Silchar",
+        "database_state": "Assam",
+        "similarity": 0.167,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-bundelkhand-university-jhansi",
+        "database_name": "Bundelkhand University, Jhansi",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.167,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "dtu-delhi",
+        "database_name": "Delhi Technological University",
+        "database_city": "New Delhi",
+        "database_state": "Delhi",
+        "similarity": 0.167,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  },
+  {
+    "nirf_rank": 100,
+    "nirf_name": "Sri Krishna College of Engineering and Technology",
+    "nirf_city": "Coimbatore",
+    "nirf_state": "Tamil Nadu",
+    "nirf_score": 45.55,
+    "recommended_action": "manual_review",
+    "best_candidate": {
+      "college_id": "uptac-naraina-college-of-engineering-technology-kanpur",
+      "database_name": "NARAINA COLLEGE OF ENGINEERING & TECHNOLOGY,KANPUR",
+      "database_city": "Uttar Pradesh",
+      "database_state": "Uttar Pradesh",
+      "similarity": 0.556,
+      "city_match": false,
+      "state_match": false
+    },
+    "top_candidates": [
+      {
+        "college_id": "uptac-naraina-college-of-engineering-technology-kanpur",
+        "database_name": "NARAINA COLLEGE OF ENGINEERING & TECHNOLOGY,KANPUR",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-neelam-college-of-engineering-technology-agra",
+        "database_name": "NEELAM COLLEGE OF ENGINEERING & TECHNOLOGY,AGRA",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-sanskar-college-of-engineering-technology-ghaziabad",
+        "database_name": "SANSKAR COLLEGE OF ENGINEERING & TECHNOLOGY,GHAZIABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.556,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-sri-rammurti-smarak-college-of-engineering-technology-research-bareilly",
+        "database_name": "SRI RAMMURTI SMARAK COLLEGE OF ENGINEERING TECHNOLOGY & RESEARCH,BAREILLY",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.545,
+        "city_match": false,
+        "state_match": false
+      },
+      {
+        "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+        "database_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+        "database_city": "Uttar Pradesh",
+        "database_state": "Uttar Pradesh",
+        "similarity": 0.5,
+        "city_match": false,
+        "state_match": false
+      }
+    ]
+  }
+]

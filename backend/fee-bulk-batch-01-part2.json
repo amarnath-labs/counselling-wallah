@@ -1,0 +1,141 @@
+﻿[
+  {
+    "college_id": "ajay-kumar-garg-engg-college-ghaziabad",
+    "college_name": "AJAY KUMAR GARG ENGG. COLLEGE,GHAZIABAD",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": 142156,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+    "total_course_fee": null,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "careers360",
+    "source_label": "AKGEC BTech Fees 2026",
+    "source_url": "https://www.careers360.com/colleges/ajay-kumar-garg-engineering-college-ghaziabad/fees",
+    "source_priority": 70,
+    "confidence_score": 88,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "Careers360 reports first-year B.Tech fee INR 142156 for 2026. The amount includes multiple components; therefore it is stored only as first_year_fee and not split into tuition/academic fields."
+  },
+
+  {
+    "college_id": "amani-group-of-institutions-amroha",
+    "college_name": "AMANI GROUP OF INSTITUTIONS,AMROHA",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+    "total_course_fee": null,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "shiksha",
+    "source_label": "Amani Group BTech Fees 2026",
+    "source_url": "https://www.shiksha.com/college/amani-group-of-institutions-amroha-59319/fees",
+    "source_priority": 65,
+    "confidence_score": 75,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "Shiksha reports INR 244800 as total B.Tech tuition for four years. This is tuition-only over the course, not complete payable total_course_fee, so normalized canonical total_course_fee is intentionally null."
+  },
+
+  {
+    "college_id": "babu-banarasi-das-northern-india-institute-of-technology-lucknow",
+    "college_name": "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY,LUCKNOW",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+    "total_course_fee": null,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "shiksha",
+    "source_label": "BBDNIIT Fees 2026",
+    "source_url": "https://www.shiksha.com/college/babu-banarasi-das-northern-india-institute-of-technology-bbdniit-lucknow-1952/fees",
+    "source_priority": 65,
+    "confidence_score": 55,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "2026 secondary sources conflict substantially. Shiksha reports B.Tech tuition range INR 2.45-3.25 lakh; Careers360 reports INR 4.46 lakh; Collegedunia reports INR 5.04 lakh total fee. No normalized numeric value is selected."
+  },
+
+  {
+    "college_id": "babu-banarasi-das-northern-india-institute-of-technology-lucknow",
+    "college_name": "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY,LUCKNOW",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+    "total_course_fee": null,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "careers360",
+    "source_label": "BBDNIIT Careers360 Fees 2026",
+    "source_url": "https://www.careers360.com/colleges/babu-banarasi-das-northern-india-institute-of-technology-lucknow/courses",
+    "source_priority": 60,
+    "confidence_score": 50,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "Careers360 reports B.Tech fee INR 446000, conflicting with Shiksha and Collegedunia. Preserved as supporting conflict evidence only."
+  },
+
+  {
+    "college_id": "babu-banarasi-das-northern-india-institute-of-technology-lucknow",
+    "college_name": "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY,LUCKNOW",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+    "total_course_fee": 504000,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "collegedunia",
+    "source_label": "BBDNIIT Collegedunia Fees 2026",
+    "source_url": "https://collegedunia.com/college/57416-babu-banarasi-das-northern-india-institute-of-technology-bbdniit-lucknow/courses-fees",
+    "source_priority": 65,
+    "confidence_score": 55,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "Collegedunia reports approximately INR 504000 total B.Tech fee based on 2025 fee structure. Conflicts with other secondary sources; keep review status."
+  }
+]

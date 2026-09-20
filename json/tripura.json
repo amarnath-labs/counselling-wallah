@@ -1,0 +1,684 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 2 of 5 in the third batch (NIT Agartala). Colleges 3-5 (NIT Jamshedpur, NIT Raipur, NIT Patna) to follow in separate responses."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Agartala",
+        "verified_name": "National Institute of Technology, Agartala",
+        "city": "Agartala (Jirania)",
+        "state": "Tripura",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Tripura Engineering College, established 1965; declared NIT and Institute of National Importance in 2006. Single main campus (~366 acres) located near Jirania, about 24km from Agartala city center. NITA was the second NIT established in India after NIT Calicut. Explicitly verified DISTINCT from IIIT Agartala — a separate, unrelated public-private-partnership institute that operates FROM the NIT Agartala campus (per one Shiksha review found during source discovery) but is institutionally distinct; IIIT Agartala-specific review content found during search was correctly excluded from this extraction."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews pages (multiple, including course-filtered and recency-sorted), placement page, and Shiksha Q&A page retrieved."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page (paginated) retrieved with substantive narrative review content."},
+        {"platform": "Careers360", "status": "available", "notes": "Placement page and multiple Q&A threads retrieved; a specific numeric aggregate rating/review-count was not located this session, only a qualitative 'AAAA' rating tier."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located on ragging, including one with a notable internal tension (title implies severity, content pushes back on the premise while describing a specific incident of seniors slapping a fresher)."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NIT Agartala located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-agartala-national-institute-of-technology-35298/placement",
+          "aggregate_rating": 4.1,
+          "rating_scale": "out of 5",
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'The college is rated 4.1/5 as per the Shiksha verified review.' No review count co-visible in this specific snippet."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-agartala-national-institute-of-technology-35298/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 394,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 394 NIT Agartala - National Institute of Technology Reviews on Placements, Faculty, Facilities & Infrastructure.' No overall star aggregate co-visible in this specific snippet."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://shiksha.com/college/national-institute-of-technology-agartala-35298/reviews-5?sort_by=recency",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 352,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 352 NIT Agartala - National Institute of Technology Reviews.' Distinct count (352) from the general reviews page (394) observed in this same session; both retained as separate observations since retrieved from different URLs."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://www.careers360.com/question-sir-nit-agartala-ka-culture-kaisa-hai-kya-woh-acchi-city-hai-pleaaw-tell",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "Only a qualitative Careers360 rating tier ('AAAA rating which means very good') was found via a Q&A answer, not a numeric X.X/5 aggregate with review count. No direct Careers360 reviews-listing page with a numeric aggregate was located for NIT Agartala in this session's searches."
+        },
+        {
+          "platform": "Glassdoor",
+          "source_url": "https://www.glassdoor.com/Reviews/NIT-Agartala-Reviews-E525609.htm",
+          "aggregate_rating": 3.9,
+          "rating_scale": "out of 5",
+          "review_count": 36,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "SCOPE CAVEAT: This reflects EMPLOYEE/staff sentiment about NIT Agartala as a workplace, not student sentiment. Explicitly out of scope for student review_items, consistent with the same caveat applied elsewhere in this dataset (NIT Rourkela, MNNIT Allahabad)."
+        }
+      ],
+
+      "platform_aspect_ratings": [],
+
+      "review_items": [
+        {
+          "college_name": "NIT Agartala",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25916-national-institute-of-technology-nit-agartala/reviews/page-2",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Agartala is among the top 15 NITs and it's because of strong academics and great placements record.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'One of the best looking campuses as the campus itself is green and from naked eye as far as you can see, you will [see] nothing but greenery. The college gets good funding and our college spends it on developing research centers.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'From third year students are eligible for campus placement and internships. Many companies visit like Microsoft, Cisco, L&T, Mahindra etc. Highest package offered was 52 LPA in tech and 20 LPA in core and average package is 9 LPA. Around 75% students get placed.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Restriction over girls hostel, in and out time for girls, adjusting for all the things in Gargi Hostel.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Agartala",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25916-national-institute-of-technology-nit-agartala/reviews/page-2",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The campus is very beautiful and green. Weather and everything is so adorable and pleasant. Moreover the hostels are also good, sports complex is one of the finest in India including all the world class facilities including a gym.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'From 3rd semester onwards we're eligible for placements. The companies visit here are Microsoft, Amazon, PhonePe, PayPal, Physics Wallah, Cloudera. Highest package was 56 LPA and average was 18 LPA.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Our campus is big and hostel blocks are quite far from the academic blocks.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Agartala",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-agartala-national-institute-of-technology-35298/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'I am absolutely satisfied with my college. My best decision was taking admission in NIT.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Around 90 percent of students are placed. The highest package is around 52 LPA. Microsoft is one of the top hiring companies. Around 50 students get internships. The top role offered is Software Development Engineer (SDE). At my college, the off-campus placement conditions are also good. There is a good hackathon culture.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'We at NIT Agartala have three hostels, two for boys and one for girls. RNT hostels are for first and fourth year students. Aryabhatta hostel is for second and third year students.' Descriptive statement."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Agartala",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-agartala-national-institute-of-technology-35298/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "NIT Agartala has decent circuit placements and a beautiful campus",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Engineering Physics",
+          "course_verified": true,
+          "department": null,
+          "branch": "Engineering Physics",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Engineering Physics",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'The number of students who get placed through the Physics engineering branch is very low because the intake is generally low, which is approximately 25. Most of them will go for higher studies. Some students get placed with a package that ranges from 6-7 LPA in tech roles.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Otherwise, placements of circuital branches are pretty good (I can give 3.5-4 stars).'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The college was built in 1965, or something, so don't expect that much infrastructure, but it is okay. The campus is beautiful with complete green trees.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The hostel Wi-Fi is really bad, but the first-year hostel is [better]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Agartala",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://shiksha.com/college/national-institute-of-technology-agartala-35298/reviews-5?sort_by=recency",
+          "source_review_id": null,
+          "author_display_name": "Shubhajit Rana",
+          "review_title": "NIT Agartala - improving",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electrical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electrical Engineering",
+          "branch_verified": true,
+          "rating": 4.2,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electrical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Above 90 percent of students got placed from National Institute of Technology Agartala from electrical engineering department. Our college does not disclose the placement record of the students but the average package may be 6-8 LPA and the lowest package 4.8 LPA.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Agartala",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://shiksha.com/college/national-institute-of-technology-agartala-35298/reviews-5?sort_by=recency",
+          "source_review_id": null,
+          "author_display_name": "Prakash singh",
+          "review_title": "Review of NIT Agartala - National Institute of Technology",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "Integrated B.Tech + M.Tech",
+          "course": "Integrated B.Tech + M.Tech Computational Mathematics",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": 4.8,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "programme",
+              "sentiment": "positive",
+              "evidence_summary": "'Around 100% of students got placed in our course. The highest salary package offered was 15 LPA. The average salary package offered was 8 LPA.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Agartala",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://shiksha.com/college/national-institute-of-technology-agartala-35298/reviews-5?sort_by=recency",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Our college infrastructure and placements are good, but teachers are not up to the mark",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": 3.8,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Sub-ratings visible on page: Placements 4, Infrastructure 5, Faculty & Course Curriculum 2, Crowd & Campus Life 3, Value for Money 5 — the low Faculty sub-score is directly reflected in the review title itself.",
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "Review title itself: 'Our college infrastructure and placements are good, but teachers are not up to the mark.' Faculty sub-rating of 2/5 corroborates this stated sentiment."
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Our college has excellent placements. If you don[...]' (sentence truncated in retrieved snippet, but framing and 4/5 sub-rating indicate positive sentiment)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Agartala",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://shiksha.com/college/national-institute-of-technology-agartala-35298/reviews?course=166038&rating=4",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "NIT Agartala College Review",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Nearly everyone managed to snag a job during campus placements. It was impressive. Most of the packages fall into what we call dream slots, and quite a few high achievers even make it to super dream slots, averaging around 10 LPA. Companies like TCS and Dell also have some great internship opportunities.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The infrastructure was practical, with good facilities both for sports and academics. The curriculum here is up to date, preparing students according to the needs of the industry.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Agartala",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/national-institute-of-technology-nit-agartala/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "MCA",
+          "course": "MCA",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This review is explicitly MCA-scoped, distinct from B.Tech evidence.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "programme",
+              "sentiment": "negative",
+              "evidence_summary": "'No stipend for MCA students. Companies hiring are Amazon, Polaris, Virtusa, IBM, Amdocs, Infosys, Wipro, etc. Average salary package INR 5 lakh p.a.' Lack of internship stipend for the MCA programme specifically noted as a drawback."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Agartala",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/national-institute-of-technology-nit-agartala/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'According to academics, NIT Agartala is good for undergraduate courses. The professors here take good care in explaining the right subject matters to the students.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Oracle, Infosys, TCS, Mahindra etc. INR 6 lakh is the average and highest is INR 35 lakhs per annum. Approx 80% placed every year. The alumni are very helpful to us.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Agartala",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Is-ragging-prevalent-in-NIT-Agartala?top_ans=239482382",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Is ragging prevalent in NIT Agartala?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Before 4 years ago it might be [ragging], but currently completely banned and stopped also. Currently NITA has extremely high concern towards ragging and first-year students; in fact a new luxury hostel (Ravindra Nath Tagore) is dedicated to them along with single rooms (which is a special feature of NIT A).'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Agartala",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Why-is-there-so-much-ragging-at-NIT-Agartala-hostels",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Why is there so much ragging at NIT Agartala hostels?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "IMPORTANT NUANCE: The question title implies significant ragging, but the answerer explicitly disputes this framing ('there is no ragging in NIT Agartala now') while simultaneously describing a specific physical incident from the prior year ('we got slapped by our seniors') that they frame as having motivated second-years to protect the newer batch from a repeat. This is preserved with its internal complexity intact rather than resolved into a single clean sentiment, since the source itself contains this tension.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Bro, there is no ragging in NIT Agartala now. I am from second year and basically second year students get the responsibility of interacting with first year. Last year we got slapped by our seniors and we decided that we will not let our junior[s] being slapped by someone.' Self-reported improvement following a specific past incident of physical mistreatment."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Agartala",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-the-ragging-scenario-at-NIT-Agartala",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is the ragging scenario at NIT Agartala?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'There is no ragging as such, however if the question is sensitive, the definition of ragging is also varying, depending upon perspective. For girls, I think there is nothing as such. However, following are some rules that men need to under[stand]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Agartala",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-NIT-Agartala-in-terms-of-academics-hostels-facilities-studies-and-placements",
+          "source_review_id": null,
+          "author_display_name": "Sonu Kumar",
+          "review_title": "How is NIT Agartala in terms of academics, hostels, facilities, studies and placements?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Self-identified as 2018-22 batch.",
+          "aspect_evidence": [
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Academics is average here but not bad. The professors [teach adequately]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 13,
+        "independent_sources": 4,
+        "reviews_with_dates": 0,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 13
+      },
+
+      "limitations": [
+        "Reddit: no genuine NIT Agartala-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "A direct numeric Careers360 aggregate rating (X.X/5 with review count) could not be located for NIT Agartala this session, unlike most other colleges in this dataset — only a qualitative 'AAAA' rating tier was found via an older Q&A answer. This is a genuine data gap, not an oversight.",
+        "One Quora answer contains an important internal tension: while asserting 'no ragging now,' the same answerer describes a specific incident from the prior year involving physical mistreatment by seniors ('we got slapped'). This is preserved with its full complexity rather than resolved into a single clean positive or negative sentiment.",
+        "Glassdoor data reflects EMPLOYEE/staff sentiment about NIT Agartala as a workplace, not student sentiment; recorded for completeness but explicitly out of scope for student review_items.",
+        "IIIT Agartala-specific content (a separate institution operating from the same campus per one source) was identified during search and correctly excluded from this extraction to avoid conflating the two distinct institutions.",
+        "No review in this extraction batch carried an explicit visible date; reviews_with_dates and reviews_last_24_months are both 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~390+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

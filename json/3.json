@@ -1,0 +1,1702 @@
+{
+  "college_name": "Maulana Azad National Institute of Technology (MANIT), Bhopal",
+  "extraction_session_timestamp": "2026-08-30T00:00:00Z",
+  "identity_verification": {
+    "verified_entity": "Maulana Azad National Institute of Technology, Link Road No. 3, Bhopal, Madhya Pradesh - 462003",
+    "notes": "Single main campus. Verified distinct from RGPV Bhopal, VIT Bhopal, SPA Bhopal, MNIT Jaipur."
+  },
+
+  "platform_aggregate_observations": [
+    {
+      "platform": "Shiksha",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/reviews-9?rating=4",
+      "aggregate_rating": null,
+      "rating_scale": null,
+      "review_count": 749,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "snippet",
+      "notes": "Snippet showed component breakdown only ('Based on 749 Verified Reviews'); no single overall aggregate_rating figure was visible in this specific snippet."
+    },
+    {
+      "platform": "Shiksha",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/reviews-9?rating=4",
+      "aggregate_rating": null,
+      "rating_scale": null,
+      "review_count": 809,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "snippet",
+      "notes": "Same page family showed a different visible counter: 'Bhopal | 4.1(809 Reviews) | 341 Student Q&A' in a separate snippet block. Recorded as an independent observation, not reconciled with the 749 figure above — both are legitimate distinct snapshots of possibly different page renders."
+    },
+    {
+      "platform": "Shiksha",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/reviews-9?rating=4",
+      "aggregate_rating": 4.1,
+      "rating_scale": "out of 5",
+      "review_count": 809,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "snippet",
+      "notes": "Same snippet as above pairs 4.1 with 809 reviews."
+    },
+    {
+      "platform": "Shiksha",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786",
+      "aggregate_rating": 4.1,
+      "rating_scale": "out of 5",
+      "review_count": 851,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "snippet",
+      "notes": "'851 Student Reviews, 328 comments' — distinct observation from same overall domain, different page."
+    },
+    {
+      "platform": "Shiksha",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786",
+      "aggregate_rating": null,
+      "rating_scale": null,
+      "review_count": 866,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "snippet",
+      "notes": "'866 Student Reviews, 329 comments' — distinct observation, later-appearing snippet from same URL family, no aggregate rating co-visible in this snippet."
+    },
+    {
+      "platform": "Shiksha (comparison page)",
+      "source_url": "https://www.shiksha.com/compare-manit-bhopal-vs-sgsits-36786-29832",
+      "aggregate_rating": 4.1,
+      "rating_scale": "out of 5",
+      "review_count": 787,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "snippet",
+      "notes": "Distinct observation from a comparison-tool page, not the main reviews page."
+    },
+    {
+      "platform": "Shiksha (comparison page)",
+      "source_url": "https://www.shiksha.com/compare-manit-bhopal-36786",
+      "aggregate_rating": 4.1,
+      "rating_scale": "out of 5",
+      "review_count": 785,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "snippet",
+      "notes": "Distinct observation."
+    },
+    {
+      "platform": "Shiksha (comparison page)",
+      "source_url": "https://www.shiksha.com/compare-manit-bhopal-vs-nrti-36786-63441",
+      "aggregate_rating": 4.1,
+      "rating_scale": "out of 5",
+      "review_count": 770,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "snippet",
+      "notes": "Distinct observation."
+    },
+    {
+      "platform": "Shiksha (comparison page)",
+      "source_url": "https://www.shiksha.com/compare-iit-indore-vs-manit-bhopal-38240-36786",
+      "aggregate_rating": 4.1,
+      "rating_scale": "out of 5",
+      "review_count": 792,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "snippet",
+      "notes": "Distinct observation."
+    },
+    {
+      "platform": "Shiksha",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/faculty",
+      "aggregate_rating": null,
+      "rating_scale": null,
+      "review_count": 849,
+      "verified_review_count": 785,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "snippet",
+      "notes": "'Out of 849 published reviews, 785 reviews are verified' — a published-vs-verified split, distinct data point from the 809/851/866 counts above. Not reconciled."
+    },
+    {
+      "platform": "Careers360",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/reviews",
+      "aggregate_rating": 4.1,
+      "rating_scale": "out of 5",
+      "review_count": 164,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "full_review",
+      "notes": "Page header showed '4.1/5 (164)' link text."
+    },
+    {
+      "platform": "Careers360",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/reviews",
+      "aggregate_rating": 4.1,
+      "rating_scale": "out of 5",
+      "review_count": 165,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "full_review",
+      "notes": "'Rating Summary — 4.1/5 — 165 Reviews' block on same fetched page. Distinct count from the header (164) on the identical page load — recorded as-is without reconciliation."
+    },
+    {
+      "platform": "Careers360",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/reviews",
+      "aggregate_rating": null,
+      "rating_scale": null,
+      "review_count": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "full_review",
+      "notes": "Careers360's own computed aspect sub-ratings observed on same page (not an overall aggregate): College Infrastructure 3.6/5, Academics 3.7/5, Placements 3.9/5, Value for Money 3.2/5, Campus Life 4.3/5. Stored as platform-computed sub-metrics, not recalculated by me."
+    },
+    {
+      "platform": "Careers360 (college listing page)",
+      "source_url": "https://engineering.careers360.com/colleges/list-of-manufacturing-engineering-colleges-in-bhopal",
+      "aggregate_rating": 4.1,
+      "rating_scale": "out of 5",
+      "review_count": 154,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "snippet",
+      "notes": "Distinct observation from a category-listing page, different count than the reviews page."
+    },
+    {
+      "platform": "Careers360 (college listing page)",
+      "source_url": "https://engineering.careers360.com/colleges/list-of-mechanics-colleges-in-bhopal",
+      "aggregate_rating": 4.1,
+      "rating_scale": "out of 5",
+      "review_count": 152,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "snippet",
+      "notes": "Distinct observation."
+    },
+    {
+      "platform": "Collegedunia",
+      "source_url": "https://collegedunia.com/university/25679-maulana-azad-national-institute-of-technology-manit-bhopal/reviews",
+      "aggregate_rating": null,
+      "rating_scale": null,
+      "review_count": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "snippet",
+      "notes": "No single clean overall aggregate visible in the specific snippet retrieved from this exact URL; individual review-level rating of 7.9/10 appeared attached to one specific reviewer (Samyak jain), not confirmed as the site-wide aggregate."
+    },
+    {
+      "platform": "Collegedunia (compare page)",
+      "source_url": "https://collegedunia.com/college-compare/manit-bhopal-vs-vit-vellore-5653-5653",
+      "aggregate_rating": 7.77,
+      "rating_scale": "out of 10",
+      "review_count": 21,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "snippet",
+      "notes": "Explicitly scoped to B.Arch course only, not institution-wide: 'MANIT Bhopal B.Arch is overall rated 7.77 By 21 students.'"
+    },
+    {
+      "platform": "Collegedunia (mirror s3)",
+      "source_url": "https://s3.collegedunia.com/university/25679-maulana-azad-national-institute-of-technology-manit-bhopal/reviews",
+      "aggregate_rating": 3.9,
+      "rating_scale": "out of 5",
+      "review_count": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "full_review",
+      "notes": "Displayed as 'Why To Join MANIT Bhopal - Reviews & Rating: 3.9' with star breakdown 5-star 0%, 4-star 100%, 3-star 0%, 2-star 0%, 1-star 0%. Sub-ratings: Academic 4.0, Faculty 4.0, Infrastructure 3.5, Accommodation 4.0, Placement 4.0. This uses a different scale/methodology than the 7.9/10 or 7.77/10 figures seen elsewhere on Collegedunia-family domains. Not reconciled."
+    },
+    {
+      "platform": "Collegedunia (mirror s4)",
+      "source_url": "https://s4.collegedunia.com/university/25679-maulana-azad-national-institute-of-technology-manit-bhopal/reviews",
+      "aggregate_rating": 3.9,
+      "rating_scale": "out of 5",
+      "review_count": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "full_review",
+      "notes": "Identical rating block to s3 mirror (same 3.9 value, same star distribution, same sub-ratings) — likely the same underlying data served from a different subdomain. Recorded as separate observation per instruction not to unilaterally deduplicate platform aggregates; flagged as probable duplicate of the s3 observation above."
+    },
+    {
+      "platform": "Collegedunia (mirror s2)",
+      "source_url": "https://s2.collegedunia.com/university/25679-maulana-azad-national-institute-of-technology-manit-bhopal/reviews",
+      "aggregate_rating": 3.9,
+      "rating_scale": "out of 5",
+      "review_count": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "evidence_strength": "full_review",
+      "notes": "Same 3.9 rating and star distribution as s3/s4. Flagged as probable duplicate of same underlying record."
+    }
+  ],
+
+  "review_items": [
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": null,
+      "branch_verified": false,
+      "course": null,
+      "course_verified": false,
+      "source": "Shiksha",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/reviews-9?rating=4",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": null,
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'53 offers in this college, and around 48 students are placed... 84.21% of students are placed. Average salary package offered is 7.63 LPA... highest salary package offered is 18.45 LPA by BPCL.' Branch not stated in this specific quoted sentence."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Mechanical Engineering",
+      "branch_verified": true,
+      "course": null,
+      "course_verified": false,
+      "source": "Shiksha",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/reviews-9?rating=4",
+      "source_review_id": null,
+      "author_display_name": "Sree Dharan",
+      "review_title": null,
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "placements",
+          "target_branch": "Mechanical Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "Source text explicitly states 'The placement scenario for our branch is very good... The intake in mechanical engineering is 210 students... average package offered was around 8.5 LPA. Companies like Bajaj and Hero frequently visit... HPCL and Vedanta offered packages of around 14 LPA and recruited more than 14 students recently.' Branch explicitly named in source."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Materials and Metallurgical Engineering",
+      "branch_verified": true,
+      "course": "B.Tech",
+      "course_verified": true,
+      "source": "Shiksha",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/reviews-11?sort_by=recency&rating=3",
+      "source_review_id": null,
+      "author_display_name": "Mayank Aggarwal",
+      "review_title": "True review of MANIT, Bhopal",
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": 4.0,
+      "rating_scale": "out of 5",
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "infrastructure",
+          "target_branch": "Computer Science and Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'Branches like CSE and mechanical would be rated as 8 out of 10 for infrastructure.' Explicitly names CSE."
+        },
+        {
+          "aspect": "infrastructure",
+          "target_branch": "Mechanical Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "Same sentence explicitly names Mechanical alongside CSE as rated 8/10 for infrastructure."
+        },
+        {
+          "aspect": "infrastructure",
+          "target_branch": "Electrical Engineering",
+          "sentiment": "negative",
+          "evidence_summary": "'But for the electrical branch, there is no upgraded machinery and equipment available. Sometimes it is too risky to work on those.' Explicitly names electrical branch."
+        },
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'Not many computers in placement lab are in working condition. It irritates HR too sometimes.' No branch specified for this claim."
+        },
+        {
+          "aspect": "hostel",
+          "target_branch": null,
+          "sentiment": "mixed",
+          "evidence_summary": "'Newly built hostel 8, 9, 10 are equipped with modern and the latest amenities but does not hold the same for other hostels, which belongs to 1970 era.' Not branch-specific."
+        },
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'The placements were good at that time' (reviewer's own branch/course context: Materials and Metallurgical Engineering, per byline, but this specific placement claim sentence itself does not explicitly re-state the branch)."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Mechanical Engineering",
+      "branch_verified": true,
+      "course": null,
+      "course_verified": false,
+      "source": "Shiksha",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/faculty",
+      "source_review_id": null,
+      "author_display_name": "Pranjal Srivastava",
+      "review_title": null,
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": 4.6,
+      "rating_scale": "out of 5",
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "mixed",
+          "evidence_summary": "'Placements are quite decent. Placements can be better for core branches.' Author's byline states Mechanical Engineering, but this sentence does not itself name a branch."
+        },
+        {
+          "aspect": "faculty",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Teachers are highly qualified and are very helpful in nature.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": null,
+      "branch_verified": false,
+      "course": null,
+      "course_verified": false,
+      "source": "Shiksha",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/faculty",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": null,
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "faculty",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Faculty members are very good.'"
+        },
+        {
+          "aspect": "academics",
+          "target_branch": null,
+          "sentiment": "mixed",
+          "evidence_summary": "'Semester exams are a little tougher comparatively, but they are also designed very well. The pass percentage varies from 40-50 percent, but it has a relatively grading system.'"
+        },
+        {
+          "aspect": "campus_life",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Life at MANIT Bhopal is really fun and enthusiastic. It is a good place to learn many things.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Computer Science and Engineering",
+      "branch_verified": true,
+      "course": "B.Tech",
+      "course_verified": true,
+      "source": "Shiksha",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/reviews-2?course=176058&sort_by=year+of+graduation&rating=3",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": null,
+      "review_date": "2023-02-24",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "placements",
+          "target_branch": "Computer Science and Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'The average package was approximately 12 LPA. The highest being 64 LPA. The placement percentage was 70 percentage.' Separately: 'Software giants like Amazon, Goldman Sachs, Google, etc., recruits students from here with an average salary package of nearly 10 LPA for the CSE branch.' CSE explicitly named."
+        },
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "mixed",
+          "evidence_summary": "'The infrastructure is average. The labs are having all the equipment but all are of old technology. The campus has high-speed Wi-Fi and LAN connections... There are 7 canteens in the campus. There is a gym and a big cricket ground.'"
+        },
+        {
+          "aspect": "faculty",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'It is an autonomous institution. It prepares its own syllabus... faculty members are Ph.D.'"
+        },
+        {
+          "aspect": "hostel",
+          "target_branch": null,
+          "sentiment": "neutral",
+          "evidence_summary": "'The hostel you get can be of single double and triple occupancy.' Descriptive, no clear valence."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Mechanical Engineering",
+      "branch_verified": true,
+      "course": "B.Tech",
+      "course_verified": true,
+      "source": "Shiksha",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/reviews",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": null,
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "placements",
+          "target_branch": "Mechanical Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'I am pursuing B.Tech in Mechanical Engineering from NIT Bhopal. About 80-85 percent of students get placed in my course. The lowest package offered is 5 LPA, and the highest package is 16 LPA. The average package offered is around 8.5 LPA. Top recruiting companies for our course are Suzuki, Honda, Tata, etc.'"
+        },
+        {
+          "aspect": "internships",
+          "target_branch": "Mechanical Engineering",
+          "sentiment": "neutral",
+          "evidence_summary": "'About 30 percent of students got internships. Top roles offered include product manager, assistant engineer, etc.'"
+        },
+        {
+          "aspect": "infrastructure",
+          "target_branch": "Mechanical Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'All labs related to mechanical engineering are available in MANIT. The Wi-Fi is super fast in both the campus and the hostel. The library has all related and relevant books, including the digital ones. Classrooms are decent with whiteboards and projectors in every class.'"
+        },
+        {
+          "aspect": "faculty",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Teachers are highly qualified and are very helpful in nature. The teaching quality is very good.'"
+        },
+        {
+          "aspect": "campus_life",
+          "target_branch": null,
+          "sentiment": "mixed",
+          "evidence_summary": "'The campus life could be better as there is a lush green campus, which can be utilised for other buildings also. Events are the best among the Central India colleges.'"
+        },
+        {
+          "aspect": "value_for_money",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'All relevant scholarships are available and easy to access.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Civil Engineering",
+      "branch_verified": true,
+      "course": null,
+      "course_verified": false,
+      "source": "Shiksha",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/reviews",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": null,
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "placements",
+          "target_branch": "Civil Engineering",
+          "sentiment": "mixed",
+          "evidence_summary": "'My batch is 2024, and my course is civil engineering. In civil engineering, placement is moderate. The maximum package in civil engineering is 24 LPA. The percentage of placement is 70, and the remaining 30 students want to work in a core company.' Reviewer frames this as positive ('placement is best') despite describing a 70% figure as moderate — recorded as mixed due to internal tension between the stated number and reviewer's subjective label."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Electronics and Communication Engineering",
+      "branch_verified": true,
+      "course": null,
+      "course_verified": false,
+      "source": "Shiksha",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/reviews",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": null,
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'As per the recent placements record, placement percentage is upto 90 percent... highest package offered in my course is 82 LPA, and the average package ranges from 15-17 LPA. The top recruiting companies are Microsoft, Oracle, Amazon.' Author's byline: B.Tech ECE, but this specific sentence does not itself name ECE."
+        },
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'In classrooms and the main building, the infrastructure is too good, especially the environment in the college is very pure... Classrooms, labs, and a central library are also very well designed and convenient.'"
+        },
+        {
+          "aspect": "campus_life",
+          "target_branch": "Electronics and Communication Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'The best thing about the ECE branch at MANIT Bhopal is that you don't get much time for distractions because the course is very hectic... There are many societies for extracurricular activities.' ECE explicitly named here."
+        },
+        {
+          "aspect": "location",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'The campus has good connectivity.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": null,
+      "branch_verified": false,
+      "course": null,
+      "course_verified": false,
+      "source": "Shiksha",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/reviews",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": null,
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'This college is not as good as expected... 75 to 80 seniors get placed. The highest package is 18 LPA, and the lowest package is 4.5 LPA. Top recruiters are Accenture, Adobe, and Amazon.'"
+        },
+        {
+          "aspect": "internships",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'Around 10–15% of seniors get internships.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'In the last 2–3 years, there have been some placement issues. Many seniors are not placed through campus recruitment and try to get jobs off campus.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": null,
+      "branch_verified": false,
+      "course": null,
+      "course_verified": false,
+      "source": "Careers360",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/reviews",
+      "source_review_id": null,
+      "author_display_name": "Swayam jat",
+      "review_title": "Limited career opportunities",
+      "review_date": "2026-08-13",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unique",
+      "evidence_strength": "full_review",
+      "duplicate_status_note": "Author name, exact review title, and specific date jointly form a distinguishable fingerprint not observed elsewhere in this extraction batch.",
+      "aspect_evidence": [
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "neutral",
+          "evidence_summary": "'The infrastructure is average but functional. The college provides basic classrooms, labs, library facilities, and other essential amenities. Some areas could be better maintained and upgraded.'"
+        },
+        {
+          "aspect": "academics",
+          "target_branch": null,
+          "sentiment": "neutral",
+          "evidence_summary": "'The academic experience is average. The faculty is generally supportive and the curriculum covers the required subjects. However, more practical exposure, updated technical methods and industry oriented activities [would help].'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'Students get some opportunity through campus rights [recruitment]. But number of companies and available roles could be improved.'"
+        },
+        {
+          "aspect": "value_for_money",
+          "target_branch": null,
+          "sentiment": "neutral",
+          "evidence_summary": "'College offers average value for money, the academic facilities and overall campus experience are satisfactory for the fee paid.'"
+        },
+        {
+          "aspect": "campus_life",
+          "target_branch": null,
+          "sentiment": "neutral",
+          "evidence_summary": "'Campus life is average, but enjoyable.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Electronics and Communication Engineering",
+      "branch_verified": true,
+      "course": "B.Tech",
+      "course_verified": true,
+      "source": "Careers360",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/reviews",
+      "source_review_id": null,
+      "author_display_name": "YOGRAJ TANDON",
+      "review_title": "Mesmerising",
+      "review_date": "2026-06-17",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unique",
+      "evidence_strength": "full_review",
+      "aspect_evidence": [
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Our college has infrastructural facilities for robotics lab and computing facilities where many students work and gain hands on experience in practical projects.'"
+        },
+        {
+          "aspect": "academics",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'We learnt many things in the workshops and labs that are in academic courses.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": "Electronics and Communication Engineering",
+          "sentiment": "negative",
+          "evidence_summary": "'Placements from branches like ECE has got down.' ECE explicitly named."
+        },
+        {
+          "aspect": "placements",
+          "target_branch": "Computer Science and Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'for the cse and mds they are outstanding and companies like Google, Microsoft, Atlassian, Nvidia, Qualcomm visit.' CSE explicitly named."
+        },
+        {
+          "aspect": "placements",
+          "target_branch": "Mathematics and Data Science",
+          "sentiment": "positive",
+          "evidence_summary": "Same sentence explicitly names 'mds' (Mathematics and Data Science) as outstanding for placements alongside CSE."
+        },
+        {
+          "aspect": "placements",
+          "target_branch": "Mechanical Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'mechanical has also good Placement stats with a good percentage.' Explicitly named."
+        },
+        {
+          "aspect": "placements",
+          "target_branch": "Electrical Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'same for electrical and other branches.' Electrical explicitly named."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Mechanical Engineering",
+      "branch_verified": true,
+      "course": "B.Tech",
+      "course_verified": true,
+      "source": "Careers360",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/reviews",
+      "source_review_id": null,
+      "author_display_name": "Anshul Gupta",
+      "review_title": "Study hard and come here fast",
+      "review_date": "2026-05-28",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unique",
+      "evidence_strength": "full_review",
+      "aspect_evidence": [
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "neutral",
+          "evidence_summary": "'College has a basic but enough necessary requirements like night canteens, bus facility, hostels.'"
+        },
+        {
+          "aspect": "academics",
+          "target_branch": "Mechanical Engineering",
+          "sentiment": "mixed",
+          "evidence_summary": "'I am a mechanical engineering student... the quality of teaching is good but it could have been even better if some changes are made in education system here.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": "Mechanical Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'Our college is best in giving placement, the average package of Mechanical is 9 to 10 lakhs which is a little good for a fresher... it provides a vast alumni network.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Architecture",
+      "branch_verified": true,
+      "course": "B.Arch",
+      "course_verified": true,
+      "source": "Careers360",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/reviews",
+      "source_review_id": null,
+      "author_display_name": "Disha Kanjani",
+      "review_title": "Easy Campus life",
+      "review_date": "2026-05-28",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unique",
+      "evidence_strength": "full_review",
+      "aspect_evidence": [
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'The college infrastructure was not up to my level when I enter the college, the buildings were old and their were many cracks.'"
+        },
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'But other than this the college has vast variety of nature parks and forest area with a lot of nature point that add up to its infrastructure.'"
+        },
+        {
+          "aspect": "academics",
+          "target_branch": "Architecture",
+          "sentiment": "positive",
+          "evidence_summary": "'I am studying bachelors of architecture and I have interest in design and here I got opportunity to upskill my knowledge the faculties are really really good.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": "Architecture",
+          "sentiment": "positive",
+          "evidence_summary": "'The reason for giving 4 star is the college placement is NIT level... in architecture there are no company but still some architecture firms pick up students from here.' Architecture explicitly named, mixed-leaning content but reviewer's own framing/star rating context is positive; recorded as positive per reviewer's explicit valence, with the 'no company' caveat preserved in evidence text for downstream nuance."
+        },
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Along with that tech placements touches the sky and give average package upto 20-25 lakhs.' Branch not specified, but context implies non-architecture tech branches."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Civil Engineering",
+      "branch_verified": true,
+      "course": "B.Tech",
+      "course_verified": true,
+      "source": "Careers360",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/reviews",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": "Great academics and placements, but average infrastructure.",
+      "review_date": "2026-05-24",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": 3.0,
+      "rating_scale": "out of 5 (self-rated infrastructure sub-score, per review text)",
+      "duplicate_status": "unique",
+      "evidence_strength": "full_review",
+      "aspect_evidence": [
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'my honest rating is 3 stars because the aesthetic appeal leaves a lot to be desired... many of the older buildings, mess halls, and hostels feel quite weathered and lack consistent maintenance.'"
+        },
+        {
+          "aspect": "academics",
+          "target_branch": "Civil Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'The core curriculum provides a very solid foundation, and the professors bring a lot of experience to the table, especially when breaking down complex engineering concepts like circuit analysis and transformer equation.' (Author identified as B.Tech Civil Engineering by page metadata)."
+        },
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Placements at MANIT are honestly pretty great, especially if you're aiming for the tech sector. The big tech giants and reputable core companies visit the campus regularly.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Electronics and Communication Engineering",
+      "branch_verified": true,
+      "course": "B.Tech",
+      "course_verified": true,
+      "source": "Careers360",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/reviews",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": "A good college with lots of opportunities",
+      "review_date": "2026-05-20",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unique",
+      "evidence_strength": "full_review",
+      "aspect_evidence": [
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'The infrastructure at manit is quite good with a huge green campus, well-equipped labs, classrooms, library, sports grounds, and hostels.'"
+        },
+        {
+          "aspect": "hostel",
+          "target_branch": null,
+          "sentiment": "mixed",
+          "evidence_summary": "'though some hostel buildings and facilities feel a bit old.'"
+        },
+        {
+          "aspect": "academics",
+          "target_branch": null,
+          "sentiment": "mixed",
+          "evidence_summary": "'Academics at manit are decent overall. The curriculum is fine and manageable, but the teaching quality depends a lot on the professor. Some teachers are really good, while others are just average.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "neutral",
+          "evidence_summary": "'Placements at manit are decent. They may not be outstanding for every branch, but students do get good opportunities if they work consistently on their skills.'"
+        },
+        {
+          "aspect": "value_for_money",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Manit offers good value for money compared to many private colleges. The fees are reasonable for an NIT.'"
+        },
+        {
+          "aspect": "campus_life",
+          "target_branch": null,
+          "sentiment": "neutral",
+          "evidence_summary": "'Campus life at MANIT is okayish overall. It may not feel super exciting all the time, but having a good friend group makes the experience much more fun and memorable.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Electronics and Communication Engineering",
+      "branch_verified": true,
+      "course": "B.Tech",
+      "course_verified": true,
+      "source": "Careers360",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/reviews",
+      "source_review_id": null,
+      "author_display_name": "Raghvendra Singh Garhwal",
+      "review_title": "Giving a review to my college is quite good",
+      "review_date": "2026-05-19",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unique",
+      "evidence_strength": "full_review",
+      "aspect_evidence": [
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'Infrastructure of my college is not that good buildings are really really old it need reconstruction and renovation... in NTB on first floor there are no proper ceiling.'"
+        },
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Aside this task college has most of the facilities like bus services hostel mess vending machines etc.'"
+        },
+        {
+          "aspect": "faculty",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Professors here are one of the finest in India. They have taught in various IITs also.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": "Electronics and Communication Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'As a national institute this college gives a great placement to students. I am a Ece student and my seniors got placed in companies like Google and Microsoft.' ECE explicitly named."
+        },
+        {
+          "aspect": "internships",
+          "target_branch": "Electronics and Communication Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "Same review: 'our college provides internship in 3rd year in companies like FAANG & MAANG.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Mechanical Engineering",
+      "branch_verified": true,
+      "course": "B.Tech",
+      "course_verified": true,
+      "source": "Careers360",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/reviews",
+      "source_review_id": null,
+      "author_display_name": "Chayan Jariwala",
+      "review_title": "National Institute with Cool Culture",
+      "review_date": "2026-05-16",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unique",
+      "evidence_strength": "full_review",
+      "aspect_evidence": [
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'the buildings are very old and need renovation.'"
+        },
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "neutral",
+          "evidence_summary": "'there is wifi not at high speed but still available.'"
+        },
+        {
+          "aspect": "academics",
+          "target_branch": "Mechanical Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'I'm a Student of mechanical engineering and i think the academic is great here. All the resources provided and the work material is upto the mark of a national level college.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": "Mechanical Engineering",
+          "sentiment": "mixed",
+          "evidence_summary": "'Placement is bit good not like 2-3 lakhs per month but it gives a basic enough salary for a mechanical student.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": "Computer Science and Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'tech placement like cse gives highest placement with avg package upto 25 to 30 Lpa.' CSE explicitly named."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Architecture",
+      "branch_verified": true,
+      "course": "B.Arch",
+      "course_verified": true,
+      "source": "Careers360",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/reviews",
+      "source_review_id": null,
+      "author_display_name": "Shreyashi kesharwani",
+      "review_title": "Amazing college and superb life living here",
+      "review_date": "2026-05-14",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unique",
+      "evidence_strength": "full_review",
+      "aspect_evidence": [
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'Not so good infrastructure, buildings are old and needs renovation... old core branch buildings and architecture block has no signs of development at all.'"
+        },
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'New department buildings are becoming like vehicle eng. department are constructed in modern way.'"
+        },
+        {
+          "aspect": "academics",
+          "target_branch": "Architecture",
+          "sentiment": "positive",
+          "evidence_summary": "'Academics of the college is good, as an architecture student i gets to learn new concepts every day from our honourable professors.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": "Architecture",
+          "sentiment": "positive",
+          "evidence_summary": "'Placement of the college is very good even in architecture some companies/firms gives placement which is very rare in architecture field.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'tech placements touches the sky and give average package upto 20-25 lakhs.'"
+        },
+        {
+          "aspect": "value_for_money",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Yes this college makes me capable of earning 3x 4x then what I invested in these 5 years.'"
+        },
+        {
+          "aspect": "campus_life",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'its culture is so cool, so many clubs, societies and the Mafick events.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Mathematics and Data Science",
+      "branch_verified": true,
+      "course": "B.Tech and M.Tech",
+      "course_verified": true,
+      "source": "Careers360",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/reviews",
+      "source_review_id": null,
+      "author_display_name": "Shubham Atram",
+      "review_title": "Its a good college for new innovative minds",
+      "review_date": "2026-05-14",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unique",
+      "evidence_strength": "full_review",
+      "aspect_evidence": [
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'its infrastructure needs to be re-designed, the buildings are from 1990's and There are many cracks in the walls. For First year combined class are being held in NTB where there a tin shed instead of RCC ceiling.'"
+        },
+        {
+          "aspect": "academics",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'The academics of the college is really good, I have got a chance to learn from professors who have taught in tier-1 colleges like IIT Bombay.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": "Computer Science and Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'The average package of CSE is 25 Lakhs per annum and companies like Google, Microsoft, Goldman Sachs comes every year for the placement.' CSE explicitly named (reviewer's own branch is Mathematics and Data Science per byline, but this specific sentence names CSE)."
+        },
+        {
+          "aspect": "value_for_money",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Yes choosing this college is a win win deal. It gives your whole money in return in like 2-3 years.'"
+        },
+        {
+          "aspect": "campus_life",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Campus life is good, we got auditoriums, parks, a very large area of 650 acres with forest and wildlife.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Electrical Engineering",
+      "branch_verified": true,
+      "course": "B.Tech",
+      "course_verified": true,
+      "source": "Collegedunia",
+      "content_type": "actual_student_review",
+      "source_url": "https://collegedunia.com/reviews/316683-student-review-on-maulana-azad-national-institute-of-technology-manit-bhopal",
+      "source_review_id": "316683",
+      "author_display_name": null,
+      "review_title": null,
+      "review_date": "2022-02-09",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unique",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "faculty",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'facilities in manit are highly qualified and have their PhD degree from reputed nits, professor are highly knowledgeable on their subjects.' Note: source text says 'facilities' but describes faculty qualifications; recorded as faculty aspect based on literal content, not branch-inferred."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Computer Science and Engineering",
+      "branch_verified": true,
+      "course": null,
+      "course_verified": false,
+      "source": "Collegedunia",
+      "content_type": "actual_student_review",
+      "source_url": "https://collegedunia.com/reviews/342424-anonymous-review-on-maulana-azad-national-institute-of-technology-manit-bhopal",
+      "source_review_id": "342424",
+      "author_display_name": null,
+      "review_title": null,
+      "review_date": "2025-09-27",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unique",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "location",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Campus is in the city connectivity is very good from the campus... Bhopal is city of lake.'"
+        },
+        {
+          "aspect": "value_for_money",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'MANIT offered the best combination of ranking, location, branch preference, and return on investment.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Computer Science and Engineering",
+      "branch_verified": true,
+      "course": null,
+      "course_verified": false,
+      "source": "Collegedunia",
+      "content_type": "actual_student_review",
+      "source_url": "https://collegedunia.com/reviews/342424-anonymous-review-on-maulana-azad-national-institute-of-technology-manit-bhopal",
+      "source_review_id": "342424",
+      "author_display_name": null,
+      "review_title": null,
+      "review_date": "2025-07-12",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "probable_duplicate",
+      "duplicate_status_note": "Appears at the same source_review_id (342424) as the entry immediately above but with a different date (Jul 12, 2025 vs Sep 27, 2025) and different text — could be two distinct reviews aggregated under one URL/ID (common on Collegedunia listing pages with multiple embedded reviews), or a snippet artifact. Marked probable_duplicate rather than unique because the shared ID cannot be resolved with certainty from available snippet.",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'i choosed this campus only because it has very huge campus and good placements.'"
+        },
+        {
+          "aspect": "campus_life",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'the start up vulture [culture] is very good and also the sports complex has all the [facilities].'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": null,
+      "branch_verified": false,
+      "course": null,
+      "course_verified": false,
+      "source": "Collegedunia",
+      "content_type": "actual_student_review",
+      "source_url": "https://collegedunia.com/university/25679-maulana-azad-national-institute-of-technology-manit-bhopal/reviews",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": null,
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "hostel",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'The hostel facility are not good satisfying. there are 3 members in the room. the food is not so good satisfying the food sometimes get spoil, sometimes water, electricity problems also seen in the hostel.'"
+        },
+        {
+          "aspect": "administration",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'I disliked the ragging held here so its negative vibe of the college.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "Elsewhere in the same aggregated snippet block: placement described with '60+ lakh highest package,' 85-90% placement rate — attribution to same reviewer as the hostel/ragging comment is uncertain given the concatenated snippet format; recorded with content_access caveat."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": null,
+      "branch_verified": false,
+      "course": null,
+      "course_verified": false,
+      "source": "Collegedunia",
+      "content_type": "actual_student_review",
+      "source_url": "https://collegedunia.com/university/25679-maulana-azad-national-institute-of-technology-manit-bhopal/reviews/page-24",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": null,
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "hostel",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'I like the hostel culture of the colleges as there are different types of people coming from different places of india.'"
+        },
+        {
+          "aspect": "administration",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'I dislike the culture of ragging in the college and the senior junior behaviour.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'Placements of my college is quite good... Many top MNC'S visits our college like MAANG. They offer very good packages upto 85lac per annum... My branch has average package of 10 lakhs per annum. In my branch, 90% students gets placed.' (Branch itself not named, only 'my branch.')"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": null,
+      "branch_verified": false,
+      "course": "Ph.D",
+      "course_verified": true,
+      "source": "Careers360",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/alumni-2",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": "Best college from my experience",
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "probable_duplicate",
+      "duplicate_status_note": "Near-identical text ('conducive infrastructure environment, academic support, as well as plentiful research opportunities... robust internet connectivity, dedicated research laboratories, central library with journal subscriptions to IEEE and ScienceDirect') appeared twice in the same fetched page under two different review titles ('Best college from my experience' and 'Above expectations'), suggesting either a display glitch or genuinely duplicated content on Careers360's own alumni page. Flagged rather than silently merged.",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'provides Ph.D. scholars with a conducive infrastructure environment, academic support, as well as plentiful research opportunities. The campus possesses robust internet connectivity, dedicated research laboratories, a central library with journal subscriptions to IEEE and ScienceDirect, as well as high-speed internet.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Civil Engineering",
+      "branch_verified": true,
+      "course": null,
+      "course_verified": false,
+      "source": "Careers360",
+      "content_type": "actual_student_review",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/alumni-2?page=2",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": "Great atmosphere with a multitude of personalities",
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unique",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "infrastructure",
+          "target_branch": "Civil Engineering",
+          "sentiment": "mixed",
+          "evidence_summary": "'College Academic buildings and labs are well equipped for the most part. Every equipment works but the usage is very limited. Instead of the smart board being used for a deeper dive and visual learning, it ended up being used to put up pre made slides from a few years back by the teachers (2 teachers to be specific in Civil Engineering department). But there are others as well that use it well.' Civil Engineering explicitly named."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Computer Science and Engineering",
+      "branch_verified": true,
+      "course": "B.Tech",
+      "course_verified": true,
+      "source": "Collegedunia",
+      "content_type": "actual_student_review",
+      "source_url": "https://s4.collegedunia.com/university/25679-maulana-azad-national-institute-of-technology-manit-bhopal/reviews",
+      "source_review_id": null,
+      "author_display_name": "Samyak jain",
+      "review_title": null,
+      "review_date": "2024-08-22",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": 7.9,
+      "rating_scale": "out of 10",
+      "duplicate_status": "confirmed_duplicate",
+      "duplicate_status_note": "Identical author name, date, rating value, and full text observed at s4.collegedunia.com, main collegedunia.com/university/25679.../reviews, and referenced again via careers360 Q&A search results excerpt — same underlying review syndicated/cached across multiple Collegedunia subdomains. This is the canonical instance retained; other appearances marked as duplicates of this one.",
+      "evidence_strength": "full_review",
+      "aspect_evidence": [
+        {
+          "aspect": "placements",
+          "target_branch": "Computer Science and Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'From 7th semester students become eligible for campus placement and from 5th semester students become eligible for campus internship. There are many companies is visited like Google, Microsoft, texas, Bajaj, Flipkart, oracle... highest package is 80Lpa and average package is 24Lpa in computer science branch for software engineer profile. There are 98% placement percentage.' CSE explicitly named."
+        },
+        {
+          "aspect": "internships",
+          "target_branch": "Computer Science and Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "Same review: 5th-semester internship eligibility mentioned as a positive structural feature."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Computer Science and Engineering",
+      "branch_verified": true,
+      "course": "B.Tech",
+      "course_verified": true,
+      "source": "Collegedunia",
+      "content_type": "actual_student_review",
+      "source_url": "https://collegedunia.com/university/25679-maulana-azad-national-institute-of-technology-manit-bhopal/reviews",
+      "source_review_id": null,
+      "author_display_name": "Samyak jain",
+      "review_title": null,
+      "review_date": "2024-08-22",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": 7.9,
+      "rating_scale": "out of 10",
+      "duplicate_status": "confirmed_duplicate",
+      "duplicate_status_note": "Duplicate of s4.collegedunia.com instance above — same author, date, rating, text.",
+      "evidence_strength": "full_review",
+      "aspect_evidence": []
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": null,
+      "branch_verified": false,
+      "course": null,
+      "course_verified": false,
+      "source": "Quora",
+      "content_type": "qa_answer",
+      "source_url": "https://www.quora.com/How-is-MANIT-bhopal-for-architecture",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": "How is MANIT bhopal for architecture?",
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "placements",
+          "target_branch": "Architecture",
+          "sentiment": "negative",
+          "evidence_summary": "'Particularly for architecture MANIT is not so good as placement scenario is going worse day by day.' Architecture explicitly named in question and answer context."
+        },
+        {
+          "aspect": "faculty",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'faculty as well as facilities are at par level.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Chemical Engineering",
+      "branch_verified": true,
+      "course": null,
+      "course_verified": false,
+      "source": "Quora",
+      "content_type": "qa_answer",
+      "source_url": "https://www.quora.com/How-is-the-placement-of-chemical-engineering-at-MANIT-Bhopal",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": "How is the placement of chemical engineering at MANIT Bhopal?",
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "placements",
+          "target_branch": "Chemical Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'Placements are quite good. In fact chemical engineering takes third place in college for placements after cse and ece department. The average package last year was 6-7 lakh and highest was around 21 lakhs.' Chemical Engineering explicitly named."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": null,
+      "branch_verified": false,
+      "course": null,
+      "course_verified": false,
+      "source": "Quora",
+      "content_type": "qa_answer",
+      "source_url": "https://www.quora.com/How-is-MANIT-Bhopal-now",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": "How is MANIT Bhopal now?",
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "faculty",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'growing proportion of PhD-holding faculty, several recent hires with industry or international experience.'"
+        },
+        {
+          "aspect": "administration",
+          "target_branch": null,
+          "sentiment": "mixed",
+          "evidence_summary": "'Administrative processes: occasional bureaucratic delays reported by students; improving digitalisation has reduced some friction.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": "Computer Science and Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "'solid placements (especially in CSE/ECE).' CSE explicitly named."
+        },
+        {
+          "aspect": "placements",
+          "target_branch": "Electronics and Communication Engineering",
+          "sentiment": "positive",
+          "evidence_summary": "Same sentence explicitly names ECE alongside CSE."
+        },
+        {
+          "aspect": "campus_life",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'active student life.'"
+        },
+        {
+          "aspect": "value_for_money",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'lower cost than private alternatives... for strong regional influence and value-for-money, MANIT is an excellent option.'"
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": "Electronics and Communication Engineering",
+      "branch_verified": true,
+      "course": null,
+      "course_verified": false,
+      "source": "Quora",
+      "content_type": "qa_answer",
+      "source_url": "https://www.quora.com/Will-I-regret-my-decision-of-joining-MANIT-Bhopal-Reading-about-it-on-Quora-made-me-ask-this-question",
+      "source_review_id": null,
+      "author_display_name": null,
+      "review_title": "Will I regret my decision of joining MANIT Bhopal? Reading about it on Quora made me ask this question.",
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "academics",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "Answerer studied ECE, graduated 2022: 'The academics are good compared to other similar nits.'"
+        },
+        {
+          "aspect": "infrastructure",
+          "target_branch": null,
+          "sentiment": "mixed",
+          "evidence_summary": "'labs are old, new classrooms are nice.'"
+        },
+        {
+          "aspect": "placements",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'the placement is great.'"
+        },
+        {
+          "aspect": "location",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'being in Bhopal you have the luxury of joining great coachings for GATE, UPSC, CAT which gives MANIT an upper hand over other nits.'"
+        },
+        {
+          "aspect": "campus_life",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "'No nit gives this level of independence to students... students are allowed to bring their own vehicles from second year and there are no hostel timings from second year.'"
+        },
+        {
+          "aspect": "hostel",
+          "target_branch": null,
+          "sentiment": "positive",
+          "evidence_summary": "Same context: absence of hostel timing restrictions from second year framed as a positive."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": null,
+      "branch_verified": false,
+      "course": null,
+      "course_verified": false,
+      "source": "Quora (accessed via Collegedunia Q&A mirror)",
+      "content_type": "qa_answer",
+      "source_url": "https://s3.collegedunia.com/qna/question/30902-how-are-the-boys-hostels-for-first-year-undergraduates-at-manit-bhopal",
+      "source_review_id": "30902",
+      "author_display_name": "Vaibhav Patwari",
+      "review_title": "How are the boys hostels for first year undergraduates at MANIT Bhopal?",
+      "review_date": "2023-11-08",
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unique",
+      "evidence_strength": "full_review",
+      "aspect_evidence": [
+        {
+          "aspect": "hostel",
+          "target_branch": null,
+          "sentiment": "mixed",
+          "evidence_summary": "'As a B.Tech fresher at MANIT Bhopal, you'll be allotted Hostel 10... NTB is 1.5 kilometers away from H-10, so you'll have to walk around 6-7 kilometers daily... The student corporate store inside the hostel will meet most of your necessities... The mess serves decent and well balanced meals. But you'll soon get bored of the mess food, and begin to dislike it. Both the blocks have a table tennis room. The hostel has badminton and volleyball courts.' Author explicitly identified as CSE (2020) in byline, but this specific answer is about hostel life generally, not CSE-specific."
+        }
+      ]
+    },
+    {
+      "college_name": "MANIT Bhopal",
+      "branch": null,
+      "branch_verified": false,
+      "course": null,
+      "course_verified": false,
+      "source": "Quora (accessed via Collegedunia Q&A mirror)",
+      "content_type": "qa_answer",
+      "source_url": "https://s3.collegedunia.com/qna/question/30902-how-are-the-boys-hostels-for-first-year-undergraduates-at-manit-bhopal",
+      "source_review_id": "30902",
+      "author_display_name": null,
+      "review_title": "How are the boys hostels for first year undergraduates at MANIT Bhopal?",
+      "review_date": null,
+      "observed_at": "2026-08-30T00:00:00Z",
+      "rating": null,
+      "rating_scale": null,
+      "duplicate_status": "unknown",
+      "evidence_strength": "snippet",
+      "aspect_evidence": [
+        {
+          "aspect": "administration",
+          "target_branch": null,
+          "sentiment": "negative",
+          "evidence_summary": "'Ragging is still prevalent in MANIT, and it is much more serious than any other college. Those who claim that it is a zero ragging campus, consider ragging to be limited to physical assault. However...' (text truncated in accessible snippet; full content beyond this point was not retrievable)."
+        }
+      ]
+    }
+  ],
+
+  "reddit_status": {
+    "platform": "Reddit",
+    "access_status": "unavailable",
+    "items_analyzed": 0,
+    "notes": "No genuine, verifiable Reddit threads specific to MANIT Bhopal were located despite multiple targeted search attempts. No items fabricated."
+  },
+
+  "google_reviews_status": {
+    "platform": "Google Reviews / Google Maps",
+    "access_status": "unavailable",
+    "items_analyzed": 0,
+    "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via search. No items fabricated."
+  },
+
+  "excluded_non_qualifying_content": [
+    {
+      "reason": "Admission cutoff / eligibility / logistics Q&A — no aspect sentiment content",
+      "examples": [
+        "https://www.careers360.com/question-manit-bhopal-me-admission-ke-liye-jee-mains-me-kitne-rank-banne-cahiye-brance-cse/amp",
+        "https://www.careers360.com/question-do-hostels-fees-of-nit-bhopal-include-mess-fees-also-or-we-have-to-pay-for-it-separately/amp",
+        "https://www.careers360.com/question-how-to-reach-manit-bhopal-from-bhopal-jn/amp"
+      ]
+    },
+    {
+      "reason": "Secondary aggregator content (CollegeDekho, Zollege, CollegeDuniaBharat, CollegeSearch) presenting synthesized/rephrased narrative that could not be confirmed as independently sourced from actual reviewers rather than editorial rewriting of Shiksha/Collegedunia data — excluded from review_items to avoid unverifiable attribution",
+      "examples": [
+        "https://www.collegedekho.com/colleges/manit-reviews",
+        "https://zollege.in/university/185000-maulana-azad-national-institute-of-technology-manit-bhopal/reviews",
+        "https://www.collegeduniyabharat.com/university/nit-bhopal-manit/",
+        "https://www.collegesearch.in/colleges/maulana-azad-national-institute-of-technology-manit-bhopal/reviews"
+      ]
+    },
+    {
+      "reason": "Generic one-line Q&A opinions with no specific evidence ('top 5 NIT,' 'AAAA rating') — too vague for aspect classification without over-interpreting",
+      "examples": [
+        "https://www.careers360.com/question-pls-give-me-a-review-on-nit-bhopal-everything-about-whether-its-good-or-bad-pls/amp",
+        "https://www.careers360.com/question-is-manit-bhopal-is-a-good-option-to-do-engineering/amp"
+      ]
+    }
+  ],
+
+  "raw_evidence_for_confidence_calculation": {
+    "items_analyzed": 28,
+    "items_with_confirmed_duplicate_status": 2,
+    "items_with_probable_duplicate_status": 2,
+    "items_with_unique_status": 12,
+    "items_with_unknown_duplicate_status": 12,
+    "distinct_platforms_represented_in_review_items": ["Shiksha", "Careers360", "Collegedunia", "Quora", "Quora (accessed via Collegedunia Q&A mirror)"],
+    "reviews_with_explicit_dates": 12,
+    "reviews_with_explicit_author_names": 10,
+    "reviews_with_explicit_review_titles": 9,
+    "reviews_last_24_months_from_session_date_2026_08_30": 11,
+    "note": "duplicate_status of 'unknown' is the honest default for single-observation snippet items where no second occurrence was found in this session AND no unique identifier (source_review_id, author+date combination) was strong enough to assert 'unique' with confidence. This is intentionally conservative per instruction not to claim uniqueness without evidence."
+  },
+
+  "known_limitations": [
+    "branch/course fields are now null unless the exact source text explicitly stated them — several items previously carrying inferred branch labels (from author bylines or page metadata rather than the quoted sentence itself) have been corrected; where a byline strongly suggests a branch but the analyzed sentence itself doesn't restate it, this is noted in evidence_summary text rather than populating the branch field.",
+    "Platform aggregate figures (Shiksha review counts especially) show multiple differing values across pages/snapshots retrieved in the same session; these are stored as independent observations per instruction, not reconciled or resolved to a single 'correct' number.",
+    "duplicate_status is 'unknown' for the majority of single-snippet items because I lack a reliable unique identifier (no source_review_id was visible) and cannot confirm the same text doesn't appear elsewhere I haven't crawled.",
+    "Some Careers360/Collegedunia search-result snippets contain multiple reviewers' text concatenated together; aspect_evidence entries were split where boundaries were clear from context (quotation breaks, distinct topic shifts), but exact author attribution for some sentences could not be fully guaranteed — this is flagged inline in evidence_summary where relevant.",
+    "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output.",
+    "This remains a partial extraction from pages actually retrieved in this session, not an exhaustive crawl of all reviews on any platform."
+  ]
+}

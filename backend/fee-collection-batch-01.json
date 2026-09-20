@@ -1,0 +1,71 @@
+﻿[
+  {
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "college_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 95000,
+    "academic_fee_per_semester": 105000,
+    "hostel_fee_per_semester": 15000,
+    "mess_fee_per_semester": 20000,
+    "first_semester_fee": 168750,
+    "one_time_fee": 23750,
+    "security_deposit": 5000,
+
+    "source_kind": "official",
+    "source_label": "ABV-IIITM Gwalior Official Fee Structure 2026-27",
+    "source_url": "https://iiitm.ac.in/public/uploads/media_uploads/1779189402_Fees-Details-2025-2026-f.pdf",
+
+    "source_priority": 100,
+    "confidence_score": 95,
+    "verification_status": "high_confidence",
+    "extraction_method": "manual"
+  },
+
+  {
+    "college_id": "indian-institute-of-information-technology-guwahati",
+    "college_name": "Indian Institute of Information Technology Guwahati",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 147500,
+    "academic_fee_per_semester": 148500,
+    "hostel_fee_per_semester": 13750,
+    "mess_fee_per_semester": 16000,
+    "first_semester_fee": 153500,
+    "annual_academic_fee": 297000,
+    "security_deposit": 5000,
+
+    "source_kind": "official",
+    "source_label": "IIIT Guwahati B.Tech Fee Structure 2026",
+    "source_url": "https://www.iiitg.ac.in/semester-fee.html",
+
+    "source_priority": 100,
+    "confidence_score": 98,
+    "verification_status": "high_confidence",
+    "extraction_method": "manual",
+    "notes": "Academic fee per semester = tuition 147500 + gymkhana 1000. First-semester 153500 includes refundable caution money."
+  },
+
+  {
+    "college_id": "iiit-hyderabad",
+    "college_name": "IIIT Hyderabad",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 250000,
+    "annual_academic_fee": 500000,
+
+    "source_kind": "official",
+    "source_label": "IIIT Hyderabad Undergraduate Tuition Fee 2026-27",
+    "source_url": "https://ugadmissions.iiit.ac.in/fee-single-degree/",
+
+    "source_priority": 100,
+    "confidence_score": 98,
+    "verification_status": "high_confidence",
+    "extraction_method": "manual",
+
+    "notes": "Official page states INR 500000 annual tuition. Semester tuition derived as 250000 assuming two semesters. Hostel approx INR 6000/month and mess approx INR 5000/month are not stored as semester fees because duration assumptions would be required."
+  }
+]

@@ -1,0 +1,655 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 5 of 5 (VNIT Nagpur). This completes the batch of 5 colleges (NIT Trichy, NIT Warangal, NIT Surathkal, NIT Rourkela, VNIT Nagpur), each delivered as an independent JSON object in its own response per user instruction."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "VNIT Nagpur",
+        "verified_name": "Visvesvaraya National Institute of Technology, Nagpur",
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Visvesvaraya Regional College of Engineering (VRCE), established 1960; granted Deemed University status in 2002; declared Institute of National Importance in 2007 under the NIT Act. Named after engineer-statesman Sir M. Visvesvaraya. Single main campus (~214-220 acres depending on source) on South Ambazari Road, Nagpur, near Ambazari Lake. Verified distinct from IIIT Nagpur (Indian Institute of Information Technology, Nagpur), a separate private institution also located in Nagpur that appeared in adjacent Careers360 listing results — no evidence from IIIT Nagpur was included in this extraction."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews page, infrastructure page, placement page, and Shiksha Q&A page retrieved."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page retrieved with multiple narrative review snippets."},
+        {"platform": "Careers360", "status": "available", "notes": "Aggregate rating confirmed consistently across three separate Nagpur-city listing pages (PhD, M.Tech, B.Tech categories)."},
+        {"platform": "Quora", "status": "available", "notes": "Threads located on PG hostel facilities; one additional thread URL found but content not retrievable beyond title in this session."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to VNIT Nagpur located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-phd-engineering-colleges-in-nagpur",
+          "aggregate_rating": 4.2,
+          "rating_scale": "out of 5",
+          "review_count": 136,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'VNIT Nagpur - Visvesvaraya National Institute of Technology Nagpur ... Rating: 4.2/5, 136 Reviews.'"
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-me-mtech-colleges-in-nagpur",
+          "aggregate_rating": 4.2,
+          "rating_scale": "out of 5",
+          "review_count": 136,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Same figures (4.2/5, 136 reviews) observed on a different Careers360 listing page (M.Tech category in Nagpur), consistent with the PhD-category listing page observation above — these appear to reflect the same underlying institution-wide aggregate rather than category-specific ratings, unlike some ambiguous cases seen in other colleges in this batch."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-full-time-be-btech-colleges-in-nagpur",
+          "aggregate_rating": 4.2,
+          "rating_scale": "out of 5",
+          "review_count": 136,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Same figures (4.2/5, 136 reviews) observed on a third Careers360 listing page (B.Tech category in Nagpur). Three consistent observations across different listing categories strengthen confidence that this is the genuine institution-wide aggregate, though each is still logged as a separate observation per instruction rather than collapsed into one."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 424,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 424 Student Reviews, 324 comments.' No overall star rating co-visible in this specific snippet."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 425,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 425 VNIT Nagpur reviews...' Distinct count (425) from the main overview page (424) observed in this same session; both retained as separate observations since retrieved from different URLs, not the same page load."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399/placement",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "Contains a course-level 'placement rating of this course is 3.8/5' figure (stored in platform_aspect_ratings) but no overall institutional aggregate visible in retrieved snippet."
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25733-visvesvaraya-national-institute-of-technology-vnit-nagpur/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippets; only narrative review text present."
+        },
+        {
+          "platform": "CollegeDekho",
+          "source_url": "https://www.collegedekho.com/colleges/vnit-reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 17,
+          "verified_review_count": 17,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "'(17 Verified Reviews)... reviewer's details have been verified by Collegedekho.' No star-based overall aggregate visible in retrieved snippet. Note this page also contains an editorially-written 'verdict' paragraph ('So as per our verdict, VNIT Nagpur is a good institute...') which appears to be CollegeDekho's own synthesized summary rather than a student review — excluded from review_items for this reason."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "Shiksha", "aspect": "value_for_money", "rating": 3.8, "rating_scale": "out of 5", "source_url": "https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399/placement", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "VNIT Nagpur",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25733-visvesvaraya-national-institute-of-technology-vnit-nagpur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'In VNIT the students are eligible to sit for campus placements after 4th semester, that is from 3rd year, and there are many companies which visit VNIT Nagpur such as Deloitte, Google, Amazon, Accenture and many more. The placement percentage of last year is 77.59% with highest package of 64 LPA and average package of 11.57 LPA.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'I liked the location of college, it is based in IT Park of Nagpur which is very prime location.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The mentorship is also good, we get 3rd year mentors for 2 years and they guide us till the end of 2nd year.'"
+            }
+          ]
+        },
+        {
+          "college_name": "VNIT Nagpur",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25733-visvesvaraya-national-institute-of-technology-vnit-nagpur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electrical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electrical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": "Electrical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculty are much experienced in their field, that was the best part of the electrical engineering department.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The overall percentage of students placed was 83-85%. Talking about department-wise placement, there was 93.5% placement for mechanical department, 88% for chemical dept, 92% for ECE and EEE department.'"
+            }
+          ]
+        },
+        {
+          "college_name": "VNIT Nagpur",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25733-visvesvaraya-national-institute-of-technology-vnit-nagpur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Metallurgical and Materials Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Metallurgical and Materials Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'First year boy hostel end time is 8 pm which is somewhat disappointing.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": "Metallurgical and Materials Engineering",
+              "scope": "branch",
+              "sentiment": "neutral",
+              "evidence_summary": "'This new syllabus [is] designed for core metallurgy and materials; if you perform well in first year then you can take a minor subject which is an extra advantage, but you have to maintain good CGPA in both, otherwise you have to leave the subject or extend your degree time.' Descriptive of a policy/structure rather than clearly valenced praise or complaint."
+            }
+          ]
+        },
+        {
+          "college_name": "VNIT Nagpur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Review of VNIT Nagpur - Visvesvaraya National Institute of Technology",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The placement process was good. The placement cell was good and provided good job opportunities... Companies that visited the college were TCS, Tata, Infosys, Infotech, HCL, Cipla, Lotus, and many more. Around 90% of students were placed every year. The highest package ranged from 25-35 LPA. The average package ranged from 4-7 LPA.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'My hostel was very good, with nice facilities, and the food was also very good. Food was provided according to the menu and was hygienic.'"
+            }
+          ]
+        },
+        {
+          "college_name": "VNIT Nagpur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399/infrastructure",
+          "source_review_id": null,
+          "author_display_name": "Baba Suryawanshi",
+          "review_title": "VNIT Nagpur- the man, the myth, the legend",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": 4.0,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The percentage of students placed is overall 86%, while in our branch it is 93%. The highest package is 64 LPA offered by Oracle to 9 students. The lowest package is 6 LPA. The average package is 17 LPA. The top companies recruiting are Oracle, Google, DE Shaw, and JP Morgan. About 60% of students receive internships.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The infrastructure here is quite decent. There are old buildings dating back to 1980, and also newer buildings. Wi-Fi is available across the campus, except at hostels, where we have a LAN with good speed. There is a well-equipped international-level library.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'We have three messes. The food is above expectations, but is repetitive. It has one of the best sports facilities among all NITs.'"
+            }
+          ]
+        },
+        {
+          "college_name": "VNIT Nagpur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399/infrastructure",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Typical government hostel, gets cleaned every day. LAN connection is available for all the students. The mess food is average, like you can survive on the food, except on Sunday night.' Descriptive/lukewarm rather than strongly positive or negative."
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'A health centre is available on campus itself, and an ambulance is also available. Good enthusiasm for sports also.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'VNIT Nagpur has good faculty. All the faculty members are well-educated and hold degrees like PhD. The faculty at VNIT Nagpur is helpful and aim to make the educational experience better for all the students.'"
+            }
+          ]
+        },
+        {
+          "college_name": "VNIT Nagpur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399/infrastructure",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Mechanical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": "Mechanical Engineering",
+              "scope": "branch",
+              "sentiment": "mixed",
+              "evidence_summary": "'Mechanical dept at VNIT has solid faculty, qualified, and some are from there, though teaching quality varies. The curriculum is strong, with labs, projects, and industry visits making you job ready in core fields.'"
+            }
+          ]
+        },
+        {
+          "college_name": "VNIT Nagpur",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/visvesaraya-national-institute-of-technology-vnit-nagpur-facilities",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'College Infrastructure & Hostel Facilities: Food is very poor and classroom infrastructure is also very poor and is not up to the mark.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Society of VNIT is good because of the greenery of VNIT. Students of different parts of India come together where there is no culture difference and in languages too. They live together in a room, they know each other as Indian.'"
+            }
+          ]
+        },
+        {
+          "college_name": "VNIT Nagpur",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/visvesaraya-national-institute-of-technology-vnit-nagpur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'There are a lot of high profile companies visiting the campus for hiring purposes which include Amazon, DirectI, Goldman Sachs, Morgan Stanley, JP Morgan Chase, Siemens, HeroMoto Corp, Mercedes, Reliance, Coal India, JSW Steel etc. The highest amount of package is INR 22 lakhs offered by Goldman Sachs.' Reviewer specifically references the score needed to get into CSE branch (190-200 in JEE Main), indicating this review is CSE-scoped."
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'One can enjoy a lot from this VNIT if you are equally interested in academics as well as extra activities.'"
+            }
+          ]
+        },
+        {
+          "college_name": "VNIT Nagpur",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/visvesaraya-national-institute-of-technology-vnit-nagpur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Many core companies such as TATA, Coal India, NYC, L&T etc. come to Visvesvaraya National Institute of Technology, VNIT Nagpur and offer good packages to the students.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Academics are good at VNIT Nagpur, the quality of teaching is very good and faculty is very supportive.'"
+            },
+            {
+              "aspect": "value_for_money",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There are lot many scholarships that one can avail from government or private sources. Every year around 20 students get funding from alumni association.'"
+            }
+          ]
+        },
+        {
+          "college_name": "VNIT Nagpur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-the-hostel-facility-for-PG-students-at-VNIT",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is the hostel facility for PG students at VNIT?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "M.Tech",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "programme_level set to 'M.Tech' based on the question explicitly asking about 'PG students,' though the exact PG course was not specified in the retrieved snippet.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Hostel facility is good for PG students at VNIT, like the limitless internet, DC++, TT room, TV room etc.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'The mess, it's okay, neither too bad nor too good, serving food or meals as time-scheduled every day, even on holidays.'"
+            }
+          ]
+        },
+        {
+          "college_name": "VNIT Nagpur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://getyourdreamcollege.quora.com/https-www-quora-com-How-is-the-hostel-facility-at-VNIT-Nagpur-answer-Tanuj-Deshmukh",
+          "source_review_id": null,
+          "author_display_name": "Tanuj Deshmukh",
+          "review_title": "How is the hostel facility at VNIT Nagpur?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "other",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This URL is a mirror/aggregation subdomain (getyourdreamcollege.quora.com) pointing to an original Quora answer by Tanuj Deshmukh. The retrieved snippet contained only generic Quora platform boilerplate text ('Quora is a place to gain and share knowledge...') with no actual answer content visible. Per rule 8, no aspect_evidence entries are created since no genuine opinion content was retrievable from this specific snippet.",
+          "aspect_evidence": []
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 12,
+        "independent_sources": 4,
+        "reviews_with_dates": 0,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 12
+      },
+
+      "limitations": [
+        "Reddit: no genuine VNIT Nagpur-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "The Careers360 aggregate (4.2/5, 136 reviews) was observed identically across three separate category-listing pages (PhD, M.Tech, B.Tech) in Nagpur, which is a stronger consistency signal than seen for some other colleges in this batch, but is still logged as three separate observations rather than collapsed into one, per instruction.",
+        "One Quora URL (a getyourdreamcollege.quora.com mirror of an answer by Tanuj Deshmukh) was found but its actual answer content was not retrievable in this session — only generic platform boilerplate was visible. This item is included with an empty aspect_evidence array rather than fabricated content.",
+        "CollegeDekho's VNIT reviews page contains an editorially-written summary/verdict paragraph that appears to be the platform's own synthesized conclusion rather than a genuine student review; this was excluded from review_items for that reason, though it was referenced descriptively in platform_aggregate_observations notes.",
+        "No review in this extraction batch carried an explicit visible date; reviews_with_dates and reviews_last_24_months are both 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~424+ reviews reported on Shiksha or ~136 on Careers360 for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "college_name":  "Indian Institute of Information Technology Bhagalpur",
+        "tuition_fee_per_semester":  null,
+        "academic_fee_per_semester":  178621,
+        "first_semester_fee":  178621,
+        "mess_fee_per_semester":  null,
+        "annual_academic_fee":  null,
+        "source_url":  "https://iiitbh.ac.in/btech-admission",
+        "extraction_status":  "DIRECT_HTML_EXTRACTED",
+        "confidence_score":  50,
+        "verification_status":  "review_recommended"
+    },
+    {
+        "college_name":  "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+        "tuition_fee_per_semester":  125000,
+        "academic_fee_per_semester":  157720,
+        "first_semester_fee":  157720,
+        "mess_fee_per_semester":  25000,
+        "annual_academic_fee":  295220,
+        "source_url":  "https://iiitvadodara.ac.in/page.php?slug=ugadmission",
+        "extraction_status":  "DIRECT_HTML_EXTRACTED",
+        "confidence_score":  100,
+        "verification_status":  "high_confidence"
+    },
+    {
+        "college_name":  "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+        "tuition_fee_per_semester":  125000,
+        "academic_fee_per_semester":  157720,
+        "first_semester_fee":  157720,
+        "mess_fee_per_semester":  24000,
+        "annual_academic_fee":  295220,
+        "source_url":  "http://diu.iiitvadodara.ac.in/btech_admission.php",
+        "extraction_status":  "DIRECT_HTML_EXTRACTED",
+        "confidence_score":  100,
+        "verification_status":  "high_confidence"
+    },
+    {
+        "college_name":  "National Institute of Technology Sikkim",
+        "tuition_fee_per_semester":  null,
+        "academic_fee_per_semester":  71814,
+        "first_semester_fee":  71814,
+        "mess_fee_per_semester":  21000,
+        "annual_academic_fee":  143628,
+        "source_url":  "https://nitsikkim.ac.in/documents/Fee%20Structure/2026_April/B.Tech.%20Fee%20structure%20for%20Academic%20Year%202026-27.pdf",
+        "extraction_status":  "TEXT_EXTRACTED",
+        "confidence_score":  60,
+        "verification_status":  "review_recommended"
+    }
+]

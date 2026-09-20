@@ -1,0 +1,39 @@
+{
+  "source": "https://josaa.admissions.nic.in/applicant/seatmatrix/openingclosingrankarchieve.aspx",
+  "counsellingType": "JOSAA",
+  "year": 2025,
+  "discoveredAt": "2026-09-13T14:17:34.720Z",
+  "rounds": [
+    {
+      "value": "1",
+      "label": "1",
+      "selected": false
+    },
+    {
+      "value": "2",
+      "label": "2",
+      "selected": false
+    },
+    {
+      "value": "3",
+      "label": "3",
+      "selected": false
+    },
+    {
+      "value": "4",
+      "label": "4",
+      "selected": false
+    },
+    {
+      "value": "5",
+      "label": "5",
+      "selected": false
+    },
+    {
+      "value": "6",
+      "label": "6",
+      "selected": false
+    }
+  ],
+  "instituteTypes": []
+}

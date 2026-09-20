@@ -1,0 +1,680 @@
+[
+  {
+    "college_id": "uptac-abes-engg-college-ghaziabad",
+    "college_name": "ABES ENGG.COLLEGE,GHAZIABAD",
+    "existing_fee_records": [
+      {
+        "branch_fee_id": "61",
+        "college_id": "uptac-abes-engg-college-ghaziabad",
+        "branch_id": null,
+        "program": "B.Tech",
+        "fee_scope": "all_btech_branches",
+        "academic_year": 2026,
+        "source_label": "Official ABES ENGG.COLLEGE,GHAZIABAD B.Tech Fee Source",
+        "source_url": "https://www.abes.ac.in/courses-offered.html",
+        "verification_status": "verified",
+        "variant_count": 4
+      }
+    ]
+  },
+  {
+    "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+    "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+    "existing_fee_records": [
+      {
+        "branch_fee_id": "62",
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "branch_id": null,
+        "program": "B.Tech",
+        "fee_scope": "all_btech_branches",
+        "academic_year": 2026,
+        "source_label": "Official ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD B.Tech Fee Source",
+        "source_url": "https://www.abesit.in/admission/",
+        "verification_status": "verified",
+        "variant_count": 18
+      }
+    ]
+  },
+  {
+    "college_id": "uptac-abss-institute-of-technology-meerut-meerut",
+    "college_name": "ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT",
+    "existing_fee_records": [
+      {
+        "branch_fee_id": "99",
+        "college_id": "uptac-abss-institute-of-technology-meerut-meerut",
+        "branch_id": "2429",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "ABSS Official B.Tech Fee Structure 2026-27",
+        "source_url": "https://www.abss.edu.in/pdfs/Indian-fee-structure-2026-27.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "100",
+        "college_id": "uptac-abss-institute-of-technology-meerut-meerut",
+        "branch_id": null,
+        "program": "B.Tech",
+        "fee_scope": "all_btech_branches",
+        "academic_year": 2026,
+        "source_label": "ABSS Official B.Tech Hostel Fee 2026-27",
+        "source_url": "https://www.abss.edu.in/pdfs/Indian-fee-structure-2026-27.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "98",
+        "college_id": "uptac-abss-institute-of-technology-meerut-meerut",
+        "branch_id": "2249",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "ABSS Official B.Tech Fee Structure 2026-27",
+        "source_url": "https://www.abss.edu.in/pdfs/Indian-fee-structure-2026-27.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      }
+    ]
+  },
+  {
+    "college_id": "uptac-accurate-institute-of-management-technology-gautam-buddh-nagar",
+    "college_name": "ACCURATE INSTITUTE OF MANAGEMENT & TECHNOLOGY,GAUTAM BUDDH NAGAR",
+    "existing_fee_records": [
+      {
+        "branch_fee_id": "105",
+        "college_id": "uptac-accurate-institute-of-management-technology-gautam-buddh-nagar",
+        "branch_id": "2137",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Accurate Institute Official B.Tech Fee Structure",
+        "source_url": "https://www.accurate.in/program/engineering/btech/fee-structure/",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "101",
+        "college_id": "uptac-accurate-institute-of-management-technology-gautam-buddh-nagar",
+        "branch_id": "2247",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Accurate Institute Official B.Tech Fee Structure",
+        "source_url": "https://www.accurate.in/program/engineering/btech/fee-structure/",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "102",
+        "college_id": "uptac-accurate-institute-of-management-technology-gautam-buddh-nagar",
+        "branch_id": "2327",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Accurate Institute Official B.Tech Fee Structure",
+        "source_url": "https://www.accurate.in/program/engineering/btech/fee-structure/",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "103",
+        "college_id": "uptac-accurate-institute-of-management-technology-gautam-buddh-nagar",
+        "branch_id": "2265",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Accurate Institute Official B.Tech Fee Structure",
+        "source_url": "https://www.accurate.in/program/engineering/btech/fee-structure/",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "104",
+        "college_id": "uptac-accurate-institute-of-management-technology-gautam-buddh-nagar",
+        "branch_id": "2288",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Accurate Institute Official B.Tech Fee Structure",
+        "source_url": "https://www.accurate.in/program/engineering/btech/fee-structure/",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "106",
+        "college_id": "uptac-accurate-institute-of-management-technology-gautam-buddh-nagar",
+        "branch_id": "2322",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Accurate Institute Official B.Tech Fee Structure",
+        "source_url": "https://www.accurate.in/program/engineering/btech/fee-structure/",
+        "verification_status": "verified",
+        "variant_count": 4
+      }
+    ]
+  },
+  {
+    "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+    "college_name": "AJAY KUMAR GARG ENGG. COLLEGE,GHAZIABAD",
+    "existing_fee_records": [
+      {
+        "branch_fee_id": "71",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1352",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "73",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1200",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "74",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1493",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "75",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1354",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "76",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1568",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "77",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1192",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "78",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1795",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "79",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1709",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "80",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1870",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "81",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1199",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "82",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1290",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "83",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1371",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "84",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1342",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "85",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1383",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "86",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1335",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "87",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1583",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "88",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1877",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "89",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1631",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "90",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1758",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "91",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1656",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "92",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1803",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "93",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1912",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "94",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1952",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "97",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": null,
+        "program": "B.Tech",
+        "fee_scope": "all_btech_branches",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Hostel Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/hostel/",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "72",
+        "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+        "branch_id": "1479",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "AKGEC Official Fee Structure 2026-27",
+        "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      }
+    ]
+  },
+  {
+    "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+    "college_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+    "existing_fee_records": [
+      {
+        "branch_fee_id": "107",
+        "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+        "branch_id": "2209",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Official B.Tech Fee Structure 2026-27",
+        "source_url": "https://www.aimt.edu.in/#",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "109",
+        "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+        "branch_id": "1277",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Official B.Tech Fee Structure 2026-27",
+        "source_url": "https://www.aimt.edu.in/#",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "110",
+        "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+        "branch_id": "1987",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Official B.Tech Fee Structure 2026-27",
+        "source_url": "https://www.aimt.edu.in/#",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "111",
+        "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+        "branch_id": "1951",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Official B.Tech Fee Structure 2026-27",
+        "source_url": "https://www.aimt.edu.in/#",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "108",
+        "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+        "branch_id": "1817",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Official B.Tech Fee Structure 2026-27",
+        "source_url": "https://www.aimt.edu.in/#",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "112",
+        "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+        "branch_id": "2085",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Official B.Tech Fee Structure 2026-27",
+        "source_url": "https://www.aimt.edu.in/#",
+        "verification_status": "verified",
+        "variant_count": 4
+      }
+    ]
+  },
+  {
+    "college_id": "uptac-ashoka-institute-of-technology-management-varanasi",
+    "college_name": "ASHOKA INSTITUTE OF TECHNOLOGY & MANAGEMENT,VARANASI",
+    "existing_fee_records": [
+      {
+        "branch_fee_id": "70",
+        "college_id": "uptac-ashoka-institute-of-technology-management-varanasi",
+        "branch_id": "2596",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Official Institute Fee Structure 2026-2027",
+        "source_url": "https://ashokainstitute.com/img/pdf/FEE%20STRUCTURE%202026-27.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "65",
+        "college_id": "uptac-ashoka-institute-of-technology-management-varanasi",
+        "branch_id": "1516",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Official Institute Fee Structure 2026-2027",
+        "source_url": "https://ashokainstitute.com/img/pdf/FEE%20STRUCTURE%202026-27.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "66",
+        "college_id": "uptac-ashoka-institute-of-technology-management-varanasi",
+        "branch_id": "2598",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Official Institute Fee Structure 2026-2027",
+        "source_url": "https://ashokainstitute.com/img/pdf/FEE%20STRUCTURE%202026-27.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "64",
+        "college_id": "uptac-ashoka-institute-of-technology-management-varanasi",
+        "branch_id": "1238",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Official Institute Fee Structure 2026-2027",
+        "source_url": "https://ashokainstitute.com/img/pdf/FEE%20STRUCTURE%202026-27.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "63",
+        "college_id": "uptac-ashoka-institute-of-technology-management-varanasi",
+        "branch_id": "1428",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Official Institute Fee Structure 2026-2027",
+        "source_url": "https://ashokainstitute.com/img/pdf/FEE%20STRUCTURE%202026-27.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "67",
+        "college_id": "uptac-ashoka-institute-of-technology-management-varanasi",
+        "branch_id": "1972",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Official Institute Fee Structure 2026-2027",
+        "source_url": "https://ashokainstitute.com/img/pdf/FEE%20STRUCTURE%202026-27.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "68",
+        "college_id": "uptac-ashoka-institute-of-technology-management-varanasi",
+        "branch_id": "1957",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Official Institute Fee Structure 2026-2027",
+        "source_url": "https://ashokainstitute.com/img/pdf/FEE%20STRUCTURE%202026-27.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      },
+      {
+        "branch_fee_id": "69",
+        "college_id": "uptac-ashoka-institute-of-technology-management-varanasi",
+        "branch_id": "1953",
+        "program": "B.Tech",
+        "fee_scope": "branch_specific",
+        "academic_year": 2026,
+        "source_label": "Official Institute Fee Structure 2026-2027",
+        "source_url": "https://ashokainstitute.com/img/pdf/FEE%20STRUCTURE%202026-27.pdf",
+        "verification_status": "verified",
+        "variant_count": 4
+      }
+    ]
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-allahabad",
+    "college_name": "Indian Institute of Information Technology, Allahabad",
+    "existing_fee_records": [
+      {
+        "branch_fee_id": "52",
+        "college_id": "indian-institute-of-information-technology-allahabad",
+        "branch_id": null,
+        "program": "B.Tech",
+        "fee_scope": "all_btech_branches",
+        "academic_year": 2026,
+        "source_label": "IIIT Allahabad Official B.Tech Batch-2026 Four Year Fee Structure",
+        "source_url": "https://www.iiita.ac.in/sites/default/files/Fee%20Structure%20B.Tech_.%20%28New%20Batch%202026%29.pdf",
+        "verification_status": "verified",
+        "variant_count": 32
+      }
+    ]
+  },
+  {
+    "college_id": "indian-institute-of-technology-goa",
+    "college_name": "Indian Institute of Technology Goa",
+    "existing_fee_records": [
+      {
+        "branch_fee_id": "57",
+        "college_id": "indian-institute-of-technology-goa",
+        "branch_id": null,
+        "program": "B.Tech",
+        "fee_scope": "all_btech_branches",
+        "academic_year": 2026,
+        "source_label": "IIT Goa Official B.Tech Fee Structure Autumn 2026-27",
+        "source_url": "https://iitgoa.ac.in/wp-content/uploads/B.Tech-Autumn-2026-27.pdf",
+        "verification_status": "verified",
+        "variant_count": 32
+      }
+    ]
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "generatedAt": "2026-09-13T15:46:19.189Z",
+  "readOnly": true,
+  "archive": {
+    "finalUrl": "https://admissions.nic.in/csabspl/Applicant/seatallotmentresult/openingclosingrankarchieve.aspx",
+    "bytes": 27114,
+    "selects": [
+      {
+        "id": "ctl00_ContentPlaceHolder1_ddlYear",
+        "name": "ctl00$ContentPlaceHolder1$ddlYear",
+        "optionCount": 6,
+        "options": [
+          {
+            "value": "0",
+            "text": "--Select--",
+            "selected": true
+          },
+          {
+            "value": "2025",
+            "text": "2025",
+            "selected": false
+          },
+          {
+            "value": "2024",
+            "text": "2024",
+            "selected": false
+          },
+          {
+            "value": "2023",
+            "text": "2023",
+            "selected": false
+          },
+          {
+            "value": "2022",
+            "text": "2022",
+            "selected": false
+          },
+          {
+            "value": "2021",
+            "text": "2021",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id": "ctl00_ContentPlaceHolder1_ddlroundno",
+        "name": "ctl00$ContentPlaceHolder1$ddlroundno",
+        "optionCount": 0,
+        "options": []
+      },
+      {
+        "id": "ctl00_ContentPlaceHolder1_ddlInstype",
+        "name": "ctl00$ContentPlaceHolder1$ddlInstype",
+        "optionCount": 0,
+        "options": []
+      },
+      {
+        "id": "ctl00_ContentPlaceHolder1_ddlInstitute",
+        "name": "ctl00$ContentPlaceHolder1$ddlInstitute",
+        "optionCount": 0,
+        "options": []
+      },
+      {
+        "id": "ctl00_ContentPlaceHolder1_ddlBranch",
+        "name": "ctl00$ContentPlaceHolder1$ddlBranch",
+        "optionCount": 0,
+        "options": []
+      }
+    ],
+    "hiddenFieldNames": [
+      "__EVENTTARGET",
+      "__EVENTARGUMENT",
+      "__LASTFOCUS",
+      "__VIEWSTATE",
+      "__VIEWSTATEGENERATOR",
+      "__EVENTVALIDATION",
+      "ctl00$hdnSecKey"
+    ]
+  },
+  "current": {
+    "finalUrl": "https://admissions.nic.in/csabspl/Applicant/seatallotmentresult/currentorcr.aspx",
+    "bytes": 25378,
+    "selects": [
+      {
+        "id": "ctl00_ContentPlaceHolder1_ddlroundno",
+        "name": "ctl00$ContentPlaceHolder1$ddlroundno",
+        "optionCount": 3,
+        "options": [
+          {
+            "value": "0",
+            "text": "--Select--",
+            "selected": true
+          },
+          {
+            "value": "1",
+            "text": "1",
+            "selected": false
+          },
+          {
+            "value": "2",
+            "text": "2",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id": "ctl00_ContentPlaceHolder1_ddlInstype",
+        "name": "ctl00$ContentPlaceHolder1$ddlInstype",
+        "optionCount": 0,
+        "options": []
+      },
+      {
+        "id": "ctl00_ContentPlaceHolder1_ddlInstitute",
+        "name": "ctl00$ContentPlaceHolder1$ddlInstitute",
+        "optionCount": 0,
+        "options": []
+      },
+      {
+        "id": "ctl00_ContentPlaceHolder1_ddlBranch",
+        "name": "ctl00$ContentPlaceHolder1$ddlBranch",
+        "optionCount": 0,
+        "options": []
+      }
+    ],
+    "hiddenFieldNames": [
+      "__EVENTTARGET",
+      "__EVENTARGUMENT",
+      "__LASTFOCUS",
+      "__VIEWSTATE",
+      "__VIEWSTATEGENERATOR",
+      "__EVENTVALIDATION",
+      "ctl00$hdnSecKey"
+    ]
+  }
+}

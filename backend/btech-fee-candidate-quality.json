@@ -1,0 +1,183 @@
+[
+  {
+    "college_id": "indian-institute-of-technology-roorkee",
+    "college_name": "Indian Institute of Technology Roorkee",
+    "source_type": "html_discovery",
+    "original_source": "https://iitr.ac.in/Academics/Institute%20Fees.html",
+    "best_candidate_url": "https://iitr.ac.in/Academics/Institute%20Fees.html#",
+    "score": 30,
+    "reasons": [
+      "candidate_score_too_low"
+    ],
+    "extracted_characters": null,
+    "status": "REVIEW",
+    "detected_year": null,
+    "final_status": "HTML_DEEP_DISCOVERY_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-patna",
+    "college_name": "National Institute of Technology Patna",
+    "source_type": "html_discovery",
+    "original_source": "https://www.nitp.ac.in/Academic/Fee",
+    "best_candidate_url": "https://www.nitp.ac.in/Academic/Fee",
+    "score": 30,
+    "reasons": [
+      "candidate_score_too_low"
+    ],
+    "extracted_characters": null,
+    "status": "REVIEW",
+    "detected_year": null,
+    "final_status": "HTML_DEEP_DISCOVERY_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-varanasi",
+    "college_name": "Indian Institute of Technology (BHU) Varanasi",
+    "source_type": "html_discovery",
+    "original_source": "https://www.iitbhu.ac.in/dean/doaa/fee",
+    "best_candidate_url": "https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/fee_ug_19-20.pdf",
+    "score": 60,
+    "reasons": [
+      "candidate_score_too_low"
+    ],
+    "extracted_characters": null,
+    "status": "REVIEW",
+    "detected_year": null,
+    "final_status": "HTML_DEEP_DISCOVERY_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-goa",
+    "college_name": "Indian Institute of Technology Goa",
+    "source_type": "html_discovery",
+    "original_source": "https://iitgoa.ac.in/btech_fee_structure/",
+    "best_candidate_url": "https://iitgoa.ac.in/wp-content/uploads/B.Tech-Autumn-2026-27.pdf",
+    "score": 75,
+    "reasons": [
+      "strong_document_candidate"
+    ],
+    "extracted_characters": null,
+    "status": "CANDIDATE_READY",
+    "detected_year": 2026,
+    "final_status": "READY_FOR_DOWNLOAD"
+  },
+  {
+    "college_id": "indian-institute-of-technology-indore",
+    "college_name": "Indian Institute of Technology Indore",
+    "source_type": "direct_pdf",
+    "original_source": "https://www.iiti.ac.in/uploads/academics/notice_updates/fee_notice_2026_autumn.pdf",
+    "best_candidate_url": "https://www.iiti.ac.in/uploads/academics/notice_updates/fee_notice_2026_autumn.pdf",
+    "score": 70,
+    "reasons": [
+      "weak_pdf_text_layer"
+    ],
+    "extracted_characters": 112,
+    "status": "CANDIDATE_READY",
+    "detected_year": 2026,
+    "final_status": "PDF_DEEP_EXTRACTION_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "college_name": "National Institute of Technology Karnataka, Surathkal",
+    "source_type": "direct_pdf",
+    "original_source": "https://www.nitk.ac.in/document/attachments/8447/FEE_STRUCTURE_2025-26_.pdf",
+    "best_candidate_url": "https://www.nitk.ac.in/document/attachments/8447/FEE_STRUCTURE_2025-26_.pdf",
+    "score": 70,
+    "reasons": [
+      "weak_pdf_text_layer"
+    ],
+    "extracted_characters": 189,
+    "status": "CANDIDATE_READY",
+    "detected_year": 2025,
+    "final_status": "PDF_DEEP_EXTRACTION_REQUIRED"
+  },
+  {
+    "college_id": "malaviya-national-institute-of-technology-jaipur",
+    "college_name": "Malaviya National Institute of Technology Jaipur",
+    "source_type": "direct_pdf",
+    "original_source": "https://mnit.ac.in/cms/uploads/2024/05/Fee_Structure_2024-25_UG.pdf",
+    "best_candidate_url": "https://mnit.ac.in/cms/uploads/2024/05/Fee_Structure_2024-25_UG.pdf",
+    "score": 70,
+    "reasons": [
+      "weak_pdf_text_layer",
+      "old_year_2024"
+    ],
+    "extracted_characters": 128,
+    "status": "CANDIDATE_READY",
+    "detected_year": 2024,
+    "final_status": "OUTDATED_SOURCE_REVIEW"
+  },
+  {
+    "college_id": "national-institute-of-technology-silchar",
+    "college_name": "National Institute of Technology, Silchar",
+    "source_type": "direct_pdf",
+    "original_source": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a3157f193dad.pdf",
+    "best_candidate_url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a3157f193dad.pdf",
+    "score": 70,
+    "reasons": [
+      "weak_pdf_text_layer"
+    ],
+    "extracted_characters": 16,
+    "status": "CANDIDATE_READY",
+    "detected_year": null,
+    "final_status": "PDF_DEEP_EXTRACTION_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-meghalaya",
+    "college_name": "National Institute of Technology Meghalaya",
+    "source_type": "direct_pdf",
+    "original_source": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fee-structure-aut-26-existing-students-pdf030450.pdf",
+    "best_candidate_url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fee-structure-aut-26-existing-students-pdf030450.pdf",
+    "score": 70,
+    "reasons": [
+      "weak_pdf_text_layer"
+    ],
+    "extracted_characters": 16,
+    "status": "CANDIDATE_READY",
+    "detected_year": null,
+    "final_status": "PDF_DEEP_EXTRACTION_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-goa",
+    "college_name": "National Institute of Technology Goa",
+    "source_type": "direct_pdf",
+    "original_source": "https://nitgoa.ac.in/static/Fee_Structure.pdf",
+    "best_candidate_url": "https://nitgoa.ac.in/static/Fee_Structure.pdf",
+    "score": 70,
+    "reasons": [
+      "weak_pdf_text_layer"
+    ],
+    "extracted_characters": 207,
+    "status": "CANDIDATE_READY",
+    "detected_year": null,
+    "final_status": "PDF_DEEP_EXTRACTION_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-manipur",
+    "college_name": "National Institute of Technology, Manipur",
+    "source_type": "weak_source",
+    "original_source": "https://nitmanipur.ac.in/RevisedFeeStructure_b.Tech_2025onwards_13062025.pdf",
+    "best_candidate_url": null,
+    "score": 0,
+    "reasons": [
+      "weak_existing_source"
+    ],
+    "extracted_characters": null,
+    "status": "NEEDS_DISCOVERY",
+    "detected_year": 2025,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED"
+  },
+  {
+    "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+    "college_name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+    "source_type": "direct_pdf",
+    "original_source": "https://nerist.ac.in/wp-content/uploads/2026/07/Revised-Fee-Structure-of-UG-programe-for-2026-28.pdf",
+    "best_candidate_url": "https://nerist.ac.in/wp-content/uploads/2026/07/Revised-Fee-Structure-of-UG-programe-for-2026-28.pdf",
+    "score": 70,
+    "reasons": [
+      "weak_pdf_text_layer"
+    ],
+    "extracted_characters": 85,
+    "status": "CANDIDATE_READY",
+    "detected_year": 2026,
+    "final_status": "PDF_DEEP_EXTRACTION_REQUIRED"
+  }
+]

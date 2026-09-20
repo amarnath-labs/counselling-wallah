@@ -1,0 +1,51 @@
+[
+  {
+    "college_id": "uptac-babu-banarasi-das-northern-india-institute-of-technology-lucknow",
+    "college_name": "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY,LUCKNOW",
+    "previous_status": "REVIEW_YEAR_OR_SOURCE",
+    "academic_year": 2023,
+    "official_website": null,
+    "source_url": "https://bbdniit.ac.in/wp-content/uploads/2022/05/bbdniit-fee-structure-23-24-.pdf",
+    "final_url": "https://bbdniit.ac.in/wp-content/uploads/2022/05/bbdniit-fee-structure-23-24-.pdf",
+    "source_type": "official_pdf",
+    "final_status": "OUTDATED_SOURCE",
+    "reasons": [
+      "Source text too sparse.",
+      "B.Tech not clearly detected.",
+      "Fee context not clearly detected.",
+      "Too few fee amounts.",
+      "Latest identified source year is 2023, target is 2026."
+    ],
+    "extraction": {
+      "text_characters": 82,
+      "lines_count": 6,
+      "tables_count": 0,
+      "pages": 6,
+      "detected_years": [],
+      "amounts_count": 0,
+      "amounts": [],
+      "signals": {
+        "btech": false,
+        "fee": false,
+        "tuition": false,
+        "total": false,
+        "admission": false,
+        "registration": false,
+        "examination": false,
+        "hostel": false,
+        "mess": false,
+        "caution": false,
+        "fee_waiver": false
+      }
+    },
+    "text": "-- 1 of 6 --\n\n\n\n-- 2 of 6 --\n\n\n\n-- 3 of 6 --\n\n\n\n-- 4 of 6 --\n\n\n\n-- 5 of 6 --\n\n\n\n-- 6 of 6 --",
+    "lines": [
+      "-- 1 of 6 --",
+      "-- 2 of 6 --",
+      "-- 3 of 6 --",
+      "-- 4 of 6 --",
+      "-- 5 of 6 --",
+      "-- 6 of 6 --"
+    ]
+  }
+]

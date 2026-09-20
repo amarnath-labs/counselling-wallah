@@ -1,0 +1,79 @@
+{
+  "college_id": "uptac-abss-institute-of-technology-meerut-meerut",
+  "college_name": "ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT",
+  "academic_year": 2026,
+  "source_url": "https://www.abss.edu.in/pdfs/Indian-fee-structure-2026-27.pdf",
+  "source_type": "official_pdf",
+  "program": "B.Tech",
+  "source_base_structure": {
+    "annual_tuition_fee": 55000,
+    "annual_hostel_fee": 75000,
+    "annual_hosteller_total": 130000,
+    "four_year_source_grand_total": 520000
+  },
+  "additional_fees": {
+    "pre_enrollment_one_time": 2300,
+    "exam_fee_per_year": 7865,
+    "blazer_id_one_time": 2000
+  },
+  "years": [
+    {
+      "year_of_study": 1,
+      "session": "2026-27",
+      "tuition_fee": 55000,
+      "hostel_fee": 75000,
+      "source_base_day_scholar_total": 55000,
+      "source_base_hosteller_total": 130000,
+      "pre_enrollment_fee": 2300,
+      "exam_fee": 7865,
+      "blazer_id_fee": 2000,
+      "additional_fee_total": 12165,
+      "effective_day_scholar_total": 67165,
+      "effective_hosteller_total": 142165
+    },
+    {
+      "year_of_study": 2,
+      "session": "2027-28",
+      "tuition_fee": 55000,
+      "hostel_fee": 75000,
+      "source_base_day_scholar_total": 55000,
+      "source_base_hosteller_total": 130000,
+      "pre_enrollment_fee": null,
+      "exam_fee": 7865,
+      "blazer_id_fee": null,
+      "additional_fee_total": 7865,
+      "effective_day_scholar_total": 62865,
+      "effective_hosteller_total": 137865
+    },
+    {
+      "year_of_study": 3,
+      "session": "2028-29",
+      "tuition_fee": 55000,
+      "hostel_fee": 75000,
+      "source_base_day_scholar_total": 55000,
+      "source_base_hosteller_total": 130000,
+      "pre_enrollment_fee": null,
+      "exam_fee": 7865,
+      "blazer_id_fee": null,
+      "additional_fee_total": 7865,
+      "effective_day_scholar_total": 62865,
+      "effective_hosteller_total": 137865
+    },
+    {
+      "year_of_study": 4,
+      "session": "2029-30",
+      "tuition_fee": 55000,
+      "hostel_fee": 75000,
+      "source_base_day_scholar_total": 55000,
+      "source_base_hosteller_total": 130000,
+      "pre_enrollment_fee": null,
+      "exam_fee": 7865,
+      "blazer_id_fee": null,
+      "additional_fee_total": 7865,
+      "effective_day_scholar_total": 62865,
+      "effective_hosteller_total": 137865
+    }
+  ],
+  "normalization_status": "AUTO_READY",
+  "import_allowed": false
+}

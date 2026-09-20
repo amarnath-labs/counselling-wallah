@@ -1,0 +1,37 @@
+{
+  "total_source_rows": 34981,
+  "unique_source_institutes": 114,
+  "unique_source_institute_programs": 737,
+  "college_mapping": {
+    "EXACT": 114
+  },
+  "program_mapping": {
+    "EXACT": 728,
+    "UNMATCHED": 8,
+    "NORMALIZED": 1
+  },
+  "mapped_rows": 34604,
+  "unmapped_college_rows": 0,
+  "unmapped_branch_rows": 377,
+  "coverage_percent": 98.92,
+  "existing_csab_special": [
+    {
+      "year": 2026,
+      "round": "1",
+      "rows": "7199",
+      "branches": "715"
+    },
+    {
+      "year": 2026,
+      "round": "2",
+      "rows": "4594",
+      "branches": "705"
+    }
+  ],
+  "counselling_constraint": [
+    {
+      "conname": "cutoffs_counselling_type_check",
+      "definition": "CHECK ((counselling_type = ANY (ARRAY['JOSAA'::text, 'CSAB_SPECIAL'::text, 'CSAB_SUPERNUMERARY'::text, 'CSAB_NEUT'::text, 'UPTAC'::text])))"
+    }
+  ]
+}

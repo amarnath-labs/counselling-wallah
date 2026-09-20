@@ -1,0 +1,60 @@
+{
+  "counsellingType": "JOSAA",
+  "year": 2026,
+  "fetchedAt": "2026-09-13T14:31:52.325Z",
+  "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+  "rounds": [
+    {
+      "round": "1",
+      "rows": 13292
+    },
+    {
+      "round": "2",
+      "rows": 13047
+    },
+    {
+      "round": "3",
+      "rows": 12989
+    },
+    {
+      "round": "4",
+      "rows": 12968
+    },
+    {
+      "round": "5",
+      "rows": 12936
+    }
+  ],
+  "totalRows": 65232,
+  "duplicateRows": 0,
+  "uniqueRows": 65232,
+  "seatTypes": {
+    "OPEN": 12822,
+    "EWS": 10368,
+    "OBC-NCL": 11893,
+    "SC": 11416,
+    "ST": 9835,
+    "OPEN (PwD)": 4480,
+    "OBC-NCL (PwD)": 2618,
+    "SC (PwD)": 716,
+    "EWS (PwD)": 835,
+    "ST (PwD)": 249
+  },
+  "quotas": {
+    "AI": 30390,
+    "HS": 16168,
+    "OS": 18053,
+    "GO": 175,
+    "JK": 376,
+    "LA": 70
+  },
+  "genders": {
+    "Gender-Neutral": 41735,
+    "Female-only (including Supernumerary)": 23497
+  },
+  "missingOpening": 0,
+  "missingClosing": 0,
+  "nonNumericOpening": 853,
+  "nonNumericClosing": 925,
+  "duplicateSamples": []
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "college_id": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "college_name": "G.L. BAJAJ INSTITUTE OF TECHNOLOGY & MANAGEMENT,GAUTAM BUDDH NAGAR",
+    "source_family": "UPTAC",
+    "parent_url": "https://www.glbitm.org/admission-process/",
+    "candidates": [
+      {
+        "anchor_text": "COURSES & Admission",
+        "url": "https://www.glbitm.org/courses-and-admission/",
+        "context": "COURSES & Admission Under Graduate (B.TECH) Computer Science and Engineering About Department Vision & Mission Program Educational Objectives Faculty Laboratories Achievements Activities Guest Lectures/Workshops and seminars Research & Development News Letter Syllabus Computer Sc. & Engg. (AI) About Department Vision & Mission Program Educational Objectives Faculty Laboratories Achievements Activities Guest Lectures/Workshops and seminars Syllabus Computer Sc. & Engg. (AIML) About Department Vision & Mission Program Educational Objectives Faculty Achievements Activities Guest Lectures/Workshops and seminars Syllabus Electrical and Computer Engineering About Department Vision & Mission Program Educational Objectives Faculty Laboratories Achievements Activities Guest Lectures/Workshops and seminars Syllabus Electronics and Communication Engineering About Department Vision & Mission Program Educational Objectives Faculty Laboratories Achievements Activities Guest Lectures/Workshops and seminars Syllabus Computer Sc. & Information Technology About Department Vision & Mission Program Educational Objectives Faculty Laboratories Achievements Activities Guest Lectures/Workshops and seminars News Letter Syllabus Mechanical Engineering Department About Department Vision & Mission Program Educational Objectives Faculty Laboratories Achievements Activities Guest Lectures/Workshops and seminars Syllabus Applied Science and Humanities About Department Faculty Laboratories Achievements Activities Guest Lectures/Workshops and seminars Syllabus Computer Sc. & Engg. (Data Science) About Department Vision & Mission Program Educational Objectives Faculty Laboratories Achievements Activities Guest Lectures/Workshops and seminars Syllabus Post Graduate Master of Business Administration About Department Vision & Mission Program Educational Objectives Faculty Achievements Activities Guest Lectures/Workshops and seminars Syllabus MBA (Business Analytics) Activities Syllabus Master of Computer Applications About Department Vision & Mission Program Educational Objectives Faculty Laboratories Achievements Activities Guest Lectures/Workshops and seminars Syllabus Admissions Admission Process Admission Process (Lateral) Payment Procedure Download Prospectus Helplines",
+        "score": 30,
+        "reasons": [
+          "BTECH_OR_UG"
+        ]
+      }
+    ],
+    "selected_links": [],
+    "selected_count": 0,
+    "status": "NO_STRONG_CHILD_LINK"
+  },
+  {
+    "college_id": "indian-institute-of-technology-roorkee",
+    "college_name": "Indian Institute of Technology Roorkee",
+    "source_family": "JOSAA",
+    "parent_url": "https://iitr.ac.in/Academics/Institute%20Fees.html",
+    "candidates": [
+      {
+        "anchor_text": "Academics",
+        "url": "https://iitr.ac.in/Academics/Home.html",
+        "context": "Academics Notifications Academic Calendar Fee Structure Academic Programmes Downloads DAPC/CAPC/ScAPC and DRC/CRC/ScRC Academic login LHCC Booking Portal Academic Documents Request Portal Research Award Portal OASIS",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ]
+      },
+      {
+        "anchor_text": "Fee Structure",
+        "url": "https://iitr.ac.in/Academics/Institute%20Fees.html",
+        "context": "Fee Structure",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ]
+      },
+      {
+        "anchor_text": "UG Admissions",
+        "url": "https://iitr.ac.in/Academics/Admission%20To%20Undergraduate%20Programmes.html",
+        "context": "UG Admissions",
+        "score": 30,
+        "reasons": [
+          "BTECH_OR_UG"
+        ]
+      }
+    ],
+    "selected_links": [],
+    "selected_count": 0,
+    "status": "NO_STRONG_CHILD_LINK"
+  },
+  {
+    "college_id": "uptac-meerut-institute-of-engineering-technology-meerut",
+    "college_name": "MEERUT INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+    "source_family": "UPTAC",
+    "parent_url": "https://miet.ac.in/online-registration.php",
+    "candidates": [
+      {
+        "anchor_text": "Fee Structure",
+        "url": "https://miet.ac.in/fee-structure.php",
+        "context": "Fee Structure",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ]
+      },
+      {
+        "anchor_text": "UPTAC Fee Structure",
+        "url": "https://miet.ac.in/uptac-fee-structure.php",
+        "context": "UPTAC Fee Structure",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ]
+      },
+      {
+        "anchor_text": "Eligibility Criteria",
+        "url": "https://miet.ac.in/eligibility-criteria.php",
+        "context": "Eligibility CriteriaFee StructureDocument Checklist",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ]
+      },
+      {
+        "anchor_text": "Document Checklist",
+        "url": "https://miet.ac.in/document-checklist.php",
+        "context": "Eligibility CriteriaFee StructureDocument Checklist",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ]
+      },
+      {
+        "anchor_text": "Admission 2026-27",
+        "url": "https://miet.ac.in/online-registration.php",
+        "context": "Admission 2026-27",
+        "score": 35,
+        "reasons": [
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Hostel Rule Book",
+        "url": "https://miet.ac.in/media_image/hostel_booklet.pdf",
+        "context": "Hostel Rule Book",
+        "score": 22,
+        "reasons": [
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ]
+      }
+    ],
+    "selected_links": [],
+    "selected_count": 0,
+    "status": "NO_STRONG_CHILD_LINK"
+  }
+]

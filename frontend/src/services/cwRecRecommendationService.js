@@ -1,4 +1,4 @@
-﻿import { API_BASE_URL } from './apiClient';
+import { API_BASE_URL } from './apiClient';
 
 const WEIGHTS = Object.freeze({
   admission: 50,
@@ -115,39 +115,86 @@ function buildReasons(row) {
 }
 
 
-function getAdmissionBucketFromRank(
+function getAdmissionBucketFromHistoricalWindow(
   studentRank,
-  closingRank
+  r1OpeningRank,
+  lastRoundClosingRank
 ) {
   const rank =
-    Number(studentRank);
+    Number(
+      studentRank
+    );
 
-  const cutoff =
-    Number(closingRank);
+  const opening =
+    Number(
+      r1OpeningRank
+    );
+
+  const closing =
+    Number(
+      lastRoundClosingRank
+    );
+
 
   if (
     !Number.isFinite(rank) ||
     rank <= 0 ||
-    !Number.isFinite(cutoff) ||
-    cutoff <= 0
+    !Number.isFinite(opening) ||
+    opening <= 0 ||
+    !Number.isFinite(closing) ||
+    closing <= 0
+  ) {
+    return null;
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Round-1 Opening -> Last Available Round Closing
+  |--------------------------------------------------------------------------
+  */
+
+
+  if (
+    rank <= opening
+  ) {
+    return 'backup';
+  }
+
+
+  if (
+    closing <= opening
+  ) {
+    return rank <= closing
+      ? 'safe'
+      : 'dream';
+  }
+
+
+  const position =
+    (
+      rank -
+      opening
+    ) /
+    (
+      closing -
+      opening
+    );
+
+
+  if (
+    position <= 0.60
+  ) {
+    return 'safe';
+  }
+
+
+  if (
+    rank <= closing
   ) {
     return 'target';
   }
 
-  const rankRatio =
-    rank / cutoff;
-
-  if (rankRatio <= 0.60) {
-    return 'backup';
-  }
-
-  if (rankRatio <= 0.85) {
-    return 'safe';
-  }
-
-  if (rankRatio <= 1.05) {
-    return 'target';
-  }
 
   return 'dream';
 }
@@ -174,10 +221,36 @@ export function adaptCWRecRow(row, studentRank = null) {
       ? optionalNumber(row?.location?.score)
       : null;
 
+  /*
+  |--------------------------------------------------------------------------
+  | INITIAL CANONICAL ADMISSION BUCKET
+  |--------------------------------------------------------------------------
+  |
+  | No click required.
+  |
+  | Uses:
+  | Round-1 opening rank
+  | Last available round closing rank
+  |
+  */
+
   const bucket =
-    getAdmissionBucketFromRank(
+    getAdmissionBucketFromHistoricalWindow(
       studentRank,
+
+      row?.r1OpeningRank ??
+      row?.admission?.r1OpeningRank ??
+      row?.historicalFit?.r1OpeningRank ??
+      row?.openingRank,
+
+      row?.lastRoundClosingRank ??
+      row?.admission?.lastRoundClosingRank ??
+      row?.historicalFit?.lastRoundClosingRank ??
       row?.closingRank
+    ) ??
+    normalizeBucket(
+      row?.bucket ??
+      row?.admission?.bucket
     );
 
   return {
@@ -222,8 +295,21 @@ export function adaptCWRecRow(row, studentRank = null) {
           row?.openingRank
         ),
 
+      /*
+      |--------------------------------------------------------------------------
+      | DISPLAY CLOSING RANK
+      |--------------------------------------------------------------------------
+      |
+      | Card must show the closing rank of the LAST AVAILABLE ROUND,
+      | not the currently selected / Round-1 closing rank.
+      |
+      */
+
       closingRank:
         optionalNumber(
+          row?.lastRoundClosingRank ??
+          row?.admission?.lastRoundClosingRank ??
+          row?.historicalFit?.lastRoundClosingRank ??
           row?.closingRank
         ),
 
@@ -258,6 +344,111 @@ export function adaptCWRecRow(row, studentRank = null) {
     },
 
     bucket,
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | HISTORICAL ADMISSION WINDOW
+    |--------------------------------------------------------------------------
+    */
+
+    r1OpeningRank:
+      optionalNumber(
+        row?.r1OpeningRank ??
+        row?.admission?.r1OpeningRank ??
+        row?.historicalFit?.r1OpeningRank
+      ),
+
+
+    lastRoundClosingRank:
+      optionalNumber(
+        row?.lastRoundClosingRank ??
+        row?.admission?.lastRoundClosingRank ??
+        row?.historicalFit?.lastRoundClosingRank
+      ),
+
+
+    historicalFit: {
+      ...(
+        row?.historicalFit ||
+        {}
+      ),
+
+      bucket,
+
+      label:
+        bucket === 'backup'
+          ? 'Backup'
+          : bucket === 'safe'
+            ? 'Safe'
+            : bucket === 'target'
+              ? 'Target'
+              : bucket === 'dream'
+                ? 'Dream'
+                : 'Admission Fit',
+
+      r1OpeningRank:
+        optionalNumber(
+          row?.r1OpeningRank ??
+          row?.admission?.r1OpeningRank ??
+          row?.historicalFit?.r1OpeningRank
+        ),
+
+      lastRoundClosingRank:
+        optionalNumber(
+          row?.lastRoundClosingRank ??
+          row?.admission?.lastRoundClosingRank ??
+          row?.historicalFit?.lastRoundClosingRank
+        ),
+    },
+
+
+    admission: {
+      ...(
+        row?.admission ||
+        {}
+      ),
+
+      bucket:
+        bucket === 'backup'
+          ? 'Backup'
+          : bucket === 'safe'
+            ? 'Safe'
+            : bucket === 'target'
+              ? 'Target'
+              : bucket === 'dream'
+                ? 'Dream'
+                : row?.admission?.bucket,
+
+      label:
+        bucket === 'backup'
+          ? 'Backup'
+          : bucket === 'safe'
+            ? 'Safe'
+            : bucket === 'target'
+              ? 'Target'
+              : bucket === 'dream'
+                ? 'Dream'
+                : row?.admission?.label,
+
+      r1OpeningRank:
+        optionalNumber(
+          row?.r1OpeningRank ??
+          row?.admission?.r1OpeningRank ??
+          row?.historicalFit?.r1OpeningRank
+        ),
+
+      lastRoundClosingRank:
+        optionalNumber(
+          row?.lastRoundClosingRank ??
+          row?.admission?.lastRoundClosingRank ??
+          row?.historicalFit?.lastRoundClosingRank
+        ),
+
+      admissionModel:
+        'R1_OPENING_TO_LAST_ROUND_CLOSING',
+    },
+
 
     overall:
       optionalNumber(
@@ -295,6 +486,7 @@ export function adaptCWRecRow(row, studentRank = null) {
         key: bucket,
 
         label:
+          row?.bucket ||
           row?.admission?.bucket ||
           'Admission Fit',
       },

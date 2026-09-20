@@ -1,0 +1,2713 @@
+[
+  {
+    "josaa_code": "114",
+    "josaa_name": "Indian Institute of Technology (ISM) Dhanbad",
+    "college_id": "indian-institute-of-technology-dhanbad",
+    "college_name": "Indian Institute of Technology (ISM) Dhanbad",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "201",
+    "josaa_name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "college_id": "dr-b-r-ambedkar-national-institute-of-technology-jalandhar",
+    "college_name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "website": "https://www.nitj.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "204",
+    "josaa_name": "Motilal Nehru National Institute of Technology Allahabad",
+    "college_id": "motilal-nehru-national-institute-of-technology-allahabad",
+    "college_name": "Motilal Nehru National Institute of Technology Allahabad",
+    "website": "https://www.mnnit.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "213",
+    "josaa_name": "National Institute of Technology Nagaland",
+    "college_id": "national-institute-of-technology-nagaland",
+    "college_name": "National Institute of Technology Nagaland",
+    "website": "https://nitnagaland.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "228",
+    "josaa_name": "National Institute of Technology, Warangal",
+    "college_id": "national-institute-of-technology-warangal",
+    "college_name": "National Institute of Technology, Warangal",
+    "website": "https://www.nitw.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "230",
+    "josaa_name": "Visvesvaraya National Institute of Technology, Nagpur",
+    "college_id": "visvesvaraya-national-institute-of-technology-nagpur",
+    "college_name": "Visvesvaraya National Institute of Technology, Nagpur",
+    "website": "https://vnit.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "301",
+    "josaa_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "college_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "website": "https://www.iiitm.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "302",
+    "josaa_name": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
+    "college_id": "indian-institute-of-information-technology-kota-rajasthan",
+    "college_name": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "304",
+    "josaa_name": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
+    "college_id": "indian-institute-of-information-technology-kalyani-west-bengal",
+    "college_name": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "305",
+    "josaa_name": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+    "college_id": "indian-institute-of-information-technology-kilohrad-sonepat-haryana",
+    "college_name": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "306",
+    "josaa_name": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+    "college_id": "indian-institute-of-information-technology-una-himachal-pradesh",
+    "college_name": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "307",
+    "josaa_name": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
+    "college_id": "indian-institute-of-information-technology-sri-city-chittoor",
+    "college_name": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "311",
+    "josaa_name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+    "college_id": "pt-dwarka-prasad-mishra-indian-institute-of-information-technology-design-manufacture-jabalpur",
+    "college_name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+    "website": "https://www.iiitdmj.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "313",
+    "josaa_name": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR",
+    "college_id": "indian-institute-of-information-technology-senapati-manipur",
+    "college_name": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "316",
+    "josaa_name": "Indian Institute of Information Technology(IIIT) Dharwad",
+    "college_id": "indian-institute-of-information-technology-dharwad",
+    "college_name": "Indian Institute of Information Technology(IIIT) Dharwad",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "317",
+    "josaa_name": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kurnool-andhra-pradesh",
+    "college_name": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "320",
+    "josaa_name": "Indian Institute of Information Technology (IIIT) Nagpur",
+    "college_id": "indian-institute-of-information-technology-nagpur",
+    "college_name": "Indian Institute of Information Technology (IIIT) Nagpur",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "321",
+    "josaa_name": "Indian Institute of Information Technology (IIIT) Pune",
+    "college_id": "indian-institute-of-information-technology-pune",
+    "college_name": "Indian Institute of Information Technology (IIIT) Pune",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "323",
+    "josaa_name": "Indian Institute of Information Technology Bhopal",
+    "college_id": "indian-institute-of-information-technology-bhopal",
+    "college_name": "Indian Institute of Information Technology Bhopal",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "326",
+    "josaa_name": "Indian institute of information technology, Raichur, Karnataka",
+    "college_id": "indian-institute-of-information-technology-raichur-karnataka",
+    "college_name": "Indian institute of information technology, Raichur, Karnataka",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "404",
+    "josaa_name": "Indian Institute of Carpet Technology, Bhadohi",
+    "college_id": "indian-institute-of-carpet-technology-bhadohi",
+    "college_name": "Indian Institute of Carpet Technology, Bhadohi",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "406",
+    "josaa_name": "School of Studies of Engineering and Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur",
+    "college_id": "school-of-studies-of-engineering-and-technology-guru-ghasidas-vishwavidyalaya-bilaspur",
+    "college_name": "School of Studies of Engineering and Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "407",
+    "josaa_name": "J.K. Institute of Applied Physics & Technology, Department of Electronics & Communication, University of Allahabad- Allahabad",
+    "college_id": "j-k-institute-of-applied-physics-technology-department-of-electronics-communication-university-of-al",
+    "college_name": "J.K. Institute of Applied Physics & Technology, Department of Electronics & Communication, University of Allahabad- Allahabad",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "412",
+    "josaa_name": "School of Engineering, Tezpur University, Napaam, Tezpur",
+    "college_id": "school-of-engineering-tezpur-university-napaam-tezpur",
+    "college_name": "School of Engineering, Tezpur University, Napaam, Tezpur",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "413",
+    "josaa_name": "School of Planning & Architecture, Bhopal",
+    "college_id": "school-of-planning-architecture-bhopal",
+    "college_name": "School of Planning & Architecture, Bhopal",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "414",
+    "josaa_name": "School of Planning & Architecture, New Delhi",
+    "college_id": "school-of-planning-architecture-new-delhi",
+    "college_name": "School of Planning & Architecture, New Delhi",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "415",
+    "josaa_name": "School of Planning & Architecture: Vijayawada",
+    "college_id": "school-of-planning-architecture-vijayawada",
+    "college_name": "School of Planning & Architecture: Vijayawada",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "421",
+    "josaa_name": "University of Hyderabad",
+    "college_id": "university-of-hyderabad",
+    "college_name": "University of Hyderabad",
+    "website": "https://uohyd.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "426",
+    "josaa_name": "Puducherry Technological University, Puducherry",
+    "college_id": "puducherry-technological-university-puducherry",
+    "college_name": "Puducherry Technological University, Puducherry",
+    "website": "https://www.ptuniv.edu.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "427",
+    "josaa_name": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
+    "college_id": "ghani-khan-choudhary-institute-of-engineering-and-technology-malda-west-bengal",
+    "college_name": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "430",
+    "josaa_name": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+    "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-kundli",
+    "college_name": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+    "website": "https://niftem.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "431",
+    "josaa_name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+    "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-thanjavur",
+    "college_name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+    "website": "https://niftem-t.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "432",
+    "josaa_name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+    "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+    "college_name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+    "website": "https://nerist.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "433",
+    "josaa_name": "Indian Institute of Handloom Technology(IIHT), Varanasi",
+    "college_id": "indian-institute-of-handloom-technology-varanasi",
+    "college_name": "Indian Institute of Handloom Technology(IIHT), Varanasi",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "435",
+    "josaa_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+    "college_id": "institute-of-chemical-technology-mumbai-indian-oil-odisha-campus-bhubaneswar",
+    "college_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "438",
+    "josaa_name": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)",
+    "college_id": "institute-of-engineering-and-technology-dr-h-s-gour-university-sagar",
+    "college_name": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "439",
+    "josaa_name": "Central University of Haryana",
+    "college_id": "central-university-of-haryana",
+    "college_name": "Central University of Haryana",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "445",
+    "josaa_name": "National Institute of Electronics and Information Technology, Ropar (Punjab)",
+    "college_id": "national-institute-of-electronics-and-information-technology-ropar",
+    "college_name": "National Institute of Electronics and Information Technology, Ropar (Punjab)",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "446",
+    "josaa_name": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+    "college_id": "national-institute-of-electronics-and-information-technology-patna",
+    "college_name": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "447",
+    "josaa_name": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)",
+    "college_id": "national-institute-of-electronics-and-information-technology-ajmer",
+    "college_name": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "448",
+    "josaa_name": "National Institute of Electronics and Information Technology, Gorakhpur (UP)",
+    "college_id": "national-institute-of-electronics-and-information-technology-gorakhpur",
+    "college_name": "National Institute of Electronics and Information Technology, Gorakhpur (UP)",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "449",
+    "josaa_name": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)",
+    "college_id": "rajiv-gandhi-national-aviation-university-fursatganj-amethi",
+    "college_name": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "450",
+    "josaa_name": "Islamic University of Science and Technology Kashmir",
+    "college_id": "islamic-university-of-science-and-technology-kashmir",
+    "college_name": "Islamic University of Science and Technology Kashmir",
+    "website": "https://www.iust.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "451",
+    "josaa_name": "Shri G. S. Institute of Technology and Science Indore",
+    "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+    "college_name": "Shri G. S. Institute of Technology and Science Indore",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "452",
+    "josaa_name": "National Institute of Technical Teachers Training and Research Bhopal",
+    "college_id": "national-institute-of-technical-teachers-training-and-research-bhopal",
+    "college_name": "National Institute of Technical Teachers Training and Research Bhopal",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "454",
+    "josaa_name": "National Institute of Electronics and Information Technology, Agartala",
+    "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+    "college_name": "National Institute of Electronics and Information Technology, Agartala",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "455",
+    "josaa_name": "National Institute of Electronics and Information Technology, Aizawl",
+    "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+    "college_name": "National Institute of Electronics and Information Technology, Aizawl",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "456",
+    "josaa_name": "National Institute of Electronics and Information Technology, Imphal",
+    "college_id": "national-institute-of-electronics-and-information-technology-imphal",
+    "college_name": "National Institute of Electronics and Information Technology, Imphal",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "457",
+    "josaa_name": "National Institute of Electronics and Information Technology, Calicut",
+    "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+    "college_name": "National Institute of Electronics and Information Technology, Calicut",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "458",
+    "josaa_name": "National Institute of Electronics and Information Technology, Kohima",
+    "college_id": "national-institute-of-electronics-and-information-technology-kohima",
+    "college_name": "National Institute of Electronics and Information Technology, Kohima",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "459",
+    "josaa_name": "National Institute of Electronics and Information Technology, Srinagar",
+    "college_id": "national-institute-of-electronics-and-information-technology-srinagar",
+    "college_name": "National Institute of Electronics and Information Technology, Srinagar",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "101",
+    "josaa_name": "Indian Institute of Technology Bhubaneswar",
+    "college_id": "indian-institute-of-technology-bhubaneswar",
+    "college_name": "Indian Institute of Technology Bhubaneswar",
+    "website": "https://www.iitbbs.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "118",
+    "josaa_name": "Indian Institute of Technology Bhilai",
+    "college_id": "indian-institute-of-technology-bhilai",
+    "college_name": "Indian Institute of Technology Bhilai",
+    "website": "https://www.iitbhilai.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "119",
+    "josaa_name": "Indian Institute of Technology Goa",
+    "college_id": "indian-institute-of-technology-goa",
+    "college_name": "Indian Institute of Technology Goa",
+    "website": "https://iitgoa.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "120",
+    "josaa_name": "Indian Institute of Technology Palakkad",
+    "college_id": "indian-institute-of-technology-palakkad",
+    "college_name": "Indian Institute of Technology Palakkad",
+    "website": "https://iitpkd.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "121",
+    "josaa_name": "Indian Institute of Technology Tirupati",
+    "college_id": "indian-institute-of-technology-tirupati",
+    "college_name": "Indian Institute of Technology Tirupati",
+    "website": "https://www.iittp.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "123",
+    "josaa_name": "Indian Institute of Technology Dharwad",
+    "college_id": "indian-institute-of-technology-dharwad",
+    "college_name": "Indian Institute of Technology Dharwad",
+    "website": "https://www.iitdh.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "124",
+    "josaa_name": "Indian Institute of Science, Bangalore",
+    "college_id": "indian-institute-of-science-bangalore",
+    "college_name": "Indian Institute of Science, Bangalore",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "203",
+    "josaa_name": "Maulana Azad National Institute of Technology Bhopal",
+    "college_id": "maulana-azad-national-institute-of-technology-bhopal",
+    "college_name": "Maulana Azad National Institute of Technology Bhopal",
+    "website": "https://www.manit.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "205",
+    "josaa_name": "National Institute of Technology Agartala",
+    "college_id": "national-institute-of-technology-agartala",
+    "college_name": "National Institute of Technology Agartala",
+    "website": "https://nita.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "207",
+    "josaa_name": "National Institute of Technology Delhi",
+    "college_id": "national-institute-of-technology-delhi",
+    "college_name": "National Institute of Technology Delhi",
+    "website": "https://nitdelhi.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "208",
+    "josaa_name": "National Institute of Technology Durgapur",
+    "college_id": "national-institute-of-technology-durgapur",
+    "college_name": "National Institute of Technology Durgapur",
+    "website": "https://nitdgp.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "209",
+    "josaa_name": "National Institute of Technology Goa",
+    "college_id": "national-institute-of-technology-goa",
+    "college_name": "National Institute of Technology Goa",
+    "website": "https://nitgoa.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "210",
+    "josaa_name": "National Institute of Technology Hamirpur",
+    "college_id": "national-institute-of-technology-hamirpur",
+    "college_name": "National Institute of Technology Hamirpur",
+    "website": "https://nith.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "212",
+    "josaa_name": "National Institute of Technology Meghalaya",
+    "college_id": "national-institute-of-technology-meghalaya",
+    "college_name": "National Institute of Technology Meghalaya",
+    "website": "https://www.nitm.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "215",
+    "josaa_name": "National Institute of Technology Puducherry",
+    "college_id": "national-institute-of-technology-puducherry",
+    "college_name": "National Institute of Technology Puducherry",
+    "website": "https://www.nitpy.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "218",
+    "josaa_name": "National Institute of Technology Arunachal Pradesh",
+    "college_id": "national-institute-of-technology-arunachal-pradesh",
+    "college_name": "National Institute of Technology Arunachal Pradesh",
+    "website": "https://www.nitap.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "222",
+    "josaa_name": "National Institute of Technology, Mizoram",
+    "college_id": "national-institute-of-technology-mizoram",
+    "college_name": "National Institute of Technology, Mizoram",
+    "website": "https://www.nitmz.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "224",
+    "josaa_name": "National Institute of Technology, Silchar",
+    "college_id": "national-institute-of-technology-silchar",
+    "college_name": "National Institute of Technology, Silchar",
+    "website": "https://www.nits.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "225",
+    "josaa_name": "National Institute of Technology, Srinagar",
+    "college_id": "national-institute-of-technology-srinagar",
+    "college_name": "National Institute of Technology, Srinagar",
+    "website": "https://nitsri.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "227",
+    "josaa_name": "National Institute of Technology, Uttarakhand",
+    "college_id": "national-institute-of-technology-uttarakhand",
+    "college_name": "National Institute of Technology, Uttarakhand",
+    "website": "https://nituk.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "229",
+    "josaa_name": "Sardar Vallabhbhai National Institute of Technology, Surat",
+    "college_id": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "college_name": "Sardar Vallabhbhai National Institute of Technology, Surat",
+    "website": "https://www.svnit.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "231",
+    "josaa_name": "National Institute of Technology, Andhra Pradesh",
+    "college_id": "national-institute-of-technology-andhra-pradesh",
+    "college_name": "National Institute of Technology, Andhra Pradesh",
+    "website": "https://nitandhra.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "232",
+    "josaa_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+    "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "college_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+    "website": "https://www.iiests.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "310",
+    "josaa_name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+    "college_name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+    "website": "https://www.iiitdm.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "314",
+    "josaa_name": "Indian Institute of Information Technology Tiruchirappalli",
+    "college_id": "indian-institute-of-information-technology-tiruchirappalli",
+    "college_name": "Indian Institute of Information Technology Tiruchirappalli",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "315",
+    "josaa_name": "Indian Institute of Information Technology Lucknow",
+    "college_id": "indian-institute-of-information-technology-lucknow",
+    "college_name": "Indian Institute of Information Technology Lucknow",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "318",
+    "josaa_name": "Indian Institute of Information Technology(IIIT) Kottayam",
+    "college_id": "indian-institute-of-information-technology-kottayam",
+    "college_name": "Indian Institute of Information Technology(IIIT) Kottayam",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "319",
+    "josaa_name": "Indian Institute of Information Technology (IIIT) Ranchi",
+    "college_id": "indian-institute-of-information-technology-ranchi",
+    "college_name": "Indian Institute of Information Technology (IIIT) Ranchi",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "324",
+    "josaa_name": "Indian Institute of Information Technology Surat",
+    "college_id": "indian-institute-of-information-technology-surat",
+    "college_name": "Indian Institute of Information Technology Surat",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "325",
+    "josaa_name": "Indian Institute of Information Technology, Agartala",
+    "college_id": "indian-institute-of-information-technology-agartala",
+    "college_name": "Indian Institute of Information Technology, Agartala",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "403",
+    "josaa_name": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+    "college_id": "gurukula-kangri-vishwavidyalaya-haridwar",
+    "college_name": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "405",
+    "josaa_name": "Institute of Infrastructure, Technology, Research and Management-Ahmedabad",
+    "college_id": "institute-of-infrastructure-technology-research-and-management-ahmedabad",
+    "college_name": "Institute of Infrastructure, Technology, Research and Management-Ahmedabad",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "408",
+    "josaa_name": "National Institute of Electronics and Information Technology, Aurangabad (Maharashtra)",
+    "college_id": "national-institute-of-electronics-and-information-technology-aurangabad",
+    "college_name": "National Institute of Electronics and Information Technology, Aurangabad (Maharashtra)",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "409",
+    "josaa_name": "National Institute of Advanced Manufacturing Technology, Ranchi",
+    "college_id": "national-institute-of-advanced-manufacturing-technology-ranchi",
+    "college_name": "National Institute of Advanced Manufacturing Technology, Ranchi",
+    "website": "https://niamt.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "410",
+    "josaa_name": "Sant Longowal Institute of Engineering and Technology",
+    "college_id": "sant-longowal-institute-of-engineering-and-technology",
+    "college_name": "Sant Longowal Institute of Engineering and Technology",
+    "website": "https://sliet.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "411",
+    "josaa_name": "Mizoram University, Aizawl",
+    "college_id": "mizoram-university-aizawl",
+    "college_name": "Mizoram University, Aizawl",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "416",
+    "josaa_name": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+    "college_id": "shri-mata-vaishno-devi-university-katra-jammu-kashmir",
+    "college_name": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+    "website": "https://www.smvdu.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "420",
+    "josaa_name": "International Institute of Information Technology, Naya Raipur",
+    "college_id": "international-institute-of-information-technology-naya-raipur",
+    "college_name": "International Institute of Information Technology, Naya Raipur",
+    "website": "https://www.iiitnr.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "422",
+    "josaa_name": "Punjab Engineering College, Chandigarh",
+    "college_id": "punjab-engineering-college-chandigarh",
+    "college_name": "Punjab Engineering College, Chandigarh",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "423",
+    "josaa_name": "Jawaharlal Nehru University, Delhi",
+    "college_id": "jawaharlal-nehru-university-delhi",
+    "college_name": "Jawaharlal Nehru University, Delhi",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "424",
+    "josaa_name": "International Institute of Information Technology, Bhubaneswar",
+    "college_id": "international-institute-of-information-technology-bhubaneswar",
+    "college_name": "International Institute of Information Technology, Bhubaneswar",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "425",
+    "josaa_name": "Central institute of Technology Kokrajar, Assam",
+    "college_id": "central-institute-of-technology-kokrajar-assam",
+    "college_name": "Central institute of Technology Kokrajar, Assam",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "434",
+    "josaa_name": "Chhattisgarh Swami Vivekanada Technical University, Bhilai (CSVTU Bhilai)",
+    "college_id": "chhattisgarh-swami-vivekanada-technical-university-bhilai",
+    "college_name": "Chhattisgarh Swami Vivekanada Technical University, Bhilai (CSVTU Bhilai)",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "436",
+    "josaa_name": "North-Eastern Hill University, Shillong",
+    "college_id": "north-eastern-hill-university-shillong",
+    "college_name": "North-Eastern Hill University, Shillong",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "437",
+    "josaa_name": "Central University of Jammu",
+    "college_id": "central-university-of-jammu",
+    "college_name": "Central University of Jammu",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "442",
+    "josaa_name": "Indian Institute of Handloom Technology, Salem",
+    "college_id": "indian-institute-of-handloom-technology-salem",
+    "college_name": "Indian Institute of Handloom Technology, Salem",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "443",
+    "josaa_name": "Gati Shakti Vishwavidyalaya, Vadodara",
+    "college_id": "gati-shakti-vishwavidyalaya-vadodara",
+    "college_name": "Gati Shakti Vishwavidyalaya, Vadodara",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "460",
+    "josaa_name": "Central University of Punjab, Bathinda",
+    "college_id": "central-university-of-punjab-bathinda",
+    "college_name": "Central University of Punjab, Bathinda",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "102",
+    "josaa_name": "Indian Institute of Technology Bombay",
+    "college_id": "indian-institute-of-technology-bombay",
+    "college_name": "Indian Institute of Technology Bombay",
+    "website": "https://www.iitb.ac.in",
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "104",
+    "josaa_name": "Indian Institute of Technology Delhi",
+    "college_id": "indian-institute-of-technology-delhi",
+    "college_name": "Indian Institute of Technology Delhi",
+    "website": "https://home.iitd.ac.in",
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "108",
+    "josaa_name": "Indian Institute of Technology Jodhpur",
+    "college_id": "indian-institute-of-technology-jodhpur",
+    "college_name": "Indian Institute of Technology Jodhpur",
+    "website": "https://iitj.ac.in",
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "110",
+    "josaa_name": "Indian Institute of Technology Madras",
+    "college_id": "indian-institute-of-technology-madras",
+    "college_name": "Indian Institute of Technology Madras",
+    "website": "https://www.iitm.ac.in",
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "202",
+    "josaa_name": "Malaviya National Institute of Technology Jaipur",
+    "college_id": "malaviya-national-institute-of-technology-jaipur",
+    "college_name": "Malaviya National Institute of Technology Jaipur",
+    "website": "https://mnit.ac.in",
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "221",
+    "josaa_name": "National Institute of Technology, Manipur",
+    "college_id": "national-institute-of-technology-manipur",
+    "college_name": "National Institute of Technology, Manipur",
+    "website": "https://nitmanipur.ac.in",
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "322",
+    "josaa_name": "Indian Institute of Information Technology Bhagalpur",
+    "college_id": "indian-institute-of-information-technology-bhagalpur",
+    "college_name": "Indian Institute of Information Technology Bhagalpur",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "401",
+    "josaa_name": "Assam University, Silchar",
+    "college_id": "assam-university-silchar",
+    "college_name": "Assam University, Silchar",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "444",
+    "josaa_name": "CU Jharkhand",
+    "college_id": "cu-jharkhand",
+    "college_name": "CU Jharkhand",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "453",
+    "josaa_name": "Central University of Karnataka",
+    "college_id": "central-university-of-karnataka",
+    "college_name": "Central University of Karnataka",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "106",
+    "josaa_name": "Indian Institute of Technology Kharagpur",
+    "college_id": "indian-institute-of-technology-kharagpur",
+    "college_name": "Indian Institute of Technology Kharagpur",
+    "website": "https://www.iitkgp.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "109",
+    "josaa_name": "Indian Institute of Technology Kanpur",
+    "college_id": "indian-institute-of-technology-kanpur",
+    "college_name": "Indian Institute of Technology Kanpur",
+    "website": "https://www.iitk.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "111",
+    "josaa_name": "Indian Institute of Technology Gandhinagar",
+    "college_id": "iit-gandhinagar",
+    "college_name": "IIT Gandhinagar",
+    "website": "https://www.iitgn.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "112",
+    "josaa_name": "Indian Institute of Technology Patna",
+    "college_id": "indian-institute-of-technology-patna",
+    "college_name": "Indian Institute of Technology Patna",
+    "website": "https://www.iitp.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "115",
+    "josaa_name": "Indian Institute of Technology Ropar",
+    "college_id": "indian-institute-of-technology-ropar",
+    "college_name": "Indian Institute of Technology Ropar",
+    "website": "https://www.iitrpr.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "116",
+    "josaa_name": "Indian Institute of Technology (BHU) Varanasi",
+    "college_id": "indian-institute-of-technology-varanasi",
+    "college_name": "Indian Institute of Technology (BHU) Varanasi",
+    "website": "https://www.iitbhu.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "122",
+    "josaa_name": "Indian Institute of Technology Jammu",
+    "college_id": "indian-institute-of-technology-jammu",
+    "college_name": "Indian Institute of Technology Jammu",
+    "website": "https://iitjammu.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "206",
+    "josaa_name": "National Institute of Technology Calicut",
+    "college_id": "national-institute-of-technology-calicut",
+    "college_name": "National Institute of Technology Calicut",
+    "website": "https://nitc.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "214",
+    "josaa_name": "National Institute of Technology Patna",
+    "college_id": "national-institute-of-technology-patna",
+    "college_name": "National Institute of Technology Patna",
+    "website": "https://www.nitp.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "216",
+    "josaa_name": "National Institute of Technology Raipur",
+    "college_id": "national-institute-of-technology-raipur",
+    "college_name": "National Institute of Technology Raipur",
+    "website": "https://nitrr.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "219",
+    "josaa_name": "National Institute of Technology, Jamshedpur",
+    "college_id": "national-institute-of-technology-jamshedpur",
+    "college_name": "National Institute of Technology, Jamshedpur",
+    "website": "https://www.nitjsr.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "220",
+    "josaa_name": "National Institute of Technology, Kurukshetra",
+    "college_id": "national-institute-of-technology-kurukshetra",
+    "college_name": "National Institute of Technology, Kurukshetra",
+    "website": "https://nitkkr.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "103",
+    "josaa_name": "Indian Institute of Technology Mandi",
+    "college_id": "indian-institute-of-technology-mandi",
+    "college_name": "Indian Institute of Technology Mandi",
+    "website": "https://www.iitmandi.ac.in",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "113",
+    "josaa_name": "Indian Institute of Technology Roorkee",
+    "college_id": "indian-institute-of-technology-roorkee",
+    "college_name": "Indian Institute of Technology Roorkee",
+    "website": "https://www.iitr.ac.in",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "117",
+    "josaa_name": "Indian Institute of Technology Guwahati",
+    "college_id": "indian-institute-of-technology-guwahati",
+    "college_name": "Indian Institute of Technology Guwahati",
+    "website": "https://www.iitg.ac.in",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "211",
+    "josaa_name": "National Institute of Technology Karnataka, Surathkal",
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "college_name": "National Institute of Technology Karnataka, Surathkal",
+    "website": "https://www.nitk.ac.in/",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "217",
+    "josaa_name": "National Institute of Technology Sikkim",
+    "college_id": "national-institute-of-technology-sikkim",
+    "college_name": "National Institute of Technology Sikkim",
+    "website": "https://nitsikkim.ac.in",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "hostel_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "223",
+    "josaa_name": "National Institute of Technology, Rourkela",
+    "college_id": "national-institute-of-technology-rourkela",
+    "college_name": "National Institute of Technology, Rourkela",
+    "website": "https://www.nitrkl.ac.in",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "226",
+    "josaa_name": "National Institute of Technology, Tiruchirappalli",
+    "college_id": "national-institute-of-technology-tiruchirappalli",
+    "college_name": "National Institute of Technology, Tiruchirappalli",
+    "website": "https://www.nitt.edu",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "402",
+    "josaa_name": "Birla Institute of Technology, Mesra, Ranchi",
+    "college_id": "birla-institute-of-technology-mesra-ranchi",
+    "college_name": "Birla Institute of Technology, Mesra, Ranchi",
+    "website": "https://www.bitmesra.ac.in",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "440",
+    "josaa_name": "Birla Institute of Technology, Deoghar Off-Campus",
+    "college_id": "birla-institute-of-technology-deoghar-off-campus",
+    "college_name": "Birla Institute of Technology, Deoghar Off-Campus",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "441",
+    "josaa_name": "Birla Institute of Technology, Patna Off-Campus",
+    "college_id": "birla-institute-of-technology-patna-off-campus",
+    "college_name": "Birla Institute of Technology, Patna Off-Campus",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "105",
+    "josaa_name": "Indian Institute of Technology Indore",
+    "college_id": "indian-institute-of-technology-indore",
+    "college_name": "Indian Institute of Technology Indore",
+    "website": "https://www.iiti.ac.in",
+    "fee_year": 2026,
+    "available_fields": 5,
+    "missing_count": 3,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "308",
+    "josaa_name": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+    "college_id": "indian-institute-of-information-technology-vadodara-gujrat",
+    "college_name": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 5,
+    "missing_count": 3,
+    "missing_fields": [
+      "hostel_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "327",
+    "josaa_name": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+    "college_id": "indian-institute-of-information-technology-vadodara-international-campus-diu",
+    "college_name": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 5,
+    "missing_count": 3,
+    "missing_fields": [
+      "hostel_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "309",
+    "josaa_name": "Indian Institute of Information Technology, Allahabad",
+    "college_id": "indian-institute-of-information-technology-allahabad",
+    "college_name": "Indian Institute of Information Technology, Allahabad",
+    "website": "https://www.iiita.ac.in",
+    "fee_year": 2026,
+    "available_fields": 6,
+    "missing_count": 2,
+    "missing_fields": [
+      "mess_fee_per_semester",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "428",
+    "josaa_name": "Central University of Rajasthan, Rajasthan",
+    "college_id": "central-university-of-rajasthan-rajasthan",
+    "college_name": "Central University of Rajasthan, Rajasthan",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 6,
+    "missing_count": 2,
+    "missing_fields": [
+      "mess_fee_per_semester",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "107",
+    "josaa_name": "Indian Institute of Technology Hyderabad",
+    "college_id": "indian-institute-of-technology-hyderabad",
+    "college_name": "Indian Institute of Technology Hyderabad",
+    "website": "https://www.iith.ac.in",
+    "fee_year": 2026,
+    "available_fields": 7,
+    "missing_count": 1,
+    "missing_fields": [
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "josaa_code": "303",
+    "josaa_name": "Indian Institute of Information Technology Guwahati",
+    "college_id": "indian-institute-of-information-technology-guwahati",
+    "college_name": "Indian Institute of Information Technology Guwahati",
+    "website": "https://www.iiitg.ac.in",
+    "fee_year": 2026,
+    "available_fields": 8,
+    "missing_count": 0,
+    "missing_fields": [],
+    "status": "COMPLETE"
+  }
+]

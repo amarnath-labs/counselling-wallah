@@ -1,0 +1,23 @@
+[
+  {
+    "josaa_code": "311",
+    "josaa_name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+    "college_id": "pt-dwarka-prasad-mishra-indian-institute-of-information-technology-design-manufacture-jabalpur",
+    "college_name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+    "website": "https://www.iiitdmj.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  }
+]

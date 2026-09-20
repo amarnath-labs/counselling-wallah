@@ -1,0 +1,363 @@
+[
+  {
+    "college_id": "assam-university-silchar",
+    "college_name": "Assam University, Silchar",
+    "previous_status": "SOURCE_READY",
+    "academic_year": 2026,
+    "official_website": "https://www.aus.ac.in/",
+    "source_url": "https://www.ausexamination.ac.in/admission/",
+    "final_status": "SOURCE_FETCH_FAILED",
+    "reasons": [
+      "Hostname/IP does not match certificate's altnames: Host: www.ausexamination.ac.in. is not in the cert's altnames: DNS:ausexamination.ac.in"
+    ],
+    "search_queries": [
+      "\"Assam University, Silchar\" B.Tech fee structure 2026-27 official",
+      "\"Assam University, Silchar\" fees 2026 27 pdf",
+      "\"Assam University, Silchar\" B.Tech tuition hostel fee 2026",
+      "\"Assam University, Silchar\" fee structure site:.edu.in",
+      "\"Assam University, Silchar\" fee structure site:.ac.in"
+    ]
+  },
+  {
+    "college_id": "uptac-abss-institute-of-technology-meerut-meerut",
+    "college_name": "ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT\" B.Tech fee structure 2026-27 official",
+      "\"ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT\" fees 2026 27 pdf",
+      "\"ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT\" B.Tech tuition hostel fee 2026",
+      "\"ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT\" fee structure site:.edu.in",
+      "\"ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-allenhouse-institute-of-technology-kanpur",
+    "college_name": "ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR\" B.Tech fee structure 2026-27 official",
+      "\"ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR\" fees 2026 27 pdf",
+      "\"ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR\" B.Tech tuition hostel fee 2026",
+      "\"ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR\" fee structure site:.edu.in",
+      "\"ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-b-n-college-of-engineering-technology-lucknow",
+    "college_name": "B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET),LUCKNOW",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET),LUCKNOW\" B.Tech fee structure 2026-27 official",
+      "\"B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET),LUCKNOW\" fees 2026 27 pdf",
+      "\"B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET),LUCKNOW\" B.Tech tuition hostel fee 2026",
+      "\"B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET),LUCKNOW\" fee structure site:.edu.in",
+      "\"B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET),LUCKNOW\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-a-n-a-college-of-engineering-management-bareilly",
+    "college_name": "A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY\" B.Tech fee structure 2026-27 official",
+      "\"A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY\" fees 2026 27 pdf",
+      "\"A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY\" B.Tech tuition hostel fee 2026",
+      "\"A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY\" fee structure site:.edu.in",
+      "\"A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-acharya-narendra-deva-university-of-agriculture-technology-kumarganj-ayodhya",
+    "college_name": "Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya\" B.Tech fee structure 2026-27 official",
+      "\"Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya\" fees 2026 27 pdf",
+      "\"Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya\" B.Tech tuition hostel fee 2026",
+      "\"Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya\" fee structure site:.edu.in",
+      "\"Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-adhunik-college-of-engg-ghaziabad",
+    "college_name": "ADHUNIK COLLEGE OF ENGG.,GHAZIABAD",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"ADHUNIK COLLEGE OF ENGG.,GHAZIABAD\" B.Tech fee structure 2026-27 official",
+      "\"ADHUNIK COLLEGE OF ENGG.,GHAZIABAD\" fees 2026 27 pdf",
+      "\"ADHUNIK COLLEGE OF ENGG.,GHAZIABAD\" B.Tech tuition hostel fee 2026",
+      "\"ADHUNIK COLLEGE OF ENGG.,GHAZIABAD\" fee structure site:.edu.in",
+      "\"ADHUNIK COLLEGE OF ENGG.,GHAZIABAD\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-aligarh-college-of-engg-tech-aligarh",
+    "college_name": "ALIGARH COLLEGE OF ENGG. & TECH,ALIGARH",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"ALIGARH COLLEGE OF ENGG. & TECH,ALIGARH\" B.Tech fee structure 2026-27 official",
+      "\"ALIGARH COLLEGE OF ENGG. & TECH,ALIGARH\" fees 2026 27 pdf",
+      "\"ALIGARH COLLEGE OF ENGG. & TECH,ALIGARH\" B.Tech tuition hostel fee 2026",
+      "\"ALIGARH COLLEGE OF ENGG. & TECH,ALIGARH\" fee structure site:.edu.in",
+      "\"ALIGARH COLLEGE OF ENGG. & TECH,ALIGARH\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-amani-group-of-institutions-amroha",
+    "college_name": "AMANI GROUP OF INSTITUTIONS,AMROHA",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"AMANI GROUP OF INSTITUTIONS,AMROHA\" B.Tech fee structure 2026-27 official",
+      "\"AMANI GROUP OF INSTITUTIONS,AMROHA\" fees 2026 27 pdf",
+      "\"AMANI GROUP OF INSTITUTIONS,AMROHA\" B.Tech tuition hostel fee 2026",
+      "\"AMANI GROUP OF INSTITUTIONS,AMROHA\" fee structure site:.edu.in",
+      "\"AMANI GROUP OF INSTITUTIONS,AMROHA\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+    "college_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+    "previous_status": "SOURCE_READY",
+    "academic_year": 2026,
+    "official_website": "https://www.aimt.edu.in/",
+    "source_url": "https://www.profile.aimt.edu.in/aimt-fee-structure/",
+    "final_status": "SOURCE_FETCH_FAILED",
+    "reasons": [
+      "Hostname/IP does not match certificate's altnames: Host: www.profile.aimt.edu.in. is not in the cert's altnames: DNS:aimt.edu.in, DNS:www.aimt.edu.in"
+    ],
+    "search_queries": [
+      "\"AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW\" B.Tech fee structure 2026-27 official",
+      "\"AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW\" fees 2026 27 pdf",
+      "\"AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW\" B.Tech tuition hostel fee 2026",
+      "\"AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW\" fee structure site:.edu.in",
+      "\"AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW\" fee structure site:.ac.in"
+    ]
+  },
+  {
+    "college_id": "uptac-apex-institute-of-technology-rampur",
+    "college_name": "APEX INSTITUTE OF TECHNOLOGY,RAMPUR",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"APEX INSTITUTE OF TECHNOLOGY,RAMPUR\" B.Tech fee structure 2026-27 official",
+      "\"APEX INSTITUTE OF TECHNOLOGY,RAMPUR\" fees 2026 27 pdf",
+      "\"APEX INSTITUTE OF TECHNOLOGY,RAMPUR\" B.Tech tuition hostel fee 2026",
+      "\"APEX INSTITUTE OF TECHNOLOGY,RAMPUR\" fee structure site:.edu.in",
+      "\"APEX INSTITUTE OF TECHNOLOGY,RAMPUR\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-apollo-institute-of-technology-kanpur",
+    "college_name": "APOLLO INSTITUTE OF TECHNOLOGY,KANPUR",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"APOLLO INSTITUTE OF TECHNOLOGY,KANPUR\" B.Tech fee structure 2026-27 official",
+      "\"APOLLO INSTITUTE OF TECHNOLOGY,KANPUR\" fees 2026 27 pdf",
+      "\"APOLLO INSTITUTE OF TECHNOLOGY,KANPUR\" B.Tech tuition hostel fee 2026",
+      "\"APOLLO INSTITUTE OF TECHNOLOGY,KANPUR\" fee structure site:.edu.in",
+      "\"APOLLO INSTITUTE OF TECHNOLOGY,KANPUR\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-axis-institute-of-technology-management-kanpur",
+    "college_name": "AXIS INSTITUTE OF TECHNOLOGY & MANAGEMENT,KANPUR",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"AXIS INSTITUTE OF TECHNOLOGY & MANAGEMENT,KANPUR\" B.Tech fee structure 2026-27 official",
+      "\"AXIS INSTITUTE OF TECHNOLOGY & MANAGEMENT,KANPUR\" fees 2026 27 pdf",
+      "\"AXIS INSTITUTE OF TECHNOLOGY & MANAGEMENT,KANPUR\" B.Tech tuition hostel fee 2026",
+      "\"AXIS INSTITUTE OF TECHNOLOGY & MANAGEMENT,KANPUR\" fee structure site:.edu.in",
+      "\"AXIS INSTITUTE OF TECHNOLOGY & MANAGEMENT,KANPUR\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-azad-institute-of-engineering-technology-lucknow",
+    "college_name": "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW\" B.Tech fee structure 2026-27 official",
+      "\"AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW\" fees 2026 27 pdf",
+      "\"AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW\" B.Tech tuition hostel fee 2026",
+      "\"AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW\" fee structure site:.edu.in",
+      "\"AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+    "college_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD\" B.Tech fee structure 2026-27 official",
+      "\"B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD\" fees 2026 27 pdf",
+      "\"B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD\" B.Tech tuition hostel fee 2026",
+      "\"B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD\" fee structure site:.edu.in",
+      "\"B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-b-s-a-college-of-engineering-technology-mathura",
+    "college_name": "B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY,MATHURA",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY,MATHURA\" B.Tech fee structure 2026-27 official",
+      "\"B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY,MATHURA\" fees 2026 27 pdf",
+      "\"B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY,MATHURA\" B.Tech tuition hostel fee 2026",
+      "\"B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY,MATHURA\" fee structure site:.edu.in",
+      "\"B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY,MATHURA\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-babu-banarasi-das-institute-of-technology-and-management-lucknow",
+    "college_name": "BABU BANARASI DAS INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"BABU BANARASI DAS INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW\" B.Tech fee structure 2026-27 official",
+      "\"BABU BANARASI DAS INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW\" fees 2026 27 pdf",
+      "\"BABU BANARASI DAS INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW\" B.Tech tuition hostel fee 2026",
+      "\"BABU BANARASI DAS INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW\" fee structure site:.edu.in",
+      "\"BABU BANARASI DAS INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-babu-banarsi-das-institute-of-tech-ghaziabad",
+    "college_name": "BABU BANARSI DAS INSTITUTE OF TECH.,GHAZIABAD",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"BABU BANARSI DAS INSTITUTE OF TECH.,GHAZIABAD\" B.Tech fee structure 2026-27 official",
+      "\"BABU BANARSI DAS INSTITUTE OF TECH.,GHAZIABAD\" fees 2026 27 pdf",
+      "\"BABU BANARSI DAS INSTITUTE OF TECH.,GHAZIABAD\" B.Tech tuition hostel fee 2026",
+      "\"BABU BANARSI DAS INSTITUTE OF TECH.,GHAZIABAD\" fee structure site:.edu.in",
+      "\"BABU BANARSI DAS INSTITUTE OF TECH.,GHAZIABAD\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  },
+  {
+    "college_id": "uptac-babu-sunder-singh-institute-of-technology-management-lucknow",
+    "college_name": "BABU SUNDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "previous_status": "DISCOVERY_REQUIRED",
+    "academic_year": null,
+    "official_website": null,
+    "source_url": null,
+    "final_status": "SOURCE_DISCOVERY_REQUIRED",
+    "search_queries": [
+      "\"BABU SUNDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW\" B.Tech fee structure 2026-27 official",
+      "\"BABU SUNDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW\" fees 2026 27 pdf",
+      "\"BABU SUNDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW\" B.Tech tuition hostel fee 2026",
+      "\"BABU SUNDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW\" fee structure site:.edu.in",
+      "\"BABU SUNDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW\" fee structure site:.ac.in"
+    ],
+    "reasons": [
+      "No verified fee source URL currently stored."
+    ]
+  }
+]

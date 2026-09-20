@@ -1,0 +1,609 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 3 of 5 in the third batch (NIT Jamshedpur). Colleges 4-5 (NIT Raipur, NIT Patna) to follow in separate responses."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Jamshedpur",
+        "verified_name": "National Institute of Technology, Jamshedpur",
+        "city": "Jamshedpur (Adityapur)",
+        "state": "Jharkhand",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Regional Institute of Technology (RIT), established 15 August 1960 as a joint venture of the Government of India and the (undivided) Government of Bihar; upgraded to NIT/Deemed University status on 27 December 2002; declared Institute of National Importance in 2007. Single main campus (~325 acres) in Adityapur, Jamshedpur. Verified distinct from IIEST Shibpur and IIIT Ranchi, both mentioned in adjacent Quora/Collegedunia discussion threads as separate institutions for comparison purposes — no evidence from those institutions was included in this extraction."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews pages (multiple, including rating-filtered), main overview page, and comparison page retrieved."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page and overview page retrieved with substantive narrative review content; overview page also referenced a specific RTI-based placement data discrepancy claim."},
+        {"platform": "Careers360", "status": "available", "notes": "Aggregate rating confirmed consistently across three Jamshedpur-city category listing pages (Civil M.Tech, general M.Tech, Materials Science)."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located on ragging (consistently describing no ragging) and hostel life."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NIT Jamshedpur located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25584-national-institute-of-technology-nit-jamshedpur",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 729,
+          "verified_review_count": 729,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Jamshedpur has been rated based on 729 verified reviews.' No overall star aggregate co-visible in this specific snippet."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-jamshedpur-national-institute-of-technology-24366",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 776,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 776 Student Reviews, 238 comments.' Distinct count (776) from the Collegedunia figure (729); both retained as separate observations since they are different platforms."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-jamshedpur-national-institute-of-technology-24366/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 776,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 776 NIT Jamshedpur - National Institute of Technology Reviews.' Consistent with the main overview page count."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-me-mtech-in-civil-engineering-colleges-in-jamshedpur",
+          "aggregate_rating": 4.4,
+          "rating_scale": "out of 5",
+          "review_count": 136,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Jamshedpur - National Institute of Technology Jamshedpur ... Rating: 4.4/5, 136 Reviews.'"
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-me-mtech-colleges-in-jamshedpur",
+          "aggregate_rating": 4.4,
+          "rating_scale": "out of 5",
+          "review_count": 137,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Same 4.4/5 rating but 137 reviews (vs 136 on the Civil-Engineering-specific listing) observed on a broader M.Tech listing page — a minor count discrepancy retained as a separate observation rather than reconciled."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-materials-science-and-technology-colleges-in-jamshedpur",
+          "aggregate_rating": 4.4,
+          "rating_scale": "out of 5",
+          "review_count": 137,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Same figures (4.4/5, 137 reviews) as the general M.Tech listing page, consistent with that observation."
+        },
+        {
+          "platform": "Glassdoor",
+          "source_url": "https://www.glassdoor.co.in/Reviews/National-Institute-of-Technology-Jamshedpur-Reviews-E861886.htm",
+          "aggregate_rating": 4.4,
+          "rating_scale": "out of 5",
+          "review_count": 42,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "SCOPE CAVEAT: This reflects EMPLOYEE/staff sentiment about NIT Jamshedpur as a workplace, not student sentiment. Explicitly out of scope for student review_items, consistent with the same caveat applied elsewhere in this dataset."
+        }
+      ],
+
+      "platform_aspect_ratings": [],
+
+      "review_items": [
+        {
+          "college_name": "NIT Jamshedpur",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://www.collegedekho.com/colleges/nit-jamshedpur-reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "other",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "IMPORTANT: This item describes a specific, verifiable transparency/governance concern rather than typical subjective review sentiment — a student reportedly filed an RTI (Right to Information request, a formal Indian legal mechanism) regarding placement statistics, and the resulting official report reportedly showed a discrepancy between institute-published and RTI-obtained average CTC figures, as well as a large gap between average and median figures. This is recorded factually as reported by the source, without independent verification of the RTI report itself, and is NOT classified as ordinary 'negative sentiment' but flagged distinctly given its more substantive, factual nature.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Students on Quora have voiced that the placement statistics shared by the institute encompass off-campus placements as well. A student filed an RTI with NIT Jamshedpur and as per the official RTI report the average CTC as shared by the institute does not tally. Moreover, there was a huge difference between the average and median records. Gladly, either report showed good numbers which justifies that NIT Jamshedpur students [have solid outcomes]' (sentence truncated in source, but overall framing suggests the underlying numbers remain reasonably strong despite the discrepancy)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jamshedpur",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25584-national-institute-of-technology-nit-jamshedpur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Civil Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The placement of non-core branches, the placement for META, PIE branches should improve. NIRF Ranking should also improve. Because of low NIRF ranking last year, no companies wanted to hire from NIT JSR.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'I belong to Civil Engineering, so based on that the course curriculum is good. They teach most of the things in classroom, and even they concern more about GATE examination. Faculty help students solve GATE examination questions in classroom.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'From the 7th semester companies visit which also gives internships to 3rd year students. Total more than 100 companies visited for 575 students. Highest was close to 30 LPA and average is 7 to 8 LPA depending on the branch. CSE was above 10 LPA. More than 90 percent gets placed.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Quality mess food, stability of Wi-Fi, no working Wi-Fi is there in girls hostel, outside people visit our campus because they find [a] short cut.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jamshedpur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-jamshedpur-national-institute-of-technology-24366/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Real review from NITian",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Production and Industrial Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Production and Industrial Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Production and Industrial Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Almost 95% above are placed in the PIE branch. Overall, there is 92% placement percentage at NIT Jamshedpur. In this course, the highest would be around 18-20 LPA and above, the average would be around 10 LPA, and the lowest would be around 5 LPA. Eaton, JSW Steel, Flipkart (supply management roles) are recruiters, with top roles like Data Analyst and supply chain roles.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Hostel, I would rate 5 above and more, especially the hostel is at the level of IITs and above any NIT's hostel. Cleanliness in the hostel is also top-level, sweeping machines are used.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Mess food, I would rate 4.5. Non-Veg is very good. Veg students have to suffer a little bit. Medical, I would rate 5.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jamshedpur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-jamshedpur-national-institute-of-technology-24366/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Shades of NIT Jamshedpur",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Recently this year 94.5 percent of students got placed across all branches in B.Tech. Talking about ECE, my branch, 95.3 percent of students got placed. The highest package offered is 144 LPA, the lowest is 4 LPA, and the average is 13.4 LPA in the B.Tech 2026 passout batch. Top recruiters like Amazon, Flipkart, Microsoft, Optum, Atlassian, etc.'"
+            },
+            {
+              "aspect": "internships",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'Talking about internships, there is a lower percentage of students who usually get internships, and about 35 percent of students got internships in ECE 2026 passout batch.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Infrastructure is good and they provide 24/7 Wi-Fi LAN, good labs with centralized AC, and class[rooms are well-equipped]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jamshedpur",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/national-institute-of-technology-nit-jamshedpur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements are pretty good. Major companies are Amazon, Microsoft, Nokia, Tata, Samsung, Ola, Mahindra, Hero, L&T, Ashok Leyland, etc. Average package is >6 LPA, highest package is >32 LPA. Support of alumni is great.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jamshedpur",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/national-institute-of-technology-nit-jamshedpur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "internships",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "neutral",
+              "evidence_summary": "'I completed my internship at MAQ Software. The top companies for campus placements will be Amazon, Microsoft, BPCL, UHG, BuyHatke, etc. The highest salary offered was around INR 5.7 LPA. The alumni network is so good.' Note the highest package (5.7 LPA) is notably lower than figures cited in other, more recent-seeming reviews for this institution, suggesting this account may reflect an earlier/older cohort."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jamshedpur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Does-ragging-happen-at-NIT-Jamshedpur",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Does ragging happen at NIT Jamshedpur?",
+          "review_date": "2016-11-26",
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Not at all. Seniors over here are always ready to help you out in every possible way. Unless you create a nuisance or behave badly with any senior, nobody will even touch you or abuse you or any of that stuff. Seniors may come to your class but only if they want to convey an i[mportant message]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jamshedpur",
+          "source": "Quora (mirrored via Collegedunia Q&A)",
+          "source_type": "discussion",
+          "source_url": "https://collegedunia.com/qna/question/7768-does-ragging-happen-at-nit-jamshedpur",
+          "source_review_id": "7768",
+          "author_display_name": null,
+          "review_title": "Does ragging happen at NIT Jamshedpur?",
+          "review_date": "2021-04-20",
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Answerer identifies information source as a cousin who attends/attended NIT Jamshedpur, i.e., secondhand rather than firsthand testimony.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'No, there is no ragging happening at NIT Jamshedpur... Seniors of NIT Jamshedpur are very helpful. But you must not misbehave with your seniors. They only visit freshers class when there is some important information to convey.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'As a fresher, you may face a little difficulty while sports meet. You have to be in the parade group if you are not participating in games seriously... Seniors will call you for exercising on a cold morning.' Descriptive of a mandatory sports-participation culture rather than clearly positive or negative."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jamshedpur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-are-hostel-rooms-in-NIT-Jamshedpur",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How are hostel rooms in NIT Jamshedpur?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'All hostels in NIT Jamshedpur are of very good quality. 1st year student is allocated Mega Hostel which is [the] best building of NIT Jamshedpur. You will experience a pleasure-like feeling in hostels; sometimes, or moreover many times, you will bunk classes to stay in hostels.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jamshedpur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-hostel-life-at-NIT-Jamshedpur-1",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is hostel life at NIT Jamshedpur?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Answerer specifies experience began in August 2016, in the newly-constructed Mega Hostel K specifically.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "Describing personal experience in Mega Hostel K starting August 2016: 'I started my hostel life in this prestigious institution... I will not be too long with my answer. The se[niors were...]' (sentence truncated in retrieved snippet, but framing ('prestigious') suggests positive overall sentiment)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jamshedpur",
+          "source": "Careers360",
+          "source_type": "discussion",
+          "source_url": "https://www.careers360.com/question-how-is-hostel-life-at-nit-jamshedpur/amp",
+          "source_review_id": null,
+          "author_display_name": "Aman Kumar",
+          "review_title": "How is hostel life at nit jamshedpur",
+          "review_date": "2019-07-20",
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Answerer explicitly relays secondhand information from a cousin attending NIT Jamshedpur, not personal firsthand experience.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The security is very tight at hostels of NIT Jamshedpur. There are two guards (retired army personnel) guarding 24/7. He got a single room per student and each room is just great. Each room is equipped with a cupboard and separate balcony. There are 6 floors in Mega Hostel, each floor has 6 blocks and each block has 18 rooms. For each block there is sufficient number of toilets and bathrooms equipped with 2 geysers. You'll also find a water purifier for each and every block.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jamshedpur",
+          "source": "Careers360",
+          "source_type": "discussion",
+          "source_url": "https://www.careers360.com/question-how-is-hostel-life-at-nit-jamshedpur/amp",
+          "source_review_id": null,
+          "author_display_name": "Gobind Singh",
+          "review_title": "How is hostel life at nit jamshedpur",
+          "review_date": "2019-07-20",
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Hostels here at NIT Jamshedpur are pretty average. Yeah, I would say that hostel life is pretty good here. You have the fun of a lifetime. People are amazing and you will have a great experience here. Food is also pretty good according to me.' Note the internal inconsistency in this single answer: opens with 'pretty average' but proceeds with entirely positive descriptors — preserved as-is rather than resolved."
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 13,
+        "independent_sources": 4,
+        "reviews_with_dates": 3,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 13
+      },
+
+      "limitations": [
+        "Reddit: no genuine NIT Jamshedpur-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "One item describes a reported RTI (Right to Information) discrepancy in official placement statistics — this is a more substantive, quasi-factual claim than typical review sentiment, and has been flagged distinctly rather than classified as ordinary negative opinion. The underlying RTI report itself was not independently verified by this extraction.",
+        "Several hostel-related Quora/Careers360 answers are explicitly secondhand (relayed from a cousin or sibling) rather than firsthand testimony; this is noted in extraction_note fields rather than treated as equivalent to direct student experience.",
+        "One Careers360 hostel answer contains an internal inconsistency (opens by calling hostels 'pretty average' then describes them in entirely positive terms) — preserved as-is rather than resolved, since the source itself is not fully coherent.",
+        "Glassdoor data reflects EMPLOYEE/staff sentiment about NIT Jamshedpur as a workplace, not student sentiment; recorded for completeness but explicitly out of scope for student review_items.",
+        "Review counts vary modestly across Careers360 listing pages (136 vs 137) despite identical 4.4/5 ratings; both recorded as separate observations rather than reconciled.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~770+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

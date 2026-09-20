@@ -1,0 +1,27 @@
+{
+  "year": 2026,
+  "rounds": [
+    {
+      "round": 1,
+      "rows": 7577,
+      "dasaMarkerRows": 378,
+      "ciwgMarkerRows": 378
+    },
+    {
+      "round": 2,
+      "rows": 4660,
+      "dasaMarkerRows": 66,
+      "ciwgMarkerRows": 66
+    }
+  ],
+  "totalRows": 12237,
+  "uniqueRows": 12237,
+  "duplicateRows": 0,
+  "missingOpening": 0,
+  "missingClosing": 0,
+  "dasaMarkerRows": 444,
+  "ciwgMarkerRows": 444,
+  "sourceUrl": "https://admissions.nic.in/csabspl/Applicant/seatallotmentresult/currentorcr.aspx",
+  "fetchedAt": "2026-09-14T02:42:39.483Z",
+  "databaseModified": false
+}

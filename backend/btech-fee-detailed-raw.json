@@ -1,0 +1,3503 @@
+[
+  {
+    "college_id": "indian-institute-of-technology-roorkee",
+    "name": "Indian Institute of Technology Roorkee",
+    "original_source_url": "https://iitr.ac.in/Academics/Institute%20Fees.html",
+    "resolved_source_url": "https://iitr.ac.in/Academics/Institute%20Fees.html",
+    "source_type": "html",
+    "btech_relevant": true,
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "fee_signals": [
+      {
+        "line": "Institute Fees",
+        "context": "Contact Us | हिन्दी│Eng | Academics | Institute Fees | Institute Fees | Fee Structure 2026-27 | Fee Structure of UG program (B.Tech./B.Arch./BS-MS/Int.M.Tech./B.Des) (New Entrants) for Session 2026-27 | Fee Structure for Existing Students of UG Program (B.Tech./B.Arch./B.Des./Int.M.Tech./IDD/BS-MS) for Session 2026-27 | Fee Structure of Doctor of Philosophy for Session 2026-27",
+        "amounts": []
+      },
+      {
+        "line": "Institute Fees",
+        "context": "हिन्दी│Eng | Academics | Institute Fees | Institute Fees | Fee Structure 2026-27 | Fee Structure of UG program (B.Tech./B.Arch./BS-MS/Int.M.Tech./B.Des) (New Entrants) for Session 2026-27 | Fee Structure for Existing Students of UG Program (B.Tech./B.Arch./B.Des./Int.M.Tech./IDD/BS-MS) for Session 2026-27 | Fee Structure of Doctor of Philosophy for Session 2026-27 | Fee Structure of M.Tech./M.Arch./M.U.R.P/M.Des. for Session 2026-27",
+        "amounts": []
+      }
+    ],
+    "all_amounts": [
+      1332,
+      285311
+    ],
+    "child_links": [
+      {
+        "text": "Fee Structure",
+        "url": "https://iitr.ac.in/Academics/Institute%20Fees.html",
+        "score": 50
+      },
+      {
+        "text": "UG Admissions",
+        "url": "https://iitr.ac.in/Academics/Admission%20To%20Undergraduate%20Programmes.html",
+        "score": 20
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-varanasi",
+    "name": "Indian Institute of Technology (BHU) Varanasi",
+    "original_source_url": "https://www.iitbhu.ac.in/dean/doaa/fee",
+    "resolved_source_url": "https://www.iitbhu.ac.in/dean/doaa/fee",
+    "source_type": "html",
+    "btech_relevant": true,
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "fee_signals": [],
+    "all_amounts": [],
+    "child_links": [
+      {
+        "text": "Fee Structure",
+        "url": "https://www.iitbhu.ac.in/dean/doaa/fee",
+        "score": 50
+      },
+      {
+        "text": "UG",
+        "url": "https://www.jeeadv.ac.in/",
+        "score": 20
+      },
+      {
+        "text": "B.Tech./B.Pharm./B.Arch/Integrated M.Tech. (IMD)/Integrated Dual Degree(IDD)",
+        "url": "https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/fee_ug_19-20.pdf",
+        "score": 10
+      },
+      {
+        "text": "M.sc",
+        "url": "https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/fee_msc_19-20.pdf",
+        "score": 10
+      },
+      {
+        "text": "Preparatory Course",
+        "url": "https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/fee_prep_19-20.pdf",
+        "score": 10
+      },
+      {
+        "text": "Zero Credit Registration or other condition",
+        "url": "https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/fee_zero-credit19-20.pdf",
+        "score": 10
+      },
+      {
+        "text": "B.Tech./B.Pharm./Integrated M.Tech. (IMD)/Integrated Dual Degree(IDD)",
+        "url": "https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/fee_ug_idd_16-17.pdf",
+        "score": 10
+      },
+      {
+        "text": "B.Tech./B.Pharm./Integrated M.Tech. (IMD)/Integrated Dual Degree(IDD)",
+        "url": "https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/fee_ug_idd_13-14.pdf",
+        "score": 10
+      },
+      {
+        "text": "Faculty Members",
+        "url": "https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/fee_faculty_13-14.pdf",
+        "score": 10
+      },
+      {
+        "text": "Preparatory Course",
+        "url": "https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/fee_prep_course.pdf",
+        "score": 10
+      },
+      {
+        "text": "B.Tech./B.Pharm./Integrated M.Tech. (IMD)/Integrated Dual Degree(IDD)",
+        "url": "https://www.iitbhu.ac.in/contents/institute/dean/doaa/doc/fee_ug_idd_old.pdf",
+        "score": 10
+      },
+      {
+        "text": "Hospitals",
+        "url": "https://www.iitbhu.ac.in/contents/institute/regular/empanelled_hospitals.pdf",
+        "score": 10
+      },
+      {
+        "text": "(Claim Form)",
+        "url": "https://www.iitbhu.ac.in/contents/institute/admin/doc/admin_claim_form.pdf",
+        "score": 10
+      },
+      {
+        "text": "हिं",
+        "url": "https://www.iitbhu.ac.in/contents/institute/admin/doc/citizens_charter_hindi.pdf",
+        "score": 10
+      },
+      {
+        "text": "En",
+        "url": "https://www.iitbhu.ac.in/contents/institute/admin/doc/citizens_charter_english.pdf",
+        "score": 10
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-indore",
+    "name": "Indian Institute of Technology Indore",
+    "original_source_url": "https://www.iiti.ac.in/uploads/academics/notice_updates/fee_notice_2026_autumn.pdf",
+    "resolved_source_url": "https://www.iiti.ac.in/uploads/academics/notice_updates/fee_notice_2026_autumn.pdf",
+    "source_type": "pdf",
+    "btech_relevant": false,
+    "fee_scope_candidate": "needs_review",
+    "fee_signals": [],
+    "all_amounts": [],
+    "child_links": [],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-rourkela",
+    "name": "National Institute of Technology, Rourkela",
+    "original_source_url": "https://www.nitrkl.ac.in/docs/Announcement/14072026180430277.pdf",
+    "resolved_source_url": "https://www.nitrkl.ac.in/docs/Announcement/14072026180430277.pdf",
+    "source_type": "pdf",
+    "btech_relevant": true,
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "fee_signals": [
+      {
+        "line": "1 Admission fee(one time) 2500 0",
+        "context": "(Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000",
+        "amounts": [
+          2500,
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "2 Tuition fee* 62500 62500",
+        "context": "2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0",
+        "amounts": [
+          2500,
+          62500,
+          5000,
+          10000
+        ]
+      },
+      {
+        "line": "1 Tuition fee* 62500 62500",
+        "context": "(Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000",
+        "amounts": [
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee* 62500 62500",
+        "context": "(Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000",
+        "amounts": [
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee* 62500 62500",
+        "context": "(Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000",
+        "amounts": [
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "*For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted).",
+        "context": "8 Mess Advance*** 30000 30000 | 9 Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. | Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount. | Sd/-",
+        "amounts": [
+          30000,
+          2500,
+          114500,
+          111500,
+          20833
+        ]
+      },
+      {
+        "line": "*For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e.",
+        "context": "9 Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. | Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount. | Sd/- | Asst. Registrar (Academic)",
+        "amounts": [
+          2500,
+          114500,
+          111500,
+          20833
+        ]
+      },
+      {
+        "line": "1 Admission fee(one time) 2500 0",
+        "context": "(Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000",
+        "amounts": [
+          2500,
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "2 Tuition fee* 62500 62500",
+        "context": "2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0",
+        "amounts": [
+          2500,
+          62500,
+          5000,
+          10000
+        ]
+      },
+      {
+        "line": "1 Tuition fee* 62500 62500",
+        "context": "(Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000",
+        "amounts": [
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee* 62500 62500",
+        "context": "(Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000",
+        "amounts": [
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee* 62500 62500",
+        "context": "(Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000",
+        "amounts": [
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee* 62500 62500",
+        "context": "(Amount in Rs.) | 10th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000",
+        "amounts": [
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "*For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted).",
+        "context": "8 Mess Advance*** 30000 30000 | 9 Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount. | Sd/- | Asst. Registrar (Academic)",
+        "amounts": [
+          30000,
+          2500,
+          114500,
+          111500,
+          20833
+        ]
+      },
+      {
+        "line": "*For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. Rs. 20,833).",
+        "context": "9 Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount. | Sd/- | Asst. Registrar (Academic) | -- 2 of 8 --",
+        "amounts": [
+          2500,
+          114500,
+          111500,
+          20833
+        ]
+      },
+      {
+        "line": "1 Admission fee(one time) 2500 0",
+        "context": "(Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees* 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 5000",
+        "amounts": [
+          2500,
+          7500,
+          5000
+        ]
+      },
+      {
+        "line": "2 Tuition fee 7500 7500",
+        "context": "2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees* 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time Refundable) 10000 0",
+        "amounts": [
+          2500,
+          7500,
+          5000,
+          10000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 7500 7500",
+        "context": "(Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000",
+        "amounts": [
+          7500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 7500 7500",
+        "context": "(Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000",
+        "amounts": [
+          7500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 7500 7500",
+        "context": "(Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000",
+        "amounts": [
+          7500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 7500 7500",
+        "context": "(Amount in Rs.) | 10th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000",
+        "amounts": [
+          7500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Admission fee(one time) 2500 0",
+        "context": "(Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000",
+        "amounts": [
+          2500,
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "2 Tuition fee 62500 62500",
+        "context": "2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0",
+        "amounts": [
+          2500,
+          62500,
+          5000,
+          10000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 62500 62500",
+        "context": "(Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000",
+        "amounts": [
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 62500 62500",
+        "context": "(Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000",
+        "amounts": [
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 62500 62500",
+        "context": "(Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000",
+        "amounts": [
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Admission fee(one time) 2500 0",
+        "context": "(Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000",
+        "amounts": [
+          2500,
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "2 Tuition fee 62500 62500",
+        "context": "2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0",
+        "amounts": [
+          2500,
+          62500,
+          5000,
+          10000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 62500 62500",
+        "context": "(Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000",
+        "amounts": [
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 62500 62500",
+        "context": "(Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000",
+        "amounts": [
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 62500 62500",
+        "context": "(Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000",
+        "amounts": [
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 62500 62500",
+        "context": "(Amount in Rs.) | 10th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000",
+        "amounts": [
+          62500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Admission fee(one time) 2500 0",
+        "context": "(Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 5000",
+        "amounts": [
+          2500,
+          7500,
+          5000
+        ]
+      },
+      {
+        "line": "2 Tuition fee 7500 7500",
+        "context": "2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time Refundable) 10000 0",
+        "amounts": [
+          2500,
+          7500,
+          5000,
+          10000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 7500 7500",
+        "context": "(Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000",
+        "amounts": [
+          7500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 7500 7500",
+        "context": "(Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000",
+        "amounts": [
+          7500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 7500 7500",
+        "context": "(Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000",
+        "amounts": [
+          7500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee 7500 7500",
+        "context": "(Amount in Rs.) | 10th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000",
+        "amounts": [
+          7500,
+          5000
+        ]
+      },
+      {
+        "line": "1 Admission fee(one time) INR 2500 INR 2500 0 0",
+        "context": "Countries | Non-SAARC | Countries | 1 Admission fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical fee INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000",
+        "amounts": [
+          2500,
+          4000,
+          5000
+        ]
+      },
+      {
+        "line": "2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000",
+        "context": "Non-SAARC | Countries | 1 Admission fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical fee INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 7 Caution money(one time-Refundable if program is",
+        "amounts": [
+          2500,
+          4000,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000",
+        "context": "Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000",
+        "amounts": [
+          4000,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000",
+        "context": "Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000",
+        "amounts": [
+          4000,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000",
+        "context": "Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Souvenir fee in pre final year INR 500 INR 500 0 0 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000",
+        "amounts": [
+          4000,
+          5000
+        ]
+      },
+      {
+        "line": "1 Admission fee(one time) INR 2500 INR 2500 0 0",
+        "context": "Countries | Non-SAARC | Countries | 1 Admission fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical fee INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000",
+        "amounts": [
+          2500,
+          4000,
+          5000
+        ]
+      },
+      {
+        "line": "2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000",
+        "context": "Non-SAARC | Countries | 1 Admission fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical fee INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 7 Caution money(one time-Refundable if program is completed) INR 10000 INR 10000 0 0",
+        "amounts": [
+          2500,
+          4000,
+          5000,
+          10000
+        ]
+      },
+      {
+        "line": "1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000",
+        "context": "Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000",
+        "amounts": [
+          4000,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000",
+        "context": "Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000",
+        "amounts": [
+          4000,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000",
+        "context": "Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 7 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000",
+        "amounts": [
+          4000,
+          5000
+        ]
+      },
+      {
+        "line": "1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000",
+        "context": "Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Souvenir fee in pre final year INR 500 INR 500 0 0 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000",
+        "amounts": [
+          4000,
+          5000
+        ]
+      }
+    ],
+    "all_amounts": [
+      2500,
+      62500,
+      5000,
+      10000,
+      12500,
+      30000,
+      136500,
+      111500,
+      114500,
+      20833,
+      7500,
+      81500,
+      56500,
+      59500,
+      4000,
+      74000,
+      49000,
+      52000
+    ],
+    "child_links": [],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "name": "National Institute of Technology Karnataka, Surathkal",
+    "original_source_url": "https://www.nitk.ac.in/institute-fee-structure-2025-26",
+    "resolved_source_url": "https://www.nitk.ac.in/document/attachments/8447/FEE_STRUCTURE_2025-26_.pdf",
+    "source_type": "pdf",
+    "btech_relevant": false,
+    "fee_scope_candidate": "needs_review",
+    "fee_signals": [],
+    "all_amounts": [],
+    "child_links": [
+      {
+        "text": "Institute Fee Structure 2025-26",
+        "url": "https://www.nitk.ac.in/document/attachments/8447/FEE_STRUCTURE_2025-26_.pdf",
+        "score": 80
+      },
+      {
+        "text": "",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26#kingster-mobile-menu",
+        "score": 70
+      },
+      {
+        "text": "Institute",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26#",
+        "score": 70
+      },
+      {
+        "text": "History",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26#",
+        "score": 70
+      },
+      {
+        "text": "Campus",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26#",
+        "score": 70
+      },
+      {
+        "text": "Institute Newsletter",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26#",
+        "score": 70
+      },
+      {
+        "text": "Webmail",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26#",
+        "score": 70
+      },
+      {
+        "text": "Administration",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26#",
+        "score": 70
+      },
+      {
+        "text": "Governing Bodies",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26#",
+        "score": 70
+      },
+      {
+        "text": "Policies and Committees",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26#",
+        "score": 70
+      },
+      {
+        "text": "Public Disclosures",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26#",
+        "score": 70
+      },
+      {
+        "text": "Academics",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26#",
+        "score": 70
+      },
+      {
+        "text": "Programmes",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26#",
+        "score": 70
+      },
+      {
+        "text": "Admissions",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26#",
+        "score": 70
+      },
+      {
+        "text": "Facilities",
+        "url": "https://www.nitk.ac.in/institute-fee-structure-2025-26#",
+        "score": 70
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-mandi",
+    "name": "Indian Institute of Technology Mandi",
+    "original_source_url": "https://academics.iitmandi.ac.in/fees",
+    "resolved_source_url": "https://academics.iitmandi.ac.in/pdf/fees/B.Tech%202021%20and%20earlier%20batches_Fee%20Structure%20AY%202022-23.pdf",
+    "source_type": "pdf",
+    "btech_relevant": true,
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "fee_signals": [
+      {
+        "line": "I Institute Fees (Payable each semester) Odd Even",
+        "context": "Year 2022-23 shall be as under: | Sl. No. Particulars B.Tech 2021 and earlier batches | Fee (in Rupees) per semester | I Institute Fees (Payable each semester) Odd Even | 1. Tuition Fee 100000* 100000* | 2. Exam Fee 350 350 | 3. Registration Fee 200 200 | 4. Internet & Computer Fee 500 500 | 5. Extra-Curricular Activity 1000 1000",
+        "amounts": [
+          100000,
+          1000
+        ]
+      },
+      {
+        "line": "1. Tuition Fee 100000* 100000*",
+        "context": "Sl. No. Particulars B.Tech 2021 and earlier batches | Fee (in Rupees) per semester | I Institute Fees (Payable each semester) Odd Even | 1. Tuition Fee 100000* 100000* | 2. Exam Fee 350 350 | 3. Registration Fee 200 200 | 4. Internet & Computer Fee 500 500 | 5. Extra-Curricular Activity 1000 1000 | 6. Medical Fund 300 300",
+        "amounts": [
+          100000,
+          1000
+        ]
+      },
+      {
+        "line": "3. Registration Fee 200 200",
+        "context": "I Institute Fees (Payable each semester) Odd Even | 1. Tuition Fee 100000* 100000* | 2. Exam Fee 350 350 | 3. Registration Fee 200 200 | 4. Internet & Computer Fee 500 500 | 5. Extra-Curricular Activity 1000 1000 | 6. Medical Fund 300 300 | 7. Transportation 500 500 | Total For I 102850",
+        "amounts": [
+          100000,
+          1000,
+          102850
+        ]
+      },
+      {
+        "line": "Total fees Payable (Gen/OBC(NCL))",
+        "context": "Water & Common Facilities) 7000 7000 | (b) Mess Advance 15000 15000 | Total For III 22000 22000 | Total fees Payable (Gen/OBC(NCL)) | i. Institute/Academic (I+II) 103600 102850 | ii. Hostel & Mess (III) 22000 22000 | Grand Total (I-III) 125600 124850 | Total fees Payable (SC/ST) | i. Institute/Academic (I+II) 3600 2850",
+        "amounts": [
+          7000,
+          15000,
+          22000,
+          103600,
+          102850,
+          125600,
+          124850,
+          3600,
+          2850
+        ]
+      },
+      {
+        "line": "Grand Total (I-III) 125600 124850",
+        "context": "Total fees Payable (Gen/OBC(NCL)) | i. Institute/Academic (I+II) 103600 102850 | ii. Hostel & Mess (III) 22000 22000 | Grand Total (I-III) 125600 124850 | Total fees Payable (SC/ST) | i. Institute/Academic (I+II) 3600 2850 | ii. Hostel & Mess (III) 22000 22000 | Grand Total (I-III) 25600 24850 | NOTE:",
+        "amounts": [
+          103600,
+          102850,
+          22000,
+          125600,
+          124850,
+          3600,
+          2850,
+          25600,
+          24850
+        ]
+      },
+      {
+        "line": "Total fees Payable (SC/ST)",
+        "context": "i. Institute/Academic (I+II) 103600 102850 | ii. Hostel & Mess (III) 22000 22000 | Grand Total (I-III) 125600 124850 | Total fees Payable (SC/ST) | i. Institute/Academic (I+II) 3600 2850 | ii. Hostel & Mess (III) 22000 22000 | Grand Total (I-III) 25600 24850 | NOTE: | *(a) Figures in ( ) mentioned in Total for I, denotes fee payable by SC/ST/PH students as they are given 100% exemption from tuition",
+        "amounts": [
+          103600,
+          102850,
+          22000,
+          125600,
+          124850,
+          3600,
+          2850,
+          25600,
+          24850
+        ]
+      },
+      {
+        "line": "Grand Total (I-III) 25600 24850",
+        "context": "Total fees Payable (SC/ST) | i. Institute/Academic (I+II) 3600 2850 | ii. Hostel & Mess (III) 22000 22000 | Grand Total (I-III) 25600 24850 | NOTE: | *(a) Figures in ( ) mentioned in Total for I, denotes fee payable by SC/ST/PH students as they are given 100% exemption from tuition | fees. | (b) The most economically backward students (whose family income is less than Rs.1 lakh per annum) shall get full remission of the fee. | (c) The other economically backward students (Whose family income is between Rs.1 lakh to Rs.5 lakh per annum) shall get remission",
+        "amounts": [
+          3600,
+          2850,
+          22000,
+          25600,
+          24850
+        ]
+      },
+      {
+        "line": "For female students full tuition fee waiver and Rs.1000/- per month stipend. This merit scholarship will continue till 4th year subject",
+        "context": "(c) The other economically backward students (Whose family income is between Rs.1 lakh to Rs.5 lakh per annum) shall get remission | of 2/3rd of the fee. | (d) | For female students full tuition fee waiver and Rs.1000/- per month stipend. This merit scholarship will continue till 4th year subject | to good academic performance of the candidate indicated by a minimum SGPA criteria of 7.0 for the previous two semesters and no | disciplinary action. | (e) Ordinarily students are expected to live on campus. In very rare cases permission may be given to stay outside provided justifiable | reasons obtained. | (f) Students permitted to take Semester Break/Temporary Withdrawal etc. from the programme for one or more semesters are required",
+        "amounts": [
+          1000
+        ]
+      }
+    ],
+    "all_amounts": [
+      100000,
+      1000,
+      102850,
+      2850,
+      7000,
+      15000,
+      22000,
+      103600,
+      125600,
+      124850,
+      3600,
+      25600,
+      24850
+    ],
+    "child_links": [
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/B.Tech%202021%20and%20earlier%20batches_Fee%20Structure%20AY%202022-23.pdf",
+        "score": 90
+      },
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/B.Tech%202021%20and%20earlier%20batches%20Foreign_Fee%20Structure%20AY%202022-23.pdf",
+        "score": 90
+      },
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee%20Structure_B.Tech_2020-21.pdf",
+        "score": 90
+      },
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee%20Structure%20B.Tech_Foreign2020-21.pdf",
+        "score": 90
+      },
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee%20structure%20B.Tech%20AY%202019-20.pdf",
+        "score": 90
+      },
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee_Structure_B.Tech_Foreign_2019-20.pdf",
+        "score": 90
+      },
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee%20structure%20for%20B.Tech%20programme.pdf",
+        "score": 90
+      },
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee%20structure%20for%20B.Tech%20Foreign%20Students.pdf",
+        "score": 90
+      },
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/BTech_Fee_structure_2017-18.pdf",
+        "score": 90
+      },
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/BTech_Foreign_students_fee_structure_2017-18.pdf",
+        "score": 90
+      },
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee%20Structure_B.Tech_._0.pdf",
+        "score": 90
+      },
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Final_Fee%20Structure_(ODD%20semester%202024-25)_New%20Entrants.pdf",
+        "score": 75
+      },
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Academic_Fee_Structure_ODD_Semester_AY_2026_2027_New_Entrants_August_2026.pdf",
+        "score": 60
+      },
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Academic_Fee_Structure_ODD_Semester_AY_2026_2027_Existing_Students.pdf",
+        "score": 60
+      },
+      {
+        "text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee%20Structure_EVEN_semester%202025_26_New_Entrants_Updated.pdf",
+        "score": 60
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "malaviya-national-institute-of-technology-jaipur",
+    "name": "Malaviya National Institute of Technology Jaipur",
+    "original_source_url": "https://mnit.ac.in/academics/fee_structure.php",
+    "resolved_source_url": "https://mnit.ac.in/cms/uploads/2024/05/Fee_Structure_2024-25_UG.pdf",
+    "source_type": "pdf",
+    "btech_relevant": false,
+    "fee_scope_candidate": "needs_review",
+    "fee_signals": [],
+    "all_amounts": [],
+    "child_links": [
+      {
+        "text": "UG",
+        "url": "https://mnit.ac.in/cms/uploads/2024/05/Fee_Structure_2024-25_UG.pdf",
+        "score": 80
+      },
+      {
+        "text": "UG",
+        "url": "https://mnit.ac.in/cms/uploads/2020/08/Fee_Structure_UG_2020-21.pdf",
+        "score": 80
+      },
+      {
+        "text": "UG",
+        "url": "https://mnit.ac.in/cms/uploads/2018/06/Fee_Structure_UG_2018-19_admitted.pdf",
+        "score": 80
+      },
+      {
+        "text": "UG",
+        "url": "https://mnit.ac.in/cms/uploads/2017/04/Fee_Structure_UG_2017-18.pdf",
+        "score": 80
+      },
+      {
+        "text": "UG",
+        "url": "https://mnit.ac.in/cms/uploads/2017/04/Fee_Structure_UG_2016-17.pdf",
+        "score": 80
+      },
+      {
+        "text": "UG",
+        "url": "https://mnit.ac.in/cms/uploads/2017/04/UG_Fee_structure_2015-16.pdf",
+        "score": 80
+      },
+      {
+        "text": "UG",
+        "url": "https://mnit.ac.in/cms/uploads/2017/04/UG_Fee_Structure_2014-15.pdf",
+        "score": 80
+      },
+      {
+        "text": "UG",
+        "url": "https://mnit.ac.in/cms/uploads/2017/04/UG_Fee_Structure_2013-14.pdf",
+        "score": 80
+      },
+      {
+        "text": "UG",
+        "url": "https://mnit.ac.in/cms/uploads/2017/04/UG_Fee_structure_2009-13.pdf",
+        "score": 80
+      },
+      {
+        "text": "Hostel Fee",
+        "url": "https://mnit.ac.in/cms/uploads/2017/04/Hostel_Fee_Structure_2017-18.pdf",
+        "score": 60
+      },
+      {
+        "text": "Institute",
+        "url": "https://mnit.ac.in/academics/fee_structure.php#",
+        "score": 50
+      },
+      {
+        "text": "Fee Structure",
+        "url": "https://mnit.ac.in/academics/fee_structure.php",
+        "score": 50
+      },
+      {
+        "text": "UG",
+        "url": "https://mnit.ac.in/cms/uploads/2025/05/FeeUG2025-26.pdf",
+        "score": 50
+      },
+      {
+        "text": "Fee Structure",
+        "url": "https://mnit.ac.in/academics/fee_structure",
+        "score": 50
+      },
+      {
+        "text": "",
+        "url": "https://mnit.ac.in/academics/fee_structure.php#",
+        "score": 50
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-silchar",
+    "name": "National Institute of Technology, Silchar",
+    "original_source_url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a3157f193dad.pdf",
+    "resolved_source_url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a3157f193dad.pdf",
+    "source_type": "pdf",
+    "btech_relevant": false,
+    "fee_scope_candidate": "needs_review",
+    "fee_signals": [],
+    "all_amounts": [],
+    "child_links": [],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-patna",
+    "name": "National Institute of Technology Patna",
+    "original_source_url": "https://www.nitp.ac.in/Academic/Fee",
+    "resolved_source_url": "https://www.nitp.ac.in/Academic/Fee",
+    "source_type": "html",
+    "btech_relevant": false,
+    "fee_scope_candidate": "branch_specific_review",
+    "fee_signals": [],
+    "all_amounts": [
+      800005,
+      140071
+    ],
+    "child_links": [
+      {
+        "text": "Fee Structure",
+        "url": "https://www.nitp.ac.in/Academic/Fee",
+        "score": 50
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-delhi",
+    "name": "National Institute of Technology Delhi",
+    "original_source_url": "https://nitdelhi.ac.in/academics/services/fee",
+    "resolved_source_url": "https://media.nitdelhi.ac.in/uploads/web_media/Fee%20structure%20B%20Tech@nitdelhi523e4c95-82fb-422f-b1a4-624356f76d80.pdf",
+    "source_type": "pdf",
+    "btech_relevant": true,
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "fee_signals": [
+      {
+        "line": "A. AdmissionlTuition Fees",
+        "context": "Sr. 1'1 Semester (Above 5 1'1 Semester (Between 1 1'1 Semester (Less than 1 Lakh) | No. Head of Fees Lakh) Gen/OBCIEWS to 5 Lakh) Gen/OBCIEWS/SC/ST IPwD | Gen/OBC/EWS | A. AdmissionlTuition Fees | I Admission Fee 4000 4000 4000 | 2 Tuition Fee 62500 20833 0 | Total(A) 66500 24833 4000 | B. Institute Fees | 3 Development Fee 6500 6500 6500",
+        "amounts": [
+          4000,
+          62500,
+          20833,
+          66500,
+          24833,
+          6500
+        ]
+      },
+      {
+        "line": "I Admission Fee 4000 4000 4000",
+        "context": "No. Head of Fees Lakh) Gen/OBCIEWS to 5 Lakh) Gen/OBCIEWS/SC/ST IPwD | Gen/OBC/EWS | A. AdmissionlTuition Fees | I Admission Fee 4000 4000 4000 | 2 Tuition Fee 62500 20833 0 | Total(A) 66500 24833 4000 | B. Institute Fees | 3 Development Fee 6500 6500 6500 | 4 Library & Book Bank 2500 2500 2500",
+        "amounts": [
+          4000,
+          62500,
+          20833,
+          66500,
+          24833,
+          6500,
+          2500
+        ]
+      },
+      {
+        "line": "2 Tuition Fee 62500 20833 0",
+        "context": "Gen/OBC/EWS | A. AdmissionlTuition Fees | I Admission Fee 4000 4000 4000 | 2 Tuition Fee 62500 20833 0 | Total(A) 66500 24833 4000 | B. Institute Fees | 3 Development Fee 6500 6500 6500 | 4 Library & Book Bank 2500 2500 2500 | 5 ComputerlIntemet Fee 2500 2500 2500",
+        "amounts": [
+          4000,
+          62500,
+          20833,
+          66500,
+          24833,
+          6500,
+          2500
+        ]
+      },
+      {
+        "line": "B. Institute Fees",
+        "context": "I Admission Fee 4000 4000 4000 | 2 Tuition Fee 62500 20833 0 | Total(A) 66500 24833 4000 | B. Institute Fees | 3 Development Fee 6500 6500 6500 | 4 Library & Book Bank 2500 2500 2500 | 5 ComputerlIntemet Fee 2500 2500 2500 | 6 Sports & Creative Arts 3500 3500 3500 | Society",
+        "amounts": [
+          4000,
+          62500,
+          20833,
+          66500,
+          24833,
+          6500,
+          2500,
+          3500
+        ]
+      },
+      {
+        "line": "TOTAL FEES (A+B+C+D)",
+        "context": "14 Identity Card Charges 200 200 200 | 15 Convocation Fees 2500 2500 2500 | Total (D) 23700 23700 23700 | TOTAL FEES (A+B+C+D) | Day Scholar(s) 114200 72533 51700 | E. Hostel Fees | ACRoom 32000 32000 32000 | 16 | Non-AC Room 20000 20000 20000",
+        "amounts": [
+          2500,
+          23700,
+          114200,
+          72533,
+          51700,
+          32000,
+          20000
+        ]
+      },
+      {
+        "line": "E. Hostel Fees",
+        "context": "Total (D) 23700 23700 23700 | TOTAL FEES (A+B+C+D) | Day Scholar(s) 114200 72533 51700 | E. Hostel Fees | ACRoom 32000 32000 32000 | 16 | Non-AC Room 20000 20000 20000 | 17 10000 10000 | 18 Caution Money (Hostel) 10000 10000 10000",
+        "amounts": [
+          23700,
+          114200,
+          72533,
+          51700,
+          32000,
+          20000,
+          10000
+        ]
+      },
+      {
+        "line": "TOTAL FEES (A+B+C+D+E)",
+        "context": "19 Caution Money (Mess) 10000 | Total (E) AC Room 52000 52000 52000 | Total (E) Non-ACRoom 40000 40000 40000 | TOTAL FEES (A+B+C+D+E) | Hosteller(s) With AC 166200 124533 103700 | Room | Hosteller(s) With Non-AC 154200 112533 91700 | Room | Note 1: This Fee Structure is valid for availing the Bank Loan/Scholarship.",
+        "amounts": [
+          10000,
+          52000,
+          40000,
+          166200,
+          124533,
+          103700,
+          154200,
+          112533,
+          91700
+        ]
+      }
+    ],
+    "all_amounts": [
+      10036,
+      9111,
+      1001,
+      1005,
+      4000,
+      62500,
+      20833,
+      66500,
+      24833,
+      6500,
+      2500,
+      3500,
+      1500,
+      3000,
+      22000,
+      1000,
+      20000,
+      23700,
+      114200,
+      72533,
+      51700,
+      32000,
+      10000,
+      52000,
+      40000,
+      166200,
+      124533,
+      103700,
+      154200,
+      112533,
+      91700,
+      9290100,
+      1801
+    ],
+    "child_links": [
+      {
+        "text": "Download",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Fee%20structure%20B%20Tech@nitdelhi523e4c95-82fb-422f-b1a4-624356f76d80.pdf",
+        "score": 90
+      },
+      {
+        "text": "Download",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Fee%20structure%20B%20Tech%20DASA@nitdelhib44da857-1d3f-4cbf-b070-92ed09e2bd33.pdf",
+        "score": 90
+      },
+      {
+        "text": "Download",
+        "url": "https://nitdelhi.ac.in/content/academics/services/fee/Fee-structure-of-1st-sem.pdf",
+        "score": 60
+      },
+      {
+        "text": "Download",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Fee%20Structure%20M%20Tech@nitdelhi0b492133-1b9b-4e5f-95d1-b1047ccb42cf.pdf",
+        "score": 60
+      },
+      {
+        "text": "Download",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Fee%20structure%20M%20Tech%20DASA@nitdelhi27b8cb3c-1b25-44b6-ac7e-24005fc2fd2d.pdf",
+        "score": 60
+      },
+      {
+        "text": "Download",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Fee%20structure%20M%20Tech%20for%20Self%20financed%20sponsored@nitdelhi73aaf5d8-ff41-4fe7-9a63-647152e47b51.pdf",
+        "score": 60
+      },
+      {
+        "text": "Download",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Fee%20structure%20MCA%20Regular@nitdelhi91d90770-853b-4616-a937-69502b30eb61.pdf",
+        "score": 60
+      },
+      {
+        "text": "Download",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Fee%20structure%20MCA%20Self%20financed_sponsored@nitdelhi730fcc8f-3c4e-4a30-88ed-bb5316302e9d.pdf",
+        "score": 60
+      },
+      {
+        "text": "Download",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/Fee-structure-MCA-Regular@nitdelhieaadaf6a-6cd5-4cfb-bb2b-1b5e9e2e16f9.pdf",
+        "score": 60
+      },
+      {
+        "text": "Fee Structure",
+        "url": "https://nitdelhi.ac.in/academics/services/fee",
+        "score": 50
+      },
+      {
+        "text": "Fee Structure",
+        "url": "https://nitdelhi.ac.in/academics/services/fee",
+        "score": 50
+      },
+      {
+        "text": "Fee Structure",
+        "url": "https://nitdelhi.ac.in/academics/services/fee",
+        "score": 50
+      },
+      {
+        "text": "Fee Structure",
+        "url": "https://nitdelhi.ac.in/academics/services/fee",
+        "score": 50
+      },
+      {
+        "text": "Download",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/B%20Tech%203rd%20Semester@nitdelhi35720dc0-b3c7-4c88-a656-2e5e06e77825.pdf",
+        "score": 40
+      },
+      {
+        "text": "Download",
+        "url": "https://media.nitdelhi.ac.in/uploads/web_media/B%20Tech%205th%20Semester@nitdelhi52f56d49-a86d-4761-a8bd-29fdbe0bb915.pdf",
+        "score": 40
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-meghalaya",
+    "name": "National Institute of Technology Meghalaya",
+    "original_source_url": "https://www.nitm.ac.in/page_download.php?c=fee-structures/fee-structure",
+    "resolved_source_url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fee-structure-aut-26-existing-students-pdf030450.pdf",
+    "source_type": "pdf",
+    "btech_relevant": false,
+    "fee_scope_candidate": "needs_review",
+    "fee_signals": [],
+    "all_amounts": [],
+    "child_links": [
+      {
+        "text": "Fee Structure-Autumn 2026 - Existing students",
+        "url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fee-structure-aut-26-existing-students-pdf030450.pdf",
+        "score": 60
+      },
+      {
+        "text": "View",
+        "url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fee-structure-aut-26-existing-students-pdf030450.pdf",
+        "score": 60
+      },
+      {
+        "text": "Fee Structure-Autumn 2026 - New admission",
+        "url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fee-structure-aut-26-new-admission-pdf030544.pdf",
+        "score": 60
+      },
+      {
+        "text": "View",
+        "url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fee-structure-aut-26-new-admission-pdf030544.pdf",
+        "score": 60
+      },
+      {
+        "text": "Fee Structure New Admission Spring 2026",
+        "url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fee-structure-for-new-admissions-spring-2026-onwards-pdf044849.pdf",
+        "score": 60
+      },
+      {
+        "text": "View",
+        "url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fee-structure-for-new-admissions-spring-2026-onwards-pdf044849.pdf",
+        "score": 60
+      },
+      {
+        "text": "Fees Structure Existing Students Spring 2026",
+        "url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fees-payable-by-existing-students-for-spring-semester-2026-pdf045011.pdf",
+        "score": 60
+      },
+      {
+        "text": "View",
+        "url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fees-payable-by-existing-students-for-spring-semester-2026-pdf045011.pdf",
+        "score": 60
+      },
+      {
+        "text": "Fees payable by Existing Students for Spring Semester 2025",
+        "url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/spring-2025-fee-structure-for-existing-students-pdf111427.pdf",
+        "score": 60
+      },
+      {
+        "text": "View",
+        "url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/spring-2025-fee-structure-for-existing-students-pdf111427.pdf",
+        "score": 60
+      },
+      {
+        "text": "Fee Structure for NEW ADMISSIONS (Autumn 2025)",
+        "url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fee-structure-for-new-admissions-autumn-2025-dt-09-07-25-1-pdf111514.pdf",
+        "score": 60
+      },
+      {
+        "text": "View",
+        "url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fee-structure-for-new-admissions-autumn-2025-dt-09-07-25-1-pdf111514.pdf",
+        "score": 60
+      },
+      {
+        "text": "Fees payable by EXISTING STUDENTS for Autumn Semester 2025",
+        "url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fees-payable-by-existing-students-for-autumn-semester-2025-dt-09-07-25-1-pdf122806.pdf",
+        "score": 60
+      },
+      {
+        "text": "View",
+        "url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fees-payable-by-existing-students-for-autumn-semester-2025-dt-09-07-25-1-pdf122806.pdf",
+        "score": 60
+      },
+      {
+        "text": "About Us",
+        "url": "https://www.nitm.ac.in/page_download.php?c=fee-structures/fee-structure#",
+        "score": 50
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "original_source_url": "https://iiitm.ac.in/public/uploads/media_uploads/1779189402_Fees-Details-2025-2026-f.pdf",
+    "resolved_source_url": "https://iiitm.ac.in/public/uploads/media_uploads/1779189402_Fees-Details-2025-2026-f.pdf",
+    "source_type": "pdf",
+    "btech_relevant": true,
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "fee_signals": [
+      {
+        "line": "A Institute Fees (Per Semester)",
+        "context": "New | Admission | 2026 | A Institute Fees (Per Semester) | 1 Tuition Fees (*) 87,000 95,000 30,000 30,000 80,000 80,000 30,000 30,000 30,000 30000 | 2 Examination Fees 1,500 1,500 1,500 1,500 1,500 1,500 1,500 1,500 1,500 1500 | 3 Library Fee 2,000 2,000 2,000 2,000 2,000 2,000 2,000 2,000 2,000 2000 | 4 Registration/Enrolment Fees 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1000 | 5 Internet and Computer",
+        "amounts": [
+          87000,
+          95000,
+          30000,
+          80000,
+          1500,
+          1000
+        ]
+      },
+      {
+        "line": "1 Tuition Fees (*) 87,000 95,000 30,000 30,000 80,000 80,000 30,000 30,000 30,000 30000",
+        "context": "Admission | 2026 | A Institute Fees (Per Semester) | 1 Tuition Fees (*) 87,000 95,000 30,000 30,000 80,000 80,000 30,000 30,000 30,000 30000 | 2 Examination Fees 1,500 1,500 1,500 1,500 1,500 1,500 1,500 1,500 1,500 1500 | 3 Library Fee 2,000 2,000 2,000 2,000 2,000 2,000 2,000 2,000 2,000 2000 | 4 Registration/Enrolment Fees 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1000 | 5 Internet and Computer | Charges",
+        "amounts": [
+          87000,
+          95000,
+          30000,
+          80000,
+          1500,
+          1000
+        ]
+      },
+      {
+        "line": "Total Institute Fee (A) 97,000 105,000 40,000 40,000 90,000 90,000 40,000 40,000 40,000 40,000",
+        "context": "8 Sports, Techno-Managerial | Fee | 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1000 | Total Institute Fee (A) 97,000 105,000 40,000 40,000 90,000 90,000 40,000 40,000 40,000 40,000 | B Hostel Fees (Per Semester) | 1 Hostel Room and basic | electricity Charges | 15,000 15,000 15,000 15,000 15000 15,000 15,000 15,000 15,000 15,000 | 2 Hostel Mess Fee 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000",
+        "amounts": [
+          1000,
+          97000,
+          105000,
+          40000,
+          90000,
+          15000,
+          20000
+        ]
+      },
+      {
+        "line": "B Hostel Fees (Per Semester)",
+        "context": "Fee | 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1000 | Total Institute Fee (A) 97,000 105,000 40,000 40,000 90,000 90,000 40,000 40,000 40,000 40,000 | B Hostel Fees (Per Semester) | 1 Hostel Room and basic | electricity Charges | 15,000 15,000 15,000 15,000 15000 15,000 15,000 15,000 15,000 15,000 | 2 Hostel Mess Fee 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 | Total Hostel Fee (B) 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000",
+        "amounts": [
+          1000,
+          97000,
+          105000,
+          40000,
+          90000,
+          15000,
+          20000,
+          35000
+        ]
+      },
+      {
+        "line": "2 Hostel Mess Fee 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000",
+        "context": "1 Hostel Room and basic | electricity Charges | 15,000 15,000 15,000 15,000 15000 15,000 15,000 15,000 15,000 15,000 | 2 Hostel Mess Fee 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 | Total Hostel Fee (B) 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 | C One-Time Payments | (at the time of admission | only) includes a refundable | security deposit of ₹ 10,000.",
+        "amounts": [
+          15000,
+          20000,
+          35000,
+          10000
+        ]
+      },
+      {
+        "line": "Total Hostel Fee (B) 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000",
+        "context": "electricity Charges | 15,000 15,000 15,000 15,000 15000 15,000 15,000 15,000 15,000 15,000 | 2 Hostel Mess Fee 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 20,000 | Total Hostel Fee (B) 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 35,000 | C One-Time Payments | (at the time of admission | only) includes a refundable | security deposit of ₹ 10,000. | (Annex-II)",
+        "amounts": [
+          15000,
+          20000,
+          35000,
+          10000
+        ]
+      },
+      {
+        "line": "Grand Total - A+B+C+D (₹): 132000 168,750 75000 105,750 105000 153,750 75000 103,750 75000 103,750",
+        "context": "D Hostel Mess Security | (refundable) | - 5,000 - 5,000 - 5,000 - 5,000 - 5000 | Grand Total - A+B+C+D (₹): 132000 168,750 75000 105,750 105000 153,750 75000 103,750 75000 103,750 | (*) - Tuition fee waiver for SC/ST Students. | (*) - Tuition fee waiver for PwD Students in B. Tech. programs and up to the eighth semester of IMT/IMG programs. | -- 1 of 4 -- | Annexure-A | ABV-IIITM, Gwalior (2026-27 Batch)",
+        "amounts": [
+          5000,
+          132000,
+          168750,
+          75000,
+          105750,
+          105000,
+          153750,
+          103750
+        ]
+      },
+      {
+        "line": "(*) - Tuition fee waiver for SC/ST Students.",
+        "context": "(refundable) | - 5,000 - 5,000 - 5,000 - 5,000 - 5000 | Grand Total - A+B+C+D (₹): 132000 168,750 75000 105,750 105000 153,750 75000 103,750 75000 103,750 | (*) - Tuition fee waiver for SC/ST Students. | (*) - Tuition fee waiver for PwD Students in B. Tech. programs and up to the eighth semester of IMT/IMG programs. | -- 1 of 4 -- | Annexure-A | ABV-IIITM, Gwalior (2026-27 Batch) | One-Time Payments (at the time of admission in July 2026) - New Admission 2026",
+        "amounts": [
+          5000,
+          132000,
+          168750,
+          75000,
+          105750,
+          105000,
+          153750,
+          103750
+        ]
+      },
+      {
+        "line": "(*) - Tuition fee waiver for PwD Students in B. Tech. programs and up to the eighth semester of IMT/IMG programs.",
+        "context": "- 5,000 - 5,000 - 5,000 - 5,000 - 5000 | Grand Total - A+B+C+D (₹): 132000 168,750 75000 105,750 105000 153,750 75000 103,750 75000 103,750 | (*) - Tuition fee waiver for SC/ST Students. | (*) - Tuition fee waiver for PwD Students in B. Tech. programs and up to the eighth semester of IMT/IMG programs. | -- 1 of 4 -- | Annexure-A | ABV-IIITM, Gwalior (2026-27 Batch) | One-Time Payments (at the time of admission in July 2026) - New Admission 2026 | S.",
+        "amounts": [
+          5000,
+          132000,
+          168750,
+          75000,
+          105750,
+          105000,
+          153750,
+          103750
+        ]
+      },
+      {
+        "line": "1 Admission Fees 1,500 1,500 1,500 1,500",
+        "context": "No. Particulars B. Tech/ | BEE/ BMS IMT/ IPG MBA /M- | Tech Ph.D. | 1 Admission Fees 1,500 1,500 1,500 1,500 | 2 Thesis Fees 0 0 0 3,000 | 3 Grade Card 750 750 750 750 | 4 Provisional Certificate 1,000 1,000 1,000 1,000 | 5 Student Welfare Fund 5,000 5,000 5,000 5,000 | 6 Identity card 500 500 500 500",
+        "amounts": [
+          1500,
+          3000,
+          1000,
+          5000
+        ]
+      },
+      {
+        "line": "A Institute Fees (Per Semester)",
+        "context": "DASA | Batch 2025 Batch 2026 (New | Admissions) | A Institute Fees (Per Semester) | 1 Tuition Fees – CIWG/ Non-SAARC / SAARC 87,000 / $ 4000 / $2000 95,000 / $ 4000 / $2000 | 2 Examination Fees 1,500 1,500 | 3 Course Material Fees/Library Fee 2,000 2,000 | 4 Registration/Enrolment Fees 3,000 3,000 | 5 Internet and Computer Charges 2,000 2,000",
+        "amounts": [
+          87000,
+          4000,
+          95000,
+          1500,
+          3000
+        ]
+      },
+      {
+        "line": "1 Tuition Fees – CIWG/ Non-SAARC / SAARC 87,000 / $ 4000 / $2000 95,000 / $ 4000 / $2000",
+        "context": "Batch 2025 Batch 2026 (New | Admissions) | A Institute Fees (Per Semester) | 1 Tuition Fees – CIWG/ Non-SAARC / SAARC 87,000 / $ 4000 / $2000 95,000 / $ 4000 / $2000 | 2 Examination Fees 1,500 1,500 | 3 Course Material Fees/Library Fee 2,000 2,000 | 4 Registration/Enrolment Fees 3,000 3,000 | 5 Internet and Computer Charges 2,000 2,000 | 6 Medical Facilities 3,000 3,000",
+        "amounts": [
+          87000,
+          4000,
+          95000,
+          1500,
+          3000
+        ]
+      },
+      {
+        "line": "Total Institute Fee (A) 13,500",
+        "context": "7 Cultural Activity Fee 1,000 1,000 | 8 Sports Activities & Techno- Managerial | Activity Fee 1,000 1,000 | Total Institute Fee (A) 13,500 | + Applicable Tuition Fee | 13,500 | + Applicable Tuition Fee | B Hostel Fees (Per Semester) | 1 Hostel Room and basic electricity Charges 30000 30000",
+        "amounts": [
+          1000,
+          13500,
+          30000
+        ]
+      },
+      {
+        "line": "+ Applicable Tuition Fee",
+        "context": "8 Sports Activities & Techno- Managerial | Activity Fee 1,000 1,000 | Total Institute Fee (A) 13,500 | + Applicable Tuition Fee | 13,500 | + Applicable Tuition Fee | B Hostel Fees (Per Semester) | 1 Hostel Room and basic electricity Charges 30000 30000 | 2 Hostel Mess Fee 20,000 20,000",
+        "amounts": [
+          1000,
+          13500,
+          30000,
+          20000
+        ]
+      },
+      {
+        "line": "+ Applicable Tuition Fee",
+        "context": "Total Institute Fee (A) 13,500 | + Applicable Tuition Fee | 13,500 | + Applicable Tuition Fee | B Hostel Fees (Per Semester) | 1 Hostel Room and basic electricity Charges 30000 30000 | 2 Hostel Mess Fee 20,000 20,000 | Total Hostel Fee (B) 50,000 50,000 | C One-Time Payments (at the time of",
+        "amounts": [
+          13500,
+          30000,
+          20000,
+          50000
+        ]
+      },
+      {
+        "line": "B Hostel Fees (Per Semester)",
+        "context": "+ Applicable Tuition Fee | 13,500 | + Applicable Tuition Fee | B Hostel Fees (Per Semester) | 1 Hostel Room and basic electricity Charges 30000 30000 | 2 Hostel Mess Fee 20,000 20,000 | Total Hostel Fee (B) 50,000 50,000 | C One-Time Payments (at the time of | admission) - 28,250",
+        "amounts": [
+          13500,
+          30000,
+          20000,
+          50000,
+          28250
+        ]
+      },
+      {
+        "line": "2 Hostel Mess Fee 20,000 20,000",
+        "context": "+ Applicable Tuition Fee | B Hostel Fees (Per Semester) | 1 Hostel Room and basic electricity Charges 30000 30000 | 2 Hostel Mess Fee 20,000 20,000 | Total Hostel Fee (B) 50,000 50,000 | C One-Time Payments (at the time of | admission) - 28,250 | D Hostel Mess Security Deposit 5,000 5,000 | Grand Total - A+B+C+D (₹): 68,500",
+        "amounts": [
+          30000,
+          20000,
+          50000,
+          28250,
+          5000,
+          68500
+        ]
+      },
+      {
+        "line": "Total Hostel Fee (B) 50,000 50,000",
+        "context": "B Hostel Fees (Per Semester) | 1 Hostel Room and basic electricity Charges 30000 30000 | 2 Hostel Mess Fee 20,000 20,000 | Total Hostel Fee (B) 50,000 50,000 | C One-Time Payments (at the time of | admission) - 28,250 | D Hostel Mess Security Deposit 5,000 5,000 | Grand Total - A+B+C+D (₹): 68,500 | + Applicable Tuition Fee",
+        "amounts": [
+          30000,
+          20000,
+          50000,
+          28250,
+          5000,
+          68500
+        ]
+      },
+      {
+        "line": "Grand Total - A+B+C+D (₹): 68,500",
+        "context": "C One-Time Payments (at the time of | admission) - 28,250 | D Hostel Mess Security Deposit 5,000 5,000 | Grand Total - A+B+C+D (₹): 68,500 | + Applicable Tuition Fee | 96,750 | + Applicable Tuition Fee | One-Time Payments (at the time of admission in July 2026) for DASA New Admission 2026 | S. No. Particulars Fee (Rs)",
+        "amounts": [
+          28250,
+          5000,
+          68500,
+          96750
+        ]
+      },
+      {
+        "line": "+ Applicable Tuition Fee",
+        "context": "admission) - 28,250 | D Hostel Mess Security Deposit 5,000 5,000 | Grand Total - A+B+C+D (₹): 68,500 | + Applicable Tuition Fee | 96,750 | + Applicable Tuition Fee | One-Time Payments (at the time of admission in July 2026) for DASA New Admission 2026 | S. No. Particulars Fee (Rs) | 1 Admission Fees 5,000",
+        "amounts": [
+          28250,
+          5000,
+          68500,
+          96750
+        ]
+      },
+      {
+        "line": "+ Applicable Tuition Fee",
+        "context": "Grand Total - A+B+C+D (₹): 68,500 | + Applicable Tuition Fee | 96,750 | + Applicable Tuition Fee | One-Time Payments (at the time of admission in July 2026) for DASA New Admission 2026 | S. No. Particulars Fee (Rs) | 1 Admission Fees 5,000 | 2 Grade Card 750 | 3 Provisional Certificate 2,000",
+        "amounts": [
+          68500,
+          96750,
+          5000
+        ]
+      },
+      {
+        "line": "1 Admission Fees 5,000",
+        "context": "+ Applicable Tuition Fee | One-Time Payments (at the time of admission in July 2026) for DASA New Admission 2026 | S. No. Particulars Fee (Rs) | 1 Admission Fees 5,000 | 2 Grade Card 750 | 3 Provisional Certificate 2,000 | 4 Student Welfare Fund 5,000 | 5 Identity card 500 | 6 Alumni Fees 1,000",
+        "amounts": [
+          5000,
+          1000
+        ]
+      }
+    ],
+    "all_amounts": [
+      87000,
+      95000,
+      30000,
+      80000,
+      1500,
+      1000,
+      97000,
+      105000,
+      40000,
+      90000,
+      15000,
+      20000,
+      35000,
+      10000,
+      23750,
+      25750,
+      5000,
+      132000,
+      168750,
+      75000,
+      105750,
+      153750,
+      103750,
+      3000,
+      4000,
+      13500,
+      50000,
+      28250,
+      68500,
+      96750
+    ],
+    "child_links": [],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-allahabad",
+    "name": "Indian Institute of Information Technology, Allahabad",
+    "original_source_url": "https://www.iiita.ac.in/fee-structure",
+    "resolved_source_url": "https://www.iiita.ac.in/sites/default/files/Fee%20Structure%20B.Tech_.%20%28New%20Batch%202026%29.pdf",
+    "source_type": "pdf",
+    "btech_relevant": true,
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "fee_signals": [
+      {
+        "line": "C Semester Fees",
+        "context": "Subtotal (A) 28120 | B Annual Dues | Subtotal (B) 4520 4980 5490 6050 | C Semester Fees | 99000 99000 99000 99000 99000 99000 99000 99000 | Subtotal (C) 108380 108380 109360 109360 110430 110430 111600 111600 | D Hostel Fees | Double Sharing Room | Subtotal (Di)",
+        "amounts": [
+          28120,
+          4520,
+          4980,
+          5490,
+          6050,
+          99000,
+          108380,
+          109360,
+          110430,
+          111600
+        ]
+      },
+      {
+        "line": "D Hostel Fees",
+        "context": "C Semester Fees | 99000 99000 99000 99000 99000 99000 99000 99000 | Subtotal (C) 108380 108380 109360 109360 110430 110430 111600 111600 | D Hostel Fees | Double Sharing Room | Subtotal (Di) | Single Occuapncy Room | Subtotal (Dii) | Total Fee [A+B+C+Di] ( )",
+        "amounts": [
+          99000,
+          108380,
+          109360,
+          110430,
+          111600
+        ]
+      },
+      {
+        "line": "Total Fee [A+B+C+Di] ( )",
+        "context": "Subtotal (Di) | Single Occuapncy Room | Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) | Total Fee [A+B+C+Dii] ( ) | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800 | 4 Alumni Fund 14190",
+        "amounts": [
+          4460,
+          1800,
+          14190
+        ]
+      },
+      {
+        "line": "Total Fee [A+B+C+Dii] ( )",
+        "context": "Single Occuapncy Room | Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) | Total Fee [A+B+C+Dii] ( ) | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800 | 4 Alumni Fund 14190 | 5 Caution Money (Refundable) 5870",
+        "amounts": [
+          4460,
+          1800,
+          14190,
+          5870
+        ]
+      },
+      {
+        "line": "1 Admission Fee 4460",
+        "context": "Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) | Total Fee [A+B+C+Dii] ( ) | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800 | 4 Alumni Fund 14190 | 5 Caution Money (Refundable) 5870 | 1 Benevolent Fund 920 1020 1130 1250",
+        "amounts": [
+          4460,
+          1800,
+          14190,
+          5870,
+          1020,
+          1130,
+          1250
+        ]
+      },
+      {
+        "line": "1 Tuition Fee",
+        "context": "1 Benevolent Fund 920 1020 1130 1250 | 2 Group Insurance and SWF 1800 1980 2180 2400 | 3 Library Fee 1800 1980 2180 2400 | 1 Tuition Fee | 2 Gymkhana Fee 1800 1800 1980 1980 2180 2180 2400 2400 | 3 Examination Fee 1800 1800 1980 1980 2180 2180 2400 2400 | 4 Grade Card Fee 920 920 1020 1020 1130 1130 1250 1250 | 5 Medical Fee 920 920 1020 1020 1130 1130 1250 1250 | 6 Transport 510 510 570 570 630 630 700 700",
+        "amounts": [
+          1020,
+          1130,
+          1250,
+          1800,
+          2180,
+          2400
+        ]
+      },
+      {
+        "line": "C Semester Fees",
+        "context": "Subtotal (A) 28120 | B Annual Dues | Subtotal (B) 4520 4980 5490 6050 | C Semester Fees | NA NA NA NA NA NA NA NA | Subtotal (C) 9380 9380 10360 10360 11430 11430 12600 12600 | D Hostel Fees | Double Sharing Room | Subtotal (Di)",
+        "amounts": [
+          28120,
+          4520,
+          4980,
+          5490,
+          6050,
+          9380,
+          10360,
+          11430,
+          12600
+        ]
+      },
+      {
+        "line": "D Hostel Fees",
+        "context": "C Semester Fees | NA NA NA NA NA NA NA NA | Subtotal (C) 9380 9380 10360 10360 11430 11430 12600 12600 | D Hostel Fees | Double Sharing Room | Subtotal (Di) | Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860 | Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990 | Single Occuapncy Room",
+        "amounts": [
+          9380,
+          10360,
+          11430,
+          12600,
+          56430,
+          23790,
+          31210,
+          26230,
+          34410,
+          28920,
+          37910,
+          31860,
+          70010,
+          37370,
+          46160,
+          41180,
+          50880,
+          45390,
+          56040,
+          49990
+        ]
+      },
+      {
+        "line": "Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860",
+        "context": "D Hostel Fees | Double Sharing Room | Subtotal (Di) | Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860 | Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990 | Single Occuapncy Room | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800",
+        "amounts": [
+          56430,
+          23790,
+          31210,
+          26230,
+          34410,
+          28920,
+          37910,
+          31860,
+          70010,
+          37370,
+          46160,
+          41180,
+          50880,
+          45390,
+          56040,
+          49990,
+          4460,
+          1800
+        ]
+      },
+      {
+        "line": "Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990",
+        "context": "Double Sharing Room | Subtotal (Di) | Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860 | Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990 | Single Occuapncy Room | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800 | 4 Alumni Fund 14190",
+        "amounts": [
+          56430,
+          23790,
+          31210,
+          26230,
+          34410,
+          28920,
+          37910,
+          31860,
+          70010,
+          37370,
+          46160,
+          41180,
+          50880,
+          45390,
+          56040,
+          49990,
+          4460,
+          1800,
+          14190
+        ]
+      },
+      {
+        "line": "1 Admission Fee 4460",
+        "context": "Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860 | Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990 | Single Occuapncy Room | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800 | 4 Alumni Fund 14190 | 5 Caution Money (Refundable) 5870 | 1 Benevolent Fund 920 1020 1130 1250",
+        "amounts": [
+          56430,
+          23790,
+          31210,
+          26230,
+          34410,
+          28920,
+          37910,
+          31860,
+          70010,
+          37370,
+          46160,
+          41180,
+          50880,
+          45390,
+          56040,
+          49990,
+          4460,
+          1800,
+          14190,
+          5870,
+          1020,
+          1130,
+          1250
+        ]
+      },
+      {
+        "line": "1 Tuition Fee",
+        "context": "1 Benevolent Fund 920 1020 1130 1250 | 2 Group Insurance and SWF 1800 1980 2180 2400 | 3 Library Fee 1800 1980 2180 2400 | 1 Tuition Fee | 2 Gymkhana Fee 1800 1800 1980 1980 2180 2180 2400 2400 | 3 Examination Fee 1800 1800 1980 1980 2180 2180 2400 2400 | 4 Grade Card Fee 920 920 1020 1020 1130 1130 1250 1250 | 5 Medical Fee 920 920 1020 1020 1130 1130 1250 1250 | 6 Transport 510 510 570 570 630 630 700 700",
+        "amounts": [
+          1020,
+          1130,
+          1250,
+          1800,
+          2180,
+          2400
+        ]
+      },
+      {
+        "line": "C Semester Fees",
+        "context": "Subtotal (A) 28120 | B Annual Dues | Subtotal (B) 4520 4980 5490 6050 | C Semester Fees | $4,000 $4,000 $4,000 $4,000 $4,000 $4,000 $4,000 $4,000 | Subtotal (C) 9380 9380 10360 10360 11430 11430 12600 12600 | D Hostel Fees | Double Sharing Room | Subtotal (Di)",
+        "amounts": [
+          28120,
+          4520,
+          4980,
+          5490,
+          6050,
+          4000,
+          9380,
+          10360,
+          11430,
+          12600
+        ]
+      },
+      {
+        "line": "D Hostel Fees",
+        "context": "C Semester Fees | $4,000 $4,000 $4,000 $4,000 $4,000 $4,000 $4,000 $4,000 | Subtotal (C) 9380 9380 10360 10360 11430 11430 12600 12600 | D Hostel Fees | Double Sharing Room | Subtotal (Di) | Single Occuapncy Room | Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860",
+        "amounts": [
+          4000,
+          9380,
+          10360,
+          11430,
+          12600,
+          56430,
+          23790,
+          31210,
+          26230,
+          34410,
+          28920,
+          37910,
+          31860
+        ]
+      },
+      {
+        "line": "Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860",
+        "context": "Subtotal (Di) | Single Occuapncy Room | Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860 | Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990 | Grand Total $4000+56430 $4000+23790 $4000+31210 $4000+26230 $4000+34410 $4000+28920 $4000+37910 $4000+318600 | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800",
+        "amounts": [
+          56430,
+          23790,
+          31210,
+          26230,
+          34410,
+          28920,
+          37910,
+          31860,
+          70010,
+          37370,
+          46160,
+          41180,
+          50880,
+          45390,
+          56040,
+          49990,
+          4000,
+          318600,
+          4460,
+          1800
+        ]
+      },
+      {
+        "line": "Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990",
+        "context": "Single Occuapncy Room | Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860 | Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990 | Grand Total $4000+56430 $4000+23790 $4000+31210 $4000+26230 $4000+34410 $4000+28920 $4000+37910 $4000+318600 | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800 | 4 Alumni Fund 14190",
+        "amounts": [
+          56430,
+          23790,
+          31210,
+          26230,
+          34410,
+          28920,
+          37910,
+          31860,
+          70010,
+          37370,
+          46160,
+          41180,
+          50880,
+          45390,
+          56040,
+          49990,
+          4000,
+          318600,
+          4460,
+          1800,
+          14190
+        ]
+      },
+      {
+        "line": "Grand Total $4000+56430 $4000+23790 $4000+31210 $4000+26230 $4000+34410 $4000+28920 $4000+37910 $4000+318600",
+        "context": "Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860 | Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990 | Grand Total $4000+56430 $4000+23790 $4000+31210 $4000+26230 $4000+34410 $4000+28920 $4000+37910 $4000+318600 | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800 | 4 Alumni Fund 14190 | 5 Caution Money (Refundable) 5870",
+        "amounts": [
+          56430,
+          23790,
+          31210,
+          26230,
+          34410,
+          28920,
+          37910,
+          31860,
+          70010,
+          37370,
+          46160,
+          41180,
+          50880,
+          45390,
+          56040,
+          49990,
+          4000,
+          318600,
+          4460,
+          1800,
+          14190,
+          5870
+        ]
+      },
+      {
+        "line": "1 Admission Fee 4460",
+        "context": "Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860 | Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990 | Grand Total $4000+56430 $4000+23790 $4000+31210 $4000+26230 $4000+34410 $4000+28920 $4000+37910 $4000+318600 | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800 | 4 Alumni Fund 14190 | 5 Caution Money (Refundable) 5870 | 1 Benevolent Fund 920 1020 1130 1250",
+        "amounts": [
+          56430,
+          23790,
+          31210,
+          26230,
+          34410,
+          28920,
+          37910,
+          31860,
+          70010,
+          37370,
+          46160,
+          41180,
+          50880,
+          45390,
+          56040,
+          49990,
+          4000,
+          318600,
+          4460,
+          1800,
+          14190,
+          5870,
+          1020,
+          1130,
+          1250
+        ]
+      },
+      {
+        "line": "1 Tuition Fee (NON SAARC)",
+        "context": "1 Benevolent Fund 920 1020 1130 1250 | 2 Group Insurance and SWF 1800 1980 2180 2400 | 3 Library Fee 1800 1980 2180 2400 | 1 Tuition Fee (NON SAARC) | 2 Gymkhana Fee 1800 1800 1980 1980 2180 2180 2400 2400 | 3 Examination Fee 1800 1800 1980 1980 2180 2180 2400 2400 | 4 Grade Card Fee 920 920 1020 1020 1130 1130 1250 1250 | 5 Medical Fee 920 920 1020 1020 1130 1130 1250 1250 | 6 Transport 510 510 570 570 630 630 700 700",
+        "amounts": [
+          1020,
+          1130,
+          1250,
+          1800,
+          2180,
+          2400
+        ]
+      },
+      {
+        "line": "C Semester Fees",
+        "context": "Subtotal (A) 28120 | B Annual Dues | Subtotal (B) 4520 4980 5490 6050 | C Semester Fees | $2,000 $2,000 $2,000 $2,000 $2,000 $2,000 $2,000 $2,000 | Subtotal (C) 9380 9380 10360 10360 11430 11430 12600 12600 | D Hostel Fees | Double Sharing Room | Subtotal (Di)",
+        "amounts": [
+          28120,
+          4520,
+          4980,
+          5490,
+          6050,
+          9380,
+          10360,
+          11430,
+          12600
+        ]
+      },
+      {
+        "line": "D Hostel Fees",
+        "context": "C Semester Fees | $2,000 $2,000 $2,000 $2,000 $2,000 $2,000 $2,000 $2,000 | Subtotal (C) 9380 9380 10360 10360 11430 11430 12600 12600 | D Hostel Fees | Double Sharing Room | Subtotal (Di) | Single Occuapncy Room | Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860",
+        "amounts": [
+          9380,
+          10360,
+          11430,
+          12600,
+          56430,
+          23790,
+          31210,
+          26230,
+          34410,
+          28920,
+          37910,
+          31860
+        ]
+      },
+      {
+        "line": "Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860",
+        "context": "Subtotal (Di) | Single Occuapncy Room | Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860 | Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990 | Grand Total $2000+56430 $2000+23790 $2000+31210 $2000+26230 $2000+34410 $2000+28920 $2000+37910 $2000+318600 | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800",
+        "amounts": [
+          56430,
+          23790,
+          31210,
+          26230,
+          34410,
+          28920,
+          37910,
+          31860,
+          70010,
+          37370,
+          46160,
+          41180,
+          50880,
+          45390,
+          56040,
+          49990,
+          318600,
+          4460,
+          1800
+        ]
+      },
+      {
+        "line": "Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990",
+        "context": "Single Occuapncy Room | Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860 | Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990 | Grand Total $2000+56430 $2000+23790 $2000+31210 $2000+26230 $2000+34410 $2000+28920 $2000+37910 $2000+318600 | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800 | 4 Alumni Fund 14190",
+        "amounts": [
+          56430,
+          23790,
+          31210,
+          26230,
+          34410,
+          28920,
+          37910,
+          31860,
+          70010,
+          37370,
+          46160,
+          41180,
+          50880,
+          45390,
+          56040,
+          49990,
+          318600,
+          4460,
+          1800,
+          14190
+        ]
+      },
+      {
+        "line": "Grand Total $2000+56430 $2000+23790 $2000+31210 $2000+26230 $2000+34410 $2000+28920 $2000+37910 $2000+318600",
+        "context": "Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860 | Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990 | Grand Total $2000+56430 $2000+23790 $2000+31210 $2000+26230 $2000+34410 $2000+28920 $2000+37910 $2000+318600 | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800 | 4 Alumni Fund 14190 | 5 Caution Money (Refundable) 5870",
+        "amounts": [
+          56430,
+          23790,
+          31210,
+          26230,
+          34410,
+          28920,
+          37910,
+          31860,
+          70010,
+          37370,
+          46160,
+          41180,
+          50880,
+          45390,
+          56040,
+          49990,
+          318600,
+          4460,
+          1800,
+          14190,
+          5870
+        ]
+      },
+      {
+        "line": "1 Admission Fee 4460",
+        "context": "Total Fee [A+B+C+Di] ( ) 56430 23790 31210 26230 34410 28920 37910 31860 | Total Fee [A+B+C+Dii] ( ) 70010 37370 46160 41180 50880 45390 56040 49990 | Grand Total $2000+56430 $2000+23790 $2000+31210 $2000+26230 $2000+34410 $2000+28920 $2000+37910 $2000+318600 | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800 | 4 Alumni Fund 14190 | 5 Caution Money (Refundable) 5870 | 1 Benevolent Fund 920 1020 1130 1250",
+        "amounts": [
+          56430,
+          23790,
+          31210,
+          26230,
+          34410,
+          28920,
+          37910,
+          31860,
+          70010,
+          37370,
+          46160,
+          41180,
+          50880,
+          45390,
+          56040,
+          49990,
+          318600,
+          4460,
+          1800,
+          14190,
+          5870,
+          1020,
+          1130,
+          1250
+        ]
+      },
+      {
+        "line": "1 Tuition Fee (SAARC)",
+        "context": "1 Benevolent Fund 920 1020 1130 1250 | 2 Group Insurance and SWF 1800 1980 2180 2400 | 3 Library Fee 1800 1980 2180 2400 | 1 Tuition Fee (SAARC) | 2 Gymkhana Fee 1800 1800 1980 1980 2180 2180 2400 2400 | 3 Examination Fee 1800 1800 1980 1980 2180 2180 2400 2400 | 4 Grade Card Fee 920 920 1020 1020 1130 1130 1250 1250 | 5 Medical Fee 920 920 1020 1020 1130 1130 1250 1250 | 6 Transport 510 510 570 570 630 630 700 700",
+        "amounts": [
+          1020,
+          1130,
+          1250,
+          1800,
+          2180,
+          2400
+        ]
+      },
+      {
+        "line": "C Semester Fees",
+        "context": "Subtotal (A) 28120 | B Annual Dues | Subtotal (B) 4520 4980 5490 6050 | C Semester Fees | Subtotal (C) 71880 71880 72860 72860 73930 73930 75100 75100 | D Hostel Fees | Double Sharing Room | Subtotal (Di) | Single Occuapncy Room",
+        "amounts": [
+          28120,
+          4520,
+          4980,
+          5490,
+          6050,
+          71880,
+          72860,
+          73930,
+          75100
+        ]
+      },
+      {
+        "line": "D Hostel Fees",
+        "context": "Subtotal (B) 4520 4980 5490 6050 | C Semester Fees | Subtotal (C) 71880 71880 72860 72860 73930 73930 75100 75100 | D Hostel Fees | Double Sharing Room | Subtotal (Di) | Single Occuapncy Room | Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) 118930 86290 93710 88730 96910 91420 100410 94360",
+        "amounts": [
+          4520,
+          4980,
+          5490,
+          6050,
+          71880,
+          72860,
+          73930,
+          75100,
+          118930,
+          86290,
+          93710,
+          88730,
+          96910,
+          91420,
+          100410,
+          94360
+        ]
+      },
+      {
+        "line": "Total Fee [A+B+C+Di] ( ) 118930 86290 93710 88730 96910 91420 100410 94360",
+        "context": "Subtotal (Di) | Single Occuapncy Room | Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) 118930 86290 93710 88730 96910 91420 100410 94360 | Total Fee [A+B+C+Dii] ( ) 132510 99870 108660 103680 113380 107890 118540 112490 | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800 | 4 Alumni Fund 14190",
+        "amounts": [
+          118930,
+          86290,
+          93710,
+          88730,
+          96910,
+          91420,
+          100410,
+          94360,
+          132510,
+          99870,
+          108660,
+          103680,
+          113380,
+          107890,
+          118540,
+          112490,
+          4460,
+          1800,
+          14190
+        ]
+      },
+      {
+        "line": "Total Fee [A+B+C+Dii] ( ) 132510 99870 108660 103680 113380 107890 118540 112490",
+        "context": "Single Occuapncy Room | Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) 118930 86290 93710 88730 96910 91420 100410 94360 | Total Fee [A+B+C+Dii] ( ) 132510 99870 108660 103680 113380 107890 118540 112490 | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800 | 4 Alumni Fund 14190 | 5 Caution Money (Refundable) 5870",
+        "amounts": [
+          118930,
+          86290,
+          93710,
+          88730,
+          96910,
+          91420,
+          100410,
+          94360,
+          132510,
+          99870,
+          108660,
+          103680,
+          113380,
+          107890,
+          118540,
+          112490,
+          4460,
+          1800,
+          14190,
+          5870
+        ]
+      },
+      {
+        "line": "1 Admission Fee 4460",
+        "context": "Subtotal (Dii) | Total Fee [A+B+C+Di] ( ) 118930 86290 93710 88730 96910 91420 100410 94360 | Total Fee [A+B+C+Dii] ( ) 132510 99870 108660 103680 113380 107890 118540 112490 | 1 Admission Fee 4460 | 2 Enrolment Fee 1800 | 3 Identity Card Fee 1800 | 4 Alumni Fund 14190 | 5 Caution Money (Refundable) 5870 | 1 Benevolent Fund 920 1020 1130 1250",
+        "amounts": [
+          118930,
+          86290,
+          93710,
+          88730,
+          96910,
+          91420,
+          100410,
+          94360,
+          132510,
+          99870,
+          108660,
+          103680,
+          113380,
+          107890,
+          118540,
+          112490,
+          4460,
+          1800,
+          14190,
+          5870,
+          1020,
+          1130,
+          1250
+        ]
+      },
+      {
+        "line": "1 Tuition Fee (CIWG) 62500 62500 62500 62500 62500 62500 62500 62500",
+        "context": "1 Benevolent Fund 920 1020 1130 1250 | 2 Group Insurance and SWF 1800 1980 2180 2400 | 3 Library Fee 1800 1980 2180 2400 | 1 Tuition Fee (CIWG) 62500 62500 62500 62500 62500 62500 62500 62500 | 2 Gymkhana Fee 1800 1800 1980 1980 2180 2180 2400 2400 | 3 Examination Fee 1800 1800 1980 1980 2180 2180 2400 2400 | 4 Grade Card Fee 920 920 1020 1020 1130 1130 1250 1250 | 5 Medical Fee 920 920 1020 1020 1130 1130 1250 1250 | 6 Transport 510 510 570 570 630 630 700 700",
+        "amounts": [
+          1020,
+          1130,
+          1250,
+          1800,
+          2180,
+          2400,
+          62500
+        ]
+      },
+      {
+        "line": "S. No Countries Tuition Fee Other Fee Total Fee",
+        "context": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY ALLAHABAD | Annual Fee Structure of July-December 2026 | Study in India Program (SII Program) | S. No Countries Tuition Fee Other Fee Total Fee | 1 SAARC $5,000 $3,450 $8,450 | 2 NON SAARC $7,000 $3,450 $10,450 | ) ) ) | ) ) ) | NOTE Other Fee like Annual Dues and Semester Dues like Hostel Fee, Gymkhana, Exam Fee, Grade Card Fee,",
+        "amounts": [
+          5000,
+          3450,
+          8450,
+          7000,
+          10450
+        ]
+      },
+      {
+        "line": "NOTE Other Fee like Annual Dues and Semester Dues like Hostel Fee, Gymkhana, Exam Fee, Grade Card Fee,",
+        "context": "2 NON SAARC $7,000 $3,450 $10,450 | ) ) ) | ) ) ) | NOTE Other Fee like Annual Dues and Semester Dues like Hostel Fee, Gymkhana, Exam Fee, Grade Card Fee, | Medical Fee, Transport Fee, ICT Fee, Hostel Maintenance Charges, Mess Establishment Charges, Water Charges, | Electricity Charges and Mess Charges etc. | G1, G2, G3 and G4 are scheme under which tuition fee waiver are offered in the following ranges 100%, 50%, | 25% and 0% respectively. The Cost covered under this scheme only waives of tuition fee. | -- 6 of 6 --",
+        "amounts": [
+          7000,
+          3450,
+          10450
+        ]
+      },
+      {
+        "line": "G1, G2, G3 and G4 are scheme under which tuition fee waiver are offered in the following ranges 100%, 50%,",
+        "context": "NOTE Other Fee like Annual Dues and Semester Dues like Hostel Fee, Gymkhana, Exam Fee, Grade Card Fee, | Medical Fee, Transport Fee, ICT Fee, Hostel Maintenance Charges, Mess Establishment Charges, Water Charges, | Electricity Charges and Mess Charges etc. | G1, G2, G3 and G4 are scheme under which tuition fee waiver are offered in the following ranges 100%, 50%, | 25% and 0% respectively. The Cost covered under this scheme only waives of tuition fee. | -- 6 of 6 --",
+        "amounts": []
+      },
+      {
+        "line": "25% and 0% respectively. The Cost covered under this scheme only waives of tuition fee.",
+        "context": "Medical Fee, Transport Fee, ICT Fee, Hostel Maintenance Charges, Mess Establishment Charges, Water Charges, | Electricity Charges and Mess Charges etc. | G1, G2, G3 and G4 are scheme under which tuition fee waiver are offered in the following ranges 100%, 50%, | 25% and 0% respectively. The Cost covered under this scheme only waives of tuition fee. | -- 6 of 6 --",
+        "amounts": []
+      }
+    ],
+    "all_amounts": [
+      28120,
+      4520,
+      4980,
+      5490,
+      6050,
+      99000,
+      108380,
+      109360,
+      110430,
+      111600,
+      4460,
+      1800,
+      14190,
+      5870,
+      1020,
+      1130,
+      1250,
+      2180,
+      2400,
+      2220,
+      2450,
+      2700,
+      2970,
+      1210,
+      1340,
+      1480,
+      1630,
+      9670,
+      10640,
+      11710,
+      12890,
+      1070,
+      1180,
+      1300,
+      155430,
+      122790,
+      130210,
+      125230,
+      133410,
+      127920,
+      136910,
+      130860,
+      169010,
+      136370,
+      145160,
+      140180,
+      149880,
+      144390,
+      155040,
+      148990,
+      13580,
+      14950,
+      16470,
+      18130,
+      27160,
+      29900,
+      32940,
+      36260,
+      14410,
+      15870,
+      17490,
+      19260,
+      27990,
+      30820,
+      33960,
+      37390,
+      9380,
+      10360,
+      11430,
+      12600,
+      56430,
+      23790,
+      31210,
+      26230,
+      34410,
+      28920,
+      37910,
+      31860,
+      70010,
+      37370,
+      46160,
+      41180,
+      50880,
+      45390,
+      56040,
+      49990,
+      4000,
+      318600,
+      71880,
+      72860,
+      73930,
+      75100,
+      118930,
+      86290,
+      93710,
+      88730,
+      96910,
+      91420,
+      100410,
+      94360,
+      132510,
+      99870,
+      108660,
+      103680,
+      113380,
+      107890,
+      118540,
+      112490,
+      62500,
+      5000,
+      3450,
+      8450,
+      7000,
+      10450
+    ],
+    "child_links": [
+      {
+        "text": "Fee Structure B.Tech_. (New Batch 2026).pdf",
+        "url": "https://www.iiita.ac.in/sites/default/files/Fee%20Structure%20B.Tech_.%20%28New%20Batch%202026%29.pdf",
+        "score": 90
+      },
+      {
+        "text": "Dual Degree Fee Structure (2026 Batch).pdf",
+        "url": "https://www.iiita.ac.in/sites/default/files/Dual%20Degree%20Fee%20Structure%20%282026%20Batch%29.pdf",
+        "score": 60
+      },
+      {
+        "text": "Skip to main content",
+        "url": "https://www.iiita.ac.in/fee-structure#main-content",
+        "score": 50
+      },
+      {
+        "text": "A",
+        "url": "https://www.iiita.ac.in/styleswitcher/switch/custom_theme/custom/black?destination=/fee-structure",
+        "score": 50
+      },
+      {
+        "text": "A",
+        "url": "https://www.iiita.ac.in/styleswitcher/switch/custom_theme/custom/gray?destination=/fee-structure",
+        "score": 50
+      },
+      {
+        "text": "A",
+        "url": "https://www.iiita.ac.in/styleswitcher/switch/custom_theme/custom/default?destination=/fee-structure",
+        "score": 50
+      },
+      {
+        "text": "हिंदी",
+        "url": "https://www.iiita.ac.in/hi/fee-structure",
+        "score": 50
+      },
+      {
+        "text": "Login",
+        "url": "https://www.iiita.ac.in/user/login?current=/fee-structure",
+        "score": 50
+      },
+      {
+        "text": "Fee Structure",
+        "url": "https://www.iiita.ac.in/fee-structure",
+        "score": 50
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+    "name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+    "original_source_url": "http://old.iiitdm.ac.in/img/academics/Fee_Structure_2026-27.pdf",
+    "resolved_source_url": "http://old.iiitdm.ac.in/img/academics/Fee_Structure_2026-27.pdf",
+    "source_type": "pdf",
+    "btech_relevant": true,
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "fee_signals": [
+      {
+        "line": "F.No/IIITDM/Acad/Institute Fee/10/01/B.Tech &DD",
+        "context": "Melakkottaiyur, Off Vandalur – Kelambakkam Road, Chennai – 600 127 | (Office of Academic Affairs) | Ph : +91 44 2747 6323 Email : academics@iiitdm.ac.in | F.No/IIITDM/Acad/Institute Fee/10/01/B.Tech &DD | FEE STRUCTURE FOR THE B Tech & DD ADMISSSIONS – 2026-27 BATCH ONLY (For One semester) | Description B Tech DD | I. Institute Fees | A. One time Fees: | Admission Fee 500 500",
+        "amounts": [
+          2747,
+          6323
+        ]
+      },
+      {
+        "line": "I. Institute Fees",
+        "context": "F.No/IIITDM/Acad/Institute Fee/10/01/B.Tech &DD | FEE STRUCTURE FOR THE B Tech & DD ADMISSSIONS – 2026-27 BATCH ONLY (For One semester) | Description B Tech DD | I. Institute Fees | A. One time Fees: | Admission Fee 500 500 | Certificate/Thesis Fee 500 500 | Student welfare fee 1000 1000 | Infrastructure Development Fee 1000 1000",
+        "amounts": [
+          1000
+        ]
+      },
+      {
+        "line": "Admission Fee 500 500",
+        "context": "Description B Tech DD | I. Institute Fees | A. One time Fees: | Admission Fee 500 500 | Certificate/Thesis Fee 500 500 | Student welfare fee 1000 1000 | Infrastructure Development Fee 1000 1000 | Alumni Life Membership Fee 500 500 | Publication Fee / Library Fee 1000 1000",
+        "amounts": [
+          1000
+        ]
+      },
+      {
+        "line": "B. Semester Fees:",
+        "context": "Publication Fee / Library Fee 1000 1000 | Cultural Fee 500 500 | Total (A) 5000 5000 | B. Semester Fees: | Tuition fee (+) 99000 99000 | Examination fee 500 500 | Registration 300 300 | Sports Fee 1000 1000 | Medical Fee 1000 1000",
+        "amounts": [
+          1000,
+          5000,
+          99000
+        ]
+      },
+      {
+        "line": "Tuition fee (+) 99000 99000",
+        "context": "Cultural Fee 500 500 | Total (A) 5000 5000 | B. Semester Fees: | Tuition fee (+) 99000 99000 | Examination fee 500 500 | Registration 300 300 | Sports Fee 1000 1000 | Medical Fee 1000 1000 | Student Amenities 2000 2000",
+        "amounts": [
+          5000,
+          99000,
+          1000
+        ]
+      },
+      {
+        "line": "Grand Total [A+B+C] 109300 109300",
+        "context": "C. Medical Insurance Premium (per annum) | Medical Insurance premium p.a. 500 500 | Total (C) 500 500 | Grand Total [A+B+C] 109300 109300 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 700 | Hostel Seat Rent 3500 3500 | Hostel Maintenance Charges 17496 17496",
+        "amounts": [
+          109300,
+          3500,
+          17496
+        ]
+      },
+      {
+        "line": "II. Hostel Fees",
+        "context": "Medical Insurance premium p.a. 500 500 | Total (C) 500 500 | Grand Total [A+B+C] 109300 109300 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 700 | Hostel Seat Rent 3500 3500 | Hostel Maintenance Charges 17496 17496 | Dining charges - Advance 16800(**) 16800(**)",
+        "amounts": [
+          109300,
+          3500,
+          17496,
+          16800
+        ]
+      },
+      {
+        "line": "A. Hostel Fees & Mess Charges per semester",
+        "context": "Total (C) 500 500 | Grand Total [A+B+C] 109300 109300 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 700 | Hostel Seat Rent 3500 3500 | Hostel Maintenance Charges 17496 17496 | Dining charges - Advance 16800(**) 16800(**) | Establishment B Charges 1000 1000",
+        "amounts": [
+          109300,
+          3500,
+          17496,
+          16800,
+          1000
+        ]
+      },
+      {
+        "line": "Hostel Admission fee 700 700",
+        "context": "Grand Total [A+B+C] 109300 109300 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 700 | Hostel Seat Rent 3500 3500 | Hostel Maintenance Charges 17496 17496 | Dining charges - Advance 16800(**) 16800(**) | Establishment B Charges 1000 1000 | Development Fee 1000 1000",
+        "amounts": [
+          109300,
+          3500,
+          17496,
+          16800,
+          1000
+        ]
+      },
+      {
+        "line": "1. (+) SC/ST students of B Tech & DD are exempted from payment of tuition fee irrespective of their parental income and",
+        "context": "Development Fee 1000 1000 | Total (A) 40496 40496 | 149796 149796 | 1. (+) SC/ST students of B Tech & DD are exempted from payment of tuition fee irrespective of their parental income and | PWD students B Tech & DD are exempted from payment of tuition fee irrespective of their parental income for the | period of 04 years. | 2. ** - Hostel is compulsory for all B Tech/DD students. If exemption is granted by the Institute, then day scholars will | have to pay the above mentioned Institute fees (Except Hostel Fees). (**) There may be variation in the dining charges | based on tendering value.",
+        "amounts": [
+          1000,
+          40496,
+          149796
+        ]
+      },
+      {
+        "line": "PWD students B Tech & DD are exempted from payment of tuition fee irrespective of their parental income for the",
+        "context": "Total (A) 40496 40496 | 149796 149796 | 1. (+) SC/ST students of B Tech & DD are exempted from payment of tuition fee irrespective of their parental income and | PWD students B Tech & DD are exempted from payment of tuition fee irrespective of their parental income for the | period of 04 years. | 2. ** - Hostel is compulsory for all B Tech/DD students. If exemption is granted by the Institute, then day scholars will | have to pay the above mentioned Institute fees (Except Hostel Fees). (**) There may be variation in the dining charges | based on tendering value. | -- 1 of 3 --",
+        "amounts": [
+          40496,
+          149796
+        ]
+      },
+      {
+        "line": "have to pay the above mentioned Institute fees (Except Hostel Fees). (**) There may be variation in the dining charges",
+        "context": "PWD students B Tech & DD are exempted from payment of tuition fee irrespective of their parental income for the | period of 04 years. | 2. ** - Hostel is compulsory for all B Tech/DD students. If exemption is granted by the Institute, then day scholars will | have to pay the above mentioned Institute fees (Except Hostel Fees). (**) There may be variation in the dining charges | based on tendering value. | -- 1 of 3 -- | INDIAN INSTITUTE OF INFORMATION | TECHNOLOGY, DESIGN AND | MANUFACTURING, KANCHEEPURAM",
+        "amounts": []
+      },
+      {
+        "line": "F.No/IIITDM/Acad/Institute Fee/10/01/M.Tech/MDes",
+        "context": "Melakkottaiyur, Off Vandalur – Kelambakkam Road, Chennai – 600 127 | (Office of Academic Affairs) | Ph : +91 44 2747 6323 Email : academics@iiitdm.ac.in | F.No/IIITDM/Acad/Institute Fee/10/01/M.Tech/MDes | FEE STRUCTURE FOR THE M Tech/MDes ADMISSSIONS – 2026-27 BATCH (For one semester) | Description M.Tech/MDes | I. Institute Fees | A. One time Fees: | Admission Fee 500",
+        "amounts": [
+          2747,
+          6323
+        ]
+      },
+      {
+        "line": "I. Institute Fees",
+        "context": "F.No/IIITDM/Acad/Institute Fee/10/01/M.Tech/MDes | FEE STRUCTURE FOR THE M Tech/MDes ADMISSSIONS – 2026-27 BATCH (For one semester) | Description M.Tech/MDes | I. Institute Fees | A. One time Fees: | Admission Fee 500 | Certificate/Thesis Fee 500 | Student welfare fee 1000 | Infrastructure Development Fee 1000",
+        "amounts": [
+          1000
+        ]
+      },
+      {
+        "line": "Admission Fee 500",
+        "context": "Description M.Tech/MDes | I. Institute Fees | A. One time Fees: | Admission Fee 500 | Certificate/Thesis Fee 500 | Student welfare fee 1000 | Infrastructure Development Fee 1000 | Alumni Life Membership Fee 500 | Publication Fee / Library Fee 1000",
+        "amounts": [
+          1000
+        ]
+      },
+      {
+        "line": "B. Semester Fees:",
+        "context": "Publication Fee / Library Fee 1000 | Cultural Fee 500 | Total (A) 5000 | B. Semester Fees: | Tuition fee (+) 50000 (*) | Examination fee 500 | Registration 500 | Sports Fee 1000 | Medical Fee 1000",
+        "amounts": [
+          1000,
+          5000,
+          50000
+        ]
+      },
+      {
+        "line": "Tuition fee (+) 50000 (*)",
+        "context": "Cultural Fee 500 | Total (A) 5000 | B. Semester Fees: | Tuition fee (+) 50000 (*) | Examination fee 500 | Registration 500 | Sports Fee 1000 | Medical Fee 1000 | Student Amenities 2000",
+        "amounts": [
+          5000,
+          50000,
+          1000
+        ]
+      },
+      {
+        "line": "Grand Total [A+B+C] 60500",
+        "context": "C. Medical Insurance Premium (per annum) | Medical Insurance premium p.a. 500 | Total (C) 500 | Grand Total [A+B+C] 60500 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496",
+        "amounts": [
+          60500,
+          3500,
+          17496
+        ]
+      },
+      {
+        "line": "II. Hostel Fees",
+        "context": "Medical Insurance premium p.a. 500 | Total (C) 500 | Grand Total [A+B+C] 60500 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496 | Dining charges - Advance 24300(**)",
+        "amounts": [
+          60500,
+          3500,
+          17496,
+          24300
+        ]
+      },
+      {
+        "line": "A. Hostel Fees & Mess Charges per semester",
+        "context": "Total (C) 500 | Grand Total [A+B+C] 60500 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496 | Dining charges - Advance 24300(**) | Establishment B Charges 1000",
+        "amounts": [
+          60500,
+          3500,
+          17496,
+          24300,
+          1000
+        ]
+      },
+      {
+        "line": "Hostel Admission fee 700",
+        "context": "Grand Total [A+B+C] 60500 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496 | Dining charges - Advance 24300(**) | Establishment B Charges 1000 | Development Fee 1000",
+        "amounts": [
+          60500,
+          3500,
+          17496,
+          24300,
+          1000
+        ]
+      },
+      {
+        "line": "1. (+) SC/ST students are exempted from payment of tuition fee irrespective of their parental income.",
+        "context": "Total (A) 47996 | Hostellers (I & II) 108496 | Note: | 1. (+) SC/ST students are exempted from payment of tuition fee irrespective of their parental income. | 2. Hostel is compulsory for all students. If exemption is granted by the Institute, then day scholars will have to pay the | above mentioned Institute fees (Except Hostel Fees). | 3. (*) For PG students - Tuition fee of 50,000 per semester for the first year and 60,000 per semester for second year | 4. (**) There may be variation in the dining charges based on tendering value. | -- 2 of 3 --",
+        "amounts": [
+          47996,
+          108496,
+          50000,
+          60000
+        ]
+      },
+      {
+        "line": "above mentioned Institute fees (Except Hostel Fees).",
+        "context": "Note: | 1. (+) SC/ST students are exempted from payment of tuition fee irrespective of their parental income. | 2. Hostel is compulsory for all students. If exemption is granted by the Institute, then day scholars will have to pay the | above mentioned Institute fees (Except Hostel Fees). | 3. (*) For PG students - Tuition fee of 50,000 per semester for the first year and 60,000 per semester for second year | 4. (**) There may be variation in the dining charges based on tendering value. | -- 2 of 3 -- | INDIAN INSTITUTE OF INFORMATION | TECHNOLOGY, DESIGN AND",
+        "amounts": [
+          50000,
+          60000
+        ]
+      },
+      {
+        "line": "3. (*) For PG students - Tuition fee of 50,000 per semester for the first year and 60,000 per semester for second year",
+        "context": "1. (+) SC/ST students are exempted from payment of tuition fee irrespective of their parental income. | 2. Hostel is compulsory for all students. If exemption is granted by the Institute, then day scholars will have to pay the | above mentioned Institute fees (Except Hostel Fees). | 3. (*) For PG students - Tuition fee of 50,000 per semester for the first year and 60,000 per semester for second year | 4. (**) There may be variation in the dining charges based on tendering value. | -- 2 of 3 -- | INDIAN INSTITUTE OF INFORMATION | TECHNOLOGY, DESIGN AND | MANUFACTURING, KANCHEEPURAM",
+        "amounts": [
+          50000,
+          60000
+        ]
+      },
+      {
+        "line": "F.No/IIITDM/Acad/Institute Fee/10/01/PhD",
+        "context": "Melakkottaiyur, Off Vandalur – Kelambakkam Road, Chennai – 600 127 | (Office of Academic Affairs) | Ph : +91 44 2747 6323 Email : academics@iiitdm.ac.in | F.No/IIITDM/Acad/Institute Fee/10/01/PhD | FEE STRUCTURE FOR THE PhD ADMISSSIONS – 2026-27 BATCH (For one semester) | Description PhD | I. Institute Fees | A. One time Fees: | Admission Fee 500",
+        "amounts": [
+          2747,
+          6323
+        ]
+      },
+      {
+        "line": "I. Institute Fees",
+        "context": "F.No/IIITDM/Acad/Institute Fee/10/01/PhD | FEE STRUCTURE FOR THE PhD ADMISSSIONS – 2026-27 BATCH (For one semester) | Description PhD | I. Institute Fees | A. One time Fees: | Admission Fee 500 | Certificate/Thesis Fee 1500 | Student welfare fee 1000 | Infrastructure Development Fee 1000",
+        "amounts": [
+          1500,
+          1000
+        ]
+      },
+      {
+        "line": "Admission Fee 500",
+        "context": "Description PhD | I. Institute Fees | A. One time Fees: | Admission Fee 500 | Certificate/Thesis Fee 1500 | Student welfare fee 1000 | Infrastructure Development Fee 1000 | Alumni Life Membership Fee 500 | Publication Fee / Library Fee 1500",
+        "amounts": [
+          1500,
+          1000
+        ]
+      },
+      {
+        "line": "B. Semester Fees:",
+        "context": "Alumni Life Membership Fee 500 | Publication Fee / Library Fee 1500 | Total (A) 6000 | B. Semester Fees: | Tuition fee (+) 46000 (*) | Examination fee 500 | Registration 500 | Sports Fee 1000 | Medical Fee 1000",
+        "amounts": [
+          1500,
+          6000,
+          46000,
+          1000
+        ]
+      },
+      {
+        "line": "Tuition fee (+) 46000 (*)",
+        "context": "Publication Fee / Library Fee 1500 | Total (A) 6000 | B. Semester Fees: | Tuition fee (+) 46000 (*) | Examination fee 500 | Registration 500 | Sports Fee 1000 | Medical Fee 1000 | Student Amenities 3000",
+        "amounts": [
+          1500,
+          6000,
+          46000,
+          1000,
+          3000
+        ]
+      },
+      {
+        "line": "Grand Total [A+B+C] 58500",
+        "context": "C. Medical Insurance Premium (per annum) | Medical Insurance premium p.a. 500 | Total (C) 500 | Grand Total [A+B+C] 58500 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496",
+        "amounts": [
+          58500,
+          3500,
+          17496
+        ]
+      },
+      {
+        "line": "II. Hostel Fees",
+        "context": "Medical Insurance premium p.a. 500 | Total (C) 500 | Grand Total [A+B+C] 58500 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496 | Dining charges - Advance 24300(**)",
+        "amounts": [
+          58500,
+          3500,
+          17496,
+          24300
+        ]
+      },
+      {
+        "line": "A. Hostel Fees & Mess Charges per semester",
+        "context": "Total (C) 500 | Grand Total [A+B+C] 58500 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496 | Dining charges - Advance 24300(**) | Establishment B Charges 1000",
+        "amounts": [
+          58500,
+          3500,
+          17496,
+          24300,
+          1000
+        ]
+      },
+      {
+        "line": "Hostel Admission fee 700",
+        "context": "Grand Total [A+B+C] 58500 | II. Hostel Fees | A. Hostel Fees & Mess Charges per semester | Hostel Admission fee 700 | Hostel Seat Rent 3500 | Hostel Maintenance Charges 17496 | Dining charges - Advance 24300(**) | Establishment B Charges 1000 | Development Fee 1000",
+        "amounts": [
+          58500,
+          3500,
+          17496,
+          24300,
+          1000
+        ]
+      },
+      {
+        "line": "1. (+) SC/ST students are exempted from payment of tuition fee irrespective of their parental income.",
+        "context": "Total (A) 47996 | Hostellers (I & II) 106496 | Note: | 1. (+) SC/ST students are exempted from payment of tuition fee irrespective of their parental income. | 2. Hostel is compulsory for all students. If exemption is granted by the Institute, then day scholars will have to pay the | above mentioned Institute fees (Except Hostel Fees). | 3. (**) There may be variation in the dining charges based on tendering value. | -- 3 of 3 --",
+        "amounts": [
+          47996,
+          106496
+        ]
+      },
+      {
+        "line": "above mentioned Institute fees (Except Hostel Fees).",
+        "context": "Note: | 1. (+) SC/ST students are exempted from payment of tuition fee irrespective of their parental income. | 2. Hostel is compulsory for all students. If exemption is granted by the Institute, then day scholars will have to pay the | above mentioned Institute fees (Except Hostel Fees). | 3. (**) There may be variation in the dining charges based on tendering value. | -- 3 of 3 --",
+        "amounts": []
+      }
+    ],
+    "all_amounts": [
+      2747,
+      6323,
+      1000,
+      5000,
+      99000,
+      103800,
+      109300,
+      3500,
+      17496,
+      16800,
+      40496,
+      149796,
+      50000,
+      55000,
+      60500,
+      24300,
+      47996,
+      108496,
+      60000,
+      1500,
+      6000,
+      46000,
+      3000,
+      52000,
+      58500,
+      106496
+    ],
+    "child_links": [],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "indian-institute-of-technology-goa",
+    "name": "Indian Institute of Technology Goa",
+    "original_source_url": "https://iitgoa.ac.in/btech_fee_structure/",
+    "resolved_source_url": "https://iitgoa.ac.in/btech_fee_structure/#",
+    "source_type": "html",
+    "btech_relevant": true,
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "fee_signals": [],
+    "all_amounts": [],
+    "child_links": [
+      {
+        "text": "Undergraduate",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/#",
+        "score": 100
+      },
+      {
+        "text": "Undergraduate",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/#",
+        "score": 100
+      },
+      {
+        "text": "About",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/#",
+        "score": 80
+      },
+      {
+        "text": "Academics",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/#",
+        "score": 80
+      },
+      {
+        "text": "Admission",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/#",
+        "score": 80
+      },
+      {
+        "text": "Postgraduate",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/#",
+        "score": 80
+      },
+      {
+        "text": "Fee Structure",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/#",
+        "score": 80
+      },
+      {
+        "text": "B.Tech",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/",
+        "score": 80
+      },
+      {
+        "text": "Scholarship",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/#",
+        "score": 80
+      },
+      {
+        "text": "Schools",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/#",
+        "score": 80
+      },
+      {
+        "text": "Research",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/#",
+        "score": 80
+      },
+      {
+        "text": "Research Centers",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/#",
+        "score": 80
+      },
+      {
+        "text": "Major Research Equipment",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/#",
+        "score": 80
+      },
+      {
+        "text": "R&D Brochure",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/#",
+        "score": 80
+      },
+      {
+        "text": "Summer Internship at IIT Goa",
+        "url": "https://iitgoa.ac.in/btech_fee_structure/#",
+        "score": 80
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-goa",
+    "name": "National Institute of Technology Goa",
+    "original_source_url": "https://nitgoa.ac.in/static/Fee_Structure.pdf",
+    "resolved_source_url": "https://nitgoa.ac.in/static/Fee_Structure.pdf",
+    "source_type": "pdf",
+    "btech_relevant": false,
+    "fee_scope_candidate": "needs_review",
+    "fee_signals": [],
+    "all_amounts": [],
+    "child_links": [],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-sikkim",
+    "name": "National Institute of Technology Sikkim",
+    "original_source_url": "https://nitsikkim.ac.in/admissions/feeStructure.php",
+    "resolved_source_url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2025_jan/B.Tech%20Fee%20structure%20for%202025-26.pdf",
+    "source_type": "pdf",
+    "btech_relevant": true,
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "fee_signals": [
+      {
+        "line": "Institute Fee (Per Semester)",
+        "context": "Grade Card Fee | A | NATIONAL INSTITUTE OF TECHNOLOGY SIKKIM | Institute Fee (Per Semester) | Tuition fee (Full Fee Payers) | Tuition fee (for 2/3rd Remission Category) | Tuition fee (Full Waiver for SC/ST/Pwd & | Annual Income less than 1.00 Lakh) | FOR ACADEMIC YEAR 2025-2029 BATCH",
+        "amounts": []
+      },
+      {
+        "line": "Tuition fee (Full Fee Payers)",
+        "context": "A | NATIONAL INSTITUTE OF TECHNOLOGY SIKKIM | Institute Fee (Per Semester) | Tuition fee (Full Fee Payers) | Tuition fee (for 2/3rd Remission Category) | Tuition fee (Full Waiver for SC/ST/Pwd & | Annual Income less than 1.00 Lakh) | FOR ACADEMIC YEAR 2025-2029 BATCH | Institute fees structure for B. Tech. Program",
+        "amounts": []
+      },
+      {
+        "line": "Tuition fee (for 2/3rd Remission Category)",
+        "context": "NATIONAL INSTITUTE OF TECHNOLOGY SIKKIM | Institute Fee (Per Semester) | Tuition fee (Full Fee Payers) | Tuition fee (for 2/3rd Remission Category) | Tuition fee (Full Waiver for SC/ST/Pwd & | Annual Income less than 1.00 Lakh) | FOR ACADEMIC YEAR 2025-2029 BATCH | Institute fees structure for B. Tech. Program | Examination Fee",
+        "amounts": []
+      },
+      {
+        "line": "Tuition fee (Full Waiver for SC/ST/Pwd &",
+        "context": "Institute Fee (Per Semester) | Tuition fee (Full Fee Payers) | Tuition fee (for 2/3rd Remission Category) | Tuition fee (Full Waiver for SC/ST/Pwd & | Annual Income less than 1.00 Lakh) | FOR ACADEMIC YEAR 2025-2029 BATCH | Institute fees structure for B. Tech. Program | Examination Fee | Semester Registration Fee",
+        "amounts": []
+      },
+      {
+        "line": "Institute fees structure for B. Tech. Program",
+        "context": "Tuition fee (Full Waiver for SC/ST/Pwd & | Annual Income less than 1.00 Lakh) | FOR ACADEMIC YEAR 2025-2029 BATCH | Institute fees structure for B. Tech. Program | Examination Fee | Semester Registration Fee | Library Fee | Laboratory Fee | Internet Fee",
+        "amounts": []
+      },
+      {
+        "line": "Semester Registration Fee",
+        "context": "FOR ACADEMIC YEAR 2025-2029 BATCH | Institute fees structure for B. Tech. Program | Examination Fee | Semester Registration Fee | Library Fee | Laboratory Fee | Internet Fee | Student Activities (Sports & Games, and | Extracurricular activities)",
+        "amounts": []
+      },
+      {
+        "line": "NOTE: Tuition fee is fully exempted for ST/SC & PH students, full remission of the tuition fee for most economically backward students (whose",
+        "context": "Student Activities (Sports & Games, and | Extracurricular activities) | Medical OPD Facility | NOTE: Tuition fee is fully exempted for ST/SC & PH students, full remission of the tuition fee for most economically backward students (whose | family income is less than Rs.1.00 lakh per annum) and remission of 2/3rd of the tuition fee for other economically backward students ( whose | family income isn between Rs.1.00 to 5.00 lakh per annum) as per MHRD order no :33-4/2014-TS.III, Dated: 24.06.2016 | -- 1 of 2 -- | In Rs. | 614.00",
+        "amounts": []
+      },
+      {
+        "line": "family income is less than Rs.1.00 lakh per annum) and remission of 2/3rd of the tuition fee for other economically backward students ( whose",
+        "context": "Extracurricular activities) | Medical OPD Facility | NOTE: Tuition fee is fully exempted for ST/SC & PH students, full remission of the tuition fee for most economically backward students (whose | family income is less than Rs.1.00 lakh per annum) and remission of 2/3rd of the tuition fee for other economically backward students ( whose | family income isn between Rs.1.00 to 5.00 lakh per annum) as per MHRD order no :33-4/2014-TS.III, Dated: 24.06.2016 | -- 1 of 2 -- | In Rs. | 614.00 | 243.00",
+        "amounts": []
+      },
+      {
+        "line": "1,215.00 Total Institute Fee (A+B) In Rs.",
+        "context": "614.00 | 243.00 | 312.00 | 1,215.00 Total Institute Fee (A+B) In Rs. | 1,215.00 82,467.00 | 7,500.00 40,801.00 | 11,099.00 19,967.00 | 1st SEM 2nd SEM 3rd SEM 4th SEM 5th SEM 6th SEM 7th SEM 8th SEM | 5000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00",
+        "amounts": [
+          1215,
+          82467,
+          7500,
+          40801,
+          11099,
+          19967,
+          5000
+        ]
+      },
+      {
+        "line": "Hostel fee per semester (Not applicable for Day scholars)",
+        "context": "16750.00 8250.00 8250.00 8250.00 8250.00 8250.00 8250.00 8250.00 | Sd/- | Assistant Registrar (Academic) | Hostel fee per semester (Not applicable for Day scholars) | Admission Fee | I Card Fee | Student Welfare Fund | One Time Charges (At the Time of | Admission)",
+        "amounts": [
+          16750,
+          8250
+        ]
+      },
+      {
+        "line": "Admission Fee",
+        "context": "Sd/- | Assistant Registrar (Academic) | Hostel fee per semester (Not applicable for Day scholars) | Admission Fee | I Card Fee | Student Welfare Fund | One Time Charges (At the Time of | Admission) | Sub Total (2/3rd remission)",
+        "amounts": []
+      },
+      {
+        "line": "Hostel fee (Hostel Rent, Electricity charges",
+        "context": "(one time refundable ) | Hostel Admission | (one time non refundable) | Hostel fee (Hostel Rent, Electricity charges | and cleaning) | -- 2 of 2 --",
+        "amounts": []
+      }
+    ],
+    "all_amounts": [
+      62500,
+      20834,
+      1215,
+      1042,
+      1829,
+      71368,
+      29702,
+      8868,
+      82467,
+      7500,
+      40801,
+      11099,
+      19967,
+      5000,
+      3000,
+      16750,
+      8250,
+      1830
+    ],
+    "child_links": [
+      {
+        "text": "B.Tech fee structure for Academic Year 2025-26",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2025_jan/B.Tech%20Fee%20structure%20for%202025-26.pdf",
+        "score": 110
+      },
+      {
+        "text": "B.Tech fee structure for Academic Year 2026-27",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2026_April/B.Tech.%20Fee%20structure%20for%20Academic%20Year%202026-27.pdf",
+        "score": 105
+      },
+      {
+        "text": "B.Tech fee structure for Academic Year 2024-25",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2024_jan/B%20Tech%20Fee%20Structure%20for%202024-25%20Academic%20Session.pdf",
+        "score": 90
+      },
+      {
+        "text": "B.Tech fee structure for Academic Year 2023-24",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2023_june/B%20Tech%20Fee%20Structure%20for%202023-24%20Academic%20Session.pdf",
+        "score": 90
+      },
+      {
+        "text": "B.Tech fee structure for Academic Year 2022-23",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2022_june/B%20Tech%20fee%20structure%202022-23%20session.pdf",
+        "score": 90
+      },
+      {
+        "text": "B.Tech Fee structure for Academic Year 2021-22",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2022_jan/Btech%20revised%20fee%202021-22%20onwards.pdf",
+        "score": 90
+      },
+      {
+        "text": "M.Sc Fee structure for Academic Year 2025-26",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2025_jan/M.Sc%20fee%20structure%20for%202025-26.pdf",
+        "score": 80
+      },
+      {
+        "text": "Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2025-26",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2025_jan/Final%20Fee%20structure%20for%20International%20Students%20updated.pdf",
+        "score": 80
+      },
+      {
+        "text": "M.Sc Fee structure for Academic Year 2026-27",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2026_April/M.Sc%20fee%20structure%202026-2028.pdf",
+        "score": 75
+      },
+      {
+        "text": "Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2026-27",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2026_April/Fee%20structure%20for%20International%20Students%20for%202026-27%20%20Admitted%20Through%20DASA-SII-MEA-ICCR.pdf",
+        "score": 75
+      },
+      {
+        "text": "M.Sc Fee structure for Academic Year 2024-25",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2024_jan/M%20Sc%20Fee%20structure%20for%202024-25%20Academic%20Session.pdf",
+        "score": 60
+      },
+      {
+        "text": "M.Sc Fee structure for Academic Year 2023-24",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2023_june/M%20Sc%20Fee%20structure%20for%202023-24%20Academic%20Session.pdf",
+        "score": 60
+      },
+      {
+        "text": "M.Sc Fee structure for Academic Year 2021-22",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2022_jan/M.Sc.%20Revised%20fee%202021-22%20onwards.pdf",
+        "score": 60
+      },
+      {
+        "text": "Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2024-25",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2024_jan/Fee%20Structure%20for%20International%20Students%20through%20ICCR%20DASA%20SII%202024-2025.pdf",
+        "score": 60
+      },
+      {
+        "text": "Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2023-24",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2023_june/Fee%20Structure%20for%20International%20Students%20through%20ICCR%20DASA%20SII%202023-2024.pdf",
+        "score": 60
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-manipur",
+    "name": "National Institute of Technology, Manipur",
+    "original_source_url": "https://nitmanipur.ac.in/DisplayPage.aspx?page=cs",
+    "resolved_source_url": "https://nitmanipur.ac.in/AcademicNotice/RevisedFeeStructure_b.Tech_2025onwards_13062025.pdf",
+    "source_type": "html",
+    "btech_relevant": false,
+    "fee_scope_candidate": "needs_review",
+    "fee_signals": [],
+    "all_amounts": [],
+    "child_links": [
+      {
+        "text": "Revised Fee Structure for B.Tech programme 2025 batch",
+        "url": "https://nitmanipur.ac.in/AcademicNotice/RevisedFeeStructure_b.Tech_2025onwards_13062025.pdf",
+        "score": 90
+      },
+      {
+        "text": "Revised Fee Structure for B.Tech programe 2016 batch and onwards.",
+        "url": "https://nitmanipur.ac.in/AcademicNotice/Revised_BTech_Fee_18052022.PDF",
+        "score": 90
+      },
+      {
+        "text": "Revised Fee Structure for B.Tech programe for 2011,2012 and 2013 batch.",
+        "url": "https://nitmanipur.ac.in/AcademicNotice/2011BTechRevisedFee_2018.PDF",
+        "score": 90
+      },
+      {
+        "text": "Revised Fee Structure for B.Tech programe for 2014 and 2015 batch.",
+        "url": "https://nitmanipur.ac.in/AcademicNotice/2014BTechRevisedFee_2018.PDF",
+        "score": 90
+      },
+      {
+        "text": "Revised Fee Structure for M.Sc programme 2025 batch",
+        "url": "https://nitmanipur.ac.in/AcademicNotice/RevisedFeeStructure_M.Sc_2025onwards_13062025.pdf",
+        "score": 60
+      },
+      {
+        "text": "Revised Fee Structure for M.Sc. Programe.",
+        "url": "https://nitmanipur.ac.in/AcademicNotice/Revised_MSc_fee_18052022.PDF",
+        "score": 60
+      },
+      {
+        "text": "Fee Structure",
+        "url": "https://nitmanipur.ac.in/DisplayPage.aspx?page=cs&ItemID=eg",
+        "score": 50
+      },
+      {
+        "text": "",
+        "url": "https://nitmanipur.ac.in/AcademicNotice/Revised_BTech_Fee_18052022.PDF",
+        "score": 40
+      },
+      {
+        "text": "",
+        "url": "https://nitmanipur.ac.in/AcademicNotice/Revised_BTech_Fee_18052022.PDF",
+        "score": 40
+      },
+      {
+        "text": "",
+        "url": "https://nitmanipur.ac.in/AcademicNotice/Revised_BTech_Fee_18052022.PDF",
+        "score": 40
+      },
+      {
+        "text": "",
+        "url": "https://nitmanipur.ac.in/AcademicNotice/Revised_BTech_Fee_18052022.PDF",
+        "score": 40
+      },
+      {
+        "text": "B.Tech",
+        "url": "https://nitmanipur.ac.in/DisplayPage.aspx?page=cs#nolink",
+        "score": 30
+      },
+      {
+        "text": "Revised Fee Structure for M.Tech programme 2025 batch",
+        "url": "https://nitmanipur.ac.in/AcademicNotice/RevisedFeeStructure_M.Tech_2025onwards_13062025.pdf",
+        "score": 30
+      },
+      {
+        "text": "Revised Fee Structure for PhD. programme 2025 onwards.",
+        "url": "https://nitmanipur.ac.in/AcademicNotice/RevisedFeeStructure_PhD_2025onwards_13062025.pdf",
+        "score": 30
+      },
+      {
+        "text": "Revised Fee Structure for M.Tech. Programe.",
+        "url": "https://nitmanipur.ac.in/AcademicNotice/Revised_MTech_fee_18052022.PDF",
+        "score": 30
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-mizoram",
+    "name": "National Institute of Technology, Mizoram",
+    "original_source_url": "https://nitmz.ac.in/academics/fee-structure/",
+    "resolved_source_url": "https://nitmz.ac.in/wp-content/uploads/2025/02/NEW_FEE_STRUCTURE_FOR_BTECH.pdf",
+    "source_type": "pdf",
+    "btech_relevant": true,
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "fee_signals": [
+      {
+        "line": "1 Tuition Fees 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00",
+        "context": "Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 | 6 Identity Card 50.00 0.00 50.00 0.00 50.00 0.00 50.00 0.00",
+        "amounts": [
+          2391236,
+          2391774,
+          2391699,
+          62500,
+          1000
+        ]
+      },
+      {
+        "line": "2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00",
+        "context": "Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 | 6 Identity Card 50.00 0.00 50.00 0.00 50.00 0.00 50.00 0.00 | 7 Laboratory & Internet Fee 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00",
+        "amounts": [
+          2391236,
+          2391774,
+          2391699,
+          62500,
+          1000
+        ]
+      },
+      {
+        "line": "Grand Total 69,400.00 67,100.00 67,650.00 67,350.00 67,650.00 67,350.00 67,650.00 68,850.00",
+        "context": "12 Training & Placement Fee 0.00 0.00 250.00 250.00 250.00 250.00 250.00 250.00 | 13 Convocation 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1,000.00 | 14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 69,400.00 67,100.00 67,650.00 67,350.00 67,650.00 67,350.00 67,650.00 68,850.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | FOR GEN & OBC STUDENT WHOSE FAMILY INCOME IS MORE THAN 5 LAKH P.A.",
+        "amounts": [
+          1000,
+          69400,
+          67100,
+          67650,
+          67350,
+          68850
+        ]
+      },
+      {
+        "line": "1 Tuition Fee is as decided by the NIT Council.",
+        "context": "14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 69,400.00 67,100.00 67,650.00 67,350.00 67,650.00 67,350.00 67,650.00 68,850.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | FOR GEN & OBC STUDENT WHOSE FAMILY INCOME IS MORE THAN 5 LAKH P.A. | jk\"Vªh; izkS|ksfxdh laLFkku fetksje | NATIONAL INSTITUTE OF TECHNOLOGY MIZORAM",
+        "amounts": [
+          69400,
+          67100,
+          67650,
+          67350,
+          68850
+        ]
+      },
+      {
+        "line": "ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS",
+        "context": "NATIONAL INSTITUTE OF TECHNOLOGY MIZORAM | (An Institution of National Importance under the Ministry of HRD, Govt. of India) | Chaltlang, Aizawl, Mizoram – 796012 | ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS | Student Activity Fee includes Gym, Annual Day & Magazine Fee, Sports & Cultural activities and Industry- | Institute Interaction Fee. | Deputy Registrar | NIT Mizoram | Sl.",
+        "amounts": [
+          796012
+        ]
+      },
+      {
+        "line": "1 Tuition Fees 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00",
+        "context": "-- 1 of 4 -- | Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit | (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00",
+        "amounts": [
+          2391236,
+          2391774,
+          2391699,
+          20833,
+          1000
+        ]
+      },
+      {
+        "line": "2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00",
+        "context": "Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit | (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 | 6 Identity Card 50.00 0.00 50.00 0.00 50.00 0.00 50.00 0.00",
+        "amounts": [
+          2391236,
+          2391774,
+          2391699,
+          20833,
+          1000
+        ]
+      },
+      {
+        "line": "Grand Total 27,733.00 25,433.00 25,983.00 25,683.00 25,983.00 25,683.00 25,983.00 27,183.00",
+        "context": "12 Training & Placement Fee 0.00 0.00 250.00 250.00 250.00 250.00 250.00 250.00 | 13 Convocation 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1,000.00 | 14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 27,733.00 25,433.00 25,983.00 25,683.00 25,983.00 25,683.00 25,983.00 27,183.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | jk\"Vªh; izkS|ksfxdh laLFkku fetksje",
+        "amounts": [
+          1000,
+          27733,
+          25433,
+          25983,
+          25683,
+          27183
+        ]
+      },
+      {
+        "line": "1 Tuition Fee is as decided by the NIT Council.",
+        "context": "14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 27,733.00 25,433.00 25,983.00 25,683.00 25,983.00 25,683.00 25,983.00 27,183.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | jk\"Vªh; izkS|ksfxdh laLFkku fetksje | ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS | FOR GEN & OBC STUDENT WHOSE FAMILY INCOME IS BETWEEN Rs. 1 LAKH TO Rs. 5 LAKH P.A.",
+        "amounts": [
+          27733,
+          25433,
+          25983,
+          25683,
+          27183
+        ]
+      },
+      {
+        "line": "ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS",
+        "context": "2 | 3 | jk\"Vªh; izkS|ksfxdh laLFkku fetksje | ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS | FOR GEN & OBC STUDENT WHOSE FAMILY INCOME IS BETWEEN Rs. 1 LAKH TO Rs. 5 LAKH P.A. | NATIONAL INSTITUTE OF TECHNOLOGY MIZORAM | (An Institution of National Importance under the Ministry of HRD, Govt. of India) | Chaltlang, Aizawl, Mizoram – 796012 | Sl.",
+        "amounts": [
+          796012
+        ]
+      },
+      {
+        "line": "1 Tuition Fees 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00",
+        "context": "-- 2 of 4 -- | Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 | 6 Identity Card 50.00 0.00 50.00 0.00 50.00 0.00 50.00 0.00",
+        "amounts": [
+          2391236,
+          2391774,
+          2391699,
+          1000
+        ]
+      },
+      {
+        "line": "2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00",
+        "context": "Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 | 6 Identity Card 50.00 0.00 50.00 0.00 50.00 0.00 50.00 0.00 | 7 Laboratory & Internet Fee 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00",
+        "amounts": [
+          2391236,
+          2391774,
+          2391699,
+          1000
+        ]
+      },
+      {
+        "line": "Grand Total 6,900.00 4,600.00 5,150.00 4,850.00 5,150.00 4,850.00 5,150.00 6,350.00",
+        "context": "12 Training & Placement Fee 0.00 0.00 250.00 250.00 250.00 250.00 250.00 250.00 | 13 Convocation 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1,000.00 | 14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 6,900.00 4,600.00 5,150.00 4,850.00 5,150.00 4,850.00 5,150.00 6,350.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | FOR GEN & OBC STUDENT WHOSE FAMILY INCOME IS LESS THAN RS.1.00 LAKH P.A.",
+        "amounts": [
+          1000,
+          6900,
+          4600,
+          5150,
+          4850,
+          6350
+        ]
+      },
+      {
+        "line": "1 Tuition Fee is as decided by the NIT Council.",
+        "context": "14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 6,900.00 4,600.00 5,150.00 4,850.00 5,150.00 4,850.00 5,150.00 6,350.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | FOR GEN & OBC STUDENT WHOSE FAMILY INCOME IS LESS THAN RS.1.00 LAKH P.A. | jk\"Vªh; izkS|ksfxdh laLFkku fetksje | NATIONAL INSTITUTE OF TECHNOLOGY MIZORAM",
+        "amounts": [
+          6900,
+          4600,
+          5150,
+          4850,
+          6350
+        ]
+      },
+      {
+        "line": "ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS",
+        "context": "NATIONAL INSTITUTE OF TECHNOLOGY MIZORAM | (An Institution of National Importance under the Ministry of HRD, Govt. of India) | Chaltlang, Aizawl, Mizoram – 796012 | ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS | Student Activity Fee includes Gym, Annual Day & Magazine Fee, Sports & Cultural activities and Industry- | Institute Interaction Fee. | Deputy Registrar | NIT Mizoram | Sl.",
+        "amounts": [
+          796012
+        ]
+      },
+      {
+        "line": "1 Tuition Fees 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00",
+        "context": "-- 3 of 4 -- | Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 | 6 Identity Card 50.00 0.00 50.00 0.00 50.00 0.00 50.00 0.00",
+        "amounts": [
+          2391236,
+          2391774,
+          2391699,
+          1000
+        ]
+      },
+      {
+        "line": "2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00",
+        "context": "Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 | 6 Identity Card 50.00 0.00 50.00 0.00 50.00 0.00 50.00 0.00 | 7 Laboratory & Internet Fee 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00",
+        "amounts": [
+          2391236,
+          2391774,
+          2391699,
+          1000
+        ]
+      },
+      {
+        "line": "Grand Total 6,900.00 4,600.00 5,150.00 4,850.00 5,150.00 4,850.00 5,150.00 6,350.00",
+        "context": "12 Training & Placement Fee 0.00 0.00 250.00 250.00 250.00 250.00 250.00 250.00 | 13 Convocation 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1,000.00 | 14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 6,900.00 4,600.00 5,150.00 4,850.00 5,150.00 4,850.00 5,150.00 6,350.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | FOR SC, ST & PH STUDENTS",
+        "amounts": [
+          1000,
+          6900,
+          4600,
+          5150,
+          4850,
+          6350
+        ]
+      },
+      {
+        "line": "1 Tuition Fee is as decided by the NIT Council.",
+        "context": "14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 6,900.00 4,600.00 5,150.00 4,850.00 5,150.00 4,850.00 5,150.00 6,350.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | FOR SC, ST & PH STUDENTS | jk\"Vªh; izkS|ksfxdh laLFkku fetksje | NATIONAL INSTITUTE OF TECHNOLOGY MIZORAM",
+        "amounts": [
+          6900,
+          4600,
+          5150,
+          4850,
+          6350
+        ]
+      },
+      {
+        "line": "ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS",
+        "context": "NATIONAL INSTITUTE OF TECHNOLOGY MIZORAM | (An Institution of National Importance under the Ministry of HRD, Govt. of India) | Chaltlang, Aizawl, Mizoram – 796012 | ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS | Student Activity Fee includes Gym, Annual Day & Magazine Fee, Sports & Cultural activities and Industry- | Institute Interaction Fee. | Deputy Registrar | NIT Mizoram | Sl.",
+        "amounts": [
+          796012
+        ]
+      }
+    ],
+    "all_amounts": [
+      2391236,
+      2391774,
+      2391699,
+      62500,
+      1000,
+      1500,
+      69400,
+      67100,
+      67650,
+      67350,
+      68850,
+      796012,
+      20833,
+      27733,
+      25433,
+      25983,
+      25683,
+      27183,
+      6900,
+      4600,
+      5150,
+      4850,
+      6350
+    ],
+    "child_links": [
+      {
+        "text": "Click here (for B.Tech)",
+        "url": "https://nitmz.ac.in/wp-content/uploads/2025/02/NEW_FEE_STRUCTURE_FOR_BTECH.pdf",
+        "score": 90
+      },
+      {
+        "text": "Click here for UG fee structure",
+        "url": "https://nitmz.ac.in/wp-content/uploads/2025/02/UG_FEES_STRUCTURE_W.E.F_JULY_2023_ONWARDS.pdf",
+        "score": 80
+      },
+      {
+        "text": "Click here",
+        "url": "https://nitmz.ac.in/wp-content/uploads/2025/02/Revised_Fee_Structure_w.e.f_2023-24_0001_compressed.pdf",
+        "score": 60
+      },
+      {
+        "text": "Skip to content",
+        "url": "https://nitmz.ac.in/academics/fee-structure/#content",
+        "score": 50
+      },
+      {
+        "text": "Skip to content",
+        "url": "https://nitmz.ac.in/academics/fee-structure/#content",
+        "score": 50
+      },
+      {
+        "text": "The Institute",
+        "url": "https://nitmz.ac.in/academics/fee-structure/#!",
+        "score": 50
+      },
+      {
+        "text": "Administration",
+        "url": "https://nitmz.ac.in/academics/fee-structure/#!",
+        "score": 50
+      },
+      {
+        "text": "Admissions",
+        "url": "https://nitmz.ac.in/academics/fee-structure/#!",
+        "score": 50
+      },
+      {
+        "text": "Academics",
+        "url": "https://nitmz.ac.in/academics/fee-structure/#!",
+        "score": 50
+      },
+      {
+        "text": "Fee Structure",
+        "url": "https://nitmz.ac.in/academics/fee-structure/",
+        "score": 50
+      },
+      {
+        "text": "Departments",
+        "url": "https://nitmz.ac.in/academics/fee-structure/#!",
+        "score": 50
+      },
+      {
+        "text": "People",
+        "url": "https://nitmz.ac.in/academics/fee-structure/#!",
+        "score": 50
+      },
+      {
+        "text": "Research",
+        "url": "https://nitmz.ac.in/academics/fee-structure/#!",
+        "score": 50
+      },
+      {
+        "text": "Campus",
+        "url": "https://nitmz.ac.in/academics/fee-structure/#!",
+        "score": 50
+      },
+      {
+        "text": "",
+        "url": "https://nitmz.ac.in/academics/fee-structure/#",
+        "score": 50
+      }
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+    "name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+    "original_source_url": "https://nerist.ac.in/wp-content/uploads/2026/07/Revised-Fee-Structure-of-UG-programe-for-2026-28.pdf",
+    "resolved_source_url": "https://nerist.ac.in/wp-content/uploads/2026/07/Revised-Fee-Structure-of-UG-programe-for-2026-28.pdf",
+    "source_type": "pdf",
+    "btech_relevant": false,
+    "fee_scope_candidate": "needs_review",
+    "fee_signals": [],
+    "all_amounts": [],
+    "child_links": [],
+    "verification_status": "pending_review"
+  }
+]

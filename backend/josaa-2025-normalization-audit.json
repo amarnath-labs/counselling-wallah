@@ -1,0 +1,63 @@
+{
+  "totalRows": 72183,
+  "recordTypes": {
+    "STANDARD": 71414,
+    "PREPARATORY": 769
+  },
+  "openingKinds": {
+    "STANDARD": 71472,
+    "PREPARATORY": 711
+  },
+  "closingKinds": {
+    "STANDARD": 71414,
+    "PREPARATORY": 769
+  },
+  "standardPredictionRows": 71414,
+  "preparatoryRows": 769,
+  "unknownRows": 0,
+  "incompleteRows": 0,
+  "byRound": {
+    "1": {
+      "total": 12274,
+      "standard": 12131,
+      "preparatory": 143,
+      "unknown": 0,
+      "incomplete": 0
+    },
+    "2": {
+      "total": 12046,
+      "standard": 11920,
+      "preparatory": 126,
+      "unknown": 0,
+      "incomplete": 0
+    },
+    "3": {
+      "total": 11981,
+      "standard": 11855,
+      "preparatory": 126,
+      "unknown": 0,
+      "incomplete": 0
+    },
+    "4": {
+      "total": 11973,
+      "standard": 11847,
+      "preparatory": 126,
+      "unknown": 0,
+      "incomplete": 0
+    },
+    "5": {
+      "total": 11965,
+      "standard": 11840,
+      "preparatory": 125,
+      "unknown": 0,
+      "incomplete": 0
+    },
+    "6": {
+      "total": 11944,
+      "standard": 11821,
+      "preparatory": 123,
+      "unknown": 0,
+      "incomplete": 0
+    }
+  }
+}

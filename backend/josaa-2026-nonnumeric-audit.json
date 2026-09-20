@@ -1,0 +1,4796 @@
+{
+  "openingCount": 853,
+  "closingCount": 925,
+  "openingValues": [
+    {
+      "value": "9P",
+      "count": 20
+    },
+    {
+      "value": "28P",
+      "count": 15
+    },
+    {
+      "value": "10P",
+      "count": 15
+    },
+    {
+      "value": "24P",
+      "count": 15
+    },
+    {
+      "value": "6P",
+      "count": 11
+    },
+    {
+      "value": "14P",
+      "count": 10
+    },
+    {
+      "value": "141P",
+      "count": 10
+    },
+    {
+      "value": "160P",
+      "count": 10
+    },
+    {
+      "value": "209P",
+      "count": 10
+    },
+    {
+      "value": "3P",
+      "count": 10
+    },
+    {
+      "value": "139P",
+      "count": 10
+    },
+    {
+      "value": "1P",
+      "count": 10
+    },
+    {
+      "value": "21P",
+      "count": 10
+    },
+    {
+      "value": "187P",
+      "count": 10
+    },
+    {
+      "value": "41P",
+      "count": 10
+    },
+    {
+      "value": "44P",
+      "count": 9
+    },
+    {
+      "value": "106P",
+      "count": 9
+    },
+    {
+      "value": "40P",
+      "count": 9
+    },
+    {
+      "value": "63P",
+      "count": 9
+    },
+    {
+      "value": "102P",
+      "count": 9
+    },
+    {
+      "value": "219P",
+      "count": 7
+    },
+    {
+      "value": "191P",
+      "count": 6
+    },
+    {
+      "value": "8P",
+      "count": 6
+    },
+    {
+      "value": "78P",
+      "count": 6
+    },
+    {
+      "value": "4P",
+      "count": 6
+    },
+    {
+      "value": "59P",
+      "count": 6
+    },
+    {
+      "value": "167P",
+      "count": 6
+    },
+    {
+      "value": "74P",
+      "count": 6
+    },
+    {
+      "value": "85P",
+      "count": 6
+    },
+    {
+      "value": "37P",
+      "count": 5
+    },
+    {
+      "value": "564P",
+      "count": 5
+    },
+    {
+      "value": "2P",
+      "count": 5
+    },
+    {
+      "value": "49P",
+      "count": 5
+    },
+    {
+      "value": "554P",
+      "count": 5
+    },
+    {
+      "value": "520P",
+      "count": 5
+    },
+    {
+      "value": "326P",
+      "count": 5
+    },
+    {
+      "value": "30P",
+      "count": 5
+    },
+    {
+      "value": "399P",
+      "count": 5
+    },
+    {
+      "value": "13P",
+      "count": 5
+    },
+    {
+      "value": "212P",
+      "count": 5
+    },
+    {
+      "value": "25P",
+      "count": 5
+    },
+    {
+      "value": "64P",
+      "count": 5
+    },
+    {
+      "value": "322P",
+      "count": 5
+    },
+    {
+      "value": "133P",
+      "count": 5
+    },
+    {
+      "value": "303P",
+      "count": 5
+    },
+    {
+      "value": "1087P",
+      "count": 5
+    },
+    {
+      "value": "363P",
+      "count": 5
+    },
+    {
+      "value": "285P",
+      "count": 5
+    },
+    {
+      "value": "208P",
+      "count": 5
+    },
+    {
+      "value": "164P",
+      "count": 5
+    },
+    {
+      "value": "158P",
+      "count": 5
+    },
+    {
+      "value": "87P",
+      "count": 5
+    },
+    {
+      "value": "400P",
+      "count": 5
+    },
+    {
+      "value": "140P",
+      "count": 5
+    },
+    {
+      "value": "172P",
+      "count": 5
+    },
+    {
+      "value": "274P",
+      "count": 5
+    },
+    {
+      "value": "211P",
+      "count": 5
+    },
+    {
+      "value": "427P",
+      "count": 5
+    },
+    {
+      "value": "488P",
+      "count": 5
+    },
+    {
+      "value": "515P",
+      "count": 5
+    },
+    {
+      "value": "292P",
+      "count": 5
+    },
+    {
+      "value": "29P",
+      "count": 5
+    },
+    {
+      "value": "17P",
+      "count": 5
+    },
+    {
+      "value": "124P",
+      "count": 5
+    },
+    {
+      "value": "55P",
+      "count": 5
+    },
+    {
+      "value": "57P",
+      "count": 5
+    },
+    {
+      "value": "11P",
+      "count": 5
+    },
+    {
+      "value": "116P",
+      "count": 5
+    },
+    {
+      "value": "118P",
+      "count": 5
+    },
+    {
+      "value": "284P",
+      "count": 5
+    },
+    {
+      "value": "484P",
+      "count": 5
+    },
+    {
+      "value": "540P",
+      "count": 5
+    },
+    {
+      "value": "287P",
+      "count": 5
+    },
+    {
+      "value": "53P",
+      "count": 5
+    },
+    {
+      "value": "35P",
+      "count": 5
+    },
+    {
+      "value": "237P",
+      "count": 5
+    },
+    {
+      "value": "204P",
+      "count": 5
+    },
+    {
+      "value": "129P",
+      "count": 5
+    },
+    {
+      "value": "15P",
+      "count": 5
+    },
+    {
+      "value": "142P",
+      "count": 5
+    },
+    {
+      "value": "410P",
+      "count": 5
+    },
+    {
+      "value": "98P",
+      "count": 5
+    },
+    {
+      "value": "296P",
+      "count": 5
+    },
+    {
+      "value": "255P",
+      "count": 5
+    },
+    {
+      "value": "555P",
+      "count": 5
+    },
+    {
+      "value": "73P",
+      "count": 5
+    },
+    {
+      "value": "161P",
+      "count": 5
+    },
+    {
+      "value": "54P",
+      "count": 5
+    },
+    {
+      "value": "567P",
+      "count": 5
+    },
+    {
+      "value": "217P",
+      "count": 5
+    },
+    {
+      "value": "185P",
+      "count": 5
+    },
+    {
+      "value": "249P",
+      "count": 5
+    },
+    {
+      "value": "437P",
+      "count": 5
+    },
+    {
+      "value": "5P",
+      "count": 5
+    },
+    {
+      "value": "27P",
+      "count": 5
+    },
+    {
+      "value": "221P",
+      "count": 5
+    },
+    {
+      "value": "542P",
+      "count": 5
+    },
+    {
+      "value": "80P",
+      "count": 5
+    },
+    {
+      "value": "499P",
+      "count": 5
+    },
+    {
+      "value": "215P",
+      "count": 5
+    },
+    {
+      "value": "112P",
+      "count": 5
+    },
+    {
+      "value": "266P",
+      "count": 5
+    },
+    {
+      "value": "260P",
+      "count": 5
+    },
+    {
+      "value": "122P",
+      "count": 5
+    },
+    {
+      "value": "45P",
+      "count": 5
+    },
+    {
+      "value": "62P",
+      "count": 5
+    },
+    {
+      "value": "72P",
+      "count": 5
+    },
+    {
+      "value": "485P",
+      "count": 5
+    },
+    {
+      "value": "68P",
+      "count": 5
+    },
+    {
+      "value": "61P",
+      "count": 5
+    },
+    {
+      "value": "1497038.0",
+      "count": 5
+    },
+    {
+      "value": "16P",
+      "count": 4
+    },
+    {
+      "value": "88P",
+      "count": 4
+    },
+    {
+      "value": "79P",
+      "count": 4
+    },
+    {
+      "value": "482P",
+      "count": 4
+    },
+    {
+      "value": "47P",
+      "count": 4
+    },
+    {
+      "value": "51P",
+      "count": 4
+    },
+    {
+      "value": "354P",
+      "count": 4
+    },
+    {
+      "value": "36P",
+      "count": 4
+    },
+    {
+      "value": "200P",
+      "count": 4
+    },
+    {
+      "value": "251P",
+      "count": 4
+    },
+    {
+      "value": "210P",
+      "count": 4
+    },
+    {
+      "value": "340P",
+      "count": 4
+    },
+    {
+      "value": "364P",
+      "count": 4
+    },
+    {
+      "value": "229P",
+      "count": 4
+    },
+    {
+      "value": "157P",
+      "count": 4
+    },
+    {
+      "value": "180P",
+      "count": 4
+    },
+    {
+      "value": "380P",
+      "count": 4
+    },
+    {
+      "value": "281P",
+      "count": 4
+    },
+    {
+      "value": "145P",
+      "count": 4
+    },
+    {
+      "value": "171P",
+      "count": 4
+    },
+    {
+      "value": "404P",
+      "count": 4
+    },
+    {
+      "value": "12P",
+      "count": 4
+    },
+    {
+      "value": "238P",
+      "count": 4
+    },
+    {
+      "value": "173P",
+      "count": 4
+    },
+    {
+      "value": "1173808.0",
+      "count": 4
+    },
+    {
+      "value": "214P",
+      "count": 3
+    },
+    {
+      "value": "39P",
+      "count": 3
+    },
+    {
+      "value": "1062087.0",
+      "count": 3
+    },
+    {
+      "value": "26P",
+      "count": 2
+    },
+    {
+      "value": "117P",
+      "count": 2
+    },
+    {
+      "value": "96P",
+      "count": 2
+    },
+    {
+      "value": "531P",
+      "count": 2
+    },
+    {
+      "value": "48P",
+      "count": 1
+    },
+    {
+      "value": "341P",
+      "count": 1
+    },
+    {
+      "value": "7P",
+      "count": 1
+    },
+    {
+      "value": "43P",
+      "count": 1
+    },
+    {
+      "value": "52P",
+      "count": 1
+    },
+    {
+      "value": "277P",
+      "count": 1
+    },
+    {
+      "value": "494P",
+      "count": 1
+    },
+    {
+      "value": "220P",
+      "count": 1
+    },
+    {
+      "value": "125P",
+      "count": 1
+    },
+    {
+      "value": "66P",
+      "count": 1
+    },
+    {
+      "value": "288P",
+      "count": 1
+    },
+    {
+      "value": "77P",
+      "count": 1
+    },
+    {
+      "value": "32P",
+      "count": 1
+    },
+    {
+      "value": "508P",
+      "count": 1
+    },
+    {
+      "value": "506P",
+      "count": 1
+    },
+    {
+      "value": "176P",
+      "count": 1
+    },
+    {
+      "value": "155P",
+      "count": 1
+    },
+    {
+      "value": "46P",
+      "count": 1
+    },
+    {
+      "value": "67P",
+      "count": 1
+    },
+    {
+      "value": "407P",
+      "count": 1
+    },
+    {
+      "value": "151P",
+      "count": 1
+    },
+    {
+      "value": "202P",
+      "count": 1
+    },
+    {
+      "value": "138P",
+      "count": 1
+    },
+    {
+      "value": "71P",
+      "count": 1
+    },
+    {
+      "value": "421P",
+      "count": 1
+    },
+    {
+      "value": "519P",
+      "count": 1
+    },
+    {
+      "value": "123P",
+      "count": 1
+    },
+    {
+      "value": "547P",
+      "count": 1
+    },
+    {
+      "value": "222P",
+      "count": 1
+    },
+    {
+      "value": "474P",
+      "count": 1
+    },
+    {
+      "value": "233P",
+      "count": 1
+    },
+    {
+      "value": "153P",
+      "count": 1
+    },
+    {
+      "value": "162P",
+      "count": 1
+    },
+    {
+      "value": "517P",
+      "count": 1
+    },
+    {
+      "value": "216P",
+      "count": 1
+    },
+    {
+      "value": "19P",
+      "count": 1
+    },
+    {
+      "value": "327P",
+      "count": 1
+    },
+    {
+      "value": "351P",
+      "count": 1
+    },
+    {
+      "value": "42P",
+      "count": 1
+    },
+    {
+      "value": "154P",
+      "count": 1
+    },
+    {
+      "value": "335P",
+      "count": 1
+    },
+    {
+      "value": "199P",
+      "count": 1
+    },
+    {
+      "value": "438P",
+      "count": 1
+    },
+    {
+      "value": "22P",
+      "count": 1
+    },
+    {
+      "value": "261P",
+      "count": 1
+    },
+    {
+      "value": "309P",
+      "count": 1
+    },
+    {
+      "value": "312P",
+      "count": 1
+    },
+    {
+      "value": "416P",
+      "count": 1
+    },
+    {
+      "value": "252P",
+      "count": 1
+    },
+    {
+      "value": "559P",
+      "count": 1
+    }
+  ],
+  "closingValues": [
+    {
+      "value": "9P",
+      "count": 25
+    },
+    {
+      "value": "28P",
+      "count": 15
+    },
+    {
+      "value": "10P",
+      "count": 15
+    },
+    {
+      "value": "24P",
+      "count": 15
+    },
+    {
+      "value": "6P",
+      "count": 11
+    },
+    {
+      "value": "14P",
+      "count": 10
+    },
+    {
+      "value": "160P",
+      "count": 10
+    },
+    {
+      "value": "209P",
+      "count": 10
+    },
+    {
+      "value": "3P",
+      "count": 10
+    },
+    {
+      "value": "139P",
+      "count": 10
+    },
+    {
+      "value": "106P",
+      "count": 10
+    },
+    {
+      "value": "1P",
+      "count": 10
+    },
+    {
+      "value": "73P",
+      "count": 10
+    },
+    {
+      "value": "21P",
+      "count": 10
+    },
+    {
+      "value": "187P",
+      "count": 10
+    },
+    {
+      "value": "53P",
+      "count": 10
+    },
+    {
+      "value": "41P",
+      "count": 10
+    },
+    {
+      "value": "54P",
+      "count": 10
+    },
+    {
+      "value": "44P",
+      "count": 9
+    },
+    {
+      "value": "40P",
+      "count": 9
+    },
+    {
+      "value": "63P",
+      "count": 9
+    },
+    {
+      "value": "102P",
+      "count": 9
+    },
+    {
+      "value": "5P",
+      "count": 9
+    },
+    {
+      "value": "219P",
+      "count": 7
+    },
+    {
+      "value": "68P",
+      "count": 6
+    },
+    {
+      "value": "191P",
+      "count": 6
+    },
+    {
+      "value": "8P",
+      "count": 6
+    },
+    {
+      "value": "141P",
+      "count": 6
+    },
+    {
+      "value": "125P",
+      "count": 6
+    },
+    {
+      "value": "4P",
+      "count": 6
+    },
+    {
+      "value": "59P",
+      "count": 6
+    },
+    {
+      "value": "167P",
+      "count": 6
+    },
+    {
+      "value": "85P",
+      "count": 6
+    },
+    {
+      "value": "354P",
+      "count": 5
+    },
+    {
+      "value": "37P",
+      "count": 5
+    },
+    {
+      "value": "564P",
+      "count": 5
+    },
+    {
+      "value": "2P",
+      "count": 5
+    },
+    {
+      "value": "49P",
+      "count": 5
+    },
+    {
+      "value": "554P",
+      "count": 5
+    },
+    {
+      "value": "26P",
+      "count": 5
+    },
+    {
+      "value": "520P",
+      "count": 5
+    },
+    {
+      "value": "326P",
+      "count": 5
+    },
+    {
+      "value": "78P",
+      "count": 5
+    },
+    {
+      "value": "30P",
+      "count": 5
+    },
+    {
+      "value": "399P",
+      "count": 5
+    },
+    {
+      "value": "13P",
+      "count": 5
+    },
+    {
+      "value": "212P",
+      "count": 5
+    },
+    {
+      "value": "25P",
+      "count": 5
+    },
+    {
+      "value": "64P",
+      "count": 5
+    },
+    {
+      "value": "475P",
+      "count": 5
+    },
+    {
+      "value": "133P",
+      "count": 5
+    },
+    {
+      "value": "309P",
+      "count": 5
+    },
+    {
+      "value": "1087P",
+      "count": 5
+    },
+    {
+      "value": "363P",
+      "count": 5
+    },
+    {
+      "value": "285P",
+      "count": 5
+    },
+    {
+      "value": "208P",
+      "count": 5
+    },
+    {
+      "value": "280P",
+      "count": 5
+    },
+    {
+      "value": "158P",
+      "count": 5
+    },
+    {
+      "value": "224P",
+      "count": 5
+    },
+    {
+      "value": "87P",
+      "count": 5
+    },
+    {
+      "value": "518P",
+      "count": 5
+    },
+    {
+      "value": "506P",
+      "count": 5
+    },
+    {
+      "value": "400P",
+      "count": 5
+    },
+    {
+      "value": "140P",
+      "count": 5
+    },
+    {
+      "value": "172P",
+      "count": 5
+    },
+    {
+      "value": "274P",
+      "count": 5
+    },
+    {
+      "value": "211P",
+      "count": 5
+    },
+    {
+      "value": "109P",
+      "count": 5
+    },
+    {
+      "value": "427P",
+      "count": 5
+    },
+    {
+      "value": "202P",
+      "count": 5
+    },
+    {
+      "value": "132P",
+      "count": 5
+    },
+    {
+      "value": "488P",
+      "count": 5
+    },
+    {
+      "value": "515P",
+      "count": 5
+    },
+    {
+      "value": "292P",
+      "count": 5
+    },
+    {
+      "value": "29P",
+      "count": 5
+    },
+    {
+      "value": "17P",
+      "count": 5
+    },
+    {
+      "value": "124P",
+      "count": 5
+    },
+    {
+      "value": "55P",
+      "count": 5
+    },
+    {
+      "value": "57P",
+      "count": 5
+    },
+    {
+      "value": "11P",
+      "count": 5
+    },
+    {
+      "value": "117P",
+      "count": 5
+    },
+    {
+      "value": "116P",
+      "count": 5
+    },
+    {
+      "value": "118P",
+      "count": 5
+    },
+    {
+      "value": "284P",
+      "count": 5
+    },
+    {
+      "value": "484P",
+      "count": 5
+    },
+    {
+      "value": "540P",
+      "count": 5
+    },
+    {
+      "value": "287P",
+      "count": 5
+    },
+    {
+      "value": "35P",
+      "count": 5
+    },
+    {
+      "value": "519P",
+      "count": 5
+    },
+    {
+      "value": "323P",
+      "count": 5
+    },
+    {
+      "value": "200P",
+      "count": 5
+    },
+    {
+      "value": "204P",
+      "count": 5
+    },
+    {
+      "value": "129P",
+      "count": 5
+    },
+    {
+      "value": "15P",
+      "count": 5
+    },
+    {
+      "value": "142P",
+      "count": 5
+    },
+    {
+      "value": "410P",
+      "count": 5
+    },
+    {
+      "value": "98P",
+      "count": 5
+    },
+    {
+      "value": "296P",
+      "count": 5
+    },
+    {
+      "value": "255P",
+      "count": 5
+    },
+    {
+      "value": "555P",
+      "count": 5
+    },
+    {
+      "value": "161P",
+      "count": 5
+    },
+    {
+      "value": "86P",
+      "count": 5
+    },
+    {
+      "value": "567P",
+      "count": 5
+    },
+    {
+      "value": "217P",
+      "count": 5
+    },
+    {
+      "value": "185P",
+      "count": 5
+    },
+    {
+      "value": "249P",
+      "count": 5
+    },
+    {
+      "value": "437P",
+      "count": 5
+    },
+    {
+      "value": "221P",
+      "count": 5
+    },
+    {
+      "value": "542P",
+      "count": 5
+    },
+    {
+      "value": "80P",
+      "count": 5
+    },
+    {
+      "value": "499P",
+      "count": 5
+    },
+    {
+      "value": "327P",
+      "count": 5
+    },
+    {
+      "value": "397P",
+      "count": 5
+    },
+    {
+      "value": "128P",
+      "count": 5
+    },
+    {
+      "value": "266P",
+      "count": 5
+    },
+    {
+      "value": "260P",
+      "count": 5
+    },
+    {
+      "value": "122P",
+      "count": 5
+    },
+    {
+      "value": "45P",
+      "count": 5
+    },
+    {
+      "value": "62P",
+      "count": 5
+    },
+    {
+      "value": "351P",
+      "count": 5
+    },
+    {
+      "value": "72P",
+      "count": 5
+    },
+    {
+      "value": "485P",
+      "count": 5
+    },
+    {
+      "value": "61P",
+      "count": 5
+    },
+    {
+      "value": "1497038.0",
+      "count": 5
+    },
+    {
+      "value": "16P",
+      "count": 4
+    },
+    {
+      "value": "79P",
+      "count": 4
+    },
+    {
+      "value": "482P",
+      "count": 4
+    },
+    {
+      "value": "47P",
+      "count": 4
+    },
+    {
+      "value": "36P",
+      "count": 4
+    },
+    {
+      "value": "112P",
+      "count": 4
+    },
+    {
+      "value": "365P",
+      "count": 4
+    },
+    {
+      "value": "210P",
+      "count": 4
+    },
+    {
+      "value": "166P",
+      "count": 4
+    },
+    {
+      "value": "157P",
+      "count": 4
+    },
+    {
+      "value": "180P",
+      "count": 4
+    },
+    {
+      "value": "380P",
+      "count": 4
+    },
+    {
+      "value": "190P",
+      "count": 4
+    },
+    {
+      "value": "281P",
+      "count": 4
+    },
+    {
+      "value": "171P",
+      "count": 4
+    },
+    {
+      "value": "404P",
+      "count": 4
+    },
+    {
+      "value": "39P",
+      "count": 4
+    },
+    {
+      "value": "189P",
+      "count": 4
+    },
+    {
+      "value": "12P",
+      "count": 4
+    },
+    {
+      "value": "238P",
+      "count": 4
+    },
+    {
+      "value": "173P",
+      "count": 4
+    },
+    {
+      "value": "1390116.0",
+      "count": 4
+    },
+    {
+      "value": "214P",
+      "count": 3
+    },
+    {
+      "value": "1062087.0",
+      "count": 3
+    },
+    {
+      "value": "1132006.0",
+      "count": 3
+    },
+    {
+      "value": "77P",
+      "count": 2
+    },
+    {
+      "value": "531P",
+      "count": 2
+    },
+    {
+      "value": "341P",
+      "count": 1
+    },
+    {
+      "value": "7P",
+      "count": 1
+    },
+    {
+      "value": "43P",
+      "count": 1
+    },
+    {
+      "value": "52P",
+      "count": 1
+    },
+    {
+      "value": "277P",
+      "count": 1
+    },
+    {
+      "value": "494P",
+      "count": 1
+    },
+    {
+      "value": "220P",
+      "count": 1
+    },
+    {
+      "value": "88P",
+      "count": 1
+    },
+    {
+      "value": "66P",
+      "count": 1
+    },
+    {
+      "value": "288P",
+      "count": 1
+    },
+    {
+      "value": "251P",
+      "count": 1
+    },
+    {
+      "value": "176P",
+      "count": 1
+    },
+    {
+      "value": "155P",
+      "count": 1
+    },
+    {
+      "value": "46P",
+      "count": 1
+    },
+    {
+      "value": "67P",
+      "count": 1
+    },
+    {
+      "value": "407P",
+      "count": 1
+    },
+    {
+      "value": "229P",
+      "count": 1
+    },
+    {
+      "value": "147P",
+      "count": 1
+    },
+    {
+      "value": "71P",
+      "count": 1
+    },
+    {
+      "value": "421P",
+      "count": 1
+    },
+    {
+      "value": "123P",
+      "count": 1
+    },
+    {
+      "value": "547P",
+      "count": 1
+    },
+    {
+      "value": "222P",
+      "count": 1
+    },
+    {
+      "value": "474P",
+      "count": 1
+    },
+    {
+      "value": "145P",
+      "count": 1
+    },
+    {
+      "value": "233P",
+      "count": 1
+    },
+    {
+      "value": "153P",
+      "count": 1
+    },
+    {
+      "value": "162P",
+      "count": 1
+    },
+    {
+      "value": "517P",
+      "count": 1
+    },
+    {
+      "value": "216P",
+      "count": 1
+    },
+    {
+      "value": "414P",
+      "count": 1
+    },
+    {
+      "value": "19P",
+      "count": 1
+    },
+    {
+      "value": "127P",
+      "count": 1
+    },
+    {
+      "value": "42P",
+      "count": 1
+    },
+    {
+      "value": "154P",
+      "count": 1
+    },
+    {
+      "value": "335P",
+      "count": 1
+    },
+    {
+      "value": "199P",
+      "count": 1
+    },
+    {
+      "value": "96P",
+      "count": 1
+    },
+    {
+      "value": "438P",
+      "count": 1
+    },
+    {
+      "value": "22P",
+      "count": 1
+    },
+    {
+      "value": "1032951.0",
+      "count": 1
+    },
+    {
+      "value": "261P",
+      "count": 1
+    },
+    {
+      "value": "1107361.0",
+      "count": 1
+    },
+    {
+      "value": "1075282.0",
+      "count": 1
+    },
+    {
+      "value": "1346462.0",
+      "count": 1
+    },
+    {
+      "value": "1428960.0",
+      "count": 1
+    },
+    {
+      "value": "303P",
+      "count": 1
+    },
+    {
+      "value": "312P",
+      "count": 1
+    },
+    {
+      "value": "416P",
+      "count": 1
+    },
+    {
+      "value": "51P",
+      "count": 1
+    },
+    {
+      "value": "559P",
+      "count": 1
+    },
+    {
+      "value": "74P",
+      "count": 1
+    }
+  ],
+  "openingSamples": [
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "14P",
+      "closingRankRaw": "14P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "48P",
+      "closingRankRaw": "68P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "191P",
+      "closingRankRaw": "191P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Chemistry (4 Years, Bachelor of Science)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "341P",
+      "closingRankRaw": "341P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "7P",
+      "closingRankRaw": "7P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Electrical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "quota": "AI",
+      "seatType": "ST (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "8P",
+      "closingRankRaw": "8P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Energy Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "16P",
+      "closingRankRaw": "16P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "37P",
+      "closingRankRaw": "37P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Industrial Engineering and Operations Research (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "43P",
+      "closingRankRaw": "43P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Metallurgical Engineering and Materials Science (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "141P",
+      "closingRankRaw": "141P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Metallurgical Engineering and Materials Science (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "52P",
+      "closingRankRaw": "52P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Metallurgical Engineering and Materials Science (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "141P",
+      "closingRankRaw": "141P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "B.Tech in General Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "277P",
+      "closingRankRaw": "277P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "564P",
+      "closingRankRaw": "564P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "28P",
+      "closingRankRaw": "28P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "160P",
+      "closingRankRaw": "160P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "B.Tech in Microelectronics & VLSI (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "160P",
+      "closingRankRaw": "160P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "494P",
+      "closingRankRaw": "494P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "2P",
+      "closingRankRaw": "2P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "Data Science and Artificial Intelligence (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "209P",
+      "closingRankRaw": "209P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "Data Science and Artificial Intelligence (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "49P",
+      "closingRankRaw": "49P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "220P",
+      "closingRankRaw": "220P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "554P",
+      "closingRankRaw": "554P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "Quantum Science and Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "125P",
+      "closingRankRaw": "125P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Abu Dhabi Campus - Energy Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "26P",
+      "closingRankRaw": "26P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Chemistry (4 Years, Bachelor of Science)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "520P",
+      "closingRankRaw": "520P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "28P",
+      "closingRankRaw": "28P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "326P",
+      "closingRankRaw": "326P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "78P",
+      "closingRankRaw": "78P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "44P",
+      "closingRankRaw": "44P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "30P",
+      "closingRankRaw": "30P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Design (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "88P",
+      "closingRankRaw": "88P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "ST (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "10P",
+      "closingRankRaw": "10P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Engineering and Computational Mechanics (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "399P",
+      "closingRankRaw": "399P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "24P",
+      "closingRankRaw": "24P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "13P",
+      "closingRankRaw": "13P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "ST (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "3P",
+      "closingRankRaw": "3P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "8P",
+      "closingRankRaw": "8P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Production and Industrial Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "66P",
+      "closingRankRaw": "66P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Textile Technology (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "212P",
+      "closingRankRaw": "212P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Indore",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "288P",
+      "closingRankRaw": "288P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Indore",
+      "academicProgram": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "25P",
+      "closingRankRaw": "25P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Indore",
+      "academicProgram": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "64P",
+      "closingRankRaw": "64P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Indore",
+      "academicProgram": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "10P",
+      "closingRankRaw": "10P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Indore",
+      "academicProgram": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "322P",
+      "closingRankRaw": "475P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "133P",
+      "closingRankRaw": "133P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "77P",
+      "closingRankRaw": "77P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Agricultural and Food Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "303P",
+      "closingRankRaw": "309P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Architecture (5 Years, Bachelor of Architecture)",
+      "quota": "AI",
+      "seatType": "ST",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "1087P",
+      "closingRankRaw": "1087P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "363P",
+      "closingRankRaw": "363P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Biotechnology and Biochemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "285P",
+      "closingRankRaw": "285P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "32P",
+      "closingRankRaw": "251P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "208P",
+      "closingRankRaw": "208P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "164P",
+      "closingRankRaw": "280P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "79P",
+      "closingRankRaw": "79P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "158P",
+      "closingRankRaw": "158P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Instrumentation Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "139P",
+      "closingRankRaw": "139P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Manufacturing Science and Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "106P",
+      "closingRankRaw": "106P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "87P",
+      "closingRankRaw": "87P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "508P",
+      "closingRankRaw": "518P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Ocean Engineering and Naval Architecture (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "506P",
+      "closingRankRaw": "506P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Artificial Intelligence (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "3P",
+      "closingRankRaw": "3P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "400P",
+      "closingRankRaw": "400P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Biotechnology and Bioinformatics (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "176P",
+      "closingRankRaw": "176P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "140P",
+      "closingRankRaw": "140P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "172P",
+      "closingRankRaw": "172P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "4P",
+      "closingRankRaw": "4P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "1P",
+      "closingRankRaw": "1P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "274P",
+      "closingRankRaw": "274P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "211P",
+      "closingRankRaw": "211P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Materials Science and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "427P",
+      "closingRankRaw": "427P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Jodhpur",
+      "academicProgram": "Artificial Intelligence and Data Science (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "59P",
+      "closingRankRaw": "59P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Jodhpur",
+      "academicProgram": "Electronics Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "139P",
+      "closingRankRaw": "139P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Jodhpur",
+      "academicProgram": "Electronics Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "155P",
+      "closingRankRaw": "155P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "46P",
+      "closingRankRaw": "46P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "67P",
+      "closingRankRaw": "67P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Biological Sciences and Bioengineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "407P",
+      "closingRankRaw": "407P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "151P",
+      "closingRankRaw": "229P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "202P",
+      "closingRankRaw": "202P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "488P",
+      "closingRankRaw": "488P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "40P",
+      "closingRankRaw": "40P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "138P",
+      "closingRankRaw": "147P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Earth Sciences (4 Years, Bachelor of Science)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "515P",
+      "closingRankRaw": "515P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "26P",
+      "closingRankRaw": "26P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Materials Science and Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "292P",
+      "closingRankRaw": "292P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Materials Science and Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "167P",
+      "closingRankRaw": "167P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "6P",
+      "closingRankRaw": "6P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Biological Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "191P",
+      "closingRankRaw": "191P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Biological Science (4 Years, Bachelor of Science)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "482P",
+      "closingRankRaw": "482P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "BS in Mathematics (4 Years, Bachelor of Science)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "63P",
+      "closingRankRaw": "63P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "29P",
+      "closingRankRaw": "29P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "17P",
+      "closingRankRaw": "17P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "24P",
+      "closingRankRaw": "24P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "124P",
+      "closingRankRaw": "124P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "55P",
+      "closingRankRaw": "55P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "57P",
+      "closingRankRaw": "57P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "28P",
+      "closingRankRaw": "28P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "11P",
+      "closingRankRaw": "11P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "ST (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "9P",
+      "closingRankRaw": "9P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Engineering Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "117P",
+      "closingRankRaw": "117P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    }
+  ],
+  "closingSamples": [
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bhubaneswar",
+      "academicProgram": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "151",
+      "closingRankRaw": "354P",
+      "openingRank": 151,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "14P",
+      "closingRankRaw": "14P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "48P",
+      "closingRankRaw": "68P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "191P",
+      "closingRankRaw": "191P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Chemistry (4 Years, Bachelor of Science)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "341P",
+      "closingRankRaw": "341P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "7P",
+      "closingRankRaw": "7P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Electrical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "quota": "AI",
+      "seatType": "ST (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "8P",
+      "closingRankRaw": "8P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Energy Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "16P",
+      "closingRankRaw": "16P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "37P",
+      "closingRankRaw": "37P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Industrial Engineering and Operations Research (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "43P",
+      "closingRankRaw": "43P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "8",
+      "closingRankRaw": "9P",
+      "openingRank": 8,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Metallurgical Engineering and Materials Science (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "141P",
+      "closingRankRaw": "141P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Metallurgical Engineering and Materials Science (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "52P",
+      "closingRankRaw": "52P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Bombay",
+      "academicProgram": "Metallurgical Engineering and Materials Science (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "141P",
+      "closingRankRaw": "141P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "B.Tech in General Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "277P",
+      "closingRankRaw": "277P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "564P",
+      "closingRankRaw": "564P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "28P",
+      "closingRankRaw": "28P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "160P",
+      "closingRankRaw": "160P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "B.Tech in Microelectronics & VLSI (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "160P",
+      "closingRankRaw": "160P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "494P",
+      "closingRankRaw": "494P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "2P",
+      "closingRankRaw": "2P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "Data Science and Artificial Intelligence (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "209P",
+      "closingRankRaw": "209P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "Data Science and Artificial Intelligence (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "49P",
+      "closingRankRaw": "49P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "220P",
+      "closingRankRaw": "220P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "554P",
+      "closingRankRaw": "554P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Mandi",
+      "academicProgram": "Quantum Science and Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "125P",
+      "closingRankRaw": "125P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Abu Dhabi Campus - Energy Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "26P",
+      "closingRankRaw": "26P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Chemistry (4 Years, Bachelor of Science)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "520P",
+      "closingRankRaw": "520P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "28P",
+      "closingRankRaw": "28P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "326P",
+      "closingRankRaw": "326P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "78P",
+      "closingRankRaw": "78P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "44P",
+      "closingRankRaw": "44P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "30P",
+      "closingRankRaw": "30P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Design (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "88P",
+      "closingRankRaw": "88P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "ST (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "10P",
+      "closingRankRaw": "10P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Engineering and Computational Mechanics (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "399P",
+      "closingRankRaw": "399P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "24P",
+      "closingRankRaw": "24P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "13P",
+      "closingRankRaw": "13P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "ST (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "3P",
+      "closingRankRaw": "3P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "8P",
+      "closingRankRaw": "8P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Production and Industrial Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "66P",
+      "closingRankRaw": "66P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Delhi",
+      "academicProgram": "Textile Technology (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "212P",
+      "closingRankRaw": "212P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Indore",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "288P",
+      "closingRankRaw": "288P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Indore",
+      "academicProgram": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "25P",
+      "closingRankRaw": "25P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Indore",
+      "academicProgram": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "64P",
+      "closingRankRaw": "64P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Indore",
+      "academicProgram": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "10P",
+      "closingRankRaw": "10P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Indore",
+      "academicProgram": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "322P",
+      "closingRankRaw": "475P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "133P",
+      "closingRankRaw": "133P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "77P",
+      "closingRankRaw": "77P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Agricultural and Food Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "303P",
+      "closingRankRaw": "309P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Architecture (5 Years, Bachelor of Architecture)",
+      "quota": "AI",
+      "seatType": "ST",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "1087P",
+      "closingRankRaw": "1087P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "363P",
+      "closingRankRaw": "363P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Biotechnology and Biochemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "285P",
+      "closingRankRaw": "285P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "32P",
+      "closingRankRaw": "251P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "208P",
+      "closingRankRaw": "208P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "164P",
+      "closingRankRaw": "280P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "79P",
+      "closingRankRaw": "79P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "158P",
+      "closingRankRaw": "158P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Industrial and Systems Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "147",
+      "closingRankRaw": "224P",
+      "openingRank": 147,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Instrumentation Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "139P",
+      "closingRankRaw": "139P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Manufacturing Science and Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "106P",
+      "closingRankRaw": "106P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "87P",
+      "closingRankRaw": "87P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "508P",
+      "closingRankRaw": "518P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kharagpur",
+      "academicProgram": "Ocean Engineering and Naval Architecture (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "506P",
+      "closingRankRaw": "506P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Artificial Intelligence (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "3P",
+      "closingRankRaw": "3P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "400P",
+      "closingRankRaw": "400P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Biotechnology and Bioinformatics (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "176P",
+      "closingRankRaw": "176P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "140P",
+      "closingRankRaw": "140P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "172P",
+      "closingRankRaw": "172P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "4P",
+      "closingRankRaw": "4P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "1P",
+      "closingRankRaw": "1P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "274P",
+      "closingRankRaw": "274P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "211P",
+      "closingRankRaw": "211P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Engineering Science (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "315",
+      "closingRankRaw": "109P",
+      "openingRank": 315,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Materials Science and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "427P",
+      "closingRankRaw": "427P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Hyderabad",
+      "academicProgram": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "293",
+      "closingRankRaw": "73P",
+      "openingRank": 293,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Jodhpur",
+      "academicProgram": "Artificial Intelligence and Data Science (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "59P",
+      "closingRankRaw": "59P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Jodhpur",
+      "academicProgram": "Electronics Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "139P",
+      "closingRankRaw": "139P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Jodhpur",
+      "academicProgram": "Electronics Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "155P",
+      "closingRankRaw": "155P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "46P",
+      "closingRankRaw": "46P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "67P",
+      "closingRankRaw": "67P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Biological Sciences and Bioengineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "407P",
+      "closingRankRaw": "407P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "151P",
+      "closingRankRaw": "229P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "202P",
+      "closingRankRaw": "202P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "255",
+      "closingRankRaw": "132P",
+      "openingRank": 255,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "488P",
+      "closingRankRaw": "488P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "40P",
+      "closingRankRaw": "40P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "138P",
+      "closingRankRaw": "147P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Earth Sciences (4 Years, Bachelor of Science)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "515P",
+      "closingRankRaw": "515P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Female-only (including Supernumerary)",
+      "openingRankRaw": "26P",
+      "closingRankRaw": "26P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Materials Science and Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "292P",
+      "closingRankRaw": "292P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Materials Science and Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "167P",
+      "closingRankRaw": "167P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Kanpur",
+      "academicProgram": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "109",
+      "closingRankRaw": "106P",
+      "openingRank": 109,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "6P",
+      "closingRankRaw": "6P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Biological Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "191P",
+      "closingRankRaw": "191P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Biological Science (4 Years, Bachelor of Science)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "482P",
+      "closingRankRaw": "482P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "BS in Mathematics (4 Years, Bachelor of Science)",
+      "quota": "AI",
+      "seatType": "OPEN (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "63P",
+      "closingRankRaw": "63P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "EWS (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "29P",
+      "closingRankRaw": "29P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "OBC-NCL (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "17P",
+      "closingRankRaw": "17P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    },
+    {
+      "counsellingType": "JOSAA",
+      "year": 2026,
+      "institute": "Indian Institute of Technology Madras",
+      "academicProgram": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "quota": "AI",
+      "seatType": "SC (PwD)",
+      "gender": "Gender-Neutral",
+      "openingRankRaw": "24P",
+      "closingRankRaw": "24P",
+      "openingRank": null,
+      "closingRank": null,
+      "sourceUrl": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+      "sourceLabel": "Official JoSAA 2026 OR-CR",
+      "round": "1"
+    }
+  ]
+}

@@ -1,0 +1,1052 @@
+[
+  {
+    "college": {
+      "josaa_code": "114",
+      "josaa_name": "Indian Institute of Technology (ISM) Dhanbad",
+      "college_id": "indian-institute-of-technology-dhanbad",
+      "college_name": "Indian Institute of Technology (ISM) Dhanbad",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 800000
+      },
+      "evidence": {
+        "total_course_fee": "BTech students is INR 18.84 LPA. A total of 684 BTech students are placed yet. IIT Dhanbad Fee: The total course fee for BTech programme is INR 8 lakh, depending on the choosen specialisation. Admission Criteria: IIT Dhanbad BTech admission is based on JEE Main and JEE Advanced which is followed by the JoSAA Counselling. Cutoff: Under"
+      },
+      "source_url": "https://www.shiksha.com/college/iit-dhanbad-ism-indian-institute-of-technology-ism-13669",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "201",
+      "josaa_name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+      "college_id": "dr-b-r-ambedkar-national-institute-of-technology-jalandhar",
+      "college_name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+      "website": "https://www.nitj.ac.in",
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 500000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "courses: The institute is known for its popular programme BTech in CSE and MBA. NIT Jalandhar Fee Structure: The total course fee for the BTech course ranges between INR 2.5 lakh- INR 5 lakh. Placements: Based on the 2025 placement report, the institute saw a placement rate of 91.88% for BTech. The average package recorded for BTech was INR 9.78 LPA. For BTech placements, 862 were eligi"
+        }
+      },
+      "source_url": "https://www.shiksha.com/college/national-institute-of-technology-jalandhar-24247",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "204",
+      "josaa_name": "Motilal Nehru National Institute of Technology Allahabad",
+      "college_id": "motilal-nehru-national-institute-of-technology-allahabad",
+      "college_name": "Motilal Nehru National Institute of Technology Allahabad",
+      "website": "https://www.mnnit.ac.in",
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 692000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "nstitute is 62 in the Engineering category and 183 in the Management category. MNNIT Allahabad Fee Structure: The total course fee for the BTech course ranges between INR 5 lakh- INR 6.92 lakh. Placements: The average package offered during MNIIT BTech placements 2025 was INR 20.43 LPA and for MBA was INR 7.34 LPA. Admission Criteria: MNNIT Allahabad admission is based on merit and entra"
+        }
+      },
+      "source_url": "https://www.shiksha.com/university/mnnit-allahabad-motilal-nehru-national-institute-of-technology-24357",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "213",
+      "josaa_name": "National Institute of Technology Nagaland",
+      "college_id": "national-institute-of-technology-nagaland",
+      "college_name": "National Institute of Technology Nagaland",
+      "website": "https://nitnagaland.ac.in",
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 500000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "le or non-refundable. Candidates who are shortlisted through the NIT Nagaland admission process are eligible to pay the course fees to cofirm admission. Candidates can check below the NIT Nagaland fee: Course Total Tuition Fee Total Fee BTech INR 5 lakhs INR 8.03 lakhs MTech INR 1.4 lakhs INR 2.99 lakhs MSc INR 30,000 INR 1.89 lakhs Note: This is taken from the official sources of the co"
+        }
+      },
+      "source_url": "https://www.shiksha.com/college/nit-nagaland-national-institute-of-technology-dimapur-39201",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "228",
+      "josaa_name": "National Institute of Technology, Warangal",
+      "college_id": "national-institute-of-technology-warangal",
+      "college_name": "National Institute of Technology, Warangal",
+      "website": "https://www.nitw.ac.in",
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 1097000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "fee and more. Candidates can check the table below to know about the NIT Warangal fees: Course Total Tuition Fee Total Course Fee BTech INR 5 lakhs INR 9.75 Lakh - 10.97 Lakh MTech INR 77,500- 4 Lakhs INR 1.85 Lakh - 6.3 Lakh Note:This information is sourced from the official website/ sanctioning body and is subject to change. NIT Warangal Hostel Fee Candidates can check the table below"
+        }
+      },
+      "source_url": "https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "230",
+      "josaa_name": "Visvesvaraya National Institute of Technology, Nagpur",
+      "college_id": "visvesvaraya-national-institute-of-technology-nagpur",
+      "college_name": "Visvesvaraya National Institute of Technology, Nagpur",
+      "website": "https://vnit.ac.in",
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 769000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "btech fees",
+          "context": "e primary engineering departments include Computer Science, Mechanical, Civil, Electrical, and Electronics. VNIT Nagpur BTech fees for the CSE branch is INR 5.00 lakh. VNIT Nagpur MTech fees is INR 1.40 lakh. The tuition and total Fee of some of the VNIT Nagpur courses are presented below: Course Tuition Fee Total Fee BTech CSE INR 5.00 lakh INR 7.69 Lakh BArch INR 6.25 lakh INR 6.25 lak"
+        }
+      },
+      "source_url": "https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "301",
+      "josaa_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+      "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+      "college_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+      "website": "https://www.iiitm.ac.in",
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 750000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "ts placed at top technology and product companies with competitive salaries.11. IIITM Gwalior fees for 4 Years BTechThe total fees for 4-year BTech at IIITM Gwalior is approximately ₹7–7.5 lakhs, including tuition, hostel, and miscellaneous charges. Fee structure may vary slightly each year and for different categories. Latest updates are available on the official IIITM Gwalior website.1"
+        }
+      },
+      "source_url": "https://www.vedantu.com/university/atal-bihari-vajpayee-indian-institute-of-information-technology-and-management-gwalior-cutoff",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "302",
+      "josaa_name": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
+      "college_id": "indian-institute-of-information-technology-kota-rajasthan",
+      "college_name": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 250000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "cessories. Merit-cum-Means Scholarship for Students Belonging to Minority Communities Annual Income up to INR 2.50 lakh Course fee: INR 20K PA, rent for hosteller (INR 10K PA) and Day-hosteller- (INR 5K PA). Post-matric Scholarship for Students with Disabilities Annual Income up to INR 2.50 lakh Disability Allowances, Rent for hosteller (INR 1600 PA) and Dayscholar (INR 750 PA), book all"
+        }
+      },
+      "source_url": "https://www.shiksha.com/college/iiit-kota-indian-institute-of-information-technology-51894",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "304",
+      "josaa_name": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
+      "college_id": "indian-institute-of-information-technology-kalyani-west-bengal",
+      "college_name": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 207000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "yani? A: The total tuition fee for Executive M.Tech courses is INR 2.07 lakh at IIIT Kalyani. Aspirants need to pay the course fees to confirm their seat. Q: What is the percentile required for IIIT Kalyani course admission? A: Candidates must meet the eligibility to apply for a course at IIIT Kalyani. Check below course-wise eligibility:CourseCommon EligibilityBTechClass 12 pass with at"
+        }
+      },
+      "source_url": "https://www.shiksha.com/college/indian-institute-of-information-technology-kalyani-46852",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "305",
+      "josaa_name": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+      "college_id": "indian-institute-of-information-technology-kilohrad-sonepat-haryana",
+      "college_name": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 596000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "demands in . These programs emphasize industry-relevant skills and strong placement outcomes. Read More Course Category Course Fee Eligibility Exams Accepted B.E / B.Tech Engineering Rs. 5,96,000.00 Minimum eligibility 10+2 or equivalent. JEE Main View All Courses IIIT Haryana - Indian Institute of Information Technology College Gallery View All Gallerys And Videos IIIT Haryana - Indian"
+        }
+      },
+      "source_url": "https://www.vidyavision.com/college/indian-institute-of-information-technology-iiit-kilohrad-sonepat-haryana",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "306",
+      "josaa_name": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+      "college_id": "indian-institute-of-information-technology-una-himachal-pradesh",
+      "college_name": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 1045000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "llocated to the eligible students.Admission ConfirmationThe selected students can confirm their admission by paying the course fees.Read MoreBachelor of Technology [B.Tech]4Courses3 yrsDuration294Total SeatsINR 10,45,000 - 10,45,000Tuition FeesJEE MainExams12thEligibilityMaster of Technology [M.Tech]1Courses2 yrsDuration--Total SeatsINR 1,89,000 - 1,89,000Tuition Fees--ExamsGRADUATIONEli"
+        }
+      },
+      "source_url": "https://www.selectyouruniversity.com/college/indian-institute-of-information-technology-iiit-una-cid-55790",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "307",
+      "josaa_name": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
+      "college_id": "indian-institute-of-information-technology-sri-city-chittoor",
+      "college_name": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 135000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "b.tech fees",
+          "context": "i City include a medical centre, banks, hostels, sports facilities etc. Q7 What is the B.Tech fee at IIIT Sri City? The B.Tech fees at IIIT Sri City is Rs. 1,35,000 per semester. Q8 How is the research promoted at IIIT Sri City? IIIT Sri City is a research-oriented college. The faculty members are involved in deep research in their areas of expertise. IIIT Sri City has various groups for"
+        }
+      },
+      "source_url": "https://byjus.com/jee/iiit-sri-city/",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "313",
+      "josaa_name": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR",
+      "college_id": "indian-institute-of-information-technology-senapati-manipur",
+      "college_name": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 180500
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "b.tech fees",
+          "context": "ed. Below is a detailed breakdown for B.Tech students for 2025–26. All amounts are approximate and subject to revision. B.Tech Fees BreakdownFee HeadAmountTuition Fee₹1,25,000Hostel Rent₹10,000Mess Charges (approx.)₹24,000Examination Fee₹2,000Library & Laboratory Fee₹5,000Sports & Cultural Fee₹2,500Medical & Insurance Fee₹2,000One-time Admission Fee₹10,000Total per Year (approx.)₹1,80,500"
+        }
+      },
+      "source_url": "https://jeepredictor.in/colleges/iiit-senapati-manipur-iiit",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "316",
+      "josaa_name": "Indian Institute of Information Technology(IIIT) Dharwad",
+      "college_id": "indian-institute-of-information-technology-dharwad",
+      "college_name": "Indian Institute of Information Technology(IIIT) Dharwad",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 100000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "b.tech fees",
+          "context": "course is 3.9/5 (61 Reviews).View placement details Get Admission DetailsFee DetailsCommonly asked questions On B.E. / B.Tech Fees Q: Are there any fee concessions for BTech at IIT Dharwad if my family income is low? A: Yes, IIT Dharwad does provide fee remission on the basis of family income-If your annual family income is less than INR 1 Lakh, your entire tuition fee is waived offIf yo"
+        }
+      },
+      "source_url": "https://www.shiksha.com/college/iit-dharwad-indian-institute-of-technology-53833/courses/be-btech-bc",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "317",
+      "josaa_name": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
+      "college_id": "indian-institute-of-information-technology-design-manufacturing-kurnool-andhra-pradesh",
+      "college_name": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 700000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "offered. MTech is offered at the PG level. PhD level courses are also offered by the institute. IITDM Kurnool Fees: The total fees for BTech course is around INR 7 lakh. For MTech, the fee is INR 2.9 lakh. Admissions: Admissions are entrance based. Admissions are offered on the basis of the scores in the exams like JEE Main, GATE, UGC NET, etc. Placements: The placements details of 2026"
+        }
+      },
+      "source_url": "https://www.shiksha.com/college/indian-institute-of-information-technology-design-and-manufacturing-kurnool-53875",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "318",
+      "josaa_name": "Indian Institute of Information Technology(IIIT) Kottayam",
+      "college_id": "indian-institute-of-information-technology-kottayam",
+      "college_name": "Indian Institute of Information Technology(IIIT) Kottayam",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 1792700
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "btech fees",
+          "context": "MainMedian Salary– / –Total Tuition Fees₹12.78 LGet Fee DetailsCompareBrochureIIIT Kottayam B.E. / B.TechIIIT Kottayam BTech Fees 2026IIIT Kottayam BTech fee for the entire course (4 years) is INR 17,92,700. It includes the tuition fee of INR 1,45,200, hostel/facility maintenance fee, mess, medical insurance, club activities, one-time fees such as caution deposit, sports fee, etc. All s"
+        }
+      },
+      "source_url": "https://www.shiksha.com/college/indian-institute-of-information-technology-kottayam-53868/courses/be-btech-bc",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "319",
+      "josaa_name": "Indian Institute of Information Technology (IIIT) Ranchi",
+      "college_id": "indian-institute-of-information-technology-ranchi",
+      "college_name": "Indian Institute of Information Technology (IIIT) Ranchi",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 150000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "rocess to get a chance to secure a seat. Candidates who make it to the final round of admission are eligible to pay the course fee that is INR 1,50,000. Check below the breakup of IIIT Ranchi Ph.D. fee:Read moreIIIT Ranchi offers the Ph.D. course at the Doctorate level. Candidates seeking admission to the course are required to participate in IIIT Ranchi admission process to get a chance"
+        }
+      },
+      "source_url": "https://www.shiksha.com/college/indian-institute-of-information-technology-ranchi-53869/fees",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "320",
+      "josaa_name": "Indian Institute of Information Technology (IIIT) Nagpur",
+      "college_id": "indian-institute-of-information-technology-nagpur",
+      "college_name": "Indian Institute of Information Technology (IIIT) Nagpur",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 990000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "to INR 9.9 lakh. Please note, this number is taken from the official sources. It can change. Candidates need to pay the course fee to confirm admission. Q: What is the application process of IIIT Nagpur? A: Indian Institute of Information Technology Nagpur application window is open. Students can apply directly through the official page. The step-by-step application process:Visit the off"
+        }
+      },
+      "source_url": "https://www.shiksha.com/college/iiit-nagpur-indian-institute-of-information-technology-53876/admission",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "321",
+      "josaa_name": "Indian Institute of Information Technology (IIIT) Pune",
+      "college_id": "indian-institute-of-information-technology-pune",
+      "college_name": "Indian Institute of Information Technology (IIIT) Pune",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 720000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "AA Counselling Eligibility: Class 12 with a minimum of 75% aggregate in PCM* INR 7.20 lakh Course & Fee Course Duration Total Fees B.Tech 4 year 9.6 L M.Tech 2 year 2.21 L Facilities A/C Classrooms Cafeteria Hostel Labs Sports Library Photo Gallery Review Are you a student or an alumni of this college? Write a Review Featured University/Institution Jaypee Business School (JBS) Noida Noid"
+        }
+      },
+      "source_url": "https://www.mycampusreview.com/indian-institute-of-information-technology-iiit-pune~376/b.tech/789",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "323",
+      "josaa_name": "Indian Institute of Information Technology Bhopal",
+      "college_id": "indian-institute-of-information-technology-bhopal",
+      "college_name": "Indian Institute of Information Technology Bhopal",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 907000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "btech fees",
+          "context": "ved by the AICTE. Popular Programme: The institute offers its flagship programmes are BTech, MCA and MTech. IIIT Bhopal BTech fees: The total fee for Indian Institute of Information Technology Bhopal BTech fee is INR 9.07 lakh. IIIT Bhopal Admission Process: The institute accepts JEE Main scores and JoSAA counselling for BTech admissions. Placements: The average package offered at IIIT B"
+        }
+      },
+      "source_url": "https://www.shiksha.com/college/iiit-bhopal-indian-institute-of-information-technology-53843",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "324",
+      "josaa_name": "Indian Institute of Information Technology Surat",
+      "college_id": "indian-institute-of-information-technology-surat",
+      "college_name": "Indian Institute of Information Technology Surat",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 565000
+      },
+      "evidence": {
+        "total_course_fee": "entire duration of the respective courses.Commonly asked questions On Fees Overview Q: What is the total course fee for BTech programme at IIIT Surat? A: The total course fee for IIIT Surat’s BTech programme is INR 5.65 lakh. The total tuition fee is collated from various unofficial sources. Hence, it is indicative. Q: Is IIIT Surat"
+      },
+      "source_url": "https://www.shiksha.com/college/iiit-surat-indian-institute-of-information-technology-53849/fees",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "325",
+      "josaa_name": "Indian Institute of Information Technology, Agartala",
+      "college_id": "indian-institute-of-information-technology-agartala",
+      "college_name": "Indian Institute of Information Technology, Agartala",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 811000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "b.tech fees",
+          "context": "4 years programmes will therefore be, INR 8.11 Lakh. IIIT Agartala - Indian Institute of Information Technology B.E. / B.Tech Fees 2026The fee structure of B.E. / B.Tech offered by IIIT Agartala - Indian Institute of Information Technology may include various components, such as Tuition Fees, Hostel Fees, One-time payable variants, etc. The total tuition fee for B.E. / B.Tech programme a"
+        }
+      },
+      "source_url": "https://www.shiksha.com/college/iiit-agartala-63989/fees",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "403",
+      "josaa_name": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+      "college_id": "gurukula-kangri-vishwavidyalaya-haridwar",
+      "college_name": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 240000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "time mode. Candidates are shortlisted for the same through GKV - Gurukula Kangri Vishwavidyalaya admission process. The course fee for B.A. varies with different specialisations of the course. Candidate have to pay INR 19,400 - 26,800 as tuition fee, INR 3,000 as one-time fee and INR 2,40,000 as hostel fee. Learn more about GKV - Gurukula Kangri Vishwavidyalaya B.A. fee and its component"
+        }
+      },
+      "source_url": "https://www.shiksha.com/university/gkv-gurukula-kangri-vishwavidyalaya-haridwar-25246/fees",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  }
+]

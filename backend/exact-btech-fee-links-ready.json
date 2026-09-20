@@ -1,0 +1,3956 @@
+[
+  {
+    "college_id": "uptac-bharat-ratna-sardar-vallabhbhai-patel-rajkiya-engineering-college-basti",
+    "college_name": "Bharat Ratna Sardar Vallabhbhai Patel Rajkiya Engineering College, Basti",
+    "source_family": "UPTAC",
+    "parent_url": "https://recbasti.ac.in/fee-structure/",
+    "status": "EXACT_SOURCE_READY",
+    "academic_fee_links": [],
+    "hostel_mess_links": [],
+    "direct_parent_evidence": {
+      "type": "DIRECT_PARENT_EVIDENCE",
+      "source_url": "https://recbasti.ac.in/fee-structure/",
+      "academic_year": 2026,
+      "tables": [
+        {
+          "table_index": 0,
+          "score": 40,
+          "money_count": 0,
+          "rows": [
+            [
+              "S. No",
+              "Subject",
+              "View File"
+            ],
+            [
+              "1",
+              "Fee Structure Academic 2026-27",
+              "Click Here"
+            ],
+            [
+              "2",
+              "Fee Structure Academic 2025-26",
+              "Click Here"
+            ],
+            [
+              "3",
+              "Fee Structure Academic 2024-25",
+              "Click Here"
+            ]
+          ]
+        }
+      ]
+    },
+    "review_links": [
+      {
+        "anchor_text": "B.Tech Ordinance",
+        "url": "https://recbasti.ac.in/wp-content/uploads/2026/06/B.Tech-Ordinance.pdf",
+        "context": "B.Tech Ordinance",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Fee Structure",
+        "url": "https://recbasti.ac.in/fee-structure/",
+        "context": "Fee Structure",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "Placement 2026-27",
+        "url": "https://recbasti.ac.in/placement-2026-27/",
+        "context": "Placement 2026-27",
+        "score": 35,
+        "reasons": [
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 35,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "PLACEMENT_PAGE",
+        "exact_reasons": [
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://recbasti.ac.in/wp-content/uploads/2026/01/Fee-Details-all-year-2025-26.pdf",
+        "context": "2Fee Structure Academic 2025-26Click Here Click Here",
+        "score": 20,
+        "reasons": [
+          "FEE",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 5,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://recbasti.ac.in/wp-content/uploads/2025/08/fee-structure.pdf",
+        "context": "3Fee Structure Academic 2024-25Click Here Click Here",
+        "score": 20,
+        "reasons": [
+          "FEE",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 5,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "central-university-of-jammu",
+    "college_name": "Central University of Jammu",
+    "source_family": "JOSAA",
+    "parent_url": "https://www.cujammu.ac.in/en/btechadmissions/",
+    "status": "EXACT_SOURCE_READY",
+    "academic_fee_links": [],
+    "hostel_mess_links": [],
+    "direct_parent_evidence": {
+      "type": "DIRECT_PARENT_EVIDENCE",
+      "source_url": "https://www.cujammu.ac.in/en/btechadmissions/",
+      "academic_year": 2026,
+      "tables": [
+        {
+          "table_index": 1,
+          "score": 45,
+          "money_count": 0,
+          "rows": [
+            [
+              "Important Updates (B.TECH - ECE) 2025-26"
+            ],
+            [
+              "Update",
+              "Description"
+            ],
+            [
+              "Important Instructions and Guidelines for Physical Reporting (JoSAA/CSAB) B.Tech. Students (AY 2025-26)",
+              "Click Here to view"
+            ],
+            [
+              "Information for Physical reporting and document verification for JEEmain or CUET or JOSAA Candidates (Date of reporting 5th August 2025)",
+              "Click here"
+            ],
+            [
+              "Flyer for 5th Round Admissions of admission in ECE and ECE(Avionics)",
+              "Click here"
+            ],
+            [
+              "Hostel Fee Details",
+              "Click here"
+            ],
+            [
+              "Samarth Link. 5th Round Admissions Last Date: 15-08-2025",
+              "Click here to apply"
+            ],
+            [
+              "Eligibility Criteria",
+              "Click here"
+            ],
+            [
+              "Phase IV_List of Shortlisted candidates for admission in BTech ECE (Avionics).",
+              "Click here"
+            ],
+            [
+              "Phase IV_List of Shortlisted candidates for admission in BTech ECE.",
+              "Click here"
+            ],
+            [
+              "Phase III_List of Shortlisted candicates for admission in BTech ECE (Avionics).",
+              "Click here"
+            ],
+            [
+              "Phase III_List of Shortlisted candicates for admission in BTech ECE.",
+              "Click here"
+            ],
+            [
+              "Phase-IV: last date to submit applications for B.Tech admission in ECE and ECE (Avionics) is July 15, 2025.",
+              "Click here"
+            ],
+            [
+              "Information for Physical document verification and reporting for JOSAA Candiadates (Date of reporting 5th August 2025).",
+              "Click here"
+            ],
+            [
+              "Phase-IV: last date to submit applications for B.Tech admission in ECE and ECE (Avionics) is June 30, 2025.",
+              "Click here"
+            ],
+            [
+              "Phase-III: last date to submit applications for B.Tech admission in ECE and ECE (Avionics) is June 17, 2025",
+              "Click here"
+            ],
+            [
+              "Phase-II: List of Short-Listed Candidate for Provisional Admission in B.Tech. ECE",
+              "Click here"
+            ],
+            [
+              "Phase-II: List of Short-Listed Candidate for Provisional Admission in B.Tech. ECE Avionics.",
+              "Click here"
+            ],
+            [
+              "Phase-II: last date to submit applications for B.Tech admission in ECE and ECE (Avionics) is June 1, 2025",
+              "Click here"
+            ],
+            [
+              "Phase-1: List of Short-Listed Candidate for Provisional Admission in B.Tech In ECE.",
+              "Click here"
+            ],
+            [
+              "Phase-1: List of Short-Listed Candidate for Provisional Admission in B.Tech In ECE Avionics.",
+              "Click here"
+            ],
+            [
+              "Important Update",
+              "Click here"
+            ],
+            [
+              "Admission Related Queries",
+              "Prof. Rakesh Jha Professor Mob No: 9906088419 Dr. Rajiv Kumar Assistant Professor Mob No: 8494027958 Dr. Sachin Kumar Gupta Associate Professor Mob No: 7006623092 Email: admission.ece@cujammu.ac.in Sh. Rajan Badyal Public Relation Officer Mob No: 9419125278"
+            ]
+          ]
+        }
+      ]
+    },
+    "review_links": [
+      {
+        "anchor_text": "Important Note for JoSAA/CSAB Candidates",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/ece/notice_josaa_csab.pdf",
+        "context": "Important Note for JoSAA/CSAB Candidates",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Important Note for JoSAA/CSAB Candidates",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/cse/notice_josaa_csab.pdf",
+        "context": "Important Note for JoSAA/CSAB Candidates",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Physical Reporting and Document Verification Schedule for CSE Department",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/cse/physical_reporting2026.pdf",
+        "context": "Physical Reporting and Document Verification Schedule for CSE Department",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "View",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/ece/eligibility_criteria_ece.pdf",
+        "context": "Eligibility Criteria for B.Tech in ECE View View",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 75,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "View",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/ece/admission_2026_flyer3.pdf",
+        "context": "Admission JEE Mains 2026 - Phase 1 (Important Dates) View View",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 75,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "View",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/ece/admission_2026_flyer4.pdf",
+        "context": "Admission JEE Mains 2026 - Phase 2 (Important Dates) View View",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 75,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "View",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/ece/admission_2026_flyer5.pdf",
+        "context": "Admission JEE Mains 2026 - Phase 2 (Important Dates) View View",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 75,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "View",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/ece/admission_2026_flyer6.pdf",
+        "context": "Admission JEE Mains 2026 - Phase 3 (Important Dates) View View",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 75,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "View",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/ece/admission_2026_flyer7.pdf",
+        "context": "Admission JEE Mains 2026 - Phase 3 (Important Dates) View View",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 75,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click here",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/cse/2026flyer.pdf",
+        "context": "Admission 2026 Click here Click here",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 75,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click here",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/cse/1stround_cse.pdf",
+        "context": "Information for the 1st Round of Applications in B.Tech. (CSE / CSE(Cyber Security) / Mathematics and Computing) Click here Click here",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 75,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "B.Tech Admissions 2026-27",
+        "url": "https://www.cujammu.ac.in/en/btechadmissions/",
+        "context": "B.Tech Admissions 2026-27",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Last Round of Admissions",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/ece/last_round_ece.png",
+        "context": "Last Round of Admissions",
+        "score": 30,
+        "reasons": [
+          "BTECH_OR_UG"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Click here",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2025/ECE/fh2526.pdf",
+        "context": "Hostel Fee Details Click here Click here",
+        "score": 57,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 58,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "HOSTEL",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "2026-27",
+        "url": "https://www.cujammu.ac.in/static/homepage/academics/academic%20calendar/2026-27.pdf",
+        "context": "2026-27",
+        "score": 45,
+        "reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "2026-27",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/prospectus26-27.pdf",
+        "context": "2026-27",
+        "score": 45,
+        "reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "View",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/ece/btech_shortlist2.pdf",
+        "context": "Phase-I : 2nd List of Short-Listed Candidates for Provisional Admission in the B.Tech (ECE & ECE-Avionics) 2026-27 View View",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 75,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "View",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/ece/phase2_list1.pdf",
+        "context": "Phase-II List -I of Short-Listed Candidates for Provisional Admission in the B.Tech (ECE & ECE-Avionics) Dept. of ECE_2026-27 View View",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 75,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "View",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2026_27/btech/ece/btech_shortlist1.pdf",
+        "context": "List of Short-Listed Candidates for Provisional Admission in B.Tech. ECE View View",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 75,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click here",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2025/ECE/eceap4.pdf",
+        "context": "Phase IV_List of Shortlisted candidates for admission in BTech ECE (Avionics). Click here Click here",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 40,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click here",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2025/ECE/ecep4.pdf",
+        "context": "Phase IV_List of Shortlisted candidates for admission in BTech ECE. Click here Click here",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 40,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click here",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2025/ECE/eceap3.pdf",
+        "context": "Phase III_List of Shortlisted candicates for admission in BTech ECE (Avionics). Click here Click here",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 40,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click here",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2025/ECE/ecep3.pdf",
+        "context": "Phase III_List of Shortlisted candicates for admission in BTech ECE. Click here Click here",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 40,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click here",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2025/ECE/P2ECE.pdf",
+        "context": "Phase-II: List of Short-Listed Candidate for Provisional Admission in B.Tech. ECE Click here Click here",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 40,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click here",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2025/ECE/P2ECEA.pdf",
+        "context": "Phase-II: List of Short-Listed Candidate for Provisional Admission in B.Tech. ECE Avionics. Click here Click here",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 40,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click here",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2025/ECE/p1ece.pdf",
+        "context": "Phase-1: List of Short-Listed Candidate for Provisional Admission in B.Tech In ECE. Click here Click here",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 40,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click here",
+        "url": "https://www.cujammu.ac.in/static/homepage/admissions/2025/ECE/p1ecea.pdf",
+        "context": "Phase-1: List of Short-Listed Candidate for Provisional Admission in B.Tech In ECE Avionics. Click here Click here",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 40,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "BTECH",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "uptac-i-m-s-engineering-college-ghaziabad",
+    "college_name": "I.M.S. ENGINEERING COLLEGE,GHAZIABAD",
+    "source_family": "UPTAC",
+    "parent_url": "http://imsec.ac.in/admissions/fee-structure-btech",
+    "status": "EXACT_SOURCE_READY",
+    "academic_fee_links": [],
+    "hostel_mess_links": [],
+    "direct_parent_evidence": {
+      "type": "DIRECT_PARENT_EVIDENCE",
+      "source_url": "http://imsec.ac.in/admissions/fee-structure-btech",
+      "academic_year": 2026,
+      "tables": [
+        {
+          "table_index": 0,
+          "score": 25,
+          "money_count": 0,
+          "rows": [
+            [
+              "Tuition Fee(Under revision by Hon’ble Fee Committee, revised fee will be charged)",
+              "103919/-"
+            ]
+          ]
+        }
+      ]
+    },
+    "review_links": [
+      {
+        "anchor_text": "Fee Structure B.Tech",
+        "url": "http://imsec.ac.in/admissions/fee-structure-btech",
+        "context": "Fee Structure B.Tech",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE"
+        ],
+        "exact_score": 80,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH"
+        ]
+      },
+      {
+        "anchor_text": "Fee Structure B.Tech-Lateral",
+        "url": "http://imsec.ac.in/admissions/fee-structure-btech-lateral-entry",
+        "context": "Fee Structure B.Tech-Lateral",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE"
+        ],
+        "exact_score": 80,
+        "exact_decision": "BTECH_FEE_YEAR_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH"
+        ]
+      },
+      {
+        "anchor_text": "Fee Structure Hostel",
+        "url": "http://imsec.ac.in/admissions/fee-structure-hostel",
+        "context": "Fee Structure Hostel",
+        "score": 47,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 53,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Mandatory Disclosure",
+        "url": "http://imsec.ac.in/assets/pdf/MandatoryDisclosure2026-27.pdf",
+        "context": "Mandatory Disclosure",
+        "score": 45,
+        "reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Fee Structure MCA",
+        "url": "http://imsec.ac.in/admissions/fee-structure-mca",
+        "context": "Fee Structure MCA",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "Admission 2026-27",
+        "url": "https://imsec.nopaperforms.com/",
+        "context": "|College Code 143|Virtual Tour | Career | UPTAC Counselling 2026-27 Student Portal/ERP Link Online Payment Question Bank about us IMSEC College About IMS Society IMS Group of Institutions About IMSEC Vision & Mission Executive Council Governing Council The Chairman Contact-Us The Director Organisational Chart Academics Academics Departments Applied Sciences & Humanities Biotechnology Computer Science & Engineering Computer Science Computer Science & Design Computer Science & Engineering-AI&ML Information Technology Electronics and Communication Mechanical Engineering MBA MCA Courses Centre of Excellences Academic Calendar Teaching Learning Process Confluence-Newsletter Student Handbook Learning & Development Centre (LDC) admissions Admissions 2025 UPTAC Counselling-2026-27 Frequently Asked Questions (FAQ) State / Central Scholarship Policies Fee Structure B.Tech Fee Structure B.Tech-Lateral Fee Structure MCA Fee Structure MBA Fee Structure Hostel Admission Enquiry Request E-Brochure Success Story campus Campus Life@IMSEC Events Hostel & Mess ICC/Anti Sexual Harassment @IMSEC Class Rooms & Labs Library Students Club Confluence-Newsletter IMS-Today-Newspaper Anti Ragging @IMSEC Placements Career Development Center Placememt & Training Career Development Center CDC Structure Training and Internship Division CDC Team Major Recruiters Placement Policy Placement Records Shining Stars Career Portal Alumni Alumni Login Alumni Talk Registration Alumni Search Alumni Job Post Home Student Portal/ERP Link Online Payment About Us About IMS Society IMS Group of Institutions About IMSEC Executive Council Governing Council The Chairman The Director Director's Profile Dean's Profile Organisational Chart Vision & Mission Contact-Us Academics Department Applied Sciences and Humanities Biotechnology Computer Science & Engineering Computer Science Computer Science & Design Computer Sci & Eng.-AI&ML Information Technology Electronics and Communication Electrical and Electronics Mechanical Engineering MBA MCA Courses Faculty Centre of Excellences Academic Calendar Teaching Learning Process Admissions UPTAC Counselling-2024-25 Frequently Asked Questions (FAQ) Fee Structure B.Tech Fee Structure B.Tech-Lateral Fee Structure MBA Fee Structure MCA Fee Structure Hostel Admission Enquiry Download E-Brochure Success Story Campus Life@IMSEC Events Hostel & Mess Class Rooms & Labs Library Students Club Anti Ragging @IMSEC Placements CDC Team CDC Structure Placement Policy Major Recruiters Placement Records Shining Stars Alumni Login Registration Alumni Talk Alumni Job Post Alumni Search Home Admissions Fee Structure B.Tech Admissions Courses Admission Procedure Fee Structure B.Tech Fee Structure MCA Fee Structure MBA Fee Structure B.Tech-Lateral Fee Structure Hostel Why IMSEC Success Story Admission Enquiry Request E-Brochure Fee Structure for B.Tech. The fee is to be charged as per the notification of State Government and the Affiliating University. All matters related to fee are the prerogative of State Government and the Affiliating University and applicability of all such changes shall be binding on the students. Full fee is to be paid at the time of admission through a demand draft in favor of \"IMS Engineering College\" and your demand draft should be payable at New Delhi. Payment of FEE once deposited is neither refundable nor adjustable under any circumstances whatsoever. Delay in fee shall have penalty as per IMS Society rules and regulations. Fee Details for New Students 1st year/Lateral Fee Details Academic session 2025-26 (For B.Tech/ MBA/ MCA/ M.Tech) Tuition Fee(Under revision by Hon’ble Fee Committee, revised fee will be charged) 103919/- *Other fee(Examination, Book bank, Uniform etc.) shall be charged separately. IMPORTANT NOTE: College Fee shall be accepted only through DD in favour of IMS ENGINEERING COLLEGE and your demand draft should be payable at New Delhi. Registration Charges @ Rs. 1500/- shall be charged at the time of admission, payable either in cash or DD (separate) in favour of IMS ENGINEERING COLLEGE and your demand draft should be payable at New Delhi. For Online Transaction 1 NAME OF ACCOUNT HOLDER IMS ENGINEERING COLLEGE 2 BANK NAME PUNJAB NATIONAL BANK 3 BANK BRANCH ADDRESS IMS, LAL KUAN, GHAZIABAD-201009 4 BANK A/C NO. 51461010000140 5 Type of Bank A/c CURRENT A/C 6 RTGS / IFSC Code PUNB0514610 7 MICR Code 110024640 8 BANK BRANCH CODE 514610 9 Remarks (while making payment) Kindly mention the Name/ ID/ Fees- Academic or Hostel under Remarks Column while making payment Example: Prashant Sharma, A2017ME4012, Academic After Online Transaction:- Kindly upload your payment details on your ERP/ Portal in \"Online Transaction\" Option OR Click here for Online Payment Note:No Donations/Capitation Fees is taken at IMS Engineering College. Any such demand should be reported to IMSEC Intelligence and Vigilance Department at vigilance@imsec.ac.in a.whatsapp_chat { display: block; position: fixed; left: 15px; bottom: 60px; z-index: 99; animation: 4s infinite bounce; background-color: #2ab200; color: #fff; padding:2px; font-size: 30px; border-radius: 100%; width: 50px; height: 50px; text-align: center; box-shadow: 0 0 10px #111; } a { transition: .5s; -webkit-transition: .5s;} .fa, .fab, .fal, .far, .fas { -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; display: inline-block; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; } @-webkit-keyframes bounce { 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 40% {-webkit-transform: translateY(-30px);} 60% {-webkit-transform: translateY(-15px);} } @-moz-keyframes bounce { 0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);} 40% {-moz-transform: translateY(-30px);} 60% {-moz-transform: translateY(-15px);} } @-o-keyframes bounce { 0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);} 40% {-o-transform: translateY(-30px);} 60% {-o-transform: translateY(-15px);} } @keyframes bounce { 0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 40% {transform: translateY(-30px);} 60% {transform: translateY(-15px);} } <!-- .style1 { font-size: 18px } --> QUICK LINKS Mandatory Disclosure Approval Letters Balance Sheet & Audit Report MoE/ UGC/ AICTE Addon Programs Grievance Vivechan International Journal Question Bank QUICK LINKS Engineering College Milestones Guideline for Students AICTE Scholarship/Fellowship NAAC Campus-Green Policy NIRF Value Education Cell FEST @ IMSEC Cultural Fest : Vibgyor IMSEC SPORTS Sport Fest: Chakravyuh GUIDELINES FOR ANTI RAGGING Anti Ragging Ruling of Supreme Court Order of Supreme Court UGC Regulation AICTE Notification Anti Ragging Affidavit Format STAY CONNECTED NH-09, Adhyatmik Nagar, Distt: Ghaziabad. UP. Landline: 0120-4940000 Email-Id: imsec@imsec.ac.in WhatsApp: +91-9821396582 Admission: +91-9821396581/82/83 Toll-Free(Admission):18001028393 Email-Id: enquiry@imsec.ac.in An IMS Group Institution www.imsgroup.ac.in Copyright © IMS Engineering College Ghaziabad, All Rights Reserved. Web Design & Development by Team-IT-IMSEC new WOW().init(); $(function () { $(\".demo1\").bootstrapNews({ newsPerPage: 5, autoplay: true, pauseOnHover:true, direction: 'up', newsTickerInterval: 4000, onToDo: function () { //console.log(this); } }); $(\".homeNews\").bootstrapNews({ newsPerPage: 3, autoplay: true, pauseOnHover:true, direction: 'up', newsTickerInterval: 4000, onToDo: function () { //console.log(this); } }); }); var npf_d='https://imsec.nopaperforms.com'; var npf_c='703'; var npf_m='1'; var s=document.createElement(\"script\"); s.type=\"text/javascript\"; s.async=true; s.src=\"https://track.nopaperforms.com/js/track.js\"; document.body.appendChild(s); let npfWeaa962e392fa65f81031e2d620998532 = new NpfWidgetsInit( {'widgetId':'eaa962e392fa65f81031e2d620998532', 'baseurl':'widgets.nopaperforms.com', 'formTitle':'Feedback Form', 'titleColor':'#FF0033', 'backgroundColor':'#ddd', 'iframeHeight':'500px', 'buttonbgColor':'#ff0000', 'buttonTextColor':'#FFF', }); .trigger_Apply { transform: rotate(270deg); position: fixed; top: 150px; right: -63px; z-index: 9999; cursor: pointer; background-color: #e9b120; border-color: #e9b120; border-radius: 5px; border-bottom-right-radius: 0; border-bottom-left-radius: 0; padding: 10px 25px; font-size: 12px; color: #fff; text-transform: uppercase; font-weight: bold; line-height: 1.33; } .trigger_Apply a{ display: block; color: #fff; } .trigger_Apply:hover { background-color: #e9b120; color: #fff; border-color: #e9b120; text-decoration: none; } .trigger_popup { transform: rotate(270deg); position: fixed; top: 330px; right: -49px; z-index: 999; cursor: pointer; background-color: #cc324b; border-color: #cc324b; border-radius: 5px; border-bottom-right-radius: 0; border-bottom-left-radius: 0; padding: 10px 16px; font-size: 15px; color: #fff; line-height: 1.33; text-transform: uppercase; font-weight: bold; cursor: pointer; } .trigger_popup:hover { background-color: #b8292f; border-color: #b8292f; } /* The Modal (background) */ .modal { display: none; /* Hidden by default */ position: fixed; /* Stay in place */ z-index: 9999999; /* Sit on top */ padding-top: 35px; /* Location of the box */ left: 0; top: 0; width: 100%; /* Full width */ height: 100%; /* Full height */ overflow: auto; /* Enable scroll if needed */ background-color: rgb(0, 0, 0); /* Fallback color */ background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */ } /* Modal Content */ .modal-content { background-color: transparent; margin: auto; padding: 0; border: 0px solid #888; max-width: 420px; position: relative; box-shadow: none; } /* The Close Button */ .close { color: #000; float: right; font-size: 26px; font-weight: bold; position: absolute; right: 0px; z-index: 9999; top: 0px; opacity: 0.8; box-shadow: 0px 0px0px0pxrgba( 80, 80, 80, 0.23 ); text-shadow: 0px 0px0pxrgba( 80, 80, 80, 0.23 ); background-color: #FFC107; padding: 0 5px; } .close:hover, .close:focus { color: #797878; text-decoration: none; cursor: pointer; } span.close:hover { color: #fff; } .head_text { background-color: #fff; color: #000; text-align: center; padding: 0px; font-size: 22px; padding-bottom: 0px; border-top-left-radius: 10px; padding-top: 10px; } span#connect { color: #0f62da; cursor: pointer; } span#connect:hover { text-decoration: underline; } @media (max-width: 768px) { .trigger_popup { transform: rotate(0); bottom: 0; top: 90%; right: unset; margin: 0; left: 15%; font-size: 14px; padding: 6px 10px; } .popupCloseButton { top: -10px; right: -2px; } .trigger_Apply { font-size: 14px; } } Admission 2026-27 Enquire Now Enquire Now × // Get the modal var modal = document.getElementById(\"myModal\"); // Get the button that opens the modal var btn = document.getElementById(\"myBtn\"); // Get the <span> element that closes the modal var span = document.getElementsByClassName(\"close\")[0]; // When the user clicks the button, open the modal btn.onclick = function () { modal.style.display = \"block\"; }; // When the user clicks on <span> (x), close the modal span.onclick = function () { modal.style.display = \"none\"; }; // Automatic trigger correct code code // setTimeout(function () { // document.getElementById('myBtn').click(); // }, 3000); // When the user clicks anywhere outside of the modal, close it /* window.onclick = function(event) { if (event.target == modal) { modal.style.display = \"none\"; } } */ var s=document.createElement(\"script\"); s.type=\"text/javascript\"; s.async=true; s.src=\"https://widgets.nopaperforms.com/emwgts.js\"; document.body.appendChild(s);",
+        "score": 127,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 121,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "HOSTEL",
+          "MESS",
+          "TUITION",
+          "GENERIC_HOMEPAGE"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-vadodara-gujrat",
+    "college_name": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+    "source_family": "JOSAA",
+    "parent_url": "https://iiitvadodara.ac.in/page.php?slug=ugadmission",
+    "status": "EXACT_SOURCE_READY",
+    "academic_fee_links": [],
+    "hostel_mess_links": [],
+    "direct_parent_evidence": {
+      "type": "DIRECT_PARENT_EVIDENCE",
+      "source_url": "https://iiitvadodara.ac.in/page.php?slug=ugadmission",
+      "academic_year": 2026,
+      "tables": [
+        {
+          "table_index": 1,
+          "score": 45,
+          "money_count": 2,
+          "rows": [
+            [
+              "SC/ST/GEN-PwD/GEN-EWS-PwD,OBC-NCL-PwD/SC-PwD/ST-PwD Category (Rs.)",
+              "All Other Candidates (Rs.)"
+            ],
+            [
+              "Caution Deposit (Refundable)",
+              "20000",
+              "20000"
+            ],
+            [
+              "I Card Fee (One Time)",
+              "100",
+              "100"
+            ],
+            [
+              "Institute Development Contribution (IDC) (One Time)",
+              "5000",
+              "5000"
+            ],
+            [
+              "Tuition Fees",
+              "125000",
+              "125000"
+            ],
+            [
+              "Exam Fee",
+              "750",
+              "750"
+            ],
+            [
+              "Hostel Estt Fees",
+              "2500",
+              "2500"
+            ],
+            [
+              "Student Activities Centre Fees",
+              "2500",
+              "2500"
+            ],
+            [
+              "Transport Fees",
+              "9500",
+              "9500"
+            ],
+            [
+              "Student Insurance",
+              "120",
+              "120"
+            ],
+            [
+              "Medical Fees",
+              "2000",
+              "2000"
+            ],
+            [
+              "Hostel and Mess Reserve Fund",
+              "1500",
+              "1500"
+            ],
+            [
+              "Library Fee",
+              "750",
+              "750"
+            ],
+            [
+              "Total (A)",
+              "1,69,720/-",
+              "1,69,720/-"
+            ]
+          ]
+        },
+        {
+          "table_index": 9,
+          "score": 25,
+          "money_count": 0,
+          "rows": [
+            [
+              "Sr No",
+              "Particular",
+              "Sem-I",
+              "Sem-II",
+              "Sem-III",
+              "Sem-IV",
+              "Sem-V",
+              "Sem-VI",
+              "Sem-VII",
+              "Sem-VIII"
+            ],
+            [
+              "1",
+              "Caution Deposit(Refundable)",
+              "20000",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "2",
+              "I Card Fee (One time)",
+              "100",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "3",
+              "Institute Development Contribution (IDC) (One time)",
+              "5000",
+              "5000",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "4",
+              "Tuition Fee",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000"
+            ],
+            [
+              "5",
+              "Exam Fee",
+              "750",
+              "750",
+              "1000",
+              "1000",
+              "1000",
+              "1000",
+              "1500",
+              "1500"
+            ],
+            [
+              "6",
+              "Student Activities Centre Fees",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "3000",
+              "3000",
+              "3000",
+              "3000"
+            ],
+            [
+              "7",
+              "Student Insurance",
+              "120",
+              "0",
+              "120",
+              "0",
+              "120",
+              "0",
+              "120",
+              "0"
+            ],
+            [
+              "8",
+              "Medical Fees",
+              "2000",
+              "2000",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500"
+            ],
+            [
+              "9",
+              "Hostel & Mess Reserve Fund",
+              "1500",
+              "1500",
+              "1500",
+              "1500",
+              "1500",
+              "1500",
+              "1500",
+              "1500"
+            ],
+            [
+              "10",
+              "Lib Fee",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750"
+            ],
+            [
+              "11",
+              "Alumni Fee",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1250",
+              "1250",
+              "1250",
+              "1250"
+            ],
+            [
+              "12",
+              "Convocation Fee",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1000",
+              "1000",
+              "1000",
+              "1000"
+            ],
+            [
+              "A",
+              "Sub Total A",
+              "157720",
+              "137500",
+              "133370",
+              "133250",
+              "136120",
+              "136000",
+              "136620",
+              "136500"
+            ],
+            [
+              "Boarding Lodging & Transportation Fees"
+            ],
+            [
+              "13",
+              "Hostel Estt Fees",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500"
+            ],
+            [
+              "14",
+              "Mess Fees(for 4 Months, constituting a semester) (approximately)",
+              "25000",
+              "25000",
+              "26000",
+              "26000",
+              "27000",
+              "27000",
+              "27000",
+              "27000"
+            ],
+            [
+              "15",
+              "Hostel Fee",
+              "40500",
+              "40500",
+              "44500",
+              "44500",
+              "49000",
+              "49000",
+              "53900",
+              "53900"
+            ],
+            [
+              "B",
+              "Sub Total B",
+              "68000",
+              "68000",
+              "73000",
+              "73000",
+              "78500",
+              "78500",
+              "83400",
+              "83400"
+            ],
+            [
+              "16",
+              "Transport Fees (Outside Campus)",
+              "9500",
+              "9500",
+              "10000",
+              "10000",
+              "10000",
+              "10000",
+              "10000",
+              "10000"
+            ],
+            [
+              "Total with Transport fee (Outside Campus) A+B+16",
+              "235220",
+              "215000",
+              "216370",
+              "216250",
+              "224620",
+              "224500",
+              "230020",
+              "229900"
+            ]
+          ]
+        },
+        {
+          "table_index": 11,
+          "score": 25,
+          "money_count": 0,
+          "rows": [
+            [
+              "Particular",
+              "Sem-I",
+              "Sem-II",
+              "Sem-III",
+              "Sem-IV",
+              "Sem-V",
+              "Sem-VI",
+              "Sem-VII",
+              "Sem-VIII"
+            ],
+            [
+              "Tuition Fee",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000"
+            ],
+            [
+              "Exam Fee",
+              "750",
+              "750",
+              "1000",
+              "1000",
+              "1000",
+              "1000",
+              "1500",
+              "1500"
+            ],
+            [
+              "Student Activities",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "3000",
+              "3000",
+              "3000",
+              "3000"
+            ],
+            [
+              "Medical Fee",
+              "2000",
+              "2000",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500"
+            ],
+            [
+              "Library Fee",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750"
+            ],
+            [
+              "Sub Total A",
+              "157720",
+              "137500",
+              "133370",
+              "133250",
+              "136120",
+              "136000",
+              "136620",
+              "136500"
+            ],
+            [
+              "Hostel Establishment",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500"
+            ],
+            [
+              "Mess Fee",
+              "26000",
+              "26000",
+              "26000",
+              "26000",
+              "27000",
+              "27000",
+              "27000",
+              "27000"
+            ],
+            [
+              "Hostel Fee",
+              "49000",
+              "49000",
+              "49000",
+              "49000",
+              "52000",
+              "52000",
+              "52000",
+              "52000"
+            ],
+            [
+              "Sub Total B",
+              "77500",
+              "77500",
+              "77500",
+              "77500",
+              "81500",
+              "81500",
+              "81500",
+              "81500"
+            ],
+            [
+              "Total (Inside Campus Transport)",
+              "238220",
+              "218000",
+              "214870",
+              "214750",
+              "221620",
+              "221500",
+              "222120",
+              "222000"
+            ],
+            [
+              "Total (Outside Campus Transport)",
+              "244720",
+              "224500",
+              "220870",
+              "220750",
+              "227620",
+              "227500",
+              "228120",
+              "228000"
+            ]
+          ]
+        },
+        {
+          "table_index": 12,
+          "score": 25,
+          "money_count": 0,
+          "rows": [
+            [
+              "Sr No",
+              "Particular",
+              "Sem-I",
+              "Sem-II",
+              "Sem-III",
+              "Sem-IV",
+              "Sem-V",
+              "Sem-VI",
+              "Sem-VII",
+              "Sem-VIII"
+            ],
+            [
+              "1",
+              "Caution Deposit(Refundable)",
+              "20000",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "2",
+              "I Card Fee (One time)",
+              "100",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "3",
+              "Institute Development Contribution (IDC) (One time)",
+              "5000",
+              "5000",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "4",
+              "Tuition Fee",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000"
+            ],
+            [
+              "5",
+              "Exam Fee",
+              "750",
+              "750",
+              "1000",
+              "1000",
+              "1000",
+              "1000",
+              "1500",
+              "1500"
+            ],
+            [
+              "6",
+              "Student Activities Centre Fees",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "3000",
+              "3000",
+              "3000",
+              "3000"
+            ],
+            [
+              "7",
+              "Student Insurance",
+              "120",
+              "0",
+              "120",
+              "0",
+              "120",
+              "0",
+              "120",
+              "0"
+            ],
+            [
+              "8",
+              "Medical Fees",
+              "2000",
+              "2000",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500"
+            ],
+            [
+              "9",
+              "Hostel & Mess Reserve Fund",
+              "1500",
+              "1500",
+              "1500",
+              "1500",
+              "1500",
+              "1500",
+              "1500",
+              "1500"
+            ],
+            [
+              "10",
+              "Lib Fee",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750"
+            ],
+            [
+              "11",
+              "Alumni Fee",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1250",
+              "1250",
+              "1250",
+              "1250"
+            ],
+            [
+              "12",
+              "Convocation Fee",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1000",
+              "1000",
+              "1000",
+              "1000"
+            ],
+            [
+              "A",
+              "Sub Total A",
+              "157720",
+              "137500",
+              "133370",
+              "133250",
+              "136120",
+              "136000",
+              "136620",
+              "136500"
+            ],
+            [
+              "Boarding Lodging & Transportation Fees"
+            ],
+            [
+              "13",
+              "Hostel Estt Fees",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500"
+            ],
+            [
+              "14",
+              "Mess Fees(for 4 Months, constituting a semester) (approximately)",
+              "26000",
+              "26000",
+              "26000",
+              "26000",
+              "27000",
+              "27000",
+              "27000",
+              "27000"
+            ],
+            [
+              "15",
+              "Hostel Fee",
+              "49000",
+              "49000",
+              "49000",
+              "49000",
+              "52000",
+              "52000",
+              "52000",
+              "52000"
+            ],
+            [
+              "B",
+              "Sub Total B",
+              "77500",
+              "77500",
+              "77500",
+              "77500",
+              "81500",
+              "81500",
+              "81500",
+              "81500"
+            ],
+            [
+              "16",
+              "Transport Fees (Inside Campus)",
+              "3000",
+              "3000",
+              "4000",
+              "4000",
+              "4000",
+              "4000",
+              "4000",
+              "4000"
+            ],
+            [
+              "17",
+              "Transport Fees (Outside Campus)",
+              "9500",
+              "9500",
+              "10000",
+              "10000",
+              "10000",
+              "10000",
+              "10000",
+              "10000"
+            ],
+            [
+              "Total with Transport fee (Inside Campus) A+B+16",
+              "238220",
+              "218000",
+              "214870",
+              "214750",
+              "221620",
+              "221500",
+              "222120",
+              "222000"
+            ],
+            [
+              "Total with Transport fee (Outside Campus) A+B+17",
+              "244720",
+              "224500",
+              "220870",
+              "220750",
+              "227620",
+              "227500",
+              "228120",
+              "228000"
+            ]
+          ]
+        },
+        {
+          "table_index": 14,
+          "score": 25,
+          "money_count": 1,
+          "rows": [
+            [
+              "Sr No",
+              "Fees Components",
+              "Sem I",
+              "Sem II",
+              "Sem III",
+              "Sem IV",
+              "Sem V",
+              "Sem VI"
+            ],
+            [
+              "1",
+              "Caution Deposit(Refundable)",
+              "10000",
+              "10000",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "2",
+              "I Card Fee (One time)",
+              "100",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "3",
+              "Institute Development Contribution (IDC) (One time)",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
+            [
+              "4",
+              "Tuition Fee",
+              "37500",
+              "37500",
+              "37500",
+              "37500",
+              "37500",
+              "37500"
+            ],
+            [
+              "5",
+              "Campus Immersion Fee",
+              "3000",
+              "-",
+              "-",
+              "-",
+              "-",
+              "3000"
+            ],
+            [
+              "6",
+              "Institute Registration Fees",
+              "1000",
+              "1000",
+              "1000",
+              "1000",
+              "1000",
+              "1000"
+            ],
+            [
+              "7",
+              "Alumni Fee",
+              "1000",
+              "1000",
+              "1000",
+              "1000",
+              "1000",
+              "1000"
+            ],
+            [
+              "8",
+              "Convocation Fee",
+              "1000",
+              "1000",
+              "1000",
+              "1000",
+              "1000",
+              "1000"
+            ],
+            [
+              "9",
+              "Life Insurance*",
+              "100",
+              "100",
+              "100"
+            ],
+            [
+              "10",
+              "Medical Insurance*",
+              "1400",
+              "1400",
+              "1400"
+            ],
+            [
+              "Total*",
+              "55100",
+              "50500",
+              "42000",
+              "40500",
+              "42000",
+              "43500"
+            ],
+            [
+              "Note"
+            ],
+            [
+              "1",
+              "All fees are non-refundable."
+            ],
+            [
+              "2",
+              "Additional fees may be incurred in case of repetition of courses."
+            ],
+            [
+              "3",
+              "Students have the option to learn at their own pace and can also register for fewer courses than prescribed in a given semester."
+            ],
+            [
+              "4",
+              "There is no minimum credit requirement each semester, however, if a student plans to not register for any credit in a semester, he/ she needs to maintain his/ her active enrollment by paying a Program Continuation Fee of Rs. 3,000 per semester"
+            ],
+            [
+              "5",
+              "Life/ Medical insurance (group insurance) fees may change depending on the cohort size."
+            ]
+          ]
+        }
+      ]
+    },
+    "review_links": [],
+    "rejected_links": [
+      {
+        "anchor_text": "Fees Refund Policy till Academic Year 2025-26 (Old)",
+        "url": "https://iiitvadodara.ac.in/upload_sk/UG%20Refund%20Policy%20till%20Academic%20Year%202025.pdf",
+        "context": "1) Tuition Fee will remain the same for the batch. The figures mentioned above are indicative. 2)There are no fees waiver for any category at IIIT Vadodara. 3) All Candidates seeking admission in B.Tech Programme are advised to have their own laptops. 4) Staying in hostel is mandatory.Fees Refund Policy till Academic Year 2025-26 (Old)Fee Refund Policy from Academic Year 2026–27 (New)",
+        "score": 122,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 138,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "REFUND_POLICY",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "HOSTEL",
+          "TUITION"
+        ]
+      },
+      {
+        "anchor_text": "Fee Refund Policy from Academic Year 2026–27 (New)",
+        "url": "https://iiitvadodara.ac.in/upload_sk/Annexure_VI_Revised%20Admission%20Refund%20Policy%20UG%20and_PG.pdf",
+        "context": "1) Tuition Fee will remain the same for the batch. The figures mentioned above are indicative. 2)There are no fees waiver for any category at IIIT Vadodara. 3) All Candidates seeking admission in B.Tech Programme are advised to have their own laptops. 4) Staying in hostel is mandatory.Fees Refund Policy till Academic Year 2025-26 (Old)Fee Refund Policy from Academic Year 2026–27 (New)",
+        "score": 122,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 138,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "REFUND_POLICY",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF",
+          "HOSTEL",
+          "TUITION"
+        ]
+      },
+      {
+        "anchor_text": "Fees Refund Policy (Old)",
+        "url": "https://iiitvadodara.ac.in/refund_policy.php",
+        "context": "1) Tuition Fee will remain the same for the batch. The figures mentioned above are indicative. 2)There are no fees waiver for any category at IIIT Vadodara. 3) All Candidates seeking admission in B.Tech Programme are advised to have their own laptops. 4) Staying in hostel is mandatory.Fees Refund Policy (Old)(For Fee Refund Policy from AY 2026–27 (New)",
+        "score": 112,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 128,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "REFUND_POLICY",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "HOSTEL",
+          "TUITION"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-vadodara-international-campus-diu",
+    "college_name": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+    "source_family": "JOSAA",
+    "parent_url": "http://diu.iiitvadodara.ac.in/btech_admission.php",
+    "status": "EXACT_SOURCE_READY",
+    "academic_fee_links": [],
+    "hostel_mess_links": [],
+    "direct_parent_evidence": {
+      "type": "DIRECT_PARENT_EVIDENCE",
+      "source_url": "http://diu.iiitvadodara.ac.in/btech_admission.php",
+      "academic_year": 2026,
+      "tables": [
+        {
+          "table_index": 1,
+          "score": 25,
+          "money_count": 0,
+          "rows": [
+            [
+              "Sr No",
+              "Sem I",
+              "Sem II",
+              "Sem III",
+              "Sem IV",
+              "Sem V",
+              "Sem VI",
+              "Sem VII",
+              "Sem VIII"
+            ],
+            [
+              "1",
+              "Caution Deposit(Refundable)",
+              "20000",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "2",
+              "I Card Fee (One time)",
+              "100",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "3",
+              "Institute Development Contribution (IDC) (One time)",
+              "5000",
+              "5000",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "4",
+              "Tuition Fee",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000",
+              "125000"
+            ],
+            [
+              "5",
+              "Exam Fee",
+              "750",
+              "750",
+              "1000",
+              "1000",
+              "1000",
+              "1000",
+              "1500",
+              "1500"
+            ],
+            [
+              "6",
+              "Student Activities Centre Fees",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "3000",
+              "3000",
+              "3000",
+              "3000"
+            ],
+            [
+              "7",
+              "Student Insurance",
+              "120",
+              "0",
+              "120",
+              "0",
+              "120",
+              "0",
+              "120",
+              "0"
+            ],
+            [
+              "8",
+              "Medical Fees",
+              "2000",
+              "2000",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500"
+            ],
+            [
+              "9",
+              "Hostel & Mess Reserve Fund",
+              "1500",
+              "1500",
+              "1500",
+              "1500",
+              "1500",
+              "1500",
+              "1500",
+              "1500"
+            ],
+            [
+              "10",
+              "Lib Fee",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750",
+              "750"
+            ],
+            [
+              "11",
+              "Alumni Fee",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1250",
+              "1250",
+              "1250",
+              "1250"
+            ],
+            [
+              "12",
+              "Convocation Fee",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1000",
+              "1000",
+              "1000",
+              "1000"
+            ],
+            [
+              "A",
+              "Sub Total A",
+              "157720",
+              "137500",
+              "133370",
+              "133250",
+              "136120",
+              "136000",
+              "136620",
+              "136500"
+            ],
+            [
+              "Boarding Lodging & Transportation Fees"
+            ],
+            [
+              "13",
+              "Hostel Estt Fees",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500"
+            ],
+            [
+              "14",
+              "Mess Fees(for 4 Months, constituting a semester) per semester (approximately)",
+              "24000",
+              "24000",
+              "24000",
+              "24000",
+              "26000",
+              "26000",
+              "26000",
+              "26000"
+            ],
+            [
+              "15",
+              "Hostel fee (Both Inside and outside campus)",
+              "30000",
+              "30000",
+              "35000",
+              "35000",
+              "37000",
+              "37000",
+              "39000",
+              "39000"
+            ],
+            [
+              "B",
+              "Sub Total B",
+              "56500",
+              "56500",
+              "61500",
+              "61500",
+              "65500",
+              "65500",
+              "67500",
+              "67500"
+            ],
+            [
+              "16",
+              "Transport Fee Intside Campus)",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500",
+              "2500"
+            ],
+            [
+              "17",
+              "Transport Fee (Outside Campus)",
+              "4000",
+              "4000",
+              "4000",
+              "4000",
+              "4000",
+              "4000",
+              "4000",
+              "4000"
+            ],
+            [
+              "Total with Hostel Fee (Inside Campus): A+B+16",
+              "216720",
+              "196500",
+              "197370",
+              "197250",
+              "204120",
+              "204000",
+              "206620",
+              "206500"
+            ],
+            [
+              "Total with Hostel Fee (Inside Campus): A+B+17",
+              "218220",
+              "198000",
+              "198870",
+              "198750",
+              "205620",
+              "205500",
+              "208120",
+              "208000"
+            ]
+          ]
+        }
+      ]
+    },
+    "review_links": [
+      {
+        "anchor_text": "B.Tech. Curriculum (2018)",
+        "url": "http://diu.iiitvadodara.ac.in/pdf/UG_Curriculum_2018.pdf",
+        "context": "B.Tech. Curriculum (2018)",
+        "score": 40,
+        "reasons": [
+          "BTECH_OR_UG",
+          "PDF"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "PDF"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "Autumn Semester 2026-27 (B. Tech , MCA , M. Tech. and Ph.D.)",
+        "url": "https://iiitvadodara.ac.in/assets/pdffiles/Academic_Calendar_Autumn_2026-27.pdf",
+        "context": "Autumn Semester 2026-27 (B. Tech , MCA , M. Tech. and Ph.D.)",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 80,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ACADEMIC_CALENDAR",
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Fees Refund Policy",
+        "url": "http://diu.iiitvadodara.ac.in/ugpolicy_diu.php",
+        "context": "Fees Refund Policy",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 0,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "REFUND_POLICY",
+        "exact_reasons": []
+      }
+    ]
+  },
+  {
+    "college_id": "indian-institute-of-technology-mandi",
+    "college_name": "Indian Institute of Technology Mandi",
+    "source_family": "JOSAA",
+    "parent_url": "https://academics.iitmandi.ac.in/fees",
+    "status": "EXACT_SOURCE_READY",
+    "academic_fee_links": [],
+    "hostel_mess_links": [
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Hostel_Mess_Charges2026_27_New_admission.pdf",
+        "context": "Hostel & Mess charges of Odd Semester for AY 2026-2027 for New Students Click Here Click Here",
+        "score": 107,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 116,
+        "exact_decision": "CURRENT_HOSTEL_MESS_FEE",
+        "accepted": true,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "PDF",
+          "HOSTEL",
+          "MESS",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Hostel_Mess_Charges2026_27_Existing_Students.pdf",
+        "context": "Hostel & Mess charges of Odd Semester for AY 2026-2027 for Existing Students Click Here Click Here",
+        "score": 92,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 101,
+        "exact_decision": "CURRENT_HOSTEL_MESS_FEE",
+        "accepted": true,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF",
+          "HOSTEL",
+          "MESS",
+          "GENERIC_ANCHOR"
+        ]
+      }
+    ],
+    "direct_parent_evidence": {
+      "type": "DIRECT_PARENT_EVIDENCE",
+      "source_url": "https://academics.iitmandi.ac.in/fees",
+      "academic_year": 2026,
+      "tables": [
+        {
+          "table_index": 4,
+          "score": 45,
+          "money_count": 0,
+          "rows": [
+            [
+              "Academic Fee for Even Semester (Feb-June 2023) (Existing students)",
+              "Click Here"
+            ],
+            [
+              "Academic Fee for Even Semester (Feb-June 2023) (New Entrants)",
+              "Click Here"
+            ],
+            [
+              "Boarding and Lodging for Even Semester (Feb-June 2023)",
+              "Click Here"
+            ],
+            [
+              "Fee Structure for old/Existing students for AY 2021-23:"
+            ],
+            [
+              "Fee Structure for B.Tech for AY 2022-23",
+              "Click Here"
+            ],
+            [
+              "Fee Structure for B.Tech (Foreign Students) for AY 2022-23",
+              "Click Here"
+            ],
+            [
+              "Fee Structure for M.Sc./M.A.for AY 2022-23",
+              "Click Here"
+            ],
+            [
+              "Fee Structure for M.Tech for AY 2022-23",
+              "Click Here"
+            ],
+            [
+              "Fee Structure for MS/Ph.D./PTD/ERP for AY 2022-23",
+              "Click Here"
+            ],
+            [
+              "Fee Structure for I-Ph.D.for AY 2022-23",
+              "Click Here"
+            ],
+            [
+              "FEE STRUCTURE FOR NEW ENTRANTS FOR AY 2022-23:"
+            ],
+            [
+              "Fee Structure for B.Tech for AY 2022-23",
+              "Click Here"
+            ],
+            [
+              "Fee Structure for B.Tech (Foreign Students) for AY 2022-23",
+              "Click Here"
+            ],
+            [
+              "Fee Structure for M.Sc./M.A.for AY 2022-23",
+              "Click Here"
+            ],
+            [
+              "Fee Structure for M.Tech for AY 2022-23",
+              "Click Here"
+            ],
+            [
+              "Fee Structure for MBA for AY 2022-23",
+              "Click Here"
+            ],
+            [
+              "Fee Structure for PG/PhD. (Foreign) for AY 2022-23",
+              "Click Here"
+            ],
+            [
+              "Fee Structure for MS/I-Ph.D./Ph.D./PTD and ERP for AY 2022-23",
+              "Click Here"
+            ]
+          ]
+        },
+        {
+          "table_index": 0,
+          "score": 40,
+          "money_count": 0,
+          "rows": [
+            [
+              "Academic Fee Structure of ODD Semester for AY 2026-2027 for New Entrants in August 2026",
+              "Click Here"
+            ],
+            [
+              "Academic Fee Structure of ODD Semester for AY 2026-2027 for Existing Students",
+              "Click Here"
+            ],
+            [
+              "Academic Fee Structure of ODD Semester for AY 2026-2027 for I-Ph.D Programme",
+              "Click Here"
+            ],
+            [
+              "Hostel & Mess charges of Odd Semester for AY 2026-2027 for Existing Students",
+              "Click Here"
+            ],
+            [
+              "Hostel & Mess charges of Odd Semester for AY 2026-2027 for New Students",
+              "Click Here"
+            ],
+            [
+              "Mandatory Campus Amenities Charges",
+              "Click Here"
+            ]
+          ]
+        },
+        {
+          "table_index": 1,
+          "score": 40,
+          "money_count": 0,
+          "rows": [
+            [
+              "Academic Fee Structure of Even Semester for AY 2025-2026 for New Entrants in Jan 2026.",
+              "Click Here"
+            ],
+            [
+              "Academic Fee Structure of Even Semester for AY 2025-2026 for Existing Students",
+              "Click Here"
+            ],
+            [
+              "Academic Fee Structure of Odd Semester for AY 2025-2026 for Existing Students",
+              "Click Here"
+            ],
+            [
+              "Academic Fee Structure of Odd Semester for AY 2025-2026 for New Students",
+              "Click Here"
+            ],
+            [
+              "Academic Fee Structure of Odd Semester for AY 2025-2026 for I-Ph.D Programme",
+              "Click Here"
+            ],
+            [
+              "Hostel, Mess & Facility charges of Odd Semester for AY 2025-2026 for Existing Students",
+              "Click Here"
+            ],
+            [
+              "Hostel, Mess & Facility charges of Odd Semester for AY 2025-2026 for New Students.",
+              "Click Here"
+            ],
+            [
+              "Hostel, Mess & Facility charges of Even Semester for AY 2025-2026 for Existing Students.",
+              "Click Here"
+            ],
+            [
+              "Hostel, Mess & Facility charges of Even Semester for AY 2025-2026 for New Students.",
+              "Click Here"
+            ]
+          ]
+        },
+        {
+          "table_index": 2,
+          "score": 25,
+          "money_count": 0,
+          "rows": [
+            [
+              "Fee structure of Odd Sem for AY 2024-2025 for Existing students",
+              "Click Here"
+            ],
+            [
+              "Fee structure of Odd Sem for AY 2024-2025 for new students",
+              "Click Here"
+            ],
+            [
+              "Academic Fee for Even Semester 2024-25 (Existing students).pdf",
+              "Click Here"
+            ],
+            [
+              "Academic Fee for Even Semester 2024-25 (New Entrants ).pdf",
+              "Click Here"
+            ],
+            [
+              "Hostel and Mess Charges for Even Semester AY 2024-25.",
+              "Click Here"
+            ]
+          ]
+        },
+        {
+          "table_index": 3,
+          "score": 25,
+          "money_count": 0,
+          "rows": [
+            [
+              "Fee structure of Even Sem for AY 2023-2024 for Existing students",
+              "Click Here"
+            ],
+            [
+              "Fee structure of Even Sem for AY 2023-2024 for new students",
+              "Click Here"
+            ],
+            [
+              "Academic Fee for Odd Semester (Aug-Dec 2023) (Existing students)",
+              "Click Here"
+            ],
+            [
+              "Academic Fee for Odd Semester (Aug-Dec 2023) (New Entrants)",
+              "Click Here"
+            ]
+          ]
+        }
+      ]
+    },
+    "review_links": [
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Academic_Fee_Structure_ODD_Semester_AY_2026_2027_New_Entrants_August_2026.pdf",
+        "context": "Academic Fee Structure of ODD Semester for AY 2026-2027 for New Entrants in August 2026 Click Here Click Here",
+        "score": 95,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "PDF"
+        ],
+        "exact_score": 100,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Academic_Fee_Structure_ODD_Semester_AY_2026_2027_Existing_Students.pdf",
+        "context": "Academic Fee Structure of ODD Semester for AY 2026-2027 for Existing Students Click Here Click Here",
+        "score": 80,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 85,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Hostel_Mess_Charges2025_26_New_admission.pdf",
+        "context": "Hostel, Mess & Facility charges of Odd Semester for AY 2025-2026 for New Students. Click Here Click Here",
+        "score": 72,
+        "reasons": [
+          "FEE",
+          "NEW_ENTRANT",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 81,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "NEW_ENTRANT",
+          "PDF",
+          "HOSTEL",
+          "MESS",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Hostel_Mess_Charges2025_26_New%20Entrants.pdf",
+        "context": "Hostel, Mess & Facility charges of Even Semester for AY 2025-2026 for New Students. Click Here Click Here",
+        "score": 72,
+        "reasons": [
+          "FEE",
+          "NEW_ENTRANT",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 81,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "NEW_ENTRANT",
+          "PDF",
+          "HOSTEL",
+          "MESS",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Notification 1",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Notf_Fee_Revision-17092020.pdf",
+        "context": "Notification 1: Revision in Fee Structure (Hostel/Mess) for Odd Semester (Sept-Dec) 2020: uploaded on 17 Sept.2020",
+        "score": 57,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 71,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "HOSTEL",
+          "MESS"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Hostel_Mess_Charges2025_26_Existing_Students.pdf",
+        "context": "Hostel, Mess & Facility charges of Odd Semester for AY 2025-2026 for Existing Students Click Here Click Here",
+        "score": 57,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 66,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "HOSTEL",
+          "MESS",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Hostel_Mess_Charges2025_26_Existing_Students-2.pdf",
+        "context": "Hostel, Mess & Facility charges of Even Semester for AY 2025-2026 for Existing Students. Click Here Click Here",
+        "score": 57,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 66,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "HOSTEL",
+          "MESS",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee%20Structure_EVEN_semester%202025_26_New_Entrants_Updated.pdf",
+        "context": "Academic Fee Structure of Even Semester for AY 2025-2026 for New Entrants in Jan 2026. Click Here Click Here",
+        "score": 60,
+        "reasons": [
+          "FEE",
+          "NEW_ENTRANT",
+          "PDF"
+        ],
+        "exact_score": 65,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "NEW_ENTRANT",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee_Structure_ODD_semester_2025_26_New_Entrants.pdf",
+        "context": "Academic Fee Structure of Odd Semester for AY 2025-2026 for New Students Click Here Click Here",
+        "score": 60,
+        "reasons": [
+          "FEE",
+          "NEW_ENTRANT",
+          "PDF"
+        ],
+        "exact_score": 65,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "NEW_ENTRANT",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee%20Structure%20(Even%20Sem)%20for%20Newly%20Admitted.pdf",
+        "context": "Fee structure of Even Sem for AY 2023-2024 for new students Click Here Click Here",
+        "score": 60,
+        "reasons": [
+          "FEE",
+          "NEW_ENTRANT",
+          "PDF"
+        ],
+        "exact_score": 65,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "NEW_ENTRANT",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/feestr_aug2023_new.pdf",
+        "context": "Academic Fee for Odd Semester (Aug-Dec 2023) (New Entrants) Click Here Click Here",
+        "score": 60,
+        "reasons": [
+          "FEE",
+          "NEW_ENTRANT",
+          "PDF"
+        ],
+        "exact_score": 65,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "NEW_ENTRANT",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Notification 2",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Revised%20Hostel%20Fees%20Notification_Feb2021.pdf",
+        "context": "Notification 2: Revision in Fee Structure (Consolidated) for Odd and Even Semester: uploaded on 15 Feb. 2021",
+        "score": 57,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 55,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee_strucutre_EVEN_Semester_2025_26_Existing_students.pdf",
+        "context": "Academic Fee Structure of Even Semester for AY 2025-2026 for Existing Students Click Here Click Here",
+        "score": 45,
+        "reasons": [
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 50,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee_strucutre_Odd_Sem_2025_26_Existing_students.pdf",
+        "context": "Academic Fee Structure of Odd Semester for AY 2025-2026 for Existing Students Click Here Click Here",
+        "score": 45,
+        "reasons": [
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 50,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee%20Structure%20(Even%20Sem)%20for%20Existing%20Students.pdf",
+        "context": "Fee structure of Even Sem for AY 2023-2024 for Existing students Click Here Click Here",
+        "score": 45,
+        "reasons": [
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 50,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/feestr_aug2023_existing.pdf",
+        "context": "Academic Fee for Odd Semester (Aug-Dec 2023) (Existing students) Click Here Click Here",
+        "score": 45,
+        "reasons": [
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 50,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/B.Tech%202021%20and%20earlier%20batches_Fee%20Structure%20AY%202022-23.pdf",
+        "context": "Fee Structure for B.Tech for AY 2022-23 Click Here Click Here",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 85,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/B.Tech%202021%20and%20earlier%20batches%20Foreign_Fee%20Structure%20AY%202022-23.pdf",
+        "context": "Fee Structure for B.Tech (Foreign Students) for AY 2022-23 Click Here Click Here",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 85,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee_%20B.Tech%20for%20AY%202022-23.pdf",
+        "context": "Fee Structure for B.Tech for AY 2022-23 Click Here Click Here",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 85,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/B.Tech_Foreign%20for%20AY%202022-23.pdf",
+        "context": "Fee Structure for B.Tech (Foreign Students) for AY 2022-23 Click Here Click Here",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 85,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Hostel%20and%20Mess%20Charges%20for%20Even%20Semester%202024-25.pdf",
+        "context": "Hostel and Mess Charges for Even Semester AY 2024-25. Click Here Click Here",
+        "score": 32,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 66,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "HOSTEL",
+          "MESS",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee%20strucutre%202022-23%20(Even)_New%20Entrants.pdf",
+        "context": "Academic Fee for Even Semester (Feb-June 2023) (New Entrants) Click Here Click Here",
+        "score": 60,
+        "reasons": [
+          "FEE",
+          "NEW_ENTRANT",
+          "PDF"
+        ],
+        "exact_score": 65,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "NEW_ENTRANT",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Final_Fee%20Structure_(ODD%20semester%202024-25)_New%20Entrants.pdf",
+        "context": "Fee structure of Odd Sem for AY 2024-2025 for new students Click Here Click Here",
+        "score": 35,
+        "reasons": [
+          "FEE",
+          "NEW_ENTRANT",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 65,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "NEW_ENTRANT",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Academic%20Fee%20for%20Even%20Semester%202024-25%20(New%20Entrants%20).pdf",
+        "context": "Academic Fee for Even Semester 2024-25 (New Entrants ).pdf Click Here Click Here",
+        "score": 35,
+        "reasons": [
+          "FEE",
+          "NEW_ENTRANT",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 65,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "NEW_ENTRANT",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "General guidelines for tuition fee remission",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/General_guidelines_for_tuition_fee_remission.pdf",
+        "context": "Home Fees Submission Guidelines for Education Loan Facility General guidelines for tuition fee remission",
+        "score": 45,
+        "reasons": [
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 60,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "LOAN_DOCUMENT",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "TUITION"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Fee%20strucutre%202022-23%20(Even).pdf",
+        "context": "Academic Fee for Even Semester (Feb-June 2023) (Existing students) Click Here Click Here",
+        "score": 45,
+        "reasons": [
+          "FEE",
+          "PDF"
+        ],
+        "exact_score": 50,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Final_Feestrucutre(OddSemester2024-25)Existingstudents.pdf",
+        "context": "Fee structure of Odd Sem for AY 2024-2025 for Existing students Click Here Click Here",
+        "score": 20,
+        "reasons": [
+          "FEE",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 50,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Academic%20Fee%20for%20Even%20Semester%202024-25%20(Existing%20students).pdf",
+        "context": "Academic Fee for Even Semester 2024-25 (Existing students).pdf Click Here Click Here",
+        "score": 20,
+        "reasons": [
+          "FEE",
+          "PDF",
+          "OLD_YEAR"
+        ],
+        "exact_score": 50,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "PDF",
+          "GENERIC_ANCHOR"
+        ]
+      },
+      {
+        "anchor_text": "Click Here",
+        "url": "https://academics.iitmandi.ac.in/pdf/fees/Boarding%20and%20Lodging%20for%20Even%20Semester%20(AY%202022-23).pdf",
+        "context": "Boarding and Lodging for Even Semester (Feb-June 2023) Click Here Click Here",
+        "score": 57,
+        "reasons": [
+          "FEE",
+          "HOSTEL_OR_MESS",
+          "PDF"
+        ],
+        "exact_score": 13,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "OLD_ACADEMIC_YEAR",
+        "exact_reasons": [
+          "PDF",
+          "HOSTEL",
+          "GENERIC_ANCHOR"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "institute-of-engineering-and-technology-dr-h-s-gour-university-sagar",
+    "college_name": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)",
+    "source_family": "JOSAA",
+    "parent_url": "https://dhsgsu.edu.in/index.php/en/admissions/admission-2026-27",
+    "status": "EXACT_SOURCE_READY",
+    "academic_fee_links": [],
+    "hostel_mess_links": [],
+    "direct_parent_evidence": {
+      "type": "DIRECT_PARENT_EVIDENCE",
+      "source_url": "https://dhsgsu.edu.in/index.php/en/admissions/admission-2026-27",
+      "academic_year": 2026,
+      "tables": [
+        {
+          "table_index": 0,
+          "score": 40,
+          "money_count": 0,
+          "rows": [
+            [
+              "Admission Procedure 2026-27"
+            ],
+            [
+              "Amenities Boys Hostel Girls Hostel Guest House University Health Centre Mental Health Counselling Central LibraryRemedial Coaching Centre Sports Facility Bank Post Office Indian Coffee House Campus Residences ICT Facilities Medicinal Plant Garden Internal Works Department Swarna Jayanti Auditorium Kendriya Vidyalaya Mahila Club"
+            ],
+            [
+              "Brochure/Prospectus"
+            ],
+            [
+              "Undergraduate Programs Session: 2026-27",
+              "Post Graduate Programmes Session: 2026-27"
+            ],
+            [
+              "Ph.D. Programmes Session: 2026-27",
+              "Enrollment list of students AY 2026-27"
+            ],
+            [
+              "Fee Structure For UG, PG, and Ph.D. Programmes",
+              "Contact Admissions 2026-27"
+            ],
+            [
+              "Important Links: 1. UG Admission portal CUET (Session 2026-27) Click here 2. PG Admission portal CUET (Session 2026-27) Click here 3. NCET-ITEP Admission portal (Session 2026-27) Click here 4. Non-CUET Admission Portal (Session 2026-27) Click here",
+              "1.",
+              "UG Admission portal CUET (Session 2026-27)",
+              "Click here",
+              "2.",
+              "PG Admission portal CUET (Session 2026-27)",
+              "Click here",
+              "3.",
+              "NCET-ITEP Admission portal (Session 2026-27)",
+              "Click here",
+              "4.",
+              "Non-CUET Admission Portal (Session 2026-27)",
+              "Click here"
+            ],
+            [
+              "1.",
+              "UG Admission portal CUET (Session 2026-27)",
+              "Click here"
+            ],
+            [
+              "2.",
+              "PG Admission portal CUET (Session 2026-27)",
+              "Click here"
+            ],
+            [
+              "3.",
+              "NCET-ITEP Admission portal (Session 2026-27)",
+              "Click here"
+            ],
+            [
+              "4.",
+              "Non-CUET Admission Portal (Session 2026-27)",
+              "Click here"
+            ]
+          ]
+        }
+      ]
+    },
+    "review_links": [
+      {
+        "anchor_text": "Notice Regarding Google Form Link for the B.Tech. 1st. Sem Students' new admission to the boys' hostel.",
+        "url": "https://dhsgsu.edu.in/index.php/en/admissions/admission-2026-27/8026-notice-regarding-google-form-link-for-the-b-tech-1st-sem-students-new-admission-to-the-boys-hostel",
+        "context": "Notice Regarding Google Form Link for the B.Tech. 1st. Sem Students' new admission to the boys' hostel. 17 August 2026 Notice Regarding Google Form Link for the B.Tech. 1st. Sem Students' new admission to the boys' hostel.",
+        "score": 77,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 93,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Guidelines for admission to BTech at IoET for the session 2026-27",
+        "url": "https://dhsgsu.edu.in/index.php/en/admissions/admission-2026-27/7933-guidelines-for-admission-to-btech-at-ioet-for-the-session-2026-27",
+        "context": "Guidelines for admission to BTech at IoET for the session 2026-27 22 July 2026 Guidelines for admission to BTech at IoET for the session 2026-27",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 70,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "BTECH",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Undergraduate Programs Session: 2026-27",
+        "url": "https://dhsgsu.edu.in/images/admission_cell/Admission_session_2026-27/Undergraduation/Admission-Brochure-UG-2026-27.pdf",
+        "context": "Undergraduate Programs Session: 2026-27 Post Graduate Programmes Session: 2026-27 Undergraduate Programs Session: 2026-27",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 65,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Post Graduate Programmes Session: 2026-27",
+        "url": "https://dhsgsu.edu.in/images/admission_cell/Admission_session_2026-27/Postgraduation/PG-Admission-Brochure-2026-27.pdf",
+        "context": "Undergraduate Programs Session: 2026-27 Post Graduate Programmes Session: 2026-27 Post Graduate Programmes Session: 2026-27",
+        "score": 75,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 65,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "UG",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Notice Regarding Google Form Link for the UG 1st. Sem Students' new admission to the boys' hostel.",
+        "url": "https://dhsgsu.edu.in/index.php/en/admissions/admission-2026-27/8027-notice-regarding-google-form-link-for-the-ug-1st-sem-students-new-admission-to-the-boys-hostel",
+        "context": "Notice Regarding Google Form Link for the UG 1st. Sem Students' new admission to the boys' hostel. 17 August 2026 Notice Regarding Google Form Link for the UG 1st. Sem Students' new admission to the boys' hostel.",
+        "score": 77,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27",
+          "HOSTEL_OR_MESS"
+        ],
+        "exact_score": 58,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "CURRENT_2026_27",
+          "NEW_ENTRANT",
+          "HOSTEL"
+        ]
+      },
+      {
+        "anchor_text": "Notice regarding submission of certificate for admission in UG Programme (including ITEP) through Sports Quota 2026-27",
+        "url": "https://dhsgsu.edu.in/index.php/en/admissions/admission-2026-27/7990-notice-regarding-submission-of-certificate-for-admission-in-ug-programme-including-itep-through-sports-quota-2026-27",
+        "context": "Notice regarding submission of certificate for admission in UG Programme (including ITEP) through Sports Quota 2026-27 04 August 2026 Notice regarding submission of certificate for admission in UG Programme (including ITEP) through Sports Quota 2026-27",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 55,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "UG",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "UG Admission Brochure 2026-27",
+        "url": "https://dhsgsu.edu.in/index.php/en/admissions/admission-2026-27/7940-admission-brochure-ug-2026-27",
+        "context": "UG Admission Brochure 2026-27 23 July 2026 UG Admission Brochure 2026-27",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 55,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "UG",
+          "CURRENT_2026_27"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "Schedule and Cut-Off Marks for UG (including NCET-ITEP) Second Counselling 2026-27",
+        "url": "https://dhsgsu.edu.in/index.php/en/admissions/admission-2026-27/8057-schedule-and-cut-off-marks-for-ug-including-ncet-itep-second-counselling-2026-27",
+        "context": "Schedule and Cut-Off Marks for UG (including NCET-ITEP) Second Counselling 2026-27 21 August 2026 Schedule and Cut-Off Marks for UG (including NCET-ITEP) Second Counselling 2026-27",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 35,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Schedule and Cut-Off Marks for UG First Counselling 2026-27",
+        "url": "https://dhsgsu.edu.in/index.php/en/admissions/admission-2026-27/7979-schedule-and-cut-off-marks-for-ug-first-counselling-2026-27",
+        "context": "Schedule and Cut-Off Marks for UG First Counselling 2026-27 31 July 2026 Schedule and Cut-Off Marks for UG First Counselling 2026-27",
+        "score": 65,
+        "reasons": [
+          "BTECH_OR_UG",
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 35,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Schedule and Cut-off list for PG fifth & last counselling 2026-27",
+        "url": "https://dhsgsu.edu.in/index.php/en/admissions/admission-2026-27/8068-schedule-and-cut-off-list-for-pg-fifth-last-counselling-2026-27",
+        "context": "Schedule and Cut-off list for PG fifth & last counselling 2026-27 25 August 2026 Schedule and Cut-off list for PG fifth & last counselling 2026-27",
+        "score": 35,
+        "reasons": [
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 35,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Revised Cut-Off Marks & Vacant Seats for B.Sc.-B.Ed. (Secondary Stage) Second Counselling 2026-27",
+        "url": "https://dhsgsu.edu.in/index.php/en/admissions/admission-2026-27/8063-revised-cut-off-marks-vacant-seats-for-b-sc-b-ed-secondary-stage-second-counselling-2026-27",
+        "context": "Revised Cut-Off Marks & Vacant Seats for B.Sc.-B.Ed. (Secondary Stage) Second Counselling 2026-27 24 August 2026 Revised Cut-Off Marks & Vacant Seats for B.Sc.-B.Ed. (Secondary Stage) Second Counselling 2026-27",
+        "score": 35,
+        "reasons": [
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 35,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Schedule & Cut Off Marks for PG Fourth Offline Counselling 2026-27",
+        "url": "https://dhsgsu.edu.in/index.php/en/admissions/admission-2026-27/8013-schedule-cut-off-marks-for-pg-fourth-offline-counselling-2026-27",
+        "context": "Schedule & Cut Off Marks for PG Fourth Offline Counselling 2026-27 12 August 2026 Schedule & Cut Off Marks for PG Fourth Offline Counselling 2026-27",
+        "score": 35,
+        "reasons": [
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 35,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Schedule and Cut-Off marks for NCET-ITEP First Counselling 2026-27",
+        "url": "https://dhsgsu.edu.in/index.php/en/admissions/admission-2026-27/7980-schedule-and-cut-off-marks-for-ncet-itep-first-counselling-2026-27",
+        "context": "Schedule and Cut-Off marks for NCET-ITEP First Counselling 2026-27 31 July 2026 Schedule and Cut-Off marks for NCET-ITEP First Counselling 2026-27",
+        "score": 35,
+        "reasons": [
+          "CURRENT_2026_27"
+        ],
+        "exact_score": 35,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "ADMISSION_LIST",
+        "exact_reasons": [
+          "CURRENT_2026_27"
+        ]
+      }
+    ]
+  },
+  {
+    "college_id": "national-institute-of-technology-sikkim",
+    "college_name": "National Institute of Technology Sikkim",
+    "source_family": "JOSAA",
+    "parent_url": "https://nitsikkim.ac.in/admissions/feeStructure.php",
+    "status": "EXACT_SOURCE_READY",
+    "academic_fee_links": [
+      {
+        "anchor_text": "B.Tech fee structure for Academic Year 2026-27",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2026_April/B.Tech.%20Fee%20structure%20for%20Academic%20Year%202026-27.pdf",
+        "context": "B.Tech fee structure for Academic Year 2026-27 B.Tech fee structure for Academic Year 2025-26 B.Tech fee structure for Academic Year 2024-25 B.Tech fee structure for Academic Year 2023-24 B.Tech fee structure for Academic Year 2022-23 B.Tech Fee structure for Academic Year 2021-22",
+        "score": 110,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 125,
+        "exact_decision": "EXACT_CURRENT_BTECH_FEE",
+        "accepted": true,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "B.Tech fee structure for Academic Year 2025-26",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2025_jan/B.Tech%20Fee%20structure%20for%202025-26.pdf",
+        "context": "B.Tech fee structure for Academic Year 2026-27 B.Tech fee structure for Academic Year 2025-26 B.Tech fee structure for Academic Year 2024-25 B.Tech fee structure for Academic Year 2023-24 B.Tech fee structure for Academic Year 2022-23 B.Tech Fee structure for Academic Year 2021-22",
+        "score": 110,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 125,
+        "exact_decision": "EXACT_CURRENT_BTECH_FEE",
+        "accepted": true,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "B.Tech fee structure for Academic Year 2024-25",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2024_jan/B%20Tech%20Fee%20Structure%20for%202024-25%20Academic%20Session.pdf",
+        "context": "B.Tech fee structure for Academic Year 2026-27 B.Tech fee structure for Academic Year 2025-26 B.Tech fee structure for Academic Year 2024-25 B.Tech fee structure for Academic Year 2023-24 B.Tech fee structure for Academic Year 2022-23 B.Tech Fee structure for Academic Year 2021-22",
+        "score": 110,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 125,
+        "exact_decision": "EXACT_CURRENT_BTECH_FEE",
+        "accepted": true,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "B.Tech fee structure for Academic Year 2023-24",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2023_june/B%20Tech%20Fee%20Structure%20for%202023-24%20Academic%20Session.pdf",
+        "context": "B.Tech fee structure for Academic Year 2026-27 B.Tech fee structure for Academic Year 2025-26 B.Tech fee structure for Academic Year 2024-25 B.Tech fee structure for Academic Year 2023-24 B.Tech fee structure for Academic Year 2022-23 B.Tech Fee structure for Academic Year 2021-22",
+        "score": 110,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 125,
+        "exact_decision": "EXACT_CURRENT_BTECH_FEE",
+        "accepted": true,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "B.Tech fee structure for Academic Year 2022-23",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2022_june/B%20Tech%20fee%20structure%202022-23%20session.pdf",
+        "context": "B.Tech fee structure for Academic Year 2026-27 B.Tech fee structure for Academic Year 2025-26 B.Tech fee structure for Academic Year 2024-25 B.Tech fee structure for Academic Year 2023-24 B.Tech fee structure for Academic Year 2022-23 B.Tech Fee structure for Academic Year 2021-22",
+        "score": 110,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 125,
+        "exact_decision": "EXACT_CURRENT_BTECH_FEE",
+        "accepted": true,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "B.Tech Fee structure for Academic Year 2021-22",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2022_jan/Btech%20revised%20fee%202021-22%20onwards.pdf",
+        "context": "B.Tech fee structure for Academic Year 2026-27 B.Tech fee structure for Academic Year 2025-26 B.Tech fee structure for Academic Year 2024-25 B.Tech fee structure for Academic Year 2023-24 B.Tech fee structure for Academic Year 2022-23 B.Tech Fee structure for Academic Year 2021-22",
+        "score": 110,
+        "reasons": [
+          "BTECH_OR_UG",
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 125,
+        "exact_decision": "EXACT_CURRENT_BTECH_FEE",
+        "accepted": true,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "BTECH",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      }
+    ],
+    "hostel_mess_links": [],
+    "direct_parent_evidence": null,
+    "review_links": [
+      {
+        "anchor_text": "Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2026-27",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2026_April/Fee%20structure%20for%20International%20Students%20for%202026-27%20%20Admitted%20Through%20DASA-SII-MEA-ICCR.pdf",
+        "context": "Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2026-27 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2025-26 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2024-25 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2023-24 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2022-23",
+        "score": 80,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 90,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2025-26",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2025_jan/Final%20Fee%20structure%20for%20International%20Students%20updated.pdf",
+        "context": "Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2026-27 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2025-26 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2024-25 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2023-24 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2022-23",
+        "score": 80,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 90,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2024-25",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2024_jan/Fee%20Structure%20for%20International%20Students%20through%20ICCR%20DASA%20SII%202024-2025.pdf",
+        "context": "Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2026-27 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2025-26 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2024-25 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2023-24 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2022-23",
+        "score": 80,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 90,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2023-24",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2023_june/Fee%20Structure%20for%20International%20Students%20through%20ICCR%20DASA%20SII%202023-2024.pdf",
+        "context": "Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2026-27 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2025-26 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2024-25 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2023-24 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2022-23",
+        "score": 80,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 90,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2022-23",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2022_june/Fee%20structure%20for%20internal%20students%202022-23.pdf",
+        "context": "Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2026-27 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2025-26 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2024-25 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2023-24 Fee structure for International Students admitted through DASA/ICCR/MEA/SII for 2022-23",
+        "score": 80,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF"
+        ],
+        "exact_score": 90,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "M.Sc Fee structure for Academic Year 2026-27",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2026_April/M.Sc%20fee%20structure%202026-2028.pdf",
+        "context": "M.Sc Fee structure for Academic Year 2026-27 M.Sc Fee structure for Academic Year 2025-26 M.Sc Fee structure for Academic Year 2024-25 M.Sc Fee structure for Academic Year 2023-24 M.Sc Fee structure for Academic Year 2022-23 M.Sc Fee structure for Academic Year 2021-22",
+        "score": 40,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF",
+          "OTHER_PROGRAMME"
+        ],
+        "exact_score": 90,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "M.Sc Fee structure for Academic Year 2025-26",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2025_jan/M.Sc%20fee%20structure%20for%202025-26.pdf",
+        "context": "M.Sc Fee structure for Academic Year 2026-27 M.Sc Fee structure for Academic Year 2025-26 M.Sc Fee structure for Academic Year 2024-25 M.Sc Fee structure for Academic Year 2023-24 M.Sc Fee structure for Academic Year 2022-23 M.Sc Fee structure for Academic Year 2021-22",
+        "score": 40,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF",
+          "OTHER_PROGRAMME"
+        ],
+        "exact_score": 90,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "M.Sc Fee structure for Academic Year 2024-25",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2024_jan/M%20Sc%20Fee%20structure%20for%202024-25%20Academic%20Session.pdf",
+        "context": "M.Sc Fee structure for Academic Year 2026-27 M.Sc Fee structure for Academic Year 2025-26 M.Sc Fee structure for Academic Year 2024-25 M.Sc Fee structure for Academic Year 2023-24 M.Sc Fee structure for Academic Year 2022-23 M.Sc Fee structure for Academic Year 2021-22",
+        "score": 40,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF",
+          "OTHER_PROGRAMME"
+        ],
+        "exact_score": 90,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "M.Sc Fee structure for Academic Year 2023-24",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2023_june/M%20Sc%20Fee%20structure%20for%202023-24%20Academic%20Session.pdf",
+        "context": "M.Sc Fee structure for Academic Year 2026-27 M.Sc Fee structure for Academic Year 2025-26 M.Sc Fee structure for Academic Year 2024-25 M.Sc Fee structure for Academic Year 2023-24 M.Sc Fee structure for Academic Year 2022-23 M.Sc Fee structure for Academic Year 2021-22",
+        "score": 40,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF",
+          "OTHER_PROGRAMME"
+        ],
+        "exact_score": 90,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "M.Sc Fee structure for Academic Year 2021-22",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2022_jan/M.Sc.%20Revised%20fee%202021-22%20onwards.pdf",
+        "context": "M.Sc Fee structure for Academic Year 2026-27 M.Sc Fee structure for Academic Year 2025-26 M.Sc Fee structure for Academic Year 2024-25 M.Sc Fee structure for Academic Year 2023-24 M.Sc Fee structure for Academic Year 2022-23 M.Sc Fee structure for Academic Year 2021-22",
+        "score": 40,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF",
+          "OTHER_PROGRAMME"
+        ],
+        "exact_score": 90,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "M.Sc Fee structure for Academic Year 2022-23",
+        "url": "https://nitsikkim.ac.in/admissions/M.Sc%20Fee%20structure%20for%20Academic%20Year%202021",
+        "context": "M.Sc Fee structure for Academic Year 2026-27 M.Sc Fee structure for Academic Year 2025-26 M.Sc Fee structure for Academic Year 2024-25 M.Sc Fee structure for Academic Year 2023-24 M.Sc Fee structure for Academic Year 2022-23 M.Sc Fee structure for Academic Year 2021-22",
+        "score": 30,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "OTHER_PROGRAMME"
+        ],
+        "exact_score": 80,
+        "exact_decision": "CURRENT_INSTITUTE_FEE_REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27"
+        ]
+      },
+      {
+        "anchor_text": "Fee Structure",
+        "url": "https://nitsikkim.ac.in/admissions/feeStructure.php",
+        "context": "Fee Structure",
+        "score": 35,
+        "reasons": [
+          "FEE"
+        ],
+        "exact_score": 45,
+        "exact_decision": "REVIEW",
+        "accepted": false,
+        "rejection_reason": null,
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE"
+        ]
+      }
+    ],
+    "rejected_links": [
+      {
+        "anchor_text": "M.Tech fee structure for Academic Year 2026-27",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2026_April/M.Tech.%20Fee%20Structure%20for%20Academic%20Year%202026-27.pdf",
+        "context": "M.Tech fee structure for Academic Year 2026-27 M.Tech fee structure for Academic Year 2025-26 M.Tech fee structure for Academic Year 2024-25 M.Tech fee structure for Academic Year 2023-24 M.Tech fee structure for Academic Year 2022-23 M.Tech fee structure for academic year 2021-22",
+        "score": 20,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF",
+          "OTHER_PROGRAMME_MTECH"
+        ],
+        "exact_score": 90,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "MTECH_ONLY",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "M.Tech fee structure for Academic Year 2025-26",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2025_jan/M.Tech%20fee%20structure%20for%202025-26.pdf",
+        "context": "M.Tech fee structure for Academic Year 2026-27 M.Tech fee structure for Academic Year 2025-26 M.Tech fee structure for Academic Year 2024-25 M.Tech fee structure for Academic Year 2023-24 M.Tech fee structure for Academic Year 2022-23 M.Tech fee structure for academic year 2021-22",
+        "score": 20,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF",
+          "OTHER_PROGRAMME_MTECH"
+        ],
+        "exact_score": 90,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "MTECH_ONLY",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "M.Tech fee structure for Academic Year 2024-25",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2024_jan/MTech.%20Fee%20structure%202024-25%20Academic%20Session.pdf",
+        "context": "M.Tech fee structure for Academic Year 2026-27 M.Tech fee structure for Academic Year 2025-26 M.Tech fee structure for Academic Year 2024-25 M.Tech fee structure for Academic Year 2023-24 M.Tech fee structure for Academic Year 2022-23 M.Tech fee structure for academic year 2021-22",
+        "score": 20,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF",
+          "OTHER_PROGRAMME_MTECH"
+        ],
+        "exact_score": 90,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "MTECH_ONLY",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "M.Tech fee structure for Academic Year 2023-24",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2023_june/MTech.%20Fee%20structure%202023-24%20Academic%20Session.pdf",
+        "context": "M.Tech fee structure for Academic Year 2026-27 M.Tech fee structure for Academic Year 2025-26 M.Tech fee structure for Academic Year 2024-25 M.Tech fee structure for Academic Year 2023-24 M.Tech fee structure for Academic Year 2022-23 M.Tech fee structure for academic year 2021-22",
+        "score": 20,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF",
+          "OTHER_PROGRAMME_MTECH"
+        ],
+        "exact_score": 90,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "MTECH_ONLY",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "M.Tech fee structure for Academic Year 2022-23",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2022_june/M%20Tech%20fee%20structure%2022-23%20session.pdf",
+        "context": "M.Tech fee structure for Academic Year 2026-27 M.Tech fee structure for Academic Year 2025-26 M.Tech fee structure for Academic Year 2024-25 M.Tech fee structure for Academic Year 2023-24 M.Tech fee structure for Academic Year 2022-23 M.Tech fee structure for academic year 2021-22",
+        "score": 20,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF",
+          "OTHER_PROGRAMME_MTECH"
+        ],
+        "exact_score": 90,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "MTECH_ONLY",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      },
+      {
+        "anchor_text": "M.Tech fee structure for academic year 2021-22",
+        "url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2022_jan/M.Tech%20Revised%20fee%202021-22%20onwards.pdf",
+        "context": "M.Tech fee structure for Academic Year 2026-27 M.Tech fee structure for Academic Year 2025-26 M.Tech fee structure for Academic Year 2024-25 M.Tech fee structure for Academic Year 2023-24 M.Tech fee structure for Academic Year 2022-23 M.Tech fee structure for academic year 2021-22",
+        "score": 20,
+        "reasons": [
+          "FEE",
+          "CURRENT_2026_27",
+          "PDF",
+          "OTHER_PROGRAMME_MTECH"
+        ],
+        "exact_score": 90,
+        "exact_decision": "REJECT",
+        "accepted": false,
+        "rejection_reason": "MTECH_ONLY",
+        "exact_reasons": [
+          "EXPLICIT_FEE_STRUCTURE",
+          "CURRENT_2026_27",
+          "PDF"
+        ]
+      }
+    ]
+  }
+]

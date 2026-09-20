@@ -1,0 +1,253 @@
+=======================================
+NIT ROURKELA FEE SIGNALS
+=======================================
+
+COLLEGE: National Institute of Technology, Rourkela
+SOURCE: https://www.nitrkl.ac.in/docs/Announcement/14072026180430277.pdf
+SCOPE: all_btech_branches_candidate
+SIGNALS: 49
+
+===== SIGNAL 1 =====
+LINE: 1 Admission fee(one time) 2500 0
+CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 2500, 62500, 5000
+
+===== SIGNAL 2 =====
+LINE: 2 Tuition fee* 62500 62500
+CONTEXT: 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0
+AMOUNTS: 2500, 62500, 5000, 10000
+
+===== SIGNAL 3 =====
+LINE: 1 Tuition fee* 62500 62500
+CONTEXT: (Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 4 =====
+LINE: 1 Tuition fee* 62500 62500
+CONTEXT: (Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 5 =====
+LINE: 1 Tuition fee* 62500 62500
+CONTEXT: (Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 6 =====
+LINE: *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted).
+CONTEXT: 8 Mess Advance*** 30000 30000 | 9 Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. | Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount. | Sd/-
+AMOUNTS: 30000, 2500, 114500, 111500, 20833
+
+===== SIGNAL 7 =====
+LINE: *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e.
+CONTEXT: 9 Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. | Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount. | Sd/- | Asst. Registrar (Academic)
+AMOUNTS: 2500, 114500, 111500, 20833
+
+===== SIGNAL 8 =====
+LINE: 1 Admission fee(one time) 2500 0
+CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 2500, 62500, 5000
+
+===== SIGNAL 9 =====
+LINE: 2 Tuition fee* 62500 62500
+CONTEXT: 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0
+AMOUNTS: 2500, 62500, 5000, 10000
+
+===== SIGNAL 10 =====
+LINE: 1 Tuition fee* 62500 62500
+CONTEXT: (Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 11 =====
+LINE: 1 Tuition fee* 62500 62500
+CONTEXT: (Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 12 =====
+LINE: 1 Tuition fee* 62500 62500
+CONTEXT: (Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 13 =====
+LINE: 1 Tuition fee* 62500 62500
+CONTEXT: (Amount in Rs.) | 10th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 14 =====
+LINE: *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted).
+CONTEXT: 8 Mess Advance*** 30000 30000 | 9 Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount. | Sd/- | Asst. Registrar (Academic)
+AMOUNTS: 30000, 2500, 114500, 111500, 20833
+
+===== SIGNAL 15 =====
+LINE: *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. Rs. 20,833).
+CONTEXT: 9 Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount. | Sd/- | Asst. Registrar (Academic) | -- 2 of 8 --
+AMOUNTS: 2500, 114500, 111500, 20833
+
+===== SIGNAL 16 =====
+LINE: 1 Admission fee(one time) 2500 0
+CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees* 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 2500, 7500, 5000
+
+===== SIGNAL 17 =====
+LINE: 2 Tuition fee 7500 7500
+CONTEXT: 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees* 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time Refundable) 10000 0
+AMOUNTS: 2500, 7500, 5000, 10000
+
+===== SIGNAL 18 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 19 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 20 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 21 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 10th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 22 =====
+LINE: 1 Admission fee(one time) 2500 0
+CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 2500, 62500, 5000
+
+===== SIGNAL 23 =====
+LINE: 2 Tuition fee 62500 62500
+CONTEXT: 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0
+AMOUNTS: 2500, 62500, 5000, 10000
+
+===== SIGNAL 24 =====
+LINE: 1 Tuition fee 62500 62500
+CONTEXT: (Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 25 =====
+LINE: 1 Tuition fee 62500 62500
+CONTEXT: (Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 26 =====
+LINE: 1 Tuition fee 62500 62500
+CONTEXT: (Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 27 =====
+LINE: 1 Admission fee(one time) 2500 0
+CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 2500, 62500, 5000
+
+===== SIGNAL 28 =====
+LINE: 2 Tuition fee 62500 62500
+CONTEXT: 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0
+AMOUNTS: 2500, 62500, 5000, 10000
+
+===== SIGNAL 29 =====
+LINE: 1 Tuition fee 62500 62500
+CONTEXT: (Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 30 =====
+LINE: 1 Tuition fee 62500 62500
+CONTEXT: (Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 31 =====
+LINE: 1 Tuition fee 62500 62500
+CONTEXT: (Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 32 =====
+LINE: 1 Tuition fee 62500 62500
+CONTEXT: (Amount in Rs.) | 10th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 33 =====
+LINE: 1 Admission fee(one time) 2500 0
+CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 2500, 7500, 5000
+
+===== SIGNAL 34 =====
+LINE: 2 Tuition fee 7500 7500
+CONTEXT: 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time Refundable) 10000 0
+AMOUNTS: 2500, 7500, 5000, 10000
+
+===== SIGNAL 35 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 36 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 37 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 38 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 10th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 39 =====
+LINE: 1 Admission fee(one time) INR 2500 INR 2500 0 0
+CONTEXT: Countries | Non-SAARC | Countries | 1 Admission fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical fee INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 2500, 4000, 5000
+
+===== SIGNAL 40 =====
+LINE: 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Non-SAARC | Countries | 1 Admission fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical fee INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 7 Caution money(one time-Refundable if program is
+AMOUNTS: 2500, 4000, 5000
+
+===== SIGNAL 41 =====
+LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 4000, 5000
+
+===== SIGNAL 42 =====
+LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 4000, 5000
+
+===== SIGNAL 43 =====
+LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Souvenir fee in pre final year INR 500 INR 500 0 0 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 4000, 5000
+
+===== SIGNAL 44 =====
+LINE: 1 Admission fee(one time) INR 2500 INR 2500 0 0
+CONTEXT: Countries | Non-SAARC | Countries | 1 Admission fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical fee INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 2500, 4000, 5000
+
+===== SIGNAL 45 =====
+LINE: 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Non-SAARC | Countries | 1 Admission fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical fee INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 7 Caution money(one time-Refundable if program is completed) INR 10000 INR 10000 0 0
+AMOUNTS: 2500, 4000, 5000, 10000
+
+===== SIGNAL 46 =====
+LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 4000, 5000
+
+===== SIGNAL 47 =====
+LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 4000, 5000
+
+===== SIGNAL 48 =====
+LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 7 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 4000, 5000
+
+===== SIGNAL 49 =====
+LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Souvenir fee in pre final year INR 500 INR 500 0 0 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 4000, 5000

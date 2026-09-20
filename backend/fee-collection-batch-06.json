@@ -1,0 +1,111 @@
+﻿[
+  {
+    "college_id": "indian-institute-of-technology-kanpur",
+    "college_name": "Indian Institute of Technology Kanpur",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 100000,
+    "annual_academic_fee": 200000,
+    "total_course_fee": 800000,
+
+    "source_kind": "shiksha",
+    "source_label": "Shiksha IIT Kanpur B.Tech Fees 2026",
+    "source_url": "https://www.shiksha.com/college/iit-kanpur-indian-institute-of-technology-25116/fees",
+
+    "source_priority": 65,
+    "confidence_score": 78,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Shiksha reports INR 8 lakh B.Tech tuition over four years. INR 100000 per semester and INR 200000 annual tuition are normalized from eight semesters. Hostel and one-time charges are kept separate from tuition."
+  },
+
+  {
+    "college_id": "indian-institute-of-technology-kharagpur",
+    "college_name": "Indian Institute of Technology Kharagpur",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 100000,
+    "annual_academic_fee": 200000,
+    "total_course_fee": 800000,
+
+    "source_kind": "shiksha",
+    "source_label": "Shiksha IIT Kharagpur B.Tech Fees 2026",
+    "source_url": "https://www.shiksha.com/college/iit-kharagpur-indian-institute-of-technology-2999/fees",
+
+    "source_priority": 65,
+    "confidence_score": 78,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Secondary source reports INR 8 lakh B.Tech tuition for complete four-year programme. Semester and annual values are normalized from eight semesters. Fee exemptions apply for eligible categories/income groups."
+  },
+
+  {
+    "college_id": "indian-institute-of-technology-madras",
+    "college_name": "Indian Institute of Technology Madras",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 100000,
+    "annual_academic_fee": 200000,
+
+    "source_kind": "official",
+    "source_label": "IIT Madras Institute Fee Circular Jan-May 2026",
+    "source_url": "https://fees.iitm.ac.in/assets/circular/Institute_fee_circular_jan_may_2026.pdf",
+
+    "source_priority": 100,
+    "confidence_score": 88,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Official Jan-May 2026 circular explicitly lists INR 100000 tuition for recent B.Tech batches. It applies to existing students admitted up to 2025, therefore fresh 2026 entrant applicability remains review_recommended."
+  },
+
+  {
+    "college_id": "indian-institute-of-technology-patna",
+    "college_name": "Indian Institute of Technology Patna",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 100000,
+    "annual_academic_fee": 200000,
+    "total_course_fee": 800000,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 IIT Patna B.Tech Fees 2026",
+    "source_url": "https://www.careers360.com/university/indian-institute-of-technology-patna/fees",
+
+    "source_priority": 65,
+    "confidence_score": 82,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Careers360 reports INR 8 lakh B.Tech tuition and approximately INR 9.67 lakh total programme fee. Semester and annual tuition values normalized from four-year tuition."
+  },
+
+  {
+    "college_id": "indian-institute-of-technology-roorkee",
+    "college_name": "Indian Institute of Technology Roorkee",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 100000,
+    "annual_academic_fee": 200000,
+    "total_course_fee": 800000,
+    "first_semester_fee": 155550,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 IIT Roorkee B.Tech Fees 2026",
+    "source_url": "https://www.careers360.com/university/indian-institute-of-technology-roorkee/fees",
+
+    "source_priority": 65,
+    "confidence_score": 85,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Careers360 reports INR 8 lakh total B.Tech tuition. For General/OBC category, Autumn 2026 first-year payable fee is INR 155550 and Spring is INR 139050. Tuition normalization assumes eight semesters."
+  }
+]

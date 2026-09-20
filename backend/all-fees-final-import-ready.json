@@ -1,0 +1,414 @@
+[
+  {
+    "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+    "college_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+    "status": "IMPORT_READY",
+    "academic_year": 2026,
+    "source_url": "https://www.aimt.edu.in/#",
+    "source_type": "official_html",
+    "signals": {
+      "btech": true,
+      "fee": true,
+      "tuition": true,
+      "total": false,
+      "hostel": false,
+      "fw": false
+    },
+    "amounts": [
+      2250,
+      37030
+    ],
+    "normalization": {
+      "mode": "annual_tuition",
+      "years": [
+        {
+          "year_of_study": 1,
+          "session": "2026-27",
+          "tuition_fee": 89209,
+          "total_fee": 89209
+        },
+        {
+          "year_of_study": 2,
+          "session": "2027-28",
+          "tuition_fee": 89209,
+          "total_fee": 89209
+        },
+        {
+          "year_of_study": 3,
+          "session": "2028-29",
+          "tuition_fee": 89209,
+          "total_fee": 89209
+        },
+        {
+          "year_of_study": 4,
+          "session": "2029-30",
+          "tuition_fee": 89209,
+          "total_fee": 89209
+        }
+      ]
+    },
+    "branch_count": 10,
+    "ready_branch_count": 6,
+    "fw_held_count": 4,
+    "preview": {
+      "ready_branches": [
+        {
+          "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+          "college_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+          "branch_id": "2209",
+          "branch_name": "Civil Engineering",
+          "fee_scope": "branch_specific",
+          "academic_year": 2026,
+          "student_category": "GENERAL",
+          "source_url": "https://www.aimt.edu.in/#",
+          "variants": [
+            {
+              "year_of_study": 1,
+              "session": "2026-27",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 2,
+              "session": "2027-28",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 3,
+              "session": "2028-29",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 4,
+              "session": "2029-30",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+          "college_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+          "branch_id": "1817",
+          "branch_name": "Computer Science and Engineering",
+          "fee_scope": "branch_specific",
+          "academic_year": 2026,
+          "student_category": "GENERAL",
+          "source_url": "https://www.aimt.edu.in/#",
+          "variants": [
+            {
+              "year_of_study": 1,
+              "session": "2026-27",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 2,
+              "session": "2027-28",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 3,
+              "session": "2028-29",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 4,
+              "session": "2029-30",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+          "college_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+          "branch_id": "1277",
+          "branch_name": "Computer Science And Engineering(Artificial Intelligence & Machine Learning)",
+          "fee_scope": "branch_specific",
+          "academic_year": 2026,
+          "student_category": "GENERAL",
+          "source_url": "https://www.aimt.edu.in/#",
+          "variants": [
+            {
+              "year_of_study": 1,
+              "session": "2026-27",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 2,
+              "session": "2027-28",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 3,
+              "session": "2028-29",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 4,
+              "session": "2029-30",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+          "college_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+          "branch_id": "1987",
+          "branch_name": "Computer Science And Engineering(Data Science)",
+          "fee_scope": "branch_specific",
+          "academic_year": 2026,
+          "student_category": "GENERAL",
+          "source_url": "https://www.aimt.edu.in/#",
+          "variants": [
+            {
+              "year_of_study": 1,
+              "session": "2026-27",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 2,
+              "session": "2027-28",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 3,
+              "session": "2028-29",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 4,
+              "session": "2029-30",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+          "college_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+          "branch_id": "1951",
+          "branch_name": "Information Technology",
+          "fee_scope": "branch_specific",
+          "academic_year": 2026,
+          "student_category": "GENERAL",
+          "source_url": "https://www.aimt.edu.in/#",
+          "variants": [
+            {
+              "year_of_study": 1,
+              "session": "2026-27",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 2,
+              "session": "2027-28",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 3,
+              "session": "2028-29",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 4,
+              "session": "2029-30",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+          "college_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+          "branch_id": "2085",
+          "branch_name": "Mechanical Engineering",
+          "fee_scope": "branch_specific",
+          "academic_year": 2026,
+          "student_category": "GENERAL",
+          "source_url": "https://www.aimt.edu.in/#",
+          "variants": [
+            {
+              "year_of_study": 1,
+              "session": "2026-27",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 2,
+              "session": "2027-28",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 3,
+              "session": "2028-29",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            },
+            {
+              "year_of_study": 4,
+              "session": "2029-30",
+              "fee_period": "annual",
+              "student_category": "GENERAL",
+              "residence_type": "day_scholar",
+              "tuition_fee": 89209,
+              "hostel_fee": null,
+              "total_fee": 89209,
+              "verification_status": "verified"
+            }
+          ]
+        }
+      ],
+      "fw_branches_held": [
+        {
+          "id": "2333",
+          "name": "Computer Science and Engineering (FW)"
+        },
+        {
+          "id": "2382",
+          "name": "Computer Science And Engineering(Artificial Intelligence & Machine Learning) (FW)"
+        },
+        {
+          "id": "2024",
+          "name": "Computer Science And Engineering(Data Science) (FW)"
+        },
+        {
+          "id": "1553",
+          "name": "Information Technology (FW)"
+        }
+      ],
+      "fw_policy": "HOLD_FW_NO_SPECIFIC_SOURCE",
+      "hostel_policy": "NULL"
+    }
+  }
+]

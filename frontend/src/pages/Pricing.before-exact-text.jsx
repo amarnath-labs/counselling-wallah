@@ -1,0 +1,324 @@
+﻿import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import PageHero from '../components/PageHero';
+import { startCashfreeCheckout } from '../services/paymentService';
+
+const PLANS = [
+  {
+    id: 'basic',
+
+    name: 'COLLEGE PREDICTOR',
+
+    amount: '₹49',
+
+    numericAmount: 49,
+
+    subtitle: 'Check Your College Chances',
+
+    items: [
+      'Eligible college list',
+      'Rank/category/quota based prediction',
+      'Round-wise cutoff details',
+      'College-wise cutoff information',
+      'Basic filters',
+    ],
+
+    button: 'Get College Predictor',
+
+    popular: false,
+  },
+
+  {
+    id: 'finder',
+
+    name: 'RECOMMENDATION',
+
+    amount: '₹99',
+
+    numericAmount: 99,
+
+    subtitle: 'Find Your Best-Fit Colleges',
+
+    items: [
+      'Everything in College Predictor',
+      'Dream / Target / Safe / Backup',
+      'Personalized recommendation score',
+      'Branch preference matching',
+      'Budget + location matching',
+      'College comparison',
+      'Preference-list builder',
+    ],
+
+    button: 'Unlock Recommendations',
+
+    popular: true,
+  },
+
+  {
+    id: 'support',
+
+    name: 'CALL SUPPORT',
+
+    amount: '₹599',
+
+    numericAmount: 599,
+
+    subtitle: 'Talk to a Counsellor',
+
+    items: [
+      'Everything in Recommendation',
+      '1-to-1 counselling call',
+      'Personalized counselling guidance',
+      'Choice-list review',
+      'Document guidance',
+      'Deadline guidance',
+      'Priority support',
+    ],
+
+    button: 'Book Counselling Call',
+
+    popular: false,
+  },
+];
+
+export default function Pricing() {
+  const navigate = useNavigate();
+  const [selectedPlan, setSelectedPlan] = useState(null);
+  const [paymentLoading, setPaymentLoading] = useState(false);
+  const [paymentError, setPaymentError] = useState('');
+
+  const handleClick = (plan) => {
+    setPaymentError('');
+    setSelectedPlan(plan);
+
+    if (plan.id === 'free') {
+      navigate('/exams');
+    }
+  };
+
+  const handlePayment = async () => {
+    if (!selectedPlan || selectedPlan.id === 'free') {
+      return;
+    }
+
+    setPaymentLoading(true);
+    setPaymentError('');
+
+    try {
+      await startCashfreeCheckout(selectedPlan.id);
+    } catch (error) {
+      setPaymentError(
+        error?.message ||
+          'Unable to start payment. Please try again.'
+      );
+      setPaymentLoading(false);
+    }
+  };
+
+  return (
+    <>
+      <PageHero
+        title="Counselling Wallah Pro"
+        description="Choose the plan that fits your counselling needs."
+        crumb={<a href="/">Home</a>}
+      />
+
+      <div className="container section">
+        <div className="section-head">
+          <div className="kicker">
+            Counselling Wallah Pro
+          </div>
+
+          <h2>
+            Simple, transparent pricing
+          </h2>
+        </div>
+
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns:
+              'repeat(auto-fit, minmax(260px, 1fr))',
+            gap: '18px',
+            alignItems: 'stretch',
+          }}
+        >
+          {PLANS.map((plan) => (
+            <div
+              key={plan.id}
+              className="card"
+              style={{
+                position: 'relative',
+                zIndex: 1,
+                padding: '28px',
+                minHeight: '470px',
+                display: 'flex',
+                flexDirection: 'column',
+                pointerEvents: 'auto',
+                borderRadius: '22px',
+                border: plan.popular
+                  ? '2px solid var(--orange)'
+                  : '1px solid var(--line)',
+              }}
+            >
+              {plan.popular && (
+                <div
+                  style={{
+                    position: 'absolute',
+                    top: '-14px',
+                    right: '20px',
+                    zIndex: 20,
+                    background: 'var(--orange)',
+                    color: '#fff',
+                    padding: '7px 15px',
+                    borderRadius: '999px',
+                    fontSize: '12px',
+                    fontWeight: 800,
+                    pointerEvents: 'none',
+                  }}
+                >
+                  MOST POPULAR
+                </div>
+              )}
+
+              <div
+                style={{
+                  color: 'var(--ink-3)',
+                  fontWeight: 800,
+                  fontSize: '15px',
+                }}
+              >
+                {plan.name}
+              </div>
+
+              <div
+                style={{
+                  fontSize: '42px',
+                  fontWeight: 800,
+                  color: 'var(--navy)',
+                  marginTop: '12px',
+                }}
+              >
+                {plan.amount}
+              </div>
+
+              <div
+                style={{
+                  color: 'var(--ink-3)',
+                  marginTop: '5px',
+                  marginBottom: '20px',
+                }}
+              >
+                {plan.subtitle}
+              </div>
+
+              <div style={{ flex: 1 }}>
+                {plan.items.map((item) => (
+                  <div
+                    key={item}
+                    style={{
+                      padding: '12px 0',
+                      borderBottom:
+                        '1px dashed var(--line)',
+                      color: 'var(--ink)',
+                    }}
+                  >
+                    ✓ {item}
+                  </div>
+                ))}
+              </div>
+
+              <button
+                type="button"
+                onClick={() => handleClick(plan)}
+                style={{
+                  position: 'relative',
+                  zIndex: 100,
+                  pointerEvents: 'auto',
+                  cursor: 'pointer',
+                  width: '100%',
+                  minHeight: '54px',
+                  marginTop: '24px',
+                  borderRadius: '14px',
+                  border: plan.popular
+                    ? 'none'
+                    : '1px solid #d8deef',
+                  background: plan.popular
+                    ? '#172451'
+                    : '#fff',
+                  color: plan.popular
+                    ? '#fff'
+                    : '#172451',
+                  fontSize: '16px',
+                  fontWeight: 800,
+                }}
+              >
+                {plan.button}
+              </button>
+            </div>
+          ))}
+        </div>
+
+        {selectedPlan && selectedPlan.id !== 'free' && (
+          <div
+            className="card"
+            style={{
+              marginTop: '25px',
+              padding: '20px',
+              textAlign: 'center',
+              position: 'relative',
+              zIndex: 5,
+            }}
+          >
+            <h3>
+              Selected: {selectedPlan.name}
+            </h3>
+
+            <p>
+              Amount:{' '}
+              <strong>
+                {selectedPlan.amount}
+              </strong>
+            </p>
+
+            {paymentError && (
+              <p
+                style={{
+                  color: '#b00020',
+                  fontWeight: 700,
+                }}
+              >
+                {paymentError}
+              </p>
+            )}
+
+            <button
+              type="button"
+              disabled={paymentLoading}
+              style={{
+                marginTop: '10px',
+                padding: '12px 25px',
+                border: 'none',
+                borderRadius: '10px',
+                background: '#172451',
+                color: '#fff',
+                fontWeight: 800,
+                cursor: paymentLoading ? 'wait' : 'pointer',
+                opacity: paymentLoading ? 0.72 : 1,
+              }}
+              onClick={handlePayment}
+            >
+              {paymentLoading
+                ? 'Starting Payment...'
+                : 'Continue to Payment'}
+            </button>
+          </div>
+        )}
+      </div>
+    </>
+  );
+}
+
+
+
+

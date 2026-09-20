@@ -1,0 +1,712 @@
+import bank from './src/data/careerQuestions/v7/index.js';
+
+const CLASS_KEY = 'graduate';
+
+/*
+|--------------------------------------------------------------------------
+| Resolve Graduate question bank safely
+|--------------------------------------------------------------------------
+*/
+
+function resolveGraduateQuestions(source) {
+  const directCandidates = [
+    source?.[CLASS_KEY],
+    source?.graduate,
+    source?.GRADUATE,
+
+    source?.questions?.[CLASS_KEY],
+    source?.questions?.graduate,
+    source?.questions?.GRADUATE,
+
+    source?.classes?.[CLASS_KEY],
+    source?.classes?.graduate,
+    source?.classes?.GRADUATE,
+
+    source?.questionBank?.[CLASS_KEY],
+    source?.questionBank?.graduate,
+    source?.questionBank?.GRADUATE,
+
+    source?.careerQuestions?.[CLASS_KEY],
+    source?.careerQuestions?.graduate,
+    source?.careerQuestions?.GRADUATE,
+  ];
+
+  for (const candidate of directCandidates) {
+    if (
+      Array.isArray(candidate) &&
+      candidate.length > 0
+    ) {
+      return candidate;
+    }
+  }
+
+  /*
+  |--------------------------------------------------------------------------
+  | If default export itself is already an array
+  |--------------------------------------------------------------------------
+  */
+
+  if (Array.isArray(source)) {
+    /*
+    | First try to identify Graduate rows explicitly.
+    */
+
+    const graduateRows =
+      source.filter(question => {
+        const classValue =
+          question?.classKey ??
+          question?.class ??
+          question?.studentClass ??
+          question?.level ??
+          question?.className ??
+          '';
+
+        return (
+          String(classValue)
+            .trim()
+            .toLowerCase() ===
+          CLASS_KEY
+        );
+      });
+
+    if (graduateRows.length > 0) {
+      return graduateRows;
+    }
+
+    /*
+    | If the imported array itself contains exactly the
+    | Graduate bank, use it directly.
+    */
+
+    if (source.length === 500) {
+      return source;
+    }
+  }
+
+  /*
+  |--------------------------------------------------------------------------
+  | Search one level deeper for an array that looks like the
+  | Graduate question collection.
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    source &&
+    typeof source === 'object'
+  ) {
+    for (const value of Object.values(source)) {
+      if (!Array.isArray(value)) {
+        continue;
+      }
+
+      if (value.length === 500) {
+        return value;
+      }
+
+      const graduateRows =
+        value.filter(question => {
+          if (
+            !question ||
+            typeof question !== 'object'
+          ) {
+            return false;
+          }
+
+          const classValue =
+            question.classKey ??
+            question.class ??
+            question.studentClass ??
+            question.level ??
+            question.className ??
+            '';
+
+          return (
+            String(classValue)
+              .trim()
+              .toLowerCase() ===
+            CLASS_KEY
+          );
+        });
+
+      if (graduateRows.length > 0) {
+        return graduateRows;
+      }
+    }
+  }
+
+  return [];
+}
+
+/*
+|--------------------------------------------------------------------------
+| Utilities
+|--------------------------------------------------------------------------
+*/
+
+function countBy(items, getter) {
+  const map = new Map();
+
+  for (const item of items) {
+    const value = getter(item);
+
+    if (Array.isArray(value)) {
+      for (const rawValue of value) {
+        const key =
+          String(rawValue || '')
+            .trim() ||
+          '(empty)';
+
+        map.set(
+          key,
+          (map.get(key) || 0) + 1
+        );
+      }
+
+      continue;
+    }
+
+    const key =
+      String(value || '')
+        .trim() ||
+      '(empty)';
+
+    map.set(
+      key,
+      (map.get(key) || 0) + 1
+    );
+  }
+
+  return [...map.entries()]
+    .sort(
+      (a, b) =>
+        b[1] - a[1]
+    );
+}
+
+function printDistribution(
+  title,
+  rows,
+  total
+) {
+  console.log('');
+  console.log(title);
+  console.log('-'.repeat(60));
+
+  for (
+    const [name, count]
+    of rows
+  ) {
+    const pct =
+      total > 0
+        ? (
+            (count / total) *
+            100
+          ).toFixed(1)
+        : '0.0';
+
+    console.log(
+      `${String(name).padEnd(32)} ${String(count).padStart(4)}  ${pct.padStart(6)}%`
+    );
+  }
+}
+
+function hasValues(value) {
+  return (
+    Array.isArray(value) &&
+    value.length > 0
+  );
+}
+
+/*
+|--------------------------------------------------------------------------
+| Resolve questions
+|--------------------------------------------------------------------------
+*/
+
+const questions =
+  resolveGraduateQuestions(bank);
+
+if (questions.length === 0) {
+  console.error('');
+  console.error(
+    'ERROR: Graduate questions could not be resolved.'
+  );
+
+  console.error(
+    'Top-level bank type:',
+    Array.isArray(bank)
+      ? 'array'
+      : typeof bank
+  );
+
+  if (
+    bank &&
+    typeof bank === 'object' &&
+    !Array.isArray(bank)
+  ) {
+    console.error(
+      'Top-level bank keys:',
+      Object.keys(bank)
+    );
+  }
+
+  process.exit(1);
+}
+
+/*
+|--------------------------------------------------------------------------
+| Header
+|--------------------------------------------------------------------------
+*/
+
+console.log('');
+console.log(
+  '========================================'
+);
+console.log(
+  'GRADUATE QUESTION BALANCE AUDIT'
+);
+console.log(
+  '========================================'
+);
+console.log(
+  `Questions: ${questions.length}`
+);
+
+/*
+|--------------------------------------------------------------------------
+| Trait distribution
+|--------------------------------------------------------------------------
+*/
+
+const traitRows =
+  countBy(
+    questions,
+    question =>
+      question.trait
+  );
+
+printDistribution(
+  'TRAIT DISTRIBUTION',
+  traitRows,
+  questions.length
+);
+
+const traitCounts =
+  traitRows.map(
+    ([, count]) => count
+  );
+
+const traitMin =
+  traitCounts.length > 0
+    ? Math.min(...traitCounts)
+    : 0;
+
+const traitMax =
+  traitCounts.length > 0
+    ? Math.max(...traitCounts)
+    : 0;
+
+const traitAverage =
+  traitRows.length > 0
+    ? questions.length /
+      traitRows.length
+    : 0;
+
+console.log('');
+console.log(
+  `Traits: ${traitRows.length}`
+);
+console.log(
+  `Average questions / trait: ${traitAverage.toFixed(2)}`
+);
+console.log(
+  `Minimum trait count: ${traitMin}`
+);
+console.log(
+  `Maximum trait count: ${traitMax}`
+);
+console.log(
+  `Max/min difference: ${traitMax - traitMin}`
+);
+
+/*
+|--------------------------------------------------------------------------
+| Restriction coverage
+|--------------------------------------------------------------------------
+|
+| Important:
+| These names match the structure visible in your earlier
+| structural audit:
+|
+| degrees
+| specializations
+| statuses
+| experiences
+| goals
+| skills
+| careers
+|--------------------------------------------------------------------------
+*/
+
+const restrictionChecks = [
+  [
+    'Degree',
+    question =>
+      question.degrees,
+  ],
+  [
+    'Specialization',
+    question =>
+      question.specializations,
+  ],
+  [
+    'Status',
+    question =>
+      question.statuses,
+  ],
+  [
+    'Experience',
+    question =>
+      question.experiences ??
+      question.experienceLevels,
+  ],
+  [
+    'Goal',
+    question =>
+      question.goals,
+  ],
+  [
+    'Skill',
+    question =>
+      question.skills,
+  ],
+  [
+    'Career',
+    question =>
+      question.careers,
+  ],
+];
+
+console.log('');
+console.log(
+  'RESTRICTION COVERAGE'
+);
+console.log(
+  '-'.repeat(60)
+);
+
+for (
+  const [label, getter]
+  of restrictionChecks
+) {
+  const count =
+    questions.filter(
+      question =>
+        hasValues(
+          getter(question)
+        )
+    ).length;
+
+  const pct =
+    questions.length > 0
+      ? (
+          (count /
+            questions.length) *
+          100
+        ).toFixed(1)
+      : '0.0';
+
+  console.log(
+    `${label.padEnd(22)} ${String(count).padStart(4)} / ${questions.length}  ${pct.padStart(6)}%`
+  );
+}
+
+/*
+|--------------------------------------------------------------------------
+| Core questions
+|--------------------------------------------------------------------------
+|
+| Your previous audit reported:
+|
+| Potential core: 32
+|
+| Some banks may not explicitly use core/isCore.
+| So we support explicit markers first.
+|--------------------------------------------------------------------------
+*/
+
+const explicitCore =
+  questions.filter(
+    question =>
+      question.core === true ||
+      question.isCore === true
+  );
+
+const unrestrictedCore =
+  questions.filter(
+    question => {
+      const hasDegree =
+        hasValues(
+          question.degrees
+        );
+
+      const hasSpecialization =
+        hasValues(
+          question.specializations
+        );
+
+      const hasStatus =
+        hasValues(
+          question.statuses
+        );
+
+      const hasExperience =
+        hasValues(
+          question.experiences ??
+          question.experienceLevels
+        );
+
+      const hasGoal =
+        hasValues(
+          question.goals
+        );
+
+      const hasSkill =
+        hasValues(
+          question.skills
+        );
+
+      return (
+        !hasDegree &&
+        !hasSpecialization &&
+        !hasStatus &&
+        !hasExperience &&
+        !hasGoal &&
+        !hasSkill
+      );
+    }
+  );
+
+const core =
+  explicitCore.length > 0
+    ? explicitCore
+    : unrestrictedCore;
+
+console.log('');
+console.log(
+  'CORE QUESTION COVERAGE'
+);
+console.log(
+  '-'.repeat(60)
+);
+
+console.log(
+  `Core detection: ${
+    explicitCore.length > 0
+      ? 'explicit core/isCore'
+      : 'unrestricted fallback'
+  }`
+);
+
+console.log(
+  `Core questions: ${core.length}`
+);
+
+for (
+  const [label, getter]
+  of restrictionChecks
+) {
+  const restricted =
+    core.filter(
+      question =>
+        hasValues(
+          getter(question)
+        )
+    ).length;
+
+  console.log(
+    `${label.padEnd(22)} ${restricted}`
+  );
+}
+
+/*
+|--------------------------------------------------------------------------
+| Core questions by trait
+|--------------------------------------------------------------------------
+*/
+
+console.log('');
+console.log(
+  'CORE QUESTIONS BY TRAIT'
+);
+console.log(
+  '-'.repeat(60)
+);
+
+const coreTraitRows =
+  countBy(
+    core,
+    question =>
+      question.trait
+  );
+
+for (
+  const [trait, count]
+  of coreTraitRows
+) {
+  console.log(
+    `${String(trait).padEnd(32)} ${count}`
+  );
+}
+
+/*
+|--------------------------------------------------------------------------
+| Trait balance
+|--------------------------------------------------------------------------
+*/
+
+const LOWER_LIMIT =
+  Math.floor(
+    traitAverage * 0.75
+  );
+
+const UPPER_LIMIT =
+  Math.ceil(
+    traitAverage * 1.25
+  );
+
+const underrepresented =
+  traitRows.filter(
+    ([, count]) =>
+      count < LOWER_LIMIT
+  );
+
+const overrepresented =
+  traitRows.filter(
+    ([, count]) =>
+      count > UPPER_LIMIT
+  );
+
+console.log('');
+console.log(
+  'BALANCE FLAGS'
+);
+console.log(
+  '-'.repeat(60)
+);
+
+console.log(
+  `Expected rough range: ${LOWER_LIMIT}-${UPPER_LIMIT}`
+);
+
+if (
+  underrepresented.length === 0 &&
+  overrepresented.length === 0
+) {
+  console.log(
+    'No major trait imbalance detected.'
+  );
+} else {
+  if (
+    underrepresented.length > 0
+  ) {
+    console.log('');
+    console.log(
+      'Underrepresented traits:'
+    );
+
+    for (
+      const [trait, count]
+      of underrepresented
+    ) {
+      console.log(
+        `  ${trait}: ${count}`
+      );
+    }
+  }
+
+  if (
+    overrepresented.length > 0
+  ) {
+    console.log('');
+    console.log(
+      'Overrepresented traits:'
+    );
+
+    for (
+      const [trait, count]
+      of overrepresented
+    ) {
+      console.log(
+        `  ${trait}: ${count}`
+      );
+    }
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+| Expected structural values
+|--------------------------------------------------------------------------
+*/
+
+console.log('');
+console.log(
+  'EXPECTED STRUCTURE CHECK'
+);
+console.log(
+  '-'.repeat(60)
+);
+
+console.log(
+  `500 questions: ${
+    questions.length === 500
+      ? 'PASS'
+      : 'FAIL'
+  }`
+);
+
+console.log(
+  `16 traits: ${
+    traitRows.length === 16
+      ? 'PASS'
+      : 'FAIL'
+  }`
+);
+
+console.log(
+  `Trait balance: ${
+    underrepresented.length === 0 &&
+    overrepresented.length === 0
+      ? 'PASS'
+      : 'REVIEW'
+  }`
+);
+
+/*
+|--------------------------------------------------------------------------
+| Final result
+|--------------------------------------------------------------------------
+*/
+
+const passed =
+  questions.length === 500 &&
+  traitRows.length === 16 &&
+  underrepresented.length === 0 &&
+  overrepresented.length === 0;
+
+console.log('');
+console.log(
+  '========================================'
+);
+
+console.log(
+  passed
+    ? 'RESULT: PASS'
+    : 'RESULT: REVIEW'
+);
+
+console.log(
+  '========================================'
+);

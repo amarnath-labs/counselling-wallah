@@ -1,0 +1,52 @@
+export const TRAIT_DEFINITIONS = {
+  technology: { label: 'Technology', group: 'interest' },
+  healthcare: { label: 'Healthcare', group: 'interest' },
+  business: { label: 'Business', group: 'interest' },
+  creative: { label: 'Creative', group: 'interest' },
+  law: { label: 'Law', group: 'interest' },
+  research: { label: 'Research', group: 'interest' },
+  publicService: { label: 'Public Service', group: 'interest' },
+
+  analytical: { label: 'Analytical Thinking', group: 'strength' },
+  numerical: { label: 'Numerical Ability', group: 'strength' },
+  communication: { label: 'Communication', group: 'strength' },
+  technical: { label: 'Technical Problem Solving', group: 'strength' },
+  leadership: { label: 'Leadership', group: 'strength' },
+  organization: { label: 'Organization', group: 'strength' },
+  spatial: { label: 'Spatial Thinking', group: 'strength' },
+
+  people: { label: 'People-Oriented Work', group: 'work-style' },
+  independent: { label: 'Independent Work', group: 'work-style' },
+  structured: { label: 'Structured Work', group: 'work-style' },
+  dynamic: { label: 'Dynamic Work', group: 'work-style' },
+  fieldWork: { label: 'Field Work', group: 'work-style' },
+  deskWork: { label: 'Desk Work', group: 'work-style' },
+  handsOn: { label: 'Hands-On Work', group: 'work-style' },
+
+  income: { label: 'Income', group: 'career-value' },
+  stability: { label: 'Stability', group: 'career-value' },
+  impact: { label: 'Impact', group: 'career-value' },
+  creativityValue: { label: 'Creativity', group: 'career-value' },
+  autonomy: { label: 'Autonomy', group: 'career-value' },
+  workLifeBalance: { label: 'Work-Life Balance', group: 'career-value' },
+
+  software: { label: 'Software', group: 'professional-signal' },
+  data: { label: 'Data', group: 'professional-signal' },
+  ai: { label: 'AI / Machine Learning', group: 'professional-signal' },
+  electronics: { label: 'Electronics', group: 'professional-signal' },
+  embedded: { label: 'Embedded / IoT', group: 'professional-signal' },
+  vlsi: { label: 'VLSI / Semiconductors', group: 'professional-signal' },
+  coreEngineering: { label: 'Core Engineering', group: 'professional-signal' },
+  management: { label: 'Management', group: 'professional-signal' },
+  finance: { label: 'Finance', group: 'professional-signal' },
+  marketing: { label: 'Marketing', group: 'professional-signal' },
+  design: { label: 'Design', group: 'professional-signal' },
+};
+
+export const CORE_TRAITS_BY_STAGE = {
+  foundation: ['technology', 'creative', 'analytical', 'communication', 'people', 'handsOn'],
+  class10: ['technology', 'creative', 'analytical', 'numerical', 'communication', 'people'],
+  'senior-secondary': ['technology', 'analytical', 'numerical', 'communication', 'research', 'people'],
+  college: ['technical', 'analytical', 'communication', 'software', 'data', 'electronics', 'management'],
+  graduate: ['technical', 'analytical', 'communication', 'software', 'data', 'electronics', 'management'],
+};

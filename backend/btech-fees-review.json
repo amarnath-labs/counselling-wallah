@@ -1,0 +1,39 @@
+[
+  {
+    "college_id": "indian-institute-of-technology-roorkee",
+    "name": "Indian Institute of Technology Roorkee",
+    "source_url": "https://iitr.ac.in/Academics/Institute%20Fees.html",
+    "source_type": "html",
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "confidence_score": 15,
+    "status": "review",
+    "features": {
+      "btech": true,
+      "scope": "all_btech_branches_candidate",
+      "tuition": false,
+      "admission": false,
+      "hostel": false,
+      "mess": false,
+      "total": false,
+      "caution": false,
+      "annual": false,
+      "semester": false,
+      "category": false,
+      "incomeRule": false,
+      "exemption": false,
+      "foreign": false,
+      "amounts": 2,
+      "signals": 2,
+      "semesters": [],
+      "tuitionCandidates": []
+    },
+    "extracted": {
+      "admission_fee": null,
+      "hostel_fee_candidate": null,
+      "mess_fee_candidate": null,
+      "caution_deposit": null
+    },
+    "reasons": [],
+    "verification_status": "pending_review"
+  }
+]

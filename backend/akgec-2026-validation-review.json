@@ -1,0 +1,9 @@
+{
+  "general": [],
+  "fee_waiver": [],
+  "hostel": [
+    "Five hostel totals and Rs 10,000 refundable security are detected, but exact room/gender column labels are not sufficiently verified. Hostel import remains blocked."
+  ],
+  "academic_import_allowed": true,
+  "hostel_import_allowed": false
+}

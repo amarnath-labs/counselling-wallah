@@ -1,0 +1,2862 @@
+{
+  "generatedAt": "2026-09-13T15:28:23.670Z",
+  "readOnly": true,
+  "missingMappings": 36,
+  "results": [
+    {
+      "collegeId": "indian-institute-of-technology-mandi",
+      "college": "Indian Institute of Technology Mandi",
+      "program2024": "Data Science and Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 50,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "99",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7778
+        },
+        {
+          "branchId": "104",
+          "branchName": "Quantum Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7778
+        },
+        {
+          "branchId": "100",
+          "branchName": "Data Science and Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "branchId": "92",
+          "branchName": "B.Tech in Materials Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6364
+        },
+        {
+          "branchId": "95",
+          "branchName": "Bio Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "branchId": "98",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7778
+        },
+        {
+          "program": "Data Science and Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "program": "B.Tech in Materials Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6364
+        },
+        {
+          "program": "Bio Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7778
+        },
+        {
+          "program": "Quantum Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7778
+        },
+        {
+          "program": "Data Science and Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "program": "B.Tech in Materials Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6364
+        },
+        {
+          "program": "Bio Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-indore",
+      "college": "Indian Institute of Technology Indore",
+      "program2024": "Space Sciences and Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 40,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "139",
+          "branchName": "Space Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7778
+        },
+        {
+          "branchId": "132",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "130",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "branchId": "131",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "branchId": "133",
+          "branchName": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "branchId": "134",
+          "branchName": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Space Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7778
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Space Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7778
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-madras",
+      "college": "Indian Institute of Technology Madras",
+      "program2024": "Physics (5 Years, Bachelor of Science and Master of Science (Dual Degree))",
+      "affectedRows": 40,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "208",
+          "branchName": "Aerospace Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.5833
+        },
+        {
+          "branchId": "218",
+          "branchName": "Engineering Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.5833
+        },
+        {
+          "branchId": "224",
+          "branchName": "Physics (4 Years, Bachelor of Science)",
+          "similarity": 0.5556
+        },
+        {
+          "branchId": "216",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "211",
+          "branchName": "Biological Science (4 Years, Bachelor of Science)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "219",
+          "branchName": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Aerospace Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.5833
+        },
+        {
+          "program": "Engineering Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.5833
+        },
+        {
+          "program": "Physics (4 Years, Bachelor of Science)",
+          "similarity": 0.5556
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Biological Science (4 Years, Bachelor of Science)",
+          "similarity": 0.4
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Aerospace Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.5833
+        },
+        {
+          "program": "Engineering Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.5833
+        },
+        {
+          "program": "Physics (4 Years, Bachelor of Science)",
+          "similarity": 0.5556
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Biological Science (4 Years, Bachelor of Science)",
+          "similarity": 0.4
+        }
+      ]
+    },
+    {
+      "collegeId": "iit-gandhinagar",
+      "college": "IIT Gandhinagar",
+      "program2024": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 45,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "226",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "227",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "231",
+          "branchName": "Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "230",
+          "branchName": "Integrated Circuit Design & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.3571
+        },
+        {
+          "branchId": "225",
+          "branchName": "Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "similarity": 0.3077
+        },
+        {
+          "branchId": "45",
+          "branchName": "CSE",
+          "similarity": 0
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7273
+        },
+        {
+          "program": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7273
+        },
+        {
+          "program": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        }
+      ]
+    },
+    {
+      "collegeId": "iit-gandhinagar",
+      "college": "IIT Gandhinagar",
+      "program2024": "Electrical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 45,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "226",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "227",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "231",
+          "branchName": "Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "230",
+          "branchName": "Integrated Circuit Design & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.3846
+        },
+        {
+          "branchId": "225",
+          "branchName": "Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "47",
+          "branchName": "Electrical",
+          "similarity": 0.1
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ]
+    },
+    {
+      "collegeId": "iit-gandhinagar",
+      "college": "IIT Gandhinagar",
+      "program2024": "Mechanical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 45,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "226",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "227",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "231",
+          "branchName": "Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "230",
+          "branchName": "Integrated Circuit Design & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.3846
+        },
+        {
+          "branchId": "225",
+          "branchName": "Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "46",
+          "branchName": "Mechanical",
+          "similarity": 0.1
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "program2024": "Biochemical Engineering with M.Tech. in Biochemical Engineering and Biotechnology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 36,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "315",
+          "branchName": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4286
+        },
+        {
+          "branchId": "330",
+          "branchName": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "320",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.375
+        },
+        {
+          "branchId": "316",
+          "branchName": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "317",
+          "branchName": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "318",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4286
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.375
+        },
+        {
+          "program": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "program": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4286
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.375
+        },
+        {
+          "program": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "program": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "program2024": "Bioengineering with M.Tech in Biomedical Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 40,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "2690",
+          "branchName": "Bioengineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3846
+        },
+        {
+          "branchId": "316",
+          "branchName": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3571
+        },
+        {
+          "branchId": "325",
+          "branchName": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "326",
+          "branchName": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "330",
+          "branchName": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "320",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3125
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Bioengineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3846
+        },
+        {
+          "program": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "program": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3125
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3571
+        },
+        {
+          "program": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "program": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3125
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "program2024": "Ceramic Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 35,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "317",
+          "branchName": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "330",
+          "branchName": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "branchId": "320",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "315",
+          "branchName": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "316",
+          "branchName": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "318",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "program2024": "Civil Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 45,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "319",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "330",
+          "branchName": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "branchId": "320",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "315",
+          "branchName": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "316",
+          "branchName": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "317",
+          "branchName": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "program2024": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 55,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "320",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7273
+        },
+        {
+          "branchId": "325",
+          "branchName": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "330",
+          "branchName": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "315",
+          "branchName": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "316",
+          "branchName": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "317",
+          "branchName": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7273
+        },
+        {
+          "program": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7273
+        },
+        {
+          "program": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "program2024": "Electrical Engineering with M.Tech. in Power Electronics (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 50,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "321",
+          "branchName": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "322",
+          "branchName": "Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "330",
+          "branchName": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.375
+        },
+        {
+          "branchId": "320",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3529
+        },
+        {
+          "branchId": "315",
+          "branchName": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3125
+        },
+        {
+          "branchId": "316",
+          "branchName": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3125
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "program": "Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.375
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3529
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3125
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "program": "Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.375
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3529
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3125
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "program2024": "Engineering Physics (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 45,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "323",
+          "branchName": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "330",
+          "branchName": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "branchId": "320",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "315",
+          "branchName": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "316",
+          "branchName": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "317",
+          "branchName": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "program2024": "Industrial Chemistry (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 40,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "324",
+          "branchName": "Industrial Chemistry (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "325",
+          "branchName": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "326",
+          "branchName": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "330",
+          "branchName": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "320",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3846
+        },
+        {
+          "branchId": "2690",
+          "branchName": "Bioengineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Industrial Chemistry (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3846
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Industrial Chemistry (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3846
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "program2024": "Materials Science and Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 40,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "325",
+          "branchName": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "branchId": "320",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "326",
+          "branchName": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "330",
+          "branchName": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "2690",
+          "branchName": "Bioengineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        },
+        {
+          "branchId": "315",
+          "branchName": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Bioengineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "program2024": "Mathematics and Computing (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 55,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "326",
+          "branchName": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "branchId": "325",
+          "branchName": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "330",
+          "branchName": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "320",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3846
+        },
+        {
+          "branchId": "2690",
+          "branchName": "Bioengineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        },
+        {
+          "branchId": "315",
+          "branchName": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "program": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3846
+        },
+        {
+          "program": "Bioengineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "program": "Materials Science and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3846
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "program2024": "Mechanical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 40,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "327",
+          "branchName": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "330",
+          "branchName": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "branchId": "320",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "315",
+          "branchName": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "316",
+          "branchName": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "317",
+          "branchName": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "program2024": "Metallurgical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 45,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "328",
+          "branchName": "Metallurgical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "330",
+          "branchName": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "branchId": "320",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "315",
+          "branchName": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "316",
+          "branchName": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "317",
+          "branchName": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Metallurgical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Metallurgical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "program2024": "Mining Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 35,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "329",
+          "branchName": "Mining Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "330",
+          "branchName": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "branchId": "320",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "315",
+          "branchName": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "316",
+          "branchName": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "317",
+          "branchName": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Mining Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Mining Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "program2024": "Pharmaceutical Engineering & Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 35,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "330",
+          "branchName": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "branchId": "320",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "315",
+          "branchName": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "316",
+          "branchName": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "317",
+          "branchName": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "318",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Pharmaceutical Engineering & Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        }
+      ]
+    },
+    {
+      "collegeId": "maulana-azad-national-institute-of-technology-bhopal",
+      "college": "Maulana Azad National Institute of Technology Bhopal",
+      "program2024": "Materials Science and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 108,
+      "exactSameProgram2025": "Materials Science and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "424",
+          "branchName": "Materials and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.8889
+        },
+        {
+          "branchId": "419",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "branchId": "422",
+          "branchName": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "branchId": "417",
+          "branchName": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "418",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "branchId": "420",
+          "branchName": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Materials Science and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 1
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "program": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Materials and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.8889
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7
+        },
+        {
+          "program": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5
+        }
+      ]
+    },
+    {
+      "collegeId": "national-institute-of-technology-kurukshetra",
+      "college": "National Institute of Technology, Kurukshetra",
+      "program2024": "Architecture and Planning (5 Years, Bachelor of Architecture)",
+      "affectedRows": 81,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "579",
+          "branchName": "Architecture (5 Years, Bachelor of Architecture)",
+          "similarity": 0.6667
+        },
+        {
+          "branchId": "592",
+          "branchName": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.4444
+        },
+        {
+          "branchId": "597",
+          "branchName": "ROBOTICS & AUTOMATION (4 Years, Bachelor of Technology)",
+          "similarity": 0.4444
+        },
+        {
+          "branchId": "584",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "588",
+          "branchName": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "595",
+          "branchName": "Microelectronics & VLSI Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Architecture (5 Years, Bachelor of Architecture)",
+          "similarity": 0.6667
+        },
+        {
+          "program": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.4444
+        },
+        {
+          "program": "ROBOTICS & AUTOMATION (4 Years, Bachelor of Technology)",
+          "similarity": 0.4444
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "program": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Architecture (5 Years, Bachelor of Architecture)",
+          "similarity": 0.6667
+        },
+        {
+          "program": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.4444
+        },
+        {
+          "program": "ROBOTICS & AUTOMATION (4 Years, Bachelor of Technology)",
+          "similarity": 0.4444
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "program": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        }
+      ]
+    },
+    {
+      "collegeId": "sardar-vallabhbhai-national-institute-of-technology-surat",
+      "college": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "program2024": "Chemistry (5 Years, Integrated Master of Science)",
+      "affectedRows": 55,
+      "exactSameProgram2025": "Chemistry (5 Years, Integrated Master of Science)",
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "689",
+          "branchName": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.8571
+        },
+        {
+          "branchId": "697",
+          "branchName": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "branchId": "700",
+          "branchName": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "branchId": "696",
+          "branchName": "Industrial Chemistry (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "691",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2727
+        },
+        {
+          "branchId": "686",
+          "branchName": "Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "similarity": 0.2
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Chemistry (5 Years, Integrated Master of Science)",
+          "similarity": 1
+        },
+        {
+          "program": "Mathematics (5 Years, Integrated Master of Science)",
+          "similarity": 0.7143
+        },
+        {
+          "program": "Physics (5 Years, Integrated Master of Science)",
+          "similarity": 0.7143
+        },
+        {
+          "program": "Industrial Chemistry (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2727
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.8571
+        },
+        {
+          "program": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "program": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "program": "Industrial Chemistry (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2727
+        }
+      ]
+    },
+    {
+      "collegeId": "sardar-vallabhbhai-national-institute-of-technology-surat",
+      "college": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "program2024": "Mathematics (5 Years, Integrated Master of Science)",
+      "affectedRows": 55,
+      "exactSameProgram2025": "Mathematics (5 Years, Integrated Master of Science)",
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "697",
+          "branchName": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.8571
+        },
+        {
+          "branchId": "689",
+          "branchName": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "branchId": "700",
+          "branchName": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "branchId": "698",
+          "branchName": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "691",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2727
+        },
+        {
+          "branchId": "686",
+          "branchName": "Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "similarity": 0.2
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Mathematics (5 Years, Integrated Master of Science)",
+          "similarity": 1
+        },
+        {
+          "program": "Chemistry (5 Years, Integrated Master of Science)",
+          "similarity": 0.7143
+        },
+        {
+          "program": "Physics (5 Years, Integrated Master of Science)",
+          "similarity": 0.7143
+        },
+        {
+          "program": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2727
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.8571
+        },
+        {
+          "program": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "program": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "program": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2727
+        }
+      ]
+    },
+    {
+      "collegeId": "sardar-vallabhbhai-national-institute-of-technology-surat",
+      "college": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "program2024": "Physics (5 Years, Integrated Master of Science)",
+      "affectedRows": 57,
+      "exactSameProgram2025": "Physics (5 Years, Integrated Master of Science)",
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "700",
+          "branchName": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.8571
+        },
+        {
+          "branchId": "689",
+          "branchName": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "branchId": "697",
+          "branchName": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "branchId": "695",
+          "branchName": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "branchId": "691",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2727
+        },
+        {
+          "branchId": "686",
+          "branchName": "Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "similarity": 0.2
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Physics (5 Years, Integrated Master of Science)",
+          "similarity": 1
+        },
+        {
+          "program": "Chemistry (5 Years, Integrated Master of Science)",
+          "similarity": 0.7143
+        },
+        {
+          "program": "Mathematics (5 Years, Integrated Master of Science)",
+          "similarity": 0.7143
+        },
+        {
+          "program": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2727
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.8571
+        },
+        {
+          "program": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "program": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "similarity": 0.625
+        },
+        {
+          "program": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "similarity": 0.3333
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2727
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-information-technology-kilohrad-sonepat-haryana",
+      "college": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+      "program2024": "CSE ( Data Science & Analytics) (4 Years, Bachelor of Technology)",
+      "affectedRows": 35,
+      "exactSameProgram2025": "CSE ( Data Science & Analytics) (4 Years, Bachelor of Technology)",
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "752",
+          "branchName": "Computer Science & Engineering (Data Science and Analytics) (4 Years, Bachelor of Technology)",
+          "similarity": 0.7273
+        },
+        {
+          "branchId": "753",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "branchId": "754",
+          "branchName": "Computer Science and Engineering (Artificial Intelligence) (4 Years, Bachelor of Technology)",
+          "similarity": 0.4615
+        },
+        {
+          "branchId": "755",
+          "branchName": "Information Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "CSE ( Data Science & Analytics) (4 Years, Bachelor of Technology)",
+          "similarity": 1
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Information Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Computer Science & Engineering (Data Science and Analytics) (4 Years, Bachelor of Technology)",
+          "similarity": 0.7273
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5455
+        },
+        {
+          "program": "Computer Science and Engineering (Artificial Intelligence) (4 Years, Bachelor of Technology)",
+          "similarity": 0.4615
+        },
+        {
+          "program": "Information Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-information-technology-una-himachal-pradesh",
+      "college": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+      "program2024": "Information Technology (4 Years, Bachelor of Technology)",
+      "affectedRows": 48,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "756",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4444
+        },
+        {
+          "branchId": "759",
+          "branchName": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4444
+        },
+        {
+          "branchId": "758",
+          "branchName": "Computer Science and Engineering (Data Science) (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "757",
+          "branchName": "Computer Science and Engineering (Cyber Security) (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4444
+        },
+        {
+          "program": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4444
+        },
+        {
+          "program": "Computer Science and Engineering (Data Science) (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "program": "Computer Science and Engineering (Cyber Security) (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4444
+        },
+        {
+          "program": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4444
+        },
+        {
+          "program": "Computer Science and Engineering (Data Science) (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "program": "Computer Science and Engineering (Cyber Security) (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        }
+      ]
+    },
+    {
+      "collegeId": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+      "college": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+      "program2024": "B.Tech. in Electronics and Communication Engineering and M.Tech. in VLSI Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 50,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "778",
+          "branchName": "B.Tech. in Electronics and Communication Engineering and M.Tech. in Microelectronics and VLSI Systems (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.8235
+        },
+        {
+          "branchId": "777",
+          "branchName": "B.Tech. in Electronics and Communication Engineering and M.Tech. in Communication Systems (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.8125
+        },
+        {
+          "branchId": "783",
+          "branchName": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5333
+        },
+        {
+          "branchId": "780",
+          "branchName": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.5294
+        },
+        {
+          "branchId": "782",
+          "branchName": "Design Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        },
+        {
+          "branchId": "776",
+          "branchName": "B.Tech in Mechanical Engineering and M.Tech in AI and Robotics (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",
+          "similarity": 0.3684
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "B.Tech. in Electronics and Communication Engineering and M.Tech. in Microelectronics and VLSI Systems (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.8235
+        },
+        {
+          "program": "B.Tech. in Electronics and Communication Engineering and M.Tech. in Communication Systems (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.8125
+        },
+        {
+          "program": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5333
+        },
+        {
+          "program": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.5294
+        },
+        {
+          "program": "Design Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "B.Tech. in Electronics and Communication Engineering and M.Tech. in Microelectronics and VLSI Systems (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.8235
+        },
+        {
+          "program": "B.Tech. in Electronics and Communication Engineering and M.Tech. in Communication Systems (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.8125
+        },
+        {
+          "program": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5333
+        },
+        {
+          "program": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 0.5294
+        },
+        {
+          "program": "Design Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4
+        }
+      ]
+    },
+    {
+      "collegeId": "birla-institute-of-technology-mesra-ranchi",
+      "college": "Birla Institute of Technology, Mesra, Ranchi",
+      "program2024": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+      "affectedRows": 63,
+      "exactSameProgram2025": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "871",
+          "branchName": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)",
+          "similarity": 0.75
+        },
+        {
+          "branchId": "874",
+          "branchName": "Food Engineering and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "870",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "872",
+          "branchName": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "873",
+          "branchName": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "878",
+          "branchName": "Production and Industrial Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+          "similarity": 1
+        },
+        {
+          "program": "Food Engineering and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)",
+          "similarity": 0.75
+        },
+        {
+          "program": "Food Engineering and Technology (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        }
+      ]
+    },
+    {
+      "collegeId": "national-institute-of-advanced-manufacturing-technology-ranchi",
+      "college": "National Institute of Advanced Manufacturing Technology, Ranchi",
+      "program2024": "Metallurgy and Materials Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 52,
+      "exactSameProgram2025": "Metallurgy and Materials Engineering (4 Years, Bachelor of Technology)",
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "906",
+          "branchName": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7778
+        },
+        {
+          "branchId": "904",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "907",
+          "branchName": "Production and Industrial Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "branchId": "2697",
+          "branchName": "Computer Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "branchId": "905",
+          "branchName": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Metallurgy and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 1
+        },
+        {
+          "program": "Production and Industrial Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Computer Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        },
+        {
+          "program": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.7778
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Production and Industrial Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.6
+        },
+        {
+          "program": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.5556
+        }
+      ]
+    },
+    {
+      "collegeId": "university-of-hyderabad",
+      "college": "University of Hyderabad",
+      "program2024": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 35,
+      "exactSameProgram2025": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "963",
+          "branchName": "Computer Science and Engineering (5 Years, Integrated Master of Technology)",
+          "similarity": 0.6667
+        },
+        {
+          "branchId": "964",
+          "branchName": "Materials Engineering (5 Years, Integrated Master of Technology)",
+          "similarity": 0.3846
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "similarity": 1
+        },
+        {
+          "program": "Materials Engineering (5 Years, Integrated Master of Technology)",
+          "similarity": 0.3846
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Computer Science and Engineering (5 Years, Integrated Master of Technology)",
+          "similarity": 0.6667
+        },
+        {
+          "program": "Materials Engineering (5 Years, Integrated Master of Technology)",
+          "similarity": 0.3846
+        }
+      ]
+    },
+    {
+      "collegeId": "birla-institute-of-technology-patna-off-campus",
+      "college": "Birla Institute of Technology, Patna Off-Campus",
+      "program2024": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+      "affectedRows": 62,
+      "exactSameProgram2025": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "1047",
+          "branchName": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)",
+          "similarity": 0.75
+        },
+        {
+          "branchId": "1046",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "1048",
+          "branchName": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "1049",
+          "branchName": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "branchId": "1045",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        },
+        {
+          "branchId": "1051",
+          "branchName": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+          "similarity": 1
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)",
+          "similarity": 0.75
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4167
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3636
+        }
+      ]
+    },
+    {
+      "collegeId": "cu-jharkhand",
+      "college": "CU Jharkhand",
+      "program2024": "Integrated B. Tech. - M. Tech in Civil Engineering (5 Years, Integrated B. Tech. and M. Tech.)",
+      "affectedRows": 26,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "1060",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "1061",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.25
+        },
+        {
+          "branchId": "1063",
+          "branchName": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.25
+        },
+        {
+          "branchId": "1062",
+          "branchName": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1818
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.25
+        },
+        {
+          "program": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.25
+        },
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1818
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.25
+        },
+        {
+          "program": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.25
+        },
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1818
+        }
+      ]
+    },
+    {
+      "collegeId": "cu-jharkhand",
+      "college": "CU Jharkhand",
+      "program2024": "Integrated B. Tech. - M. Tech in Computer Science & Engineering (5 Years, Integrated B. Tech. and M. Tech.)",
+      "affectedRows": 29,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "1061",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "1063",
+          "branchName": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2308
+        },
+        {
+          "branchId": "1060",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1667
+        },
+        {
+          "branchId": "1062",
+          "branchName": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1667
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2308
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1667
+        },
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1667
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2308
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1667
+        },
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1667
+        }
+      ]
+    },
+    {
+      "collegeId": "cu-jharkhand",
+      "college": "CU Jharkhand",
+      "program2024": "Integrated B. Tech. - M. Tech in Electrical Engineering (5 Years, Integrated B. Tech. and M. Tech.)",
+      "affectedRows": 30,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "1062",
+          "branchName": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "branchId": "1061",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.25
+        },
+        {
+          "branchId": "1063",
+          "branchName": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.25
+        },
+        {
+          "branchId": "1060",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1818
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.25
+        },
+        {
+          "program": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.25
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1818
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.3
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.25
+        },
+        {
+          "program": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.25
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1818
+        }
+      ]
+    },
+    {
+      "collegeId": "cu-jharkhand",
+      "college": "CU Jharkhand",
+      "program2024": "Integrated B. Tech.- M. Tech in Metallurgical & Materials Engineering (5 Years, Integrated B. Tech. and M. Tech.)",
+      "affectedRows": 27,
+      "exactSameProgram2025": null,
+      "exactSameProgram2026": null,
+      "topDbCandidates": [
+        {
+          "branchId": "1063",
+          "branchName": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "branchId": "1061",
+          "branchName": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2308
+        },
+        {
+          "branchId": "1060",
+          "branchName": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1667
+        },
+        {
+          "branchId": "1062",
+          "branchName": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1667
+        }
+      ],
+      "top2025Candidates": [
+        {
+          "program": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2308
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1667
+        },
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1667
+        }
+      ],
+      "top2026Candidates": [
+        {
+          "program": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.4545
+        },
+        {
+          "program": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.2308
+        },
+        {
+          "program": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1667
+        },
+        {
+          "program": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "similarity": 0.1667
+        }
+      ]
+    }
+  ]
+}

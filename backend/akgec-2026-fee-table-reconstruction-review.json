@@ -1,0 +1,30 @@
+{
+  "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+  "academic_year": 2026,
+  "sections": [
+    {
+      "section": "GENERAL",
+      "status": "TABLE_RECONSTRUCTION_REQUIRED",
+      "reasons": [
+        "One or more academic-year labels were not reliably reconstructed.",
+        "Four verified annual total-fee values are not available."
+      ]
+    },
+    {
+      "section": "FEE_WAIVER",
+      "status": "TABLE_RECONSTRUCTION_REQUIRED",
+      "reasons": [
+        "One or more academic-year labels were not reliably reconstructed.",
+        "Four verified annual total-fee values are not available."
+      ]
+    },
+    {
+      "section": "HOSTEL",
+      "status": "TABLE_RECONSTRUCTION_REQUIRED",
+      "reasons": [
+        "Room-wise hostel amounts require row/column verification before import."
+      ]
+    }
+  ],
+  "import_allowed": false
+}

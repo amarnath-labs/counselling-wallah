@@ -1,0 +1,571 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 1 of 5 in the fourth batch (NIT Hamirpur). Colleges 2-5 (NIT Jalandhar, NIT Srinagar, NIT Delhi, NIT Goa) to follow in separate responses. Cumulative total after this college: 16 of 31 standard NITs."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Hamirpur",
+        "verified_name": "National Institute of Technology, Hamirpur",
+        "city": "Hamirpur",
+        "state": "Himachal Pradesh",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Regional Engineering College (REC), Hamirpur, established 1986 as a joint venture of the Government of India and Government of Himachal Pradesh; upgraded to NIT/Deemed University status in 2002; declared Institute of National Importance in 2007. Single main campus (~320 acres), located in a hilly, urban setting near Hamirpur town, Himachal Pradesh. No conflicting institutions of similar name identified."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews pages (multiple, including rating-filtered), placement page, and comparison page retrieved."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page and main overview page retrieved with substantive narrative review content."},
+        {"platform": "Careers360", "status": "available", "notes": "Reviews page and course page retrieved; aggregate rating confirmed via a Hamirpur-city B.Tech university listing page. Note: the Careers360 reviews page content showed unusually uniform, generic phrasing across supposedly distinct reviews, raising a similar synthetic-content concern to one flagged earlier for NIT Calicut."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located, including a serious, specific first-person allegation of severe ragging (stripping, forced running) that directly conflicts with several other reassuring 'no ragging' accounts on the same platform for the same institution."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NIT Hamirpur located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/compare-nit-hamirpur-vs-nit-silchar-24395-28583",
+          "aggregate_rating": 4.1,
+          "rating_scale": "out of 5",
+          "review_count": 440,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Hamirpur is rated 4.1 out of 5 by 440 genuine verified students.'"
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://university.careers360.com/colleges/list-of-be-btech-universities-in-hamirpur",
+          "aggregate_rating": 4.4,
+          "rating_scale": "out of 5",
+          "review_count": 199,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Hamirpur (NITH) - National Institute of Technology Hamirpur ... Rating: 4.4/5, 199 Reviews.'"
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://www.careers360.com/university/national-institute-of-technology-hamirpur/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "FLAGGED AS LOW-RELIABILITY: The narrative review text on this page reads as unusually generic and formulaic across what are presented as separate reviews ('Placements are impressive, especially for CSE, ECE, and Mechanical branches... Academics are rigorous, emphasizing innovation, research, and real-world problem solving... Highly qualified professors from IITs and abroad...'), with a structure and tone suggestive of AI-generated or templated content rather than organic individual student voice. No review_items were sourced from this specific page for this reason, consistent with the same caution applied to a similar case for NIT Calicut earlier in this dataset."
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25564-national-institute-of-technology-nit-hamirpur/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippets; only narrative review text present."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "Shiksha", "aspect": "value_for_money", "rating": 3.7, "rating_scale": "out of 5", "source_url": "https://www.shiksha.com/university/nit-hamirpur-national-institute-of-technology-24395/placement", "observed_at": null},
+        {"platform": "Shiksha", "aspect": "value_for_money", "rating": 3.5, "rating_scale": "out of 5", "source_url": "https://www.shiksha.com/university/nit-hamirpur-national-institute-of-technology-24395/placement", "observed_at": null, "notes": "This second value_for_money figure (3.5) was observed alongside the 3.7 figure on the same placement page, apparently scoped to a different course level (M.Tech vs B.Tech) — both recorded as separate observations since the exact scope distinction was not fully clear from the retrieved snippet."}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "NIT Hamirpur",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25564-national-institute-of-technology-nit-hamirpur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Mechanical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Mechanical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placement rate is good in mechanical engineering which is almost 90 percent and average package is 6-8 lakh. From seventh semester students become eligible for college placement. And many good companies visit like JSW, Adani, Reliance and many more. Highest package is 1 crore but it was in IT [sector].'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Hamirpur campus is very beautiful. Also ground is very big. Faculties are very good and supportive. Sports facility and gym facilities are in each hostel.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements are very good and one of the best for core branches with 90+ placement rate; even the core branches placement rate are 85+.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'There are monkeys in the campus, generally they aren't harmful but sometimes they may harm. The campus is too big so people who walk less may have problems.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Hamirpur",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25564-national-institute-of-technology-nit-hamirpur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The college is very prestigious and placement is superb, most of the students placed in final year. The environment of the college is good and laboratory is very good for practical. All the faculty is well qualified and the teaching style is superb.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The professors are not the best, you might find great professors at NIT Hamirpur but most of them are just the typical government job employees trying to pass time.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The students become eligible for placements when they start final year. On an average there's more than 100 companies that come for placements and they almost hire 90% of the batch. The highest package I have heard was 30 LPA for software engineering role.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'In this time when most colleges are losing companies to reach and many students are remaining unemployed, companies are still reaching our institute.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Hamirpur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://shiksha.com/university/national-institute-of-technology-hamirpur-24395/reviews-11?rating=5&sort_by=highest+rating",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "This college has pros and cons, but this is the best among other colleges",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Chemical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Chemical Engineering",
+          "branch_verified": true,
+          "rating": 3.6,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Author: Abhishek Kumar, Batch of 2021. Sub-ratings: Placements 3, Infrastructure 4, Faculty & Course Curriculum 3, Crowd & Campus Life 5, Value for Money 3.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Chemical Engineering",
+              "scope": "branch",
+              "sentiment": "neutral",
+              "evidence_summary": "'The placements are a little bit good, not too much higher, but it was medium. Almost 75% were placed in some national and international [companies]' (sentence truncated in retrieved snippet)."
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The placements are good enough for students in NIT Hamirpur. But, it requires more than [being] a NITian to get good placement. You should be curious about learning things in the whole period of your B.Tech. Also, your CGPA should be above 8... Good CGPA can increase your chances to get a placement but not guarantee your placement.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Hamirpur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://shiksha.com/university/national-institute-of-technology-hamirpur-24395/reviews-11?rating=5&sort_by=highest+rating",
+          "source_review_id": null,
+          "author_display_name": "Rishi Kumar",
+          "review_title": "A review on National institute of technology, Hamirpur",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Chemical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Chemical Engineering",
+          "branch_verified": true,
+          "rating": 4.4,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2021. Sub-ratings: Placements 4, Infrastructure 5, Faculty & Course Curriculum 4, Crowd & Campus Life 5, Value for Money 4.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The placements in NITH are good; this year, we got a higher package of about 75 lacs p.a. in the computer science engineering, and many more companies come for placements for various engineering branches.' Note: reviewer's own branch is Chemical Engineering but this specific claim references CSE."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Hamirpur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/university/nit-hamirpur-national-institute-of-technology-24395/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Most beautiful campus compared to other NITs",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Chemical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Chemical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This is a notably nuanced review: the reviewer explicitly gave only 3 stars despite a very high placement percentage, because most students received a much lower package than the small number of high-profile outliers — a genuine distinction between headline placement rate and typical outcome.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The percentage of students who have been placed this year is approximately 96 percent and last year it was 100 percent. However only 3 to 4 students got a 20 LPA or 24 LPA package and the remaining all got a 5 LPA package which is why I gave 3 stars.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Recent years show great placement sessions for CSE, placement index is 92% for mechanical, and it was 99%. A student of the mechanical engineering department got placed at 205 LPA on campus placement in an international company.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There are very good-quality hostels in our institute. There are a total of 13 hostels at the National Institute of Technology, Hamirpur. The quality of food in our hostel is very good and hygienic. Mess workers are cooperative, and night canteens are present in every hostel. A hospital is also present in our institute.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Faculty members are good. You need to be regular in classes. Almost all students pass the exams. The syllabus here is somewhat scattered. We need to connect them to become industry-ready.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The girls-to-boys ratio is very good here, and all types of a[ctivities are available]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Hamirpur",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/national-institute-of-technology-hamirpur-nit-hamirpur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placement at NIT Hamirpur at good at Computer Science department, which in 2019 is 1.2 crore the highest and in 2018 was 62.5 lacs. The average package as on the official site was about 6.41 lacs in 2016-2017 but has increased in 2017-2018-2019.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Hamirpur",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/national-institute-of-technology-hamirpur-nit-hamirpur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "M.Sc",
+          "course": "M.Sc Physics",
+          "course_verified": true,
+          "department": null,
+          "branch": "Physics",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This item is explicitly M.Sc-scoped, distinct from B.Tech evidence.",
+          "aspect_evidence": [
+            {
+              "aspect": "academics",
+              "target_branch": "Physics",
+              "scope": "programme",
+              "sentiment": "positive",
+              "evidence_summary": "'The teachers are well qualified and experienced. The department is very supportive and nurturing of its students.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Hamirpur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Does-NIT-Hamirpur-involve-ragging-and-upto-what-extent-are-the-seniors-helpful",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Does NIT Hamirpur involve ragging and upto what extent are the seniors helpful?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Self-identified as a first-year student at time of answering.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Being a first year student at the present, I was also afraid of ragging when I got admission in NIT Hamirpur but the scenario is just the opposite. You don't seem to have ragging; it's like you give respect to seniors, they respect you. There is a little introduction thing but that is he[lpful, not harmful]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Hamirpur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Do-they-make-you-dance-or-sing-during-ragging-at-the-NIT-in-Hamirpur-or-just-during-the-introduction",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Do they make you dance or sing during ragging at the NIT in Hamirpur, or just during the introduction?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "IMPORTANT: This is a serious, specific, first-person allegation of severe ragging (involving forced stripping and running) from a self-identified CURRENT first-year CSE student, directly contradicting multiple other 'no ragging' accounts found for the same institution on the same platform. This is preserved factually and without softening per the instruction not to suppress genuine negative evidence, but is presented as a single account requiring careful, non-amplifying handling — the specific details of the incident are summarized only to the extent necessary to convey its severity and category, not reproduced in full graphic detail.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "Self-identified current first-year CSE student describes being 'tagged very badly' along with approximately 20-25 other students by seniors, including being taken to a senior hostel, told to strip at night, and made to run. This is a serious allegation of hazing/ragging that directly conflicts with multiple other accounts on the same platform describing NIT Hamirpur as ragging-free or minimally so."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Hamirpur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-hostel-life-in-NIT-Hamirpur",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is hostel life in NIT Hamirpur?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This page contains both a 2005-2009-era historical account (explicitly framed by its author as 'a story of a different age') and what appears to be a separately generated, more clinical/synthesized 'Summary' paragraph — the latter is flagged as possibly non-organic content given its generic, structured phrasing, distinct from the personal historical anecdote on the same page.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'The hostel life is same as you would experience in other colleges. In NITH, boys change hostels every year and get a new room. Although there are only two hostels for girls, still they get a new room every year.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "Historical account (2005-2009 batch, explicitly noted by the author as potentially outdated): describes starting in Kailash Boys Hostel (KBH), a 'Freshman's path' (jangu rasta) restricting first-months movement, and an early well-networked/computerized campus with gaming culture. Presented as a nostalgic historical account, not a claim about current conditions."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Hamirpur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/What-are-the-rules-for-going-out-at-night-in-NIT-Hamirpur",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "What are the rules for going out at night in NIT Hamirpur?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This answer describes ADMINISTRATIVE curfew/outpass rules, not peer-to-peer ragging, though the author sarcastically notes some people might colloquially call restrictive rules 'ragging.' Classified under administration, distinct from the peer-hazing ragging evidence above.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'If you are a boy then you are somewhat privileged, like you can go out just by filling [an] outpass on any day. But if you are a girl you can go out only on Saturday for 3 hours with an outpass... if even a small issue occurs they fine you Rs 50, [make you] sign an application (if you exceed 3 applications a month they call your parents)... I know no student wants this type of restricted environment, still this place is like this.' Reviewer frames the rules as notably strict, with a gendered asymmetry between male and female student freedoms."
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 11,
+        "independent_sources": 4,
+        "reviews_with_dates": 0,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 11
+      },
+
+      "limitations": [
+        "Reddit: no genuine NIT Hamirpur-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "IMPORTANT: One Quora answer contains a serious, specific first-person allegation of severe ragging (stripping, forced running) from a self-identified current student, which directly conflicts with multiple other 'no ragging' accounts for the same institution found in this same session. Both are preserved as genuinely conflicting evidence rather than reconciled — this should be treated by the backend as a real point of concern requiring careful, non-amplifying interpretation, not dismissed in favor of the more numerous reassuring accounts, and not treated as definitively representative of current institution-wide conditions either.",
+        "The Careers360 reviews page for this institution showed content with unusually generic, templated phrasing across supposedly distinct reviews, raising a synthetic-content concern similar to one previously flagged for NIT Calicut; no review_items were sourced from that specific page for this reason.",
+        "A Quora hostel-life answer contained what appears to be an auto-generated 'Summary' paragraph appended after a genuine personal historical anecdote — the historical anecdote was extracted as evidence, but the summary paragraph's synthetic nature is noted.",
+        "No review in this extraction batch carried an explicit visible date; reviews_with_dates and reviews_last_24_months are both 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all reviews reported on Shiksha or Careers360 for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

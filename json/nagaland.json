@@ -1,0 +1,538 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 4,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 1 of 4 in the sixth and final batch (NIT Nagaland). Colleges 2-4 (NIT Arunachal Pradesh, NIT Sikkim, NIT Andhra Pradesh) to follow in separate responses. Cumulative total after this college: 26 of 31 standard NITs."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Nagaland",
+        "verified_name": "National Institute of Technology, Nagaland (NITN)",
+        "city": "Chümoukedima, near Dimapur",
+        "state": "Nagaland",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "One of ten new NITs established 2010; mentored initially by NIT Silchar for its first two years, with the founding batch (2010-2014) studying at NIT Silchar's campus before NIT Nagaland relocated to its own permanent site (~291 acres) at Chümoukedima, near Dimapur, in September 2012. Colloquially referred to by some sources and reviewers as 'NIT Dimapur' — one Quora answer found in this session directly and explicitly clarifies that the correct name is 'NIT Nagaland,' not 'NIT Dimapur,' noting this is a common point of confusion; this is presented as a naming-variance clarification rather than a distinct-institution conflict, since both names refer to the same institution. No conflicting separate institutions of similar name were identified."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews page (multiple), faculty page, placement page, and course-specific page retrieved with substantial branch- and batch-specific review content, including a specific detail about temporary 'bamboo classrooms' during a construction delay."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page and hostel-specific page retrieved with substantive narrative review content."},
+        {"platform": "CollegeDekho", "status": "available", "notes": "Reviews page retrieved with substantive narrative review content."},
+        {"platform": "Zollege", "status": "available", "notes": "Overview and placement pages retrieved with narrative review content, including a specific concern about senior-junior hostel separation limiting interaction."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located, including one directly addressing the 'NIT Nagaland vs NIT Dimapur' naming point and a safety question from a prospective North Indian student."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "Targeted search for NIT Nagaland/NIT Dimapur on Reddit did not surface genuine reddit.com-hosted threads in this session; marked unavailable rather than fabricated."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-nagaland-national-institute-of-technology-dimapur-39201/compare",
+          "aggregate_rating": 3.9,
+          "rating_scale": "out of 5",
+          "review_count": 41,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Dimapur | 3.9(41 Reviews) | 154 Student Q&A.'"
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-nagaland-national-institute-of-technology-dimapur-39201/faculty",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 42,
+          "verified_review_count": 40,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Out of 42 published reviews, 40 reviews are verified.' Distinct count (42) from the compare page (41) observed in this same session; both retained as separate observations."
+        },
+        {
+          "platform": "CollegeDekho",
+          "source_url": "https://www.collegedekho.com/colleges/nit-nagaland-reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippets; only narrative review text present."
+        },
+        {
+          "platform": "UniversityKart",
+          "source_url": "https://universitykart.com/university/universitydetails/nit-dimapur/rating-reviews",
+          "aggregate_rating": 4.5,
+          "rating_scale": "out of 5",
+          "review_count": 470,
+          "verified_review_count": 470,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "FLAGGED AS LOW-RELIABILITY: This page's aggregate figures (4.5/5, 470 reviews) and sub-ratings appeared alongside content that also referenced 'Indian Institute of Technology Delhi (IITD)' and 'IITD 2021 batch Btech,' suggesting this page may be a generic/templated aggregator page not specifically or exclusively curated for NIT Nagaland, or that content from a different institution's page has bled into this one. Given this apparent cross-contamination, this observation is recorded with observation_status 'unavailable' rather than 'confirmed,' and no review_items were sourced from this specific page."
+        }
+      ],
+
+      "platform_aspect_ratings": [],
+
+      "review_items": [
+        {
+          "college_name": "NIT Nagaland",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/reviews/129600-longshibemo-jami-review-on-national-institute-of-technology-nit-dimapur",
+          "source_review_id": "129600",
+          "author_display_name": "Longshibemo Jami",
+          "review_title": null,
+          "review_date": "2019-01-31",
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Civil Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch 2022.",
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'College is very good, class infrastructure is also good, faculty is also good, canteen is also available in campus, campus is also very beautiful.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Separate hostel for every year, boys hostel available, ragging free campus.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Mess food quality is average.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'One drawback is that the college doesn't have a permanent campus.' (Note: this appears inconsistent with other sources describing the permanent Chümoukedima campus as operational since 2012; possibly reflects an earlier period or a specific building/facility still under development at time of writing.)"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Our seniors and alumni are very helpful and also very kind and polite to us. Many a times we used to have an interactive session with our seniors and also sometimes with our alumni. They motivate us, teach us and always show us the right path.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Nagaland",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/28219-national-institute-of-technology-nit-dimapur/hostel",
+          "source_review_id": null,
+          "author_display_name": "Arvind",
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The hostel is good and the rooms are available on [a] sharing basis. The rooms have basic facilities like a bed, study table and almirahs. The rooms are properly cleaned and the bathrooms are cleaned properly. The hostel mess food quality is good but the menu is limited. The hostel has 24 hours of water and power supply.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Nagaland",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-nagaland-national-institute-of-technology-dimapur-39201/course-b-tech-in-computer-science-and-engineering-197362",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Review of NIT Nagaland - National Institute of Technology",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This item documents a specific, unusual, and verifiable infrastructure detail — temporary 'bamboo classrooms' used due to a construction delay dating back to the COVID period. This is a distinctive, concrete claim rather than a generic infrastructure complaint.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Here is 100 percent placement for the students who are appearing for campus interviews without arrears. Till today, the average package for our passing-out batch (2024) is INR 8 LPA. The highest package is INR 15 to 20 LPA since there are many companies coming to campus between February and April.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Wi-Fi connection is good. Now the library is small and is in the administrative block. The two-story library is under construction (from Corona time). Our classrooms are also under construction, just beside the library. Now we are having classes in bamboo classrooms, which are temporary.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Medical facilities are available. 24/7 hot water is available in hostels. The daily hostel cleaning is done. Sports are conducted every semester, football ground was recently constructed.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Nagaland",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-nagaland-national-institute-of-technology-dimapur-39201/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "M.Sc",
+          "course": "M.Sc Physics",
+          "course_verified": true,
+          "department": null,
+          "branch": "Physics",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2021. Explicitly M.Sc-scoped.",
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'To relax and chill, various activities are performed in the college, some of them include introducing dedicated rooms, fitness centers, and badminton courts. Hostel zones were peaceful but highly restrictive.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Professors had secured good experience with Certificates of Excellence in the profession of teaching, while assistant professors had a little bit of experience but provided good guidance to the students till the completion of the course.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Nagaland",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-nagaland-national-institute-of-technology-dimapur-39201/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'Electronics and Communication Engineering (ECE) department at NIT Nagaland has shown a steady placement record in recent years. In the 2022-2023 placement season, 14.08% of ECE students secured job offers. The highest salary package offered was 7 LPA, while the average package offered was 5 LPA.' (Note: 14.08% is a notably low placement percentage relative to other branches/institutions in this dataset, despite the reviewer's opening description as a 'steady' record.)"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'The infrastructure is not bad, but it is decent. I like it, but there isn't a high-quality playground for students to play on. They also have restrictions on the Wi-Fi.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Hostels are not well managed, and the mess food is decent for non-vegetarians, but pure vegetarians will only get paneer.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Nagaland",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-nagaland-national-institute-of-technology-dimapur-39201/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Mechanical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2024.",
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Nagaland is having a well maintained and developed infrastructure for our course. College has a big campus with all kinds of necessary facilities. Wi-Fi, labs, library, canteen, hostel, sports and other modern facilities are available for the students.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Food in the hostel mess is good. Facilities are also of good quality at the hostel.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Teachers of the college are helpful, qualified and knowledgeable. The quality of teaching is really good and understandable. Teachers solve all our doubts and give us proper guidance.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Nagaland",
+          "source": "Zollege",
+          "source_type": "aggregator",
+          "source_url": "https://zollege.in/university/187540-national-institute-of-technology-nit-dimapur",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electrical and Electronics Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electrical and Electronics Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This item specifically identifies the geographic separation between senior and junior hostels as limiting cross-year interaction — a distinct, specific concern from the more general 'ragging-free' narrative found elsewhere in this dataset.",
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'NIT Nagaland is still under developed, more developments are on the process.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Campus life was awesome. Life was good there and the internet is good. Hostel life is great, we get good caretakers.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'As the senior junior hostel is very far from each other there is not much interaction between them.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Campus life as it provides a free environment for one to grow and prosper.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Nagaland",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Is-Nagaland-safe-for-a-North-Indian-student-at-NIT-Dimapur",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Is Nagaland safe for a North Indian student at NIT Dimapur?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This answer directly and explicitly clarifies the correct institution name ('NIT NAGALAND, not NIT DIMAPUR') as a common point of confusion, corroborating the identity_notes above from a firsthand source. The substantive safety assessment beyond this framing was not fully visible in the retrieved snippet.",
+          "aspect_evidence": [
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "Answerer opens by clarifying the correct institution name is 'NIT Nagaland,' not 'NIT Dimapur,' noting this is a common point of confusion, before addressing the substance of the asker's safety question (which was not fully visible in the retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Nagaland",
+          "source": "Careers360",
+          "source_type": "discussion",
+          "source_url": "https://www.careers360.com/question-is-nit-nagaland-good-for-btech-in-electronicand-instrumention/amp",
+          "source_review_id": null,
+          "author_display_name": "Sunanda Dhar",
+          "review_title": "is nit nagaland good for btech in electronic and instrumentation",
+          "review_date": "2019-07-28",
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Instrumentation",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Instrumentation",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This is a notably vivid, colloquial account that includes some humorous/exaggerated framing (e.g., 'awesome roads... total body massage') alongside genuine substantive points.",
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculties are well educated, you will be guided by them well. Placements are also good since crowd is less, but you have to score good marks. There may be some problems faced due to improper lab system but you can cope up with it, otherwise it is a good option.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The good side is that there is no student politics and anyone and everyone gets an opportunity to hold positions in student activities as there are less students, and be recognized.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'You need to struggle a bit with the food, as every hosteler does... Beautiful and spacious hostel rooms.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Awesome roads leading to the college make your kidneys rollover!! It's a total body massage!!' (Colloquial, exaggerated complaint about road/access quality leading to the campus.)"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 9,
+        "independent_sources": 5,
+        "reviews_with_dates": 2,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 9
+      },
+
+      "limitations": [
+        "Reddit: targeted search for NIT Nagaland/NIT Dimapur on Reddit did not surface genuine reddit.com-hosted threads in this session, despite a dedicated search attempt; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "One UniversityKart aggregate observation was flagged and excluded from confirmed status because its content appeared to reference an unrelated institution (IIT Delhi) alongside NIT Nagaland-branded figures, suggesting a possible templated or cross-contaminated page; no review_items were sourced from this page.",
+        "One Collegedunia review's claim that 'the college doesn't have a permanent campus' appears inconsistent with multiple other sources describing the institution's permanent Chümoukedima campus as operational since 2012 — this discrepancy is preserved as-is rather than resolved, and could reflect an earlier reporting period, a specific facility still under construction at the time, or reviewer error.",
+        "This institution's colloquial 'NIT Dimapur' name (versus its official 'NIT Nagaland' name) was explicitly identified and clarified as a common point of confusion by a firsthand Quora source, which is preserved and corroborates the identity verification performed for this extraction.",
+        "One review documents a specific, distinctive infrastructure detail (temporary 'bamboo classrooms' due to a COVID-era construction delay) that is a concrete, verifiable-sounding claim rather than a generic complaint.",
+        "Only two reviews in this extraction batch carried explicit visible dates (2019); reviews_last_24_months is 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~40+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

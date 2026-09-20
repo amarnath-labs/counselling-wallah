@@ -1,0 +1,18 @@
+{
+  "source_rows": 34981,
+  "prepared_rows": 34981,
+  "unmapped_rows": 0,
+  "normalized_duplicates": 0,
+  "prepared_by_year": {
+    "2024": 9734,
+    "2025": 13454,
+    "2026": 11793
+  },
+  "existing_exact_rows": 11793,
+  "new_rows": 23188,
+  "conflicting_existing_rows": 0,
+  "new_rows_by_year": {
+    "2024": 9734,
+    "2025": 13454
+  }
+}

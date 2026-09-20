@@ -1,0 +1,2285 @@
+[
+  {
+    "college_id": "assam-university-silchar",
+    "college_name": "Assam University, Silchar",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "college_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "website": "https://www.iiitm.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "central-institute-of-technology-kokrajar-assam",
+    "college_name": "Central institute of Technology Kokrajar, Assam",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "central-university-of-haryana",
+    "college_name": "Central University of Haryana",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "central-university-of-jammu",
+    "college_name": "Central University of Jammu",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "central-university-of-karnataka",
+    "college_name": "Central University of Karnataka",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "central-university-of-punjab-bathinda",
+    "college_name": "Central University of Punjab, Bathinda",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "central-university-of-rajasthan-rajasthan",
+    "college_name": "Central University of Rajasthan, Rajasthan",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 6,
+    "missing_count": 2,
+    "missing_fields": [
+      "mess_fee_per_semester",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "dr-b-r-ambedkar-national-institute-of-technology-jalandhar",
+    "college_name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "website": "https://www.nitj.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "gati-shakti-vishwavidyalaya-vadodara",
+    "college_name": "Gati Shakti Vishwavidyalaya, Vadodara",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "ghani-khan-choudhary-institute-of-engineering-and-technology-malda-west-bengal",
+    "college_name": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "gurukula-kangri-vishwavidyalaya-haridwar",
+    "college_name": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "iiit-allahabad",
+    "college_name": "IIIT Allahabad",
+    "website": "https://www.iiita.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "iiit-guwahati",
+    "college_name": "IIIT Guwahati",
+    "website": "https://www.iiitg.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "iiit-hyderabad",
+    "college_name": "IIIT Hyderabad",
+    "website": "https://www.iiit.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "iiit-pune",
+    "college_name": "IIIT Pune",
+    "website": "https://iiitp.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "iit-gandhinagar",
+    "college_name": "IIT Gandhinagar",
+    "website": "https://www.iitgn.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "college_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+    "website": "https://www.iiests.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-nagpur",
+    "college_name": "Indian Institute of Information Technology (IIIT) Nagpur",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-pune",
+    "college_name": "Indian Institute of Information Technology (IIIT) Pune",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-ranchi",
+    "college_name": "Indian Institute of Information Technology (IIIT) Ranchi",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-sri-city-chittoor",
+    "college_name": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-kota-rajasthan",
+    "college_name": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-bhagalpur",
+    "college_name": "Indian Institute of Information Technology Bhagalpur",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-bhopal",
+    "college_name": "Indian Institute of Information Technology Bhopal",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kurnool-andhra-pradesh",
+    "college_name": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-guwahati",
+    "college_name": "Indian Institute of Information Technology Guwahati",
+    "website": "https://www.iiitg.ac.in",
+    "fee_year": 2026,
+    "available_fields": 8,
+    "missing_count": 0,
+    "missing_fields": [],
+    "status": "COMPLETE"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-lucknow",
+    "college_name": "Indian Institute of Information Technology Lucknow",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-senapati-manipur",
+    "college_name": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-surat",
+    "college_name": "Indian Institute of Information Technology Surat",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-tiruchirappalli",
+    "college_name": "Indian Institute of Information Technology Tiruchirappalli",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-dharwad",
+    "college_name": "Indian Institute of Information Technology(IIIT) Dharwad",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-kalyani-west-bengal",
+    "college_name": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-kilohrad-sonepat-haryana",
+    "college_name": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-kottayam",
+    "college_name": "Indian Institute of Information Technology(IIIT) Kottayam",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-una-himachal-pradesh",
+    "college_name": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-vadodara-gujrat",
+    "college_name": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 5,
+    "missing_count": 3,
+    "missing_fields": [
+      "hostel_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-agartala",
+    "college_name": "Indian Institute of Information Technology, Agartala",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-allahabad",
+    "college_name": "Indian Institute of Information Technology, Allahabad",
+    "website": "https://www.iiita.ac.in",
+    "fee_year": 2026,
+    "available_fields": 6,
+    "missing_count": 2,
+    "missing_fields": [
+      "mess_fee_per_semester",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+    "college_name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+    "website": "https://www.iiitdm.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-raichur-karnataka",
+    "college_name": "Indian institute of information technology, Raichur, Karnataka",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-vadodara-international-campus-diu",
+    "college_name": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+    "website": null,
+    "fee_year": 2026,
+    "available_fields": 5,
+    "missing_count": 3,
+    "missing_fields": [
+      "hostel_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-science-bangalore",
+    "college_name": "Indian Institute of Science, Bangalore",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-technology-varanasi",
+    "college_name": "Indian Institute of Technology (BHU) Varanasi",
+    "website": "https://www.iitbhu.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-dhanbad",
+    "college_name": "Indian Institute of Technology (ISM) Dhanbad",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-technology-bhilai",
+    "college_name": "Indian Institute of Technology Bhilai",
+    "website": "https://www.iitbhilai.ac.in",
+    "fee_year": 2026,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-technology-bhubaneswar",
+    "college_name": "Indian Institute of Technology Bhubaneswar",
+    "website": "https://www.iitbbs.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-bombay",
+    "college_name": "Indian Institute of Technology Bombay",
+    "website": "https://www.iitb.ac.in",
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-delhi",
+    "college_name": "Indian Institute of Technology Delhi",
+    "website": "https://home.iitd.ac.in",
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-dharwad",
+    "college_name": "Indian Institute of Technology Dharwad",
+    "website": "https://www.iitdh.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-technology-goa",
+    "college_name": "Indian Institute of Technology Goa",
+    "website": "https://iitgoa.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-technology-guwahati",
+    "college_name": "Indian Institute of Technology Guwahati",
+    "website": "https://www.iitg.ac.in",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-hyderabad",
+    "college_name": "Indian Institute of Technology Hyderabad",
+    "website": "https://www.iith.ac.in",
+    "fee_year": 2026,
+    "available_fields": 7,
+    "missing_count": 1,
+    "missing_fields": [
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-indore",
+    "college_name": "Indian Institute of Technology Indore",
+    "website": "https://www.iiti.ac.in",
+    "fee_year": 2026,
+    "available_fields": 5,
+    "missing_count": 3,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-jammu",
+    "college_name": "Indian Institute of Technology Jammu",
+    "website": "https://iitjammu.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-jodhpur",
+    "college_name": "Indian Institute of Technology Jodhpur",
+    "website": "https://iitj.ac.in",
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-kanpur",
+    "college_name": "Indian Institute of Technology Kanpur",
+    "website": "https://www.iitk.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-kharagpur",
+    "college_name": "Indian Institute of Technology Kharagpur",
+    "website": "https://www.iitkgp.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-madras",
+    "college_name": "Indian Institute of Technology Madras",
+    "website": "https://www.iitm.ac.in",
+    "fee_year": 2026,
+    "available_fields": 2,
+    "missing_count": 6,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-mandi",
+    "college_name": "Indian Institute of Technology Mandi",
+    "website": "https://www.iitmandi.ac.in",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-palakkad",
+    "college_name": "Indian Institute of Technology Palakkad",
+    "website": "https://iitpkd.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "indian-institute-of-technology-patna",
+    "college_name": "Indian Institute of Technology Patna",
+    "website": "https://www.iitp.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-roorkee",
+    "college_name": "Indian Institute of Technology Roorkee",
+    "website": "https://www.iitr.ac.in",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-ropar",
+    "college_name": "Indian Institute of Technology Ropar",
+    "website": "https://www.iitrpr.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "indian-institute-of-technology-tirupati",
+    "college_name": "Indian Institute of Technology Tirupati",
+    "website": "https://www.iittp.ac.in",
+    "fee_year": 2026,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "institute-of-engineering-and-technology-dr-h-s-gour-university-sagar",
+    "college_name": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "international-institute-of-information-technology-bhubaneswar",
+    "college_name": "International Institute of Information Technology, Bhubaneswar",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "international-institute-of-information-technology-naya-raipur",
+    "college_name": "International Institute of Information Technology, Naya Raipur",
+    "website": "https://www.iiitnr.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "jawaharlal-nehru-university-delhi",
+    "college_name": "Jawaharlal Nehru University, Delhi",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "malaviya-national-institute-of-technology-jaipur",
+    "college_name": "Malaviya National Institute of Technology Jaipur",
+    "website": "https://mnit.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "maulana-azad-national-institute-of-technology-bhopal",
+    "college_name": "Maulana Azad National Institute of Technology Bhopal",
+    "website": "https://www.manit.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "uptac-meerut-international-institute-of-technology-meerut",
+    "college_name": "MEERUT INTERNATIONAL INSTITUTE OF TECHNOLOGY,MEERUT",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "mizoram-university-aizawl",
+    "college_name": "Mizoram University, Aizawl",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "motilal-nehru-national-institute-of-technology-allahabad",
+    "college_name": "Motilal Nehru National Institute of Technology Allahabad",
+    "website": "https://www.mnnit.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-advanced-manufacturing-technology-ranchi",
+    "college_name": "National Institute of Advanced Manufacturing Technology, Ranchi",
+    "website": "https://niamt.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-kundli",
+    "college_name": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+    "website": "https://niftem.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-thanjavur",
+    "college_name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+    "website": "https://niftem-t.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-technology-agartala",
+    "college_name": "National Institute of Technology Agartala",
+    "website": "https://nita.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-technology-arunachal-pradesh",
+    "college_name": "National Institute of Technology Arunachal Pradesh",
+    "website": "https://www.nitap.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-technology-calicut",
+    "college_name": "National Institute of Technology Calicut",
+    "website": "https://nitc.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "national-institute-of-technology-delhi",
+    "college_name": "National Institute of Technology Delhi",
+    "website": "https://nitdelhi.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-technology-durgapur",
+    "college_name": "National Institute of Technology Durgapur",
+    "website": "https://nitdgp.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-technology-goa",
+    "college_name": "National Institute of Technology Goa",
+    "website": "https://nitgoa.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-technology-hamirpur",
+    "college_name": "National Institute of Technology Hamirpur",
+    "website": "https://nith.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "college_name": "National Institute of Technology Karnataka, Surathkal",
+    "website": "https://www.nitk.ac.in/",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "national-institute-of-technology-meghalaya",
+    "college_name": "National Institute of Technology Meghalaya",
+    "website": "https://www.nitm.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-technology-nagaland",
+    "college_name": "National Institute of Technology Nagaland",
+    "website": "https://nitnagaland.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-technology-patna",
+    "college_name": "National Institute of Technology Patna",
+    "website": "https://www.nitp.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "national-institute-of-technology-puducherry",
+    "college_name": "National Institute of Technology Puducherry",
+    "website": "https://www.nitpy.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-technology-raipur",
+    "college_name": "National Institute of Technology Raipur",
+    "website": "https://nitrr.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "national-institute-of-technology-sikkim",
+    "college_name": "National Institute of Technology Sikkim",
+    "website": "https://nitsikkim.ac.in",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "hostel_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "national-institute-of-technology-andhra-pradesh",
+    "college_name": "National Institute of Technology, Andhra Pradesh",
+    "website": "https://nitandhra.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-technology-jamshedpur",
+    "college_name": "National Institute of Technology, Jamshedpur",
+    "website": "https://www.nitjsr.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "national-institute-of-technology-kurukshetra",
+    "college_name": "National Institute of Technology, Kurukshetra",
+    "website": "https://nitkkr.ac.in",
+    "fee_year": 2026,
+    "available_fields": 3,
+    "missing_count": 5,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "national-institute-of-technology-manipur",
+    "college_name": "National Institute of Technology, Manipur",
+    "website": "https://nitmanipur.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-technology-mizoram",
+    "college_name": "National Institute of Technology, Mizoram",
+    "website": "https://www.nitmz.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-technology-rourkela",
+    "college_name": "National Institute of Technology, Rourkela",
+    "website": "https://www.nitrkl.ac.in",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "national-institute-of-technology-silchar",
+    "college_name": "National Institute of Technology, Silchar",
+    "website": "https://www.nits.ac.in",
+    "fee_year": 2026,
+    "available_fields": 1,
+    "missing_count": 7,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "national-institute-of-technology-srinagar",
+    "college_name": "National Institute of Technology, Srinagar",
+    "website": "https://nitsri.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-technology-tiruchirappalli",
+    "college_name": "National Institute of Technology, Tiruchirappalli",
+    "website": "https://www.nitt.edu",
+    "fee_year": 2026,
+    "available_fields": 4,
+    "missing_count": 4,
+    "missing_fields": [
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "annual_total_fee"
+    ],
+    "status": "NEEDS_ENRICHMENT"
+  },
+  {
+    "college_id": "national-institute-of-technology-uttarakhand",
+    "college_name": "National Institute of Technology, Uttarakhand",
+    "website": "https://nituk.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "national-institute-of-technology-warangal",
+    "college_name": "National Institute of Technology, Warangal",
+    "website": "https://www.nitw.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "nit-calicut",
+    "college_name": "NIT Calicut",
+    "website": "https://www.nitc.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "nit-hamirpur",
+    "college_name": "NIT Hamirpur",
+    "website": "https://www.nith.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "nit-jalandhar",
+    "college_name": "NIT Jalandhar",
+    "website": "https://www.nitj.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "nit-jamshedpur",
+    "college_name": "NIT Jamshedpur",
+    "website": "https://www.nitjsr.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "nit-surathkal",
+    "college_name": "NIT Karnataka, Surathkal",
+    "website": "https://www.nitk.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "nit-kurukshetra",
+    "college_name": "NIT Kurukshetra",
+    "website": "https://www.nitkkr.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "nit-patna",
+    "college_name": "NIT Patna",
+    "website": "https://www.nitp.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "nit-rourkela",
+    "college_name": "NIT Rourkela",
+    "website": "https://www.nitrkl.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "nit-silchar",
+    "college_name": "NIT Silchar",
+    "website": "https://www.nits.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "nit-trichy",
+    "college_name": "NIT Tiruchirappalli",
+    "website": "https://www.nitt.edu",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "nit-uttarakhand",
+    "college_name": "NIT Uttarakhand",
+    "website": "https://www.nituk.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "nit-warangal",
+    "college_name": "NIT Warangal",
+    "website": "https://www.nitw.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+    "college_name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+    "website": "https://nerist.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "pt-dwarka-prasad-mishra-indian-institute-of-information-technology-design-manufacture-jabalpur",
+    "college_name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+    "website": "https://www.iiitdmj.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "puducherry-technological-university-puducherry",
+    "college_name": "Puducherry Technological University, Puducherry",
+    "website": "https://www.ptuniv.edu.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "punjab-engineering-college-chandigarh",
+    "college_name": "Punjab Engineering College, Chandigarh",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "sant-longowal-institute-of-engineering-and-technology",
+    "college_name": "Sant Longowal Institute of Engineering and Technology",
+    "website": "https://sliet.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "college_name": "Sardar Vallabhbhai National Institute of Technology, Surat",
+    "website": "https://www.svnit.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "school-of-engineering-tezpur-university-napaam-tezpur",
+    "college_name": "School of Engineering, Tezpur University, Napaam, Tezpur",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "school-of-planning-architecture-bhopal",
+    "college_name": "School of Planning & Architecture, Bhopal",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "school-of-planning-architecture-new-delhi",
+    "college_name": "School of Planning & Architecture, New Delhi",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "school-of-planning-architecture-vijayawada",
+    "college_name": "School of Planning & Architecture: Vijayawada",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "school-of-studies-of-engineering-and-technology-guru-ghasidas-vishwavidyalaya-bilaspur",
+    "college_name": "School of Studies of Engineering and Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "shri-mata-vaishno-devi-university-katra-jammu-kashmir",
+    "college_name": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+    "website": "https://www.smvdu.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "college_id": "visvesvaraya-national-institute-of-technology-nagpur",
+    "college_name": "Visvesvaraya National Institute of Technology, Nagpur",
+    "website": "https://vnit.ac.in",
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  }
+]

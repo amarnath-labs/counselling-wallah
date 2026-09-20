@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-13T15:09:31.109Z",
+  "readOnly": true,
+  "summary": {
+    "totalMissingMappings": 23,
+    "totalAffectedRows": 1498,
+    "aliasMappings": 10,
+    "createBranchMappings": 13,
+    "rowsResolvedByAlias": 687,
+    "rowsResolvedByNewBranch": 811
+  },
+  "plan": [
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-jodhpur",
+      "college": "Indian Institute of Technology Jodhpur",
+      "officialProgram": "Chemistry with Specialization (4 Years, Bachelor of Science)",
+      "affectedRows": 54,
+      "reason": "No safe semantic alias approved; preserve 2025 historical program identity."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-jodhpur",
+      "college": "Indian Institute of Technology Jodhpur",
+      "officialProgram": "Physics with Specialization (4 Years, Bachelor of Science)",
+      "affectedRows": 54,
+      "reason": "No safe semantic alias approved; preserve 2025 historical program identity."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-dhanbad",
+      "college": "Indian Institute of Technology (ISM) Dhanbad",
+      "officialProgram": "Applied Geology (5 Years, Integrated Master of Technology)",
+      "affectedRows": 54,
+      "reason": "No safe semantic alias approved; preserve 2025 historical program identity."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-dhanbad",
+      "college": "Indian Institute of Technology (ISM) Dhanbad",
+      "officialProgram": "Applied Geophysics (5 Years, Integrated Master of Technology)",
+      "affectedRows": 54,
+      "reason": "No safe semantic alias approved; preserve 2025 historical program identity."
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "indian-institute-of-technology-dhanbad",
+      "college": "Indian Institute of Technology (ISM) Dhanbad",
+      "officialProgram": "B.Tech Mining Engineering and MBA in Logistic and Supply Chain Management (IIM Mumbai) (5 Years, Integrated B. Tech. and MBA)",
+      "affectedRows": 60,
+      "existingBranchId": "284",
+      "existingBranch": "B.Tech Mining Engineering and MBA in Logistic and Supply Chain Management (IIM Mumbai) (5 Years, Bachelor of Technology and MBA (Dual Degree))"
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Bioengineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 48,
+      "reason": "No safe semantic alias approved; preserve 2025 historical program identity."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-jammu",
+      "college": "Indian Institute of Technology Jammu",
+      "officialProgram": "Materials Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 60,
+      "reason": "No safe semantic alias approved; preserve 2025 historical program identity."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-dharwad",
+      "college": "Indian Institute of Technology Dharwad",
+      "officialProgram": "Interdisciplinary Sciences (5 Years, Bachelor of Science and Master of Science (Dual Degree))",
+      "affectedRows": 60,
+      "reason": "No safe semantic alias approved; preserve 2025 historical program identity."
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "maulana-azad-national-institute-of-technology-bhopal",
+      "college": "Maulana Azad National Institute of Technology Bhopal",
+      "officialProgram": "Materials Science and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 128,
+      "existingBranchId": "424",
+      "existingBranch": "Materials and Metallurgical Engineering (4 Years, Bachelor of Technology)"
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "motilal-nehru-national-institute-of-technology-allahabad",
+      "college": "Motilal Nehru National Institute of Technology Allahabad",
+      "officialProgram": "Production and Industrial Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 120,
+      "reason": "No safe semantic alias approved; preserve 2025 historical program identity."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "national-institute-of-technology-rourkela",
+      "college": "National Institute of Technology, Rourkela",
+      "officialProgram": "Mathematics (5 Years, Integrated Master of Science)",
+      "affectedRows": 72,
+      "reason": "No safe semantic alias approved; preserve 2025 historical program identity."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "national-institute-of-technology-rourkela",
+      "college": "National Institute of Technology, Rourkela",
+      "officialProgram": "Physics (5 Years, Integrated Master of Science)",
+      "affectedRows": 78,
+      "reason": "No safe semantic alias approved; preserve 2025 historical program identity."
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "sardar-vallabhbhai-national-institute-of-technology-surat",
+      "college": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "officialProgram": "Chemistry (5 Years, Integrated Master of Science)",
+      "affectedRows": 63,
+      "existingBranchId": "689",
+      "existingBranch": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)"
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "sardar-vallabhbhai-national-institute-of-technology-surat",
+      "college": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "officialProgram": "Mathematics (5 Years, Integrated Master of Science)",
+      "affectedRows": 72,
+      "existingBranchId": "697",
+      "existingBranch": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)"
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "sardar-vallabhbhai-national-institute-of-technology-surat",
+      "college": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "officialProgram": "Physics (5 Years, Integrated Master of Science)",
+      "affectedRows": 66,
+      "existingBranchId": "700",
+      "existingBranch": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)"
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "indian-institute-of-information-technology-kilohrad-sonepat-haryana",
+      "college": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+      "officialProgram": "CSE ( Data Science & Analytics) (4 Years, Bachelor of Technology)",
+      "affectedRows": 36,
+      "existingBranchId": "752",
+      "existingBranch": "Computer Science & Engineering (Data Science and Analytics) (4 Years, Bachelor of Technology)"
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "birla-institute-of-technology-mesra-ranchi",
+      "college": "Birla Institute of Technology, Mesra, Ranchi",
+      "officialProgram": "Architecture (5 Years, Bachelor of Architecture)",
+      "affectedRows": 54,
+      "reason": "No safe semantic alias approved; preserve 2025 historical program identity."
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "birla-institute-of-technology-mesra-ranchi",
+      "college": "Birla Institute of Technology, Mesra, Ranchi",
+      "officialProgram": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+      "affectedRows": 84,
+      "existingBranchId": "871",
+      "existingBranch": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)"
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "national-institute-of-advanced-manufacturing-technology-ranchi",
+      "college": "National Institute of Advanced Manufacturing Technology, Ranchi",
+      "officialProgram": "Computer Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 67,
+      "reason": "No safe semantic alias approved; preserve 2025 historical program identity."
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "national-institute-of-advanced-manufacturing-technology-ranchi",
+      "college": "National Institute of Advanced Manufacturing Technology, Ranchi",
+      "officialProgram": "Metallurgy and Materials Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 62,
+      "existingBranchId": "906",
+      "existingBranch": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)"
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "university-of-hyderabad",
+      "college": "University of Hyderabad",
+      "officialProgram": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 42,
+      "existingBranchId": "963",
+      "existingBranch": "Computer Science and Engineering (5 Years, Integrated Master of Technology)"
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "international-institute-of-information-technology-bhubaneswar",
+      "college": "International Institute of Information Technology, Bhubaneswar",
+      "officialProgram": "Computer Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 36,
+      "reason": "No safe semantic alias approved; preserve 2025 historical program identity."
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "birla-institute-of-technology-patna-off-campus",
+      "college": "Birla Institute of Technology, Patna Off-Campus",
+      "officialProgram": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+      "affectedRows": 74,
+      "existingBranchId": "1047",
+      "existingBranch": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)"
+    }
+  ]
+}

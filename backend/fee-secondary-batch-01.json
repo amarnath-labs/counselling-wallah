@@ -1,0 +1,82 @@
+﻿[
+  {
+    "college_id": "indian-institute-of-technology-jammu",
+    "college_name": "Indian Institute of Technology Jammu",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 100000,
+    "total_course_fee": 800000,
+
+    "source_kind": "collegedunia",
+    "source_label": "Collegedunia IIT Jammu Fees 2026",
+    "source_url": "https://collegedunia.com/news/iit-jammu-releases-fee-structure-2026-27-for-ug-pg-and-phd-alertid-172908",
+
+    "source_priority": 70,
+    "confidence_score": 78,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Secondary source reports B.Tech tuition INR 100000 per semester. Cross-check with official IIT Jammu fee document before verified status."
+  },
+
+  {
+    "college_id": "iit-gandhinagar",
+    "college_name": "IIT Gandhinagar",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "total_course_fee": 800000,
+
+    "source_kind": "shiksha",
+    "source_label": "Shiksha IIT Gandhinagar BTech Fees 2026",
+    "source_url": "https://www.shiksha.com/college/iit-gandhinagar-indian-institute-of-technology-32705/fees",
+
+    "source_priority": 65,
+    "confidence_score": 65,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Shiksha reports INR 8 lakh B.Tech tuition for complete course. Careers360 reports a different tuition total, so retained for review."
+  },
+
+  {
+    "college_id": "indian-institute-of-technology-bhubaneswar",
+    "college_name": "Indian Institute of Technology Bhubaneswar",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "total_course_fee": 800000,
+
+    "source_kind": "shiksha",
+    "source_label": "Shiksha IIT Bhubaneswar BTech Fees 2026",
+    "source_url": "https://www.shiksha.com/college/iit-bhubaneswar-indian-institute-of-technology-32717/fees",
+
+    "source_priority": 65,
+    "confidence_score": 75,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Secondary source reports INR 8 lakh B.Tech tuition for full course."
+  },
+
+  {
+    "college_id": "indian-institute-of-technology-indore",
+    "college_name": "Indian Institute of Technology Indore",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "total_course_fee": 800000,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 IIT Indore Fees 2026",
+    "source_url": "https://www.careers360.com/university/indian-institute-of-technology-indore/fees",
+
+    "source_priority": 65,
+    "confidence_score": 75,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Careers360 reports INR 8 lakh total B.Tech tuition. Semester-wise payable amounts include additional components."
+  }
+]

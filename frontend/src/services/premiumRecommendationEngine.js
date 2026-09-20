@@ -1,4 +1,16 @@
-﻿function toNumber(value) {
+﻿/*
+|--------------------------------------------------------------------------
+| TRUMARG PREMIUM RECOMMENDATION ENGINE
+|--------------------------------------------------------------------------
+|
+| - Existing admission bucket / overall score is NOT overwritten here.
+| - Premium intelligence is calculated separately.
+| - Missing data stays null; no fake scores.
+|
+|--------------------------------------------------------------------------
+*/
+
+function toNumber(value) {
   if (
     value === null ||
     value === undefined ||
@@ -7,14 +19,18 @@
     return null;
   }
 
-  const number = Number(value);
+  const n = Number(value);
 
-  return Number.isFinite(number)
-    ? number
+  return Number.isFinite(n)
+    ? n
     : null;
 }
 
-function clamp(value, min = 0, max = 100) {
+function clamp(
+  value,
+  min = 0,
+  max = 100
+) {
   return Math.max(
     min,
     Math.min(max, value)
@@ -26,6 +42,12 @@ function normalizeText(value) {
     .trim()
     .toLowerCase();
 }
+
+/*
+|--------------------------------------------------------------------------
+| RANK RATIO
+|--------------------------------------------------------------------------
+*/
 
 function calculateRankRatio(
   studentRank,
@@ -48,60 +70,80 @@ function calculateRankRatio(
   return rank / closing;
 }
 
-function calculateAdmissionBucket(
-  ratio
+/*
+|--------------------------------------------------------------------------
+| PREMIUM ADMISSION BUCKET
+|--------------------------------------------------------------------------
+|
+| <= 0.60       Backup
+| 0.60 - 0.85   Safe
+| 0.85 - 1.05   Target
+| > 1.05        Dream
+|
+|--------------------------------------------------------------------------
+*/
+
+function calculatePremiumAdmissionBucket(
+  rankRatio
 ) {
   if (
-    ratio === null ||
-    !Number.isFinite(ratio)
+    rankRatio === null ||
+    !Number.isFinite(rankRatio)
   ) {
     return null;
   }
 
-  if (ratio <= 0.60) {
+  if (rankRatio <= 0.60) {
     return 'backup';
   }
 
-  if (ratio <= 0.85) {
+  if (rankRatio <= 0.85) {
     return 'safe';
   }
 
-  if (ratio <= 1.05) {
+  if (rankRatio <= 1.05) {
     return 'target';
   }
 
   return 'dream';
 }
 
+/*
+|--------------------------------------------------------------------------
+| RANK SCORE
+|--------------------------------------------------------------------------
+*/
+
 function calculateRankScore(
-  ratio
+  rankRatio
 ) {
   if (
-    ratio === null ||
-    !Number.isFinite(ratio)
+    rankRatio === null ||
+    !Number.isFinite(rankRatio)
   ) {
     return null;
   }
 
-  if (ratio <= 0) {
+  if (rankRatio <= 0) {
     return 100;
   }
 
-  if (ratio <= 0.60) {
+  if (rankRatio <= 0.60) {
     return Math.round(
       clamp(
         100 -
-          (ratio / 0.60) * 10
+          (rankRatio / 0.60) *
+            10
       )
     );
   }
 
-  if (ratio <= 1.05) {
+  if (rankRatio <= 1.05) {
     return Math.round(
       clamp(
         90 -
           (
-            (ratio - 0.60) /
+            (rankRatio - 0.60) /
             0.45
           ) *
             90
@@ -111,6 +153,12 @@ function calculateRankScore(
 
   return 0;
 }
+
+/*
+|--------------------------------------------------------------------------
+| HISTORICAL WINDOW POSITION
+|--------------------------------------------------------------------------
+*/
 
 function calculateWindowPosition(
   studentRank,
@@ -194,15 +242,25 @@ function getHistoricalFit(
   };
 }
 
+/*
+|--------------------------------------------------------------------------
+| BRANCH MATCHING
+|--------------------------------------------------------------------------
+*/
+
 function branchMatches(
   actualBranch,
   preferredBranch
 ) {
   const actual =
-    normalizeText(actualBranch);
+    normalizeText(
+      actualBranch
+    );
 
   const preferred =
-    normalizeText(preferredBranch);
+    normalizeText(
+      preferredBranch
+    );
 
   if (
     !actual ||
@@ -238,20 +296,34 @@ function branchMatches(
     ee: [
       'electrical engineering',
     ],
+
+    mechanical: [
+      'mechanical engineering',
+    ],
+
+    civil: [
+      'civil engineering',
+    ],
   };
 
-  const list =
+  const aliasList =
     aliases[preferred];
 
-  if (!list) {
+  if (!aliasList) {
     return false;
   }
 
-  return list.some(
+  return aliasList.some(
     (alias) =>
       actual.includes(alias)
   );
 }
+
+/*
+|--------------------------------------------------------------------------
+| BRANCH SCORE
+|--------------------------------------------------------------------------
+*/
 
 function calculateBranchScore(
   branchName,
@@ -279,15 +351,24 @@ function calculateBranchScore(
     return 0;
   }
 
-  const scores = [
+  const preferenceScores = [
     100,
     90,
     80,
     70,
   ];
 
-  return scores[index] ?? 60;
+  return (
+    preferenceScores[index] ??
+    60
+  );
 }
+
+/*
+|--------------------------------------------------------------------------
+| BUDGET SCORE
+|--------------------------------------------------------------------------
+*/
 
 function calculateBudgetScore(
   fees,
@@ -331,19 +412,31 @@ function calculateBudgetScore(
   return 0;
 }
 
+/*
+|--------------------------------------------------------------------------
+| LOCATION SCORE
+|--------------------------------------------------------------------------
+*/
+
 function calculateLocationScore(
   collegeState,
   preferredState,
   homeState
 ) {
   const college =
-    normalizeText(collegeState);
+    normalizeText(
+      collegeState
+    );
 
   const preferred =
-    normalizeText(preferredState);
+    normalizeText(
+      preferredState
+    );
 
   const home =
-    normalizeText(homeState);
+    normalizeText(
+      homeState
+    );
 
   if (!college) {
     return null;
@@ -367,17 +460,29 @@ function calculateLocationScore(
   return null;
 }
 
+/*
+|--------------------------------------------------------------------------
+| COLLEGE QUALITY
+|--------------------------------------------------------------------------
+|
+| Only use real data if available.
+|
+|--------------------------------------------------------------------------
+*/
+
 function calculateQualityScore(
   row
 ) {
   const placement =
     toNumber(
-      row?.branch?.placement
+      row?.branch?.placement ??
+      row?.placement_rate
     );
 
-  const median =
+  const medianPackage =
     toNumber(
-      row?.branch?.median
+      row?.branch?.median ??
+      row?.median_package
     );
 
   const values = [];
@@ -392,12 +497,15 @@ function calculateQualityScore(
   }
 
   if (
-    median !== null &&
-    median > 0
+    medianPackage !== null &&
+    medianPackage > 0
   ) {
     values.push(
       clamp(
-        (median / 2000000) *
+        (
+          medianPackage /
+          2000000
+        ) *
           100
       )
     );
@@ -417,78 +525,134 @@ function calculateQualityScore(
   );
 }
 
+/*
+|--------------------------------------------------------------------------
+| REVIEW SCORE
+|--------------------------------------------------------------------------
+*/
+
 function calculateReviewScore(
   row
 ) {
-  const rating =
+  /*
+  |--------------------------------------------------------------------------
+  | REVIEW SCORE
+  |--------------------------------------------------------------------------
+  |
+  | Backend college_sentiment_summary already provides a final
+  | review_score from 0â€“100.
+  |
+  | That score already contains sentiment/confidence processing.
+  |
+  | Therefore we DO NOT calculate another score from star ratings here.
+  |--------------------------------------------------------------------------
+  */
+
+  const reviewScore =
     toNumber(
-      row?.review_rating ??
-      row?.rating
+      row?.reviewScore ??
+      row?.review_score ??
+      row?.college?.reviewScore ??
+      row?.college?.review_score
     );
 
-  const reviewCount =
+  const analyzedReviews =
     toNumber(
-      row?.review_count
+      row?.analyzedReviews ??
+      row?.analyzed_reviews ??
+      row?.college?.analyzedReviews ??
+      row?.college?.analyzed_reviews
     );
+
+  /*
+   * No verified review data.
+   *
+   * NULL is critical here.
+   * Weighted scoring will remove the 10% review weight
+   * and renormalize remaining available components.
+   */
 
   if (
-    rating === null ||
-    reviewCount === null ||
-    reviewCount <= 0
+    reviewScore === null ||
+    analyzedReviews === null ||
+    analyzedReviews <= 0
   ) {
     return null;
   }
 
-  const C = 3.8;
-  const m = 50;
+  /*
+   * Final safety clamp.
+   */
 
-  const adjusted =
-    (
-      reviewCount /
-      (reviewCount + m)
-    ) *
-      rating +
-    (
-      m /
-      (reviewCount + m)
-    ) *
-      C;
-
-  return Math.round(
+  return Number(
     clamp(
-      (adjusted / 5) *
-        100
-    )
+      reviewScore,
+      0,
+      100
+    ).toFixed(2)
   );
-}
+}/*
+|--------------------------------------------------------------------------
+| FINAL SCORE WITH MISSING-DATA RE-NORMALIZATION
+|--------------------------------------------------------------------------
+*/
 
 function calculateWeightedScore(
-  scores
+  componentScores
 ) {
   const components = [
     {
-      value: scores.rank,
-      weight: 50,
+      key:
+        'rank',
+      value:
+        componentScores.rank,
+      weight:
+        50,
     },
+
     {
-      value: scores.branch,
-      weight: 15,
+      key:
+        'branch',
+      value:
+        componentScores.branch,
+      weight:
+        15,
     },
+
     {
-      value: scores.quality,
-      weight: 15,
+      key:
+        'quality',
+      value:
+        componentScores.quality,
+      weight:
+        15,
     },
+
     {
-      value: scores.reviews,
-      weight: 10,
+      key:
+        'reviews',
+      value:
+        componentScores.reviews,
+      weight:
+        10,
     },
+
     {
-      value: scores.budget,
-      weight: 7,
+      key:
+        'budget',
+      value:
+        componentScores.budget,
+      weight:
+        7,
     },
+
     {
-      value: scores.location,
-      weight: 3,
+      key:
+        'location',
+      value:
+        componentScores.location,
+      weight:
+        3,
     },
   ].filter(
     (item) =>
@@ -503,15 +667,15 @@ function calculateWeightedScore(
 
   const availableWeight =
     components.reduce(
-      (sum, item) =>
-        sum + item.weight,
+      (total, item) =>
+        total + item.weight,
       0
     );
 
   const weightedTotal =
     components.reduce(
-      (sum, item) =>
-        sum +
+      (total, item) =>
+        total +
         item.value *
           item.weight,
       0
@@ -522,6 +686,12 @@ function calculateWeightedScore(
       availableWeight
   );
 }
+
+/*
+|--------------------------------------------------------------------------
+| PREMIUM CATEGORY
+|--------------------------------------------------------------------------
+*/
 
 function getPremiumCategory(
   score
@@ -534,8 +704,10 @@ function getPremiumCategory(
 
   if (score >= 90) {
     return {
-      key: 'excellent',
-      emoji: '💎',
+      key:
+        'excellent',
+      emoji:
+        'ðŸ’Ž',
       label:
         'Excellent Match',
     };
@@ -543,8 +715,10 @@ function getPremiumCategory(
 
   if (score >= 80) {
     return {
-      key: 'great',
-      emoji: '⭐',
+      key:
+        'great',
+      emoji:
+        'â­',
       label:
         'Great Match',
     };
@@ -552,20 +726,30 @@ function getPremiumCategory(
 
   if (score >= 70) {
     return {
-      key: 'good',
-      emoji: '👍',
+      key:
+        'good',
+      emoji:
+        'ðŸ‘',
       label:
         'Good Match',
     };
   }
 
   return {
-    key: 'consider',
-    emoji: '➕',
+    key:
+      'consider',
+    emoji:
+      'âž•',
     label:
       'Consider',
   };
 }
+
+/*
+|--------------------------------------------------------------------------
+| SCORE CONTRIBUTION
+|--------------------------------------------------------------------------
+*/
 
 function contribution(
   score,
@@ -586,6 +770,12 @@ function contribution(
   );
 }
 
+/*
+|--------------------------------------------------------------------------
+| EXPLANATION ENGINE
+|--------------------------------------------------------------------------
+*/
+
 function buildReasons(
   scores
 ) {
@@ -597,7 +787,9 @@ function buildReasons(
       scores.rank
     )
   ) {
-    if (scores.rank >= 90) {
+    if (
+      scores.rank >= 90
+    ) {
       strong.push(
         'Your rank is very strong compared with the historical cutoff.'
       );
@@ -621,7 +813,9 @@ function buildReasons(
       scores.branch
     )
   ) {
-    if (scores.branch >= 90) {
+    if (
+      scores.branch >= 90
+    ) {
       strong.push(
         'This matches one of your top preferred branches.'
       );
@@ -636,10 +830,52 @@ function buildReasons(
 
   if (
     Number.isFinite(
+      scores.quality
+    )
+  ) {
+    if (
+      scores.quality >= 80
+    ) {
+      strong.push(
+        'Available college-quality indicators are strong.'
+      );
+    } else if (
+      scores.quality < 60
+    ) {
+      weak.push(
+        'Available college-quality indicators are comparatively weaker.'
+      );
+    }
+  }
+
+  if (
+    Number.isFinite(
+      scores.reviews
+    )
+  ) {
+    if (
+      scores.reviews >= 80
+    ) {
+      strong.push(
+        'Student review signals are strong.'
+      );
+    } else if (
+      scores.reviews < 60
+    ) {
+      weak.push(
+        'Student review signals are comparatively weaker.'
+      );
+    }
+  }
+
+  if (
+    Number.isFinite(
       scores.budget
     )
   ) {
-    if (scores.budget >= 90) {
+    if (
+      scores.budget >= 90
+    ) {
       strong.push(
         'Estimated fees fit comfortably within your budget.'
       );
@@ -657,7 +893,9 @@ function buildReasons(
       scores.location
     )
   ) {
-    if (scores.location >= 80) {
+    if (
+      scores.location >= 80
+    ) {
       strong.push(
         'The college location matches your preference.'
       );
@@ -675,6 +913,12 @@ function buildReasons(
     weak,
   };
 }
+
+/*
+|--------------------------------------------------------------------------
+| PUBLIC FUNCTION
+|--------------------------------------------------------------------------
+*/
 
 export function calculatePremiumRecommendation(
   row,
@@ -760,7 +1004,7 @@ export function calculatePremiumRecommendation(
       componentScores
     );
 
-  const windowPosition =
+  const position =
     calculateWindowPosition(
       studentRank,
       openingRank,
@@ -777,17 +1021,18 @@ export function calculatePremiumRecommendation(
       ),
 
     admissionBucket:
-      calculateAdmissionBucket(
+      calculatePremiumAdmissionBucket(
         rankRatio
       ),
 
     rankRatio,
 
-    windowPosition,
+    windowPosition:
+      position,
 
     historicalFit:
       getHistoricalFit(
-        windowPosition
+        position
       ),
 
     componentScores,

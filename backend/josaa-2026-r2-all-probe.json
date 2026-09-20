@@ -1,0 +1,714 @@
+{
+  "counsellingType": "JOSAA",
+  "year": 2026,
+  "round": "2",
+  "instituteType": "ALL",
+  "instituteOptionCount": 140,
+  "institutes": [
+    {
+      "value": "0",
+      "label": "--Select--",
+      "selected": true
+    },
+    {
+      "value": "ALL",
+      "label": "ALL",
+      "selected": false
+    },
+    {
+      "value": "101",
+      "label": "Indian Institute of Technology Bhubaneswar",
+      "selected": false
+    },
+    {
+      "value": "102",
+      "label": "Indian Institute of Technology Bombay",
+      "selected": false
+    },
+    {
+      "value": "103",
+      "label": "Indian Institute of Technology Mandi",
+      "selected": false
+    },
+    {
+      "value": "104",
+      "label": "Indian Institute of Technology Delhi",
+      "selected": false
+    },
+    {
+      "value": "105",
+      "label": "Indian Institute of Technology Indore",
+      "selected": false
+    },
+    {
+      "value": "106",
+      "label": "Indian Institute of Technology Kharagpur",
+      "selected": false
+    },
+    {
+      "value": "107",
+      "label": "Indian Institute of Technology Hyderabad",
+      "selected": false
+    },
+    {
+      "value": "108",
+      "label": "Indian Institute of Technology Jodhpur",
+      "selected": false
+    },
+    {
+      "value": "109",
+      "label": "Indian Institute of Technology Kanpur",
+      "selected": false
+    },
+    {
+      "value": "110",
+      "label": "Indian Institute of Technology Madras",
+      "selected": false
+    },
+    {
+      "value": "111",
+      "label": "Indian Institute of Technology Gandhinagar",
+      "selected": false
+    },
+    {
+      "value": "112",
+      "label": "Indian Institute of Technology Patna",
+      "selected": false
+    },
+    {
+      "value": "113",
+      "label": "Indian Institute of Technology Roorkee",
+      "selected": false
+    },
+    {
+      "value": "114",
+      "label": "Indian Institute of Technology (ISM) Dhanbad",
+      "selected": false
+    },
+    {
+      "value": "115",
+      "label": "Indian Institute of Technology Ropar",
+      "selected": false
+    },
+    {
+      "value": "116",
+      "label": "Indian Institute of Technology (BHU) Varanasi",
+      "selected": false
+    },
+    {
+      "value": "117",
+      "label": "Indian Institute of Technology Guwahati",
+      "selected": false
+    },
+    {
+      "value": "118",
+      "label": "Indian Institute of Technology Bhilai",
+      "selected": false
+    },
+    {
+      "value": "119",
+      "label": "Indian Institute of Technology Goa",
+      "selected": false
+    },
+    {
+      "value": "120",
+      "label": "Indian Institute of Technology Palakkad",
+      "selected": false
+    },
+    {
+      "value": "121",
+      "label": "Indian Institute of Technology Tirupati",
+      "selected": false
+    },
+    {
+      "value": "122",
+      "label": "Indian Institute of Technology Jammu",
+      "selected": false
+    },
+    {
+      "value": "123",
+      "label": "Indian Institute of Technology Dharwad",
+      "selected": false
+    },
+    {
+      "value": "124",
+      "label": "Indian Institute of Science, Bangalore",
+      "selected": false
+    },
+    {
+      "value": "201",
+      "label": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+      "selected": false
+    },
+    {
+      "value": "202",
+      "label": "Malaviya National Institute of Technology Jaipur",
+      "selected": false
+    },
+    {
+      "value": "203",
+      "label": "Maulana Azad National Institute of Technology Bhopal",
+      "selected": false
+    },
+    {
+      "value": "204",
+      "label": "Motilal Nehru National Institute of Technology Allahabad",
+      "selected": false
+    },
+    {
+      "value": "205",
+      "label": "National Institute of Technology Agartala",
+      "selected": false
+    },
+    {
+      "value": "206",
+      "label": "National Institute of Technology Calicut",
+      "selected": false
+    },
+    {
+      "value": "207",
+      "label": "National Institute of Technology Delhi",
+      "selected": false
+    },
+    {
+      "value": "208",
+      "label": "National Institute of Technology Durgapur",
+      "selected": false
+    },
+    {
+      "value": "209",
+      "label": "National Institute of Technology Goa",
+      "selected": false
+    },
+    {
+      "value": "210",
+      "label": "National Institute of Technology Hamirpur",
+      "selected": false
+    },
+    {
+      "value": "211",
+      "label": "National Institute of Technology Karnataka, Surathkal",
+      "selected": false
+    },
+    {
+      "value": "212",
+      "label": "National Institute of Technology Meghalaya",
+      "selected": false
+    },
+    {
+      "value": "213",
+      "label": "National Institute of Technology Nagaland",
+      "selected": false
+    },
+    {
+      "value": "214",
+      "label": "National Institute of Technology Patna",
+      "selected": false
+    },
+    {
+      "value": "215",
+      "label": "National Institute of Technology Puducherry",
+      "selected": false
+    },
+    {
+      "value": "216",
+      "label": "National Institute of Technology Raipur",
+      "selected": false
+    },
+    {
+      "value": "217",
+      "label": "National Institute of Technology Sikkim",
+      "selected": false
+    },
+    {
+      "value": "218",
+      "label": "National Institute of Technology Arunachal Pradesh",
+      "selected": false
+    },
+    {
+      "value": "219",
+      "label": "National Institute of Technology, Jamshedpur",
+      "selected": false
+    },
+    {
+      "value": "220",
+      "label": "National Institute of Technology, Kurukshetra",
+      "selected": false
+    },
+    {
+      "value": "221",
+      "label": "National Institute of Technology, Manipur",
+      "selected": false
+    },
+    {
+      "value": "222",
+      "label": "National Institute of Technology, Mizoram",
+      "selected": false
+    },
+    {
+      "value": "223",
+      "label": "National Institute of Technology, Rourkela",
+      "selected": false
+    },
+    {
+      "value": "224",
+      "label": "National Institute of Technology, Silchar",
+      "selected": false
+    },
+    {
+      "value": "225",
+      "label": "National Institute of Technology, Srinagar",
+      "selected": false
+    },
+    {
+      "value": "226",
+      "label": "National Institute of Technology, Tiruchirappalli",
+      "selected": false
+    },
+    {
+      "value": "227",
+      "label": "National Institute of Technology, Uttarakhand",
+      "selected": false
+    },
+    {
+      "value": "228",
+      "label": "National Institute of Technology, Warangal",
+      "selected": false
+    },
+    {
+      "value": "229",
+      "label": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "selected": false
+    },
+    {
+      "value": "230",
+      "label": "Visvesvaraya National Institute of Technology, Nagpur",
+      "selected": false
+    },
+    {
+      "value": "231",
+      "label": "National Institute of Technology, Andhra Pradesh",
+      "selected": false
+    },
+    {
+      "value": "232",
+      "label": "Indian Institute of Engineering Science and Technology, Shibpur",
+      "selected": false
+    },
+    {
+      "value": "301",
+      "label": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+      "selected": false
+    },
+    {
+      "value": "302",
+      "label": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
+      "selected": false
+    },
+    {
+      "value": "303",
+      "label": "Indian Institute of Information Technology Guwahati",
+      "selected": false
+    },
+    {
+      "value": "304",
+      "label": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
+      "selected": false
+    },
+    {
+      "value": "305",
+      "label": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+      "selected": false
+    },
+    {
+      "value": "306",
+      "label": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+      "selected": false
+    },
+    {
+      "value": "307",
+      "label": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
+      "selected": false
+    },
+    {
+      "value": "308",
+      "label": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+      "selected": false
+    },
+    {
+      "value": "309",
+      "label": "Indian Institute of Information Technology, Allahabad",
+      "selected": false
+    },
+    {
+      "value": "310",
+      "label": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+      "selected": false
+    },
+    {
+      "value": "311",
+      "label": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+      "selected": false
+    },
+    {
+      "value": "313",
+      "label": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR",
+      "selected": false
+    },
+    {
+      "value": "314",
+      "label": "Indian Institute of Information Technology Tiruchirappalli",
+      "selected": false
+    },
+    {
+      "value": "315",
+      "label": "Indian Institute of Information Technology Lucknow",
+      "selected": false
+    },
+    {
+      "value": "316",
+      "label": "Indian Institute of Information Technology(IIIT) Dharwad",
+      "selected": false
+    },
+    {
+      "value": "317",
+      "label": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
+      "selected": false
+    },
+    {
+      "value": "318",
+      "label": "Indian Institute of Information Technology(IIIT) Kottayam",
+      "selected": false
+    },
+    {
+      "value": "319",
+      "label": "Indian Institute of Information Technology (IIIT) Ranchi",
+      "selected": false
+    },
+    {
+      "value": "320",
+      "label": "Indian Institute of Information Technology (IIIT) Nagpur",
+      "selected": false
+    },
+    {
+      "value": "321",
+      "label": "Indian Institute of Information Technology (IIIT) Pune",
+      "selected": false
+    },
+    {
+      "value": "322",
+      "label": "Indian Institute of Information Technology Bhagalpur",
+      "selected": false
+    },
+    {
+      "value": "323",
+      "label": "Indian Institute of Information Technology Bhopal",
+      "selected": false
+    },
+    {
+      "value": "324",
+      "label": "Indian Institute of Information Technology Surat",
+      "selected": false
+    },
+    {
+      "value": "325",
+      "label": "Indian Institute of Information Technology, Agartala",
+      "selected": false
+    },
+    {
+      "value": "326",
+      "label": "Indian institute of information technology, Raichur, Karnataka",
+      "selected": false
+    },
+    {
+      "value": "327",
+      "label": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+      "selected": false
+    },
+    {
+      "value": "401",
+      "label": "Assam University, Silchar",
+      "selected": false
+    },
+    {
+      "value": "402",
+      "label": "Birla Institute of Technology, Mesra, Ranchi",
+      "selected": false
+    },
+    {
+      "value": "403",
+      "label": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+      "selected": false
+    },
+    {
+      "value": "404",
+      "label": "Indian Institute of Carpet Technology, Bhadohi",
+      "selected": false
+    },
+    {
+      "value": "405",
+      "label": "Institute of Infrastructure, Technology, Research and Management-Ahmedabad",
+      "selected": false
+    },
+    {
+      "value": "406",
+      "label": "School of Studies of Engineering and Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur",
+      "selected": false
+    },
+    {
+      "value": "407",
+      "label": "J.K. Institute of Applied Physics & Technology, Department of Electronics & Communication, University of Allahabad- Allahabad",
+      "selected": false
+    },
+    {
+      "value": "408",
+      "label": "National Institute of Electronics and Information Technology, Aurangabad (Maharashtra)",
+      "selected": false
+    },
+    {
+      "value": "409",
+      "label": "National Institute of Advanced Manufacturing Technology, Ranchi",
+      "selected": false
+    },
+    {
+      "value": "410",
+      "label": "Sant Longowal Institute of Engineering and Technology",
+      "selected": false
+    },
+    {
+      "value": "411",
+      "label": "Mizoram University, Aizawl",
+      "selected": false
+    },
+    {
+      "value": "412",
+      "label": "School of Engineering, Tezpur University, Napaam, Tezpur",
+      "selected": false
+    },
+    {
+      "value": "413",
+      "label": "School of Planning & Architecture, Bhopal",
+      "selected": false
+    },
+    {
+      "value": "414",
+      "label": "School of Planning & Architecture, New Delhi",
+      "selected": false
+    },
+    {
+      "value": "415",
+      "label": "School of Planning & Architecture: Vijayawada",
+      "selected": false
+    },
+    {
+      "value": "416",
+      "label": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+      "selected": false
+    },
+    {
+      "value": "420",
+      "label": "International Institute of Information Technology, Naya Raipur",
+      "selected": false
+    },
+    {
+      "value": "421",
+      "label": "University of Hyderabad",
+      "selected": false
+    },
+    {
+      "value": "422",
+      "label": "Punjab Engineering College, Chandigarh",
+      "selected": false
+    },
+    {
+      "value": "423",
+      "label": "Jawaharlal Nehru University, Delhi",
+      "selected": false
+    },
+    {
+      "value": "424",
+      "label": "International Institute of Information Technology, Bhubaneswar",
+      "selected": false
+    },
+    {
+      "value": "425",
+      "label": "Central institute of Technology Kokrajar, Assam",
+      "selected": false
+    },
+    {
+      "value": "426",
+      "label": "Puducherry Technological University, Puducherry",
+      "selected": false
+    },
+    {
+      "value": "427",
+      "label": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
+      "selected": false
+    },
+    {
+      "value": "428",
+      "label": "Central University of Rajasthan, Rajasthan",
+      "selected": false
+    },
+    {
+      "value": "430",
+      "label": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+      "selected": false
+    },
+    {
+      "value": "431",
+      "label": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+      "selected": false
+    },
+    {
+      "value": "432",
+      "label": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+      "selected": false
+    },
+    {
+      "value": "433",
+      "label": "Indian Institute of Handloom Technology(IIHT), Varanasi",
+      "selected": false
+    },
+    {
+      "value": "434",
+      "label": "Chhattisgarh Swami Vivekanada Technical University, Bhilai (CSVTU Bhilai)",
+      "selected": false
+    },
+    {
+      "value": "435",
+      "label": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+      "selected": false
+    },
+    {
+      "value": "436",
+      "label": "North-Eastern Hill University, Shillong",
+      "selected": false
+    },
+    {
+      "value": "437",
+      "label": "Central University of Jammu",
+      "selected": false
+    },
+    {
+      "value": "438",
+      "label": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)",
+      "selected": false
+    },
+    {
+      "value": "439",
+      "label": "Central University of Haryana",
+      "selected": false
+    },
+    {
+      "value": "440",
+      "label": "Birla Institute of Technology, Deoghar Off-Campus",
+      "selected": false
+    },
+    {
+      "value": "441",
+      "label": "Birla Institute of Technology, Patna Off-Campus",
+      "selected": false
+    },
+    {
+      "value": "442",
+      "label": "Indian Institute of Handloom Technology, Salem",
+      "selected": false
+    },
+    {
+      "value": "443",
+      "label": "Gati Shakti Vishwavidyalaya, Vadodara",
+      "selected": false
+    },
+    {
+      "value": "444",
+      "label": "CU Jharkhand",
+      "selected": false
+    },
+    {
+      "value": "445",
+      "label": "National Institute of Electronics and Information Technology, Ropar (Punjab)",
+      "selected": false
+    },
+    {
+      "value": "446",
+      "label": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+      "selected": false
+    },
+    {
+      "value": "447",
+      "label": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)",
+      "selected": false
+    },
+    {
+      "value": "448",
+      "label": "National Institute of Electronics and Information Technology, Gorakhpur (UP)",
+      "selected": false
+    },
+    {
+      "value": "449",
+      "label": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)",
+      "selected": false
+    },
+    {
+      "value": "450",
+      "label": "Islamic University of Science and Technology Kashmir",
+      "selected": false
+    },
+    {
+      "value": "451",
+      "label": "Shri G. S. Institute of Technology and Science Indore",
+      "selected": false
+    },
+    {
+      "value": "452",
+      "label": "National Institute of Technical Teachers Training and Research Bhopal",
+      "selected": false
+    },
+    {
+      "value": "453",
+      "label": "Central University of Karnataka",
+      "selected": false
+    },
+    {
+      "value": "454",
+      "label": "National Institute of Electronics and Information Technology, Agartala",
+      "selected": false
+    },
+    {
+      "value": "455",
+      "label": "National Institute of Electronics and Information Technology, Aizawl",
+      "selected": false
+    },
+    {
+      "value": "456",
+      "label": "National Institute of Electronics and Information Technology, Imphal",
+      "selected": false
+    },
+    {
+      "value": "457",
+      "label": "National Institute of Electronics and Information Technology, Calicut",
+      "selected": false
+    },
+    {
+      "value": "458",
+      "label": "National Institute of Electronics and Information Technology, Kohima",
+      "selected": false
+    },
+    {
+      "value": "459",
+      "label": "National Institute of Electronics and Information Technology, Srinagar",
+      "selected": false
+    },
+    {
+      "value": "460",
+      "label": "Central University of Punjab, Bathinda",
+      "selected": false
+    }
+  ],
+  "branchOptionCount": 0,
+  "branches": [],
+  "seatTypes": [],
+  "tables": [],
+  "discoveredAt": "2026-09-13T14:22:40.139Z"
+}

@@ -1,0 +1,16 @@
+{
+  "year": 2026,
+  "source_url": "https://admissions.nic.in/csabspl/Applicant/seatallotmentresult/currentorcr.aspx",
+  "rounds": [
+    "1",
+    "2"
+  ],
+  "total_official_rows": 12237,
+  "total_csab_rows": 11793,
+  "total_dasa_rows_excluded": 444,
+  "unique_csab_institutes": 114,
+  "unique_csab_programs": 185,
+  "missing_opening_rank": 0,
+  "missing_closing_rank": 0,
+  "duplicate_keys": 0
+}

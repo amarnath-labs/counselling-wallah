@@ -1,0 +1,767 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 1 of 5 (NIT Trichy). Remaining 4 colleges to follow in separate responses per user instruction."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Trichy",
+        "verified_name": "National Institute of Technology, Tiruchirappalli",
+        "city": "Tiruchirappalli",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Regional Engineering College (REC) Tiruchirappalli, renamed 2003, Institute of National Importance since 2007. Located at Thuvakudi, Tanjore Main Road, Tiruchirappalli - 620015. Verified distinct from Indian Institute of Information Technology, Tiruchirappalli (IIIT-T), a separate, unrelated public-private-partnership institute in the same city. Single main campus, no branch-campus ambiguity found."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Multiple pages retrieved including reviews, placement, and course pages."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page and mirror subdomain (s4.collegedunia.com) retrieved."},
+        {"platform": "Careers360", "status": "available", "notes": "Main college page, compare page, and DoMS (Department of Management Studies) reviews page retrieved."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located and retrieved via search, primarily on hostel life."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NIT Trichy were located in searches performed this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/compare-nit-trichy-2996",
+          "aggregate_rating": 4.4,
+          "rating_scale": "out of 5",
+          "review_count": 394,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "From a comparison-tool page: 'NIT Trichy is rated 4.4 out of 5 by 394 genuine verified students.'"
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/university/nit-trichy-national-institute-of-technology-tiruchirappalli-2996",
+          "aggregate_rating": 4.4,
+          "rating_scale": "out of 5",
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'As per the Shiksha verified reviews, the college has been rated 4.4/5.' No review count co-visible in this specific snippet."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/university/nit-trichy-national-institute-of-technology-tiruchirappalli-2996/placement",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Page contains a Value-for-Money sub-rating of 4.5/5 (see platform_aspect_ratings) but no overall aggregate rating was visible in the retrieved snippet."
+        },
+        {
+          "platform": "Shiksha (article)",
+          "source_url": "https://www.shiksha.com/articles/are-we-underrating-nits-a-look-at-nit-trichy-s-rise-among-top-iits-blogId-204314",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Editorial blog article referencing 'the college is rated 5/5 in terms of value for money' per Shiksha verified reviews — this is an aspect sub-rating, not an overall aggregate, and is stored separately in platform_aspect_ratings. Note this 5/5 figure conflicts with the 4.5/5 value-for-money figure seen on the placement page; both retained as separate observations since they could reflect different retrieval times or page versions."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://www.careers360.com/university/national-institute-of-technology-tiruchirappalli/compare",
+          "aggregate_rating": 4.4,
+          "rating_scale": "out of 5",
+          "review_count": 312,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "full_review",
+          "notes": "Page header: '4.4/5 (312)' linked to reviews. NIRF/Careers360 rank 'Rank 30 (Overall)' also shown but not a review-based metric."
+        },
+        {
+          "platform": "Careers360 (listing page)",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-be-btech-colleges-in-tiruchirappalli",
+          "aggregate_rating": 4.4,
+          "rating_scale": "out of 5",
+          "review_count": 307,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Different review_count (307) than the /compare page (312) observed in this same session — both retained as separate observations since retrieved from different URLs; not merged into a single conflicting_same_session object because they originate from different pages, not the same page/session load."
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25889-nit-trichy-tiruchirappalli/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "No overall aggregate rating or review count was visible in the retrieved snippet; only narrative review text and an auto-extracted 'insights' block were present."
+        },
+        {
+          "platform": "Collegedunia (mirror s4)",
+          "source_url": "https://s4.collegedunia.com/university/25889-nit-trichy-tiruchirappalli/reviews",
+          "aggregate_rating": 2.5,
+          "rating_scale": "out of 5",
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "full_review",
+          "notes": "Displayed as 'Why To Join NIT Trichy - Reviews & Rating: 2.5' with star distribution 5-star 0%, 4-star 0%, 3-star 100%, 2-star 0%, 1-star 0%. Sub-ratings: Academic 2.5, Faculty 3.0, Infrastructure 1.0, Accommodation 2.5, Placement 3.5. This is a markedly different and much lower rating than any other NIT Trichy figure observed (4.4/5 on Shiksha/Careers360); flagged as a significant discrepancy for backend review rather than reconciled or dismissed. Possibly reflects a small/skewed sample on this specific mirror page."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "Careers360", "aspect": "infrastructure", "rating": 4.2, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-tiruchirappalli/compare", "observed_at": null},
+        {"platform": "Careers360", "aspect": "academics", "rating": 3.9, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-tiruchirappalli/compare", "observed_at": null},
+        {"platform": "Careers360", "aspect": "placements", "rating": 4.3, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-tiruchirappalli/compare", "observed_at": null},
+        {"platform": "Careers360", "aspect": "value_for_money", "rating": 3.2, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-tiruchirappalli/compare", "observed_at": null},
+        {"platform": "Careers360", "aspect": "campus_life", "rating": 4.4, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-tiruchirappalli/compare", "observed_at": null},
+        {"platform": "Shiksha", "aspect": "value_for_money", "rating": 4.5, "rating_scale": "out of 5", "source_url": "https://www.shiksha.com/university/nit-trichy-national-institute-of-technology-tiruchirappalli-2996/placement", "observed_at": null},
+        {"platform": "Shiksha", "aspect": "value_for_money", "rating": 5.0, "rating_scale": "out of 5", "source_url": "https://www.shiksha.com/articles/are-we-underrating-nits-a-look-at-nit-trichy-s-rise-among-top-iits-blogId-204314", "observed_at": null},
+        {"platform": "Collegedunia (mirror s4)", "aspect": "academics", "rating": 2.5, "rating_scale": "out of 5", "source_url": "https://s4.collegedunia.com/university/25889-nit-trichy-tiruchirappalli/reviews", "observed_at": null},
+        {"platform": "Collegedunia (mirror s4)", "aspect": "faculty", "rating": 3.0, "rating_scale": "out of 5", "source_url": "https://s4.collegedunia.com/university/25889-nit-trichy-tiruchirappalli/reviews", "observed_at": null},
+        {"platform": "Collegedunia (mirror s4)", "aspect": "infrastructure", "rating": 1.0, "rating_scale": "out of 5", "source_url": "https://s4.collegedunia.com/university/25889-nit-trichy-tiruchirappalli/reviews", "observed_at": null},
+        {"platform": "Collegedunia (mirror s4)", "aspect": "hostel", "rating": 2.5, "rating_scale": "out of 5", "source_url": "https://s4.collegedunia.com/university/25889-nit-trichy-tiruchirappalli/reviews", "observed_at": null},
+        {"platform": "Collegedunia (mirror s4)", "aspect": "placements", "rating": 3.5, "rating_scale": "out of 5", "source_url": "https://s4.collegedunia.com/university/25889-nit-trichy-tiruchirappalli/reviews", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "NIT Trichy",
+          "source": "CollegeDekho",
+          "source_type": "aggregator",
+          "source_url": "https://www.collegedekho.com/colleges/nit-trichy-reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "Reviewer calls NIT Trichy the 'top 9th college in India' with excellent placement, citing highest package around 60 LPA last year."
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "Same review describes excellent infrastructure alongside placements."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Trichy",
+          "source": "CollegeDekho",
+          "source_type": "aggregator",
+          "source_url": "https://www.collegedekho.com/colleges/nit-trichy-reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "department",
+              "sentiment": "positive",
+              "evidence_summary": "'In terms of placement the university maintains decent records especially in IT management and core engineering domains with top recruiters like TCS, Cognizant and Wipro visiting the campus.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Spread over a sprawling green campus the university boasts state of the art infrastructure including smart classrooms, well equipped laboratories and an expansive library with digital access.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculty members are generally qualified and supportive with many having industry and research experience,' organizing workshops for hands-on learning."
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "Hostel described as designed to provide 'a safe, comfortable and conducive environment,' with separate hostels for boys and girls."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Trichy",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25889-nit-trichy-tiruchirappalli/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": "Instrumentation and Control Engineering",
+          "branch": "Instrumentation and Control Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Instrumentation and Control Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The highest package goes above 40 LPA, average for ICE is 15-16 LPA, around 90%+ get placed with good roles.' ICE explicitly named as 'average for ICE.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The course curriculum is more relevant as compared to basics but as compared to applications it lacks behind time... elements of a particular topic that were used way back in time rather than current ones.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Trichy",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25889-nit-trichy-tiruchirappalli/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "value_for_money",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'You get a scholarship if you have some reservations, but on the contrary the college fee is not that costly compared to other colleges and the ROI is good here.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The wifi service is very poor in the hostel and even mobile network is bad due to its remote location.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Room is spacious but the hostel maintenance is so bad as compared to the college maintenance. This college is very old, so infrastructures are not that good.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "Same review attributes poor mobile network to the campus's 'remote location.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Trichy",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25889-nit-trichy-tiruchirappalli/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements are quite strong, especially for CS, ECE, and even core branches.' CSE and ECE explicitly named."
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "Same sentence explicitly names ECE alongside CSE as having strong placements."
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Students eligible for placements from 7th sem. Big companies like Microsoft, Amazon, TI, Deloitte, L&T visit... around 85-90% of students get placed every year in software, Data Science, Management and core sectors.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Campus life is really vibrant with fests, clubs, sports and hostel culture.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculty are knowledgeable and supportive, most of them teach well and also guide us for projects and higher studies.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Trichy",
+          "source": "Collegedunia (mirror s4)",
+          "source_type": "rating_platform",
+          "source_url": "https://s4.collegedunia.com/university/25889-nit-trichy-tiruchirappalli/reviews",
+          "source_review_id": null,
+          "author_display_name": "review moderation four",
+          "review_title": null,
+          "review_date": "2024-10-07",
+          "observed_at": null,
+          "content_type": "other",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Arch",
+          "course": "B.Arch",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": 5.8,
+          "rating_scale": "out of 10",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [],
+          "extraction_note": "This entry consists entirely of unanswered template prompts ('How is the faculty to student ratio...', 'Who are the best faculties?', etc.) with no actual opinion content visible in the retrieved snippet. Per rule 8, no aspect_evidence entries are created since no genuine sentiment was expressed."
+        },
+        {
+          "college_name": "NIT Trichy",
+          "source": "Collegedunia (mirror s4)",
+          "source_type": "rating_platform",
+          "source_url": "https://s4.collegedunia.com/university/25889-nit-trichy-tiruchirappalli/reviews",
+          "source_review_id": null,
+          "author_display_name": "Raktim Tarafdar / Tezal Dahiya",
+          "review_title": "What are your reviews about NIT Trichy?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Two names appear attached to this single answer block in the retrieved page; authorship could not be disambiguated from the snippet, so author_display_name preserves both as observed rather than guessing which one wrote it.",
+          "aspect_evidence": [
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Trichy has a distinctive competitive ambiance... more than 50 student-driven clubs that encourage active participation... instill a sense of equality among students irrespective of academic profiles.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The climate here is a bit unbearable and the location is kind of remote. You will find it difficult to adjust here in the initial months.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Trichy",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/university/nit-trichy-national-institute-of-technology-tiruchirappalli-2996/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'There is an 80 percent placement rate in B.Tech civil engineering. The lowest package offered is 3 LPA, and the highest package offered is 33 LPA. For tech fields, companies like Microsoft and Google, and for core companies like Dalmia, ACC Cement, L&T hire students.'"
+            },
+            {
+              "aspect": "internships",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'Internships are not very common in this branch, so we have to fight a bit more compared to other branches.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The hostel and mess facilities are among the best across all NITs and IITs. We have high-speed Wi-Fi in each room. The mess food is great compared to other top colleges... We have an NIT Hospital for medical issues or emergencies.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'There is a curfew for first-year boys. For girls, it is for all four years.' Stated descriptively without explicit positive or negative framing in the visible snippet."
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Faculty members here are not as good as those at primary IITs. This institution has a relevant curriculum, but some subjects, like engineering graphics, feel outdated.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Trichy",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/university/nit-trichy-national-institute-of-technology-tiruchirappalli-2996",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "Reviewer self-identifies as fresher from Civil Engineering branch: 'If we look at the placements at NIT Trichy, they are amazing. To be honest, I am from the Civil Engineering branch, so we cannot expect high packages, but our seniors get into many PSUs.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Trichy",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/colleges/department-of-management-studies-national-institute-of-technology-tiruchirappalli/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "MBA",
+          "course": "General MBA",
+          "course_verified": true,
+          "department": "Department of Management Studies",
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "department",
+              "sentiment": "positive",
+              "evidence_summary": "'Vast alumni base and corporate relation also helping to maintain decent placement every year... Best in RoI, Ranked 17th in all business school (NIRF ranking).' Scoped explicitly to DoMS, not B.Tech."
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "department",
+              "sentiment": "positive",
+              "evidence_summary": "'The institute has all the latest and necessary infrastructures, facilities, well-equipped classrooms, libraries, sports centers, and hostel. A dedicated NIT Trichy WiFi connection is available for the whole campus.'"
+            },
+            {
+              "aspect": "value_for_money",
+              "target_branch": null,
+              "scope": "department",
+              "sentiment": "positive",
+              "evidence_summary": "'Definitely value for money.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "department",
+              "sentiment": "mixed",
+              "evidence_summary": "'The course structure is good and inlined with present corporate needs. The only issue with DoMS NIT Trichy is that the institute does not provide any major or minor degree. After completion, students will be given a certificate for General MBA.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "department",
+              "sentiment": "mixed",
+              "evidence_summary": "'The campus is stunning and clean. Different types of cuisines are available, but none tastes good.' (Food/mess quality specifically noted as poor despite variety.)"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Trichy",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Is-hostel-life-in-NIT-Trichy-good-Are-there-bad-people-in-terms-of-character",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Is hostel life in NIT Trichy good? Are there bad people in terms of character?",
+          "review_date": "2015-07-08",
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "Second-year student describes hostel life as 'a new experience' that 'turned out to be wonderful,' noting 'no strict rules' and 'so much freedom' compared to other colleges."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Trichy",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-the-campus-and-hostel-in-NIT-Trichy",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is the campus and hostel in NIT Trichy?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Infrastructure-wise, the campus is decent. The admin block with the clock tower, the barn hall, Orion, LHC, and GJCH look good and are quite well maintained. There is ample greenery.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Trichy",
+          "source": "CollegeBatch.com",
+          "source_type": "aggregator",
+          "source_url": "https://www.collegebatch.com/reviews/34619-national-institute-of-technology-tiruchirappalli",
+          "source_review_id": "34619",
+          "author_display_name": "Aarav Dwivedi",
+          "review_title": "NIT Trichy's Hostel Facilities: Rooms, Dining Halls, and Fees Review",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The hostel facilities I feel is better than other institutes (government).' Describes choosing the institute partly for hostel quality."
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The professors of National Institute of Technology, Tiruchirappalli is highly qualified.'"
+            },
+            {
+              "aspect": "internships",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "Describes IPMPs (Internship Planning and Mentorship Programs) preparing sophomores for internship recruitment, and CPCs preparing juniors for placements; names Microsoft, Google, DE Shaw, Goldman Sachs as internship/placement recruiters, and Tata, Bajaj, Boeing, Exxon Mobil, ITC as core-sector recruiters."
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'When I entered the campus for the first time first thing I noticed was the huge campus area and greenery all over with cleanliness... seniors and staff all were very friendly and helpful.'"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 13,
+        "independent_sources": 5,
+        "reviews_with_dates": 2,
+        "reviews_last_24_months": 1,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 13
+      },
+
+      "limitations": [
+        "Reddit: no genuine NIT Trichy-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "The Collegedunia mirror (s4.collegedunia.com) shows a markedly lower aggregate rating (2.5/5) and much lower infrastructure sub-rating (1.0/5) than every other source observed (Shiksha 4.4/5, Careers360 4.4/5). This is retained as-observed rather than reconciled or excluded — could reflect a small/unrepresentative sample specific to that mirror page, a different underlying methodology, or a data artifact; flagged for backend review.",
+        "Most review_items lack explicit author names, dates, or source_review_id, since the underlying pages were accessed via search snippets rather than full paginated review archives; duplicate_status is therefore 'unknown' for the large majority of items rather than asserted as unique.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~300+ reviews reported on Shiksha or Careers360 for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

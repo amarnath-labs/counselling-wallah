@@ -728,12 +728,171 @@ export async function fetchJosaaResults(
           profile
         )
     );
+  /*
+  |--------------------------------------------------------------------------
+  | CSAB HISTORICAL MATCH ENRICHMENT
+  |--------------------------------------------------------------------------
+  |
+  | One batch request only.
+  | Existing JoSAA bucket / score / sorting remain unchanged.
+  |
+  */
+
+  try {
+    const branchIds =
+      [
+        ...new Set(
+          results
+            .map(
+              (item) =>
+                Number(
+                  item?.branch?.id
+                )
+            )
+            .filter(
+              (id) =>
+                Number.isInteger(id) &&
+                id > 0
+            )
+        ),
+      ];
+
+
+    if (
+      branchIds.length > 0
+    ) {
+      let normalizedGender =
+        null;
+
+
+      if (
+        profile?.gender
+      ) {
+        const gender =
+          String(
+            profile.gender
+          )
+            .trim()
+            .toLowerCase();
+
+
+        normalizedGender =
+          gender.includes(
+            'female'
+          )
+            ? 'Female-only (including Supernumerary)'
+            : 'Gender-Neutral';
+      }
+
+
+      const csabResponse =
+        await fetch(
+          `${API_BASE_URL}/counselling/csab-matches`,
+          {
+            method: 'POST',
+
+            headers: {
+              'Content-Type':
+                'application/json',
+            },
+
+            body:
+              JSON.stringify({
+                branchIds,
+
+                rank:
+                  Number(
+                    profile.rank
+                  ),
+
+                category:
+                  getCategory(
+                    profile.category
+                  ),
+
+                quota:
+                  profile?.quota ||
+                  null,
+
+                gender:
+                  normalizedGender,
+              }),
+          }
+        );
+
+
+      if (
+        !csabResponse.ok
+      ) {
+        throw new Error(
+          `CSAB batch API returned ${csabResponse.status}`
+        );
+      }
+
+
+      const csabPayload =
+        await csabResponse.json();
+
+
+      const csabMatches =
+        csabPayload?.data ||
+        {};
+
+
+      for (
+        const item
+        of results
+      ) {
+        const branchId =
+          Number(
+            item?.branch?.id
+          );
+
+
+        const match =
+          csabMatches[
+            String(branchId)
+          ];
+
+
+        item.csabMatch =
+          match?.available
+            ? String(
+                match.bucket ||
+                ''
+              )
+                .trim()
+                .toLowerCase()
+            : null;
+      }
+
+
+      console.log(
+        '[SERVICE] CSAB matches enriched:',
+        csabPayload?.meta
+      );
+    }
+  } catch (error) {
+    console.error(
+      '[CSAB MATCH ENRICHMENT ERROR]',
+      error
+    );
+
+
+    for (
+      const item
+      of results
+    ) {
+      item.csabMatch =
+        null;
+    }
+  }
+
 
   console.log(
     '[SERVICE] Results converted:',
     results.length
   );
-
   if (
     results.length > 0
   ) {

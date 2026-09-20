@@ -1,0 +1,113 @@
+﻿[
+  {
+    "college_id": "allenhouse-institute-of-technology-kanpur",
+    "college_name": "ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+    "total_course_fee": null,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "shiksha",
+    "source_label": "Allenhouse Institute of Technology Fees 2026",
+    "source_url": "https://www.shiksha.com/college/allenhouse-institute-of-technology-kanpur-56741/fees",
+    "source_priority": 65,
+    "confidence_score": 75,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "Shiksha reports B.Tech tuition INR 244800-392000 for four years depending on specialization and hostel fee around INR 320000 for the course. Because fees vary by specialization, normalized semester and total-course fields are intentionally left null."
+  },
+
+  {
+    "college_id": "bansal-institute-of-engineering-technology-lucknow",
+    "college_name": "BANSAL INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+    "total_course_fee": 380000,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "careers360",
+    "source_label": "Bansal Institute BTech Fees 2026",
+    "source_url": "https://www.careers360.com/colleges/bansal-institute-of-engineering-and-technology-lucknow/fees",
+    "source_priority": 70,
+    "confidence_score": 82,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "Careers360 reports INR 380000 tuition and INR 380000 total B.Tech fee for the complete four-year course for general category students."
+  },
+
+  {
+    "college_id": "bharat-ratna-baba-saheb-bhim-rao-ambedkar-rajkiya-engineering-college-pratapgarh",
+    "college_name": "Bharat Ratna Baba Saheb Bhim Rao Ambedkar Rajkiya Engineering College, Pratapgarh",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": 68850,
+    "annual_academic_fee": null,
+    "annual_total_fee": 68850,
+    "total_course_fee": null,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "official",
+    "source_label": "REC Pratapgarh Institute Fee Notice",
+    "source_url": "https://recp.ac.in/Content/upload/Notification/noti2025-09-30_19-01-15.pdf",
+    "source_priority": 100,
+    "confidence_score": 98,
+    "verification_status": "high_confidence",
+    "extraction_method": "manual",
+    "notes": "Official notice states B.Tech first-year institute fee with hostel INR 68850. Students without hostel deduct INR 10000. Mess advance INR 20000 is payable separately after hostel allotment. annual_total_fee represents the stated institute fee only and does not include separately payable mess."
+  },
+
+  {
+    "college_id": "babu-banarasi-das-institute-of-technology-and-management-lucknow",
+    "college_name": "BABU BANARASI DAS INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+    "total_course_fee": 521000,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "careers360",
+    "source_label": "BBDITM Lucknow BTech Fees 2026",
+    "source_url": "https://www.careers360.com/colleges/babu-banarasi-das-northern-india-institute-of-technology-lucknow/fees",
+    "source_priority": 70,
+    "confidence_score": 78,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "Careers360 reports approximately INR 391000 B.Tech tuition and INR 521000 total B.Tech fee for the complete course. Stored as secondary evidence pending exact institute fee confirmation."
+  }
+]

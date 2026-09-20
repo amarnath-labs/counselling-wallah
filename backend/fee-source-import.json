@@ -1,0 +1,45 @@
+﻿[
+  {
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "college_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 95000,
+    "academic_fee_per_semester": 105000,
+    "hostel_fee_per_semester": 15000,
+    "mess_fee_per_semester": 20000,
+
+    "first_semester_fee": 168750,
+
+    "one_time_fee": 23750,
+    "security_deposit": 5000,
+
+    "source_kind": "official",
+    "source_label": "ABV-IIITM Gwalior Official Fee Structure",
+    "source_url": "https://iiitm.ac.in/public/uploads/media_uploads/1779189402_Fees-Details-2025-2026-f.pdf",
+
+    "confidence_score": 95,
+    "verification_status": "high_confidence",
+    "extraction_method": "manual"
+  },
+
+  {
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "college_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "first_year_fee": 308000,
+    "total_course_fee": 1149000,
+
+    "source_kind": "collegedunia",
+    "source_label": "Collegedunia ABV-IIITM Fees",
+    "source_url": "PASTE_COLLEGEDUNIA_URL_HERE",
+
+    "confidence_score": 70,
+    "verification_status": "pending_review",
+    "extraction_method": "manual",
+    "notes": "Secondary source; verify against official fee structure."
+  }
+]

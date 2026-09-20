@@ -1,0 +1,136 @@
+{
+  "committedAt": "2026-09-13T15:34:05.401Z",
+  "insertedCount": 26,
+  "inserted": [
+    {
+      "id": "2725",
+      "college_id": "indian-institute-of-technology-mandi",
+      "name": "Data Science and Engineering (4 Years, Bachelor of Technology)"
+    },
+    {
+      "id": "2726",
+      "college_id": "indian-institute-of-technology-madras",
+      "name": "Physics (5 Years, Bachelor of Science and Master of Science (Dual Degree))"
+    },
+    {
+      "id": "2727",
+      "college_id": "iit-gandhinagar",
+      "name": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2728",
+      "college_id": "iit-gandhinagar",
+      "name": "Electrical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2729",
+      "college_id": "iit-gandhinagar",
+      "name": "Mechanical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2730",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Biochemical Engineering with M.Tech. in Biochemical Engineering and Biotechnology (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2731",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Bioengineering with M.Tech in Biomedical Technology (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2732",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Ceramic Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2733",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Civil Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2734",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2735",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Electrical Engineering with M.Tech. in Power Electronics (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2736",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Engineering Physics (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2737",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Industrial Chemistry (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2738",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Materials Science and Technology (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2739",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Mathematics and Computing (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2740",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Mechanical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2741",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Metallurgical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2742",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Mining Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2743",
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Pharmaceutical Engineering & Technology (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2744",
+      "college_id": "national-institute-of-technology-kurukshetra",
+      "name": "Architecture and Planning (5 Years, Bachelor of Architecture)"
+    },
+    {
+      "id": "2745",
+      "college_id": "indian-institute-of-information-technology-una-himachal-pradesh",
+      "name": "Information Technology (4 Years, Bachelor of Technology)"
+    },
+    {
+      "id": "2746",
+      "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+      "name": "B.Tech. in Electronics and Communication Engineering and M.Tech. in VLSI Design (5 Years, Bachelor and Master of Technology (Dual Degree))"
+    },
+    {
+      "id": "2747",
+      "college_id": "cu-jharkhand",
+      "name": "Integrated B. Tech. - M. Tech in Civil Engineering (5 Years, Integrated B. Tech. and M. Tech.)"
+    },
+    {
+      "id": "2748",
+      "college_id": "cu-jharkhand",
+      "name": "Integrated B. Tech. - M. Tech in Computer Science & Engineering (5 Years, Integrated B. Tech. and M. Tech.)"
+    },
+    {
+      "id": "2749",
+      "college_id": "cu-jharkhand",
+      "name": "Integrated B. Tech. - M. Tech in Electrical Engineering (5 Years, Integrated B. Tech. and M. Tech.)"
+    },
+    {
+      "id": "2750",
+      "college_id": "cu-jharkhand",
+      "name": "Integrated B. Tech.- M. Tech in Metallurgical & Materials Engineering (5 Years, Integrated B. Tech. and M. Tech.)"
+    }
+  ]
+}

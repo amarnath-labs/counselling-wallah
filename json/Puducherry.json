@@ -1,0 +1,487 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 1 of 5 in the fifth batch (NIT Puducherry). Colleges 2-5 (NIT Uttarakhand, NIT Meghalaya, NIT Manipur, NIT Mizoram) to follow in separate responses. Cumulative total after this college: 21 of 31 standard NITs."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Puducherry",
+        "verified_name": "National Institute of Technology Puducherry (NITPY)",
+        "city": "Karaikal",
+        "state": "Puducherry (Union Territory)",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "One of ten new NITs sanctioned in 2009 during the 11th Five-Year Plan, established 2010; mentored initially by NIT Tiruchirappalli. Located in Karaikal — a non-contiguous coastal enclave of the Union Territory of Puducherry, geographically distant (~140-150km per one source) from Puducherry city itself. Permanent campus (~256-258 acres) in Thiruvettakudy/Poovam villages, inaugurated 2016. CRITICAL DISAMBIGUATION: explicitly verified DISTINCT from Puducherry Technological University (formerly Pondicherry Engineering College, PEC), a separate, older (est. 1984), unrelated state institution actually located in Puducherry city proper — confirmed directly by a Careers360 Karaikal-city listing page showing both institutions side by side. One search result referencing 'NIT Kolkata' was identified as either a mislabeled or non-existent institution (no such NIT exists among the standard 31) and was excluded entirely from this extraction."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews pages (multiple, including rating-filtered) and course-specific page retrieved."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page retrieved with substantive narrative review content, including explicit likes/dislikes framing."},
+        {"platform": "Careers360", "status": "available", "notes": "Aggregate rating confirmed via a Karaikal-city B.Tech listing page (notably small sample size of 8 reviews), correctly distinguished from PEC Puducherry on the same listing; facilities page and Q&A threads also retrieved."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located on hostel life, ragging (consistently describing a ragging-free environment), and a comparative discussion (vs PSG College of Technology)."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NIT Puducherry located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session. A JustDial listing (a different, unrelated local-business-review platform) was found showing an aggregate rating, included for completeness but explicitly not a Google Reviews observation."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-be-btech-colleges-in-karaikal",
+          "aggregate_rating": 3.7,
+          "rating_scale": "out of 5",
+          "review_count": 8,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Puducherry - National Institute of Technology Puducherry Karaikal ... Rating: 3.7/5, 8 Reviews.' EXTREMELY SMALL SAMPLE SIZE explicitly noted — this aggregate should be treated with very low confidence given only 8 underlying reviews. Correctly distinguished on the same page from 'PEC Puducherry - Puducherry Technological University' (4.3/5, 43 reviews), a separate institution, and 'Bharathiar College of Engineering and Technology, Karaikal' (3.0/5, 1 review), also separate."
+        },
+        {
+          "platform": "JustDial",
+          "source_url": "https://www.justdial.com/Karaikal/NIT-Puducherry/9999P4368-4368-161130154536-V3H9_BZDET/reviews",
+          "aggregate_rating": 4.3,
+          "rating_scale": "out of 5",
+          "review_count": 129,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "SCOPE CAVEAT: JustDial is a general local-business-listing and review platform (similar to Yelp), not a dedicated student-review platform. Its rating aggregation methodology and reviewer base (which may include non-students, such as local visitors or event attendees) are unclear. Recorded for completeness with this significant caveat rather than treated as equivalent to Shiksha/Careers360/Collegedunia student-review aggregates."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-puducherry-national-institute-of-technology-pondicherry-39238",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippet for this specific page."
+        }
+      ],
+
+      "platform_aspect_ratings": [],
+
+      "review_items": [
+        {
+          "college_name": "NIT Puducherry",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-puducherry-national-institute-of-technology-pondicherry-39238/reviews-2?rating=3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'To go to the nearest city Karaikal we must walk 2 kms to catch a bus.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The labs have basic equipment for B.Tech but they are not sufficient.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Faculty and HODs are friendly. But in many cases the administration does not consider student views.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculty are encouraging and helpful in course and career issues. Class mentors are available for any doubts regarding campus and course. Most of the faculty are Ph.D. doctorates from NITs and IITs.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Fests are conducted twice a year. They are pretty entertaining. Many events like DJ night are conducted in the cultural fest. In the technical fest many workshops like robotics, programming are conducted.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Puducherry",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-puducherry-national-institute-of-technology-pondicherry-39238/reviews-2?rating=3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2023.",
+          "aspect_evidence": [
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Travel facilities are bad, and trees are also less.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'In our course, the highest salary package offered is 14-15 LPA, the average salary package offered is 6-7 LPA and the lowest salary package offer[ed]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Puducherry",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-puducherry-national-institute-of-technology-pondicherry-39238/course-b-tech-in-computer-science-and-engineering-197453",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Review of NIT Puducherry - National Institute of Technology",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'95% of the students got placed in my course. 62 LPA is the highest package and 9 LPA is the lowest package. Samsung is the top recruiter. 100% of the students got internships in companies like Samsung, Intel, Wipro, etc. The top role offered by our college is in the artificial intelligence course.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'We have three computer labs with all the software that is required for our practice and development of our knowledge and we have a library that consists of many books that are useful for students.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Our hostel is a little bit messy, but when it comes to food, it is adjustable.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Yes, our faculty is very much qualified and experienced.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Puducherry",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/28218-national-institute-of-technology-nit-pondicherry/reviews?courseTag=18",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Ragging free campus, very friendly seniors.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Construction work still underway, causing minor disturbances.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Connectivity issue with main cities as the location is not exactly in Puducherry main city.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Students are eligible for placements starting from 6th semester onwards. Many famous companies like Nvidia, Samsung, ABB, Hitachi, Goldman Sachs, Ford, BHEL, BEL, Tata, L&T etc visit the campus. The highest package overall is 16 LPA, average is 11 LPA. More than 75% of the students sitting for placements get placed.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Puducherry",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/28218-national-institute-of-technology-nit-pondicherry/reviews?courseTag=18",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Puducherry (NITPY) has the best and most supportive faculty there is. Be it any department and especially CSE.'"
+            },
+            {
+              "aspect": "value_for_money",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The fee structure is quite affordable and less when compared to the private colleges but a bit more than government colleges.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The CSE department also has quite promising placements.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Puducherry",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Which-is-better-PSG-or-NIT-Puducherry",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Which is better, PSG or NIT Puducherry?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This page contains multiple layered answers; the specific hostel/facility detail below is attributed to the ECE-identified contributor based on context, though exact answer boundaries in the retrieved snippet were not perfectly distinct.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There is no ragging in any form as far as concerned to me. Seniors are quite helpful. You can go to anyone's room for any help. There is no such thing that we have to call them as Sir or Ma'am.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'We have high speed Wi-Fi in hostels and college. Also LAN is being set up and will be ready till next semester. There are two lifts in each hostel, so you don't have to worry about climbing stairs.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'A general small departmental store and a canteen has been opened in the campus which works from 7:30 am to 10:30 pm. We have our cultural fest 'Le-Ceil' in the month of October and tech fest 'Gyanith' in the month of March.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Puducherry",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-the-NIT-Puducherry-hostel-2018",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is the NIT Puducherry hostel (2018)?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Puducherry hostel is quite good. There are two big hostels in the college, one for boys and girls respectively. More hostels with single rooms will be constructed in 1-2 years. Each hostel has a mess in ground floor, so you don't have to walk a lot to eat your food.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Puducherry",
+          "source": "WorldOrgs (business-listing aggregator)",
+          "source_type": "aggregator",
+          "source_url": "https://in.worldorgs.com/catalog/karaikal/hostel/nit-puducherry-boys-hostel",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "other",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "IMPORTANT SCOPE CAVEAT: This source is a generic local-business/venue-listing aggregator (similar to a Yelp-style directory), not a student-review platform. Reviewer identity and whether they are actual NIT Puducherry students is unverifiable — some fragments explicitly reference visiting for a one-off workshop/event rather than being enrolled students. These fragments are recorded with content_type 'other' and treated as lower-confidence, non-student-verified impressions rather than equivalent to platform student reviews elsewhere in this dataset.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Boys hostel of NIT Puducherry. Modern architectural beauty and good facilities... Great place to live with all amenities... Its well built and well furnished. The rooms are too big for two person... One of the best hostel...excellent ventilation...has got elevator facilities....heated water and very well maintained restrooms.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Only the rooms here are good. All the other facilities are way worse. Please don't opt this NIT Puducherry.' A separate, more sarcastic fragment states: 'Awesome place to stay...if u want to get the real experience of hell!!' — tone suggests strong dissatisfaction, though specific grievances are not detailed in the retrieved snippet."
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Its awesome place but is cutoff from city. So bring all necessary items required at the time of coming.'"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 7,
+        "independent_sources": 4,
+        "reviews_with_dates": 0,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 7
+      },
+
+      "limitations": [
+        "Reddit: no genuine NIT Puducherry-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable. A JustDial listing (a different local-business-review platform) was found and recorded separately with an explicit scope caveat, since its reviewer base and methodology are unclear and may not be limited to actual students.",
+        "The Careers360 aggregate rating (3.7/5) is based on an extremely small sample of only 8 reviews — this is explicitly and repeatedly flagged as low-confidence given the tiny sample size, notably smaller than most other NITs processed in this dataset.",
+        "A search result explicitly labeled 'NIT Kolkata' was identified and excluded from this extraction — no such institution exists among the standard 31 NITs, and the content appeared to be either mislabeled or belonging to an entirely different, unidentified institution.",
+        "Evidence from a general business-listing aggregator (WorldOrgs) was included with an explicit caveat that reviewer identity/student status could not be verified, and that some fragments explicitly describe one-off event/workshop visits rather than enrolled-student experience.",
+        "This institution's unusual geographic situation (Karaikal being a non-contiguous enclave of Puducherry, distant from Puducherry city) is a recurring theme across multiple independent sources describing connectivity/location as a genuine drawback.",
+        "No review in this extraction batch carried an explicit visible date; reviews_with_dates and reviews_last_24_months are both 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session; overall source volume for this institution is notably sparser than for older, more established NITs in this dataset, consistent with it being one of the newer, smaller NITs.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

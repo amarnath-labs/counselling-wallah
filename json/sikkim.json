@@ -1,0 +1,497 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 4,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 3 of 4 in the sixth and final batch (NIT Sikkim). College 4 (NIT Andhra Pradesh) to follow in a separate response. Cumulative total after this college: 28 of 31 standard NITs."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Sikkim",
+        "verified_name": "National Institute of Technology, Sikkim (NIT SKM)",
+        "city": "Ravangla (temporary campus); Khamdong (planned permanent campus)",
+        "state": "Sikkim",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "One of ten new NITs, started functioning August 2010. As of the most recent available information, continues to operate from a temporary campus at Barfung Block, Ravangla, South Sikkim (~20-75 acres depending on source and measurement scope); permanent campus construction at Khamdong was reported as underway with an expected completion around March 2027, per one source, though this postdates this extraction's reliable knowledge window and should be independently verified for current status. Explicitly verified DISTINCT from an entirely unrelated 'National Institute of Technology' in Chittagong, Bangladesh — a private polytechnic in a different country that happens to share the same acronym; no evidence from that institution was included."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews page, main overview page, and faculty page retrieved with substantial review content, including specific detail on temporary-campus hostel conditions."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page and main overview page retrieved with substantive narrative review content, including one strongly-worded, candidly negative review."},
+        {"platform": "CollegeDekho", "status": "restricted", "notes": "Reviews page retrieved but content was found to contain obviously garbled, corrupted, or mistranslated text (e.g., 'Sparried Omar a sparrowing green campus,' 'smart bathroom oil equipped laboratories') inconsistent with genuine reviewer prose. This source's narrative content was excluded from extraction as unreliable; the platform is marked 'restricted' rather than 'available' for this reason."},
+        {"platform": "Careers360", "status": "available", "notes": "A Q&A thread on M.Tech Electrical placements was retrieved; a specific numeric aggregate rating for this institution was not conclusively isolated in this session's searches."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located, including specific detail on off-campus rented first-year hostel buildings and girls' hostel safety."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "Targeted search for NIT Sikkim/Ravangla on Reddit did not surface genuine reddit.com-hosted threads in this session; marked unavailable rather than fabricated."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-sikkim-national-institute-of-technology-sikkim-other-39335",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippet for this specific page."
+        }
+      ],
+
+      "platform_aspect_ratings": [],
+
+      "review_items": [
+        {
+          "college_name": "NIT Sikkim",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-sikkim-national-institute-of-technology-sikkim-other-39335/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'In 2020, overall placement percentage is nearly 70%. Placements are almost 100% for branches like CSE, ECE and EEE. Now for branches like civil and mechanical engineering, it is slightly less which is the same in all colleges.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The average annual package ranges from 2.5-4 Lacs per year.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'As NIT Sikkim is still operating from a temporary campus, hostel facilities are not as per the other NITs. Students are forced to live in 5-bedded sharing rooms, where 5 tables, 5 chairs, 5 almirahs, and 5 beds are provided for each student, but it becomes very tough to follow the individual routine.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Mess food quality is poor, and the only reason [the] institute states is that Ravangla is a very remote location.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Sikkim",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-sikkim-national-institute-of-technology-sikkim-other-39335/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Mechanical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2024.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'If you are capable enough, you'll be getting decent placements. Overall statistics fall about 80% every year with an average package of 9-10 LPA, including 90-95% for CSE, ECE, and 80-85% for core branches like EEE, ME, CE. Some major recruiters are CDAC, CDOT, BEL, NVIDIA, L&T, VEDANTA, GENPACT, DELOITTE, IBM, SLB, HCLTech.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Operating from its temporary campus at a very remote location of Ravangla, it has seen some advancements in the recent financial year, but the thing that will be probl[ematic]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Sikkim",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/28213-national-institute-of-technology-nit-south-sikkim/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Familiar behavior and nature of professors around you will treat you as their students and the professors are very much supportive in nature.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Infrastructure still needs to be improved a lot as students [are] forced to live in a 5-bedded sharing room where it becomes very difficult for a student to follow their own routine, and along with hostels the facilities are also not that top notch.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Course curriculum is very hectic as so many exams will be there, including 2 mid-terms and one major end term, and more or less the professors focus on theoretical things, not on the practical applications.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'If you are capable enough you will be getting decent placements. Overall placement statistics [lie] about 80-90% with an average package of 9-1[0 LPA]. Some of major past recruiters are CDAC, CDOT, BEL, VEDANTA, DELOITTE, MAHINDRA, MARUTI SUZUKI, UKG, GENPACT, BPCL, L&T, ALSTOM, NVIDIA, MICROSOFT, SLB, TERADATA, CGI. Highest package for the batch of 2023-24 was 44 LPA by NVIDIA and average was around 9.95 LPA.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'We would rate the course curriculum average because there are few things to notice about; we don't have any big sports ground.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Sikkim",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/28213-national-institute-of-technology-nit-south-sikkim/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This is a notably candid, directly-worded review explicitly advising prospective students against choosing this institution except as a fallback for a low JEE rank, and explicitly discouraging consideration of 'these northeast colleges' in general — a strong, generalized statement about a category of institutions (Northeast NITs) rather than solely this one, which is preserved faithfully but flagged as a broader value judgment beyond just this institution.",
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'National Institute of Technology Sikkim fails to provide many facilities as [an] NIT student should have, for its temporary campus. The temporary campus is really congested in [a] 20 acre area. All the higher authorities are saying that the permanent campus will be made after 3 years minimum from this year, at that time I will be [a] graduated alumna.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'You can take admission in this college if you want an NIT tag with [a] low rank, otherwise you can prepare one year more, take [a] drop and avoid these northeast colleges.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Some good things about our campus [are that the] college experience is good because of the surrounding hills and mountains. You will love the sunrises in winter season here; the temperature is kind of cold, normally, but in winters the temperature goes below 0 at night.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Sikkim",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/28213-national-institute-of-technology-nit-south-sikkim/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The facility was not much in the hostel as well as the classroom, but still whatever is affordable is giving [value].'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The girls to boys ratio is very less so take care for that.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The rules and regulation, and yes the mess regulation, [are] [dis]gusting.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Placement is all about your preparation as opportunities come too much but if you have power then crack that one. Highest [package] going in 2024 batch is 44 LPA and 66 percent was placed as there [was] a recession going on this time due to Covid, [when] all markets crashed.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Sikkim",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/28213-national-institute-of-technology-nit-south-sikkim/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There is [a] very good environment in Sikkim, Mount Kanchenjunga is clearly visible from hostel rooms. [A] very peaceful place for study. Most of [the] professors are well qualified here.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculties used to teach industry-relevant things. So, despite being so much problem here, students used to [get] placed in big MNCs from here like Apple, Nvidia, Microsoft.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Right now, infrastructure here is not well; in hostels there is fixed timing for water supply. But there is [a] new permanent campus [being] set up in [Kham]dong, so we are hoping for better.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Some professors are literally so irritable here. They treat students like school-going nursery kids. Academic pressure is so much here, professors used to give so much assignments, projects, copy-paste stuff, etc.; they used to take viva, class tests, presentation regularly (every week).'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Sikkim",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-life-at-NIT-Sikkim-s-girls-hostel-What-are-some-strange-or-good-rules-of-the-hostels-Can-you-share-some-pictures",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is life at NIT Sikkim's girls' hostel? What are some strange or good rules of the hostels? Can you share some pictures?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Self-identified as a current 3rd-year undergraduate.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'I am pleased to say that hostel facility and environment of the college and town Ravangla is quite peaceful and safe for girls. Plus [the] natural beauty of Ravangla adds another star to [the] college's environment.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Once we come here, the difference from [the] plains side is quite clear: peace, pollution free, open minded people, and much more to say.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Sikkim",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/What-is-the-condition-of-the-hostel-of-NIT-Sikkim",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "What is the condition of the hostel of NIT Sikkim?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This corroborates the theme of temporary, off-campus, rented first-year hostel buildings found across multiple sources for this institution, with a specific added detail about lack of Wi-Fi in these particular buildings.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'For first year boys, [the] hostel is outside the campus, nearly 2 km from the campus. There are 3 hostel buildings namely BH-11, BH-12 and BH-13. These buildings consist of rooms shared by 2, 3 and maximum 4 people according to their size. There is no Wi-Fi for these hostels.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Sikkim",
+          "source": "Careers360",
+          "source_type": "discussion",
+          "source_url": "https://www.careers360.com/question-what-is-placement-scenario-in-nit-sikkim-for-mtech-electrical/amp",
+          "source_review_id": null,
+          "author_display_name": "SANKET GHOSH",
+          "review_title": "what is placement scenario in NIT SIKKIM FOR MTECH (electrical)",
+          "review_date": "2020-09-17",
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "M.Tech",
+          "course": "M.Tech Electrical",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electrical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Explicitly M.Tech-scoped, distinct from B.Tech evidence per programme-scope requirement.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electrical Engineering",
+              "scope": "programme",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Sikkim placements are increasing year by year and its almost fine as compared to its location and infrastructure. In electrical dept., students got placements over 10 LPA in both B.Tech and M.Tech. Also the average salary was around 6-7 LPA. Many govt. undertakings like Powergrid, Bharat Petroleum etc. also offered jobs (55-60% placed). Companies like Intel, IBM, Bosch also offered jobs (in ongoing 2020 season).'"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 9,
+        "independent_sources": 3,
+        "reviews_with_dates": 1,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 9
+      },
+
+      "limitations": [
+        "Reddit: targeted search for NIT Sikkim/Ravangla on Reddit did not surface genuine reddit.com-hosted threads in this session, despite a dedicated search attempt; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "IMPORTANT DATA QUALITY ISSUE: A CollegeDekho page for this institution contained text with obvious garbling or corruption (nonsensical phrases like 'smart bathroom oil equipped laboratories,' 'Sparried Omar a sparrowing green campus') inconsistent with genuine reviewer prose. This content was excluded entirely from extraction as unreliable, and the platform was marked 'restricted' rather than 'available' for this reason.",
+        "One review contains a notably strong, direct recommendation against choosing this institution except as a fallback option, and explicitly generalizes this advice to 'these northeast colleges' as a category — this broader generalization is preserved as the reviewer's own stated view but is flagged as extending beyond commentary on this specific institution alone.",
+        "A well-corroborated theme across at least three independent sources (Shiksha, Collegedunia, Quora) is the institution's temporary-campus hostel conditions, including multi-bed shared rooms and off-campus rented first-year housing without reliable Wi-Fi.",
+        "One review references Covid-era market conditions affecting a specific placement cycle — this is presented factually as reported context for that specific year's outcomes, not as an ongoing or current condition.",
+        "Only one review in this extraction batch carried an explicit visible date (2020); reviews_last_24_months is 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all reviews reported on Shiksha or Collegedunia for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

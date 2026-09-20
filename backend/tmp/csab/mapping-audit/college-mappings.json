@@ -1,0 +1,686 @@
+[
+  {
+    "source": "Assam University, Silchar",
+    "match_type": "EXACT",
+    "college_id": "assam-university-silchar",
+    "db_name": "Assam University, Silchar"
+  },
+  {
+    "source": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "match_type": "EXACT",
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "db_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior"
+  },
+  {
+    "source": "Birla Institute of Technology, Deoghar Off-Campus",
+    "match_type": "EXACT",
+    "college_id": "birla-institute-of-technology-deoghar-off-campus",
+    "db_name": "Birla Institute of Technology, Deoghar Off-Campus"
+  },
+  {
+    "source": "Birla Institute of Technology, Mesra, Ranchi",
+    "match_type": "EXACT",
+    "college_id": "birla-institute-of-technology-mesra-ranchi",
+    "db_name": "Birla Institute of Technology, Mesra, Ranchi"
+  },
+  {
+    "source": "Birla Institute of Technology, Patna Off-Campus",
+    "match_type": "EXACT",
+    "college_id": "birla-institute-of-technology-patna-off-campus",
+    "db_name": "Birla Institute of Technology, Patna Off-Campus"
+  },
+  {
+    "source": "CU Jharkhand",
+    "match_type": "EXACT",
+    "college_id": "cu-jharkhand",
+    "db_name": "CU Jharkhand"
+  },
+  {
+    "source": "Central University of Haryana",
+    "match_type": "EXACT",
+    "college_id": "central-university-of-haryana",
+    "db_name": "Central University of Haryana"
+  },
+  {
+    "source": "Central University of Jammu",
+    "match_type": "EXACT",
+    "college_id": "central-university-of-jammu",
+    "db_name": "Central University of Jammu"
+  },
+  {
+    "source": "Central University of Karnataka",
+    "match_type": "EXACT",
+    "college_id": "central-university-of-karnataka",
+    "db_name": "Central University of Karnataka"
+  },
+  {
+    "source": "Central University of Punjab, Bathinda",
+    "match_type": "EXACT",
+    "college_id": "central-university-of-punjab-bathinda",
+    "db_name": "Central University of Punjab, Bathinda"
+  },
+  {
+    "source": "Central University of Rajasthan, Rajasthan",
+    "match_type": "EXACT",
+    "college_id": "central-university-of-rajasthan-rajasthan",
+    "db_name": "Central University of Rajasthan, Rajasthan"
+  },
+  {
+    "source": "Central institute of Technology Kokrajar, Assam",
+    "match_type": "EXACT",
+    "college_id": "central-institute-of-technology-kokrajar-assam",
+    "db_name": "Central institute of Technology Kokrajar, Assam"
+  },
+  {
+    "source": "Chhattisgarh Swami Vivekanada Technical University, Bhilai (CSVTU Bhilai)",
+    "match_type": "EXACT",
+    "college_id": "chhattisgarh-swami-vivekanada-technical-university-bhilai",
+    "db_name": "Chhattisgarh Swami Vivekanada Technical University, Bhilai (CSVTU Bhilai)"
+  },
+  {
+    "source": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "match_type": "EXACT",
+    "college_id": "dr-b-r-ambedkar-national-institute-of-technology-jalandhar",
+    "db_name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar"
+  },
+  {
+    "source": "Gati Shakti Vishwavidyalaya, Vadodara",
+    "match_type": "EXACT",
+    "college_id": "gati-shakti-vishwavidyalaya-vadodara",
+    "db_name": "Gati Shakti Vishwavidyalaya, Vadodara"
+  },
+  {
+    "source": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
+    "match_type": "EXACT",
+    "college_id": "ghani-khan-choudhary-institute-of-engineering-and-technology-malda-west-bengal",
+    "db_name": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal"
+  },
+  {
+    "source": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+    "match_type": "EXACT",
+    "college_id": "gurukula-kangri-vishwavidyalaya-haridwar",
+    "db_name": "Gurukula Kangri Vishwavidyalaya, Haridwar"
+  },
+  {
+    "source": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-senapati-manipur",
+    "db_name": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR"
+  },
+  {
+    "source": "Indian Institute of Carpet Technology, Bhadohi",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-carpet-technology-bhadohi",
+    "db_name": "Indian Institute of Carpet Technology, Bhadohi"
+  },
+  {
+    "source": "Indian Institute of Engineering Science and Technology, Shibpur",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "db_name": "Indian Institute of Engineering Science and Technology, Shibpur"
+  },
+  {
+    "source": "Indian Institute of Handloom Technology(IIHT), Varanasi",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-handloom-technology-varanasi",
+    "db_name": "Indian Institute of Handloom Technology(IIHT), Varanasi"
+  },
+  {
+    "source": "Indian Institute of Handloom Technology, Salem",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-handloom-technology-salem",
+    "db_name": "Indian Institute of Handloom Technology, Salem"
+  },
+  {
+    "source": "Indian Institute of Information Technology (IIIT) Nagpur",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-nagpur",
+    "db_name": "Indian Institute of Information Technology (IIIT) Nagpur"
+  },
+  {
+    "source": "Indian Institute of Information Technology (IIIT) Pune",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-pune",
+    "db_name": "Indian Institute of Information Technology (IIIT) Pune"
+  },
+  {
+    "source": "Indian Institute of Information Technology (IIIT) Ranchi",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-ranchi",
+    "db_name": "Indian Institute of Information Technology (IIIT) Ranchi"
+  },
+  {
+    "source": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-sri-city-chittoor",
+    "db_name": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor"
+  },
+  {
+    "source": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-kota-rajasthan",
+    "db_name": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan"
+  },
+  {
+    "source": "Indian Institute of Information Technology Bhagalpur",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-bhagalpur",
+    "db_name": "Indian Institute of Information Technology Bhagalpur"
+  },
+  {
+    "source": "Indian Institute of Information Technology Bhopal",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-bhopal",
+    "db_name": "Indian Institute of Information Technology Bhopal"
+  },
+  {
+    "source": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kurnool-andhra-pradesh",
+    "db_name": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh"
+  },
+  {
+    "source": "Indian Institute of Information Technology Guwahati",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-guwahati",
+    "db_name": "Indian Institute of Information Technology Guwahati"
+  },
+  {
+    "source": "Indian Institute of Information Technology Lucknow",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-lucknow",
+    "db_name": "Indian Institute of Information Technology Lucknow"
+  },
+  {
+    "source": "Indian Institute of Information Technology Surat",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-surat",
+    "db_name": "Indian Institute of Information Technology Surat"
+  },
+  {
+    "source": "Indian Institute of Information Technology Tiruchirappalli",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-tiruchirappalli",
+    "db_name": "Indian Institute of Information Technology Tiruchirappalli"
+  },
+  {
+    "source": "Indian Institute of Information Technology(IIIT) Dharwad",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-dharwad",
+    "db_name": "Indian Institute of Information Technology(IIIT) Dharwad"
+  },
+  {
+    "source": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-kalyani-west-bengal",
+    "db_name": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal"
+  },
+  {
+    "source": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-kilohrad-sonepat-haryana",
+    "db_name": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana"
+  },
+  {
+    "source": "Indian Institute of Information Technology(IIIT) Kottayam",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-kottayam",
+    "db_name": "Indian Institute of Information Technology(IIIT) Kottayam"
+  },
+  {
+    "source": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-una-himachal-pradesh",
+    "db_name": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh"
+  },
+  {
+    "source": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-vadodara-gujrat",
+    "db_name": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat"
+  },
+  {
+    "source": "Indian Institute of Information Technology, Agartala",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-agartala",
+    "db_name": "Indian Institute of Information Technology, Agartala"
+  },
+  {
+    "source": "Indian Institute of Information Technology, Allahabad",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-allahabad",
+    "db_name": "Indian Institute of Information Technology, Allahabad"
+  },
+  {
+    "source": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+    "db_name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram"
+  },
+  {
+    "source": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-vadodara-international-campus-diu",
+    "db_name": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)"
+  },
+  {
+    "source": "Indian institute of information technology, Raichur, Karnataka",
+    "match_type": "EXACT",
+    "college_id": "indian-institute-of-information-technology-raichur-karnataka",
+    "db_name": "Indian institute of information technology, Raichur, Karnataka"
+  },
+  {
+    "source": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+    "match_type": "EXACT",
+    "college_id": "institute-of-chemical-technology-mumbai-indian-oil-odisha-campus-bhubaneswar",
+    "db_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar"
+  },
+  {
+    "source": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)",
+    "match_type": "EXACT",
+    "college_id": "institute-of-engineering-and-technology-dr-h-s-gour-university-sagar",
+    "db_name": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)"
+  },
+  {
+    "source": "Institute of Infrastructure, Technology, Research and Management-Ahmedabad",
+    "match_type": "EXACT",
+    "college_id": "institute-of-infrastructure-technology-research-and-management-ahmedabad",
+    "db_name": "Institute of Infrastructure, Technology, Research and Management-Ahmedabad"
+  },
+  {
+    "source": "International Institute of Information Technology, Bhubaneswar",
+    "match_type": "EXACT",
+    "college_id": "international-institute-of-information-technology-bhubaneswar",
+    "db_name": "International Institute of Information Technology, Bhubaneswar"
+  },
+  {
+    "source": "International Institute of Information Technology, Naya Raipur",
+    "match_type": "EXACT",
+    "college_id": "international-institute-of-information-technology-naya-raipur",
+    "db_name": "International Institute of Information Technology, Naya Raipur"
+  },
+  {
+    "source": "Islamic University of Science and Technology Kashmir",
+    "match_type": "EXACT",
+    "college_id": "islamic-university-of-science-and-technology-kashmir",
+    "db_name": "Islamic University of Science and Technology Kashmir"
+  },
+  {
+    "source": "J.K. Institute of Applied Physics & Technology, Department of Electronics & Communication, University of Allahabad- Allahabad",
+    "match_type": "EXACT",
+    "college_id": "j-k-institute-of-applied-physics-technology-department-of-electronics-communication-university-of-al",
+    "db_name": "J.K. Institute of Applied Physics & Technology, Department of Electronics & Communication, University of Allahabad- Allahabad"
+  },
+  {
+    "source": "Jawaharlal Nehru University, Delhi",
+    "match_type": "EXACT",
+    "college_id": "jawaharlal-nehru-university-delhi",
+    "db_name": "Jawaharlal Nehru University, Delhi"
+  },
+  {
+    "source": "Malaviya National Institute of Technology Jaipur",
+    "match_type": "EXACT",
+    "college_id": "malaviya-national-institute-of-technology-jaipur",
+    "db_name": "Malaviya National Institute of Technology Jaipur"
+  },
+  {
+    "source": "Maulana Azad National Institute of Technology Bhopal",
+    "match_type": "EXACT",
+    "college_id": "maulana-azad-national-institute-of-technology-bhopal",
+    "db_name": "Maulana Azad National Institute of Technology Bhopal"
+  },
+  {
+    "source": "Mizoram University, Aizawl",
+    "match_type": "EXACT",
+    "college_id": "mizoram-university-aizawl",
+    "db_name": "Mizoram University, Aizawl"
+  },
+  {
+    "source": "Motilal Nehru National Institute of Technology Allahabad",
+    "match_type": "EXACT",
+    "college_id": "motilal-nehru-national-institute-of-technology-allahabad",
+    "db_name": "Motilal Nehru National Institute of Technology Allahabad"
+  },
+  {
+    "source": "National Institute of Advanced Manufacturing Technology, Ranchi",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-advanced-manufacturing-technology-ranchi",
+    "db_name": "National Institute of Advanced Manufacturing Technology, Ranchi"
+  },
+  {
+    "source": "National Institute of Electronics and Information Technology, Agartala",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+    "db_name": "National Institute of Electronics and Information Technology, Agartala"
+  },
+  {
+    "source": "National Institute of Electronics and Information Technology, Aizawl",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+    "db_name": "National Institute of Electronics and Information Technology, Aizawl"
+  },
+  {
+    "source": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-electronics-and-information-technology-ajmer",
+    "db_name": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)"
+  },
+  {
+    "source": "National Institute of Electronics and Information Technology, Aurangabad (Maharashtra)",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-electronics-and-information-technology-aurangabad",
+    "db_name": "National Institute of Electronics and Information Technology, Aurangabad (Maharashtra)"
+  },
+  {
+    "source": "National Institute of Electronics and Information Technology, Calicut",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+    "db_name": "National Institute of Electronics and Information Technology, Calicut"
+  },
+  {
+    "source": "National Institute of Electronics and Information Technology, Gorakhpur (UP)",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-electronics-and-information-technology-gorakhpur",
+    "db_name": "National Institute of Electronics and Information Technology, Gorakhpur (UP)"
+  },
+  {
+    "source": "National Institute of Electronics and Information Technology, Imphal",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-electronics-and-information-technology-imphal",
+    "db_name": "National Institute of Electronics and Information Technology, Imphal"
+  },
+  {
+    "source": "National Institute of Electronics and Information Technology, Kohima",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-electronics-and-information-technology-kohima",
+    "db_name": "National Institute of Electronics and Information Technology, Kohima"
+  },
+  {
+    "source": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-electronics-and-information-technology-patna",
+    "db_name": "National Institute of Electronics and Information Technology, Patna (Bihar)"
+  },
+  {
+    "source": "National Institute of Electronics and Information Technology, Ropar (Punjab)",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-electronics-and-information-technology-ropar",
+    "db_name": "National Institute of Electronics and Information Technology, Ropar (Punjab)"
+  },
+  {
+    "source": "National Institute of Electronics and Information Technology, Srinagar",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-electronics-and-information-technology-srinagar",
+    "db_name": "National Institute of Electronics and Information Technology, Srinagar"
+  },
+  {
+    "source": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-kundli",
+    "db_name": "National Institute of Food Technology Entrepreneurship and Management, Kundli"
+  },
+  {
+    "source": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-thanjavur",
+    "db_name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur"
+  },
+  {
+    "source": "National Institute of Technical Teachers Training and Research Bhopal",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technical-teachers-training-and-research-bhopal",
+    "db_name": "National Institute of Technical Teachers Training and Research Bhopal"
+  },
+  {
+    "source": "National Institute of Technology Agartala",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-agartala",
+    "db_name": "National Institute of Technology Agartala"
+  },
+  {
+    "source": "National Institute of Technology Arunachal Pradesh",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-arunachal-pradesh",
+    "db_name": "National Institute of Technology Arunachal Pradesh"
+  },
+  {
+    "source": "National Institute of Technology Calicut",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-calicut",
+    "db_name": "National Institute of Technology Calicut"
+  },
+  {
+    "source": "National Institute of Technology Delhi",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-delhi",
+    "db_name": "National Institute of Technology Delhi"
+  },
+  {
+    "source": "National Institute of Technology Durgapur",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-durgapur",
+    "db_name": "National Institute of Technology Durgapur"
+  },
+  {
+    "source": "National Institute of Technology Goa",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-goa",
+    "db_name": "National Institute of Technology Goa"
+  },
+  {
+    "source": "National Institute of Technology Hamirpur",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-hamirpur",
+    "db_name": "National Institute of Technology Hamirpur"
+  },
+  {
+    "source": "National Institute of Technology Karnataka, Surathkal",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "db_name": "National Institute of Technology Karnataka, Surathkal"
+  },
+  {
+    "source": "National Institute of Technology Meghalaya",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-meghalaya",
+    "db_name": "National Institute of Technology Meghalaya"
+  },
+  {
+    "source": "National Institute of Technology Nagaland",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-nagaland",
+    "db_name": "National Institute of Technology Nagaland"
+  },
+  {
+    "source": "National Institute of Technology Patna",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-patna",
+    "db_name": "National Institute of Technology Patna"
+  },
+  {
+    "source": "National Institute of Technology Puducherry",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-puducherry",
+    "db_name": "National Institute of Technology Puducherry"
+  },
+  {
+    "source": "National Institute of Technology Raipur",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-raipur",
+    "db_name": "National Institute of Technology Raipur"
+  },
+  {
+    "source": "National Institute of Technology Sikkim",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-sikkim",
+    "db_name": "National Institute of Technology Sikkim"
+  },
+  {
+    "source": "National Institute of Technology, Andhra Pradesh",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-andhra-pradesh",
+    "db_name": "National Institute of Technology, Andhra Pradesh"
+  },
+  {
+    "source": "National Institute of Technology, Jamshedpur",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-jamshedpur",
+    "db_name": "National Institute of Technology, Jamshedpur"
+  },
+  {
+    "source": "National Institute of Technology, Kurukshetra",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-kurukshetra",
+    "db_name": "National Institute of Technology, Kurukshetra"
+  },
+  {
+    "source": "National Institute of Technology, Manipur",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-manipur",
+    "db_name": "National Institute of Technology, Manipur"
+  },
+  {
+    "source": "National Institute of Technology, Mizoram",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-mizoram",
+    "db_name": "National Institute of Technology, Mizoram"
+  },
+  {
+    "source": "National Institute of Technology, Rourkela",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-rourkela",
+    "db_name": "National Institute of Technology, Rourkela"
+  },
+  {
+    "source": "National Institute of Technology, Silchar",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-silchar",
+    "db_name": "National Institute of Technology, Silchar"
+  },
+  {
+    "source": "National Institute of Technology, Srinagar",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-srinagar",
+    "db_name": "National Institute of Technology, Srinagar"
+  },
+  {
+    "source": "National Institute of Technology, Tiruchirappalli",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-tiruchirappalli",
+    "db_name": "National Institute of Technology, Tiruchirappalli"
+  },
+  {
+    "source": "National Institute of Technology, Uttarakhand",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-uttarakhand",
+    "db_name": "National Institute of Technology, Uttarakhand"
+  },
+  {
+    "source": "National Institute of Technology, Warangal",
+    "match_type": "EXACT",
+    "college_id": "national-institute-of-technology-warangal",
+    "db_name": "National Institute of Technology, Warangal"
+  },
+  {
+    "source": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+    "match_type": "EXACT",
+    "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+    "db_name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh"
+  },
+  {
+    "source": "North-Eastern Hill University, Shillong",
+    "match_type": "EXACT",
+    "college_id": "north-eastern-hill-university-shillong",
+    "db_name": "North-Eastern Hill University, Shillong"
+  },
+  {
+    "source": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+    "match_type": "EXACT",
+    "college_id": "pt-dwarka-prasad-mishra-indian-institute-of-information-technology-design-manufacture-jabalpur",
+    "db_name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur"
+  },
+  {
+    "source": "Puducherry Technological University, Puducherry",
+    "match_type": "EXACT",
+    "college_id": "puducherry-technological-university-puducherry",
+    "db_name": "Puducherry Technological University, Puducherry"
+  },
+  {
+    "source": "Punjab Engineering College, Chandigarh",
+    "match_type": "EXACT",
+    "college_id": "punjab-engineering-college-chandigarh",
+    "db_name": "Punjab Engineering College, Chandigarh"
+  },
+  {
+    "source": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)",
+    "match_type": "EXACT",
+    "college_id": "rajiv-gandhi-national-aviation-university-fursatganj-amethi",
+    "db_name": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)"
+  },
+  {
+    "source": "Sant Longowal Institute of Engineering and Technology",
+    "match_type": "EXACT",
+    "college_id": "sant-longowal-institute-of-engineering-and-technology",
+    "db_name": "Sant Longowal Institute of Engineering and Technology"
+  },
+  {
+    "source": "Sardar Vallabhbhai National Institute of Technology, Surat",
+    "match_type": "EXACT",
+    "college_id": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "db_name": "Sardar Vallabhbhai National Institute of Technology, Surat"
+  },
+  {
+    "source": "School of Engineering, Tezpur University, Napaam, Tezpur",
+    "match_type": "EXACT",
+    "college_id": "school-of-engineering-tezpur-university-napaam-tezpur",
+    "db_name": "School of Engineering, Tezpur University, Napaam, Tezpur"
+  },
+  {
+    "source": "School of Planning & Architecture, Bhopal",
+    "match_type": "EXACT",
+    "college_id": "school-of-planning-architecture-bhopal",
+    "db_name": "School of Planning & Architecture, Bhopal"
+  },
+  {
+    "source": "School of Planning & Architecture, New Delhi",
+    "match_type": "EXACT",
+    "college_id": "school-of-planning-architecture-new-delhi",
+    "db_name": "School of Planning & Architecture, New Delhi"
+  },
+  {
+    "source": "School of Planning & Architecture: Vijayawada",
+    "match_type": "EXACT",
+    "college_id": "school-of-planning-architecture-vijayawada",
+    "db_name": "School of Planning & Architecture: Vijayawada"
+  },
+  {
+    "source": "School of Studies of Engineering and Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur",
+    "match_type": "EXACT",
+    "college_id": "school-of-studies-of-engineering-and-technology-guru-ghasidas-vishwavidyalaya-bilaspur",
+    "db_name": "School of Studies of Engineering and Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur"
+  },
+  {
+    "source": "Shri G. S. Institute of Technology and Science Indore",
+    "match_type": "EXACT",
+    "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+    "db_name": "Shri G. S. Institute of Technology and Science Indore"
+  },
+  {
+    "source": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+    "match_type": "EXACT",
+    "college_id": "shri-mata-vaishno-devi-university-katra-jammu-kashmir",
+    "db_name": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir"
+  },
+  {
+    "source": "University of Hyderabad",
+    "match_type": "EXACT",
+    "college_id": "university-of-hyderabad",
+    "db_name": "University of Hyderabad"
+  },
+  {
+    "source": "Visvesvaraya National Institute of Technology, Nagpur",
+    "match_type": "EXACT",
+    "college_id": "visvesvaraya-national-institute-of-technology-nagpur",
+    "db_name": "Visvesvaraya National Institute of Technology, Nagpur"
+  }
+]

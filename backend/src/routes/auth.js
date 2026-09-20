@@ -1,11 +1,24 @@
-﻿import { Router } from "express";
-import bcrypt from "bcryptjs";
-import jwt from "jsonwebtoken";
-import { z } from "zod";
-import { pool } from "../db/pool.js";
-import { requireAuth } from "../middleware/auth.js";
+﻿import { Router } from 'express';
+import bcrypt from 'bcryptjs';
+import jwt from 'jsonwebtoken';
+import { z } from 'zod';
 
-const router = Router();
+import { pool } from '../db/pool.js';
+
+import {
+  requireAuth,
+} from '../middleware/auth.js';
+
+import {
+  createSessionId,
+  createAuthSession,
+  revokeAuthSession,
+} from '../services/authSessionStore.js';
+
+
+const router =
+  Router();
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,13 +27,30 @@ const router = Router();
 */
 
 const COOKIE_NAME =
-  process.env.AUTH_COOKIE_NAME || "cw_auth";
+  process.env.AUTH_COOKIE_NAME ||
+  'cw_auth';
+
 
 const COOKIE_DAYS =
-  Number(process.env.AUTH_COOKIE_DAYS || 7);
+  Math.max(
+    1,
+    Number(
+      process.env.AUTH_COOKIE_DAYS ||
+      7
+    )
+  );
+
 
 const isProduction =
-  process.env.NODE_ENV === "production";
+  process.env.NODE_ENV ===
+  'production';
+
+
+const SESSION_TTL_SECONDS =
+  COOKIE_DAYS *
+  24 *
+  60 *
+  60;
 
 
 /*
@@ -29,43 +59,55 @@ const isProduction =
 |--------------------------------------------------------------------------
 */
 
-const registerSchema = z.object({
-  name: z
-    .string()
-    .trim()
-    .min(2)
-    .max(100),
+const registerSchema =
+  z.object({
 
-  email: z
-    .string()
-    .trim()
-    .email()
-    .max(255),
+    name:
+      z
+        .string()
+        .trim()
+        .min(2)
+        .max(100),
 
-  password: z
-    .string()
-    .min(8)
-    .max(128),
+    email:
+      z
+        .string()
+        .trim()
+        .email()
+        .max(255),
 
-  phone: z
-    .string()
-    .trim()
-    .max(20)
-    .optional()
-    .or(z.literal("")),
-});
+    password:
+      z
+        .string()
+        .min(8)
+        .max(128),
+
+    phone:
+      z
+        .string()
+        .trim()
+        .max(20)
+        .optional()
+        .or(
+          z.literal('')
+        ),
+  });
 
 
-const loginSchema = z.object({
-  email: z
-    .string()
-    .trim()
-    .email(),
+const loginSchema =
+  z.object({
 
-  password: z
-    .string()
-    .min(1),
-});
+    email:
+      z
+        .string()
+        .trim()
+        .email(),
+
+    password:
+      z
+        .string()
+        .min(1),
+  });
 
 
 /*
@@ -74,23 +116,50 @@ const loginSchema = z.object({
 |--------------------------------------------------------------------------
 */
 
-function signToken(user) {
+function signToken(
+  user,
+  sessionId
+) {
+
   const secret =
-    process.env.AUTH_JWT_SECRET;
+    process.env
+      .AUTH_JWT_SECRET;
+
 
   if (!secret) {
+
     throw new Error(
-      "AUTH_JWT_SECRET is not configured"
+      'AUTH_JWT_SECRET is not configured'
     );
   }
 
+
   return jwt.sign(
     {
-      sub: String(user.id),
-      email: user.email,
-      role: user.role || "user",
+      sub:
+        String(
+          user.id
+        ),
+
+      email:
+        user.email,
+
+      role:
+        user.role ||
+        'user',
+
+      /*
+      |--------------------------------------------------------------------------
+      | Redis session ID
+      |--------------------------------------------------------------------------
+      */
+
+      sid:
+        sessionId,
     },
+
     secret,
+
     {
       expiresIn:
         `${COOKIE_DAYS}d`,
@@ -101,35 +170,39 @@ function signToken(user) {
 
 /*
 |--------------------------------------------------------------------------
-| AUTH COOKIE
-|--------------------------------------------------------------------------
-|
-| Production:
-|
-| Frontend:
-| https://counselling-wallah-frontend.vercel.app
-|
-| Backend:
-| https://counsellingwallah-backend.onrender.com
-|
-| They are cross-site, therefore:
-|
-| SameSite=None
-| Secure=true
-|
+| COOKIE OPTIONS
 |--------------------------------------------------------------------------
 */
 
 function getCookieOptions() {
+
+  /*
+  |--------------------------------------------------------------------------
+  | Production
+  |--------------------------------------------------------------------------
+  |
+  | If frontend and backend are separate domains:
+  |
+  | SameSite=None
+  | Secure=true
+  |
+  |--------------------------------------------------------------------------
+  */
+
   if (isProduction) {
+
     return {
-      httpOnly: true,
+      httpOnly:
+        true,
 
-      secure: true,
+      secure:
+        true,
 
-      sameSite: "none",
+      sameSite:
+        'none',
 
-      path: "/",
+      path:
+        '/',
 
       maxAge:
         COOKIE_DAYS *
@@ -140,14 +213,25 @@ function getCookieOptions() {
     };
   }
 
+
+  /*
+  |--------------------------------------------------------------------------
+  | Development
+  |--------------------------------------------------------------------------
+  */
+
   return {
-    httpOnly: true,
+    httpOnly:
+      true,
 
-    secure: false,
+    secure:
+      false,
 
-    sameSite: "lax",
+    sameSite:
+      'lax',
 
-    path: "/",
+    path:
+      '/',
 
     maxAge:
       COOKIE_DAYS *
@@ -159,10 +243,17 @@ function getCookieOptions() {
 }
 
 
+/*
+|--------------------------------------------------------------------------
+| SET AUTH COOKIE
+|--------------------------------------------------------------------------
+*/
+
 function setAuthCookie(
   res,
   token
 ) {
+
   res.cookie(
     COOKIE_NAME,
     token,
@@ -171,11 +262,19 @@ function setAuthCookie(
 }
 
 
+/*
+|--------------------------------------------------------------------------
+| CLEAR AUTH COOKIE
+|--------------------------------------------------------------------------
+*/
+
 function clearAuthCookie(
   res
 ) {
+
   const options =
     getCookieOptions();
+
 
   /*
   |--------------------------------------------------------------------------
@@ -184,6 +283,7 @@ function clearAuthCookie(
   */
 
   delete options.maxAge;
+
 
   res.clearCookie(
     COOKIE_NAME,
@@ -202,10 +302,14 @@ function clearAuthCookie(
 |--------------------------------------------------------------------------
 */
 
-function serializeUser(user) {
+function serializeUser(
+  user
+) {
+
   if (!user) {
     return null;
   }
+
 
   return {
     id:
@@ -218,13 +322,75 @@ function serializeUser(user) {
       user.email,
 
     phone:
-      user.phone || "",
+      user.phone ||
+      null,
 
     role:
-      user.role || "user",
+      user.role ||
+      'user',
 
     createdAt:
-      user.created_at || null,
+      user.created_at ||
+      null,
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| CREATE LOGIN SESSION
+|--------------------------------------------------------------------------
+*/
+
+async function createLoginSession(
+  user
+) {
+
+  const sessionId =
+    createSessionId();
+
+
+  const sessionCreated =
+    await createAuthSession({
+      sessionId,
+
+      userId:
+        user.id,
+
+      ttlSeconds:
+        SESSION_TTL_SECONDS,
+    });
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Production Redis safety
+  |--------------------------------------------------------------------------
+  |
+  | Redis is configured in production architecture.
+  | If session could not be created we should not issue a JWT with a dead sid.
+  |
+  |--------------------------------------------------------------------------
+  */
+
+  if (!sessionCreated) {
+
+    throw new Error(
+      'Unable to create authentication session'
+    );
+  }
+
+
+  const token =
+    signToken(
+      user,
+      sessionId
+    );
+
+
+  return {
+    token,
+    sessionId,
   };
 }
 
@@ -236,17 +402,21 @@ function serializeUser(user) {
 */
 
 router.post(
-  "/register",
+  '/register',
+
   async (
     req,
     res,
     next
   ) => {
+
     try {
+
       const input =
         registerSchema.parse(
           req.body
         );
+
 
       const email =
         input.email
@@ -275,13 +445,14 @@ router.post(
 
 
       if (
-        existing.rows.length
+        existing.rows.length > 0
       ) {
+
         return res
           .status(409)
           .json({
             error:
-              "An account with this email already exists",
+              'An account with this email already exists',
           });
       }
 
@@ -329,14 +500,16 @@ router.post(
             created_at
           `,
           [
-            input.name.trim(),
+            input.name
+              .trim(),
 
             email,
 
             passwordHash,
 
             input.phone
-              ? input.phone.trim()
+              ? input.phone
+                  .trim()
               : null,
           ]
         );
@@ -348,19 +521,21 @@ router.post(
 
       /*
       |--------------------------------------------------------------------------
-      | Create login token
+      | Shared Redis login session
       |--------------------------------------------------------------------------
       */
 
-      const token =
-        signToken(
+      const {
+        token,
+      } =
+        await createLoginSession(
           user
         );
 
 
       /*
       |--------------------------------------------------------------------------
-      | Store token in HTTP-only cookie
+      | HTTP-only cookie
       |--------------------------------------------------------------------------
       */
 
@@ -382,12 +557,11 @@ router.post(
             ),
         });
 
-    } catch (
-      error
-    ) {
+    } catch (error) {
+
       /*
       |--------------------------------------------------------------------------
-      | Zod validation error
+      | Validation
       |--------------------------------------------------------------------------
       */
 
@@ -395,11 +569,12 @@ router.post(
         error instanceof
         z.ZodError
       ) {
+
         return res
           .status(400)
           .json({
             error:
-              "Invalid registration data",
+              'Invalid registration data',
 
             details:
               error.issues,
@@ -409,19 +584,20 @@ router.post(
 
       /*
       |--------------------------------------------------------------------------
-      | PostgreSQL unique email safety
+      | PostgreSQL unique email
       |--------------------------------------------------------------------------
       */
 
       if (
         error?.code ===
-        "23505"
+        '23505'
       ) {
+
         return res
           .status(409)
           .json({
             error:
-              "An account with this email already exists",
+              'An account with this email already exists',
           });
       }
 
@@ -441,13 +617,16 @@ router.post(
 */
 
 router.post(
-  "/login",
+  '/login',
+
   async (
     req,
     res,
     next
   ) => {
+
     try {
+
       const input =
         loginSchema.parse(
           req.body
@@ -492,11 +671,12 @@ router.post(
 
 
       if (!user) {
+
         return res
           .status(401)
           .json({
             error:
-              "Invalid email or password",
+              'Invalid email or password',
           });
       }
 
@@ -514,35 +694,30 @@ router.post(
         );
 
 
-      if (
-        !passwordMatches
-      ) {
+      if (!passwordMatches) {
+
         return res
           .status(401)
           .json({
             error:
-              "Invalid email or password",
+              'Invalid email or password',
           });
       }
 
 
       /*
       |--------------------------------------------------------------------------
-      | Create JWT
+      | Create Redis session + JWT
       |--------------------------------------------------------------------------
       */
 
-      const token =
-        signToken(
+      const {
+        token,
+      } =
+        await createLoginSession(
           user
         );
 
-
-      /*
-      |--------------------------------------------------------------------------
-      | Store JWT cookie
-      |--------------------------------------------------------------------------
-      */
 
       setAuthCookie(
         res,
@@ -560,18 +735,18 @@ router.post(
           ),
       });
 
-    } catch (
-      error
-    ) {
+    } catch (error) {
+
       if (
         error instanceof
         z.ZodError
       ) {
+
         return res
           .status(400)
           .json({
             error:
-              "Invalid login data",
+              'Invalid login data',
 
             details:
               error.issues,
@@ -594,34 +769,17 @@ router.post(
 */
 
 router.get(
-  "/me",
+  '/me',
+
   requireAuth,
+
   async (
     req,
     res,
     next
   ) => {
+
     try {
-      /*
-      |--------------------------------------------------------------------------
-      | requireAuth should populate req.user
-      |--------------------------------------------------------------------------
-      */
-
-      const userId =
-        req.user?.id ||
-        req.user?.sub;
-
-
-      if (!userId) {
-        return res
-          .status(401)
-          .json({
-            error:
-              "Authentication required",
-          });
-      }
-
 
       const result =
         await pool.query(
@@ -638,23 +796,21 @@ router.get(
           LIMIT 1
           `,
           [
-            userId,
+            req.user.id,
           ]
         );
 
 
       if (
-        !result.rows.length
+        result.rows.length ===
+        0
       ) {
-        clearAuthCookie(
-          res
-        );
 
         return res
           .status(401)
           .json({
             error:
-              "Authentication required",
+              'User account not found',
           });
       }
 
@@ -669,9 +825,8 @@ router.get(
           ),
       });
 
-    } catch (
-      error
-    ) {
+    } catch (error) {
+
       return next(
         error
       );
@@ -687,22 +842,70 @@ router.get(
 */
 
 router.post(
-  "/logout",
-  (
+  '/logout',
+
+  requireAuth,
+
+  async (
     req,
-    res
+    res,
+    next
   ) => {
-    clearAuthCookie(
-      res
-    );
 
-    return res.json({
-      success:
-        true,
+    try {
 
-      message:
-        "Logged out successfully",
-    });
+      /*
+      |--------------------------------------------------------------------------
+      | Revoke shared session
+      |--------------------------------------------------------------------------
+      */
+
+      if (
+        req.user?.sessionId
+      ) {
+
+        await revokeAuthSession(
+          req.user.sessionId
+        );
+      }
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | Remove browser cookie
+      |--------------------------------------------------------------------------
+      */
+
+      clearAuthCookie(
+        res
+      );
+
+
+      return res.json({
+        success:
+          true,
+
+        message:
+          'Logged out successfully',
+      });
+
+    } catch (error) {
+
+      /*
+      |--------------------------------------------------------------------------
+      | Always clear browser cookie
+      |--------------------------------------------------------------------------
+      */
+
+      clearAuthCookie(
+        res
+      );
+
+
+      return next(
+        error
+      );
+    }
   }
 );
 

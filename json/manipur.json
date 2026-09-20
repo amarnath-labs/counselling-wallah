@@ -1,0 +1,581 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 4 of 5 in the fifth batch (NIT Manipur). College 5 (NIT Mizoram) to follow in a separate response. Cumulative total after this college: 24 of 31 standard NITs."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Manipur",
+        "verified_name": "National Institute of Technology, Manipur (NITMN)",
+        "city": "Imphal (Langol)",
+        "state": "Manipur",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "One of ten new NITs established 2010, mentored initially by NIT Agartala. Started at a temporary campus at Government Polytechnic, Takyelpat, Imphal, with only three branches (EE, ECE, CSE); later expanded to five branches and moved to its permanent campus (~341.5 acres) at Langol, Imphal, near Lamphelpat Lake. Explicitly verified DISTINCT from Manipur Institute of Technology (MIT) — a separate, older (est. 1998), state institution that is a constituent college of Manipur University — and from IIIT Manipur (Senapati) — a separate, newer public-private-partnership institute. A Shiksha review for the separate MIT institution was identified during search and correctly excluded from this extraction."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews page, faculty page, scholarships page, and main overview page retrieved with substantial branch- and batch-specific review content."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page and main overview page retrieved with substantive narrative review content."},
+        {"platform": "Careers360", "status": "available", "notes": "Main overview page and facilities page retrieved, including a genuine platform-computed aspect-rating breakdown."},
+        {"platform": "CollegeDekho", "status": "available", "notes": "Reviews page retrieved with a notably candid, specific account referencing the 2023 Manipur ethnic conflict's impact on hostel food supply."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located, including hostel life, safety questions from prospective female and out-of-state students."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "Targeted search for NIT Manipur/NITMN on Reddit did not surface genuine reddit.com-hosted threads in this session; marked unavailable rather than fabricated."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-manipur-national-institute-of-technology-imphal-38697/placement",
+          "aggregate_rating": 3.4,
+          "rating_scale": "out of 5",
+          "review_count": 50,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Imphal · 3.4/5 · (50 Reviews) 155 Student Q&A.'"
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-manipur-national-institute-of-technology-imphal-38697/faculty",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 49,
+          "verified_review_count": 40,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Out of 49 published reviews, 40 reviews are verified.' Distinct count (49) from the placement page (50) observed in this same session; both retained as separate observations. Same page also references NIT Manipur scoring 'around 3.5/5 on student review sites such as Shiksha and Zollege' as a general editorial summary statement, not a directly-observed numeric aggregate with its own count."
+        },
+        {
+          "platform": "CollegeDekho",
+          "source_url": "https://www.collegedekho.com/colleges/nit-manipur-reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 7,
+          "verified_review_count": 7,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "'(7 Verified Reviews)... All 7 published reviews verified.' Star distribution: 14% / 71% / 14% / 0% / 0% (implying mostly middling ratings, though exact numeric star levels for each percentage bracket were not fully specified in the retrieved snippet). EXTREMELY SMALL SAMPLE SIZE explicitly noted."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://www.careers360.com/university/national-institute-of-technology-manipur/facilities",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "full_review",
+          "observed_at": null,
+          "notes": "No single overall aggregate rating with review count was visible on this specific page; however, a genuine platform-computed aspect-rating breakdown was found and is recorded separately in platform_aspect_ratings below."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "Careers360", "aspect": "infrastructure", "rating": 3.1, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-manipur/facilities", "observed_at": null},
+        {"platform": "Careers360", "aspect": "academics", "rating": 3.9, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-manipur/facilities", "observed_at": null},
+        {"platform": "Careers360", "aspect": "placements", "rating": 3.6, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-manipur/facilities", "observed_at": null},
+        {"platform": "Careers360", "aspect": "value_for_money", "rating": 3.1, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-manipur/facilities", "observed_at": null},
+        {"platform": "Careers360", "aspect": "campus_life", "rating": 4.0, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-manipur/facilities", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "NIT Manipur",
+          "source": "CollegeDekho",
+          "source_type": "aggregator",
+          "source_url": "https://www.collegedekho.com/colleges/nit-manipur-reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "IMPORTANT: This review explicitly and directly attributes a specific operational hardship (severely limited hostel food supply) to the real 2023 Manipur ethnic conflict, and notes this reportedly affects students from outside the region ('especially southern Indians') more acutely. This is preserved factually as reported by the source, without editorializing on the underlying conflict itself, consistent with the requirement to remain evenhanded and factual on sensitive regional/political topics. This should be read as one student's account of a real, reported operational disruption, not as a comprehensive or verified assessment of the broader situation.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'You are going to experience the worst regarding food as there is no other option rather than just to stay in this hostel due to Manipur conflicts... especially southern Indians... get ready for [a difficult] phase regarding food.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Ragging is another subject you can just complain if any senior does something wrong to you by disgracing your self-respect, and the faculty or the security guards/wardens will help you, so you no need to fear of anything.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Located on [the] skirt of the Lamphelpat lake surrounded by Langol hills, [the] location is best suited for study, and many more central and state colleges also flourish there. And the climate is too good to live [in]. You will find rather a cold climate and summer is also good as it is located on [a] foothill.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'All the faculties are well qualified and experienced. There are faculties from Manipur itself and from outside states as well.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Hostel is very neat and clean with a separate room for mess. It is also a temporary building only but you will not feel it as it is too good. There are separate hostels for boys and girls. You will find a vast playing ground on its actual site.' (Note: this more positive hostel-facility description appears to be from a different portion or reviewer on the same aggregated page than the earlier food-supply complaint, illustrating the complexity of aggregated review pages; both preserved.)"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Manipur",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/28221-national-institute-of-technology-nit-imphal",
+          "source_review_id": null,
+          "author_display_name": "Shipra Kumari Singh",
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The campus has beautiful natural surroundings, which make the atmosphere peaceful and a good environment for studies. Campus life is enjoyable, seniors are very kind and helpful, and the faculty, lab assistants, and teaching staff are skilled and supportive.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'There are some dislikes, such as a bit of discrimination where local students are sometimes given more preference.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The infrastructure is weak as the campus is built on poor roads.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The girls' hostel is very far from the college.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Manipur",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/28221-national-institute-of-technology-nit-imphal/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This review also references the impact of a difficult regional situation on placements, consistent with the theme found in the CollegeDekho review above, though from an economic/placements angle rather than a hostel-food angle.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Placements are overall good but have seen a certain decline in 2023-24 due to the recession as well as the situation in Manipur. Companies like Amazon, Discovery, and Edfora have visited our campus. The highest package of 47 LPA was offered to only one student, while most of the students have got placements under 14 LPA.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": "Mechanical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Teachers are supportive; mentorship qualities are good. There are 4 workshops for mechanical branch, more than any other branch.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The campus location is perfect: mountains and clouds during rain.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The infrastructure of the college is quite poor being a National Institute of Technology college.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Infrastructure is not good, need improvement. Mess and hostel guards are not supportive; sometimes they are drunk. Delay on solving our problems. Poor classes infrastructure.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Manipur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-manipur-national-institute-of-technology-imphal-38697/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'I am enrolled in the Computer Science and Engineering branch; the placement record of my branch is the highest, i.e., 100%; the average package is 10 LPA. A good number of students get internships in the 6th semester or in the 7th [semester].'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Our campus has its own natural beauty and with training and sunlight here it looks like one of the amazing places that I have ever seen, and every morning one can breathe very fresh air directly coming from [the] hills of Imphal.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Manipur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-manipur-national-institute-of-technology-imphal-38697/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Civil Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2025.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'On campus 5-10% placements take place. I think one or two companies usually recruit, like L&T. The highest salary offered was 7 LPA, lowest was 3.5 LPA and average is 5 LPA. 18 students got internships.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There are so many facilities like [a] projector system for 3D view. Wi-Fi is also good speed and labs are also the best because almost all the instruments and machinery are available here.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Manipur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-manipur-national-institute-of-technology-imphal-38697/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2027. Review title itself explicitly negative regarding infrastructure and extracurricular offerings.",
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Disappointed with the infrastructure, absence of clubs, fest and facilities being provided.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'At NIT Manipur, almost 70-80% of the students get placed. The highest package in 2023 was 47 LPA which was given [by] Amazon. In 2023, the average package was around 9.5 LPA. Companies like Discover and Edfora gave packages worth 27 LPA.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Manipur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-manipur-national-institute-of-technology-imphal-38697/faculty",
+          "source_review_id": null,
+          "author_display_name": "YELAMANENI BHAVYA",
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": 3.4,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2026. Sub-ratings: Placements 4, Infrastructure 3, Faculty & Course Curriculum 4, Crowd & Campus Life 3, Value for Money 3.",
+          "aspect_evidence": []
+        },
+        {
+          "college_name": "NIT Manipur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-manipur-national-institute-of-technology-imphal-38697/faculty",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "NIT Manipur offers good infrastructure and facilities to its students",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": 4.2,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Sub-ratings: Placements 3, Infrastructure 4, Faculty & Course Curriculum 5, Crowd & Campus Life 5, Value for Money 4.",
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The faculty of the college was helpful, qualified and [experienced]' (sentence truncated in retrieved snippet, but review title and sub-ratings corroborate strongly positive overall sentiment)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Manipur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-the-inside-view-of-NIT-Manipur-s-hostel",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is the inside view of NIT Manipur's hostel?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Rooms are not so good, but at the end of 4 years you will have [an] invaluable treasure of memory. You will definitely get basic facil[ities]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Manipur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Is-NIT-Manipur-safe-to-study-for-girls-for-a-B-Tech",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Is NIT Manipur safe to study for girls for a B.Tech?",
+          "review_date": "2018-07-31",
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This answer's opening rhetorical framing ('Are you afraid of entering... which is politically unstable?') addresses the asker's premise about political instability directly, though the retrieved snippet is truncated before the answerer's substantive safety assessment is fully visible. Recorded as neutral/mixed pending fuller context, since the tone suggests pushback against an overly fearful framing without providing a clear final verdict in the visible text.",
+          "aspect_evidence": [
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "Answerer opens by directly challenging the premise of the question, which referenced Manipur as 'politically unstable' — full assessment not fully visible in the retrieved snippet, but the framing suggests the answerer views this concern as somewhat overstated."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Manipur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-the-place-of-NIT-Manipur-for-North-Indian-people",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is the place of NIT Manipur for North Indian people?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Manipur has one of the best climatic conditions in all over India. The state is not too hot during the summer and mildly co[ld in winter]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 11,
+        "independent_sources": 5,
+        "reviews_with_dates": 1,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 11
+      },
+
+      "limitations": [
+        "Reddit: targeted search for NIT Manipur/NITMN on Reddit did not surface genuine reddit.com-hosted threads in this session, despite a dedicated search attempt; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "IMPORTANT: Two independent sources in this dataset explicitly reference the real 2023-24 Manipur ethnic conflict as having a direct, reported operational impact on the institution — one describing severe hostel food-supply disruption (with a specific claim about disproportionate impact on students from other Indian states, particularly the south), and another describing a placement decline attributed partly to 'the situation in Manipur.' These are preserved factually as reported by the sources, without editorializing on the underlying conflict, consistent with the requirement for evenhanded treatment of sensitive regional/political topics. These should be read as individual student accounts of a real, significant regional event's operational effects, not as a comprehensive assessment of the conflict itself.",
+        "A separate, distinct theme — reported preferential treatment of local (Manipuri) students over students from other states — appeared in one independent source; this is a distinct administrative/fairness concern from the conflict-related hostel disruption above, and is recorded separately.",
+        "A review for the separate institution 'Manipur Institute of Technology' (MIT) was identified during search results and correctly excluded from this extraction, since it is a different, unrelated institution despite the similar name.",
+        "The CollegeDekho aggregate is based on only 7 verified reviews — an extremely small sample explicitly flagged for low confidence.",
+        "Only one review in this extraction batch carried an explicit visible date (2018); reviews_last_24_months is 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~49-50 reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

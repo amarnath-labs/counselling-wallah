@@ -1,0 +1,312 @@
+{
+  "generatedAt": "2026-09-13T15:31:29.390Z",
+  "readOnly": true,
+  "summary": {
+    "totalMissingMappings": 36,
+    "totalAffectedRows": 1674,
+    "aliasMappings": 10,
+    "createBranchMappings": 26,
+    "rowsResolvedByAlias": 562,
+    "rowsResolvedByNewBranch": 1112
+  },
+  "plan": [
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-mandi",
+      "college": "Indian Institute of Technology Mandi",
+      "officialProgram": "Data Science and Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 50,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "indian-institute-of-technology-indore",
+      "college": "Indian Institute of Technology Indore",
+      "officialProgram": "Space Sciences and Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 40,
+      "existingBranchId": "139",
+      "existingBranch": "Space Science and Engineering (4 Years, Bachelor of Technology)"
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-madras",
+      "college": "Indian Institute of Technology Madras",
+      "officialProgram": "Physics (5 Years, Bachelor of Science and Master of Science (Dual Degree))",
+      "affectedRows": 40,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "iit-gandhinagar",
+      "college": "IIT Gandhinagar",
+      "officialProgram": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 45,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "iit-gandhinagar",
+      "college": "IIT Gandhinagar",
+      "officialProgram": "Electrical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 45,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "iit-gandhinagar",
+      "college": "IIT Gandhinagar",
+      "officialProgram": "Mechanical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 45,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Biochemical Engineering with M.Tech. in Biochemical Engineering and Biotechnology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 36,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Bioengineering with M.Tech in Biomedical Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 40,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Ceramic Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 35,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Civil Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 45,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 55,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Electrical Engineering with M.Tech. in Power Electronics (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 50,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Engineering Physics (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 45,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Industrial Chemistry (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 40,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Materials Science and Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 40,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Mathematics and Computing (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 55,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Mechanical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 40,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Metallurgical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 45,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Mining Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 35,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-technology-varanasi",
+      "college": "Indian Institute of Technology (BHU) Varanasi",
+      "officialProgram": "Pharmaceutical Engineering & Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 35,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "maulana-azad-national-institute-of-technology-bhopal",
+      "college": "Maulana Azad National Institute of Technology Bhopal",
+      "officialProgram": "Materials Science and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 108,
+      "existingBranchId": "424",
+      "existingBranch": "Materials and Metallurgical Engineering (4 Years, Bachelor of Technology)"
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "national-institute-of-technology-kurukshetra",
+      "college": "National Institute of Technology, Kurukshetra",
+      "officialProgram": "Architecture and Planning (5 Years, Bachelor of Architecture)",
+      "affectedRows": 81,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "sardar-vallabhbhai-national-institute-of-technology-surat",
+      "college": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "officialProgram": "Chemistry (5 Years, Integrated Master of Science)",
+      "affectedRows": 55,
+      "existingBranchId": "689",
+      "existingBranch": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)"
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "sardar-vallabhbhai-national-institute-of-technology-surat",
+      "college": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "officialProgram": "Mathematics (5 Years, Integrated Master of Science)",
+      "affectedRows": 55,
+      "existingBranchId": "697",
+      "existingBranch": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)"
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "sardar-vallabhbhai-national-institute-of-technology-surat",
+      "college": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "officialProgram": "Physics (5 Years, Integrated Master of Science)",
+      "affectedRows": 57,
+      "existingBranchId": "700",
+      "existingBranch": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)"
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "indian-institute-of-information-technology-kilohrad-sonepat-haryana",
+      "college": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+      "officialProgram": "CSE ( Data Science & Analytics) (4 Years, Bachelor of Technology)",
+      "affectedRows": 35,
+      "existingBranchId": "752",
+      "existingBranch": "Computer Science & Engineering (Data Science and Analytics) (4 Years, Bachelor of Technology)"
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-information-technology-una-himachal-pradesh",
+      "college": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+      "officialProgram": "Information Technology (4 Years, Bachelor of Technology)",
+      "affectedRows": 48,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+      "college": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+      "officialProgram": "B.Tech. in Electronics and Communication Engineering and M.Tech. in VLSI Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 50,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "birla-institute-of-technology-mesra-ranchi",
+      "college": "Birla Institute of Technology, Mesra, Ranchi",
+      "officialProgram": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+      "affectedRows": 63,
+      "existingBranchId": "871",
+      "existingBranch": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)"
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "national-institute-of-advanced-manufacturing-technology-ranchi",
+      "college": "National Institute of Advanced Manufacturing Technology, Ranchi",
+      "officialProgram": "Metallurgy and Materials Engineering (4 Years, Bachelor of Technology)",
+      "affectedRows": 52,
+      "existingBranchId": "906",
+      "existingBranch": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)"
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "university-of-hyderabad",
+      "college": "University of Hyderabad",
+      "officialProgram": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "affectedRows": 35,
+      "existingBranchId": "963",
+      "existingBranch": "Computer Science and Engineering (5 Years, Integrated Master of Technology)"
+    },
+    {
+      "action": "ALIAS",
+      "collegeId": "birla-institute-of-technology-patna-off-campus",
+      "college": "Birla Institute of Technology, Patna Off-Campus",
+      "officialProgram": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+      "affectedRows": 62,
+      "existingBranchId": "1047",
+      "existingBranch": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)"
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "cu-jharkhand",
+      "college": "CU Jharkhand",
+      "officialProgram": "Integrated B. Tech. - M. Tech in Civil Engineering (5 Years, Integrated B. Tech. and M. Tech.)",
+      "affectedRows": 26,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "cu-jharkhand",
+      "college": "CU Jharkhand",
+      "officialProgram": "Integrated B. Tech. - M. Tech in Computer Science & Engineering (5 Years, Integrated B. Tech. and M. Tech.)",
+      "affectedRows": 29,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "cu-jharkhand",
+      "college": "CU Jharkhand",
+      "officialProgram": "Integrated B. Tech. - M. Tech in Electrical Engineering (5 Years, Integrated B. Tech. and M. Tech.)",
+      "affectedRows": 30,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    },
+    {
+      "action": "CREATE_BRANCH",
+      "collegeId": "cu-jharkhand",
+      "college": "CU Jharkhand",
+      "officialProgram": "Integrated B. Tech.- M. Tech in Metallurgical & Materials Engineering (5 Years, Integrated B. Tech. and M. Tech.)",
+      "affectedRows": 27,
+      "reason": "Preserve distinct 2024 historical program identity; no safe alias approved."
+    }
+  ]
+}

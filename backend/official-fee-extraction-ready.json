@@ -1,0 +1,202 @@
+[
+  {
+    "college_id": "indian-institute-of-technology-roorkee",
+    "name": "Indian Institute of Technology Roorkee",
+    "nirf_rank": 6,
+    "website": "https://www.iitr.ac.in",
+    "source_url": "https://iitr.ac.in/Academics/Institute%20Fees.html",
+    "source_text": "Fee Structure",
+    "classifier_score": 120,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "indian-institute-of-technology-varanasi",
+    "name": "Indian Institute of Technology (BHU) Varanasi",
+    "nirf_rank": 10,
+    "website": "https://www.iitbhu.ac.in",
+    "source_url": "https://www.iitbhu.ac.in/dean/doaa/fee",
+    "source_text": "Fee Structure",
+    "classifier_score": 65,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "indian-institute-of-technology-indore",
+    "name": "Indian Institute of Technology Indore",
+    "nirf_rank": 12,
+    "website": "https://www.iiti.ac.in",
+    "source_url": "https://www.iiti.ac.in/uploads/academics/notice_updates/fee_notice_2026_autumn.pdf",
+    "source_text": "Fee Notice for Autumn 2026",
+    "classifier_score": 48,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "national-institute-of-technology-rourkela",
+    "name": "National Institute of Technology, Rourkela",
+    "nirf_rank": 13,
+    "website": "https://www.nitrkl.ac.in",
+    "source_url": "https://www.nitrkl.ac.in/docs/Announcement/14072026180430277.pdf",
+    "source_text": "Fee structure JoSAA/CSAB/DASA (AY 2026-27)",
+    "classifier_score": 93,
+    "validation_reason": "strong_fee_and_ug"
+  },
+  {
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "name": "National Institute of Technology Karnataka, Surathkal",
+    "nirf_rank": 17,
+    "website": "https://www.nitk.ac.in",
+    "source_url": "https://www.nitk.ac.in/institute-fee-structure-2025-26",
+    "source_text": "May 23, 2025",
+    "classifier_score": 115,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "indian-institute-of-technology-mandi",
+    "name": "Indian Institute of Technology Mandi",
+    "nirf_rank": 26,
+    "website": "https://www.iitmandi.ac.in",
+    "source_url": "https://academics.iitmandi.ac.in/fees",
+    "source_text": "Fee Structure",
+    "classifier_score": 85,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "malaviya-national-institute-of-technology-jaipur",
+    "name": "Malaviya National Institute of Technology Jaipur",
+    "nirf_rank": 42,
+    "website": "https://mnit.ac.in",
+    "source_url": "https://mnit.ac.in/academics/fee_structure.php",
+    "source_text": "Fee Structure",
+    "classifier_score": 65,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "national-institute-of-technology-silchar",
+    "name": "National Institute of Technology, Silchar",
+    "nirf_rank": 50,
+    "website": "https://www.nits.ac.in",
+    "source_url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a3157f193dad.pdf",
+    "source_text": "UG Odd Semester Fee Structure for 3rd, 5th & 7th Semester",
+    "classifier_score": 78,
+    "validation_reason": "strong_fee_and_ug"
+  },
+  {
+    "college_id": "national-institute-of-technology-patna",
+    "name": "National Institute of Technology Patna",
+    "nirf_rank": 53,
+    "website": "https://www.nitp.ac.in",
+    "source_url": "https://www.nitp.ac.in/Academic/Fee",
+    "source_text": "Fee Structure",
+    "classifier_score": 65,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "national-institute-of-technology-delhi",
+    "name": "National Institute of Technology Delhi",
+    "nirf_rank": 65,
+    "website": "https://nitdelhi.ac.in",
+    "source_url": "https://nitdelhi.ac.in/academics/services/fee",
+    "source_text": "Fee Structure",
+    "classifier_score": 65,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "national-institute-of-technology-meghalaya",
+    "name": "National Institute of Technology Meghalaya",
+    "nirf_rank": 83,
+    "website": "https://www.nitm.ac.in",
+    "source_url": "https://www.nitm.ac.in/page_download.php?c=fee-structures/fee-structure",
+    "source_text": "Fee Structure",
+    "classifier_score": 65,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "nirf_rank": 96,
+    "website": "https://www.iiitm.ac.in",
+    "source_url": "https://iiitm.ac.in/public/uploads/media_uploads/1779189402_Fees-Details-2025-2026-f.pdf",
+    "source_text": "Fee Structure & Payment",
+    "classifier_score": 83,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-allahabad",
+    "name": "Indian Institute of Information Technology, Allahabad",
+    "nirf_rank": null,
+    "website": "https://www.iiita.ac.in",
+    "source_url": "https://www.iiita.ac.in/fee-structure",
+    "source_text": "Fee Structure",
+    "classifier_score": 65,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+    "name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+    "nirf_rank": null,
+    "website": "https://www.iiitdm.ac.in",
+    "source_url": "http://old.iiitdm.ac.in/img/academics/Fee_Structure_2026-27.pdf",
+    "source_text": "Fee Structure",
+    "classifier_score": 78,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "indian-institute-of-technology-goa",
+    "name": "Indian Institute of Technology Goa",
+    "nirf_rank": null,
+    "website": "https://iitgoa.ac.in",
+    "source_url": "https://iitgoa.ac.in/btech_fee_structure/",
+    "source_text": "B.Tech",
+    "classifier_score": 65,
+    "validation_reason": "strong_fee_and_ug"
+  },
+  {
+    "college_id": "national-institute-of-technology-goa",
+    "name": "National Institute of Technology Goa",
+    "nirf_rank": null,
+    "website": "https://nitgoa.ac.in",
+    "source_url": "https://nitgoa.ac.in/static/Fee_Structure.pdf",
+    "source_text": "Fee Structure",
+    "classifier_score": 68,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "national-institute-of-technology-sikkim",
+    "name": "National Institute of Technology Sikkim",
+    "nirf_rank": null,
+    "website": "https://nitsikkim.ac.in",
+    "source_url": "https://nitsikkim.ac.in/admissions/feeStructure.php",
+    "source_text": "Fee Structure",
+    "classifier_score": 65,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "national-institute-of-technology-manipur",
+    "name": "National Institute of Technology, Manipur",
+    "nirf_rank": null,
+    "website": "https://nitmanipur.ac.in",
+    "source_url": "https://nitmanipur.ac.in/DisplayPage.aspx?page=cs",
+    "source_text": "Click here for revised fee structure starting 2025 batch onwards.",
+    "classifier_score": 65,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "national-institute-of-technology-mizoram",
+    "name": "National Institute of Technology, Mizoram",
+    "nirf_rank": null,
+    "website": "https://www.nitmz.ac.in",
+    "source_url": "https://nitmz.ac.in/academics/fee-structure/",
+    "source_text": "Fee Structure",
+    "classifier_score": 65,
+    "validation_reason": "strong_fee_source"
+  },
+  {
+    "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+    "name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+    "nirf_rank": null,
+    "website": "https://nerist.ac.in",
+    "source_url": "https://nerist.ac.in/wp-content/uploads/2026/07/Revised-Fee-Structure-of-UG-programe-for-2026-28.pdf",
+    "source_text": "UG Fee Structure",
+    "classifier_score": 78,
+    "validation_reason": "strong_fee_and_ug"
+  }
+]

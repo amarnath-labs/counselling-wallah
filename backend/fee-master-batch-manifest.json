@@ -1,0 +1,405 @@
+[
+  {
+    "college_id": "uptac-a-n-a-college-of-engineering-management-bareilly",
+    "college_name": "A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-abss-institute-of-technology-meerut-meerut",
+    "college_name": "ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-acharya-narendra-deva-university-of-agriculture-technology-kumarganj-ayodhya",
+    "college_name": "Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-adhunik-college-of-engg-ghaziabad",
+    "college_name": "ADHUNIK COLLEGE OF ENGG.,GHAZIABAD",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+    "college_name": "AJAY KUMAR GARG ENGG. COLLEGE,GHAZIABAD",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-aligarh-college-of-engg-tech-aligarh",
+    "college_name": "ALIGARH COLLEGE OF ENGG. & TECH,ALIGARH",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-amani-group-of-institutions-amroha",
+    "college_name": "AMANI GROUP OF INSTITUTIONS,AMROHA",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+    "college_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-apex-institute-of-technology-rampur",
+    "college_name": "APEX INSTITUTE OF TECHNOLOGY,RAMPUR",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-apollo-institute-of-technology-kanpur",
+    "college_name": "APOLLO INSTITUTE OF TECHNOLOGY,KANPUR",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-axis-institute-of-technology-management-kanpur",
+    "college_name": "AXIS INSTITUTE OF TECHNOLOGY & MANAGEMENT,KANPUR",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-azad-institute-of-engineering-technology-lucknow",
+    "college_name": "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+    "college_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-b-s-a-college-of-engineering-technology-mathura",
+    "college_name": "B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY,MATHURA",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-babu-banarasi-das-institute-of-technology-and-management-lucknow",
+    "college_name": "BABU BANARASI DAS INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-babu-banarsi-das-institute-of-tech-ghaziabad",
+    "college_name": "BABU BANARSI DAS INSTITUTE OF TECH.,GHAZIABAD",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-babu-sunder-singh-institute-of-technology-management-lucknow",
+    "college_name": "BABU SUNDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "academic_year": 0,
+    "original_status": "DISCOVERY_PENDING",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-accurate-institute-of-management-technology-gautam-buddh-nagar",
+    "college_name": "ACCURATE INSTITUTE OF MANAGEMENT & TECHNOLOGY,GAUTAM BUDDH NAGAR",
+    "academic_year": 0,
+    "original_status": "OFFICIAL_SITE_FOUND",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-allenhouse-institute-of-technology-kanpur",
+    "college_name": "ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR",
+    "academic_year": 0,
+    "original_status": "OFFICIAL_SITE_FOUND",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-ashoka-institute-of-technology-management-varanasi",
+    "college_name": "ASHOKA INSTITUTE OF TECHNOLOGY & MANAGEMENT,VARANASI",
+    "academic_year": 2026,
+    "original_status": "SOURCE_FOUND_CURRENT",
+    "source_url": "https://ashokainstitute.com/img/pdf/FEE%20STRUCTURE%202026-27.pdf",
+    "final_url": "https://ashokainstitute.com/img/pdf/FEE%20STRUCTURE%202026-27.pdf",
+    "source_type": "official_pdf",
+    "content_type": "application/pdf",
+    "source_score": 100,
+    "detected_years": [
+      2026,
+      2027
+    ],
+    "signals": {
+      "btech": true,
+      "tuition": true,
+      "total_fee": true,
+      "registration": true,
+      "admission": true,
+      "hostel": false,
+      "mess": false,
+      "caution": true
+    },
+    "branch_specific_detected": true,
+    "text_characters": 3295,
+    "line_count": 91,
+    "batch_status": "BRANCH_MAPPING_REQUIRED",
+    "review_reasons": [],
+    "extracted": {
+      "text": "(FEE STRUCTURE 2026-2027) REGULAR SEATS Year Batch Particulars B.Tech. (CSE, AI&ML, Data Science) B.Tech. (CE, EE, ECE, ME, Biotechnology) B.Pharm. MBA D.Pharm. BCA BBA B.Com. I & Lat. Entry 2026 -27 Registration Fee 3,000/- 3,000/- 3,000/- 3,000/- 3,000/- 3,000/- 3,000/- 3,000/- Tuition Fee* 55,000/- 55,000/- 63,300/- 59,700/- 45,000/- 51,500/- 37,000/- 27,000/- Admission Fee / Development / Campus Activity and Insurance / Lab / Sports / ERP / Internet / Internal Exam /Alumni Fee* etc. 41,500/- 30,000/- 51,000/- 46,300/- 54,000/- 24,000/- 24,000/- 21,500/- Training & Placement / Soft Skills Fee 12,500/- 12,500/- 16,000/- 19,300/- 10,000/- 9,000/- 9,000/- 9,000/- Caution Money 5,000/- 5,000/- 5,000/- 5,000/- 5,000/- 5,000/- 5,000/- 5,000/- Exam Fee* Exam Fee – Direct Payable to University by Student Total Fee 1,17,000/- 1,05,500/- 1,38,300/- 1,33,300/- 1,17,000/- 92,500/- 78,000/- 65,500/- II 2026 -27 Tuition Fee* 56,650/- 56,650/- 65,199/- 61,491/- 46,350/- 51,500/- 37,000/- 27,000/- Development / Campus Activity and Insurance / Lab / Sports / ERP / Internet / Internal Exam Fee etc. 27,295/- 18,025/- 37,080/- 32,239/- 40,170/- 9,000/- 9,000/- 9,000/- Training & Placement / Soft Skills Fee 12,875/- 12,875/- 16,480/- 19,879/- 10,300/- 9,000/- 9,000/- 9,000/- Exam Fee* Exam Fee – Direct Payable to University by Student Total Fee 96,820/- 87,550/- 1,18,759/- 1,13,609/- 96,820/- 69,500/- 55,000/- 45,000/- III 2026 -27 Tuition Fee* 58,350/- 58,350/- 67,155/- - - 51,500/- 37,000/- 27,000/- Development / Campus Activity and Insurance / Lab / Sports / ERP / Internet / Internal Exam Fee etc. 28,114/- 18,566/- 38,192/- - - 9,000/- 9,000/- 9,000/- Training & Placement / Soft Skills Fee 13,261/- 13,261/- 16,974/- - - 9,000/- 9,000/- 9,000/- Exam Fee* Exam Fee – Direct Payable to University by Student Total Fee 99,725/- 90,177/- 1,22,321/- 69,500/- 55,000/- 45,000/- IV 2026 -27 Tuition Fee* 60,101/- 60,101/- 69,170/- - - - - - Development / Campus Activity and Insurance / Lab / Sports / ERP / Internet / Internal Exam Fee etc. 28,957/- 19,123/- 39,338/- - - - - - Training & Placement / Soft Skills Fee 13,659/- 13,659/- 17,484/- - - - - - Exam Fee* Exam Fee – Direct Payable to University by Student Total Fee 1,02,717/- 92,883/- 1,25,992/- - FOR B.TECH/B.PHARM./D.PHARM/MBA/BCA - DEMAND DRAFT (DD) TO BE DRAWN IN FAVOUR OF “ASHOKA INSTITUTE OF TECHNOLOGY & MANAGEMENT, VARANASI” FOR BBA / B.COM. - DEMAND DRAFT (DD) TO BE DRAWN IN FAVOUR OF “ASHOKA SCHOOL OF BUSINESS, VARANASI” • CHEQUES ARE NOT ACCEPTED * ALL FEE SUBJECT TO CHANGE BY FEE FIXATION COMMITTEE, UTTAR PRADESH * AKTU EXAM FEE – DIRECT PAY TO AKTU BY STUDENTS * ADMISSION FEE / ALUMNI FEE – ONE TIME ONLY (AT THE TIME OF ADMISSION) * CAUTION MONEY - THE CAUTION MONEY IS REFUNDABLE, ONLY AFTER THE STUDENT FINALLY LEAVES THE COLLEGE ON COMPLETION OF THE COURSE. ONLINE FEE PAYMENT DETAILS – For B.Tech / B.Pharm. / D.Pharm. / MBA / BCA – Bank Name – Punjab National Bank, Paharia - Branch Beneficiary Name – Ashoka Institute of Technology & Management, Varanasi A/c Number – 4972002100000382 IFSC Code – PUNB0497200 For BBA / B.Com. – Bank Name – Punjab National Bank, Paharia - Branch Beneficiary Name – Ashoka School of Business, Varanasi A/c Number – 4972002100006476 IFSC Code – PUNB0497200 -- 1 of 1 --",
+      "raw_text": "(FEE STRUCTURE 2026-2027)\nREGULAR SEATS\nYear\nBatch\nParticulars\nB.Tech.\n(CSE,\nAI&ML,\nData Science)\nB.Tech. (CE,\nEE, ECE, ME,\nBiotechnology)\nB.Pharm. MBA D.Pharm. BCA BBA B.Com.\nI &\nLat.\nEntry\t\n2026\n-27\nRegistration Fee 3,000/- 3,000/- 3,000/- 3,000/- 3,000/- 3,000/- 3,000/- 3,000/-\nTuition Fee* 55,000/- 55,000/- 63,300/- 59,700/- 45,000/- 51,500/- 37,000/- 27,000/-\nAdmission Fee / Development /\nCampus Activity and Insurance\n/ Lab / Sports / ERP / Internet /\nInternal Exam /Alumni Fee*\netc.\n41,500/- 30,000/- 51,000/- 46,300/- 54,000/- 24,000/- 24,000/- 21,500/-\nTraining & Placement / Soft\nSkills Fee 12,500/- 12,500/- 16,000/- 19,300/- 10,000/- 9,000/- 9,000/- 9,000/-\nCaution Money 5,000/- 5,000/- 5,000/- 5,000/- 5,000/- 5,000/- 5,000/- 5,000/-\nExam Fee* Exam Fee – Direct Payable to University by Student\nTotal Fee 1,17,000/- 1,05,500/- 1,38,300/- 1,33,300/- 1,17,000/- 92,500/- 78,000/- 65,500/-\nII\n2026\n-27\nTuition Fee* 56,650/- 56,650/- 65,199/- 61,491/- 46,350/- 51,500/- 37,000/- 27,000/-\nDevelopment / Campus Activity\nand Insurance / Lab / Sports /\nERP / Internet / Internal Exam\nFee etc.\n27,295/- 18,025/- 37,080/- 32,239/- 40,170/- 9,000/- 9,000/- 9,000/-\nTraining & Placement / Soft\nSkills Fee 12,875/- 12,875/- 16,480/- 19,879/- 10,300/- 9,000/- 9,000/- 9,000/-\nExam Fee* Exam Fee – Direct Payable to University by Student\nTotal Fee 96,820/- 87,550/- 1,18,759/- 1,13,609/- 96,820/- 69,500/- 55,000/- 45,000/-\nIII\n2026\n-27\nTuition Fee* 58,350/- 58,350/- 67,155/- - - 51,500/- 37,000/- 27,000/-\nDevelopment / Campus Activity\nand Insurance / Lab / Sports /\nERP / Internet / Internal Exam\nFee etc.\n28,114/- 18,566/- 38,192/- - - 9,000/- 9,000/- 9,000/-\nTraining & Placement / Soft\nSkills Fee 13,261/- 13,261/- 16,974/- - - 9,000/- 9,000/- 9,000/-\nExam Fee* Exam Fee – Direct Payable to University by Student\nTotal Fee 99,725/- 90,177/- 1,22,321/- 69,500/- 55,000/- 45,000/-\nIV\n2026\n-27\nTuition Fee* 60,101/- 60,101/- 69,170/- - - - - -\nDevelopment / Campus Activity\nand Insurance / Lab / Sports /\nERP / Internet / Internal Exam\nFee etc.\n28,957/- 19,123/- 39,338/- - - - - -\nTraining & Placement / Soft\nSkills Fee 13,659/- 13,659/- 17,484/- - - - - -\nExam Fee* Exam Fee – Direct Payable to University by Student\nTotal Fee 1,02,717/- 92,883/- 1,25,992/- -\nFOR B.TECH/B.PHARM./D.PHARM/MBA/BCA - DEMAND DRAFT (DD) TO BE DRAWN IN FAVOUR OF “ASHOKA INSTITUTE OF TECHNOLOGY & MANAGEMENT,\nVARANASI”\nFOR BBA / B.COM. - DEMAND DRAFT (DD) TO BE DRAWN IN FAVOUR OF “ASHOKA SCHOOL OF BUSINESS, VARANASI”\n• CHEQUES ARE NOT ACCEPTED\n* ALL FEE SUBJECT TO CHANGE BY FEE FIXATION COMMITTEE, UTTAR PRADESH\n* AKTU EXAM FEE – DIRECT PAY TO AKTU BY STUDENTS\n* ADMISSION FEE / ALUMNI FEE – ONE TIME ONLY (AT THE TIME OF ADMISSION)\n* CAUTION MONEY - THE CAUTION MONEY IS REFUNDABLE, ONLY AFTER THE STUDENT FINALLY LEAVES THE COLLEGE ON COMPLETION OF THE\nCOURSE.\nONLINE FEE PAYMENT DETAILS –\nFor B.Tech / B.Pharm. / D.Pharm. / MBA / BCA –\nBank Name – Punjab National Bank, Paharia - Branch\nBeneficiary Name – Ashoka Institute of Technology & Management, Varanasi\nA/c Number – 4972002100000382\nIFSC Code – PUNB0497200\nFor BBA / B.Com. –\nBank Name – Punjab National Bank, Paharia - Branch\nBeneficiary Name – Ashoka School of Business, Varanasi\nA/c Number – 4972002100006476\nIFSC Code – PUNB0497200\n\n-- 1 of 1 --\n\n",
+      "lines": [
+        "(FEE STRUCTURE 2026-2027)",
+        "REGULAR SEATS",
+        "Year",
+        "Batch",
+        "Particulars",
+        "B.Tech.",
+        "(CSE,",
+        "AI&ML,",
+        "Data Science)",
+        "B.Tech. (CE,",
+        "EE, ECE, ME,",
+        "Biotechnology)",
+        "B.Pharm. MBA D.Pharm. BCA BBA B.Com.",
+        "I &",
+        "Lat.",
+        "Entry",
+        "2026",
+        "-27",
+        "Registration Fee 3,000/- 3,000/- 3,000/- 3,000/- 3,000/- 3,000/- 3,000/- 3,000/-",
+        "Tuition Fee* 55,000/- 55,000/- 63,300/- 59,700/- 45,000/- 51,500/- 37,000/- 27,000/-",
+        "Admission Fee / Development /",
+        "Campus Activity and Insurance",
+        "/ Lab / Sports / ERP / Internet /",
+        "Internal Exam /Alumni Fee*",
+        "etc.",
+        "41,500/- 30,000/- 51,000/- 46,300/- 54,000/- 24,000/- 24,000/- 21,500/-",
+        "Training & Placement / Soft",
+        "Skills Fee 12,500/- 12,500/- 16,000/- 19,300/- 10,000/- 9,000/- 9,000/- 9,000/-",
+        "Caution Money 5,000/- 5,000/- 5,000/- 5,000/- 5,000/- 5,000/- 5,000/- 5,000/-",
+        "Exam Fee* Exam Fee – Direct Payable to University by Student",
+        "Total Fee 1,17,000/- 1,05,500/- 1,38,300/- 1,33,300/- 1,17,000/- 92,500/- 78,000/- 65,500/-",
+        "II",
+        "2026",
+        "-27",
+        "Tuition Fee* 56,650/- 56,650/- 65,199/- 61,491/- 46,350/- 51,500/- 37,000/- 27,000/-",
+        "Development / Campus Activity",
+        "and Insurance / Lab / Sports /",
+        "ERP / Internet / Internal Exam",
+        "Fee etc.",
+        "27,295/- 18,025/- 37,080/- 32,239/- 40,170/- 9,000/- 9,000/- 9,000/-",
+        "Training & Placement / Soft",
+        "Skills Fee 12,875/- 12,875/- 16,480/- 19,879/- 10,300/- 9,000/- 9,000/- 9,000/-",
+        "Exam Fee* Exam Fee – Direct Payable to University by Student",
+        "Total Fee 96,820/- 87,550/- 1,18,759/- 1,13,609/- 96,820/- 69,500/- 55,000/- 45,000/-",
+        "III",
+        "2026",
+        "-27",
+        "Tuition Fee* 58,350/- 58,350/- 67,155/- - - 51,500/- 37,000/- 27,000/-",
+        "Development / Campus Activity",
+        "and Insurance / Lab / Sports /",
+        "ERP / Internet / Internal Exam",
+        "Fee etc.",
+        "28,114/- 18,566/- 38,192/- - - 9,000/- 9,000/- 9,000/-",
+        "Training & Placement / Soft",
+        "Skills Fee 13,261/- 13,261/- 16,974/- - - 9,000/- 9,000/- 9,000/-",
+        "Exam Fee* Exam Fee – Direct Payable to University by Student",
+        "Total Fee 99,725/- 90,177/- 1,22,321/- 69,500/- 55,000/- 45,000/-",
+        "IV",
+        "2026",
+        "-27",
+        "Tuition Fee* 60,101/- 60,101/- 69,170/- - - - - -",
+        "Development / Campus Activity",
+        "and Insurance / Lab / Sports /",
+        "ERP / Internet / Internal Exam",
+        "Fee etc.",
+        "28,957/- 19,123/- 39,338/- - - - - -",
+        "Training & Placement / Soft",
+        "Skills Fee 13,659/- 13,659/- 17,484/- - - - - -",
+        "Exam Fee* Exam Fee – Direct Payable to University by Student",
+        "Total Fee 1,02,717/- 92,883/- 1,25,992/- -",
+        "FOR B.TECH/B.PHARM./D.PHARM/MBA/BCA - DEMAND DRAFT (DD) TO BE DRAWN IN FAVOUR OF “ASHOKA INSTITUTE OF TECHNOLOGY & MANAGEMENT,",
+        "VARANASI”",
+        "FOR BBA / B.COM. - DEMAND DRAFT (DD) TO BE DRAWN IN FAVOUR OF “ASHOKA SCHOOL OF BUSINESS, VARANASI”",
+        "• CHEQUES ARE NOT ACCEPTED",
+        "* ALL FEE SUBJECT TO CHANGE BY FEE FIXATION COMMITTEE, UTTAR PRADESH",
+        "* AKTU EXAM FEE – DIRECT PAY TO AKTU BY STUDENTS",
+        "* ADMISSION FEE / ALUMNI FEE – ONE TIME ONLY (AT THE TIME OF ADMISSION)",
+        "* CAUTION MONEY - THE CAUTION MONEY IS REFUNDABLE, ONLY AFTER THE STUDENT FINALLY LEAVES THE COLLEGE ON COMPLETION OF THE",
+        "COURSE.",
+        "ONLINE FEE PAYMENT DETAILS –",
+        "For B.Tech / B.Pharm. / D.Pharm. / MBA / BCA –",
+        "Bank Name – Punjab National Bank, Paharia - Branch",
+        "Beneficiary Name – Ashoka Institute of Technology & Management, Varanasi",
+        "A/c Number – 4972002100000382",
+        "IFSC Code – PUNB0497200",
+        "For BBA / B.Com. –",
+        "Bank Name – Punjab National Bank, Paharia - Branch",
+        "Beneficiary Name – Ashoka School of Business, Varanasi",
+        "A/c Number – 4972002100006476",
+        "IFSC Code – PUNB0497200",
+        "-- 1 of 1 --"
+      ],
+      "tables": []
+    }
+  },
+  {
+    "college_id": "assam-university-silchar",
+    "college_name": "Assam University, Silchar",
+    "academic_year": 0,
+    "original_status": "SOURCE_FOUND_REVIEW_YEAR",
+    "source_url": "https://www.aus.ac.in/wp-content/uploads/2023/07/corrigendum-tssot-fees.pdf",
+    "batch_status": "REVIEW_REQUIRED",
+    "review_reasons": [
+      "Source fetch/extraction failed: self-signed certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    ]
+  },
+  {
+    "college_id": "uptac-b-n-college-of-engineering-technology-lucknow",
+    "college_name": "B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET),LUCKNOW",
+    "academic_year": 0,
+    "original_status": "OFFICIAL_SITE_FOUND",
+    "source_url": null,
+    "batch_status": "SOURCE_DISCOVERY_REQUIRED",
+    "review_reasons": [
+      "No fee_source_url available."
+    ]
+  },
+  {
+    "college_id": "uptac-babu-banarasi-das-northern-india-institute-of-technology-lucknow",
+    "college_name": "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY,LUCKNOW",
+    "academic_year": 2023,
+    "original_status": "OUTDATED_SOURCE",
+    "source_url": "https://bbdniit.ac.in/wp-content/uploads/2022/05/bbdniit-fee-structure-23-24-.pdf",
+    "final_url": "https://bbdniit.ac.in/wp-content/uploads/2022/05/bbdniit-fee-structure-23-24-.pdf",
+    "source_type": "official_pdf",
+    "content_type": "application/pdf",
+    "source_score": 0,
+    "detected_years": [],
+    "signals": {
+      "btech": false,
+      "tuition": false,
+      "total_fee": false,
+      "registration": false,
+      "admission": false,
+      "hostel": false,
+      "mess": false,
+      "caution": false
+    },
+    "branch_specific_detected": false,
+    "text_characters": 77,
+    "line_count": 6,
+    "batch_status": "REVIEW_REQUIRED",
+    "review_reasons": [
+      "B.Tech not clearly detected in source.",
+      "Tuition/total fee not clearly detected.",
+      "Requested academic year 2023 not detected in source."
+    ],
+    "extracted": {
+      "text": "-- 1 of 6 -- -- 2 of 6 -- -- 3 of 6 -- -- 4 of 6 -- -- 5 of 6 -- -- 6 of 6 --",
+      "raw_text": "\n\n-- 1 of 6 --\n\n\n\n-- 2 of 6 --\n\n\n\n-- 3 of 6 --\n\n\n\n-- 4 of 6 --\n\n\n\n-- 5 of 6 --\n\n\n\n-- 6 of 6 --\n\n",
+      "lines": [
+        "-- 1 of 6 --",
+        "-- 2 of 6 --",
+        "-- 3 of 6 --",
+        "-- 4 of 6 --",
+        "-- 5 of 6 --",
+        "-- 6 of 6 --"
+      ],
+      "tables": []
+    }
+  }
+]

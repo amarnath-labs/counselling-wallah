@@ -1,0 +1,122 @@
+import {
+  CAREER_FAMILIES,
+} from '../data/careerData';
+
+function normalizeTags(tags) {
+  return (
+    Array.isArray(tags)
+      ? tags
+      : []
+  )
+    .map(
+      (tag) =>
+        String(
+          tag || ''
+        )
+          .trim()
+          .toLowerCase()
+    )
+    .filter(Boolean);
+}
+
+export function calculateCareerMatches(
+  selectedTags
+) {
+  const answers =
+    normalizeTags(
+      selectedTags
+    );
+
+  const counts =
+    answers.reduce(
+      (
+        map,
+        tag
+      ) => {
+        map.set(
+          tag,
+          (
+            map.get(tag) ||
+            0
+          ) + 1
+        );
+
+        return map;
+      },
+      new Map()
+    );
+
+  const scored =
+    CAREER_FAMILIES.map(
+      (family) => {
+        const familyTags =
+          normalizeTags([
+            ...(
+              family.interestTags ||
+              []
+            ),
+
+            ...(
+              family.strengthTags ||
+              []
+            ),
+          ]);
+
+        const raw =
+          familyTags.reduce(
+            (
+              sum,
+              tag
+            ) =>
+              sum +
+              (
+                counts.get(
+                  tag
+                ) ||
+                0
+              ),
+            0
+          );
+
+        return {
+          ...family,
+          rawScore:
+            raw,
+        };
+      }
+    );
+
+  const maxRaw =
+    Math.max(
+      1,
+      ...scored.map(
+        (item) =>
+          item.rawScore
+      )
+    );
+
+  return scored
+    .map(
+      (item) => ({
+        ...item,
+
+        matchScore:
+          Math.round(
+            55 +
+              (
+                item.rawScore /
+                maxRaw
+              ) *
+                40
+          ),
+      })
+    )
+    .sort(
+      (
+        a,
+        b
+      ) =>
+        b.matchScore -
+        a.matchScore
+    );
+}

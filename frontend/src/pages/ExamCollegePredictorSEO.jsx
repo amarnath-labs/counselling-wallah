@@ -1,4 +1,8 @@
 import {
+  useState,
+} from 'react';
+
+import {
   Link,
   useNavigate,
 } from 'react-router-dom';
@@ -83,7 +87,7 @@ const EXAM_CONFIG = {
     inputItems: [
       'JEE Main / applicable UPTAC rank',
       'Category',
-      'Counselling preferences',
+      'Counselling round',
       'Branch preferences',
       'Applicable quota or admission details',
     ],
@@ -100,6 +104,72 @@ const EXAM_CONFIG = {
 };
 
 
+const JEE_CATEGORIES = [
+  'General',
+  'OBC',
+  'EWS',
+  'SC',
+  'ST',
+];
+
+const JEE_GENDERS = [
+  'Male',
+  'Female',
+];
+
+const JEE_HOME_STATES = [
+  'Andhra Pradesh',
+  'Arunachal Pradesh',
+  'Assam',
+  'Bihar',
+  'Chhattisgarh',
+  'Goa',
+  'Gujarat',
+  'Haryana',
+  'Himachal Pradesh',
+  'Jharkhand',
+  'Karnataka',
+  'Kerala',
+  'Madhya Pradesh',
+  'Maharashtra',
+  'Manipur',
+  'Meghalaya',
+  'Mizoram',
+  'Nagaland',
+  'Odisha',
+  'Punjab',
+  'Rajasthan',
+  'Tamil Nadu',
+  'Telangana',
+  'Uttar Pradesh',
+  'Uttarakhand',
+  'West Bengal',
+  'Chandigarh',
+  'Delhi',
+  'Jammu and Kashmir',
+  'Ladakh',
+  'Puducherry',
+];
+
+const UPTAC_CATEGORIES = [
+  'General',
+  'OBC',
+  'EWS',
+  'SC',
+  'ST',
+];
+
+
+const UPTAC_ROUNDS = [
+  1,
+  2,
+  3,
+  4,
+  6,
+  7,
+];
+
+
 export default function ExamCollegePredictorSEO({
   examId,
 }) {
@@ -107,11 +177,67 @@ export default function ExamCollegePredictorSEO({
     useNavigate();
 
   const {
+    profile,
+    setProfile,
     setSelectedExamId,
   } = useAppState();
 
   const config =
     EXAM_CONFIG[examId];
+
+  const existingProfile =
+    profile || {};
+
+  const [
+    quickRank,
+    setQuickRank,
+  ] = useState(
+    existingProfile.rank
+      ? String(
+          existingProfile.rank
+        )
+      : ''
+  );
+
+  const [
+    quickCategory,
+    setQuickCategory,
+  ] = useState(
+    existingProfile.category ||
+      'General'
+  );
+
+  const [
+    quickRound,
+    setQuickRound,
+  ] = useState(
+    Number(
+      existingProfile.round ||
+        1
+    )
+  );
+
+  const [
+    quickError,
+    setQuickError,
+  ] = useState('');
+
+  const [
+    quickGender,
+    setQuickGender,
+  ] = useState(
+    existingProfile.gender ||
+      'Male'
+  );
+
+  const [
+    quickHomeState,
+    setQuickHomeState,
+  ] = useState(
+    existingProfile.homeState ||
+      'Maharashtra'
+  );
+
 
   if (!config) {
     return null;
@@ -121,6 +247,122 @@ export default function ExamCollegePredictorSEO({
   const startPrediction = () => {
     setSelectedExamId(
       examId
+    );
+
+    navigate(
+      '/profile'
+    );
+  };
+
+
+  const startUptacFromQuickForm = (
+    event
+  ) => {
+    event.preventDefault();
+
+    const parsedRank =
+      Number(quickRank);
+
+    if (
+      !Number.isInteger(
+        parsedRank
+      ) ||
+      parsedRank <= 0
+    ) {
+      setQuickError(
+        'Please enter a valid positive rank.'
+      );
+
+      return;
+    }
+
+    setQuickError('');
+
+    const nextProfile = {
+      ...existingProfile,
+
+      exam:
+        'UPTAC',
+
+      examId:
+        'uptac',
+
+      rank:
+        parsedRank,
+
+      category:
+        quickCategory,
+
+      round:
+        Number(
+          quickRound || 1
+        ),
+    };
+
+    setSelectedExamId(
+      'uptac'
+    );
+
+    setProfile(
+      nextProfile
+    );
+
+    navigate(
+      '/profile'
+    );
+  };
+
+  const startJeeFromQuickForm = (
+    event
+  ) => {
+    event.preventDefault();
+
+    const parsedRank =
+      Number(quickRank);
+
+    if (
+      !Number.isInteger(
+        parsedRank
+      ) ||
+      parsedRank <= 0
+    ) {
+      setQuickError(
+        'Please enter a valid positive rank.'
+      );
+
+      return;
+    }
+
+    setQuickError('');
+
+    const nextProfile = {
+      ...existingProfile,
+
+      exam:
+        'JEE Main',
+
+      examId:
+        'jee-main',
+
+      rank:
+        parsedRank,
+
+      category:
+        quickCategory,
+
+      gender:
+        quickGender,
+
+      homeState:
+        quickHomeState,
+    };
+
+    setSelectedExamId(
+      'jee-main'
+    );
+
+    setProfile(
+      nextProfile
     );
 
     navigate(
@@ -179,16 +421,21 @@ export default function ExamCollegePredictorSEO({
           {config.description}
         </p>
 
-        <button
-          type="button"
-          className="btn btn-primary"
-          onClick={startPrediction}
-          style={{
-            marginTop: '24px',
-          }}
-        >
-          Start {config.name} Prediction
-        </button>
+        {false && (
+          <button
+            type="button"
+            className="btn btn-primary"
+            onClick={
+              startPrediction
+            }
+            style={{
+              marginTop:
+                '24px',
+            }}
+          >
+            Start {config.name} Prediction
+          </button>
+        )}
 
         <p
           style={{
@@ -199,7 +446,550 @@ export default function ExamCollegePredictorSEO({
         >
           {config.dataLabel}
         </p>
+
+        {examId === 'uptac' && (
+          <p
+            style={{
+              marginTop: '12px',
+            }}
+          >
+            <Link
+              to="/uptac-cutoff-2025"
+              style={{
+                fontWeight: 700,
+                color: '#172554',
+              }}
+            >
+              Explore UPTAC Cutoff 2025
+            </Link>
+          </p>
+        )}
       </section>
+
+
+      {examId === 'jee-main' && (
+        <section
+          aria-labelledby="jee-quick-predictor-title"
+          style={{
+            maxWidth: '850px',
+            margin: '42px auto 0',
+            border: '1px solid #e2e8f0',
+            borderRadius: '20px',
+            padding: 'clamp(22px, 4vw, 34px)',
+            background: '#ffffff',
+            boxShadow:
+              '0 12px 35px rgba(15, 23, 42, 0.07)',
+          }}
+        >
+          <h2
+            id="jee-quick-predictor-title"
+            style={{
+              marginTop: 0,
+              color: '#172554',
+            }}
+          >
+            Enter Your JEE Main Details
+          </h2>
+
+          <p
+            style={{
+              color: '#64748b',
+              lineHeight: 1.7,
+            }}
+          >
+            Enter your JEE Main rank, category,
+            gender and home state. You can add
+            branch and other preferences on the
+            next step.
+          </p>
+
+          <form
+            onSubmit={
+              startJeeFromQuickForm
+            }
+          >
+            <div
+              style={{
+                display: 'grid',
+                gridTemplateColumns:
+                  'repeat(auto-fit, minmax(200px, 1fr))',
+                gap: '18px',
+                marginTop: '24px',
+              }}
+            >
+              <label>
+                <span
+                  style={{
+                    display: 'block',
+                    marginBottom: '8px',
+                    color: '#334155',
+                    fontWeight: 700,
+                  }}
+                >
+                  JEE Main Rank
+                </span>
+
+                <input
+                  type="number"
+                  min="1"
+                  step="1"
+                  value={quickRank}
+                  onChange={event =>
+                    setQuickRank(
+                      event.target.value
+                    )
+                  }
+                  placeholder="e.g. 50000"
+                  required
+                  style={{
+                    width: '100%',
+                    boxSizing: 'border-box',
+                    padding: '12px 14px',
+                    border:
+                      '1px solid #cbd5e1',
+                    borderRadius: '10px',
+                    fontSize: '16px',
+                  }}
+                />
+              </label>
+
+              <label>
+                <span
+                  style={{
+                    display: 'block',
+                    marginBottom: '8px',
+                    color: '#334155',
+                    fontWeight: 700,
+                  }}
+                >
+                  Category
+                </span>
+
+                <select
+                  value={quickCategory}
+                  onChange={event =>
+                    setQuickCategory(
+                      event.target.value
+                    )
+                  }
+                  style={{
+                    width: '100%',
+                    padding: '12px 14px',
+                    border:
+                      '1px solid #cbd5e1',
+                    borderRadius: '10px',
+                    fontSize: '16px',
+                    background: '#ffffff',
+                  }}
+                >
+                  {JEE_CATEGORIES.map(
+                    category => (
+                      <option
+                        key={category}
+                        value={category}
+                      >
+                        {category}
+                      </option>
+                    )
+                  )}
+                </select>
+              </label>
+
+              <label>
+                <span
+                  style={{
+                    display: 'block',
+                    marginBottom: '8px',
+                    color: '#334155',
+                    fontWeight: 700,
+                  }}
+                >
+                  Gender
+                </span>
+
+                <select
+                  value={quickGender}
+                  onChange={event =>
+                    setQuickGender(
+                      event.target.value
+                    )
+                  }
+                  style={{
+                    width: '100%',
+                    padding: '12px 14px',
+                    border:
+                      '1px solid #cbd5e1',
+                    borderRadius: '10px',
+                    fontSize: '16px',
+                    background: '#ffffff',
+                  }}
+                >
+                  {JEE_GENDERS.map(
+                    gender => (
+                      <option
+                        key={gender}
+                        value={gender}
+                      >
+                        {gender}
+                      </option>
+                    )
+                  )}
+                </select>
+              </label>
+
+              <label>
+                <span
+                  style={{
+                    display: 'block',
+                    marginBottom: '8px',
+                    color: '#334155',
+                    fontWeight: 700,
+                  }}
+                >
+                  Home State
+                </span>
+
+                <select
+                  value={quickHomeState}
+                  onChange={event =>
+                    setQuickHomeState(
+                      event.target.value
+                    )
+                  }
+                  style={{
+                    width: '100%',
+                    padding: '12px 14px',
+                    border:
+                      '1px solid #cbd5e1',
+                    borderRadius: '10px',
+                    fontSize: '16px',
+                    background: '#ffffff',
+                  }}
+                >
+                  {JEE_HOME_STATES.map(
+                    state => (
+                      <option
+                        key={state}
+                        value={state}
+                      >
+                        {state}
+                      </option>
+                    )
+                  )}
+                </select>
+              </label>
+            </div>
+
+            {quickError && (
+              <p
+                role="alert"
+                style={{
+                  margin: '18px 0 0',
+                  color: '#b91c1c',
+                  fontWeight: 700,
+                }}
+              >
+                {quickError}
+              </p>
+            )}
+
+            <button
+              type="submit"
+              className="btn btn-primary"
+              style={{
+                marginTop: '24px',
+              }}
+            >
+              Continue to Predict My Colleges
+            </button>
+          </form>
+        </section>
+      )}
+
+
+      {examId === 'uptac' && (
+        <section
+          aria-labelledby="uptac-quick-predictor-title"
+          style={{
+            maxWidth: '850px',
+            margin:
+              '42px auto 0',
+            border:
+              '1px solid #e2e8f0',
+            borderRadius: '20px',
+            padding:
+              'clamp(22px, 4vw, 34px)',
+            background:
+              '#ffffff',
+            boxShadow:
+              '0 12px 35px rgba(15, 23, 42, 0.07)',
+          }}
+        >
+          <h2
+            id="uptac-quick-predictor-title"
+            style={{
+              marginTop: 0,
+              color: '#172554',
+            }}
+          >
+            Enter Your UPTAC Details
+          </h2>
+
+          <p
+            style={{
+              color: '#64748b',
+              lineHeight: 1.7,
+            }}
+          >
+            Start with your rank,
+            category and counselling
+            round. You can add branch
+            and other preferences on
+            the next step.
+          </p>
+
+          <form
+            onSubmit={
+              startUptacFromQuickForm
+            }
+          >
+            <div
+              style={{
+                display: 'grid',
+                gridTemplateColumns:
+                  'repeat(auto-fit, minmax(200px, 1fr))',
+                gap: '18px',
+                marginTop:
+                  '24px',
+              }}
+            >
+              <label>
+                <span
+                  style={{
+                    display:
+                      'block',
+                    marginBottom:
+                      '8px',
+                    color:
+                      '#334155',
+                    fontWeight:
+                      700,
+                  }}
+                >
+                  Rank
+                </span>
+
+                <input
+                  type="number"
+                  min="1"
+                  step="1"
+                  inputMode="numeric"
+                  value={
+                    quickRank
+                  }
+                  onChange={(
+                    event
+                  ) =>
+                    setQuickRank(
+                      event
+                        .target
+                        .value
+                    )
+                  }
+                  placeholder="e.g. 50000"
+                  required
+                  style={{
+                    width: '100%',
+                    boxSizing:
+                      'border-box',
+                    padding:
+                      '12px 14px',
+                    border:
+                      '1px solid #cbd5e1',
+                    borderRadius:
+                      '10px',
+                    fontSize:
+                      '16px',
+                  }}
+                />
+              </label>
+
+
+              <label>
+                <span
+                  style={{
+                    display:
+                      'block',
+                    marginBottom:
+                      '8px',
+                    color:
+                      '#334155',
+                    fontWeight:
+                      700,
+                  }}
+                >
+                  Category
+                </span>
+
+                <select
+                  value={
+                    quickCategory
+                  }
+                  onChange={(
+                    event
+                  ) =>
+                    setQuickCategory(
+                      event
+                        .target
+                        .value
+                    )
+                  }
+                  style={{
+                    width: '100%',
+                    boxSizing:
+                      'border-box',
+                    padding:
+                      '12px 14px',
+                    border:
+                      '1px solid #cbd5e1',
+                    borderRadius:
+                      '10px',
+                    fontSize:
+                      '16px',
+                    background:
+                      '#ffffff',
+                  }}
+                >
+                  {UPTAC_CATEGORIES.map(
+                    category => (
+                      <option
+                        key={
+                          category
+                        }
+                        value={
+                          category
+                        }
+                      >
+                        {category}
+                      </option>
+                    )
+                  )}
+                </select>
+              </label>
+
+
+              <label>
+                <span
+                  style={{
+                    display:
+                      'block',
+                    marginBottom:
+                      '8px',
+                    color:
+                      '#334155',
+                    fontWeight:
+                      700,
+                  }}
+                >
+                  Counselling Round
+                </span>
+
+                <select
+                  value={
+                    quickRound
+                  }
+                  onChange={(
+                    event
+                  ) =>
+                    setQuickRound(
+                      Number(
+                        event
+                          .target
+                          .value
+                      )
+                    )
+                  }
+                  style={{
+                    width: '100%',
+                    boxSizing:
+                      'border-box',
+                    padding:
+                      '12px 14px',
+                    border:
+                      '1px solid #cbd5e1',
+                    borderRadius:
+                      '10px',
+                    fontSize:
+                      '16px',
+                    background:
+                      '#ffffff',
+                  }}
+                >
+                  {UPTAC_ROUNDS.map(
+                    round => (
+                      <option
+                        key={round}
+                        value={round}
+                      >
+                        Round {round}
+                      </option>
+                    )
+                  )}
+                </select>
+              </label>
+            </div>
+
+
+            {quickError && (
+              <p
+                role="alert"
+                style={{
+                  margin:
+                    '18px 0 0',
+                  color:
+                    '#b91c1c',
+                  fontWeight:
+                    700,
+                }}
+              >
+                {quickError}
+              </p>
+            )}
+
+
+            <button
+              type="submit"
+              className="btn btn-primary"
+              style={{
+                marginTop:
+                  '24px',
+              }}
+            >
+              Continue to Predict My Colleges
+            </button>
+          </form>
+
+          <p
+            style={{
+              marginBottom: 0,
+              marginTop:
+                '16px',
+              color: '#64748b',
+              fontSize:
+                '13px',
+              lineHeight:
+                1.6,
+            }}
+          >
+            Prediction is based on
+            historical counselling
+            information and is intended
+            for guidance. Final seat
+            allocation depends on
+            official UPTAC counselling.
+          </p>
+        </section>
+      )}
 
 
       <section
@@ -219,14 +1009,17 @@ export default function ExamCollegePredictorSEO({
               style={{
                 border:
                   '1px solid #e2e8f0',
-                borderRadius: '14px',
+                borderRadius:
+                  '14px',
                 padding: '18px',
-                background: '#ffffff',
+                background:
+                  '#ffffff',
               }}
             >
               <strong
                 style={{
-                  color: '#172554',
+                  color:
+                    '#172554',
                 }}
               >
                 {item}
@@ -325,7 +1118,7 @@ export default function ExamCollegePredictorSEO({
             lineHeight: 1.8,
           }}
         >
-          Historical cutoffs are useful for understanding previous admission patterns, but future cutoffs can change because of competition, seat availability, counselling rules, category, quota and student preferences.
+          Historical cutoffs can change from year to year because of competition, seat availability, counselling rules, category, quota and student preferences.
         </p>
       </section>
 
@@ -413,7 +1206,7 @@ export default function ExamCollegePredictorSEO({
             className="btn btn-primary"
             onClick={startPrediction}
           >
-            Predict My Colleges
+            Complete Predictor Profile
           </button>
 
           <Link

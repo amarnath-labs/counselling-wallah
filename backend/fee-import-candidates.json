@@ -1,0 +1,147 @@
+﻿[
+    {
+        "college_name":  "Indian Institute of Information Technology Bhagalpur",
+        "source_type":  "combined_fee",
+        "extraction_status":  "DIRECT_HTML_EXTRACTED",
+        "source_url":  "https://iiitbh.ac.in/btech-admission",
+        "tuition_fee_per_semester":  null,
+        "first_semester_fee":  178621,
+        "academic_fee_per_semester":  178621,
+        "hostel_fee_per_semester":  null,
+        "mess_fee_per_semester":  null,
+        "annual_academic_fee":  null,
+        "annual_hostel_mess_fee":  null,
+        "estimated_annual_total":  null,
+        "estimated_course_total":  null,
+        "refundable_deposit":  null,
+        "academic_semester_fee_series":  null,
+        "semester_fee_series":  null,
+        "josaa_csab_adjustment":  null,
+        "balance_payable_after_adjustment":  null,
+        "confidence_score":  50,
+        "verification_status":  "review_recommended",
+        "normalization_notes":  [
+
+                                ]
+    },
+    {
+        "college_name":  "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+        "source_type":  "combined_fee",
+        "extraction_status":  "DIRECT_HTML_EXTRACTED",
+        "source_url":  "https://iiitvadodara.ac.in/page.php?slug=ugadmission",
+        "tuition_fee_per_semester":  125000,
+        "first_semester_fee":  157720,
+        "academic_fee_per_semester":  157720,
+        "hostel_fee_per_semester":  40500,
+        "mess_fee_per_semester":  25000,
+        "annual_academic_fee":  295220,
+        "annual_hostel_mess_fee":  131000,
+        "estimated_annual_total":  456220,
+        "estimated_course_total":  1773080,
+        "refundable_deposit":  20000,
+        "academic_semester_fee_series":  [
+                                             157720,
+                                             137500,
+                                             133370,
+                                             133250,
+                                             136120,
+                                             136000,
+                                             136620,
+                                             136500
+                                         ],
+        "semester_fee_series":  [
+                                    238220,
+                                    218000,
+                                    214870,
+                                    214750,
+                                    221620,
+                                    221500,
+                                    222120,
+                                    222000
+                                ],
+        "josaa_csab_adjustment":  null,
+        "balance_payable_after_adjustment":  null,
+        "confidence_score":  100,
+        "verification_status":  "high_confidence",
+        "normalization_notes":  [
+
+                                ]
+    },
+    {
+        "college_name":  "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+        "source_type":  "combined_fee",
+        "extraction_status":  "DIRECT_HTML_EXTRACTED",
+        "source_url":  "http://diu.iiitvadodara.ac.in/btech_admission.php",
+        "tuition_fee_per_semester":  125000,
+        "first_semester_fee":  157720,
+        "academic_fee_per_semester":  157720,
+        "hostel_fee_per_semester":  null,
+        "mess_fee_per_semester":  24000,
+        "annual_academic_fee":  295220,
+        "annual_hostel_mess_fee":  48000,
+        "estimated_annual_total":  413220,
+        "estimated_course_total":  1629080,
+        "refundable_deposit":  20000,
+        "academic_semester_fee_series":  [
+                                             157720,
+                                             137500,
+                                             133370,
+                                             133250,
+                                             136120,
+                                             136000,
+                                             136620,
+                                             136500
+                                         ],
+        "semester_fee_series":  [
+                                    216720,
+                                    196500,
+                                    197370,
+                                    197250,
+                                    204120,
+                                    204000,
+                                    206620,
+                                    206500
+                                ],
+        "josaa_csab_adjustment":  null,
+        "balance_payable_after_adjustment":  null,
+        "confidence_score":  100,
+        "verification_status":  "high_confidence",
+        "normalization_notes":  [
+
+                                ]
+    },
+    {
+        "college_name":  "National Institute of Technology Sikkim",
+        "source_type":  "combined_fee",
+        "extraction_status":  "TEXT_EXTRACTED",
+        "source_url":  "https://nitsikkim.ac.in/documents/Fee%20Structure/2026_April/B.Tech.%20Fee%20structure%20for%20Academic%20Year%202026-27.pdf",
+        "tuition_fee_per_semester":  null,
+        "first_semester_fee":  71814,
+        "academic_fee_per_semester":  71814,
+        "hostel_fee_per_semester":  null,
+        "mess_fee_per_semester":  21000,
+        "annual_academic_fee":  143628,
+        "annual_hostel_mess_fee":  42000,
+        "estimated_annual_total":  185628,
+        "estimated_course_total":  null,
+        "refundable_deposit":  null,
+        "academic_semester_fee_series":  [
+                                             71814,
+                                             71814,
+                                             71814,
+                                             71814,
+                                             71814,
+                                             71814,
+                                             71814,
+                                             71814
+                                         ],
+        "semester_fee_series":  null,
+        "josaa_csab_adjustment":  null,
+        "balance_payable_after_adjustment":  null,
+        "confidence_score":  60,
+        "verification_status":  "review_recommended",
+        "normalization_notes":  [
+                                    "Academic semester total extracted from PDF full-fee-payer subtotal; not assumed to be tuition fee."
+                                ]
+    }
+]

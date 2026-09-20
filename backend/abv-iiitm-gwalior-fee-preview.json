@@ -1,0 +1,52 @@
+{
+  "branch_fee": {
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "branch_id": null,
+    "program": "B.Tech",
+    "fee_scope": "all_btech_branches",
+    "academic_year": 2026,
+    "source_label": "ABV-IIITM Gwalior Official Fee Structure 2026-27",
+    "source_url": "https://iiitm.ac.in/public/uploads/media_uploads/1779189402_Fees-Details-2025-2026-f.pdf",
+    "verification_status": "pending_review"
+  },
+  "fee_variants": [
+    {
+      "semester": 1,
+      "fee_period": "semester",
+      "student_category": "B.Tech regular - tuition applicable",
+      "income_min": null,
+      "income_max": null,
+      "residence_type": "hosteller",
+      "room_type": null,
+      "tuition_fee": 95000,
+      "admission_fee": 1500,
+      "institute_fee": 105000,
+      "hostel_fee": 15000,
+      "mess_fee": 20000,
+      "caution_deposit": 15000,
+      "other_fee": null,
+      "total_fee": 168750,
+      "is_one_time_included": true,
+      "verification_status": "pending_review"
+    },
+    {
+      "semester": 1,
+      "fee_period": "semester",
+      "student_category": "SC/ST/PwD - tuition waiver",
+      "income_min": null,
+      "income_max": null,
+      "residence_type": "hosteller",
+      "room_type": null,
+      "tuition_fee": 0,
+      "admission_fee": 1500,
+      "institute_fee": 40000,
+      "hostel_fee": 15000,
+      "mess_fee": 20000,
+      "caution_deposit": 15000,
+      "other_fee": null,
+      "total_fee": 105750,
+      "is_one_time_included": true,
+      "verification_status": "pending_review"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-09-13T15:47:27.713Z",
+  "readOnly": true,
+  "years": {
+    "2024": {
+      "rounds": [
+        {
+          "value": "1",
+          "text": "1",
+          "selected": false
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "selected": false
+        }
+      ],
+      "roundDetails": {
+        "1": {
+          "roundText": "1",
+          "instituteTypes": [
+            {
+              "value": "0",
+              "text": "--Select--",
+              "selected": true
+            },
+            {
+              "value": "ALL",
+              "text": "ALL",
+              "selected": false
+            },
+            {
+              "value": "CFI",
+              "text": "Government Funded Technical Institutions",
+              "selected": false
+            },
+            {
+              "value": "3IT",
+              "text": "Indian Institute of Information Technology",
+              "selected": false
+            },
+            {
+              "value": "NIT",
+              "text": "National Institute of Technology",
+              "selected": false
+            }
+          ],
+          "institutesBeforeTypeSelection": [],
+          "branchesBeforeInstituteSelection": []
+        },
+        "2": {
+          "roundText": "2",
+          "instituteTypes": [
+            {
+              "value": "0",
+              "text": "--Select--",
+              "selected": true
+            },
+            {
+              "value": "ALL",
+              "text": "ALL",
+              "selected": false
+            },
+            {
+              "value": "CFI",
+              "text": "Government Funded Technical Institutions",
+              "selected": false
+            },
+            {
+              "value": "3IT",
+              "text": "Indian Institute of Information Technology",
+              "selected": false
+            },
+            {
+              "value": "NIT",
+              "text": "National Institute of Technology",
+              "selected": false
+            }
+          ],
+          "institutesBeforeTypeSelection": [],
+          "branchesBeforeInstituteSelection": []
+        }
+      }
+    },
+    "2025": {
+      "rounds": [
+        {
+          "value": "1",
+          "text": "1",
+          "selected": false
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "selected": false
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "selected": false
+        }
+      ],
+      "roundDetails": {
+        "1": {
+          "roundText": "1",
+          "instituteTypes": [
+            {
+              "value": "0",
+              "text": "--Select--",
+              "selected": true
+            },
+            {
+              "value": "ALL",
+              "text": "ALL",
+              "selected": false
+            },
+            {
+              "value": "SFI",
+              "text": "",
+              "selected": false
+            },
+            {
+              "value": "CFI",
+              "text": "Government Funded Technical Institutions",
+              "selected": false
+            },
+            {
+              "value": "3IT",
+              "text": "Indian Institute of Information Technology",
+              "selected": false
+            },
+            {
+              "value": "NIT",
+              "text": "National Institute of Technology",
+              "selected": false
+            }
+          ],
+          "institutesBeforeTypeSelection": [],
+          "branchesBeforeInstituteSelection": []
+        },
+        "2": {
+          "roundText": "2",
+          "instituteTypes": [
+            {
+              "value": "0",
+              "text": "--Select--",
+              "selected": true
+            },
+            {
+              "value": "ALL",
+              "text": "ALL",
+              "selected": false
+            },
+            {
+              "value": "SFI",
+              "text": "",
+              "selected": false
+            },
+            {
+              "value": "CFI",
+              "text": "Government Funded Technical Institutions",
+              "selected": false
+            },
+            {
+              "value": "3IT",
+              "text": "Indian Institute of Information Technology",
+              "selected": false
+            },
+            {
+              "value": "NIT",
+              "text": "National Institute of Technology",
+              "selected": false
+            }
+          ],
+          "institutesBeforeTypeSelection": [],
+          "branchesBeforeInstituteSelection": []
+        },
+        "3": {
+          "roundText": "3",
+          "instituteTypes": [
+            {
+              "value": "0",
+              "text": "--Select--",
+              "selected": true
+            },
+            {
+              "value": "ALL",
+              "text": "ALL",
+              "selected": false
+            },
+            {
+              "value": "SFI",
+              "text": "",
+              "selected": false
+            },
+            {
+              "value": "CFI",
+              "text": "Government Funded Technical Institutions",
+              "selected": false
+            },
+            {
+              "value": "3IT",
+              "text": "Indian Institute of Information Technology",
+              "selected": false
+            },
+            {
+              "value": "NIT",
+              "text": "National Institute of Technology",
+              "selected": false
+            }
+          ],
+          "institutesBeforeTypeSelection": [],
+          "branchesBeforeInstituteSelection": []
+        }
+      }
+    }
+  }
+}

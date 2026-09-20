@@ -1,0 +1,131 @@
+﻿[
+  {
+    "college_id": "central-university-of-rajasthan-rajasthan",
+    "college_name": "Central University of Rajasthan, Rajasthan",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 67000,
+    "academic_fee_per_semester": 77025,
+    "hostel_fee_per_semester": 8500,
+    "mess_fee_per_semester": null,
+
+    "first_semester_fee": 88525,
+    "first_year_fee": 174050,
+
+    "annual_academic_fee": 154050,
+    "annual_total_fee": 174050,
+    "total_course_fee": null,
+
+    "one_time_fee": null,
+    "security_deposit": 3000,
+
+    "source_kind": "official",
+    "source_label": "Central University of Rajasthan BTech Fee Structure 2026-27",
+    "source_url": "https://www.curaj.ac.in/sites/default/files/Fee%20Structure%20for%20B.Tech%20-%202026-27.pdf",
+
+    "source_priority": 100,
+    "confidence_score": 100,
+    "verification_status": "verified",
+    "extraction_method": "manual",
+
+    "notes": "Official 2026-27 B.Tech fee structure. Tuition INR 67000 per semester. Semester academic-side total INR 77025. Refundable deposit INR 3000 in semester I. Hostel plus electricity/water INR 8500 per semester. Grand total INR 88525 in semester I and INR 85525 in semester II. Mess INR 9000 for three months on actual basis and therefore mess_fee_per_semester is left null."
+  },
+
+  {
+    "college_id": "ashoka-institute-of-technology-management-varanasi",
+    "college_name": "ASHOKA INSTITUTE OF TECHNOLOGY & MANAGEMENT,VARANASI",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+
+    "total_course_fee": 392000,
+
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "careers360",
+    "source_label": "Ashoka Institute Varanasi BTech Fees 2026",
+    "source_url": "https://www.careers360.com/colleges/ashoka-institute-of-technology-and-management-varanasi/fees",
+
+    "source_priority": 70,
+    "confidence_score": 82,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Careers360 2026 reports INR 230000 tuition and INR 392000 total fee for the complete B.Tech CSE course. Other branches have different complete-course totals. Stored as secondary total-course evidence; semester fields remain null."
+  },
+
+  {
+    "college_id": "coep-technological-university-pune",
+    "college_name": "COEP Technological University, Pune",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+    "total_course_fee": null,
+
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "official",
+    "source_label": "COEP FY BTech Fee Structure 2026-27",
+    "source_url": "https://www.coeptech.ac.in/useful-links/university-sections/ac-section/fees-structure-1/",
+
+    "source_priority": 100,
+    "confidence_score": 80,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Official COEP website confirms FY B.Tech regular fee structure for AY 2026-27. Numeric values are contained in the downloadable fee document but are not safely exposed in the accessible page text, so no amount is guessed."
+  },
+
+  {
+    "college_id": "central-university-of-haryana",
+    "college_name": "Central University of Haryana",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+    "total_course_fee": null,
+
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "official",
+    "source_label": "Central University of Haryana Fee Structure 2026-27",
+    "source_url": "https://cuh.ac.in/btech_admission.aspx",
+
+    "source_priority": 100,
+    "confidence_score": 80,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Official CUH B.Tech admission portal confirms 2026-27 admissions and links the current fee-structure notification. Numeric amounts are not safely exposed in the accessible page result, so normalized fee fields remain null."
+  }
+]

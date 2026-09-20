@@ -1,0 +1,615 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 2 of 5 in the fifth batch (NIT Uttarakhand). Colleges 3-5 (NIT Meghalaya, NIT Manipur, NIT Mizoram) to follow in separate responses. Cumulative total after this college: 22 of 31 standard NITs."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Uttarakhand",
+        "verified_name": "National Institute of Technology, Uttarakhand",
+        "city": "Srinagar (Garhwal)",
+        "state": "Uttarakhand",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "One of ten new NITs established 2009-2010 during the 11th Five-Year Plan. Located in Srinagar, Pauri Garhwal district, Uttarakhand — on the banks of the Alaknanda River. CRITICAL DISAMBIGUATION: explicitly verified DISTINCT from NIT Srinagar (Jammu & Kashmir), a much older, separate institution. This risk was directly confirmed by a Careers360 'Srinagar' city-listing page showing both institutions side by side under a shared location filter. Also explicitly distinct from Hemwati Nandan Bahuguna Garhwal University (HNBGU), a separate central university located in the same Uttarakhand town. A SECONDARY, internal address-confusion issue was also identified: multiple sources note that Google search results show two distinct location pins for this institution — one at the current temporary campus (shared with a Government Polytechnic and an ITI) in Srinagar town itself, and one at 'Sumari,' the nearby site of the still-under-construction permanent campus — this is a genuine, source-corroborated point of confusion about the institution's own physical address, not a naming conflict with another institution."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews page, placement page, faculty page, and compare page retrieved with substantial branch-specific content."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews pages (multiple, including course-filtered) retrieved with substantive narrative review content and explicit likes/dislikes framing."},
+        {"platform": "Careers360", "status": "available", "notes": "Aggregate rating confirmed via three separate listing pages (PhD EEE, B.Tech EEE, general engineering in Srinagar), correctly distinguished from NIT Srinagar (J&K) on the same general listing page."},
+        {"platform": "Zollege", "status": "available", "notes": "Reviews page (10-point scale) retrieved with a distinctive individually-attributed review."},
+        {"platform": "Quora", "status": "unavailable", "notes": "No distinct genuine Quora-hosted threads specific to NIT Uttarakhand (as opposed to NIT Srinagar J&K) were clearly identified in this session's searches; qualitative evidence instead drawn from Shiksha, Collegedunia, and Zollege narrative reviews."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NIT Uttarakhand located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/national-institute-of-technology-uttarakhand-srinagar-pauri-garhwal-39397/placement",
+          "aggregate_rating": 3.2,
+          "rating_scale": "out of 5",
+          "review_count": 96,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Srinagar Pauri Garhwal · 3.2/5 · (96 Reviews) 115 Student Q&A.'"
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/28197-national-institute-of-technology-nit-uttarakhand-srinagar-garhwal/reviews?course=2094&sort=3",
+          "aggregate_rating": 3.6,
+          "rating_scale": "out of 5",
+          "review_count": 77,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'3.6 (77 Reviews).'"
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-engineering-colleges-in-srinagar",
+          "aggregate_rating": 4.4,
+          "rating_scale": "out of 5",
+          "review_count": 83,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Uttarakhand (NIT UK) - National Institute of Technology Uttarakhand ... Rating: 4.4/5, 83 Reviews.' Correctly distinguished on the same page from 'NIT Srinagar - National Institute of Technology Srinagar' (3.9/5, 44 reviews, located in Jammu and Kashmir), a separate institution."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-phd-in-electrical-and-electronics-engineering-colleges-in-srinagar",
+          "aggregate_rating": 4.3,
+          "rating_scale": "out of 5",
+          "review_count": 82,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Slightly different figures (4.3/5, 82 reviews) observed on a PhD-category-specific listing page, compared to the general engineering listing (4.4/5, 83 reviews) — both retained as separate observations."
+        },
+        {
+          "platform": "Zollege",
+          "source_url": "https://zollege.in/university/187518-national-institute-of-technology-nit-uttarakhand-srinagar-garhwal/reviews",
+          "aggregate_rating": 6.6,
+          "rating_scale": "out of 10",
+          "review_count": 22,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "'6.6/10 (22 Reviews).' Sub-ratings on 10-point scale: academic 6.9, accommodation 7.8, infrastructure 5.9, placement 5.8. Star distribution: 1-star 0%, 2-star 5%, 3-star 48%, 4-star 38%, 5-star 10%."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "Zollege", "aspect": "academics", "rating": 6.9, "rating_scale": "out of 10", "source_url": "https://zollege.in/university/187518-national-institute-of-technology-nit-uttarakhand-srinagar-garhwal/reviews", "observed_at": null},
+        {"platform": "Zollege", "aspect": "hostel", "rating": 7.8, "rating_scale": "out of 10", "source_url": "https://zollege.in/university/187518-national-institute-of-technology-nit-uttarakhand-srinagar-garhwal/reviews", "observed_at": null},
+        {"platform": "Zollege", "aspect": "infrastructure", "rating": 5.9, "rating_scale": "out of 10", "source_url": "https://zollege.in/university/187518-national-institute-of-technology-nit-uttarakhand-srinagar-garhwal/reviews", "observed_at": null},
+        {"platform": "Zollege", "aspect": "placements", "rating": 5.8, "rating_scale": "out of 10", "source_url": "https://zollege.in/university/187518-national-institute-of-technology-nit-uttarakhand-srinagar-garhwal/reviews", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "NIT Uttarakhand",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/28197-national-institute-of-technology-nit-uttarakhand-srinagar-garhwal/reviews?course=2094&sort=3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'They take a keen interest in teaching students and love to solve students' doubts.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The placement and training cell at NIT UK is doing great works in past years with helping students get better opportunities in their 3rd year by getting internships from various companies to kickstart their careers out in the real world.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The thing that I like is how the students celebrate every festival.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Mess food is really bad for the fee we pay, with little variety. Hostels are good if you have a good company, but the mess food is disaster, you will get trouble to habituate yourself for the food. One thing which is not to be overlooked is the hostel mess food for which we pay in advance which is not taken care of even after the frequent complaints by the students.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Uttarakhand",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/28197-national-institute-of-technology-nit-uttarakhand-srinagar-garhwal/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "academics",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'There is less hectic schedule for CSE branch, there is very less college pressure so you have a lot of time to explore different opportunities. Placements are decent for CSE branch (in IT sector).'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'There is no permanent campus like other NITs or IITs.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Uttarakhand",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/28197-national-institute-of-technology-nit-uttarkhand-srinagar-garhwal/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This item corroborates the 'remote/isolated location' theme seen across multiple sources for this institution.",
+          "aspect_evidence": [
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'NIT Uttarakhand is in a remote place, away from the city. So if you are not used to living an isolated life, it will be difficult for you to adjust. Even traveling to Srinagar Garhwal will be difficult.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The infrastructure of the college is not that great to appease you. It will feel dismaying. It is improving gradually.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The faculty of the institute is from renowned institutes like IITs/NITs. The professors are highly qualified and teach students proficiently, in line with the GATE syllabus.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'This year most of the students were placed with avg package of around 7 LPA and highest package of 34 LPA. Atlassian, Adobe, Koo, Samsung, Deloitte, Publicis, PeopleStrong, ZS, Accenture, Loyalty Juggernaut [visited].'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Uttarakhand",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/national-institute-of-technology-uttarakhand-srinagar-pauri-garhwal-39397/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This review explicitly attributes the highest recent package to an ECE student, cited alongside a CSE-scoped average package — recorded as ECE-scoped for the highest-package claim specifically.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements here at NIT Uttarakhand are quite good for CSE and ECE. Even the highest package recently was received by an ECE student. The overall package is 18-20 LPA for CSE companies.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Uttarakhand",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/national-institute-of-technology-uttarakhand-srinagar-pauri-garhwal-39397/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The placement and training cell at NIT Uttarakhand has done great work in the past years, helping students get better opportunities in their 3rd years by getting internships from various companies to kickstart their careers in the real world. The placement rate is quite good and the average package for CSE is 14 LPA.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The current NIT Uttarakhand is run on a temporary campus of the government Polytechnic College and one ITI campus at Srinagar, Uttarakhand. A permanent campus is under construction in a place known as Sumari, which is nearby Srinagar.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Hostels are available for both boys and girls in the undergrad program. The facilities include bedrooms with 3 beds and tables, one social gathering area and a mess. The food is just eatable.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculty members are good; all have done their PhDs from IITs and other renowned institutes so they have good knowledge about their core subjects.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Uttarakhand",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/national-institute-of-technology-uttarakhand-srinagar-pauri-garhwal-39397/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "IMPORTANT DATA QUALITY FLAG: This review's own stated figures contain an internal numerical inconsistency — it lists 'The maximum salary package offered was 39 LPA' followed immediately by 'The minimum salary package offered was 26 LPA,' which if both accurate would mean the reported minimum (26) is implausibly close to or overlapping with a separately stated 'highest' of 33 LPA earlier in the same passage. This is preserved exactly as stated in the source rather than corrected or reconciled, since altering source figures would itself be a form of fabrication; flagged for backend awareness that this specific review's numbers may contain an error or reflect multiple different reporting periods conflated together.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The average salary package offered was 8.4 LPA. The highest salary package offered was 33 LPA. The average salary package offered was 8.7 LPA. The maximum salary package offered was 39 LPA. The minimum salary package offered was 26 LPA. It is due to the downfall of the world's economy and other things.' (Figures preserved exactly as stated in source despite apparent internal inconsistency.)"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'It is a temporary campus located in Srinagar, Uttarakhand. But when you search in Google, it shows two locations: one is in Srinagar, Uttarakhand and the other is in Sumari, Uttarakhand. Sumari campus is under construction, so the students go to Srinagar to study. Wi-Fi is available. Classrooms are well-maintained. There is a decent library. It is a small campus compared to other NITs.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Uttarakhand",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/national-institute-of-technology-uttarakhand-srinagar-pauri-garhwal-39397/faculty",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'They teach at Mahindra, Tata Motors, and other companies. The average package is 3-4 lacs. Almost 85 percent of students get an internship every year. Some big companies also come, but with slightly lower packages, ranging between 10-20 lacs.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The labs are decent. The classrooms resemble those of your school, not large lecture halls. There is also a library with a sufficient amount of books.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The hostels are good, with three students per room. The canteen's food is average and does not remain open throughout the night. A pool table is available, and there is a gym with basic facilities.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The teachers are very helpful. Yes, the course curriculum is relevant and prepares you for the industry. The difficulty of semester exams is moderate, with a pass percentage of 98 percent in almost every subject.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Uttarakhand",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/national-institute-of-technology-uttarakhand-srinagar-pauri-garhwal-39397/faculty",
+          "source_review_id": null,
+          "author_display_name": "Rajeev",
+          "review_title": "Best College in Srinagar, Uttarakhand",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electrical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electrical Engineering",
+          "branch_verified": true,
+          "rating": 3.4,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2026. Sub-ratings: Placements 3, Infrastructure 4, Faculty & Course Curriculum 4, Crowd & Campus Life 3, Value for Money 3. Review title explicitly calls this the 'Best College in Srinagar, Uttarakhand' — note this is a self-comparison within the local Srinagar (Uttarakhand) area, not a claim about NIT Srinagar (J&K), a different city entirely.",
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The teachers are very helpful. Yes, the course curriculum is relevant and prepares you for the industry.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Uttarakhand",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/national-institute-of-technology-uttarakhand-srinagar-pauri-garhwal-39397/faculty",
+          "source_review_id": null,
+          "author_display_name": "Prince kumar",
+          "review_title": "My college review in my words",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Civil Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": 3.4,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2027. Sub-ratings: Placements 3, Infrastructure 3, Faculty & Course Curriculum 4, Crowd & Campus Life 4, Value for Money 3.",
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Our college faculty were too good; they are too cooperative with the students; they help their students a lot; they also motivate and try to teach students to grow in their lives. Every faculty member is like our parents in the college; they are available to guide us.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Uttarakhand",
+          "source": "Zollege",
+          "source_type": "aggregator",
+          "source_url": "https://zollege.in/university/187518-national-institute-of-technology-nit-uttarakhand-srinagar-garhwal/reviews",
+          "source_review_id": null,
+          "author_display_name": "Shoryaman Sah",
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": 3.5,
+          "rating_scale": "out of 10",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Enrolled 2021. Sub-ratings (10-point scale): placement 2.0, college 3.0, course 4.0, hostel 8.0, internship 2.0, campus life 2.0. This is a notably more negative individual review than most others found for this institution, particularly on placements/internships/campus life.",
+          "aspect_evidence": [
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'There are less distractions around the college like clubs and pubs, so you could focus on your goal more effectively. The place is calm and clean and has [a] good environment.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'There is no permanent campus of our own.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'College life is very poor here and placement is also not good.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Uttarakhand",
+          "source": "Zollege",
+          "source_type": "aggregator",
+          "source_url": "https://zollege.in/university/187518-national-institute-of-technology-nit-uttarakhand-srinagar-garhwal/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Mechanical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placement in the other branches is okay but placement in the mechanical branch is good enough.'"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 12,
+        "independent_sources": 4,
+        "reviews_with_dates": 0,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 12
+      },
+
+      "limitations": [
+        "Quora: no distinct genuine Quora-hosted threads specific to NIT Uttarakhand (as opposed to NIT Srinagar, J&K) were clearly identified in this session's searches — a genuine source gap for this institution, likely exacerbated by the naming overlap making targeted search more difficult.",
+        "Reddit: no genuine NIT Uttarakhand-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "CRITICAL: This institution shares its town name ('Srinagar') with the much older, unrelated NIT Srinagar in Jammu & Kashmir. This was directly confirmed as a real risk by a Careers360 listing page showing both institutions side by side under a shared 'Srinagar' location filter. All evidence in this extraction was verified as pertaining specifically to NIT Uttarakhand.",
+        "A SEPARATE, internal address-confusion issue (distinct from the above) was also identified and corroborated by two independent sources: search engines reportedly show two different location pins for this single institution (current temporary campus in Srinagar town vs. under-construction permanent campus at 'Sumari') — this reflects genuine ambiguity about the institution's own physical location during its ongoing campus transition, not a naming conflict with a different institution.",
+        "One Shiksha review contains an internal numerical inconsistency in its own stated placement package figures (listing a 'minimum' of 26 LPA that appears inconsistent with an earlier-stated 'highest' of 33 LPA in the same passage) — this was preserved exactly as written in the source rather than corrected, since altering source figures would itself constitute fabrication.",
+        "Aggregate ratings vary notably across platforms: Careers360 shows ~4.3-4.4/5, while Shiksha shows 3.2/5 and Zollege shows 6.6/10 (≈3.3/5 if rescaled) — a wider divergence between platforms than seen for most other institutions in this dataset. This divergence is preserved rather than reconciled.",
+        "No review in this extraction batch carried an explicit visible date; reviews_with_dates and reviews_last_24_months are both 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~96 reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

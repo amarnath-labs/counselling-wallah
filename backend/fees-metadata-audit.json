@@ -1,0 +1,558 @@
+{
+  "total": 73,
+  "website_missing": [
+    {
+      "college_id": "indian-institute-of-technology-madras",
+      "name": "Indian Institute of Technology Madras",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "website": null,
+      "nirf_rank": 1
+    },
+    {
+      "college_id": "indian-institute-of-technology-delhi",
+      "name": "Indian Institute of Technology Delhi",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "website": null,
+      "nirf_rank": 2
+    },
+    {
+      "college_id": "indian-institute-of-technology-bombay",
+      "name": "Indian Institute of Technology Bombay",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "website": null,
+      "nirf_rank": 3
+    },
+    {
+      "college_id": "indian-institute-of-technology-kanpur",
+      "name": "Indian Institute of Technology Kanpur",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "website": null,
+      "nirf_rank": 4
+    },
+    {
+      "college_id": "indian-institute-of-technology-kharagpur",
+      "name": "Indian Institute of Technology Kharagpur",
+      "city": "Kharagpur",
+      "state": "West Bengal",
+      "website": null,
+      "nirf_rank": 5
+    },
+    {
+      "college_id": "indian-institute-of-technology-roorkee",
+      "name": "Indian Institute of Technology Roorkee",
+      "city": "Roorkee",
+      "state": "Uttarakhand",
+      "website": null,
+      "nirf_rank": 6
+    },
+    {
+      "college_id": "indian-institute-of-technology-hyderabad",
+      "name": "Indian Institute of Technology Hyderabad",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "website": null,
+      "nirf_rank": 7
+    },
+    {
+      "college_id": "indian-institute-of-technology-guwahati",
+      "name": "Indian Institute of Technology Guwahati",
+      "city": "Guwahati",
+      "state": "Assam",
+      "website": null,
+      "nirf_rank": 8
+    },
+    {
+      "college_id": "national-institute-of-technology-tiruchirappalli",
+      "name": "National Institute of Technology, Tiruchirappalli",
+      "city": "Tiruchirappalli",
+      "state": "Tamil Nadu",
+      "website": null,
+      "nirf_rank": 9
+    },
+    {
+      "college_id": "indian-institute-of-technology-varanasi",
+      "name": "Indian Institute of Technology (BHU) Varanasi",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "website": null,
+      "nirf_rank": 10
+    },
+    {
+      "college_id": "indian-institute-of-technology-indore",
+      "name": "Indian Institute of Technology Indore",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "website": null,
+      "nirf_rank": 12
+    },
+    {
+      "college_id": "national-institute-of-technology-rourkela",
+      "name": "National Institute of Technology, Rourkela",
+      "city": "Rourkela",
+      "state": "Odisha",
+      "website": null,
+      "nirf_rank": 13
+    },
+    {
+      "college_id": "national-institute-of-technology-karnataka-surathkal",
+      "name": "National Institute of Technology Karnataka, Surathkal",
+      "city": "Surathkal",
+      "state": "Karnataka",
+      "website": null,
+      "nirf_rank": 17
+    },
+    {
+      "college_id": "indian-institute-of-technology-patna",
+      "name": "Indian Institute of Technology Patna",
+      "city": "Patna",
+      "state": "Bihar",
+      "website": null,
+      "nirf_rank": 19
+    },
+    {
+      "college_id": "national-institute-of-technology-calicut",
+      "name": "National Institute of Technology Calicut",
+      "city": "Kozhikode",
+      "state": "Kerala",
+      "website": null,
+      "nirf_rank": 21
+    },
+    {
+      "college_id": "indian-institute-of-technology-mandi",
+      "name": "Indian Institute of Technology Mandi",
+      "city": "Mandi",
+      "state": "Himachal Pradesh",
+      "website": null,
+      "nirf_rank": 26
+    },
+    {
+      "college_id": "indian-institute-of-technology-jodhpur",
+      "name": "Indian Institute of Technology Jodhpur",
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "website": null,
+      "nirf_rank": 27
+    },
+    {
+      "college_id": "national-institute-of-technology-warangal",
+      "name": "National Institute of Technology, Warangal",
+      "city": "Warangal",
+      "state": "Telangana",
+      "website": null,
+      "nirf_rank": 28
+    },
+    {
+      "college_id": "indian-institute-of-technology-ropar",
+      "name": "Indian Institute of Technology Ropar",
+      "city": "Rupnagar",
+      "state": "Punjab",
+      "website": null,
+      "nirf_rank": 32
+    },
+    {
+      "college_id": "indian-institute-of-technology-bhubaneswar",
+      "name": "Indian Institute of Technology Bhubaneswar",
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "website": null,
+      "nirf_rank": 39
+    },
+    {
+      "college_id": "malaviya-national-institute-of-technology-jaipur",
+      "name": "Malaviya National Institute of Technology Jaipur",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "website": null,
+      "nirf_rank": 42
+    },
+    {
+      "college_id": "visvesvaraya-national-institute-of-technology-nagpur",
+      "name": "Visvesvaraya National Institute of Technology, Nagpur",
+      "city": "Ichchhanath",
+      "state": "Gujarat",
+      "website": null,
+      "nirf_rank": 44
+    },
+    {
+      "college_id": "national-institute-of-technology-durgapur",
+      "name": "National Institute of Technology Durgapur",
+      "city": "Durgapur",
+      "state": "West Bengal",
+      "website": null,
+      "nirf_rank": 49
+    },
+    {
+      "college_id": "national-institute-of-technology-silchar",
+      "name": "National Institute of Technology, Silchar",
+      "city": "Silchar",
+      "state": "Assam",
+      "website": null,
+      "nirf_rank": 50
+    },
+    {
+      "college_id": "birla-institute-of-technology-mesra-ranchi",
+      "name": "Birla Institute of Technology, Mesra, Ranchi",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "website": null,
+      "nirf_rank": 51
+    },
+    {
+      "college_id": "national-institute-of-technology-patna",
+      "name": "National Institute of Technology Patna",
+      "city": "Patna",
+      "state": "Bihar",
+      "website": null,
+      "nirf_rank": 53
+    },
+    {
+      "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+      "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+      "city": "Howrah",
+      "state": "West Bengal",
+      "website": null,
+      "nirf_rank": 54
+    },
+    {
+      "college_id": "dr-b-r-ambedkar-national-institute-of-technology-jalandhar",
+      "name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "website": null,
+      "nirf_rank": 55
+    },
+    {
+      "college_id": "indian-institute-of-technology-jammu",
+      "name": "Indian Institute of Technology Jammu",
+      "city": "Jammu",
+      "state": "Jammu and Kashmir",
+      "website": null,
+      "nirf_rank": 56
+    },
+    {
+      "college_id": "indian-institute-of-technology-tirupati",
+      "name": "Indian Institute of Technology Tirupati",
+      "city": "Tirupati",
+      "state": "Andhra Pradesh",
+      "website": null,
+      "nirf_rank": 57
+    },
+    {
+      "college_id": "motilal-nehru-national-institute-of-technology-allahabad",
+      "name": "Motilal Nehru National Institute of Technology Allahabad",
+      "city": "Prayagraj",
+      "state": "Uttar Pradesh",
+      "website": null,
+      "nirf_rank": 62
+    },
+    {
+      "college_id": "indian-institute-of-technology-palakkad",
+      "name": "Indian Institute of Technology Palakkad",
+      "city": "Palakkad",
+      "state": "Kerala",
+      "website": null,
+      "nirf_rank": 64
+    },
+    {
+      "college_id": "national-institute-of-technology-delhi",
+      "name": "National Institute of Technology Delhi",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "website": null,
+      "nirf_rank": 65
+    },
+    {
+      "college_id": "sardar-vallabhbhai-national-institute-of-technology-surat",
+      "name": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "city": "Surat",
+      "state": "Gujarat",
+      "website": null,
+      "nirf_rank": 66
+    },
+    {
+      "college_id": "indian-institute-of-technology-bhilai",
+      "name": "Indian Institute of Technology Bhilai",
+      "city": "Bhilai",
+      "state": "Chhattisgarh",
+      "website": null,
+      "nirf_rank": 72
+    },
+    {
+      "college_id": "national-institute-of-technology-srinagar",
+      "name": "National Institute of Technology, Srinagar",
+      "city": "Srinagar",
+      "state": "Jammu and Kashmir",
+      "website": null,
+      "nirf_rank": 73
+    },
+    {
+      "college_id": "university-of-hyderabad",
+      "name": "University of Hyderabad",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "website": null,
+      "nirf_rank": 74
+    },
+    {
+      "college_id": "indian-institute-of-technology-dharwad",
+      "name": "Indian Institute of Technology Dharwad",
+      "city": "Dharwad",
+      "state": "Karnataka",
+      "website": null,
+      "nirf_rank": 77
+    },
+    {
+      "college_id": "sant-longowal-institute-of-engineering-and-technology",
+      "name": "Sant Longowal Institute of Engineering and Technology",
+      "city": "Longowal",
+      "state": "Punjab",
+      "website": null,
+      "nirf_rank": 79
+    },
+    {
+      "college_id": "maulana-azad-national-institute-of-technology-bhopal",
+      "name": "Maulana Azad National Institute of Technology Bhopal",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "website": null,
+      "nirf_rank": 81
+    },
+    {
+      "college_id": "national-institute-of-technology-jamshedpur",
+      "name": "National Institute of Technology, Jamshedpur",
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "website": null,
+      "nirf_rank": 82
+    },
+    {
+      "college_id": "national-institute-of-technology-meghalaya",
+      "name": "National Institute of Technology Meghalaya",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "website": null,
+      "nirf_rank": 83
+    },
+    {
+      "college_id": "national-institute-of-technology-kurukshetra",
+      "name": "National Institute of Technology, Kurukshetra",
+      "city": "Kurukshetra",
+      "state": "Haryana",
+      "website": null,
+      "nirf_rank": 85
+    },
+    {
+      "college_id": "national-institute-of-technology-raipur",
+      "name": "National Institute of Technology Raipur",
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "website": null,
+      "nirf_rank": 86
+    },
+    {
+      "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+      "name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+      "city": "Gwalior",
+      "state": "Madhya Pradesh",
+      "website": null,
+      "nirf_rank": 96
+    },
+    {
+      "college_id": "national-institute-of-technology-hamirpur",
+      "name": "National Institute of Technology Hamirpur",
+      "city": "Hamirpur",
+      "state": "Himachal Pradesh",
+      "website": null,
+      "nirf_rank": 97
+    },
+    {
+      "college_id": "national-institute-of-technology-puducherry",
+      "name": "National Institute of Technology Puducherry",
+      "city": "Karaikal",
+      "state": "Puducherry",
+      "website": null,
+      "nirf_rank": 99
+    },
+    {
+      "college_id": "indian-institute-of-information-technology-guwahati",
+      "name": "Indian Institute of Information Technology Guwahati",
+      "city": "Guwahati",
+      "state": "Assam",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "indian-institute-of-information-technology-allahabad",
+      "name": "Indian Institute of Information Technology, Allahabad",
+      "city": "Prayagraj",
+      "state": "Uttar Pradesh",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+      "name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+      "city": "Kancheepuram",
+      "state": "Tamil Nadu",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "indian-institute-of-technology-goa",
+      "name": "Indian Institute of Technology Goa",
+      "city": "Ponda",
+      "state": "Goa",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "international-institute-of-information-technology-naya-raipur",
+      "name": "International Institute of Information Technology, Naya Raipur",
+      "city": "Naya Raipur",
+      "state": "Chhattisgarh",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "islamic-university-of-science-and-technology-kashmir",
+      "name": "Islamic University of Science and Technology Kashmir",
+      "city": "Awantipora",
+      "state": "Jammu and Kashmir",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "national-institute-of-advanced-manufacturing-technology-ranchi",
+      "name": "National Institute of Advanced Manufacturing Technology, Ranchi",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-kundli",
+      "name": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+      "city": "Kundli",
+      "state": "Haryana",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-thanjavur",
+      "name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+      "city": "Thanjavur",
+      "state": "Tamil Nadu",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "national-institute-of-technology-agartala",
+      "name": "National Institute of Technology Agartala",
+      "city": "Agartala",
+      "state": "Tripura",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "national-institute-of-technology-arunachal-pradesh",
+      "name": "National Institute of Technology Arunachal Pradesh",
+      "city": "Yupia",
+      "state": "Arunachal Pradesh",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "national-institute-of-technology-goa",
+      "name": "National Institute of Technology Goa",
+      "city": "Ponda",
+      "state": "Goa",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "national-institute-of-technology-nagaland",
+      "name": "National Institute of Technology Nagaland",
+      "city": "Dimapur",
+      "state": "Nagaland",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "national-institute-of-technology-sikkim",
+      "name": "National Institute of Technology Sikkim",
+      "city": "Ravangla",
+      "state": "Sikkim",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "national-institute-of-technology-andhra-pradesh",
+      "name": "National Institute of Technology, Andhra Pradesh",
+      "city": "Tadepalligudem",
+      "state": "Andhra Pradesh",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "national-institute-of-technology-manipur",
+      "name": "National Institute of Technology, Manipur",
+      "city": "Imphal",
+      "state": "Manipur",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "national-institute-of-technology-mizoram",
+      "name": "National Institute of Technology, Mizoram",
+      "city": "Aizawl",
+      "state": "Mizoram",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "national-institute-of-technology-uttarakhand",
+      "name": "National Institute of Technology, Uttarakhand",
+      "city": "Srinagar (Garhwal)",
+      "state": "Uttarakhand",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+      "name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+      "city": "Nirjuli",
+      "state": "Arunachal Pradesh",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "pt-dwarka-prasad-mishra-indian-institute-of-information-technology-design-manufacture-jabalpur",
+      "name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+      "city": "Jabalpur",
+      "state": "Madhya Pradesh",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "puducherry-technological-university-puducherry",
+      "name": "Puducherry Technological University, Puducherry",
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "website": null,
+      "nirf_rank": null
+    },
+    {
+      "college_id": "shri-mata-vaishno-devi-university-katra-jammu-kashmir",
+      "name": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+      "city": "Katra",
+      "state": "Jammu and Kashmir",
+      "website": null,
+      "nirf_rank": null
+    }
+  ],
+  "suspicious_metadata": []
+}

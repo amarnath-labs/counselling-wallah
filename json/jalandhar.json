@@ -1,0 +1,608 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 2 of 5 in the fourth batch (NIT Jalandhar). Colleges 3-5 (NIT Srinagar, NIT Delhi, NIT Goa) to follow in separate responses. Cumulative total after this college: 17 of 31 standard NITs."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Jalandhar",
+        "verified_name": "Dr. B.R. Ambedkar National Institute of Technology, Jalandhar",
+        "city": "Jalandhar",
+        "state": "Punjab",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Regional Engineering College (REC), Jalandhar, established 1987 (some sources cite 1989) as a joint venture of the Government of India and Government of Punjab; upgraded to NIT/Deemed University status on 17 October 2002; declared Institute of National Importance in 2004/2007 (sources vary on exact year). Single main campus (~154 acres) on the G.T. Road Amritsar Bye-Pass, Jalandhar. Named after Dr. B.R. Ambedkar. No conflicting institutions of similar name identified; one search result referenced 'DAV College' and 'Lovely Professional University' as separate, unrelated nearby institutions in the same city, correctly not conflated with NIT Jalandhar."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews page and main overview page retrieved with substantive branch-specific narrative content, including Textile Technology department detail."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews pages (multiple, paginated) and main overview page retrieved with substantive narrative review content."},
+        {"platform": "Careers360", "status": "available", "notes": "Aggregate rating confirmed via a Jalandhar-city Industrial and Production Engineering listing page; paginated reviews page and Q&A thread also retrieved."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located on hostel life and ragging (consistently describing minimal/no ragging, with structural anti-ragging measures like separate first-year hostels)."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NIT Jalandhar located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/compare-nit-jalandhar-24247",
+          "aggregate_rating": 3.9,
+          "rating_scale": "out of 5",
+          "review_count": 751,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Jalandhar is rated 3.9 out of 5 by 751 genuine verified students.'"
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/national-institute-of-technology-jalandhar-24247",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 837,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 837 Student Reviews, 309 comments.' Distinct count (837) from the comparison page (751) observed in this same session; both retained as separate observations since retrieved from different URLs."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-industrial-and-production-engineering-colleges-in-jalandhar",
+          "aggregate_rating": 4.0,
+          "rating_scale": "out of 5",
+          "review_count": 289,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Jalandhar - Dr B R Ambedkar National Institute of Technology Jalandhar ... Rating: 4.0/5, 289 Reviews.'"
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25781-dr-br-ambedkar-national-institute-of-technology-nit-jalandhar/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippets; only narrative review text present, including an auto-extracted 'insights' block."
+        },
+        {
+          "platform": "Glassdoor",
+          "source_url": "https://www.glassdoor.com/Reviews/NIT-Jalandhar-India-Reviews-EI_IE517711.0,13_IL.14,19_IN115.htm",
+          "aggregate_rating": 4.1,
+          "rating_scale": "out of 5",
+          "review_count": 31,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "SCOPE CAVEAT: This reflects EMPLOYEE/staff sentiment about NIT Jalandhar as a workplace, not student sentiment. Explicitly out of scope for student review_items, consistent with the same caveat applied elsewhere in this dataset."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "Shiksha", "aspect": "value_for_money", "rating": 3.9, "rating_scale": "out of 5", "source_url": "https://www.shiksha.com/college/national-institute-of-technology-jalandhar-24247/placement", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "NIT Jalandhar",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/national-institute-of-technology-jalandhar-24247/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "NIT Jalandhar review 2026",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Textile Technology",
+          "course_verified": true,
+          "department": null,
+          "branch": "Textile Technology",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Textile Technology",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The Textile Technology department has an 80-90 percent placements this year. Most of the eligible students in the 26' batch got placed. The highest package is 18 LPA offered by Trident in core and 16 LPA by Amazon in tech. The average stood at around 5.8 LPA with companies like Vardhan Textile being the major mass recruiters. The roles majorly include managerial and supervisor roles in textile mills.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": "Textile Technology",
+              "scope": "branch",
+              "sentiment": "mixed",
+              "evidence_summary": "'Facilities are above average to good. The labs are well-equipped but some of the machinery in the laboratories is outdated and has not yet been replaced. Currently the department is undergoing renovation.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The library is world-class. There are two libraries in the college, one being the central or old library while the new library is just for study purpose.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jalandhar",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/national-institute-of-technology-jalandhar-24247/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This reviewer explicitly self-labels the institution as 'tier 1.5' — a nuanced, non-binary self-assessment worth preserving verbatim in meaning.",
+          "aspect_evidence": [
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'NIT Jalandhar is a tier 1.5 college only because of its remote location.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The average package offered for the CSE course is around 18 LPA. The lowest package for top branches is around 12 LPA. High-performing students can get a package of 52 LPA on campus. The highest package offered off-campus is 1.2 crores per annum.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Wi-Fi is present throughout the campus. Labs are new and well-maintained. There are two main libraries. The new library is a state-of-the-art construction with a seating capacity of 900ish people at once.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Hostels are way better than most of the other NITs. The mess food is good. First-year students get 4-sharing rooms, and from the 2nd year, we get 2[-sharing]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jalandhar",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25781-dr-br-ambedkar-national-institute-of-technology-nit-jalandhar/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements at NITJ are excellent, with students becoming eligible in the 7th semester; in 2025 the placement rate reached about 92% with over 1000 job offers made. Top recruiters included Google, Microsoft, Amazon, BPCL, Adani, Infosys, Deloitte and Tata Power. The highest B.Tech package touched 52 LPA while the average was around 8.10 lakh per annum; core branches averaged 7 to 8 LPA and CS/IT averaged 13 to 14 LPA. About 86 to 92% of eligible B.Tech students were placed.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jalandhar",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25781-dr-br-ambedkar-national-institute-of-technology-nit-jalandhar/reviews",
+          "source_review_id": null,
+          "author_display_name": "Sagardeep",
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Branch inferred with verification from explicit mention of 'mechanical teams' and international-level competitions/race events, which are distinctive of mechanical engineering student clubs (e.g., SAE-style events); this is a reasonably confident but not 100% explicit branch attribution.",
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'4-5 senior faculty members are excellent. Every ad-hoc [faculty member] is very poor and useful in [no] way.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Undergraduate research opportunities are limited, but you can participate in mechanical teams and learn a lot at international-level competitions and race events, or you can start your own.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'In terms of numbers, placement is excellent. For a long time, the campus has been dominated by PSUs and automobile companies. This includes excellent companies involved in core design, the power sector, and the energy sector.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jalandhar",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25781-dr-br-ambedkar-national-institute-of-technology-nit-jalandhar/reviews/page-19",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Hostels are not that good and have only fans, not even coolers, so it is difficult in summers. Washrooms are also not well maintained, food is also not that good, overall hostels are very unhygienic and are not well maintained.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jalandhar",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25781-dr-br-ambedkar-national-institute-of-technology-nit-jalandhar/reviews/page-19",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": "Textile Technology",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This is a notably strongly-worded negative review of a specific department, explicitly advising against joining the branch — a direct, specific complaint rather than a generic gripe.",
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": "Textile Technology",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'Department faculty is worst, specially textile department. Would never recommend anyone. Textile department never supports or appreciates if you want to go to tech. So if you are not interested in core, please don't join.'"
+            },
+            {
+              "aspect": "internships",
+              "target_branch": "Textile Technology",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'Internship opportunities in this college is also not good. There are not many companies visiting the campus. Placements are not very good or not very bad.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jalandhar",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25781-dr-br-ambedkar-national-institute-of-technology-nit-jalandhar/reviews/page-19",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements begin to start from 3rd year or 6th semester. Students also got internship. Almost 108 companies have visited our NIT. Infosys, Amazon, Wipro, IBM, Google, Microsoft, Goldman Sachs, Samsung, Tata, Accenture, TCS, Zscaler, BPCL are the top companies. In 2023, 80% of students are being placed. Average package is 12.44 LPA. Highest package is 51 LPA of IT and CS branch.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Hostel hygiene is not maintained regularly. Hostel mess has been lagging behind in terms of quality food.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculty [members are] so much supportive and guidance. Cleaning, there is no piece of garbage out of dustbin. Senior is so helpful and attentive; they help me in my end semester exam.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jalandhar",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/dr-br-ambedkar-national-institute-of-technology-nit-jalandhar/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Textile Technology",
+          "course_verified": true,
+          "department": null,
+          "branch": "Textile Technology",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "internships",
+              "target_branch": "Textile Technology",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'My internship was at Arvind Mills, the internship was fine but I was not paid any stipend.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Textile Technology",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Key companies are Vardhman, Trident, Reliance, ExL, Mu Sigma, Virtusa, etc. Core textile companies look for your core knowledge in subjects whereas the business analyst companies check your skill mainly aptitude, communication and presentation skills. Avg salaries: 3-4 LPA, highest salary: 21 LPA, around 80% of the batch was placed.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jalandhar",
+          "source": "Careers360",
+          "source_type": "discussion",
+          "source_url": "https://www.careers360.com/question-which-one-is-better-for-cse-usict-or-nit-jalandhar-what-are-the-pros-and-cons-of-each/amp",
+          "source_review_id": null,
+          "author_display_name": "Ankita Tibrewal",
+          "review_title": "Which one is better for CSE. USICT or NIT Jalandhar? What are the pros and cons of each?",
+          "review_date": "2018-06-14",
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This is an unusually detailed, structured pros-and-cons answer covering multiple aspects with specific named details, split into multiple aspect_evidence entries below.",
+          "aspect_evidence": [
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Jalandhar City - The city is itself a students hub. Various other institutes like DAV College, Lovely Professional University, CT College are also situated in Jalandhar. Also the city has all the amenities of a big city but is not overcrowded like Ludhiana or Amritsar... NITJ has an advantage geographically. It is very close to many hill stations and places you can go on during short vacations like Manali, Dharamsala, Rishikesh, Vaishno Devi, Chandigarh, Rohtang etc.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Cultural & Technical Fest - Utkarsh & Techniti, the cultural & technical fests of NITJ attract colleges from the whole of North India. You get a lot of opportunity to participate in various fun & technical activities during these fests.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements - The placements at NITJ are comparatively good for most of the branches. CS had the best placements followed by mechanical and even textile technology. So even if you are an average student you can get decent enough placement.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'No ragging - There is almost no ragging at NITJ. There is separate hostel for 1st year students to stop ragging.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Hostel Timing restrictions - One of the worse things I felt at NITJ was restrictive hostel timings. It was up to 10 pm during my time but now it has been raised to 12 midnight for both boys and girls.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'1st year restrictions - Because of separate hostel for 1st year students, there were many restrictions also. Hostel timings would not be the same as the whole campus. Also, there is no LAN connection in Hostel-1 (during our time it was not there). 1st year students stay in either Hostel-1 or Hostel-2; comparatively H-2 is better in terms of timings and LAN.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jalandhar",
+          "source": "Quora (mirrored via Collegedunia Q&A)",
+          "source_type": "discussion",
+          "source_url": "https://collegedunia.com/qna?question_id=7487",
+          "source_review_id": "7487",
+          "author_display_name": null,
+          "review_title": "How was your experience attending the Quora Meetup at NIT Jalandhar?",
+          "review_date": "2021-04-13",
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This answer's substance is mostly about a Quora-organized community meetup event held at the NIT Jalandhar campus, not a direct review of the institution itself, though it does append a brief separate pros/cons list about the college.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Pros - Friendly ambiance. Seniors are there for support. Ragging is strictly prohibited.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Jalandhar",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-the-hostel-at-NIT-Jalandhar-Is-internet-available-Can-we-use-coolers-as-A-C-is-not-available-Can-freshers-get-a-single-room-hostel",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is the hostel at NIT Jalandhar? Is internet available? Can we use coolers as A/C is not available? Can freshers get a single room hostel?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'There are 7 standing alone hostels plus Mega Hostels Block A, B, E, F. Standing Alone hostels are numbered as 1-7 and 7E. Hostel 1 & 2 are entirely for first year undergrads. No, freshers will not get a single room unless medically or [via] special allotment.'"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 12,
+        "independent_sources": 4,
+        "reviews_with_dates": 2,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 12
+      },
+
+      "limitations": [
+        "Reddit: no genuine NIT Jalandhar-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "One review contains a notably specific, strongly-worded negative account of the Textile Technology department's faculty support, explicitly advising against joining unless interested in core textile work — this is a specific, actionable complaint distinct from generic dissatisfaction, and is preserved factually.",
+        "Hostel sentiment is genuinely mixed across sources: several describe restrictive timings and poor hygiene/maintenance, while others describe adequate-to-good facilities; both sets of accounts are preserved independently rather than reconciled.",
+        "Glassdoor data reflects EMPLOYEE/staff sentiment about NIT Jalandhar as a workplace, not student sentiment; recorded for completeness but explicitly out of scope for student review_items.",
+        "Shiksha review counts vary across pages retrieved this session (751 vs 837); both recorded as separate observations rather than reconciled.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~830+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

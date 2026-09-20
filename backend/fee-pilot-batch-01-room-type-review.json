@@ -1,0 +1,26 @@
+[
+  {
+    "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+    "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+    "original_room_type": "TRIPLE SEATER",
+    "normalized_room_type": null,
+    "hostel_fee": 133000,
+    "reason": "ROOM_TYPE_NOT_SUPPORTED_BY_CURRENT_DB_ENUM"
+  },
+  {
+    "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+    "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+    "original_room_type": "TRIPLE SEATER",
+    "normalized_room_type": null,
+    "hostel_fee": 133000,
+    "reason": "ROOM_TYPE_NOT_SUPPORTED_BY_CURRENT_DB_ENUM"
+  },
+  {
+    "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+    "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+    "original_room_type": "TRIPLE SEATER",
+    "normalized_room_type": null,
+    "hostel_fee": 133000,
+    "reason": "ROOM_TYPE_NOT_SUPPORTED_BY_CURRENT_DB_ENUM"
+  }
+]

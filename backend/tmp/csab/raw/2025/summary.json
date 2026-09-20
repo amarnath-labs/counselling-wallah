@@ -1,0 +1,17 @@
+{
+  "year": 2025,
+  "rounds": [
+    "1",
+    "2",
+    "3"
+  ],
+  "total_official_rows": 13881,
+  "total_csab_rows": 13454,
+  "total_dasa_rows_excluded": 427,
+  "unique_csab_institutes": 105,
+  "unique_csab_programs": 162,
+  "missing_opening_rank": 0,
+  "missing_closing_rank": 0,
+  "duplicate_keys": 0,
+  "source_url": "https://admissions.nic.in/csabspl/Applicant/seatallotmentresult/openingclosingrankarchieve.aspx"
+}

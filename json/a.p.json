@@ -1,0 +1,456 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 4,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 2 of 4 in the sixth and final batch (NIT Arunachal Pradesh). Colleges 3-4 (NIT Sikkim, NIT Andhra Pradesh) to follow in separate responses. Cumulative total after this college: 27 of 31 standard NITs."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Arunachal Pradesh",
+        "verified_name": "National Institute of Technology, Arunachal Pradesh (NITAP)",
+        "city": "Jote (formerly Yupia, temporary campus), near Itanagar",
+        "state": "Arunachal Pradesh",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "One of ten new NITs, inaugurated 18 August 2010; initially functioned under the mentorship of NIT Durgapur from a temporary campus at Yupia, Papum Pare district. Later transitioned to a permanent campus at Jote (~30km from Itanagar); the Mechanical Engineering department began functioning at Jote from January 2016, with other departments following over subsequent years. Referred to as the '22nd NIT to be established' per one source. No conflicting separate institutions of similar name identified; a search result for an unrelated 'Nimra Medical College' ragging question was correctly excluded as irrelevant."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews page, main overview page, and infrastructure page retrieved with substantial review content."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews pages (multiple, paginated) and hostel-specific page retrieved with substantive narrative review content, including an important seasonal water-shortage finding."},
+        {"platform": "Careers360", "status": "available", "notes": "A Q&A thread was retrieved; a specific numeric aggregate rating for this exact institution (as opposed to a broader Arunachal Pradesh listing that may include this and other unrelated colleges) could not be conclusively isolated from the retrieved snippets this session."},
+        {"platform": "GetMyUni", "status": "available", "notes": "Facilities and placement pages retrieved, containing a notable internal inconsistency in reported hostel counts across different pages of the same source."},
+        {"platform": "Quora", "status": "available", "notes": "At least one distinct thread located, specifically addressing M.Tech (Renewable Energy) placement prospects."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "Targeted search for NIT Arunachal Pradesh/NITAP on Reddit did not surface genuine reddit.com-hosted threads in this session (a YouTube video appeared instead, a different platform); marked unavailable rather than fabricated."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-electrical-engineering-colleges-in-arunachal-pradesh",
+          "aggregate_rating": 4.2,
+          "rating_scale": "out of 5",
+          "review_count": 29,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "A '4.2/5, 29 Reviews' rating and NIRF ranking '151-200' appeared at the top of an Arunachal Pradesh state-wide Electrical Engineering college listing, in a position suggesting it corresponds to NIT Arunachal Pradesh (the only NIT in the state), but the institution name itself was truncated/not directly visible in the retrieved snippet. Recorded as 'unavailable' rather than 'confirmed' due to this ambiguity, rather than assumed to definitely belong to this institution."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-arunachal-pradesh-national-institute-of-technology-arunachal-pradesh-other-32742",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippet for this specific page."
+        }
+      ],
+
+      "platform_aspect_ratings": [],
+
+      "review_items": [
+        {
+          "college_name": "NIT Arunachal Pradesh",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-arunachal-pradesh-national-institute-of-technology-arunachal-pradesh-other-32742/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Fulfilled expectations: A critical evaluation of NIT Arunachal Pradesh",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electrical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electrical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electrical Engineering",
+              "scope": "branch",
+              "sentiment": "mixed",
+              "evidence_summary": "'As of now, around 40% of the students got placed in my batch. Among those, the highest package is 9 LPA, the lowest is 4.5 LPA and the average package is 6 LPA. The top recruiter is L&T. Placement drives are still going on, and we expect better ones in the second half. In our senior batch, almost each student got 2-3 jobs.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'There are two college fests, Addovedi the technical fest and Atulyam the cultural fest. As the campus has recently shifted, these fests don't meet most of the students' expectations.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The major drawback of this college is connectivity. If you need to buy anything, most of the time you need to go to Itanagar. There are only two buses to Itanagar, and the timings are bad. There are no buses in college. So while going to classes, you will be walking down the hill. On Sunday, there is no transport. As of now, we can say that connectivity is the worst.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The infrastructure of academic buildings is not bad. But you will be disappointed if you place high hopes on infrastructure. In hostels, we get almost all the facilities. The only things that concern us are power cuts and connectivity. Only BSNL works there, so to use the internet, we need to depend solely on Wi-Fi.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Arunachal Pradesh",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25387-national-institute-of-technology-nit-papum-pare/reviews/page-2",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": "2024-04-12",
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This is a genuinely notable, specific, and verifiable-sounding claim: a recurring seasonal water shortage severe enough to require revision of the academic calendar, distinct from generic infrastructure complaints.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'High-quality bed facilities, great hostel, every room have its own balcony and you will get fresh air and beautiful greenery of mountains. All students were very happy in this college; very good facilities compared to other colleges.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Library facilities are available but very poor and also transportation facilities in college is very poor.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'During winter season, there is acute shortage of water in campus and students suffer from this situation every year, due to which academic calendar is revised sometimes.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Infrastructure is very bad, you will struggle for basic needs like electricity, water, food, because it is a new campus and everything is starting from scratch.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The cultural activities here are the best; you can celebrate many festivals including [the] Arunachal local fest.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Arunachal Pradesh",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25387-national-institute-of-technology-nit-papum-pare/reviews/page-3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": "2022-03-13",
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'The placement of the college is just okay. In comparison to many other NITs, the placement is just average.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculty-student ratio in NIT Arunachal Pradesh is good, it is almost 20 teachers per 100 students. Most teachers are Ph.D. holders and [have] minimum 10-year experience. And for lab work facility [there] is a Ph.D. student. Exam levels are moderate.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The placement of the college is good. The placement and training committee plays a very important role during the placement round... The college has a record of 100% placement... The highest package for our batch was around 18 LPA and the average package was approx 7.2 LPA.' (Note: this positive claim appears in the same aggregated snippet block as the more neutral 'just okay' assessment above, suggesting these may be two distinct reviewers concatenated on the same page rather than one contradictory account.)"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Arunachal Pradesh",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25387-national-institute-of-technology-nit-papum-pare/hostel",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "other",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This item is a secondhand account (a cousin's relayed experience), and the surrounding page text appears to be partly an editorial/summary description rather than purely a direct student review; content_type marked 'other' to reflect this mixed nature.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Overall, NIT Arunachal Pradesh offers satisfactory campus life. Hostel facilities are decent. The campus has two hostels for girls. Rooms are spacious. The hostel has 24 hours Wi-Fi and LAN facilities. The mess food won't be satisfactory in terms of taste but it is hygienic and clean.' Separately: 'It all depends upon which hostel is assigned to you. If you are lucky you might get to live with 2-3 students or you will [live] with at least 7 students in a single room.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Arunachal Pradesh",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/national-institute-of-technology-papum-pare-placements",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "IMPORTANT DATA QUALITY FLAG: This page states 'There are 10 hostels, 2 for girls and 8 for boys,' while a different page from the same GetMyUni source (facilities page, retrieved earlier) states 'There are 7 halls of residence in total, five for boys and two for girls.' These two figures from the same platform are directly inconsistent with each other; both are preserved as separate observations rather than reconciled, since resolving genuine source inconsistency is a backend decision, not an extraction-layer one.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Fooding quality is not so good. The hostel is run by the hostel mess in-charge who made a contract with the college and runs the mess. Hostel fee is free but mess fee is not. Mess fee is around Rs 3500 per month.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Classroom quality is also not up to the mark as compared to other NITs. There are no separate buildings for each department. The college campus is not permanent. The permanent site is under construction.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'There is no students' society but students gather if there is a mass need.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Arunachal Pradesh",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-arunachal-pradesh-national-institute-of-technology-arunachal-pradesh-other-32742/infrastructure",
+          "source_review_id": null,
+          "author_display_name": "Urjayant Gautam",
+          "review_title": "Improving with limited amount of resources",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Civil Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": 4.4,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2025. Sub-ratings: Placements 4, Infrastructure 4, Faculty & Course Curriculum 5, Crowd & Campus Life 5, Value for Money 4.",
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Infrastructure related to studies is good but medical facilities and sports curriculum still need improvement. There is improvement of canteen facilities and mess food quality but it still requires more [work]. The construction of [the] central library is ongoing and it has one library that is functional.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Arunachal Pradesh",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-arunachal-pradesh-national-institute-of-technology-arunachal-pradesh-other-32742/infrastructure",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Wi-Fi is being provided in a hostel and the campus. The central library is still under construction. The infrastructure of the college is not much good. It's still under construction.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The food served in the mess is good.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Medical facilities are not good.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Arunachal Pradesh does not have a ragging culture. The institute has strict restrictions and policies for ragging, and also has an Anti-Ragging Squad. At the time of admission, students have to sign the affidavit regarding the ragging [policy].'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Arunachal Pradesh",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Is-doing-an-MTech-in-renewable-energy-at-NIT-Arunachal-Pradesh-worthwhile-How-is-the-hostel%E2%80%99s-food-and-other-facilities",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Is doing an MTech in renewable energy at NIT Arunachal Pradesh worthwhile? How is the hostel's food, and other facilities?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "M.Tech",
+          "course": "M.Tech Renewable Energy",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Answerer explicitly self-identifies as having completed their own M.Tech from NIT AP, giving direct firsthand M.Tech-specific evidence — explicitly scoped separately from B.Tech evidence per the programme-scope requirement.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "programme",
+              "sentiment": "negative",
+              "evidence_summary": "'Teachers are not bad but placement is not good. Few IT companies do come but they are interested in B.Tech [students]. If you want to pursue a career in research, you will be encouraged but n[ot for placements specifically]' (sentence truncated in retrieved snippet). Explicitly M.Tech-scoped."
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 9,
+        "independent_sources": 4,
+        "reviews_with_dates": 2,
+        "reviews_last_24_months": 1,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 9
+      },
+
+      "limitations": [
+        "Reddit: targeted search for NIT Arunachal Pradesh/NITAP on Reddit did not surface genuine reddit.com-hosted threads in this session, despite a dedicated search attempt (a YouTube video appeared instead); marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "A Careers360 aggregate figure (4.2/5, 29 reviews) appeared to be positioned to correspond to NIT Arunachal Pradesh on a state-wide Electrical Engineering listing, but the institution name itself was not directly confirmed in the retrieved snippet; recorded as 'unavailable' rather than 'confirmed' to avoid an unverified attribution.",
+        "IMPORTANT DATA QUALITY ISSUE: GetMyUni's own facilities page and placements page report different hostel counts for the same institution (7 halls of residence vs. 10 hostels) — both preserved as separate observations rather than reconciled, since resolving this internal source inconsistency is a backend decision.",
+        "A well-corroborated, specific, and distinctive finding is a recurring seasonal (winter) water shortage severe enough to require revision of the academic calendar — this is a concrete operational claim distinct from generic infrastructure complaints, though it comes from a single source in this extraction and has not been independently corroborated elsewhere in this session's searches.",
+        "One Quora answer provides M.Tech-specific evidence (Renewable Energy programme) explicitly kept separate in scope from B.Tech evidence per instruction.",
+        "Only two reviews in this extraction batch carried explicit visible dates (2022, 2024); one falls within the last 24 months from the current date.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all reviews reported on Shiksha or Collegedunia for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

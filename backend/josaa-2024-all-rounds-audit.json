@@ -1,0 +1,30 @@
+{
+  "year": 2024,
+  "totalRows": 56913,
+  "uniqueRows": 56913,
+  "duplicateRows": 0,
+  "byRound": [
+    {
+      "round": "1",
+      "rows": 11687
+    },
+    {
+      "round": "2",
+      "rows": 11377
+    },
+    {
+      "round": "3",
+      "rows": 11307
+    },
+    {
+      "round": "4",
+      "rows": 11281
+    },
+    {
+      "round": "5",
+      "rows": 11261
+    }
+  ],
+  "nonEmptyOpening": 56913,
+  "nonEmptyClosing": 56913
+}

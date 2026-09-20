@@ -1,0 +1,10 @@
+[
+  {
+    "college_id": "assam-university-silchar",
+    "college_name": "Assam University, Silchar",
+    "status": "HOLD_NORMALIZATION_FAILED",
+    "source_url": "https://www.aus.ac.in/courses-admission/",
+    "amounts": [],
+    "reason": "Fee source found but exact safe annual/year-wise B.Tech fee could not be normalized."
+  }
+]

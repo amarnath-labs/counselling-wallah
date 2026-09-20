@@ -1,0 +1,673 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 3 of 5 in the fifth batch (NIT Meghalaya). Colleges 4-5 (NIT Manipur, NIT Mizoram) to follow in separate responses. Cumulative total after this college: 23 of 31 standard NITs."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Meghalaya",
+        "verified_name": "National Institute of Technology Meghalaya (NITM)",
+        "city": "Shillong (temporary campus); Sohra/Cherrapunji (planned permanent campus)",
+        "state": "Meghalaya",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "One of the 31 NITs, established 2010 under the NIT Act 2007. Currently operates from a temporary campus at Bijni Complex, Laitumkhrah, Shillong (on land associated with North Eastern Hill University), with hostels scattered across multiple separate locations in Shillong city (Lapalang, Kench's Trace, etc.), requiring institute-provided bus transport. A permanent campus (~300 acres, plus additional planned acreage) has been under construction at Sohra (Cherrapunjee), about 55km from Shillong, since the foundation stone was laid in 2012; multiple reviews describe an anticipated but repeatedly-delayed shift to this permanent site. Also known colloquially as 'NIT Shillong.' No naming conflicts with other distinct institutions were identified for this college, though one secondary source (CollegeDekho) was found to contain a factual error describing NIT Meghalaya as a 'private college' — this is incorrect (it is a public, centrally-funded government institution) and was excluded from this extraction as clearly erroneous."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews page, faculty page, and news/articles page retrieved with substantial branch- and batch-specific review content."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page and hostel-specific page retrieved with substantive narrative review content."},
+        {"platform": "Careers360", "status": "available", "notes": "Aggregate rating confirmed consistently across two Shillong-specific PhD-category listing pages; reviews page and multiple Q&A threads also retrieved."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located covering hostel life, general life/experience, and specific safety/security questions from prospective out-of-state students."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "Targeted searches for NIT Meghalaya/NITM on Reddit did not surface genuine reddit.com-hosted threads in this session; results returned Quora, Careers360, and institutional content instead. Marked unavailable rather than fabricated."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-meghalaya-national-institute-of-technology-shillong-39060/compare",
+          "aggregate_rating": 3.8,
+          "rating_scale": "out of 5",
+          "review_count": 60,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Shillong | 3.8(60 Reviews) | 173 Student Q&A.'"
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-phd-in-electronics-and-communication-engineering-colleges-in-shillong",
+          "aggregate_rating": 4.0,
+          "rating_scale": "out of 5",
+          "review_count": 21,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Meghalaya - National Institute of Technology Meghalaya ... Rating: 4.0/5, 21 Reviews.'"
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-phd-in-mechanical-engineering-colleges-in-shillong",
+          "aggregate_rating": 4.0,
+          "rating_scale": "out of 5",
+          "review_count": 21,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Identical figures (4.0/5, 21 reviews) observed on a second listing page, consistent with the first observation."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://www.careers360.com/university/national-institute-of-technology-meghalaya/admission",
+          "aggregate_rating": 4.0,
+          "rating_scale": "out of 5",
+          "review_count": 21,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'4/5 (21 Reviews) 56 Q&A' observed on a third page (admission page), consistent with the other two Careers360 observations."
+        },
+        {
+          "platform": "CollegeSearch",
+          "source_url": "https://www.collegesearch.in/colleges/national-institute-of-technology-nit-meghalaya-shillong/reviews",
+          "aggregate_rating": 4.1,
+          "rating_scale": "out of 5",
+          "review_count": 7,
+          "verified_review_count": 7,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "'4.1/5 Based on 7 Verified Reviews.' Sub-ratings: Faculty 4.8, Infrastructure 3.5, Placements 5.0, Hostel 4.5, Club 4.0. EXTREMELY SMALL SAMPLE SIZE (7 reviews) explicitly noted — low confidence."
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25743-national-institute-of-technology-nit-meghalaya-shillong/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippets; only narrative review text present."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "CollegeSearch", "aspect": "faculty", "rating": 4.8, "rating_scale": "out of 5", "source_url": "https://www.collegesearch.in/colleges/national-institute-of-technology-nit-meghalaya-shillong/reviews", "observed_at": null},
+        {"platform": "CollegeSearch", "aspect": "infrastructure", "rating": 3.5, "rating_scale": "out of 5", "source_url": "https://www.collegesearch.in/colleges/national-institute-of-technology-nit-meghalaya-shillong/reviews", "observed_at": null},
+        {"platform": "CollegeSearch", "aspect": "placements", "rating": 5.0, "rating_scale": "out of 5", "source_url": "https://www.collegesearch.in/colleges/national-institute-of-technology-nit-meghalaya-shillong/reviews", "observed_at": null},
+        {"platform": "CollegeSearch", "aspect": "hostel", "rating": 4.5, "rating_scale": "out of 5", "source_url": "https://www.collegesearch.in/colleges/national-institute-of-technology-nit-meghalaya-shillong/reviews", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "NIT Meghalaya",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25743-national-institute-of-technology-nit-meghalaya-shillong/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The placements here [are] up to the mark and are only improving every year. This year the highest international package was around 82 LPA and the highest domestic package was around 42 LPA. Some of the companies that visit NITM are Microsoft, Amazon, HP, L&T, Powergrid, MasterCard, Nissan, etc. The institute also boasts an impressive 100% placement rate.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The college has decent infrastructure with good facility and machines. But has less number of faculties with not so good faculties in some subjects.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Meghalaya",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25743-national-institute-of-technology-nit-meghalaya-shillong/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This is one of at least three independent sources in this dataset that specifically raise the hostel-to-campus commute as a distinct time/logistics burden.",
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Overall it is okay. But since there is no permanent campus, it is very hard for us to reach college on time every day. We have to get up early in the morning to wait for the bus and all. Also, there is a limited resources. Our library is too small and labs are also not sufficient.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Students have to go to college by bus as the hostels are away from college, because of which there is a huge loss of time in going and coming back to the hostel. As Shillong is already a congested city, there is a problem with huge traffic, so time gets wasted on going to college and coming back to the hostel.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Meghalaya",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-meghalaya-national-institute-of-technology-shillong-39060/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Civil Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2026.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The college placement percentage is 87%. Microsoft, TCS and all reputed companies come to our college during placement years.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Hostels are not inside the campus, however a new campus is being built which will be functional in 2025. Hostels are owned by the college.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Students are less in number so the overall experience is good. Passing is not a big deal. However, you must secure 30 out of 100 in end term exam. Teachers are excellent but they focus more on your higher studies and promote you to do so. Rarely 1-2 students ever fail.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Meghalaya",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-meghalaya-national-institute-of-technology-shillong-39060/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This item is explicitly framed around the still-temporary Shillong campus, distinct from later reviews anticipating the permanent-campus shift.",
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Currently, we are operating from Shillong, and it is a temporary campus. Our campus is average so the college life is not that good.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Hostels are far from college and are average. All the hostels are at different places and are not good. Even the quality of food served is the worst. You can't enjoy hostel life but from batch '23 we are shifting to permanent campus, so then it will be good.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Professors are very good and helpful. You can contact them at any point. The curriculum is not that hard and one can pass even by studying for one day; grading is relative so it's easy to pass. Easily you can get good marks of 8 CGPA which is enough from a NIT.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Meghalaya",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-meghalaya-national-institute-of-technology-shillong-39060/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2026.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Best of returns, good placement records, and a good coding environment. Placements: 80 to 90% of students get placements. The top companies are TCS, Wipro, TCI, IBM, Jaro Education, BYJU'S and many more.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Meghalaya",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-meghalaya-national-institute-of-technology-shillong-39060/news-articles",
+          "source_review_id": null,
+          "author_display_name": "Shashank Umar Vai",
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": 3.6,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2027. Sub-ratings: Placements 3, Infrastructure 3, Faculty & Course Curriculum 4, Crowd & Campus Life 4, Value for Money 4. This review is notable for describing a recent multi-year placement downturn, contrasting with more positive placement figures in other reviews in this dataset — likely reflecting genuine year-to-year variation.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The placements at NIT Meghalaya have been very average, or even below average, for the last two to three years. This year's placements were rather dull, and no big IT companies participated in the on-campus hiring session. Most of the students who got good packages either got them off-campus or had PPOs from their internships.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Meghalaya",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-meghalaya-national-institute-of-technology-shillong-39060/faculty",
+          "source_review_id": null,
+          "author_display_name": "Yatharth Singh",
+          "review_title": "New campus life starts, but we'll enjoy yourself",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": 3.6,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2028. Sub-ratings: Placements 3, Infrastructure 3, Faculty & Course Curriculum 4, Crowd & Campus Life 4, Value for Money 4.",
+          "aspect_evidence": [
+            {
+              "aspect": "academics",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'The curriculum is good for branches like EE, ECE, and ME. However, the CSE curriculum is not up to date, and the exams are easier for CSE students than for students in the latest syllabus branches.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The faculty at NIT Meghalaya are nice and friendly.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Meghalaya",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/university/national-institute-of-technology-meghalaya/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Around 100% is the placement percentage. The salary package is 12 LPA. Top companies are P&G, Caterpillar, etc. Around 50% of students got internships. The top roles offered are data analysts.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Till now NIT Meghalaya [is] on its temporary campus, so the campus area is not too large and hostels are within the range of 10 km from the campus, but bus facilities are there for transportation. Other than that every facility is available on the campus. Most importantly campus is well-cleaned and very beautiful.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Meghalaya",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/university/national-institute-of-technology-meghalaya/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "M.Tech",
+          "course": "M.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Explicitly M.Tech-scoped, completed 2022.",
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "programme",
+              "sentiment": "positive",
+              "evidence_summary": "'Professors are very supportive and knowledgeable in their respective fields.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Meghalaya",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-the-hostel-inside-at-NIT-Meghalaya",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is the hostel inside at NIT Meghalaya?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The hostel facility here at NIT Meghalaya is very good. The hostels are spread in various parts of the city, with a majority of hostels being in the Lapalang area. The hostels are well equipped with various kinds of facilities like TV Room, gym, sports room etc. As a bare minimum, in each room, you'll get a bed, table, chair and a locker, one for each of the students living in the room.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Meghalaya",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Should-I-admit-to-NIT-Meghalaya-What-about-security-and-hospitality-Im-from-Maharashtra",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Should I admit to NIT Meghalaya? What about security and hospitality? I'm from Maharashtra.",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Self-identified as also from Maharashtra, current 2nd-year ECE student, directly addressing the asker's out-of-state safety concern.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Meghalaya is definitely a good choice if you are not getting any older NITs. All the students here enjoy their life and are safe inside hostel.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Meghalaya",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-life-at-NIT-Meghalaya-How-is-your-experience-with-the-institute",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is life at NIT Meghalaya? How is your experience with the institute?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'I couldn't stop myself from writing this answer. Whenever I find the questions related to my college I feel very amazing. I have spent one of the best parts of my life here in this institute and most probably I won't get that kind of life again. There are ample of memories [made here].'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Meghalaya",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-life-at-NIT-Meghalaya",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is life at NIT Meghalaya?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Meghalaya is a decent institute as far as studies are concerned. You will have ample chance to study and learn new stuff; being a new institute you get a lot of stuff and initiatives to be done and handled single-handedly, which gives another chance not only to learn and show[case skills]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Meghalaya",
+          "source": "Careers360",
+          "source_type": "discussion",
+          "source_url": "https://www.careers360.com/question-is-nitm-good-tell-me-about-its-placement/amp",
+          "source_review_id": null,
+          "author_display_name": "G Rakesh",
+          "review_title": "Is NITM good? Tell me about its placement?",
+          "review_date": "2019-05-30",
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This answer explicitly relays a review 'given by a student of NITM,' i.e., is itself a secondhand relay of another (unnamed) student's account rather than the answerer's own direct first-person experience.",
+          "aspect_evidence": [
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Being a MeghNITe, it was always a cutting edge for me in interviews and people used to literally appreciate the exposure I had even from being a remote located college of India (though it was not pretty different to what a normal NITian would have had in other NIT).'"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 13,
+        "independent_sources": 4,
+        "reviews_with_dates": 1,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 13
+      },
+
+      "limitations": [
+        "Reddit: targeted searches for NIT Meghalaya/NITM specifically on Reddit did not surface genuine reddit.com-hosted threads in this session, despite an explicit dedicated search attempt; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "One secondary source (CollegeDekho) contained a factual error describing NIT Meghalaya as a 'private college' — this is incorrect, since it is a public, centrally-funded government institution under the NIT Act. This erroneous claim was identified and excluded from the extraction rather than propagated.",
+        "A recurring, well-corroborated theme across at least four independent sources (Shiksha x2, Collegedunia x2, Careers360) is the logistical burden of hostels being geographically scattered across Shillong city, separate from the temporary academic campus, requiring bus transport and adding meaningful daily commute time — this is presented as a structural characteristic rather than a subjective complaint from any single source.",
+        "Placement sentiment shows genuine year-to-year variation: some reviews describe very strong outcomes (100% placement rate, high packages), while at least one more recent-seeming review describes a multi-year placement downturn ('very average, or even below average, for the last two to three years') — both are preserved independently rather than reconciled.",
+        "The CollegeSearch aggregate (4.1/5) is based on only 7 verified reviews — an extremely small sample explicitly flagged for low confidence.",
+        "Aggregate ratings vary modestly across platforms (Shiksha 3.8/5, Careers360 4.0/5, CollegeSearch 4.1/5) but are broadly consistent with each other, unlike the wider divergence seen for some other institutions in this dataset (e.g., NIT Uttarakhand).",
+        "Only one review in this extraction batch carried an explicit visible date (2019); reviews_last_24_months is 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~60+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

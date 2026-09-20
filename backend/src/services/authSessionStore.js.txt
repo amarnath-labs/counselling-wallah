@@ -1,0 +1,279 @@
+import crypto from 'node:crypto';
+
+import {
+  redisCommand,
+  redisEnabled,
+} from './redisCache.js';
+
+
+/*
+|--------------------------------------------------------------------------
+| REDIS AUTH SESSION STORE
+|--------------------------------------------------------------------------
+|
+| JWT remains inside the HTTP-only cookie.
+|
+| Redis stores a small session marker:
+|
+| cw:auth:session:v1:<session-id>
+|
+| Benefits:
+|
+| - Works across Backend 1 / Backend 2 / Backend 3
+| - Logout becomes globally effective
+| - JWT can be revoked before expiry
+|
+|--------------------------------------------------------------------------
+*/
+
+const SESSION_PREFIX =
+  'cw:auth:session:v1:';
+
+
+const DEFAULT_SESSION_TTL_SECONDS =
+  7 * 24 * 60 * 60;
+
+
+/*
+|--------------------------------------------------------------------------
+| SESSION KEY
+|--------------------------------------------------------------------------
+*/
+
+function buildSessionKey(
+  sessionId
+) {
+  return (
+    SESSION_PREFIX +
+    String(
+      sessionId || ''
+    )
+  );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| CREATE RANDOM SESSION ID
+|--------------------------------------------------------------------------
+*/
+
+export function createSessionId() {
+  return crypto
+    .randomBytes(32)
+    .toString('hex');
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| CREATE SESSION
+|--------------------------------------------------------------------------
+*/
+
+export async function createAuthSession({
+  sessionId,
+  userId,
+  ttlSeconds =
+    DEFAULT_SESSION_TTL_SECONDS,
+}) {
+
+  if (!sessionId) {
+    throw new Error(
+      'sessionId is required'
+    );
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Local/development fallback
+  |--------------------------------------------------------------------------
+  |
+  | JWT auth still works when Redis is intentionally disabled.
+  |
+  |--------------------------------------------------------------------------
+  */
+
+  if (!redisEnabled()) {
+    return true;
+  }
+
+
+  const ttl =
+    Math.max(
+      60,
+      Math.floor(
+        Number(ttlSeconds) ||
+        DEFAULT_SESSION_TTL_SECONDS
+      )
+    );
+
+
+  const payload =
+    JSON.stringify({
+      userId:
+        String(userId),
+
+      createdAt:
+        new Date()
+          .toISOString(),
+    });
+
+
+  const result =
+    await redisCommand([
+      'SET',
+
+      buildSessionKey(
+        sessionId
+      ),
+
+      payload,
+
+      'EX',
+
+      ttl,
+    ]);
+
+
+  return result === 'OK';
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| CHECK SESSION
+|--------------------------------------------------------------------------
+*/
+
+export async function authSessionExists(
+  sessionId
+) {
+
+  if (!sessionId) {
+    return false;
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Redis disabled
+  |--------------------------------------------------------------------------
+  |
+  | Preserve JWT-only development behaviour.
+  |
+  |--------------------------------------------------------------------------
+  */
+
+  if (!redisEnabled()) {
+    return true;
+  }
+
+
+  const value =
+    await redisCommand([
+      'GET',
+
+      buildSessionKey(
+        sessionId
+      ),
+    ]);
+
+
+  return (
+    typeof value ===
+      'string' &&
+    value.length > 0
+  );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| REFRESH SESSION TTL
+|--------------------------------------------------------------------------
+*/
+
+export async function refreshAuthSession(
+  sessionId,
+  ttlSeconds =
+    DEFAULT_SESSION_TTL_SECONDS
+) {
+
+  if (
+    !sessionId ||
+    !redisEnabled()
+  ) {
+    return true;
+  }
+
+
+  const ttl =
+    Math.max(
+      60,
+      Math.floor(
+        Number(ttlSeconds) ||
+        DEFAULT_SESSION_TTL_SECONDS
+      )
+    );
+
+
+  const result =
+    await redisCommand([
+      'EXPIRE',
+
+      buildSessionKey(
+        sessionId
+      ),
+
+      ttl,
+    ]);
+
+
+  return Number(result) === 1;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| REVOKE SESSION
+|--------------------------------------------------------------------------
+*/
+
+export async function revokeAuthSession(
+  sessionId
+) {
+
+  if (!sessionId) {
+    return true;
+  }
+
+
+  if (!redisEnabled()) {
+    return true;
+  }
+
+
+  await redisCommand([
+    'DEL',
+
+    buildSessionKey(
+      sessionId
+    ),
+  ]);
+
+
+  return true;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| EXPORT HELPERS
+|--------------------------------------------------------------------------
+*/
+
+export function authSessionStoreEnabled() {
+  return redisEnabled();
+}

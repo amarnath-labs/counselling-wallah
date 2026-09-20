@@ -1,0 +1,95 @@
+diff --git a/backend/src/server.js b/backend/src/server.js
+index c686f74..d3136ee 100644
+--- a/backend/src/server.js
++++ b/backend/src/server.js
+@@ -18,6 +21,12 @@ import cwRecV1DevRouter from './routes/cwRecV1-dev.js';
+ import paymentsRouter from './routes/payments.js';
+ import feedbackRouter from './routes/feedback.js';
+ 
++import careerAssessmentRouter
++  from './routes/careerAssessment.js';
++
++import careerAssessmentV2Router
++  from './routes/careerAssessmentV2.js';
++
+ 
+ const app = express();
+ 
+@@ -650,12 +629,77 @@ app.use(
+   paymentsRouter
+ );
+ 
++
++/*
++|--------------------------------------------------------------------------
++| FEEDBACK
++|--------------------------------------------------------------------------
++*/
++
+ app.use(
+   '/api/feedback',
+   feedbackRouter
+ );
+ 
+ 
++/*
++|--------------------------------------------------------------------------
++| CAREER DISCOVERY
++|--------------------------------------------------------------------------
++|
++| V2:
++|
++| POST
++| /api/career/assessment/start
++|
++| POST
++| /api/career/assessment/:id/answer
++|
++| GET
++| /api/career/assessment/:id/report
++|
++| Legacy compatibility:
++|
++| POST
++| /api/career/assessment/next-question
++|
++| POST
++| /api/career/assessment/debug-candidates
++|
++|--------------------------------------------------------------------------
++*/
++
++
++/*
++|--------------------------------------------------------------------------
++| CAREER V2
++|--------------------------------------------------------------------------
++|
++| V2 mounted FIRST.
++|--------------------------------------------------------------------------
++*/
++
++app.use(
++  '/api/career',
++  careerAssessmentV2Router
++);
++
++
++/*
++|--------------------------------------------------------------------------
++| CAREER LEGACY
++|--------------------------------------------------------------------------
++|
++| Keeps existing adaptive frontend/API tests working.
++|--------------------------------------------------------------------------
++*/
++
++app.use(
++  '/api/career',
++  careerAssessmentRouter
++);
++
++
+ /*
+ |--------------------------------------------------------------------------
+ | 404

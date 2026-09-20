@@ -915,7 +915,7 @@ function LockedRecommendation({
       </div>
 
       <div className="rec-locked__icon">
-        🔒
+        ðŸ”’
       </div>
 
       <h2>
@@ -1004,7 +1004,7 @@ function LockedRecommendation({
         }
       >
         {isLoggedIn
-          ? 'Unlock Recommendation ₹99'
+          ? 'Unlock Recommendation â‚¹99'
           : 'Login to Unlock'}
       </button>
     </section>
@@ -1277,7 +1277,7 @@ function ReviewEvidenceCard({
             1.65,
         }}
       >
-        “{evidence.text}”
+        â€œ{evidence.text}â€
       </p>
 
       <div
@@ -1314,7 +1314,7 @@ function ReviewEvidenceCard({
 
         {evidence?.branch && (
           <>
-            <span>·</span>
+            <span>Â·</span>
 
             <span>
               {evidence.branch}
@@ -1324,7 +1324,7 @@ function ReviewEvidenceCard({
 
         {date && (
           <>
-            <span>·</span>
+            <span>Â·</span>
 
             <span>
               {date}
@@ -1335,7 +1335,7 @@ function ReviewEvidenceCard({
         {evidence
           ?.evidenceStrength && (
           <>
-            <span>·</span>
+            <span>Â·</span>
 
             <span>
               {String(
@@ -1351,7 +1351,7 @@ function ReviewEvidenceCard({
 
         {evidence?.sourceUrl && (
           <>
-            <span>·</span>
+            <span>Â·</span>
 
             <a
               href={
@@ -2219,12 +2219,13 @@ function RecommendationCard({
 
 
   const admission =
-    premium
-      ?.admissionBucket
-      ?.label ||
-    premium
-      ?.admissionBucket ||
     row?.bucket ||
+    row?.admission?.bucket ||
+    row?.admission?.label ||
+    row?.historicalFit?.bucket ||
+    row?.historicalFit?.label ||
+    premium?.admissionBucket?.label ||
+    premium?.admissionBucket ||
     'Admission fit';
 
 
@@ -2452,7 +2453,7 @@ function RecommendationCard({
                         index
                       }
                     >
-                      ✓ {reason}
+                      âœ“ {reason}
                     </p>
                   )
                 )

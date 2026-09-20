@@ -1,0 +1,57 @@
+[
+  {
+    "college_id": "assam-university-silchar",
+    "college_name": "Assam University, Silchar",
+    "academic_year": 0,
+    "original_status": "SOURCE_FOUND_REVIEW_YEAR",
+    "source_url": "https://www.aus.ac.in/wp-content/uploads/2023/07/corrigendum-tssot-fees.pdf",
+    "batch_status": "REVIEW_REQUIRED",
+    "review_reasons": [
+      "Source fetch/extraction failed: self-signed certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    ]
+  },
+  {
+    "college_id": "uptac-babu-banarasi-das-northern-india-institute-of-technology-lucknow",
+    "college_name": "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY,LUCKNOW",
+    "academic_year": 2023,
+    "original_status": "OUTDATED_SOURCE",
+    "source_url": "https://bbdniit.ac.in/wp-content/uploads/2022/05/bbdniit-fee-structure-23-24-.pdf",
+    "final_url": "https://bbdniit.ac.in/wp-content/uploads/2022/05/bbdniit-fee-structure-23-24-.pdf",
+    "source_type": "official_pdf",
+    "content_type": "application/pdf",
+    "source_score": 0,
+    "detected_years": [],
+    "signals": {
+      "btech": false,
+      "tuition": false,
+      "total_fee": false,
+      "registration": false,
+      "admission": false,
+      "hostel": false,
+      "mess": false,
+      "caution": false
+    },
+    "branch_specific_detected": false,
+    "text_characters": 77,
+    "line_count": 6,
+    "batch_status": "REVIEW_REQUIRED",
+    "review_reasons": [
+      "B.Tech not clearly detected in source.",
+      "Tuition/total fee not clearly detected.",
+      "Requested academic year 2023 not detected in source."
+    ],
+    "extracted": {
+      "text": "-- 1 of 6 -- -- 2 of 6 -- -- 3 of 6 -- -- 4 of 6 -- -- 5 of 6 -- -- 6 of 6 --",
+      "raw_text": "\n\n-- 1 of 6 --\n\n\n\n-- 2 of 6 --\n\n\n\n-- 3 of 6 --\n\n\n\n-- 4 of 6 --\n\n\n\n-- 5 of 6 --\n\n\n\n-- 6 of 6 --\n\n",
+      "lines": [
+        "-- 1 of 6 --",
+        "-- 2 of 6 --",
+        "-- 3 of 6 --",
+        "-- 4 of 6 --",
+        "-- 5 of 6 --",
+        "-- 6 of 6 --"
+      ],
+      "tables": []
+    }
+  }
+]

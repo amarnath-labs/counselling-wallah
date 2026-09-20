@@ -1,0 +1,4007 @@
+{
+  "generatedAt": "2026-09-13T15:53:43.406Z",
+  "readOnly": true,
+  "rounds": {
+    "1": {
+      "instituteTypes": [
+        {
+          "value": "0",
+          "text": "--Select--",
+          "selected": true
+        },
+        {
+          "value": "ALL",
+          "text": "ALL",
+          "selected": false
+        },
+        {
+          "value": "CFI",
+          "text": "Government Funded Technical Institutions",
+          "selected": false
+        },
+        {
+          "value": "3IT",
+          "text": "Indian Institute of Information Technology",
+          "selected": false
+        },
+        {
+          "value": "NIT",
+          "text": "National Institute of Technology",
+          "selected": false
+        }
+      ],
+      "institutes": [
+        {
+          "value": "0",
+          "text": "--Select--",
+          "selected": true
+        },
+        {
+          "value": "ALL",
+          "text": "ALL",
+          "selected": false
+        },
+        {
+          "value": "201",
+          "text": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+          "selected": false
+        },
+        {
+          "value": "202",
+          "text": "Malaviya National Institute of Technology Jaipur",
+          "selected": false
+        },
+        {
+          "value": "203",
+          "text": "Maulana Azad National Institute of Technology Bhopal",
+          "selected": false
+        },
+        {
+          "value": "204",
+          "text": "Motilal Nehru National Institute of Technology Allahabad",
+          "selected": false
+        },
+        {
+          "value": "205",
+          "text": "National Institute of Technology Agartala",
+          "selected": false
+        },
+        {
+          "value": "206",
+          "text": "National Institute of Technology Calicut",
+          "selected": false
+        },
+        {
+          "value": "207",
+          "text": "National Institute of Technology Delhi",
+          "selected": false
+        },
+        {
+          "value": "208",
+          "text": "National Institute of Technology Durgapur",
+          "selected": false
+        },
+        {
+          "value": "209",
+          "text": "National Institute of Technology Goa",
+          "selected": false
+        },
+        {
+          "value": "210",
+          "text": "National Institute of Technology Hamirpur",
+          "selected": false
+        },
+        {
+          "value": "211",
+          "text": "National Institute of Technology Karnataka, Surathkal",
+          "selected": false
+        },
+        {
+          "value": "212",
+          "text": "National Institute of Technology Meghalaya",
+          "selected": false
+        },
+        {
+          "value": "213",
+          "text": "National Institute of Technology Nagaland",
+          "selected": false
+        },
+        {
+          "value": "214",
+          "text": "National Institute of Technology Patna",
+          "selected": false
+        },
+        {
+          "value": "215",
+          "text": "National Institute of Technology Puducherry",
+          "selected": false
+        },
+        {
+          "value": "216",
+          "text": "National Institute of Technology Raipur",
+          "selected": false
+        },
+        {
+          "value": "217",
+          "text": "National Institute of Technology Sikkim",
+          "selected": false
+        },
+        {
+          "value": "218",
+          "text": "National Institute of Technology Arunachal Pradesh",
+          "selected": false
+        },
+        {
+          "value": "219",
+          "text": "National Institute of Technology, Jamshedpur",
+          "selected": false
+        },
+        {
+          "value": "220",
+          "text": "National Institute of Technology, Kurukshetra",
+          "selected": false
+        },
+        {
+          "value": "221",
+          "text": "National Institute of Technology, Manipur",
+          "selected": false
+        },
+        {
+          "value": "222",
+          "text": "National Institute of Technology, Mizoram",
+          "selected": false
+        },
+        {
+          "value": "223",
+          "text": "National Institute of Technology, Rourkela",
+          "selected": false
+        },
+        {
+          "value": "224",
+          "text": "National Institute of Technology, Silchar",
+          "selected": false
+        },
+        {
+          "value": "225",
+          "text": "National Institute of Technology, Srinagar",
+          "selected": false
+        },
+        {
+          "value": "226",
+          "text": "National Institute of Technology, Tiruchirappalli",
+          "selected": false
+        },
+        {
+          "value": "227",
+          "text": "National Institute of Technology, Uttarakhand",
+          "selected": false
+        },
+        {
+          "value": "228",
+          "text": "National Institute of Technology, Warangal",
+          "selected": false
+        },
+        {
+          "value": "229",
+          "text": "Sardar Vallabhbhai National Institute of Technology, Surat",
+          "selected": false
+        },
+        {
+          "value": "230",
+          "text": "Visvesvaraya National Institute of Technology, Nagpur",
+          "selected": false
+        },
+        {
+          "value": "231",
+          "text": "National Institute of Technology, Andhra Pradesh",
+          "selected": false
+        },
+        {
+          "value": "232",
+          "text": "Indian Institute of Engineering Science and Technology, Shibpur",
+          "selected": false
+        },
+        {
+          "value": "301",
+          "text": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+          "selected": false
+        },
+        {
+          "value": "302",
+          "text": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
+          "selected": false
+        },
+        {
+          "value": "303",
+          "text": "Indian Institute of Information Technology Guwahati",
+          "selected": false
+        },
+        {
+          "value": "304",
+          "text": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
+          "selected": false
+        },
+        {
+          "value": "305",
+          "text": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+          "selected": false
+        },
+        {
+          "value": "306",
+          "text": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+          "selected": false
+        },
+        {
+          "value": "307",
+          "text": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
+          "selected": false
+        },
+        {
+          "value": "308",
+          "text": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+          "selected": false
+        },
+        {
+          "value": "309",
+          "text": "Indian Institute of Information Technology, Allahabad",
+          "selected": false
+        },
+        {
+          "value": "310",
+          "text": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+          "selected": false
+        },
+        {
+          "value": "311",
+          "text": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+          "selected": false
+        },
+        {
+          "value": "313",
+          "text": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR",
+          "selected": false
+        },
+        {
+          "value": "314",
+          "text": "Indian Institute of Information Technology Tiruchirappalli",
+          "selected": false
+        },
+        {
+          "value": "315",
+          "text": "Indian Institute of Information Technology Lucknow",
+          "selected": false
+        },
+        {
+          "value": "316",
+          "text": "Indian Institute of Information Technology(IIIT) Dharwad",
+          "selected": false
+        },
+        {
+          "value": "317",
+          "text": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
+          "selected": false
+        },
+        {
+          "value": "318",
+          "text": "Indian Institute of Information Technology(IIIT) Kottayam",
+          "selected": false
+        },
+        {
+          "value": "319",
+          "text": "Indian Institute of Information Technology (IIIT) Ranchi",
+          "selected": false
+        },
+        {
+          "value": "320",
+          "text": "Indian Institute of Information Technology (IIIT) Nagpur",
+          "selected": false
+        },
+        {
+          "value": "321",
+          "text": "Indian Institute of Information Technology (IIIT) Pune",
+          "selected": false
+        },
+        {
+          "value": "322",
+          "text": "Indian Institute of Information Technology Bhagalpur",
+          "selected": false
+        },
+        {
+          "value": "323",
+          "text": "Indian Institute of Information Technology Bhopal",
+          "selected": false
+        },
+        {
+          "value": "324",
+          "text": "Indian Institute of Information Technology Surat",
+          "selected": false
+        },
+        {
+          "value": "325",
+          "text": "Indian Institute of Information Technology, Agartala",
+          "selected": false
+        },
+        {
+          "value": "326",
+          "text": "Indian institute of information technology, Raichur, Karnataka",
+          "selected": false
+        },
+        {
+          "value": "327",
+          "text": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+          "selected": false
+        },
+        {
+          "value": "401",
+          "text": "Assam University, Silchar",
+          "selected": false
+        },
+        {
+          "value": "402",
+          "text": "Birla Institute of Technology, Mesra, Ranchi",
+          "selected": false
+        },
+        {
+          "value": "403",
+          "text": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+          "selected": false
+        },
+        {
+          "value": "404",
+          "text": "Indian Institute of Carpet Technology, Bhadohi",
+          "selected": false
+        },
+        {
+          "value": "405",
+          "text": "Institute of Infrastructure, Technology, Research and Management-Ahmedabad",
+          "selected": false
+        },
+        {
+          "value": "406",
+          "text": "School of Studies of Engineering and Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur",
+          "selected": false
+        },
+        {
+          "value": "407",
+          "text": "J.K. Institute of Applied Physics & Technology, Department of Electronics & Communication, University of Allahabad- Allahabad",
+          "selected": false
+        },
+        {
+          "value": "408",
+          "text": "National Institute of Electronics and Information Technology, Aurangabad (Maharashtra)",
+          "selected": false
+        },
+        {
+          "value": "409",
+          "text": "National Institute of Advanced Manufacturing Technology, Ranchi",
+          "selected": false
+        },
+        {
+          "value": "410",
+          "text": "Sant Longowal Institute of Engineering and Technology",
+          "selected": false
+        },
+        {
+          "value": "411",
+          "text": "Mizoram University, Aizawl",
+          "selected": false
+        },
+        {
+          "value": "412",
+          "text": "School of Engineering, Tezpur University, Napaam, Tezpur",
+          "selected": false
+        },
+        {
+          "value": "413",
+          "text": "School of Planning & Architecture, Bhopal",
+          "selected": false
+        },
+        {
+          "value": "414",
+          "text": "School of Planning & Architecture, New Delhi",
+          "selected": false
+        },
+        {
+          "value": "415",
+          "text": "School of Planning & Architecture: Vijayawada",
+          "selected": false
+        },
+        {
+          "value": "416",
+          "text": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+          "selected": false
+        },
+        {
+          "value": "420",
+          "text": "International Institute of Information Technology, Naya Raipur",
+          "selected": false
+        },
+        {
+          "value": "421",
+          "text": "University of Hyderabad",
+          "selected": false
+        },
+        {
+          "value": "422",
+          "text": "Punjab Engineering College, Chandigarh",
+          "selected": false
+        },
+        {
+          "value": "423",
+          "text": "Jawaharlal Nehru University, Delhi",
+          "selected": false
+        },
+        {
+          "value": "424",
+          "text": "International Institute of Information Technology, Bhubaneswar",
+          "selected": false
+        },
+        {
+          "value": "425",
+          "text": "Central institute of Technology Kokrajar, Assam",
+          "selected": false
+        },
+        {
+          "value": "426",
+          "text": "Puducherry Technological University, Puducherry",
+          "selected": false
+        },
+        {
+          "value": "427",
+          "text": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
+          "selected": false
+        },
+        {
+          "value": "428",
+          "text": "Central University of Rajasthan, Rajasthan",
+          "selected": false
+        },
+        {
+          "value": "430",
+          "text": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+          "selected": false
+        },
+        {
+          "value": "431",
+          "text": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+          "selected": false
+        },
+        {
+          "value": "432",
+          "text": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+          "selected": false
+        },
+        {
+          "value": "433",
+          "text": "Indian Institute of Handloom Technology(IIHT), Varanasi",
+          "selected": false
+        },
+        {
+          "value": "434",
+          "text": "Chhattisgarh Swami Vivekanada Technical University, Bhilai (CSVTU Bhilai)",
+          "selected": false
+        },
+        {
+          "value": "435",
+          "text": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+          "selected": false
+        },
+        {
+          "value": "436",
+          "text": "North-Eastern Hill University, Shillong",
+          "selected": false
+        },
+        {
+          "value": "437",
+          "text": "Central University of Jammu",
+          "selected": false
+        },
+        {
+          "value": "438",
+          "text": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)",
+          "selected": false
+        },
+        {
+          "value": "439",
+          "text": "Central University of Haryana",
+          "selected": false
+        },
+        {
+          "value": "440",
+          "text": "Birla Institute of Technology, Deoghar Off-Campus",
+          "selected": false
+        },
+        {
+          "value": "441",
+          "text": "Birla Institute of Technology, Patna Off-Campus",
+          "selected": false
+        },
+        {
+          "value": "442",
+          "text": "Indian Institute of Handloom Technology, Salem",
+          "selected": false
+        },
+        {
+          "value": "443",
+          "text": "Gati Shakti Vishwavidyalaya, Vadodara",
+          "selected": false
+        },
+        {
+          "value": "444",
+          "text": "CU Jharkhand",
+          "selected": false
+        },
+        {
+          "value": "445",
+          "text": "National Institute of Electronics and Information Technology, Ropar (Punjab)",
+          "selected": false
+        },
+        {
+          "value": "446",
+          "text": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+          "selected": false
+        },
+        {
+          "value": "447",
+          "text": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)",
+          "selected": false
+        },
+        {
+          "value": "448",
+          "text": "National Institute of Electronics and Information Technology, Gorakhpur (UP)",
+          "selected": false
+        },
+        {
+          "value": "449",
+          "text": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)",
+          "selected": false
+        },
+        {
+          "value": "450",
+          "text": "Islamic University of Science and Technology Kashmir",
+          "selected": false
+        },
+        {
+          "value": "451",
+          "text": "Shri G. S. Institute of Technology and Science Indore",
+          "selected": false
+        },
+        {
+          "value": "452",
+          "text": "National Institute of Technical Teachers Training and Research Bhopal",
+          "selected": false
+        },
+        {
+          "value": "453",
+          "text": "Central University of Karnataka",
+          "selected": false
+        },
+        {
+          "value": "454",
+          "text": "National Institute of Electronics and Information Technology, Agartala",
+          "selected": false
+        },
+        {
+          "value": "455",
+          "text": "National Institute of Electronics and Information Technology, Aizawl",
+          "selected": false
+        },
+        {
+          "value": "456",
+          "text": "National Institute of Electronics and Information Technology, Imphal",
+          "selected": false
+        },
+        {
+          "value": "457",
+          "text": "National Institute of Electronics and Information Technology, Calicut",
+          "selected": false
+        },
+        {
+          "value": "458",
+          "text": "National Institute of Electronics and Information Technology, Kohima",
+          "selected": false
+        },
+        {
+          "value": "459",
+          "text": "National Institute of Electronics and Information Technology, Srinagar",
+          "selected": false
+        },
+        {
+          "value": "460",
+          "text": "Central University of Punjab, Bathinda",
+          "selected": false
+        },
+        {
+          "value": "462",
+          "text": "Delhi Technological University, Delhi",
+          "selected": false
+        },
+        {
+          "value": "467",
+          "text": "Indian Maritime University - Kolkata Campus",
+          "selected": false
+        },
+        {
+          "value": "472",
+          "text": "Netaji Subhas University of Technology, Delhi",
+          "selected": false
+        },
+        {
+          "value": "475",
+          "text": "Indira Gandhi Delhi Technical University for Women, New Delhi",
+          "selected": false
+        },
+        {
+          "value": "476",
+          "text": "Manipal Institute of Technology, Manipal",
+          "selected": false
+        }
+      ],
+      "branches": [
+        {
+          "value": "0",
+          "text": "--Select--",
+          "selected": false
+        },
+        {
+          "value": "ALL",
+          "text": "ALL",
+          "selected": false
+        },
+        {
+          "value": "4100",
+          "text": "Aerospace Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4101",
+          "text": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4104",
+          "text": "Bio Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4105",
+          "text": "Biotechnology and Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4106",
+          "text": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4107",
+          "text": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4108",
+          "text": "Chemical Science and Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4109",
+          "text": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410B",
+          "text": "Industrial Chemistry (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410C",
+          "text": "Computer Science and Business (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410E",
+          "text": "Computer Science Engineering (Artificial lntelligence and Machine Learning) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410F",
+          "text": "Computer Science Engineering (Data Science and Analytics) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410G",
+          "text": "Computer Science Engineering (Human Computer lnteraction and Gaming Technology) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410H",
+          "text": "Electronics and Communication Engineering (Internet of Things) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410I",
+          "text": "Electronics and Communication Engineering (Avionics) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410J",
+          "text": "Computer Science and Engineering (Cyber Security) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410M",
+          "text": "Electronics and Communication Engineering with specialization in VLSI and Embedded Systems (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410P",
+          "text": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410Q",
+          "text": "Computational and Data Science (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410R",
+          "text": "Computer Science and Engineering with specialization in Artificial Intelligence and Data Science (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410S",
+          "text": "Bio Technology for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410V",
+          "text": "Electronics and VLSI Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410W",
+          "text": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410X",
+          "text": "Civil and Environmental Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410Z",
+          "text": "Electronics and Communication Engineering (VLSI Design and Technology) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4110",
+          "text": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4111",
+          "text": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4114",
+          "text": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4117",
+          "text": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411A",
+          "text": "Printing and Packaging Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411B",
+          "text": "Mechatronics and Automation Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411C",
+          "text": "Industrial Internet of Things (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411F",
+          "text": "B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411G",
+          "text": "Artificial Intelligence and Data Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411H",
+          "text": "Electronics Engineering (VLSI Design and Technology) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411J",
+          "text": "Computer Science & Engineering (Data Science and Analytics) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411M",
+          "text": "Mathematics and Scientific Computing (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411O",
+          "text": "Aeronautical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411P",
+          "text": "Dairy Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411Q",
+          "text": "Fashion and Apparel Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411R",
+          "text": "B.Tech in Electronics & Communication Engineering (Rail Engineering) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411S",
+          "text": "B.Tech in Electrical Engineering ( Rail Engineering) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411T",
+          "text": "B.Tech in Mechanical Engineering ( Rail Engineering) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411U",
+          "text": "B.Tech in Civil Engineering (Rail Engineering) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411V",
+          "text": "B.Tech in Artificial Intelligenece and Data Science (Transportation and Logistics) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411W",
+          "text": "B.Tech in Aviation Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411Y",
+          "text": "Computer Science and Engineering (Cyber Physical System) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411Z",
+          "text": "VLSI Design and Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4121",
+          "text": "Instrumentation Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4123",
+          "text": "Materials Science and Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4124",
+          "text": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4125",
+          "text": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4127",
+          "text": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412A",
+          "text": "ROBOTICS & AUTOMATION (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412B",
+          "text": "Microelectronics & VLSI Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412D",
+          "text": "SUSTAINABLE ENERGY TECHNOLOGIES (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412E",
+          "text": "Computer Science and Engineering (Data Science) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412F",
+          "text": "Computer Science and Engineering ( Artificial Intelligence & Data Science) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412G",
+          "text": "Computer Science and Engineering (Artificial Intelligence) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412H",
+          "text": "Materials Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412K",
+          "text": "Electronic Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412X",
+          "text": "Energy and Electrical Vehicle Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412Y",
+          "text": "Robotics and AI (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4130",
+          "text": "Mining Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4136",
+          "text": "Production and Industrial Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4139",
+          "text": "Textile Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413C",
+          "text": "Design Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413D",
+          "text": "Physics and Computational Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413F",
+          "text": "Animation and VFX (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413G",
+          "text": "Electronics and Communication Engineering (VLSI Design) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413H",
+          "text": "Computer Science and Engineering with specialization in Quantum Technologies (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413J",
+          "text": "B.Tech in CSE (AI and ML) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413K",
+          "text": "Computer Science and Engineering (Internet of Things, Cyber Security including Block Chain Technology ) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413L",
+          "text": "Computer Science and Engineering with minor in AI and ML (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413M",
+          "text": "B. Tech in Electronics and Communication Engineering with minor in Wearable Electronics (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413N",
+          "text": "Electrical Engineering with E Mobility (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413O",
+          "text": "Electrical and Electronics Engineering (Electric Mobility) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413P",
+          "text": "Internet of Things (IoT) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413Q",
+          "text": "Digital Manufacturing and IoT (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413R",
+          "text": "Artificial Intelligence & Data Science - Aviation Systems (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413S",
+          "text": "Maritime Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413T",
+          "text": "Artificial Intelligence and Computing (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413U",
+          "text": "Applied and Computational Physics (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413V",
+          "text": "Electronics Communication and Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413W",
+          "text": "Cyber Security (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413X",
+          "text": "Microelectronics and VLSI Design (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413Y",
+          "text": "Chemical Technology (Bioprocess Technology) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413Z",
+          "text": "Computer Science and Engineering (Artificial Intelligence and Data Science) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4142",
+          "text": "Electronics and Instrumentation Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4144",
+          "text": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4145",
+          "text": "Production Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4146",
+          "text": "Information Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4148",
+          "text": "Instrumentation and Control Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4149",
+          "text": "Industrial and Production Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "414G",
+          "text": "Electronics and Communication Engineering (VLSI Design and Technology) for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "414H",
+          "text": "Computer Science and Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "414I",
+          "text": "Electrical Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "414L",
+          "text": "Electronics and Communication Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "414O",
+          "text": "Engineering Physics for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "414W",
+          "text": "Mathematics and Computing for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "414X",
+          "text": "Artificial Intelligence and Data Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4151",
+          "text": "Computer Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4152",
+          "text": "Bio Medical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4153",
+          "text": "Electronics and Telecommunication Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4155",
+          "text": "Industrial Design (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4156",
+          "text": "Metallurgy and Materials Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "415T",
+          "text": "Mathematics and Computing for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "415U",
+          "text": "Mechanical Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "415W",
+          "text": "Metallurgical and Materials Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4160",
+          "text": "Carpet and Textile Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4164",
+          "text": "Food Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4167",
+          "text": "Food Engineering and Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4168",
+          "text": "Agricultural Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4169",
+          "text": "Food Process Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "416D",
+          "text": "Computer Science and Engineering (Data Science) for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "416E",
+          "text": "Computer Science and Engineering ( Artificial Intelligence & Data Science) for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "416F",
+          "text": "Computer Science and Engineering (Artificial Intelligence) for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4174",
+          "text": "Electronics and Communication Engineering with specialization in Design and Manufacturing (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4175",
+          "text": "Mechanical Engineering with specialization in Design and Manufacturing (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4176",
+          "text": "Smart Manufacturing (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4178",
+          "text": "Mechatronics Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "417U",
+          "text": "Electronics and Instrumentation Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "417W",
+          "text": "Electrical and Electronics Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "417X",
+          "text": "Production Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "417Y",
+          "text": "Information Technology for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "417Z",
+          "text": "Instrumentation and Control Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4180",
+          "text": "Materials and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4181",
+          "text": "Data Science and Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4183",
+          "text": "Food Technology and Management (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4184",
+          "text": "Computer Science (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4185",
+          "text": "Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4186",
+          "text": "Information Technology-Business Informatics (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4187",
+          "text": "Data Science and Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4188",
+          "text": "Artificial Intelligence and Data Science (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "418D",
+          "text": "Bio Medical Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "418E",
+          "text": "Electronics and Telecommunication Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4190",
+          "text": "Computer Science and Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4191",
+          "text": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4192",
+          "text": "Engineering and Computational Mechanics (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4194",
+          "text": "Biosciences and Bioengineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4195",
+          "text": "Computer Science and Engineering with specialization in Cyber Security (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4196",
+          "text": "Computer Science and Engineering with Major in Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4197",
+          "text": "Handloom and Textile Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4198",
+          "text": "Energy Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "419K",
+          "text": "Artificial Intelligence for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "419L",
+          "text": "Information Technology-Business Informatics for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "419N",
+          "text": "Artificial Intelligence and Data Science for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "419R",
+          "text": "Engineering and Computational Mechanics for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "419S",
+          "text": "Chemical Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "419U",
+          "text": "Computer Science and Engineering with specialization in Cyber Security for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "419V",
+          "text": "Computer Science and Engineering with Major in Artificial Intelligence for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "419X",
+          "text": "Energy Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "419Z",
+          "text": "Aerospace Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41A2",
+          "text": "Bio Technology for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41A5",
+          "text": "Chemical Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41A7",
+          "text": "Civil Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AH",
+          "text": "Computer Science and Engineering (Cyber Security) for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AL",
+          "text": "Artificial Intelligence and Machine Learning for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AM",
+          "text": "Computational and Data Science for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AN",
+          "text": "Computer Science and Engineering with specialization in Artificial Intelligence and Data Science for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AQ",
+          "text": "Electronics and VLSI Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AR",
+          "text": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AU",
+          "text": "Electronics and Communication Engineering (VLSI Design and Technology) for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AV",
+          "text": "Computer Science and Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AW",
+          "text": "Electrical Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AY",
+          "text": "Electronics Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AZ",
+          "text": "Electronics and Communication Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41B2",
+          "text": "Engineering Physics for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41B4",
+          "text": "Environmental Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41BA",
+          "text": "Mathematics and Computing for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41BB",
+          "text": "Artificial Intelligence and Data Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41BC",
+          "text": "Electronics Engineering (VLSI Design and Technology) for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41BE",
+          "text": "Mathematics and Scientific Computing for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41BG",
+          "text": "Aeronautical Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41BR",
+          "text": "VLSI Design and Technology for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41BW",
+          "text": "Materials Science and Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41BX",
+          "text": "Mathematics and Computing for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41BY",
+          "text": "Mechanical Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41C0",
+          "text": "Metallurgical and Materials Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41C3",
+          "text": "Robotics & Automation for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41C4",
+          "text": "Microelectronics & VLSI Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41C7",
+          "text": "Computer Science and Engineering (Data Science) for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41C8",
+          "text": "Computer Science and Engineering ( Artificial Intelligence & Data Science) for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41C9",
+          "text": "Computer Science and Engineering (Artificial Intelligence) for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41CP",
+          "text": "Mining Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41CV",
+          "text": "Production and Industrial Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41D1",
+          "text": "Design Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41D5",
+          "text": "Electronics and Communication Engineering (VLSI Design) for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41DE",
+          "text": "Electronics and Instrumentation Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41DG",
+          "text": "Electrical and Electronics Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41DH",
+          "text": "Production Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41DI",
+          "text": "Information Technology for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41DJ",
+          "text": "Instrumentation and Control Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41DN",
+          "text": "Bio Medical Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41DQ",
+          "text": "Industrial Design for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41EB",
+          "text": "Smart Manufacturing for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41ED",
+          "text": "Mechatronics Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41EI",
+          "text": "Food Technology and Management for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41EK",
+          "text": "Artificial Intelligence for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41EL",
+          "text": "Information Technology-Business Informatics for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41EM",
+          "text": "Data Science and Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41EN",
+          "text": "Artificial Intelligence and Data Science for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41ER",
+          "text": "Engineering and Computational Mechanics for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41EU",
+          "text": "Computer Science and Engineering with specialization in Cyber Security for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41EV",
+          "text": "Computer Science and Engineering with Major in Artificial Intelligence for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41EX",
+          "text": "Energy Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41F0",
+          "text": "Civil Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41F2",
+          "text": "Electronics Engineering VLSI Design and Technology for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41F3",
+          "text": "Information Technology (Cyber Security) for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41F4",
+          "text": "Information Technology (Cyber Security) for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41F5",
+          "text": "Computational and Data Science for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FD",
+          "text": "Biotechnology for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FE",
+          "text": "Biotechnology for DASA- Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FF",
+          "text": "Computer Science & Engineering for DASA- CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FG",
+          "text": "Mechanical Engineering with Specilization in Automotive Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FI",
+          "text": "Computer Science & Engineering for DASA- Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FJ",
+          "text": "Software Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FK",
+          "text": "Information Technology for DASA- CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FL",
+          "text": "Information Technology for DASA- Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FM",
+          "text": "Electronics & Communication for DASA- CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FS",
+          "text": "Mechanical Engineering for DASA- Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FT",
+          "text": "Mechanical Engineering for DASA- CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FU",
+          "text": "Software Engineering for DASA- CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41GB",
+          "text": "Electronics and Communication Engineering – Artificial Intelligence for DASA- CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41GD",
+          "text": "Marine Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41GX",
+          "text": "Computer Science and Financial Technology for DASA- CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41GY",
+          "text": "Computer Science and Financial Technology for DASA- Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41Q4",
+          "text": "Electrical and Electronics Engineering (Electric Mobility) for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41Q5",
+          "text": "Electrical and Electronics Engineering (Electric Mobility) for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41Q8",
+          "text": "Chemical Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41R1",
+          "text": "Civil Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41S6",
+          "text": "Artificial Intelligence and Machine Learning for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41S8",
+          "text": "Computer Science and Engineering with specialization in Artificial Intelligence and Data Science for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41T2",
+          "text": "Electronics and VLSI Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4402",
+          "text": "Bachelor of Design (4 Years, Bachelor of Design)",
+          "selected": false
+        },
+        {
+          "value": "4501",
+          "text": "Planning (4 Years, Bachelor of Planning)",
+          "selected": false
+        },
+        {
+          "value": "455K",
+          "text": "Planning for DASA-CIWG (4 Years, Bachelor of Planning)",
+          "selected": false
+        },
+        {
+          "value": "4601",
+          "text": "Electronics and Communication Engineering (with Specialization of Embedded Systems and Internet of Things) (4 Years, B. Tech / B. Tech (Hons.))",
+          "selected": false
+        },
+        {
+          "value": "4602",
+          "text": "Computer Science and Engineering (with Specialization of Data Science and Artificial Intelligence) (4 Years, B. Tech / B. Tech (Hons.))",
+          "selected": false
+        },
+        {
+          "value": "4603",
+          "text": "Computer Science Engineering (Artificial Intelligence) (4 Years, B. Tech / B. Tech (Hons.))",
+          "selected": false
+        },
+        {
+          "value": "4604",
+          "text": "Computer Science Engineering (Data Science) (4 Years, B. Tech / B. Tech (Hons.))",
+          "selected": false
+        },
+        {
+          "value": "5101",
+          "text": "Architecture (5 Years, Bachelor of Architecture)",
+          "selected": false
+        },
+        {
+          "value": "515Q",
+          "text": "Architecture for DASA-Non CIWG (5 Years, Bachelor of Architecture)",
+          "selected": false
+        },
+        {
+          "value": "515T",
+          "text": "Architecture for DASA-CIWG (5 Years, Bachelor of Architecture)",
+          "selected": false
+        },
+        {
+          "value": "520F",
+          "text": "Mathematics and Data Science (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520G",
+          "text": "Computational Mathematics (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520H",
+          "text": "Computer Science and Engineering with Specialization in Data Science (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520I",
+          "text": "Computer Science and Engineering with Specialization in Cyber Security (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520J",
+          "text": "Electronics and Communication Engineering with Specialization in Microelectronics and VLSI System Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520K",
+          "text": "Electrical Engineering with Specialization In Power System Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520L",
+          "text": "Mechanical Engineering with Specialization in Manufacturing and Industrial Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520M",
+          "text": "Civil Engineering with Specialization in Construction Technology and Management (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520N",
+          "text": "Material Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520O",
+          "text": "Mathematics and Computing Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5210",
+          "text": "Chemical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5213",
+          "text": "Civil Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5216",
+          "text": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5217",
+          "text": "Electrical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "521Q",
+          "text": "B.Tech. in Electronics and Communication Engineering and M.Tech. in Communication Systems (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "521R",
+          "text": "Chemical Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "522S",
+          "text": "B. Tech. and M. Tech. in Engineering and Computational Mechanics (Dual Degree) (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5233",
+          "text": "Mechanical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5234",
+          "text": "Electronics and Communication Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "523T",
+          "text": "B.Tech. in Electronics and Communication Engineering and M.Tech. in Microelectronics and VLSI Systems (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "523U",
+          "text": "Artificial Intelligence and Data Science (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "523V",
+          "text": "Artificial Intelligence and Machine Learning (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5243",
+          "text": "Metallurgical and Materials Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5247",
+          "text": "Mining Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5257",
+          "text": "Chemical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5258",
+          "text": "Ceramic Engineering and M.Tech Industrial Ceramic (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5267",
+          "text": "Engineering Physics (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5280",
+          "text": "Information Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5296",
+          "text": "Biotechnology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "52AN",
+          "text": "B.Tech. in Electronics and Communication Engineering and M.Tech. in Microelectronics and VLSI Systems for DASA-Non CIWG (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "52BS",
+          "text": "Information Technology for DASA-Non CIWG (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "52CQ",
+          "text": "Mathematics and Data Science for DASA-CIWG (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "52CT",
+          "text": "Computer Science and Engineering with Specialization in Cyber Security for DASA-CIWG (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "52D0",
+          "text": "Chemical Engineering for DASA-CIWG (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "52D6",
+          "text": "Computer Science and Engineering for DASA-CIWG (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "52DB",
+          "text": "B.Tech. in Electronics and Communication Engineering and M.Tech. in Communication Systems for DASA-CIWG (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "52DS",
+          "text": "Electronics and Communication Engineering for DASA-CIWG (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "52DY",
+          "text": "B.Tech. in Electronics and Communication Engineering and M.Tech. in Microelectronics and VLSI Systems for DASA-CIWG (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "52E2",
+          "text": "Metallurgical and Materials Engineering for DASA-CIWG (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "52F3",
+          "text": "Information Technology for DASA-CIWG (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "52K1",
+          "text": "B. Tech. Information Technology-Business Informatics (IT- BIn) - Master of Business Administration (MBA) for DASA-Non CIWG (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "52K2",
+          "text": "B. Tech. Information Technology-Business Informatics (IT- BIn) - Master of Business Administration (MBA) for DASA-CIWG (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5313",
+          "text": "Materials Engineering (5 Years, Integrated Master of Technology)",
+          "selected": false
+        },
+        {
+          "value": "5314",
+          "text": "Computer Science and Engineering (5 Years, Integrated Master of Technology)",
+          "selected": false
+        },
+        {
+          "value": "53A3",
+          "text": "Materials Engineering for DASA-CIWG (5 Years, Integrated Master of Technology)",
+          "selected": false
+        },
+        {
+          "value": "53K1",
+          "text": "Computer Science and Engineering for DASA-CIWG (5 Years, Integrated Master of Technology)",
+          "selected": false
+        },
+        {
+          "value": "53K2",
+          "text": "Computer Science and Engineering for DASA-Non CIWG (5 Years, Integrated Master of Technology)",
+          "selected": false
+        },
+        {
+          "value": "5417",
+          "text": "B.Tech. (Civil Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5418",
+          "text": "B.Tech. (Computer Science and Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5419",
+          "text": "B.Tech. (Elctrical Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5420",
+          "text": "B.Tech. (Electronics and Communication Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5421",
+          "text": "B.Tech. (Food Engineering and Technology) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5422",
+          "text": "B.Tech. (Mechanical Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5424",
+          "text": "B. Tech. Information Technology-Business Informatics (IT- BIn) - Master of Business Administration (MBA) (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5501",
+          "text": "Applied Geology (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5503",
+          "text": "Chemistry (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5506",
+          "text": "Mathematics and Computing (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5507",
+          "text": "Physics (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5508",
+          "text": "Mathematics (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5509",
+          "text": "Life Science (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5511",
+          "text": "Quantitative Economics & Data Science (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "55AO",
+          "text": "Chemistry for DASA-CIWG (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "55AS",
+          "text": "Physics for DASA-CIWG (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "55AT",
+          "text": "Mathematics for DASA-CIWG (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5602",
+          "text": "Physics (5 Years, Bachelor of Science and Master of Science (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5604",
+          "text": "Chemistry (5 Years, Bachelor of Science and Master of Science (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5606",
+          "text": "Mathematics & Computing (5 Years, Bachelor of Science and Master of Science (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5A09",
+          "text": "B. Tech. (Mathematics & Computing) M. Tech. in (Mathematics & Computing) (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5A11",
+          "text": "B.Tech in Mechanical Engineering and M.Tech in AI and Robotics (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5AB8",
+          "text": "B. Tech. (Mathematics & Computing) M. Tech. in (Mathematics & Computing) for DASA-Non CIWG (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5ABJ",
+          "text": "B. Tech. (Mathematics & Computing) M. Tech. in (Mathematics & Computing) for DASA-CIWG (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5B01",
+          "text": "Integrated B. Tech.(IT) and M. Tech (IT) (5 Years, Integrated B. Tech. and M. Tech.)",
+          "selected": false
+        },
+        {
+          "value": "5B06",
+          "text": "Artificial Intelligence (5 Years, Integrated B. Tech. and M. Tech.)",
+          "selected": false
+        },
+        {
+          "value": "5BBC",
+          "text": "Integrated B. Tech.(IT) and M. Tech (IT) for DASA-CIWG (5 Years, Integrated B. Tech. and M. Tech.)",
+          "selected": false
+        },
+        {
+          "value": "5BBH",
+          "text": "Artificial Intelligence for DASA-CIWG (5 Years, Integrated B. Tech. and M. Tech.)",
+          "selected": false
+        },
+        {
+          "value": "5C01",
+          "text": "Integrated B. Tech.(IT) and MBA (5 Years, Integrated B. Tech. and MBA)",
+          "selected": false
+        },
+        {
+          "value": "5CBA",
+          "text": "Integrated B. Tech.(IT) and MBA for DASA-CIWG (5 Years, Integrated B. Tech. and MBA)",
+          "selected": false
+        },
+        {
+          "value": "5D01",
+          "text": "Chemical Engineering (5 Years, Integrated Masters in Technology)",
+          "selected": false
+        },
+        {
+          "value": "5H3C",
+          "text": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5H3D",
+          "text": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5H3E",
+          "text": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "selected": false
+        }
+      ]
+    },
+    "2": {
+      "instituteTypes": [
+        {
+          "value": "0",
+          "text": "--Select--",
+          "selected": true
+        },
+        {
+          "value": "ALL",
+          "text": "ALL",
+          "selected": false
+        },
+        {
+          "value": "CFI",
+          "text": "Government Funded Technical Institutions",
+          "selected": false
+        },
+        {
+          "value": "3IT",
+          "text": "Indian Institute of Information Technology",
+          "selected": false
+        },
+        {
+          "value": "NIT",
+          "text": "National Institute of Technology",
+          "selected": false
+        }
+      ],
+      "institutes": [
+        {
+          "value": "0",
+          "text": "--Select--",
+          "selected": true
+        },
+        {
+          "value": "ALL",
+          "text": "ALL",
+          "selected": false
+        },
+        {
+          "value": "201",
+          "text": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+          "selected": false
+        },
+        {
+          "value": "202",
+          "text": "Malaviya National Institute of Technology Jaipur",
+          "selected": false
+        },
+        {
+          "value": "203",
+          "text": "Maulana Azad National Institute of Technology Bhopal",
+          "selected": false
+        },
+        {
+          "value": "204",
+          "text": "Motilal Nehru National Institute of Technology Allahabad",
+          "selected": false
+        },
+        {
+          "value": "205",
+          "text": "National Institute of Technology Agartala",
+          "selected": false
+        },
+        {
+          "value": "206",
+          "text": "National Institute of Technology Calicut",
+          "selected": false
+        },
+        {
+          "value": "207",
+          "text": "National Institute of Technology Delhi",
+          "selected": false
+        },
+        {
+          "value": "208",
+          "text": "National Institute of Technology Durgapur",
+          "selected": false
+        },
+        {
+          "value": "209",
+          "text": "National Institute of Technology Goa",
+          "selected": false
+        },
+        {
+          "value": "210",
+          "text": "National Institute of Technology Hamirpur",
+          "selected": false
+        },
+        {
+          "value": "211",
+          "text": "National Institute of Technology Karnataka, Surathkal",
+          "selected": false
+        },
+        {
+          "value": "212",
+          "text": "National Institute of Technology Meghalaya",
+          "selected": false
+        },
+        {
+          "value": "213",
+          "text": "National Institute of Technology Nagaland",
+          "selected": false
+        },
+        {
+          "value": "214",
+          "text": "National Institute of Technology Patna",
+          "selected": false
+        },
+        {
+          "value": "215",
+          "text": "National Institute of Technology Puducherry",
+          "selected": false
+        },
+        {
+          "value": "216",
+          "text": "National Institute of Technology Raipur",
+          "selected": false
+        },
+        {
+          "value": "217",
+          "text": "National Institute of Technology Sikkim",
+          "selected": false
+        },
+        {
+          "value": "218",
+          "text": "National Institute of Technology Arunachal Pradesh",
+          "selected": false
+        },
+        {
+          "value": "219",
+          "text": "National Institute of Technology, Jamshedpur",
+          "selected": false
+        },
+        {
+          "value": "220",
+          "text": "National Institute of Technology, Kurukshetra",
+          "selected": false
+        },
+        {
+          "value": "221",
+          "text": "National Institute of Technology, Manipur",
+          "selected": false
+        },
+        {
+          "value": "222",
+          "text": "National Institute of Technology, Mizoram",
+          "selected": false
+        },
+        {
+          "value": "223",
+          "text": "National Institute of Technology, Rourkela",
+          "selected": false
+        },
+        {
+          "value": "224",
+          "text": "National Institute of Technology, Silchar",
+          "selected": false
+        },
+        {
+          "value": "225",
+          "text": "National Institute of Technology, Srinagar",
+          "selected": false
+        },
+        {
+          "value": "226",
+          "text": "National Institute of Technology, Tiruchirappalli",
+          "selected": false
+        },
+        {
+          "value": "227",
+          "text": "National Institute of Technology, Uttarakhand",
+          "selected": false
+        },
+        {
+          "value": "228",
+          "text": "National Institute of Technology, Warangal",
+          "selected": false
+        },
+        {
+          "value": "229",
+          "text": "Sardar Vallabhbhai National Institute of Technology, Surat",
+          "selected": false
+        },
+        {
+          "value": "230",
+          "text": "Visvesvaraya National Institute of Technology, Nagpur",
+          "selected": false
+        },
+        {
+          "value": "231",
+          "text": "National Institute of Technology, Andhra Pradesh",
+          "selected": false
+        },
+        {
+          "value": "232",
+          "text": "Indian Institute of Engineering Science and Technology, Shibpur",
+          "selected": false
+        },
+        {
+          "value": "301",
+          "text": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+          "selected": false
+        },
+        {
+          "value": "302",
+          "text": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
+          "selected": false
+        },
+        {
+          "value": "303",
+          "text": "Indian Institute of Information Technology Guwahati",
+          "selected": false
+        },
+        {
+          "value": "304",
+          "text": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
+          "selected": false
+        },
+        {
+          "value": "305",
+          "text": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+          "selected": false
+        },
+        {
+          "value": "306",
+          "text": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+          "selected": false
+        },
+        {
+          "value": "307",
+          "text": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
+          "selected": false
+        },
+        {
+          "value": "308",
+          "text": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+          "selected": false
+        },
+        {
+          "value": "309",
+          "text": "Indian Institute of Information Technology, Allahabad",
+          "selected": false
+        },
+        {
+          "value": "310",
+          "text": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+          "selected": false
+        },
+        {
+          "value": "311",
+          "text": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+          "selected": false
+        },
+        {
+          "value": "313",
+          "text": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR",
+          "selected": false
+        },
+        {
+          "value": "314",
+          "text": "Indian Institute of Information Technology Tiruchirappalli",
+          "selected": false
+        },
+        {
+          "value": "315",
+          "text": "Indian Institute of Information Technology Lucknow",
+          "selected": false
+        },
+        {
+          "value": "316",
+          "text": "Indian Institute of Information Technology(IIIT) Dharwad",
+          "selected": false
+        },
+        {
+          "value": "317",
+          "text": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
+          "selected": false
+        },
+        {
+          "value": "318",
+          "text": "Indian Institute of Information Technology(IIIT) Kottayam",
+          "selected": false
+        },
+        {
+          "value": "319",
+          "text": "Indian Institute of Information Technology (IIIT) Ranchi",
+          "selected": false
+        },
+        {
+          "value": "320",
+          "text": "Indian Institute of Information Technology (IIIT) Nagpur",
+          "selected": false
+        },
+        {
+          "value": "321",
+          "text": "Indian Institute of Information Technology (IIIT) Pune",
+          "selected": false
+        },
+        {
+          "value": "322",
+          "text": "Indian Institute of Information Technology Bhagalpur",
+          "selected": false
+        },
+        {
+          "value": "323",
+          "text": "Indian Institute of Information Technology Bhopal",
+          "selected": false
+        },
+        {
+          "value": "324",
+          "text": "Indian Institute of Information Technology Surat",
+          "selected": false
+        },
+        {
+          "value": "325",
+          "text": "Indian Institute of Information Technology, Agartala",
+          "selected": false
+        },
+        {
+          "value": "326",
+          "text": "Indian institute of information technology, Raichur, Karnataka",
+          "selected": false
+        },
+        {
+          "value": "327",
+          "text": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+          "selected": false
+        },
+        {
+          "value": "401",
+          "text": "Assam University, Silchar",
+          "selected": false
+        },
+        {
+          "value": "402",
+          "text": "Birla Institute of Technology, Mesra, Ranchi",
+          "selected": false
+        },
+        {
+          "value": "403",
+          "text": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+          "selected": false
+        },
+        {
+          "value": "404",
+          "text": "Indian Institute of Carpet Technology, Bhadohi",
+          "selected": false
+        },
+        {
+          "value": "405",
+          "text": "Institute of Infrastructure, Technology, Research and Management-Ahmedabad",
+          "selected": false
+        },
+        {
+          "value": "406",
+          "text": "School of Studies of Engineering and Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur",
+          "selected": false
+        },
+        {
+          "value": "407",
+          "text": "J.K. Institute of Applied Physics & Technology, Department of Electronics & Communication, University of Allahabad- Allahabad",
+          "selected": false
+        },
+        {
+          "value": "408",
+          "text": "National Institute of Electronics and Information Technology, Aurangabad (Maharashtra)",
+          "selected": false
+        },
+        {
+          "value": "409",
+          "text": "National Institute of Advanced Manufacturing Technology, Ranchi",
+          "selected": false
+        },
+        {
+          "value": "410",
+          "text": "Sant Longowal Institute of Engineering and Technology",
+          "selected": false
+        },
+        {
+          "value": "411",
+          "text": "Mizoram University, Aizawl",
+          "selected": false
+        },
+        {
+          "value": "412",
+          "text": "School of Engineering, Tezpur University, Napaam, Tezpur",
+          "selected": false
+        },
+        {
+          "value": "413",
+          "text": "School of Planning & Architecture, Bhopal",
+          "selected": false
+        },
+        {
+          "value": "414",
+          "text": "School of Planning & Architecture, New Delhi",
+          "selected": false
+        },
+        {
+          "value": "415",
+          "text": "School of Planning & Architecture: Vijayawada",
+          "selected": false
+        },
+        {
+          "value": "416",
+          "text": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+          "selected": false
+        },
+        {
+          "value": "420",
+          "text": "International Institute of Information Technology, Naya Raipur",
+          "selected": false
+        },
+        {
+          "value": "421",
+          "text": "University of Hyderabad",
+          "selected": false
+        },
+        {
+          "value": "422",
+          "text": "Punjab Engineering College, Chandigarh",
+          "selected": false
+        },
+        {
+          "value": "423",
+          "text": "Jawaharlal Nehru University, Delhi",
+          "selected": false
+        },
+        {
+          "value": "424",
+          "text": "International Institute of Information Technology, Bhubaneswar",
+          "selected": false
+        },
+        {
+          "value": "425",
+          "text": "Central institute of Technology Kokrajar, Assam",
+          "selected": false
+        },
+        {
+          "value": "426",
+          "text": "Puducherry Technological University, Puducherry",
+          "selected": false
+        },
+        {
+          "value": "427",
+          "text": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
+          "selected": false
+        },
+        {
+          "value": "428",
+          "text": "Central University of Rajasthan, Rajasthan",
+          "selected": false
+        },
+        {
+          "value": "430",
+          "text": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+          "selected": false
+        },
+        {
+          "value": "431",
+          "text": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+          "selected": false
+        },
+        {
+          "value": "432",
+          "text": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+          "selected": false
+        },
+        {
+          "value": "433",
+          "text": "Indian Institute of Handloom Technology(IIHT), Varanasi",
+          "selected": false
+        },
+        {
+          "value": "434",
+          "text": "Chhattisgarh Swami Vivekanada Technical University, Bhilai (CSVTU Bhilai)",
+          "selected": false
+        },
+        {
+          "value": "435",
+          "text": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+          "selected": false
+        },
+        {
+          "value": "436",
+          "text": "North-Eastern Hill University, Shillong",
+          "selected": false
+        },
+        {
+          "value": "437",
+          "text": "Central University of Jammu",
+          "selected": false
+        },
+        {
+          "value": "438",
+          "text": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)",
+          "selected": false
+        },
+        {
+          "value": "439",
+          "text": "Central University of Haryana",
+          "selected": false
+        },
+        {
+          "value": "440",
+          "text": "Birla Institute of Technology, Deoghar Off-Campus",
+          "selected": false
+        },
+        {
+          "value": "441",
+          "text": "Birla Institute of Technology, Patna Off-Campus",
+          "selected": false
+        },
+        {
+          "value": "442",
+          "text": "Indian Institute of Handloom Technology, Salem",
+          "selected": false
+        },
+        {
+          "value": "443",
+          "text": "Gati Shakti Vishwavidyalaya, Vadodara",
+          "selected": false
+        },
+        {
+          "value": "444",
+          "text": "CU Jharkhand",
+          "selected": false
+        },
+        {
+          "value": "445",
+          "text": "National Institute of Electronics and Information Technology, Ropar (Punjab)",
+          "selected": false
+        },
+        {
+          "value": "446",
+          "text": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+          "selected": false
+        },
+        {
+          "value": "447",
+          "text": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)",
+          "selected": false
+        },
+        {
+          "value": "448",
+          "text": "National Institute of Electronics and Information Technology, Gorakhpur (UP)",
+          "selected": false
+        },
+        {
+          "value": "449",
+          "text": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)",
+          "selected": false
+        },
+        {
+          "value": "450",
+          "text": "Islamic University of Science and Technology Kashmir",
+          "selected": false
+        },
+        {
+          "value": "451",
+          "text": "Shri G. S. Institute of Technology and Science Indore",
+          "selected": false
+        },
+        {
+          "value": "452",
+          "text": "National Institute of Technical Teachers Training and Research Bhopal",
+          "selected": false
+        },
+        {
+          "value": "453",
+          "text": "Central University of Karnataka",
+          "selected": false
+        },
+        {
+          "value": "454",
+          "text": "National Institute of Electronics and Information Technology, Agartala",
+          "selected": false
+        },
+        {
+          "value": "455",
+          "text": "National Institute of Electronics and Information Technology, Aizawl",
+          "selected": false
+        },
+        {
+          "value": "456",
+          "text": "National Institute of Electronics and Information Technology, Imphal",
+          "selected": false
+        },
+        {
+          "value": "457",
+          "text": "National Institute of Electronics and Information Technology, Calicut",
+          "selected": false
+        },
+        {
+          "value": "458",
+          "text": "National Institute of Electronics and Information Technology, Kohima",
+          "selected": false
+        },
+        {
+          "value": "459",
+          "text": "National Institute of Electronics and Information Technology, Srinagar",
+          "selected": false
+        },
+        {
+          "value": "460",
+          "text": "Central University of Punjab, Bathinda",
+          "selected": false
+        },
+        {
+          "value": "462",
+          "text": "Delhi Technological University, Delhi",
+          "selected": false
+        },
+        {
+          "value": "467",
+          "text": "Indian Maritime University - Kolkata Campus",
+          "selected": false
+        },
+        {
+          "value": "472",
+          "text": "Netaji Subhas University of Technology, Delhi",
+          "selected": false
+        },
+        {
+          "value": "475",
+          "text": "Indira Gandhi Delhi Technical University for Women, New Delhi",
+          "selected": false
+        },
+        {
+          "value": "476",
+          "text": "Manipal Institute of Technology, Manipal",
+          "selected": false
+        }
+      ],
+      "branches": [
+        {
+          "value": "0",
+          "text": "--Select--",
+          "selected": false
+        },
+        {
+          "value": "ALL",
+          "text": "ALL",
+          "selected": false
+        },
+        {
+          "value": "4101",
+          "text": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4104",
+          "text": "Bio Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4105",
+          "text": "Biotechnology and Biochemical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4106",
+          "text": "Ceramic Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4107",
+          "text": "Chemical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4108",
+          "text": "Chemical Science and Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4109",
+          "text": "Civil Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410B",
+          "text": "Industrial Chemistry (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410C",
+          "text": "Computer Science and Business (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410E",
+          "text": "Computer Science Engineering (Artificial lntelligence and Machine Learning) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410F",
+          "text": "Computer Science Engineering (Data Science and Analytics) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410G",
+          "text": "Computer Science Engineering (Human Computer lnteraction and Gaming Technology) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410H",
+          "text": "Electronics and Communication Engineering (Internet of Things) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410I",
+          "text": "Electronics and Communication Engineering (Avionics) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410J",
+          "text": "Computer Science and Engineering (Cyber Security) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410M",
+          "text": "Electronics and Communication Engineering with specialization in VLSI and Embedded Systems (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410P",
+          "text": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410Q",
+          "text": "Computational and Data Science (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410R",
+          "text": "Computer Science and Engineering with specialization in Artificial Intelligence and Data Science (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410V",
+          "text": "Electronics and VLSI Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410W",
+          "text": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410X",
+          "text": "Civil and Environmental Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "410Z",
+          "text": "Electronics and Communication Engineering (VLSI Design and Technology) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4110",
+          "text": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4111",
+          "text": "Electrical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4114",
+          "text": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4117",
+          "text": "Engineering Physics (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411A",
+          "text": "Printing and Packaging Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411B",
+          "text": "Mechatronics and Automation Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411C",
+          "text": "Industrial Internet of Things (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411F",
+          "text": "B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411G",
+          "text": "Artificial Intelligence and Data Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411H",
+          "text": "Electronics Engineering (VLSI Design and Technology) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411J",
+          "text": "Computer Science & Engineering (Data Science and Analytics) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411M",
+          "text": "Mathematics and Scientific Computing (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411O",
+          "text": "Aeronautical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411P",
+          "text": "Dairy Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411Q",
+          "text": "Fashion and Apparel Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411R",
+          "text": "B.Tech in Electronics & Communication Engineering (Rail Engineering) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411S",
+          "text": "B.Tech in Electrical Engineering ( Rail Engineering) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411T",
+          "text": "B.Tech in Mechanical Engineering ( Rail Engineering) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411U",
+          "text": "B.Tech in Civil Engineering (Rail Engineering) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411V",
+          "text": "B.Tech in Artificial Intelligenece and Data Science (Transportation and Logistics) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411W",
+          "text": "B.Tech in Aviation Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411Y",
+          "text": "Computer Science and Engineering (Cyber Physical System) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "411Z",
+          "text": "VLSI Design and Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4121",
+          "text": "Instrumentation Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4123",
+          "text": "Materials Science and Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4124",
+          "text": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4125",
+          "text": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4127",
+          "text": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412A",
+          "text": "ROBOTICS & AUTOMATION (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412B",
+          "text": "Microelectronics & VLSI Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412D",
+          "text": "SUSTAINABLE ENERGY TECHNOLOGIES (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412E",
+          "text": "Computer Science and Engineering (Data Science) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412F",
+          "text": "Computer Science and Engineering ( Artificial Intelligence & Data Science) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412G",
+          "text": "Computer Science and Engineering (Artificial Intelligence) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412H",
+          "text": "Materials Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412K",
+          "text": "Electronic Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412X",
+          "text": "Energy and Electrical Vehicle Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "412Y",
+          "text": "Robotics and AI (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4130",
+          "text": "Mining Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4136",
+          "text": "Production and Industrial Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4139",
+          "text": "Textile Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413C",
+          "text": "Design Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413D",
+          "text": "Physics and Computational Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413F",
+          "text": "Animation and VFX (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413G",
+          "text": "Electronics and Communication Engineering (VLSI Design) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413H",
+          "text": "Computer Science and Engineering with specialization in Quantum Technologies (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413J",
+          "text": "B.Tech in CSE (AI and ML) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413K",
+          "text": "Computer Science and Engineering (Internet of Things, Cyber Security including Block Chain Technology ) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413L",
+          "text": "Computer Science and Engineering with minor in AI and ML (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413M",
+          "text": "B. Tech in Electronics and Communication Engineering with minor in Wearable Electronics (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413N",
+          "text": "Electrical Engineering with E Mobility (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413O",
+          "text": "Electrical and Electronics Engineering (Electric Mobility) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413P",
+          "text": "Internet of Things (IoT) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413Q",
+          "text": "Digital Manufacturing and IoT (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413R",
+          "text": "Artificial Intelligence & Data Science - Aviation Systems (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413S",
+          "text": "Maritime Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413T",
+          "text": "Artificial Intelligence and Computing (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413U",
+          "text": "Applied and Computational Physics (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413V",
+          "text": "Electronics Communication and Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413W",
+          "text": "Cyber Security (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413X",
+          "text": "Microelectronics and VLSI Design (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413Y",
+          "text": "Chemical Technology (Bioprocess Technology) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "413Z",
+          "text": "Computer Science and Engineering (Artificial Intelligence and Data Science) (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4142",
+          "text": "Electronics and Instrumentation Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4144",
+          "text": "Electrical and Electronics Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4145",
+          "text": "Production Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4146",
+          "text": "Information Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4148",
+          "text": "Instrumentation and Control Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4149",
+          "text": "Industrial and Production Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "414H",
+          "text": "Computer Science and Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "414L",
+          "text": "Electronics and Communication Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4151",
+          "text": "Computer Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4152",
+          "text": "Bio Medical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4153",
+          "text": "Electronics and Telecommunication Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4155",
+          "text": "Industrial Design (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4156",
+          "text": "Metallurgy and Materials Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "415T",
+          "text": "Mathematics and Computing for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "415U",
+          "text": "Mechanical Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4160",
+          "text": "Carpet and Textile Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4164",
+          "text": "Food Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4167",
+          "text": "Food Engineering and Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4168",
+          "text": "Agricultural Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4169",
+          "text": "Food Process Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "416E",
+          "text": "Computer Science and Engineering ( Artificial Intelligence & Data Science) for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4174",
+          "text": "Electronics and Communication Engineering with specialization in Design and Manufacturing (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4175",
+          "text": "Mechanical Engineering with specialization in Design and Manufacturing (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4176",
+          "text": "Smart Manufacturing (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4178",
+          "text": "Mechatronics Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "417U",
+          "text": "Electronics and Instrumentation Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "417W",
+          "text": "Electrical and Electronics Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "417Y",
+          "text": "Information Technology for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4180",
+          "text": "Materials and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4181",
+          "text": "Data Science and Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4183",
+          "text": "Food Technology and Management (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4184",
+          "text": "Computer Science (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4185",
+          "text": "Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4186",
+          "text": "Information Technology-Business Informatics (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4187",
+          "text": "Data Science and Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4188",
+          "text": "Artificial Intelligence and Data Science (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4190",
+          "text": "Computer Science and Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4191",
+          "text": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4192",
+          "text": "Engineering and Computational Mechanics (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4194",
+          "text": "Biosciences and Bioengineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4195",
+          "text": "Computer Science and Engineering with specialization in Cyber Security (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4196",
+          "text": "Computer Science and Engineering with Major in Artificial Intelligence (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4197",
+          "text": "Handloom and Textile Technology (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4198",
+          "text": "Energy Engineering (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "419K",
+          "text": "Artificial Intelligence for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "419S",
+          "text": "Chemical Engineering for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41A2",
+          "text": "Bio Technology for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41A7",
+          "text": "Civil Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AQ",
+          "text": "Electronics and VLSI Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AU",
+          "text": "Electronics and Communication Engineering (VLSI Design and Technology) for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AV",
+          "text": "Computer Science and Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AW",
+          "text": "Electrical Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41AZ",
+          "text": "Electronics and Communication Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41BC",
+          "text": "Electronics Engineering (VLSI Design and Technology) for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41BG",
+          "text": "Aeronautical Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41BR",
+          "text": "VLSI Design and Technology for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41BY",
+          "text": "Mechanical Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41C8",
+          "text": "Computer Science and Engineering ( Artificial Intelligence & Data Science) for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41DG",
+          "text": "Electrical and Electronics Engineering for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41EV",
+          "text": "Computer Science and Engineering with Major in Artificial Intelligence for DASA-CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FL",
+          "text": "Information Technology for DASA- Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FM",
+          "text": "Electronics & Communication for DASA- CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41FT",
+          "text": "Mechanical Engineering for DASA- CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "41Q4",
+          "text": "Electrical and Electronics Engineering (Electric Mobility) for DASA-Non CIWG (4 Years, Bachelor of Technology)",
+          "selected": false
+        },
+        {
+          "value": "4402",
+          "text": "Bachelor of Design (4 Years, Bachelor of Design)",
+          "selected": false
+        },
+        {
+          "value": "4501",
+          "text": "Planning (4 Years, Bachelor of Planning)",
+          "selected": false
+        },
+        {
+          "value": "4601",
+          "text": "Electronics and Communication Engineering (with Specialization of Embedded Systems and Internet of Things) (4 Years, B. Tech / B. Tech (Hons.))",
+          "selected": false
+        },
+        {
+          "value": "4602",
+          "text": "Computer Science and Engineering (with Specialization of Data Science and Artificial Intelligence) (4 Years, B. Tech / B. Tech (Hons.))",
+          "selected": false
+        },
+        {
+          "value": "4603",
+          "text": "Computer Science Engineering (Artificial Intelligence) (4 Years, B. Tech / B. Tech (Hons.))",
+          "selected": false
+        },
+        {
+          "value": "4604",
+          "text": "Computer Science Engineering (Data Science) (4 Years, B. Tech / B. Tech (Hons.))",
+          "selected": false
+        },
+        {
+          "value": "5101",
+          "text": "Architecture (5 Years, Bachelor of Architecture)",
+          "selected": false
+        },
+        {
+          "value": "515T",
+          "text": "Architecture for DASA-CIWG (5 Years, Bachelor of Architecture)",
+          "selected": false
+        },
+        {
+          "value": "520F",
+          "text": "Mathematics and Data Science (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520G",
+          "text": "Computational Mathematics (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520H",
+          "text": "Computer Science and Engineering with Specialization in Data Science (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520I",
+          "text": "Computer Science and Engineering with Specialization in Cyber Security (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520J",
+          "text": "Electronics and Communication Engineering with Specialization in Microelectronics and VLSI System Design (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520K",
+          "text": "Electrical Engineering with Specialization In Power System Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520L",
+          "text": "Mechanical Engineering with Specialization in Manufacturing and Industrial Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520M",
+          "text": "Civil Engineering with Specialization in Construction Technology and Management (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520N",
+          "text": "Material Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "520O",
+          "text": "Mathematics and Computing Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5210",
+          "text": "Chemical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5213",
+          "text": "Civil Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5216",
+          "text": "Computer Science and Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5217",
+          "text": "Electrical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "521Q",
+          "text": "B.Tech. in Electronics and Communication Engineering and M.Tech. in Communication Systems (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "521R",
+          "text": "Chemical Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "522S",
+          "text": "B. Tech. and M. Tech. in Engineering and Computational Mechanics (Dual Degree) (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5233",
+          "text": "Mechanical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5234",
+          "text": "Electronics and Communication Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "523T",
+          "text": "B.Tech. in Electronics and Communication Engineering and M.Tech. in Microelectronics and VLSI Systems (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "523U",
+          "text": "Artificial Intelligence and Data Science (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "523V",
+          "text": "Artificial Intelligence and Machine Learning (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5243",
+          "text": "Metallurgical and Materials Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5247",
+          "text": "Mining Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5257",
+          "text": "Chemical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5258",
+          "text": "Ceramic Engineering and M.Tech Industrial Ceramic (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5267",
+          "text": "Engineering Physics (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5280",
+          "text": "Information Technology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5296",
+          "text": "Biotechnology (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "52D6",
+          "text": "Computer Science and Engineering for DASA-CIWG (5 Years, Bachelor and Master of Technology (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5313",
+          "text": "Materials Engineering (5 Years, Integrated Master of Technology)",
+          "selected": false
+        },
+        {
+          "value": "5314",
+          "text": "Computer Science and Engineering (5 Years, Integrated Master of Technology)",
+          "selected": false
+        },
+        {
+          "value": "5417",
+          "text": "B.Tech. (Civil Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5418",
+          "text": "B.Tech. (Computer Science and Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5419",
+          "text": "B.Tech. (Elctrical Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5420",
+          "text": "B.Tech. (Electronics and Communication Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5421",
+          "text": "B.Tech. (Food Engineering and Technology) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5422",
+          "text": "B.Tech. (Mechanical Engineering) - MBA (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5424",
+          "text": "B. Tech. Information Technology-Business Informatics (IT- BIn) - Master of Business Administration (MBA) (5 Years, Bachelor of Technology and MBA (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5501",
+          "text": "Applied Geology (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5503",
+          "text": "Chemistry (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5506",
+          "text": "Mathematics and Computing (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5507",
+          "text": "Physics (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5508",
+          "text": "Mathematics (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5509",
+          "text": "Life Science (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5511",
+          "text": "Quantitative Economics & Data Science (5 Years, Integrated Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5602",
+          "text": "Physics (5 Years, Bachelor of Science and Master of Science (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5604",
+          "text": "Chemistry (5 Years, Bachelor of Science and Master of Science (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5606",
+          "text": "Mathematics & Computing (5 Years, Bachelor of Science and Master of Science (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5A09",
+          "text": "B. Tech. (Mathematics & Computing) M. Tech. in (Mathematics & Computing) (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5A11",
+          "text": "B.Tech in Mechanical Engineering and M.Tech in AI and Robotics (5 Years, B.Tech. + M.Tech./MS (Dual Degree))",
+          "selected": false
+        },
+        {
+          "value": "5B01",
+          "text": "Integrated B. Tech.(IT) and M. Tech (IT) (5 Years, Integrated B. Tech. and M. Tech.)",
+          "selected": false
+        },
+        {
+          "value": "5B06",
+          "text": "Artificial Intelligence (5 Years, Integrated B. Tech. and M. Tech.)",
+          "selected": false
+        },
+        {
+          "value": "5C01",
+          "text": "Integrated B. Tech.(IT) and MBA (5 Years, Integrated B. Tech. and MBA)",
+          "selected": false
+        },
+        {
+          "value": "5D01",
+          "text": "Chemical Engineering (5 Years, Integrated Masters in Technology)",
+          "selected": false
+        },
+        {
+          "value": "5H3C",
+          "text": "Chemistry (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5H3D",
+          "text": "Physics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "selected": false
+        },
+        {
+          "value": "5H3E",
+          "text": "Mathematics (5 Years, Integrated Bachelor of Science-Master of Science)",
+          "selected": false
+        }
+      ]
+    }
+  }
+}

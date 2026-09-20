@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-08-28T16:00:08.349Z",
+  "total_db_colleges": 363,
+  "uptac_colleges": 193,
+  "input_websites": 112,
+  "preserved_josaa_websites": 112,
+  "uptac_with_website": 19,
+  "uptac_existing": 0,
+  "uptac_newly_resolved": 19,
+  "uptac_unresolved": 174,
+  "errors": 0,
+  "all_colleges_with_website_after_merge": 131,
+  "database_modified": false
+}

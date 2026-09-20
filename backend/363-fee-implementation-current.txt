@@ -1,0 +1,1201 @@
+
+====================================================
+FILE: .\run-all-363-fee-pipeline-current.txt
+====================================================
+import fs from "node:fs/promises";
+import fsSync from "node:fs";
+import { spawn } from "node:child_process";
+
+/*
+|--------------------------------------------------------------------------
+| ALL 363 COLLEGES - FINAL FEE MASTER PIPELINE
+|--------------------------------------------------------------------------
+|
+| 363 colleges
+|   ↓
+| official source resolution
+|   ↓
+| fee/PDF discovery
+|   ↓
+| academic-year verification
+|   ↓
+| B.Tech fee extraction
+|   ↓
+| mandatory charges
+|   ↓
+| branch mapping
+|   ↓
+| FW gate
+|   ↓
+| hostel gate
+|   ↓
+| normalization
+|   ↓
+| preview
+|   ↓
+| VERIFIED ONLY
+|   ↓
+| optional bulk import
+|   ↓
+| final verification
+|
+|--------------------------------------------------------------------------
+*/
+
+const EXPECTED_COLLEGES = 363;
+const TARGET_YEAR = 2026;
+
+const IMPORT_MODE =
+  process.argv.includes("--import");
+
+/*
+|--------------------------------------------------------------------------
+| IMPORTANT FILES
+|--------------------------------------------------------------------------
+*/
+
+const BASE_INPUT =
+  "./all-colleges-fee-source-family.json";
+
+const JOSAA_ENRICHED =
+  "./all-colleges-fee-source-family-enriched.json";
+
+const UPTAC_ENRICHED =
+  "./all-colleges-fee-source-family-enriched-uptac.json";
+
+const CRAWL_OUTPUT =
+  "./all-colleges-fee-source-crawl.json";
+
+const FINAL_PREVIEW =
+  "./all-363-fee-final-preview.json";
+
+const FINAL_REPORT =
+  "./all-363-fee-final-report.json";
+
+/*
+|--------------------------------------------------------------------------
+| PIPELINE SCRIPTS
+|--------------------------------------------------------------------------
+|
+| Existing scripts + next-stage scripts.
+|--------------------------------------------------------------------------
+*/
+
+const PHASES = [
+  {
+    name:
+      "1. JoSAA official website resolution",
+
+    script:
+      "./populate-josaa-official-websites.js",
+
+    requiredInput:
+      BASE_INPUT,
+
+    requiredOutput:
+      JOSAA_ENRICHED
+  },
+
+  {
+    name:
+      "2. UPTAC official website resolution",
+
+    script:
+      "./populate-uptac-official-websites.js",
+
+    requiredInput:
+      JOSAA_ENRICHED,
+
+    requiredOutput:
+      UPTAC_ENRICHED
+  },
+
+  {
+    name:
+      "3. Official fee page / PDF crawl",
+
+    script:
+      "./crawl-all-resolved-official-fee-sources.js",
+
+    requiredInput:
+      UPTAC_ENRICHED,
+
+    requiredOutput:
+      CRAWL_OUTPUT
+  },
+
+  {
+    name:
+      "4. Failed website/source recovery",
+
+    script:
+      "./recover-all-failed-fee-sources.js",
+
+    requiredInput:
+      CRAWL_OUTPUT,
+
+    requiredOutput:
+      "./all-363-fee-source-recovered.json"
+  },
+
+  {
+    name:
+      "5. Official PDF extraction",
+
+    script:
+      "./extract-all-official-fee-pdfs.js",
+
+    requiredInput:
+      "./all-363-fee-source-recovered.json",
+
+    requiredOutput:
+      "./all-363-fee-extracted.json"
+  },
+
+  {
+    name:
+      "6. Current-year + B.Tech verification",
+
+    script:
+      "./gate-all-363-current-btech-fees.js",
+
+    requiredInput:
+      "./all-363-fee-extracted.json",
+
+    requiredOutput:
+      "./all-363-fee-verified-sources.json"
+  },
+
+  {
+    name:
+      "7. Fee normalization",
+
+    script:
+      "./normalize-all-363-fees.js",
+
+    requiredInput:
+      "./all-363-fee-verified-sources.json",
+
+    requiredOutput:
+      "./all-363-fee-normalized.json"
+  },
+
+  {
+    name:
+      "8. Branch + FW + hostel mapping",
+
+    script:
+      "./map-all-363-fees-to-branches.js",
+
+    requiredInput:
+      "./all-363-fee-normalized.json",
+
+    requiredOutput:
+      FINAL_PREVIEW
+  }
+];
+
+/*
+|--------------------------------------------------------------------------
+| HELPERS
+|--------------------------------------------------------------------------
+*/
+
+function exists(path) {
+  return fsSync.existsSync(path);
+}
+
+async function readJson(path) {
+  const raw =
+    await fs.readFile(
+      path,
+      "utf8"
+    );
+
+  return JSON.parse(
+    raw.replace(
+      /^\uFEFF/,
+      ""
+    )
+  );
+}
+
+async function writeJson(
+  path,
+  data
+) {
+  await fs.writeFile(
+    path,
+    JSON.stringify(
+      data,
+      null,
+      2
+    ),
+    "utf8"
+  );
+}
+
+async function validate363(
+  path,
+  label
+) {
+  if (!exists(path)) {
+    throw new Error(
+      `${label}: missing file ${path}`
+    );
+  }
+
+  const rows =
+    await readJson(path);
+
+  if (!Array.isArray(rows)) {
+    throw new Error(
+      `${label}: expected JSON array.`
+    );
+  }
+
+  if (
+    rows.length !==
+    EXPECTED_COLLEGES
+  ) {
+    throw new Error(
+      `${label}: expected ${EXPECTED_COLLEGES} colleges, found ${rows.length}.`
+    );
+  }
+
+  return rows;
+}
+
+/*
+|--------------------------------------------------------------------------
+| RUN NODE SCRIPT
+|--------------------------------------------------------------------------
+*/
+
+function runScript(script) {
+  return new Promise(
+    (
+      resolve,
+      reject
+    ) => {
+
+      const child =
+        spawn(
+          process.execPath,
+          [script],
+          {
+            stdio:
+              "inherit"
+          }
+        );
+
+      child.on(
+        "error",
+        reject
+      );
+
+      child.on(
+        "exit",
+        code => {
+
+          if (
+            code === 0
+          ) {
+            resolve();
+          } else {
+            reject(
+              new Error(
+                `${script} exited with code ${code}`
+              )
+            );
+          }
+
+        }
+      );
+
+    }
+  );
+}
+
+/*
+|--------------------------------------------------------------------------
+| VERIFY REQUIRED PIPELINE SCRIPT
+|--------------------------------------------------------------------------
+*/
+
+function requireScript(script) {
+  if (!exists(script)) {
+    throw new Error(
+      [
+        `Missing pipeline script: ${script}`,
+        "",
+        "Pipeline stopped safely.",
+        "No database import has been attempted."
+      ].join("\n")
+    );
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+| POLICY CLASSIFIER
+|--------------------------------------------------------------------------
+*/
+
+function classify(row) {
+
+  /*
+  |--------------------------------------------------------------------------
+  | Current official verified B.Tech fee
+  |--------------------------------------------------------------------------
+  */
+
+  const sourceVerified =
+    row.source_verification_status ===
+      "VERIFIED_CURRENT_OFFICIAL" ||
+    row.verification_status ===
+      "VERIFIED_CURRENT_OFFICIAL" ||
+    row.normalization_status ===
+      "AUTO_READY" ||
+    row.import_status ===
+      "VERIFIED_IMPORT_READY";
+
+  /*
+  |--------------------------------------------------------------------------
+  | Old source
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    row.academic_year &&
+    Number(
+      row.academic_year
+    ) <
+    TARGET_YEAR
+  ) {
+    return "HOLD_OUTDATED";
+  }
+
+  /*
+  |--------------------------------------------------------------------------
+  | Third party
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    /third.?party|shiksha|collegedunia|careers360|collegepravesh/i.test(
+      String(
+        row.source_type ||
+        row.fee_source_url ||
+        ""
+      )
+    )
+  ) {
+    return "HOLD_THIRD_PARTY";
+  }
+
+  /*
+  |--------------------------------------------------------------------------
+  | Missing source
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    !row.fee_source_url &&
+    !row.source_url
+  ) {
+    return "DISCOVERY_REQUIRED";
+  }
+
+  /*
+  |--------------------------------------------------------------------------
+  | Verified
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    sourceVerified
+  ) {
+    return "VERIFIED_IMPORT_READY";
+  }
+
+  return "REVIEW_REQUIRED";
+}
+
+/*
+|--------------------------------------------------------------------------
+| FINAL SAFETY CHECK
+|--------------------------------------------------------------------------
+*/
+
+async function buildFinalReport() {
+
+  const rows =
+    await validate363(
+      FINAL_PREVIEW,
+      "Final preview"
+    );
+
+  const statuses = {};
+
+  const classified =
+    rows.map(
+      row => {
+
+        const status =
+          classify(row);
+
+        statuses[status] =
+          (
+            statuses[status] ||
+            0
+          ) + 1;
+
+        /*
+        |--------------------------------------------------------------------------
+        | Hostel rule
+        |--------------------------------------------------------------------------
+        |
+        | Missing hostel is NULL, NEVER zero.
+        |--------------------------------------------------------------------------
+        */
+
+        let hostelFee =
+          row.hostel_fee ??
+          null;
+
+        if (
+          hostelFee === 0 &&
+          !row.hostel_source_verified
+        ) {
+          hostelFee =
+            null;
+        }
+
+        /*
+        |--------------------------------------------------------------------------
+        | FW rule
+        |--------------------------------------------------------------------------
+        */
+
+        const fwStatus =
+          row.is_fee_waiver_branch
+            ? (
+                row.fw_fee_source_verified
+                  ? "READY"
+                  : "HOLD"
+              )
+            : "NOT_APPLICABLE";
+
+        return {
+          ...row,
+
+          hostel_fee:
+            hostelFee,
+
+          fw_import_status:
+            fwStatus,
+
+          final_fee_status:
+            status
+        };
+
+      }
+    );
+
+  const ready =
+    classified.filter(
+      row =>
+        row.final_fee_status ===
+        "VERIFIED_IMPORT_READY"
+    );
+
+  const report = {
+    generated_at:
+      new Date()
+        .toISOString(),
+
+    target_year:
+      TARGET_YEAR,
+
+    total_colleges:
+      classified.length,
+
+    statuses,
+
+    verified_import_ready:
+      ready.length,
+
+    unresolved_or_hold:
+      classified.length -
+      ready.length,
+
+    import_requested:
+      IMPORT_MODE,
+
+    policy: {
+      current_official_only:
+        true,
+
+      old_source:
+        "HOLD",
+
+      third_party:
+        "HOLD",
+
+      fw_without_specific_source:
+        "HOLD",
+
+      hostel_missing:
+        "NULL",
+
+      guessed_fee:
+        "FORBIDDEN"
+    }
+  };
+
+  await writeJson(
+    FINAL_PREVIEW,
+    classified
+  );
+
+  await writeJson(
+    FINAL_REPORT,
+    report
+  );
+
+  return {
+    classified,
+    ready,
+    report
+  };
+}
+
+/*
+|--------------------------------------------------------------------------
+| OPTIONAL DATABASE IMPORT
+|--------------------------------------------------------------------------
+*/
+
+async function importVerified() {
+
+  const IMPORT_SCRIPT =
+    "./import-all-363-verified-fees.js";
+
+  const VERIFY_SCRIPT =
+    "./verify-all-363-fees.js";
+
+  requireScript(
+    IMPORT_SCRIPT
+  );
+
+  requireScript(
+    VERIFY_SCRIPT
+  );
+
+  console.log("");
+  console.log(
+    "======================================="
+  );
+  console.log(
+    "VERIFIED-ONLY DATABASE IMPORT"
+  );
+  console.log(
+    "======================================="
+  );
+  console.log("");
+
+  await runScript(
+    IMPORT_SCRIPT
+  );
+
+  console.log("");
+
+  console.log(
+    "Running final database verification..."
+  );
+
+  await runScript(
+    VERIFY_SCRIPT
+  );
+}
+
+/*
+|--------------------------------------------------------------------------
+| MAIN
+|--------------------------------------------------------------------------
+*/
+
+async function main() {
+
+  console.log("");
+  console.log(
+    "======================================="
+  );
+  console.log(
+    "ALL 363 COLLEGES FINAL FEE PIPELINE"
+  );
+  console.log(
+    IMPORT_MODE
+      ? "MODE: VERIFIED IMPORT"
+      : "MODE: DRY RUN"
+  );
+  console.log(
+    "======================================="
+  );
+  console.log("");
+
+  /*
+  |--------------------------------------------------------------------------
+  | Validate master input
+  |--------------------------------------------------------------------------
+  */
+
+  await validate363(
+    BASE_INPUT,
+    "Master input"
+  );
+
+  console.log(
+    `Master input verified: ${EXPECTED_COLLEGES} colleges`
+  );
+
+  console.log("");
+
+  /*
+  |--------------------------------------------------------------------------
+  | Run every phase
+  |--------------------------------------------------------------------------
+  */
+
+  for (
+    let i = 0;
+    i < PHASES.length;
+    i++
+  ) {
+
+    const phase =
+      PHASES[i];
+
+    console.log("");
+    console.log(
+      "======================================="
+    );
+    console.log(
+      phase.name
+    );
+    console.log(
+      "======================================="
+    );
+
+    /*
+    |--------------------------------------------------------------------------
+    | Ensure required input exists
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      !exists(
+        phase.requiredInput
+      )
+    ) {
+      throw new Error(
+        `Missing required input: ${phase.requiredInput}`
+      );
+    }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Existing output can be rebuilt.
+    |--------------------------------------------------------------------------
+    */
+
+    requireScript(
+      phase.script
+    );
+
+    await runScript(
+      phase.script
+    );
+
+    if (
+      !exists(
+        phase.requiredOutput
+      )
+    ) {
+      throw new Error(
+        `${phase.name} did not generate ${phase.requiredOutput}`
+      );
+    }
+
+    console.log(
+      `PASS: ${phase.requiredOutput}`
+    );
+  }
+
+  /*
+  |--------------------------------------------------------------------------
+  | Final policy gate
+  |--------------------------------------------------------------------------
+  */
+
+  const {
+    ready,
+    report
+  } =
+    await buildFinalReport();
+
+  console.log("");
+  console.log(
+    "======================================="
+  );
+  console.log(
+    "FINAL 363-COLLEGE FEE SUMMARY"
+  );
+  console.log(
+    "======================================="
+  );
+
+  console.table(
+    Object.entries(
+      report.statuses
+    ).map(
+      (
+        [
+          status,
+          count
+        ]
+      ) => ({
+        status,
+        count
+      })
+    )
+  );
+
+  console.log("");
+
+  console.log(
+    "TOTAL COLLEGES:",
+    report.total_colleges
+  );
+
+  console.log(
+    "VERIFIED IMPORT READY:",
+    ready.length
+  );
+
+  console.log(
+    "HOLD / REVIEW / DISCOVERY:",
+    report.unresolved_or_hold
+  );
+
+  console.log("");
+
+  console.log(
+    "Final preview:",
+    FINAL_PREVIEW
+  );
+
+  console.log(
+    "Final report:",
+    FINAL_REPORT
+  );
+
+  /*
+  |--------------------------------------------------------------------------
+  | Dry run
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    !IMPORT_MODE
+  ) {
+    console.log("");
+
+    console.log(
+      "DRY RUN COMPLETE."
+    );
+
+    console.log(
+      "DATABASE HAS NOT BEEN MODIFIED."
+    );
+
+    console.log("");
+
+    console.log(
+      "When verified preview is acceptable:"
+    );
+
+    console.log(
+      'node ".\\run-all-363-fee-pipeline.js" --import'
+    );
+
+    return;
+  }
+
+  /*
+  |--------------------------------------------------------------------------
+  | Import verified rows only
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    ready.length === 0
+  ) {
+    throw new Error(
+      "No verified fee records available for import."
+    );
+  }
+
+  await importVerified();
+
+  console.log("");
+
+  console.log(
+    "======================================="
+  );
+
+  console.log(
+    "ALL 363 FEE PIPELINE COMPLETE"
+  );
+
+  console.log(
+    "======================================="
+  );
+
+  console.log("");
+
+  console.log(
+    "Only verified rows were allowed into database."
+  );
+}
+
+main().catch(
+  error => {
+
+    console.error("");
+
+    console.error(
+      "PIPELINE FAILED:"
+    );
+
+    console.error(
+      error.message
+    );
+
+    console.error("");
+
+    console.error(
+      "DATABASE IMPORT STOPPED SAFELY."
+    );
+
+    process.exitCode = 1;
+  }
+);
+
+====================================================
+FILE: .\audit-all-college-fee-coverage.js
+====================================================
+import 'dotenv/config';
+import fs from 'node:fs/promises';
+
+import { pool } from './src/db/pool.js';
+
+const OUTPUT =
+  './all-college-fee-coverage.json';
+
+const MISSING_OUTPUT =
+  './all-colleges-missing-fees.json';
+
+async function main() {
+  console.log('');
+  console.log(
+    '======================================='
+  );
+
+  console.log(
+    'ALL COLLEGE FEE COVERAGE AUDIT'
+  );
+
+  console.log(
+    '======================================='
+  );
+
+  console.log('');
+
+  const client =
+    await pool.connect();
+
+  try {
+    /*
+    |--------------------------------------------------------------------------
+    | GET ALL COLLEGES + FEE COVERAGE
+    |--------------------------------------------------------------------------
+    */
+
+    const result =
+      await client.query(
+        `
+        SELECT
+          c.id AS college_id,
+          c.name AS college_name,
+
+          COUNT(
+            DISTINCT bf.id
+          )::int AS fee_masters,
+
+          COUNT(
+            DISTINCT fv.id
+          )::int AS fee_variants,
+
+          MAX(
+            bf.academic_year
+          ) AS latest_fee_year,
+
+          BOOL_OR(
+            bf.verification_status = 'verified'
+          ) AS has_verified_fee
+
+        FROM colleges c
+
+        LEFT JOIN branch_fees bf
+          ON bf.college_id = c.id
+
+        LEFT JOIN fee_variants fv
+          ON fv.branch_fee_id = bf.id
+
+        GROUP BY
+          c.id,
+          c.name
+
+        ORDER BY
+          c.name
+        `
+      );
+
+    const rows =
+      result.rows;
+
+    /*
+    |--------------------------------------------------------------------------
+    | CLASSIFY
+    |--------------------------------------------------------------------------
+    */
+
+    const coverage =
+      rows.map(
+        row => {
+          const feeMasters =
+            Number(
+              row.fee_masters || 0
+            );
+
+          const feeVariants =
+            Number(
+              row.fee_variants || 0
+            );
+
+          let status;
+
+          if (
+            feeMasters > 0 &&
+            feeVariants > 0 &&
+            row.has_verified_fee === true
+          ) {
+            status =
+              'COMPLETE_VERIFIED';
+
+          } else if (
+            feeMasters > 0 &&
+            feeVariants > 0
+          ) {
+            status =
+              'HAS_FEE_PENDING_REVIEW';
+
+          } else {
+            status =
+              'MISSING_FEE';
+          }
+
+          return {
+            college_id:
+              row.college_id,
+
+            college_name:
+              row.college_name,
+
+            fee_masters:
+              feeMasters,
+
+            fee_variants:
+              feeVariants,
+
+            latest_fee_year:
+              row.latest_fee_year,
+
+            has_verified_fee:
+              row.has_verified_fee === true,
+
+            status
+          };
+        }
+      );
+
+    const missing =
+      coverage.filter(
+        row =>
+          row.status ===
+          'MISSING_FEE'
+      );
+
+    const verified =
+      coverage.filter(
+        row =>
+          row.status ===
+          'COMPLETE_VERIFIED'
+      );
+
+    const pending =
+      coverage.filter(
+        row =>
+          row.status ===
+          'HAS_FEE_PENDING_REVIEW'
+      );
+
+    /*
+    |--------------------------------------------------------------------------
+    | SAVE FILES
+    |--------------------------------------------------------------------------
+    */
+
+    await fs.writeFile(
+      OUTPUT,
+      JSON.stringify(
+        coverage,
+        null,
+        2
+      ),
+      'utf8'
+    );
+
+    await fs.writeFile(
+      MISSING_OUTPUT,
+      JSON.stringify(
+        missing,
+        null,
+        2
+      ),
+      'utf8'
+    );
+
+    /*
+    |--------------------------------------------------------------------------
+    | SUMMARY
+    |--------------------------------------------------------------------------
+    */
+
+    console.log(
+      'FEE COVERAGE SUMMARY'
+    );
+
+    console.table([
+      {
+        status:
+          'Total colleges',
+
+        count:
+          coverage.length
+      },
+
+      {
+        status:
+          'Complete verified',
+
+        count:
+          verified.length
+      },
+
+      {
+        status:
+          'Has fee pending review',
+
+        count:
+          pending.length
+      },
+
+      {
+        status:
+          'Missing fee',
+
+        count:
+          missing.length
+      }
+    ]);
+
+    console.log('');
+
+    console.log(
+      'COLLEGES WITH FEE'
+    );
+
+    console.table(
+      coverage
+        .filter(
+          row =>
+            row.fee_variants > 0
+        )
+        .map(
+          row => ({
+            college:
+              row.college_name,
+
+            year:
+              row.latest_fee_year,
+
+            variants:
+              row.fee_variants,
+
+            verified:
+              row.has_verified_fee,
+
+            status:
+              row.status
+          })
+        )
+    );
+
+    console.log('');
+
+    console.log(
+      'Saved:',
+      OUTPUT
+    );
+
+    console.log(
+      'Saved:',
+      MISSING_OUTPUT
+    );
+
+    console.log('');
+
+    console.log(
+      'DATABASE HAS NOT BEEN MODIFIED.'
+    );
+
+  } finally {
+    client.release();
+
+    await pool.end();
+  }
+}
+
+main().catch(
+  error => {
+    console.error(
+      'FAILED:',
+      error.message
+    );
+
+    process.exitCode = 1;
+  }
+);

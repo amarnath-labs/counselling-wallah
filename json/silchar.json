@@ -1,0 +1,603 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 1 of 5 in the third batch (NIT Silchar). Colleges 2-5 (NIT Agartala, NIT Jamshedpur, NIT Raipur, NIT Patna) to follow in separate responses."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Silchar",
+        "verified_name": "National Institute of Technology, Silchar",
+        "city": "Silchar",
+        "state": "Assam",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Regional Engineering College (REC), Silchar, established 1967; upgraded to NIT/Deemed University status in 2002; declared Institute of National Importance under the 2007 NIT Act. Single main campus (~625 acres), located about 8km south of Silchar town in Cachar district, Assam. Verified distinct from NIT Nagaland — a separate, independent institution that NIT Silchar mentored only during NIT Nagaland's first two years (2010-2012) before NIT Nagaland relocated to its own campus in Nagaland; no evidence from NIT Nagaland was included in this extraction."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews page, course-filtered reviews page (CSE), main overview page, and a PDF review compilation retrieved."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page retrieved with substantive narrative review content."},
+        {"platform": "Careers360", "status": "available", "notes": "Aggregate rating confirmed via a Silchar-city engineering-college listing page; a Q&A/all-questions page also surfaced genuine platform-computed aspect ratings."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located on ragging (mixed/varied framing, including one using 'ragging' colloquially and positively for friendly senior-junior interaction) and hostel life."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NIT Silchar located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search. Note: one Quora answer references a 'Google Maps rating of 4.4' for a specific hostel, but this was not independently verified via a Maps tool and is recorded only as a claim within that Quora answer, not as a directly observed Google Reviews aggregate."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/compare-nit-silchar-28583",
+          "aggregate_rating": 4.2,
+          "rating_scale": "out of 5",
+          "review_count": 364,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Silchar is rated 4.2 out of 5 by 364 genuine verified students.'"
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/university/nit-silchar-national-institute-of-technology-28583/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 403,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 403 NIT Silchar - National Institute of Technology Reviews on Placements, Faculty, Facilities & Infrastructure.' Distinct count (403) from the comparison page (364) observed in this same session; both retained as separate observations."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/ranking/top-engineering-colleges-in-silchar",
+          "aggregate_rating": 4.3,
+          "rating_scale": "out of 5",
+          "review_count": 168,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Silchar - National Institute of Technology Silchar ... Rating: 4.3/5, 168 Reviews.'"
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25399-nit-silchar-silchar/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippets; only narrative review text present."
+        },
+        {
+          "platform": "CollegeDekho",
+          "source_url": "https://www.collegedekho.com/colleges/nit-silchar-placement",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 13,
+          "verified_review_count": 13,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "'(13 Verified Reviews)... All 13 published reviews verified.' No star-based overall aggregate visible in retrieved snippet."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "Careers360", "aspect": "infrastructure", "rating": 4.1, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-silchar/all-questions?page=43", "observed_at": null},
+        {"platform": "Careers360", "aspect": "academics", "rating": 3.9, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-silchar/all-questions?page=43", "observed_at": null},
+        {"platform": "Careers360", "aspect": "placements", "rating": 4.1, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-silchar/all-questions?page=43", "observed_at": null},
+        {"platform": "Careers360", "aspect": "value_for_money", "rating": 2.7, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-silchar/all-questions?page=43", "observed_at": null},
+        {"platform": "Careers360", "aspect": "campus_life", "rating": 4.5, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-silchar/all-questions?page=43", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "NIT Silchar",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25399-nit-silchar-silchar/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The placement cell of my college is very strong and it gives fair chance to every student so that they will take a job from campus.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Social interaction is very good in my college due to many clubs and societies so they improve students' personal growth.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'I dislike the thing that some of the professors come into the class and just read the PDF, don't understand us. So we give more time in hostel for studying again those things through YouTube or books.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'The boys-girls ratio is not good in my college and competition for taking [a girlfriend] is very tough, especially in my branch, i.e. in civil.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Sometimes the slow process of college administration for doing the job. They just procrastinate the work.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The overall highest package goes to around 80 lac plus and the average package lies around 18 to 20 lac for CSE Department. The opportunities are great with companies like Amazon, Microsoft, Nvidia coming for on-campus opportunities.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Remote location.... Travelling is difficult.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Silchar",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/university/nit-silchar-national-institute-of-technology-28583/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The previous academic year had very impactful results in placements as well as in the internship rate for the CSE department. Referring to the Training & Placement brochure, the placement rate was 84% for my department. The highest package was 60 LPA, the lowest package was 3 LPA, and the average package was 15-19 LPA.' Recruiters named: Microsoft, Amazon, Goldman Sachs, AWS, Cisco, Deloitte, Accenture, Commvault, HP, Infosys, ICICI Bank, ZS Associates, HPCL, Flipkart, Adobe, Google, Reliance Industries."
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Silchar was built on a total of 625 acres. A nature-rich campus with more than 20 lakes and 2-3 gardens. Classrooms are digitalised. The infrastructure for the CSE course is good, labs are well managed, and a LAN (Ethernet) is provided to every hostel room.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Hostel maintenance is above average, and there are 9 boys' hostels and 4 girls' hostels. Food quality is good, and our college has a good sports management team. We have a dispensary clinic in the college itself.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Every teacher is well qualified. They have good knowledge about the subject. They were helpful for exam purposes. Their notes were very valuable.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Silchar",
+          "source": "Shiksha (PDF review compilation)",
+          "source_type": "rating_platform",
+          "source_url": "https://images.shiksha.com/mediadata/instituteCtaPdf/reviews/reviews_28583_1725138003.pdf?v=1725145106",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electrical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electrical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electrical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placement percent of EE department in NIT Silchar is 80-85 percent. The highest package is 52 LPA, average package is 12.5 LPA, and the lowest is about 6 LPA. Top recruiting companies are Amazon, Google, Oil India, NTPC, Samsung, etc.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Silchar",
+          "source": "Shiksha (PDF review compilation)",
+          "source_type": "rating_platform",
+          "source_url": "https://images.shiksha.com/mediadata/instituteCtaPdf/reviews/reviews_28583_1725138003.pdf?v=1725145106",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "internships",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'This year, the highest package was 55 LPA and the company was Amazon Web Services. Doing an internship is compulsory for everyone in our college. But this year, 15-20 students out of 77 got paid internships.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'In hostels, free internet (ethernet) is available for each student. And the quality of the food is good according to how it feels taken. And sometimes we get refunds too.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The faculty members are good, knowledgeable and helpful in nature. The quality of teaching is good. The course curriculum, however, needs some changes in some subjects, like MPMC.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Silchar",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/university/nit-silchar-national-institute-of-technology-28583/reviews?course=113238",
+          "source_review_id": null,
+          "author_display_name": "Mani Kiran Batchu",
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": 4.2,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'In the previous year, almost 99.21% of students were placed. The highest salary package offered is 56 LPA. This year, it has reached around 84 LPA. The average salary package offered is 16 LPA. On-campus internships begin in your third year.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'LAN facilities are provided to every student of NIT Silchar, and there is a special computing center for the self-study of students where free access to Wi-Fi is provided.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Silchar",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/university/nit-silchar-national-institute-of-technology-28583/reviews?course=113238",
+          "source_review_id": null,
+          "author_display_name": "Karan Medhi",
+          "review_title": "Impressive hike in placement trend in the past few years",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": 4.0,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'In CSE NIT Silchar, a total of 99.21% of students got placed with the highest salary package of 46.85 LPA.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'National Institute of Technology, Silchar has a very good infrastructure, labs, classrooms and Wi-Fi facilities. There is the second largest digital library in the whole Asia, named Dr APJ Abdul Kalam Learning Resource Ce[ntre]' (truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Silchar",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/national-institute-of-technology-nit-silchar/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Many companies visit the campus for recruitment. Major companies are Goldman Sachs, Snapdeal, Infosys, Philips, Reliance Jio etc with the average package of INR 24 lakhs per annum. The alumni network is very strong.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Silchar has 9 boys hostels and 3 girls hostels along with separate hostels for married, PG & foreign students. NIT Silchar provides very good hostel & campus life. Food quality of hostel, the mess is fine.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There are lots of clubs in NIT Silchar including Literary club, trekking, spiritual club, robotics club, eco club, photography club etc. Tecnoesis - our annual tech management fest, Incandescent - our annual cultural fest which is celebrated with full of enthusiasm.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Silchar",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/What-is-the-level-of-ragging-at-NIT-Silchar",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "What is the level of ragging at NIT Silchar?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Self-identified as 'Class of 2015-2019' B.Tech student.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'I being a current B.Tech student have never heard or seen any ragging activities in the campus. Forget about levels of ragging, there has been no ragging (in terms of physical harassment or abuse) since the college authorities had decided to set up...' (sentence truncated in retrieved snippet, but indicates a specific institutional policy change eliminated ragging)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Silchar",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Is-there-ragging-in-NIT-Silchar",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Is there ragging in NIT Silchar?",
+          "review_date": "2017-10-15",
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This answer reframes 'ragging' as essentially harmless senior-junior interaction rather than abuse, a notably different framing from the more categorical 'zero ragging since policy change' claim in the other Quora thread — both preserved as distinct, non-reconciled characterizations of the same general topic.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Yes, there will be ragging in our college but it's not truly called as ragging, just it will be like interaction with your seniors and all batchmate[s]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Silchar",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/What-are-the-most-important-things-that-you-have-learned-experienced-during-your-stay-at-NIT-Silchar",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "What are the most important things that you have learned/experienced during your stay at NIT Silchar?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This answerer uses the word 'ragging' in a listed set of positively-framed college memories ('Experienced: 1. 24*7 Gaming sessions 2. Ragging (best part)...'), suggesting a colloquial/affectionate usage referring to lighthearted senior-junior banter rather than abusive hazing. This is recorded as the individual's own characterization; it should not be read as confirming an absence of genuine ragging-related concerns raised elsewhere in this dataset for other institutions, nor as a categorical claim about NIT Silchar specifically beyond this one person's framing.",
+          "aspect_evidence": [
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "Lists among positive experiences: '24*7 gaming sessions, ragging (best part), sleeping at odd hours, late night adda and coffee sessions, seniors at their best.' Also elsewhere: 'Learned to dream big. Met so many amazing people. LAN speed... woohoo! Danced and danced. 11 dance performances! Incandescence days. Unforgettable!'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Silchar",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-the-PG-hostel-at-NIT-Silchar",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is the PG hostel at NIT Silchar?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This answer references a claimed '4.4 rating on Google Maps' for the specific hostel — this is the answerer's own citation, not an independently verified Google Reviews observation by this extraction process, and is recorded as such.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'PG hostel is one of the best hostels in NIT Silchar (rated 4.4 in Google Maps, per the answerer). It is for 1st year boys. There are four blocks named East, West, North & South. Each room is for two students of different branches.'"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 12,
+        "independent_sources": 4,
+        "reviews_with_dates": 1,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 12
+      },
+
+      "limitations": [
+        "Reddit: no genuine NIT Silchar-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable. One Quora answer cites a Google Maps rating for a specific hostel, but this is the answerer's own claim, not independently verified by this extraction.",
+        "Ragging-related sentiment for NIT Silchar shows genuine variation in framing — one source describes 'zero ragging' following a specific policy change, another reframes ragging as harmless senior-junior interaction, and a third uses the word 'ragging' colloquially and positively within a list of fond memories. These are preserved as distinct characterizations rather than merged into a single sentiment.",
+        "One earlier search result (an anonymized CollegeDekho snippet) described a notable 2023-24 batch placement decline ('Placements are not that great, specially 2023-24... Students are struggling with their placements apart from the CSE Students') — this specific negative account was found in a search snippet but the exact source page could not be re-confirmed for direct citation in this batch; it is not included as a standalone review_item to avoid citing content without a stable, re-verifiable URL, though it is noted here for completeness since it reflects a genuinely different sentiment than most other placement-related evidence in this dataset.",
+        "No review in this extraction batch carried more than one explicit visible date (2017, for one Quora answer); reviews_last_24_months is 0 since that date is well outside a 24-month window from any plausible current date.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~400+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,703 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 1 of 5 in the second batch (NIT Calicut). Colleges 2-5 (NIT Durgapur, NIT Kurukshetra, MNNIT Allahabad, MNIT Jaipur) to follow in separate responses per established pattern."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Calicut",
+        "verified_name": "National Institute of Technology Calicut",
+        "city": "Kozhikode (Calicut)",
+        "state": "Kerala",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Calicut Regional Engineering College (CREC), established 1961; transitioned to NIT status in 2002; declared Institute of National Importance in 2007. Single main campus (~285 acres), located ~22km northeast of Kozhikode city on the Kozhikode-Mukkam Road. Explicitly verified DISTINCT from the University of Calicut (a separate, unrelated state university headquartered in Tenhipalam, Malappuram district) — a meaningful naming-confusion risk given both institutions share 'Calicut' in their name. No evidence from University of Calicut was included in this extraction."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews pages (multiple, including rating-filtered), placement page, and comparison page retrieved."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews pages (including course-filtered) retrieved with multiple narrative review snippets."},
+        {"platform": "Careers360", "status": "available", "notes": "Reviews page (with full aspect rating breakdown), placement page, compare page, and Q&A answers retrieved."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located covering hostel conditions, ragging (with conflicting accounts), and room-sharing arrangements."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NIT Calicut located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/compare-nit-calicut-vs-nielit-calicut-4288-24321",
+          "aggregate_rating": 4.1,
+          "rating_scale": "out of 5",
+          "review_count": 413,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "From a comparison-tool page: 'NIT Calicut is rated 4.1 out of 5 by 413 genuine verified students.'"
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-calicut-national-institute-of-technology-4288/reviews-7?rating=2",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate visible in this specific rating-filtered snippet (filtered to 2-star reviews)."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://www.careers360.com/university/national-institute-of-technology-calicut/reviews",
+          "aggregate_rating": 4.3,
+          "rating_scale": "out of 5",
+          "review_count": 162,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "full_review",
+          "notes": "'Rating Summary: 4.3/5, 162 Reviews.' Platform-computed sub-ratings observed on same page: College Infrastructure 4/5, Academics 4/5, Placements 3.8/5, Value for Money 3.1/5, Campus Life 4.4/5 (stored in platform_aspect_ratings)."
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25651-national-institute-of-technology-nitc-calicut/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 564,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "'Read over 564 NIT Calicut Reviews on Placements, Faculty, Hostel Rooms and Food.' No overall star aggregate co-visible in this snippet."
+        },
+        {
+          "platform": "CollegeDekho",
+          "source_url": "https://www.collegedekho.com/colleges/nit-calicut",
+          "aggregate_rating": 4.1,
+          "rating_scale": "out of 5",
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "FLAGGED AS LOW-RELIABILITY: This page's text reads as AI-generated or heavily synthesized editorial content rather than genuine review aggregation — it references '562 reviews... X posts note hackathons' and includes stylistically unusual phrases like 'grueling JEE to Rs 15 LPA offers' attributed to a named batch/branch combination in a way inconsistent with typical review platform formatting. This aggregate rating is recorded for completeness but should be treated with substantially lower confidence than the Shiksha and Careers360 observations, and no review_items were sourced from this page."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "Careers360", "aspect": "infrastructure", "rating": 4.0, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-calicut/reviews", "observed_at": null},
+        {"platform": "Careers360", "aspect": "academics", "rating": 4.0, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-calicut/reviews", "observed_at": null},
+        {"platform": "Careers360", "aspect": "placements", "rating": 3.8, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-calicut/reviews", "observed_at": null},
+        {"platform": "Careers360", "aspect": "value_for_money", "rating": 3.1, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-calicut/reviews", "observed_at": null},
+        {"platform": "Careers360", "aspect": "campus_life", "rating": 4.4, "rating_scale": "out of 5", "source_url": "https://www.careers360.com/university/national-institute-of-technology-calicut/reviews", "observed_at": null},
+        {"platform": "Shiksha", "aspect": "placements", "rating": 2.9, "rating_scale": "out of 5", "source_url": "https://www.shiksha.com/college/nit-calicut-national-institute-of-technology-4288/placement", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "NIT Calicut",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25651-national-institute-of-technology-nitc-calicut/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The institute has an immense alumni network along with the placement cell which attracts the top high paying companies ensuring good job opportunities for the students. It also enables research and further studies.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'I appreciate NITC's commitment to academic excellence, with a strong faculty and diverse range of courses that provide a well-rounded education.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'I like the cultural fests like festivals being celebrated here which is very nice.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Calicut",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25651-national-institute-of-technology-nitc-calicut/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "value_for_money",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Fees are very high when we compared to other NITs; NIT Calicut collecting more fees which becoming heavy burden to poor students like me, they don't even giving concession, most of the people are not getting scholarships.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Our hostels are too old and actually it is allotted for 3 people but they are keeping 4 people in a room, wash rooms are also not so good.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Calicut",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25651-national-institute-of-technology-nitc-calicut/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'This year we received a really high number of offers, around 970. The highest package received this year was 44.42 LPA and average was around 12 LPA. Accenture, Bharat Electronics Limited are a few of the top hirers; Intel and Nvidia also hire from here.' Intel/Nvidia noted as 'more relevant for ECE students.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The campus is lush green, and the hostel and mess facilities are good, there are a few canteens.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The sports facilities are also good, NIT Calicut secured 1st place in inter-NIT sports last year. There are coaches allotted for every different sport.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Calicut",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-calicut-national-institute-of-technology-4288/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Review of NIT Calicut - National Institute of Technology",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'90% of students are placed. The remaining students want to pursue higher studies. The highest package is 63 LPA, and the lowest package is 6 LPA. Top recruitment is from Oracle, Myntra, and Meesho. Around 60% of students got internships from Oracle, Flipkart, Axis Bank, ICICI Bank, and NHAI.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'We have a big library, which has five floors. Every study material is provided. Students can either take books to their rooms or study there. It is fully air-conditioned, which makes the environment very comfortable.'"
+            },
+            {
+              "aspect": "value_for_money",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Calicut offers excellent value for the fees paid. The education quality, placement, and campus are worth the investment. Students also get opportunities through clubs. Overall, it is a good choice compared to many private colleges.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Calicut",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-calicut-national-institute-of-technology-4288/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Review of NIT Calicut - National Institute of Technology",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The placement percentage last year is 81 percent. Many MNCs come to our college to hire students, and the top role offered in our course is VLSI design engineer.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'We have a huge library in our college where many books and other resources are available, separate labs for each department, and Wi-Fi facility is available in our hostels. The classrooms are also very huge, and we also have a health center in our college.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'The food in the mess is acceptable.' Lukewarm/neutral descriptor rather than clearly positive or negative."
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The teachers in our college are very helpful, highly qualified, and knowledgeable. The teaching quality is also good, and the course curriculum is relevant and makes students industry ready.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Calicut",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-calicut-national-institute-of-technology-calicut-4288/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Review of NIT Calicut - National Institute of Technology",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "Joined 2019, reviewing as of 2020: 'Around 95% of the students got placed. The highest package offered is 75 lakhs per annum, and the lowest package is 9 lakhs per annum. Till now, Google is the top recruiter. A maximum of 78% of the students got internships in various companies.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'It is one of the largest NITs in India. The campus is huge and very pleasant. You can have a very peaceful atmosphere. The campus has internet facility.' (Sentence appears truncated in source snippet.)"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Calicut",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-calicut-national-institute-of-technology-calicut-4288/reviews",
+          "source_review_id": "TOPIREDDY JANARDH",
+          "author_display_name": "TOPIREDDY JANARDH",
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": 4.6,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "source_review_id populated with author's display name since no separate numeric/string ID was visible, but this is a substitute identifier, not a true platform-issued ID — flagged for backend awareness that this is not a guaranteed-unique key.",
+          "aspect_evidence": [
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'It is an excellent college, with very good environment to study, and awesome placements.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Calicut",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/university/national-institute-of-technology-calicut/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Overall best college",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'At NIT Calicut, the campus has modern labs, computing centers and departmental libraries. Wi-Fi connectivity is strong and facilities like hostels, sports and cultural areas help maintain a balanced student life.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Reputed firms like Google, Microsoft, Amazon, Deloitte, Oracle, and many more recruit students for high-paying roles across domains such as software development, data science, core engineering, consulting, and analytics.'"
+            },
+            {
+              "aspect": "value_for_money",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Calicut offers excellent value for money. The tuition fees are relatively low compared to private colleges, but the quality of education, infrastructure, and placement opportunities are top-notch.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Campus life at NIT Calicut is vibrant and full of energy. The college has a diverse student community, which creates an inclusive and culturally rich environment... Major festivals like Ragam (cultural fest) and Tathva (tech fest) are some of the most exciting experiences.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Calicut",
+          "source": "Careers360",
+          "source_type": "discussion",
+          "source_url": "https://www.careers360.com/question-is-there-good-placements-in-nit-calicut-for-biotechnology-branch-whether-the-branch-is-good-or-bad",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Is there good placements in NIT Calicut for biotechnology branch",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Biotechnology",
+          "course_verified": true,
+          "department": null,
+          "branch": "Biotechnology",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": "Biotechnology",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'The reviews say that there is a lot to improve on the biotechnology side. The faculties are said to be not so helpful and you are on your own to build a career.' Branch-level rating of 3.8/5 mentioned by answerer, but this is the answerer's own characterization, not a directly cited platform aggregate."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Calicut",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Do-you-think-the-NIT-Calicut-hostel-is-good",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Do you think the NIT Calicut hostel is good?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This answer directly conflicts with the room-sharing description in a separate Quora thread ('How many students share a room in NIT calicut for first year?') which describes the same 4-in-a-room arrangement without strong negative framing — both preserved independently since tone/valence genuinely differs even when describing the same underlying fact (room occupancy).",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "Sarcastic, strongly negative framing: '>Good is not in our dictionary... 4 people in 1 room in 1st year. Fine. 4 people in 2nd year. Fiiine. 4 people in 3rd year. WTF!' Answerer frames escalating room-sharing across years as a significant grievance."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Calicut",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-many-students-share-a-room-in-NIT-calicut-for-first-year",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How many students share a room in NIT calicut for first year?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "Graduated 2023, ECE: 'If you are a boy then either you can get a room, shared between two students or four students. There are two hostels which are generally allotted to first years only. One is having 2-bedded and other one is 4-bedded.' Descriptive, not framed with strong positive or negative valence."
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NITC hosts two of the most important fests in South India, Tathva and Ragam... take part in PAD and INFRA works... great way to make contacts with seniors.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Calicut",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Is-there-ragging-in-NIT-Calicut-If-yes-what-will-they-ask-to-do",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Is there ragging in NIT Calicut? If yes, what will they ask to do?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This answer's skeptical framing of official 'ragging-free' claims echoes a pattern seen at other NITs in this dataset (e.g., NITK Surathkal) where official messaging and informal student accounts diverge — preserved as independent evidence, not merged across colleges.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'NITC takes pride in being a \"ragging free\" campus. So much that if you take a walk around the campus, you'd find numerous posters claiming the same. Teachers will mention this during the orientation program.' Tone suggests skepticism toward the official claim without fully asserting it is false in the visible portion of the snippet."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Calicut",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-ragging-at-NIT-Calicut",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is ragging at NIT Calicut?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Stay away from so-called seniors, as simple as that. Don't entertain them. Don't share your contact numbers without knowing the people individually. They might rag you indirectly in the name of some club activity or something else. Stay connected with your batchmates.' Practical advice implying some risk exists, without describing severe incidents directly."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Calicut",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-the-hostel-accomodation-for-1st-year-M-Tech-students-at-NIT-Calicut",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is the hostel accommodation for 1st year M.Tech students at NIT Calicut?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "M.Tech",
+          "course": "M.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'PG hostels are the worst in NIT C. You will get into Professor's Apartment in first year which is a flat having 3 rooms, 1 hall and a kitchen. Students are allotted to rooms as per the size of the room in the number of 4, 3 and 2; some people sleep in halls.'"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 13,
+        "independent_sources": 4,
+        "reviews_with_dates": 0,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 13
+      },
+
+      "limitations": [
+        "Reddit: no genuine NIT Calicut-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "A CollegeDekho aggregate page was found containing content that reads as AI-generated or heavily synthesized rather than genuine review aggregation (unusual phrasing, references to 'X posts,' oddly specific branch/batch quote attributions). This aggregate was logged with an explicit low-reliability flag and excluded from review_items entirely, per the instruction to flag likely-synthetic secondary content rather than treat it as equivalent evidence.",
+        "Hostel sentiment is notably split: one Quora answer describes room-sharing conditions with strong negative/sarcastic framing while another describes the same general arrangement neutrally — both preserved independently rather than reconciled.",
+        "Ragging-related evidence shows a recurring pattern (also seen at other NITs in this dataset) of official 'ragging-free' messaging contrasted with more cautious or skeptical student accounts; none of the NIT Calicut Quora threads retrieved in this session described a severe firsthand incident as directly as was seen for some other institutions, so sentiment here is recorded as 'mixed' rather than clearly negative.",
+        "No review in this extraction batch carried an explicit visible date; reviews_with_dates and reviews_last_24_months are both 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~560+ reviews reported on Collegedunia or Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 4 of 5 in the third batch (NIT Raipur). College 5 (NIT Patna) to follow in a separate response."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Raipur",
+        "verified_name": "National Institute of Technology, Raipur",
+        "city": "Raipur",
+        "state": "Chhattisgarh",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Government College of Mining & Metallurgy, then Government College of Engineering and Technology, then Government Engineering College, Raipur; established 1956; became an NIT in 2005. Single main campus (~100 acres), Raipur. One of the oldest institutions in the NIT system by founding date, though relatively recent as an NIT."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews page (multiple, including course-filtered for CSE) and main overview page retrieved; comparison page provided aggregate rating."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page retrieved with substantive narrative review content."},
+        {"platform": "Careers360", "status": "available", "notes": "Aggregate rating confirmed consistently across three Raipur-city category listing pages (Mechanical B.Tech, general Mechanical, CSE B.Tech); main overview page also retrieved."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located, with strong, multiply-corroborated evidence of a structural hostel-seat shortage, plus ragging-related threads (consistently describing no ragging)."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NIT Raipur located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/compare-nit-raipur-23645",
+          "aggregate_rating": 3.8,
+          "rating_scale": "out of 5",
+          "review_count": 575,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Raipur is rated 3.8 out of 5 by 575 genuine verified students.' This is notably lower than most other NITs' Shiksha ratings observed in this dataset (which cluster around 4.0-4.4)."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-be-btech-in-mechanical-engineering-colleges-in-raipur",
+          "aggregate_rating": 4.0,
+          "rating_scale": "out of 5",
+          "review_count": 195,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Raipur - National Institute of Technology Raipur ... Rating: 4.0/5, 195 Reviews.'"
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-mechanical-engineering-colleges-in-raipur",
+          "aggregate_rating": 4.0,
+          "rating_scale": "out of 5",
+          "review_count": 195,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Identical figures (4.0/5, 195 reviews) observed on a second listing page, consistent with the first observation."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-be-btech-in-computer-science-engineering-colleges-in-raipur",
+          "aggregate_rating": 4.0,
+          "rating_scale": "out of 5",
+          "review_count": 195,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Identical figures (4.0/5, 195 reviews) observed on a third listing page, reinforcing consistency of this as likely the genuine institution-wide aggregate."
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25442-national-institute-of-technology-nit-raipur/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippets; only narrative review text present."
+        }
+      ],
+
+      "platform_aspect_ratings": [],
+
+      "review_items": [
+        {
+          "college_name": "NIT Raipur",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25442-national-institute-of-technology-nit-raipur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Raipur offers strong placement (especially in Core and IT). Also it has a good alumni network.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'It has a campus of about 100 acre, a large campus with good facilities like Wi-Fi and dispensary, supportive faculty and seniors.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'I like the infrastructure of college, it is so high tech, futuristic and its garden is like heaven; the vibe of college and the clubs [are loved by] the people of our college.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculty of our college is so supportive, even encourage us to come out of our comfort [zone] to do something productive for your nation.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Sports facilities of our college is also very good, our new sports complex makes it amazing... clubs like Shaurya for sports.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'I don't like the curriculum because it is so outdated and it's mostly focused on theoretical knowledge and not industry ready.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The placements of our college is pretty nice, the highest package offered in the year 2024 was 57-58 LPA... Median package lies in 9 or 10 LPA... placement percentage is very nice around 80%+ but in our branch placement is very low, around 30%, which is very low as the standard of NIT. Many students go abroad for higher studies.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Raipur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-raipur-national-institute-of-technology-23645/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Mechanical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This item explicitly documents a real, structural infrastructure shortfall (hostel availability), not a subjective aesthetic complaint — corroborated independently across at least 4 sources in this dataset (see limitations).",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Mechanical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placement is one of the best things about National Institute of Technology Raipur. Despite being considered a middle to lower NIT, students still choose it mainly because of its placement rates. For Mechanical, the average remains close to 8-9 LPA over the last 2-3 years, and the highest goes around 18-20 LPA. The placement rate is among the finest compared to other branches, reaching around 93-94 percent.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'It is not a very large college in terms of infrastructure. Expectations should be kept low as it mainly lacks in infrastructure.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'There is not even basic hostel facility available for all students. Only a few students get hostels in the first year. Hostel allocation is based on JEE rank and reservation norms, and later depends on CPI/SPI.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Raipur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-raipur-national-institute-of-technology-23645/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'NIT Raipur curriculum is awesome, but the worst part is the low number of hostel seats.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The placement rate is around 70-80 percent. The highest package is 60 LPA. The lowest is 6 LPA. The average is around 17 LPA. Top recruiters include Amazon, Google, Adobe, Oracle, and Samsung. Internship is compulsory.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'All kinds of facilities are provided in the college, including a library, playground, Wi-Fi, ethernet for hostel students, and a large computer lab. There is a dedicated building for computer labs called CCC. The only drawback is the limited number of hostel seats for both girls and boys.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Teachers are helpful, qualified, and knowledgeable.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Raipur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-raipur-national-institute-of-technology-23645/reviews?course=175669&rating=3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Inside NIT Raipur: A Down-to-Earth Exploration of Campus Life, Studies, and More!",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'About 88%-90% of students in the CSE branch are annually placed in on-campus drives. The highest package offered was 55,00,000 p.a., whereas the average was around 16,00,000 p.a. Companies that hire students include Microsoft (3 students, PPO), Amazon, Adobe, Infosys, Wipro, etc.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Raipur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-raipur-national-institute-of-technology-23645/reviews?course=175669&rating=3",
+          "source_review_id": null,
+          "author_display_name": "Ayush Agrawal",
+          "review_title": "Review of NIT Raipur - National Institute of Technology",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": 3.4,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Sub-ratings visible: Placements 4, Infrastructure 3, Faculty & Course Curriculum 3, Crowd & Campus Life 3, Value for Money 4. Batch of 2023.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Yes, the placements at NIT Raipur are good with an average package of six and a half lacs and the highest about 15 lacs. Honestly, the placements at Raipur in CSE is about 98%. The lowest salary from CSE is about five lacs.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Raipur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Is-there-any-ragging-at-NIT-Raipur",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Is there any ragging at NIT Raipur?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Self-identified as 2017 batch, second-year B.Tech student at time of answering.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There is no ragging type thing happening in NITRR. As per my one year of experience, there is no ragging type thing happens here. Here seniors are very helpful and we live like brothers.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Raipur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Are-hostels-currently-available-for-all-the-students-in-NIT-Raipur",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Are hostels currently available for all the students in NIT Raipur?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This is one of at least 4 independent sources in this dataset (Shiksha x2, this Quora thread, and a Zollege review) all describing the same structural hostel-seat shortage — a notably well-corroborated finding compared to typical single-source subjective complaints elsewhere in this dataset.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'No, campus hostels are only available for about 30% of students; the rest stay in PG or private hostels or are locals. Being a student of the same college, I have experienced both situations. In the first year, I got late and all the hostel seats were allotted to the students w[ho applied earlier]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Raipur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Do-all-students-get-hostels-at-NIT-Raipur",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Do all students get hostels at NIT Raipur?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'All the students at NIT Raipur do NOT get hostels. Hostel allotment is based on merit (branch-wise merit), i.e., there is a cut-off score in each branch according to the total number of applications and number of seats available. Also, we have a reservation system here too.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Raipur",
+          "source": "Zollege",
+          "source_type": "aggregator",
+          "source_url": "https://zollege.in/university/184763-national-institute-of-technology-nit-raipur/hostel",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This detailed, strongly-worded review is the most explicit and specific account of the hostel shortage found in this dataset, citing a specific personal CPI (7.9) as insufficient to secure a hostel place.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The campus life is what makes this college hard to recommend... one of the most basic needs a government college should give a student is to provide them with hostels and NIT Raipur doesn't have that... I am a student with a CPI of 7.9 and I will not get the hostel in the college because there is a shortage of hostels, so they take the students with merit and caste [category] to enroll and the other students, who represent 65%, will need to stay outside, and the bad news is there are no good hostels near the college that are [a] reasonable distance; if you [want to] go to longer distance hostels you need to buy a vehicle and not many can afford them.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The hostel is also very good and the food quality of the hostels is also good. The senior and junior hostels are also different and divided so there are no such cases of ragging or something like that. The guards of the college were also very good and active.' (Note: this positive framing applies to those who DO secure a hostel place — consistent with, not contradicting, the same reviewer's negative framing of the shortage itself.)"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Raipur",
+          "source": "Careers360",
+          "source_type": "discussion",
+          "source_url": "https://www.careers360.com/question-plz-give-full-details-of-other-state-raipur-nit-for-boys-hostel-facility-and",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "plz give full details of other state raipur nit for boys hostel facility",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This answer presents a smaller total hostel capacity figure (7 hostels, ~836 students) which is not necessarily inconsistent with the shortage narrative found elsewhere given the college's reported ~5000 total student strength (per CollegeDekho) — supports rather than contradicts the shortage pattern.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'There are 7 hostels in the campus with around 836 students in strength. Hostels are fully furnished with all the basic amenities such as dining hall cum recreation hall equipped with indoor games and television. The food is said to be okay and 1st years have a different hostel to avoid ragging.'"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 11,
+        "independent_sources": 5,
+        "reviews_with_dates": 0,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 11
+      },
+
+      "limitations": [
+        "Reddit: no genuine NIT Raipur-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "NOTABLE PATTERN: A structural hostel-seat shortage (affecting an estimated majority of students, per one detailed account) is independently corroborated across at least 5 distinct sources in this dataset (2 Shiksha reviews, 2 Quora answers, 1 Zollege review, 1 Careers360 Q&A) — a stronger evidentiary basis than most other single-source claims in this dataset. This pattern is presented factually across multiple review_items rather than summarized into one, so the backend can weight it according to its own corroboration-detection logic.",
+        "The Shiksha aggregate rating (3.8/5) is the lowest recorded for any NIT in this multi-batch dataset so far, and appears potentially linked in the review text itself to real infrastructure/hostel concerns rather than being an isolated outlier.",
+        "No review in this extraction batch carried an explicit visible date; reviews_with_dates and reviews_last_24_months are both 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~570+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

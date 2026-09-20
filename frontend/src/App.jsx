@@ -1,4 +1,4 @@
-﻿import {
+import {
   BrowserRouter,
   Routes,
   Route,
@@ -34,6 +34,7 @@ import CareerDiscovery from './pages/CareerDiscovery';
 import About from './pages/About';
 import CollegePredictorSEO from './pages/CollegePredictorSEO';
 import ExamCollegePredictorSEO from './pages/ExamCollegePredictorSEO';
+import UptacCutoffSEO from './pages/UptacCutoffSEO';
 import CareerGuidanceSEO from './pages/CareerGuidanceSEO';
 import CollegeCounsellingSEO from './pages/CollegeCounsellingSEO';
 import RouteSEO from './components/RouteSEO';
@@ -95,6 +96,13 @@ export default function App() {
                   <ExamCollegePredictorSEO
                     examId="uptac"
                   />
+                }
+              />
+
+              <Route
+                path="/uptac-cutoff-2025"
+                element={
+                  <UptacCutoffSEO />
                 }
               />
 

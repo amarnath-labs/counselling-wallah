@@ -1,0 +1,126 @@
+[
+  {
+    "college_id": "uptac-abss-institute-of-technology-meerut-meerut",
+    "college_name": "ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT",
+    "branch_id": "2249",
+    "branch_name": "Computer Science and Engineering",
+    "academic_year": 2026,
+    "fee_scope": "branch_specific",
+    "student_category": "GENERAL",
+    "source_url": "https://www.abss.edu.in/pdfs/Indian-fee-structure-2026-27.pdf",
+    "source_type": "official_pdf",
+    "variants": [
+      {
+        "year_of_study": 1,
+        "session": "2026-27",
+        "student_category": "GENERAL",
+        "tuition_fee": 55000,
+        "pre_enrollment_fee": 2300,
+        "exam_fee": 7865,
+        "blazer_id_fee": 2000,
+        "other_fee": 12165,
+        "total_fee": 67165,
+        "verification_status": "verified_official_source"
+      },
+      {
+        "year_of_study": 2,
+        "session": "2027-28",
+        "student_category": "GENERAL",
+        "tuition_fee": 55000,
+        "pre_enrollment_fee": 0,
+        "exam_fee": 7865,
+        "blazer_id_fee": 0,
+        "other_fee": 7865,
+        "total_fee": 62865,
+        "verification_status": "verified_official_source"
+      },
+      {
+        "year_of_study": 3,
+        "session": "2028-29",
+        "student_category": "GENERAL",
+        "tuition_fee": 55000,
+        "pre_enrollment_fee": 0,
+        "exam_fee": 7865,
+        "blazer_id_fee": 0,
+        "other_fee": 7865,
+        "total_fee": 62865,
+        "verification_status": "verified_official_source"
+      },
+      {
+        "year_of_study": 4,
+        "session": "2029-30",
+        "student_category": "GENERAL",
+        "tuition_fee": 55000,
+        "pre_enrollment_fee": 0,
+        "exam_fee": 7865,
+        "blazer_id_fee": 0,
+        "other_fee": 7865,
+        "total_fee": 62865,
+        "verification_status": "verified_official_source"
+      }
+    ],
+    "status": "FINAL_READY_FOR_IMPORT"
+  },
+  {
+    "college_id": "uptac-abss-institute-of-technology-meerut-meerut",
+    "college_name": "ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT",
+    "branch_id": "2429",
+    "branch_name": "Electrical Engineering",
+    "academic_year": 2026,
+    "fee_scope": "branch_specific",
+    "student_category": "GENERAL",
+    "source_url": "https://www.abss.edu.in/pdfs/Indian-fee-structure-2026-27.pdf",
+    "source_type": "official_pdf",
+    "variants": [
+      {
+        "year_of_study": 1,
+        "session": "2026-27",
+        "student_category": "GENERAL",
+        "tuition_fee": 55000,
+        "pre_enrollment_fee": 2300,
+        "exam_fee": 7865,
+        "blazer_id_fee": 2000,
+        "other_fee": 12165,
+        "total_fee": 67165,
+        "verification_status": "verified_official_source"
+      },
+      {
+        "year_of_study": 2,
+        "session": "2027-28",
+        "student_category": "GENERAL",
+        "tuition_fee": 55000,
+        "pre_enrollment_fee": 0,
+        "exam_fee": 7865,
+        "blazer_id_fee": 0,
+        "other_fee": 7865,
+        "total_fee": 62865,
+        "verification_status": "verified_official_source"
+      },
+      {
+        "year_of_study": 3,
+        "session": "2028-29",
+        "student_category": "GENERAL",
+        "tuition_fee": 55000,
+        "pre_enrollment_fee": 0,
+        "exam_fee": 7865,
+        "blazer_id_fee": 0,
+        "other_fee": 7865,
+        "total_fee": 62865,
+        "verification_status": "verified_official_source"
+      },
+      {
+        "year_of_study": 4,
+        "session": "2029-30",
+        "student_category": "GENERAL",
+        "tuition_fee": 55000,
+        "pre_enrollment_fee": 0,
+        "exam_fee": 7865,
+        "blazer_id_fee": 0,
+        "other_fee": 7865,
+        "total_fee": 62865,
+        "verification_status": "verified_official_source"
+      }
+    ],
+    "status": "FINAL_READY_FOR_IMPORT"
+  }
+]

@@ -1,0 +1,2980 @@
+[
+  {
+    "college_id": "uptac-abes-engg-college-ghaziabad",
+    "college_name": "ABES ENGG.COLLEGE,GHAZIABAD",
+    "academic_year": 2026,
+    "source_url": "https://www.abes.ac.in/courses-offered.html",
+    "source_type": "official_html",
+    "html_characters": 143098,
+    "text_characters": 25365,
+    "btech_detected": true,
+    "tuition_detected": true,
+    "hostel_detected": true,
+    "mess_detected": true,
+    "amounts": [
+      1000,
+      1150,
+      2025,
+      2026,
+      2300,
+      3100,
+      3500,
+      5000,
+      6000,
+      7000,
+      8000,
+      8377,
+      9380,
+      9600,
+      9900,
+      9990,
+      10000,
+      12000,
+      20000,
+      36000,
+      67400,
+      95000,
+      110000,
+      119880,
+      127500,
+      131500,
+      134000,
+      136500,
+      138000,
+      139000,
+      143000,
+      145500,
+      148000,
+      149500,
+      154500,
+      155000,
+      159000,
+      164000,
+      166200,
+      168500,
+      172500,
+      177500,
+      181200,
+      674009,
+      8448494,
+      8851082,
+      8860086,
+      8860092,
+      8860426,
+      9582260,
+      9999889
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "table_index": 16,
+        "score": 50,
+        "rows": [
+          [
+            "Academic Fee Structure for New Admissions"
+          ],
+          [
+            "Sr. No",
+            "Particulars",
+            "Amount (Rs.)"
+          ],
+          [
+            "1",
+            "Tuition Fee",
+            "95000.00"
+          ],
+          [
+            "2",
+            "Career Planning & Development Fee",
+            "36000.00"
+          ],
+          [
+            "3",
+            "Technology and Digital Learning Support",
+            "6000.00"
+          ],
+          [
+            "4",
+            "Examination Fees",
+            "9600.00"
+          ],
+          [
+            "5",
+            "Industry Engagement & Innovation Support",
+            "6000.00"
+          ],
+          [
+            "6",
+            "Student Learning Resource Access & Book Bank",
+            "5000.00"
+          ],
+          [
+            "7",
+            "Admissions, Registration & Documentation",
+            "3100.00"
+          ],
+          [
+            "8",
+            "Student Welfare & Group Insurance",
+            "500.00"
+          ],
+          [
+            "9",
+            "Security Deposit (one time and refundable)",
+            "5000.00"
+          ],
+          [
+            "Total",
+            "166200.00"
+          ]
+        ],
+        "amounts": [
+          3100,
+          5000,
+          6000,
+          9600,
+          36000,
+          95000,
+          166200
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 2,
+        "score": 35,
+        "rows": [
+          [
+            "Exam Name",
+            "Website",
+            "Exam Type"
+          ],
+          [
+            "Joint Entrance Examination JEE (Main) 2026",
+            "https://jeemain.nta.nic.in/",
+            "Engineering"
+          ],
+          [
+            "CUET (UG)-2026",
+            "https://cuet.nta.nic.in/",
+            "B.Tech (Lateral Entry)/BCA"
+          ],
+          [
+            "CUET (PG)-2026",
+            "https://exams.ntaonline.in/CUET-PG/",
+            "MCA"
+          ]
+        ],
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 3,
+        "score": 35,
+        "rows": [
+          [
+            "Exam Name",
+            "Exam Type"
+          ],
+          [
+            "Joint Entrance Examination JEE (Main) 2026",
+            "Engineering"
+          ],
+          [
+            "CUET (UG)-2026",
+            "B.Tech (Lateral Entry)"
+          ],
+          [
+            "CUET (PG)-2026",
+            "MCA"
+          ]
+        ],
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 4,
+        "score": 35,
+        "rows": [
+          [
+            "Sr.no",
+            "Course",
+            "Enquiry No."
+          ],
+          [
+            "1",
+            "B.Tech 1st year (Direct Admission)",
+            "8448494111"
+          ],
+          [
+            "2",
+            "B.Tech. (Lateral) 2nd Year (Only for Diploma Holders and B.Sc. etc.)",
+            "8448494111 9582260302"
+          ],
+          [
+            "3",
+            "BCA",
+            "8448494111 9582260302"
+          ],
+          [
+            "4",
+            "MBA",
+            "8448494111 8851082003"
+          ],
+          [
+            "5",
+            "MCA",
+            "8448494111 8860092369 8860086492"
+          ],
+          [
+            "6",
+            "M.Tech (Computer Science & Engineering and Electronics & Communication Engineering)",
+            "8860426655"
+          ]
+        ],
+        "amounts": [
+          8448494,
+          8851082,
+          8860086,
+          8860092,
+          8860426,
+          9582260
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 5,
+        "score": 35,
+        "rows": [
+          [
+            "Course",
+            "Enquiry No."
+          ],
+          [
+            "B.Tech 1st year (Direct Admission)",
+            "8448494111"
+          ],
+          [
+            "B.Tech. (Lateral) 2nd Year (Only for Diploma Holders and B.Sc. etc.)",
+            "8448494111 9582260302"
+          ],
+          [
+            "MBA",
+            "8448494111 8851082003"
+          ],
+          [
+            "MCA",
+            "8448494111 8860092369 8860086492"
+          ],
+          [
+            "M.Tech (Computer Science and Engineering)",
+            "9999889357"
+          ],
+          [
+            "M.Tech (Electronics & Communication Engineering)",
+            "8860426655"
+          ]
+        ],
+        "amounts": [
+          8448494,
+          8851082,
+          8860086,
+          8860092,
+          8860426,
+          9582260,
+          9999889
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 8,
+        "score": 30,
+        "rows": [
+          [
+            "Sr. no",
+            "FEE HEADS",
+            "Amount (Rs.)"
+          ],
+          [
+            "1",
+            "Tuition Fee",
+            "110000.00"
+          ],
+          [
+            "2",
+            "Career Planning & Development Fee",
+            "36000.00"
+          ],
+          [
+            "3",
+            "Technology and Digital Learning Support",
+            "6000.00"
+          ],
+          [
+            "4",
+            "Examination Fees",
+            "9600.00"
+          ],
+          [
+            "5",
+            "Industry Engagement & Innovation Support",
+            "6000.00"
+          ],
+          [
+            "6",
+            "Student Learning Resource Access & Book Bank",
+            "5000.00"
+          ],
+          [
+            "7",
+            "Admissions, Registration & Documentation",
+            "3100.00"
+          ],
+          [
+            "8",
+            "Student Welfare & Group Insurance",
+            "500.00"
+          ],
+          [
+            "9",
+            "Security Deposit (Refundable - One-Time)",
+            "5000.00"
+          ],
+          [
+            "Total*",
+            "",
+            "181200.00"
+          ]
+        ],
+        "amounts": [
+          3100,
+          5000,
+          6000,
+          9600,
+          36000,
+          110000,
+          181200
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 9,
+        "score": 30,
+        "rows": [
+          [
+            "FEE HEADS",
+            "Amount (Rs.)"
+          ],
+          [
+            "Tuition Fee",
+            "110000.00"
+          ],
+          [
+            "Career Planning & Development Fee",
+            "36000.00"
+          ],
+          [
+            "Technology and Digital Learning Support",
+            "6000.00"
+          ],
+          [
+            "Examination Fees",
+            "9600.00"
+          ],
+          [
+            "Industry Engagement & Innovation Support",
+            "6000.00"
+          ],
+          [
+            "Student Learning Resource Access & Book Bank",
+            "5000.00"
+          ],
+          [
+            "Admissions, Registration & Documentation",
+            "3100.00"
+          ],
+          [
+            "Student Welfare & Group Insurance",
+            "500.00"
+          ],
+          [
+            "Security Deposit (Refundable - One-Time)",
+            "5000.00"
+          ],
+          [
+            "TOTAL*",
+            "181200.00"
+          ]
+        ],
+        "amounts": [
+          3100,
+          5000,
+          6000,
+          9600,
+          36000,
+          110000,
+          181200
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 10,
+        "score": 30,
+        "rows": [
+          [
+            "Sr. no",
+            "FEE HEADS",
+            "Amount (Rs.)"
+          ],
+          [
+            "1",
+            "Tuition Fee",
+            "110000.00"
+          ],
+          [
+            "2",
+            "Career Planning & Development Fee",
+            "36000.00"
+          ],
+          [
+            "3",
+            "Technology and Digital Learning Support",
+            "6000.00"
+          ],
+          [
+            "4",
+            "Examination Fees",
+            "9600.00"
+          ],
+          [
+            "5",
+            "Industry Engagement & Innovation Support",
+            "6000.00"
+          ],
+          [
+            "6",
+            "Student Learning Resource Access & Book Bank",
+            "5000.00"
+          ],
+          [
+            "7",
+            "Admissions, Registration & Documentation",
+            "3100.00"
+          ],
+          [
+            "8",
+            "Student Welfare & Group Insurance",
+            "500.00"
+          ],
+          [
+            "9",
+            "Security Deposit (Refundable - One-Time)",
+            "5000.00"
+          ],
+          [
+            "Total*",
+            "",
+            "181200.00"
+          ]
+        ],
+        "amounts": [
+          3100,
+          5000,
+          6000,
+          9600,
+          36000,
+          110000,
+          181200
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 11,
+        "score": 30,
+        "rows": [
+          [
+            "FEE HEADS",
+            "Amount (Rs.)"
+          ],
+          [
+            "Tuition Fee",
+            "110000.00"
+          ],
+          [
+            "Career Planning & Development Fee",
+            "36000.00"
+          ],
+          [
+            "Technology and Digital Learning Support",
+            "6000.00"
+          ],
+          [
+            "Examination Fees",
+            "9600.00"
+          ],
+          [
+            "Industry Engagement & Innovation Support",
+            "6000.00"
+          ],
+          [
+            "Student Learning Resource Access & Book Bank",
+            "5000.00"
+          ],
+          [
+            "Admissions, Registration & Documentation",
+            "3100.00"
+          ],
+          [
+            "Student Welfare & Group Insurance",
+            "500.00"
+          ],
+          [
+            "Security Deposit (Refundable - One-Time)",
+            "5000.00"
+          ],
+          [
+            "TOTAL*",
+            "181200.00"
+          ]
+        ],
+        "amounts": [
+          3100,
+          5000,
+          6000,
+          9600,
+          36000,
+          110000,
+          181200
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 12,
+        "score": 30,
+        "rows": [
+          [
+            "Sr. no",
+            "FEE HEADS",
+            "Amount (Rs.)"
+          ],
+          [
+            "1",
+            "Tuition Fee",
+            "110000.00"
+          ],
+          [
+            "2",
+            "Career Planning & Development Fee",
+            "36000.00"
+          ],
+          [
+            "3",
+            "Technology and Digital Learning Support",
+            "6000.00"
+          ],
+          [
+            "4",
+            "Examination Fees",
+            "9600.00"
+          ],
+          [
+            "5",
+            "Industry Engagement & Innovation Support",
+            "6000.00"
+          ],
+          [
+            "6",
+            "Student Learning Resource Access & Book Bank",
+            "5000.00"
+          ],
+          [
+            "7",
+            "Admissions, Registration & Documentation",
+            "3100.00"
+          ],
+          [
+            "8",
+            "Student Welfare & Group Insurance",
+            "500.00"
+          ],
+          [
+            "9",
+            "Security Deposit (Refundable - One-Time)",
+            "5000.00"
+          ],
+          [
+            "Total*",
+            "",
+            "181200.00"
+          ]
+        ],
+        "amounts": [
+          3100,
+          5000,
+          6000,
+          9600,
+          36000,
+          110000,
+          181200
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 13,
+        "score": 30,
+        "rows": [
+          [
+            "FEE HEADS",
+            "Amount (Rs.)"
+          ],
+          [
+            "Tuition Fee",
+            "110000.00"
+          ],
+          [
+            "Career Planning & Development Fee",
+            "36000.00"
+          ],
+          [
+            "Technology and Digital Learning Support",
+            "6000.00"
+          ],
+          [
+            "Examination Fees",
+            "9600.00"
+          ],
+          [
+            "Industry Engagement & Innovation Support",
+            "6000.00"
+          ],
+          [
+            "Student Learning Resource Access & Book Bank",
+            "5000.00"
+          ],
+          [
+            "Admissions, Registration & Documentation",
+            "3100.00"
+          ],
+          [
+            "Student Welfare & Group Insurance",
+            "500.00"
+          ],
+          [
+            "Security Deposit (Refundable - One-Time)",
+            "5000.00"
+          ],
+          [
+            "TOTAL*",
+            "181200.00"
+          ]
+        ],
+        "amounts": [
+          3100,
+          5000,
+          6000,
+          9600,
+          36000,
+          110000,
+          181200
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 14,
+        "score": 30,
+        "rows": [
+          [
+            "Sr. no",
+            "FEE HEADS",
+            "Amount (Rs.)"
+          ],
+          [
+            "1",
+            "Tuition Fee",
+            "110000.00"
+          ],
+          [
+            "2",
+            "Career Planning & Development Fee",
+            "36000.00"
+          ],
+          [
+            "3",
+            "Technology and Digital Learning Support",
+            "6000.00"
+          ],
+          [
+            "4",
+            "Examination Fees",
+            "9600.00"
+          ],
+          [
+            "5",
+            "Industry Engagement & Innovation Support",
+            "6000.00"
+          ],
+          [
+            "6",
+            "Student Learning Resource Access & Book Bank",
+            "5000.00"
+          ],
+          [
+            "7",
+            "Admissions, Registration & Documentation",
+            "3100.00"
+          ],
+          [
+            "8",
+            "Student Welfare & Group Insurance",
+            "500.00"
+          ],
+          [
+            "9",
+            "Security Deposit (Refundable - One-Time)",
+            "5000.00"
+          ],
+          [
+            "Total*",
+            "",
+            "181200.00"
+          ]
+        ],
+        "amounts": [
+          3100,
+          5000,
+          6000,
+          9600,
+          36000,
+          110000,
+          181200
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 15,
+        "score": 30,
+        "rows": [
+          [
+            "FEE HEADS",
+            "Amount (Rs.)"
+          ],
+          [
+            "Tuition Fee",
+            "110000.00"
+          ],
+          [
+            "Career Planning & Development Fee",
+            "36000.00"
+          ],
+          [
+            "Technology and Digital Learning Support",
+            "6000.00"
+          ],
+          [
+            "Examination Fees",
+            "9600.00"
+          ],
+          [
+            "Industry Engagement & Innovation Support",
+            "6000.00"
+          ],
+          [
+            "Student Learning Resource Access & Book Bank",
+            "5000.00"
+          ],
+          [
+            "Admissions, Registration & Documentation",
+            "3100.00"
+          ],
+          [
+            "Student Welfare & Group Insurance",
+            "500.00"
+          ],
+          [
+            "Security Deposit (Refundable - One-Time)",
+            "5000.00"
+          ],
+          [
+            "TOTAL*",
+            "181200.00"
+          ]
+        ],
+        "amounts": [
+          3100,
+          5000,
+          6000,
+          9600,
+          36000,
+          110000,
+          181200
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 17,
+        "score": 30,
+        "rows": [
+          [
+            "Sr. no",
+            "FEE HEADS",
+            "Amount (Rs.)"
+          ],
+          [
+            "1",
+            "Tuition Fee",
+            "110000.00"
+          ],
+          [
+            "2",
+            "Technology and Digital Learning Support",
+            "9380.00"
+          ],
+          [
+            "3",
+            "Student Welfare & Group Insurance",
+            "500.00"
+          ],
+          [
+            "",
+            "Grand Total#",
+            "119880.00"
+          ],
+          [
+            "Admissions, Registration & Documentation(one time)",
+            "3100.00"
+          ],
+          [
+            "Security Deposit (Refundable - One-Time)",
+            "5000.00"
+          ],
+          [
+            "Examination Fees(Both Sem)*",
+            "9600.00"
+          ]
+        ],
+        "amounts": [
+          3100,
+          5000,
+          9380,
+          9600,
+          110000,
+          119880
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 0,
+        "score": 25,
+        "rows": [
+          [
+            "NAME",
+            "Course Seats"
+          ],
+          [
+            "B.Tech",
+            "Apply Online"
+          ],
+          [
+            "Computer Science & Engineering",
+            "900"
+          ],
+          [
+            "Computer Science & Engineering (Artificial Intelligence and Machine Learning)",
+            "360"
+          ],
+          [
+            "Computer Science & Engineering (Data Science)",
+            "180"
+          ],
+          [
+            "Electronics & Communication Engineering",
+            "180"
+          ],
+          [
+            "Electrical and Computer Engineering",
+            "120"
+          ],
+          [
+            "Mechanical Engineering",
+            "60"
+          ],
+          [
+            "Computer Science and Engineering(Working Professional)",
+            "30"
+          ],
+          [
+            "Electronics and Communication Engineering (Working Professional)",
+            "30"
+          ],
+          [
+            "Department of Computer Application",
+            "Apply Online"
+          ],
+          [
+            "MCA",
+            "180"
+          ],
+          [
+            "BCA",
+            "120"
+          ],
+          [
+            "M.Tech",
+            "Apply Online"
+          ],
+          [
+            "M.Tech in Computer Science and Engineering",
+            "12"
+          ],
+          [
+            "M.Tech in Electronics and Communication Engineering",
+            "6"
+          ]
+        ],
+        "amounts": []
+      },
+      {
+        "type": "table",
+        "table_index": 1,
+        "score": 25,
+        "rows": [
+          [
+            "B.Tech",
+            "Apply"
+          ],
+          [
+            "Computer Science & Engineering",
+            "900"
+          ],
+          [
+            "Computer Science & Engineering (Artificial Intelligence and Machine Learning)",
+            "360"
+          ],
+          [
+            "Computer Science & Engineering (Data Science)",
+            "180"
+          ],
+          [
+            "Electronics & Communication Engineering",
+            "180"
+          ],
+          [
+            "Electrical and Computer Engineering",
+            "120"
+          ],
+          [
+            "Mechanical Engineering",
+            "60"
+          ],
+          [
+            "Computer Science and Engineering(Working Professional)",
+            "30"
+          ],
+          [
+            "Electronics and Communication Engineering (Working Professional)",
+            "30"
+          ],
+          [
+            "Department of Computer Application",
+            "Apply Online"
+          ],
+          [
+            "MCA",
+            "180"
+          ],
+          [
+            "BCA",
+            "120"
+          ],
+          [
+            "M.Tech",
+            "Apply Online"
+          ],
+          [
+            "M.Tech in Computer Science and Engineering",
+            "12"
+          ],
+          [
+            "M.Tech in Electronics and Communication Engineering",
+            "6"
+          ]
+        ],
+        "amounts": []
+      },
+      {
+        "type": "table",
+        "table_index": 6,
+        "score": 20,
+        "rows": [
+          [
+            "Name of Document",
+            "Original/Xerox",
+            "Remarks"
+          ],
+          [
+            "Demand Draft of Academic Fee",
+            "Original",
+            "For details, please refer ABES Website"
+          ],
+          [
+            "Demand Draft of Hostel Fee (If Opted)",
+            "Original",
+            "For details, please refer ABES Website"
+          ],
+          [
+            "Uniform Fees (IN CASH ONLY)",
+            "-",
+            "For details, please refer ABES Website"
+          ],
+          [
+            "Transport Fee (If opted) (IN CASH ONLY)",
+            "-",
+            "For details, please refer ABES Website"
+          ],
+          [
+            "University Allotment Letter",
+            "2 Copy",
+            "For Counseling Candidates"
+          ],
+          [
+            "Result of Entrance Exam (for all) (Any one)",
+            "2 Copy",
+            "-"
+          ],
+          [
+            "X Marksheet",
+            "2 Copy & Original",
+            "-"
+          ],
+          [
+            "X Passing Certificate",
+            "2 Copy & Original",
+            "-"
+          ],
+          [
+            "XII Marksheet",
+            "2 Copy & Original",
+            "-"
+          ],
+          [
+            "XII Passing Certificate",
+            "2 Copy & Original",
+            "-"
+          ],
+          [
+            "Diploma / Graduation Mark sheet - All Years",
+            "2 Copy & Original",
+            "-"
+          ],
+          [
+            "PDC/ Degree",
+            "2 Copy & Original",
+            "-"
+          ],
+          [
+            "Transfer Certificate (T.C.) (for UPBoard / UP Technical Board students)",
+            "1 Copy & Original",
+            "-"
+          ],
+          [
+            "Migration Certificate (other than UP Board/ Other Technical Board / Universities)",
+            "1 Copy & Original",
+            "-"
+          ],
+          [
+            "Character Certificate",
+            "1 Copy & Original",
+            "-"
+          ],
+          [
+            "Caste Certificate (in case of OBC Issued after 01.04.2025)",
+            "2 Copy",
+            "Only for SC/ST/OBC candidate"
+          ],
+          [
+            "Income certificate (Issued after 01.04.2025)/Income Tax Return (Current year) (If interested for any Govt. scholarship)",
+            "2 Copy",
+            "-"
+          ],
+          [
+            "Income certificate in case of EWS (If interested for any Govt. scholarship)",
+            "2 Copy",
+            "Click Here."
+          ],
+          [
+            "Gap Affidavit on Rs 10/- Stamp Paper (if any)",
+            "1 Copy & Original",
+            "-"
+          ],
+          [
+            "Domicile certificate",
+            "2 Copy",
+            "Certificate required if Qualifying examination passed outside UP, but parents are resident of UP."
+          ],
+          [
+            "Medical Fitness Certificate",
+            "1 Copy",
+            "Issued by CMO / Registered Doctor in prescribed format. Click Here."
+          ],
+          [
+            "Blood Group",
+            "1 Copy",
+            "Blood Test Report"
+          ],
+          [
+            "Candidate Photo Father & Mother photo",
+            "3 Photo @ 1 each",
+            "Write Name of Student & Branch on the backside of all Photos"
+          ],
+          [
+            "Aadhar Card (Self & Father and Mother)",
+            "2 Copy",
+            "-"
+          ],
+          [
+            "Declaration / Undertaking",
+            "Original",
+            "Undertaking (RO-S21) – Click Here."
+          ],
+          [
+            "Internet Use Undertaking",
+            "Original",
+            "Undertaking (CA-S1) Click Here."
+          ]
+        ],
+        "amounts": [
+          2025
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 7,
+        "score": 20,
+        "rows": [
+          [
+            "Name of Document",
+            "Original/Xerox",
+            "Remarks"
+          ],
+          [
+            "Demand Draft of Academic Fee For details, please refer ABES Website",
+            "Original"
+          ],
+          [
+            "Demand Draft of Hostel Fee (If Opted) For details, please refer ABES Website",
+            "Original"
+          ],
+          [
+            "Uniform Fees (IN CASH ONLY) For details, please refer ABES Website",
+            "-"
+          ],
+          [
+            "Transport Fee (If opted) (IN CASH ONLY) For details, please refer ABES Website",
+            "-"
+          ],
+          [
+            "University Allotment Letter (For Counseling Candidates)",
+            "2 Copy"
+          ],
+          [
+            "Result of Entrance Exam (for all) (Any one)",
+            "2 Copy"
+          ],
+          [
+            "X Marksheet",
+            "2 Copy & Original"
+          ],
+          [
+            "X Passing Certificate",
+            "2 Copy & Original"
+          ],
+          [
+            "XII Marksheet",
+            "2 Copy & Original"
+          ],
+          [
+            "XII Passing Certificate Undertaking (AD01) – If result awaited / Marksheets/Degree not available. Click Here",
+            "2 Copy & Original"
+          ],
+          [
+            "Diploma / Graduation Mark sheet - All Years",
+            "2 Copy & Original",
+            "-"
+          ],
+          [
+            "PDC/ Degree",
+            "2 Copy & Original",
+            "-"
+          ],
+          [
+            "Transfer Certificate (T.C.) (for UPBoard / UP Technical Board students)",
+            "1 Copy & Original",
+            "-"
+          ],
+          [
+            "Migration Certificate (other than UP Board/ Other Technical Board / Universities)",
+            "1 Copy & Original",
+            "-"
+          ],
+          [
+            "Character Certificate",
+            "1 Copy & Original",
+            "-"
+          ],
+          [
+            "Caste Certificate (in case of OBC Issued after 01.04.2025)",
+            "2 Copy",
+            "Only for SC/ST/OBC candidate"
+          ],
+          [
+            "Income certificate (Issued after 01.04.2025)/Income Tax Return (Current year) (If interested for any Govt. scholarship)",
+            "2 Copy",
+            "-"
+          ],
+          [
+            "Income certificate in case of EWS (If interested for any Govt. scholarship)",
+            "2 Copy",
+            "Click Here."
+          ],
+          [
+            "Gap Affidavit on Rs 10/- Stamp Paper (if any)",
+            "1 Copy & Original",
+            "-"
+          ],
+          [
+            "Domicile certificate",
+            "2 Copy",
+            "Certificate required if Qualifying examination passed outside UP, but parents are resident of UP."
+          ],
+          [
+            "Medical Fitness Certificate",
+            "1 Copy",
+            "Issued by CMO / Registered Doctor in prescribed format. Click Here."
+          ],
+          [
+            "Blood Group",
+            "1 Copy",
+            "Blood Test Report"
+          ],
+          [
+            "Candidate Photo Father & Mother photo",
+            "3 Photo @ 1 each",
+            "Write Name of Student & Branch on the backside of all Photos"
+          ],
+          [
+            "Aadhar Card (Self & Father and Mother)",
+            "2 Copy",
+            "-"
+          ],
+          [
+            "Declaration / Undertaking",
+            "Original",
+            "Undertaking (RO-S21) – Click Here."
+          ],
+          [
+            "Internet Use Undertaking",
+            "Original",
+            "Undertaking (CA-S1) Click Here."
+          ]
+        ],
+        "amounts": [
+          2025
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 20,
+        "score": 20,
+        "rows": [
+          [
+            "Particulars",
+            "Category of Accommodation for Boys & Fees"
+          ],
+          [
+            "Four Seater",
+            "Triple Seater",
+            "Double Seater"
+          ],
+          [
+            "Non AC(Rs.)",
+            "AC(Rs.)",
+            "Non AC(Rs.)",
+            "AC(Rs.)",
+            "Non AC(Rs.)",
+            "AC(Rs.)"
+          ],
+          [
+            "Hostel Registration Fee",
+            "500",
+            "500",
+            "500",
+            "500",
+            "500",
+            "500"
+          ],
+          [
+            "Laundry Charges (500 Clothes per year)",
+            "3500",
+            "3500",
+            "3500",
+            "3500",
+            "3500",
+            "3500"
+          ],
+          [
+            "Lodging & Boarding",
+            "127500",
+            "139000",
+            "134000",
+            "155000",
+            "145500",
+            "168500"
+          ],
+          [
+            "Total (Without Security)",
+            "131500",
+            "143000",
+            "138000",
+            "159000",
+            "149500",
+            "172500"
+          ],
+          [
+            "Hostel Security",
+            "₹5,000 (Refundable) Applicable one time only while opting hostel."
+          ],
+          [
+            "Total (2026-27)",
+            "136500",
+            "148000",
+            "143000",
+            "164000",
+            "154500",
+            "177500"
+          ]
+        ],
+        "amounts": [
+          2026,
+          3500,
+          5000,
+          127500,
+          131500,
+          134000,
+          136500,
+          138000,
+          139000,
+          143000,
+          145500,
+          148000,
+          149500,
+          154500,
+          155000,
+          159000,
+          164000,
+          168500,
+          172500,
+          177500
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 21,
+        "score": 20,
+        "rows": [
+          [
+            "Sr. No.",
+            "Particulars",
+            "Category of Accommodation for Girls & Fees"
+          ],
+          [
+            "Four Seater",
+            "Triple Seater",
+            "Double Seater"
+          ],
+          [
+            "AC (Rs.)",
+            "AC (Rs.)",
+            "AC (Rs.)"
+          ],
+          [
+            "1",
+            "Hostel Registration Fee",
+            "500",
+            "500",
+            "500"
+          ],
+          [
+            "2",
+            "Laundry Charges (500 Clothes per year)",
+            "3500",
+            "3500",
+            "3500"
+          ],
+          [
+            "3",
+            "Lodging & Boarding",
+            "139000",
+            "155000",
+            "168500"
+          ],
+          [
+            "4",
+            "Total (Without Security)",
+            "143000",
+            "159000",
+            "172500"
+          ],
+          [
+            "5",
+            "Hostel Security",
+            "₹5,000 (Refundable) Applicable one time only while opting hostel."
+          ],
+          [
+            "6",
+            "Total (2026-27)",
+            "148000",
+            "164000",
+            "177500"
+          ]
+        ],
+        "amounts": [
+          2026,
+          3500,
+          5000,
+          139000,
+          143000,
+          148000,
+          155000,
+          159000,
+          164000,
+          168500,
+          172500,
+          177500
+        ]
+      }
+    ],
+    "text_blocks": [
+      {
+        "text": "Please click the below mentioned link for the detailed information of the Fee structure (Academic & hostel) and required documents.",
+        "score": 30,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech 1st year (Direct Admission)",
+        "score": 30,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech 1st year (Direct Admission)",
+        "score": 30,
+        "amounts": []
+      },
+      {
+        "text": "Fee Structure (2026-27)",
+        "score": 30,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "Hostel Fee Structure for Boys",
+        "score": 30,
+        "amounts": []
+      },
+      {
+        "text": "Hostel Fee Structure for Girls",
+        "score": 30,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech (Lateral Entry)/BCA",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech (Lateral Entry)",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech (1st Year)",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech Lateral Entry (2nd Year)",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "Passed B.C.A/ B.Sc. (Computer Science)/ B.Sc. (IT) / B.E. (CSE)/ B.Tech. (CSE) / B.E. (IT) / B.Tech. (IT) or equivalent Degree.",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "Passed any graduation degree (e.g.: B.E. / B.Tech. / B.Sc / B.Com. / B.A./ B. Voc./ etc.,) with Mathematics at 10+2 level or at Graduation level Obtained at least 50% marks (45% marks in case of candidates belonging to SC/ST category) in the qualifying examination.",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech (1st Year)",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech (Lateral Entry to Second Year)",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech. (Lateral) 2nd Year (Only for Diploma Holders and B.Sc. etc.)",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech. (Lateral) 2nd Year (Only for Diploma Holders and B.Sc. etc.)",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech-LE",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech-WP",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "Academic Fee Structure for New Admissions",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "Fee Structure",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Fee Structure",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Fee Structure",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Fee Structure",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Fee Structure",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Tuition Fee",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Tuition Fee",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Tuition Fee",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Tuition Fee",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Tuition Fee",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Tuition Fee",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Tuition Fee",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Tuition Fee",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Tuition Fee",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Tuition Fee",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "In case of withdrawal from hostel, only Security, Mess & laundry charges (for unutilized months) are refundable on a pro rata basis.",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "15% seats will be offered to eligible candidate through direct admissions based on the guidelines of AICTE/AKTU and as per the college policy for the session 2026-27.",
+        "score": 15,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "₹5,000 (Refundable) Applicable one time only while opting hostel.",
+        "score": 15,
+        "amounts": [
+          5000
+        ]
+      },
+      {
+        "text": "₹5,000 (Refundable) Applicable one time only while opting hostel.",
+        "score": 15,
+        "amounts": [
+          5000
+        ]
+      },
+      {
+        "text": "Joint Entrance Examination JEE (Main) 2026",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "CUET (UG)-2026",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "CUET (PG)-2026",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "Joint Entrance Examination JEE (Main) 2026",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "CUET (UG)-2026",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "CUET (PG)-2026",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "85% seats of total approved intake will be filled through Counseling based on the JEE-2026 and eligibility notified by AICTE/AKTU for the session 2026-27.",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "(As per the UPTAC information Brochure published by AKTU for the Session 2026-27, it is subject to the change as per the further notification of AKTU for the session 2026-27)",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "COUNSELING As per AICTE Approval Process Handbook 2026-27",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "Demand Draft of Hostel Fee (If Opted)",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Caste Certificate (in case of OBC Issued after 01.04.2025)",
+        "score": 10,
+        "amounts": [
+          2025
+        ]
+      },
+      {
+        "text": "Income certificate (Issued after 01.04.2025)/Income Tax Return (Current year) (If interested for any Govt. scholarship)",
+        "score": 10,
+        "amounts": [
+          2025
+        ]
+      },
+      {
+        "text": "Demand Draft of Hostel Fee (If Opted)",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Caste Certificate (in case of OBC Issued after 01.04.2025)",
+        "score": 10,
+        "amounts": [
+          2025
+        ]
+      },
+      {
+        "text": "Income certificate (Issued after 01.04.2025)/Income Tax Return (Current year) (If interested for any Govt. scholarship)",
+        "score": 10,
+        "amounts": [
+          2025
+        ]
+      },
+      {
+        "text": "Hostel Registration Fee",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Hostel Security",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Total (2026-27)",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "Hostel Registration Fee",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Hostel Security",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Total (2026-27)",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "The use of desert coolers is strictly prohibited in the Girls’ Hostel. In the Boys’ Hostel, desert coolers may be used in accordance with college policy.",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Uniform (Mandatory) Session 2026-27",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "Refund Policy for Newly Admitted Students of Session 2026-27",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "Refund-Policy 2026-27",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      }
+    ],
+    "extraction_status": "EXTRACTED"
+  },
+  {
+    "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+    "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+    "academic_year": 2026,
+    "source_url": "https://www.abesit.in/admission/",
+    "source_type": "official_html",
+    "html_characters": 176552,
+    "text_characters": 23412,
+    "btech_detected": true,
+    "tuition_detected": true,
+    "hostel_detected": true,
+    "mess_detected": true,
+    "amounts": [
+      1000,
+      1100,
+      2024,
+      2025,
+      2026,
+      2027,
+      2500,
+      5000,
+      6000,
+      7500,
+      8000,
+      8211,
+      8212,
+      8217,
+      8500,
+      9228,
+      10000,
+      15000,
+      61100,
+      80000,
+      97000,
+      115000,
+      120000,
+      133000,
+      155000,
+      165000,
+      201009,
+      1767218,
+      5020003,
+      8448583,
+      9711060
+    ],
+    "tables": [
+      {
+        "type": "table",
+        "table_index": 4,
+        "score": 60,
+        "rows": [
+          [
+            "Fee Head",
+            "Lateral Entry Second Year (Lateral UPTAC / Lateral Direct)"
+          ],
+          [
+            "Tuition Fee*",
+            "80,000/-*"
+          ],
+          [
+            "The fee for lateral entry cases is subsidized to support Diploma pass candidate entry into B.Tech.Subject to change as per the approval of the State Government / Fee Fixation Committee"
+          ],
+          [
+            "Registration & Documentation Fee (Annually)",
+            "7,500/-"
+          ],
+          [
+            "**Student Activity (Annually)",
+            "15,000/-"
+          ],
+          [
+            "Cultural & Technical Events viz. Hacknovate, Codathon, Annual Function etc."
+          ],
+          [
+            "Training & Personality Development Program (Annually)",
+            "10,000/-"
+          ],
+          [
+            "Entrepreneurial Skill Development Fee (Annually)",
+            "7,500/-"
+          ],
+          [
+            "To facilitate industry interaction, innovation activities, expert sessions etc."
+          ],
+          [
+            "Enrollment Fees & Examination Fees",
+            "To be Paid by the students directly to the AKTU University, LucknowLast Session 2025-26 (Approx. 1,000/- + 7,500/- = Rs. 8,500/-)"
+          ],
+          [
+            "Uniform Fabric (One Time Charge)",
+            "Rs. 7,500/- cash only (at the time of admission only)Includes fabric of 03-Trousers, 03-Shirts, 01-Blazer and readymade 01-Tie, 01-TShirt, 01-Sweater and 01-Sweatshirt from Raymonds Clothing."
+          ],
+          [
+            "ERP Services (Mobile App) (One Time Charge)",
+            "Rs. 6,000/- cash only (at the time of admission only)Charges paid to Global Infoventures Private Limited."
+          ],
+          [
+            "Medical Insurance (Annually)",
+            "Rs. 1,100/-Charges paid to Bajaj Allianz General Insurance Company Limited."
+          ],
+          [
+            "Academic Security (One-time)",
+            "Rs. 5,000/-Refundable as per Security Refund Policy"
+          ],
+          [
+            "Admission Process & Documentation Fees (Non-refundable)",
+            "Rs. 8,000/- (In cases where a student initially takes admission under the Direct Category and subsequently, during counselling, the admission is converted to the Counselling Category, the applicable charges shall continue to apply and shall remain non-refundable))"
+          ]
+        ],
+        "amounts": [
+          1000,
+          1100,
+          2025,
+          5000,
+          6000,
+          7500,
+          8000,
+          8500,
+          10000,
+          15000,
+          80000
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 1,
+        "score": 35,
+        "rows": [
+          [
+            "Fee Head",
+            "For Students Admitted in 2026-2027"
+          ],
+          [
+            "Counseling",
+            "Direct/Vacant",
+            "Fee Waiver"
+          ],
+          [
+            "Tuition Fee*",
+            "97,000/-*",
+            "97,000/-*",
+            "–"
+          ],
+          [
+            "Subject to change as per the approval of the State Government / Fee Fixation Committee"
+          ],
+          [
+            "Registration & Documentation Fee (Annually)",
+            "7,500/-",
+            "7,500/-",
+            "7,500/-"
+          ],
+          [
+            "**Student Activity (Annually)",
+            "15,000/-",
+            "15,000/-",
+            "15,000/-"
+          ],
+          [
+            "Cultural & Technical Events viz. Hacknovate, Codathon, Annual Function etc."
+          ],
+          [
+            "Training & Personality Development Program (Annually)",
+            "15,000/-",
+            "15,000/-",
+            "15,000/-"
+          ],
+          [
+            "Entrepreneurial Skill Development Fee (Annually)",
+            "7,500/-",
+            "7,500/-",
+            "7,500/-"
+          ],
+          [
+            "To facilitate industry interaction, innovation activities, expert sessions etc."
+          ],
+          [
+            "Enrollment Fees & Examination Fees",
+            "To be Paid by the students directly to the AKTU University, LucknowLast Session 2025-26 (Approx. 1,000/- + 7,500/- = Rs. 8,500/-)"
+          ],
+          [
+            "Uniform Fabric (One Time Charge)",
+            "Rs. 7,500/- cash only (at the time of admission only)Includes fabric of 03-Trousers, 03-Shirts, 01-Blazer and readymade 01-Tie, 01-TShirt, 01-Sweater and 01-Sweatshirt from Raymonds Clothing."
+          ],
+          [
+            "ERP Services (Mobile App) (One Time Charge)",
+            "Rs. 6,000/- cash only (at the time of admission only)Charges paid to Global Infoventures Private Limited."
+          ],
+          [
+            "Medical Insurance (Annually)",
+            "Rs. 1,100/-Charges paid to Bajaj Allianz General Insurance Company Limited."
+          ],
+          [
+            "Academic Security (One-time)",
+            "Rs. 5,000/-Refundable as per Security Refund Policy"
+          ],
+          [
+            "Admission Process & Documentation Fees (Non-refundable)",
+            "Rs. 8,000/- (In cases where a student initially takes admission under the Direct Category and subsequently, during counselling, the admission is converted to the Counselling Category, the applicable charges shall continue to apply and shall remain non-refundable)"
+          ]
+        ],
+        "amounts": [
+          1000,
+          1100,
+          2025,
+          2026,
+          2027,
+          5000,
+          6000,
+          7500,
+          8000,
+          8500,
+          15000,
+          97000
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 2,
+        "score": 35,
+        "rows": [
+          [
+            "Fee Head",
+            "For Students Admitted in 2026-2027"
+          ],
+          [
+            "Counseling",
+            "Direct/Vacant",
+            "Fee Waiver"
+          ],
+          [
+            "Tuition Fee*",
+            "61,100/-*",
+            "61,100/-*",
+            "–"
+          ],
+          [
+            "Subject to change as per the approval of the State Government / Fee Fixation Committee"
+          ],
+          [
+            "Registration & Documentation Fee (Annually)",
+            "7,500/-",
+            "7,500/-",
+            "7,500/-"
+          ],
+          [
+            "**Student Activity (Annually)",
+            "7,500/-",
+            "7,500/-",
+            "7,500/-"
+          ],
+          [
+            "Cultural & Technical Events viz. Hacknovate, Codathon, Annual Function etc."
+          ],
+          [
+            "Training & Personality Development Program (Annually)",
+            "5,000/-",
+            "5,000/-",
+            "5,000/-"
+          ],
+          [
+            "Enrollment Fees & Examination Fees",
+            "To be Paid by the students directly to the AKTU University, LucknowLast Session 2025-26 (Approx. 1,000/- + 7,500/- = Rs. 8,500/-)"
+          ],
+          [
+            "Uniform Fabric (One Time Charge)",
+            "Rs. 7,500/- cash only (at the time of admission only)Includes fabric of 03-Trousers, 03-Shirts, 01-Blazer and readymade 01-Tie, 01-TShirt, 01-Sweater and 01-Sweatshirt from Raymonds Clothing."
+          ],
+          [
+            "ERP Services (Mobile App) (One Time Charge)",
+            "Rs. 6,000/- cash only (at the time of admission only)Charges paid to Global Infoventures Private Limited."
+          ],
+          [
+            "Medical Insurance (Annually)",
+            "Rs. 1,100/-Charges paid to Bajaj Allianz General Insurance Company Limited."
+          ],
+          [
+            "Academic Security (One-time)",
+            "Rs. 5,000/-Refundable as per Security Refund Policy"
+          ],
+          [
+            "Admission Process & Documentation Fees (Non-refundable)",
+            "Rs. 8,000/- (In cases where a student initially takes admission under the Direct Category and subsequently, during counselling, the admission is converted to the Counselling Category, the applicable charges shall continue to apply and shall remain non-refundable)"
+          ]
+        ],
+        "amounts": [
+          1000,
+          1100,
+          2025,
+          2026,
+          2027,
+          5000,
+          6000,
+          7500,
+          8000,
+          8500,
+          61100
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 5,
+        "score": 35,
+        "rows": [
+          [
+            "Fee Head",
+            "Lateral Entry Second Year"
+          ],
+          [
+            "Tuition Fee*",
+            "80,000/-*"
+          ],
+          [
+            "The fee for lateral entry cases is subsidized to support Diploma pass candidate entry into B.Pharm.Subject to change as per the approval of the State Government / Fee Fixation Committee"
+          ],
+          [
+            "Registration & Documentation Fee (Annually)",
+            "7,500/-"
+          ],
+          [
+            "**Student Activity (Annually)",
+            "15,000/-"
+          ],
+          [
+            "Cultural & Technical Events viz. Hacknovate, Codathon, Annual Function etc."
+          ],
+          [
+            "Training & Personality Development Program (Annually)",
+            "10,000/-"
+          ],
+          [
+            "Entrepreneurial Skill Development Fee (Annually)",
+            "7,500/-"
+          ],
+          [
+            "To facilitate industry interaction, innovation activities, expert sessions etc."
+          ],
+          [
+            "Enrollment Fees & Examination Fees",
+            "To be Paid by the students directly to the AKTU University, LucknowLast Session 2025-26 (Approx. 1,000/- + 7,500/- = Rs. 8,500/-)"
+          ],
+          [
+            "Uniform Fabric (One Time Charge)",
+            "Rs. 7,500/- cash only (at the time of admission only)Includes fabric of 03-Trousers, 03-Shirts, 01-Blazer and readymade 01-Tie, 01-TShirt, 01-Sweater and 01-Sweatshirt from Raymonds Clothing."
+          ],
+          [
+            "ERP Services (Mobile App) (One Time Charge)",
+            "Rs. 6,000/- cash only (at the time of admission only)Charges paid to Global Infoventures Private Limited."
+          ],
+          [
+            "Medical Insurance (Annually)",
+            "Rs. 1,100/-Charges paid to Bajaj Allianz General Insurance Company Limited."
+          ],
+          [
+            "Academic Security (One-time)",
+            "Rs. 5,000/-Refundable as per Security Refund Policy"
+          ],
+          [
+            "Admission Process & Documentation Fees (Non-refundable)",
+            "Rs. 8,000/- (In cases where a student initially takes admission under the Direct Category and subsequently, during counselling, the admission is converted to the Counselling Category, the applicable charges shall continue to apply and shall remain non-refundable))"
+          ]
+        ],
+        "amounts": [
+          1000,
+          1100,
+          2025,
+          5000,
+          6000,
+          7500,
+          8000,
+          8500,
+          10000,
+          15000,
+          80000
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 0,
+        "score": 25,
+        "rows": [
+          [
+            "B. Tech. Programs",
+            "Duration",
+            "Seats Intake"
+          ],
+          [
+            "B.Tech. in Computer Science and Engineering",
+            "4 Years",
+            "360"
+          ],
+          [
+            "B.Tech. in Computer Science and Engineering (AI)",
+            "4 Years",
+            "420"
+          ],
+          [
+            "B.Tech. in Computer Science and Engineering (Data Science)",
+            "4 Years",
+            "120"
+          ],
+          [
+            "BBA (Bachelor of Business Administration)",
+            "3 Years",
+            "240"
+          ],
+          [
+            "BCA (Bachelor of Computer Application)",
+            "3 Years",
+            "240"
+          ]
+        ],
+        "amounts": []
+      },
+      {
+        "type": "table",
+        "table_index": 3,
+        "score": 15,
+        "rows": [
+          [
+            "BOYS HOSTEL FEES"
+          ],
+          [
+            "PARTICULARS",
+            "NON-AC (Per Student)",
+            "AC (Per Student)"
+          ],
+          [
+            "DOUBLE SEATER",
+            "1,15,000",
+            "1,55,000"
+          ],
+          [
+            "TRIPLE SEATER",
+            "—",
+            "1,33,000"
+          ],
+          [
+            "GIRLS HOSTEL FEES"
+          ],
+          [
+            "PARTICULARS",
+            "NON-AC (Per Student)",
+            "AC (Per student)"
+          ],
+          [
+            "SINGLE SEATER",
+            "1,20,000",
+            "1,65,000"
+          ],
+          [
+            "DOUBLE SEATER",
+            "1,15,000",
+            "1,55,000"
+          ],
+          [
+            "TRIPLE SEATER",
+            "—",
+            "1,33,000"
+          ]
+        ],
+        "amounts": [
+          115000,
+          120000,
+          133000,
+          155000,
+          165000
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 7,
+        "score": 10,
+        "rows": [
+          [
+            "S.NO",
+            "Documents",
+            "Remarks"
+          ],
+          [
+            "1",
+            "Qualified Rank letter-2026*",
+            "Copy – 01 nos."
+          ],
+          [
+            "2",
+            "Allotment Letter (Admitted through Counseling)",
+            "Original with one photocopy"
+          ],
+          [
+            "3",
+            "High School Marks Sheet and Certificate",
+            "Self Attested Copies – 02 nos."
+          ],
+          [
+            "4",
+            "Intermediate Marks sheet and Certificate",
+            "Self Attested Copies – 02 nos."
+          ],
+          [
+            "Graduation Marks sheet and Certificate (For MCA Students)",
+            "Self Attested Copies – 02 nos."
+          ],
+          [
+            "5",
+            "Transfer Certificate",
+            "Original with one photocopy"
+          ],
+          [
+            "6",
+            "Migration Certificate (Not applicable for UP board candidate)",
+            "Original with one photocopy"
+          ],
+          [
+            "7",
+            "Affidavit for Gap on Rs 10/- Stamp Paper (if any)",
+            "Original with one photocopy"
+          ],
+          [
+            "8",
+            "Aadhar Card of Candidate and Parents",
+            "Copies – 02 nos."
+          ],
+          [
+            "9",
+            "Caste Certificate (OBC** & SC/ST only) **Candidate of OBC Category have to submit their Caste Certificate issued by Competent Authority on or after 1st April 2026.",
+            "Copies – 02 nos."
+          ],
+          [
+            "10",
+            "Income Certificate (For FW/EWS)",
+            "Copy – 01 nos."
+          ],
+          [
+            "11",
+            "Candidate’s Medical Certificate",
+            "Original with one photocopy"
+          ],
+          [
+            "12",
+            "Candidate’s Character Certificate",
+            "Original with one photocopy"
+          ],
+          [
+            "13",
+            "Candidate’s Photograph",
+            "08 Coloured PP size"
+          ],
+          [
+            "14",
+            "Parents Photograph (Mother & Father)",
+            "01 Coloured PP size each"
+          ]
+        ],
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 8,
+        "score": 10,
+        "rows": [
+          [
+            "S.NO",
+            "Documents",
+            "Remarks"
+          ],
+          [
+            "1",
+            "Qualified Rank letter-2026*",
+            "Copy – 01 nos."
+          ],
+          [
+            "2",
+            "Allotment Letter (Admitted through Counseling)",
+            "Original with one photocopy"
+          ],
+          [
+            "3",
+            "High School Marks Sheet and Certificate",
+            "Self Attested Copies – 02 nos."
+          ],
+          [
+            "4",
+            "Intermediate Marks sheet and Certificate",
+            "Self Attested Copies – 02 nos."
+          ],
+          [
+            "5",
+            "Diploma / Graduation Marks sheet and Certificate",
+            "Attested Copies – 02 nos."
+          ],
+          [
+            "6",
+            "Transfer Certificate",
+            "Original with one photocopy"
+          ],
+          [
+            "7",
+            "Migration Certificate (Not applicable for UP board candidate)",
+            "Original with one photocopy"
+          ],
+          [
+            "8",
+            "Affidavit for Gap on Rs 10/- Stamp Paper (if any)",
+            "Original with one photocopy"
+          ],
+          [
+            "9",
+            "Aadhar Card of Candidate and Parents",
+            "Copies – 02 nos."
+          ],
+          [
+            "10",
+            "Domicile Certificate of U.P. (Parents) (Compulsary)",
+            "Copies – 02 nos."
+          ],
+          [
+            "11",
+            "Caste Certificate (OBC** & SC/ST only) **Candidate of OBC Category have to submit their Caste Certificate issued by Competent Authority on or after 1st April 2026.",
+            "Copies – 02 nos."
+          ],
+          [
+            "12",
+            "Income Certificate (For FW/EWS)",
+            "Copy – 01 nos."
+          ],
+          [
+            "13",
+            "Candidate’s Medical Certificate",
+            "Original with one photocopy"
+          ],
+          [
+            "14",
+            "Candidate’s Character Certificate",
+            "Original with one photocopy"
+          ],
+          [
+            "15",
+            "Candidate’s Photograph",
+            "08 Coloured PP size"
+          ],
+          [
+            "16",
+            "Parents Photograph (Mother & Father)",
+            "01 Coloured PP size each"
+          ]
+        ],
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "type": "table",
+        "table_index": 6,
+        "score": 5,
+        "rows": [
+          [
+            "ABES INSTITUTE OF TECHNOLOGY"
+          ],
+          [
+            "Bank Name",
+            "HDFC Bank Ltd."
+          ],
+          [
+            "Branch",
+            "Crossing Republik"
+          ],
+          [
+            "A/C NO.",
+            "50200031526069"
+          ],
+          [
+            "RTGS Code",
+            "HDFC0009228"
+          ],
+          [
+            "IFSC CODE",
+            "HDFC0009228"
+          ],
+          [
+            "Note : Please Don’t deposit Cash in this A/C"
+          ]
+        ],
+        "amounts": [
+          9228,
+          5020003
+        ]
+      }
+    ],
+    "text_blocks": [
+      {
+        "text": "Academic Fee for B. Tech. Candidate seeking admission in",
+        "score": 30,
+        "amounts": []
+      },
+      {
+        "text": "Academic Fee for B.Tech. Candidate seeking admission in",
+        "score": 30,
+        "amounts": []
+      },
+      {
+        "text": "Does ABESIT Group of Institutions offer Lateral Entry Admission (2nd Year of B. Tech)?",
+        "score": 30,
+        "amounts": []
+      },
+      {
+        "text": "Yes, ABESIT Group of Institutions offers Lateral Entry Admission (2nd Year of B. Tech). For more details in this regard, you can visit the admission page on our website.",
+        "score": 30,
+        "amounts": []
+      },
+      {
+        "text": "B. Tech. Programs",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech. in Computer Science and Engineering",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech. in Computer Science and Engineering (AI)",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech. in Computer Science and Engineering (Data Science)",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "The fee for lateral entry cases is subsidized to support Diploma pass candidate entry into B.Tech.Subject to change as per the approval of the State Government / Fee Fixation Committee",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "List of Documents required for B.Tech. 1st year / BBA 1st year/ BCA 1st year",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "List of Documents required for B.Tech. 2nd year Lateral Entry",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech- 4 Years",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech Lateral Entry- 3 Years",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech. in Computer Science and Engineering (NBA accredited)",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B. Tech in Information Technology (NBA accredited)",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B.Tech. in Computer Science and Engineering (DATA SCIENCE)",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "B. Tech Computer Science and Engineering (Artificial Intelligence)",
+        "score": 25,
+        "amounts": []
+      },
+      {
+        "text": "Tuition Fee*",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Tuition Fee*",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "*The Tuition Fee part of Academic Fee is subject to change as per the approval of the State Government/ Fee Fixation Committee.",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Hostel Fees Structure for Session 2026-2027",
+        "score": 20,
+        "amounts": [
+          2026,
+          2027
+        ]
+      },
+      {
+        "text": "Tuition Fee*",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Tuition Fee*",
+        "score": 20,
+        "amounts": []
+      },
+      {
+        "text": "Admission 2026",
+        "score": 15,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "CUET 2026 covers admission to the second year for engineering diploma holders and B.Sc. graduates.",
+        "score": 15,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "Student will have to submit the above mentioned documents before 15th September 2026 otherwise their admission will automatically stand cancelled.",
+        "score": 15,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "Student will have to submit the above mentioned documents before 15th September 2026 otherwise their admission will automatically stand cancelled.",
+        "score": 15,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "/*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\udde8\\ud83c\\uddf6\",\"\\ud83c\\udde8\\u200b\\ud83c\\uddf6\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!r(e,\"\\ud83e\\u1fac8\")}return!1}function f(e,t,n,r){let a;const s=(a=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement(\"canvas\")).getContext(\"2d\",{willReadFrequently:!0}),o=(s.textBaseline=\"top\",s.font=\"600 32px Arial\",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"});const a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))}); //# sourceURL=https://www.abesit.in/wp-includes/js/wp-emoji-loader.min.js",
+        "score": 15,
+        "amounts": [
+          161611,
+          300150,
+          604800
+        ]
+      },
+      {
+        "text": "UPTAC-2026",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "Convocation 2026",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "Brochure 2026",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "85% of seats of the total approved intake will be filled through Counseling (based on the JEE- 2026 main ranks).",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "Hostel Fees",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "1 Year of Session 2026-2027",
+        "score": 10,
+        "amounts": [
+          2026,
+          2027
+        ]
+      },
+      {
+        "text": "For Students Admitted in 2026-2027",
+        "score": 10,
+        "amounts": [
+          2026,
+          2027
+        ]
+      },
+      {
+        "text": "To be Paid by the students directly to the AKTU University, LucknowLast Session 2025-26 (Approx. 1,000/- + 7,500/- = Rs. 8,500/-)",
+        "score": 10,
+        "amounts": [
+          1000,
+          2025,
+          7500,
+          8500
+        ]
+      },
+      {
+        "text": "Rs. 7,500/- cash only (at the time of admission only)Includes fabric of 03-Trousers, 03-Shirts, 01-Blazer and readymade 01-Tie, 01-TShirt, 01-Sweater and 01-Sweatshirt from Raymonds Clothing.",
+        "score": 10,
+        "amounts": [
+          7500
+        ]
+      },
+      {
+        "text": "Rs. 6,000/- cash only (at the time of admission only)Charges paid to Global Infoventures Private Limited.",
+        "score": 10,
+        "amounts": [
+          6000
+        ]
+      },
+      {
+        "text": "Rs. 8,000/- (In cases where a student initially takes admission under the Direct Category and subsequently, during counselling, the admission is converted to the Counselling Category, the applicable charges shall continue to apply and shall remain non-refundable)",
+        "score": 10,
+        "amounts": [
+          8000
+        ]
+      },
+      {
+        "text": "1 Year of Session 2026-2027",
+        "score": 10,
+        "amounts": [
+          2026,
+          2027
+        ]
+      },
+      {
+        "text": "For Students Admitted in 2026-2027",
+        "score": 10,
+        "amounts": [
+          2026,
+          2027
+        ]
+      },
+      {
+        "text": "To be Paid by the students directly to the AKTU University, LucknowLast Session 2025-26 (Approx. 1,000/- + 7,500/- = Rs. 8,500/-)",
+        "score": 10,
+        "amounts": [
+          1000,
+          2025,
+          7500,
+          8500
+        ]
+      },
+      {
+        "text": "Rs. 7,500/- cash only (at the time of admission only)Includes fabric of 03-Trousers, 03-Shirts, 01-Blazer and readymade 01-Tie, 01-TShirt, 01-Sweater and 01-Sweatshirt from Raymonds Clothing.",
+        "score": 10,
+        "amounts": [
+          7500
+        ]
+      },
+      {
+        "text": "Rs. 6,000/- cash only (at the time of admission only)Charges paid to Global Infoventures Private Limited.",
+        "score": 10,
+        "amounts": [
+          6000
+        ]
+      },
+      {
+        "text": "Rs. 8,000/- (In cases where a student initially takes admission under the Direct Category and subsequently, during counselling, the admission is converted to the Counselling Category, the applicable charges shall continue to apply and shall remain non-refundable)",
+        "score": 10,
+        "amounts": [
+          8000
+        ]
+      },
+      {
+        "text": "Hostel Fees",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "BOYS HOSTEL FEES",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "GIRLS HOSTEL FEES",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Facilities in Hostel –",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Guidelines for Hostel –",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Hostel security fees (one-time) will be (for each student). The security fee is refundable once the student will leave the Hostel Premises.",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Hostel registration fee will be (for each student).",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Students residing in hostel rooms will ensure that door and windows of the room should not be found open under any circumstances when AC is working.",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Only Vegetarian food will be available in mess.",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "The payment of Hostel fee would be annual for all and is to be paid in full. Fees once paid will not be refunded or transferred to any other fee or transferred to the name of any other person under any circumstances.",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "2 Year of Session 2026-2027",
+        "score": 10,
+        "amounts": [
+          2026,
+          2027
+        ]
+      },
+      {
+        "text": "To be Paid by the students directly to the AKTU University, LucknowLast Session 2025-26 (Approx. 1,000/- + 7,500/- = Rs. 8,500/-)",
+        "score": 10,
+        "amounts": [
+          1000,
+          2025,
+          7500,
+          8500
+        ]
+      },
+      {
+        "text": "Rs. 7,500/- cash only (at the time of admission only)Includes fabric of 03-Trousers, 03-Shirts, 01-Blazer and readymade 01-Tie, 01-TShirt, 01-Sweater and 01-Sweatshirt from Raymonds Clothing.",
+        "score": 10,
+        "amounts": [
+          7500
+        ]
+      },
+      {
+        "text": "Rs. 6,000/- cash only (at the time of admission only)Charges paid to Global Infoventures Private Limited.",
+        "score": 10,
+        "amounts": [
+          6000
+        ]
+      },
+      {
+        "text": "Rs. 8,000/- (In cases where a student initially takes admission under the Direct Category and subsequently, during counselling, the admission is converted to the Counselling Category, the applicable charges shall continue to apply and shall remain non-refundable))",
+        "score": 10,
+        "amounts": [
+          8000
+        ]
+      },
+      {
+        "text": "2 Year of Session 2026-2027",
+        "score": 10,
+        "amounts": [
+          2026,
+          2027
+        ]
+      },
+      {
+        "text": "To be Paid by the students directly to the AKTU University, LucknowLast Session 2025-26 (Approx. 1,000/- + 7,500/- = Rs. 8,500/-)",
+        "score": 10,
+        "amounts": [
+          1000,
+          2025,
+          7500,
+          8500
+        ]
+      },
+      {
+        "text": "Rs. 7,500/- cash only (at the time of admission only)Includes fabric of 03-Trousers, 03-Shirts, 01-Blazer and readymade 01-Tie, 01-TShirt, 01-Sweater and 01-Sweatshirt from Raymonds Clothing.",
+        "score": 10,
+        "amounts": [
+          7500
+        ]
+      },
+      {
+        "text": "Rs. 6,000/- cash only (at the time of admission only)Charges paid to Global Infoventures Private Limited.",
+        "score": 10,
+        "amounts": [
+          6000
+        ]
+      },
+      {
+        "text": "Rs. 8,000/- (In cases where a student initially takes admission under the Direct Category and subsequently, during counselling, the admission is converted to the Counselling Category, the applicable charges shall continue to apply and shall remain non-refundable))",
+        "score": 10,
+        "amounts": [
+          8000
+        ]
+      },
+      {
+        "text": "Qualified Rank letter-2026*",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "**Candidate of OBC Category have to submit their Caste Certificate issued by Competent Authority on or after 1st April 2026.",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "Qualified Rank letter-2026*",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "**Candidate of OBC Category have to submit their Caste Certificate issued by Competent Authority on or after 1st April 2026.",
+        "score": 10,
+        "amounts": [
+          2026
+        ]
+      },
+      {
+        "text": "Leadership Message",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Leadership Message",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Hostel Fee",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "Leadership Message",
+        "score": 10,
+        "amounts": []
+      },
+      {
+        "text": "acf.data = {\"select2L10n\":{\"matches_1\":\"One result is available, press enter to select it.\",\"matches_n\":\"%d results are available, use up and down arrow keys to navigate.\",\"matches_0\":\"No matches found\",\"input_too_short_1\":\"Please enter 1 or more characters\",\"input_too_short_n\":\"Please enter %d or more characters\",\"input_too_long_1\":\"Please delete 1 character\",\"input_too_long_n\":\"Please delete %d characters\",\"selection_too_long_1\":\"You can only select 1 item\",\"selection_too_long_n\":\"You can only select %d items\",\"load_more\":\"Loading more results&hellip;\",\"searching\":\"Searching&hellip;\",\"load_fail\":\"Loading failed\"},\"google_map_api\":\"https:\\/\\/maps.googleapis.com\\/maps\\/api\\/js?libraries=places&ver=3&callback=Function.prototype&language=en_US\",\"datePickerL10n\":{\"closeText\":\"Done\",\"currentText\":\"Today\",\"nextText\":\"Next\",\"prevText\":\"Prev\",\"weekHeader\":\"Wk\",\"monthNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"],\"monthNamesShort\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"],\"dayNames\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"],\"dayNamesMin\":[\"S\",\"M\",\"T\",\"W\",\"T\",\"F\",\"S\"],\"dayNamesShort\":[\"Sun\",\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\"]},\"dateTimePickerL10n\":{\"timeOnlyTitle\":\"Choose Time\",\"timeText\":\"Time\",\"hourText\":\"Hour\",\"minuteText\":\"Minute\",\"secondText\":\"Second\",\"millisecText\":\"Millisecond\",\"microsecText\":\"Microsecond\",\"timezoneText\":\"Time Zone\",\"currentText\":\"Now\",\"closeText\":\"Done\",\"selectText\":\"Select\",\"amNames\":[\"AM\",\"A\"],\"pmNames\":[\"PM\",\"P\"]},\"colorPickerL10n\":{\"hex_string\":\"Hex String\",\"rgba_string\":\"RGBA String\"},\"mimeTypeIcon\":\"https:\\/\\/www.abesit.in\\/wp-includes\\/images\\/media\\/default.png\",\"mimeTypes\":{\"jpg|jpeg|jpe\":\"image\\/jpeg\",\"gif\":\"image\\/gif\",\"png\":\"image\\/png\",\"bmp\":\"image\\/bmp\",\"tiff|tif\":\"image\\/tiff\",\"webp\":\"image\\/webp\",\"avif\":\"image\\/avif\",\"ico\":\"image\\/x-icon\",\"heic\":\"image\\/heic\",\"heif\":\"image\\/heif\",\"heics\":\"image\\/heic-sequence\",\"heifs\":\"image\\/heif-sequence\",\"asf|asx\":\"video\\/x-ms-asf\",\"wmv\":\"video\\/x-ms-wmv\",\"wmx\":\"video\\/x-ms-wmx\",\"wm\":\"video\\/x-ms-wm\",\"avi\":\"video\\/avi\",\"divx\":\"video\\/divx\",\"flv\":\"video\\/x-flv\",\"mov|qt\":\"video\\/quicktime\",\"mpeg|mpg|mpe\":\"video\\/mpeg\",\"mp4|m4v\":\"video\\/mp4\",\"ogv\":\"video\\/ogg\",\"webm\":\"video\\/webm\",\"mkv\":\"video\\/x-matroska\",\"3gp|3gpp\":\"video\\/3gpp\",\"3g2|3gp2\":\"video\\/3gpp2\",\"txt|asc|c|cc|h|srt\":\"text\\/plain\",\"csv\":\"text\\/csv\",\"tsv\":\"text\\/tab-separated-values\",\"ics\":\"text\\/calendar\",\"rtx\":\"text\\/richtext\",\"css\":\"text\\/css\",\"vtt\":\"text\\/vtt\",\"dfxp\":\"application\\/ttaf+xml\",\"mp3|m4a|m4b\":\"audio\\/mpeg\",\"aac\":\"audio\\/aac\",\"ra|ram\":\"audio\\/x-realaudio\",\"wav|x-wav\":\"audio\\/wav\",\"ogg|oga\":\"audio\\/ogg\",\"flac\":\"audio\\/flac\",\"mid|midi\":\"audio\\/midi\",\"wma\":\"audio\\/x-ms-wma\",\"wax\":\"audio\\/x-ms-wax\",\"mka\":\"audio\\/x-matroska\",\"rtf\":\"application\\/rtf\",\"pdf\":\"application\\/pdf\",\"class\":\"application\\/java\",\"tar\":\"application\\/x-tar\",\"zip\":\"application\\/zip\",\"gz|gzip\":\"application\\/x-gzip\",\"rar\":\"application\\/rar\",\"7z\":\"application\\/x-7z-compressed\",\"psd\":\"application\\/octet-stream\",\"xcf\":\"application\\/octet-stream\",\"doc\":\"application\\/msword\",\"pot|pps|ppt\":\"application\\/vnd.ms-powerpoint\",\"wri\":\"application\\/vnd.ms-write\",\"xla|xls|xlt|xlw\":\"application\\/vnd.ms-excel\",\"mdb\":\"application\\/vnd.ms-access\",\"mpp\":\"application\\/vnd.ms-project\",\"docx\":\"application\\/vnd.openxmlformats-officedocument.wordprocessingml.document\",\"docm\":\"application\\/vnd.ms-word.document.macroEnabled.12\",\"dotx\":\"application\\/vnd.openxmlformats-officedocument.wordprocessingml.template\",\"dotm\":\"application\\/vnd.ms-word.template.macroEnabled.12\",\"xlsx\":\"application\\/vnd.openxmlformats-officedocument.spreadsheetml.sheet\",\"xlsm\":\"application\\/vnd.ms-excel.sheet.macroEnabled.12\",\"xlsb\":\"application\\/vnd.ms-excel.sheet.binary.macroEnabled.12\",\"xltx\":\"application\\/vnd.openxmlformats-officedocument.spreadsheetml.template\",\"xltm\":\"application\\/vnd.ms-excel.template.macroEnabled.12\",\"xlam\":\"application\\/vnd.ms-excel.addin.macroEnabled.12\",\"pptx\":\"application\\/vnd.openxmlformats-officedocument.presentationml.presentation\",\"pptm\":\"application\\/vnd.ms-powerpoint.presentation.macroEnabled.12\",\"ppsx\":\"application\\/vnd.openxmlformats-officedocument.presentationml.slideshow\",\"ppsm\":\"application\\/vnd.ms-powerpoint.slideshow.macroEnabled.12\",\"potx\":\"application\\/vnd.openxmlformats-officedocument.presentationml.template\",\"potm\":\"application\\/vnd.ms-powerpoint.template.macroEnabled.12\",\"ppam\":\"application\\/vnd.ms-powerpoint.addin.macroEnabled.12\",\"sldx\":\"application\\/vnd.openxmlformats-officedocument.presentationml.slide\",\"sldm\":\"application\\/vnd.ms-powerpoint.slide.macroEnabled.12\",\"onetoc|onetoc2|onetmp|onepkg\":\"application\\/onenote\",\"oxps\":\"application\\/oxps\",\"xps\":\"application\\/vnd.ms-xpsdocument\",\"odt\":\"application\\/vnd.oasis.opendocument.text\",\"odp\":\"application\\/vnd.oasis.opendocument.presentation\",\"ods\":\"application\\/vnd.oasis.opendocument.spreadsheet\",\"odg\":\"application\\/vnd.oasis.opendocument.graphics\",\"odc\":\"application\\/vnd.oasis.opendocument.chart\",\"odb\":\"application\\/vnd.oasis.opendocument.database\",\"odf\":\"application\\/vnd.oasis.opendocument.formula\",\"wp|wpd\":\"application\\/wordperfect\",\"key\":\"application\\/vnd.apple.keynote\",\"numbers\":\"application\\/vnd.apple.numbers\",\"pages\":\"application\\/vnd.apple.pages\"},\"admin_url\":\"https:\\/\\/www.abesit.in\\/wp-admin\\/\",\"ajaxurl\":\"https:\\/\\/www.abesit.in\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ed8dc94d61\",\"acf_version\":\"6.1.6\",\"wp_version\":\"7.1\",\"browser\":\"chrome\",\"locale\":\"en_US\",\"rtl\":false,\"screen\":null,\"post_id\":null,\"validation\":null,\"editor\":\"classic\",\"is_pro\":true};",
+        "score": 10,
+        "amounts": []
+      }
+    ],
+    "extraction_status": "EXTRACTED"
+  }
+]

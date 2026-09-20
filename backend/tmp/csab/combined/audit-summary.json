@@ -1,0 +1,77 @@
+{
+  "summary": {
+    "years": [
+      2026,
+      2025,
+      2024
+    ],
+    "total_rows": 34981,
+    "unique_institutes": 114,
+    "unique_programs": 193,
+    "cross_year_identity_duplicates": 0,
+    "exact_duplicates": 0,
+    "invalid_ranks": 0,
+    "reversed_opening_closing": 0,
+    "dasa_contamination": 0,
+    "missing_core_fields": 0,
+    "quotas": [
+      "AI",
+      "All India",
+      "GO",
+      "HS",
+      "Home State",
+      "Home State for Goa",
+      "JK",
+      "Jammu & Kashmir (UT)",
+      "LA",
+      "Ladakh (UT)",
+      "OS",
+      "Other State"
+    ],
+    "categories": [
+      "EWS",
+      "EWS (PwD)",
+      "OBC-NCL",
+      "OBC-NCL (PwD)",
+      "OPEN",
+      "OPEN (PwD)",
+      "SC",
+      "SC (PwD)",
+      "ST",
+      "ST (PwD)"
+    ],
+    "genders": [
+      "Female-only (including Supernumerary)",
+      "Gender-Neutral"
+    ]
+  },
+  "yearSummary": [
+    {
+      "year": 2026,
+      "rows": 11793,
+      "rounds": "Special Round 1, Special Round 2",
+      "institutes": 114,
+      "programs": 185,
+      "missingOpening": 0,
+      "missingClosing": 0
+    },
+    {
+      "year": 2025,
+      "rows": 13454,
+      "rounds": "Special Round 1, Special Round 2, Special Round 3",
+      "institutes": 105,
+      "programs": 162,
+      "missingOpening": 0,
+      "missingClosing": 0
+    },
+    {
+      "year": 2024,
+      "rows": 9734,
+      "rounds": "Special Round 1, Special Round 2",
+      "institutes": 98,
+      "programs": 146,
+      "missingOpening": 0,
+      "missingClosing": 0
+    }
+  ]
+}

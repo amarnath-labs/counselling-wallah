@@ -1,0 +1,13 @@
+{
+  "target_colleges": 363,
+  "actual_colleges": 363,
+  "target_academic_year": 2026,
+  "protected_existing": 9,
+  "ready_for_normalization": 9,
+  "scanned_pdf_review": 3,
+  "requires_review": 86,
+  "unresolved": 232,
+  "discovery_required": 0,
+  "normalized": 0,
+  "imported": 0
+}

@@ -1,0 +1,63 @@
+﻿[
+  {
+    "college_id": "indian-institute-of-technology-varanasi",
+    "college_name": "Indian Institute of Technology (BHU) Varanasi",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "first_semester_fee": 121600,
+    "mess_fee_per_semester": 16500,
+
+    "source_kind": "official",
+    "source_label": "IIT BHU Fresher Fee Instructions",
+    "source_url": "https://www.iitbhu.ac.in/acad/fresher/instructions",
+
+    "source_priority": 100,
+    "confidence_score": 95,
+    "verification_status": "high_confidence",
+    "extraction_method": "manual",
+
+    "notes": "General full-fee 4-year B.Tech first-semester total. Mess advance INR 16500 is mandatory and separately payable. Tuition concessions apply by category/family income."
+  },
+
+  {
+    "college_id": "indian-institute-of-technology-guwahati",
+    "college_name": "Indian Institute of Technology Guwahati",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 100000,
+    "mess_fee_per_semester": 21250,
+    "first_semester_fee": 165250,
+    "annual_academic_fee": 200000,
+
+    "source_kind": "official",
+    "source_label": "IIT Guwahati Admission Fee Structure",
+    "source_url": "https://iitg.ac.in/acad/admission/imp_info/fee.php",
+
+    "source_priority": 100,
+    "confidence_score": 99,
+    "verification_status": "high_confidence",
+    "extraction_method": "manual",
+
+    "notes": "Regular GEN/GEN-EWS/OBC-NCL B.Tech tuition. Official page lists total admission payable INR 165250. Mess advance INR 21250. Tuition exemptions/concessions apply to SC/ST/PwD/MEB/OEB."
+  },
+
+  {
+    "college_id": "indian-institute-of-technology-bhilai",
+    "college_name": "Indian Institute of Technology Bhilai",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "source_kind": "official",
+    "source_label": "IIT Bhilai Fee Structure 2026-27 BTech",
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=fee_structure",
+
+    "source_priority": 100,
+    "confidence_score": 65,
+    "verification_status": "pending_review",
+    "extraction_method": "manual",
+
+    "notes": "Official 2026-27 B.Tech fee structure page exists, but numeric breakdown not normalized yet."
+  }
+]

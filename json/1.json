@@ -1,0 +1,217 @@
+{
+  "college_name": "Maulana Azad National Institute of Technology (MANIT), Bhopal — also known as NIT Bhopal",
+  "analysis_date": "2026-08-30",
+  "identity_verification": {
+    "verified_entity": "Maulana Azad National Institute of Technology, Link Road No. 3, Bhopal, Madhya Pradesh - 462003",
+    "notes": "Single main campus, no branch-campus ambiguity. Confirmed distinct from RGPV Bhopal, VIT Bhopal, SPA Bhopal, and other NITs (e.g., MNIT Jaipur) which appear in comparison articles but are separate institutions. All data below pertains only to this campus."
+  },
+  "sources": [
+    {
+      "platform": "Shiksha",
+      "source_url": "https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/reviews",
+      "source_type": "rating_platform",
+      "rating": 4.1,
+      "rating_scale": "out of 5",
+      "review_count": 849,
+      "verified_review_count": 785,
+      "items_analyzed": 22,
+      "access_status": "available",
+      "confidence": "High"
+    },
+    {
+      "platform": "Collegedunia",
+      "source_url": "https://collegedunia.com/university/25679-maulana-azad-national-institute-of-technology-manit-bhopal/reviews",
+      "source_type": "rating_platform",
+      "rating": 7.9,
+      "rating_scale": "out of 10 (not directly comparable to 5-point scales)",
+      "review_count": null,
+      "review_count_note": "Aggregate site-wide count not consistently confirmable across mirrored pages (s2/s3/s4 subdomains showed varying figures); individual course rating of 7.77/10 by 21 students found for B.Arch specifically",
+      "items_analyzed": 15,
+      "access_status": "available",
+      "confidence": "Medium"
+    },
+    {
+      "platform": "Careers360",
+      "source_url": "https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/reviews",
+      "source_type": "rating_platform",
+      "rating": 4.1,
+      "rating_scale": "out of 5",
+      "review_count": 165,
+      "aspect_ratings_out_of_5": {
+        "infrastructure": 3.6,
+        "academics": 3.7,
+        "placements": 3.9,
+        "value_for_money": 3.2,
+        "campus_life": 4.3
+      },
+      "items_analyzed": 12,
+      "access_status": "available",
+      "confidence": "High"
+    },
+    {
+      "platform": "Quora",
+      "source_url": "https://www.quora.com (multiple threads, see below)",
+      "source_type": "discussion",
+      "rating": null,
+      "review_count": null,
+      "items_analyzed": 5,
+      "access_status": "available",
+      "confidence": "Medium",
+      "notes": "Qualitative sentiment only, per methodology. Threads: 'How is MANIT Bhopal now?', 'Will I regret my decision of joining MANIT Bhopal?', 'How is the placement of chemical engineering at MANIT Bhopal?', 'How is MANIT bhopal for architecture?', hostel-related thread (accessed via Collegedunia Q&A mirror)."
+    },
+    {
+      "platform": "Reddit",
+      "source_url": null,
+      "source_type": "discussion",
+      "rating": null,
+      "review_count": null,
+      "items_analyzed": 0,
+      "access_status": "unavailable",
+      "confidence": "Low",
+      "notes": "Multiple targeted searches (site:reddit.com, r/JEE, r/Btechtards, keyword combinations) did not surface genuine, substantive Reddit threads specific to MANIT Bhopal student sentiment. Rather than fabricate Reddit evidence, this source is marked unavailable for this pilot run."
+    },
+    {
+      "platform": "Google Reviews / Google Maps",
+      "source_url": null,
+      "source_type": "rating_platform",
+      "rating": null,
+      "review_count": null,
+      "items_analyzed": 0,
+      "access_status": "unavailable",
+      "confidence": "Low",
+      "notes": "No Maps/Places tool connected in this session and web search did not return a verifiable live Google Business rating/count. Marked unavailable rather than estimated."
+    },
+    {
+      "platform": "CollegeDekho / Zollege / CollegeSearch (secondary aggregators)",
+      "source_url": "https://www.collegedekho.com/colleges/manit-reviews ; https://zollege.in/university/185000-maulana-azad-national-institute-of-technology-manit-bhopal/reviews",
+      "source_type": "discussion",
+      "rating": null,
+      "review_count": null,
+      "items_analyzed": 6,
+      "access_status": "available",
+      "confidence": "Low",
+      "notes": "Used only as supplementary qualitative corroboration, not as independent structured-rating sources, since their own methodology/verification isn't transparent."
+    },
+    {
+      "platform": "Official MANIT student feedback",
+      "source_url": "https://www.manit.ac.in/",
+      "source_type": "official",
+      "rating": null,
+      "review_count": null,
+      "items_analyzed": 0,
+      "access_status": "unavailable",
+      "confidence": "Low",
+      "notes": "Official site contains notices/circulars, not a public aggregated student sentiment/feedback system."
+    }
+  ],
+
+  "bayesian_rating_note": "Shiksha and Careers360 both report raw average 4.1/5. A Bayesian-adjusted score is NOT calculated because a reliable platform-wide average rating (C) and minimum threshold (m) for either platform could not be independently established from public data. Raw ratings are reported as-is; Bayesian score = unavailable.",
+
+  "aspect_sentiment": {
+    "placements": {
+      "score": 74,
+      "positive": 14,
+      "neutral": 3,
+      "negative": 4,
+      "confidence": "High",
+      "summary": "Strong, recurring positive sentiment across Shiksha, Careers360, Collegedunia, and Quora. CSE/ECE placements repeatedly described as very good (avg. package cited variously as 10–25 LPA depending on branch/year; highest packages 60–86 LPA mentioned across sources, though exact figures vary by year and are not independently verifiable). Some negative/mixed notes: non-CS/core branches (architecture, some mechanical/civil cohorts) report weaker or declining placement scenarios; a few reviews mention 'placement issues in last 2-3 years' for off-campus reliance in certain branches."
+    },
+    "faculty": {
+      "score": 76,
+      "positive": 10,
+      "neutral": 2,
+      "negative": 2,
+      "confidence": "Medium",
+      "summary": "Consistently described as well-qualified (PhD holders, experience at IITs), helpful, and supportive across Shiksha and Quora. Minor negative/mixed notes: teaching quality described as 'depends a lot on the professor' with inconsistency between departments (Careers360, Quora)."
+    },
+    "academics": {
+      "score": 70,
+      "positive": 8,
+      "neutral": 4,
+      "negative": 1,
+      "confidence": "Medium",
+      "summary": "Curriculum generally rated solid and 'industry-ready,' with Careers360 aspect rating of 3.7/5. Some students note reliance on self-study/seniors and that practical/industry-oriented exposure could improve."
+    },
+    "infrastructure": {
+      "score": 58,
+      "positive": 7,
+      "neutral": 3,
+      "negative": 9,
+      "confidence": "High",
+      "summary": "Most consistently mixed/negative aspect. Careers360 aspect rating 3.6/5, Collegedunia narrative reviews repeatedly cite 'old buildings,' 'cracks in walls,' outdated labs (especially electrical/mechanical branches), inconsistent maintenance — contrasted with praise for the 650-acre green campus, newer hostels (8, 9, 10), and improving Wi-Fi/library. Clear split between aesthetic/building-age complaints and genuine functional adequacy."
+    },
+    "hostel": {
+      "score": 52,
+      "positive": 5,
+      "neutral": 2,
+      "negative": 7,
+      "confidence": "Medium",
+      "summary": "Recurring complaints: mess/food quality inconsistent ('sometimes spoiled'), older hostel blocks (1970s-era buildings) contrasted with newer ones, occasional water/electricity issues, restrictive first-year rules. Positive notes: diverse hostel culture, decent basic amenities in newer blocks (per Quora first-hand account of Hostel 10)."
+    },
+    "campus_life": {
+      "score": 78,
+      "positive": 11,
+      "neutral": 2,
+      "negative": 1,
+      "confidence": "High",
+      "summary": "Strongest positive aspect alongside placements — Careers360 aspect rating 4.3/5 (highest of all rated categories). Students consistently highlight fests (Technosearch, Maffick, E-Summit), clubs/societies, greenery, and independence in later years (no hostel curfew, vehicles allowed from 2nd year per Quora)."
+    },
+    "administration": {
+      "score": 55,
+      "positive": 3,
+      "neutral": 2,
+      "negative": 5,
+      "confidence": "Low",
+      "summary": "Sparse direct evidence. Ragging is repeatedly mentioned as a negative/administrative concern across Quora and Collegedunia despite official 'anti-ragging cell' claims — sentiment is mixed, with some students downplaying it and others calling it 'more serious than claimed.' One Quora answer (2026-era) notes improving digitalisation but 'occasional bureaucratic delays.' Confidence is Low due to limited volume of administration-specific commentary."
+    },
+    "location": {
+      "score": 80,
+      "positive": 6,
+      "neutral": 1,
+      "negative": 0,
+      "confidence": "Medium",
+      "summary": "Uniformly positive: central Bhopal location, good connectivity, proximity to railway station/airport, and access to GATE/UPSC/CAT coaching hubs cited as an advantage over other NITs (Quora)."
+    },
+    "value_for_money": {
+      "score": 68,
+      "positive": 6,
+      "neutral": 2,
+      "negative": 1,
+      "confidence": "Medium",
+      "summary": "Careers360 aspect rating lowest among rated categories at 3.2/5, yet narrative reviews on Careers360/Shiksha are mostly positive, citing reasonable fees for an NIT and good ROI relative to private colleges. The lower numeric aspect score vs. positive narrative tone suggests some rating dispersion; treated as moderately positive with caution."
+    },
+    "internships": {
+      "score": 65,
+      "positive": 5,
+      "neutral": 3,
+      "negative": 1,
+      "confidence": "Low",
+      "summary": "Limited independent commentary; students mention 5th/7th semester internship eligibility and internships with reputed firms for some branches, but overall volume of internship-specific (as opposed to placement) commentary is low across sources."
+    }
+  },
+
+  "overall_sentiment_score": 68,
+  "overall_confidence": "Medium",
+
+  "strongest_positive_aspects": ["campus_life", "location", "placements", "faculty"],
+  "main_negative_aspects": ["hostel", "infrastructure", "administration (ragging perception)"],
+  "mixed_aspects": ["value_for_money", "academics", "internships", "placements (branch-dependent)"],
+
+  "summary": "Across Shiksha, Collegedunia, Careers360, and Quora, MANIT Bhopal shows a fairly consistent, moderately positive sentiment profile. Placements, faculty quality, campus life, and location draw the most consistent praise, with CSE/ECE placements singled out as strong. Infrastructure and hostel facilities are the most recurring source of complaint — largely centered on aging buildings, inconsistent mess food, and maintenance — though newer hostels and campus greenery are appreciated. Ragging is mentioned in multiple independent sources as a lingering concern despite official anti-ragging measures, creating a mixed picture on administration/campus culture. Sentiment is fairly stable across review years (2022–2026), though non-CS/core branches (architecture, some mechanical/civil) show comparatively weaker placement sentiment than CSE/ECE.",
+
+  "data_quality": {
+    "total_items_analyzed": 60,
+    "independent_sources": 4,
+    "duplicate_items_removed": "Not precisely countable from available snippets, but multiple near-identical reviews were observed mirrored across CollegeDekho/CollegeDuniaBharat/Zollege aggregator sites, which appear to scrape/repost Shiksha and Collegedunia review content — these were treated as non-independent and excluded from independent-source counting.",
+    "recent_data_ratio": "Approximately 60% of qualitative evidence reviewed dates from 2024-2026; older evidence (2013-2022) retained for context but weighted less.",
+    "limitations": [
+      "Reddit: no genuine, substantive threads could be located despite repeated targeted searches; marked unavailable rather than fabricated.",
+      "Google Reviews/Maps: no tool access and no verifiable live rating/count found via search; marked unavailable.",
+      "Collegedunia's aggregate review count could not be pinned down precisely (different mirrored subdomains showed different numbers); course-level ratings (e.g., B.Arch 7.77/10 by 21 reviewers) are more reliable than the site-wide figure.",
+      "Bayesian-adjusted rating not computed for any platform due to lack of a reliable, sourced platform-wide average (C) and minimum sample threshold (m).",
+      "Aspect-level positive/neutral/negative counts are approximate, derived from a moderate (not exhaustive) sample of visible review text per platform, not a full scrape of all 800+ Shiksha or 165+ Careers360 reviews.",
+      "Sentiment score is a qualitative synthesis, not a scientifically weighted statistical model — treat as directional signal, not precise measurement.",
+      "This is a pilot run for one college; methodology (duplicate detection, weighting, confidence calibration) should be stress-tested across more colleges before scaling."
+    ]
+  }
+}

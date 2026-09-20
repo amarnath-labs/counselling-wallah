@@ -1,0 +1,2322 @@
+[
+  {
+    "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+    "college_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+    "academic_year": 2026,
+    "official_website": "https://www.aimt.edu.in/",
+    "source_url": null,
+    "fee_source_url": "https://www.profile.aimt.edu.in/aimt-fee-structure/",
+    "source_type": "official_html",
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "UPTAC",
+    "source_strategy": "UPTAC_2026_OR_OFFICIAL_INSTITUTE",
+    "branch_count": 10,
+    "source_status": "CURRENT_OFFICIAL_SOURCE",
+    "source_resolution_status": "SOURCE_FETCH_FAILED",
+    "source_check": {
+      "ok": false,
+      "error": "Hostname/IP does not match certificate's altnames: Host: www.profile.aimt.edu.in. is not in the cert's altnames: DNS:aimt.edu.in, DNS:www.aimt.edu.in"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "assam-university-silchar",
+    "college_name": "Assam University, Silchar",
+    "academic_year": 2026,
+    "official_website": "https://www.aus.ac.in/",
+    "source_url": null,
+    "fee_source_url": "https://www.ausexamination.ac.in/admission/",
+    "source_type": "official_html",
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 3,
+    "source_status": "CURRENT_OFFICIAL_SOURCE_REVIEW",
+    "source_resolution_status": "SOURCE_FETCH_FAILED",
+    "source_check": {
+      "ok": false,
+      "error": "Hostname/IP does not match certificate's altnames: Host: www.ausexamination.ac.in. is not in the cert's altnames: DNS:ausexamination.ac.in"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "college_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 5,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "central-institute-of-technology-kokrajar-assam",
+    "college_name": "Central institute of Technology Kokrajar, Assam",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 5,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "central-university-of-haryana",
+    "college_name": "Central University of Haryana",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "central-university-of-jammu",
+    "college_name": "Central University of Jammu",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 5,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "central-university-of-karnataka",
+    "college_name": "Central University of Karnataka",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "central-university-of-punjab-bathinda",
+    "college_name": "Central University of Punjab, Bathinda",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 2,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "central-university-of-rajasthan-rajasthan",
+    "college_name": "Central University of Rajasthan, Rajasthan",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 3,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "dr-b-r-ambedkar-national-institute-of-technology-jalandhar",
+    "college_name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 15,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "ghani-khan-choudhary-institute-of-engineering-and-technology-malda-west-bengal",
+    "college_name": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 5,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "gurukula-kangri-vishwavidyalaya-haridwar",
+    "college_name": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 5,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "iiit-allahabad",
+    "college_name": "IIIT Allahabad",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 3,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "iiit-guwahati",
+    "college_name": "IIIT Guwahati",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 1,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "iiit-hyderabad",
+    "college_name": "IIIT Hyderabad",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 2,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "iiit-pune",
+    "college_name": "IIIT Pune",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "iit-gandhinagar",
+    "college_name": "IIT Gandhinagar",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 8,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "college_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 14,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-nagpur",
+    "college_name": "Indian Institute of Information Technology (IIIT) Nagpur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 6,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-pune",
+    "college_name": "Indian Institute of Information Technology (IIIT) Pune",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 5,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-ranchi",
+    "college_name": "Indian Institute of Information Technology (IIIT) Ranchi",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 5,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-sri-city-chittoor",
+    "college_name": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 3,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-kota-rajasthan",
+    "college_name": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 3,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-bhagalpur",
+    "college_name": "Indian Institute of Information Technology Bhagalpur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-bhopal",
+    "college_name": "Indian Institute of Information Technology Bhopal",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 9,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kurnool-andhra-pradesh",
+    "college_name": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 8,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-guwahati",
+    "college_name": "Indian Institute of Information Technology Guwahati",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 3,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-lucknow",
+    "college_name": "Indian Institute of Information Technology Lucknow",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-senapati-manipur",
+    "college_name": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 6,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-surat",
+    "college_name": "Indian Institute of Information Technology Surat",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 5,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-tiruchirappalli",
+    "college_name": "Indian Institute of Information Technology Tiruchirappalli",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-dharwad",
+    "college_name": "Indian Institute of Information Technology(IIIT) Dharwad",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-kalyani-west-bengal",
+    "college_name": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-kilohrad-sonepat-haryana",
+    "college_name": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-kottayam",
+    "college_name": "Indian Institute of Information Technology(IIIT) Kottayam",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 5,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-una-himachal-pradesh",
+    "college_name": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-vadodara-gujrat",
+    "college_name": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 7,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-agartala",
+    "college_name": "Indian Institute of Information Technology, Agartala",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 1,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-allahabad",
+    "college_name": "Indian Institute of Information Technology, Allahabad",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 6,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+    "college_name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 11,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-raichur-karnataka",
+    "college_name": "Indian institute of information technology, Raichur, Karnataka",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 3,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-vadodara-international-campus-diu",
+    "college_name": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-science-bangalore",
+    "college_name": "Indian Institute of Science, Bangalore",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-varanasi",
+    "college_name": "Indian Institute of Technology (BHU) Varanasi",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 17,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-dhanbad",
+    "college_name": "Indian Institute of Technology (ISM) Dhanbad",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 18,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-bhilai",
+    "college_name": "Indian Institute of Technology Bhilai",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 7,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-bhubaneswar",
+    "college_name": "Indian Institute of Technology Bhubaneswar",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 8,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-bombay",
+    "college_name": "Indian Institute of Technology Bombay",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 16,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-delhi",
+    "college_name": "Indian Institute of Technology Delhi",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 23,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-dharwad",
+    "college_name": "Indian Institute of Technology Dharwad",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 10,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-goa",
+    "college_name": "Indian Institute of Technology Goa",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-guwahati",
+    "college_name": "Indian Institute of Technology Guwahati",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 12,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-hyderabad",
+    "college_name": "Indian Institute of Technology Hyderabad",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 15,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-indore",
+    "college_name": "Indian Institute of Technology Indore",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 12,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-jammu",
+    "college_name": "Indian Institute of Technology Jammu",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 9,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-jodhpur",
+    "college_name": "Indian Institute of Technology Jodhpur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 13,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-kanpur",
+    "college_name": "Indian Institute of Technology Kanpur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 15,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-kharagpur",
+    "college_name": "Indian Institute of Technology Kharagpur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 24,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-madras",
+    "college_name": "Indian Institute of Technology Madras",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 18,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-mandi",
+    "college_name": "Indian Institute of Technology Mandi",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 15,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-palakkad",
+    "college_name": "Indian Institute of Technology Palakkad",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 6,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-patna",
+    "college_name": "Indian Institute of Technology Patna",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 32,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-roorkee",
+    "college_name": "Indian Institute of Technology Roorkee",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 19,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-ropar",
+    "college_name": "Indian Institute of Technology Ropar",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 12,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "indian-institute-of-technology-tirupati",
+    "college_name": "Indian Institute of Technology Tirupati",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 6,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "institute-of-engineering-and-technology-dr-h-s-gour-university-sagar",
+    "college_name": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 6,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "malaviya-national-institute-of-technology-jaipur",
+    "college_name": "Malaviya National Institute of Technology Jaipur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 11,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "maulana-azad-national-institute-of-technology-bhopal",
+    "college_name": "Maulana Azad National Institute of Technology Bhopal",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 13,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "mizoram-university-aizawl",
+    "college_name": "Mizoram University, Aizawl",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 6,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "motilal-nehru-national-institute-of-technology-allahabad",
+    "college_name": "Motilal Nehru National Institute of Technology Allahabad",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 10,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-agartala",
+    "college_name": "National Institute of Technology Agartala",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 14,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-arunachal-pradesh",
+    "college_name": "National Institute of Technology Arunachal Pradesh",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 6,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-calicut",
+    "college_name": "National Institute of Technology Calicut",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 13,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-delhi",
+    "college_name": "National Institute of Technology Delhi",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 8,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-durgapur",
+    "college_name": "National Institute of Technology Durgapur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 12,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-goa",
+    "college_name": "National Institute of Technology Goa",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 5,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-hamirpur",
+    "college_name": "National Institute of Technology Hamirpur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 12,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "college_name": "National Institute of Technology Karnataka, Surathkal",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 11,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-meghalaya",
+    "college_name": "National Institute of Technology Meghalaya",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 5,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-nagaland",
+    "college_name": "National Institute of Technology Nagaland",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 6,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-patna",
+    "college_name": "National Institute of Technology Patna",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 18,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-puducherry",
+    "college_name": "National Institute of Technology Puducherry",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 5,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-raipur",
+    "college_name": "National Institute of Technology Raipur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 12,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-sikkim",
+    "college_name": "National Institute of Technology Sikkim",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 6,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-andhra-pradesh",
+    "college_name": "National Institute of Technology, Andhra Pradesh",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 8,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-jamshedpur",
+    "college_name": "National Institute of Technology, Jamshedpur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 8,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-kurukshetra",
+    "college_name": "National Institute of Technology, Kurukshetra",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 20,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-manipur",
+    "college_name": "National Institute of Technology, Manipur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 10,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-mizoram",
+    "college_name": "National Institute of Technology, Mizoram",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 7,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-rourkela",
+    "college_name": "National Institute of Technology, Rourkela",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 24,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-silchar",
+    "college_name": "National Institute of Technology, Silchar",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 6,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-srinagar",
+    "college_name": "National Institute of Technology, Srinagar",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 8,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-tiruchirappalli",
+    "college_name": "National Institute of Technology, Tiruchirappalli",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 10,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-uttarakhand",
+    "college_name": "National Institute of Technology, Uttarakhand",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 5,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "national-institute-of-technology-warangal",
+    "college_name": "National Institute of Technology, Warangal",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 17,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "nit-calicut",
+    "college_name": "NIT Calicut",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 2,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "nit-hamirpur",
+    "college_name": "NIT Hamirpur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 1,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "nit-jalandhar",
+    "college_name": "NIT Jalandhar",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 2,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "nit-jamshedpur",
+    "college_name": "NIT Jamshedpur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 1,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "nit-surathkal",
+    "college_name": "NIT Karnataka, Surathkal",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 6,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "nit-kurukshetra",
+    "college_name": "NIT Kurukshetra",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 2,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "nit-patna",
+    "college_name": "NIT Patna",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 2,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "nit-rourkela",
+    "college_name": "NIT Rourkela",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 2,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "nit-silchar",
+    "college_name": "NIT Silchar",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 2,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "nit-trichy",
+    "college_name": "NIT Tiruchirappalli",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "nit-uttarakhand",
+    "college_name": "NIT Uttarakhand",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 1,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "nit-warangal",
+    "college_name": "NIT Warangal",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 3,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "pt-dwarka-prasad-mishra-indian-institute-of-information-technology-design-manufacture-jabalpur",
+    "college_name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 4,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "sant-longowal-institute-of-engineering-and-technology",
+    "college_name": "Sant Longowal Institute of Engineering and Technology",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 16,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "college_name": "Sardar Vallabhbhai National Institute of Technology, Surat",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 15,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "school-of-engineering-tezpur-university-napaam-tezpur",
+    "college_name": "School of Engineering, Tezpur University, Napaam, Tezpur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 13,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "school-of-planning-architecture-bhopal",
+    "college_name": "School of Planning & Architecture, Bhopal",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 2,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "school-of-planning-architecture-new-delhi",
+    "college_name": "School of Planning & Architecture, New Delhi",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 2,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "school-of-planning-architecture-vijayawada",
+    "college_name": "School of Planning & Architecture: Vijayawada",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 2,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "school-of-studies-of-engineering-and-technology-guru-ghasidas-vishwavidyalaya-bilaspur",
+    "college_name": "School of Studies of Engineering and Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 10,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  },
+  {
+    "college_id": "visvesvaraya-national-institute-of-technology-nagpur",
+    "college_name": "Visvesvaraya National Institute of Technology, Nagpur",
+    "academic_year": 2026,
+    "official_website": null,
+    "source_url": null,
+    "fee_source_url": "https://josaa.nic.in/document/fee-details-of-participating-institutes-pis/",
+    "source_type": null,
+    "queue_status": "SOURCE_DISCOVERY_REQUIRED",
+    "source_family": "JOSAA",
+    "source_strategy": "JOSAA_2026_OFFICIAL_FEE_DETAILS",
+    "branch_count": 14,
+    "source_resolution_status": "CENTRAL_SOURCE_FETCH_FAILED",
+    "source_status": "JOSAA_2026_SOURCE_UNAVAILABLE",
+    "source_check": {
+      "ok": false,
+      "error": "timeout of 30000ms exceeded"
+    },
+    "import_candidate": false
+  }
+]

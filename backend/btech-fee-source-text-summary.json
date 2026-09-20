@@ -1,0 +1,222 @@
+[
+  {
+    "college_id": "indian-institute-of-technology-roorkee",
+    "college_name": "Indian Institute of Technology Roorkee",
+    "source_kind": "html",
+    "source_url": "https://iitr.ac.in/Academics/Institute%20Fees.html",
+    "file": "btech-fee-source-text\\indian-institute-of-technology-roorkee.txt",
+    "characters": 5744,
+    "status": "EXTRACTED",
+    "signals": {
+      "btech": true,
+      "tuition": false,
+      "semester": true,
+      "hostel": true,
+      "mess": false,
+      "income": false,
+      "category": true,
+      "total": false,
+      "foreign": true
+    }
+  },
+  {
+    "college_id": "national-institute-of-technology-patna",
+    "college_name": "National Institute of Technology Patna",
+    "source_kind": "html",
+    "source_url": "https://www.nitp.ac.in/Academic/Fee",
+    "file": "btech-fee-source-text\\national-institute-of-technology-patna.txt",
+    "characters": 2864,
+    "status": "EXTRACTED",
+    "signals": {
+      "btech": false,
+      "tuition": false,
+      "semester": false,
+      "hostel": true,
+      "mess": true,
+      "income": false,
+      "category": true,
+      "total": false,
+      "foreign": false
+    }
+  },
+  {
+    "college_id": "indian-institute-of-technology-varanasi",
+    "college_name": "Indian Institute of Technology (BHU) Varanasi",
+    "source_kind": "html",
+    "source_url": "https://www.iitbhu.ac.in/dean/doaa/fee",
+    "file": "btech-fee-source-text\\indian-institute-of-technology-varanasi.txt",
+    "characters": 2437,
+    "status": "EXTRACTED",
+    "signals": {
+      "btech": true,
+      "tuition": false,
+      "semester": false,
+      "hostel": true,
+      "mess": false,
+      "income": false,
+      "category": true,
+      "total": false,
+      "foreign": true
+    }
+  },
+  {
+    "college_id": "indian-institute-of-technology-goa",
+    "college_name": "Indian Institute of Technology Goa",
+    "source_kind": "html",
+    "source_url": "https://iitgoa.ac.in/btech_fee_structure/",
+    "file": "btech-fee-source-text\\indian-institute-of-technology-goa.txt",
+    "characters": 6190,
+    "status": "EXTRACTED",
+    "signals": {
+      "btech": true,
+      "tuition": false,
+      "semester": true,
+      "hostel": false,
+      "mess": true,
+      "income": false,
+      "category": true,
+      "total": false,
+      "foreign": true
+    }
+  },
+  {
+    "college_id": "indian-institute-of-technology-indore",
+    "college_name": "Indian Institute of Technology Indore",
+    "source_kind": "pdf",
+    "source_url": "https://www.iiti.ac.in/uploads/academics/notice_updates/fee_notice_2026_autumn.pdf",
+    "file": "btech-fee-source-text\\indian-institute-of-technology-indore.txt",
+    "characters": 112,
+    "status": "EXTRACTED",
+    "signals": {
+      "btech": false,
+      "tuition": false,
+      "semester": false,
+      "hostel": false,
+      "mess": false,
+      "income": false,
+      "category": false,
+      "total": false,
+      "foreign": false
+    }
+  },
+  {
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "college_name": "National Institute of Technology Karnataka, Surathkal",
+    "source_kind": "pdf",
+    "source_url": "https://www.nitk.ac.in/document/attachments/8447/FEE_STRUCTURE_2025-26_.pdf",
+    "file": "btech-fee-source-text\\national-institute-of-technology-karnataka-surathkal.txt",
+    "characters": 189,
+    "status": "EXTRACTED",
+    "signals": {
+      "btech": false,
+      "tuition": false,
+      "semester": false,
+      "hostel": false,
+      "mess": false,
+      "income": false,
+      "category": false,
+      "total": false,
+      "foreign": false
+    }
+  },
+  {
+    "college_id": "malaviya-national-institute-of-technology-jaipur",
+    "college_name": "Malaviya National Institute of Technology Jaipur",
+    "source_kind": "pdf",
+    "source_url": "https://mnit.ac.in/cms/uploads/2024/05/Fee_Structure_2024-25_UG.pdf",
+    "file": "btech-fee-source-text\\malaviya-national-institute-of-technology-jaipur.txt",
+    "characters": 128,
+    "status": "EXTRACTED",
+    "signals": {
+      "btech": false,
+      "tuition": false,
+      "semester": false,
+      "hostel": false,
+      "mess": false,
+      "income": false,
+      "category": false,
+      "total": false,
+      "foreign": false
+    }
+  },
+  {
+    "college_id": "national-institute-of-technology-silchar",
+    "college_name": "National Institute of Technology, Silchar",
+    "source_kind": "pdf",
+    "source_url": "https://www.nits.ac.in/storage/StudentCorner/studentcorner_6a3157f193dad.pdf",
+    "file": "btech-fee-source-text\\national-institute-of-technology-silchar.txt",
+    "characters": 16,
+    "status": "EXTRACTED",
+    "signals": {
+      "btech": false,
+      "tuition": false,
+      "semester": false,
+      "hostel": false,
+      "mess": false,
+      "income": false,
+      "category": false,
+      "total": false,
+      "foreign": false
+    }
+  },
+  {
+    "college_id": "national-institute-of-technology-meghalaya",
+    "college_name": "National Institute of Technology Meghalaya",
+    "source_kind": "pdf",
+    "source_url": "https://www.nitm.ac.in/nitm_files/forms/fee-structures/fee-structure/fee-structure-aut-26-existing-students-pdf030450.pdf",
+    "file": "btech-fee-source-text\\national-institute-of-technology-meghalaya.txt",
+    "characters": 16,
+    "status": "EXTRACTED",
+    "signals": {
+      "btech": false,
+      "tuition": false,
+      "semester": false,
+      "hostel": false,
+      "mess": false,
+      "income": false,
+      "category": false,
+      "total": false,
+      "foreign": false
+    }
+  },
+  {
+    "college_id": "national-institute-of-technology-goa",
+    "college_name": "National Institute of Technology Goa",
+    "source_kind": "pdf",
+    "source_url": "https://nitgoa.ac.in/static/Fee_Structure.pdf",
+    "file": "btech-fee-source-text\\national-institute-of-technology-goa.txt",
+    "characters": 207,
+    "status": "EXTRACTED",
+    "signals": {
+      "btech": false,
+      "tuition": false,
+      "semester": false,
+      "hostel": false,
+      "mess": false,
+      "income": false,
+      "category": false,
+      "total": false,
+      "foreign": false
+    }
+  },
+  {
+    "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+    "college_name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+    "source_kind": "pdf",
+    "source_url": "https://nerist.ac.in/wp-content/uploads/2026/07/Revised-Fee-Structure-of-UG-programe-for-2026-28.pdf",
+    "file": "btech-fee-source-text\\north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh.txt",
+    "characters": 85,
+    "status": "EXTRACTED",
+    "signals": {
+      "btech": false,
+      "tuition": false,
+      "semester": false,
+      "hostel": false,
+      "mess": false,
+      "income": false,
+      "category": false,
+      "total": false,
+      "foreign": false
+    }
+  }
+]

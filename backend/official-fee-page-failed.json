@@ -1,0 +1,104 @@
+[
+  {
+    "college_id": "indian-institute-of-technology-bombay",
+    "name": "Indian Institute of Technology Bombay",
+    "website": "https://www.iitb.ac.in",
+    "reason": "read ECONNRESET"
+  },
+  {
+    "college_id": "indian-institute-of-technology-kharagpur",
+    "name": "Indian Institute of Technology Kharagpur",
+    "website": "https://www.iitkgp.ac.in",
+    "reason": "read ECONNRESET"
+  },
+  {
+    "college_id": "national-institute-of-technology-tiruchirappalli",
+    "name": "National Institute of Technology, Tiruchirappalli",
+    "website": "https://www.nitt.edu",
+    "reason": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+  },
+  {
+    "college_id": "jadavpur-university",
+    "name": "Jadavpur University",
+    "website": "https://www.jaduniv.edu.in",
+    "reason": "getaddrinfo ENOTFOUND www.jaduniv.edu.in"
+  },
+  {
+    "college_id": "indian-institute-of-technology-jodhpur",
+    "name": "Indian Institute of Technology Jodhpur",
+    "website": "https://iitj.ac.in",
+    "reason": "Request failed with status code 403"
+  },
+  {
+    "college_id": "national-institute-of-technology-warangal",
+    "name": "National Institute of Technology, Warangal",
+    "website": "https://www.nitw.ac.in",
+    "reason": "self-signed certificate in certificate chain"
+  },
+  {
+    "college_id": "dtu-delhi",
+    "name": "Delhi Technological University",
+    "website": "https://www.dtu.ac.in",
+    "reason": "self-signed certificate in certificate chain"
+  },
+  {
+    "college_id": "visvesvaraya-national-institute-of-technology-nagpur",
+    "name": "Visvesvaraya National Institute of Technology, Nagpur",
+    "website": "https://vnit.ac.in",
+    "reason": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+  },
+  {
+    "college_id": "indian-institute-of-technology-bhilai",
+    "name": "Indian Institute of Technology Bhilai",
+    "website": "https://www.iitbhilai.ac.in",
+    "reason": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+  },
+  {
+    "college_id": "maulana-azad-national-institute-of-technology-bhopal",
+    "name": "Maulana Azad National Institute of Technology Bhopal",
+    "website": "https://www.manit.ac.in",
+    "reason": "self-signed certificate in certificate chain"
+  },
+  {
+    "college_id": "national-institute-of-technology-kurukshetra",
+    "name": "National Institute of Technology, Kurukshetra",
+    "website": "https://nitkkr.ac.in",
+    "reason": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+  },
+  {
+    "college_id": "national-institute-of-technology-raipur",
+    "name": "National Institute of Technology Raipur",
+    "website": "https://nitrr.ac.in",
+    "reason": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+  },
+  {
+    "college_id": "national-institute-of-technology-puducherry",
+    "name": "National Institute of Technology Puducherry",
+    "website": "https://www.nitpy.ac.in",
+    "reason": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+  },
+  {
+    "college_id": "international-institute-of-information-technology-naya-raipur",
+    "name": "International Institute of Information Technology, Naya Raipur",
+    "website": "https://www.iiitnr.ac.in",
+    "reason": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+  },
+  {
+    "college_id": "lnmiit-jaipur",
+    "name": "LNM Institute of Information Technology, Jaipur",
+    "website": "https://www.lnmiit.ac.in",
+    "reason": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+  },
+  {
+    "college_id": "national-institute-of-advanced-manufacturing-technology-ranchi",
+    "name": "National Institute of Advanced Manufacturing Technology, Ranchi",
+    "website": "https://niamt.ac.in",
+    "reason": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+  },
+  {
+    "college_id": "national-institute-of-technology-nagaland",
+    "name": "National Institute of Technology Nagaland",
+    "website": "https://nitnagaland.ac.in",
+    "reason": "Hostname/IP does not match certificate's altnames: Host: nitnagaland.ac.in. is not in the cert's altnames: DNS:www.nitnagaland.ac.in"
+  }
+]

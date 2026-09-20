@@ -1,0 +1,659 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 3 of 5 (NIT Surathkal / NITK). Colleges 4-5 to follow in separate responses per user instruction."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Surathkal",
+        "verified_name": "National Institute of Technology Karnataka (NITK), Surathkal",
+        "city": "Surathkal, Mangaluru (Mangalore)",
+        "state": "Karnataka",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Karnataka Regional Engineering College (KREC), established 1960; upgraded to NITK in 2002; Institute of National Importance under NIT Act 2007. Campus named Srinivasnagar after founder U. Srinivasa Mallya. Single main campus (~295-300 acres, described in some sources as split into western/eastern sections by a road) adjacent to the Arabian Sea, with a private beach frequently cited across reviews. Verified distinct from unrelated institutions such as 'Navodaya Institute of Technology' (a separate private college in Raichur, Karnataka) that could be confused due to shared 'NIT' abbreviation usage in casual speech."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews pages (multiple, including branch-filtered) and placement page retrieved."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page retrieved with multiple narrative review snippets across branches."},
+        {"platform": "Careers360", "status": "available", "notes": "Placement page, ranking listing page (with aggregate rating), and a Q&A answer retrieved."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located, including hostel life, ragging (with conflicting accounts), and a comparison thread against NIT Trichy/Warangal."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NITK Surathkal located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-surathkal-national-institute-of-technology-mangalore-24187",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 515,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 515 Student Reviews, 632 comments.' No overall star rating co-visible in this specific snippet."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-surathkal-national-institute-of-technology-mangalore-24187/placement",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "Contains a course-level 'placement rating of this course is 4.3/5' figure (stored in platform_aspect_ratings) but no overall institutional aggregate visible in retrieved snippet."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-surathkal-national-institute-of-technology-mangalore-24187/reviews-14?rating=4",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "Contains a course-comparison data point: 'NIT Surathkal MTech in Communication Systems course is rated 4.0 out of 5 by 1 genuine verified student.' This is a very small, single-reviewer course-level rating, not an institutional aggregate; stored in platform_aspect_ratings with heavy caveat on sample size."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-full-time-phd-colleges-in-karnataka",
+          "aggregate_rating": 4.4,
+          "rating_scale": "out of 5",
+          "review_count": 103,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "From a Karnataka PhD-colleges listing page: 'NIT Surathkal (NITK) - National Institute of Technology Karnataka Surathkal ... Rating: 4.4/5, 103 Reviews.' This listing is scoped to PhD programs specifically, so this rating may reflect a filtered subset of reviews rather than the full institutional review base — flagged rather than assumed to be the overall aggregate."
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25620-national-institute-of-technology-nitk-surathkal/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count was visible in the retrieved snippets; only narrative review text was present."
+        },
+        {
+          "platform": "CollegeDekho",
+          "source_url": "https://www.collegedekho.com/colleges/nitk-reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "Secondary aggregator; explicitly states 'Insights gathered through various sources across internet like student reviews, ratings, student testimonials' — suggesting this page synthesizes rather than independently sources reviews. No standalone aggregate rating visible."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "Shiksha", "aspect": "value_for_money", "rating": 4.3, "rating_scale": "out of 5", "source_url": "https://www.shiksha.com/college/nit-surathkal-national-institute-of-technology-mangalore-24187/placement", "observed_at": null},
+        {"platform": "Shiksha", "aspect": "academics", "rating": 4.0, "rating_scale": "out of 5", "source_url": "https://www.shiksha.com/college/nit-surathkal-national-institute-of-technology-mangalore-24187/reviews-14?rating=4", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "NIT Surathkal",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25620-national-institute-of-technology-nitk-surathkal/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements at NITK are quite good, especially for core branches and IT-related roles, with many reputed companies visiting the campus... From 7th semester onwards students become eligible for campus placement.' Companies named include Microsoft, Google, Amazon, Adobe, Goldman Sachs, Uber, Oracle, Morgan Stanley, Samsung R&D, TCS, Infosys, Dell, Bajaj Auto, Reliance; '190-220+ companies visited campus'; highest 54.75 LPA, average 18.26 LPA; overall placement rate ~87.22% in the 2023 cycle (BTech 93%, MTech 83.05%, MCA 94.44%, MBA 72%)."
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Surathkal organizes one of the best Cultural Fest Incidents every year. Additionally, many startups have been founded and co-founded by NITKians which has improved the startup culture to a great extent.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Surathkal",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25620-national-institute-of-technology-nitk-surathkal/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electrical and Electronics Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electrical and Electronics Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements at NITK Surathkal are very good overall, and the EEE department consistently sees a high percentage of students getting placed—85% to 90%+. However the placement profiles and salaries vary a lot depending on whether you go core electrical jobs or software/IT jobs. Students become eligible for placements from the 6th semester.' Recruiters named for EEE: Texas Instruments, Schneider Electric, Siemens, ABB, L&T, Tata Power, Bosch."
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There is a wonderful beach and also a light house. There are so many trees over here so that fresh air is available.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The food that provided in the mess is also hygienic.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Surathkal",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25620-national-institute-of-technology-nitk-surathkal/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Our college has its own private beach. Sports facilities are excellent, we have huge swimming pool... The campus is of approx 300 acres, lush green.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Lab facilities are decent, we have Central Research Facility where all sorts of advanced machines and software are there... Overall infrastructure is decent but it can be better especially the hostel rooms.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculties are good.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The placements of our college was excellent... Placements are really good. All top MNCs come to campus for recruitment. Highest CTC can go up to 60 LPA.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Surathkal",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-surathkal-national-institute-of-technology-mangalore-24187/reviews-14?rating=4",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Pros and cons of NIT-K, Surathkal",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "mixed",
+              "evidence_summary": "'If you are expecting an average package of 30 lakhs in civil, then you will definitely be disappointed, but the placements are surely satisfying here. This year placement was 67%, but many people go for further studies and hence don't take campus placements... Average package in civil was around Rs. 6 lakhs per annum this year and the highest was around Rs. 13 lakhs per annum... L&T was the major recruiter in general. More than 30 students grabbed top internships in the third year, and nearly 60% students got a direct internship.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'When we consider master degree courses like M.Tech, MBA and M.Sc, the above-said percentage is below 50 percent, still NITK possesses high placements as compared to other [colleges].' Framed as a comparative negative for PG placement rates specifically."
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NITK is famous for its infrastructure. It consists of two campuses, western and eastern on both sides of the road... good facility departments, swimming pools, playgrounds, banks, schools etc. The main attraction of NITK was its private beach.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NITK is an autonomous college. It decides its own courses, curriculum, and faculty members... has a very efficient board which repeatedly reviews and changes its curriculum so that students are exposed to the new industrial atmosphere.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Surathkal",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-surathkal-national-institute-of-technology-mangalore-24187/reviews?bc=10&rating=3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "My review of Mining Engineering at NITK, Surathkal",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Mining Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Mining Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "internships",
+              "target_branch": "Mining Engineering",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'On-campus internships are negligible, though a few students secure off-campus internships.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Mining Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Vedanta & JSW are the major recruiters for Mining. Vedanta gives good packages than any other core company... CTC is 16 LPA (2025) for mining engineers, and other core branch has around 14 LPA (2025).' Notes eligibility constraint: Vedanta 'requires a maximum gap of 1 year' between 12th/PUC and engineering."
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Hostels are good. In the first year of B.Tech, 3 students need to stay in a shared room. In the second year, 2 students. In the 3rd & 4th year, students are allotted a single sharing room in mega tower hostels. Now all rooms have LAN facilities, but it fluctuates.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The college has good connectivity and can get a scholarship through SSP and NSP portals.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Surathkal",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-surathkal-national-institute-of-technology-mangalore-24187/reviews?bc=10&rating=3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Mechanical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'In the mechanical engineering branch, the placement percentage is okay and it is 85%. The highest package is 36 LPA and the lowest package is 6 LPA. The average package is 12 LPA, which is decent. Top recruiting companies for our course are Ola, Uber, Flipkart, Amazon, etc. 70% of students get internships if they do well. Many students go into the software field rather than the core field.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": "Mechanical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The infrastructure is good.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Surathkal",
+          "source": "Careers360",
+          "source_type": "discussion",
+          "source_url": "https://www.careers360.com/question-nitk-surathkal-it-branch-how-it-is-placement-and-study-purpose",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "question nitk surathkal it branch how it is placement and study purpose",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Information Technology",
+          "course_verified": true,
+          "department": null,
+          "branch": "Information Technology",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": "Information Technology",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The faculties are great and highly experienced. The study atmosphere is great.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Information Technology",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The highest package last year was 22 LPA and lowest was 9 LPA. The average package last year was around 12 LPA. On an average it is rated 8.5/10 which is pretty decent.' Note: the 8.5/10 figure here is the answerer's own subjective characterization, not a platform-computed aggregate rating."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Surathkal",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-hostel-life-at-NIT-Surathkal",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is hostel life at NIT Surathkal?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Hostel life in NITK is going to teach you much more about yourself than anything else in college. You learn to adapt to any situation, you learn to manage cash flawlessly, and after 4 years here you'll be filled with a sense of confidence.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Surathkal",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-your-hostel-room-in-NIT-Surathkal",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is your hostel room in NIT Surathkal?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Water, power and internet are all there about 70% of the time I guess. Power and water become a little short in the summer months but it's generally manageable. Internet is fickle from time to time with regards to speed and blocking of sites.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The sports complex is right in the middle of the campus and the ground is filled with a number of games occurring simultaneously... Weekends are split between exploring Mangalore, making plans to go on trips, going on trips.' Also notes 'Boys generally don't have a curfew as such.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Surathkal",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Is-there-any-serious-ragging-in-NITK-Surathkal",
+          "source_review_id": null,
+          "author_display_name": "Pratik Gupta",
+          "review_title": "Is there any serious ragging in NITK Surathkal?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "MCA",
+          "course": "MCA",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Ragging at NITK is not at all a serious issue, thanks to several regulations in place. Apart from casual introduction sessions and senior-junior interaction, which can be described as a very well organized phenomenon, seniors are friendly if you maintain a decent, respectful relationship with them.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Surathkal",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Does-ragging-happen-in-NITK",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Does ragging happen in NITK?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This directly conflicts with the 'Is there any serious ragging in NITK Surathkal?' thread above, which describes ragging as minimal/well-organized. Both preserved as independent, non-reconciled evidence per instruction not to smooth over genuine disagreement between sources.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": "Mechanical Engineering",
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "Answerer, referencing 2013 orientation, states the Hostel In-charge claimed 'NITK campus is ragging free,' but describes personally being ragged 'the hell out of' by seniors ('Sherbert and Na-Win') after entering the Mechanical Engineering department, contradicting the official claim."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Surathkal",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Which-college-is-the-best-in-terms-of-hostels-and-campus-life-NIT-Trichy-Warangal-or-Surathkal",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Which college is the best in terms of hostels and campus life, NIT Trichy Warangal or Surathkal?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Author self-identified as NITK Computer Science graduate (2020), so this evidence is scoped to that individual's college-level opinion, not the earlier NIT Warangal graduate's opinion also present on the same thread (which was already captured separately in the NIT Trichy and NIT Warangal batches where relevant).",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Speaking for NITK Hostels, it's pretty good and won't disappoint you if you know what hostel life is like.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Campus life is amazing at Surathkal, with all its festivals, events, all the sweet spots in and around the college, the amazing tourist destinations scattered around the city Mangalore, the city of Manipal right across... and the wonderful shore calling on you every evening. Did I mention the 25GB/day campus wifi?'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "Proximity to Mangalore and Manipal, and beach access, framed as a location advantage."
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 12,
+        "independent_sources": 4,
+        "reviews_with_dates": 0,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 12
+      },
+
+      "limitations": [
+        "Reddit: no genuine NITK Surathkal-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "No review in this extraction batch carried an explicit visible date; reviews_with_dates and reviews_last_24_months are both 0 as a result.",
+        "Two Quora threads directly conflict on the severity of ragging at NITK (one describing it as minimal/well-organized, another describing a personal experience of being seriously ragged despite an official 'ragging-free' claim). Both are preserved as independent evidence rather than reconciled, since resolving genuine disagreement between sources is a backend/analytical decision, not an extraction-layer one.",
+        "The Careers360 4.4/5 (103 reviews) aggregate was sourced from a Karnataka-wide PhD-colleges listing page; it is unclear whether this rating reflects only PhD-program reviewers or the institution's full review base, and this ambiguity is flagged rather than resolved.",
+        "CollegeDekho's NITK reviews page explicitly states its content is 'gathered through various sources across internet,' suggesting it synthesizes rather than independently sources student testimony; its aggregate rating (if any) was not used, and its narrative content was not included in review_items for this reason.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~500+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

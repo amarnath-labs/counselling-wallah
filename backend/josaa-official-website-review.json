@@ -1,0 +1,20 @@
+[
+  {
+    "college_id": "gurukula-kangri-vishwavidyalaya-haridwar",
+    "college_name": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+    "source_family": "JOSAA",
+    "status": "JOSAA_MATCH_REVIEW_REQUIRED"
+  },
+  {
+    "college_id": "iiit-hyderabad",
+    "college_name": "IIIT Hyderabad",
+    "source_family": "JOSAA",
+    "status": "JOSAA_MATCH_REVIEW_REQUIRED"
+  },
+  {
+    "college_id": "nit-jalandhar",
+    "college_name": "NIT Jalandhar",
+    "source_family": "JOSAA",
+    "status": "JOSAA_MATCH_REVIEW_REQUIRED"
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "college_id": "uptac-abes-engg-college-ghaziabad",
+    "college_name": "ABES ENGG.COLLEGE,GHAZIABAD",
+    "selected_table_index": 16,
+    "academic": [
+      {
+        "college_id": "uptac-abes-engg-college-ghaziabad",
+        "college_name": "ABES ENGG.COLLEGE,GHAZIABAD",
+        "academic_year": 2026,
+        "program": "B.Tech",
+        "admission_type": "standard",
+        "period": "annual",
+        "tuition_fee": 95000,
+        "admission_registration_fee": 3100,
+        "examination_fee": 9600,
+        "security_deposit": 5000,
+        "academic_total": 166200,
+        "source_table_index": 16,
+        "verification_status": "AUTO_READY"
+      }
+    ],
+    "hostel": [
+      {
+        "college_id": "uptac-abes-engg-college-ghaziabad",
+        "college_name": "ABES ENGG.COLLEGE,GHAZIABAD",
+        "academic_year": 2026,
+        "type": "hostel",
+        "accommodation": "Total (2026-27)",
+        "amounts": [
+          136500,
+          148000,
+          143000,
+          164000,
+          154500,
+          177500
+        ],
+        "min_fee": 136500,
+        "max_fee": 177500,
+        "source_table_index": 20,
+        "verification_status": "AUTO_READY"
+      },
+      {
+        "college_id": "uptac-abes-engg-college-ghaziabad",
+        "college_name": "ABES ENGG.COLLEGE,GHAZIABAD",
+        "academic_year": 2026,
+        "type": "hostel",
+        "accommodation": "6",
+        "amounts": [
+          148000,
+          164000,
+          177500
+        ],
+        "min_fee": 148000,
+        "max_fee": 177500,
+        "source_table_index": 21,
+        "verification_status": "AUTO_READY"
+      }
+    ],
+    "status": "AUTO_READY",
+    "validation_errors": [],
+    "validation_status": "VALIDATED"
+  },
+  {
+    "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+    "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+    "selected_table_index": 1,
+    "academic": [
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "academic_year": 2026,
+        "program": "B.Tech",
+        "admission_type": "counseling",
+        "period": "annual",
+        "tuition_fee": 97000,
+        "annual_additional_fee": 45000,
+        "academic_total_calculated": 142000,
+        "source_table_index": 1,
+        "verification_status": "AUTO_READY"
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "academic_year": 2026,
+        "program": "B.Tech",
+        "admission_type": "direct_vacant",
+        "period": "annual",
+        "tuition_fee": 97000,
+        "annual_additional_fee": 45000,
+        "academic_total_calculated": 142000,
+        "source_table_index": 1,
+        "verification_status": "AUTO_READY"
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "academic_year": 2026,
+        "program": "B.Tech",
+        "admission_type": "fee_waiver",
+        "period": "annual",
+        "tuition_fee": 0,
+        "annual_additional_fee": 45000,
+        "academic_total_calculated": 45000,
+        "source_table_index": 1,
+        "verification_status": "AUTO_READY"
+      }
+    ],
+    "hostel": [
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "academic_year": 2026,
+        "type": "hostel",
+        "accommodation": "DOUBLE SEATER",
+        "amounts": [
+          115000,
+          155000
+        ],
+        "min_fee": 115000,
+        "max_fee": 155000,
+        "source_table_index": 3,
+        "verification_status": "AUTO_READY"
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "academic_year": 2026,
+        "type": "hostel",
+        "accommodation": "TRIPLE SEATER",
+        "amounts": [
+          133000
+        ],
+        "min_fee": 133000,
+        "max_fee": 133000,
+        "source_table_index": 3,
+        "verification_status": "AUTO_READY"
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "academic_year": 2026,
+        "type": "hostel",
+        "accommodation": "SINGLE SEATER",
+        "amounts": [
+          120000,
+          165000
+        ],
+        "min_fee": 120000,
+        "max_fee": 165000,
+        "source_table_index": 3,
+        "verification_status": "AUTO_READY"
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "academic_year": 2026,
+        "type": "hostel",
+        "accommodation": "DOUBLE SEATER",
+        "amounts": [
+          115000,
+          155000
+        ],
+        "min_fee": 115000,
+        "max_fee": 155000,
+        "source_table_index": 3,
+        "verification_status": "AUTO_READY"
+      },
+      {
+        "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+        "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+        "academic_year": 2026,
+        "type": "hostel",
+        "accommodation": "TRIPLE SEATER",
+        "amounts": [
+          133000
+        ],
+        "min_fee": 133000,
+        "max_fee": 133000,
+        "source_table_index": 3,
+        "verification_status": "AUTO_READY"
+      }
+    ],
+    "status": "AUTO_READY",
+    "validation_errors": [],
+    "validation_status": "VALIDATED"
+  }
+]

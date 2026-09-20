@@ -1,0 +1,1732 @@
+[
+  {
+    "dataset_index": 15,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.7,
+    "rating_5": 4.85
+  },
+  {
+    "dataset_index": 40,
+    "dataset_college": "Babu Banarasi Das Northern India Institute of Technology - [BBDNIIT]",
+    "project_college": "uptac-babu-banarasi-das-northern-india-institute-of-technology-lucknow",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_index": 46,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.4,
+    "rating_5": 4.2
+  },
+  {
+    "dataset_index": 136,
+    "dataset_college": "Indian Institute of Engineering Science and Technology - [IIEST] Shibpur",
+    "project_college": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 141,
+    "dataset_college": "Visvesvaraya National Institute of Technology - [VNIT]",
+    "project_college": "visvesvaraya-national-institute-of-technology-nagpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 167,
+    "dataset_college": "Sardar Vallabhbhai National Institute of Technology - [SVNIT]",
+    "project_college": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7,
+    "rating_5": 3.5
+  },
+  {
+    "dataset_index": 218,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 253,
+    "dataset_college": "NIT Warangal",
+    "project_college": "nit-warangal",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.5,
+    "rating_5": 3.25
+  },
+  {
+    "dataset_index": 268,
+    "dataset_college": "Raja Balwant Singh Engineering Technical Campus - [FETRBS]",
+    "project_college": "uptac-raja-balwant-singh-engineering-technical-campus-agra",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 300,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.7,
+    "rating_5": 4.85
+  },
+  {
+    "dataset_index": 301,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_index": 304,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_index": 317,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 319,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 5.7,
+    "rating_5": 2.85
+  },
+  {
+    "dataset_index": 324,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_index": 339,
+    "dataset_college": "Ajay Kumar Garg Engineering College - [AKGEC]",
+    "project_college": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_index": 346,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.3,
+    "rating_5": 4.65
+  },
+  {
+    "dataset_index": 359,
+    "dataset_college": "Indian Institute of Engineering Science and Technology - [IIEST] Shibpur",
+    "project_college": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7,
+    "rating_5": 3.5
+  },
+  {
+    "dataset_index": 448,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_index": 453,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.3,
+    "rating_5": 3.65
+  },
+  {
+    "dataset_index": 459,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 5.7,
+    "rating_5": 2.85
+  },
+  {
+    "dataset_index": 469,
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_index": 483,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_index": 484,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_index": 485,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_index": 486,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_index": 487,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_index": 536,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_index": 575,
+    "dataset_college": "Central University of Haryana - [CUH]",
+    "project_college": "central-university-of-haryana",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7,
+    "rating_5": 3.5
+  },
+  {
+    "dataset_index": 619,
+    "dataset_college": "Ajay Kumar Garg Engineering College - [AKGEC]",
+    "project_college": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.3,
+    "rating_5": 4.65
+  },
+  {
+    "dataset_index": 739,
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.3,
+    "rating_5": 3.65
+  },
+  {
+    "dataset_index": 743,
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.3,
+    "rating_5": 4.65
+  },
+  {
+    "dataset_index": 783,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_index": 815,
+    "dataset_college": "Maulana Azad National Institute of Technology - [MANIT]",
+    "project_college": "maulana-azad-national-institute-of-technology-bhopal",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_index": 839,
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.3,
+    "rating_5": 3.65
+  },
+  {
+    "dataset_index": 862,
+    "dataset_college": "Ajay Kumar Garg Engineering College - [AKGEC]",
+    "project_college": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7,
+    "rating_5": 3.5
+  },
+  {
+    "dataset_index": 872,
+    "dataset_college": "Babu Banarasi Das Northern India Institute of Technology - [BBDNIIT]",
+    "project_college": "uptac-babu-banarasi-das-northern-india-institute-of-technology-lucknow",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_index": 886,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 10,
+    "rating_5": 5
+  },
+  {
+    "dataset_index": 887,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 10,
+    "rating_5": 5
+  },
+  {
+    "dataset_index": 950,
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.5,
+    "rating_5": 3.75
+  },
+  {
+    "dataset_index": 960,
+    "dataset_college": "Indian Institute of Information Technology Vadodara - [IIIT-V]",
+    "project_college": "indian-institute-of-information-technology-vadodara-gujrat",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_index": 969,
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.7,
+    "rating_5": 3.35
+  },
+  {
+    "dataset_index": 996,
+    "dataset_college": "Indian Institute of Information Technology Vadodara - [IIIT-V]",
+    "project_college": "indian-institute-of-information-technology-vadodara-gujrat",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.7,
+    "rating_5": 3.35
+  },
+  {
+    "dataset_index": 1000,
+    "dataset_college": "Indian Institute of Information Technology Vadodara - [IIIT-V]",
+    "project_college": "indian-institute-of-information-technology-vadodara-gujrat",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.2,
+    "rating_5": 3.6
+  },
+  {
+    "dataset_index": 1017,
+    "dataset_college": "Sant Longowal Institute of Engineering and Technology - [SLIET]",
+    "project_college": "sant-longowal-institute-of-engineering-and-technology",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.2,
+    "rating_5": 4.1
+  },
+  {
+    "dataset_index": 1022,
+    "dataset_college": "NIT Trichy",
+    "project_college": "nit-trichy",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.2,
+    "rating_5": 4.6
+  },
+  {
+    "dataset_index": 1028,
+    "dataset_college": "Indian Institute of Information Technology Vadodara - [IIIT-V]",
+    "project_college": "indian-institute-of-information-technology-vadodara-gujrat",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.8,
+    "rating_5": 3.9
+  },
+  {
+    "dataset_index": 1069,
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 1078,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.2,
+    "rating_5": 3.1
+  },
+  {
+    "dataset_index": 1117,
+    "dataset_college": "Visvesvaraya National Institute of Technology - [VNIT]",
+    "project_college": "visvesvaraya-national-institute-of-technology-nagpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_index": 1156,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_index": 1172,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 1174,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.8,
+    "rating_5": 3.9
+  },
+  {
+    "dataset_index": 1178,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.5,
+    "rating_5": 4.75
+  },
+  {
+    "dataset_index": 1191,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_index": 1202,
+    "dataset_college": "Malaviya National Institute of Technology - [MNIT]",
+    "project_college": "malaviya-national-institute-of-technology-jaipur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.2,
+    "rating_5": 3.6
+  },
+  {
+    "dataset_index": 1209,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 10,
+    "rating_5": 5
+  },
+  {
+    "dataset_index": 1241,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 1243,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_index": 1256,
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.8,
+    "rating_5": 3.9
+  },
+  {
+    "dataset_index": 1263,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.5,
+    "rating_5": 3.75
+  },
+  {
+    "dataset_index": 1297,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_index": 1304,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.5,
+    "rating_5": 3.75
+  },
+  {
+    "dataset_index": 1325,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.2,
+    "rating_5": 4.6
+  },
+  {
+    "dataset_index": 1327,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.5,
+    "rating_5": 4.25
+  },
+  {
+    "dataset_index": 1332,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 1333,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_index": 1334,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_index": 1352,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 1361,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 1388,
+    "dataset_college": "NIT Trichy",
+    "project_college": "nit-trichy",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_index": 1393,
+    "dataset_college": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management - [ABVIIITM]",
+    "project_college": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.3,
+    "rating_5": 3.65
+  },
+  {
+    "dataset_index": 1398,
+    "dataset_college": "Gurukula Kangri Vishwavidyalaya - [GKV]",
+    "project_college": "gurukula-kangri-vishwavidyalaya-haridwar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 5.8,
+    "rating_5": 2.9
+  },
+  {
+    "dataset_index": 1401,
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_index": 1410,
+    "dataset_college": "Sant Longowal Institute of Engineering and Technology - [SLIET]",
+    "project_college": "sant-longowal-institute-of-engineering-and-technology",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.2,
+    "rating_5": 4.6
+  },
+  {
+    "dataset_index": 1433,
+    "dataset_college": "Indian Institute of Information Technology Vadodara - [IIIT-V]",
+    "project_college": "indian-institute-of-information-technology-vadodara-gujrat",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.5,
+    "rating_5": 3.75
+  },
+  {
+    "dataset_index": 1477,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.5,
+    "rating_5": 4.25
+  },
+  {
+    "dataset_index": 1501,
+    "dataset_college": "Indian Institute of Information Technology Vadodara - [IIIT-V]",
+    "project_college": "indian-institute-of-information-technology-vadodara-gujrat",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.7,
+    "rating_5": 4.85
+  },
+  {
+    "dataset_index": 1503,
+    "dataset_college": "Indian Institute of Information Technology Vadodara - [IIIT-V]",
+    "project_college": "indian-institute-of-information-technology-vadodara-gujrat",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.8,
+    "rating_5": 4.4
+  },
+  {
+    "dataset_index": 1504,
+    "dataset_college": "Malaviya National Institute of Technology - [MNIT]",
+    "project_college": "malaviya-national-institute-of-technology-jaipur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7,
+    "rating_5": 3.5
+  },
+  {
+    "dataset_index": 1506,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.7,
+    "rating_5": 3.35
+  },
+  {
+    "dataset_index": 1509,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.2,
+    "rating_5": 4.1
+  },
+  {
+    "dataset_index": 1513,
+    "dataset_college": "Indian Institute of Information Technology Vadodara - [IIIT-V]",
+    "project_college": "indian-institute-of-information-technology-vadodara-gujrat",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.2,
+    "rating_5": 4.1
+  },
+  {
+    "dataset_index": 1536,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 1563,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 1569,
+    "dataset_college": "Visvesvaraya National Institute of Technology - [VNIT]",
+    "project_college": "visvesvaraya-national-institute-of-technology-nagpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.5,
+    "rating_5": 4.25
+  },
+  {
+    "dataset_index": 1580,
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 1592,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.8,
+    "rating_5": 4.4
+  },
+  {
+    "dataset_index": 1598,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_index": 1612,
+    "dataset_college": "International Institute of Information Technology - [IIIT] Naya Raipur",
+    "project_college": "international-institute-of-information-technology-naya-raipur",
+    "method": "EXACT_NAME",
+    "reason": "EXACT_NAME",
+    "score": 1,
+    "rating_raw": 9.3,
+    "rating_5": 4.65
+  },
+  {
+    "dataset_index": 1617,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.3,
+    "rating_5": 4.65
+  },
+  {
+    "dataset_index": 1634,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.8,
+    "rating_5": 4.4
+  },
+  {
+    "dataset_index": 1641,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.2,
+    "rating_5": 4.1
+  },
+  {
+    "dataset_index": 1642,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 1647,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.8,
+    "rating_5": 4.4
+  },
+  {
+    "dataset_index": 1654,
+    "dataset_college": "Kamla Nehru Institute of Technology - [KNIT]",
+    "project_college": "uptac-kamla-nehru-institute-of-technology-sultanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_index": 1665,
+    "dataset_college": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management - [ABVIIITM]",
+    "project_college": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_index": 1672,
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.8,
+    "rating_5": 3.9
+  },
+  {
+    "dataset_index": 1689,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.8,
+    "rating_5": 4.4
+  },
+  {
+    "dataset_index": 1691,
+    "dataset_college": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management - [ABVIIITM]",
+    "project_college": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_index": 1696,
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.8,
+    "rating_5": 3.4
+  },
+  {
+    "dataset_index": 1699,
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.5,
+    "rating_5": 3.25
+  },
+  {
+    "dataset_index": 1700,
+    "dataset_college": "Visvesvaraya National Institute of Technology - [VNIT]",
+    "project_college": "visvesvaraya-national-institute-of-technology-nagpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 1737,
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.3,
+    "rating_5": 3.15
+  },
+  {
+    "dataset_index": 1742,
+    "dataset_college": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management - [ABVIIITM]",
+    "project_college": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.3,
+    "rating_5": 3.65
+  },
+  {
+    "dataset_index": 1780,
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.8,
+    "rating_5": 3.4
+  },
+  {
+    "dataset_index": 1815,
+    "dataset_college": "Institute of Infrastructure Technology Research and Management - [IITRAM]",
+    "project_college": "institute-of-infrastructure-technology-research-and-management-ahmedabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_index": 1833,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.2,
+    "rating_5": 4.1
+  },
+  {
+    "dataset_index": 1940,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.7,
+    "rating_5": 4.85
+  },
+  {
+    "dataset_index": 1950,
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.8,
+    "rating_5": 3.9
+  },
+  {
+    "dataset_index": 1967,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.8,
+    "rating_5": 3.9
+  },
+  {
+    "dataset_index": 1978,
+    "dataset_college": "Malaviya National Institute of Technology - [MNIT]",
+    "project_college": "malaviya-national-institute-of-technology-jaipur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.5,
+    "rating_5": 4.25
+  },
+  {
+    "dataset_index": 2030,
+    "dataset_college": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management - [ABVIIITM]",
+    "project_college": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_index": 2031,
+    "dataset_college": "Malaviya National Institute of Technology - [MNIT]",
+    "project_college": "malaviya-national-institute-of-technology-jaipur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.5,
+    "rating_5": 3.75
+  },
+  {
+    "dataset_index": 2061,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.5,
+    "rating_5": 4.25
+  },
+  {
+    "dataset_index": 2067,
+    "dataset_college": "Maulana Azad National Institute of Technology - [MANIT]",
+    "project_college": "maulana-azad-national-institute-of-technology-bhopal",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_index": 2077,
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_index": 2151,
+    "dataset_college": "NIT Warangal",
+    "project_college": "nit-warangal",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.2,
+    "rating_5": 4.1
+  },
+  {
+    "dataset_index": 2168,
+    "dataset_college": "Indian Institute of Engineering Science and Technology - [IIEST] Shibpur",
+    "project_college": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.2,
+    "rating_5": 3.6
+  },
+  {
+    "dataset_index": 2179,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.8,
+    "rating_5": 4.4
+  },
+  {
+    "dataset_index": 2181,
+    "dataset_college": "Malaviya National Institute of Technology - [MNIT]",
+    "project_college": "malaviya-national-institute-of-technology-jaipur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6,
+    "rating_5": 3
+  },
+  {
+    "dataset_index": 2191,
+    "dataset_college": "Sardar Vallabhbhai National Institute of Technology - [SVNIT]",
+    "project_college": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.5,
+    "rating_5": 4.25
+  },
+  {
+    "dataset_index": 2206,
+    "dataset_college": "National Institute of Technology - [NIT] Meghalaya",
+    "project_college": "national-institute-of-technology-meghalaya",
+    "method": "EXACT_NAME",
+    "reason": "EXACT_NAME",
+    "score": 1,
+    "rating_raw": 7.5,
+    "rating_5": 3.75
+  },
+  {
+    "dataset_index": 2215,
+    "dataset_college": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management - [ABVIIITM]",
+    "project_college": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.8,
+    "rating_5": 3.9
+  },
+  {
+    "dataset_index": 2242,
+    "dataset_college": "Indian Institute of Information Technology Sri City - [IIIT]",
+    "project_college": "indian-institute-of-information-technology-sri-city-chittoor",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.3,
+    "rating_5": 3.15
+  },
+  {
+    "dataset_index": 2260,
+    "dataset_college": "Malaviya National Institute of Technology - [MNIT]",
+    "project_college": "malaviya-national-institute-of-technology-jaipur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.2,
+    "rating_5": 4.1
+  },
+  {
+    "dataset_index": 2262,
+    "dataset_college": "Kothiwal Institute of Technology and Professional Studies - [KITPS]",
+    "project_college": "uptac-kothiwal-institute-of-technology-professional-studies-moradabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.5,
+    "rating_5": 4.25
+  },
+  {
+    "dataset_index": 2315,
+    "dataset_college": "Malaviya National Institute of Technology - [MNIT]",
+    "project_college": "malaviya-national-institute-of-technology-jaipur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.5,
+    "rating_5": 3.75
+  },
+  {
+    "dataset_index": 2319,
+    "dataset_college": "Indian Institute of Information Technology Sri City - [IIIT]",
+    "project_college": "indian-institute-of-information-technology-sri-city-chittoor",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.3,
+    "rating_5": 3.15
+  },
+  {
+    "dataset_index": 2333,
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.2,
+    "rating_5": 4.1
+  },
+  {
+    "dataset_index": 2357,
+    "dataset_college": "Maulana Azad National Institute of Technology - [MANIT]",
+    "project_college": "maulana-azad-national-institute-of-technology-bhopal",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_index": 2388,
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.8,
+    "rating_5": 3.9
+  },
+  {
+    "dataset_index": 2396,
+    "dataset_college": "North Eastern Regional Institute of Science and Technology - [NERIST]",
+    "project_college": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7,
+    "rating_5": 3.5
+  },
+  {
+    "dataset_index": 2423,
+    "dataset_college": "Malaviya National Institute of Technology - [MNIT]",
+    "project_college": "malaviya-national-institute-of-technology-jaipur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.2,
+    "rating_5": 4.1
+  },
+  {
+    "dataset_index": 2430,
+    "dataset_college": "Indian Institute of Engineering Science and Technology - [IIEST] Shibpur",
+    "project_college": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.8,
+    "rating_5": 3.9
+  },
+  {
+    "dataset_index": 2501,
+    "dataset_college": "Malaviya National Institute of Technology - [MNIT]",
+    "project_college": "malaviya-national-institute-of-technology-jaipur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.2,
+    "rating_5": 3.1
+  },
+  {
+    "dataset_index": 2510,
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 10,
+    "rating_5": 5
+  },
+  {
+    "dataset_index": 2512,
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_index": 2519,
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.5,
+    "rating_5": 3.75
+  },
+  {
+    "dataset_index": 2590,
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.5,
+    "rating_5": 3.75
+  },
+  {
+    "dataset_index": 2593,
+    "dataset_college": "NIT Warangal",
+    "project_college": "nit-warangal",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_index": 2601,
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_index": 2602,
+    "dataset_college": "Visvesvaraya National Institute of Technology - [VNIT]",
+    "project_college": "visvesvaraya-national-institute-of-technology-nagpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.8,
+    "rating_5": 3.9
+  },
+  {
+    "dataset_index": 2615,
+    "dataset_college": "Sardar Vallabhbhai National Institute of Technology - [SVNIT]",
+    "project_college": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.5,
+    "rating_5": 4.25
+  },
+  {
+    "dataset_index": 2659,
+    "dataset_college": "Indian Institute of Engineering Science and Technology - [IIEST] Shibpur",
+    "project_college": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_index": 2675,
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.2,
+    "rating_5": 4.1
+  },
+  {
+    "dataset_index": 2676,
+    "dataset_college": "NIT Trichy",
+    "project_college": "nit-trichy",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.5,
+    "rating_5": 4.75
+  },
+  {
+    "dataset_index": 2719,
+    "dataset_college": "Sardar Vallabhbhai National Institute of Technology - [SVNIT]",
+    "project_college": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_index": 2727,
+    "dataset_college": "Indian Institute of Information Technology Sri City - [IIIT]",
+    "project_college": "indian-institute-of-information-technology-sri-city-chittoor",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.7,
+    "rating_5": 3.35
+  },
+  {
+    "dataset_index": 2798,
+    "dataset_college": "NIT Warangal",
+    "project_college": "nit-warangal",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.7,
+    "rating_5": 4.85
+  },
+  {
+    "dataset_index": 2801,
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.5,
+    "rating_5": 4.25
+  },
+  {
+    "dataset_index": 2806,
+    "dataset_college": "NIT Warangal",
+    "project_college": "nit-warangal",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.7,
+    "rating_5": 3.35
+  },
+  {
+    "dataset_index": 2813,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.2,
+    "rating_5": 4.1
+  },
+  {
+    "dataset_index": 2838,
+    "dataset_college": "Indian Institute of Engineering Science and Technology - [IIEST] Shibpur",
+    "project_college": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 5.2,
+    "rating_5": 2.6
+  },
+  {
+    "dataset_index": 2904,
+    "dataset_college": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management - [ABVIIITM]",
+    "project_college": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.2,
+    "rating_5": 3.1
+  },
+  {
+    "dataset_index": 2913,
+    "dataset_college": "Visvesvaraya National Institute of Technology - [VNIT]",
+    "project_college": "visvesvaraya-national-institute-of-technology-nagpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 2961,
+    "dataset_college": "Indian Institute of Engineering Science and Technology - [IIEST] Shibpur",
+    "project_college": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.5,
+    "rating_5": 4.25
+  },
+  {
+    "dataset_index": 2965,
+    "dataset_college": "Indian Institute of Engineering Science and Technology - [IIEST] Shibpur",
+    "project_college": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.5,
+    "rating_5": 3.75
+  },
+  {
+    "dataset_index": 3008,
+    "dataset_college": "Indian Institute of Information Technology Vadodara - [IIIT-V]",
+    "project_college": "indian-institute-of-information-technology-vadodara-gujrat",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.2,
+    "rating_5": 4.1
+  },
+  {
+    "dataset_index": 3017,
+    "dataset_college": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management - [ABVIIITM]",
+    "project_college": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.8,
+    "rating_5": 3.9
+  },
+  {
+    "dataset_index": 3029,
+    "dataset_college": "NIT Warangal",
+    "project_college": "nit-warangal",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_index": 3036,
+    "dataset_college": "Indian Institute of Engineering Science and Technology - [IIEST] Shibpur",
+    "project_college": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_index": 3063,
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_index": 3064,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_index": 3066,
+    "dataset_college": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management - [ABVIIITM]",
+    "project_college": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_index": 3074,
+    "dataset_college": "Ajay Kumar Garg Engineering College - [AKGEC]",
+    "project_college": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_index": 3128,
+    "dataset_college": "Indian Institute of Engineering Science and Technology - [IIEST] Shibpur",
+    "project_college": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 6.5,
+    "rating_5": 3.25
+  },
+  {
+    "dataset_index": 3151,
+    "dataset_college": "Pranveer Singh Institute of Technology - [PSIT]",
+    "project_college": "uptac-pranveer-singh-institute-of-technology-kanpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_index": 3205,
+    "dataset_college": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management - [ABVIIITM]",
+    "project_college": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 7.8,
+    "rating_5": 3.9
+  },
+  {
+    "dataset_index": 3219,
+    "dataset_college": "NIT Trichy",
+    "project_college": "nit-trichy",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_index": 3232,
+    "dataset_college": "Indian Institute of Engineering Science and Technology - [IIEST] Shibpur",
+    "project_college": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 8.8,
+    "rating_5": 4.4
+  },
+  {
+    "dataset_index": 3260,
+    "dataset_college": "NIT Warangal",
+    "project_college": "nit-warangal",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.2,
+    "rating_5": 4.6
+  },
+  {
+    "dataset_index": 3289,
+    "dataset_college": "Raja Balwant Singh Engineering Technical Campus - [FETRBS]",
+    "project_college": "uptac-raja-balwant-singh-engineering-technical-campus-agra",
+    "method": "VERIFIED_ALIAS",
+    "reason": "VERIFIED_ALIAS",
+    "score": 1,
+    "rating_raw": 9.5,
+    "rating_5": 4.75
+  }
+]

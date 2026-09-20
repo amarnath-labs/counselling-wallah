@@ -1,0 +1,836 @@
+﻿import {
+  getCandidateQuestions,
+  getQuestionByIds,
+} from '../../repositories/careerQuestionRepository.js';
+
+import {
+  rankQuestionCandidates,
+} from './questionRanker.js';
+
+
+function normalize(value) {
+  return String(value ?? '')
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[./(),_-]+/g, ' ')
+    .replace(/\s+/g, ' ');
+}
+
+
+function normalizeList(values = []) {
+  return (
+    Array.isArray(values)
+      ? values
+      : [values]
+  )
+    .map(normalize)
+    .filter(Boolean);
+}
+
+
+function normalizeClass(value) {
+  const normalized =
+    normalize(value);
+
+  if (!normalized) {
+    return '';
+  }
+
+  const match =
+    normalized.match(
+      /(?:class\s*)?(\d{1,2})/
+    );
+
+  if (!match) {
+    return normalized;
+  }
+
+  return `class ${Number(match[1])}`;
+}
+
+
+function classNumber(value) {
+  const normalized =
+    normalizeClass(value);
+
+  const match =
+    normalized.match(
+      /class\s+(\d{1,2})/
+    );
+
+  return match
+    ? Number(match[1])
+    : null;
+}
+
+
+function fuzzyMatch(
+  value,
+  allowed = []
+) {
+  if (!allowed?.length) {
+    return true;
+  }
+
+  const target =
+    normalize(value);
+
+  if (!target) {
+    return false;
+  }
+
+  return allowed.some(
+    (item) => {
+      const candidate =
+        normalize(item);
+
+      return (
+        candidate === target ||
+        candidate.includes(target) ||
+        target.includes(candidate)
+      );
+    }
+  );
+}
+
+
+function listOverlap(
+  values = [],
+  allowed = []
+) {
+  if (!allowed?.length) {
+    return true;
+  }
+
+  const normalizedValues =
+    normalizeList(values);
+
+  if (!normalizedValues.length) {
+    return false;
+  }
+
+  return normalizedValues.some(
+    (value) =>
+      fuzzyMatch(
+        value,
+        allowed
+      )
+  );
+}
+
+
+function hasClassRestriction(
+  question
+) {
+  return Boolean(
+    question.classes?.length ||
+    question.minClass != null ||
+    question.maxClass != null
+  );
+}
+
+
+function validForClass(
+  question,
+  profile
+) {
+  if (
+    !hasClassRestriction(question)
+  ) {
+    return true;
+  }
+
+  const profileClass =
+    normalizeClass(
+      profile.currentClass
+    );
+
+  const numericClass =
+    classNumber(
+      profile.currentClass
+    );
+
+  if (
+    !profileClass &&
+    numericClass == null
+  ) {
+    return false;
+  }
+
+  if (
+    question.classes?.length
+  ) {
+    const allowedClasses =
+      question.classes.map(
+        normalizeClass
+      );
+
+    if (
+      !allowedClasses.includes(
+        profileClass
+      )
+    ) {
+      return false;
+    }
+  }
+
+  if (
+    question.minClass != null
+  ) {
+    if (
+      numericClass == null ||
+      numericClass <
+        Number(question.minClass)
+    ) {
+      return false;
+    }
+  }
+
+  if (
+    question.maxClass != null
+  ) {
+    if (
+      numericClass == null ||
+      numericClass >
+        Number(question.maxClass)
+    ) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+
+function hardEligible(
+  question,
+  profile
+) {
+  if (
+    question.stage !==
+    profile.stage
+  ) {
+    return false;
+  }
+
+  if (
+    !validForClass(
+      question,
+      profile
+    )
+  ) {
+    return false;
+  }
+
+  if (
+    question.degrees?.length &&
+    !fuzzyMatch(
+      profile.degree,
+      question.degrees
+    )
+  ) {
+    return false;
+  }
+
+  if (
+    question.branches?.length &&
+    !fuzzyMatch(
+      profile.branch ||
+        profile.specialization,
+      question.branches
+    )
+  ) {
+    return false;
+  }
+
+  if (
+    question.streams?.length &&
+    !fuzzyMatch(
+      profile.stream,
+      question.streams
+    )
+  ) {
+    return false;
+  }
+
+  return true;
+}
+
+
+function contextSignals(
+  question,
+  profile
+) {
+  const boardRestricted =
+    Boolean(
+      question.boards?.length
+    );
+
+  const subjectRestricted =
+    Boolean(
+      question.subjects?.length
+    );
+
+  const interestRestricted =
+    Boolean(
+      question.interestClusters
+        ?.length
+    );
+
+  const goalRestricted =
+    Boolean(
+      question.goals?.length
+    );
+
+  const familyRestricted =
+    Boolean(
+      question.careerFamilies
+        ?.length
+    );
+
+  const skillRestricted =
+    Boolean(
+      question.skills?.length
+    );
+
+
+  const examRestricted =
+    Boolean(
+      question.entranceExams?.length
+    );
+
+
+  const courseRestricted =
+    Boolean(
+      question.targetCourses?.length
+    );
+
+
+  const collegeYearRestricted =
+    Boolean(
+      question.collegeYears?.length
+    );
+
+
+  const boardMatch =
+    !boardRestricted ||
+    fuzzyMatch(
+      profile.board,
+      question.boards
+    );
+
+  const subjectMatch =
+    !subjectRestricted ||
+    listOverlap(
+      profile.subjects || [],
+      question.subjects
+    );
+
+  const profileInterests = [
+    ...(profile.careerInterests || []),
+    ...(profile.interestClusters || []),
+  ];
+
+  const interestMatch =
+    !interestRestricted ||
+    listOverlap(
+      profileInterests,
+      question.interestClusters
+    );
+
+  const goalMatch =
+    !goalRestricted ||
+    fuzzyMatch(
+      profile.goal,
+      question.goals
+    );
+
+  const familyMatch =
+    !familyRestricted ||
+    listOverlap(
+      profile.careerFamilies || [],
+      question.careerFamilies
+    );
+
+  const skillMatch =
+    !skillRestricted ||
+    listOverlap(
+      profile.skills || [],
+      question.skills
+    );
+
+
+  const examMatch =
+    !examRestricted ||
+    listOverlap(
+      profile.entranceExams ||
+        profile.targetExams ||
+        [],
+      question.entranceExams
+    );
+
+
+  const courseMatch =
+    !courseRestricted ||
+    listOverlap(
+      profile.targetCourses || [],
+      question.targetCourses
+    );
+
+
+  const collegeYearMatch =
+    !collegeYearRestricted ||
+    fuzzyMatch(
+      profile.collegeYear,
+      question.collegeYears
+    );
+
+
+  return {
+    boardRestricted,
+    subjectRestricted,
+    interestRestricted,
+    goalRestricted,
+    familyRestricted,
+    skillRestricted,
+    examRestricted,
+    courseRestricted,
+    collegeYearRestricted,
+
+    boardMatch,
+    subjectMatch,
+    interestMatch,
+    goalMatch,
+    familyMatch,
+    skillMatch,
+    examMatch,
+    courseMatch,
+    collegeYearMatch,
+  };
+}
+
+
+function contextSpecificity(
+  signals
+) {
+  const pairs = [
+    [
+      signals.boardRestricted,
+      signals.boardMatch,
+    ],
+    [
+      signals.subjectRestricted,
+      signals.subjectMatch,
+    ],
+    [
+      signals.interestRestricted,
+      signals.interestMatch,
+    ],
+    [
+      signals.goalRestricted,
+      signals.goalMatch,
+    ],
+    [
+      signals.familyRestricted,
+      signals.familyMatch,
+    ],
+    [
+      signals.skillRestricted,
+      signals.skillMatch,
+    ],
+    [
+      signals.examRestricted,
+      signals.examMatch,
+    ],
+    [
+      signals.courseRestricted,
+      signals.courseMatch,
+    ],
+    [
+      signals.collegeYearRestricted,
+      signals.collegeYearMatch,
+    ],
+  ];
+
+  const restricted =
+    pairs.filter(
+      ([isRestricted]) =>
+        isRestricted
+    );
+
+  if (!restricted.length) {
+    return 0.2;
+  }
+
+  const matched =
+    restricted.filter(
+      ([
+        ,
+        isMatch,
+      ]) =>
+        isMatch
+    ).length;
+
+  const ratio =
+    matched /
+    restricted.length;
+
+  if (matched === 0) {
+    return 0.1;
+  }
+
+  if (
+    matched ===
+    restricted.length
+  ) {
+    if (matched >= 3) {
+      return 0.95;
+    }
+
+    if (matched === 2) {
+      return 0.85;
+    }
+
+    return 0.7;
+  }
+
+  return Math.max(
+    0.25,
+    Math.min(
+      0.75,
+      0.25 + ratio * 0.5
+    )
+  );
+}
+
+
+function classSpecificity(
+  question,
+  profile
+) {
+  if (
+    !hasClassRestriction(
+      question
+    )
+  ) {
+    return 0.3;
+  }
+
+  if (
+    !validForClass(
+      question,
+      profile
+    )
+  ) {
+    return 0;
+  }
+
+  const profileClass =
+    normalizeClass(
+      profile.currentClass
+    );
+
+  if (
+    question.classes?.length
+  ) {
+    const classes =
+      question.classes.map(
+        normalizeClass
+      );
+
+    if (
+      classes.includes(
+        profileClass
+      )
+    ) {
+      return 1;
+    }
+  }
+
+  const numericClass =
+    classNumber(
+      profile.currentClass
+    );
+
+  if (
+    numericClass != null &&
+    question.minClass != null &&
+    question.maxClass != null &&
+    Number(question.minClass) ===
+      numericClass &&
+    Number(question.maxClass) ===
+      numericClass
+  ) {
+    return 1;
+  }
+
+  return 0.75;
+}
+
+
+function retrievalTier(
+  signals
+) {
+  const restrictedCount = [
+    signals.boardRestricted,
+    signals.subjectRestricted,
+    signals.interestRestricted,
+    signals.goalRestricted,
+    signals.familyRestricted,
+    signals.skillRestricted,
+    signals.examRestricted,
+    signals.courseRestricted,
+    signals.collegeYearRestricted,
+  ].filter(Boolean).length;
+
+  const matchedCount = [
+    signals.boardRestricted &&
+      signals.boardMatch,
+
+    signals.subjectRestricted &&
+      signals.subjectMatch,
+
+    signals.interestRestricted &&
+      signals.interestMatch,
+
+    signals.goalRestricted &&
+      signals.goalMatch,
+
+    signals.familyRestricted &&
+      signals.familyMatch,
+
+    signals.skillRestricted &&
+      signals.skillMatch,
+
+    signals.examRestricted &&
+      signals.examMatch,
+
+    signals.courseRestricted &&
+      signals.courseMatch,
+
+    signals.collegeYearRestricted &&
+      signals.collegeYearMatch,
+  ].filter(Boolean).length;
+
+
+  if (!restrictedCount) {
+    return 4;
+  }
+
+  if (
+    matchedCount ===
+    restrictedCount
+  ) {
+    return 0;
+  }
+
+  const ratio =
+    matchedCount /
+    restrictedCount;
+
+  if (ratio >= 0.75) {
+    return 1;
+  }
+
+  if (ratio >= 0.5) {
+    return 2;
+  }
+
+  if (matchedCount > 0) {
+    return 3;
+  }
+
+  return 4;
+}
+
+
+function buildAdaptivePool(
+  candidates,
+  profile
+) {
+  return candidates
+    .filter(
+      (question) =>
+        hardEligible(
+          question,
+          profile
+        )
+    )
+    .map(
+      (question) => {
+        const signals =
+          contextSignals(
+            question,
+            profile
+          );
+
+        return {
+          ...question,
+
+          metadataTier:
+            retrievalTier(
+              signals
+            ),
+
+          contextSpecificity:
+            contextSpecificity(
+              signals
+            ),
+
+          classSpecificity:
+            classSpecificity(
+              question,
+              profile
+            ),
+        };
+      }
+    );
+}
+
+
+export async function retrieveRankedQuestionCandidates({
+  profile,
+  answers = [],
+  traitEvidence = {},
+  careerMatches = [],
+  allowedQuestionIds = [],
+  limit = 10,
+}) {
+  const askedIds =
+    answers
+      .map(
+        (answer) =>
+          answer.questionId
+      )
+      .filter(Boolean);
+
+
+  const [
+    candidates,
+    askedQuestions,
+  ] =
+    await Promise.all([
+      getCandidateQuestions({
+        stage:
+          profile.stage,
+
+        excludeIds:
+          askedIds,
+
+        limit: 2000,
+
+        version: 7,
+
+        currentClass:
+          profile.currentClass,
+      }),
+
+      getQuestionByIds(
+        askedIds
+      ),
+    ]);
+
+
+  const allowedSet =
+    new Set(
+      Array.isArray(
+        allowedQuestionIds
+      )
+        ? allowedQuestionIds
+        : []
+    );
+
+
+  const sameStage =
+    candidates.filter(
+      (question) =>
+        question.stage ===
+          profile.stage &&
+        (
+          allowedSet.size ===
+            0 ||
+          allowedSet.has(
+            question.id
+          )
+        )
+    );
+
+
+  const pool =
+    buildAdaptivePool(
+      sameStage,
+      profile
+    );
+
+
+  if (!pool.length) {
+    return [];
+  }
+
+
+  const ranked =
+    rankQuestionCandidates({
+      candidates:
+        pool,
+
+      profile,
+      traitEvidence,
+      careerMatches,
+      askedQuestions,
+    });
+
+
+  const safeLimit =
+    Math.max(
+      1,
+      Math.min(
+        50,
+        Number(limit) || 10
+      )
+    );
+
+
+  return ranked.slice(
+    0,
+    safeLimit
+  );
+}
+
+
+export async function retrieveNextQuestion({
+  profile,
+  answers = [],
+  traitEvidence = {},
+  careerMatches = [],
+  allowedQuestionIds = [],
+}) {
+  const ranked =
+    await retrieveRankedQuestionCandidates({
+      profile,
+      answers,
+      traitEvidence,
+      careerMatches,
+      allowedQuestionIds,
+      limit: 1,
+    });
+
+  return ranked[0] || null;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

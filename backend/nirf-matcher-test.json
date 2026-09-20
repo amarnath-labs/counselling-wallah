@@ -1,0 +1,20 @@
+[
+  {
+    "college_name": "Delhi Technological University",
+    "nirf_rank": 27,
+    "nirf_score": 60.0,
+    "academic_year": 2025,
+    "source_label": "MATCHER TEST - NOT REAL NIRF DATA",
+    "source_url": null,
+    "verification_status": "test"
+  },
+  {
+    "college_name": "Gati Shakti Vishwavidyalaya, Vadodara",
+    "nirf_rank": null,
+    "nirf_score": null,
+    "academic_year": 2025,
+    "source_label": "MATCHER TEST - NOT REAL NIRF DATA",
+    "source_url": null,
+    "verification_status": "test"
+  }
+]

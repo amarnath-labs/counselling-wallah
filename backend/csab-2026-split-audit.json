@@ -1,0 +1,19 @@
+{
+  "year": 2026,
+  "rawRows": 12237,
+  "csabRows": 11793,
+  "dasaRows": 444,
+  "csabRoundCounts": {
+    "1": 7199,
+    "2": 4594
+  },
+  "remainingDasaMarkers": 0,
+  "duplicateCsabRows": 0,
+  "invalidOpening": 0,
+  "invalidClosing": 0,
+  "scientificOpening": 194,
+  "scientificClosing": 263,
+  "rawInputPreserved": true,
+  "databaseModified": false,
+  "generatedAt": "2026-09-14T02:44:02.642Z"
+}

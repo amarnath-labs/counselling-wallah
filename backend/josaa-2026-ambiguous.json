@@ -1,0 +1,213 @@
+[
+  {
+    "josaa_code": "111",
+    "josaa_name": "Indian Institute of Technology Gandhinagar",
+    "josaa_type": "IIT",
+    "matched": false,
+    "ambiguous": true,
+    "college_id": null,
+    "college_name": null,
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "iit-gandhinagar",
+        "college_name": "IIT Gandhinagar",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "uptac-ideal-instt-of-technology-ghaziabad",
+        "college_name": "IDEAL INSTT. OF TECHNOLOGY,GHAZIABAD",
+        "score": 0.92,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-goa",
+        "college_name": "Indian Institute of Technology Goa",
+        "score": 0.92,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-guwahati",
+        "college_name": "Indian Institute of Technology Guwahati",
+        "score": 0.92,
+        "type": "IIT"
+      }
+    ],
+    "suggested_best": {
+      "college_id": "iit-gandhinagar",
+      "college_name": "IIT Gandhinagar",
+      "score": 1
+    },
+    "suggested_second": {
+      "college_id": "uptac-ideal-instt-of-technology-ghaziabad",
+      "college_name": "IDEAL INSTT. OF TECHNOLOGY,GHAZIABAD",
+      "score": 0.92
+    }
+  },
+  {
+    "josaa_code": "303",
+    "josaa_name": "Indian Institute of Information Technology Guwahati",
+    "josaa_type": "IIIT",
+    "matched": false,
+    "ambiguous": true,
+    "college_id": null,
+    "college_name": null,
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "iiit-guwahati",
+        "college_name": "IIIT Guwahati",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-guwahati",
+        "college_name": "Indian Institute of Information Technology Guwahati",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ],
+    "suggested_best": {
+      "college_id": "iiit-guwahati",
+      "college_name": "IIIT Guwahati",
+      "score": 1
+    },
+    "suggested_second": {
+      "college_id": "indian-institute-of-information-technology-guwahati",
+      "college_name": "Indian Institute of Information Technology Guwahati",
+      "score": 1
+    }
+  },
+  {
+    "josaa_code": "309",
+    "josaa_name": "Indian Institute of Information Technology, Allahabad",
+    "josaa_type": "IIIT",
+    "matched": false,
+    "ambiguous": true,
+    "college_id": null,
+    "college_name": null,
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "iiit-allahabad",
+        "college_name": "IIIT Allahabad",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-allahabad",
+        "college_name": "Indian Institute of Information Technology, Allahabad",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-agartala",
+        "college_name": "Indian Institute of Information Technology, Agartala",
+        "score": 0.92,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+        "college_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "uptac-hmfa-memorial-institute-of-engineering-technology-allahabad",
+        "college_name": "HMFA MEMORIAL INSTITUTE OF ENGINEERING & TECHNOLOGY,ALLAHABAD",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ],
+    "suggested_best": {
+      "college_id": "iiit-allahabad",
+      "college_name": "IIIT Allahabad",
+      "score": 1
+    },
+    "suggested_second": {
+      "college_id": "indian-institute-of-information-technology-allahabad",
+      "college_name": "Indian Institute of Information Technology, Allahabad",
+      "score": 1
+    }
+  },
+  {
+    "josaa_code": "321",
+    "josaa_name": "Indian Institute of Information Technology (IIIT) Pune",
+    "josaa_type": "IIIT",
+    "matched": false,
+    "ambiguous": true,
+    "college_id": null,
+    "college_name": null,
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "iiit-pune",
+        "college_name": "IIIT Pune",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-pune",
+        "college_name": "Indian Institute of Information Technology (IIIT) Pune",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ],
+    "suggested_best": {
+      "college_id": "iiit-pune",
+      "college_name": "IIIT Pune",
+      "score": 1
+    },
+    "suggested_second": {
+      "college_id": "indian-institute-of-information-technology-pune",
+      "college_name": "Indian Institute of Information Technology (IIIT) Pune",
+      "score": 1
+    }
+  },
+  {
+    "josaa_code": "421",
+    "josaa_name": "University of Hyderabad",
+    "josaa_type": "OTHER",
+    "matched": false,
+    "ambiguous": true,
+    "college_id": null,
+    "college_name": null,
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "iiit-hyderabad",
+        "college_name": "IIIT Hyderabad",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-hyderabad",
+        "college_name": "Indian Institute of Technology Hyderabad",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "university-of-hyderabad",
+        "college_name": "University of Hyderabad",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ],
+    "suggested_best": {
+      "college_id": "iiit-hyderabad",
+      "college_name": "IIIT Hyderabad",
+      "score": 1
+    },
+    "suggested_second": {
+      "college_id": "indian-institute-of-technology-hyderabad",
+      "college_name": "Indian Institute of Technology Hyderabad",
+      "score": 1
+    }
+  }
+]

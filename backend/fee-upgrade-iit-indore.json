@@ -1,0 +1,23 @@
+﻿[
+  {
+    "college_id": "indian-institute-of-technology-indore",
+    "college_name": "Indian Institute of Technology Indore",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 100000,
+    "hostel_fee_per_semester": 16000,
+    "mess_fee_per_semester": 17000,
+
+    "source_kind": "official",
+    "source_label": "IIT Indore Autumn 2026 Fee Notice",
+    "source_url": "https://academic.iiti.ac.in/Admission/2026/fee_notice_2026_autumn.pdf",
+
+    "source_priority": 100,
+    "confidence_score": 90,
+    "verification_status": "high_confidence",
+    "extraction_method": "manual",
+
+    "notes": "2026 B.Tech standard tuition normalized as INR 100000 per semester. Hostel charge INR 16000 and mess advance INR 17000 kept separate. Other payable components and seat-acceptance adjustment are not merged into tuition."
+  }
+]

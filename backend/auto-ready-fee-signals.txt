@@ -1,0 +1,419 @@
+
+============================================================
+COLLEGE: National Institute of Technology, Rourkela
+ID: national-institute-of-technology-rourkela
+SOURCE: https://www.nitrkl.ac.in/docs/Announcement/14072026180430277.pdf
+SCOPE: all_btech_branches_candidate
+SIGNALS: 49
+============================================================
+
+===== SIGNAL 1 =====
+LINE: 1 Admission fee(one time) 2500 0
+CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 2500, 62500, 5000
+
+===== SIGNAL 2 =====
+LINE: 2 Tuition fee* 62500 62500
+CONTEXT: 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0
+AMOUNTS: 2500, 62500, 5000, 10000
+
+===== SIGNAL 3 =====
+LINE: 1 Tuition fee* 62500 62500
+CONTEXT: (Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 4 =====
+LINE: 1 Tuition fee* 62500 62500
+CONTEXT: (Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 5 =====
+LINE: 1 Tuition fee* 62500 62500
+CONTEXT: (Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 6 =====
+LINE: *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted).
+CONTEXT: 8 Mess Advance*** 30000 30000 | 9 Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. | Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount. | Sd/-
+AMOUNTS: 30000, 2500, 114500, 111500, 20833
+
+===== SIGNAL 7 =====
+LINE: *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e.
+CONTEXT: 9 Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. | Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount. | Sd/- | Asst. Registrar (Academic)
+AMOUNTS: 2500, 114500, 111500, 20833
+
+===== SIGNAL 8 =====
+LINE: 1 Admission fee(one time) 2500 0
+CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 2500, 62500, 5000
+
+===== SIGNAL 9 =====
+LINE: 2 Tuition fee* 62500 62500
+CONTEXT: 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0
+AMOUNTS: 2500, 62500, 5000, 10000
+
+===== SIGNAL 10 =====
+LINE: 1 Tuition fee* 62500 62500
+CONTEXT: (Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 11 =====
+LINE: 1 Tuition fee* 62500 62500
+CONTEXT: (Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 12 =====
+LINE: 1 Tuition fee* 62500 62500
+CONTEXT: (Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 13 =====
+LINE: 1 Tuition fee* 62500 62500
+CONTEXT: (Amount in Rs.) | 10th semester | (Amount in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 14 =====
+LINE: *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted).
+CONTEXT: 8 Mess Advance*** 30000 30000 | 9 Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount. | Sd/- | Asst. Registrar (Academic)
+AMOUNTS: 30000, 2500, 114500, 111500, 20833
+
+===== SIGNAL 15 =====
+LINE: *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. Rs. 20,833).
+CONTEXT: 9 Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | *For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. Rs. 20,833). | **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an approximate amount. | Sd/- | Asst. Registrar (Academic) | -- 2 of 8 --
+AMOUNTS: 2500, 114500, 111500, 20833
+
+===== SIGNAL 16 =====
+LINE: 1 Admission fee(one time) 2500 0
+CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees* 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 2500, 7500, 5000
+
+===== SIGNAL 17 =====
+LINE: 2 Tuition fee 7500 7500
+CONTEXT: 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees* 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time Refundable) 10000 0
+AMOUNTS: 2500, 7500, 5000, 10000
+
+===== SIGNAL 18 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 19 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 20 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 21 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 10th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 22 =====
+LINE: 1 Admission fee(one time) 2500 0
+CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 2500, 62500, 5000
+
+===== SIGNAL 23 =====
+LINE: 2 Tuition fee 62500 62500
+CONTEXT: 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0
+AMOUNTS: 2500, 62500, 5000, 10000
+
+===== SIGNAL 24 =====
+LINE: 1 Tuition fee 62500 62500
+CONTEXT: (Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 25 =====
+LINE: 1 Tuition fee 62500 62500
+CONTEXT: (Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 26 =====
+LINE: 1 Tuition fee 62500 62500
+CONTEXT: (Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 27 =====
+LINE: 1 Admission fee(one time) 2500 0
+CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 2500, 62500, 5000
+
+===== SIGNAL 28 =====
+LINE: 2 Tuition fee 62500 62500
+CONTEXT: 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0
+AMOUNTS: 2500, 62500, 5000, 10000
+
+===== SIGNAL 29 =====
+LINE: 1 Tuition fee 62500 62500
+CONTEXT: (Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 30 =====
+LINE: 1 Tuition fee 62500 62500
+CONTEXT: (Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 31 =====
+LINE: 1 Tuition fee 62500 62500
+CONTEXT: (Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment fee 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 32 =====
+LINE: 1 Tuition fee 62500 62500
+CONTEXT: (Amount in Rs.) | 10th semester | (Amount in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 62500, 5000
+
+===== SIGNAL 33 =====
+LINE: 1 Admission fee(one time) 2500 0
+CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 2500, 7500, 5000
+
+===== SIGNAL 34 =====
+LINE: 2 Tuition fee 7500 7500
+CONTEXT: 2nd semester | (Amount in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees 5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 5000 | 7 Caution money(one time Refundable) 10000 0
+AMOUNTS: 2500, 7500, 5000, 10000
+
+===== SIGNAL 35 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 4th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 36 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 6th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 37 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 8th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment Fee 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 38 =====
+LINE: 1 Tuition fee 7500 7500
+CONTEXT: (Amount in Rs.) | 10th semester | (Amount in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 5000
+AMOUNTS: 7500, 5000
+
+===== SIGNAL 39 =====
+LINE: 1 Admission fee(one time) INR 2500 INR 2500 0 0
+CONTEXT: Countries | Non-SAARC | Countries | 1 Admission fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical fee INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 2500, 4000, 5000
+
+===== SIGNAL 40 =====
+LINE: 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Non-SAARC | Countries | 1 Admission fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical fee INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 7 Caution money(one time-Refundable if program is
+AMOUNTS: 2500, 4000, 5000
+
+===== SIGNAL 41 =====
+LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 4000, 5000
+
+===== SIGNAL 42 =====
+LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 4000, 5000
+
+===== SIGNAL 43 =====
+LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Souvenir fee in pre final year INR 500 INR 500 0 0 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 4000, 5000
+
+===== SIGNAL 44 =====
+LINE: 1 Admission fee(one time) INR 2500 INR 2500 0 0
+CONTEXT: Countries | Non-SAARC | Countries | 1 Admission fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical fee INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 2500, 4000, 5000
+
+===== SIGNAL 45 =====
+LINE: 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Non-SAARC | Countries | 1 Admission fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical fee INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 7 Caution money(one time-Refundable if program is completed) INR 10000 INR 10000 0 0
+AMOUNTS: 2500, 4000, 5000, 10000
+
+===== SIGNAL 46 =====
+LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 4000, 5000
+
+===== SIGNAL 47 =====
+LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 4000, 5000
+
+===== SIGNAL 48 =====
+LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 7 Hall Establishment fee INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 4000, 5000
+
+===== SIGNAL 49 =====
+LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000
+CONTEXT: Countries | Non-SAARC | Countries | 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 5 Souvenir fee in pre final year INR 500 INR 500 0 0 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000
+AMOUNTS: 4000, 5000
+
+============================================================
+COLLEGE: National Institute of Technology Sikkim
+ID: national-institute-of-technology-sikkim
+SOURCE: https://nitsikkim.ac.in/documents/Fee%20Structure/2025_jan/B.Tech%20Fee%20structure%20for%202025-26.pdf
+SCOPE: all_btech_branches_candidate
+SIGNALS: 12
+============================================================
+
+===== SIGNAL 1 =====
+LINE: Institute Fee (Per Semester)
+CONTEXT: Grade Card Fee | A | NATIONAL INSTITUTE OF TECHNOLOGY SIKKIM | Institute Fee (Per Semester) | Tuition fee (Full Fee Payers) | Tuition fee (for 2/3rd Remission Category) | Tuition fee (Full Waiver for SC/ST/Pwd & | Annual Income less than 1.00 Lakh) | FOR ACADEMIC YEAR 2025-2029 BATCH
+
+===== SIGNAL 2 =====
+LINE: Tuition fee (Full Fee Payers)
+CONTEXT: A | NATIONAL INSTITUTE OF TECHNOLOGY SIKKIM | Institute Fee (Per Semester) | Tuition fee (Full Fee Payers) | Tuition fee (for 2/3rd Remission Category) | Tuition fee (Full Waiver for SC/ST/Pwd & | Annual Income less than 1.00 Lakh) | FOR ACADEMIC YEAR 2025-2029 BATCH | Institute fees structure for B. Tech. Program
+
+===== SIGNAL 3 =====
+LINE: Tuition fee (for 2/3rd Remission Category)
+CONTEXT: NATIONAL INSTITUTE OF TECHNOLOGY SIKKIM | Institute Fee (Per Semester) | Tuition fee (Full Fee Payers) | Tuition fee (for 2/3rd Remission Category) | Tuition fee (Full Waiver for SC/ST/Pwd & | Annual Income less than 1.00 Lakh) | FOR ACADEMIC YEAR 2025-2029 BATCH | Institute fees structure for B. Tech. Program | Examination Fee
+
+===== SIGNAL 4 =====
+LINE: Tuition fee (Full Waiver for SC/ST/Pwd &
+CONTEXT: Institute Fee (Per Semester) | Tuition fee (Full Fee Payers) | Tuition fee (for 2/3rd Remission Category) | Tuition fee (Full Waiver for SC/ST/Pwd & | Annual Income less than 1.00 Lakh) | FOR ACADEMIC YEAR 2025-2029 BATCH | Institute fees structure for B. Tech. Program | Examination Fee | Semester Registration Fee
+
+===== SIGNAL 5 =====
+LINE: Institute fees structure for B. Tech. Program
+CONTEXT: Tuition fee (Full Waiver for SC/ST/Pwd & | Annual Income less than 1.00 Lakh) | FOR ACADEMIC YEAR 2025-2029 BATCH | Institute fees structure for B. Tech. Program | Examination Fee | Semester Registration Fee | Library Fee | Laboratory Fee | Internet Fee
+
+===== SIGNAL 6 =====
+LINE: Semester Registration Fee
+CONTEXT: FOR ACADEMIC YEAR 2025-2029 BATCH | Institute fees structure for B. Tech. Program | Examination Fee | Semester Registration Fee | Library Fee | Laboratory Fee | Internet Fee | Student Activities (Sports & Games, and | Extracurricular activities)
+
+===== SIGNAL 7 =====
+LINE: NOTE: Tuition fee is fully exempted for ST/SC & PH students, full remission of the tuition fee for most economically backward students (whose
+CONTEXT: Student Activities (Sports & Games, and | Extracurricular activities) | Medical OPD Facility | NOTE: Tuition fee is fully exempted for ST/SC & PH students, full remission of the tuition fee for most economically backward students (whose | family income is less than Rs.1.00 lakh per annum) and remission of 2/3rd of the tuition fee for other economically backward students ( whose | family income isn between Rs.1.00 to 5.00 lakh per annum) as per MHRD order no :33-4/2014-TS.III, Dated: 24.06.2016 | -- 1 of 2 -- | In Rs. | 614.00
+
+===== SIGNAL 8 =====
+LINE: family income is less than Rs.1.00 lakh per annum) and remission of 2/3rd of the tuition fee for other economically backward students ( whose
+CONTEXT: Extracurricular activities) | Medical OPD Facility | NOTE: Tuition fee is fully exempted for ST/SC & PH students, full remission of the tuition fee for most economically backward students (whose | family income is less than Rs.1.00 lakh per annum) and remission of 2/3rd of the tuition fee for other economically backward students ( whose | family income isn between Rs.1.00 to 5.00 lakh per annum) as per MHRD order no :33-4/2014-TS.III, Dated: 24.06.2016 | -- 1 of 2 -- | In Rs. | 614.00 | 243.00
+
+===== SIGNAL 9 =====
+LINE: 1,215.00 Total Institute Fee (A+B) In Rs.
+CONTEXT: 614.00 | 243.00 | 312.00 | 1,215.00 Total Institute Fee (A+B) In Rs. | 1,215.00 82,467.00 | 7,500.00 40,801.00 | 11,099.00 19,967.00 | 1st SEM 2nd SEM 3rd SEM 4th SEM 5th SEM 6th SEM 7th SEM 8th SEM | 5000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00
+AMOUNTS: 1215, 82467, 7500, 40801, 11099, 19967, 5000
+
+===== SIGNAL 10 =====
+LINE: Hostel fee per semester (Not applicable for Day scholars)
+CONTEXT: 16750.00 8250.00 8250.00 8250.00 8250.00 8250.00 8250.00 8250.00 | Sd/- | Assistant Registrar (Academic) | Hostel fee per semester (Not applicable for Day scholars) | Admission Fee | I Card Fee | Student Welfare Fund | One Time Charges (At the Time of | Admission)
+AMOUNTS: 16750, 8250
+
+===== SIGNAL 11 =====
+LINE: Admission Fee
+CONTEXT: Sd/- | Assistant Registrar (Academic) | Hostel fee per semester (Not applicable for Day scholars) | Admission Fee | I Card Fee | Student Welfare Fund | One Time Charges (At the Time of | Admission) | Sub Total (2/3rd remission)
+
+===== SIGNAL 12 =====
+LINE: Hostel fee (Hostel Rent, Electricity charges
+CONTEXT: (one time refundable ) | Hostel Admission | (one time non refundable) | Hostel fee (Hostel Rent, Electricity charges | and cleaning) | -- 2 of 2 --
+
+============================================================
+COLLEGE: National Institute of Technology, Mizoram
+ID: national-institute-of-technology-mizoram
+SOURCE: https://nitmz.ac.in/wp-content/uploads/2025/02/NEW_FEE_STRUCTURE_FOR_BTECH.pdf
+SCOPE: all_btech_branches_candidate
+SIGNALS: 20
+============================================================
+
+===== SIGNAL 1 =====
+LINE: 1 Tuition Fees 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00
+CONTEXT: Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 | 6 Identity Card 50.00 0.00 50.00 0.00 50.00 0.00 50.00 0.00
+AMOUNTS: 2391236, 2391774, 2391699, 62500, 1000
+
+===== SIGNAL 2 =====
+LINE: 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00
+CONTEXT: Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 62,500.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 | 6 Identity Card 50.00 0.00 50.00 0.00 50.00 0.00 50.00 0.00 | 7 Laboratory & Internet Fee 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00
+AMOUNTS: 2391236, 2391774, 2391699, 62500, 1000
+
+===== SIGNAL 3 =====
+LINE: Grand Total 69,400.00 67,100.00 67,650.00 67,350.00 67,650.00 67,350.00 67,650.00 68,850.00
+CONTEXT: 12 Training & Placement Fee 0.00 0.00 250.00 250.00 250.00 250.00 250.00 250.00 | 13 Convocation 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1,000.00 | 14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 69,400.00 67,100.00 67,650.00 67,350.00 67,650.00 67,350.00 67,650.00 68,850.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | FOR GEN & OBC STUDENT WHOSE FAMILY INCOME IS MORE THAN 5 LAKH P.A.
+AMOUNTS: 1000, 69400, 67100, 67650, 67350, 68850
+
+===== SIGNAL 4 =====
+LINE: 1 Tuition Fee is as decided by the NIT Council.
+CONTEXT: 14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 69,400.00 67,100.00 67,650.00 67,350.00 67,650.00 67,350.00 67,650.00 68,850.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | FOR GEN & OBC STUDENT WHOSE FAMILY INCOME IS MORE THAN 5 LAKH P.A. | jk"Vªh; izkS|ksfxdh laLFkku fetksje | NATIONAL INSTITUTE OF TECHNOLOGY MIZORAM
+AMOUNTS: 69400, 67100, 67650, 67350, 68850
+
+===== SIGNAL 5 =====
+LINE: ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS
+CONTEXT: NATIONAL INSTITUTE OF TECHNOLOGY MIZORAM | (An Institution of National Importance under the Ministry of HRD, Govt. of India) | Chaltlang, Aizawl, Mizoram – 796012 | ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS | Student Activity Fee includes Gym, Annual Day & Magazine Fee, Sports & Cultural activities and Industry- | Institute Interaction Fee. | Deputy Registrar | NIT Mizoram | Sl.
+AMOUNTS: 796012
+
+===== SIGNAL 6 =====
+LINE: 1 Tuition Fees 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00
+CONTEXT: -- 1 of 4 -- | Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit | (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00
+AMOUNTS: 2391236, 2391774, 2391699, 20833, 1000
+
+===== SIGNAL 7 =====
+LINE: 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00
+CONTEXT: Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 20,833.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit | (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 | 6 Identity Card 50.00 0.00 50.00 0.00 50.00 0.00 50.00 0.00
+AMOUNTS: 2391236, 2391774, 2391699, 20833, 1000
+
+===== SIGNAL 8 =====
+LINE: Grand Total 27,733.00 25,433.00 25,983.00 25,683.00 25,983.00 25,683.00 25,983.00 27,183.00
+CONTEXT: 12 Training & Placement Fee 0.00 0.00 250.00 250.00 250.00 250.00 250.00 250.00 | 13 Convocation 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1,000.00 | 14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 27,733.00 25,433.00 25,983.00 25,683.00 25,983.00 25,683.00 25,983.00 27,183.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | jk"Vªh; izkS|ksfxdh laLFkku fetksje
+AMOUNTS: 1000, 27733, 25433, 25983, 25683, 27183
+
+===== SIGNAL 9 =====
+LINE: 1 Tuition Fee is as decided by the NIT Council.
+CONTEXT: 14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 27,733.00 25,433.00 25,983.00 25,683.00 25,983.00 25,683.00 25,983.00 27,183.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | jk"Vªh; izkS|ksfxdh laLFkku fetksje | ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS | FOR GEN & OBC STUDENT WHOSE FAMILY INCOME IS BETWEEN Rs. 1 LAKH TO Rs. 5 LAKH P.A.
+AMOUNTS: 27733, 25433, 25983, 25683, 27183
+
+===== SIGNAL 10 =====
+LINE: ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS
+CONTEXT: 2 | 3 | jk"Vªh; izkS|ksfxdh laLFkku fetksje | ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS | FOR GEN & OBC STUDENT WHOSE FAMILY INCOME IS BETWEEN Rs. 1 LAKH TO Rs. 5 LAKH P.A. | NATIONAL INSTITUTE OF TECHNOLOGY MIZORAM | (An Institution of National Importance under the Ministry of HRD, Govt. of India) | Chaltlang, Aizawl, Mizoram – 796012 | Sl.
+AMOUNTS: 796012
+
+===== SIGNAL 11 =====
+LINE: 1 Tuition Fees 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00
+CONTEXT: -- 2 of 4 -- | Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 | 6 Identity Card 50.00 0.00 50.00 0.00 50.00 0.00 50.00 0.00
+AMOUNTS: 2391236, 2391774, 2391699, 1000
+
+===== SIGNAL 12 =====
+LINE: 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00
+CONTEXT: Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 | 6 Identity Card 50.00 0.00 50.00 0.00 50.00 0.00 50.00 0.00 | 7 Laboratory & Internet Fee 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00
+AMOUNTS: 2391236, 2391774, 2391699, 1000
+
+===== SIGNAL 13 =====
+LINE: Grand Total 6,900.00 4,600.00 5,150.00 4,850.00 5,150.00 4,850.00 5,150.00 6,350.00
+CONTEXT: 12 Training & Placement Fee 0.00 0.00 250.00 250.00 250.00 250.00 250.00 250.00 | 13 Convocation 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1,000.00 | 14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 6,900.00 4,600.00 5,150.00 4,850.00 5,150.00 4,850.00 5,150.00 6,350.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | FOR GEN & OBC STUDENT WHOSE FAMILY INCOME IS LESS THAN RS.1.00 LAKH P.A.
+AMOUNTS: 1000, 6900, 4600, 5150, 4850, 6350
+
+===== SIGNAL 14 =====
+LINE: 1 Tuition Fee is as decided by the NIT Council.
+CONTEXT: 14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 6,900.00 4,600.00 5,150.00 4,850.00 5,150.00 4,850.00 5,150.00 6,350.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | FOR GEN & OBC STUDENT WHOSE FAMILY INCOME IS LESS THAN RS.1.00 LAKH P.A. | jk"Vªh; izkS|ksfxdh laLFkku fetksje | NATIONAL INSTITUTE OF TECHNOLOGY MIZORAM
+AMOUNTS: 6900, 4600, 5150, 4850, 6350
+
+===== SIGNAL 15 =====
+LINE: ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS
+CONTEXT: NATIONAL INSTITUTE OF TECHNOLOGY MIZORAM | (An Institution of National Importance under the Ministry of HRD, Govt. of India) | Chaltlang, Aizawl, Mizoram – 796012 | ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS | Student Activity Fee includes Gym, Annual Day & Magazine Fee, Sports & Cultural activities and Industry- | Institute Interaction Fee. | Deputy Registrar | NIT Mizoram | Sl.
+AMOUNTS: 796012
+
+===== SIGNAL 16 =====
+LINE: 1 Tuition Fees 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00
+CONTEXT: -- 3 of 4 -- | Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 | 6 Identity Card 50.00 0.00 50.00 0.00 50.00 0.00 50.00 0.00
+AMOUNTS: 2391236, 2391774, 2391699, 1000
+
+===== SIGNAL 17 =====
+LINE: 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00
+CONTEXT: Phone/Fax: 0389-2391236 / 0389-2391774 / 0389-2391699 Email: nit_mizoram@nitmz.ac.in | 1st Sem 2nd Sem 3rd Sem 4th Sem 5th Sem 6th Sem 7th Sem 8th Sem | 1 Tuition Fees 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 2 Registration Fees 200.00 200.00 200.00 200.00 200.00 200.00 200.00 200.00 | 3 Library Deposit (Refundable) 2,000.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 | 4 Library Fees 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00 | 5 Students’ Activity Fees 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 1,000.00 | 6 Identity Card 50.00 0.00 50.00 0.00 50.00 0.00 50.00 0.00 | 7 Laboratory & Internet Fee 500.00 500.00 500.00 500.00 500.00 500.00 500.00 500.00
+AMOUNTS: 2391236, 2391774, 2391699, 1000
+
+===== SIGNAL 18 =====
+LINE: Grand Total 6,900.00 4,600.00 5,150.00 4,850.00 5,150.00 4,850.00 5,150.00 6,350.00
+CONTEXT: 12 Training & Placement Fee 0.00 0.00 250.00 250.00 250.00 250.00 250.00 250.00 | 13 Convocation 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1,000.00 | 14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 6,900.00 4,600.00 5,150.00 4,850.00 5,150.00 4,850.00 5,150.00 6,350.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | FOR SC, ST & PH STUDENTS
+AMOUNTS: 1000, 6900, 4600, 5150, 4850, 6350
+
+===== SIGNAL 19 =====
+LINE: 1 Tuition Fee is as decided by the NIT Council.
+CONTEXT: 14 Alumni 0.00 0.00 0.00 0.00 0.00 0.00 0.00 500.00 | Grand Total 6,900.00 4,600.00 5,150.00 4,850.00 5,150.00 4,850.00 5,150.00 6,350.00 | Note: | 1 Tuition Fee is as decided by the NIT Council. | 2 | 3 | FOR SC, ST & PH STUDENTS | jk"Vªh; izkS|ksfxdh laLFkku fetksje | NATIONAL INSTITUTE OF TECHNOLOGY MIZORAM
+AMOUNTS: 6900, 4600, 5150, 4850, 6350
+
+===== SIGNAL 20 =====
+LINE: ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS
+CONTEXT: NATIONAL INSTITUTE OF TECHNOLOGY MIZORAM | (An Institution of National Importance under the Ministry of HRD, Govt. of India) | Chaltlang, Aizawl, Mizoram – 796012 | ACADEMIC FEES OF B. TECH PROGRAMME OF NIT MIZORAM FOR 2019-2020 ONWARDS | Student Activity Fee includes Gym, Annual Day & Magazine Fee, Sports & Cultural activities and Industry- | Institute Interaction Fee. | Deputy Registrar | NIT Mizoram | Sl.
+AMOUNTS: 796012

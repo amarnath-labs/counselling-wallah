@@ -1,0 +1,128 @@
+[
+  {
+    "josaa_code": "435",
+    "josaa_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+    "college_id": "institute-of-chemical-technology-mumbai-indian-oil-odisha-campus-bhubaneswar",
+    "college_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "445",
+    "josaa_name": "National Institute of Electronics and Information Technology, Ropar (Punjab)",
+    "college_id": "national-institute-of-electronics-and-information-technology-ropar",
+    "college_name": "National Institute of Electronics and Information Technology, Ropar (Punjab)",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "446",
+    "josaa_name": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+    "college_id": "national-institute-of-electronics-and-information-technology-patna",
+    "college_name": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "447",
+    "josaa_name": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)",
+    "college_id": "national-institute-of-electronics-and-information-technology-ajmer",
+    "college_name": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "448",
+    "josaa_name": "National Institute of Electronics and Information Technology, Gorakhpur (UP)",
+    "college_id": "national-institute-of-electronics-and-information-technology-gorakhpur",
+    "college_name": "National Institute of Electronics and Information Technology, Gorakhpur (UP)",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  },
+  {
+    "josaa_code": "449",
+    "josaa_name": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)",
+    "college_id": "rajiv-gandhi-national-aviation-university-fursatganj-amethi",
+    "college_name": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)",
+    "website": null,
+    "fee_year": null,
+    "available_fields": 0,
+    "missing_count": 8,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "status": "NO_FEE_DATA"
+  }
+]

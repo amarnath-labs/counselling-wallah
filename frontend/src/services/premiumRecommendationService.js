@@ -1,4 +1,4 @@
-/*
+﻿/*
 |--------------------------------------------------------------------------
 | TruMarg
 | Premium Recommendation Engine
@@ -58,7 +58,7 @@ function parseNumber(value) {
 
   const cleaned = String(value)
     .replace(/,/g, '')
-    .replace(/₹/g, '')
+    .replace(/â‚¹/g, '')
     .replace(/\s+/g, '')
     .trim();
 
@@ -210,7 +210,7 @@ function getPreferredBranches(profile) {
 }
 
 /* ==========================================================================
-   1. RANK / ADMISSION FEASIBILITY — 50%
+   1. RANK / ADMISSION FEASIBILITY â€” 50%
 ========================================================================== */
 
 /*
@@ -290,8 +290,8 @@ function calculateRankScore(
 
   if (rankRatio <= 0.60) {
     /*
-     * 0.00 → 100
-     * 0.60 → 90
+     * 0.00 â†’ 100
+     * 0.60 â†’ 90
      */
     score =
       100 -
@@ -301,8 +301,8 @@ function calculateRankScore(
       'Very strong historical rank fit';
   } else if (rankRatio <= 0.85) {
     /*
-     * 0.60 → 90
-     * 0.85 → 80
+     * 0.60 â†’ 90
+     * 0.85 â†’ 80
      */
     score =
       90 -
@@ -312,8 +312,8 @@ function calculateRankScore(
       'Strong historical rank fit';
   } else if (rankRatio <= 1.05) {
     /*
-     * 0.85 → 80
-     * 1.05 → 70
+     * 0.85 â†’ 80
+     * 1.05 â†’ 70
      */
     score =
       80 -
@@ -363,7 +363,7 @@ function calculateRankScore(
 }
 
 /* ==========================================================================
-   2. BRANCH PREFERENCE — 15%
+   2. BRANCH PREFERENCE â€” 15%
 ========================================================================== */
 
 function calculateBranchScore(
@@ -448,7 +448,7 @@ function calculateBranchScore(
 }
 
 /* ==========================================================================
-   3. COLLEGE QUALITY — 15%
+   3. COLLEGE QUALITY â€” 15%
 ========================================================================== */
 
 function calculateQualityScore(row) {
@@ -495,7 +495,7 @@ function calculateQualityScore(row) {
 }
 
 /* ==========================================================================
-   4. STUDENT REVIEWS — 10%
+   4. STUDENT REVIEWS â€” 10%
 ========================================================================== */
 
 function calculateReviewScore(row) {
@@ -534,7 +534,7 @@ function calculateReviewScore(row) {
   }
 
   /*
-   * Convert 5-star rating → 100.
+   * Convert 5-star rating â†’ 100.
    */
 
   let score =
@@ -580,7 +580,7 @@ function calculateReviewScore(row) {
 }
 
 /* ==========================================================================
-   5. BUDGET — 7%
+   5. BUDGET â€” 7%
 ========================================================================== */
 
 function getFees(row) {
@@ -765,7 +765,7 @@ function calculateBudgetScore(
 }
 
 /* ==========================================================================
-   6. LOCATION — 3%
+   6. LOCATION â€” 3%
 ========================================================================== */
 
 function getPreferredState(
@@ -859,7 +859,7 @@ export function getPremiumCategory(
     return {
       label:
         'Excellent Match',
-      icon: '💎',
+      icon: 'ðŸ’Ž',
       key: 'excellent',
     };
   }
@@ -870,7 +870,7 @@ export function getPremiumCategory(
     return {
       label:
         'Great Match',
-      icon: '⭐',
+      icon: 'â­',
       key: 'great',
     };
   }
@@ -881,7 +881,7 @@ export function getPremiumCategory(
     return {
       label:
         'Good Match',
-      icon: '👍',
+      icon: 'ðŸ‘',
       key: 'good',
     };
   }
@@ -889,7 +889,7 @@ export function getPremiumCategory(
   return {
     label:
       'Consider',
-    icon: '➕',
+    icon: 'âž•',
     key: 'consider',
   };
 }

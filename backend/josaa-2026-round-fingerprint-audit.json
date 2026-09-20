@@ -1,0 +1,3588 @@
+{
+  "generatedAt": "2026-09-13T14:44:07.606Z",
+  "readOnly": true,
+  "dbRowsTested": 12968,
+  "summary": [
+    {
+      "round": "4",
+      "comparable": 12762,
+      "exactPair": 12762,
+      "openingOnly": 0,
+      "closingOnly": 0,
+      "neither": 0,
+      "exactPercent": 100
+    },
+    {
+      "round": "3",
+      "comparable": 12763,
+      "exactPair": 10379,
+      "openingOnly": 1415,
+      "closingOnly": 14,
+      "neither": 955,
+      "exactPercent": 81.32
+    },
+    {
+      "round": "2",
+      "comparable": 12762,
+      "exactPair": 8631,
+      "openingOnly": 1997,
+      "closingOnly": 31,
+      "neither": 2103,
+      "exactPercent": 67.63
+    },
+    {
+      "round": "5",
+      "comparable": 12732,
+      "exactPair": 6976,
+      "openingOnly": 2348,
+      "closingOnly": 10,
+      "neither": 3398,
+      "exactPercent": 54.79
+    },
+    {
+      "round": "1",
+      "comparable": 12775,
+      "exactPair": 3908,
+      "openingOnly": 2261,
+      "closingOnly": 14,
+      "neither": 6592,
+      "exactPercent": 30.59
+    }
+  ],
+  "unmatchedProfileCount": 193,
+  "unmatchedProfileSamples": [
+    {
+      "cutoff_id": "1776",
+      "round": "1",
+      "opening_rank": 1248,
+      "closing_rank": 2207,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "CSE",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1777",
+      "round": "1",
+      "opening_rank": 4682,
+      "closing_rank": 5437,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "CSE",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "1778",
+      "round": "1",
+      "opening_rank": 69,
+      "closing_rank": 69,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "CSE",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1779",
+      "round": "1",
+      "opening_rank": 271,
+      "closing_rank": 312,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "CSE",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1780",
+      "round": "1",
+      "opening_rank": 981,
+      "closing_rank": 981,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "CSE",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "1781",
+      "round": "1",
+      "opening_rank": 36,
+      "closing_rank": 36,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "CSE",
+      "category": "EWS (PwD)",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "1782",
+      "round": "1",
+      "opening_rank": 718,
+      "closing_rank": 944,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "CSE",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1783",
+      "round": "1",
+      "opening_rank": 2354,
+      "closing_rank": 2700,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "CSE",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "1784",
+      "round": "1",
+      "opening_rank": 366,
+      "closing_rank": 503,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "CSE",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1785",
+      "round": "1",
+      "opening_rank": 802,
+      "closing_rank": 802,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "CSE",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "1786",
+      "round": "1",
+      "opening_rank": 174,
+      "closing_rank": 195,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "CSE",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1787",
+      "round": "1",
+      "opening_rank": 369,
+      "closing_rank": 369,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "CSE",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "1788",
+      "round": "1",
+      "opening_rank": 2635,
+      "closing_rank": 3874,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Electrical",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1789",
+      "round": "1",
+      "opening_rank": 6385,
+      "closing_rank": 7657,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Electrical",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "1790",
+      "round": "1",
+      "opening_rank": 467,
+      "closing_rank": 679,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Electrical",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1791",
+      "round": "1",
+      "opening_rank": 1515,
+      "closing_rank": 1938,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Electrical",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1792",
+      "round": "1",
+      "opening_rank": 3895,
+      "closing_rank": 4313,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Electrical",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "1793",
+      "round": "1",
+      "opening_rank": 948,
+      "closing_rank": 1035,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Electrical",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1794",
+      "round": "1",
+      "opening_rank": 1444,
+      "closing_rank": 2491,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Electrical",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "1795",
+      "round": "1",
+      "opening_rank": 430,
+      "closing_rank": 625,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Electrical",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1796",
+      "round": "1",
+      "opening_rank": 573,
+      "closing_rank": 573,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Electrical",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "1816",
+      "round": "1",
+      "opening_rank": 5034,
+      "closing_rank": 6911,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Mechanical",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1817",
+      "round": "1",
+      "opening_rank": 11868,
+      "closing_rank": 12380,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Mechanical",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "1818",
+      "round": "1",
+      "opening_rank": 82,
+      "closing_rank": 82,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Mechanical",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1819",
+      "round": "1",
+      "opening_rank": 992,
+      "closing_rank": 1159,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Mechanical",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1820",
+      "round": "1",
+      "opening_rank": 2452,
+      "closing_rank": 2452,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Mechanical",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "1821",
+      "round": "1",
+      "opening_rank": 2553,
+      "closing_rank": 3232,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Mechanical",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1822",
+      "round": "1",
+      "opening_rank": 6838,
+      "closing_rank": 7807,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Mechanical",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "1823",
+      "round": "1",
+      "opening_rank": 1255,
+      "closing_rank": 2009,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Mechanical",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "1824",
+      "round": "1",
+      "opening_rank": 3518,
+      "closing_rank": 3661,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Mechanical",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "1825",
+      "round": "1",
+      "opening_rank": 886,
+      "closing_rank": 890,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "IIT Gandhinagar",
+      "branch_name": "Mechanical",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "12940",
+      "round": "1",
+      "opening_rank": 354,
+      "closing_rank": 354,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Bhubaneswar",
+      "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "12968",
+      "round": "1",
+      "opening_rank": 14,
+      "closing_rank": 14,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Bombay",
+      "branch_name": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "12996",
+      "round": "1",
+      "opening_rank": 141,
+      "closing_rank": 202,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Bombay",
+      "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13003",
+      "round": "1",
+      "opening_rank": 520,
+      "closing_rank": 520,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Bombay",
+      "branch_name": "Chemistry (4 Years, Bachelor of Science)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13019",
+      "round": "1",
+      "opening_rank": 36,
+      "closing_rank": 36,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Bombay",
+      "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13079",
+      "round": "1",
+      "opening_rank": 8,
+      "closing_rank": 8,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Bombay",
+      "branch_name": "Electrical Engineering (5 Years, Bachelor and Master of Technology (Dual Degree))",
+      "category": "ST (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13087",
+      "round": "1",
+      "opening_rank": 16,
+      "closing_rank": 16,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Bombay",
+      "branch_name": "Energy Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13097",
+      "round": "1",
+      "opening_rank": 37,
+      "closing_rank": 37,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Bombay",
+      "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "category": "EWS (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13119",
+      "round": "1",
+      "opening_rank": 68,
+      "closing_rank": 68,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Bombay",
+      "branch_name": "Industrial Engineering and Operations Research (4 Years, Bachelor of Technology)",
+      "category": "EWS (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13139",
+      "round": "1",
+      "opening_rank": 8,
+      "closing_rank": 9,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Bombay",
+      "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13144",
+      "round": "1",
+      "opening_rank": 141,
+      "closing_rank": 141,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Bombay",
+      "branch_name": "Metallurgical Engineering and Materials Science (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13149",
+      "round": "1",
+      "opening_rank": 200,
+      "closing_rank": 200,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Bombay",
+      "branch_name": "Metallurgical Engineering and Materials Science (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13183",
+      "round": "1",
+      "opening_rank": 564,
+      "closing_rank": 564,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Mandi",
+      "branch_name": "B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "13188",
+      "round": "1",
+      "opening_rank": 160,
+      "closing_rank": 160,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Mandi",
+      "branch_name": "B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13195",
+      "round": "1",
+      "opening_rank": 160,
+      "closing_rank": 160,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Mandi",
+      "branch_name": "B.Tech in Microelectronics & VLSI (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13245",
+      "round": "1",
+      "opening_rank": 2,
+      "closing_rank": 2,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Mandi",
+      "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13255",
+      "round": "1",
+      "opening_rank": 209,
+      "closing_rank": 209,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Mandi",
+      "branch_name": "Data Science and Artificial Intelligence (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "13260",
+      "round": "1",
+      "opening_rank": 49,
+      "closing_rank": 49,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Mandi",
+      "branch_name": "Data Science and Artificial Intelligence (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13287",
+      "round": "1",
+      "opening_rank": 554,
+      "closing_rank": 554,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Mandi",
+      "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13328",
+      "round": "1",
+      "opening_rank": 40,
+      "closing_rank": 40,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Delhi",
+      "branch_name": "Abu Dhabi Campus - Energy Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13380",
+      "round": "1",
+      "opening_rank": 28,
+      "closing_rank": 28,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Delhi",
+      "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13381",
+      "round": "1",
+      "opening_rank": 326,
+      "closing_rank": 326,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Delhi",
+      "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "13384",
+      "round": "1",
+      "opening_rank": 78,
+      "closing_rank": 78,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Delhi",
+      "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13387",
+      "round": "1",
+      "opening_rank": 44,
+      "closing_rank": 44,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Delhi",
+      "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13390",
+      "round": "1",
+      "opening_rank": 30,
+      "closing_rank": 30,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Delhi",
+      "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13441",
+      "round": "1",
+      "opening_rank": 10,
+      "closing_rank": 10,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Delhi",
+      "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13467",
+      "round": "1",
+      "opening_rank": 399,
+      "closing_rank": 399,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Delhi",
+      "branch_name": "Engineering and Computational Mechanics (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "13484",
+      "round": "1",
+      "opening_rank": 24,
+      "closing_rank": 24,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Delhi",
+      "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13510",
+      "round": "1",
+      "opening_rank": 13,
+      "closing_rank": 13,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Delhi",
+      "branch_name": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "category": "SC (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13513",
+      "round": "1",
+      "opening_rank": 3,
+      "closing_rank": 3,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Delhi",
+      "branch_name": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "category": "ST (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13532",
+      "round": "1",
+      "opening_rank": 102,
+      "closing_rank": 102,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Delhi",
+      "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13550",
+      "round": "1",
+      "opening_rank": 212,
+      "closing_rank": 212,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Delhi",
+      "branch_name": "Textile Technology (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13607",
+      "round": "1",
+      "opening_rank": 25,
+      "closing_rank": 25,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Indore",
+      "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13615",
+      "round": "1",
+      "opening_rank": 64,
+      "closing_rank": 64,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Indore",
+      "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13618",
+      "round": "1",
+      "opening_rank": 10,
+      "closing_rank": 10,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Indore",
+      "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13655",
+      "round": "1",
+      "opening_rank": 322,
+      "closing_rank": 475,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Indore",
+      "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13684",
+      "round": "1",
+      "opening_rank": 133,
+      "closing_rank": 133,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13689",
+      "round": "1",
+      "opening_rank": 112,
+      "closing_rank": 112,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13696",
+      "round": "1",
+      "opening_rank": 303,
+      "closing_rank": 309,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Agricultural and Food Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13724",
+      "round": "1",
+      "opening_rank": 1087,
+      "closing_rank": 1087,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Architecture (5 Years, Bachelor of Architecture)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "13739",
+      "round": "1",
+      "opening_rank": 363,
+      "closing_rank": 363,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13749",
+      "round": "1",
+      "opening_rank": 285,
+      "closing_rank": 285,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Biotechnology and Biochemical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13760",
+      "round": "1",
+      "opening_rank": 251,
+      "closing_rank": 365,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13781",
+      "round": "1",
+      "opening_rank": 164,
+      "closing_rank": 280,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13784",
+      "round": "1",
+      "opening_rank": 79,
+      "closing_rank": 79,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13787",
+      "round": "1",
+      "opening_rank": 210,
+      "closing_rank": 210,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13857",
+      "round": "1",
+      "opening_rank": 147,
+      "closing_rank": 224,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Industrial and Systems Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13873",
+      "round": "1",
+      "opening_rank": 139,
+      "closing_rank": 139,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Instrumentation Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13880",
+      "round": "1",
+      "opening_rank": 106,
+      "closing_rank": 106,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Manufacturing Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13906",
+      "round": "1",
+      "opening_rank": 87,
+      "closing_rank": 87,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13916",
+      "round": "1",
+      "opening_rank": 340,
+      "closing_rank": 518,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13937",
+      "round": "1",
+      "opening_rank": 364,
+      "closing_rank": 506,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "branch_name": "Ocean Engineering and Naval Architecture (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13965",
+      "round": "1",
+      "opening_rank": 3,
+      "closing_rank": 3,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Hyderabad",
+      "branch_name": "Artificial Intelligence (4 Years, Bachelor of Technology)",
+      "category": "SC (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13970",
+      "round": "1",
+      "opening_rank": 400,
+      "closing_rank": 400,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Hyderabad",
+      "branch_name": "Biomedical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13984",
+      "round": "1",
+      "opening_rank": 214,
+      "closing_rank": 214,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Hyderabad",
+      "branch_name": "Biotechnology and Bioinformatics (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "13994",
+      "round": "1",
+      "opening_rank": 140,
+      "closing_rank": 140,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Hyderabad",
+      "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "14006",
+      "round": "1",
+      "opening_rank": 172,
+      "closing_rank": 172,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Hyderabad",
+      "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "14032",
+      "round": "1",
+      "opening_rank": 6,
+      "closing_rank": 6,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Hyderabad",
+      "branch_name": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "14040",
+      "round": "1",
+      "opening_rank": 1,
+      "closing_rank": 1,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Hyderabad",
+      "branch_name": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "14061",
+      "round": "1",
+      "opening_rank": 274,
+      "closing_rank": 274,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Hyderabad",
+      "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "14066",
+      "round": "1",
+      "opening_rank": 211,
+      "closing_rank": 211,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Hyderabad",
+      "branch_name": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    },
+    {
+      "cutoff_id": "14073",
+      "round": "1",
+      "opening_rank": 315,
+      "closing_rank": 109,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Hyderabad",
+      "branch_name": "Engineering Science (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "14093",
+      "round": "1",
+      "opening_rank": 427,
+      "closing_rank": 427,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Hyderabad",
+      "branch_name": "Materials Science and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "14114",
+      "round": "1",
+      "opening_rank": 293,
+      "closing_rank": 73,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Hyderabad",
+      "branch_name": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "14196",
+      "round": "1",
+      "opening_rank": 139,
+      "closing_rank": 139,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Jodhpur",
+      "branch_name": "Electronics Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "14253",
+      "round": "1",
+      "opening_rank": 106,
+      "closing_rank": 106,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kanpur",
+      "branch_name": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "14270",
+      "round": "1",
+      "opening_rank": 229,
+      "closing_rank": 327,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kanpur",
+      "branch_name": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "14291",
+      "round": "1",
+      "opening_rank": 255,
+      "closing_rank": 132,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kanpur",
+      "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral"
+    },
+    {
+      "cutoff_id": "14292",
+      "round": "1",
+      "opening_rank": 488,
+      "closing_rank": 488,
+      "source_label": "JoSAA 2026 Round 1 Official OR/CR",
+      "verification_status": "VERIFIED",
+      "college_name": "Indian Institute of Technology Kanpur",
+      "branch_name": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)"
+    }
+  ],
+  "multiRoundExactCount": 10686,
+  "multiRoundExactSamples": [
+    {
+      "cutoffId": "86",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 15637,
+      "dbClosing": 24722,
+      "exactRounds": "3,4"
+    },
+    {
+      "cutoffId": "87",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 2143,
+      "dbClosing": 2235,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "88",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 4180,
+      "dbClosing": 4191,
+      "exactRounds": "3,4"
+    },
+    {
+      "cutoffId": "89",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 4528,
+      "dbClosing": 5405,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "90",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 8841,
+      "dbClosing": 10132,
+      "exactRounds": "3,4,5"
+    },
+    {
+      "cutoffId": "91",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 2260,
+      "dbClosing": 2766,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "92",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 4117,
+      "dbClosing": 4371,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "93",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 989,
+      "dbClosing": 1080,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "94",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 1128,
+      "dbClosing": 1338,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "95",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 3022,
+      "dbClosing": 4642,
+      "exactRounds": "3,4"
+    },
+    {
+      "cutoffId": "96",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 5759,
+      "dbClosing": 8238,
+      "exactRounds": "1,2,3,4"
+    },
+    {
+      "cutoffId": "97",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 227,
+      "dbClosing": 227,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "98",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 567,
+      "dbClosing": 643,
+      "exactRounds": "1,2,3,4"
+    },
+    {
+      "cutoffId": "99",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 1274,
+      "dbClosing": 1393,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "100",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1242,
+      "dbClosing": 1544,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "101",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 2762,
+      "dbClosing": 3481,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "102",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 41,
+      "dbClosing": 41,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "103",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 368,
+      "dbClosing": 899,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "104",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 1201,
+      "dbClosing": 1260,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "105",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 264,
+      "dbClosing": 326,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "106",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 649,
+      "dbClosing": 649,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "108",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 13304,
+      "dbClosing": 14907,
+      "exactRounds": "1,2,3,4"
+    },
+    {
+      "cutoffId": "110",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 2219,
+      "dbClosing": 2267,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "111",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 2394,
+      "dbClosing": 2970,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "112",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 5616,
+      "dbClosing": 6113,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "113",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1364,
+      "dbClosing": 1691,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "114",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 2605,
+      "dbClosing": 2643,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "115",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 613,
+      "dbClosing": 787,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "116",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 1086,
+      "dbClosing": 1086,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "117",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 3866,
+      "dbClosing": 5832,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "118",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 9845,
+      "dbClosing": 11841,
+      "exactRounds": "1,2,3,4"
+    },
+    {
+      "cutoffId": "119",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 43,
+      "dbClosing": 43,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "120",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 705,
+      "dbClosing": 816,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "121",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 1745,
+      "dbClosing": 1745,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "122",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1553,
+      "dbClosing": 2128,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "123",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 3745,
+      "dbClosing": 4475,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "124",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 946,
+      "dbClosing": 1187,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "125",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 1273,
+      "dbClosing": 1273,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "126",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 501,
+      "dbClosing": 657,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "127",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electronics and Communication Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 838,
+      "dbClosing": 838,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "128",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 9276,
+      "dbClosing": 11565,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "129",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 18129,
+      "dbClosing": 18668,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "130",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1549,
+      "dbClosing": 1724,
+      "exactRounds": "1,2,3,4"
+    },
+    {
+      "cutoffId": "131",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 3720,
+      "dbClosing": 4574,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "132",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 8625,
+      "dbClosing": 8625,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "133",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 2505,
+      "dbClosing": 2592,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "134",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 3934,
+      "dbClosing": 3934,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "135",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Engineering Physics (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 988,
+      "dbClosing": 1029,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "137",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 8782,
+      "dbClosing": 9329,
+      "exactRounds": "1,2,3,4"
+    },
+    {
+      "cutoffId": "139",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1750,
+      "dbClosing": 1935,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "140",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 3843,
+      "dbClosing": 3843,
+      "exactRounds": "1,2,3,4"
+    },
+    {
+      "cutoffId": "141",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1104,
+      "dbClosing": 1145,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "142",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 2287,
+      "dbClosing": 2287,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "143",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Mathematics and Computing (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 600,
+      "dbClosing": 600,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "147",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 3089,
+      "dbClosing": 3125,
+      "exactRounds": "1,2,3,4"
+    },
+    {
+      "cutoffId": "148",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 3454,
+      "dbClosing": 4286,
+      "exactRounds": "3,4"
+    },
+    {
+      "cutoffId": "149",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 7589,
+      "dbClosing": 8401,
+      "exactRounds": "3,4"
+    },
+    {
+      "cutoffId": "150",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1760,
+      "dbClosing": 2399,
+      "exactRounds": "3,4"
+    },
+    {
+      "cutoffId": "151",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 3359,
+      "dbClosing": 3908,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "152",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 744,
+      "dbClosing": 981,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "153",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Mechanical Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 1136,
+      "dbClosing": 1298,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "155",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 22088,
+      "dbClosing": 22144,
+      "exactRounds": "1,2,3,4"
+    },
+    {
+      "cutoffId": "157",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 4913,
+      "dbClosing": 5620,
+      "exactRounds": "3,4"
+    },
+    {
+      "cutoffId": "158",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 9826,
+      "dbClosing": 10272,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "159",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 2589,
+      "dbClosing": 2867,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "160",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 4519,
+      "dbClosing": 4519,
+      "exactRounds": "3,4,5"
+    },
+    {
+      "cutoffId": "161",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1373,
+      "dbClosing": 1375,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "162",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Metallurgical and Materials Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 1828,
+      "dbClosing": 1828,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "163",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1785,
+      "dbClosing": 2638,
+      "exactRounds": "4,5"
+    },
+    {
+      "cutoffId": "164",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 4949,
+      "dbClosing": 6885,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "165",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 103,
+      "dbClosing": 103,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "166",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 395,
+      "dbClosing": 589,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "167",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 970,
+      "dbClosing": 970,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "168",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 517,
+      "dbClosing": 1546,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "169",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 2638,
+      "dbClosing": 3632,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "170",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 62,
+      "dbClosing": 62,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "171",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 336,
+      "dbClosing": 731,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "172",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 804,
+      "dbClosing": 889,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "173",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 412,
+      "dbClosing": 458,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "174",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Aerospace Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 533,
+      "dbClosing": 533,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "175",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Applied Geophysics (4 Years, Bachelor of Science)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 5473,
+      "dbClosing": 6691,
+      "exactRounds": "1,2,3,4"
+    },
+    {
+      "cutoffId": "176",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Applied Geophysics (4 Years, Bachelor of Science)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 11877,
+      "dbClosing": 14289,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "177",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Applied Geophysics (4 Years, Bachelor of Science)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1317,
+      "dbClosing": 1636,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "178",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Applied Geophysics (4 Years, Bachelor of Science)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 3116,
+      "dbClosing": 3527,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "179",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Applied Geophysics (4 Years, Bachelor of Science)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 7037,
+      "dbClosing": 7037,
+      "exactRounds": "1,2,3,4"
+    },
+    {
+      "cutoffId": "180",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Applied Geophysics (4 Years, Bachelor of Science)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1505,
+      "dbClosing": 2142,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "181",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Applied Geophysics (4 Years, Bachelor of Science)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 3660,
+      "dbClosing": 3660,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "182",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Applied Geophysics (4 Years, Bachelor of Science)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 910,
+      "dbClosing": 998,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "183",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Applied Geophysics (4 Years, Bachelor of Science)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 1466,
+      "dbClosing": 1466,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "184",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "BS in Mathematics (4 Years, Bachelor of Science)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 827,
+      "dbClosing": 1042,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "185",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "BS in Mathematics (4 Years, Bachelor of Science)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 3727,
+      "dbClosing": 3727,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "186",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "BS in Mathematics (4 Years, Bachelor of Science)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 287,
+      "dbClosing": 287,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "187",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "BS in Mathematics (4 Years, Bachelor of Science)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 1357,
+      "dbClosing": 1357,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "188",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "BS in Mathematics (4 Years, Bachelor of Science)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 667,
+      "dbClosing": 888,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "189",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "BS in Mathematics (4 Years, Bachelor of Science)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 3185,
+      "dbClosing": 3185,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "190",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "BS in Mathematics (4 Years, Bachelor of Science)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 516,
+      "dbClosing": 634,
+      "exactRounds": "2,3,4,5"
+    },
+    {
+      "cutoffId": "191",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "BS in Mathematics (4 Years, Bachelor of Science)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 470,
+      "dbClosing": 470,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "192",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "BS in Mathematics (4 Years, Bachelor of Science)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 652,
+      "dbClosing": 652,
+      "exactRounds": "1,2,3,4,5"
+    },
+    {
+      "cutoffId": "193",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1893,
+      "dbClosing": 2773,
+      "exactRounds": "2,3,4"
+    },
+    {
+      "cutoffId": "194",
+      "college": "Indian Institute of Technology Bombay",
+      "branch": "Chemical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 3970,
+      "dbClosing": 6336,
+      "exactRounds": "1,2,3,4,5"
+    }
+  ],
+  "samples": [
+    {
+      "cutoffId": "85",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 10752,
+      "dbClosing": 15433,
+      "officialRounds": {
+        "1": {
+          "opening": 6859,
+          "closing": 14763
+        },
+        "2": {
+          "opening": 10752,
+          "closing": 15329
+        },
+        "3": {
+          "opening": 10752,
+          "closing": 15329
+        },
+        "4": {
+          "opening": 10752,
+          "closing": 15433
+        },
+        "5": {
+          "opening": 10752,
+          "closing": 16868
+        }
+      },
+      "exactRounds": [
+        "4"
+      ]
+    },
+    {
+      "cutoffId": "86",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 15637,
+      "dbClosing": 24722,
+      "officialRounds": {
+        "1": {
+          "opening": 15637,
+          "closing": 24023
+        },
+        "2": {
+          "opening": 15637,
+          "closing": 24547
+        },
+        "3": {
+          "opening": 15637,
+          "closing": 24722
+        },
+        "4": {
+          "opening": 15637,
+          "closing": 24722
+        },
+        "5": {
+          "opening": 15637,
+          "closing": 24750
+        }
+      },
+      "exactRounds": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "cutoffId": "87",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 2143,
+      "dbClosing": 2235,
+      "officialRounds": {
+        "1": {
+          "opening": 2063,
+          "closing": 2197
+        },
+        "2": {
+          "opening": 2143,
+          "closing": 2235
+        },
+        "3": {
+          "opening": 2143,
+          "closing": 2235
+        },
+        "4": {
+          "opening": 2143,
+          "closing": 2235
+        },
+        "5": {
+          "opening": 2343,
+          "closing": 2510
+        }
+      },
+      "exactRounds": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "cutoffId": "88",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 4180,
+      "dbClosing": 4191,
+      "officialRounds": {
+        "1": {
+          "opening": 3605,
+          "closing": 4069
+        },
+        "2": {
+          "opening": 3605,
+          "closing": 4180
+        },
+        "3": {
+          "opening": 4180,
+          "closing": 4191
+        },
+        "4": {
+          "opening": 4180,
+          "closing": 4191
+        },
+        "5": {
+          "opening": 4180,
+          "closing": 4281
+        }
+      },
+      "exactRounds": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "cutoffId": "89",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 4528,
+      "dbClosing": 5405,
+      "officialRounds": {
+        "1": {
+          "opening": 4275,
+          "closing": 5236
+        },
+        "2": {
+          "opening": 4528,
+          "closing": 5405
+        },
+        "3": {
+          "opening": 4528,
+          "closing": 5405
+        },
+        "4": {
+          "opening": 4528,
+          "closing": 5405
+        },
+        "5": {
+          "opening": 4528,
+          "closing": 5550
+        }
+      },
+      "exactRounds": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "cutoffId": "90",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 8841,
+      "dbClosing": 10132,
+      "officialRounds": {
+        "1": {
+          "opening": 8685,
+          "closing": 9435
+        },
+        "2": {
+          "opening": 8841,
+          "closing": 10085
+        },
+        "3": {
+          "opening": 8841,
+          "closing": 10132
+        },
+        "4": {
+          "opening": 8841,
+          "closing": 10132
+        },
+        "5": {
+          "opening": 8841,
+          "closing": 10132
+        }
+      },
+      "exactRounds": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "91",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 2260,
+      "dbClosing": 2766,
+      "officialRounds": {
+        "1": {
+          "opening": 2260,
+          "closing": 2687
+        },
+        "2": {
+          "opening": 2260,
+          "closing": 2766
+        },
+        "3": {
+          "opening": 2260,
+          "closing": 2766
+        },
+        "4": {
+          "opening": 2260,
+          "closing": 2766
+        },
+        "5": {
+          "opening": 2260,
+          "closing": 2799
+        }
+      },
+      "exactRounds": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "cutoffId": "92",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 4117,
+      "dbClosing": 4371,
+      "officialRounds": {
+        "1": {
+          "opening": 3702,
+          "closing": 4117
+        },
+        "2": {
+          "opening": 4117,
+          "closing": 4371
+        },
+        "3": {
+          "opening": 4117,
+          "closing": 4371
+        },
+        "4": {
+          "opening": 4117,
+          "closing": 4371
+        },
+        "5": {
+          "opening": 4117,
+          "closing": 4371
+        }
+      },
+      "exactRounds": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "93",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 989,
+      "dbClosing": 1080,
+      "officialRounds": {
+        "1": {
+          "opening": 989,
+          "closing": 1079
+        },
+        "2": {
+          "opening": 989,
+          "closing": 1080
+        },
+        "3": {
+          "opening": 989,
+          "closing": 1080
+        },
+        "4": {
+          "opening": 989,
+          "closing": 1080
+        },
+        "5": {
+          "opening": 989,
+          "closing": 1080
+        }
+      },
+      "exactRounds": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "94",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Civil Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 1128,
+      "dbClosing": 1338,
+      "officialRounds": {
+        "1": {
+          "opening": 1128,
+          "closing": 1190
+        },
+        "2": {
+          "opening": 1128,
+          "closing": 1338
+        },
+        "3": {
+          "opening": 1128,
+          "closing": 1338
+        },
+        "4": {
+          "opening": 1128,
+          "closing": 1338
+        },
+        "5": {
+          "opening": 1128,
+          "closing": 1338
+        }
+      },
+      "exactRounds": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "95",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 3022,
+      "dbClosing": 4642,
+      "officialRounds": {
+        "1": {
+          "opening": 3022,
+          "closing": 4582
+        },
+        "2": {
+          "opening": 3022,
+          "closing": 4582
+        },
+        "3": {
+          "opening": 3022,
+          "closing": 4642
+        },
+        "4": {
+          "opening": 3022,
+          "closing": 4642
+        },
+        "5": {
+          "opening": 3022,
+          "closing": 4899
+        }
+      },
+      "exactRounds": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "cutoffId": "96",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 5759,
+      "dbClosing": 8238,
+      "officialRounds": {
+        "1": {
+          "opening": 5759,
+          "closing": 8238
+        },
+        "2": {
+          "opening": 5759,
+          "closing": 8238
+        },
+        "3": {
+          "opening": 5759,
+          "closing": 8238
+        },
+        "4": {
+          "opening": 5759,
+          "closing": 8238
+        },
+        "5": {
+          "opening": 5759,
+          "closing": 8782
+        }
+      },
+      "exactRounds": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "cutoffId": "97",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN (PwD)",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 227,
+      "dbClosing": 227,
+      "officialRounds": {
+        "1": {
+          "opening": 227,
+          "closing": 227
+        },
+        "2": {
+          "opening": 227,
+          "closing": 227
+        },
+        "3": {
+          "opening": 227,
+          "closing": 227
+        },
+        "4": {
+          "opening": 227,
+          "closing": 227
+        },
+        "5": {
+          "opening": 227,
+          "closing": 227
+        }
+      },
+      "exactRounds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "98",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 567,
+      "dbClosing": 643,
+      "officialRounds": {
+        "1": {
+          "opening": 567,
+          "closing": 643
+        },
+        "2": {
+          "opening": 567,
+          "closing": 643
+        },
+        "3": {
+          "opening": 567,
+          "closing": 643
+        },
+        "4": {
+          "opening": 567,
+          "closing": 643
+        },
+        "5": {
+          "opening": 583,
+          "closing": 696
+        }
+      },
+      "exactRounds": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "cutoffId": "99",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 1274,
+      "dbClosing": 1393,
+      "officialRounds": {
+        "1": {
+          "opening": 1274,
+          "closing": 1393
+        },
+        "2": {
+          "opening": 1274,
+          "closing": 1393
+        },
+        "3": {
+          "opening": 1274,
+          "closing": 1393
+        },
+        "4": {
+          "opening": 1274,
+          "closing": 1393
+        },
+        "5": {
+          "opening": 1274,
+          "closing": 1393
+        }
+      },
+      "exactRounds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "100",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1242,
+      "dbClosing": 1544,
+      "officialRounds": {
+        "1": {
+          "opening": 1242,
+          "closing": 1542
+        },
+        "2": {
+          "opening": 1242,
+          "closing": 1544
+        },
+        "3": {
+          "opening": 1242,
+          "closing": 1544
+        },
+        "4": {
+          "opening": 1242,
+          "closing": 1544
+        },
+        "5": {
+          "opening": 1242,
+          "closing": 1551
+        }
+      },
+      "exactRounds": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "cutoffId": "101",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 2762,
+      "dbClosing": 3481,
+      "officialRounds": {
+        "1": {
+          "opening": 2762,
+          "closing": 3481
+        },
+        "2": {
+          "opening": 2762,
+          "closing": 3481
+        },
+        "3": {
+          "opening": 2762,
+          "closing": 3481
+        },
+        "4": {
+          "opening": 2762,
+          "closing": 3481
+        },
+        "5": {
+          "opening": 2762,
+          "closing": 3481
+        }
+      },
+      "exactRounds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "102",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL (PwD)",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 41,
+      "dbClosing": 41,
+      "officialRounds": {
+        "1": {
+          "opening": 41,
+          "closing": 41
+        },
+        "2": {
+          "opening": 41,
+          "closing": 41
+        },
+        "3": {
+          "opening": 41,
+          "closing": 41
+        },
+        "4": {
+          "opening": 41,
+          "closing": 41
+        },
+        "5": {
+          "opening": 41,
+          "closing": 41
+        }
+      },
+      "exactRounds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "103",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 368,
+      "dbClosing": 899,
+      "officialRounds": {
+        "1": {
+          "opening": 368,
+          "closing": 849
+        },
+        "2": {
+          "opening": 368,
+          "closing": 899
+        },
+        "3": {
+          "opening": 368,
+          "closing": 899
+        },
+        "4": {
+          "opening": 368,
+          "closing": 899
+        },
+        "5": {
+          "opening": 368,
+          "closing": 899
+        }
+      },
+      "exactRounds": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "104",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 1201,
+      "dbClosing": 1260,
+      "officialRounds": {
+        "1": {
+          "opening": 1201,
+          "closing": 1260
+        },
+        "2": {
+          "opening": 1201,
+          "closing": 1260
+        },
+        "3": {
+          "opening": 1201,
+          "closing": 1260
+        },
+        "4": {
+          "opening": 1201,
+          "closing": 1260
+        },
+        "5": {
+          "opening": 1201,
+          "closing": 1260
+        }
+      },
+      "exactRounds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "105",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 264,
+      "dbClosing": 326,
+      "officialRounds": {
+        "1": {
+          "opening": 264,
+          "closing": 326
+        },
+        "2": {
+          "opening": 264,
+          "closing": 326
+        },
+        "3": {
+          "opening": 264,
+          "closing": 326
+        },
+        "4": {
+          "opening": 264,
+          "closing": 326
+        },
+        "5": {
+          "opening": 264,
+          "closing": 326
+        }
+      },
+      "exactRounds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "106",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Computer Science and Engineering (4 Years, Bachelor of Technology)",
+      "category": "ST",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 649,
+      "dbClosing": 649,
+      "officialRounds": {
+        "1": {
+          "opening": 649,
+          "closing": 649
+        },
+        "2": {
+          "opening": 649,
+          "closing": 649
+        },
+        "3": {
+          "opening": 649,
+          "closing": 649
+        },
+        "4": {
+          "opening": 649,
+          "closing": 649
+        },
+        "5": {
+          "opening": 649,
+          "closing": 649
+        }
+      },
+      "exactRounds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "107",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 6079,
+      "dbClosing": 7660,
+      "officialRounds": {
+        "1": {
+          "opening": 5832,
+          "closing": 7580
+        },
+        "2": {
+          "opening": 6079,
+          "closing": 7593
+        },
+        "3": {
+          "opening": 6079,
+          "closing": 7650
+        },
+        "4": {
+          "opening": 6079,
+          "closing": 7660
+        },
+        "5": {
+          "opening": 6930,
+          "closing": 8668
+        }
+      },
+      "exactRounds": [
+        "4"
+      ]
+    },
+    {
+      "cutoffId": "108",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OPEN",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 13304,
+      "dbClosing": 14907,
+      "officialRounds": {
+        "1": {
+          "opening": 13304,
+          "closing": 14907
+        },
+        "2": {
+          "opening": 13304,
+          "closing": 14907
+        },
+        "3": {
+          "opening": 13304,
+          "closing": 14907
+        },
+        "4": {
+          "opening": 13304,
+          "closing": 14907
+        },
+        "5": {
+          "opening": 13304,
+          "closing": 15477
+        }
+      },
+      "exactRounds": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "cutoffId": "109",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1095,
+      "dbClosing": 1161,
+      "officialRounds": {
+        "1": {
+          "opening": 1055,
+          "closing": 1114
+        },
+        "2": {
+          "opening": 1095,
+          "closing": 1153
+        },
+        "3": {
+          "opening": 1095,
+          "closing": 1157
+        },
+        "4": {
+          "opening": 1095,
+          "closing": 1161
+        },
+        "5": {
+          "opening": 1134,
+          "closing": 1180
+        }
+      },
+      "exactRounds": [
+        "4"
+      ]
+    },
+    {
+      "cutoffId": "110",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "EWS",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 2219,
+      "dbClosing": 2267,
+      "officialRounds": {
+        "1": {
+          "opening": 2219,
+          "closing": 2267
+        },
+        "2": {
+          "opening": 2219,
+          "closing": 2267
+        },
+        "3": {
+          "opening": 2219,
+          "closing": 2267
+        },
+        "4": {
+          "opening": 2219,
+          "closing": 2267
+        },
+        "5": {
+          "opening": 2219,
+          "closing": 2267
+        }
+      },
+      "exactRounds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "111",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 2394,
+      "dbClosing": 2970,
+      "officialRounds": {
+        "1": {
+          "opening": 2394,
+          "closing": 2910
+        },
+        "2": {
+          "opening": 2394,
+          "closing": 2970
+        },
+        "3": {
+          "opening": 2394,
+          "closing": 2970
+        },
+        "4": {
+          "opening": 2394,
+          "closing": 2970
+        },
+        "5": {
+          "opening": 2394,
+          "closing": 2970
+        }
+      },
+      "exactRounds": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "112",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "OBC-NCL",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 5616,
+      "dbClosing": 6113,
+      "officialRounds": {
+        "1": {
+          "opening": 5355,
+          "closing": 5970
+        },
+        "2": {
+          "opening": 5616,
+          "closing": 6113
+        },
+        "3": {
+          "opening": 5616,
+          "closing": 6113
+        },
+        "4": {
+          "opening": 5616,
+          "closing": 6113
+        },
+        "5": {
+          "opening": 5616,
+          "closing": 6113
+        }
+      },
+      "exactRounds": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "cutoffId": "113",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Gender-Neutral",
+      "dbOpening": 1364,
+      "dbClosing": 1691,
+      "officialRounds": {
+        "1": {
+          "opening": 1364,
+          "closing": 1657
+        },
+        "2": {
+          "opening": 1364,
+          "closing": 1691
+        },
+        "3": {
+          "opening": 1364,
+          "closing": 1691
+        },
+        "4": {
+          "opening": 1364,
+          "closing": 1691
+        },
+        "5": {
+          "opening": 1364,
+          "closing": 1692
+        }
+      },
+      "exactRounds": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "cutoffId": "114",
+      "college": "Indian Institute of Technology Bhubaneswar",
+      "branch": "Electrical Engineering (4 Years, Bachelor of Technology)",
+      "category": "SC",
+      "quota": "AI",
+      "gender": "Female-only (including Supernumerary)",
+      "dbOpening": 2605,
+      "dbClosing": 2643,
+      "officialRounds": {
+        "1": {
+          "opening": 2605,
+          "closing": 2643
+        },
+        "2": {
+          "opening": 2605,
+          "closing": 2643
+        },
+        "3": {
+          "opening": 2605,
+          "closing": 2643
+        },
+        "4": {
+          "opening": 2605,
+          "closing": 2643
+        },
+        "5": {
+          "opening": 2605,
+          "closing": 2643
+        }
+      },
+      "exactRounds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  ]
+}

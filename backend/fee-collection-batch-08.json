@@ -1,0 +1,129 @@
+﻿[
+  {
+    "college_id": "national-institute-of-technology-kurukshetra",
+    "college_name": "National Institute of Technology, Kurukshetra",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 62500,
+    "annual_academic_fee": 125000,
+    "total_course_fee": 676000,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 NIT Kurukshetra B.Tech Fees 2026",
+    "source_url": "https://www.careers360.com/university/national-institute-of-technology-kurukshetra/fees",
+
+    "source_priority": 65,
+    "confidence_score": 82,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Secondary source reports INR 5 lakh total B.Tech tuition and INR 6.76 lakh total course fee. Semester tuition normalized from eight semesters."
+  },
+
+  {
+    "college_id": "national-institute-of-technology-patna",
+    "college_name": "National Institute of Technology Patna",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 62500,
+    "annual_academic_fee": 125000,
+    "total_course_fee": 603000,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 NIT Patna B.Tech Fees 2026",
+    "source_url": "https://www.careers360.com/university/national-institute-of-technology-patna/fees",
+
+    "source_priority": 65,
+    "confidence_score": 85,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Secondary source reports INR 5 lakh tuition and INR 6.03 lakh overall B.Tech fee. Semester tuition normalized from eight semesters."
+  },
+
+  {
+    "college_id": "national-institute-of-technology-jamshedpur",
+    "college_name": "National Institute of Technology, Jamshedpur",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 62500,
+    "annual_academic_fee": 125000,
+    "total_course_fee": 500000,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 NIT Jamshedpur B.Tech Fees 2026",
+    "source_url": "https://www.careers360.com/university/national-institute-of-technology-jamshedpur/fees",
+
+    "source_priority": 65,
+    "confidence_score": 80,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Secondary source reports INR 5 lakh total B.Tech tuition. Semester tuition normalized from eight semesters. Other institutional and hostel charges not included."
+  },
+
+  {
+    "college_id": "national-institute-of-technology-raipur",
+    "college_name": "National Institute of Technology Raipur",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 62500,
+    "annual_academic_fee": 125000,
+    "total_course_fee": 578000,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 NIT Raipur B.Tech Fees 2026",
+    "source_url": "https://www.careers360.com/university/national-institute-of-technology-raipur/fees",
+
+    "source_priority": 65,
+    "confidence_score": 84,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Secondary source reports INR 5 lakh B.Tech tuition and INR 5.78 lakh overall course fee. Semester tuition normalized from eight semesters."
+  },
+
+  {
+    "college_id": "national-institute-of-technology-silchar",
+    "college_name": "National Institute of Technology, Silchar",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "first_semester_fee": 100500,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 NIT Silchar B.Tech Fees 2026",
+    "source_url": "https://www.careers360.com/university/national-institute-of-technology-silchar/courses",
+
+    "source_priority": 65,
+    "confidence_score": 82,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "For students with annual family income above INR 5 lakh, secondary source reports Semester 1 fee INR 100500. SC/ST/PwD and lower-income categories have different payable amounts, so no universal semester tuition value is normalized here."
+  },
+
+  {
+    "college_id": "national-institute-of-technology-hamirpur",
+    "college_name": "National Institute of Technology Hamirpur",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "total_course_fee": 769000,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 NIT Hamirpur B.Tech Fees 2026",
+    "source_url": "https://www.careers360.com/university/national-institute-of-technology-hamirpur/fees",
+
+    "source_priority": 65,
+    "confidence_score": 60,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+
+    "notes": "Secondary source displays INR 7.69 lakh for four-year B.Tech. Tuition versus overall-course semantics are not sufficiently clear, so semester/annual academic fees are intentionally not derived."
+  }
+]

@@ -1,0 +1,762 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 3 of 5 in the second batch (NIT Kurukshetra). Colleges 4-5 (MNNIT Allahabad, MNIT Jaipur) to follow in separate responses."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Kurukshetra",
+        "verified_name": "National Institute of Technology, Kurukshetra",
+        "city": "Kurukshetra",
+        "state": "Haryana",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Regional Engineering College (REC), Kurukshetra, established 1963; upgraded to NIT/Deemed University status in 2002; declared Institute of National Importance in December 2008. Single main campus in Kurukshetra. IMPORTANT DISAMBIGUATION: explicitly verified DISTINCT from the University Institute of Engineering and Technology (UIET), Kurukshetra — a separate engineering institute operating under Kurukshetra University (a different, state-run university), located in the same city. A news article describing a ragging incident at 'Kurukshetra University' was identified during source discovery and correctly EXCLUDED from this extraction since it pertains to the separate university, not NIT Kurukshetra."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews pages (multiple), comparison page, and main overview page retrieved."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews pages (including paginated and course-filtered) and hostel-specific page retrieved with multiple narrative review snippets."},
+        {"platform": "Careers360", "status": "available", "notes": "Aggregate rating confirmed consistently across three separate Kurukshetra-city category listing pages (Power Engineering, general Engineering, CSE)."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located on ragging (consistently describing NIT Kurukshetra as low-ragging/ragging-free, in contrast to some other NITs in this dataset) and hostel life."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NIT Kurukshetra located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/compare-nit-kurukshetra-23159",
+          "aggregate_rating": 4.1,
+          "rating_scale": "out of 5",
+          "review_count": 663,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Kurukshetra is rated 4.1 out of 5 by 663 genuine verified students.'"
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-kurukshetra-national-institute-of-technology-23159",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 745,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 745 Student Reviews, 339 comments.' Distinct count (745) from the comparison page (663) observed in this same session; both retained as separate observations since retrieved from different URLs, not the same page load."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-power-engineering-colleges-in-kurukshetra",
+          "aggregate_rating": 4.1,
+          "rating_scale": "out of 5",
+          "review_count": 241,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Kurukshetra - National Institute of Technology Kurukshetra ... Rating: 4.1/5, 241 Reviews.'"
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-engineering-colleges-in-kurukshetra",
+          "aggregate_rating": 4.1,
+          "rating_scale": "out of 5",
+          "review_count": 241,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Same figures (4.1/5, 241 reviews) observed on a second, broader Kurukshetra-city engineering-colleges listing page, consistent with the power-engineering-category observation."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-computer-science-engineering-colleges-in-kurukshetra",
+          "aggregate_rating": 4.1,
+          "rating_scale": "out of 5",
+          "review_count": 241,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Same figures (4.1/5, 241 reviews) observed on a third listing page (CSE category), reinforcing this as likely the genuine institution-wide aggregate rather than a category-specific artifact."
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25540-national-institute-of-technology-nit-kurukshetra/reviews/page-24",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating visible in retrieved snippets; only narrative review text and an auto-extracted 'insights' block present."
+        },
+        {
+          "platform": "UniversityKart (third-party aggregator)",
+          "source_url": "https://universitykart.com/university/universitydetails/nit-kurukshetra/rating-reviews",
+          "aggregate_rating": 4.5,
+          "rating_scale": "out of 5",
+          "review_count": 470,
+          "verified_review_count": 470,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "Third-party/lesser-known aggregator ('universitykart.com') distinct from the main platforms of interest. Star distribution: >4-5 star 80%, >3-4 star 18%, >2-3 star 2%, 1-2 star 0%. This is a notably higher rating (4.5) with a different review count (470) than either Shiksha or Careers360 observations — recorded as a separate, lower-confidence observation given the platform's lesser-known status and the significant divergence from other sources."
+        },
+        {
+          "platform": "JEECounselling.in (third-party aggregator)",
+          "source_url": "https://jeecounselling.in/college/nit-kurukshetra",
+          "aggregate_rating": 4.1,
+          "rating_scale": "out of 5",
+          "review_count": 781,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "Third-party aggregator citing 'Info Edge (India) Limited - Shiksha.com' as a data source, suggesting this may be a re-syndication of Shiksha data rather than independent collection; review_count (781) differs from Shiksha's own directly observed counts (663, 745). Recorded as a separate observation with this provenance caveat."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "JEECounselling.in (citing Shiksha data)", "aspect": "infrastructure", "rating": 4.1, "rating_scale": "out of 5", "source_url": "https://jeecounselling.in/college/nit-kurukshetra", "observed_at": null},
+        {"platform": "JEECounselling.in (citing Shiksha data)", "aspect": "campus_life", "rating": 4.4, "rating_scale": "out of 5", "source_url": "https://jeecounselling.in/college/nit-kurukshetra", "observed_at": null},
+        {"platform": "JEECounselling.in (citing Shiksha data)", "aspect": "academics", "rating": 4.1, "rating_scale": "out of 5", "source_url": "https://jeecounselling.in/college/nit-kurukshetra", "observed_at": null},
+        {"platform": "JEECounselling.in (citing Shiksha data)", "aspect": "faculty", "rating": 3.8, "rating_scale": "out of 5", "source_url": "https://jeecounselling.in/college/nit-kurukshetra", "observed_at": null},
+        {"platform": "JEECounselling.in (citing Shiksha data)", "aspect": "placements", "rating": 4.2, "rating_scale": "out of 5", "source_url": "https://jeecounselling.in/college/nit-kurukshetra", "observed_at": null},
+        {"platform": "JEECounselling.in (citing Shiksha data)", "aspect": "hostel", "rating": 4.0, "rating_scale": "out of 5", "source_url": "https://jeecounselling.in/college/nit-kurukshetra", "observed_at": null},
+        {"platform": "UniversityKart", "aspect": "placements", "rating": 4.4, "rating_scale": "out of 5", "source_url": "https://universitykart.com/university/universitydetails/nit-kurukshetra/rating-reviews", "observed_at": null},
+        {"platform": "UniversityKart", "aspect": "infrastructure", "rating": 4.3, "rating_scale": "out of 5", "source_url": "https://universitykart.com/university/universitydetails/nit-kurukshetra/rating-reviews", "observed_at": null},
+        {"platform": "UniversityKart", "aspect": "campus_life", "rating": 4.4, "rating_scale": "out of 5", "source_url": "https://universitykart.com/university/universitydetails/nit-kurukshetra/rating-reviews", "observed_at": null},
+        {"platform": "UniversityKart", "aspect": "faculty", "rating": 4.1, "rating_scale": "out of 5", "source_url": "https://universitykart.com/university/universitydetails/nit-kurukshetra/rating-reviews", "observed_at": null},
+        {"platform": "UniversityKart", "aspect": "value_for_money", "rating": 4.0, "rating_scale": "out of 5", "source_url": "https://universitykart.com/university/universitydetails/nit-kurukshetra/rating-reviews", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "NIT Kurukshetra",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25540-national-institute-of-technology-nit-kurukshetra/reviews/page-24",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'For our batch the placement season was worst over the last 10 years with less than 50% overall placement.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Some professors are not that helpful and kind, they just give us warning on everything.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Kurukshetra",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25540-national-institute-of-technology-nit-kurukshetra/reviews/page-24",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Good placement records. We are eligible to apply for placement in any company from 7th semester onwards. There are a number of companies that visit NIT Kurukshetra every year to hire the talented and tech minds, few include Microsoft, WinZO, Maruti Suzuki, etc. Highest package offered is 52 lakh on campus and 1.25 crore off campus, average on campus package offered is 9 lakh.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements of NIT Kurukshetra is very good. Every year about 85% students get placed from this college with a decent package.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Kurukshetra",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25540-national-institute-of-technology-nit-kurukshetra/reviews/page-4?course=2055",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Boys hostel conditions, rooms condition are so bad, they have to reconstruct 2-3 boys hostels.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The placement of this college is nice. The average package is 15 lakhs which is so good compared to other colleges... Many companies visited this college, the top companies are Microsoft, Flipkart, KPMG, Deloitte and many more... Last year the highest package is 1.25 crore and average is 15 lakhs. 85% students get placed and rest 15% who was not placed because they are preparing for government jobs or pursuing higher studies.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The campus is very beautiful with a vast acre size of 350. It is lush green with a lot of peaceful and pleasant vibe.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The seniors are very helpful and there is no ragging at all.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The food is not that good in some hostels.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Some Professors are rude and don't care about students.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Kurukshetra",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25540-national-institute-of-technology-nit-kurukshetra/reviews/page-4?course=2055",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Students get hired from the 5th semester (for internship). Names of companies visited: Google (1 offer), Microsoft (17 offers), Amazon (18 offers), Goldman Sachs (2 offers). Percentage of students getting placed depends on the branch, for CS it is 80%.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'You will have an amazing campus life here, and you can capture memories from this institute. Various programs are conducted and have many clubs, crews, magazine festivals, societies, etc.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Kurukshetra",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-kurukshetra-national-institute-of-technology-23159/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "The honest review of NIT Kurukshetra",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'About 71% of students are placed in our course. The highest package is 51 LPA, the lowest is 5.6 LPA, and average is 14 LPA. Top companies include Amazon, Flipkart, and Meesho.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Kurukshetra",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-kurukshetra-national-institute-of-technology-23159/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Review of NIT Kurukshetra - National Institute of Technology",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": "Electrical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The campus encourages students to participate in various clubs to transform them into skilled assets for companies. The active promotion of clubs is too limited.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Electrical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements in both core industries and the tech sector are equally supported. The highest known package is 1.25 crore (off-campus). More than 70% of students are placed. Companies like Mahindra, Tata, BHEL, and MSIL regularly visit the campus for core Electrical placements.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'There is no Wi-Fi availability, but LAN connections are provided. The boys' hostel infrastructure is not very good and is just okay for students. Rooms are small.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The common rooms have good space, along with a television and AC. Sports facilities for both indoor and outdoor games are available to help students relax. Food quality is not very good.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Kurukshetra",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-kurukshetra-national-institute-of-technology-23159/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "NIT Kurukshetra College Review",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Mechanical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Mechanical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Mechanical engineering at NIT Kurukshetra has good placements as well. Around 86% of students get placed. The average package is 9 LPA, the lowest is 4 LPA, and the highest reaches 18 LPA. Top companies like Tata, Hero Motors, and Mahindra visit the campus. Around 80% of students also get internships in core companies.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": "Mechanical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The department provides Wi-Fi, and the labs are well-maintained. The classrooms are spacious, and the library has an excellent collection.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The hostels are generally good and kept clean, but the food in the mess and food street is just average. There are basic medical facilities.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Kurukshetra",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-kurukshetra-national-institute-of-technology-23159",
+          "source_review_id": null,
+          "author_display_name": "Harmanjeet Singh Kalsi",
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Author explicitly named and identified as 'Batch of 2027' on this page, cited by Shiksha's own summary content rather than a directly viewed raw review card.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Kurukshetra has good placements, green campus, amazing fests, and really good facilities. More than 85 percent of students are placed in very good companies with good packages. The highest package, as of my knowledge, is 60 LPA offered to a student by Meesho.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "Same review: 'green campus, amazing fests, and really good facilities.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Kurukshetra",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/national-institute-of-technology-nit-kurukshetra/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Civil Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "neutral",
+              "evidence_summary": "'The placement of civil engineering in my college is satisfactory. We get L&T, IOCL as major recruiters and get visited by various consulting companies.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There are many clubs like SAC, MAD, and societies like Mechs, Industry Cell, Rooh, Shiksha, Electroreck, Fine Arts, Technobyte, Antariksh, etc. Main festivals are Confluence (cultural), Techspardha (technical) and sports festivals. Life in college is good.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Kurukshetra",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/national-institute-of-technology-nit-kurukshetra/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'A lot of top companies like Microsoft, Amazon, etc., visit for campus placements. They have a good alumni network.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Kurukshetra",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/What-is-the-scenario-of-ragging-at-NIT-Kurukshetra-2019",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "What is the scenario of ragging at NIT Kurukshetra (2019)?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Notably, sentiment on ragging at NIT Kurukshetra is consistently positive/reassuring across all Quora threads found in this session, in contrast to the more mixed or negative pattern seen at some other NITs in this dataset (e.g., NIT Durgapur, NITK Surathkal). This consistency is worth noting but is not treated as proof of ground truth, only as a pattern in the available evidence.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There is no ragging at all in NIT Kurukshetra. You will just love the culture here. It's so friendly between seniors and juniors. Ragging hasn't been there for quite some years now. There is not even a single case of ragging in two years which I have witnessed.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Kurukshetra",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-the-hostel-life-at-NIT-Kurukshetra",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is the hostel life at NIT Kurukshetra?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Hostel life is awesome at NIT Kurukshetra. There are about 10 boys hostels in the college. You have the full freedom [to do] what you want to do. There is LAN and Wi-Fi in hostels so no problem of internet.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Kurukshetra",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/What-is-ragging-scene-at-N-I-T-Kurukshetra-How-much-percentage-of-total-is-Haryanvi-in-N-I-T-Kurukshetra",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "What is ragging scene at N.I.T. Kurukshetra? How much percentage of total is Haryanvi in N.I.T. Kurukshetra?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Kurukshetra is literally a ragging-free campus. Believe me when I say that [the] institute is r[eally strict about it]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Kurukshetra",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25540-national-institute-of-technology-nit-kurukshetra/hostel",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "Self-identified fresher in H2 boys hostel: 'Freshers are allotted 3 seater rooms which are small and old. H1, H2 and H3 hostels do not have Wi-Fi facilities. Instead they have WLAN which is useful only if you have a laptop or a router.' Also notes positively: 'It is a good thing that the choice of meals is handled by the students themselves... open grounds where you can play sports like TT, chess, badminton, volleyball.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'During 1st month, freshers can only travel to their classes and back. This is done to ensure that there is no ragging.' Descriptive of a protective policy rather than itself expressing a positive/negative opinion."
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "Describing girls' hostels (Kalpana Chawla Bhawan, Bhagirathi Bhawan, Cauvery Bhawan): 'All the hostels have single seater rooms... rooms are well-lit, well-ventilated and spacious... The newly constructed Kalpana Chawla Bhawan even has a lift facility... The food is nice.'"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 14,
+        "independent_sources": 4,
+        "reviews_with_dates": 0,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 14
+      },
+
+      "limitations": [
+        "Reddit: no genuine NIT Kurukshetra-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "IMPORTANT DISAMBIGUATION HANDLED: A CollegeDekho page for NIT Kurukshetra referenced a specific, named individual's alleged death by suicide on campus. This claim involves a real, potentially identifiable person and a matter of serious sensitivity. It has been deliberately EXCLUDED from this structured extraction rather than classified as ordinary aspect sentiment — fabricating structured 'evidence' around an unverified claim naming a specific deceased person is not appropriate for a review-sentiment dataset, regardless of the extraction-only framing. If this topic is relevant to your platform's safety/duty-of-care review process, it should be handled through a separate, appropriately careful verification and ethics process, not this pipeline.",
+        "Separately, a real news article was found describing a ragging-related disciplinary action at 'Kurukshetra University' — a different institution from NIT Kurukshetra. This was correctly identified as out-of-scope and excluded.",
+        "Ragging-related sentiment for NIT Kurukshetra itself is consistently positive/reassuring across all Quora sources found this session, a notable contrast to more mixed patterns seen at other NITs in this batch — this is reported as an observed pattern in available evidence, not as a verified fact about ground-truth campus conditions.",
+        "A third-party aggregator (UniversityKart) showed a notably higher aggregate rating (4.5/5, 470 reviews) than Shiksha or Careers360 (both ~4.1/5); this divergence is preserved rather than reconciled, with a caveat about the platform's lesser-known status.",
+        "Another third-party aggregator (JEECounselling.in) explicitly cites Shiksha as its data source, suggesting possible re-syndication rather than independent data collection; flagged accordingly.",
+        "No review in this extraction batch carried an explicit visible date; reviews_with_dates and reviews_last_24_months are both 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~740+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

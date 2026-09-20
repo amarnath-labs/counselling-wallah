@@ -1,0 +1,98 @@
+{
+  "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+  "college_name": "AJAY KUMAR GARG ENGG. COLLEGE,GHAZIABAD",
+  "academic_year": 2026,
+  "session": "2026-27",
+  "official_sources": {
+    "general": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+    "fee_waiver": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+    "hostel": "https://www.akgec.ac.in/wp-content/uploads/2026/06/HOSTEL-FEE-2026-27_0001-1.pdf"
+  },
+  "academic": [
+    {
+      "category": "GENERAL",
+      "source_key": "btech_general",
+      "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+      "academic_year": 2026,
+      "program": "B.Tech",
+      "duration_years": 4,
+      "known_components": {
+        "career_planning_placement_one_time": 10000
+      },
+      "counselling_adjustment": {
+        "general_obc": 20000,
+        "sc_st": 12000
+      },
+      "year_fee_variants": [],
+      "raw_table_context": [
+        "Academic Fees for the Academic Year 2026-27",
+        "eee IBSTECH B-TECH (PROVISIONAL",
+        "Tst Year IInd Year IIird Year IV th Year",
+        "Tene GR Gow comes",
+        "Exams Envollment Fees",
+        "Activity Fee (One Time) soocooo ooo ooo ood",
+        "lPopcharges ool sooo ooo ooo",
+        "Career Planning & Placement",
+        "One Time) 10000.00",
+        "caution money (Retundabte) so000 ooo ooo ou",
+        "convocation charges ool ooo ooo ica0oo",
+        "I ieseee 1z06s600 11715600 1rsiss.o)",
+        "Note:",
+        "1) \"Examination fee & Digital Library fee will be paid by the students directly to the University as and when demanded:",
+        "2) The college is approved by AICTE and is affiliated to Dr. AP Abdul Kalam Techinical University,"
+      ],
+      "safe_total_candidates": [
+        10000,
+        600
+      ],
+      "suspicious_numbers": [
+        2026
+      ],
+      "normalization_status": "TABLE_RECONSTRUCTION_REQUIRED",
+      "errors": [],
+      "warnings": [
+        "Four annual B.Tech totals could not be safely reconstructed from OCR."
+      ]
+    },
+    {
+      "category": "FEE_WAIVER",
+      "source_key": "btech_fee_waiver",
+      "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+      "academic_year": 2026,
+      "program": "B.Tech",
+      "duration_years": 4,
+      "known_components": {
+        "career_planning_placement_one_time": 10000
+      },
+      "counselling_adjustment": {
+        "general_obc": 20000,
+        "sc_st": 12000
+      },
+      "year_fee_variants": [],
+      "suspicious_numbers": [
+        2026
+      ],
+      "normalization_status": "TABLE_RECONSTRUCTION_REQUIRED",
+      "errors": [],
+      "warnings": [
+        "Suspicious OCR numeric values detected in fee-waiver source."
+      ]
+    }
+  ],
+  "hostel": {
+    "source_key": "hostel",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/HOSTEL-FEE-2026-27_0001-1.pdf",
+    "academic_year": 2026,
+    "available": true,
+    "room_types_detected": [
+      "double_seater"
+    ],
+    "hostel_variants": [],
+    "normalization_status": "TABLE_RECONSTRUCTION_REQUIRED",
+    "errors": [],
+    "warnings": [
+      "Room-wise hostel amounts were not reliably recovered by OCR."
+    ]
+  },
+  "final_status": "REVIEW_REQUIRED_BEFORE_IMPORT"
+}

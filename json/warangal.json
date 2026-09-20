@@ -1,0 +1,777 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 2 of 5 (NIT Warangal). Colleges 3-5 to follow in separate responses per user instruction."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Warangal",
+        "verified_name": "National Institute of Technology, Warangal",
+        "city": "Warangal (Hanamkonda/Kazipet)",
+        "state": "Telangana",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Regional Engineering College, Warangal (RECW); renamed NIT Warangal in 2002; Institute of National Importance since 2007. First of the 31 NITs established (foundation stone laid 1959). Single main campus (~248-256 acres, figures vary slightly by source) divided by NH 202 into staff quarters, CCE, and main campus. No conflicting institutions of similar name found."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews, placement, infrastructure, faculty, and compare pages retrieved."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page retrieved with multiple narrative review snippets."},
+        {"platform": "Careers360", "status": "available", "notes": "Main overview page, reviews page, placement page, and a general reviews-listing page (page 3) containing NITW-specific reviews retrieved."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located, including a notably critical thread on faculty conduct and hostel-specific threads."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NIT Warangal located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.linknovate.com/web/nit-warangal-reviews-on-placements-faculty-and-facilities-48847613/?text=kanpur",
+          "aggregate_rating": 4.2,
+          "rating_scale": "out of 5",
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Retrieved via a third-party indexing site (Linknovate) mirroring a Shiksha page title; treated as lower-confidence secondary evidence of the Shiksha rating rather than a direct Shiksha observation, since the primary Shiksha URL was not directly fetched for this exact figure."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 723,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 723 NIT Warangal - National Institute of Technology Reviews on Placements, Faculty, Facilities & Infrastructure.' No overall star rating co-visible in this specific snippet."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 725,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 725 Student Reviews, 786 comments.' Distinct count (725) from the /reviews page (723) observed in this same session; both retained as separate observations since retrieved from different URLs, not the same page load."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425/placement",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Contains a course-level 'placement rating of this course is 4.4/5' figure (stored in platform_aspect_ratings) but no overall institutional aggregate visible in retrieved snippet."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://university.careers360.com/colleges/ranking/top-universities-colleges-in-warangal",
+          "aggregate_rating": 4.5,
+          "rating_scale": "out of 5",
+          "review_count": 153,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "From a city-listing/ranking page: 'NIT Warangal - National Institute of Technology Warangal ... Rating: 4.5/5, 153 Reviews.'"
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25367-nit-warangal-warangal/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "No overall aggregate rating or review count was visible in the retrieved snippets; only narrative review text and an auto-extracted 'insights' block were present."
+        },
+        {
+          "platform": "Zollege",
+          "source_url": "https://zollege.in/university/184688-nit-warangal-warangal/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Secondary aggregator; no aggregate rating visible in retrieved snippet, only narrative review text (which itself may mirror Careers360/Shiksha content — see limitations)."
+        },
+        {
+          "platform": "CollegeDekho",
+          "source_url": "https://www.collegedekho.com/colleges/nit-warangal-reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 19,
+          "verified_review_count": 19,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'(19 Verified Reviews)... All 19 published reviews verified.' No star-based overall aggregate visible in retrieved snippet."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "Shiksha", "aspect": "placements", "rating": 4.4, "rating_scale": "out of 5", "source_url": "https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425/placement", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "NIT Warangal",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Warangal really stands out as one of the top engineering colleges when it comes to placements, boasting an impressive average package of about 88 LPA... if you were looking specifically at the B.Tech CSE branch, the average package there was around 26 LPA... major companies like Goldman Sachs, Microsoft, Samsung, TCS, and Infosys actively recruit.' Note: the 88 LPA figure appears to refer to an overall/highest-package statistic rather than CSE average specifically, per how the sentence is structured; both figures preserved as stated in source without reconciliation."
+            },
+            {
+              "aspect": "internships",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Uber even offered internships with a sweet stipend of 1 LPA.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Wi-Fi across the whole campus, as well as LAN in the hostels, was available. The labs were fully equipped and excellent. The library had more than 200,000 books of all kinds.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'I would rate the food 2 out of 5... The hostels for second year students were not great, but the others were fine.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Warangal",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements here are well organized. Nearly 85% of students are eligible for placements, and 90% of them are already placed. The highest package this year is 1.25 crore, which is the highest package our college has ever seen.'"
+            },
+            {
+              "aspect": "internships",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Most students from our branch get internships in consultancy and management.' Specific branch not named in visible snippet despite 'our branch' reference."
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The classrooms in our branch department are very good and spacious. Wi-Fi is available in each classroom. Labs are well-maintained. The college library consists of more than 10 lakh books... more than 10,000 e-books are also available.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Warangal",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425/faculty",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": 4.8,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Professors in our college are mostly members of high-level national [committees/bodies]' (sentence appears truncated in source snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Warangal",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425/faculty",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Some instructors are not always punctual. They know their material. The teaching itself is average and as expected the semester exams are not too tough with about a 90 percent passing rate. It is a pretty good academic experience.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Warangal",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425/infrastructure",
+          "source_review_id": null,
+          "author_display_name": "Anonymous",
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Chemical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Chemical Engineering",
+          "branch_verified": true,
+          "rating": 4.0,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'NIT Warangal is a good college.' General approval; no further specific infrastructure detail visible in retrieved snippet beyond the overall sub-ratings (Placements 4, Infrastructure 4, Faculty & Course Curriculum 4, Crowd & Campus Life 4, Value for Money 4)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Warangal",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425/infrastructure",
+          "source_review_id": null,
+          "author_display_name": "Koushik pandey",
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": 4.2,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The NIT Warangal infrastructure is excellent, clean, and neat. The facilities are available 24/7 with a high-speed network. Classrooms are clean and neat, with one lab for each subject.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The quality of food is good and hygienic, and they keep a variety of food daily. Sports and games are available.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Absolutely satisfied with the faculty members and placement.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Warangal",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25367-nit-warangal-warangal/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": "Chemical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The placement is very good in compare to other NITs in India... The average percentage of the college is around 85 percent. In Chemical engineering, the placement is a little bit, it's around 90 percent.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculties are very supportive in nature.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The campus is lush green in monsoon and winter.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The mess food is worst. This is the worst part of the college. The hostel is a bit old so it need renovation. Sports facilities are not so good. We have only one ground for both cricket and football.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Warangal",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25367-nit-warangal-warangal/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Hostels are poor and not up to the mark, even the food in the mess is not that good, they provide very bad food, no quality no taste nothing, one has to depend on other sources of food to have proper health.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There is a good diversity among people, students over here are not only from Telangana/Andhra Pradesh, but from all over the country and also a few from out of the country.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There are teachers who are enthusiastic and love to teach.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There is no ragging and a good platform for junior-senior interactions.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Internships starts from spring break of 4th sem and placements start from spring break of 6th sem (if you don't get a PPO). Many big companies like Microsoft, Oracle, DeShaw and Qualcomm visit the college. More than 80% of students that are eligible for placements get placed.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Warangal",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25367-nit-warangal-warangal/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "internships",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There are many placement opportunities like internships and FTEs. The drives for internships will start from the second semester of first year... Companies like Micron, Qualcomm, Synopsys, Druva visit the campus for hiring... The highest package is about 38 LPA and avg is about 19 LPA. 90-95% students are placed in the previous batches.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Warangal",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/colleges/reviews?page=3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Metallurgy and Materials Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Metallurgy and Materials Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "academics",
+              "target_branch": "Metallurgy and Materials Engineering",
+              "scope": "branch",
+              "sentiment": "mixed",
+              "evidence_summary": "'I chose this because NIT Warangal is one of the oldest NITs and has a good core engineering reputation. Professors are good too. The syllabus is kinda outdated.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Metallurgy and Materials Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Even though I'm in the batch of 2028, I interact a lot with seniors and the placement scene is genuinely great. For metallurgy branch the placement stays around 70 to 80 percent. Average salary is around 10 to 12 LPA.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Campus is best. Green and feels safe. Students engage in many activities and we have clubs for literally everything.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Warangal",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/colleges/reviews?page=3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "Reviewer posted privately (identity not disclosed by platform). 'Very bad, need more improvement means like AC installation in every class and charging socket in every bench in every class, through which we didn't get more disturbance, and except this all things are good.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Warangal",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/university/national-institute-of-technology-warangal/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Students get high returns in terms of job offers and skills. Scholarships and financial aid are available.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Hostel and mess facilities are economical and satisfactory.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Campus life at NIT Warangal is dynamic and enriching. Technical fests like Technozion and cultural events like Springspree are major highlights. Numerous clubs and student bodies keep students engaged.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Warangal",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/What-is-the-bad-thing-about-the-NIT-in-Warangal",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "What is the bad thing about the NIT in Warangal?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This Quora page appears to contain at least two distinct answers with very different registers: one is a raw, emotionally charged first-person account; another reads as a structured, categorized summary of criticisms (possibly a more curated/composed answer). Both are preserved as evidence but the difference in tone/reliability is flagged rather than blended into one entry.",
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "First-person answer describes some faculty (naming department HOD specifically) as 'abusive, arrogant, cheap mindset and proud,' claiming they do not listen to students and are dismissive. Strongly negative, personally charged framing; presented as this individual's characterization rather than a verified institutional pattern."
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "Same or an adjacent answer on this thread: 'College infrastructure? Very poor. Old buildings and old hostels. Even the labs and lab equipment are not well maintained.' Also states students feel they lack 'enough freedom to explore and experiment.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "A more structured, categorized answer on the same page describes: 'Rigid curriculum for some programs: slow curricular updates... Variable teaching quality: standout professors coexist with instructors whose pedagogical skills are weaker... Overemphasis on exams: assessment culture prioritizes rote learning over continuous assessment.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "Same structured answer: 'Hostel crowding and maintenance issues: several hostels experience space constraints, maintenance delays and uneven upkeep across blocks.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Warangal",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-are-hostel-facilities-at-NIT-Warangal-boys",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How are hostel facilities at NIT Warangal (boys)?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Other than 2nd year hostels are nice. In first year you will get double seater room in 1.8k hostel which is India's largest hostel. It has mostly every facility which requires like book stall, gym, laundry, xerox shop, lifts, and snacks shop.' Implies 2nd-year hostels specifically are the exception to otherwise positive hostel conditions."
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 14,
+        "independent_sources": 4,
+        "reviews_with_dates": 0,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 14
+      },
+
+      "limitations": [
+        "Reddit: no genuine NIT Warangal-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "No review in this extraction batch carried an explicit visible date; reviews_with_dates and reviews_last_24_months are both 0 as a result — this does not mean the reviews are old, only that dates were not visible in the retrieved snippets.",
+        "The Quora thread 'What is the bad thing about the NIT in Warangal?' contains a mix of a raw, highly emotional first-person account and what reads like a more composed, categorized summary of criticisms — these may not both be organic first-person student testimony (the categorized one has the structure of a synthesized answer). Both are preserved as qualitative evidence but this distinction is flagged for backend interpretation rather than resolved.",
+        "The Shiksha aggregate rating (4.2/5) was sourced via a third-party indexing mirror (Linknovate) rather than a direct Shiksha.com fetch in this session, and is therefore lower-confidence than a direct observation.",
+        "Zollege and CollegeDekho content may substantially mirror or rephrase Careers360/Shiksha review data; where this could not be confirmed either way, the content was still logged as observed but flagged as a possible aggregator duplication risk rather than assumed independent.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~700+ reviews reported on Shiksha or ~150+ on Careers360 for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

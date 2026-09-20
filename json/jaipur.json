@@ -1,0 +1,646 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 5 of 5 in the second batch (MNIT Jaipur). This completes the second batch of 5 NITs (NIT Calicut, NIT Durgapur, NIT Kurukshetra, MNNIT Allahabad, MNIT Jaipur), each delivered as an independent JSON object per user instruction."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "MNIT Jaipur",
+        "verified_name": "Malaviya National Institute of Technology, Jaipur",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Malaviya Regional Engineering College (MREC), Jaipur, established 1963; upgraded to NIT/Deemed University status in 2002; declared Institute of National Importance in 2007. Single main campus (~317 acres) at Jawahar Lal Nehru Marg, Malviya Nagar, Jaipur. Named after Pandit Madan Mohan Malaviya. Verified distinct from other Jaipur-based institutions appearing in adjacent search/listing results, such as Manipal University Jaipur and LNMIIT Jaipur (LNM Institute of Information Technology) — both separate, unrelated institutions in the same city."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews page, placement page, and comparison page retrieved."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page and hostel-specific page retrieved with substantive narrative review content."},
+        {"platform": "Careers360", "status": "available", "notes": "Paginated reviews page and main overview page retrieved; aggregate rating confirmed via two separate Jaipur-city listing pages (general engineering and MBA-specific)."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located, including a striking historical account of severe ragging under the institute's former name (MREC) in the 1990s, contrasted with present-day accounts."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to MNIT Jaipur located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/compare-mnit-jaipur-24372",
+          "aggregate_rating": 4.2,
+          "rating_scale": "out of 5",
+          "review_count": 865,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'MNIT Jaipur is rated 4.2 out of 5 by 865 genuine verified students.'"
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/mnit-jaipur-malaviya-national-institute-of-technology-24372/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 980,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 980 MNIT [Jaipur reviews...]' Distinct count (980) from the comparison page (865) observed in this same session; both retained as separate observations since retrieved from different URLs, not the same page load."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-engineering-colleges-in-jaipur",
+          "aggregate_rating": 4.2,
+          "rating_scale": "out of 5",
+          "review_count": 292,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'MNIT Jaipur - Malaviya National Institute of Technology Jaipur ... Rating: 4.2/5, 292 Reviews.'"
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://bschool.careers360.com/colleges/list-of-full-time-mba-colleges-in-jaipur",
+          "aggregate_rating": 4.2,
+          "rating_scale": "out of 5",
+          "review_count": 292,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Same figures (4.2/5, 292 reviews) observed on a second listing page (MBA category), consistent with the general engineering-listing observation — this consistency across two different programme-category listings suggests this likely reflects the genuine institution-wide aggregate rather than a category-specific artifact."
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25828-malaviya-national-institute-of-technology-mnit-jaipur/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippets; only narrative review text present."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "Shiksha", "aspect": "value_for_money", "rating": 3.5, "rating_scale": "out of 5", "source_url": "https://www.shiksha.com/college/mnit-jaipur-malaviya-national-institute-of-technology-24372/placement", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "MNIT Jaipur",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/university/malaviya-national-institute-of-technology-jaipur/reviews?page=5",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "MBA",
+          "course": "MBA",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This review is explicitly scoped to the MBA programme, distinct from B.Tech evidence, per the requirement to keep programme scope separate.",
+          "aspect_evidence": [
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "programme",
+              "sentiment": "negative",
+              "evidence_summary": "'I am studying MBA in this college. Quality of teaching is good but not any practical knowledge and industrial visit is also not available.' MBA-specific, not B.Tech."
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "programme",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculty is good and supportive. But explore other options also.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "programme",
+              "sentiment": "negative",
+              "evidence_summary": "'Placement is not so good in this college. Company do come for summer internship but offer less stipend as compared to other departments. Placements are also average since it is not proper b-school; you will get mainly in finance or marketing, that too in sales.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNIT Jaipur",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/university/malaviya-national-institute-of-technology-jaipur/reviews?page=5",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'MNIT is a good college. Infrastructure is good but strict rules.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Labs having extensive facilities, extensive library, vibrant hostels, green campus for holistic learning. Campus provides us sports facilities, also shopping complex.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'The placement is overall good, not that bad, not that good; it's up to your skill how you sharpen yourself and make use of available resources.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNIT Jaipur",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25828-malaviya-national-institute-of-technology-mnit-jaipur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'A few more things students dislike at MNIT Jaipur: mess food quality is often poor, sometimes unhygienic.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements at MNIT Jaipur are pretty strong! Students become eligible for campus placements from the 7th semester. Over 250 companies visited in 2024, including Apple, JP Morgan, Goldman [Sachs].'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNIT Jaipur",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25828-malaviya-national-institute-of-technology-mnit-jaipur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'From the 3rd year of college students start getting pre-placement offers by many companies. The companies that come for placements are TATA, Wipro, Mahindra, Infosys, Google, Microsoft and many more. Highest package that was offered in whole college was 96 lacs per annum and average package was around 12 lacs per annum. If branch specific, highest was 32 lacs per annum and average was 8 lacs per annum. In whole college around 70 to 80 percent of the students get placed in all the branches.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'MNIT Jaipur has one of the best infrastructure among all the NITs and it's so lovingly beautiful and green and clean. And the lecture theatre is Asia's largest capacity lecture theatre.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'The location of MNIT Jaipur is in between of Jaipur, i.e. Malviya Nagar.' Descriptive statement."
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'In MNIT Jaipur there is no coding culture and no entrepreneurship culture, max students go into core only.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNIT Jaipur",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25828-malaviya-national-institute-of-technology-mnit-jaipur/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Mechanical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Mechanical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'From 7th semester onwards students are eligible for campus placements and major companies which visit my course are Tata Motors, Bajaj and mechanical-related only, and almost 96% of eligible students placed. The highest package offered last year was 27 LPA and average was 10 LPA.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Active clubs and fests make campus life lively. There are tons of technical and cultural clubs, so it's easy to find your tribe and make friends.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNIT Jaipur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/mnit-jaipur-malaviya-national-institute-of-technology-24372/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "One of the best NITs in India (MNIT Jaipur)",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Our batch placement rate is around 89-91 percent. The highest package is 27 LPA. The lowest is around 6 LPA, and the average package is 10 LPA. Top recruiting companies include Honda, HPCL, BPCL, Maruti Suzuki, and ICICI Bank.'"
+            },
+            {
+              "aspect": "internships",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The on-campus internship rate is quite low.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'We have the biggest lecture hall in Asia (VLTC). There is a computer centre open 24/7. We also have a workshop that includes different shops like a foundry and a welding shop. Wi-Fi is available across the entire campus. There are different grounds for each sport, both indoor and outdoor.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The teaching is very much research-oriented. Some learnings are directly related to the industry.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNIT Jaipur",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/mnit-jaipur-malaviya-national-institute-of-technology-24372/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Companies like MediaTek, Micron, Apple, Samsung, Airtel, Qualcomm, Texas Instruments, NVIDIA, and others visit MNIT Jaipur for recruitment. Hence, the highest package ranges between 36.2 and 52 CTC. The minimum salary ranges between 6 and 9 CTC. The average salary ranges between 14 and 18 CTC. Strong placement statistics of around 85-90%, and the internship rate is around 70-80% in local companies and semiconductor production companies. Top job roles offered to ECE students include VLSI engineer, embedded system designer, and ASIC designer.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'All the academic buildings were in the finest condition with a 50 Mbps Wi-Fi facility all over the campus.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNIT Jaipur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Is-MNIT-Jaipur-good",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Is MNIT Jaipur good?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'MNIT is located in the main city, so you remain connected with the city. For fun or shopping, World Trade Park and Gaurav Tower are also near the campus.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNIT Jaipur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-ragging-at-MNIT-Jaipur",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is ragging at MNIT Jaipur?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This answer is EXPLICITLY HISTORICAL, describing the institute under its former name (MREC — Malaviya Regional Engineering College) in the 1990s, before its NIT conversion in 2002. This is a meaningfully different era and even a formally different-named institution predecessor. The answer itself contrasts this with 'recent passouts' describing a different present-day experience, which is corroborated by other present-day sources in this dataset describing no ragging. Preserved with full temporal context rather than treated as describing current MNIT Jaipur conditions.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'MREC as it was called was a terror once upon a time when I studied there in the 1990s. Ragging was sooo severe that we freshers were housed in a separate dormitory for 6-12 months. Ragging was physical often and much more for stud[ents...]' (sentence truncated in retrieved snippet). Answerer explicitly contrasts this with 'the answers from recent passouts,' implying awareness that conditions have since changed."
+            }
+          ]
+        },
+        {
+          "college_name": "MNIT Jaipur",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://www.collegedekho.com/colleges/mnit-jaipur-reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This item is sourced from CollegeDekho (an aggregator), included here since it presents specific first-person-style hostel and administration detail distinct from the editorial summary content excluded elsewhere in this dataset.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'As mentioned above there is 15 hostels in the MNIT Jaipur, 11 boys hostel and 4 girls hostel. There is no restriction on students in the MNIT Jaipur hostels. There is no ragging in the hostels, there is a play ground also attached with hostels.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "Same review reiterates: 'There is no ragging in the hostels.' Consistent with present-day sentiment seen elsewhere in this dataset, in contrast to the historical Quora account above."
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Just a beautiful campus and great lecture theatre... There are many fests like Blitzkrieg, Sphinx and Youth Fest are just amazing. Peacocks are also there in campus and leopards also come in [the area] at night.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements are overall good. There is 1 crore package in 2024, average package in MNIT is 15-17 LPA.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Faculties are just very experienced and friendly. With this they make very tough papers which students can't [always] able to solve.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNIT Jaipur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-are-the-hostels-in-MNIT-Jaipur",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How are the hostels in MNIT Jaipur?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "Self-identified MNIT Jaipur student: 'The hostels are very good. There is a hostel named Aurobindo Hostel which is for 2nd and 4th year students (boys) which is the best boys hostel of MNIT and also among the one of the...' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "MNIT Jaipur",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-the-NIT-Jaipur-hostel-life",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is the NIT Jaipur hostel life?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This answer's more lukewarm framing on hostel fees and food contrasts somewhat with the more enthusiastic 'best hostel' framing in a separate thread — both preserved independently as genuine variation in student experience/opinion rather than reconciled.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'If you are asking about hostel facilities, then I would say satisfactory. But fees per sem is very high (30k per sem) in comparison to other NITs. But yeah they provide better facilities. If talking about food, it is just so-so.'"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 13,
+        "independent_sources": 4,
+        "reviews_with_dates": 0,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 13
+      },
+
+      "limitations": [
+        "Reddit: no genuine MNIT Jaipur-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "One Quora answer describes SEVERE historical ragging under the institute's former name (MREC) in the 1990s — a genuinely different era, before the 2002 NIT conversion. This is preserved with explicit temporal framing rather than conflated with present-day sentiment, which is consistently positive/reassuring across all other sources in this dataset (a pattern also seen for MNNIT Allahabad).",
+        "MBA-programme evidence (from Careers360) is kept explicitly separate in scope from B.Tech evidence, per instruction, since the MBA reviewer's negative assessment of placements and academics should not be blended with the generally more positive B.Tech sentiment found elsewhere.",
+        "No review in this extraction batch carried an explicit visible date; reviews_with_dates and reviews_last_24_months are both 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~900+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

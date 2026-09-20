@@ -1,0 +1,4252 @@
+[
+  {
+    "college_id": "indian-institute-of-information-technology-bhagalpur",
+    "college_name": "Indian Institute of Information Technology Bhagalpur",
+    "target_year": 2026,
+    "source_family": "JOSAA",
+    "original_source_url": "https://iiitbh.ac.in/btech-admission",
+    "fetched_url": "https://iiitbh.ac.in/btech-admission",
+    "source_label": null,
+    "page_title": "BTech Admission | Indian Institute of Information Technology Bhagalpur",
+    "content_type": "text/html; charset=utf-8",
+    "validation_score": 130,
+    "validation_reasons": [
+      "BTECH_PRESENT",
+      "FEE_PRESENT",
+      "YEAR_2026_PRESENT",
+      "SEMESTER_LABEL",
+      "ANNUAL_LABEL",
+      "HOSTEL_LABEL",
+      "MESS_LABEL",
+      "CATEGORY_OR_INCOME",
+      "MULTIPLE_AMOUNTS",
+      "TABLE_PRESENT"
+    ],
+    "negative_signals": [],
+    "detected_years": [
+      "2026-27",
+      "2026",
+      "2026 – 21"
+    ],
+    "detected_amounts": [
+      2023,
+      2026,
+      108621,
+      148621,
+      41000,
+      178621,
+      70000,
+      30000,
+      813210,
+      4524829,
+      2019
+    ],
+    "line_count": 196,
+    "table_count": 2,
+    "relevant_lines": [
+      {
+        "index": 4,
+        "text": "About Institute"
+      },
+      {
+        "index": 5,
+        "text": "Vision and Mission"
+      },
+      {
+        "index": 6,
+        "text": "Director's Message"
+      },
+      {
+        "index": 7,
+        "text": "About Logo"
+      },
+      {
+        "index": 8,
+        "text": "FAQs"
+      },
+      {
+        "index": 9,
+        "text": "Administration"
+      },
+      {
+        "index": 10,
+        "text": "Visitor"
+      },
+      {
+        "index": 11,
+        "text": "Board of Governors"
+      },
+      {
+        "index": 12,
+        "text": "The Chairperson"
+      },
+      {
+        "index": 13,
+        "text": "Director"
+      },
+      {
+        "index": 14,
+        "text": "Senate"
+      },
+      {
+        "index": 15,
+        "text": "IIITBH Administration"
+      },
+      {
+        "index": 21,
+        "text": "Statute IIITBH"
+      },
+      {
+        "index": 22,
+        "text": "Academics"
+      },
+      {
+        "index": 23,
+        "text": "Academic Affairs"
+      },
+      {
+        "index": 24,
+        "text": "Programmes"
+      },
+      {
+        "index": 25,
+        "text": "UG"
+      },
+      {
+        "index": 26,
+        "text": "PG"
+      },
+      {
+        "index": 32,
+        "text": "PhD"
+      },
+      {
+        "index": 33,
+        "text": "Admission"
+      },
+      {
+        "index": 34,
+        "text": "UG (B Tech)"
+      },
+      {
+        "index": 35,
+        "text": "PG (M. Tech & PhD)"
+      },
+      {
+        "index": 36,
+        "text": "PG Diploma"
+      },
+      {
+        "index": 37,
+        "text": "Financial Aid"
+      },
+      {
+        "index": 38,
+        "text": "Opening and Closing Rank 2023"
+      },
+      {
+        "index": 39,
+        "text": "Student Statistics"
+      },
+      {
+        "index": 40,
+        "text": "Online Fee Payment"
+      },
+      {
+        "index": 41,
+        "text": "Fee Structure"
+      },
+      {
+        "index": 42,
+        "text": "Academic Calendar"
+      },
+      {
+        "index": 43,
+        "text": "Holiday List"
+      },
+      {
+        "index": 44,
+        "text": "Summer Internship"
+      },
+      {
+        "index": 45,
+        "text": "Forms"
+      },
+      {
+        "index": 46,
+        "text": "Departments"
+      },
+      {
+        "index": 59,
+        "text": "Computer Centre"
+      },
+      {
+        "index": 60,
+        "text": "Vikramashila Central Library"
+      },
+      {
+        "index": 61,
+        "text": "Hostels"
+      },
+      {
+        "index": 62,
+        "text": "Bank and ATM"
+      },
+      {
+        "index": 63,
+        "text": "Guest House"
+      },
+      {
+        "index": 64,
+        "text": "NCC"
+      },
+      {
+        "index": 65,
+        "text": "Conference Room"
+      },
+      {
+        "index": 66,
+        "text": "Safety and security"
+      },
+      {
+        "index": 73,
+        "text": "EBSB"
+      },
+      {
+        "index": 74,
+        "text": "Enyugma"
+      },
+      {
+        "index": 75,
+        "text": "Enuygma_2026"
+      },
+      {
+        "index": 76,
+        "text": "Contact Us"
+      },
+      {
+        "index": 77,
+        "text": "Contact Us"
+      },
+      {
+        "index": 78,
+        "text": "BTech Admission"
+      },
+      {
+        "index": 79,
+        "text": "Breadcrumb"
+      },
+      {
+        "index": 80,
+        "text": "Home"
+      },
+      {
+        "index": 81,
+        "text": "-"
+      },
+      {
+        "index": 82,
+        "text": "BTech Admission"
+      },
+      {
+        "index": 83,
+        "text": "B.Tech. Admissions (2026-27)"
+      },
+      {
+        "index": 84,
+        "text": "Welcome to IIIT Bhagalpur"
+      },
+      {
+        "index": 85,
+        "text": "Indian Institute of Information Technology Bhagalpur (IIIT Bhagalpur), an Institute of National Importance established under the Public-Private Partnership (PPP) model, offers undergraduate programmes in Computer Science & Engineering (CSE), Electronics & Communication Engineering (ECE), Mathematics & Computing (MNC), and Mechanical & Automation Engineering (MAE)."
+      },
+      {
+        "index": 86,
+        "text": "The Institute functions from its dedicated green residential campus situated on the banks of the River Ganga at Sabour, Bhagalpur, Bihar. Students from across India join IIIT Bhagalpur every year, contributing to a vibrant academic and cultural environment."
+      },
+      {
+        "index": 87,
+        "text": "Admission Through JoSAA / CSAB / DASA"
+      },
+      {
+        "index": 88,
+        "text": "Admission to the B.Tech programmes of IIIT Bhagalpur is conducted through the counselling processes of JoSAA 2026 (https://josaa.nic.in/), CSAB 2026 (https://csab.nic.in/), and DASA 2026, as applicable. Candidates are advised to regularly visit the respective counselling portals and the Institute website for updates."
+      },
+      {
+        "index": 89,
+        "text": "Information for IIIT Bhagalpur Allottees"
+      },
+      {
+        "index": 90,
+        "text": "Candidates allotted a seat at IIIT Bhagalpur through JoSAA 2026, CSAB 2026, or DASA 2026 may refer to the following information regarding registration, fee payment, hostel allotment, reporting, and induction program:"
+      },
+      {
+        "index": 91,
+        "text": "Physical Reporting"
+      },
+      {
+        "index": 92,
+        "text": "Click Here To download the List of documents required for Admission."
+      },
+      {
+        "index": 93,
+        "text": "Dates: 13 August 2026 – 21 August 2026"
+      },
+      {
+        "index": 94,
+        "text": "Time: 10:00 AM – 05:00 PM"
+      },
+      {
+        "index": 95,
+        "text": "Venue: Lecture Hall Complex, IIIT Bhagalpur"
+      },
+      {
+        "index": 96,
+        "text": "The presence of parents/guardians during physical reporting is not mandatory. However, they may accompany the candidate if they so desire."
+      },
+      {
+        "index": 97,
+        "text": "A limited number of guest rooms may be available on a chargeable basis, subject to availability and allotment on a first-come, first-served basis. In view of the large number of candidates expected during the admission period, the Institute may not be in a position to arrange accommodation for parents/guardians."
+      },
+      {
+        "index": 98,
+        "text": "Several hotels and lodging facilities are available in Bhagalpur city and adjoining areas, approximately 5–7 km from the Institute campus. Candidates and accompanying persons are advised to make accommodation arrangements in advance, if required."
+      },
+      {
+        "index": 99,
+        "text": "Once the seat is allotted to the candidate issuing a “Provisional Seat Allotment letter” by the competent authority of the JoSAA 2026 and /or CSAB Special Rounds 2026 the candidates are instructed to report the Institute to complete the admission process. Provisional acceptance means that the candidate has accepted the offer, but the final acceptance is contingent on successful verification of certificates by, and on joining, the provisionally allotted institute and payment of the balance Institute fee (₹1,08,621for GEN/OBC/EWS and ₹1,48,621 for SC/ST/PwD) and Hostel charges (₹41,000 (inclusive of advance against mess charges). While hostel accommodation is mandatory for all first-year students, exemptions may be granted under specific circumstances, such as medical grounds or if the student's parents reside in Bhagalpur. In such cases, students may be permitted to join the institute without being allotted a hostel."
+      },
+      {
+        "index": 100,
+        "text": "Student-Friendly Admission Process"
+      },
+      {
+        "index": 101,
+        "text": "The admission process has been designed to provide a smooth and hassle-free reporting experience. Various admission and onboarding activities are organized in parallel to minimize waiting time. Candidates may obtain hostel room allotment and settle their belongings before completing the remaining admission formalities, while fee submission and reconciliation may be completed at a later stage during the reporting process."
+      },
+      {
+        "index": 102,
+        "text": "Under normal circumstances, candidates who have completed the prescribed requirements are expected to complete the admission process within approximately 25 minutes."
+      },
+      {
+        "index": 103,
+        "text": "Dedicated help desks will be available to assist candidates and parents throughout the admission process."
+      },
+      {
+        "index": 104,
+        "text": "Institute Fee Payment"
+      },
+      {
+        "index": 105,
+        "text": "The Institute fee for the First Semester is ₹1,78,621 for all students, irrespective of category or parental income."
+      },
+      {
+        "index": 106,
+        "text": "Candidates admitted through JoSAA 2026/CSAB 2026 shall pay only the balance Institute fee after adjustment of the Seat Acceptance Fee already paid to JoSAA/CSAB, as applicable."
+      },
+      {
+        "index": 107,
+        "text": "Category"
+      },
+      {
+        "index": 108,
+        "text": "First Semester Institute Fee"
+      },
+      {
+        "index": 109,
+        "text": "JoSAA/CSAB Adjustment"
+      },
+      {
+        "index": 110,
+        "text": "Balance Payable"
+      },
+      {
+        "index": 111,
+        "text": "GEN/EWS/OBC-NCL"
+      },
+      {
+        "index": 112,
+        "text": "₹1,78,621"
+      },
+      {
+        "index": 113,
+        "text": "₹70,000"
+      },
+      {
+        "index": 114,
+        "text": "₹1,08,621"
+      },
+      {
+        "index": 115,
+        "text": "SC/ST/PwD"
+      },
+      {
+        "index": 116,
+        "text": "₹1,78,621"
+      },
+      {
+        "index": 117,
+        "text": "₹30,000"
+      },
+      {
+        "index": 118,
+        "text": "₹1,48,621"
+      },
+      {
+        "index": 119,
+        "text": "Flexible Payment Facility"
+      },
+      {
+        "index": 120,
+        "text": "Multiple payment options including UPI, NEFT/RTGS, Internet Banking, Debit/Credit Cards, and Bank Challan shall be available. Students may pay the prescribed fee through multiple transactions; however, the total fee must be paid in full on or before the notified deadline."
+      },
+      {
+        "index": 121,
+        "text": "The link for online fee payment shall be made available from 13.08.2026 through the Institute Admission Portal. Candidates are advised to regularly check the portal for updates, payment instructions, and important announcements."
+      },
+      {
+        "index": 122,
+        "text": "Education Loan Assistance"
+      },
+      {
+        "index": 123,
+        "text": "The Institute is committed to ensuring that financial considerations do not become a barrier for deserving students in pursuing their academic aspirations."
+      },
+      {
+        "index": 124,
+        "text": "Officials from participating banks will be available during the admission process to guide and facilitate education loan applications. Subject to the respective bank's norms and sanction process, eligible students may avail loans covering Institute fees, hostel charges, books, laptop/computer, and other admissible educational expenses, including the balance Institute fee payable at the time of admission."
+      },
+      {
+        "index": 125,
+        "text": "The Institute will facilitate the issuance of the necessary documents required for loan processing. IIIT Bhagalpur does not endorse or recommend any particular bank and prospective Students are advised to choose it as per their preference and convenience."
+      },
+      {
+        "index": 126,
+        "text": "Induction Program"
+      },
+      {
+        "index": 127,
+        "text": "Students will be introduced to various aspects of Institute life during the Induction Program. Information regarding scholarships, academic curriculum, programme-specific opportunities, hostel and campus facilities, academic regulations, student support services, internships, research opportunities, and other important matters will be shared through dedicated sessions."
+      },
+      {
+        "index": 128,
+        "text": "Hostel and Campus Life"
+      },
+      {
+        "index": 129,
+        "text": "IIIT Bhagalpur is a residential institute with hostel, dining, sports, recreation, and student activity facilities available on campus. The Institute provides a conducive environment for learning, innovation, and holistic student development. With cutting-edge labs, industry tie-ups, experienced faculty, and continuous mentorship, we empower students to become the leaders of tomorrow. A vibrant student life, excellent infrastructure, emphasis on innovation, and extracurricular activities ensure the overall development of every learner which is reflected in the fact that our alumni are gradually getting placed in top-tier companies across the globe, making us a trusted brand for recruiters. Our graduates continue to achieve remarkable success in placement drives conducted by leading national and international companies. For the recent graduating batch, the highest package offered was ₹60 LPA, with an average package of approximately ₹11.3 LPA."
+      },
+      {
+        "index": 130,
+        "text": "Any other relevant information or changes in the above-mentioned information will be displayed time to time on Institute website. Students are advised to visit Institute website regularly. For any admission related queries, you can write a mail at: admission@iiitbh.ac.in /suraj.ece@iiitbh.ac.in or you can contact academic office on following numbers during office hours (9:00 AM - 6:00 PM): +91-7632995210, 8986670638, 9727320796."
+      },
+      {
+        "index": 131,
+        "text": "Dr. Suraj"
+      },
+      {
+        "index": 132,
+        "text": "F/I UG Admission"
+      },
+      {
+        "index": 133,
+        "text": "IIIT Bhagalpur"
+      },
+      {
+        "index": 135,
+        "text": "+91-8986670638"
+      },
+      {
+        "index": 136,
+        "text": "Physical Reporting at IIIT Bhagalpur"
+      },
+      {
+        "index": 137,
+        "text": "13th August 2026 (Thursday) - 21st August 2026 (Friday)"
+      },
+      {
+        "index": 138,
+        "text": "including Saturday and Sunday"
+      },
+      {
+        "index": 139,
+        "text": "Timing. 9:30 AM - 5:30 PM"
+      },
+      {
+        "index": 140,
+        "text": "Venue: Lecture hall"
+      },
+      {
+        "index": 141,
+        "text": "Induction Session: 19th August to 21st August 2026"
+      },
+      {
+        "index": 142,
+        "text": "Commencement of Classes: 24th August 2026"
+      },
+      {
+        "index": 143,
+        "text": "Onboarding Information for Prospective Students"
+      },
+      {
+        "index": 144,
+        "text": "Fee Payment (https://admission.iiitbh.ac.in/login)"
+      },
+      {
+        "index": 145,
+        "text": "Home"
+      },
+      {
+        "index": 146,
+        "text": "People"
+      },
+      {
+        "index": 147,
+        "text": "Programs"
+      },
+      {
+        "index": 150,
+        "text": "PhD"
+      },
+      {
+        "index": 151,
+        "text": "Ordinance"
+      },
+      {
+        "index": 152,
+        "text": "Course and Curriculum"
+      },
+      {
+        "index": 153,
+        "text": "UG"
+      },
+      {
+        "index": 154,
+        "text": "PG"
+      },
+      {
+        "index": 155,
+        "text": "Financial Aid"
+      },
+      {
+        "index": 156,
+        "text": "Academic Calendar"
+      },
+      {
+        "index": 157,
+        "text": "Student Statistics"
+      },
+      {
+        "index": 158,
+        "text": "List of Holidays"
+      },
+      {
+        "index": 159,
+        "text": "Fee Structure"
+      },
+      {
+        "index": 160,
+        "text": "UG"
+      },
+      {
+        "index": 161,
+        "text": "PG"
+      },
+      {
+        "index": 162,
+        "text": "Forms"
+      },
+      {
+        "index": 163,
+        "text": "Useful Links"
+      },
+      {
+        "index": 164,
+        "text": "Events"
+      },
+      {
+        "index": 165,
+        "text": "News and Notices"
+      },
+      {
+        "index": 166,
+        "text": "Study In India"
+      },
+      {
+        "index": 167,
+        "text": "Online Fee Payment"
+      },
+      {
+        "index": 168,
+        "text": "Webmail"
+      },
+      {
+        "index": 169,
+        "text": "online Payment Terms & Conditions[Canara Bank]"
+      },
+      {
+        "index": 170,
+        "text": "Refund Rules [SBI Bank]"
+      },
+      {
+        "index": 175,
+        "text": "JOSAA"
+      },
+      {
+        "index": 176,
+        "text": "Downloads"
+      },
+      {
+        "index": 177,
+        "text": "Tenders/NIQs"
+      },
+      {
+        "index": 178,
+        "text": "Audit & Annual Report"
+      },
+      {
+        "index": 179,
+        "text": "CSAB"
+      },
+      {
+        "index": 180,
+        "text": "Grievance Cell"
+      },
+      {
+        "index": 191,
+        "text": "pro@iiitbh.ac.in"
+      },
+      {
+        "index": 192,
+        "text": "CONNECT WITH US"
+      },
+      {
+        "index": 193,
+        "text": "Visitors"
+      },
+      {
+        "index": 194,
+        "text": "Total Visitors: 4524829"
+      },
+      {
+        "index": 195,
+        "text": "© Copyright Indian Institute of Information Technology Bhagalpur 2019."
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": [
+          [
+            "Category",
+            "First Semester Institute Fee",
+            "JoSAA/CSAB Adjustment",
+            "Balance Payable"
+          ],
+          [
+            "GEN/EWS/OBC-NCL",
+            "₹1,78,621",
+            "₹70,000",
+            "₹1,08,621"
+          ],
+          [
+            "SC/ST/PwD",
+            "₹1,78,621",
+            "₹30,000",
+            "₹1,48,621"
+          ]
+        ]
+      },
+      {
+        "table_index": 1,
+        "rows": [
+          [
+            "Physical Reporting at IIIT Bhagalpur 13th August 2026 (Thursday) - 21st August 2026 (Friday) including Saturday and Sunday Timing. 9:30 AM - 5:30 PM Venue: Lecture hall"
+          ],
+          [
+            "Induction Session: 19th August to 21st August 2026 Commencement of Classes: 24th August 2026"
+          ]
+        ]
+      }
+    ],
+    "retrieved_at": "2026-08-28T16:42:54.939Z",
+    "extraction_status": "VALID_CURRENT_BTECH_FEE_SOURCE",
+    "strict_validation": {
+      "pass": true,
+      "reasons": [
+        "STRONG_FEE_TABLE",
+        "BTECH_NEAR_FEE_EVIDENCE",
+        "CURRENT_YEAR_NEAR_EVIDENCE",
+        "FEE_LABEL_PRESENT",
+        "MULTIPLE_LOCAL_AMOUNTS"
+      ],
+      "suspicious_url": null,
+      "table_pass": true,
+      "block_pass": false,
+      "strongest_block": {
+        "score": 80,
+        "money_count": 4,
+        "component_count": 5,
+        "category_count": 6,
+        "btech": false,
+        "current_year": false,
+        "text": "Several hotels and lodging facilities are available in Bhagalpur city and adjoining areas, approximately 5–7 km from the Institute campus. Candidates and accompanying persons are advised to make accommodation arrangements in advance, if required.\nOnce the seat is allotted to the candidate issuing a “Provisional Seat Allotment letter” by the competent authority of the JoSAA 2026 and /or CSAB Special Rounds 2026 the candidates are instructed to report the Institute to complete the admission process. Provisional acceptance means that the candidate has accepted the offer, but the final acceptance is contingent on successful verification of certificates by, and on joining, the provisionally allotted institute and payment of the balance Institute fee (₹1,08,621for GEN/OBC/EWS and ₹1,48,621 for SC/ST/PwD) and Hostel charges (₹41,000 (inclusive of advance against mess charges). While hostel accommodation is mandatory for all first-year students, exemptions may be granted under specific circumstances, such as medical grounds or if the student's parents reside in Bhagalpur. In such cases, students may be permitted to join the institute without being allotted a hostel.\nStudent-Friendly Admission Process\nThe admission process has been designed to provide a smooth and hassle-free reporting experience. Various admission and onboarding activities are organized in parallel to minimize waiting time. Candidates may obtain hostel room allotment and settle their belongings before completing the remaining admission formalities, while fee submission and reconciliation may be completed at a later stage during the reporting process.\nUnder normal circumstances, candidates who have completed the prescribed requirements are expected to complete the admission process within approximately 25 minutes.\nDedicated help desks will be available to assist candidates and parents throughout the admission process.\nInstitute Fee Payment\nThe Institute fee for the First Semester is ₹1,78,621 for all students, irrespective of category or parental income."
+      },
+      "strong_tables": [
+        {
+          "table_index": 0,
+          "btech_inside_table": false,
+          "money_count": 6,
+          "component_count": 2,
+          "text": "Category | First Semester Institute Fee | JoSAA/CSAB Adjustment | Balance Payable\nGEN/EWS/OBC-NCL | ₹1,78,621 | ₹70,000 | ₹1,08,621\nSC/ST/PwD | ₹1,78,621 | ₹30,000 | ₹1,48,621"
+        }
+      ]
+    },
+    "strict_status": "STRICT_PASS"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-vadodara-gujrat",
+    "college_name": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+    "target_year": 2026,
+    "source_family": "JOSAA",
+    "original_source_url": "https://iiitvadodara.ac.in/page.php?slug=ugadmission",
+    "fetched_url": "https://iiitvadodara.ac.in/page.php?slug=ugadmission",
+    "source_label": null,
+    "page_title": "Undergraduate (B.Tech/B.Sc.) | IIIT Vadodara",
+    "content_type": "text/html; charset=utf-8",
+    "validation_score": 134,
+    "validation_reasons": [
+      "BTECH_PRESENT",
+      "FEE_PRESENT",
+      "YEAR_2026_PRESENT",
+      "TUITION_LABEL",
+      "SEMESTER_LABEL",
+      "HOSTEL_LABEL",
+      "MESS_LABEL",
+      "CATEGORY_OR_INCOME",
+      "MULTIPLE_AMOUNTS",
+      "TABLE_PRESENT"
+    ],
+    "negative_signals": [],
+    "detected_years": [
+      "2026",
+      "2026-27",
+      "2025-26",
+      "2026–27",
+      "2025"
+    ],
+    "detected_amounts": [
+      2026,
+      382028,
+      20000,
+      5000,
+      125000,
+      2500,
+      9500,
+      2000,
+      1500,
+      169720,
+      30000,
+      70000,
+      139720,
+      99720,
+      62500,
+      107220,
+      3502248,
+      2626,
+      60228,
+      25000,
+      20500,
+      45500,
+      798,
+      2975028,
+      1000,
+      3000,
+      1250,
+      157720,
+      137500,
+      133370,
+      133250,
+      136120,
+      136000,
+      136620,
+      136500,
+      26000,
+      27000,
+      40500,
+      44500,
+      49000,
+      53900,
+      68000,
+      73000,
+      78500,
+      83400,
+      10000,
+      235220,
+      215000,
+      216370,
+      216250,
+      224620,
+      224500,
+      230020,
+      229900,
+      2025,
+      52000,
+      77500,
+      81500,
+      238220,
+      218000,
+      214870,
+      214750,
+      221620,
+      221500,
+      222120,
+      222000,
+      244720,
+      220870,
+      220750,
+      227620,
+      227500,
+      228120,
+      228000,
+      4000,
+      37500,
+      1400,
+      55100,
+      50500,
+      42000,
+      43500,
+      99789,
+      18492,
+      94271,
+      970,
+      362520
+    ],
+    "line_count": 1254,
+    "table_count": 15,
+    "relevant_lines": [
+      {
+        "index": 6,
+        "text": "About IIIT Vadodara"
+      },
+      {
+        "index": 7,
+        "text": "Vision & Mission"
+      },
+      {
+        "index": 8,
+        "text": "Director's Message"
+      },
+      {
+        "index": 9,
+        "text": "Governance"
+      },
+      {
+        "index": 10,
+        "text": "IIITVPPP Partners"
+      },
+      {
+        "index": 11,
+        "text": "BoG"
+      },
+      {
+        "index": 12,
+        "text": "Senate"
+      },
+      {
+        "index": 13,
+        "text": "Finance"
+      },
+      {
+        "index": 17,
+        "text": "HRPlanning"
+      },
+      {
+        "index": 18,
+        "text": "ResearchC"
+      },
+      {
+        "index": 19,
+        "text": "Leadership Hierarchy"
+      },
+      {
+        "index": 20,
+        "text": "Act, Statutes and Ordinance"
+      },
+      {
+        "index": 21,
+        "text": "Statement & Reports"
+      },
+      {
+        "index": 22,
+        "text": "Dumad Campus Master Plan"
+      },
+      {
+        "index": 26,
+        "text": "Academics"
+      },
+      {
+        "index": 27,
+        "text": "Programs"
+      },
+      {
+        "index": 28,
+        "text": "BTech"
+      },
+      {
+        "index": 29,
+        "text": "M.Tech"
+      },
+      {
+        "index": 30,
+        "text": "Executive MTech"
+      },
+      {
+        "index": 31,
+        "text": "MCA"
+      },
+      {
+        "index": 32,
+        "text": "PhD"
+      },
+      {
+        "index": 33,
+        "text": "BSc (Online)"
+      },
+      {
+        "index": 34,
+        "text": "Departments"
+      },
+      {
+        "index": 35,
+        "text": "Academic Ordinances"
+      },
+      {
+        "index": 36,
+        "text": "Academic Calendar"
+      },
+      {
+        "index": 37,
+        "text": "Academic Portal"
+      },
+      {
+        "index": 38,
+        "text": "List of Holidays 2026"
+      },
+      {
+        "index": 39,
+        "text": "Forms"
+      },
+      {
+        "index": 40,
+        "text": "Admission"
+      },
+      {
+        "index": 41,
+        "text": "Gandhinagar Campus"
+      },
+      {
+        "index": 42,
+        "text": "Undergraduate (B.Tech/B.Sc.)"
+      },
+      {
+        "index": 43,
+        "text": "Postgraduate (M.Tech./M.C.A.)"
+      },
+      {
+        "index": 44,
+        "text": "Diu Campus"
+      },
+      {
+        "index": 45,
+        "text": "Undergraduate(BTech)"
+      },
+      {
+        "index": 46,
+        "text": "Postgraduate(MTech/MCA)"
+      },
+      {
+        "index": 47,
+        "text": "Ph.D."
+      },
+      {
+        "index": 48,
+        "text": "Research"
+      },
+      {
+        "index": 55,
+        "text": "Faculty"
+      },
+      {
+        "index": 56,
+        "text": "Staff"
+      },
+      {
+        "index": 57,
+        "text": "PhD Scholars"
+      },
+      {
+        "index": 58,
+        "text": "Students Corner"
+      },
+      {
+        "index": 59,
+        "text": "Placement"
+      },
+      {
+        "index": 60,
+        "text": "Library"
+      },
+      {
+        "index": 61,
+        "text": "Hostel"
+      },
+      {
+        "index": 62,
+        "text": "Gymkhana"
+      },
+      {
+        "index": 63,
+        "text": "E-Resources"
+      },
+      {
+        "index": 64,
+        "text": "Alumni"
+      },
+      {
+        "index": 69,
+        "text": "Teaching"
+      },
+      {
+        "index": 70,
+        "text": "Non Teaching"
+      },
+      {
+        "index": 71,
+        "text": "Tenders"
+      },
+      {
+        "index": 72,
+        "text": "Tender and Expression of Interest"
+      },
+      {
+        "index": 73,
+        "text": "IIIT Vadodara PAN and GST numbers"
+      },
+      {
+        "index": 74,
+        "text": "Home"
+      },
+      {
+        "index": 75,
+        "text": "Admission"
+      },
+      {
+        "index": 76,
+        "text": "Undergradute Admissions (Gandhinagar Campus)"
+      },
+      {
+        "index": 77,
+        "text": "B.Tech. [Gandhinagar Campus] Reporting Process ▼"
+      },
+      {
+        "index": 78,
+        "text": "B.Tech. 2026 [JoSAA / CSAB / DASA 2026]"
+      },
+      {
+        "index": 79,
+        "text": "Reporting Process IIIT Vadodara-Gandhinagar Campus"
+      },
+      {
+        "index": 80,
+        "text": "(There are no fees waiver for any category of students at IIIT Vadodara)"
+      },
+      {
+        "index": 81,
+        "text": "Important Information"
+      },
+      {
+        "index": 82,
+        "text": "(Provisional) Admission Confirmation Online mode only. 13th - 21st August 2026."
+      },
+      {
+        "index": 83,
+        "text": "Google form:"
+      },
+      {
+        "index": 84,
+        "text": "https://forms.gle/WWb4cwzQgJbEUuxw8"
+      },
+      {
+        "index": 85,
+        "text": "You are requested not to do multiple submissions for the same candidate."
+      },
+      {
+        "index": 86,
+        "text": "Physical Reporting Steps:"
+      },
+      {
+        "index": 87,
+        "text": "List of Students whose admission is provisionally confirmed."
+      },
+      {
+        "index": 88,
+        "text": "Google Sheet:"
+      },
+      {
+        "index": 89,
+        "text": "Google Sheet"
+      },
+      {
+        "index": 90,
+        "text": "If your Name and JEE roll number is in the above Google sheet, you are requested to report to the Institute during 19th - 21st August 2026 [9:30 AM - 5:30 PM]. Address of the Institute is given below."
+      },
+      {
+        "index": 91,
+        "text": "Address of IIIT Vadodara Block No.9, Government Engineering College, Sector 28, Gandhinagar, Gujarat 382028"
+      },
+      {
+        "index": 92,
+        "text": "Google Map location: https://maps.app.goo.gl/Dxuxkt47cwq1M5Ae9"
+      },
+      {
+        "index": 93,
+        "text": "Physical Reporting and Hostel Allocation 19th - 21st August 2026 at the Institute [9:30 AM - 5:30 PM]"
+      },
+      {
+        "index": 94,
+        "text": "Orientation Programme During 24 - 25th August 2026. Parents may attend."
+      },
+      {
+        "index": 95,
+        "text": "Commencement of 1st Semester Classes 24th August 2026 (Tentative)"
+      },
+      {
+        "index": 96,
+        "text": "Admission Flow Chart:"
+      },
+      {
+        "index": 97,
+        "text": "Step 1: Fill the Google form with the correct details"
+      },
+      {
+        "index": 98,
+        "text": "➜"
+      },
+      {
+        "index": 99,
+        "text": "Step 2: Institute verifies your submitted Informations. This takes some amount of time [1-2 days]. List of verified students will be Uploaded on the website"
+      },
+      {
+        "index": 100,
+        "text": "➜"
+      },
+      {
+        "index": 101,
+        "text": "Step 3: If your name is present in the list Report physically at the Institute during 19th-21st August 2026"
+      },
+      {
+        "index": 102,
+        "text": "Step 4: Report to the hostel after completing Step 3 at the Institute. Transport facility from the Institute to the respective Hostel will be provided"
+      },
+      {
+        "index": 103,
+        "text": "Please read the following instructions carefully and follow the same"
+      },
+      {
+        "index": 104,
+        "text": "Mode of Communication: Via email: admissions@iiitvadodara.ac.in"
+      },
+      {
+        "index": 105,
+        "text": "Where to Report: The candidates who have been allotted IIIT Vadodara through the process of admission conducted by the JoSAA/CSAB/DASA 2026 are required to fill and submit the undermentioned Google Form Link: https://forms.gle/WWb4cwzQgJbEUuxw8"
+      },
+      {
+        "index": 106,
+        "text": "Following documents must be kept ready in digital form (scanned copy in pdf format) before filling the above-mentioned Google Form"
+      },
+      {
+        "index": 107,
+        "text": "Provisional Seat Allotment Letter (JoSSA or CSAB or DASA) for Admission 2026"
+      },
+      {
+        "index": 108,
+        "text": "Admit Card for JEE (Main) 2026"
+      },
+      {
+        "index": 109,
+        "text": "Rank Card of JEE (Main) 2026"
+      },
+      {
+        "index": 110,
+        "text": "Marksheet and Certificate of Std. X"
+      },
+      {
+        "index": 111,
+        "text": "Date of Birth Certificate as submitted to JoSAA / CSAB / DASA."
+      },
+      {
+        "index": 112,
+        "text": "Mark Sheet and Certificate of Std. XII"
+      },
+      {
+        "index": 113,
+        "text": "Category Certificate from the designated authority (as applicable)."
+      },
+      {
+        "index": 114,
+        "text": "Two Stamp size photographs and two passport size photographs are to be submitted when you report physically. However please submit a soft copy of the same in .jpg format."
+      },
+      {
+        "index": 115,
+        "text": "Copy of Anti-ragging undertaking by the Student and Parent. https://www.antiragging.in/affidavit_university_form.php"
+      },
+      {
+        "index": 116,
+        "text": "Receipt of payment of fees to JOSAA / CSAB / DASA."
+      },
+      {
+        "index": 117,
+        "text": "Proof of payment of Balance Fees to IIIT Vadodara as per Item 4 below."
+      },
+      {
+        "index": 118,
+        "text": "Undertaking from the student (Institute Format) *"
+      },
+      {
+        "index": 119,
+        "text": "Local guardian details"
+      },
+      {
+        "index": 120,
+        "text": "Students Registration Form (Institute Format) *"
+      },
+      {
+        "index": 121,
+        "text": "Medical Fitness Certificate* (Issued by a Registered Medical practitioner) *"
+      },
+      {
+        "index": 122,
+        "text": "Date of arrival to the Institute for Physical Reporting"
+      },
+      {
+        "index": 123,
+        "text": "Number of person accompanying you for the Physical Reporting"
+      },
+      {
+        "index": 124,
+        "text": "E-Aadhar card of parents"
+      },
+      {
+        "index": 125,
+        "text": "Hostel Undertaking form*"
+      },
+      {
+        "index": 126,
+        "text": "* Undertaking form, Registration form, Medical fitness certificate, Hostel Undertaking form can be downloaded from the link: https://drive.google.com/drive/folders/1tjnu7qucmhnBrGSkW0y3WlWD5s4gXu-W?usp=sharing"
+      },
+      {
+        "index": 127,
+        "text": "You need to show the Seat Allotment Letter (hard copy), Student Registration form (hard copy) and Hostel Undertaking form (hard copy) during your physical reporting (19th - 21st August 2026) at the Institute."
+      },
+      {
+        "index": 128,
+        "text": "4. Institute Fees for Semester - I"
+      },
+      {
+        "index": 129,
+        "text": "B.Tech. Fees Structure – Semester - I"
+      },
+      {
+        "index": 130,
+        "text": "SC/ST/GEN-PwD/GEN-EWS-PwD,OBC-NCL-PwD/SC-PwD/ST-PwD Category (Rs.)"
+      },
+      {
+        "index": 131,
+        "text": "All Other Candidates (Rs.)"
+      },
+      {
+        "index": 132,
+        "text": "Caution Deposit (Refundable)"
+      },
+      {
+        "index": 133,
+        "text": "20000"
+      },
+      {
+        "index": 134,
+        "text": "20000"
+      },
+      {
+        "index": 135,
+        "text": "I Card Fee (One Time)"
+      },
+      {
+        "index": 136,
+        "text": "100"
+      },
+      {
+        "index": 137,
+        "text": "100"
+      },
+      {
+        "index": 138,
+        "text": "Institute Development Contribution (IDC) (One Time)"
+      },
+      {
+        "index": 139,
+        "text": "5000"
+      },
+      {
+        "index": 140,
+        "text": "5000"
+      },
+      {
+        "index": 141,
+        "text": "Tuition Fees"
+      },
+      {
+        "index": 142,
+        "text": "125000"
+      },
+      {
+        "index": 143,
+        "text": "125000"
+      },
+      {
+        "index": 144,
+        "text": "Exam Fee"
+      },
+      {
+        "index": 145,
+        "text": "750"
+      },
+      {
+        "index": 146,
+        "text": "750"
+      },
+      {
+        "index": 147,
+        "text": "Hostel Estt Fees"
+      },
+      {
+        "index": 148,
+        "text": "2500"
+      },
+      {
+        "index": 149,
+        "text": "2500"
+      },
+      {
+        "index": 150,
+        "text": "Student Activities Centre Fees"
+      },
+      {
+        "index": 151,
+        "text": "2500"
+      },
+      {
+        "index": 152,
+        "text": "2500"
+      },
+      {
+        "index": 153,
+        "text": "Transport Fees"
+      },
+      {
+        "index": 154,
+        "text": "9500"
+      },
+      {
+        "index": 155,
+        "text": "9500"
+      },
+      {
+        "index": 156,
+        "text": "Student Insurance"
+      },
+      {
+        "index": 157,
+        "text": "120"
+      },
+      {
+        "index": 158,
+        "text": "120"
+      },
+      {
+        "index": 159,
+        "text": "Medical Fees"
+      },
+      {
+        "index": 160,
+        "text": "2000"
+      },
+      {
+        "index": 161,
+        "text": "2000"
+      },
+      {
+        "index": 162,
+        "text": "Hostel and Mess Reserve Fund"
+      },
+      {
+        "index": 163,
+        "text": "1500"
+      },
+      {
+        "index": 164,
+        "text": "1500"
+      },
+      {
+        "index": 165,
+        "text": "Library Fee"
+      },
+      {
+        "index": 166,
+        "text": "750"
+      },
+      {
+        "index": 167,
+        "text": "750"
+      },
+      {
+        "index": 168,
+        "text": "Total (A)"
+      },
+      {
+        "index": 169,
+        "text": "1,69,720/-"
+      },
+      {
+        "index": 170,
+        "text": "1,69,720/-"
+      },
+      {
+        "index": 171,
+        "text": "(I) Fee for the Candidates who got the seat directly through JoSAA/CSAB"
+      },
+      {
+        "index": 172,
+        "text": "SC/ST/GEN-PwD/GEN-EWS-PwD,OBC-NCL-PwD/SC-PwD/ST-PwD Category (Rs.)"
+      },
+      {
+        "index": 173,
+        "text": "All Other Candidates (Rs.)"
+      },
+      {
+        "index": 174,
+        "text": "Seat Acceptance & Partial Admission Fees/Special round enrolment fee and Institute admission fee-II paid by the candidate to JoSAA/CSAB 2026 (after deducting JoSAA / CSAB processing fees) (B)"
+      },
+      {
+        "index": 175,
+        "text": "30,000/-"
+      },
+      {
+        "index": 176,
+        "text": "70,000/-"
+      },
+      {
+        "index": 177,
+        "text": "* Balance Fees (to be paid to the Institute Account) (A-B) for (I)"
+      },
+      {
+        "index": 178,
+        "text": "1,39,720/-"
+      },
+      {
+        "index": 179,
+        "text": "99,720/-"
+      },
+      {
+        "index": 180,
+        "text": "(II) Fee for the Candidates who have participated in DASA-CIWG and CSAB Special, and got the seat in CSAB Special #"
+      },
+      {
+        "index": 181,
+        "text": "SC/ST/GEN-PwD/GEN-EWS-PwD,OBC-NCL-PwD/SC-PwD/ST-PwD Category (Rs.)"
+      },
+      {
+        "index": 182,
+        "text": "All Other Candidates (Rs.)"
+      },
+      {
+        "index": 183,
+        "text": "DASA-CIWG fees (after deducting JoSAA / CSAB processing fees) (C)"
+      },
+      {
+        "index": 184,
+        "text": "62,500/-"
+      },
+      {
+        "index": 185,
+        "text": "62,500/-"
+      },
+      {
+        "index": 186,
+        "text": "# Balance Fees (to be paid to the Institute Account) (A-C) for (II)"
+      },
+      {
+        "index": 187,
+        "text": "1,07,220/-"
+      },
+      {
+        "index": 188,
+        "text": "1,07,220/-"
+      },
+      {
+        "index": 189,
+        "text": "(III) Fee for the Candidates who got their seat directly through DASA-CIWG †"
+      },
+      {
+        "index": 190,
+        "text": "Amount (Rs.)"
+      },
+      {
+        "index": 191,
+        "text": "DASA-CIWG fees (after deducting DASA processing fees) (D)"
+      },
+      {
+        "index": 192,
+        "text": "62,500/-"
+      },
+      {
+        "index": 193,
+        "text": "† Balance Fees (to be paid to the Institute Account) (A-D) for (III)"
+      },
+      {
+        "index": 194,
+        "text": "1,07,220/-"
+      },
+      {
+        "index": 195,
+        "text": "The Balance Fees needs to be transferred to the Institute Account (Given in Item 5)."
+      },
+      {
+        "index": 196,
+        "text": "5. For NEFT to the Institute Account: (Please Share UTR No. (Transaction ID) for reconciliation)"
+      },
+      {
+        "index": 197,
+        "text": "Bank Name"
+      },
+      {
+        "index": 198,
+        "text": "State Bank of India"
+      },
+      {
+        "index": 203,
+        "text": "Branch"
+      },
+      {
+        "index": 204,
+        "text": "Sector 11 Udhyog Bhavan, Gandhinagar"
+      },
+      {
+        "index": 205,
+        "text": "IFSC Code"
+      },
+      {
+        "index": 206,
+        "text": "SBIN0060228"
+      },
+      {
+        "index": 207,
+        "text": "6. Document Verification"
+      },
+      {
+        "index": 208,
+        "text": "Once you have paid the Institute Fees and uploaded all the required documents in the Google Form, we will verify your documents. If your documents are verified then your admission will be provisionally confirmed. The list of students whose admission is provisionally confirmed can be found here: https://docs.google.com/spreadsheets/d/1VEfQtAJ_wzQogoglJOvGSIxKBL1JhRuXMvhzipvRGb0/edit?usp=sharing"
+      },
+      {
+        "index": 209,
+        "text": "7. Payment of Hostel and Mess Fees"
+      },
+      {
+        "index": 210,
+        "text": "This payment needs to be done once you reach the Institute for Physical Reporting i.e., during 19th - 21st August 2026. (No refund is applicable)"
+      },
+      {
+        "index": 211,
+        "text": "Hostel and Mess Fees Bank details will be provided during the physical reporting at the Institute i.e., during 19th-21st August 2026"
+      },
+      {
+        "index": 212,
+        "text": "Mess Fee per semester (4 months)"
+      },
+      {
+        "index": 213,
+        "text": "25,000/-"
+      },
+      {
+        "index": 214,
+        "text": "Hostel Fee (Sharing basis) for the first quarter of the semester."
+      },
+      {
+        "index": 215,
+        "text": "20,500/-"
+      },
+      {
+        "index": 216,
+        "text": "Total"
+      },
+      {
+        "index": 217,
+        "text": "45,500/-"
+      },
+      {
+        "index": 218,
+        "text": "8. Hostels: The programme is residential and thus staying at Institute hostel is mandatory."
+      },
+      {
+        "index": 219,
+        "text": "The programme is residential and thus staying at Institute hostel is mandatory. The details of the hostels can be found from the Institute-hostel webpage: https://iiitvadodara.ac.in/page.php?slug=hostel"
+      },
+      {
+        "index": 220,
+        "text": "9. It is recommended for students to have their personal Laptop / Computing device."
+      },
+      {
+        "index": 221,
+        "text": "10. Details of Institute required for filling the Anti-ragging Form:"
+      },
+      {
+        "index": 222,
+        "text": "(a) Name of the Director"
+      },
+      {
+        "index": 223,
+        "text": "Prof. Dharmendra Singh"
+      },
+      {
+        "index": 224,
+        "text": "(b) AISHE Code"
+      },
+      {
+        "index": 225,
+        "text": "U-0798"
+      },
+      {
+        "index": 226,
+        "text": "(c) Nearest Police Station"
+      },
+      {
+        "index": 227,
+        "text": "Sector 21, Gandhinagar, Gujarat."
+      },
+      {
+        "index": 228,
+        "text": "(d) Number of Students in Your Batch"
+      },
+      {
+        "index": 229,
+        "text": "690 (approx)."
+      },
+      {
+        "index": 230,
+        "text": "11. Following items will be available to the students at the hostel."
+      },
+      {
+        "index": 231,
+        "text": "(a) Bed"
+      },
+      {
+        "index": 232,
+        "text": "(b) Chair"
+      },
+      {
+        "index": 233,
+        "text": "(c) Almirah"
+      },
+      {
+        "index": 243,
+        "text": "(f) Mug"
+      },
+      {
+        "index": 244,
+        "text": "(g) Mosquito Net (recommended)"
+      },
+      {
+        "index": 245,
+        "text": "13. Bank Loan and Scholarship Facilities available at IIIT Vadodara."
+      },
+      {
+        "index": 246,
+        "text": "(a) Bank Loan"
+      },
+      {
+        "index": 247,
+        "text": "Collateral free loan is available to students of IIIT Vadodara from"
+      },
+      {
+        "index": 248,
+        "text": "State Bank of India < http://iiitvadodara.ac.in/pdf/sbi_loan.pdf >"
+      },
+      {
+        "index": 249,
+        "text": "Punjab National Bank < http://iiitvadodara.ac.in/pdf/PNB_Education_Loan.pdf >"
+      },
+      {
+        "index": 250,
+        "text": "(b) Scholarships"
+      },
+      {
+        "index": 251,
+        "text": "There are no scholarships provided by IIIT Vadodara. Institute facilitates the following scholarships. Though many students are receiving scholarships, the institute does not guarantee any scholarships. Currently Institute facilitates following scholarships:"
+      },
+      {
+        "index": 252,
+        "text": "PM-Vidyalaxmi Scheme"
+      },
+      {
+        "index": 253,
+        "text": "National Scholarship"
+      },
+      {
+        "index": 254,
+        "text": "UP Scholarship"
+      },
+      {
+        "index": 255,
+        "text": "Social Justice and Empowerment"
+      },
+      {
+        "index": 256,
+        "text": "MYSY – Gujarat Government"
+      },
+      {
+        "index": 257,
+        "text": "MMVY – Madhya Pradesh Government."
+      },
+      {
+        "index": 260,
+        "text": "CMSS – Gujarat Government"
+      },
+      {
+        "index": 261,
+        "text": "Bihar Credit Card scheme"
+      },
+      {
+        "index": 262,
+        "text": "Prime Minister Scholarship Scheme (PMSS)."
+      },
+      {
+        "index": 263,
+        "text": "Telangana e-pass"
+      },
+      {
+        "index": 264,
+        "text": "Vidyasarthi Scholarship"
+      },
+      {
+        "index": 265,
+        "text": "Any other scheme projected by a student. The institute will work pro-actively."
+      },
+      {
+        "index": 266,
+        "text": "14. Refund Policy for Institute Fees: Institute refund policy can be seen here"
+      },
+      {
+        "index": 267,
+        "text": "https://iiitvadodara.ac.in/upload_sk/Annexure_VI_Revised%20Admission%20Refund%20Policy%20UG%20and_PG.pdf"
+      },
+      {
+        "index": 268,
+        "text": "15. For queries related to reporting"
+      },
+      {
+        "index": 269,
+        "text": "For queries related to reporting contact +91-79-29750281 (Land Line) and +91-8849303883 (Mobile) (10:00am to 5:00pm)."
+      },
+      {
+        "index": 270,
+        "text": "16. You will be given provisional admission till physical verification of documents."
+      },
+      {
+        "index": 271,
+        "text": "17. In case there is an issue with a particular document, please provide an undertaking on a plain paper (self-signed) and attach it at the relevant place of Google Form."
+      },
+      {
+        "index": 272,
+        "text": "B.Tech. 2026 [ JoSAA/CSAB/DASA 2026] | Reporting Process IIIT Vadodara-Gandhinagar Campus"
+      },
+      {
+        "index": 273,
+        "text": "B.Tech. (JoSAA/CSAB)"
+      },
+      {
+        "index": 274,
+        "text": "B.Tech. Admissions"
+      },
+      {
+        "index": 275,
+        "text": "Admissions to the four year B.Tech program is made through the examination conducted by National Testing Agency (NTA) under the name and style of JEE (Main). Based upon the merit in the written examination, Central Seat Allocation Board (CSAB) invites candidates for counseling, based upon individual merit. Please visit JoSSA. https://josaa.nic.in/ For any queries or details related to admissions, e-mail us at admissions@iiitvadodara.ac.in."
+      },
+      {
+        "index": 276,
+        "text": "Seat Matrix for AY 2026-27"
+      },
+      {
+        "index": 277,
+        "text": "PROGRAM NAME"
+      },
+      {
+        "index": 278,
+        "text": "SEAT POOL"
+      },
+      {
+        "index": 279,
+        "text": "OPEN"
+      },
+      {
+        "index": 280,
+        "text": "OPEN-PWD"
+      },
+      {
+        "index": 281,
+        "text": "GEN-EWS"
+      },
+      {
+        "index": 282,
+        "text": "GEN-EWS-PWD"
+      },
+      {
+        "index": 283,
+        "text": "SC"
+      },
+      {
+        "index": 284,
+        "text": "SC-PWD"
+      },
+      {
+        "index": 285,
+        "text": "ST"
+      },
+      {
+        "index": 286,
+        "text": "ST-PWD"
+      },
+      {
+        "index": 287,
+        "text": "OBC-NCL"
+      },
+      {
+        "index": 288,
+        "text": "OBC-NCL-PWD"
+      },
+      {
+        "index": 289,
+        "text": "TOTAL"
+      },
+      {
+        "index": 290,
+        "text": "Computer Science and engineering"
+      },
+      {
+        "index": 291,
+        "text": "(Cyber Security)"
+      },
+      {
+        "index": 483,
+        "text": "10"
+      },
+      {
+        "index": 484,
+        "text": "690"
+      },
+      {
+        "index": 485,
+        "text": "B. Tech 2026-27 | Fees Structure (Tentative)"
+      },
+      {
+        "index": 486,
+        "text": "Sr No"
+      },
+      {
+        "index": 487,
+        "text": "Particular"
+      },
+      {
+        "index": 488,
+        "text": "Sem-I"
+      },
+      {
+        "index": 495,
+        "text": "Sem-VIII"
+      },
+      {
+        "index": 496,
+        "text": "1"
+      },
+      {
+        "index": 497,
+        "text": "Caution Deposit(Refundable)"
+      },
+      {
+        "index": 498,
+        "text": "20000"
+      },
+      {
+        "index": 499,
+        "text": "0"
+      },
+      {
+        "index": 500,
+        "text": "0"
+      },
+      {
+        "index": 505,
+        "text": "0"
+      },
+      {
+        "index": 506,
+        "text": "2"
+      },
+      {
+        "index": 507,
+        "text": "I Card Fee (One time)"
+      },
+      {
+        "index": 508,
+        "text": "100"
+      },
+      {
+        "index": 509,
+        "text": "0"
+      },
+      {
+        "index": 510,
+        "text": "0"
+      },
+      {
+        "index": 515,
+        "text": "0"
+      },
+      {
+        "index": 516,
+        "text": "3"
+      },
+      {
+        "index": 517,
+        "text": "Institute Development Contribution (IDC) (One time)"
+      },
+      {
+        "index": 518,
+        "text": "5000"
+      },
+      {
+        "index": 519,
+        "text": "5000"
+      },
+      {
+        "index": 520,
+        "text": "0"
+      },
+      {
+        "index": 525,
+        "text": "0"
+      },
+      {
+        "index": 526,
+        "text": "4"
+      },
+      {
+        "index": 527,
+        "text": "Tuition Fee"
+      },
+      {
+        "index": 528,
+        "text": "125000"
+      },
+      {
+        "index": 529,
+        "text": "125000"
+      },
+      {
+        "index": 530,
+        "text": "125000"
+      },
+      {
+        "index": 535,
+        "text": "125000"
+      },
+      {
+        "index": 536,
+        "text": "5"
+      },
+      {
+        "index": 537,
+        "text": "Exam Fee"
+      },
+      {
+        "index": 538,
+        "text": "750"
+      },
+      {
+        "index": 539,
+        "text": "750"
+      },
+      {
+        "index": 540,
+        "text": "1000"
+      },
+      {
+        "index": 545,
+        "text": "1500"
+      },
+      {
+        "index": 546,
+        "text": "6"
+      },
+      {
+        "index": 547,
+        "text": "Student Activities Centre Fees"
+      },
+      {
+        "index": 548,
+        "text": "2500"
+      },
+      {
+        "index": 549,
+        "text": "2500"
+      },
+      {
+        "index": 550,
+        "text": "2500"
+      },
+      {
+        "index": 565,
+        "text": "0"
+      },
+      {
+        "index": 566,
+        "text": "8"
+      },
+      {
+        "index": 567,
+        "text": "Medical Fees"
+      },
+      {
+        "index": 568,
+        "text": "2000"
+      },
+      {
+        "index": 569,
+        "text": "2000"
+      },
+      {
+        "index": 570,
+        "text": "2500"
+      },
+      {
+        "index": 575,
+        "text": "2500"
+      },
+      {
+        "index": 576,
+        "text": "9"
+      },
+      {
+        "index": 577,
+        "text": "Hostel & Mess Reserve Fund"
+      },
+      {
+        "index": 578,
+        "text": "1500"
+      },
+      {
+        "index": 579,
+        "text": "1500"
+      },
+      {
+        "index": 580,
+        "text": "1500"
+      },
+      {
+        "index": 585,
+        "text": "1500"
+      },
+      {
+        "index": 586,
+        "text": "10"
+      },
+      {
+        "index": 587,
+        "text": "Lib Fee"
+      },
+      {
+        "index": 588,
+        "text": "750"
+      },
+      {
+        "index": 589,
+        "text": "750"
+      },
+      {
+        "index": 590,
+        "text": "750"
+      },
+      {
+        "index": 595,
+        "text": "750"
+      },
+      {
+        "index": 596,
+        "text": "11"
+      },
+      {
+        "index": 597,
+        "text": "Alumni Fee"
+      },
+      {
+        "index": 598,
+        "text": "0"
+      },
+      {
+        "index": 599,
+        "text": "0"
+      },
+      {
+        "index": 600,
+        "text": "0"
+      },
+      {
+        "index": 605,
+        "text": "1250"
+      },
+      {
+        "index": 606,
+        "text": "12"
+      },
+      {
+        "index": 607,
+        "text": "Convocation Fee"
+      },
+      {
+        "index": 608,
+        "text": "0"
+      },
+      {
+        "index": 609,
+        "text": "0"
+      },
+      {
+        "index": 610,
+        "text": "0"
+      },
+      {
+        "index": 624,
+        "text": "136620"
+      },
+      {
+        "index": 625,
+        "text": "136500"
+      },
+      {
+        "index": 626,
+        "text": "Boarding Lodging & Transportation Fees"
+      },
+      {
+        "index": 627,
+        "text": "13"
+      },
+      {
+        "index": 628,
+        "text": "Hostel Estt Fees"
+      },
+      {
+        "index": 629,
+        "text": "2500"
+      },
+      {
+        "index": 630,
+        "text": "2500"
+      },
+      {
+        "index": 631,
+        "text": "2500"
+      },
+      {
+        "index": 636,
+        "text": "2500"
+      },
+      {
+        "index": 637,
+        "text": "14"
+      },
+      {
+        "index": 638,
+        "text": "Mess Fees(for 4 Months, constituting a semester) (approximately)"
+      },
+      {
+        "index": 639,
+        "text": "25000"
+      },
+      {
+        "index": 640,
+        "text": "25000"
+      },
+      {
+        "index": 641,
+        "text": "26000"
+      },
+      {
+        "index": 646,
+        "text": "27000"
+      },
+      {
+        "index": 647,
+        "text": "15"
+      },
+      {
+        "index": 648,
+        "text": "Hostel Fee"
+      },
+      {
+        "index": 649,
+        "text": "40500"
+      },
+      {
+        "index": 650,
+        "text": "40500"
+      },
+      {
+        "index": 651,
+        "text": "44500"
+      },
+      {
+        "index": 666,
+        "text": "83400"
+      },
+      {
+        "index": 667,
+        "text": "16"
+      },
+      {
+        "index": 668,
+        "text": "Transport Fees (Outside Campus)"
+      },
+      {
+        "index": 669,
+        "text": "9500"
+      },
+      {
+        "index": 670,
+        "text": "9500"
+      },
+      {
+        "index": 671,
+        "text": "10000"
+      },
+      {
+        "index": 675,
+        "text": "10000"
+      },
+      {
+        "index": 676,
+        "text": "10000"
+      },
+      {
+        "index": 677,
+        "text": "Total with Transport fee (Outside Campus) A+B+16"
+      },
+      {
+        "index": 678,
+        "text": "235220"
+      },
+      {
+        "index": 679,
+        "text": "215000"
+      },
+      {
+        "index": 680,
+        "text": "216370"
+      },
+      {
+        "index": 685,
+        "text": "229900"
+      },
+      {
+        "index": 686,
+        "text": "Note:-"
+      },
+      {
+        "index": 687,
+        "text": "1) Tuition Fee will remain the same for the batch. The figures mentioned above are indicative. 2)There are no fees waiver for any category at IIIT Vadodara. 3) All Candidates seeking admission in B.Tech Programme are advised to have their own laptops. 4) Staying in hostel is mandatory.Fees Refund Policy till Academic Year 2025-26 (Old)Fee Refund Policy from Academic Year 2026–27 (New)"
+      },
+      {
+        "index": 688,
+        "text": "B.Tech. (DASA)"
+      },
+      {
+        "index": 689,
+        "text": "DASA 2026 B.Tech Admissions"
+      },
+      {
+        "index": 690,
+        "text": "For queries: admissions@iiitvadodara.ac.in"
+      },
+      {
+        "index": 691,
+        "text": "Seat Matrix AY 2026-27"
+      },
+      {
+        "index": 692,
+        "text": "Code"
+      },
+      {
+        "index": 693,
+        "text": "Program"
+      },
+      {
+        "index": 694,
+        "text": "CIWG"
+      },
+      {
+        "index": 696,
+        "text": "Total"
+      },
+      {
+        "index": 697,
+        "text": "COS"
+      },
+      {
+        "index": 698,
+        "text": "B.Tech CSE"
+      },
+      {
+        "index": 699,
+        "text": "10"
+      },
+      {
+        "index": 700,
+        "text": "20"
+      },
+      {
+        "index": 701,
+        "text": "30"
+      },
+      {
+        "index": 702,
+        "text": "BIT"
+      },
+      {
+        "index": 703,
+        "text": "B.Tech IT"
+      },
+      {
+        "index": 704,
+        "text": "3"
+      },
+      {
+        "index": 705,
+        "text": "5"
+      },
+      {
+        "index": 706,
+        "text": "8"
+      },
+      {
+        "index": 707,
+        "text": "AI"
+      },
+      {
+        "index": 708,
+        "text": "B.Tech AI"
+      },
+      {
+        "index": 709,
+        "text": "3"
+      },
+      {
+        "index": 710,
+        "text": "5"
+      },
+      {
+        "index": 711,
+        "text": "8"
+      },
+      {
+        "index": 712,
+        "text": "ECE"
+      },
+      {
+        "index": 713,
+        "text": "B.Tech ECE"
+      },
+      {
+        "index": 714,
+        "text": "5"
+      },
+      {
+        "index": 715,
+        "text": "10"
+      },
+      {
+        "index": 716,
+        "text": "15"
+      },
+      {
+        "index": 717,
+        "text": "COS-CS"
+      },
+      {
+        "index": 718,
+        "text": "B.Tech CSE (Cyber Security)"
+      },
+      {
+        "index": 719,
+        "text": "4"
+      },
+      {
+        "index": 720,
+        "text": "7"
+      },
+      {
+        "index": 721,
+        "text": "11"
+      },
+      {
+        "index": 722,
+        "text": "MAC"
+      },
+      {
+        "index": 723,
+        "text": "B.Tech Mathematics & Computing"
+      },
+      {
+        "index": 724,
+        "text": "2"
+      },
+      {
+        "index": 725,
+        "text": "5"
+      },
+      {
+        "index": 726,
+        "text": "7"
+      },
+      {
+        "index": 727,
+        "text": "ACP"
+      },
+      {
+        "index": 728,
+        "text": "B.Tech Applied & Computational Physics"
+      },
+      {
+        "index": 729,
+        "text": "2"
+      },
+      {
+        "index": 730,
+        "text": "5"
+      },
+      {
+        "index": 731,
+        "text": "7"
+      },
+      {
+        "index": 732,
+        "text": "Fee Structure (Tentative)"
+      },
+      {
+        "index": 733,
+        "text": "Based on the uploaded DASA 2026 fee matrix."
+      },
+      {
+        "index": 734,
+        "text": "Particular"
+      },
+      {
+        "index": 735,
+        "text": "Sem-I"
+      },
+      {
+        "index": 736,
+        "text": "Sem-II"
+      },
+      {
+        "index": 741,
+        "text": "Sem-VII"
+      },
+      {
+        "index": 742,
+        "text": "Sem-VIII"
+      },
+      {
+        "index": 743,
+        "text": "Tuition Fee"
+      },
+      {
+        "index": 744,
+        "text": "125000"
+      },
+      {
+        "index": 745,
+        "text": "125000"
+      },
+      {
+        "index": 746,
+        "text": "125000"
+      },
+      {
+        "index": 750,
+        "text": "125000"
+      },
+      {
+        "index": 751,
+        "text": "125000"
+      },
+      {
+        "index": 752,
+        "text": "Exam Fee"
+      },
+      {
+        "index": 753,
+        "text": "750"
+      },
+      {
+        "index": 754,
+        "text": "750"
+      },
+      {
+        "index": 755,
+        "text": "1000"
+      },
+      {
+        "index": 768,
+        "text": "3000"
+      },
+      {
+        "index": 769,
+        "text": "3000"
+      },
+      {
+        "index": 770,
+        "text": "Medical Fee"
+      },
+      {
+        "index": 771,
+        "text": "2000"
+      },
+      {
+        "index": 772,
+        "text": "2000"
+      },
+      {
+        "index": 773,
+        "text": "2500"
+      },
+      {
+        "index": 777,
+        "text": "2500"
+      },
+      {
+        "index": 778,
+        "text": "2500"
+      },
+      {
+        "index": 779,
+        "text": "Library Fee"
+      },
+      {
+        "index": 780,
+        "text": "750"
+      },
+      {
+        "index": 781,
+        "text": "750"
+      },
+      {
+        "index": 782,
+        "text": "750"
+      },
+      {
+        "index": 795,
+        "text": "136620"
+      },
+      {
+        "index": 796,
+        "text": "136500"
+      },
+      {
+        "index": 797,
+        "text": "Hostel Establishment"
+      },
+      {
+        "index": 798,
+        "text": "2500"
+      },
+      {
+        "index": 799,
+        "text": "2500"
+      },
+      {
+        "index": 800,
+        "text": "2500"
+      },
+      {
+        "index": 804,
+        "text": "2500"
+      },
+      {
+        "index": 805,
+        "text": "2500"
+      },
+      {
+        "index": 806,
+        "text": "Mess Fee"
+      },
+      {
+        "index": 807,
+        "text": "26000"
+      },
+      {
+        "index": 808,
+        "text": "26000"
+      },
+      {
+        "index": 809,
+        "text": "26000"
+      },
+      {
+        "index": 813,
+        "text": "27000"
+      },
+      {
+        "index": 814,
+        "text": "27000"
+      },
+      {
+        "index": 815,
+        "text": "Hostel Fee"
+      },
+      {
+        "index": 816,
+        "text": "49000"
+      },
+      {
+        "index": 817,
+        "text": "49000"
+      },
+      {
+        "index": 818,
+        "text": "49000"
+      },
+      {
+        "index": 850,
+        "text": "228000"
+      },
+      {
+        "index": 851,
+        "text": "Important Notes"
+      },
+      {
+        "index": 852,
+        "text": "Tuition Fee will remain the same for the batch."
+      },
+      {
+        "index": 853,
+        "text": "No fee waiver is available at IIIT Vadodara."
+      },
+      {
+        "index": 854,
+        "text": "Students are advised to have their own laptops."
+      },
+      {
+        "index": 855,
+        "text": "Study in India"
+      },
+      {
+        "index": 856,
+        "text": "B.Tech Admissions: Study in India 2026"
+      },
+      {
+        "index": 857,
+        "text": "To apply through Study in India (SII), visit:"
+      },
+      {
+        "index": 858,
+        "text": "https://www.studyinindia.gov.in/admission/registrations"
+      },
+      {
+        "index": 859,
+        "text": "Seat Matrix: Seat Matrix will be updated soon."
+      },
+      {
+        "index": 860,
+        "text": "Fee Details AY 2026-27 (CIWG)"
+      },
+      {
+        "index": 861,
+        "text": "Sr No"
+      },
+      {
+        "index": 862,
+        "text": "Particular"
+      },
+      {
+        "index": 863,
+        "text": "Sem-I"
+      },
+      {
+        "index": 870,
+        "text": "Sem-VIII"
+      },
+      {
+        "index": 871,
+        "text": "1"
+      },
+      {
+        "index": 872,
+        "text": "Caution Deposit(Refundable)"
+      },
+      {
+        "index": 873,
+        "text": "20000"
+      },
+      {
+        "index": 874,
+        "text": "0"
+      },
+      {
+        "index": 875,
+        "text": "0"
+      },
+      {
+        "index": 880,
+        "text": "0"
+      },
+      {
+        "index": 881,
+        "text": "2"
+      },
+      {
+        "index": 882,
+        "text": "I Card Fee (One time)"
+      },
+      {
+        "index": 883,
+        "text": "100"
+      },
+      {
+        "index": 884,
+        "text": "0"
+      },
+      {
+        "index": 885,
+        "text": "0"
+      },
+      {
+        "index": 890,
+        "text": "0"
+      },
+      {
+        "index": 891,
+        "text": "3"
+      },
+      {
+        "index": 892,
+        "text": "Institute Development Contribution (IDC) (One time)"
+      },
+      {
+        "index": 893,
+        "text": "5000"
+      },
+      {
+        "index": 894,
+        "text": "5000"
+      },
+      {
+        "index": 895,
+        "text": "0"
+      },
+      {
+        "index": 900,
+        "text": "0"
+      },
+      {
+        "index": 901,
+        "text": "4"
+      },
+      {
+        "index": 902,
+        "text": "Tuition Fee"
+      },
+      {
+        "index": 903,
+        "text": "125000"
+      },
+      {
+        "index": 904,
+        "text": "125000"
+      },
+      {
+        "index": 905,
+        "text": "125000"
+      },
+      {
+        "index": 910,
+        "text": "125000"
+      },
+      {
+        "index": 911,
+        "text": "5"
+      },
+      {
+        "index": 912,
+        "text": "Exam Fee"
+      },
+      {
+        "index": 913,
+        "text": "750"
+      },
+      {
+        "index": 914,
+        "text": "750"
+      },
+      {
+        "index": 915,
+        "text": "1000"
+      },
+      {
+        "index": 920,
+        "text": "1500"
+      },
+      {
+        "index": 921,
+        "text": "6"
+      },
+      {
+        "index": 922,
+        "text": "Student Activities Centre Fees"
+      },
+      {
+        "index": 923,
+        "text": "2500"
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 0,
+        "rows": [
+          [
+            "Step 1: Fill the Google form with the correct details",
+            "➜",
+            "Step 2: Institute verifies your submitted Informations. This takes some amount of time [1-2 days]. List of verified students will be Uploaded on the website",
+            "➜",
+            "Step 3: If your name is present in the list Report physically at the Institute during 19th-21st August 2026 Step 4: Report to the hostel after completing Step 3 at the Institute. Transport facility from the Institute to the respective Hostel will be provided"
+          ]
+        ]
+      },
+      {
+        "table_index": 1,
+        "rows": [
+          [
+            "SC/ST/GEN-PwD/GEN-EWS-PwD,OBC-NCL-PwD/SC-PwD/ST-PwD Category (Rs.)",
+            "All Other Candidates (Rs.)"
+          ],
+          [
+            "Caution Deposit (Refundable)",
+            "20000",
+            "20000"
+          ],
+          [
+            "I Card Fee (One Time)",
+            "100",
+            "100"
+          ],
+          [
+            "Institute Development Contribution (IDC) (One Time)",
+            "5000",
+            "5000"
+          ],
+          [
+            "Tuition Fees",
+            "125000",
+            "125000"
+          ],
+          [
+            "Exam Fee",
+            "750",
+            "750"
+          ],
+          [
+            "Hostel Estt Fees",
+            "2500",
+            "2500"
+          ],
+          [
+            "Student Activities Centre Fees",
+            "2500",
+            "2500"
+          ],
+          [
+            "Transport Fees",
+            "9500",
+            "9500"
+          ],
+          [
+            "Student Insurance",
+            "120",
+            "120"
+          ],
+          [
+            "Medical Fees",
+            "2000",
+            "2000"
+          ],
+          [
+            "Hostel and Mess Reserve Fund",
+            "1500",
+            "1500"
+          ],
+          [
+            "Library Fee",
+            "750",
+            "750"
+          ],
+          [
+            "Total (A)",
+            "1,69,720/-",
+            "1,69,720/-"
+          ]
+        ]
+      },
+      {
+        "table_index": 2,
+        "rows": [
+          [
+            "SC/ST/GEN-PwD/GEN-EWS-PwD,OBC-NCL-PwD/SC-PwD/ST-PwD Category (Rs.)",
+            "All Other Candidates (Rs.)"
+          ],
+          [
+            "Seat Acceptance & Partial Admission Fees/Special round enrolment fee and Institute admission fee-II paid by the candidate to JoSAA/CSAB 2026 (after deducting JoSAA / CSAB processing fees) (B)",
+            "30,000/-",
+            "70,000/-"
+          ],
+          [
+            "* Balance Fees (to be paid to the Institute Account) (A-B) for (I)",
+            "1,39,720/-",
+            "99,720/-"
+          ]
+        ]
+      },
+      {
+        "table_index": 3,
+        "rows": [
+          [
+            "SC/ST/GEN-PwD/GEN-EWS-PwD,OBC-NCL-PwD/SC-PwD/ST-PwD Category (Rs.)",
+            "All Other Candidates (Rs.)"
+          ],
+          [
+            "DASA-CIWG fees (after deducting JoSAA / CSAB processing fees) (C)",
+            "62,500/-",
+            "62,500/-"
+          ],
+          [
+            "# Balance Fees (to be paid to the Institute Account) (A-C) for (II)",
+            "1,07,220/-",
+            "1,07,220/-"
+          ]
+        ]
+      },
+      {
+        "table_index": 4,
+        "rows": [
+          [
+            "Amount (Rs.)"
+          ],
+          [
+            "DASA-CIWG fees (after deducting DASA processing fees) (D)",
+            "62,500/-"
+          ],
+          [
+            "† Balance Fees (to be paid to the Institute Account) (A-D) for (III)",
+            "1,07,220/-"
+          ]
+        ]
+      },
+      {
+        "table_index": 5,
+        "rows": [
+          [
+            "Bank Name",
+            "State Bank of India"
+          ],
+          [
+            "Account No.",
+            "35022482626"
+          ],
+          [
+            "Account Holder Name",
+            "Indian Institute of Information Technology Vadodara"
+          ],
+          [
+            "Branch",
+            "Sector 11 Udhyog Bhavan, Gandhinagar"
+          ],
+          [
+            "IFSC Code",
+            "SBIN0060228"
+          ]
+        ]
+      },
+      {
+        "table_index": 6,
+        "rows": [
+          [
+            "Mess Fee per semester (4 months)",
+            "25,000/-"
+          ],
+          [
+            "Hostel Fee (Sharing basis) for the first quarter of the semester.",
+            "20,500/-"
+          ],
+          [
+            "Total",
+            "45,500/-"
+          ]
+        ]
+      },
+      {
+        "table_index": 7,
+        "rows": [
+          [
+            "(a) Name of the Director",
+            "Prof. Dharmendra Singh"
+          ],
+          [
+            "(b) AISHE Code",
+            "U-0798"
+          ],
+          [
+            "(c) Nearest Police Station",
+            "Sector 21, Gandhinagar, Gujarat."
+          ],
+          [
+            "(d) Number of Students in Your Batch",
+            "690 (approx)."
+          ]
+        ]
+      },
+      {
+        "table_index": 8,
+        "rows": [
+          [
+            "PROGRAM NAME",
+            "SEAT POOL",
+            "OPEN",
+            "OPEN-PWD",
+            "GEN-EWS",
+            "GEN-EWS-PWD",
+            "SC",
+            "SC-PWD",
+            "ST",
+            "ST-PWD",
+            "OBC-NCL",
+            "OBC-NCL-PWD",
+            "TOTAL"
+          ],
+          [
+            "Computer Science and engineering (Cyber Security)",
+            "GN",
+            "28",
+            "2",
+            "8",
+            "0",
+            "10",
+            "1",
+            "6",
+            "0",
+            "19",
+            "1",
+            "75"
+          ],
+          [
+            "Computer Science and engineering (Cyber Security)",
+            "WQ",
+            "6",
+            "1",
+            "1",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "4",
+            "0",
+            "15"
+          ],
+          [
+            "Computer Science and engineering",
+            "GN",
+            "77",
+            "4",
+            "19",
+            "1",
+            "28",
+            "2",
+            "14",
+            "1",
+            "51",
+            "3",
+            "200"
+          ],
+          [
+            "Computer Science and engineering",
+            "WQ",
+            "15",
+            "1",
+            "4",
+            "0",
+            "6",
+            "0",
+            "3",
+            "0",
+            "10",
+            "1",
+            "40"
+          ],
+          [
+            "Electronics and Communication Engineering",
+            "GN",
+            "38",
+            "2",
+            "9",
+            "1",
+            "14",
+            "1",
+            "7",
+            "1",
+            "26",
+            "1",
+            "100"
+          ],
+          [
+            "Electronics and Communication Engineering",
+            "WQ",
+            "8",
+            "1",
+            "2",
+            "0",
+            "3",
+            "0",
+            "1",
+            "0",
+            "5",
+            "0",
+            "20"
+          ],
+          [
+            "Mathematics and Computing",
+            "GN",
+            "19",
+            "1",
+            "5",
+            "0",
+            "7",
+            "0",
+            "4",
+            "0",
+            "13",
+            "1",
+            "50"
+          ],
+          [
+            "Mathematics and Computing",
+            "WQ",
+            "4",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "10"
+          ],
+          [
+            "Information Technology",
+            "GN",
+            "19",
+            "1",
+            "5",
+            "0",
+            "7",
+            "0",
+            "4",
+            "0",
+            "13",
+            "1",
+            "50"
+          ],
+          [
+            "Information Technology",
+            "WQ",
+            "4",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "10"
+          ],
+          [
+            "Artificial Intelligence",
+            "GN",
+            "19",
+            "1",
+            "5",
+            "0",
+            "7",
+            "0",
+            "4",
+            "0",
+            "13",
+            "1",
+            "50"
+          ],
+          [
+            "Artificial Intelligence",
+            "WQ",
+            "4",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "10"
+          ],
+          [
+            "Applied and Computational Physics",
+            "GN",
+            "19",
+            "1",
+            "5",
+            "0",
+            "7",
+            "0",
+            "4",
+            "0",
+            "13",
+            "1",
+            "50"
+          ],
+          [
+            "Applied and Computational Physics",
+            "WQ",
+            "4",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "10"
+          ],
+          [
+            "264",
+            "15",
+            "67",
+            "2",
+            "99",
+            "4",
+            "52",
+            "2",
+            "175",
+            "10",
+            "690"
+          ]
+        ]
+      },
+      {
+        "table_index": 9,
+        "rows": [
+          [
+            "Sr No",
+            "Particular",
+            "Sem-I",
+            "Sem-II",
+            "Sem-III",
+            "Sem-IV",
+            "Sem-V",
+            "Sem-VI",
+            "Sem-VII",
+            "Sem-VIII"
+          ],
+          [
+            "1",
+            "Caution Deposit(Refundable)",
+            "20000",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "2",
+            "I Card Fee (One time)",
+            "100",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "3",
+            "Institute Development Contribution (IDC) (One time)",
+            "5000",
+            "5000",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "4",
+            "Tuition Fee",
+            "125000",
+            "125000",
+            "125000",
+            "125000",
+            "125000",
+            "125000",
+            "125000",
+            "125000"
+          ],
+          [
+            "5",
+            "Exam Fee",
+            "750",
+            "750",
+            "1000",
+            "1000",
+            "1000",
+            "1000",
+            "1500",
+            "1500"
+          ],
+          [
+            "6",
+            "Student Activities Centre Fees",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "3000",
+            "3000",
+            "3000",
+            "3000"
+          ],
+          [
+            "7",
+            "Student Insurance",
+            "120",
+            "0",
+            "120",
+            "0",
+            "120",
+            "0",
+            "120",
+            "0"
+          ],
+          [
+            "8",
+            "Medical Fees",
+            "2000",
+            "2000",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500"
+          ],
+          [
+            "9",
+            "Hostel & Mess Reserve Fund",
+            "1500",
+            "1500",
+            "1500",
+            "1500",
+            "1500",
+            "1500",
+            "1500",
+            "1500"
+          ],
+          [
+            "10",
+            "Lib Fee",
+            "750",
+            "750",
+            "750",
+            "750",
+            "750",
+            "750",
+            "750",
+            "750"
+          ],
+          [
+            "11",
+            "Alumni Fee",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1250",
+            "1250",
+            "1250",
+            "1250"
+          ],
+          [
+            "12",
+            "Convocation Fee",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1000",
+            "1000",
+            "1000",
+            "1000"
+          ],
+          [
+            "A",
+            "Sub Total A",
+            "157720",
+            "137500",
+            "133370",
+            "133250",
+            "136120",
+            "136000",
+            "136620",
+            "136500"
+          ],
+          [
+            "Boarding Lodging & Transportation Fees"
+          ],
+          [
+            "13",
+            "Hostel Estt Fees",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500"
+          ],
+          [
+            "14",
+            "Mess Fees(for 4 Months, constituting a semester) (approximately)",
+            "25000",
+            "25000",
+            "26000",
+            "26000",
+            "27000",
+            "27000",
+            "27000",
+            "27000"
+          ],
+          [
+            "15",
+            "Hostel Fee",
+            "40500",
+            "40500",
+            "44500",
+            "44500",
+            "49000",
+            "49000",
+            "53900",
+            "53900"
+          ],
+          [
+            "B",
+            "Sub Total B",
+            "68000",
+            "68000",
+            "73000",
+            "73000",
+            "78500",
+            "78500",
+            "83400",
+            "83400"
+          ],
+          [
+            "16",
+            "Transport Fees (Outside Campus)",
+            "9500",
+            "9500",
+            "10000",
+            "10000",
+            "10000",
+            "10000",
+            "10000",
+            "10000"
+          ],
+          [
+            "Total with Transport fee (Outside Campus) A+B+16",
+            "235220",
+            "215000",
+            "216370",
+            "216250",
+            "224620",
+            "224500",
+            "230020",
+            "229900"
+          ]
+        ]
+      },
+      {
+        "table_index": 10,
+        "rows": [
+          [
+            "Code",
+            "Program",
+            "CIWG",
+            "General",
+            "Total"
+          ],
+          [
+            "COS",
+            "B.Tech CSE",
+            "10",
+            "20",
+            "30"
+          ],
+          [
+            "BIT",
+            "B.Tech IT",
+            "3",
+            "5",
+            "8"
+          ],
+          [
+            "AI",
+            "B.Tech AI",
+            "3",
+            "5",
+            "8"
+          ],
+          [
+            "ECE",
+            "B.Tech ECE",
+            "5",
+            "10",
+            "15"
+          ],
+          [
+            "COS-CS",
+            "B.Tech CSE (Cyber Security)",
+            "4",
+            "7",
+            "11"
+          ],
+          [
+            "MAC",
+            "B.Tech Mathematics & Computing",
+            "2",
+            "5",
+            "7"
+          ],
+          [
+            "ACP",
+            "B.Tech Applied & Computational Physics",
+            "2",
+            "5",
+            "7"
+          ]
+        ]
+      },
+      {
+        "table_index": 11,
+        "rows": [
+          [
+            "Particular",
+            "Sem-I",
+            "Sem-II",
+            "Sem-III",
+            "Sem-IV",
+            "Sem-V",
+            "Sem-VI",
+            "Sem-VII",
+            "Sem-VIII"
+          ],
+          [
+            "Tuition Fee",
+            "125000",
+            "125000",
+            "125000",
+            "125000",
+            "125000",
+            "125000",
+            "125000",
+            "125000"
+          ],
+          [
+            "Exam Fee",
+            "750",
+            "750",
+            "1000",
+            "1000",
+            "1000",
+            "1000",
+            "1500",
+            "1500"
+          ],
+          [
+            "Student Activities",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "3000",
+            "3000",
+            "3000",
+            "3000"
+          ],
+          [
+            "Medical Fee",
+            "2000",
+            "2000",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500"
+          ],
+          [
+            "Library Fee",
+            "750",
+            "750",
+            "750",
+            "750",
+            "750",
+            "750",
+            "750",
+            "750"
+          ],
+          [
+            "Sub Total A",
+            "157720",
+            "137500",
+            "133370",
+            "133250",
+            "136120",
+            "136000",
+            "136620",
+            "136500"
+          ],
+          [
+            "Hostel Establishment",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500"
+          ],
+          [
+            "Mess Fee",
+            "26000",
+            "26000",
+            "26000",
+            "26000",
+            "27000",
+            "27000",
+            "27000",
+            "27000"
+          ],
+          [
+            "Hostel Fee",
+            "49000",
+            "49000",
+            "49000",
+            "49000",
+            "52000",
+            "52000",
+            "52000",
+            "52000"
+          ],
+          [
+            "Sub Total B",
+            "77500",
+            "77500",
+            "77500",
+            "77500",
+            "81500",
+            "81500",
+            "81500",
+            "81500"
+          ],
+          [
+            "Total (Inside Campus Transport)",
+            "238220",
+            "218000",
+            "214870",
+            "214750",
+            "221620",
+            "221500",
+            "222120",
+            "222000"
+          ],
+          [
+            "Total (Outside Campus Transport)",
+            "244720",
+            "224500",
+            "220870",
+            "220750",
+            "227620",
+            "227500",
+            "228120",
+            "228000"
+          ]
+        ]
+      },
+      {
+        "table_index": 12,
+        "rows": [
+          [
+            "Sr No",
+            "Particular",
+            "Sem-I",
+            "Sem-II",
+            "Sem-III",
+            "Sem-IV",
+            "Sem-V",
+            "Sem-VI",
+            "Sem-VII",
+            "Sem-VIII"
+          ],
+          [
+            "1",
+            "Caution Deposit(Refundable)",
+            "20000",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "2",
+            "I Card Fee (One time)",
+            "100",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "3",
+            "Institute Development Contribution (IDC) (One time)",
+            "5000",
+            "5000",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "4",
+            "Tuition Fee",
+            "125000",
+            "125000",
+            "125000",
+            "125000",
+            "125000",
+            "125000",
+            "125000",
+            "125000"
+          ],
+          [
+            "5",
+            "Exam Fee",
+            "750",
+            "750",
+            "1000",
+            "1000",
+            "1000",
+            "1000",
+            "1500",
+            "1500"
+          ],
+          [
+            "6",
+            "Student Activities Centre Fees",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "3000",
+            "3000",
+            "3000",
+            "3000"
+          ],
+          [
+            "7",
+            "Student Insurance",
+            "120",
+            "0",
+            "120",
+            "0",
+            "120",
+            "0",
+            "120",
+            "0"
+          ],
+          [
+            "8",
+            "Medical Fees",
+            "2000",
+            "2000",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500"
+          ],
+          [
+            "9",
+            "Hostel & Mess Reserve Fund",
+            "1500",
+            "1500",
+            "1500",
+            "1500",
+            "1500",
+            "1500",
+            "1500",
+            "1500"
+          ],
+          [
+            "10",
+            "Lib Fee",
+            "750",
+            "750",
+            "750",
+            "750",
+            "750",
+            "750",
+            "750",
+            "750"
+          ],
+          [
+            "11",
+            "Alumni Fee",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1250",
+            "1250",
+            "1250",
+            "1250"
+          ],
+          [
+            "12",
+            "Convocation Fee",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1000",
+            "1000",
+            "1000",
+            "1000"
+          ],
+          [
+            "A",
+            "Sub Total A",
+            "157720",
+            "137500",
+            "133370",
+            "133250",
+            "136120",
+            "136000",
+            "136620",
+            "136500"
+          ],
+          [
+            "Boarding Lodging & Transportation Fees"
+          ],
+          [
+            "13",
+            "Hostel Estt Fees",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500"
+          ],
+          [
+            "14",
+            "Mess Fees(for 4 Months, constituting a semester) (approximately)",
+            "26000",
+            "26000",
+            "26000",
+            "26000",
+            "27000",
+            "27000",
+            "27000",
+            "27000"
+          ],
+          [
+            "15",
+            "Hostel Fee",
+            "49000",
+            "49000",
+            "49000",
+            "49000",
+            "52000",
+            "52000",
+            "52000",
+            "52000"
+          ],
+          [
+            "B",
+            "Sub Total B",
+            "77500",
+            "77500",
+            "77500",
+            "77500",
+            "81500",
+            "81500",
+            "81500",
+            "81500"
+          ],
+          [
+            "16",
+            "Transport Fees (Inside Campus)",
+            "3000",
+            "3000",
+            "4000",
+            "4000",
+            "4000",
+            "4000",
+            "4000",
+            "4000"
+          ],
+          [
+            "17",
+            "Transport Fees (Outside Campus)",
+            "9500",
+            "9500",
+            "10000",
+            "10000",
+            "10000",
+            "10000",
+            "10000",
+            "10000"
+          ],
+          [
+            "Total with Transport fee (Inside Campus) A+B+16",
+            "238220",
+            "218000",
+            "214870",
+            "214750",
+            "221620",
+            "221500",
+            "222120",
+            "222000"
+          ],
+          [
+            "Total with Transport fee (Outside Campus) A+B+17",
+            "244720",
+            "224500",
+            "220870",
+            "220750",
+            "227620",
+            "227500",
+            "228120",
+            "228000"
+          ]
+        ]
+      },
+      {
+        "table_index": 13,
+        "rows": [
+          [
+            "Sr No",
+            "Eligibility Criteria"
+          ],
+          [
+            "1",
+            "Class 12 or equivalent (list of equivalents) or Class 10 + 3 Years Diploma"
+          ],
+          [
+            "The final examination of the 10+2 system, conducted by a Central or State Board recognized by the Association of Indian Universities (AIU)."
+          ],
+          [
+            "Intermediate or two-year Pre-University examination conducted by a Board or University recognized by the Association of Indian Universities."
+          ],
+          [
+            "Final examination of the two-year course of the Joint Services Wing of the National Defence Academy."
+          ],
+          [
+            "Senior Secondary School Examination conducted by the National Institute of Open Schooling with a minimum of five subjects."
+          ],
+          [
+            "Any Public School, Board or University examination in India or in a foreign country recognised as equivalent to the 10+2 system by the AIU."
+          ],
+          [
+            "H.S.C. vocational examination."
+          ],
+          [
+            "A Diploma recognized by the All India Council for Technical Education (AICTE) or a State Board of Technical Education of at least 3 years duration."
+          ],
+          [
+            "General Certificate Education (GCE) examination (London, Cambridge or Sri Lanka) at the Advanced (A) level."
+          ],
+          [
+            "High School Certificate Examination of the Cambridge University or International Baccalaureate Diploma of the International Baccalaureate Office, Geneva."
+          ],
+          [
+            "Candidates who have completed Class XII (or equivalent) examination outside India or from a Board not specified above should produce a certificate from the AIU to the effect that the examination they have passed is equivalent to the Class XII examination."
+          ],
+          [
+            "In case the Class XII examination is not a public examination, the candidate must have passed at least one public (Board or Pre-University) examination earlier."
+          ],
+          [
+            "2",
+            "For International Applicants Only: If an applicant has obtained their senior secondary/high school education from an institution located outside of India: they must provide an Equivalence Certificate issued by the Association of Indian Universities - which recognises their senior secondary/high school education as equivalent to Class 12 certificate issued from a recognised central or state board in India."
+          ],
+          [
+            "The process to apply for an equivalence Certificate is detailed here (https://www.aiu.ac.in/evaluation.php)"
+          ],
+          [
+            "To apply for Equivalence, students must start by applying here (https://evaluation.aiu.ac.in/Student/login/)"
+          ],
+          [
+            "If an applicant’s educational documents (mark sheets and certificates) were issued in a language other than English: they must provide copies of such documents translated into English by a sworn translator."
+          ]
+        ]
+      },
+      {
+        "table_index": 14,
+        "rows": [
+          [
+            "Sr No",
+            "Fees Components",
+            "Sem I",
+            "Sem II",
+            "Sem III",
+            "Sem IV",
+            "Sem V",
+            "Sem VI"
+          ],
+          [
+            "1",
+            "Caution Deposit(Refundable)",
+            "10000",
+            "10000",
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          [
+            "2",
+            "I Card Fee (One time)",
+            "100",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          [
+            "3",
+            "Institute Development Contribution (IDC) (One time)",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          [
+            "4",
+            "Tuition Fee",
+            "37500",
+            "37500",
+            "37500",
+            "37500",
+            "37500",
+            "37500"
+          ],
+          [
+            "5",
+            "Campus Immersion Fee",
+            "3000",
+            "-",
+            "-",
+            "-",
+            "-",
+            "3000"
+          ],
+          [
+            "6",
+            "Institute Registration Fees",
+            "1000",
+            "1000",
+            "1000",
+            "1000",
+            "1000",
+            "1000"
+          ],
+          [
+            "7",
+            "Alumni Fee",
+            "1000",
+            "1000",
+            "1000",
+            "1000",
+            "1000",
+            "1000"
+          ],
+          [
+            "8",
+            "Convocation Fee",
+            "1000",
+            "1000",
+            "1000",
+            "1000",
+            "1000",
+            "1000"
+          ],
+          [
+            "9",
+            "Life Insurance*",
+            "100",
+            "100",
+            "100"
+          ],
+          [
+            "10",
+            "Medical Insurance*",
+            "1400",
+            "1400",
+            "1400"
+          ],
+          [
+            "Total*",
+            "55100",
+            "50500",
+            "42000",
+            "40500",
+            "42000",
+            "43500"
+          ],
+          [
+            "Note"
+          ],
+          [
+            "1",
+            "All fees are non-refundable."
+          ],
+          [
+            "2",
+            "Additional fees may be incurred in case of repetition of courses."
+          ],
+          [
+            "3",
+            "Students have the option to learn at their own pace and can also register for fewer courses than prescribed in a given semester."
+          ],
+          [
+            "4",
+            "There is no minimum credit requirement each semester, however, if a student plans to not register for any credit in a semester, he/ she needs to maintain his/ her active enrollment by paying a Program Continuation Fee of Rs. 3,000 per semester"
+          ],
+          [
+            "5",
+            "Life/ Medical insurance (group insurance) fees may change depending on the cohort size."
+          ]
+        ]
+      }
+    ],
+    "retrieved_at": "2026-08-28T16:43:08.254Z",
+    "extraction_status": "VALID_CURRENT_BTECH_FEE_SOURCE",
+    "strict_validation": {
+      "pass": true,
+      "reasons": [
+        "STRONG_FEE_TABLE",
+        "BTECH_NEAR_FEE_EVIDENCE",
+        "CURRENT_YEAR_NEAR_EVIDENCE",
+        "FEE_LABEL_PRESENT",
+        "MULTIPLE_LOCAL_AMOUNTS"
+      ],
+      "suspicious_url": null,
+      "table_pass": true,
+      "block_pass": false,
+      "strongest_block": {
+        "score": 80,
+        "money_count": 0,
+        "component_count": 3,
+        "category_count": 0,
+        "btech": true,
+        "current_year": true,
+        "text": "216370\n229900\nNote:-\n1) Tuition Fee will remain the same for the batch. The figures mentioned above are indicative. 2)There are no fees waiver for any category at IIIT Vadodara. 3) All Candidates seeking admission in B.Tech Programme are advised to have their own laptops. 4) Staying in hostel is mandatory.Fees Refund Policy till Academic Year 2025-26 (Old)Fee Refund Policy from Academic Year 2026–27 (New)\nB.Tech. (DASA)\nDASA 2026 B.Tech Admissions\nFor queries: admissions@iiitvadodara.ac.in\nSeat Matrix AY 2026-27"
+      },
+      "strong_tables": [
+        {
+          "table_index": 1,
+          "btech_inside_table": false,
+          "money_count": 2,
+          "component_count": 6,
+          "text": "SC/ST/GEN-PwD/GEN-EWS-PwD,OBC-NCL-PwD/SC-PwD/ST-PwD Category (Rs.) | All Other Candidates (Rs.)\nCaution Deposit (Refundable) | 20000 | 20000\nI Card Fee (One Time) | 100 | 100\nInstitute Development Contribution (IDC) (One Time) | 5000 | 5000\nTuition Fees | 125000 | 125000\nExam Fee | 750 | 750\nHostel Estt Fees | 2500 | 2500\nStudent Activities Centre Fees | 2500 | 2500\nTransport Fees | 9500 | 9500\nStudent Insurance | 120 | 120\nMedical Fees | 2000 | 2000\nHostel and Mess Reserve Fund | 1500 | 1500\nLibrary Fee | 750 | 750\nTotal (A) | 1,69,720/- | 1,69,720/-"
+        },
+        {
+          "table_index": 2,
+          "btech_inside_table": false,
+          "money_count": 4,
+          "component_count": 1,
+          "text": "SC/ST/GEN-PwD/GEN-EWS-PwD,OBC-NCL-PwD/SC-PwD/ST-PwD Category (Rs.) | All Other Candidates (Rs.)\nSeat Acceptance & Partial Admission Fees/Special round enrolment fee and Institute admission fee-II paid by the candidate to JoSAA/CSAB 2026 (after deducting JoSAA / CSAB processing fees) (B) | 30,000/- | 70,000/-\n* Balance Fees (to be paid to the Institute Account) (A-B) for (I) | 1,39,720/- | 99,720/-"
+        },
+        {
+          "table_index": 6,
+          "btech_inside_table": false,
+          "money_count": 3,
+          "component_count": 4,
+          "text": "Mess Fee per semester (4 months) | 25,000/-\nHostel Fee (Sharing basis) for the first quarter of the semester. | 20,500/-\nTotal | 45,500/-"
+        }
+      ]
+    },
+    "strict_status": "STRICT_PASS"
+  }
+]

@@ -1,0 +1,113 @@
+﻿[
+  {
+    "college_id": "indian-institute-of-technology-jodhpur",
+    "college_name": "Indian Institute of Technology Jodhpur",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+    "total_course_fee": null,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "official",
+    "source_label": "IIT Jodhpur Fee Structure AY 2026-27",
+    "source_url": "https://iitj.ac.in/Office-of-Academics/en/Fee-Structure",
+    "source_priority": 100,
+    "confidence_score": 80,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "Official IIT Jodhpur page confirms AY 2026-27 fee structure availability. Numeric B.Tech breakup is not normalized here because the downloadable fee document values have not yet been safely extracted."
+  },
+
+  {
+    "college_id": "indian-institute-of-technology-jodhpur",
+    "college_name": "Indian Institute of Technology Jodhpur",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 100000,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": 200000,
+    "annual_total_fee": null,
+    "total_course_fee": null,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 IIT Jodhpur BTech Fees 2026",
+    "source_url": "https://www.careers360.com/university/indian-institute-of-technology-jodhpur/fees",
+    "source_priority": 65,
+    "confidence_score": 82,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "Careers360 reports INR 8 lakh total B.Tech tuition for general-category students. Normalized tuition is INR 100000 per semester over 8 semesters. Careers360 also reports approximately INR 10.26 lakh total fee, but total_course_fee is not imported because secondary sources conflict."
+  },
+
+  {
+    "college_id": "indian-institute-of-technology-jodhpur",
+    "college_name": "Indian Institute of Technology Jodhpur",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 100000,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": 200000,
+    "annual_total_fee": null,
+    "total_course_fee": null,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "collegedunia",
+    "source_label": "Collegedunia IIT Jodhpur BTech Fees",
+    "source_url": "https://collegedunia.com/university/28194-iit-jodhpur-indian-institute-of-technology-iitj-jodhpur/bachelor-of-technology-btech-full-time",
+    "source_priority": 70,
+    "confidence_score": 82,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "Collegedunia reports INR 8 lakh total B.Tech tuition. Normalized as INR 100000 per semester. Reported total B.Tech fee varies across Collegedunia page states, therefore total_course_fee is intentionally null."
+  },
+
+  {
+    "college_id": "indian-institute-of-technology-jodhpur",
+    "college_name": "Indian Institute of Technology Jodhpur",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 100000,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": 200000,
+    "annual_total_fee": null,
+    "total_course_fee": null,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "shiksha",
+    "source_label": "Shiksha IIT Jodhpur BTech Fees 2026",
+    "source_url": "https://www.shiksha.com/college/iit-jodhpur-indian-institute-of-technology-32712/fees",
+    "source_priority": 65,
+    "confidence_score": 78,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "Shiksha reports INR 8 lakh tuition for standard B.Tech specialisations for family income above INR 5 lakh, with higher figures for some specialisations. INR 100000 per semester is used only for the standard INR 8 lakh tuition case. Total course fee is not normalized because Shiksha reports estimated ranges."
+  }
+]

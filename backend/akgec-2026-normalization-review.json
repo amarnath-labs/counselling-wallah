@@ -1,0 +1,32 @@
+[
+  {
+    "section": "GENERAL",
+    "status": "TABLE_RECONSTRUCTION_REQUIRED",
+    "errors": [],
+    "warnings": [
+      "Four annual B.Tech totals could not be safely reconstructed from OCR."
+    ],
+    "suspicious_numbers": [
+      2026
+    ]
+  },
+  {
+    "section": "FEE_WAIVER",
+    "status": "TABLE_RECONSTRUCTION_REQUIRED",
+    "errors": [],
+    "warnings": [
+      "Suspicious OCR numeric values detected in fee-waiver source."
+    ],
+    "suspicious_numbers": [
+      2026
+    ]
+  },
+  {
+    "section": "HOSTEL",
+    "status": "TABLE_RECONSTRUCTION_REQUIRED",
+    "errors": [],
+    "warnings": [
+      "Room-wise hostel amounts were not reliably recovered by OCR."
+    ]
+  }
+]

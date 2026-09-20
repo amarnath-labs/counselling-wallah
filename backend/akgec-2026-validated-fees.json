@@ -1,0 +1,157 @@
+{
+  "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+  "college_name": "AJAY KUMAR GARG ENGG. COLLEGE,GHAZIABAD",
+  "academic_year": 2026,
+  "session": "2026-27",
+  "general": {
+    "category": "GENERAL",
+    "fee_period": "annual",
+    "counselling_adjustment": {
+      "general_obc": 20000,
+      "sc_st": 12000,
+      "treatment": "deduct_from_payable_amount_not_fee_component"
+    },
+    "variants": [
+      {
+        "year_of_study": 1,
+        "session": "2026-27",
+        "recurring_academic_fee": 111256,
+        "registration_fee": 1500,
+        "medical_fee": 1500,
+        "book_bank_fee": 2900,
+        "activity_fee": 10000,
+        "pdp_fee": null,
+        "placement_fee": 10000,
+        "caution_deposit": 5000,
+        "convocation_fee": null,
+        "total_fee": 142156,
+        "validation": "MATCH",
+        "verification_status": "verified"
+      },
+      {
+        "year_of_study": 2,
+        "session": "2027-28",
+        "recurring_academic_fee": 111256,
+        "registration_fee": 1500,
+        "medical_fee": 1500,
+        "book_bank_fee": 2900,
+        "activity_fee": null,
+        "pdp_fee": 3500,
+        "placement_fee": null,
+        "caution_deposit": null,
+        "convocation_fee": null,
+        "total_fee": 120656,
+        "validation": "MATCH",
+        "verification_status": "verified"
+      },
+      {
+        "year_of_study": 3,
+        "session": "2028-29",
+        "recurring_academic_fee": 111256,
+        "registration_fee": 1500,
+        "medical_fee": 1500,
+        "book_bank_fee": 2900,
+        "activity_fee": null,
+        "pdp_fee": null,
+        "placement_fee": null,
+        "caution_deposit": null,
+        "convocation_fee": null,
+        "total_fee": 117156,
+        "validation": "MATCH",
+        "verification_status": "verified"
+      },
+      {
+        "year_of_study": 4,
+        "session": "2029-30",
+        "recurring_academic_fee": 111256,
+        "registration_fee": 1500,
+        "medical_fee": 1500,
+        "book_bank_fee": 2900,
+        "activity_fee": null,
+        "pdp_fee": null,
+        "placement_fee": null,
+        "caution_deposit": null,
+        "convocation_fee": 1000,
+        "total_fee": 118156,
+        "validation": "MATCH",
+        "verification_status": "verified"
+      }
+    ],
+    "errors": [],
+    "warnings": [
+      "Year-1 total was reconstructed from independently OCR-verified source components because its printed total was OCR-corrupted."
+    ],
+    "status": "AUTO_READY"
+  },
+  "fee_waiver": {
+    "category": "FEE_WAIVER",
+    "fee_period": "annual",
+    "counselling_adjustment": {
+      "general_obc": 20000,
+      "sc_st": 12000,
+      "treatment": "deduct_from_payable_amount_not_fee_component"
+    },
+    "variants": [
+      {
+        "year_of_study": 1,
+        "session": "2026-27",
+        "student_category": "FEE_WAIVER",
+        "total_fee": 41014,
+        "validation": "MATCH",
+        "verification_status": "verified"
+      },
+      {
+        "year_of_study": 2,
+        "session": "2027-28",
+        "student_category": "FEE_WAIVER",
+        "total_fee": 19514,
+        "validation": "MATCH",
+        "verification_status": "verified"
+      },
+      {
+        "year_of_study": 3,
+        "session": "2028-29",
+        "student_category": "FEE_WAIVER",
+        "total_fee": 16014,
+        "validation": "MATCH",
+        "verification_status": "verified"
+      },
+      {
+        "year_of_study": 4,
+        "session": "2029-30",
+        "student_category": "FEE_WAIVER",
+        "total_fee": 17014,
+        "validation": "MATCH",
+        "verification_status": "verified"
+      }
+    ],
+    "errors": [],
+    "warnings": [
+      "All four fee-waiver annual totals were independently recovered by targeted OCR."
+    ],
+    "status": "AUTO_READY"
+  },
+  "hostel": {
+    "academic_year": 2026,
+    "session": "2026-27",
+    "security_refundable": 10000,
+    "detected_totals": [
+      160000,
+      150000,
+      140000,
+      150000,
+      140000
+    ],
+    "hostel_variants": [],
+    "source_values_verified": true,
+    "status": "COLUMN_MAPPING_REQUIRED",
+    "warnings": [
+      "Five hostel totals and Rs 10,000 refundable security are detected, but exact room/gender column labels are not sufficiently verified. Hostel import remains blocked."
+    ]
+  },
+  "academic_status": "AUTO_READY",
+  "hostel_status": "COLUMN_MAPPING_REQUIRED",
+  "academic_import_allowed": true,
+  "hostel_import_allowed": false,
+  "final_status": "ACADEMIC_READY_HOSTEL_REVIEW"
+}

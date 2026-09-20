@@ -1,0 +1,604 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 4,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 4 of 4 in the sixth and final batch (NIT Andhra Pradesh). This completes the sixth and final batch. Cumulative total across all six batches: 29 of the 31 standard NITs have now been processed (MANIT Bhopal, NIT Trichy, NIT Warangal, NIT Surathkal, NIT Rourkela, VNIT Nagpur, NIT Calicut, NIT Durgapur, NIT Kurukshetra, MNNIT Allahabad, MNIT Jaipur, NIT Silchar, NIT Agartala, NIT Jamshedpur, NIT Raipur, NIT Patna, NIT Hamirpur, NIT Jalandhar, NIT Srinagar, NIT Delhi, NIT Goa, NIT Puducherry, NIT Uttarakhand, NIT Meghalaya, NIT Manipur, NIT Mizoram, NIT Nagaland, NIT Arunachal Pradesh, NIT Sikkim, NIT Andhra Pradesh). Not yet covered from the standard 31-NIT list (naming conventions vary slightly by source): remaining institutions may include any not explicitly named above depending on which list is used as the canonical reference — this should be cross-checked against an authoritative source (e.g., the official NIT Council list) rather than assumed complete."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Andhra Pradesh",
+        "verified_name": "National Institute of Technology, Andhra Pradesh (NIT ANP / NITAP)",
+        "city": "Tadepalligudem",
+        "state": "Andhra Pradesh",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "The 31st and newest NIT, established September 2015-16. Mentored by NIT Warangal per Collegedunia. Previously operated from a temporary campus at Vasavi before shifting to its current permanent campus (reported acreage varies across sources: ~172.6 acres, ~173 acres, ~176 acres, and ~350 acres all appeared in different sources — this range is preserved rather than resolved to a single figure) in Tadepalligudem, West Godavari district. No conflicting separate institutions of similar name identified; an unrelated 'Nimra Medical College' ragging-question result was correctly excluded as irrelevant during search."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews pages (multiple, paginated), main overview page, faculty page, infrastructure page, and news-articles page retrieved with substantial branch- and batch-specific review content."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews pages (multiple, paginated) and main overview page retrieved with substantive narrative review content."},
+        {"platform": "Careers360", "status": "available", "notes": "Main overview page and reviews page retrieved; only a qualitative 'AAAA' rating tier was found, not a directly confirmed numeric X.X/5 aggregate with review count."},
+        {"platform": "Zollege", "status": "available", "notes": "Hostel-specific page (appearing at two slightly different URLs) retrieved, containing an independently corroborated governance concern (lack of a permanent institute director)."},
+        {"platform": "CollegeBatch", "status": "available", "notes": "Hostel-specific page retrieved with narrative review content."},
+        {"platform": "Quora", "status": "unavailable", "notes": "No genuine Quora-hosted threads specific to NIT Andhra Pradesh were clearly identified as distinct results in this session's targeted searches; official institutional hostel-circular PDFs and other aggregator content appeared instead."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "Targeted search for NIT Andhra Pradesh/NITAP on Reddit did not surface genuine reddit.com-hosted threads in this session; marked unavailable rather than fabricated."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/55796-national-institute-of-technology-nitap-tadepalligudem/reviews",
+          "aggregate_rating": 3.8,
+          "rating_scale": "out of 5",
+          "review_count": 151,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Tadepalligudem, Andhra Pradesh, Autonomous University, Estd 2015 · 3.8 · (151 Reviews).'"
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-andhra-pradesh-national-institute-of-technology-tadepalligudem-59093/compare",
+          "aggregate_rating": 3.7,
+          "rating_scale": "out of 5",
+          "review_count": 176,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Tadepalligudem | 3.7(176 Reviews) | 84 Student Q&A.'"
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-andhra-pradesh-national-institute-of-technology-tadepalligudem-59093",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 191,
+          "verified_review_count": 157,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 191 Student Reviews, 103 comments... Out of 191 published reviews, 157 reviews are verified.' Distinct count (191) from the compare page (176) observed in this same session; both retained as separate observations."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://www.careers360.com/university/national-institute-of-technology-andhra-pradesh",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "'In the engineering category, NIT Andhra Pradesh is rated as AAAA by Careers360.' This is Careers360's own qualitative rating-tier system (not a directly comparable X.X/5 numeric score), and no numeric aggregate with review count was found for this specific institution's reviews page in this session's searches."
+        }
+      ],
+
+      "platform_aspect_ratings": [],
+
+      "review_items": [
+        {
+          "college_name": "NIT Andhra Pradesh",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/55796-national-institute-of-technology-nitap-tadepalligudem/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": "2025-03-07",
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Placement of our college is in growing stage. Placement of core departments is good as compared to it[s] branch. Average package of this college is 7 LPA. As this is the newest NIT, then also it has good placement and alumni connections.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'In NIT AP the college infrastructure is excellent, well advanced library and research labs and best curriculum.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Good hostel facilities and good atmosphere and better living conditions.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'From 7th semester the students are eligible for campus placements. The companies visited NIT AP are Google, Microsoft, and Amazon etc. As per the placement statistics of 2023, the highest package is 44 LPA and average package is 8.13 LPA. The placement percentage [is] 85%.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The faculty in the 1st year is not that [much] understanding and behaviour is not that good.'"
+            },
+            {
+              "aspect": "internships",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'No internships are provided on campus. 98% students don't do any internships up to 6th semester.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'I hate [the] college curriculum, there will be 2 more subjects you need to study in [the final year] even if you are in an internship or a job.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Andhra Pradesh",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/55796-national-institute-of-technology-nitap-tadepalligudem/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'I liked the hostel facilities in the college, the rooms are very clean. We have current [electricity] availability almost 24/7. There will be showers in bathroom.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The one more thing I liked in the college is food. The food taste is good but in mornings it will be not as good as in [the] afternoon. The food will be supplied [in a] limited [amount].'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The bathrooms are the only things I have disliked in the hostel because there will be no supply of hot water for 1st year. We need to bath with cold water in winter also.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'I disliked the sports and gym facilities in this college. There are more people in the college but there are less courts in every sport. We need to wait [a] lot to play. The gym is also too small.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'I am not comfortable here with the laboratories because there is no better equipment to do the project and there is no freedom for their own access to use those equipment without [the] help of faculty.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Andhra Pradesh",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/55796-national-institute-of-technology-nitap-tadepalligudem/reviews/page-2",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'I like the atmosphere and campus, it's beautiful, walkable distance from bus stand and all shops are available in Tadepalligudem.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Hostel maintenance is very good, rooms are spacious.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'There are companies coming to the college, most of the CSE students get placed and almost ECE also the same situation.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Summers here affect us pretty hard, as this college is located on the coast. The humidity here is pretty high; however there are AC libraries where you can sustain [yourself] in summer.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'The mess is average. One cannot expect the mess quality to be like how it was at home, but it's okay-okay and sometimes the curries are too spicy.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Sometimes the power cuts can be exhausting, and these are rare.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Andhra Pradesh",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-andhra-pradesh-national-institute-of-technology-tadepalligudem-59093/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Real and Raw Review of NIT Andhra Pradesh",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Civil Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'In my Civil Engineering department, the placement percentage was above 60 percent. However, the average placement package and the highest were way too low, the latter being 6.5 lakhs per annum.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Andhra Pradesh",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-andhra-pradesh-national-institute-of-technology-tadepalligudem-59093/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'75% of students get placed in this course. The highest package this year is 35 LPA and the lowest package is 6 LPA. The average package is 8.5 LPA. Some recruiting companies like TCS, Amazon, Ola, etc., visit the college for placements. Many students got internships in various companies like Microsoft, ISRO, etc.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There are large classrooms which are capable of fitting 90-100 students at a time. Classrooms are fitted with smart TVs, blackboards, and whiteboards. Hostels are very neat and new. Wi-Fi is available in the hostel with good connectivity.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The food is hygienic, healthy, and tasty. A 24x7 medical facility is available.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Andhra Pradesh",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-andhra-pradesh-national-institute-of-technology-tadepalligudem-59093/faculty",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This item, combined with an independent Zollege source below, provides corroborated evidence of a specific institutional governance concern (lack of a permanent director).",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Absolutely disappointed with the placements in 2024, and no proper director is the greatest flaw.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Andhra Pradesh",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-andhra-pradesh-national-institute-of-technology-tadepalligudem-59093/reviews-3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2026.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'My seniors are getting placed right now. The following are the statistics for placement: the highest package: INR 47.5 LPA, the lowest package: INR 5 LPA, average package: INR 7 LPA. Top recruiters: Waart Global Tech, Amazon, Google, JustPay, Cactus, Atlassian, Gold[man Sachs]' (name truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Andhra Pradesh",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-andhra-pradesh-national-institute-of-technology-tadepalligudem-59093/reviews-3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2026, appears to be a different reviewer than the item above despite the same branch/batch, based on distinct content.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Infrastructure is good as it is a new campus. Faculty is not up to the mark. 40% of students are getting placed. Many big companies are reaching out our colleges but not able to pick fine students out of us.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Andhra Pradesh",
+          "source": "Zollege",
+          "source_type": "aggregator",
+          "source_url": "https://zollege.in/university/215117-nit-andhra-pradesh-tadepalligudem/hostel",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This independently corroborates the 'no permanent director' governance concern also found in a Shiksha review above — two separate platforms/reviewers raising the same specific, distinctive institutional issue strengthens the evidentiary basis for this claim relative to typical single-source complaints in this dataset.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Campus is ragging free, all seniors are good. Management take[s] very strict action against ragging.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'College is located in [a] small town. There is nothing outside campus to explore.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Director is not fixed. There is no permanent director for the campus, temporary directors change all the time.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Hostel rooms are very good as this is a newly constructed college, the rooms are very neat and nice.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Mess food is above average with a blend of south and north Indian foods.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The social life is good in and out of the campus also. But there is [a] problem with the changing temperature in Tadepalligudem. There are so many clubs like nature club, Brindavanam club, DND club, etc. There are two fests every year.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Andhra Pradesh",
+          "source": "CollegeBatch",
+          "source_type": "aggregator",
+          "source_url": "https://www.collegebatch.com/11521-national-institute-of-technology-hostel-fees-facilities-tadepalligudem",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": "2024-10-18",
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Since it is [a] new institute, the hostel infrastructure is good and you will get decent Wi-Fi speed. Hostel facilities include drinking water, housekeeping, 24/7 security. Hostel life is good here and no ragging in hostels. Every year, intra hostel sports will be conducted between blocks.'"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 11,
+        "independent_sources": 4,
+        "reviews_with_dates": 2,
+        "reviews_last_24_months": 2,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 11
+      },
+
+      "limitations": [
+        "Quora: no genuine Quora-hosted threads specific to this institution were clearly identified as distinct results in this session's targeted searches, unlike most other colleges in this dataset; official institutional PDF documents (hostel/ragging circulars) surfaced instead and were not treated as student review evidence.",
+        "Reddit: targeted search for NIT Andhra Pradesh/NITAP on Reddit did not surface genuine reddit.com-hosted threads in this session, despite a dedicated search attempt; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "NOTABLE PATTERN: A specific, distinctive institutional governance concern — the absence of a permanent institute director, with temporary/rotating directors — is independently corroborated across two separate sources (a Shiksha review and a Zollege review), providing a stronger evidentiary basis than typical single-source complaints elsewhere in this dataset.",
+        "Reported campus acreage varies notably across sources (172.6, 173, 176, and 350 acres all appeared) — this range is preserved rather than resolved to a single figure.",
+        "Careers360's rating for this institution is expressed only as a qualitative 'AAAA' tier rather than a directly confirmed numeric X.X/5 aggregate with review count in this session's searches.",
+        "Two reviews in this extraction batch carried explicit visible dates, both within the last 24 months from the current date.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~190+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

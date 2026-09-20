@@ -31,6 +31,73 @@ function numericRound(value) {
 }
 
 
+function classifyAdmissionWindow(
+  studentRank,
+  r1OpeningRank,
+  lastRoundClosingRank
+) {
+  const rank =
+    toNumber(
+      studentRank
+    );
+
+  const opening =
+    toNumber(
+      r1OpeningRank
+    );
+
+  const closing =
+    toNumber(
+      lastRoundClosingRank
+    );
+
+
+  if (
+    rank === null ||
+    opening === null ||
+    closing === null ||
+    closing <= opening
+  ) {
+    return null;
+  }
+
+
+  if (
+    rank <= opening
+  ) {
+    return 'Backup';
+  }
+
+
+  const position =
+    (
+      rank -
+      opening
+    ) /
+    (
+      closing -
+      opening
+    );
+
+
+  if (
+    position <= 0.60
+  ) {
+    return 'Safe';
+  }
+
+
+  if (
+    rank <= closing
+  ) {
+    return 'Target';
+  }
+
+
+  return 'Dream';
+}
+
+
 function classifyRankRatio(
   rankRatio
 ) {
@@ -1043,6 +1110,11 @@ function buildRouteIntelligence({
       true,
 
     historicalBucket:
+      classifyAdmissionWindow(
+        normalizedRank,
+        latestYear?.openingRank,
+        latestYear?.closingRank
+      ) ??
       weighted.bucket,
 
     weightedRankRatio:
@@ -1128,10 +1200,10 @@ function buildHistoricalAdmissionIntelligence({
       },
 
       openingRankUsage:
-        'display-only',
+        'R1-opening-rank',
 
       closingRankUsage:
-        'admission-boundary',
+        'last-round-closing-rank',
 
       confidenceMeaning:
         'historical-prediction-reliability',

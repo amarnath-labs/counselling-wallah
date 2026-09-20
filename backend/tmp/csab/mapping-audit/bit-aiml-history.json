@@ -1,0 +1,78 @@
+[
+  {
+    "institute": "Birla Institute of Technology, Mesra, Ranchi",
+    "history": [
+      {
+        "year": 2024,
+        "program_name": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+        "rows": 17,
+        "rounds": "Special Round 1, Special Round 2",
+        "quotas": "AI, HS",
+        "categories": "EWS, OBC-NCL, OPEN, SC, ST",
+        "genders": "Female-only (including Supernumerary), Gender-Neutral",
+        "min_opening": 22212,
+        "max_closing": 461595
+      },
+      {
+        "year": 2025,
+        "program_name": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+        "rows": 26,
+        "rounds": "Special Round 1, Special Round 2, Special Round 3",
+        "quotas": "AI, HS",
+        "categories": "EWS, OBC-NCL, OBC-NCL (PwD), OPEN, OPEN (PwD), SC, ST",
+        "genders": "Female-only (including Supernumerary), Gender-Neutral",
+        "min_opening": 23083,
+        "max_closing": 1065859
+      },
+      {
+        "year": 2026,
+        "program_name": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)",
+        "rows": 13,
+        "rounds": "Special Round 1, Special Round 2",
+        "quotas": "All India",
+        "categories": "EWS, OBC-NCL, OBC-NCL (PwD), OPEN, SC, ST",
+        "genders": "Female-only (including Supernumerary), Gender-Neutral",
+        "min_opening": 27428,
+        "max_closing": 833996
+      }
+    ]
+  },
+  {
+    "institute": "Birla Institute of Technology, Patna Off-Campus",
+    "history": [
+      {
+        "year": 2024,
+        "program_name": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+        "rows": 22,
+        "rounds": "Special Round 1, Special Round 2",
+        "quotas": "AI, HS",
+        "categories": "EWS, OBC-NCL, OPEN, SC, ST",
+        "genders": "Female-only (including Supernumerary), Gender-Neutral",
+        "min_opening": 50718,
+        "max_closing": 860344
+      },
+      {
+        "year": 2025,
+        "program_name": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+        "rows": 30,
+        "rounds": "Special Round 1, Special Round 2, Special Round 3",
+        "quotas": "AI, HS",
+        "categories": "EWS, OBC-NCL, OPEN, SC, ST",
+        "genders": "Female-only (including Supernumerary), Gender-Neutral",
+        "min_opening": 61840,
+        "max_closing": 1367475
+      },
+      {
+        "year": 2026,
+        "program_name": "Computer Science and Engineering (Artificial Intelligence and Machine Learning) (4 Years, Bachelor of Technology)",
+        "rows": 20,
+        "rounds": "Special Round 1, Special Round 2",
+        "quotas": "All India, Home State",
+        "categories": "EWS, OBC-NCL, OPEN, SC, ST",
+        "genders": "Female-only (including Supernumerary), Gender-Neutral",
+        "min_opening": 55623,
+        "max_closing": 1156340
+      }
+    ]
+  }
+]

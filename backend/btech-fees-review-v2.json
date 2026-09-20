@@ -1,0 +1,42 @@
+[
+  {
+    "college_id": "indian-institute-of-technology-roorkee",
+    "name": "Indian Institute of Technology Roorkee",
+    "status": "REVIEW",
+    "score": 20,
+    "signals": 2,
+    "amounts": 2,
+    "btech": true,
+    "tuition": false,
+    "semester": false,
+    "hostel": false,
+    "mess": false,
+    "income": false,
+    "category": false,
+    "total": false,
+    "admission": false,
+    "caution": false,
+    "foreign_mixed": false,
+    "source_url": "https://iitr.ac.in/Academics/Institute%20Fees.html"
+  },
+  {
+    "college_id": "national-institute-of-technology-patna",
+    "name": "National Institute of Technology Patna",
+    "status": "REVIEW",
+    "score": 0,
+    "signals": 0,
+    "amounts": 2,
+    "btech": false,
+    "tuition": false,
+    "semester": false,
+    "hostel": false,
+    "mess": false,
+    "income": false,
+    "category": false,
+    "total": false,
+    "admission": false,
+    "caution": false,
+    "foreign_mixed": false,
+    "source_url": "https://www.nitp.ac.in/Academic/Fee"
+  }
+]

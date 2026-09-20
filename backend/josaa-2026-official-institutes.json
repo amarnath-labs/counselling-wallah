@@ -1,0 +1,554 @@
+[
+  {
+    "josaa_code": "101",
+    "institute_name": "Indian Institute of Technology Bhubaneswar"
+  },
+  {
+    "josaa_code": "102",
+    "institute_name": "Indian Institute of Technology Bombay"
+  },
+  {
+    "josaa_code": "103",
+    "institute_name": "Indian Institute of Technology Mandi"
+  },
+  {
+    "josaa_code": "104",
+    "institute_name": "Indian Institute of Technology Delhi"
+  },
+  {
+    "josaa_code": "105",
+    "institute_name": "Indian Institute of Technology Indore"
+  },
+  {
+    "josaa_code": "106",
+    "institute_name": "Indian Institute of Technology Kharagpur"
+  },
+  {
+    "josaa_code": "107",
+    "institute_name": "Indian Institute of Technology Hyderabad"
+  },
+  {
+    "josaa_code": "108",
+    "institute_name": "Indian Institute of Technology Jodhpur"
+  },
+  {
+    "josaa_code": "109",
+    "institute_name": "Indian Institute of Technology Kanpur"
+  },
+  {
+    "josaa_code": "110",
+    "institute_name": "Indian Institute of Technology Madras"
+  },
+  {
+    "josaa_code": "111",
+    "institute_name": "Indian Institute of Technology Gandhinagar"
+  },
+  {
+    "josaa_code": "112",
+    "institute_name": "Indian Institute of Technology Patna"
+  },
+  {
+    "josaa_code": "113",
+    "institute_name": "Indian Institute of Technology Roorkee"
+  },
+  {
+    "josaa_code": "114",
+    "institute_name": "Indian Institute of Technology (ISM) Dhanbad"
+  },
+  {
+    "josaa_code": "115",
+    "institute_name": "Indian Institute of Technology Ropar"
+  },
+  {
+    "josaa_code": "116",
+    "institute_name": "Indian Institute of Technology (BHU) Varanasi"
+  },
+  {
+    "josaa_code": "117",
+    "institute_name": "Indian Institute of Technology Guwahati"
+  },
+  {
+    "josaa_code": "118",
+    "institute_name": "Indian Institute of Technology Bhilai"
+  },
+  {
+    "josaa_code": "119",
+    "institute_name": "Indian Institute of Technology Goa"
+  },
+  {
+    "josaa_code": "120",
+    "institute_name": "Indian Institute of Technology Palakkad"
+  },
+  {
+    "josaa_code": "121",
+    "institute_name": "Indian Institute of Technology Tirupati"
+  },
+  {
+    "josaa_code": "122",
+    "institute_name": "Indian Institute of Technology Jammu"
+  },
+  {
+    "josaa_code": "123",
+    "institute_name": "Indian Institute of Technology Dharwad"
+  },
+  {
+    "josaa_code": "124",
+    "institute_name": "Indian Institute of Science, Bangalore"
+  },
+  {
+    "josaa_code": "201",
+    "institute_name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar"
+  },
+  {
+    "josaa_code": "202",
+    "institute_name": "Malaviya National Institute of Technology Jaipur"
+  },
+  {
+    "josaa_code": "203",
+    "institute_name": "Maulana Azad National Institute of Technology Bhopal"
+  },
+  {
+    "josaa_code": "204",
+    "institute_name": "Motilal Nehru National Institute of Technology Allahabad"
+  },
+  {
+    "josaa_code": "205",
+    "institute_name": "National Institute of Technology Agartala"
+  },
+  {
+    "josaa_code": "206",
+    "institute_name": "National Institute of Technology Calicut"
+  },
+  {
+    "josaa_code": "207",
+    "institute_name": "National Institute of Technology Delhi"
+  },
+  {
+    "josaa_code": "208",
+    "institute_name": "National Institute of Technology Durgapur"
+  },
+  {
+    "josaa_code": "209",
+    "institute_name": "National Institute of Technology Goa"
+  },
+  {
+    "josaa_code": "210",
+    "institute_name": "National Institute of Technology Hamirpur"
+  },
+  {
+    "josaa_code": "211",
+    "institute_name": "National Institute of Technology Karnataka, Surathkal"
+  },
+  {
+    "josaa_code": "212",
+    "institute_name": "National Institute of Technology Meghalaya"
+  },
+  {
+    "josaa_code": "213",
+    "institute_name": "National Institute of Technology Nagaland"
+  },
+  {
+    "josaa_code": "214",
+    "institute_name": "National Institute of Technology Patna"
+  },
+  {
+    "josaa_code": "215",
+    "institute_name": "National Institute of Technology Puducherry"
+  },
+  {
+    "josaa_code": "216",
+    "institute_name": "National Institute of Technology Raipur"
+  },
+  {
+    "josaa_code": "217",
+    "institute_name": "National Institute of Technology Sikkim"
+  },
+  {
+    "josaa_code": "218",
+    "institute_name": "National Institute of Technology Arunachal Pradesh"
+  },
+  {
+    "josaa_code": "219",
+    "institute_name": "National Institute of Technology, Jamshedpur"
+  },
+  {
+    "josaa_code": "220",
+    "institute_name": "National Institute of Technology, Kurukshetra"
+  },
+  {
+    "josaa_code": "221",
+    "institute_name": "National Institute of Technology, Manipur"
+  },
+  {
+    "josaa_code": "222",
+    "institute_name": "National Institute of Technology, Mizoram"
+  },
+  {
+    "josaa_code": "223",
+    "institute_name": "National Institute of Technology, Rourkela"
+  },
+  {
+    "josaa_code": "224",
+    "institute_name": "National Institute of Technology, Silchar"
+  },
+  {
+    "josaa_code": "225",
+    "institute_name": "National Institute of Technology, Srinagar"
+  },
+  {
+    "josaa_code": "226",
+    "institute_name": "National Institute of Technology, Tiruchirappalli"
+  },
+  {
+    "josaa_code": "227",
+    "institute_name": "National Institute of Technology, Uttarakhand"
+  },
+  {
+    "josaa_code": "228",
+    "institute_name": "National Institute of Technology, Warangal"
+  },
+  {
+    "josaa_code": "229",
+    "institute_name": "Sardar Vallabhbhai National Institute of Technology, Surat"
+  },
+  {
+    "josaa_code": "230",
+    "institute_name": "Visvesvaraya National Institute of Technology, Nagpur"
+  },
+  {
+    "josaa_code": "231",
+    "institute_name": "National Institute of Technology, Andhra Pradesh"
+  },
+  {
+    "josaa_code": "232",
+    "institute_name": "Indian Institute of Engineering Science and Technology, Shibpur"
+  },
+  {
+    "josaa_code": "301",
+    "institute_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior"
+  },
+  {
+    "josaa_code": "302",
+    "institute_name": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan"
+  },
+  {
+    "josaa_code": "303",
+    "institute_name": "Indian Institute of Information Technology Guwahati"
+  },
+  {
+    "josaa_code": "304",
+    "institute_name": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal"
+  },
+  {
+    "josaa_code": "305",
+    "institute_name": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana"
+  },
+  {
+    "josaa_code": "306",
+    "institute_name": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh"
+  },
+  {
+    "josaa_code": "307",
+    "institute_name": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor"
+  },
+  {
+    "josaa_code": "308",
+    "institute_name": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat"
+  },
+  {
+    "josaa_code": "309",
+    "institute_name": "Indian Institute of Information Technology, Allahabad"
+  },
+  {
+    "josaa_code": "310",
+    "institute_name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram"
+  },
+  {
+    "josaa_code": "311",
+    "institute_name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur"
+  },
+  {
+    "josaa_code": "313",
+    "institute_name": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR"
+  },
+  {
+    "josaa_code": "314",
+    "institute_name": "Indian Institute of Information Technology Tiruchirappalli"
+  },
+  {
+    "josaa_code": "315",
+    "institute_name": "Indian Institute of Information Technology Lucknow"
+  },
+  {
+    "josaa_code": "316",
+    "institute_name": "Indian Institute of Information Technology(IIIT) Dharwad"
+  },
+  {
+    "josaa_code": "317",
+    "institute_name": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh"
+  },
+  {
+    "josaa_code": "318",
+    "institute_name": "Indian Institute of Information Technology(IIIT) Kottayam"
+  },
+  {
+    "josaa_code": "319",
+    "institute_name": "Indian Institute of Information Technology (IIIT) Ranchi"
+  },
+  {
+    "josaa_code": "320",
+    "institute_name": "Indian Institute of Information Technology (IIIT) Nagpur"
+  },
+  {
+    "josaa_code": "321",
+    "institute_name": "Indian Institute of Information Technology (IIIT) Pune"
+  },
+  {
+    "josaa_code": "322",
+    "institute_name": "Indian Institute of Information Technology Bhagalpur"
+  },
+  {
+    "josaa_code": "323",
+    "institute_name": "Indian Institute of Information Technology Bhopal"
+  },
+  {
+    "josaa_code": "324",
+    "institute_name": "Indian Institute of Information Technology Surat"
+  },
+  {
+    "josaa_code": "325",
+    "institute_name": "Indian Institute of Information Technology, Agartala"
+  },
+  {
+    "josaa_code": "326",
+    "institute_name": "Indian institute of information technology, Raichur, Karnataka"
+  },
+  {
+    "josaa_code": "327",
+    "institute_name": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)"
+  },
+  {
+    "josaa_code": "401",
+    "institute_name": "Assam University, Silchar"
+  },
+  {
+    "josaa_code": "402",
+    "institute_name": "Birla Institute of Technology, Mesra, Ranchi"
+  },
+  {
+    "josaa_code": "403",
+    "institute_name": "Gurukula Kangri Vishwavidyalaya, Haridwar"
+  },
+  {
+    "josaa_code": "404",
+    "institute_name": "Indian Institute of Carpet Technology, Bhadohi"
+  },
+  {
+    "josaa_code": "405",
+    "institute_name": "Institute of Infrastructure, Technology, Research and Management-Ahmedabad"
+  },
+  {
+    "josaa_code": "406",
+    "institute_name": "School of Studies of Engineering and Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur"
+  },
+  {
+    "josaa_code": "407",
+    "institute_name": "J.K. Institute of Applied Physics & Technology, Department of Electronics & Communication, University of Allahabad- Allahabad"
+  },
+  {
+    "josaa_code": "408",
+    "institute_name": "National Institute of Electronics and Information Technology, Aurangabad (Maharashtra)"
+  },
+  {
+    "josaa_code": "409",
+    "institute_name": "National Institute of Advanced Manufacturing Technology, Ranchi"
+  },
+  {
+    "josaa_code": "410",
+    "institute_name": "Sant Longowal Institute of Engineering and Technology"
+  },
+  {
+    "josaa_code": "411",
+    "institute_name": "Mizoram University, Aizawl"
+  },
+  {
+    "josaa_code": "412",
+    "institute_name": "School of Engineering, Tezpur University, Napaam, Tezpur"
+  },
+  {
+    "josaa_code": "413",
+    "institute_name": "School of Planning & Architecture, Bhopal"
+  },
+  {
+    "josaa_code": "414",
+    "institute_name": "School of Planning & Architecture, New Delhi"
+  },
+  {
+    "josaa_code": "415",
+    "institute_name": "School of Planning & Architecture: Vijayawada"
+  },
+  {
+    "josaa_code": "416",
+    "institute_name": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir"
+  },
+  {
+    "josaa_code": "420",
+    "institute_name": "International Institute of Information Technology, Naya Raipur"
+  },
+  {
+    "josaa_code": "421",
+    "institute_name": "University of Hyderabad"
+  },
+  {
+    "josaa_code": "422",
+    "institute_name": "Punjab Engineering College, Chandigarh"
+  },
+  {
+    "josaa_code": "423",
+    "institute_name": "Jawaharlal Nehru University, Delhi"
+  },
+  {
+    "josaa_code": "424",
+    "institute_name": "International Institute of Information Technology, Bhubaneswar"
+  },
+  {
+    "josaa_code": "425",
+    "institute_name": "Central institute of Technology Kokrajar, Assam"
+  },
+  {
+    "josaa_code": "426",
+    "institute_name": "Puducherry Technological University, Puducherry"
+  },
+  {
+    "josaa_code": "427",
+    "institute_name": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal"
+  },
+  {
+    "josaa_code": "428",
+    "institute_name": "Central University of Rajasthan, Rajasthan"
+  },
+  {
+    "josaa_code": "430",
+    "institute_name": "National Institute of Food Technology Entrepreneurship and Management, Kundli"
+  },
+  {
+    "josaa_code": "431",
+    "institute_name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur"
+  },
+  {
+    "josaa_code": "432",
+    "institute_name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh"
+  },
+  {
+    "josaa_code": "433",
+    "institute_name": "Indian Institute of Handloom Technology(IIHT), Varanasi"
+  },
+  {
+    "josaa_code": "434",
+    "institute_name": "Chhattisgarh Swami Vivekanada Technical University, Bhilai (CSVTU Bhilai)"
+  },
+  {
+    "josaa_code": "435",
+    "institute_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar"
+  },
+  {
+    "josaa_code": "436",
+    "institute_name": "North-Eastern Hill University, Shillong"
+  },
+  {
+    "josaa_code": "437",
+    "institute_name": "Central University of Jammu"
+  },
+  {
+    "josaa_code": "438",
+    "institute_name": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)"
+  },
+  {
+    "josaa_code": "439",
+    "institute_name": "Central University of Haryana"
+  },
+  {
+    "josaa_code": "440",
+    "institute_name": "Birla Institute of Technology, Deoghar Off-Campus"
+  },
+  {
+    "josaa_code": "441",
+    "institute_name": "Birla Institute of Technology, Patna Off-Campus"
+  },
+  {
+    "josaa_code": "442",
+    "institute_name": "Indian Institute of Handloom Technology, Salem"
+  },
+  {
+    "josaa_code": "443",
+    "institute_name": "Gati Shakti Vishwavidyalaya, Vadodara"
+  },
+  {
+    "josaa_code": "444",
+    "institute_name": "CU Jharkhand"
+  },
+  {
+    "josaa_code": "445",
+    "institute_name": "National Institute of Electronics and Information Technology, Ropar (Punjab)"
+  },
+  {
+    "josaa_code": "446",
+    "institute_name": "National Institute of Electronics and Information Technology, Patna (Bihar)"
+  },
+  {
+    "josaa_code": "447",
+    "institute_name": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)"
+  },
+  {
+    "josaa_code": "448",
+    "institute_name": "National Institute of Electronics and Information Technology, Gorakhpur (UP)"
+  },
+  {
+    "josaa_code": "449",
+    "institute_name": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)"
+  },
+  {
+    "josaa_code": "450",
+    "institute_name": "Islamic University of Science and Technology Kashmir"
+  },
+  {
+    "josaa_code": "451",
+    "institute_name": "Shri G. S. Institute of Technology and Science Indore"
+  },
+  {
+    "josaa_code": "452",
+    "institute_name": "National Institute of Technical Teachers Training and Research Bhopal"
+  },
+  {
+    "josaa_code": "453",
+    "institute_name": "Central University of Karnataka"
+  },
+  {
+    "josaa_code": "454",
+    "institute_name": "National Institute of Electronics and Information Technology, Agartala"
+  },
+  {
+    "josaa_code": "455",
+    "institute_name": "National Institute of Electronics and Information Technology, Aizawl"
+  },
+  {
+    "josaa_code": "456",
+    "institute_name": "National Institute of Electronics and Information Technology, Imphal"
+  },
+  {
+    "josaa_code": "457",
+    "institute_name": "National Institute of Electronics and Information Technology, Calicut"
+  },
+  {
+    "josaa_code": "458",
+    "institute_name": "National Institute of Electronics and Information Technology, Kohima"
+  },
+  {
+    "josaa_code": "459",
+    "institute_name": "National Institute of Electronics and Information Technology, Srinagar"
+  },
+  {
+    "josaa_code": "460",
+    "institute_name": "Central University of Punjab, Bathinda"
+  }
+]

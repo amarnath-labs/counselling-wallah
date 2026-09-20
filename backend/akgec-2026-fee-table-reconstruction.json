@@ -1,0 +1,3230 @@
+{
+  "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+  "college_name": "AJAY KUMAR GARG ENGG. COLLEGE,GHAZIABAD",
+  "academic_year": 2026,
+  "session": "2026-27",
+  "general": {
+    "source_key": "btech_general",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-2026-27_0001.pdf",
+    "category": "GENERAL",
+    "academic_year": 2026,
+    "session": "2026-27",
+    "line_count": 59,
+    "high_confidence": {
+      "career_planning_placement_one_time": 10000,
+      "counselling_general_obc_adjustment": 20000,
+      "counselling_sc_st_adjustment": 12000
+    },
+    "all_plausible_fee_numbers": [
+      600,
+      5295,
+      10000,
+      12000,
+      20000,
+      50000,
+      100000,
+      201001
+    ],
+    "suspicious_numbers": [
+      8744052891,
+      7290034976,
+      7290034978,
+      2026,
+      11715600,
+      508010250461
+    ],
+    "components": {
+      "tuition": [],
+      "registration": [],
+      "development": [],
+      "admission": [],
+      "activity": [
+        {
+          "line_no": 17,
+          "text": "Activity Fee (One Time) soocooo ooo ooo ood",
+          "values": [],
+          "nearby": [
+            {
+              "line_no": 16,
+              "text": "Exams Envollment Fees",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 17,
+              "text": "Activity Fee (One Time) soocooo ooo ooo ood",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 18,
+              "text": "lPopcharges ool sooo ooo ooo",
+              "plausible_fees": []
+            }
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "line_no": 19,
+          "text": "Career Planning & Placement",
+          "values": [
+            10000
+          ],
+          "nearby": [
+            {
+              "line_no": 18,
+              "text": "lPopcharges ool sooo ooo ooo",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 19,
+              "text": "Career Planning & Placement",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 20,
+              "text": "One Time) 10000.00",
+              "plausible_fees": [
+                10000
+              ]
+            }
+          ]
+        }
+      ],
+      "examination": [
+        {
+          "line_no": 16,
+          "text": "Exams Envollment Fees",
+          "values": [],
+          "nearby": [
+            {
+              "line_no": 15,
+              "text": "Tene GR Gow comes",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 16,
+              "text": "Exams Envollment Fees",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 17,
+              "text": "Activity Fee (One Time) soocooo ooo ooo ood",
+              "plausible_fees": []
+            }
+          ]
+        },
+        {
+          "line_no": 25,
+          "text": "1) \"Examination fee & Digital Library fee will be paid by the students directly to the University as and when demanded:",
+          "values": [],
+          "nearby": [
+            {
+              "line_no": 24,
+              "text": "Note:",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 25,
+              "text": "1) \"Examination fee & Digital Library fee will be paid by the students directly to the University as and when demanded:",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 26,
+              "text": "2) The college is approved by AICTE and is affiliated to Dr. AP Abdul Kalam Techinical University,",
+              "plausible_fees": []
+            }
+          ]
+        }
+      ],
+      "digital_library": [
+        {
+          "line_no": 25,
+          "text": "1) \"Examination fee & Digital Library fee will be paid by the students directly to the University as and when demanded:",
+          "values": [],
+          "nearby": [
+            {
+              "line_no": 24,
+              "text": "Note:",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 25,
+              "text": "1) \"Examination fee & Digital Library fee will be paid by the students directly to the University as and when demanded:",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 26,
+              "text": "2) The college is approved by AICTE and is affiliated to Dr. AP Abdul Kalam Techinical University,",
+              "plausible_fees": []
+            }
+          ]
+        }
+      ],
+      "caution_security": [
+        {
+          "line_no": 21,
+          "text": "caution money (Retundabte) so000 ooo ooo ou",
+          "values": [
+            10000
+          ],
+          "nearby": [
+            {
+              "line_no": 20,
+              "text": "One Time) 10000.00",
+              "plausible_fees": [
+                10000
+              ]
+            },
+            {
+              "line_no": 21,
+              "text": "caution money (Retundabte) so000 ooo ooo ou",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 22,
+              "text": "convocation charges ool ooo ooo ica0oo",
+              "plausible_fees": []
+            }
+          ]
+        }
+      ],
+      "total": [
+        {
+          "line_no": 28,
+          "text": "4) The amount deposited at counselling centre (Gen.,OBC Rs. 20000/- & SC/ST Rs,12000/-) should be deducted from the total fee.",
+          "values": [
+            20000,
+            12000
+          ],
+          "nearby": [
+            {
+              "line_no": 27,
+              "text": "3) The fee structure is subject to change by the state / fee fixation Committee if any,",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 28,
+              "text": "4) The amount deposited at counselling centre (Gen.,OBC Rs. 20000/- & SC/ST Rs,12000/-) should be deducted from the total fee.",
+              "plausible_fees": [
+                20000,
+                12000
+              ]
+            },
+            {
+              "line_no": 29,
+              "text": "5) Separate DD/PQ or any online payment should be made for academic and hostel fee,",
+              "plausible_fees": []
+            }
+          ]
+        }
+      ]
+    },
+    "year_candidates": {
+      "year_1": [],
+      "year_2": [
+        {
+          "line_no": 14,
+          "text": "Tst Year IInd Year IIird Year IV th Year",
+          "candidates": [],
+          "context": [
+            "Academic Fees for the Academic Year 2026-27",
+            "eee IBSTECH B-TECH (PROVISIONAL",
+            "Tst Year IInd Year IIird Year IV th Year",
+            "Tene GR Gow comes",
+            "Exams Envollment Fees",
+            "Activity Fee (One Time) soocooo ooo ooo ood",
+            "lPopcharges ool sooo ooo ooo"
+          ]
+        }
+      ],
+      "year_3": [
+        {
+          "line_no": 14,
+          "text": "Tst Year IInd Year IIird Year IV th Year",
+          "candidates": [],
+          "context": [
+            "Academic Fees for the Academic Year 2026-27",
+            "eee IBSTECH B-TECH (PROVISIONAL",
+            "Tst Year IInd Year IIird Year IV th Year",
+            "Tene GR Gow comes",
+            "Exams Envollment Fees",
+            "Activity Fee (One Time) soocooo ooo ooo ood",
+            "lPopcharges ool sooo ooo ooo"
+          ]
+        }
+      ],
+      "year_4": []
+    },
+    "contexts": [
+      {
+        "focus_line": 14,
+        "focus_labels": [
+          "YEAR_2",
+          "YEAR_3"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 12,
+            "text": "Academic Fees for the Academic Year 2026-27",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "2026",
+                "value": 2026
+              },
+              {
+                "raw": "27",
+                "value": 27
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": [
+              2026
+            ]
+          },
+          {
+            "line_no": 13,
+            "text": "eee IBSTECH B-TECH (PROVISIONAL",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 14,
+            "text": "Tst Year IInd Year IIird Year IV th Year",
+            "labels": [
+              "YEAR_2",
+              "YEAR_3"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 15,
+            "text": "Tene GR Gow comes",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 16,
+            "text": "Exams Envollment Fees",
+            "labels": [
+              "EXAMINATION"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 16,
+        "focus_labels": [
+          "EXAMINATION"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 14,
+            "text": "Tst Year IInd Year IIird Year IV th Year",
+            "labels": [
+              "YEAR_2",
+              "YEAR_3"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 15,
+            "text": "Tene GR Gow comes",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 16,
+            "text": "Exams Envollment Fees",
+            "labels": [
+              "EXAMINATION"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 17,
+            "text": "Activity Fee (One Time) soocooo ooo ooo ood",
+            "labels": [
+              "ACTIVITY"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 18,
+            "text": "lPopcharges ool sooo ooo ooo",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 17,
+        "focus_labels": [
+          "ACTIVITY"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 15,
+            "text": "Tene GR Gow comes",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 16,
+            "text": "Exams Envollment Fees",
+            "labels": [
+              "EXAMINATION"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 17,
+            "text": "Activity Fee (One Time) soocooo ooo ooo ood",
+            "labels": [
+              "ACTIVITY"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 18,
+            "text": "lPopcharges ool sooo ooo ooo",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 19,
+            "text": "Career Planning & Placement",
+            "labels": [
+              "PLACEMENT"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 19,
+        "focus_labels": [
+          "PLACEMENT"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 17,
+            "text": "Activity Fee (One Time) soocooo ooo ooo ood",
+            "labels": [
+              "ACTIVITY"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 18,
+            "text": "lPopcharges ool sooo ooo ooo",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 19,
+            "text": "Career Planning & Placement",
+            "labels": [
+              "PLACEMENT"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 20,
+            "text": "One Time) 10000.00",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "10000.00",
+                "value": 10000
+              }
+            ],
+            "plausible_fees": [
+              10000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 21,
+            "text": "caution money (Retundabte) so000 ooo ooo ou",
+            "labels": [
+              "CAUTION_SECURITY"
+            ],
+            "numbers": [
+              {
+                "raw": "000",
+                "value": 0
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 20,
+        "focus_labels": [],
+        "focus_fees": [
+          10000
+        ],
+        "context": [
+          {
+            "line_no": 18,
+            "text": "lPopcharges ool sooo ooo ooo",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 19,
+            "text": "Career Planning & Placement",
+            "labels": [
+              "PLACEMENT"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 20,
+            "text": "One Time) 10000.00",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "10000.00",
+                "value": 10000
+              }
+            ],
+            "plausible_fees": [
+              10000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 21,
+            "text": "caution money (Retundabte) so000 ooo ooo ou",
+            "labels": [
+              "CAUTION_SECURITY"
+            ],
+            "numbers": [
+              {
+                "raw": "000",
+                "value": 0
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 22,
+            "text": "convocation charges ool ooo ooo ica0oo",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "0",
+                "value": 0
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 21,
+        "focus_labels": [
+          "CAUTION_SECURITY"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 19,
+            "text": "Career Planning & Placement",
+            "labels": [
+              "PLACEMENT"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 20,
+            "text": "One Time) 10000.00",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "10000.00",
+                "value": 10000
+              }
+            ],
+            "plausible_fees": [
+              10000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 21,
+            "text": "caution money (Retundabte) so000 ooo ooo ou",
+            "labels": [
+              "CAUTION_SECURITY"
+            ],
+            "numbers": [
+              {
+                "raw": "000",
+                "value": 0
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 22,
+            "text": "convocation charges ool ooo ooo ica0oo",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "0",
+                "value": 0
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 23,
+            "text": "I ieseee 1z06s600 11715600 1rsiss.o)",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1",
+                "value": 1
+              },
+              {
+                "raw": "06",
+                "value": 6
+              },
+              {
+                "raw": "600",
+                "value": 600
+              },
+              {
+                "raw": "11715600",
+                "value": 11715600
+              },
+              {
+                "raw": "1",
+                "value": 1
+              }
+            ],
+            "plausible_fees": [
+              600
+            ],
+            "suspicious": [
+              11715600
+            ]
+          }
+        ]
+      },
+      {
+        "focus_line": 23,
+        "focus_labels": [],
+        "focus_fees": [
+          600
+        ],
+        "context": [
+          {
+            "line_no": 21,
+            "text": "caution money (Retundabte) so000 ooo ooo ou",
+            "labels": [
+              "CAUTION_SECURITY"
+            ],
+            "numbers": [
+              {
+                "raw": "000",
+                "value": 0
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 22,
+            "text": "convocation charges ool ooo ooo ica0oo",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "0",
+                "value": 0
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 23,
+            "text": "I ieseee 1z06s600 11715600 1rsiss.o)",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1",
+                "value": 1
+              },
+              {
+                "raw": "06",
+                "value": 6
+              },
+              {
+                "raw": "600",
+                "value": 600
+              },
+              {
+                "raw": "11715600",
+                "value": 11715600
+              },
+              {
+                "raw": "1",
+                "value": 1
+              }
+            ],
+            "plausible_fees": [
+              600
+            ],
+            "suspicious": [
+              11715600
+            ]
+          },
+          {
+            "line_no": 24,
+            "text": "Note:",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 25,
+            "text": "1) \"Examination fee & Digital Library fee will be paid by the students directly to the University as and when demanded:",
+            "labels": [
+              "EXAMINATION",
+              "DIGITAL_LIBRARY"
+            ],
+            "numbers": [
+              {
+                "raw": "1",
+                "value": 1
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 25,
+        "focus_labels": [
+          "EXAMINATION",
+          "DIGITAL_LIBRARY"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 23,
+            "text": "I ieseee 1z06s600 11715600 1rsiss.o)",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1",
+                "value": 1
+              },
+              {
+                "raw": "06",
+                "value": 6
+              },
+              {
+                "raw": "600",
+                "value": 600
+              },
+              {
+                "raw": "11715600",
+                "value": 11715600
+              },
+              {
+                "raw": "1",
+                "value": 1
+              }
+            ],
+            "plausible_fees": [
+              600
+            ],
+            "suspicious": [
+              11715600
+            ]
+          },
+          {
+            "line_no": 24,
+            "text": "Note:",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 25,
+            "text": "1) \"Examination fee & Digital Library fee will be paid by the students directly to the University as and when demanded:",
+            "labels": [
+              "EXAMINATION",
+              "DIGITAL_LIBRARY"
+            ],
+            "numbers": [
+              {
+                "raw": "1",
+                "value": 1
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 26,
+            "text": "2) The college is approved by AICTE and is affiliated to Dr. AP Abdul Kalam Techinical University,",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "2",
+                "value": 2
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 27,
+            "text": "3) The fee structure is subject to change by the state / fee fixation Committee if any,",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "3",
+                "value": 3
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 28,
+        "focus_labels": [
+          "TOTAL"
+        ],
+        "focus_fees": [
+          20000,
+          12000
+        ],
+        "context": [
+          {
+            "line_no": 26,
+            "text": "2) The college is approved by AICTE and is affiliated to Dr. AP Abdul Kalam Techinical University,",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "2",
+                "value": 2
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 27,
+            "text": "3) The fee structure is subject to change by the state / fee fixation Committee if any,",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "3",
+                "value": 3
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 28,
+            "text": "4) The amount deposited at counselling centre (Gen.,OBC Rs. 20000/- & SC/ST Rs,12000/-) should be deducted from the total fee.",
+            "labels": [
+              "TOTAL"
+            ],
+            "numbers": [
+              {
+                "raw": "4",
+                "value": 4
+              },
+              {
+                "raw": "20000",
+                "value": 20000
+              },
+              {
+                "raw": "12000",
+                "value": 12000
+              }
+            ],
+            "plausible_fees": [
+              20000,
+              12000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 29,
+            "text": "5) Separate DD/PQ or any online payment should be made for academic and hostel fee,",
+            "labels": [
+              "HOSTEL"
+            ],
+            "numbers": [
+              {
+                "raw": "5",
+                "value": 5
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 30,
+            "text": "6) Payments to be made by DD/PO or any online payment in favour of \"Ajay Kumar Garg Engineering College\"",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "6",
+                "value": 6
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 29,
+        "focus_labels": [
+          "HOSTEL"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 27,
+            "text": "3) The fee structure is subject to change by the state / fee fixation Committee if any,",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "3",
+                "value": 3
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 28,
+            "text": "4) The amount deposited at counselling centre (Gen.,OBC Rs. 20000/- & SC/ST Rs,12000/-) should be deducted from the total fee.",
+            "labels": [
+              "TOTAL"
+            ],
+            "numbers": [
+              {
+                "raw": "4",
+                "value": 4
+              },
+              {
+                "raw": "20000",
+                "value": 20000
+              },
+              {
+                "raw": "12000",
+                "value": 12000
+              }
+            ],
+            "plausible_fees": [
+              20000,
+              12000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 29,
+            "text": "5) Separate DD/PQ or any online payment should be made for academic and hostel fee,",
+            "labels": [
+              "HOSTEL"
+            ],
+            "numbers": [
+              {
+                "raw": "5",
+                "value": 5
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 30,
+            "text": "6) Payments to be made by DD/PO or any online payment in favour of \"Ajay Kumar Garg Engineering College\"",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "6",
+                "value": 6
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 31,
+            "text": "payable at Ghaziabad or Delhi. No part or cash payment shall be accepted.",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 35,
+        "focus_labels": [],
+        "focus_fees": [
+          201001
+        ],
+        "context": [
+          {
+            "line_no": 33,
+            "text": "Online transfer through NEFT/RTGS. Bank Account details of College for online payment are as under:",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 34,
+            "text": "Name of the Beneficiary Ajay Kumar Garg Engineering College",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 35,
+            "text": "Name of the Bank Kotak Mahindra Bank Ltd., Navyug Market, Ghaziabad -201001 (U.P.)-INDIA",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "201001",
+                "value": 201001
+              }
+            ],
+            "plausible_fees": [
+              201001
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 36,
+            "text": "Bank Account No. 508010250461 (Saving Bank Account)",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "508010250461",
+                "value": 508010250461
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": [
+              508010250461
+            ]
+          },
+          {
+            "line_no": 37,
+            "text": "RTGS/NEFT/IFSC Code KKBK0005295",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "0005295",
+                "value": 5295
+              }
+            ],
+            "plausible_fees": [
+              5295
+            ],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 37,
+        "focus_labels": [],
+        "focus_fees": [
+          5295
+        ],
+        "context": [
+          {
+            "line_no": 35,
+            "text": "Name of the Bank Kotak Mahindra Bank Ltd., Navyug Market, Ghaziabad -201001 (U.P.)-INDIA",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "201001",
+                "value": 201001
+              }
+            ],
+            "plausible_fees": [
+              201001
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 36,
+            "text": "Bank Account No. 508010250461 (Saving Bank Account)",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "508010250461",
+                "value": 508010250461
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": [
+              508010250461
+            ]
+          },
+          {
+            "line_no": 37,
+            "text": "RTGS/NEFT/IFSC Code KKBK0005295",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "0005295",
+                "value": 5295
+              }
+            ],
+            "plausible_fees": [
+              5295
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 38,
+            "text": "7) Medical charges Includes Medical Insurance on hospitalization upto Rs.50,000/-, Accidental Insurance upto",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "7",
+                "value": 7
+              },
+              {
+                "raw": "50,000",
+                "value": 50000
+              }
+            ],
+            "plausible_fees": [
+              50000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 39,
+            "text": "Rs.1,00,000/- and free OPD & annual medical checkup at Dr. R.S.G. (Indo-German) Hospital.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1,00,000",
+                "value": 100000
+              }
+            ],
+            "plausible_fees": [
+              100000
+            ],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 38,
+        "focus_labels": [],
+        "focus_fees": [
+          50000
+        ],
+        "context": [
+          {
+            "line_no": 36,
+            "text": "Bank Account No. 508010250461 (Saving Bank Account)",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "508010250461",
+                "value": 508010250461
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": [
+              508010250461
+            ]
+          },
+          {
+            "line_no": 37,
+            "text": "RTGS/NEFT/IFSC Code KKBK0005295",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "0005295",
+                "value": 5295
+              }
+            ],
+            "plausible_fees": [
+              5295
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 38,
+            "text": "7) Medical charges Includes Medical Insurance on hospitalization upto Rs.50,000/-, Accidental Insurance upto",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "7",
+                "value": 7
+              },
+              {
+                "raw": "50,000",
+                "value": 50000
+              }
+            ],
+            "plausible_fees": [
+              50000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 39,
+            "text": "Rs.1,00,000/- and free OPD & annual medical checkup at Dr. R.S.G. (Indo-German) Hospital.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1,00,000",
+                "value": 100000
+              }
+            ],
+            "plausible_fees": [
+              100000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 40,
+            "text": "Ajay r Garg En ay College",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 39,
+        "focus_labels": [],
+        "focus_fees": [
+          100000
+        ],
+        "context": [
+          {
+            "line_no": 37,
+            "text": "RTGS/NEFT/IFSC Code KKBK0005295",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "0005295",
+                "value": 5295
+              }
+            ],
+            "plausible_fees": [
+              5295
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 38,
+            "text": "7) Medical charges Includes Medical Insurance on hospitalization upto Rs.50,000/-, Accidental Insurance upto",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "7",
+                "value": 7
+              },
+              {
+                "raw": "50,000",
+                "value": 50000
+              }
+            ],
+            "plausible_fees": [
+              50000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 39,
+            "text": "Rs.1,00,000/- and free OPD & annual medical checkup at Dr. R.S.G. (Indo-German) Hospital.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1,00,000",
+                "value": 100000
+              }
+            ],
+            "plausible_fees": [
+              100000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 40,
+            "text": "Ajay r Garg En ay College",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 41,
+            "text": "IN \\ pod?",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      }
+    ],
+    "verified_year_fees": [],
+    "reconstruction_status": "TABLE_RECONSTRUCTION_REQUIRED",
+    "review_reasons": [
+      "One or more academic-year labels were not reliably reconstructed.",
+      "Four verified annual total-fee values are not available."
+    ]
+  },
+  "fee_waiver": {
+    "source_key": "btech_fee_waiver",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/B-Tech-Ist-Year-FW-2026-27_0001.pdf",
+    "category": "FEE_WAIVER",
+    "academic_year": 2026,
+    "session": "2026-27",
+    "line_count": 62,
+    "high_confidence": {
+      "career_planning_placement_one_time": 10000,
+      "counselling_general_obc_adjustment": 20000,
+      "counselling_sc_st_adjustment": 12000
+    },
+    "all_plausible_fee_numbers": [
+      1400,
+      5295,
+      10000,
+      12000,
+      20000,
+      50000,
+      100000,
+      201001
+    ],
+    "suspicious_numbers": [
+      8744052891,
+      7290034976,
+      7290034978,
+      2026,
+      17014.09,
+      508010250461
+    ],
+    "components": {
+      "tuition": [],
+      "registration": [],
+      "development": [],
+      "admission": [],
+      "activity": [
+        {
+          "line_no": 17,
+          "text": "activity ree (oneTimey sooooos ooo soo oo",
+          "values": [],
+          "nearby": [
+            {
+              "line_no": 16,
+              "text": "Exom & Enrotment reese J J 0",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 17,
+              "text": "activity ree (oneTimey sooooos ooo soo oo",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 18,
+              "text": "bopcnarges ool moo oo ool",
+              "plausible_fees": []
+            }
+          ]
+        }
+      ],
+      "placement": [
+        {
+          "line_no": 19,
+          "text": "Career Planning & Placement",
+          "values": [
+            10000
+          ],
+          "nearby": [
+            {
+              "line_no": 18,
+              "text": "bopcnarges ool moo oo ool",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 19,
+              "text": "Career Planning & Placement",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 20,
+              "text": "(One Time) 10000.00 0.00",
+              "plausible_fees": [
+                10000
+              ]
+            }
+          ]
+        }
+      ],
+      "examination": [
+        {
+          "line_no": 25,
+          "text": "1) \"Examination fee & Digital Library fee will be paid by the students directly to the University as and when demanded:",
+          "values": [],
+          "nearby": [
+            {
+              "line_no": 24,
+              "text": "Note:",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 25,
+              "text": "1) \"Examination fee & Digital Library fee will be paid by the students directly to the University as and when demanded:",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 26,
+              "text": "2) The college is approved by AICTE and is affiliated to Dr. APJ Abdul Kalam Techinical University.",
+              "plausible_fees": []
+            }
+          ]
+        }
+      ],
+      "digital_library": [
+        {
+          "line_no": 25,
+          "text": "1) \"Examination fee & Digital Library fee will be paid by the students directly to the University as and when demanded:",
+          "values": [],
+          "nearby": [
+            {
+              "line_no": 24,
+              "text": "Note:",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 25,
+              "text": "1) \"Examination fee & Digital Library fee will be paid by the students directly to the University as and when demanded:",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 26,
+              "text": "2) The college is approved by AICTE and is affiliated to Dr. APJ Abdul Kalam Techinical University.",
+              "plausible_fees": []
+            }
+          ]
+        }
+      ],
+      "caution_security": [
+        {
+          "line_no": 21,
+          "text": "caution Money (Refundable) sooo aco ooo oop",
+          "values": [
+            10000,
+            100000
+          ],
+          "nearby": [
+            {
+              "line_no": 20,
+              "text": "(One Time) 10000.00 0.00",
+              "plausible_fees": [
+                10000
+              ]
+            },
+            {
+              "line_no": 21,
+              "text": "caution Money (Refundable) sooo aco ooo oop",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 22,
+              "text": "lconvocationcharges ooo ooo 000 100000)",
+              "plausible_fees": [
+                100000
+              ]
+            }
+          ]
+        }
+      ],
+      "total": [
+        {
+          "line_no": 28,
+          "text": "4) The amount deposited at counselling centre (Gen.,0BC Rs. 20000/- & SC/ST Rs.12000/-) should be deducted from the total fee.",
+          "values": [
+            20000,
+            12000
+          ],
+          "nearby": [
+            {
+              "line_no": 27,
+              "text": "3) The fee structure is subject to change by the state / fee fixation Committee if any.",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 28,
+              "text": "4) The amount deposited at counselling centre (Gen.,0BC Rs. 20000/- & SC/ST Rs.12000/-) should be deducted from the total fee.",
+              "plausible_fees": [
+                20000,
+                12000
+              ]
+            },
+            {
+              "line_no": 29,
+              "text": "5) Separate DD/PO or any online payment should be made for academic and hostel fee.",
+              "plausible_fees": []
+            }
+          ]
+        }
+      ]
+    },
+    "year_candidates": {
+      "year_1": [],
+      "year_2": [],
+      "year_3": [],
+      "year_4": []
+    },
+    "contexts": [
+      {
+        "focus_line": 12,
+        "focus_labels": [
+          "FEE_WAIVER"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 10,
+            "text": "The tantative fees structure for 4 year B.Tech Course is as follows:",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "4",
+                "value": 4
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 11,
+            "text": "Academic Fees for the Academic Year 2026-27",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "2026",
+                "value": 2026
+              },
+              {
+                "raw": "27",
+                "value": 27
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": [
+              2026
+            ]
+          },
+          {
+            "line_no": 12,
+            "text": "B-TECH I YEAR UNDER FEE WAIVER SCHEME",
+            "labels": [
+              "FEE_WAIVER"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 13,
+            "text": "1 BTEcH B-TECH (PROVISIONAL",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1",
+                "value": 1
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 14,
+            "text": "Tst Year II nd Year TIIrd Year IV ih Year",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 17,
+        "focus_labels": [
+          "ACTIVITY"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 15,
+            "text": "cowm Gomes Gow cows",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 16,
+            "text": "Exom & Enrotment reese J J 0",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "0",
+                "value": 0
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 17,
+            "text": "activity ree (oneTimey sooooos ooo soo oo",
+            "labels": [
+              "ACTIVITY"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 18,
+            "text": "bopcnarges ool moo oo ool",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 19,
+            "text": "Career Planning & Placement",
+            "labels": [
+              "PLACEMENT"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 19,
+        "focus_labels": [
+          "PLACEMENT"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 17,
+            "text": "activity ree (oneTimey sooooos ooo soo oo",
+            "labels": [
+              "ACTIVITY"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 18,
+            "text": "bopcnarges ool moo oo ool",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 19,
+            "text": "Career Planning & Placement",
+            "labels": [
+              "PLACEMENT"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 20,
+            "text": "(One Time) 10000.00 0.00",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "10000.00",
+                "value": 10000
+              },
+              {
+                "raw": "0.00",
+                "value": 0
+              }
+            ],
+            "plausible_fees": [
+              10000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 21,
+            "text": "caution Money (Refundable) sooo aco ooo oop",
+            "labels": [
+              "CAUTION_SECURITY"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 20,
+        "focus_labels": [],
+        "focus_fees": [
+          10000
+        ],
+        "context": [
+          {
+            "line_no": 18,
+            "text": "bopcnarges ool moo oo ool",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 19,
+            "text": "Career Planning & Placement",
+            "labels": [
+              "PLACEMENT"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 20,
+            "text": "(One Time) 10000.00 0.00",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "10000.00",
+                "value": 10000
+              },
+              {
+                "raw": "0.00",
+                "value": 0
+              }
+            ],
+            "plausible_fees": [
+              10000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 21,
+            "text": "caution Money (Refundable) sooo aco ooo oop",
+            "labels": [
+              "CAUTION_SECURITY"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 22,
+            "text": "lconvocationcharges ooo ooo 000 100000)",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "000",
+                "value": 0
+              },
+              {
+                "raw": "100000",
+                "value": 100000
+              }
+            ],
+            "plausible_fees": [
+              100000
+            ],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 21,
+        "focus_labels": [
+          "CAUTION_SECURITY"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 19,
+            "text": "Career Planning & Placement",
+            "labels": [
+              "PLACEMENT"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 20,
+            "text": "(One Time) 10000.00 0.00",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "10000.00",
+                "value": 10000
+              },
+              {
+                "raw": "0.00",
+                "value": 0
+              }
+            ],
+            "plausible_fees": [
+              10000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 21,
+            "text": "caution Money (Refundable) sooo aco ooo oop",
+            "labels": [
+              "CAUTION_SECURITY"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 22,
+            "text": "lconvocationcharges ooo ooo 000 100000)",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "000",
+                "value": 0
+              },
+              {
+                "raw": "100000",
+                "value": 100000
+              }
+            ],
+            "plausible_fees": [
+              100000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 23,
+            "text": "1 sis = i0sisc0 1c01400 17014.09",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1",
+                "value": 1
+              },
+              {
+                "raw": "0",
+                "value": 0
+              },
+              {
+                "raw": "0",
+                "value": 0
+              },
+              {
+                "raw": "1",
+                "value": 1
+              },
+              {
+                "raw": "01400",
+                "value": 1400
+              },
+              {
+                "raw": "17014.09",
+                "value": 17014.09
+              }
+            ],
+            "plausible_fees": [
+              1400
+            ],
+            "suspicious": [
+              17014.09
+            ]
+          }
+        ]
+      },
+      {
+        "focus_line": 22,
+        "focus_labels": [],
+        "focus_fees": [
+          100000
+        ],
+        "context": [
+          {
+            "line_no": 20,
+            "text": "(One Time) 10000.00 0.00",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "10000.00",
+                "value": 10000
+              },
+              {
+                "raw": "0.00",
+                "value": 0
+              }
+            ],
+            "plausible_fees": [
+              10000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 21,
+            "text": "caution Money (Refundable) sooo aco ooo oop",
+            "labels": [
+              "CAUTION_SECURITY"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 22,
+            "text": "lconvocationcharges ooo ooo 000 100000)",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "000",
+                "value": 0
+              },
+              {
+                "raw": "100000",
+                "value": 100000
+              }
+            ],
+            "plausible_fees": [
+              100000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 23,
+            "text": "1 sis = i0sisc0 1c01400 17014.09",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1",
+                "value": 1
+              },
+              {
+                "raw": "0",
+                "value": 0
+              },
+              {
+                "raw": "0",
+                "value": 0
+              },
+              {
+                "raw": "1",
+                "value": 1
+              },
+              {
+                "raw": "01400",
+                "value": 1400
+              },
+              {
+                "raw": "17014.09",
+                "value": 17014.09
+              }
+            ],
+            "plausible_fees": [
+              1400
+            ],
+            "suspicious": [
+              17014.09
+            ]
+          },
+          {
+            "line_no": 24,
+            "text": "Note:",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 23,
+        "focus_labels": [],
+        "focus_fees": [
+          1400
+        ],
+        "context": [
+          {
+            "line_no": 21,
+            "text": "caution Money (Refundable) sooo aco ooo oop",
+            "labels": [
+              "CAUTION_SECURITY"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 22,
+            "text": "lconvocationcharges ooo ooo 000 100000)",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "000",
+                "value": 0
+              },
+              {
+                "raw": "100000",
+                "value": 100000
+              }
+            ],
+            "plausible_fees": [
+              100000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 23,
+            "text": "1 sis = i0sisc0 1c01400 17014.09",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1",
+                "value": 1
+              },
+              {
+                "raw": "0",
+                "value": 0
+              },
+              {
+                "raw": "0",
+                "value": 0
+              },
+              {
+                "raw": "1",
+                "value": 1
+              },
+              {
+                "raw": "01400",
+                "value": 1400
+              },
+              {
+                "raw": "17014.09",
+                "value": 17014.09
+              }
+            ],
+            "plausible_fees": [
+              1400
+            ],
+            "suspicious": [
+              17014.09
+            ]
+          },
+          {
+            "line_no": 24,
+            "text": "Note:",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 25,
+            "text": "1) \"Examination fee & Digital Library fee will be paid by the students directly to the University as and when demanded:",
+            "labels": [
+              "EXAMINATION",
+              "DIGITAL_LIBRARY"
+            ],
+            "numbers": [
+              {
+                "raw": "1",
+                "value": 1
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 25,
+        "focus_labels": [
+          "EXAMINATION",
+          "DIGITAL_LIBRARY"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 23,
+            "text": "1 sis = i0sisc0 1c01400 17014.09",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1",
+                "value": 1
+              },
+              {
+                "raw": "0",
+                "value": 0
+              },
+              {
+                "raw": "0",
+                "value": 0
+              },
+              {
+                "raw": "1",
+                "value": 1
+              },
+              {
+                "raw": "01400",
+                "value": 1400
+              },
+              {
+                "raw": "17014.09",
+                "value": 17014.09
+              }
+            ],
+            "plausible_fees": [
+              1400
+            ],
+            "suspicious": [
+              17014.09
+            ]
+          },
+          {
+            "line_no": 24,
+            "text": "Note:",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 25,
+            "text": "1) \"Examination fee & Digital Library fee will be paid by the students directly to the University as and when demanded:",
+            "labels": [
+              "EXAMINATION",
+              "DIGITAL_LIBRARY"
+            ],
+            "numbers": [
+              {
+                "raw": "1",
+                "value": 1
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 26,
+            "text": "2) The college is approved by AICTE and is affiliated to Dr. APJ Abdul Kalam Techinical University.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "2",
+                "value": 2
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 27,
+            "text": "3) The fee structure is subject to change by the state / fee fixation Committee if any.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "3",
+                "value": 3
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 28,
+        "focus_labels": [
+          "TOTAL"
+        ],
+        "focus_fees": [
+          20000,
+          12000
+        ],
+        "context": [
+          {
+            "line_no": 26,
+            "text": "2) The college is approved by AICTE and is affiliated to Dr. APJ Abdul Kalam Techinical University.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "2",
+                "value": 2
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 27,
+            "text": "3) The fee structure is subject to change by the state / fee fixation Committee if any.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "3",
+                "value": 3
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 28,
+            "text": "4) The amount deposited at counselling centre (Gen.,0BC Rs. 20000/- & SC/ST Rs.12000/-) should be deducted from the total fee.",
+            "labels": [
+              "TOTAL"
+            ],
+            "numbers": [
+              {
+                "raw": "4",
+                "value": 4
+              },
+              {
+                "raw": "0",
+                "value": 0
+              },
+              {
+                "raw": "20000",
+                "value": 20000
+              },
+              {
+                "raw": "12000",
+                "value": 12000
+              }
+            ],
+            "plausible_fees": [
+              20000,
+              12000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 29,
+            "text": "5) Separate DD/PO or any online payment should be made for academic and hostel fee.",
+            "labels": [
+              "HOSTEL"
+            ],
+            "numbers": [
+              {
+                "raw": "5",
+                "value": 5
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 30,
+            "text": "6) Payments to be made by DD/PO or any online payment in favour of \"Ajay Kumar Garg Engineering College\"",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "6",
+                "value": 6
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 29,
+        "focus_labels": [
+          "HOSTEL"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 27,
+            "text": "3) The fee structure is subject to change by the state / fee fixation Committee if any.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "3",
+                "value": 3
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 28,
+            "text": "4) The amount deposited at counselling centre (Gen.,0BC Rs. 20000/- & SC/ST Rs.12000/-) should be deducted from the total fee.",
+            "labels": [
+              "TOTAL"
+            ],
+            "numbers": [
+              {
+                "raw": "4",
+                "value": 4
+              },
+              {
+                "raw": "0",
+                "value": 0
+              },
+              {
+                "raw": "20000",
+                "value": 20000
+              },
+              {
+                "raw": "12000",
+                "value": 12000
+              }
+            ],
+            "plausible_fees": [
+              20000,
+              12000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 29,
+            "text": "5) Separate DD/PO or any online payment should be made for academic and hostel fee.",
+            "labels": [
+              "HOSTEL"
+            ],
+            "numbers": [
+              {
+                "raw": "5",
+                "value": 5
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 30,
+            "text": "6) Payments to be made by DD/PO or any online payment in favour of \"Ajay Kumar Garg Engineering College\"",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "6",
+                "value": 6
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 31,
+            "text": "payable at Ghaziabad or Delhi. No part or cash payment shall be accepted.",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 35,
+        "focus_labels": [],
+        "focus_fees": [
+          201001
+        ],
+        "context": [
+          {
+            "line_no": 33,
+            "text": "Online transfer through NEFT/RTGS. Bank Account details of College for online payment are as under:",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 34,
+            "text": "Name of the Beneficiary Ajay Kumar Garg Engineering College",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 35,
+            "text": "Name of the Bank Kotak Mahindra Bank Ltd., Navyug Market, Ghaziabad -201001 (U.P.)-INDIA",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "201001",
+                "value": 201001
+              }
+            ],
+            "plausible_fees": [
+              201001
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 36,
+            "text": "Bank Account No. 508010250461 (Saving Bank Account)",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "508010250461",
+                "value": 508010250461
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": [
+              508010250461
+            ]
+          },
+          {
+            "line_no": 37,
+            "text": "RTGS/NEFT/IFSC Code KKBK0005295",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "0005295",
+                "value": 5295
+              }
+            ],
+            "plausible_fees": [
+              5295
+            ],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 37,
+        "focus_labels": [],
+        "focus_fees": [
+          5295
+        ],
+        "context": [
+          {
+            "line_no": 35,
+            "text": "Name of the Bank Kotak Mahindra Bank Ltd., Navyug Market, Ghaziabad -201001 (U.P.)-INDIA",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "201001",
+                "value": 201001
+              }
+            ],
+            "plausible_fees": [
+              201001
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 36,
+            "text": "Bank Account No. 508010250461 (Saving Bank Account)",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "508010250461",
+                "value": 508010250461
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": [
+              508010250461
+            ]
+          },
+          {
+            "line_no": 37,
+            "text": "RTGS/NEFT/IFSC Code KKBK0005295",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "0005295",
+                "value": 5295
+              }
+            ],
+            "plausible_fees": [
+              5295
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 38,
+            "text": "7) Medical charges Includes Medical Insurance on hospitalization upto Rs.50,000/-, Accidental Insurance upto",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "7",
+                "value": 7
+              },
+              {
+                "raw": "50,000",
+                "value": 50000
+              }
+            ],
+            "plausible_fees": [
+              50000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 39,
+            "text": "Rs.1,00,000/- and free OPD & annual medical checkup at Dr. R.5.G. (Indo-German) Hospital.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1,00,000",
+                "value": 100000
+              },
+              {
+                "raw": "5.",
+                "value": 5
+              }
+            ],
+            "plausible_fees": [
+              100000
+            ],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 38,
+        "focus_labels": [],
+        "focus_fees": [
+          50000
+        ],
+        "context": [
+          {
+            "line_no": 36,
+            "text": "Bank Account No. 508010250461 (Saving Bank Account)",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "508010250461",
+                "value": 508010250461
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": [
+              508010250461
+            ]
+          },
+          {
+            "line_no": 37,
+            "text": "RTGS/NEFT/IFSC Code KKBK0005295",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "0005295",
+                "value": 5295
+              }
+            ],
+            "plausible_fees": [
+              5295
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 38,
+            "text": "7) Medical charges Includes Medical Insurance on hospitalization upto Rs.50,000/-, Accidental Insurance upto",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "7",
+                "value": 7
+              },
+              {
+                "raw": "50,000",
+                "value": 50000
+              }
+            ],
+            "plausible_fees": [
+              50000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 39,
+            "text": "Rs.1,00,000/- and free OPD & annual medical checkup at Dr. R.5.G. (Indo-German) Hospital.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1,00,000",
+                "value": 100000
+              },
+              {
+                "raw": "5.",
+                "value": 5
+              }
+            ],
+            "plausible_fees": [
+              100000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 40,
+            "text": "Ajay Kumar Garg Engineering College",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 39,
+        "focus_labels": [],
+        "focus_fees": [
+          100000
+        ],
+        "context": [
+          {
+            "line_no": 37,
+            "text": "RTGS/NEFT/IFSC Code KKBK0005295",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "0005295",
+                "value": 5295
+              }
+            ],
+            "plausible_fees": [
+              5295
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 38,
+            "text": "7) Medical charges Includes Medical Insurance on hospitalization upto Rs.50,000/-, Accidental Insurance upto",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "7",
+                "value": 7
+              },
+              {
+                "raw": "50,000",
+                "value": 50000
+              }
+            ],
+            "plausible_fees": [
+              50000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 39,
+            "text": "Rs.1,00,000/- and free OPD & annual medical checkup at Dr. R.5.G. (Indo-German) Hospital.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1,00,000",
+                "value": 100000
+              },
+              {
+                "raw": "5.",
+                "value": 5
+              }
+            ],
+            "plausible_fees": [
+              100000
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 40,
+            "text": "Ajay Kumar Garg Engineering College",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 41,
+            "text": "7S Engine",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "7",
+                "value": 7
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      }
+    ],
+    "verified_year_fees": [],
+    "reconstruction_status": "TABLE_RECONSTRUCTION_REQUIRED",
+    "review_reasons": [
+      "One or more academic-year labels were not reliably reconstructed.",
+      "Four verified annual total-fee values are not available."
+    ]
+  },
+  "hostel": {
+    "source_key": "hostel",
+    "source_url": "https://www.akgec.ac.in/wp-content/uploads/2026/06/HOSTEL-FEE-2026-27_0001-1.pdf",
+    "academic_year": 2026,
+    "session": "2026-27",
+    "line_count": 50,
+    "room_types_detected": [
+      "double_seater"
+    ],
+    "room_type_candidates": {
+      "single_seater": [],
+      "double_seater": [
+        {
+          "line_no": 15,
+          "text": "smpieseser ooutte seater ite Seater Double Seater epte seater",
+          "values": [],
+          "nearby": [
+            {
+              "line_no": 14,
+              "text": "I I Rr",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 15,
+              "text": "smpieseser ooutte seater ite Seater Double Seater epte seater",
+              "plausible_fees": []
+            },
+            {
+              "line_no": 16,
+              "text": "Note:",
+              "plausible_fees": []
+            }
+          ]
+        }
+      ],
+      "triple_seater": []
+    },
+    "hostel_candidates": [
+      {
+        "line_no": 12,
+        "text": "smmvenennnneen Branch. The tantative Hostel fees structure is as follows:",
+        "values": [],
+        "nearby": [
+          {
+            "line_no": 11,
+            "text": "college M/s Ajay Kumar Garg Engineering College in the academic year 2026-27 in B-Tech,M-Tech & MCA........ccoooeioon.",
+            "plausible_fees": []
+          },
+          {
+            "line_no": 12,
+            "text": "smmvenennnneen Branch. The tantative Hostel fees structure is as follows:",
+            "plausible_fees": []
+          },
+          {
+            "line_no": 13,
+            "text": "Hostel Fee for the session 2026-27",
+            "plausible_fees": []
+          }
+        ]
+      },
+      {
+        "line_no": 13,
+        "text": "Hostel Fee for the session 2026-27",
+        "values": [],
+        "nearby": [
+          {
+            "line_no": 12,
+            "text": "smmvenennnneen Branch. The tantative Hostel fees structure is as follows:",
+            "plausible_fees": []
+          },
+          {
+            "line_no": 13,
+            "text": "Hostel Fee for the session 2026-27",
+            "plausible_fees": []
+          },
+          {
+            "line_no": 14,
+            "text": "I I Rr",
+            "plausible_fees": []
+          }
+        ]
+      },
+      {
+        "line_no": 18,
+        "text": "2) Separate DD/PO or any online payment should be made for hostel fee.",
+        "values": [],
+        "nearby": [
+          {
+            "line_no": 17,
+            "text": "1) The college is approved by AICTE and is affiliated to Dr. APJ Abdul Kalam Techinical University.",
+            "plausible_fees": []
+          },
+          {
+            "line_no": 18,
+            "text": "2) Separate DD/PO or any online payment should be made for hostel fee.",
+            "plausible_fees": []
+          },
+          {
+            "line_no": 19,
+            "text": "3) Payments to be made by DD/PO or any online payment in favour of \"Ajay Kumar Garg Engineering College”",
+            "plausible_fees": []
+          }
+        ]
+      }
+    ],
+    "mess_candidates": [],
+    "all_plausible_fee_numbers": [
+      5709
+    ],
+    "contexts": [
+      {
+        "focus_line": 12,
+        "focus_labels": [
+          "HOSTEL"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 10,
+            "text": "This Is certified that Mr./Ms..........cciceiimiinmenen $00, DfOuiiiiriitiiinmrmimmmimimmninisns. Nas been alloted our",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "00,",
+                "value": 0
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 11,
+            "text": "college M/s Ajay Kumar Garg Engineering College in the academic year 2026-27 in B-Tech,M-Tech & MCA........ccoooeioon.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "2026",
+                "value": 2026
+              },
+              {
+                "raw": "27",
+                "value": 27
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": [
+              2026
+            ]
+          },
+          {
+            "line_no": 12,
+            "text": "smmvenennnneen Branch. The tantative Hostel fees structure is as follows:",
+            "labels": [
+              "HOSTEL"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 13,
+            "text": "Hostel Fee for the session 2026-27",
+            "labels": [
+              "HOSTEL"
+            ],
+            "numbers": [
+              {
+                "raw": "2026",
+                "value": 2026
+              },
+              {
+                "raw": "27",
+                "value": 27
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": [
+              2026
+            ]
+          },
+          {
+            "line_no": 14,
+            "text": "I I Rr",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 13,
+        "focus_labels": [
+          "HOSTEL"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 11,
+            "text": "college M/s Ajay Kumar Garg Engineering College in the academic year 2026-27 in B-Tech,M-Tech & MCA........ccoooeioon.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "2026",
+                "value": 2026
+              },
+              {
+                "raw": "27",
+                "value": 27
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": [
+              2026
+            ]
+          },
+          {
+            "line_no": 12,
+            "text": "smmvenennnneen Branch. The tantative Hostel fees structure is as follows:",
+            "labels": [
+              "HOSTEL"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 13,
+            "text": "Hostel Fee for the session 2026-27",
+            "labels": [
+              "HOSTEL"
+            ],
+            "numbers": [
+              {
+                "raw": "2026",
+                "value": 2026
+              },
+              {
+                "raw": "27",
+                "value": 27
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": [
+              2026
+            ]
+          },
+          {
+            "line_no": 14,
+            "text": "I I Rr",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 15,
+            "text": "smpieseser ooutte seater ite Seater Double Seater epte seater",
+            "labels": [
+              "DOUBLE_SEATER"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 15,
+        "focus_labels": [
+          "DOUBLE_SEATER"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 13,
+            "text": "Hostel Fee for the session 2026-27",
+            "labels": [
+              "HOSTEL"
+            ],
+            "numbers": [
+              {
+                "raw": "2026",
+                "value": 2026
+              },
+              {
+                "raw": "27",
+                "value": 27
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": [
+              2026
+            ]
+          },
+          {
+            "line_no": 14,
+            "text": "I I Rr",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 15,
+            "text": "smpieseser ooutte seater ite Seater Double Seater epte seater",
+            "labels": [
+              "DOUBLE_SEATER"
+            ],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 16,
+            "text": "Note:",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 17,
+            "text": "1) The college is approved by AICTE and is affiliated to Dr. APJ Abdul Kalam Techinical University.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1",
+                "value": 1
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 18,
+        "focus_labels": [
+          "HOSTEL"
+        ],
+        "focus_fees": [],
+        "context": [
+          {
+            "line_no": 16,
+            "text": "Note:",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 17,
+            "text": "1) The college is approved by AICTE and is affiliated to Dr. APJ Abdul Kalam Techinical University.",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "1",
+                "value": 1
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 18,
+            "text": "2) Separate DD/PO or any online payment should be made for hostel fee.",
+            "labels": [
+              "HOSTEL"
+            ],
+            "numbers": [
+              {
+                "raw": "2",
+                "value": 2
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 19,
+            "text": "3) Payments to be made by DD/PO or any online payment in favour of \"Ajay Kumar Garg Engineering College”",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "3",
+                "value": 3
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 20,
+            "text": "payable at Ghaziabad or Delhi. No part or cash payment shall be accepted. Or",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      },
+      {
+        "focus_line": 25,
+        "focus_labels": [],
+        "focus_fees": [
+          5709
+        ],
+        "context": [
+          {
+            "line_no": 23,
+            "text": "Name of the Bank ICICI Bank",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 24,
+            "text": "Bank Account No. 570901000161 (Saving Bank Account)",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "570901000161",
+                "value": 570901000161
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": [
+              570901000161
+            ]
+          },
+          {
+            "line_no": 25,
+            "text": "RTGS/NEFT/IFSC Code ICIC0005709",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "0005709",
+                "value": 5709
+              }
+            ],
+            "plausible_fees": [
+              5709
+            ],
+            "suspicious": []
+          },
+          {
+            "line_no": 26,
+            "text": "Ajay K arg Engineering College",
+            "labels": [],
+            "numbers": [],
+            "plausible_fees": [],
+            "suspicious": []
+          },
+          {
+            "line_no": 27,
+            "text": "3 whistle",
+            "labels": [],
+            "numbers": [
+              {
+                "raw": "3",
+                "value": 3
+              }
+            ],
+            "plausible_fees": [],
+            "suspicious": []
+          }
+        ]
+      }
+    ],
+    "verified_hostel_fees": [],
+    "reconstruction_status": "TABLE_RECONSTRUCTION_REQUIRED",
+    "review_reasons": [
+      "Room-wise hostel amounts require row/column verification before import."
+    ]
+  },
+  "final_status": "REVIEW_REQUIRED_BEFORE_IMPORT",
+  "database_modified": false
+}

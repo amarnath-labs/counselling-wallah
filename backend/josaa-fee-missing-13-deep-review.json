@@ -1,0 +1,600 @@
+[
+  {
+    "college_id": "indian-institute-of-information-technology-vadodara-gujrat",
+    "josaa_name": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+    "college_name": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "status": "NO_FEE_DATA",
+    "website": "https://www.iiitvadodara.ac.in/",
+    "official_website": "https://www.iiitvadodara.ac.in/",
+    "search_mode": "OFFICIAL_FIRST",
+    "failure_reason": "NO_OFFICIAL_FEE_PAGE_WITH_CLEAR_NUMERIC_DATA",
+    "attempts": [
+      {
+        "query": "site:iiitvadodara.ac.in \"Indian Institute of Information Technology(IIIT), Vadodara, Gujrat\" \"fee structure\" B.Tech 2026",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitvadodara.ac.in \"Indian Institute of Information Technology(IIIT), Vadodara, Gujrat\" \"fee structure\" 2026-27",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitvadodara.ac.in \"Indian Institute of Information Technology(IIIT), Vadodara, Gujrat\" \"B.Tech\" fees PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitvadodara.ac.in \"fee structure\" \"B.Tech\" PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitvadodara.ac.in \"B.Tech\" \"2025-26\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitvadodara.ac.in \"B.Tech\" \"2024-25\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitvadodara.ac.in admission fee B.Tech",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitvadodara.ac.in tuition fee hostel mess B.Tech",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-raichur-karnataka",
+    "josaa_name": "Indian institute of information technology, Raichur, Karnataka",
+    "college_name": "Indian institute of information technology, Raichur, Karnataka",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "status": "NO_FEE_DATA",
+    "website": "https://iiitr.ac.in/",
+    "official_website": "https://iiitr.ac.in/",
+    "search_mode": "OFFICIAL_FIRST",
+    "failure_reason": "NO_OFFICIAL_FEE_PAGE_WITH_CLEAR_NUMERIC_DATA",
+    "attempts": [
+      {
+        "query": "site:iiitr.ac.in \"Indian institute of information technology, Raichur, Karnataka\" \"fee structure\" B.Tech 2026",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitr.ac.in \"Indian institute of information technology, Raichur, Karnataka\" \"fee structure\" 2026-27",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitr.ac.in \"Indian institute of information technology, Raichur, Karnataka\" \"B.Tech\" fees PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitr.ac.in \"fee structure\" \"B.Tech\" PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitr.ac.in \"B.Tech\" \"2025-26\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitr.ac.in \"B.Tech\" \"2024-25\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitr.ac.in admission fee B.Tech",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitr.ac.in tuition fee hostel mess B.Tech",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-vadodara-international-campus-diu",
+    "josaa_name": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+    "college_name": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "status": "NO_FEE_DATA",
+    "website": "http://diu.iiitvadodara.ac.in/",
+    "official_website": "http://diu.iiitvadodara.ac.in/",
+    "search_mode": "OFFICIAL_FIRST",
+    "failure_reason": "NO_OFFICIAL_FEE_PAGE_WITH_CLEAR_NUMERIC_DATA",
+    "attempts": [
+      {
+        "query": "site:diu.iiitvadodara.ac.in \"Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)\" \"fee structure\" B.Tech 2026",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:diu.iiitvadodara.ac.in \"Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)\" \"fee structure\" 2026-27",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:diu.iiitvadodara.ac.in \"Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)\" \"B.Tech\" fees PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:diu.iiitvadodara.ac.in \"fee structure\" \"B.Tech\" PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:diu.iiitvadodara.ac.in \"B.Tech\" \"2025-26\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:diu.iiitvadodara.ac.in \"B.Tech\" \"2024-25\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:diu.iiitvadodara.ac.in admission fee B.Tech",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:diu.iiitvadodara.ac.in tuition fee hostel mess B.Tech",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  },
+  {
+    "college_id": "institute-of-chemical-technology-mumbai-indian-oil-odisha-campus-bhubaneswar",
+    "josaa_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+    "college_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "status": "NO_FEE_DATA",
+    "website": "https://iocb.ictmumbai.edu.in/",
+    "official_website": "https://iocb.ictmumbai.edu.in/",
+    "search_mode": "OFFICIAL_FIRST",
+    "failure_reason": "NO_OFFICIAL_FEE_PAGE_WITH_CLEAR_NUMERIC_DATA",
+    "attempts": [
+      {
+        "query": "site:iocb.ictmumbai.edu.in \"Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar\" \"fee structure\" B.Tech 2026",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iocb.ictmumbai.edu.in \"Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar\" \"fee structure\" 2026-27",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iocb.ictmumbai.edu.in \"Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar\" \"B.Tech\" fees PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iocb.ictmumbai.edu.in \"fee structure\" \"B.Tech\" PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iocb.ictmumbai.edu.in \"B.Tech\" \"2025-26\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iocb.ictmumbai.edu.in \"B.Tech\" \"2024-25\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iocb.ictmumbai.edu.in admission fee B.Tech",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iocb.ictmumbai.edu.in tuition fee hostel mess B.Tech",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  },
+  {
+    "college_id": "national-institute-of-electronics-and-information-technology-ajmer",
+    "josaa_name": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)",
+    "college_name": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "status": "NO_FEE_DATA",
+    "website": "https://www.nielit.in/ajmer/index.php",
+    "official_website": "https://www.nielit.in/ajmer/index.php",
+    "search_mode": "OFFICIAL_FIRST",
+    "failure_reason": "NO_OFFICIAL_FEE_PAGE_WITH_CLEAR_NUMERIC_DATA",
+    "attempts": [
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Ajmer (Rajasthan)\" \"fee structure\" B.Tech 2026",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Ajmer (Rajasthan)\" \"fee structure\" 2026-27",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Ajmer (Rajasthan)\" \"B.Tech\" fees PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"fee structure\" \"B.Tech\" PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"B.Tech\" \"2025-26\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"B.Tech\" \"2024-25\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in admission fee B.Tech",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in tuition fee hostel mess B.Tech",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  },
+  {
+    "college_id": "national-institute-of-electronics-and-information-technology-gorakhpur",
+    "josaa_name": "National Institute of Electronics and Information Technology, Gorakhpur (UP)",
+    "college_name": "National Institute of Electronics and Information Technology, Gorakhpur (UP)",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "status": "NO_FEE_DATA",
+    "website": "https://www.nielit.in/gorakhpur/index.php",
+    "official_website": "https://www.nielit.in/gorakhpur/index.php",
+    "search_mode": "OFFICIAL_FIRST",
+    "failure_reason": "NO_OFFICIAL_FEE_PAGE_WITH_CLEAR_NUMERIC_DATA",
+    "attempts": [
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Gorakhpur (UP)\" \"fee structure\" B.Tech 2026",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Gorakhpur (UP)\" \"fee structure\" 2026-27",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Gorakhpur (UP)\" \"B.Tech\" fees PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"fee structure\" \"B.Tech\" PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"B.Tech\" \"2025-26\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"B.Tech\" \"2024-25\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in admission fee B.Tech",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in tuition fee hostel mess B.Tech",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  },
+  {
+    "college_id": "national-institute-of-electronics-and-information-technology-imphal",
+    "josaa_name": "National Institute of Electronics and Information Technology, Imphal",
+    "college_name": "National Institute of Electronics and Information Technology, Imphal",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "status": "NO_FEE_DATA",
+    "website": "https://www.nielit.in/imphal/index.php",
+    "official_website": "https://www.nielit.in/imphal/index.php",
+    "search_mode": "OFFICIAL_FIRST",
+    "failure_reason": "NO_OFFICIAL_FEE_PAGE_WITH_CLEAR_NUMERIC_DATA",
+    "attempts": [
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Imphal\" \"fee structure\" B.Tech 2026",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Imphal\" \"fee structure\" 2026-27",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Imphal\" \"B.Tech\" fees PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"fee structure\" \"B.Tech\" PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"B.Tech\" \"2025-26\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"B.Tech\" \"2024-25\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in admission fee B.Tech",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in tuition fee hostel mess B.Tech",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  },
+  {
+    "college_id": "national-institute-of-electronics-and-information-technology-kohima",
+    "josaa_name": "National Institute of Electronics and Information Technology, Kohima",
+    "college_name": "National Institute of Electronics and Information Technology, Kohima",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "status": "NO_FEE_DATA",
+    "website": "https://www.nielit.in/kohima/index.php",
+    "official_website": "https://www.nielit.in/kohima/index.php",
+    "search_mode": "OFFICIAL_FIRST",
+    "failure_reason": "NO_OFFICIAL_FEE_PAGE_WITH_CLEAR_NUMERIC_DATA",
+    "attempts": [
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Kohima\" \"fee structure\" B.Tech 2026",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Kohima\" \"fee structure\" 2026-27",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Kohima\" \"B.Tech\" fees PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"fee structure\" \"B.Tech\" PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"B.Tech\" \"2025-26\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"B.Tech\" \"2024-25\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in admission fee B.Tech",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in tuition fee hostel mess B.Tech",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  },
+  {
+    "college_id": "national-institute-of-electronics-and-information-technology-patna",
+    "josaa_name": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+    "college_name": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "status": "NO_FEE_DATA",
+    "website": "https://www.nielit.in/patna/index.php",
+    "official_website": "https://www.nielit.in/patna/index.php",
+    "search_mode": "OFFICIAL_FIRST",
+    "failure_reason": "NO_OFFICIAL_FEE_PAGE_WITH_CLEAR_NUMERIC_DATA",
+    "attempts": [
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Patna (Bihar)\" \"fee structure\" B.Tech 2026",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Patna (Bihar)\" \"fee structure\" 2026-27",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Patna (Bihar)\" \"B.Tech\" fees PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"fee structure\" \"B.Tech\" PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"B.Tech\" \"2025-26\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"B.Tech\" \"2024-25\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in admission fee B.Tech",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in tuition fee hostel mess B.Tech",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  },
+  {
+    "college_id": "national-institute-of-electronics-and-information-technology-ropar",
+    "josaa_name": "National Institute of Electronics and Information Technology, Ropar (Punjab)",
+    "college_name": "National Institute of Electronics and Information Technology, Ropar (Punjab)",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "status": "NO_FEE_DATA",
+    "website": "https://www.nielit.ac.in/ropar.php",
+    "official_website": "https://www.nielit.ac.in/ropar.php",
+    "search_mode": "OFFICIAL_FIRST",
+    "failure_reason": "NO_OFFICIAL_FEE_PAGE_WITH_CLEAR_NUMERIC_DATA",
+    "attempts": [
+      {
+        "query": "site:nielit.ac.in \"National Institute of Electronics and Information Technology, Ropar (Punjab)\" \"fee structure\" B.Tech 2026",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.ac.in \"National Institute of Electronics and Information Technology, Ropar (Punjab)\" \"fee structure\" 2026-27",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.ac.in \"National Institute of Electronics and Information Technology, Ropar (Punjab)\" \"B.Tech\" fees PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.ac.in \"fee structure\" \"B.Tech\" PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.ac.in \"B.Tech\" \"2025-26\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.ac.in \"B.Tech\" \"2024-25\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.ac.in admission fee B.Tech",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.ac.in tuition fee hostel mess B.Tech",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  },
+  {
+    "college_id": "national-institute-of-electronics-and-information-technology-srinagar",
+    "josaa_name": "National Institute of Electronics and Information Technology, Srinagar",
+    "college_name": "National Institute of Electronics and Information Technology, Srinagar",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "status": "NO_FEE_DATA",
+    "website": "https://www.nielit.in/srinagar/index.php",
+    "official_website": "https://www.nielit.in/srinagar/index.php",
+    "search_mode": "OFFICIAL_FIRST",
+    "failure_reason": "NO_OFFICIAL_FEE_PAGE_WITH_CLEAR_NUMERIC_DATA",
+    "attempts": [
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Srinagar\" \"fee structure\" B.Tech 2026",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Srinagar\" \"fee structure\" 2026-27",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"National Institute of Electronics and Information Technology, Srinagar\" \"B.Tech\" fees PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"fee structure\" \"B.Tech\" PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"B.Tech\" \"2025-26\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in \"B.Tech\" \"2024-25\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in admission fee B.Tech",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:nielit.in tuition fee hostel mess B.Tech",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  },
+  {
+    "college_id": "pt-dwarka-prasad-mishra-indian-institute-of-information-technology-design-manufacture-jabalpur",
+    "josaa_name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+    "college_name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "status": "NO_FEE_DATA",
+    "website": "https://www.iiitdmj.ac.in/",
+    "official_website": "https://www.iiitdmj.ac.in/",
+    "search_mode": "OFFICIAL_FIRST",
+    "failure_reason": "NO_OFFICIAL_FEE_PAGE_WITH_CLEAR_NUMERIC_DATA",
+    "attempts": [
+      {
+        "query": "site:iiitdmj.ac.in \"Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur\" \"fee structure\" B.Tech 2026",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitdmj.ac.in \"Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur\" \"fee structure\" 2026-27",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitdmj.ac.in \"Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur\" \"B.Tech\" fees PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitdmj.ac.in \"fee structure\" \"B.Tech\" PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitdmj.ac.in \"B.Tech\" \"2025-26\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitdmj.ac.in \"B.Tech\" \"2024-25\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitdmj.ac.in admission fee B.Tech",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:iiitdmj.ac.in tuition fee hostel mess B.Tech",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  },
+  {
+    "college_id": "rajiv-gandhi-national-aviation-university-fursatganj-amethi",
+    "josaa_name": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)",
+    "college_name": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "status": "NO_FEE_DATA",
+    "website": "https://www.rgnau.ac.in/",
+    "official_website": "https://www.rgnau.ac.in/",
+    "search_mode": "OFFICIAL_FIRST",
+    "failure_reason": "NO_OFFICIAL_FEE_PAGE_WITH_CLEAR_NUMERIC_DATA",
+    "attempts": [
+      {
+        "query": "site:rgnau.ac.in \"Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)\" \"fee structure\" B.Tech 2026",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:rgnau.ac.in \"Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)\" \"fee structure\" 2026-27",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:rgnau.ac.in \"Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)\" \"B.Tech\" fees PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:rgnau.ac.in \"fee structure\" \"B.Tech\" PDF",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:rgnau.ac.in \"B.Tech\" \"2025-26\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:rgnau.ac.in \"B.Tech\" \"2024-25\" fee",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:rgnau.ac.in admission fee B.Tech",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "query": "site:rgnau.ac.in tuition fee hostel mess B.Tech",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  }
+]

@@ -1,0 +1,315 @@
+[
+  {
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "college_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "total_sources": "2",
+    "valid_sources": "1",
+    "source_kinds": [
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "iiit-hyderabad",
+    "college_name": "IIIT Hyderabad",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-guwahati",
+    "college_name": "Indian Institute of Information Technology Guwahati",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-allahabad",
+    "college_name": "Indian Institute of Information Technology, Allahabad",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-varanasi",
+    "college_name": "Indian Institute of Technology (BHU) Varanasi",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-bhilai",
+    "college_name": "Indian Institute of Technology Bhilai",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-bombay",
+    "college_name": "Indian Institute of Technology Bombay",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-delhi",
+    "college_name": "Indian Institute of Technology Delhi",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-guwahati",
+    "college_name": "Indian Institute of Technology Guwahati",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-hyderabad",
+    "college_name": "Indian Institute of Technology Hyderabad",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-kanpur",
+    "college_name": "Indian Institute of Technology Kanpur",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "shiksha"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-kharagpur",
+    "college_name": "Indian Institute of Technology Kharagpur",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "shiksha"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-madras",
+    "college_name": "Indian Institute of Technology Madras",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-mandi",
+    "college_name": "Indian Institute of Technology Mandi",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-patna",
+    "college_name": "Indian Institute of Technology Patna",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "careers360"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-roorkee",
+    "college_name": "Indian Institute of Technology Roorkee",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "careers360"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-ropar",
+    "college_name": "Indian Institute of Technology Ropar",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-tirupati",
+    "college_name": "Indian Institute of Technology Tirupati",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-calicut",
+    "college_name": "National Institute of Technology Calicut",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "careers360"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-hamirpur",
+    "college_name": "National Institute of Technology Hamirpur",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "careers360"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "college_name": "National Institute of Technology Karnataka, Surathkal",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "careers360"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-patna",
+    "college_name": "National Institute of Technology Patna",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "careers360"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-raipur",
+    "college_name": "National Institute of Technology Raipur",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "careers360"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-jamshedpur",
+    "college_name": "National Institute of Technology, Jamshedpur",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "careers360"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-kurukshetra",
+    "college_name": "National Institute of Technology, Kurukshetra",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "careers360"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-rourkela",
+    "college_name": "National Institute of Technology, Rourkela",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "careers360"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-silchar",
+    "college_name": "National Institute of Technology, Silchar",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "careers360"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "national-institute-of-technology-tiruchirappalli",
+    "college_name": "National Institute of Technology, Tiruchirappalli",
+    "total_sources": "1",
+    "valid_sources": "1",
+    "source_kinds": [
+      "careers360"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-bhubaneswar",
+    "college_name": "Indian Institute of Technology Bhubaneswar",
+    "total_sources": "2",
+    "valid_sources": "2",
+    "source_kinds": [
+      "official",
+      "shiksha"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-indore",
+    "college_name": "Indian Institute of Technology Indore",
+    "total_sources": "2",
+    "valid_sources": "2",
+    "source_kinds": [
+      "careers360",
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  },
+  {
+    "college_id": "indian-institute-of-technology-jammu",
+    "college_name": "Indian Institute of Technology Jammu",
+    "total_sources": "2",
+    "valid_sources": "2",
+    "source_kinds": [
+      "collegedunia",
+      "official"
+    ],
+    "status": "MULTI_SOURCE_REQUIRED"
+  }
+]

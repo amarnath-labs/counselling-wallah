@@ -7,6 +7,9 @@ import compression from 'compression';
 import helmet from 'helmet';
 import { rateLimit } from 'express-rate-limit';
 
+import RedisRateLimitStore from './services/redisRateLimitStore.js';
+import collegeRedisCache from './middleware/collegeRedisCache.js';
+
 import { pool } from './db/pool.js';
 
 import healthRouter from './routes/health.js';
@@ -52,23 +55,7 @@ const PORT =
 |--------------------------------------------------------------------------
 | CORS
 |--------------------------------------------------------------------------
-|
-| IMPORTANT:
-|
-| We use credentials/cookies for authentication.
-| Therefore Access-Control-Allow-Origin CANNOT be "*".
-|
-| We explicitly allow:
-|
-| - Local Vite dev
-| - Local Vite preview
-| - Main Vercel production domain
-| - Counselling Wallah Vercel preview deployments
-| - Optional CORS_ORIGIN environment variable
-|
-|--------------------------------------------------------------------------
 */
-
 
 const allowedOrigins =
   new Set([
@@ -92,15 +79,6 @@ const configuredOrigin =
 /*
 |--------------------------------------------------------------------------
 | VERCEL PREVIEW DOMAIN CHECK
-|--------------------------------------------------------------------------
-|
-| Examples allowed:
-|
-| counselling-wallah-frontend-n4iwispg5.vercel.app
-| counselling-wallah-frontend-xxxxx.vercel.app
-|
-| Other random *.vercel.app domains are NOT allowed.
-|
 |--------------------------------------------------------------------------
 */
 
@@ -128,12 +106,6 @@ function isAllowedVercelPreview(
     }
 
 
-    /*
-    |--------------------------------------------------------------------------
-    | Main production domain
-    |--------------------------------------------------------------------------
-    */
-
     if (
       hostname ===
       'counselling-wallah-frontend.vercel.app'
@@ -141,12 +113,6 @@ function isAllowedVercelPreview(
       return true;
     }
 
-
-    /*
-    |--------------------------------------------------------------------------
-    | Vercel preview deployments
-    |--------------------------------------------------------------------------
-    */
 
     return (
       hostname.startsWith(
@@ -178,10 +144,6 @@ function corsOriginHandler(
   |--------------------------------------------------------------------------
   | Requests without Origin
   |--------------------------------------------------------------------------
-  |
-  | curl, Postman, Render health checks,
-  | server-to-server requests etc.
-  |--------------------------------------------------------------------------
   */
 
   if (!origin) {
@@ -194,7 +156,7 @@ function corsOriginHandler(
 
   /*
   |--------------------------------------------------------------------------
-  | Explicit local / production allowlist
+  | Explicit allowlist
   |--------------------------------------------------------------------------
   */
 
@@ -230,7 +192,7 @@ function corsOriginHandler(
 
   /*
   |--------------------------------------------------------------------------
-  | Counselling Wallah Vercel preview
+  | Vercel preview
   |--------------------------------------------------------------------------
   */
 
@@ -245,12 +207,6 @@ function corsOriginHandler(
     );
   }
 
-
-  /*
-  |--------------------------------------------------------------------------
-  | Reject unknown origins
-  |--------------------------------------------------------------------------
-  */
 
   console.warn(
     '[CORS] Blocked origin:',
@@ -271,16 +227,8 @@ const corsOptions = {
   origin:
     corsOriginHandler,
 
-
-  /*
-  |--------------------------------------------------------------------------
-  | Required for auth cookies
-  |--------------------------------------------------------------------------
-  */
-
   credentials:
     true,
-
 
   methods: [
     'GET',
@@ -291,12 +239,10 @@ const corsOptions = {
     'OPTIONS',
   ],
 
-
   allowedHeaders: [
     'Content-Type',
     'Authorization',
   ],
-
 
   optionsSuccessStatus:
     204,
@@ -315,10 +261,20 @@ app.use(
   )
 );
 
+
+/*
+|--------------------------------------------------------------------------
+| SECURITY HEADERS
+|--------------------------------------------------------------------------
+*/
+
 app.use(
   helmet({
-    contentSecurityPolicy: false,
-    crossOriginResourcePolicy: false,
+    contentSecurityPolicy:
+      false,
+
+    crossOriginResourcePolicy:
+      false,
   })
 );
 
@@ -326,9 +282,6 @@ app.use(
 /*
 |--------------------------------------------------------------------------
 | PREFLIGHT
-|--------------------------------------------------------------------------
-|
-| Explicitly handle browser OPTIONS requests.
 |--------------------------------------------------------------------------
 */
 
@@ -342,15 +295,17 @@ app.options(
 
 /*
 |--------------------------------------------------------------------------
-| BODY PARSERS
+| COMPRESSION
 |--------------------------------------------------------------------------
 */
 
 app.use(
   compression({
-    threshold: 1024,
+    threshold:
+      1024,
   })
 );
+
 
 /*
 |--------------------------------------------------------------------------
@@ -358,15 +313,28 @@ app.use(
 |--------------------------------------------------------------------------
 */
 
-app.use((req, res, next) => {
-  res.set(
-    'CDN-Cache-Control',
-    'no-store'
-  );
+app.use(
+  (
+    req,
+    res,
+    next
+  ) => {
 
-  next();
-});
+    res.set(
+      'CDN-Cache-Control',
+      'no-store'
+    );
 
+    next();
+  }
+);
+
+
+/*
+|--------------------------------------------------------------------------
+| BODY PARSERS
+|--------------------------------------------------------------------------
+*/
 
 app.use(
   express.json({
@@ -391,9 +359,6 @@ app.use(
 |--------------------------------------------------------------------------
 | COOKIE PARSER
 |--------------------------------------------------------------------------
-|
-| Authentication JWT/session cookie is read by auth routes/middleware.
-|--------------------------------------------------------------------------
 */
 
 app.use(
@@ -410,7 +375,7 @@ app.use(
 console.log(
   '[SERVER] Environment:',
   process.env.NODE_ENV ||
-  'not set'
+    'not set'
 );
 
 
@@ -427,9 +392,15 @@ console.log(
 
 
 console.log(
+  '[CORS] TruMarg:',
+  'https://trumarg.com'
+);
+
+
+console.log(
   '[CORS] Configured origin:',
   configuredOrigin ||
-  'not set'
+    'not set'
 );
 
 
@@ -451,6 +422,7 @@ app.get(
     _req,
     res
   ) => {
+
     return res.json({
       name:
         'Counselling Wallah API',
@@ -460,7 +432,7 @@ app.get(
 
       status:
         process.env.NODE_ENV ||
-        'development',
+          'development',
     });
   }
 );
@@ -469,9 +441,6 @@ app.get(
 /*
 |--------------------------------------------------------------------------
 | HEALTH
-|--------------------------------------------------------------------------
-|
-| Keep the existing health router.
 |--------------------------------------------------------------------------
 */
 
@@ -485,9 +454,6 @@ app.use(
 |--------------------------------------------------------------------------
 | DATABASE HEALTH FALLBACK
 |--------------------------------------------------------------------------
-|
-| Useful if health router structure changes.
-|--------------------------------------------------------------------------
 */
 
 app.get(
@@ -496,7 +462,9 @@ app.get(
     _req,
     res
   ) => {
+
     try {
+
       const result =
         await pool.query(
           'SELECT current_database() AS database_name'
@@ -545,18 +513,13 @@ app.get(
 
 /*
 |--------------------------------------------------------------------------
-| AUTH
-|--------------------------------------------------------------------------
-|
-| POST /api/auth/register
-| POST /api/auth/login
-| GET  /api/auth/me
-| POST /api/auth/logout
+| AUTH RATE LIMIT
 |--------------------------------------------------------------------------
 */
 
 const authRateLimiter =
   rateLimit({
+
     windowMs:
       15 * 60 * 1000,
 
@@ -569,21 +532,36 @@ const authRateLimiter =
     legacyHeaders:
       false,
 
+    store:
+      new RedisRateLimitStore({
+        prefix:
+          'cw:auth-rate-limit:',
+      }),
+
     message: {
       error:
         'Too many authentication attempts. Please try again later.',
     },
   });
 
+
 app.use(
   '/api/auth/login',
   authRateLimiter
 );
 
+
 app.use(
   '/api/auth/register',
   authRateLimiter
 );
+
+
+/*
+|--------------------------------------------------------------------------
+| AUTH
+|--------------------------------------------------------------------------
+*/
 
 app.use(
   '/api/auth',
@@ -611,6 +589,7 @@ app.use(
 
 app.use(
   '/api/colleges',
+  collegeRedisCache,
   collegesRouter
 );
 
@@ -631,12 +610,6 @@ app.use(
 |--------------------------------------------------------------------------
 | CW-REC
 |--------------------------------------------------------------------------
-|
-| IMPORTANT:
-| Do not remove.
-|
-| Personalized Recommendation frontend currently uses this route.
-|--------------------------------------------------------------------------
 */
 
 app.use(
@@ -656,6 +629,13 @@ app.use(
   paymentsRouter
 );
 
+
+/*
+|--------------------------------------------------------------------------
+| FEEDBACK
+|--------------------------------------------------------------------------
+*/
+
 app.use(
   '/api/feedback',
   feedbackRouter
@@ -664,7 +644,38 @@ app.use(
 
 /*
 |--------------------------------------------------------------------------
+| CAREER DISCOVERY
+|--------------------------------------------------------------------------
+|
+| V2:
+|
+| POST
+| /api/career/assessment/start
+|
+| POST
+| /api/career/assessment/:id/answer
+|
+| GET
+| /api/career/assessment/:id/report
+|
+| Legacy compatibility:
+|
+| POST
+| /api/career/assessment/next-question
+|
+| POST
+| /api/career/assessment/debug-candidates
+|
+|--------------------------------------------------------------------------
+*/
+
+
+/*
+|--------------------------------------------------------------------------
 | CAREER V2
+|--------------------------------------------------------------------------
+|
+| V2 mounted FIRST.
 |--------------------------------------------------------------------------
 */
 
@@ -677,6 +688,9 @@ app.use(
 /*
 |--------------------------------------------------------------------------
 | CAREER LEGACY
+|--------------------------------------------------------------------------
+|
+| Keeps existing adaptive frontend/API tests working.
 |--------------------------------------------------------------------------
 */
 
@@ -765,6 +779,7 @@ app.use(
     if (
       error?.code
     ) {
+
       console.error(
         'Code:',
         error.code
@@ -775,6 +790,7 @@ app.use(
     if (
       error?.detail
     ) {
+
       console.error(
         'Detail:',
         error.detail
@@ -785,6 +801,7 @@ app.use(
     if (
       error?.hint
     ) {
+
       console.error(
         'Hint:',
         error.hint
@@ -805,18 +822,19 @@ app.use(
 
     /*
     |--------------------------------------------------------------------------
-    | CORS failure
+    | CORS ERROR
     |--------------------------------------------------------------------------
     */
 
     if (
       String(
         error?.message ||
-        ''
+          ''
       ).startsWith(
         'CORS blocked origin:'
       )
     ) {
+
       return res
         .status(403)
         .json({
@@ -826,11 +844,44 @@ app.use(
     }
 
 
+    /*
+    |--------------------------------------------------------------------------
+    | SERVICE ERROR STATUS
+    |--------------------------------------------------------------------------
+    |
+    | Allows career services to return proper 400 / 404 instead of every
+    | error becoming 500.
+    |--------------------------------------------------------------------------
+    */
+
+    const requestedStatus =
+      Number(
+        error?.statusCode
+      );
+
+
+    const statusCode =
+      Number.isInteger(
+        requestedStatus
+      ) &&
+      requestedStatus >= 400 &&
+      requestedStatus < 600
+        ? requestedStatus
+        : 500;
+
+
     return res
-      .status(500)
+      .status(
+        statusCode
+      )
       .json({
         error:
-          'Internal server error',
+          statusCode < 500
+            ? (
+                error?.message ||
+                'Request failed'
+              )
+            : 'Internal server error',
       });
   }
 );
@@ -853,5 +904,3 @@ app.listen(
 
   }
 );
-
-

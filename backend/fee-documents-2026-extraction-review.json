@@ -1,0 +1,190 @@
+[
+  {
+    "college_id": "uptac-bharat-ratna-sardar-vallabhbhai-patel-rajkiya-engineering-college-basti",
+    "college_name": "Bharat Ratna Sardar Vallabhbhai Patel Rajkiya Engineering College, Basti",
+    "document_type": "academic_fee",
+    "academic_year": 2026,
+    "source_url": "https://recbasti.ac.in/wp-content/uploads/2026/07/Fee-structure-2026-27.pdf",
+    "local_path": "fee-documents-2026\\Bharat_Ratna_Sardar_Vallabhbhai_Patel_Rajkiya_Engineering_College,_Basti__academic_fee__1.pdf",
+    "page_count": 1,
+    "character_count": 0,
+    "detected_amounts": [],
+    "relevant_blocks": [],
+    "pages": [
+      {
+        "page": 1,
+        "text": "",
+        "quality": {
+          "score": 0,
+          "fee_present": false,
+          "btech_present": false,
+          "current_year_present": false,
+          "money_count": 0
+        }
+      }
+    ],
+    "extraction_status": "INSUFFICIENT_TEXT_REVIEW"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-agartala",
+    "college_name": "Indian Institute of Information Technology, Agartala",
+    "document_type": "combined_fee",
+    "academic_year": 2026,
+    "source_url": "https://iiitagartala.s3.ap-south-1.amazonaws.com/website/uploads/notices/2249de93-c2eb-4446-ae4a-bc9b50a47a6e.pdf",
+    "local_path": "fee-documents-2026\\Indian_Institute_of_Information_Technology,_Agartala__combined_fee__1.pdf",
+    "page_count": 1,
+    "character_count": 0,
+    "detected_amounts": [],
+    "relevant_blocks": [],
+    "pages": [
+      {
+        "page": 1,
+        "text": "",
+        "quality": {
+          "score": 0,
+          "fee_present": false,
+          "btech_present": false,
+          "current_year_present": false,
+          "money_count": 0
+        }
+      }
+    ],
+    "extraction_status": "INSUFFICIENT_TEXT_REVIEW"
+  },
+  {
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "college_name": "National Institute of Technology Karnataka, Surathkal",
+    "document_type": "combined_fee",
+    "academic_year": 2026,
+    "source_url": "https://www.nitk.ac.in/document/attachments/9831/Fees_Structure_removed.pdf",
+    "local_path": "fee-documents-2026\\National_Institute_of_Technology_Karnataka,_Surathkal__combined_fee__1.pdf",
+    "page_count": 11,
+    "character_count": 0,
+    "detected_amounts": [],
+    "relevant_blocks": [],
+    "pages": [
+      {
+        "page": 1,
+        "text": "",
+        "quality": {
+          "score": 0,
+          "fee_present": false,
+          "btech_present": false,
+          "current_year_present": false,
+          "money_count": 0
+        }
+      },
+      {
+        "page": 2,
+        "text": "",
+        "quality": {
+          "score": 0,
+          "fee_present": false,
+          "btech_present": false,
+          "current_year_present": false,
+          "money_count": 0
+        }
+      },
+      {
+        "page": 3,
+        "text": "",
+        "quality": {
+          "score": 0,
+          "fee_present": false,
+          "btech_present": false,
+          "current_year_present": false,
+          "money_count": 0
+        }
+      },
+      {
+        "page": 4,
+        "text": "",
+        "quality": {
+          "score": 0,
+          "fee_present": false,
+          "btech_present": false,
+          "current_year_present": false,
+          "money_count": 0
+        }
+      },
+      {
+        "page": 5,
+        "text": "",
+        "quality": {
+          "score": 0,
+          "fee_present": false,
+          "btech_present": false,
+          "current_year_present": false,
+          "money_count": 0
+        }
+      },
+      {
+        "page": 6,
+        "text": "",
+        "quality": {
+          "score": 0,
+          "fee_present": false,
+          "btech_present": false,
+          "current_year_present": false,
+          "money_count": 0
+        }
+      },
+      {
+        "page": 7,
+        "text": "",
+        "quality": {
+          "score": 0,
+          "fee_present": false,
+          "btech_present": false,
+          "current_year_present": false,
+          "money_count": 0
+        }
+      },
+      {
+        "page": 8,
+        "text": "",
+        "quality": {
+          "score": 0,
+          "fee_present": false,
+          "btech_present": false,
+          "current_year_present": false,
+          "money_count": 0
+        }
+      },
+      {
+        "page": 9,
+        "text": "",
+        "quality": {
+          "score": 0,
+          "fee_present": false,
+          "btech_present": false,
+          "current_year_present": false,
+          "money_count": 0
+        }
+      },
+      {
+        "page": 10,
+        "text": "",
+        "quality": {
+          "score": 0,
+          "fee_present": false,
+          "btech_present": false,
+          "current_year_present": false,
+          "money_count": 0
+        }
+      },
+      {
+        "page": 11,
+        "text": "",
+        "quality": {
+          "score": 0,
+          "fee_present": false,
+          "btech_present": false,
+          "current_year_present": false,
+          "money_count": 0
+        }
+      }
+    ],
+    "extraction_status": "INSUFFICIENT_TEXT_REVIEW"
+  }
+]

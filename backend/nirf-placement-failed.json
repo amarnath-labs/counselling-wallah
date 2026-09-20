@@ -1,0 +1,124 @@
+[
+  {
+    "college_id": "university-of-hyderabad",
+    "college_name": "University of Hyderabad",
+    "institute_id": "IR-E-U-0042",
+    "pdf_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0042.pdf",
+    "reason": "ug4_placement_not_parsed"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-allahabad",
+    "college_name": "Indian Institute of Information Technology, Allahabad",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "indian-institute-of-technology-goa",
+    "college_name": "Indian Institute of Technology Goa",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-kundli",
+    "college_name": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-thanjavur",
+    "college_name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "national-institute-of-technology-agartala",
+    "college_name": "National Institute of Technology Agartala",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "national-institute-of-technology-arunachal-pradesh",
+    "college_name": "National Institute of Technology Arunachal Pradesh",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "national-institute-of-technology-goa",
+    "college_name": "National Institute of Technology Goa",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "national-institute-of-technology-mizoram",
+    "college_name": "National Institute of Technology, Mizoram",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "national-institute-of-technology-nagaland",
+    "college_name": "National Institute of Technology Nagaland",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "pt-dwarka-prasad-mishra-indian-institute-of-information-technology-design-manufacture-jabalpur",
+    "college_name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+    "college_name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "islamic-university-of-science-and-technology-kashmir",
+    "college_name": "Islamic University of Science and Technology Kashmir",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "national-institute-of-technology-manipur",
+    "college_name": "National Institute of Technology, Manipur",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "national-institute-of-technology-sikkim",
+    "college_name": "National Institute of Technology Sikkim",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "national-institute-of-technology-uttarakhand",
+    "college_name": "National Institute of Technology, Uttarakhand",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+    "college_name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "shri-mata-vaishno-devi-university-katra-jammu-kashmir",
+    "college_name": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "international-institute-of-information-technology-naya-raipur",
+    "college_name": "International Institute of Information Technology, Naya Raipur",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "indian-institute-of-information-technology-guwahati",
+    "college_name": "Indian Institute of Information Technology Guwahati",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "national-institute-of-advanced-manufacturing-technology-ranchi",
+    "college_name": "National Institute of Advanced Manufacturing Technology, Ranchi",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "national-institute-of-technology-andhra-pradesh",
+    "college_name": "National Institute of Technology, Andhra Pradesh",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "puducherry-technological-university-puducherry",
+    "college_name": "Puducherry Technological University, Puducherry",
+    "reason": "missing_institute_id"
+  },
+  {
+    "college_id": "lnmiit-jaipur",
+    "college_name": "LNM Institute of Information Technology, Jaipur",
+    "reason": "missing_institute_id"
+  }
+]

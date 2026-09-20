@@ -1,0 +1,3799 @@
+[
+  {
+    "josaa_code": "101",
+    "josaa_name": "Indian Institute of Technology Bhubaneswar",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-bhubaneswar",
+    "college_name": "Indian Institute of Technology Bhubaneswar",
+    "website": "https://www.iitbbs.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-bhubaneswar",
+        "college_name": "Indian Institute of Technology Bhubaneswar",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-bhilai",
+        "college_name": "Indian Institute of Technology Bhilai",
+        "score": 0.92,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-bombay",
+        "college_name": "Indian Institute of Technology Bombay",
+        "score": 0.92,
+        "type": "IIT"
+      },
+      {
+        "college_id": "institute-of-chemical-technology-mumbai-indian-oil-odisha-campus-bhubaneswar",
+        "college_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "102",
+    "josaa_name": "Indian Institute of Technology Bombay",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-bombay",
+    "college_name": "Indian Institute of Technology Bombay",
+    "website": "https://www.iitb.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-bombay",
+        "college_name": "Indian Institute of Technology Bombay",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-bhilai",
+        "college_name": "Indian Institute of Technology Bhilai",
+        "score": 0.92,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-bhubaneswar",
+        "college_name": "Indian Institute of Technology Bhubaneswar",
+        "score": 0.92,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "103",
+    "josaa_name": "Indian Institute of Technology Mandi",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-mandi",
+    "college_name": "Indian Institute of Technology Mandi",
+    "website": "https://www.iitmandi.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-mandi",
+        "college_name": "Indian Institute of Technology Mandi",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-madras",
+        "college_name": "Indian Institute of Technology Madras",
+        "score": 0.92,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "104",
+    "josaa_name": "Indian Institute of Technology Delhi",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-delhi",
+    "college_name": "Indian Institute of Technology Delhi",
+    "website": "https://home.iitd.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-delhi",
+        "college_name": "Indian Institute of Technology Delhi",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-dharwad",
+        "college_name": "Indian Institute of Technology Dharwad",
+        "score": 0.92,
+        "type": "IIT"
+      },
+      {
+        "college_id": "uptac-delhi-institute-of-engineering-technology-meerut",
+        "college_name": "DELHI INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "dtu-delhi",
+        "college_name": "Delhi Technological University",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "jawaharlal-nehru-university-delhi",
+        "college_name": "Jawaharlal Nehru University, Delhi",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "105",
+    "josaa_name": "Indian Institute of Technology Indore",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-indore",
+    "college_name": "Indian Institute of Technology Indore",
+    "website": "https://www.iiti.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-indore",
+        "college_name": "Indian Institute of Technology Indore",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+        "college_name": "Shri G. S. Institute of Technology and Science Indore",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "106",
+    "josaa_name": "Indian Institute of Technology Kharagpur",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-kharagpur",
+    "college_name": "Indian Institute of Technology Kharagpur",
+    "website": "https://www.iitkgp.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-kharagpur",
+        "college_name": "Indian Institute of Technology Kharagpur",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-kanpur",
+        "college_name": "Indian Institute of Technology Kanpur",
+        "score": 0.92,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "107",
+    "josaa_name": "Indian Institute of Technology Hyderabad",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-hyderabad",
+    "college_name": "Indian Institute of Technology Hyderabad",
+    "website": "https://www.iith.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-hyderabad",
+        "college_name": "Indian Institute of Technology Hyderabad",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "university-of-hyderabad",
+        "college_name": "University of Hyderabad",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "108",
+    "josaa_name": "Indian Institute of Technology Jodhpur",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-jodhpur",
+    "college_name": "Indian Institute of Technology Jodhpur",
+    "website": "https://iitj.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-jodhpur",
+        "college_name": "Indian Institute of Technology Jodhpur",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-jammu",
+        "college_name": "Indian Institute of Technology Jammu",
+        "score": 0.92,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "109",
+    "josaa_name": "Indian Institute of Technology Kanpur",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-kanpur",
+    "college_name": "Indian Institute of Technology Kanpur",
+    "website": "https://www.iitk.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-kanpur",
+        "college_name": "Indian Institute of Technology Kanpur",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-kharagpur",
+        "college_name": "Indian Institute of Technology Kharagpur",
+        "score": 0.92,
+        "type": "IIT"
+      },
+      {
+        "college_id": "uptac-allenhouse-institute-of-technology-kanpur",
+        "college_name": "ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "uptac-apollo-institute-of-technology-kanpur",
+        "college_name": "APOLLO INSTITUTE OF TECHNOLOGY,KANPUR",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "uptac-axis-institute-of-technology-management-kanpur",
+        "college_name": "AXIS INSTITUTE OF TECHNOLOGY & MANAGEMENT,KANPUR",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "110",
+    "josaa_name": "Indian Institute of Technology Madras",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-madras",
+    "college_name": "Indian Institute of Technology Madras",
+    "website": "https://www.iitm.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-madras",
+        "college_name": "Indian Institute of Technology Madras",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-mandi",
+        "college_name": "Indian Institute of Technology Mandi",
+        "score": 0.92,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "111",
+    "josaa_name": "Indian Institute of Technology Gandhinagar",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "iit-gandhinagar",
+    "college_name": "IIT Gandhinagar",
+    "website": "https://www.iitgn.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "iit-gandhinagar",
+        "college_name": "IIT Gandhinagar",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "uptac-ideal-instt-of-technology-ghaziabad",
+        "college_name": "IDEAL INSTT. OF TECHNOLOGY,GHAZIABAD",
+        "score": 0.92,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-goa",
+        "college_name": "Indian Institute of Technology Goa",
+        "score": 0.92,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-guwahati",
+        "college_name": "Indian Institute of Technology Guwahati",
+        "score": 0.92,
+        "type": "IIT"
+      }
+    ],
+    "manual_resolution": "VERIFIED_ALIAS_MAPPING"
+  },
+  {
+    "josaa_code": "112",
+    "josaa_name": "Indian Institute of Technology Patna",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-patna",
+    "college_name": "Indian Institute of Technology Patna",
+    "website": "https://www.iitp.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-patna",
+        "college_name": "Indian Institute of Technology Patna",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "nit-patna",
+        "college_name": "NIT Patna",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-palakkad",
+        "college_name": "Indian Institute of Technology Palakkad",
+        "score": 0.92,
+        "type": "IIT"
+      },
+      {
+        "college_id": "birla-institute-of-technology-patna-off-campus",
+        "college_name": "Birla Institute of Technology, Patna Off-Campus",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-patna",
+        "college_name": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "113",
+    "josaa_name": "Indian Institute of Technology Roorkee",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-roorkee",
+    "college_name": "Indian Institute of Technology Roorkee",
+    "website": "https://www.iitr.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-roorkee",
+        "college_name": "Indian Institute of Technology Roorkee",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-ropar",
+        "college_name": "Indian Institute of Technology Ropar",
+        "score": 0.92,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "114",
+    "josaa_name": "Indian Institute of Technology (ISM) Dhanbad",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-dhanbad",
+    "college_name": "Indian Institute of Technology (ISM) Dhanbad",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-dhanbad",
+        "college_name": "Indian Institute of Technology (ISM) Dhanbad",
+        "score": 1,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "115",
+    "josaa_name": "Indian Institute of Technology Ropar",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-ropar",
+    "college_name": "Indian Institute of Technology Ropar",
+    "website": "https://www.iitrpr.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-ropar",
+        "college_name": "Indian Institute of Technology Ropar",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-roorkee",
+        "college_name": "Indian Institute of Technology Roorkee",
+        "score": 0.92,
+        "type": "IIT"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-ropar",
+        "college_name": "National Institute of Electronics and Information Technology, Ropar (Punjab)",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "116",
+    "josaa_name": "Indian Institute of Technology (BHU) Varanasi",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-varanasi",
+    "college_name": "Indian Institute of Technology (BHU) Varanasi",
+    "website": "https://www.iitbhu.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-varanasi",
+        "college_name": "Indian Institute of Technology (BHU) Varanasi",
+        "score": 1,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "117",
+    "josaa_name": "Indian Institute of Technology Guwahati",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-guwahati",
+    "college_name": "Indian Institute of Technology Guwahati",
+    "website": "https://www.iitg.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-guwahati",
+        "college_name": "Indian Institute of Technology Guwahati",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "uptac-ideal-instt-of-technology-ghaziabad",
+        "college_name": "IDEAL INSTT. OF TECHNOLOGY,GHAZIABAD",
+        "score": 0.92,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-goa",
+        "college_name": "Indian Institute of Technology Goa",
+        "score": 0.92,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "118",
+    "josaa_name": "Indian Institute of Technology Bhilai",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-bhilai",
+    "college_name": "Indian Institute of Technology Bhilai",
+    "website": "https://www.iitbhilai.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-bhilai",
+        "college_name": "Indian Institute of Technology Bhilai",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-bhubaneswar",
+        "college_name": "Indian Institute of Technology Bhubaneswar",
+        "score": 0.92,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-bombay",
+        "college_name": "Indian Institute of Technology Bombay",
+        "score": 0.92,
+        "type": "IIT"
+      },
+      {
+        "college_id": "chhattisgarh-swami-vivekanada-technical-university-bhilai",
+        "college_name": "Chhattisgarh Swami Vivekanada Technical University, Bhilai (CSVTU Bhilai)",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "119",
+    "josaa_name": "Indian Institute of Technology Goa",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-goa",
+    "college_name": "Indian Institute of Technology Goa",
+    "website": "https://iitgoa.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-goa",
+        "college_name": "Indian Institute of Technology Goa",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "uptac-ideal-instt-of-technology-ghaziabad",
+        "college_name": "IDEAL INSTT. OF TECHNOLOGY,GHAZIABAD",
+        "score": 0.92,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-guwahati",
+        "college_name": "Indian Institute of Technology Guwahati",
+        "score": 0.92,
+        "type": "IIT"
+      },
+      {
+        "college_id": "goa-engineering-college",
+        "college_name": "Goa Engineering College",
+        "score": 0.5,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "120",
+    "josaa_name": "Indian Institute of Technology Palakkad",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-palakkad",
+    "college_name": "Indian Institute of Technology Palakkad",
+    "website": "https://iitpkd.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-palakkad",
+        "college_name": "Indian Institute of Technology Palakkad",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-patna",
+        "college_name": "Indian Institute of Technology Patna",
+        "score": 0.92,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "121",
+    "josaa_name": "Indian Institute of Technology Tirupati",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-tirupati",
+    "college_name": "Indian Institute of Technology Tirupati",
+    "website": "https://www.iittp.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-tirupati",
+        "college_name": "Indian Institute of Technology Tirupati",
+        "score": 1,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "122",
+    "josaa_name": "Indian Institute of Technology Jammu",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-jammu",
+    "college_name": "Indian Institute of Technology Jammu",
+    "website": "https://iitjammu.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-jammu",
+        "college_name": "Indian Institute of Technology Jammu",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-jodhpur",
+        "college_name": "Indian Institute of Technology Jodhpur",
+        "score": 0.92,
+        "type": "IIT"
+      },
+      {
+        "college_id": "central-university-of-jammu",
+        "college_name": "Central University of Jammu",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "shri-mata-vaishno-devi-university-katra-jammu-kashmir",
+        "college_name": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "123",
+    "josaa_name": "Indian Institute of Technology Dharwad",
+    "josaa_type": "IIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-technology-dharwad",
+    "college_name": "Indian Institute of Technology Dharwad",
+    "website": "https://www.iitdh.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-technology-dharwad",
+        "college_name": "Indian Institute of Technology Dharwad",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-delhi",
+        "college_name": "Indian Institute of Technology Delhi",
+        "score": 0.92,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "124",
+    "josaa_name": "Indian Institute of Science, Bangalore",
+    "josaa_type": "IISC",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-science-bangalore",
+    "college_name": "Indian Institute of Science, Bangalore",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-science-bangalore",
+        "college_name": "Indian Institute of Science, Bangalore",
+        "score": 1,
+        "type": "IISC"
+      }
+    ]
+  },
+  {
+    "josaa_code": "201",
+    "josaa_name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "dr-b-r-ambedkar-national-institute-of-technology-jalandhar",
+    "college_name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+    "website": "https://www.nitj.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "dr-b-r-ambedkar-national-institute-of-technology-jalandhar",
+        "college_name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-jalandhar",
+        "college_name": "NIT Jalandhar",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "202",
+    "josaa_name": "Malaviya National Institute of Technology Jaipur",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "malaviya-national-institute-of-technology-jaipur",
+    "college_name": "Malaviya National Institute of Technology Jaipur",
+    "website": "https://mnit.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "malaviya-national-institute-of-technology-jaipur",
+        "college_name": "Malaviya National Institute of Technology Jaipur",
+        "score": 1,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "203",
+    "josaa_name": "Maulana Azad National Institute of Technology Bhopal",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "maulana-azad-national-institute-of-technology-bhopal",
+    "college_name": "Maulana Azad National Institute of Technology Bhopal",
+    "website": "https://www.manit.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "maulana-azad-national-institute-of-technology-bhopal",
+        "college_name": "Maulana Azad National Institute of Technology Bhopal",
+        "score": 1,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "204",
+    "josaa_name": "Motilal Nehru National Institute of Technology Allahabad",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "motilal-nehru-national-institute-of-technology-allahabad",
+    "college_name": "Motilal Nehru National Institute of Technology Allahabad",
+    "website": "https://www.mnnit.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "motilal-nehru-national-institute-of-technology-allahabad",
+        "college_name": "Motilal Nehru National Institute of Technology Allahabad",
+        "score": 1,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "205",
+    "josaa_name": "National Institute of Technology Agartala",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-agartala",
+    "college_name": "National Institute of Technology Agartala",
+    "website": "https://nita.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-agartala",
+        "college_name": "National Institute of Technology Agartala",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+        "college_name": "National Institute of Electronics and Information Technology, Agartala",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "206",
+    "josaa_name": "National Institute of Technology Calicut",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-calicut",
+    "college_name": "National Institute of Technology Calicut",
+    "website": "https://nitc.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-calicut",
+        "college_name": "National Institute of Technology Calicut",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-calicut",
+        "college_name": "NIT Calicut",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+        "college_name": "National Institute of Electronics and Information Technology, Calicut",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "207",
+    "josaa_name": "National Institute of Technology Delhi",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-delhi",
+    "college_name": "National Institute of Technology Delhi",
+    "website": "https://nitdelhi.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-delhi",
+        "college_name": "National Institute of Technology Delhi",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-durgapur",
+        "college_name": "National Institute of Technology Durgapur",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "uptac-delhi-institute-of-engineering-technology-meerut",
+        "college_name": "DELHI INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "dtu-delhi",
+        "college_name": "Delhi Technological University",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "jawaharlal-nehru-university-delhi",
+        "college_name": "Jawaharlal Nehru University, Delhi",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "208",
+    "josaa_name": "National Institute of Technology Durgapur",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-durgapur",
+    "college_name": "National Institute of Technology Durgapur",
+    "website": "https://nitdgp.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-durgapur",
+        "college_name": "National Institute of Technology Durgapur",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-delhi",
+        "college_name": "National Institute of Technology Delhi",
+        "score": 0.92,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "209",
+    "josaa_name": "National Institute of Technology Goa",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-goa",
+    "college_name": "National Institute of Technology Goa",
+    "website": "https://nitgoa.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-goa",
+        "college_name": "National Institute of Technology Goa",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "goa-engineering-college",
+        "college_name": "Goa Engineering College",
+        "score": 0.5,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "210",
+    "josaa_name": "National Institute of Technology Hamirpur",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-hamirpur",
+    "college_name": "National Institute of Technology Hamirpur",
+    "website": "https://nith.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-hamirpur",
+        "college_name": "National Institute of Technology Hamirpur",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-hamirpur",
+        "college_name": "NIT Hamirpur",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "211",
+    "josaa_name": "National Institute of Technology Karnataka, Surathkal",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-karnataka-surathkal",
+    "college_name": "National Institute of Technology Karnataka, Surathkal",
+    "website": "https://www.nitk.ac.in/",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-karnataka-surathkal",
+        "college_name": "National Institute of Technology Karnataka, Surathkal",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-surathkal",
+        "college_name": "NIT Karnataka, Surathkal",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "212",
+    "josaa_name": "National Institute of Technology Meghalaya",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-meghalaya",
+    "college_name": "National Institute of Technology Meghalaya",
+    "website": "https://www.nitm.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-meghalaya",
+        "college_name": "National Institute of Technology Meghalaya",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-manipur",
+        "college_name": "National Institute of Technology, Manipur",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-mizoram",
+        "college_name": "National Institute of Technology, Mizoram",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "uptac-neelkanth-institute-of-technology-meerut",
+        "college_name": "NEELKANTH INSTITUTE OF TECHNOLOGY,MEERUT",
+        "score": 0.92,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "213",
+    "josaa_name": "National Institute of Technology Nagaland",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-nagaland",
+    "college_name": "National Institute of Technology Nagaland",
+    "website": "https://nitnagaland.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-nagaland",
+        "college_name": "National Institute of Technology Nagaland",
+        "score": 1,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "214",
+    "josaa_name": "National Institute of Technology Patna",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-patna",
+    "college_name": "National Institute of Technology Patna",
+    "website": "https://www.nitp.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-patna",
+        "college_name": "National Institute of Technology Patna",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-patna",
+        "college_name": "NIT Patna",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-technology-puducherry",
+        "college_name": "National Institute of Technology Puducherry",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "birla-institute-of-technology-patna-off-campus",
+        "college_name": "Birla Institute of Technology, Patna Off-Campus",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-patna",
+        "college_name": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "215",
+    "josaa_name": "National Institute of Technology Puducherry",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-puducherry",
+    "college_name": "National Institute of Technology Puducherry",
+    "website": "https://www.nitpy.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-puducherry",
+        "college_name": "National Institute of Technology Puducherry",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-patna",
+        "college_name": "National Institute of Technology Patna",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "puducherry-technological-university-puducherry",
+        "college_name": "Puducherry Technological University, Puducherry",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "216",
+    "josaa_name": "National Institute of Technology Raipur",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-raipur",
+    "college_name": "National Institute of Technology Raipur",
+    "website": "https://nitrr.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-raipur",
+        "college_name": "National Institute of Technology Raipur",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-rourkela",
+        "college_name": "National Institute of Technology, Rourkela",
+        "score": 0.92,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "217",
+    "josaa_name": "National Institute of Technology Sikkim",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-sikkim",
+    "college_name": "National Institute of Technology Sikkim",
+    "website": "https://nitsikkim.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-sikkim",
+        "college_name": "National Institute of Technology Sikkim",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-silchar",
+        "college_name": "National Institute of Technology, Silchar",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-srinagar",
+        "college_name": "National Institute of Technology, Srinagar",
+        "score": 0.92,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "218",
+    "josaa_name": "National Institute of Technology Arunachal Pradesh",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-arunachal-pradesh",
+    "college_name": "National Institute of Technology Arunachal Pradesh",
+    "website": "https://www.nitap.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-arunachal-pradesh",
+        "college_name": "National Institute of Technology Arunachal Pradesh",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-andhra-pradesh",
+        "college_name": "National Institute of Technology, Andhra Pradesh",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+        "college_name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "219",
+    "josaa_name": "National Institute of Technology, Jamshedpur",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-jamshedpur",
+    "college_name": "National Institute of Technology, Jamshedpur",
+    "website": "https://www.nitjsr.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-jamshedpur",
+        "college_name": "National Institute of Technology, Jamshedpur",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-jamshedpur",
+        "college_name": "NIT Jamshedpur",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "220",
+    "josaa_name": "National Institute of Technology, Kurukshetra",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-kurukshetra",
+    "college_name": "National Institute of Technology, Kurukshetra",
+    "website": "https://nitkkr.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-kurukshetra",
+        "college_name": "National Institute of Technology, Kurukshetra",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-kurukshetra",
+        "college_name": "NIT Kurukshetra",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "221",
+    "josaa_name": "National Institute of Technology, Manipur",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-manipur",
+    "college_name": "National Institute of Technology, Manipur",
+    "website": "https://nitmanipur.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-manipur",
+        "college_name": "National Institute of Technology, Manipur",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-meghalaya",
+        "college_name": "National Institute of Technology Meghalaya",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-mizoram",
+        "college_name": "National Institute of Technology, Mizoram",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "uptac-neelkanth-institute-of-technology-meerut",
+        "college_name": "NEELKANTH INSTITUTE OF TECHNOLOGY,MEERUT",
+        "score": 0.92,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "222",
+    "josaa_name": "National Institute of Technology, Mizoram",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-mizoram",
+    "college_name": "National Institute of Technology, Mizoram",
+    "website": "https://www.nitmz.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-mizoram",
+        "college_name": "National Institute of Technology, Mizoram",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-meghalaya",
+        "college_name": "National Institute of Technology Meghalaya",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-manipur",
+        "college_name": "National Institute of Technology, Manipur",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "uptac-neelkanth-institute-of-technology-meerut",
+        "college_name": "NEELKANTH INSTITUTE OF TECHNOLOGY,MEERUT",
+        "score": 0.92,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "mizoram-university-aizawl",
+        "college_name": "Mizoram University, Aizawl",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "223",
+    "josaa_name": "National Institute of Technology, Rourkela",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-rourkela",
+    "college_name": "National Institute of Technology, Rourkela",
+    "website": "https://www.nitrkl.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-rourkela",
+        "college_name": "National Institute of Technology, Rourkela",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-rourkela",
+        "college_name": "NIT Rourkela",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-technology-raipur",
+        "college_name": "National Institute of Technology Raipur",
+        "score": 0.92,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "224",
+    "josaa_name": "National Institute of Technology, Silchar",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-silchar",
+    "college_name": "National Institute of Technology, Silchar",
+    "website": "https://www.nits.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-silchar",
+        "college_name": "National Institute of Technology, Silchar",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-silchar",
+        "college_name": "NIT Silchar",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-technology-sikkim",
+        "college_name": "National Institute of Technology Sikkim",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-srinagar",
+        "college_name": "National Institute of Technology, Srinagar",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "assam-university-silchar",
+        "college_name": "Assam University, Silchar",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "225",
+    "josaa_name": "National Institute of Technology, Srinagar",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-srinagar",
+    "college_name": "National Institute of Technology, Srinagar",
+    "website": "https://nitsri.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-srinagar",
+        "college_name": "National Institute of Technology, Srinagar",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-sikkim",
+        "college_name": "National Institute of Technology Sikkim",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-silchar",
+        "college_name": "National Institute of Technology, Silchar",
+        "score": 0.92,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-srinagar",
+        "college_name": "National Institute of Electronics and Information Technology, Srinagar",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "226",
+    "josaa_name": "National Institute of Technology, Tiruchirappalli",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-tiruchirappalli",
+    "college_name": "National Institute of Technology, Tiruchirappalli",
+    "website": "https://www.nitt.edu",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-tiruchirappalli",
+        "college_name": "National Institute of Technology, Tiruchirappalli",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-trichy",
+        "college_name": "NIT Tiruchirappalli",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "227",
+    "josaa_name": "National Institute of Technology, Uttarakhand",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-uttarakhand",
+    "college_name": "National Institute of Technology, Uttarakhand",
+    "website": "https://nituk.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-uttarakhand",
+        "college_name": "National Institute of Technology, Uttarakhand",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-uttarakhand",
+        "college_name": "NIT Uttarakhand",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "228",
+    "josaa_name": "National Institute of Technology, Warangal",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-warangal",
+    "college_name": "National Institute of Technology, Warangal",
+    "website": "https://www.nitw.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-warangal",
+        "college_name": "National Institute of Technology, Warangal",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-warangal",
+        "college_name": "NIT Warangal",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "229",
+    "josaa_name": "Sardar Vallabhbhai National Institute of Technology, Surat",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "college_name": "Sardar Vallabhbhai National Institute of Technology, Surat",
+    "website": "https://www.svnit.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "sardar-vallabhbhai-national-institute-of-technology-surat",
+        "college_name": "Sardar Vallabhbhai National Institute of Technology, Surat",
+        "score": 1,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "230",
+    "josaa_name": "Visvesvaraya National Institute of Technology, Nagpur",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "visvesvaraya-national-institute-of-technology-nagpur",
+    "college_name": "Visvesvaraya National Institute of Technology, Nagpur",
+    "website": "https://vnit.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "visvesvaraya-national-institute-of-technology-nagpur",
+        "college_name": "Visvesvaraya National Institute of Technology, Nagpur",
+        "score": 1,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "231",
+    "josaa_name": "National Institute of Technology, Andhra Pradesh",
+    "josaa_type": "NIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technology-andhra-pradesh",
+    "college_name": "National Institute of Technology, Andhra Pradesh",
+    "website": "https://nitandhra.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technology-andhra-pradesh",
+        "college_name": "National Institute of Technology, Andhra Pradesh",
+        "score": 1,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-arunachal-pradesh",
+        "college_name": "National Institute of Technology Arunachal Pradesh",
+        "score": 0.92,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "232",
+    "josaa_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+    "josaa_type": "IIEST",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "college_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+    "website": "https://www.iiests.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-engineering-science-and-technology-shibpur",
+        "college_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "score": 1,
+        "type": "IIEST"
+      }
+    ]
+  },
+  {
+    "josaa_code": "301",
+    "josaa_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "college_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "website": "https://www.iiitm.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+        "college_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "302",
+    "josaa_name": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-kota-rajasthan",
+    "college_name": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-kota-rajasthan",
+        "college_name": "Indian Institute of Information Technology (IIIT)Kota, Rajasthan",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "303",
+    "josaa_name": "Indian Institute of Information Technology Guwahati",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-guwahati",
+    "college_name": "Indian Institute of Information Technology Guwahati",
+    "website": "https://www.iiitg.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "iiit-guwahati",
+        "college_name": "IIIT Guwahati",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-guwahati",
+        "college_name": "Indian Institute of Information Technology Guwahati",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ],
+    "manual_resolution": "VERIFIED_ALIAS_MAPPING"
+  },
+  {
+    "josaa_code": "304",
+    "josaa_name": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-kalyani-west-bengal",
+    "college_name": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-kalyani-west-bengal",
+        "college_name": "Indian Institute of Information Technology(IIIT) Kalyani, West Bengal",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "305",
+    "josaa_name": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-kilohrad-sonepat-haryana",
+    "college_name": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-kilohrad-sonepat-haryana",
+        "college_name": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "306",
+    "josaa_name": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-una-himachal-pradesh",
+    "college_name": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-una-himachal-pradesh",
+        "college_name": "Indian Institute of Information Technology(IIIT) Una, Himachal Pradesh",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "307",
+    "josaa_name": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-sri-city-chittoor",
+    "college_name": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-sri-city-chittoor",
+        "college_name": "Indian Institute of Information Technology (IIIT), Sri City, Chittoor",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "308",
+    "josaa_name": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-vadodara-gujrat",
+    "college_name": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-vadodara-gujrat",
+        "college_name": "Indian Institute of Information Technology(IIIT), Vadodara, Gujrat",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "309",
+    "josaa_name": "Indian Institute of Information Technology, Allahabad",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-allahabad",
+    "college_name": "Indian Institute of Information Technology, Allahabad",
+    "website": "https://www.iiita.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "iiit-allahabad",
+        "college_name": "IIIT Allahabad",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-allahabad",
+        "college_name": "Indian Institute of Information Technology, Allahabad",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-agartala",
+        "college_name": "Indian Institute of Information Technology, Agartala",
+        "score": 0.92,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+        "college_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "uptac-hmfa-memorial-institute-of-engineering-technology-allahabad",
+        "college_name": "HMFA MEMORIAL INSTITUTE OF ENGINEERING & TECHNOLOGY,ALLAHABAD",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ],
+    "manual_resolution": "VERIFIED_ALIAS_MAPPING"
+  },
+  {
+    "josaa_code": "310",
+    "josaa_name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+    "college_name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+    "website": "https://www.iiitdm.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+        "college_name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "311",
+    "josaa_name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "pt-dwarka-prasad-mishra-indian-institute-of-information-technology-design-manufacture-jabalpur",
+    "college_name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+    "website": "https://www.iiitdmj.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "pt-dwarka-prasad-mishra-indian-institute-of-information-technology-design-manufacture-jabalpur",
+        "college_name": "Pt. Dwarka Prasad Mishra Indian Institute of Information Technology, Design & Manufacture Jabalpur",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "313",
+    "josaa_name": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-senapati-manipur",
+    "college_name": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-senapati-manipur",
+        "college_name": "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY SENAPATI MANIPUR",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "314",
+    "josaa_name": "Indian Institute of Information Technology Tiruchirappalli",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-tiruchirappalli",
+    "college_name": "Indian Institute of Information Technology Tiruchirappalli",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-tiruchirappalli",
+        "college_name": "Indian Institute of Information Technology Tiruchirappalli",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "nit-trichy",
+        "college_name": "NIT Tiruchirappalli",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "315",
+    "josaa_name": "Indian Institute of Information Technology Lucknow",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-lucknow",
+    "college_name": "Indian Institute of Information Technology Lucknow",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-lucknow",
+        "college_name": "Indian Institute of Information Technology Lucknow",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "uptac-lucknow-university-lucknow",
+        "college_name": "Lucknow University, Lucknow",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+        "college_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "uptac-azad-institute-of-engineering-technology-lucknow",
+        "college_name": "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "uptac-b-n-college-of-engineering-technology-lucknow",
+        "college_name": "B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET),LUCKNOW",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "316",
+    "josaa_name": "Indian Institute of Information Technology(IIIT) Dharwad",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-dharwad",
+    "college_name": "Indian Institute of Information Technology(IIIT) Dharwad",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-dharwad",
+        "college_name": "Indian Institute of Information Technology(IIIT) Dharwad",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "317",
+    "josaa_name": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kurnool-andhra-pradesh",
+    "college_name": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-design-manufacturing-kurnool-andhra-pradesh",
+        "college_name": "Indian Institute of Information Technology Design & Manufacturing Kurnool, Andhra Pradesh",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "318",
+    "josaa_name": "Indian Institute of Information Technology(IIIT) Kottayam",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-kottayam",
+    "college_name": "Indian Institute of Information Technology(IIIT) Kottayam",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-kottayam",
+        "college_name": "Indian Institute of Information Technology(IIIT) Kottayam",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "319",
+    "josaa_name": "Indian Institute of Information Technology (IIIT) Ranchi",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-ranchi",
+    "college_name": "Indian Institute of Information Technology (IIIT) Ranchi",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-ranchi",
+        "college_name": "Indian Institute of Information Technology (IIIT) Ranchi",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "birla-institute-of-technology-mesra-ranchi",
+        "college_name": "Birla Institute of Technology, Mesra, Ranchi",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "bit-mesra",
+        "college_name": "BIT Mesra, Ranchi",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-advanced-manufacturing-technology-ranchi",
+        "college_name": "National Institute of Advanced Manufacturing Technology, Ranchi",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "320",
+    "josaa_name": "Indian Institute of Information Technology (IIIT) Nagpur",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-nagpur",
+    "college_name": "Indian Institute of Information Technology (IIIT) Nagpur",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-nagpur",
+        "college_name": "Indian Institute of Information Technology (IIIT) Nagpur",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "321",
+    "josaa_name": "Indian Institute of Information Technology (IIIT) Pune",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-pune",
+    "college_name": "Indian Institute of Information Technology (IIIT) Pune",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "iiit-pune",
+        "college_name": "IIIT Pune",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-pune",
+        "college_name": "Indian Institute of Information Technology (IIIT) Pune",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ],
+    "manual_resolution": "VERIFIED_ALIAS_MAPPING"
+  },
+  {
+    "josaa_code": "322",
+    "josaa_name": "Indian Institute of Information Technology Bhagalpur",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-bhagalpur",
+    "college_name": "Indian Institute of Information Technology Bhagalpur",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-bhagalpur",
+        "college_name": "Indian Institute of Information Technology Bhagalpur",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-bhopal",
+        "college_name": "Indian Institute of Information Technology Bhopal",
+        "score": 0.92,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "323",
+    "josaa_name": "Indian Institute of Information Technology Bhopal",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-bhopal",
+    "college_name": "Indian Institute of Information Technology Bhopal",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-bhopal",
+        "college_name": "Indian Institute of Information Technology Bhopal",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-bhagalpur",
+        "college_name": "Indian Institute of Information Technology Bhagalpur",
+        "score": 0.92,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "manit-bhopal",
+        "college_name": "MANIT Bhopal",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-technical-teachers-training-and-research-bhopal",
+        "college_name": "National Institute of Technical Teachers Training and Research Bhopal",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "school-of-planning-architecture-bhopal",
+        "college_name": "School of Planning & Architecture, Bhopal",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "324",
+    "josaa_name": "Indian Institute of Information Technology Surat",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-surat",
+    "college_name": "Indian Institute of Information Technology Surat",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-surat",
+        "college_name": "Indian Institute of Information Technology Surat",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "nit-surathkal",
+        "college_name": "NIT Karnataka, Surathkal",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "325",
+    "josaa_name": "Indian Institute of Information Technology, Agartala",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-agartala",
+    "college_name": "Indian Institute of Information Technology, Agartala",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-agartala",
+        "college_name": "Indian Institute of Information Technology, Agartala",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-allahabad",
+        "college_name": "Indian Institute of Information Technology, Allahabad",
+        "score": 0.92,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+        "college_name": "National Institute of Electronics and Information Technology, Agartala",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "326",
+    "josaa_name": "Indian institute of information technology, Raichur, Karnataka",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-raichur-karnataka",
+    "college_name": "Indian institute of information technology, Raichur, Karnataka",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-raichur-karnataka",
+        "college_name": "Indian institute of information technology, Raichur, Karnataka",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "327",
+    "josaa_name": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+    "josaa_type": "IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-information-technology-vadodara-international-campus-diu",
+    "college_name": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-information-technology-vadodara-international-campus-diu",
+        "college_name": "Indian Institute of Information Technology, Vadodara International Campus Diu (IIITVICD)",
+        "score": 1,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "401",
+    "josaa_name": "Assam University, Silchar",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "assam-university-silchar",
+    "college_name": "Assam University, Silchar",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "assam-university-silchar",
+        "college_name": "Assam University, Silchar",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-technology-silchar",
+        "college_name": "National Institute of Technology, Silchar",
+        "score": 0.9,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-silchar",
+        "college_name": "NIT Silchar",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "402",
+    "josaa_name": "Birla Institute of Technology, Mesra, Ranchi",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "birla-institute-of-technology-mesra-ranchi",
+    "college_name": "Birla Institute of Technology, Mesra, Ranchi",
+    "website": "https://www.bitmesra.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "birla-institute-of-technology-mesra-ranchi",
+        "college_name": "Birla Institute of Technology, Mesra, Ranchi",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-ranchi",
+        "college_name": "Indian Institute of Information Technology (IIIT) Ranchi",
+        "score": 0.9,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "403",
+    "josaa_name": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "gurukula-kangri-vishwavidyalaya-haridwar",
+    "college_name": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "gurukula-kangri-vishwavidyalaya-haridwar",
+        "college_name": "Gurukula Kangri Vishwavidyalaya, Haridwar",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "404",
+    "josaa_name": "Indian Institute of Carpet Technology, Bhadohi",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-carpet-technology-bhadohi",
+    "college_name": "Indian Institute of Carpet Technology, Bhadohi",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-carpet-technology-bhadohi",
+        "college_name": "Indian Institute of Carpet Technology, Bhadohi",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "405",
+    "josaa_name": "Institute of Infrastructure, Technology, Research and Management-Ahmedabad",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "institute-of-infrastructure-technology-research-and-management-ahmedabad",
+    "college_name": "Institute of Infrastructure, Technology, Research and Management-Ahmedabad",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "institute-of-infrastructure-technology-research-and-management-ahmedabad",
+        "college_name": "Institute of Infrastructure, Technology, Research and Management-Ahmedabad",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "406",
+    "josaa_name": "School of Studies of Engineering and Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "school-of-studies-of-engineering-and-technology-guru-ghasidas-vishwavidyalaya-bilaspur",
+    "college_name": "School of Studies of Engineering and Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "school-of-studies-of-engineering-and-technology-guru-ghasidas-vishwavidyalaya-bilaspur",
+        "college_name": "School of Studies of Engineering and Technology, Guru Ghasidas Vishwavidyalaya, Bilaspur",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "407",
+    "josaa_name": "J.K. Institute of Applied Physics & Technology, Department of Electronics & Communication, University of Allahabad- Allahabad",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "j-k-institute-of-applied-physics-technology-department-of-electronics-communication-university-of-al",
+    "college_name": "J.K. Institute of Applied Physics & Technology, Department of Electronics & Communication, University of Allahabad- Allahabad",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "j-k-institute-of-applied-physics-technology-department-of-electronics-communication-university-of-al",
+        "college_name": "J.K. Institute of Applied Physics & Technology, Department of Electronics & Communication, University of Allahabad- Allahabad",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "iiit-allahabad",
+        "college_name": "IIIT Allahabad",
+        "score": 0.9,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-allahabad",
+        "college_name": "Indian Institute of Information Technology, Allahabad",
+        "score": 0.9,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "408",
+    "josaa_name": "National Institute of Electronics and Information Technology, Aurangabad (Maharashtra)",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-electronics-and-information-technology-aurangabad",
+    "college_name": "National Institute of Electronics and Information Technology, Aurangabad (Maharashtra)",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-aurangabad",
+        "college_name": "National Institute of Electronics and Information Technology, Aurangabad (Maharashtra)",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+        "college_name": "National Institute of Electronics and Information Technology, Agartala",
+        "score": 0.571,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+        "college_name": "National Institute of Electronics and Information Technology, Aizawl",
+        "score": 0.571,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+        "college_name": "National Institute of Electronics and Information Technology, Calicut",
+        "score": 0.571,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-imphal",
+        "college_name": "National Institute of Electronics and Information Technology, Imphal",
+        "score": 0.571,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "409",
+    "josaa_name": "National Institute of Advanced Manufacturing Technology, Ranchi",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-advanced-manufacturing-technology-ranchi",
+    "college_name": "National Institute of Advanced Manufacturing Technology, Ranchi",
+    "website": "https://niamt.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-advanced-manufacturing-technology-ranchi",
+        "college_name": "National Institute of Advanced Manufacturing Technology, Ranchi",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-ranchi",
+        "college_name": "Indian Institute of Information Technology (IIIT) Ranchi",
+        "score": 0.9,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "410",
+    "josaa_name": "Sant Longowal Institute of Engineering and Technology",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "sant-longowal-institute-of-engineering-and-technology",
+    "college_name": "Sant Longowal Institute of Engineering and Technology",
+    "website": "https://sliet.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "sant-longowal-institute-of-engineering-and-technology",
+        "college_name": "Sant Longowal Institute of Engineering and Technology",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "411",
+    "josaa_name": "Mizoram University, Aizawl",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "mizoram-university-aizawl",
+    "college_name": "Mizoram University, Aizawl",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "mizoram-university-aizawl",
+        "college_name": "Mizoram University, Aizawl",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-technology-mizoram",
+        "college_name": "National Institute of Technology, Mizoram",
+        "score": 0.9,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "412",
+    "josaa_name": "School of Engineering, Tezpur University, Napaam, Tezpur",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "school-of-engineering-tezpur-university-napaam-tezpur",
+    "college_name": "School of Engineering, Tezpur University, Napaam, Tezpur",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "school-of-engineering-tezpur-university-napaam-tezpur",
+        "college_name": "School of Engineering, Tezpur University, Napaam, Tezpur",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "413",
+    "josaa_name": "School of Planning & Architecture, Bhopal",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "school-of-planning-architecture-bhopal",
+    "college_name": "School of Planning & Architecture, Bhopal",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "school-of-planning-architecture-bhopal",
+        "college_name": "School of Planning & Architecture, Bhopal",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-bhopal",
+        "college_name": "Indian Institute of Information Technology Bhopal",
+        "score": 0.9,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "school-of-planning-architecture-vijayawada",
+        "college_name": "School of Planning & Architecture: Vijayawada",
+        "score": 0.6,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "school-of-planning-architecture-new-delhi",
+        "college_name": "School of Planning & Architecture, New Delhi",
+        "score": 0.5,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "414",
+    "josaa_name": "School of Planning & Architecture, New Delhi",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "school-of-planning-architecture-new-delhi",
+    "college_name": "School of Planning & Architecture, New Delhi",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "school-of-planning-architecture-new-delhi",
+        "college_name": "School of Planning & Architecture, New Delhi",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-delhi",
+        "college_name": "Indian Institute of Technology Delhi",
+        "score": 0.9,
+        "type": "IIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-delhi",
+        "college_name": "National Institute of Technology Delhi",
+        "score": 0.9,
+        "type": "NIT"
+      },
+      {
+        "college_id": "school-of-planning-architecture-bhopal",
+        "college_name": "School of Planning & Architecture, Bhopal",
+        "score": 0.5,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "school-of-planning-architecture-vijayawada",
+        "college_name": "School of Planning & Architecture: Vijayawada",
+        "score": 0.5,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "415",
+    "josaa_name": "School of Planning & Architecture: Vijayawada",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "school-of-planning-architecture-vijayawada",
+    "college_name": "School of Planning & Architecture: Vijayawada",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "school-of-planning-architecture-vijayawada",
+        "college_name": "School of Planning & Architecture: Vijayawada",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "school-of-planning-architecture-bhopal",
+        "college_name": "School of Planning & Architecture, Bhopal",
+        "score": 0.6,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "school-of-planning-architecture-new-delhi",
+        "college_name": "School of Planning & Architecture, New Delhi",
+        "score": 0.5,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "416",
+    "josaa_name": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "shri-mata-vaishno-devi-university-katra-jammu-kashmir",
+    "college_name": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+    "website": "https://www.smvdu.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "shri-mata-vaishno-devi-university-katra-jammu-kashmir",
+        "college_name": "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-jammu",
+        "college_name": "Indian Institute of Technology Jammu",
+        "score": 0.9,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "420",
+    "josaa_name": "International Institute of Information Technology, Naya Raipur",
+    "josaa_type": "INTERNATIONAL_IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "international-institute-of-information-technology-naya-raipur",
+    "college_name": "International Institute of Information Technology, Naya Raipur",
+    "website": "https://www.iiitnr.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "international-institute-of-information-technology-naya-raipur",
+        "college_name": "International Institute of Information Technology, Naya Raipur",
+        "score": 1,
+        "type": "INTERNATIONAL_IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "421",
+    "josaa_name": "University of Hyderabad",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "university-of-hyderabad",
+    "college_name": "University of Hyderabad",
+    "website": "https://uohyd.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "iiit-hyderabad",
+        "college_name": "IIIT Hyderabad",
+        "score": 1,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "indian-institute-of-technology-hyderabad",
+        "college_name": "Indian Institute of Technology Hyderabad",
+        "score": 1,
+        "type": "IIT"
+      },
+      {
+        "college_id": "university-of-hyderabad",
+        "college_name": "University of Hyderabad",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ],
+    "manual_resolution": "VERIFIED_ALIAS_MAPPING"
+  },
+  {
+    "josaa_code": "422",
+    "josaa_name": "Punjab Engineering College, Chandigarh",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "punjab-engineering-college-chandigarh",
+    "college_name": "Punjab Engineering College, Chandigarh",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "punjab-engineering-college-chandigarh",
+        "college_name": "Punjab Engineering College, Chandigarh",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "423",
+    "josaa_name": "Jawaharlal Nehru University, Delhi",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "jawaharlal-nehru-university-delhi",
+    "college_name": "Jawaharlal Nehru University, Delhi",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "jawaharlal-nehru-university-delhi",
+        "college_name": "Jawaharlal Nehru University, Delhi",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-delhi",
+        "college_name": "Indian Institute of Technology Delhi",
+        "score": 0.9,
+        "type": "IIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-delhi",
+        "college_name": "National Institute of Technology Delhi",
+        "score": 0.9,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "424",
+    "josaa_name": "International Institute of Information Technology, Bhubaneswar",
+    "josaa_type": "INTERNATIONAL_IIIT",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "international-institute-of-information-technology-bhubaneswar",
+    "college_name": "International Institute of Information Technology, Bhubaneswar",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "international-institute-of-information-technology-bhubaneswar",
+        "college_name": "International Institute of Information Technology, Bhubaneswar",
+        "score": 1,
+        "type": "INTERNATIONAL_IIIT"
+      },
+      {
+        "college_id": "institute-of-chemical-technology-mumbai-indian-oil-odisha-campus-bhubaneswar",
+        "college_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+        "score": 0.9,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "425",
+    "josaa_name": "Central institute of Technology Kokrajar, Assam",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "central-institute-of-technology-kokrajar-assam",
+    "college_name": "Central institute of Technology Kokrajar, Assam",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "central-institute-of-technology-kokrajar-assam",
+        "college_name": "Central institute of Technology Kokrajar, Assam",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "426",
+    "josaa_name": "Puducherry Technological University, Puducherry",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "puducherry-technological-university-puducherry",
+    "college_name": "Puducherry Technological University, Puducherry",
+    "website": "https://www.ptuniv.edu.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "puducherry-technological-university-puducherry",
+        "college_name": "Puducherry Technological University, Puducherry",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-technology-puducherry",
+        "college_name": "National Institute of Technology Puducherry",
+        "score": 0.9,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "427",
+    "josaa_name": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "ghani-khan-choudhary-institute-of-engineering-and-technology-malda-west-bengal",
+    "college_name": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "ghani-khan-choudhary-institute-of-engineering-and-technology-malda-west-bengal",
+        "college_name": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "428",
+    "josaa_name": "Central University of Rajasthan, Rajasthan",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "central-university-of-rajasthan-rajasthan",
+    "college_name": "Central University of Rajasthan, Rajasthan",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "central-university-of-rajasthan-rajasthan",
+        "college_name": "Central University of Rajasthan, Rajasthan",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "430",
+    "josaa_name": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-kundli",
+    "college_name": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+    "website": "https://niftem.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-kundli",
+        "college_name": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-thanjavur",
+        "college_name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+        "score": 0.714,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "431",
+    "josaa_name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-thanjavur",
+    "college_name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+    "website": "https://niftem-t.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-thanjavur",
+        "college_name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-kundli",
+        "college_name": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+        "score": 0.714,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "432",
+    "josaa_name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+    "college_name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+    "website": "https://nerist.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+        "college_name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-technology-arunachal-pradesh",
+        "college_name": "National Institute of Technology Arunachal Pradesh",
+        "score": 0.9,
+        "type": "NIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "433",
+    "josaa_name": "Indian Institute of Handloom Technology(IIHT), Varanasi",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-handloom-technology-varanasi",
+    "college_name": "Indian Institute of Handloom Technology(IIHT), Varanasi",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-handloom-technology-varanasi",
+        "college_name": "Indian Institute of Handloom Technology(IIHT), Varanasi",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-handloom-technology-salem",
+        "college_name": "Indian Institute of Handloom Technology, Salem",
+        "score": 0.5,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "434",
+    "josaa_name": "Chhattisgarh Swami Vivekanada Technical University, Bhilai (CSVTU Bhilai)",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "chhattisgarh-swami-vivekanada-technical-university-bhilai",
+    "college_name": "Chhattisgarh Swami Vivekanada Technical University, Bhilai (CSVTU Bhilai)",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "chhattisgarh-swami-vivekanada-technical-university-bhilai",
+        "college_name": "Chhattisgarh Swami Vivekanada Technical University, Bhilai (CSVTU Bhilai)",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-bhilai",
+        "college_name": "Indian Institute of Technology Bhilai",
+        "score": 0.9,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "435",
+    "josaa_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "institute-of-chemical-technology-mumbai-indian-oil-odisha-campus-bhubaneswar",
+    "college_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "institute-of-chemical-technology-mumbai-indian-oil-odisha-campus-bhubaneswar",
+        "college_name": "Institute of Chemical Technology, Mumbai: Indian Oil Odisha Campus, Bhubaneswar",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-bhubaneswar",
+        "college_name": "Indian Institute of Technology Bhubaneswar",
+        "score": 0.9,
+        "type": "IIT"
+      },
+      {
+        "college_id": "international-institute-of-information-technology-bhubaneswar",
+        "college_name": "International Institute of Information Technology, Bhubaneswar",
+        "score": 0.9,
+        "type": "INTERNATIONAL_IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "436",
+    "josaa_name": "North-Eastern Hill University, Shillong",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "north-eastern-hill-university-shillong",
+    "college_name": "North-Eastern Hill University, Shillong",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "north-eastern-hill-university-shillong",
+        "college_name": "North-Eastern Hill University, Shillong",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "437",
+    "josaa_name": "Central University of Jammu",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "central-university-of-jammu",
+    "college_name": "Central University of Jammu",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "central-university-of-jammu",
+        "college_name": "Central University of Jammu",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-jammu",
+        "college_name": "Indian Institute of Technology Jammu",
+        "score": 0.9,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "438",
+    "josaa_name": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "institute-of-engineering-and-technology-dr-h-s-gour-university-sagar",
+    "college_name": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "institute-of-engineering-and-technology-dr-h-s-gour-university-sagar",
+        "college_name": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "439",
+    "josaa_name": "Central University of Haryana",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "central-university-of-haryana",
+    "college_name": "Central University of Haryana",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "central-university-of-haryana",
+        "college_name": "Central University of Haryana",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "440",
+    "josaa_name": "Birla Institute of Technology, Deoghar Off-Campus",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "birla-institute-of-technology-deoghar-off-campus",
+    "college_name": "Birla Institute of Technology, Deoghar Off-Campus",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "birla-institute-of-technology-deoghar-off-campus",
+        "college_name": "Birla Institute of Technology, Deoghar Off-Campus",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "birla-institute-of-technology-patna-off-campus",
+        "college_name": "Birla Institute of Technology, Patna Off-Campus",
+        "score": 0.667,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "441",
+    "josaa_name": "Birla Institute of Technology, Patna Off-Campus",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "birla-institute-of-technology-patna-off-campus",
+    "college_name": "Birla Institute of Technology, Patna Off-Campus",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "birla-institute-of-technology-patna-off-campus",
+        "college_name": "Birla Institute of Technology, Patna Off-Campus",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-patna",
+        "college_name": "Indian Institute of Technology Patna",
+        "score": 0.9,
+        "type": "IIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-patna",
+        "college_name": "National Institute of Technology Patna",
+        "score": 0.9,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-patna",
+        "college_name": "NIT Patna",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "birla-institute-of-technology-deoghar-off-campus",
+        "college_name": "Birla Institute of Technology, Deoghar Off-Campus",
+        "score": 0.667,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "442",
+    "josaa_name": "Indian Institute of Handloom Technology, Salem",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "indian-institute-of-handloom-technology-salem",
+    "college_name": "Indian Institute of Handloom Technology, Salem",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "indian-institute-of-handloom-technology-salem",
+        "college_name": "Indian Institute of Handloom Technology, Salem",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-handloom-technology-varanasi",
+        "college_name": "Indian Institute of Handloom Technology(IIHT), Varanasi",
+        "score": 0.5,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "443",
+    "josaa_name": "Gati Shakti Vishwavidyalaya, Vadodara",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "gati-shakti-vishwavidyalaya-vadodara",
+    "college_name": "Gati Shakti Vishwavidyalaya, Vadodara",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "gati-shakti-vishwavidyalaya-vadodara",
+        "college_name": "Gati Shakti Vishwavidyalaya, Vadodara",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "444",
+    "josaa_name": "CU Jharkhand",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "cu-jharkhand",
+    "college_name": "CU Jharkhand",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "cu-jharkhand",
+        "college_name": "CU Jharkhand",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "445",
+    "josaa_name": "National Institute of Electronics and Information Technology, Ropar (Punjab)",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-electronics-and-information-technology-ropar",
+    "college_name": "National Institute of Electronics and Information Technology, Ropar (Punjab)",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-ropar",
+        "college_name": "National Institute of Electronics and Information Technology, Ropar (Punjab)",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-ropar",
+        "college_name": "Indian Institute of Technology Ropar",
+        "score": 0.9,
+        "type": "IIT"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+        "college_name": "National Institute of Electronics and Information Technology, Agartala",
+        "score": 0.571,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+        "college_name": "National Institute of Electronics and Information Technology, Aizawl",
+        "score": 0.571,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+        "college_name": "National Institute of Electronics and Information Technology, Calicut",
+        "score": 0.571,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "446",
+    "josaa_name": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-electronics-and-information-technology-patna",
+    "college_name": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-patna",
+        "college_name": "National Institute of Electronics and Information Technology, Patna (Bihar)",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-patna",
+        "college_name": "Indian Institute of Technology Patna",
+        "score": 0.9,
+        "type": "IIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-patna",
+        "college_name": "National Institute of Technology Patna",
+        "score": 0.9,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-patna",
+        "college_name": "NIT Patna",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+        "college_name": "National Institute of Electronics and Information Technology, Agartala",
+        "score": 0.571,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "447",
+    "josaa_name": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-electronics-and-information-technology-ajmer",
+    "college_name": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-ajmer",
+        "college_name": "National Institute of Electronics and Information Technology, Ajmer (Rajasthan)",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+        "college_name": "National Institute of Electronics and Information Technology, Agartala",
+        "score": 0.571,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+        "college_name": "National Institute of Electronics and Information Technology, Aizawl",
+        "score": 0.571,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+        "college_name": "National Institute of Electronics and Information Technology, Calicut",
+        "score": 0.571,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-imphal",
+        "college_name": "National Institute of Electronics and Information Technology, Imphal",
+        "score": 0.571,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "448",
+    "josaa_name": "National Institute of Electronics and Information Technology, Gorakhpur (UP)",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-electronics-and-information-technology-gorakhpur",
+    "college_name": "National Institute of Electronics and Information Technology, Gorakhpur (UP)",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-gorakhpur",
+        "college_name": "National Institute of Electronics and Information Technology, Gorakhpur (UP)",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+        "college_name": "National Institute of Electronics and Information Technology, Agartala",
+        "score": 0.571,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+        "college_name": "National Institute of Electronics and Information Technology, Aizawl",
+        "score": 0.571,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+        "college_name": "National Institute of Electronics and Information Technology, Calicut",
+        "score": 0.571,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-imphal",
+        "college_name": "National Institute of Electronics and Information Technology, Imphal",
+        "score": 0.571,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "449",
+    "josaa_name": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "rajiv-gandhi-national-aviation-university-fursatganj-amethi",
+    "college_name": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "rajiv-gandhi-national-aviation-university-fursatganj-amethi",
+        "college_name": "Rajiv Gandhi National Aviation University, Fursatganj, Amethi (UP)",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "450",
+    "josaa_name": "Islamic University of Science and Technology Kashmir",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "islamic-university-of-science-and-technology-kashmir",
+    "college_name": "Islamic University of Science and Technology Kashmir",
+    "website": "https://www.iust.ac.in",
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "islamic-university-of-science-and-technology-kashmir",
+        "college_name": "Islamic University of Science and Technology Kashmir",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "451",
+    "josaa_name": "Shri G. S. Institute of Technology and Science Indore",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+    "college_name": "Shri G. S. Institute of Technology and Science Indore",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+        "college_name": "Shri G. S. Institute of Technology and Science Indore",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-technology-indore",
+        "college_name": "Indian Institute of Technology Indore",
+        "score": 0.9,
+        "type": "IIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "452",
+    "josaa_name": "National Institute of Technical Teachers Training and Research Bhopal",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-technical-teachers-training-and-research-bhopal",
+    "college_name": "National Institute of Technical Teachers Training and Research Bhopal",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-technical-teachers-training-and-research-bhopal",
+        "college_name": "National Institute of Technical Teachers Training and Research Bhopal",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-bhopal",
+        "college_name": "Indian Institute of Information Technology Bhopal",
+        "score": 0.9,
+        "type": "IIIT"
+      }
+    ]
+  },
+  {
+    "josaa_code": "453",
+    "josaa_name": "Central University of Karnataka",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "central-university-of-karnataka",
+    "college_name": "Central University of Karnataka",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "central-university-of-karnataka",
+        "college_name": "Central University of Karnataka",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "454",
+    "josaa_name": "National Institute of Electronics and Information Technology, Agartala",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+    "college_name": "National Institute of Electronics and Information Technology, Agartala",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+        "college_name": "National Institute of Electronics and Information Technology, Agartala",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+        "college_name": "National Institute of Electronics and Information Technology, Aizawl",
+        "score": 0.92,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "indian-institute-of-information-technology-agartala",
+        "college_name": "Indian Institute of Information Technology, Agartala",
+        "score": 0.9,
+        "type": "IIIT"
+      },
+      {
+        "college_id": "national-institute-of-technology-agartala",
+        "college_name": "National Institute of Technology Agartala",
+        "score": 0.9,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+        "college_name": "National Institute of Electronics and Information Technology, Calicut",
+        "score": 0.667,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "455",
+    "josaa_name": "National Institute of Electronics and Information Technology, Aizawl",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+    "college_name": "National Institute of Electronics and Information Technology, Aizawl",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+        "college_name": "National Institute of Electronics and Information Technology, Aizawl",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+        "college_name": "National Institute of Electronics and Information Technology, Agartala",
+        "score": 0.92,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+        "college_name": "National Institute of Electronics and Information Technology, Calicut",
+        "score": 0.667,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-imphal",
+        "college_name": "National Institute of Electronics and Information Technology, Imphal",
+        "score": 0.667,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-kohima",
+        "college_name": "National Institute of Electronics and Information Technology, Kohima",
+        "score": 0.667,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "456",
+    "josaa_name": "National Institute of Electronics and Information Technology, Imphal",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-electronics-and-information-technology-imphal",
+    "college_name": "National Institute of Electronics and Information Technology, Imphal",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-imphal",
+        "college_name": "National Institute of Electronics and Information Technology, Imphal",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+        "college_name": "National Institute of Electronics and Information Technology, Agartala",
+        "score": 0.667,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+        "college_name": "National Institute of Electronics and Information Technology, Aizawl",
+        "score": 0.667,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+        "college_name": "National Institute of Electronics and Information Technology, Calicut",
+        "score": 0.667,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-kohima",
+        "college_name": "National Institute of Electronics and Information Technology, Kohima",
+        "score": 0.667,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "457",
+    "josaa_name": "National Institute of Electronics and Information Technology, Calicut",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+    "college_name": "National Institute of Electronics and Information Technology, Calicut",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+        "college_name": "National Institute of Electronics and Information Technology, Calicut",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-technology-calicut",
+        "college_name": "National Institute of Technology Calicut",
+        "score": 0.9,
+        "type": "NIT"
+      },
+      {
+        "college_id": "nit-calicut",
+        "college_name": "NIT Calicut",
+        "score": 0.9,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+        "college_name": "National Institute of Electronics and Information Technology, Agartala",
+        "score": 0.667,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+        "college_name": "National Institute of Electronics and Information Technology, Aizawl",
+        "score": 0.667,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "458",
+    "josaa_name": "National Institute of Electronics and Information Technology, Kohima",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-electronics-and-information-technology-kohima",
+    "college_name": "National Institute of Electronics and Information Technology, Kohima",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-kohima",
+        "college_name": "National Institute of Electronics and Information Technology, Kohima",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+        "college_name": "National Institute of Electronics and Information Technology, Agartala",
+        "score": 0.667,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+        "college_name": "National Institute of Electronics and Information Technology, Aizawl",
+        "score": 0.667,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+        "college_name": "National Institute of Electronics and Information Technology, Calicut",
+        "score": 0.667,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-imphal",
+        "college_name": "National Institute of Electronics and Information Technology, Imphal",
+        "score": 0.667,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "459",
+    "josaa_name": "National Institute of Electronics and Information Technology, Srinagar",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "national-institute-of-electronics-and-information-technology-srinagar",
+    "college_name": "National Institute of Electronics and Information Technology, Srinagar",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-srinagar",
+        "college_name": "National Institute of Electronics and Information Technology, Srinagar",
+        "score": 1,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-technology-srinagar",
+        "college_name": "National Institute of Technology, Srinagar",
+        "score": 0.9,
+        "type": "NIT"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+        "college_name": "National Institute of Electronics and Information Technology, Agartala",
+        "score": 0.667,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+        "college_name": "National Institute of Electronics and Information Technology, Aizawl",
+        "score": 0.667,
+        "type": "OTHER"
+      },
+      {
+        "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+        "college_name": "National Institute of Electronics and Information Technology, Calicut",
+        "score": 0.667,
+        "type": "OTHER"
+      }
+    ]
+  },
+  {
+    "josaa_code": "460",
+    "josaa_name": "Central University of Punjab, Bathinda",
+    "josaa_type": "OTHER",
+    "matched": true,
+    "ambiguous": false,
+    "college_id": "central-university-of-punjab-bathinda",
+    "college_name": "Central University of Punjab, Bathinda",
+    "website": null,
+    "score": 1,
+    "alternatives": [
+      {
+        "college_id": "central-university-of-punjab-bathinda",
+        "college_name": "Central University of Punjab, Bathinda",
+        "score": 1,
+        "type": "OTHER"
+      }
+    ]
+  }
+]

@@ -1,0 +1,752 @@
+[
+  {
+    "college_id": "uptac-acharya-narendra-deva-university-of-agriculture-technology-kumarganj-ayodhya",
+    "college_name": "Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-aligarh-college-of-engg-tech-aligarh",
+    "college_name": "ALIGARH COLLEGE OF ENGG. & TECH,ALIGARH",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-apollo-institute-of-technology-kanpur",
+    "college_name": "APOLLO INSTITUTE OF TECHNOLOGY,KANPUR",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "college_name": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-azad-institute-of-engineering-technology-lucknow",
+    "college_name": "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+    "college_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-b-n-college-of-engineering-technology-lucknow",
+    "college_name": "B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET),LUCKNOW",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-babu-banarsi-das-institute-of-tech-ghaziabad",
+    "college_name": "BABU BANARSI DAS INSTITUTE OF TECH.,GHAZIABAD",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-babu-sunder-singh-institute-of-technology-management-lucknow",
+    "college_name": "BABU SUNDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-bundelkhand-university-jhansi",
+    "college_name": "Bundelkhand University, Jhansi",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-central-institute-of-petrochemicals-engineering-technology-lucknow",
+    "college_name": "CENTRAL INSTITUTE OF PETROCHEMICALS ENGINEERING & TECHNOLOGY (CIPET), LUCKNOW",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "central-institute-of-technology-kokrajar-assam",
+    "college_name": "Central institute of Technology Kokrajar, Assam",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "central-university-of-jammu",
+    "college_name": "Central University of Jammu",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "central-university-of-karnataka",
+    "college_name": "Central University of Karnataka",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "central-university-of-punjab-bathinda",
+    "college_name": "Central University of Punjab, Bathinda",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-centre-for-advance-studies-lucknow",
+    "college_name": "CENTRE FOR ADVANCE STUDIES,LUCKNOW",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-ch-charan-singh-university-campus-meerut",
+    "college_name": "Ch. Charan Singh University Campus (SCRIET) Meerut",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-chaudhary-beeri-singh-college-of-engineering-management-agra",
+    "college_name": "CHAUDHARY BEERI SINGH COLLEGE OF ENGINEERING & MANAGEMENT,AGRA",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "chhattisgarh-swami-vivekanada-technical-university-bhilai",
+    "college_name": "Chhattisgarh Swami Vivekanada Technical University, Bhilai (CSVTU Bhilai)",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-college-of-engg-rural-technology-meerut",
+    "college_name": "COLLEGE OF ENGG. & RURAL TECHNOLOGY,MEERUT",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "cu-jharkhand",
+    "college_name": "CU Jharkhand",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-d-d-u-gorakhpur-university-gorakhpur",
+    "college_name": "D. D. U. Gorakhpur University, Gorakhpur",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-deewan-v-s-institute-of-engineering-technology-meerut-meerut",
+    "college_name": "DEEWAN V.S. INSTITUTE OF ENGINEERING & TECHNOLOGY, MEERUT,MEERUT",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "uptac-delhi-institute-of-engineering-technology-meerut",
+    "college_name": "DELHI INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  },
+  {
+    "college_id": "dtu-delhi",
+    "college_name": "Delhi Technological University",
+    "program": "B.Tech",
+    "academic_year": 2026,
+    "missing_fields": [
+      "tuition_fee_per_semester",
+      "academic_fee_per_semester",
+      "hostel_fee_per_semester",
+      "mess_fee_per_semester",
+      "first_semester_fee",
+      "annual_academic_fee",
+      "annual_total_fee",
+      "total_course_fee"
+    ],
+    "research_status": "pending",
+    "source_strategy": [
+      "official",
+      "official_admission_or_counselling",
+      "collegedunia_or_shiksha",
+      "careers360_or_other_secondary"
+    ],
+    "rules": {
+      "official_first": true,
+      "fallback_only_for_missing_fields": true,
+      "unclear_value": "null",
+      "conflict_status": "review_recommended",
+      "do_not_guess": true
+    }
+  }
+]

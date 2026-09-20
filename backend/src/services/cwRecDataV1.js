@@ -1,4 +1,4 @@
-﻿import {
+import {
   pool,
 } from '../db/pool.js';
 
@@ -83,6 +83,252 @@ function normalizeRound(
 }
 
 
+function numberOrNull(value) {
+  if (
+    value === null ||
+    value === undefined ||
+    value === ''
+  ) {
+    return null;
+  }
+
+
+  const number =
+    Number(value);
+
+
+  return Number.isFinite(number)
+    ? number
+    : null;
+}
+
+
+function buildHistoricalAdmissionFit({
+  studentRank,
+  r1OpeningRank,
+  lastRoundClosingRank,
+}) {
+  const rank =
+    numberOrNull(studentRank);
+
+
+  const opening =
+    numberOrNull(r1OpeningRank);
+
+
+  const closing =
+    numberOrNull(lastRoundClosingRank);
+
+
+  if (
+    rank === null ||
+    closing === null
+  ) {
+    return {
+      bucket: 'target',
+      label: 'Target',
+      position: null,
+      r1OpeningRank:
+        opening,
+      lastRoundClosingRank:
+        closing,
+    };
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | FINAL ADMISSION BUCKET
+  |--------------------------------------------------------------------------
+  |
+  | Single source of truth:
+  |
+  |   Round-1 opening rank
+  |           +
+  |   last-round closing rank
+  |
+  | Smaller rank is better.
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    opening !== null &&
+    closing > opening
+  ) {
+    const position =
+      (rank - opening) /
+      (closing - opening);
+
+
+    if (position <= 0) {
+      return {
+        bucket: 'backup',
+        label: 'Backup',
+        position,
+        r1OpeningRank:
+          opening,
+        lastRoundClosingRank:
+          closing,
+      };
+    }
+
+
+    if (position <= 0.60) {
+      return {
+        bucket: 'safe',
+        label: 'Safe',
+        position,
+        r1OpeningRank:
+          opening,
+        lastRoundClosingRank:
+          closing,
+      };
+    }
+
+
+    if (position <= 1) {
+      return {
+        bucket: 'target',
+        label: 'Target',
+        position,
+        r1OpeningRank:
+          opening,
+        lastRoundClosingRank:
+          closing,
+      };
+    }
+
+
+    return {
+      bucket: 'dream',
+      label: 'Dream',
+      position,
+      r1OpeningRank:
+        opening,
+      lastRoundClosingRank:
+        closing,
+    };
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | FALLBACK
+  |--------------------------------------------------------------------------
+  | Used only when a valid R1 opening rank is not available.
+  |--------------------------------------------------------------------------
+  */
+
+  const ratio =
+    rank / closing;
+
+
+  if (ratio <= 0.60) {
+    return {
+      bucket: 'backup',
+      label: 'Backup',
+      position: null,
+      r1OpeningRank:
+        opening,
+      lastRoundClosingRank:
+        closing,
+    };
+  }
+
+
+  if (ratio <= 0.85) {
+    return {
+      bucket: 'safe',
+      label: 'Safe',
+      position: null,
+      r1OpeningRank:
+        opening,
+      lastRoundClosingRank:
+        closing,
+    };
+  }
+
+
+  if (ratio <= 1) {
+    return {
+      bucket: 'target',
+      label: 'Target',
+      position: null,
+      r1OpeningRank:
+        opening,
+      lastRoundClosingRank:
+        closing,
+    };
+  }
+
+
+  return {
+    bucket: 'dream',
+    label: 'Dream',
+    position: null,
+    r1OpeningRank:
+      opening,
+    lastRoundClosingRank:
+      closing,
+  };
+}
+
+
+const REVIEW_ENRICHMENT_CONCURRENCY =
+  12;
+
+
+async function mapWithConcurrency(
+  items,
+  concurrency,
+  worker
+) {
+  const safeConcurrency =
+    Math.max(
+      1,
+      Math.min(
+        Number(concurrency) || 1,
+        items.length || 1
+      )
+    );
+
+
+  let nextIndex =
+    0;
+
+
+  const runners =
+    Array.from(
+      {
+        length:
+          safeConcurrency,
+      },
+      async () => {
+        while (true) {
+          const index =
+            nextIndex++;
+
+
+          if (index >= items.length) {
+            return;
+          }
+
+
+          await worker(
+            items[index],
+            index
+          );
+        }
+      }
+    );
+
+
+  await Promise.all(
+    runners
+  );
+}
+
+
 /* =========================================================
    REAL RECOMMENDATION DATA
 ========================================================= */
@@ -161,6 +407,7 @@ export async function fetchCWRecRows({
     ![
       'jee-main',
       'jee-advanced',
+      'csab',
       'uptac',
     ].includes(
       normalizedExam
@@ -302,6 +549,16 @@ export async function fetchCWRecRows({
         AS "closingRank",
 
 
+      history_data.r1_opening_rank
+        AS "r1OpeningRank",
+
+      history_data.last_round_closing_rank
+        AS "lastRoundClosingRank",
+
+      history_data.last_round_number
+        AS "lastRoundNumber",
+
+
       co.source_label
         AS source,
 
@@ -335,6 +592,9 @@ export async function fetchCWRecRows({
       | Quality alias mapping will be added separately.
       |--------------------------------------------------------------------------
       */
+
+      quality_data.nirf_rank
+        AS "nirfRank",
 
       quality_data.nirf_score
         AS "nirfScore",
@@ -433,6 +693,144 @@ INNER JOIN colleges c
 
     /*
     |--------------------------------------------------------------------------
+    | HISTORICAL ADMISSION RANGE
+    |--------------------------------------------------------------------------
+    |
+    | R1 opening + final available round closing for the same seat pool.
+    | This is the canonical source used by Dream/Target/Safe/Backup.
+    |--------------------------------------------------------------------------
+    */
+
+    LEFT JOIN LATERAL (
+
+      SELECT
+
+        MIN(
+          CASE
+            WHEN
+              NULLIF(
+                REGEXP_REPLACE(
+                  LOWER(
+                    COALESCE(
+                      h.round::text,
+                      ''
+                    )
+                  ),
+                  '[^0-9]',
+                  '',
+                  'g'
+                ),
+                ''
+              )::int = 1
+
+            THEN
+              h.opening_rank
+
+            ELSE NULL
+          END
+        )
+          AS r1_opening_rank,
+
+
+        (
+          ARRAY_AGG(
+            h.closing_rank
+
+            ORDER BY
+              NULLIF(
+                REGEXP_REPLACE(
+                  LOWER(
+                    COALESCE(
+                      h.round::text,
+                      ''
+                    )
+                  ),
+                  '[^0-9]',
+                  '',
+                  'g'
+                ),
+                ''
+              )::int DESC NULLS LAST
+          )
+          FILTER (
+            WHERE
+              h.closing_rank
+                IS NOT NULL
+          )
+        )[1]
+          AS last_round_closing_rank,
+
+
+        MAX(
+          NULLIF(
+            REGEXP_REPLACE(
+              LOWER(
+                COALESCE(
+                  h.round::text,
+                  ''
+                )
+              ),
+              '[^0-9]',
+              '',
+              'g'
+            ),
+            ''
+          )::int
+        )
+          AS last_round_number
+
+
+      FROM ${cutoffTable} h
+
+
+      WHERE
+        h.branch_id =
+          co.branch_id
+
+        AND h.year =
+          co.year
+
+        AND h.category =
+          co.category
+
+        AND COALESCE(
+          h.quota,
+          ''
+        ) =
+        COALESCE(
+          co.quota,
+          ''
+        )
+
+        AND COALESCE(
+          h.gender,
+          ''
+        ) =
+        COALESCE(
+          co.gender,
+          ''
+        )
+
+        AND COALESCE(
+          h.counselling_type,
+          ''
+        ) =
+        COALESCE(
+          co.counselling_type,
+          ''
+        )
+
+        AND COALESCE(
+          h.is_verified,
+          true
+        ) = true
+
+    ) history_data
+      ON TRUE
+
+
+    /*
+    |--------------------------------------------------------------------------
     | VERIFIED COLLEGE QUALITY
     |--------------------------------------------------------------------------
     */
@@ -440,6 +838,8 @@ INNER JOIN colleges c
     LEFT JOIN LATERAL (
 
       SELECT
+
+        qm.nirf_rank,
 
         qm.nirf_score,
 
@@ -1201,9 +1601,6 @@ INNER JOIN colleges c
 
       AND co.category = $4
 
-
-      AND co.closing_rank >= CEIL($1 * 0.85)
-
   `;
 
 
@@ -1217,13 +1614,8 @@ INNER JOIN colleges c
   ) {
     query += `
 
-      AND co.counselling_type
-        IN (
-          'JOSAA',
-          'CSAB_SPECIAL',
-          'CSAB_SUPERNUMERARY',
-          'CSAB_NEUT'
-        )
+      AND co.counselling_type =
+        'JOSAA'
 
       AND co.verification_status =
         'VERIFIED'
@@ -1293,13 +1685,8 @@ INNER JOIN colleges c
   ) {
     query += `
 
-      AND co.counselling_type
-        IN (
-          'JOSAA',
-          'CSAB_SPECIAL',
-          'CSAB_SUPERNUMERARY',
-          'CSAB_NEUT'
-        )
+      AND co.counselling_type =
+        'JOSAA'
 
       AND co.verification_status =
         'VERIFIED'
@@ -1340,9 +1727,43 @@ INNER JOIN colleges c
   }
 
 
-  /* =======================================================
+  /*
+=======================================================
+     CSAB SPECIAL
+======================================================= */
+
+  if (
+    normalizedExam ===
+    'csab'
+  ) {
+    query += `
+
+      AND co.counselling_type =
+        'CSAB_SPECIAL'
+
+      AND co.verification_status =
+        'VERIFIED'
+
+      AND co.is_verified =
+        true
+
+      AND co.opening_rank
+        IS NOT NULL
+
+      AND co.closing_rank
+        IS NOT NULL
+
+      AND co.opening_rank <=
+        co.closing_rank
+
+    `;
+  }
+
+
+  /*
+=======================================================
      UPTAC
-  ======================================================= */
+======================================================= */
 
   if (
     normalizedExam ===
@@ -1404,7 +1825,12 @@ INNER JOIN colleges c
   ======================================================= */
 
   if (
-    normalizedExam !== 'uptac' &&
+    [
+      'jee-main',
+      'jee-advanced',
+    ].includes(
+      normalizedExam
+    ) &&
     !effectiveQuota &&
     homeState
   ) {
@@ -1441,9 +1867,129 @@ INNER JOIN colleges c
   }
 
 
-  /* =======================================================
+  /*
+=======================================================
+     CSAB HOME-STATE QUOTA ELIGIBILITY
+======================================================= */
+
+  if (
+    normalizedExam === 'csab' &&
+    !effectiveQuota &&
+    homeState
+  ) {
+    params.push(
+      String(homeState).trim()
+    );
+
+
+    const csabHomeStateParam =
+      `$${paramIndex++}`;
+
+
+    query += `
+
+      AND (
+
+        co.quota =
+          'All India'
+
+
+        OR (
+
+          co.quota =
+            'Home State'
+
+          AND LOWER(
+            TRIM(
+              c.state::text
+            )
+          ) =
+          LOWER(
+            TRIM(
+              ${csabHomeStateParam}::text
+            )
+          )
+
+        )
+
+
+        OR (
+
+          co.quota =
+            'Other State'
+
+          AND LOWER(
+            TRIM(
+              c.state::text
+            )
+          ) <>
+          LOWER(
+            TRIM(
+              ${csabHomeStateParam}::text
+            )
+          )
+
+        )
+
+
+        OR (
+
+          co.quota =
+            'Home State for Goa'
+
+          AND LOWER(
+            TRIM(
+              ${csabHomeStateParam}::text
+            )
+          ) =
+            'goa'
+
+        )
+
+
+        OR (
+
+          co.quota =
+            'Jammu & Kashmir (UT)'
+
+          AND LOWER(
+            TRIM(
+              ${csabHomeStateParam}::text
+            )
+          ) IN (
+            'jammu and kashmir',
+            'jammu & kashmir',
+            'j&k',
+            'jk'
+          )
+
+        )
+
+
+        OR (
+
+          co.quota =
+            'Ladakh (UT)'
+
+          AND LOWER(
+            TRIM(
+              ${csabHomeStateParam}::text
+            )
+          ) =
+            'ladakh'
+
+        )
+
+      )
+
+    `;
+  }
+
+
+  /*
+=======================================================
      OPTIONAL QUOTA
-  ======================================================= */
+======================================================= */
 
   if (
     effectiveQuota
@@ -1591,7 +2137,18 @@ INNER JOIN colleges c
 
     ORDER BY
 
-      co.closing_rank ASC,
+      ABS(
+        COALESCE(
+          history_data.last_round_closing_rank,
+          co.closing_rank,
+          $1
+        ) - $1
+      ) ASC,
+
+      COALESCE(
+        history_data.last_round_closing_rank,
+        co.closing_rank
+      ) DESC NULLS LAST,
 
       c.name ASC,
 
@@ -1660,6 +2217,98 @@ INNER JOIN colleges c
         return true;
       }
     );
+
+
+  /* =======================================================
+     CANONICAL ADMISSION BUCKET
+  ======================================================= */
+
+  for (
+    const row of unique
+  ) {
+    const historicalFit =
+      buildHistoricalAdmissionFit({
+        studentRank,
+
+        r1OpeningRank:
+          row.r1OpeningRank,
+
+        lastRoundClosingRank:
+          row.lastRoundClosingRank ??
+          row.closingRank,
+      });
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | SINGLE SOURCE OF TRUTH
+    |--------------------------------------------------------------------------
+    | Every downstream UI/service can consume the same bucket.
+    |--------------------------------------------------------------------------
+    */
+
+    row.bucket =
+      historicalFit.bucket;
+
+
+    row.admissionBucket = {
+      key:
+        historicalFit.bucket,
+
+      label:
+        historicalFit.label,
+    };
+
+
+    row.admission = {
+      ...(row.admission || {}),
+
+      bucket:
+        historicalFit.bucket,
+
+      label:
+        historicalFit.label,
+
+      r1OpeningRank:
+        historicalFit.r1OpeningRank,
+
+      lastRoundClosingRank:
+        historicalFit.lastRoundClosingRank,
+
+      lastRoundNumber:
+        numberOrNull(
+          row.lastRoundNumber
+        ),
+
+      historicalPosition:
+        historicalFit.position,
+    };
+
+
+    row.historicalFit = {
+      bucket:
+        historicalFit.bucket,
+
+      label:
+        historicalFit.label,
+
+      r1OpeningRank:
+        historicalFit.r1OpeningRank,
+
+      lastRoundClosingRank:
+        historicalFit.lastRoundClosingRank,
+
+      lastRoundNumber:
+        numberOrNull(
+          row.lastRoundNumber
+        ),
+
+      position:
+        historicalFit.position,
+    };
+  }
+
+
   /* =======================================================
      V3 REVIEW INTELLIGENCE ENRICHMENT
   ======================================================= */
@@ -1667,34 +2316,44 @@ INNER JOIN colleges c
   const reviewCache =
     new Map();
 
-  for (
-    const row of unique
-  ) {
-    const reviewCollegeId =
-      row.reviewCollegeId ||
-      row.college_id;
 
-    const requestedBranch =
-      row.branch_name ||
-      null;
+  const aspectCache =
+    new Map();
 
-    const cacheKey =
-      [
-        reviewCollegeId,
-        requestedBranch ?? '',
-      ].join('|');
 
-    let reviewV3 =
-      reviewCache.get(
-        cacheKey
-      );
+  await mapWithConcurrency(
+    unique.slice(
+      0,
+      60
+    ),
+    REVIEW_ENRICHMENT_CONCURRENCY,
+    async (row) => {
+      const reviewCollegeId =
+        row.reviewCollegeId ||
+        row.college_id;
 
-    if (
-      reviewV3 === undefined
-    ) {
-      try {
-        reviewV3 =
-          await getCollegeReviewScore(
+
+      const requestedBranch =
+        row.branch_name ||
+        null;
+
+
+      const cacheKey =
+        [
+          reviewCollegeId,
+          requestedBranch ?? '',
+        ].join('|');
+
+
+      let reviewPromise =
+        reviewCache.get(
+          cacheKey
+        );
+
+
+      if (!reviewPromise) {
+        reviewPromise =
+          getCollegeReviewScore(
             pool,
             {
               collegeId:
@@ -1703,34 +2362,48 @@ INNER JOIN colleges c
               branch:
                 requestedBranch,
             }
-          );
-      } catch (error) {
-        console.error(
-          '[CW-REC REVIEW V3]',
-          reviewCollegeId,
-          requestedBranch,
-          error.message
-        );
+          )
+            .catch(
+              (error) => {
+                console.error(
+                  '[CW-REC REVIEW V3]',
+                  reviewCollegeId,
+                  requestedBranch,
+                  error.message
+                );
 
-        reviewV3 =
-          null;
+
+                return null;
+              }
+            );
+
+
+        reviewCache.set(
+          cacheKey,
+          reviewPromise
+        );
       }
 
-      reviewCache.set(
-        cacheKey,
-        reviewV3
-      );
-    }
 
-    if (
-      reviewV3?.reviewScore !== null &&
-      reviewV3?.reviewScore !== undefined
-    ) {
+      const reviewV3 =
+        await reviewPromise;
+
+
+      if (
+        reviewV3?.reviewScore === null ||
+        reviewV3?.reviewScore === undefined
+      ) {
+        return;
+      }
+
+
       row.reviewScore =
         reviewV3.reviewScore;
 
+
       row.reviewConfidence =
         reviewV3.confidence ?? 0;
+
 
       row.reviewCount =
         Number(
@@ -1742,9 +2415,11 @@ INNER JOIN colleges c
             ?.aggregateEvidence || 0
         );
 
+
       row.reviewAverageSentiment =
         reviewV3.sentimentScore ??
         null;
+
 
       row.reviewIntelligenceV3 = {
         version:
@@ -1786,83 +2461,79 @@ INNER JOIN colleges c
           null,
       };
 
+
       /*
       |--------------------------------------------------------------------------
       | DISPLAY-ONLY REVIEW ASPECT INTELLIGENCE
       |--------------------------------------------------------------------------
-      |
-      | This DOES NOT alter:
-      | - reviewScore
-      | - CW-REC weighting
-      | - overall match
-      | - recommendation order
-      |
+      | Does not change review score, CW-REC weights, bucket or ordering.
+      |--------------------------------------------------------------------------
       */
 
-      try {
-        const aspectInsights =
-          await getReviewAspectInsights(
-            pool,
-            {
-              collegeId:
-                reviewCollegeId,
+      let aspectPromise =
+        aspectCache.get(
+          cacheKey
+        );
 
-              branch:
-                requestedBranch,
-            }
+
+      if (!aspectPromise) {
+        aspectPromise =
+          Promise.resolve(
+            null
           );
 
-        if (
-          aspectInsights
-        ) {
-          row.reviewIntelligenceV3 = {
-            ...row.reviewIntelligenceV3,
 
-            strengths:
-              aspectInsights
-                .strengths ??
-              [],
-
-            concerns:
-              aspectInsights
-                .concerns ??
-              [],
-
-            mixedAspects:
-              aspectInsights
-                .mixedAspects ??
-              [],
-
-            missingAspects:
-              aspectInsights
-                .missingAspects ??
-              [],
-
-            aspects:
-              aspectInsights
-                .aspects ??
-              {},
-
-            insightEvidence:
-              aspectInsights
-                .insightEvidence ??
-              null,
-
-            aspectInsightsApplied:
-              true,
-          };
-        }
-      } catch (aspectError) {
-        console.error(
-          '[CW-REC REVIEW ASPECT INSIGHTS]',
-          reviewCollegeId,
-          requestedBranch,
-          aspectError.message
+        aspectCache.set(
+          cacheKey,
+          aspectPromise
         );
       }
-    }
-  }
 
+
+      const aspectInsights =
+        await aspectPromise;
+
+
+      if (aspectInsights) {
+        row.reviewIntelligenceV3 = {
+          ...row.reviewIntelligenceV3,
+
+          strengths:
+            aspectInsights
+              .strengths ??
+            [],
+
+          concerns:
+            aspectInsights
+              .concerns ??
+            [],
+
+          mixedAspects:
+            aspectInsights
+              .mixedAspects ??
+            [],
+
+          missingAspects:
+            aspectInsights
+              .missingAspects ??
+            [],
+
+          aspects:
+            aspectInsights
+              .aspects ??
+            {},
+
+          insightEvidence:
+            aspectInsights
+              .insightEvidence ??
+            null,
+
+          aspectInsightsApplied:
+            true,
+        };
+      }
+    }
+  );
 
   /* =======================================================
      RESPONSE
@@ -1920,6 +2591,12 @@ INNER JOIN colleges c
         admission:
           true,
 
+        admissionBasis:
+          'round_1_opening_plus_last_round_closing',
+
+        canonicalBucket:
+          true,
+
         fees:
           true,
 
@@ -1935,6 +2612,7 @@ INNER JOIN colleges c
     },
   };
 }
+
 
 
 

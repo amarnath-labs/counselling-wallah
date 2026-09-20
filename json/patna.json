@@ -1,0 +1,646 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 5 of 5 in the third batch (NIT Patna). This completes the third batch of 5 NITs (NIT Silchar, NIT Agartala, NIT Jamshedpur, NIT Raipur, NIT Patna), bringing the running cumulative total to 15 NITs processed across all three batches."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Patna",
+        "verified_name": "National Institute of Technology, Patna",
+        "city": "Patna",
+        "state": "Bihar",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "One of India's oldest engineering institutions, tracing origin to an 1886 survey training school; became Bihar College of Engineering in 1924; upgraded to NIT status in 2004 (to replace Bihar's lost REC, which had been in Jamshedpur before Jharkhand's formation); declared Institute of National Importance in 2007. Currently operates across TWO campuses: an older, smaller main campus (~34-40 acres) on Ashok Rajpath Road in Patna city, and a newer, larger Bihta campus (~120-165 acres, figures vary by source) still under construction, to which some branches (reportedly CSE and ECE for certain years) have begun relocating. Explicitly verified DISTINCT from IIT Patna (a separate, newer institution in Bihta) and BIT Mesra – Patna Campus (also separate) — no evidence from either was included in this extraction."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews pages (multiple, including course-filtered for Civil Engineering), main overview page, and comparison pages retrieved."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page retrieved with substantive narrative review content, including detail on the two-campus split."},
+        {"platform": "Careers360", "status": "available", "notes": "Aggregate rating confirmed via a Patna-city JEE-Main-accepting-colleges listing page; paginated reviews page also retrieved."},
+        {"platform": "Quora", "status": "available", "notes": "No dedicated NIT Patna-specific Quora threads with substantive unique content were found distinct from CollegeBatch/Scribd-hosted reviews in this session's searches; qualitative evidence instead drawn primarily from CollegeBatch reviews."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to NIT Patna located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/compare-nit-patna-23147",
+          "aggregate_rating": 4.2,
+          "rating_scale": "out of 5",
+          "review_count": 731,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Patna is rated 4.2 out of 5 by 731 genuine verified students.'"
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/compare-nit-patna-vs-niit-university-23147-34582",
+          "aggregate_rating": 4.2,
+          "rating_scale": "out of 5",
+          "review_count": 731,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "Identical figures (4.2/5, 731 reviews) observed on a second comparison page, consistent with the first observation."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://shiksha.com/college/nit-patna-23147/reviews-7",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 816,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 816 NIT Patna - National Institute of Technology Reviews.' Distinct count (816) from the comparison pages (731) observed in this same session; both retained as separate observations."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-patna-national-institute-of-technology-23147/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 834,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 834 NIT Patna - National Institute of Technology Reviews.' Yet another distinct count (834) from the same general reviews section observed in this session; recorded as a separate observation per instruction."
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/ranking/top-engineering-colleges-in-patna-accepting-jee-main-score",
+          "aggregate_rating": 4.0,
+          "rating_scale": "out of 5",
+          "review_count": 76,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Patna - National Institute of Technology Patna ... Rating: 4.0/5, 76 Reviews.'"
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25417-national-institute-of-technology-nitp-patna/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippets; only narrative review text present."
+        },
+        {
+          "platform": "Glassdoor",
+          "source_url": "https://www.glassdoor.co.in/Reviews/NIT-Patna-Reviews-E639982.htm",
+          "aggregate_rating": 3.8,
+          "rating_scale": "out of 5",
+          "review_count": 49,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "SCOPE CAVEAT: This reflects EMPLOYEE/staff sentiment about NIT Patna as a workplace, not student sentiment. However, notably, some Glassdoor review excerpts appeared to reference student-facing conditions ('placements are average,' 'no proper care for students') rather than purely internal HR matters — this platform's scope boundary between employee and student experience is less clean here than for other institutions in this dataset. Still recorded as out-of-scope for student review_items per the established convention, but flagged for backend awareness."
+        }
+      ],
+
+      "platform_aspect_ratings": [],
+
+      "review_items": [
+        {
+          "college_name": "NIT Patna",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25417-national-institute-of-technology-nitp-patna/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements at NIT Patna are good for CSE. The students become eligible from 7th semester. Average package is around 13 to 14 LPA. Highest goes to 40. Around 85 to 95 percent students get placed.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Girls to boys ratio is low, around 1 ratio 5 or 1 ratio 6.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Faculty teaching quality is mixed. Some are good and some are average.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Infrastructure is average, like for Patna campus; however Bihta campus is under construction.' Descriptive of the two-campus situation."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Patna",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25417-national-institute-of-technology-nitp-patna/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This review explicitly frames the branch-based campus assignment (some branches at the older, smaller Patna campus vs. others at the newer, larger Bihta campus) as a form of perceived unfairness — a genuinely distinctive and specific concern for this institution given its unusual two-campus transition.",
+          "aspect_evidence": [
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The first I disliked is the girl to boy ratio, like there is only 12 to 15 girls in my section where total students are 70. There is bird poop everywhere around campus. I have to always carry an umbrella with me.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Patna campus size is only 34 acre and new Patna Bihta campus size is 125 acre. Civil and Mechanical students will be in Patna campus and other [branches] will be in Bihta campus within a few years. So I disliked this discrimination.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Patna",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25417-national-institute-of-technology-nitp-patna/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electrical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electrical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electrical Engineering",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'Placements are, in my college, starting from 7th semester. Core electrical engineering placements are limited, and mostly IT and specialisation branches get more placement opportunities. The average package in my college is moderate and also depends on skill.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Patna",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://shiksha.com/college/nit-patna-23147/reviews-7",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electrical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electrical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electrical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The rate of placement in NIT Patna in the electrical engineering branch is around 70-80%. The highest package offered is 47 LPA, and the average package is 11 LPA. The lowest package is 5 LPA. Top recruiting companies like Wipro, Deloitte, Infosys Consulting visit the college. Around 85% of students got internships in 3rd year 5th sem.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Labs of the computer science engineering department are well-equipped, and they have all the necessary machines. There is high internet speed, good classrooms, and a huge library. 3 boys' hostels and 2 girls' hostels are provided by the college administration.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The mess food is good. There are medical facilities. It has different types of sports and games. The beautiful garden and the best mess.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Patna",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://shiksha.com/college/nit-patna-23147/reviews-7",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The placement for the computer science and engineering branch at NIT Patna is around 85% to 90%. Many top recruiters such as Google, Accenture, Deloitte, Infosys, Cognizant, and Microsoft recruit students. The highest package is around 75 LPA, the average package is around 14 LPA, and the lowest package is about 9 LPA. Around 92% of students in this branch got internships.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The college administration provides facilities such as high-speed internet, well-equipped laboratories, classrooms, a library, and a computer lab with over 1800 computers.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Patna",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-patna-national-institute-of-technology-23147/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "NIT Patna is a very good college",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Around 82-85 percent of students get placed in our course. The highest package offered in our college is 40 LPA, and the average package offered is 15 LPA. The lowest package offered is 5 LPA. Companies like Aditya Birla, Tata, and PhonePe recruit students from our course. Every student gets an internship in the 2nd or 3rd year through hard work.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Facilities available in our hostel include Wi-Fi, drinking water, light, fans, and beds.' Descriptive, basic-facilities listing."
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Patna",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-patna-national-institute-of-technology-23147/reviews-2?course=175685&sort_by=year+of+graduation&rating=4",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Take a glimpse of NIT Patna",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Civil Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'More than 90% of placements were achieved in the year 2022. The lowest package offered was 3.6 LPA, and the highest was 2.1 crores for TCS and Facebook respectively (also Google). The average for civil varied between 7-10 LPA. L&T, UltraTech, Birlas were the most prominent recruiters. At least 50% of students got an internship + FTE.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Professors from the institute have a very good command over their respective subjects, as they also promoted research in the institute.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Patna",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/national-institute-of-technology-nit-patna/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech",
+          "course_verified": true,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This review references a specific notable alumnus (a sitting political figure, described only by role/title rather than repeated here by name to avoid unnecessary amplification of a real named individual in a review-sentiment dataset) and a specific reported placement figure for a named recruiter — both preserved as factual claims from the source, not independently verified.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Last year a CS student got INR 33 lakh per annum placement in Google from NIT Patna. A good alumni network of this college.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Patna",
+          "source": "Zollege",
+          "source_type": "aggregator",
+          "source_url": "https://zollege.in/university/184738-national-institute-of-technology-nitp-patna/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Mechanical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Good aspect about my college is the quality of professor.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Bad aspect is that college is relatively very small as compared to other NIT.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Mechanical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The eligibility criteria for most of the companies is 7.5 CGPA, so if you maintain eight CGPA it is quite good in mechanical engineering; the average package is around 6 to 7 [LPA] per annum, if you consider a good package then it goes around 12 LPA and minimum is around 6 LPA.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Patna",
+          "source": "CollegeBatch.com",
+          "source_type": "aggregator",
+          "source_url": "https://www.collegebatch.com/reviews/34507-national-institute-of-technology-patna",
+          "source_review_id": "34507",
+          "author_display_name": "Piyush Singh",
+          "review_title": "NIT Patna: A Guide to Its Main City and Bihta Campuses",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There is no ragging in the institute and mess and hostel are good. It is institute direct funded by Government of India, which makes it better than other private institutes, and it is NIT.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'In our branch, average package is approx. 12 LPA with median package approx. 11.7 LPA and 87% students are placed. Big tech companies like Google, Facebook, Samsung, Amazon, Infosys, TCS, Wipro, SpaceX came for placements.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Our institute has various hostels like Sone, Ganga, Brahmaputra, Koshi, Baghmati, etc. Each have their own extensions; the Sone hostel is allocated for first year boys while Brahmaputra is for next 3 year boys. The Ganga hostel is for all girls in the campus.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'It has two campuses, one is in main city of around 40 acres and one is in Bihta of around 120 acres which is still in construction. There is no chance of branch change in the institute.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Patna",
+          "source": "CollegeBatch.com",
+          "source_type": "aggregator",
+          "source_url": "https://www.collegebatch.com/reviews/29598-national-institute-of-technology-patna",
+          "source_review_id": "29598",
+          "author_display_name": "Ehtesham",
+          "review_title": "NIT Patna: Fee Structure and Scholarships",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Self-identified first-year student in CSE.",
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The campus is considered one of the smallest among NITs. The infrastructure is average, but we make up for it with enthusiasm... Infrastructure is not good of NIT Patna, its academic blocks and structure is good but old model.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The faculty and staff are friendly and willing to solve problems.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'In every hostel of NIT Patna, there is a guard station and a guard is active 24 hour... You can go to guard station and take medical facility at small level. Medical kit is present at every guard station. There are separate girls and boys hostel.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Mess food is normal (veg. and non-veg. both applicable). The hostel timings are closed at 10:00 PM.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Library is very good and there are thousands of books present from every stream. Labs are also very good. Seminar hall, auditorium, conference hall everything is very good.'"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 11,
+        "independent_sources": 5,
+        "reviews_with_dates": 0,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 11
+      },
+
+      "limitations": [
+        "Reddit: no genuine NIT Patna-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "No dedicated Quora-hosted answer with substantive unique content specific to NIT Patna was located in this session; qualitative narrative evidence instead came primarily from CollegeBatch.com reviews, which are self-published student accounts on a smaller aggregator platform rather than Quora itself. This is a genuine source-availability gap for this particular college.",
+        "This institution has a genuinely distinctive structural situation (a two-campus split between an older Patna city campus and a newer, still-under-construction Bihta campus) that recurs across multiple independent sources; one reviewer explicitly frames branch-based campus assignment as a fairness concern, which is a more specific and unusual complaint than typical generic infrastructure gripes seen elsewhere in this dataset.",
+        "One GetMyUni review references a specific named public figure as a notable alumnus; this claim is preserved factually as reported by the source without independent verification, and the individual's name has been deliberately omitted from the evidence_summary to avoid unnecessary amplification of a real, identifiable person's name within a review-sentiment dataset, in line with general caution around real-person content.",
+        "The Glassdoor employee-review page for this institution included some excerpts that appear to reference student-facing conditions (placements, care for students) rather than purely internal HR/employment matters, making the employee-vs-student scope boundary less clean here than for other institutions in this dataset; still treated as out-of-scope per the established convention, but flagged for backend awareness.",
+        "Shiksha review counts vary notably across different pages retrieved this session (731, 816, 834); all three are recorded as separate observations rather than reconciled.",
+        "No review in this extraction batch carried an explicit visible date; reviews_with_dates and reviews_last_24_months are both 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~800+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

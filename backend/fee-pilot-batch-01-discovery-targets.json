@@ -1,0 +1,1052 @@
+[
+  {
+    "batch_no": 1,
+    "batch_index": 1,
+    "college_id": "uptac-a-n-a-college-of-engineering-management-bareilly",
+    "college_name": "A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY official B.Tech fee structure 2026 PDF",
+      "A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY official fee structure B.Tech 2025 2026",
+      "A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY B.Tech tuition fee hostel fee official",
+      "A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 2,
+    "college_id": "uptac-abes-engg-college-ghaziabad",
+    "college_name": "ABES ENGG.COLLEGE,GHAZIABAD",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "ABES ENGG.COLLEGE,GHAZIABAD official B.Tech fee structure 2026 PDF",
+      "ABES ENGG.COLLEGE,GHAZIABAD official fee structure B.Tech 2025 2026",
+      "ABES ENGG.COLLEGE,GHAZIABAD B.Tech tuition fee hostel fee official",
+      "ABES ENGG.COLLEGE,GHAZIABAD undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 3,
+    "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+    "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD official B.Tech fee structure 2026 PDF",
+      "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD official fee structure B.Tech 2025 2026",
+      "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD B.Tech tuition fee hostel fee official",
+      "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 4,
+    "college_id": "uptac-abss-institute-of-technology-meerut-meerut",
+    "college_name": "ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT official B.Tech fee structure 2026 PDF",
+      "ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT official fee structure B.Tech 2025 2026",
+      "ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT B.Tech tuition fee hostel fee official",
+      "ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 5,
+    "college_id": "uptac-accurate-institute-of-management-technology-gautam-buddh-nagar",
+    "college_name": "ACCURATE INSTITUTE OF MANAGEMENT & TECHNOLOGY,GAUTAM BUDDH NAGAR",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "ACCURATE INSTITUTE OF MANAGEMENT & TECHNOLOGY,GAUTAM BUDDH NAGAR official B.Tech fee structure 2026 PDF",
+      "ACCURATE INSTITUTE OF MANAGEMENT & TECHNOLOGY,GAUTAM BUDDH NAGAR official fee structure B.Tech 2025 2026",
+      "ACCURATE INSTITUTE OF MANAGEMENT & TECHNOLOGY,GAUTAM BUDDH NAGAR B.Tech tuition fee hostel fee official",
+      "ACCURATE INSTITUTE OF MANAGEMENT & TECHNOLOGY,GAUTAM BUDDH NAGAR undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 6,
+    "college_id": "uptac-acharya-narendra-deva-university-of-agriculture-technology-kumarganj-ayodhya",
+    "college_name": "Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya official B.Tech fee structure 2026 PDF",
+      "Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya official fee structure B.Tech 2025 2026",
+      "Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya B.Tech tuition fee hostel fee official",
+      "Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 7,
+    "college_id": "uptac-adhunik-college-of-engg-ghaziabad",
+    "college_name": "ADHUNIK COLLEGE OF ENGG.,GHAZIABAD",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "ADHUNIK COLLEGE OF ENGG.,GHAZIABAD official B.Tech fee structure 2026 PDF",
+      "ADHUNIK COLLEGE OF ENGG.,GHAZIABAD official fee structure B.Tech 2025 2026",
+      "ADHUNIK COLLEGE OF ENGG.,GHAZIABAD B.Tech tuition fee hostel fee official",
+      "ADHUNIK COLLEGE OF ENGG.,GHAZIABAD undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 8,
+    "college_id": "uptac-ajay-kumar-garg-engg-college-ghaziabad",
+    "college_name": "AJAY KUMAR GARG ENGG. COLLEGE,GHAZIABAD",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "AJAY KUMAR GARG ENGG. COLLEGE,GHAZIABAD official B.Tech fee structure 2026 PDF",
+      "AJAY KUMAR GARG ENGG. COLLEGE,GHAZIABAD official fee structure B.Tech 2025 2026",
+      "AJAY KUMAR GARG ENGG. COLLEGE,GHAZIABAD B.Tech tuition fee hostel fee official",
+      "AJAY KUMAR GARG ENGG. COLLEGE,GHAZIABAD undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 9,
+    "college_id": "uptac-aligarh-college-of-engg-tech-aligarh",
+    "college_name": "ALIGARH COLLEGE OF ENGG. & TECH,ALIGARH",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "ALIGARH COLLEGE OF ENGG. & TECH,ALIGARH official B.Tech fee structure 2026 PDF",
+      "ALIGARH COLLEGE OF ENGG. & TECH,ALIGARH official fee structure B.Tech 2025 2026",
+      "ALIGARH COLLEGE OF ENGG. & TECH,ALIGARH B.Tech tuition fee hostel fee official",
+      "ALIGARH COLLEGE OF ENGG. & TECH,ALIGARH undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 10,
+    "college_id": "uptac-allenhouse-institute-of-technology-kanpur",
+    "college_name": "ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR official B.Tech fee structure 2026 PDF",
+      "ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR official fee structure B.Tech 2025 2026",
+      "ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR B.Tech tuition fee hostel fee official",
+      "ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 11,
+    "college_id": "uptac-amani-group-of-institutions-amroha",
+    "college_name": "AMANI GROUP OF INSTITUTIONS,AMROHA",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "AMANI GROUP OF INSTITUTIONS,AMROHA official B.Tech fee structure 2026 PDF",
+      "AMANI GROUP OF INSTITUTIONS,AMROHA official fee structure B.Tech 2025 2026",
+      "AMANI GROUP OF INSTITUTIONS,AMROHA B.Tech tuition fee hostel fee official",
+      "AMANI GROUP OF INSTITUTIONS,AMROHA undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 12,
+    "college_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+    "college_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW official B.Tech fee structure 2026 PDF",
+      "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW official fee structure B.Tech 2025 2026",
+      "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW B.Tech tuition fee hostel fee official",
+      "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 13,
+    "college_id": "uptac-apex-institute-of-technology-rampur",
+    "college_name": "APEX INSTITUTE OF TECHNOLOGY,RAMPUR",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "APEX INSTITUTE OF TECHNOLOGY,RAMPUR official B.Tech fee structure 2026 PDF",
+      "APEX INSTITUTE OF TECHNOLOGY,RAMPUR official fee structure B.Tech 2025 2026",
+      "APEX INSTITUTE OF TECHNOLOGY,RAMPUR B.Tech tuition fee hostel fee official",
+      "APEX INSTITUTE OF TECHNOLOGY,RAMPUR undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 14,
+    "college_id": "uptac-apollo-institute-of-technology-kanpur",
+    "college_name": "APOLLO INSTITUTE OF TECHNOLOGY,KANPUR",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "APOLLO INSTITUTE OF TECHNOLOGY,KANPUR official B.Tech fee structure 2026 PDF",
+      "APOLLO INSTITUTE OF TECHNOLOGY,KANPUR official fee structure B.Tech 2025 2026",
+      "APOLLO INSTITUTE OF TECHNOLOGY,KANPUR B.Tech tuition fee hostel fee official",
+      "APOLLO INSTITUTE OF TECHNOLOGY,KANPUR undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 15,
+    "college_id": "uptac-ashoka-institute-of-technology-management-varanasi",
+    "college_name": "ASHOKA INSTITUTE OF TECHNOLOGY & MANAGEMENT,VARANASI",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "ASHOKA INSTITUTE OF TECHNOLOGY & MANAGEMENT,VARANASI official B.Tech fee structure 2026 PDF",
+      "ASHOKA INSTITUTE OF TECHNOLOGY & MANAGEMENT,VARANASI official fee structure B.Tech 2025 2026",
+      "ASHOKA INSTITUTE OF TECHNOLOGY & MANAGEMENT,VARANASI B.Tech tuition fee hostel fee official",
+      "ASHOKA INSTITUTE OF TECHNOLOGY & MANAGEMENT,VARANASI undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 16,
+    "college_id": "assam-university-silchar",
+    "college_name": "Assam University, Silchar",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "Assam University, Silchar official B.Tech fee structure 2026 PDF",
+      "Assam University, Silchar official fee structure B.Tech 2025 2026",
+      "Assam University, Silchar B.Tech tuition fee hostel fee official",
+      "Assam University, Silchar undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 17,
+    "college_id": "uptac-axis-institute-of-technology-management-kanpur",
+    "college_name": "AXIS INSTITUTE OF TECHNOLOGY & MANAGEMENT,KANPUR",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "AXIS INSTITUTE OF TECHNOLOGY & MANAGEMENT,KANPUR official B.Tech fee structure 2026 PDF",
+      "AXIS INSTITUTE OF TECHNOLOGY & MANAGEMENT,KANPUR official fee structure B.Tech 2025 2026",
+      "AXIS INSTITUTE OF TECHNOLOGY & MANAGEMENT,KANPUR B.Tech tuition fee hostel fee official",
+      "AXIS INSTITUTE OF TECHNOLOGY & MANAGEMENT,KANPUR undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 18,
+    "college_id": "uptac-azad-institute-of-engineering-technology-lucknow",
+    "college_name": "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW official B.Tech fee structure 2026 PDF",
+      "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW official fee structure B.Tech 2025 2026",
+      "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW B.Tech tuition fee hostel fee official",
+      "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 19,
+    "college_id": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+    "college_name": "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD official B.Tech fee structure 2026 PDF",
+      "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD official fee structure B.Tech 2025 2026",
+      "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD B.Tech tuition fee hostel fee official",
+      "B.B.S.COLLEGE OF ENGINEERING AND TECHNOLOGY,ALLAHABAD undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 20,
+    "college_id": "uptac-b-n-college-of-engineering-technology-lucknow",
+    "college_name": "B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET),LUCKNOW",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET),LUCKNOW official B.Tech fee structure 2026 PDF",
+      "B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET),LUCKNOW official fee structure B.Tech 2025 2026",
+      "B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET),LUCKNOW B.Tech tuition fee hostel fee official",
+      "B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET),LUCKNOW undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 21,
+    "college_id": "uptac-b-s-a-college-of-engineering-technology-mathura",
+    "college_name": "B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY,MATHURA",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY,MATHURA official B.Tech fee structure 2026 PDF",
+      "B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY,MATHURA official fee structure B.Tech 2025 2026",
+      "B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY,MATHURA B.Tech tuition fee hostel fee official",
+      "B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY,MATHURA undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 22,
+    "college_id": "uptac-babu-banarasi-das-institute-of-technology-and-management-lucknow",
+    "college_name": "BABU BANARASI DAS INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "BABU BANARASI DAS INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW official B.Tech fee structure 2026 PDF",
+      "BABU BANARASI DAS INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW official fee structure B.Tech 2025 2026",
+      "BABU BANARASI DAS INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW B.Tech tuition fee hostel fee official",
+      "BABU BANARASI DAS INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 23,
+    "college_id": "uptac-babu-banarasi-das-northern-india-institute-of-technology-lucknow",
+    "college_name": "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY,LUCKNOW",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY,LUCKNOW official B.Tech fee structure 2026 PDF",
+      "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY,LUCKNOW official fee structure B.Tech 2025 2026",
+      "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY,LUCKNOW B.Tech tuition fee hostel fee official",
+      "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY,LUCKNOW undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 24,
+    "college_id": "uptac-babu-banarsi-das-institute-of-tech-ghaziabad",
+    "college_name": "BABU BANARSI DAS INSTITUTE OF TECH.,GHAZIABAD",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "BABU BANARSI DAS INSTITUTE OF TECH.,GHAZIABAD official B.Tech fee structure 2026 PDF",
+      "BABU BANARSI DAS INSTITUTE OF TECH.,GHAZIABAD official fee structure B.Tech 2025 2026",
+      "BABU BANARSI DAS INSTITUTE OF TECH.,GHAZIABAD B.Tech tuition fee hostel fee official",
+      "BABU BANARSI DAS INSTITUTE OF TECH.,GHAZIABAD undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  },
+  {
+    "batch_no": 1,
+    "batch_index": 25,
+    "college_id": "uptac-babu-sunder-singh-institute-of-technology-management-lucknow",
+    "college_name": "BABU SUNDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "required_program": "B.Tech",
+    "preferred_years": [
+      2026,
+      2025
+    ],
+    "search_queries": [
+      "BABU SUNDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW official B.Tech fee structure 2026 PDF",
+      "BABU SUNDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW official fee structure B.Tech 2025 2026",
+      "BABU SUNDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW B.Tech tuition fee hostel fee official",
+      "BABU SUNDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW undergraduate fee structure official PDF"
+    ],
+    "source_requirements": {
+      "official_domain_only": true,
+      "prefer_pdf": true,
+      "allow_html": true,
+      "reject_third_party": true,
+      "reject_collegedunia": true,
+      "reject_shiksha": true,
+      "reject_careers360": true,
+      "reject_getmyuni": true
+    },
+    "extraction_requirements": {
+      "academic_year": true,
+      "semester": true,
+      "tuition_fee": true,
+      "student_category": true,
+      "income_slab": true,
+      "admission_fee": true,
+      "institute_fee": true,
+      "hostel_fee": true,
+      "mess_fee": true,
+      "caution_deposit": true,
+      "other_fee": true,
+      "total_fee": true
+    },
+    "discovery_status": "PENDING"
+  }
+]

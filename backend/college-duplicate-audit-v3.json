@@ -1,0 +1,742 @@
+[
+  {
+    "college_a_id": "uptac-azad-institute-of-engineering-technology-lucknow",
+    "college_a_name": "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-institute-of-engineering-technology-lucknow",
+    "college_b_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+    "college_b_fee_variants": 0,
+    "score": 80,
+    "status": "REVIEW",
+    "jaccard": 0.8333,
+    "containment": 0.84,
+    "city_status": "MATCH",
+    "cities_a": [
+      "lucknow"
+    ],
+    "cities_b": [
+      "lucknow"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "ENGINEERING",
+      "TECHNOLOGY",
+      "LUCKNOW"
+    ],
+    "reasons": [
+      "moderate_containment",
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,ENGINEERING,TECHNOLOGY,LUCKNOW",
+      "city_match:lucknow"
+    ]
+  },
+  {
+    "college_a_id": "uptac-bansal-institute-of-engineering-technology-lucknow",
+    "college_a_name": "BANSAL INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-institute-of-engineering-technology-lucknow",
+    "college_b_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+    "college_b_fee_variants": 0,
+    "score": 80,
+    "status": "REVIEW",
+    "jaccard": 0.8333,
+    "containment": 0.7778,
+    "city_status": "MATCH",
+    "cities_a": [
+      "lucknow"
+    ],
+    "cities_b": [
+      "lucknow"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "ENGINEERING",
+      "TECHNOLOGY",
+      "LUCKNOW"
+    ],
+    "reasons": [
+      "moderate_containment",
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,ENGINEERING,TECHNOLOGY,LUCKNOW",
+      "city_match:lucknow"
+    ]
+  },
+  {
+    "college_a_id": "uptac-goel-institute-of-technology-management-lucknow",
+    "college_a_name": "GOEL INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-institute-of-technology-management-lucknow",
+    "college_b_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "college_b_fee_variants": 0,
+    "score": 80,
+    "status": "REVIEW",
+    "jaccard": 0.8333,
+    "containment": 0.84,
+    "city_status": "MATCH",
+    "cities_a": [
+      "lucknow"
+    ],
+    "cities_b": [
+      "lucknow"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "TECHNOLOGY",
+      "MANAGEMENT",
+      "LUCKNOW"
+    ],
+    "reasons": [
+      "moderate_containment",
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,TECHNOLOGY,MANAGEMENT,LUCKNOW",
+      "city_match:lucknow"
+    ]
+  },
+  {
+    "college_a_id": "uptac-himalayan-institute-of-technology-management-lucknow",
+    "college_a_name": "HIMALAYAN INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-institute-of-technology-management-lucknow",
+    "college_b_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "college_b_fee_variants": 0,
+    "score": 80,
+    "status": "REVIEW",
+    "jaccard": 0.8333,
+    "containment": 0.7,
+    "city_status": "MATCH",
+    "cities_a": [
+      "lucknow"
+    ],
+    "cities_b": [
+      "lucknow"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "TECHNOLOGY",
+      "MANAGEMENT",
+      "LUCKNOW"
+    ],
+    "reasons": [
+      "moderate_containment",
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,TECHNOLOGY,MANAGEMENT,LUCKNOW",
+      "city_match:lucknow"
+    ]
+  },
+  {
+    "college_a_id": "uptac-institute-of-technology-management-lucknow",
+    "college_a_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-rameshwaram-institute-of-technology-management-lucknow",
+    "college_b_name": "RAMESHWARAM INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "college_b_fee_variants": 0,
+    "score": 80,
+    "status": "REVIEW",
+    "jaccard": 0.8333,
+    "containment": 0.6563,
+    "city_status": "MATCH",
+    "cities_a": [
+      "lucknow"
+    ],
+    "cities_b": [
+      "lucknow"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "TECHNOLOGY",
+      "MANAGEMENT",
+      "LUCKNOW"
+    ],
+    "reasons": [
+      "moderate_containment",
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,TECHNOLOGY,MANAGEMENT,LUCKNOW",
+      "city_match:lucknow"
+    ]
+  },
+  {
+    "college_a_id": "uptac-institute-of-technology-management-lucknow",
+    "college_a_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-saroj-institute-of-tech-management-lucknow",
+    "college_b_name": "SAROJ INSTITUTE OF TECH. & MANAGEMENT,LUCKNOW",
+    "college_b_fee_variants": 0,
+    "score": 80,
+    "status": "REVIEW",
+    "jaccard": 0.8333,
+    "containment": 0.8077,
+    "city_status": "MATCH",
+    "cities_a": [
+      "lucknow"
+    ],
+    "cities_b": [
+      "lucknow"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "MANAGEMENT",
+      "LUCKNOW"
+    ],
+    "reasons": [
+      "moderate_containment",
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,MANAGEMENT,LUCKNOW",
+      "city_match:lucknow"
+    ]
+  },
+  {
+    "college_a_id": "uptac-abss-institute-of-technology-meerut-meerut",
+    "college_a_name": "ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-meerut-institute-of-technology-meerut",
+    "college_b_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "meerut"
+    ],
+    "cities_b": [
+      "meerut"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "TECHNOLOGY",
+      "MEERUT"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,TECHNOLOGY,MEERUT",
+      "city_match:meerut"
+    ]
+  },
+  {
+    "college_a_id": "uptac-allenhouse-institute-of-technology-kanpur",
+    "college_a_name": "ALLENHOUSE INSTITUTE OF TECHNOLOGY,KANPUR",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-kanpur-institute-of-technology-kanpur",
+    "college_b_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "kanpur"
+    ],
+    "cities_b": [
+      "kanpur"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "TECHNOLOGY",
+      "KANPUR"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,TECHNOLOGY,KANPUR",
+      "city_match:kanpur"
+    ]
+  },
+  {
+    "college_a_id": "uptac-ambalika-institute-of-management-technology-lucknow",
+    "college_a_name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-institute-of-technology-management-lucknow",
+    "college_b_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8333,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "lucknow"
+    ],
+    "cities_b": [
+      "lucknow"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "MANAGEMENT",
+      "TECHNOLOGY",
+      "LUCKNOW"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,MANAGEMENT,TECHNOLOGY,LUCKNOW",
+      "city_match:lucknow"
+    ]
+  },
+  {
+    "college_a_id": "uptac-apollo-institute-of-technology-kanpur",
+    "college_a_name": "APOLLO INSTITUTE OF TECHNOLOGY,KANPUR",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-kanpur-institute-of-technology-kanpur",
+    "college_b_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "kanpur"
+    ],
+    "cities_b": [
+      "kanpur"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "TECHNOLOGY",
+      "KANPUR"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,TECHNOLOGY,KANPUR",
+      "city_match:kanpur"
+    ]
+  },
+  {
+    "college_a_id": "uptac-babu-banarasi-das-institute-of-technology-and-management-lucknow",
+    "college_a_name": "BABU BANARASI DAS INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-babu-banarasi-das-northern-india-institute-of-technology-lucknow",
+    "college_b_name": "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY,LUCKNOW",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.7778,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "lucknow"
+    ],
+    "cities_b": [
+      "lucknow"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "BABU",
+      "BANARASI",
+      "DAS",
+      "INSTITUTE",
+      "TECHNOLOGY",
+      "LUCKNOW"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:BABU,BANARASI,DAS,INSTITUTE,TECHNOLOGY,LUCKNOW",
+      "city_match:lucknow"
+    ]
+  },
+  {
+    "college_a_id": "uptac-bharat-institute-of-technology-meerut",
+    "college_a_name": "BHARAT INSTITUTE OF TECHNOLOGY,MEERUT",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-meerut-institute-of-technology-meerut",
+    "college_b_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "meerut"
+    ],
+    "cities_b": [
+      "meerut"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "TECHNOLOGY",
+      "MEERUT"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,TECHNOLOGY,MEERUT",
+      "city_match:meerut"
+    ]
+  },
+  {
+    "college_a_id": "uptac-delhi-institute-of-engineering-technology-meerut",
+    "college_a_name": "DELHI INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-meerut-institute-of-engineering-technology-meerut",
+    "college_b_name": "MEERUT INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8333,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "delhi",
+      "meerut"
+    ],
+    "cities_b": [
+      "meerut"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "ENGINEERING",
+      "TECHNOLOGY",
+      "MEERUT"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,ENGINEERING,TECHNOLOGY,MEERUT",
+      "city_match:delhi,meerut"
+    ]
+  },
+  {
+    "college_a_id": "uptac-institute-of-engineering-technology-lucknow",
+    "college_a_name": "INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-lucknow-institute-of-technology-lucknow",
+    "college_b_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "lucknow"
+    ],
+    "cities_b": [
+      "lucknow"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "TECHNOLOGY",
+      "LUCKNOW"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,TECHNOLOGY,LUCKNOW",
+      "city_match:lucknow"
+    ]
+  },
+  {
+    "college_a_id": "uptac-institute-of-technology-management-lucknow",
+    "college_a_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-lucknow-institute-of-technology-lucknow",
+    "college_b_name": "LUCKNOW INSTITUTE OF TECHNOLOGY,LUCKNOW",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "lucknow"
+    ],
+    "cities_b": [
+      "lucknow"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "TECHNOLOGY",
+      "LUCKNOW"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,TECHNOLOGY,LUCKNOW",
+      "city_match:lucknow"
+    ]
+  },
+  {
+    "college_a_id": "uptac-institute-of-technology-management-lucknow",
+    "college_a_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-mg-institute-of-management-technology-lucknow",
+    "college_b_name": "MG INSTITUTE OF MANAGEMENT & TECHNOLOGY,LUCKNOW",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8333,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "lucknow"
+    ],
+    "cities_b": [
+      "lucknow"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "INSTITUTE",
+      "TECHNOLOGY",
+      "MANAGEMENT",
+      "LUCKNOW"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:INSTITUTE,TECHNOLOGY,MANAGEMENT,LUCKNOW",
+      "city_match:lucknow"
+    ]
+  },
+  {
+    "college_a_id": "uptac-kanpur-institute-of-technology-kanpur",
+    "college_a_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-krishna-institute-of-technology-kanpur",
+    "college_b_name": "KRISHNA INSTITUTE OF TECHNOLOGY,KANPUR",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "kanpur"
+    ],
+    "cities_b": [
+      "kanpur"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "KANPUR",
+      "INSTITUTE",
+      "TECHNOLOGY"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:KANPUR,INSTITUTE,TECHNOLOGY",
+      "city_match:kanpur"
+    ]
+  },
+  {
+    "college_a_id": "uptac-kanpur-institute-of-technology-kanpur",
+    "college_a_name": "KANPUR INSTITUTE OF TECHNOLOGY,KANPUR",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-vision-institute-of-technology-kanpur",
+    "college_b_name": "VISION INSTITUTE OF TECHNOLOGY,KANPUR",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "kanpur"
+    ],
+    "cities_b": [
+      "kanpur"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "KANPUR",
+      "INSTITUTE",
+      "TECHNOLOGY"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:KANPUR,INSTITUTE,TECHNOLOGY",
+      "city_match:kanpur"
+    ]
+  },
+  {
+    "college_a_id": "uptac-meerut-institute-of-engineering-technology-meerut",
+    "college_a_name": "MEERUT INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-meerut-institute-of-technology-meerut",
+    "college_b_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "meerut"
+    ],
+    "cities_b": [
+      "meerut"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "MEERUT",
+      "INSTITUTE",
+      "TECHNOLOGY"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:MEERUT,INSTITUTE,TECHNOLOGY",
+      "city_match:meerut"
+    ]
+  },
+  {
+    "college_a_id": "uptac-meerut-institute-of-engineering-technology-meerut",
+    "college_a_name": "MEERUT INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-panchwati-institute-of-engineering-technology-meerut",
+    "college_b_name": "PANCHWATI INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8333,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "meerut"
+    ],
+    "cities_b": [
+      "meerut"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "MEERUT",
+      "INSTITUTE",
+      "ENGINEERING",
+      "TECHNOLOGY"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:MEERUT,INSTITUTE,ENGINEERING,TECHNOLOGY",
+      "city_match:meerut"
+    ]
+  },
+  {
+    "college_a_id": "uptac-meerut-institute-of-engineering-technology-meerut",
+    "college_a_name": "MEERUT INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-rishi-institute-of-engineering-technology-meerut",
+    "college_b_name": "RISHI INSTITUTE OF ENGINEERING & TECHNOLOGY,MEERUT",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8333,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "meerut"
+    ],
+    "cities_b": [
+      "meerut"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "MEERUT",
+      "INSTITUTE",
+      "ENGINEERING",
+      "TECHNOLOGY"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:MEERUT,INSTITUTE,ENGINEERING,TECHNOLOGY",
+      "city_match:meerut"
+    ]
+  },
+  {
+    "college_a_id": "uptac-meerut-institute-of-technology-meerut",
+    "college_a_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-meerut-international-institute-of-technology-meerut",
+    "college_b_name": "MEERUT INTERNATIONAL INSTITUTE OF TECHNOLOGY,MEERUT",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "meerut"
+    ],
+    "cities_b": [
+      "meerut"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "MEERUT",
+      "INSTITUTE",
+      "TECHNOLOGY"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:MEERUT,INSTITUTE,TECHNOLOGY",
+      "city_match:meerut"
+    ]
+  },
+  {
+    "college_a_id": "uptac-meerut-institute-of-technology-meerut",
+    "college_a_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-neelkanth-institute-of-technology-meerut",
+    "college_b_name": "NEELKANTH INSTITUTE OF TECHNOLOGY,MEERUT",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "meerut"
+    ],
+    "cities_b": [
+      "meerut"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "MEERUT",
+      "INSTITUTE",
+      "TECHNOLOGY"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:MEERUT,INSTITUTE,TECHNOLOGY",
+      "city_match:meerut"
+    ]
+  },
+  {
+    "college_a_id": "uptac-meerut-institute-of-technology-meerut",
+    "college_a_name": "MEERUT INSTITUTE OF TECHNOLOGY,MEERUT",
+    "college_a_fee_variants": 0,
+    "college_b_id": "uptac-shanti-institute-of-technology-meerut",
+    "college_b_name": "SHANTI INSTITUTE OF TECHNOLOGY,MEERUT",
+    "college_b_fee_variants": 0,
+    "score": 65,
+    "status": "REVIEW",
+    "jaccard": 0.8,
+    "containment": 0,
+    "city_status": "MATCH",
+    "cities_a": [
+      "meerut"
+    ],
+    "cities_b": [
+      "meerut"
+    ],
+    "acronym_match": true,
+    "common_acronyms": [
+      "MEERUT",
+      "INSTITUTE",
+      "TECHNOLOGY"
+    ],
+    "reasons": [
+      "high_token_overlap",
+      "acronym_match:MEERUT,INSTITUTE,TECHNOLOGY",
+      "city_match:meerut"
+    ]
+  }
+]

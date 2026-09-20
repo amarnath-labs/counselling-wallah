@@ -1,0 +1,25 @@
+[
+  {
+    "college_id": "uptac-abss-institute-of-technology-meerut-meerut",
+    "college_name": "ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT",
+    "academic_year": 2026,
+    "source_url": "https://www.abss.edu.in/pdfs/Indian-fee-structure-2026-27.pdf",
+    "previous_status": "SOURCE_DISCOVERY_REQUIRED",
+    "queue_status": "SOURCE_READY",
+    "review_reasons": [
+      "No fee_source_url available."
+    ],
+    "queries": [
+      "\"ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT\" B.Tech fee structure 2026",
+      "\"ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT\" official fee structure 2026-27",
+      "\"ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT\" BTech tuition fee official PDF",
+      "site:ac.in \"ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT\" fee structure B.Tech",
+      "site:edu.in \"ABSS INSTITUTE OF TECHNOLOGY, MEERUT,MEERUT\" fee structure B.Tech"
+    ],
+    "official_website": "https://www.abss.edu.in/",
+    "fee_source_url": "https://www.abss.edu.in/pdfs/Indian-fee-structure-2026-27.pdf",
+    "source_type": "official_pdf",
+    "source_status": "CURRENT_OFFICIAL_SOURCE",
+    "confidence_score": 100
+  }
+]

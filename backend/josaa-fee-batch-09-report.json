@@ -1,0 +1,869 @@
+[
+  {
+    "college": {
+      "josaa_code": "414",
+      "josaa_name": "School of Planning & Architecture, New Delhi",
+      "college_id": "school-of-planning-architecture-new-delhi",
+      "college_name": "School of Planning & Architecture, New Delhi",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": 1000000,
+        "annual_total_fee": null,
+        "total_course_fee": 1000000
+      },
+      "evidence": {
+        "annual_academic_fee": "T University, AhmedabadOffers pre-admission Means-cum-Merit scholarships ranging from 25% to 75% of annual tuition fee for students with family income below INR 10 Lacs per annum. Scholarships continue semester-wise based on performance. Also provides loan interest subsidies and fellowships like the Shirish Beri Fellowship.ICFAI School",
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "me to around 20+ government top colleges for Architecture in India. Some of them are mentioned below with their average course fees and NIRF ranking for 2025:Government CollegesTotal Average Course FeesNIRF 2025 RankIIT Roorkee AdmissionINR 10 Lakh1NIT Calicut AdmissionINR 6.25 Lakh2IIT Kharagpur AdmissionINR 10 Lakh3IIEST Shibpur AdmissionINR 6.25 Lakh4Jamia Millia Islamia AdmissionINR"
+        }
+      },
+      "source_url": "https://www.shiksha.com/b-arch-bachelor-of-architecture-chp",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "415",
+      "josaa_name": "School of Planning & Architecture: Vijayawada",
+      "college_id": "school-of-planning-architecture-vijayawada",
+      "college_name": "School of Planning & Architecture: Vijayawada",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 800000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "Mumbai • PublicAdmissions 2026B.Tech. in Computer Science and EngineeringCourses Offered 4.5Exams JEE Main, JEE AdvancedTotal Fees ₹ 8.00 LakhDuration4 years | Full TimeCompareBrochureSRM Institute of Science and Technology, KattankulathurKattankulathur, Chennai • PrivateAdmissions 2026Discontinued (Oct 2023)- B.Tech. in Electronics and ...Courses OfferedExams SRMJEEE, JEE MainTotal Fees"
+        }
+      },
+      "source_url": "https://www.shiksha.com/news/jee-main-2022-result-session-2-live-july-exam-result-direct-link-jeemain-nta-nic-in-rank-card-cutoff-toppers-list-blogId-98925?isource=News&id=98955",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "421",
+      "josaa_name": "University of Hyderabad",
+      "college_id": "university-of-hyderabad",
+      "college_name": "University of Hyderabad",
+      "website": "https://uohyd.ac.in",
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 1500000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "21)Networking, Hardware & Security(19)AI & Robotics(12)Blockchain(2)Databases(2)Data Science Basics(1)Cloud Computing(1)Total Fees< 1 Lakh(3)1 - 3 Lakh(74)3 - 5 Lakh(44)5 - 7 Lakh(12)7 - 10 Lakh(13)10 - 15 Lakh(12)> 15 Lakh(11)Rating1 - 2 Star(7)2 - 3 Star(25)3 - 4 Star(100)4 - 5 Star(100)CourseB.E. / B.Tech(155)M.E./M.Tech(112)After 10th Diploma(32)Ph.D.(20)UG Diploma(12)Certificate(9)M"
+        }
+      },
+      "source_url": "https://www.shiksha.com/engineering/colleges/b-tech-colleges-hyderabad",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "426",
+      "josaa_name": "Puducherry Technological University, Puducherry",
+      "college_id": "puducherry-technological-university-puducherry",
+      "college_name": "Puducherry Technological University, Puducherry",
+      "website": "https://www.ptuniv.edu.in",
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 800000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "Raman Road, Bangalore • PublicAdmissions 2026B.Tech. in Mechanics and ComputingCourses OfferedExams JEE Advanced, JoSAATotal Fees ₹ 8.00 LakhDuration4 years | Full TimeCompareBrochureView All InstituteExplore more B.Tech exams with upcoming datesCSAB 2026 CSAB NEUT Counselling 2026: Spot Round (if any) 20 Aug '26 - 28 Aug '26Dates • Cut OffBITSAT 2026 BITSAT 2026 Iteration-IX Announceme"
+        }
+      },
+      "source_url": "https://www.shiksha.com/b-tech/josaa-counselling",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "427",
+      "josaa_name": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
+      "college_id": "ghani-khan-choudhary-institute-of-engineering-and-technology-malda-west-bengal",
+      "college_name": "Ghani Khan Choudhary Institute of Engineering and Technology, Malda, West Bengal",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 800000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "Raman Road, Bangalore • PublicAdmissions 2026B.Tech. in Mechanics and ComputingCourses OfferedExams JEE Advanced, JoSAATotal Fees ₹ 8.00 LakhDuration4 years | Full TimeCompareBrochureView All InstituteExplore more B.Tech exams with upcoming datesCSAB 2026 CSAB NEUT Counselling 2026: Spot Round (if any) 20 Aug '26 - 28 Aug '26Dates • Cut OffBITSAT 2026 BITSAT 2026 Iteration-IX Announceme"
+        }
+      },
+      "source_url": "https://www.shiksha.com/b-tech/josaa-counselling",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "430",
+      "josaa_name": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+      "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-kundli",
+      "college_name": "National Institute of Food Technology Entrepreneurship and Management, Kundli",
+      "website": "https://niftem.ac.in",
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 800000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "Mumbai • PublicAdmissions 2026B.Tech. in Computer Science and EngineeringCourses Offered 4.5Exams JEE Main, JEE AdvancedTotal Fees ₹ 8.00 LakhDuration4 years | Full TimeCompareBrochureSRM Institute of Science and Technology, KattankulathurKattankulathur, Chennai • PrivateAdmissions 2026Discontinued (Oct 2023)- B.Tech. in Electronics and ...Courses OfferedExams SRMJEEE, JEE MainTotal Fees"
+        }
+      },
+      "source_url": "https://www.shiksha.com/news/jee-main-2022-result-session-2-live-july-exam-result-direct-link-jeemain-nta-nic-in-rank-card-cutoff-toppers-list-blogId-98925?isource=News&id=98955",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "431",
+      "josaa_name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+      "college_id": "national-institute-of-food-technology-entrepreneurship-and-management-thanjavur",
+      "college_name": "National Institute of Food Technology Entrepreneurship and Management, Thanjavur",
+      "website": "https://niftem-t.ac.in",
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 101250
+      },
+      "evidence": {
+        "total_course_fee": "rship and Management M.E./M.Tech fees in the section below:Fee componentsAmount (for 2 years)TuitionTotal Course Fee for SC/ST/PWD students - INR 101250/- Hostel Fee (Single Seater Room) - 9000/- Hostel Fee (Double Seater Room) - 9000/-₹ 1.53 LTotal fee₹ 1.53 LThese are estimated fees information. Actual values may differ.The value fo"
+      },
+      "source_url": "https://www.shiksha.com/university/niftem-national-institute-of-food-technology-entrepreneurship-and-management-sonepat-49399/fees",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "432",
+      "josaa_name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+      "college_id": "north-eastern-regional-institute-of-science-and-technology-nirjuli-791109-arunachal-pradesh",
+      "college_name": "North Eastern Regional Institute of Science and Technology, Nirjuli-791109 (Itanagar),Arunachal Pradesh",
+      "website": "https://nerist.ac.in",
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 800000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "Mumbai • PublicAdmissions 2026B.Tech. in Computer Science and EngineeringCourses Offered 4.5Exams JEE Main, JEE AdvancedTotal Fees ₹ 8.00 LakhDuration4 years | Full TimeCompareBrochureSRM Institute of Science and Technology, KattankulathurKattankulathur, Chennai • PrivateAdmissions 2026Discontinued (Oct 2023)- B.Tech. in Electronics and ...Courses OfferedExams SRMJEEE, JEE MainTotal Fees"
+        }
+      },
+      "source_url": "https://www.shiksha.com/news/jee-main-2022-result-session-2-live-july-exam-result-direct-link-jeemain-nta-nic-in-rank-card-cutoff-toppers-list-blogId-98925?isource=News&id=98955",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "433",
+      "josaa_name": "Indian Institute of Handloom Technology(IIHT), Varanasi",
+      "college_id": "indian-institute-of-handloom-technology-varanasi",
+      "college_name": "Indian Institute of Handloom Technology(IIHT), Varanasi",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 800000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "Mumbai • PublicAdmissions 2026B.Tech. in Computer Science and EngineeringCourses Offered 4.5Exams JEE Main, JEE AdvancedTotal Fees ₹ 8.00 LakhDuration4 years | Full TimeCompareBrochureSRM Institute of Science and Technology, KattankulathurKattankulathur, Chennai • PrivateAdmissions 2026Discontinued (Oct 2023)- B.Tech. in Electronics and ...Courses OfferedExams SRMJEEE, JEE MainTotal Fees"
+        }
+      },
+      "source_url": "https://www.shiksha.com/news/jee-main-2022-result-session-2-live-july-exam-result-direct-link-jeemain-nta-nic-in-rank-card-cutoff-toppers-list-blogId-98925?isource=News&id=98955",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "438",
+      "josaa_name": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)",
+      "college_id": "institute-of-engineering-and-technology-dr-h-s-gour-university-sagar",
+      "college_name": "Institute of Engineering and Technology, Dr. H. S. Gour University. Sagar (A Central University)",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 800000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "Mumbai • PublicAdmissions 2026B.Tech. in Computer Science and EngineeringCourses Offered 4.5Exams JEE Main, JEE AdvancedTotal Fees ₹ 8.00 LakhDuration4 years | Full TimeCompareBrochureSRM Institute of Science and Technology, KattankulathurKattankulathur, Chennai • PrivateAdmissions 2026Discontinued (Oct 2023)- B.Tech. in Electronics and ...Courses OfferedExams SRMJEEE, JEE MainTotal Fees"
+        }
+      },
+      "source_url": "https://www.shiksha.com/news/jee-main-2022-result-session-2-live-july-exam-result-direct-link-jeemain-nta-nic-in-rank-card-cutoff-toppers-list-blogId-98925?isource=News&id=98955",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "439",
+      "josaa_name": "Central University of Haryana",
+      "college_id": "central-university-of-haryana",
+      "college_name": "Central University of Haryana",
+      "website": null,
+      "fee_year": 2026,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 2100
+      },
+      "evidence": {
+        "total_course_fee": "sion DetailsFee DetailsCentral University of HaryanaM.Pharma Fees ComparisonCUH M.P.Ed Fees 2026The total course fee for M.P.Ed offered by CUH depends upon the specialisation opted by the candidate. The course fee is INR 2,100. The course duration for M.P.Ed is 2 years. The total course fee is the combination of various components, su"
+      },
+      "source_url": "https://www.shiksha.com/university/central-university-of-haryana-haryana-other-32711/fees",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "450",
+      "josaa_name": "Islamic University of Science and Technology Kashmir",
+      "college_id": "islamic-university-of-science-and-technology-kashmir",
+      "college_name": "Islamic University of Science and Technology Kashmir",
+      "website": "https://www.iust.ac.in",
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 85000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "course fee",
+          "context": "a offers a B.Sc Nursing course through their Syed Mantaqi Memorial College of Nursing & Medical Technology. The average course fee at the Islamic University of Science and Technology, Pulwama ranges from INR 70,000 to INR 85,000. Before applying for BSc Nursing at the IUST Pulwama, applicants must make sure that they are meeting the eligibility criteria. According to the official website"
+        }
+      },
+      "source_url": "https://www.collegedekho.com/university/islamic-university-of-science-and-technology",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "451",
+      "josaa_name": "Shri G. S. Institute of Technology and Science Indore",
+      "college_id": "shri-g-s-institute-of-technology-and-science-indore",
+      "college_name": "Shri G. S. Institute of Technology and Science Indore",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 500000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "(1)Mandi (1)Dharwad (1)Durgapur (1)Udupi (1)Erode (1)Sangli (1)Patiala (1)Ghaziabad (1)Gorakhpur (1)Howrah (1)Karur (1)Total Fees> 5 Lakh (1)Rating> 4 - 5 Star (1)OwnershipPublic / Government (1)SpecializationComputer Science Engineering (1)Exams AcceptedJEE Main (1)JEE Advanced (1)Choose rank publishersNIRF 2025Times 2026The Week 2026Times Higher Education 202612NIRF ' 25(All India)1."
+        }
+      },
+      "source_url": "https://www.shiksha.com/engineering/ranking/top-engineering-colleges-in-indore/44-2-0-106-0",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "452",
+      "josaa_name": "National Institute of Technical Teachers Training and Research Bhopal",
+      "college_id": "national-institute-of-technical-teachers-training-and-research-bhopal",
+      "college_name": "National Institute of Technical Teachers Training and Research Bhopal",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 186000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "stitute of Technical Teachers' Training and Research Bhopal Top Courses With Fees 2025Preview SelectionCourseEligibilityTotal FeesPh.DPost Graduation₹ 633MBAGraduation₹ 1.26 LakhsM.TechPass in Graduation + GATE₹ 1.86 Lakhs+1 more rows in full viewView Full DetailsOfficial ScheduleAdmission Preview.ModeOnlineBasisMerit/EntranceScholarshipYesNITTTR Admission Highlights 2023Name of the Inst"
+        }
+      },
+      "source_url": "https://www.getedunext.com/college/national-institute-of-technical-teachers-training-and-research-bhopal",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "454",
+      "josaa_name": "National Institute of Electronics and Information Technology, Agartala",
+      "college_id": "national-institute-of-electronics-and-information-technology-agartala",
+      "college_name": "National Institute of Electronics and Information Technology, Agartala",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 1000000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "ering(1)Engineering Physics(1)IoT and Connected Devices(1)Chemical Engineering(1)Big Data & Analytics(1)AI & Robotics(1)Total Fees< 1 Lakh(1)3 - 5 Lakh(3)5 - 7 Lakh(2)7 - 10 Lakh(1)Rating2 - 3 Star(2)3 - 4 Star(4)4 - 5 Star(5)CourseB.E. / B.Tech(7)M.E./M.Tech(7)After 10th Diploma(5)Certificate(4)Ph.D.(2)UG Diploma(2)PG Diploma(2) 7 resultsBest Engineering Colleges in Agartala - 2026 Admi"
+        }
+      },
+      "source_url": "https://www.shiksha.com/engineering/colleges/b-tech-colleges-agartala",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "455",
+      "josaa_name": "National Institute of Electronics and Information Technology, Aizawl",
+      "college_id": "national-institute-of-electronics-and-information-technology-aizawl",
+      "college_name": "National Institute of Electronics and Information Technology, Aizawl",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 400000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "b.tech fees",
+          "context": "es)₹ 1.62 LM.C.A. (1 Courses)₹ 1.28 LNational Institute of Electronics and Information Technology (NIELIT), Aizawl B.E /B.Tech Fees 2026The total fee for B.E /B.Tech at National Institute of Electronics and Information Technology (NIELIT), Aizawl depends on the specialization and mode opted by the students. The tuition fees ranges from INR 3,00,000 to INR 4,00,000 excluding the other fees"
+        }
+      },
+      "source_url": "https://www.careers360.com/colleges/national-institute-of-electronics-and-information-technology-aizawl/fees",
+      "source_kind": "careers360",
+      "source_priority": 65,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "456",
+      "josaa_name": "National Institute of Electronics and Information Technology, Imphal",
+      "college_id": "national-institute-of-electronics-and-information-technology-imphal",
+      "college_name": "National Institute of Electronics and Information Technology, Imphal",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 1500000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "ineering(4)Civil Engineering(4)Electronics Engineering(1)Food Technology(1)Artificial Intelligence & Machine Learning(1)Total Fees1 - 3 Lakh(3)5 - 7 Lakh(1)10 - 15 Lakh(1)Rating2 - 3 Star(2)3 - 4 Star(5)4 - 5 Star(1)CourseB.E. / B.Tech(7)After 10th Diploma(5)M.E./M.Tech(3)Ph.D.(2)Certificate(1)PG Diploma(1) 7 resultsBest Engineering Colleges in Imphal - 2026 Admission, Fees, PlacementsSo"
+        }
+      },
+      "source_url": "https://www.shiksha.com/engineering/colleges/b-tech-colleges-imphal",
+      "source_kind": "shiksha",
+      "source_priority": 70,
+      "confidence_score": 65
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "457",
+      "josaa_name": "National Institute of Electronics and Information Technology, Calicut",
+      "college_id": "national-institute-of-electronics-and-information-technology-calicut",
+      "college_name": "National Institute of Electronics and Information Technology, Calicut",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 110000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "b.tech fees",
+          "context": "icial NIELIT Calicut website, complete all steps, and submit documents. What are the fees for B.Tech at NIELIT Calicut? B.Tech fees at NIELIT Calicut are INR 1,10,000 per year, with hostel and other charges extra. Does NIELIT Calicut provide scholarships? Yes, NIELIT Calicut offers merit-based and need-based scholarships to deserving students. What are the top recruiters at NIELIT Calicut"
+        }
+      },
+      "source_url": "https://www.kollegeapply.com/college/nielit-calicut-national-institute-of-electronics-and-information-technology",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  },
+  {
+    "college": {
+      "josaa_code": "458",
+      "josaa_name": "National Institute of Electronics and Information Technology, Kohima",
+      "college_id": "national-institute-of-electronics-and-information-technology-kohima",
+      "college_name": "National Institute of Electronics and Information Technology, Kohima",
+      "website": null,
+      "fee_year": null,
+      "available_fields": 0,
+      "missing_count": 8,
+      "missing_fields": [
+        "tuition_fee_per_semester",
+        "academic_fee_per_semester",
+        "hostel_fee_per_semester",
+        "mess_fee_per_semester",
+        "first_semester_fee",
+        "annual_academic_fee",
+        "annual_total_fee",
+        "total_course_fee"
+      ],
+      "status": "NO_FEE_DATA"
+    },
+    "found": {
+      "fields": {
+        "tuition_fee_per_semester": null,
+        "academic_fee_per_semester": null,
+        "hostel_fee_per_semester": null,
+        "mess_fee_per_semester": null,
+        "first_semester_fee": null,
+        "annual_academic_fee": null,
+        "annual_total_fee": null,
+        "total_course_fee": 400000
+      },
+      "evidence": {
+        "total_course_fee": {
+          "extraction": "overall_btech_fee_fallback",
+          "phrase": "total fees",
+          "context": "INR 4,00,000 excluding the other fees elements. Below mentioned is the specialization specific tuition fees along with total fees of the course.CoursesTuition FeesTotal FeesB.Tech Computer Science and Engineering with specialization in Artificial Intelligence and Machine Learning₹ 4.00 L₹ 4.25 LPh.D Computer Science and Engineering₹ 2.40 L₹ 2.60 L The fees shown above is for the complet"
+        }
+      },
+      "source_url": "https://www.careers360.com/colleges/national-institute-of-electronics-and-information-technology-kohima/fees",
+      "source_kind": "other_secondary",
+      "source_priority": 55,
+      "confidence_score": 60
+    }
+  }
+]

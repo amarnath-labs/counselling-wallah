@@ -1,0 +1,720 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 4 of 5 in the second batch (MNNIT Allahabad). College 5 (MNIT Jaipur) to follow in a separate response."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "MNNIT Allahabad",
+        "verified_name": "Motilal Nehru National Institute of Technology, Allahabad (also known as NIT Allahabad)",
+        "city": "Prayagraj (formerly Allahabad)",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "Formerly Motilal Nehru Regional Engineering College (MNREC), established 1961 as one of seventeen original RECs; converted to NIT and Deemed University status in 2002; declared Institute of National Importance under the 2007 NIT Act. Single main campus (~222 acres) in Teliarganj, Prayagraj. Was formerly an associated college of the University of Allahabad — explicitly verified as a DISTINCT institution from the University of Allahabad, which is a separate, older university. City name change from Allahabad to Prayagraj (2018) does not affect institutional identity; both names refer to the same location."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews pages (multiple, including course-filtered for CSE and Mechanical Engineering), main overview page, and comparison page retrieved."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page and Q&A pages retrieved with substantive narrative review and discussion content."},
+        {"platform": "Careers360", "status": "available", "notes": "Main overview page, paginated reviews page, and multiple Q&A threads retrieved."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located, notably consistent on ragging (near-unanimous 'zero ragging' consensus, with one historical account describing pre-2002 ragging)."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "No genuine Reddit threads specific to MNNIT Allahabad located via search this session."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/compare-mnnit-allahabad-24357",
+          "aggregate_rating": 4.0,
+          "rating_scale": "out of 5",
+          "review_count": 812,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'MNNIT Allahabad is rated 4.0 out of 5 by 812 genuine verified students.'"
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/university/mnnit-allahabad-motilal-nehru-national-institute-of-technology-24357",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 918,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 918 Student Reviews, 428 comments.' Distinct count (918) from the comparison page (812) observed in this same session; both retained as separate observations since retrieved from different URLs."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/university/mnnit-allahabad-motilal-nehru-national-institute-of-technology-24357/reviews-3?course=60831&sort_by=relevance",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 217,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "Course-specific count: '217 genuine reviews on MNNIT Allahabad B.Tech. in Computer Science and Engineering.' This is a CSE-specific subset, not the institution-wide count."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/university/mnnit-allahabad-motilal-nehru-national-institute-of-technology-24357/reviews-2?sort_by=year+of+graduation&course=60841&rating=3",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 66,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "Course-specific count: '66 genuine reviews on MNNIT Allahabad B.Tech. in Mechanical Engineering.' Mechanical-specific subset, not the institution-wide count."
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25961-mnnit-allahabad-motilal-nehru-national-institute-of-technology-mnnit-allahabad/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippets; only narrative review text present."
+        },
+        {
+          "platform": "Glassdoor",
+          "source_url": "https://www.glassdoor.co.in/Reviews/MNNIT-Allahabad-Reviews-EI_IE344614.0,5_IL.6,15_IC2874431.htm",
+          "aggregate_rating": 4.2,
+          "rating_scale": "out of 5",
+          "review_count": 50,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "SCOPE CAVEAT: This reflects EMPLOYEE/staff sentiment about MNNIT as a workplace, not student sentiment. Recorded for completeness but explicitly out-of-scope for student review_items, consistent with the same caveat applied to NIT Rourkela's Glassdoor data earlier in this dataset."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "Shiksha", "aspect": "placements", "rating": 4.4, "rating_scale": "out of 5", "source_url": "https://www.shiksha.com/university/mnnit-allahabad-motilal-nehru-national-institute-of-technology-24357/reviews-12", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "MNNIT Allahabad",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25961-mnnit-allahabad-motilal-nehru-national-institute-of-technology-mnnit-allahabad/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": "Electrical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electrical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements of this college is very good and ranks 2nd among all NITs in India. Electrical branch has placement percentage of 90%, computer science has placement percentage of 95% with 28 LPA, and for ECE 89%.'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "Same review, explicitly names CSE placement rate and average package."
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Half of the campus area is unutilised which should have been utilised.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNNIT Allahabad",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25961-mnnit-allahabad-motilal-nehru-national-institute-of-technology-mnnit-allahabad/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "internships",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'The student becomes eligible for internship after 2nd year of college and for placement after 3rd year... The highest package was given by D.E. Shaw and which was around 63 LPA. The average package of CSE branch was around 27 LPA. In CSE around 85%-90% has either internship offer or placement offer till the end of the college.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNNIT Allahabad",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25961-mnnit-allahabad-motilal-nehru-national-institute-of-technology-mnnit-allahabad/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The coding culture of MNNIT Allahabad is very good.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The college provides you a good environment free from any type of ragging.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Most of the Professors are too formal that even you can't share your personal problems to them.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Infrastructure needs to be improved. The hostels are also required to take care [of].'"
+            },
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The placement of my college depends upon branch. It's extremely good for CS students, then EC and EE students. It's very tough to get placement in case you are a lower branch student. The placement starts in 7th semester.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNNIT Allahabad",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/university/mnnit-allahabad-motilal-nehru-national-institute-of-technology-24357/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "College review of MNNIT Allahabad",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Placement is good for top branches like CSE, ECE, and Electrical, and core branch placement is not good. Medium-level placement for the core branch. Many companies come to this college, but not all companies allow all branches, only the top branch is allowed, and maintain your CPI for this college because CPI is the main part of placement.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Infrastructure is good, not very good. The college campus is very small. The college campus is 222 acre but 100 acre boys' hostel and the 122-acre girls' hostel are not allowed for boys, as it is on the girls' side. Many sports grounds but not in good condition.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Faculty is very strict, and the curriculum is very hard compared [to other colleges since] all NIT Allahabad is the top NIT. That's why study loads are very high, lecture after lecture for all time. The exam paper level is moderate to high, and the marking of the paper is decent.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNNIT Allahabad",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/university/mnnit-allahabad-motilal-nehru-national-institute-of-technology-24357/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'In ECE almost 80 percent of students got placed. DE Shaw gave 72 LPA, which was one of the highest packages from ECE. Most popular companies consider MNNIT Allahabad.'"
+            },
+            {
+              "aspect": "internships",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'Getting on-campus internships is not easy in ECE, around 20 students got internships, of which 15-16 were from the software domain, and 5-6 students were from the core ECE domain. CPI matters a lot in our college; 8.5 CPI is always considered safe.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Infrastructure is below average in my opinion. Mess is dirty and there is no option for non-vegetarians. Wi-Fi is only available in hostel and it's also not reliable. Sports facilities are below average. The library is good but not large enough for the number of students we have. The academic building is below [standard, with] classes [that] are old with no Wi-Fi.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Medical facilities are good.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNNIT Allahabad",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/university/mnnit-allahabad-motilal-nehru-national-institute-of-technology-24357/reviews-3?course=60831&sort_by=relevance",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Computer Science and Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'MNNIT CSE overall placement rate is 95%. CSE placement recorded an impressive performance with the highest CTC of 81 LPA and the average base package stands at 27 LPA... major recruiters such as Microsoft, Google, Sprinklr, and many more.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The hostel is well-equipped with essential facilities for students as well as learning and research... well-maintained with decent room quality and cleanliness.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Modern classrooms with the setup of dedicated computer labs with the latest software and hardware configurations.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Professors are well-qualified, experts in different fields and technology. Semester exams are moderately challenging, encouraging understanding rather than rote learning. The pass percentage varies but generally high (65%), with support available for those who need it.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNNIT Allahabad",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/university/mnnit-allahabad-motilal-nehru-national-institute-of-technology-24357/reviews-2?sort_by=year+of+graduation&course=60841&rating=3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Review of MNNIT Allahabad - Motilal Nehru National Institute of Technology",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Mechanical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Mechanical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'My college provides good placements. Nearly 80% of students secure jobs in top companies.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'I have chosen this college because of the placements and the name and fame of MNNIT. I have opted MNNIT over NIT Warangal and Surathkal. It is the best NIT in North India. In recent years MNNIT also emerges as a factory of producing IAS officers. There is a very good environment for preparing for UPSC, IES, GATE, etc.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'A biggest cultural fest named Culrav is organised at our [college], along with it Swagat for newcomers, Aavishkar, Prosang, etc.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'MNNIT is situated in urban areas of Prayagraj, so there is no problem in connectivity.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNNIT Allahabad",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/university/motilal-nehru-national-institute-of-technology-allahabad-prayagraj/reviews?page=3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The placement of the college is very good. In the current batch, 80% of students got placed. The highest package is 33 LPA, while the average is around 11 LPA. Top companies like Google also came to the college. MNNIT known for its placement.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'All the faculty are well educated and almost every faculty member has a Ph.D. degree. Most of them are from IITs and NITs.'"
+            }
+          ]
+        },
+        {
+          "college_name": "MNNIT Allahabad",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/university/motilal-nehru-national-institute-of-technology-allahabad-prayagraj/reviews?page=3",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Reviewer chose to post anonymously; identified as 'Batch of 2020-01-01, B.Tech Electronics and Communication Engineering' per page metadata.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Placements of my college were very good till last year, but from this year the recession is started so jobs are revoked by the companies and all the students [are struggling with] getting placed.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Course curriculum is updated two years ago.' Purely descriptive statement."
+            }
+          ]
+        },
+        {
+          "college_name": "MNNIT Allahabad",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/What-are-were-some-of-the-instances-of-ragging-at-MNNIT-Allahabad",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "What are/were some of the instances of ragging at MNNIT, Allahabad?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This answer is explicitly historical, describing conditions 'till 2002' — a meaningfully different time period from the many other MNNIT sources in this dataset which consistently describe present-day conditions as ragging-free. Preserved with its temporal scope intact rather than treated as describing current conditions.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Ragging was prevalent in MNNIT, Allahabad till 2002 to a large extent. At those times, the freshers who used to stay at Tagore hostel (which was outside the whole campus) had to come in queues and seniors (2nd year) used to guide them to the college. Freshers had to wear white [clothing/uniform]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "MNNIT Allahabad",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/Should-anyone-be-afraid-of-getting-ragged-in-MNNIT-Allahabad",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "Should anyone be afraid of getting ragged in MNNIT, Allahabad?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'There is no question to worry about ragging in MNNIT. You can find seniors more friendly than usually you expect; the only thing they demand from you is just to [show respect]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        },
+        {
+          "college_name": "MNNIT Allahabad",
+          "source": "Quora (mirrored via Collegedunia Q&A)",
+          "source_type": "discussion",
+          "source_url": "https://collegedunia.com/qna/question/30985-what-are-some-of-the-best-and-worst-experiences-for-you-at-mnnit-allahabad",
+          "source_review_id": "30985",
+          "author_display_name": null,
+          "review_title": "What are some of the best and worst experiences for you at MNNIT Allahabad?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Information Technology",
+          "course_verified": true,
+          "department": null,
+          "branch": "Information Technology",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This page contains multiple distinct answers/experiences layered together, including a separate account from a first-year student and an unrelated account from an IIT Ropar alumnus (excluded, as it does not pertain to MNNIT Allahabad). Only the MNNIT-specific, clearly attributable content is extracted here.",
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'MNNIT is among the very few engineering colleges with zero ragging (both on paper and in practice). The seniors are very helpful, friendly and approachable. There's a practice of addressing the seniors as Sir or Ma'am, but it isn't really bothersome.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The messes and canteens serve strictly vegetarian meals. Thus, non-vegetarians have a tough time finding non-veg meals inside and around the campus. As far as food quality is concerned, the canteens serve good and affordable meals, and are open till late night. The mess food is below average, and many students prefer canteens over messes.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'The campus is not very big, and one can easily cover the entire area on foot. Many people use bicycles, but it is not a necessity.' Purely descriptive."
+            }
+          ]
+        },
+        {
+          "college_name": "MNNIT Allahabad",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-are-hostels-at-MNNIT-Allahabad-for-1st-year",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How are hostels at MNNIT Allahabad for 1st year?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "Describing SVBH boys hostel as 'Best Hostels in UP': 'Geysers and water coolers with aquaguard on every floor. PCO for STD/Local calls. Books and stationary shop. 24 hours internet connectivity with 100 Mbps LAN. Guest room. Generator, which in case of power failure...' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 14,
+        "independent_sources": 4,
+        "reviews_with_dates": 0,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 14
+      },
+
+      "limitations": [
+        "Reddit: no genuine MNNIT Allahabad-specific threads located via search this session; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "Ragging-related sentiment for MNNIT Allahabad shows an unusually strong and consistent positive/reassuring pattern across nearly all sources found this session, with one notable exception describing HISTORICAL ragging up to 2002 specifically — this temporal distinction is preserved rather than treated as contradicting the present-day consensus.",
+        "Glassdoor data was located and is included in platform_aggregate_observations for completeness, but reflects EMPLOYEE/staff sentiment about MNNIT as a workplace, not student sentiment — explicitly out of scope for student review_items.",
+        "Several Shiksha review_count observations are course-specific (CSE: 217, Mechanical: 66) rather than institution-wide; these are recorded with that scope explicitly noted rather than conflated with the overall counts (812, 918).",
+        "No review in this extraction batch carried an explicit visible date; reviews_with_dates and reviews_last_24_months are both 0 as a result.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~900+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

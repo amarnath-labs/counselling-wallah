@@ -183,7 +183,7 @@ export default function CollegeCard({
       direction ===
       'VOLATILE'
     ) {
-      return '↕ Volatile';
+      return 'â†• Volatile';
     }
 
     if (
@@ -244,8 +244,28 @@ export default function CollegeCard({
     };
   };
 
+  const historicalAdmissionBucket =
+    historyData
+      ?.intelligence
+      ?.josaa
+      ?.historicalBucket;
+
+
+  const effectiveAdmissionBucket =
+    String(
+      historicalAdmissionBucket ||
+      row?.bucket ||
+      row?.admission?.bucket ||
+      'backup'
+    )
+      .trim()
+      .toLowerCase();
+
+
   const admission =
-    meta[row?.bucket] ||
+    meta[
+      effectiveAdmissionBucket
+    ] ||
     meta.backup;
 
   const college =
@@ -493,7 +513,7 @@ export default function CollegeCard({
             .join(', ')}
 
           {college.type
-            ? ` · ${college.type}`
+            ? ` Â· ${college.type}`
             : ''}
 
         </div>
@@ -566,7 +586,7 @@ export default function CollegeCard({
           {hasFees && (
             <span className="meta-chip">
 
-              ₹
+              â‚¹
               {(
                 fees /
                 100000
@@ -597,7 +617,7 @@ export default function CollegeCard({
             </strong>
 
             {hasPlacement
-              ? ` · Placement ${placement}%`
+              ? ` Â· Placement ${placement}%`
               : ''}
           </div>
 
@@ -1253,7 +1273,7 @@ export default function CollegeCard({
               </div>
 
               <div className="best-premium-lock">
-                🔒
+                ðŸ”’
               </div>
 
             </div>
@@ -1461,7 +1481,7 @@ export default function CollegeCard({
                             index
                           }
                         >
-                          ✓ {reason}
+                          âœ“ {reason}
                         </div>
                       )
                     )}

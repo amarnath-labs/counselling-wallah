@@ -1,0 +1,37 @@
+[
+  {
+    "college_id": "maulana-azad-national-institute-of-technology-bhopal",
+    "college_name": "Maulana Azad National Institute of Technology Bhopal",
+    "source_url": "https://www.manit.ac.in/",
+    "error": "self-signed certificate in certificate chain",
+    "status_code": null
+  },
+  {
+    "college_id": "mizoram-university-aizawl",
+    "college_name": "Mizoram University, Aizawl",
+    "source_url": "https://mzu.edu.in/",
+    "error": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca",
+    "status_code": null
+  },
+  {
+    "college_id": "national-institute-of-technology-nagaland",
+    "college_name": "National Institute of Technology Nagaland",
+    "source_url": "https://nitnagaland.ac.in/index.php/academics/admission/btech/btech-csab26",
+    "error": "Hostname/IP does not match certificate's altnames: Host: nitnagaland.ac.in. is not in the cert's altnames: DNS:www.nitnagaland.ac.in",
+    "status_code": null
+  },
+  {
+    "college_id": "national-institute-of-technology-kurukshetra",
+    "college_name": "National Institute of Technology, Kurukshetra",
+    "source_url": "https://nitkkr.ac.in/fee-structure/",
+    "error": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca",
+    "status_code": null
+  },
+  {
+    "college_id": "national-institute-of-technology-tiruchirappalli",
+    "college_name": "National Institute of Technology, Tiruchirappalli",
+    "source_url": "https://www.nitt.edu/home/admissions/btech/",
+    "error": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca",
+    "status_code": null
+  }
+]

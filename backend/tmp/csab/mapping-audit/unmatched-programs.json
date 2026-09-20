@@ -1,0 +1,66 @@
+[
+  {
+    "institute": "Maulana Azad National Institute of Technology Bhopal",
+    "program": "Materials Science and Metallurgical Engineering (4 Years, Bachelor of Technology)",
+    "college_id": "maulana-azad-national-institute-of-technology-bhopal",
+    "branch_id": null,
+    "match_type": "UNMATCHED",
+    "db_branch": null
+  },
+  {
+    "institute": "Sardar Vallabhbhai National Institute of Technology, Surat",
+    "program": "Chemistry (5 Years, Integrated Master of Science)",
+    "college_id": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "branch_id": null,
+    "match_type": "UNMATCHED",
+    "db_branch": null
+  },
+  {
+    "institute": "Sardar Vallabhbhai National Institute of Technology, Surat",
+    "program": "Mathematics (5 Years, Integrated Master of Science)",
+    "college_id": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "branch_id": null,
+    "match_type": "UNMATCHED",
+    "db_branch": null
+  },
+  {
+    "institute": "Sardar Vallabhbhai National Institute of Technology, Surat",
+    "program": "Physics (5 Years, Integrated Master of Science)",
+    "college_id": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "branch_id": null,
+    "match_type": "UNMATCHED",
+    "db_branch": null
+  },
+  {
+    "institute": "Indian Institute of Information Technology(IIIT) Kilohrad, Sonepat, Haryana",
+    "program": "CSE ( Data Science & Analytics) (4 Years, Bachelor of Technology)",
+    "college_id": "indian-institute-of-information-technology-kilohrad-sonepat-haryana",
+    "branch_id": null,
+    "match_type": "UNMATCHED",
+    "db_branch": null
+  },
+  {
+    "institute": "Birla Institute of Technology, Mesra, Ranchi",
+    "program": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+    "college_id": "birla-institute-of-technology-mesra-ranchi",
+    "branch_id": null,
+    "match_type": "UNMATCHED",
+    "db_branch": null
+  },
+  {
+    "institute": "National Institute of Advanced Manufacturing Technology, Ranchi",
+    "program": "Metallurgy and Materials Engineering (4 Years, Bachelor of Technology)",
+    "college_id": "national-institute-of-advanced-manufacturing-technology-ranchi",
+    "branch_id": null,
+    "match_type": "UNMATCHED",
+    "db_branch": null
+  },
+  {
+    "institute": "Birla Institute of Technology, Patna Off-Campus",
+    "program": "Artificial Intelligence and Machine Learning (4 Years, Bachelor of Technology)",
+    "college_id": "birla-institute-of-technology-patna-off-campus",
+    "branch_id": null,
+    "match_type": "UNMATCHED",
+    "db_branch": null
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "match_score": 0.94,
+    "rating_raw": 9.7,
+    "rating_5": 4.85
+  },
+  {
+    "dataset_college": "Vellore Institute of Technology - [VIT University]",
+    "project_college": "vit-vellore",
+    "match_score": 1,
+    "rating_raw": 6,
+    "rating_5": 3
+  },
+  {
+    "dataset_college": "Birla Institute of Technology - [BIT Mesra]",
+    "project_college": "bit-mesra",
+    "match_score": 0.94,
+    "rating_raw": 7,
+    "rating_5": 3.5
+  },
+  {
+    "dataset_college": "Babu Banarasi Das Northern India Institute of Technology - [BBDNIIT]",
+    "project_college": "uptac-babu-banarasi-das-northern-india-institute-of-technology-lucknow",
+    "match_score": 0.8333,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 8.4,
+    "rating_5": 4.2
+  },
+  {
+    "dataset_college": "Indian Institute of Information Technology Design & Manufacturing - [IIITDM]",
+    "project_college": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+    "match_score": 0.8,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_college": "Birla Institute of Technology - [BIT Mesra]",
+    "project_college": "bit-mesra",
+    "match_score": 0.94,
+    "rating_raw": 9.4,
+    "rating_5": 4.7
+  },
+  {
+    "dataset_college": "Indian Institute of Engineering Science and Technology - [IIEST] Shibpur",
+    "project_college": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "match_score": 0.8571,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_college": "KIET Group of Institutions - [KIET]",
+    "project_college": "uptac-kiet-group-of-institutions-ghaziabad",
+    "match_score": 0.8571,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_college": "Vellore Institute of Technology - [VIT University]",
+    "project_college": "vit-vellore",
+    "match_score": 1,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_college": "Sardar Vallabhbhai National Institute of Technology - [SVNIT]",
+    "project_college": "sardar-vallabhbhai-national-institute-of-technology-surat",
+    "match_score": 0.88,
+    "rating_raw": 7,
+    "rating_5": 3.5
+  },
+  {
+    "dataset_college": "ITM SLS Baroda University",
+    "project_college": "indian-institute-of-science-bangalore",
+    "match_score": 0.88,
+    "rating_raw": 9.6,
+    "rating_5": 4.8
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_college": "Birla Institute of Technology - [BIT Mesra]",
+    "project_college": "bit-mesra",
+    "match_score": 0.94,
+    "rating_raw": 7,
+    "rating_5": 3.5
+  },
+  {
+    "dataset_college": "NIT Warangal",
+    "project_college": "nit-warangal",
+    "match_score": 1,
+    "rating_raw": 6.5,
+    "rating_5": 3.25
+  },
+  {
+    "dataset_college": "Raja Balwant Singh Engineering Technical Campus - [FETRBS]",
+    "project_college": "uptac-raja-balwant-singh-engineering-technical-campus-agra",
+    "match_score": 0.8333,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 5.7,
+    "rating_5": 2.85
+  },
+  {
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "match_score": 0.94,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_college": "Birla Institute of Technology - [BIT Mesra]",
+    "project_college": "bit-mesra",
+    "match_score": 0.94,
+    "rating_raw": 3.7,
+    "rating_5": 3.7
+  },
+  {
+    "dataset_college": "Birla Institute of Technology - [BIT Mesra]",
+    "project_college": "bit-mesra",
+    "match_score": 0.94,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 9.3,
+    "rating_5": 4.65
+  },
+  {
+    "dataset_college": "Indian Institute of Engineering Science and Technology - [IIEST] Shibpur",
+    "project_college": "indian-institute-of-engineering-science-and-technology-shibpur",
+    "match_score": 0.8571,
+    "rating_raw": 7,
+    "rating_5": 3.5
+  },
+  {
+    "dataset_college": "Birla Institute of Technology - [BIT Mesra]",
+    "project_college": "bit-mesra",
+    "match_score": 0.94,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_college": "Birla Institute of Technology - [BIT Mesra]",
+    "project_college": "bit-mesra",
+    "match_score": 0.94,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_college": "Birla Institute of Technology - [BIT Mesra]",
+    "project_college": "bit-mesra",
+    "match_score": 0.94,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_college": "Agra College",
+    "project_college": "uptac-faculty-of-engg-agra-college-agra",
+    "match_score": 0.94,
+    "rating_raw": 6.3,
+    "rating_5": 3.15
+  },
+  {
+    "dataset_college": "Birla Institute of Technology - [BIT Mesra]",
+    "project_college": "bit-mesra",
+    "match_score": 0.94,
+    "rating_raw": 10,
+    "rating_5": 5
+  },
+  {
+    "dataset_college": "Vellore Institute of Technology - [VIT]",
+    "project_college": "vit-vellore",
+    "match_score": 1,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "match_score": 0.94,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_college": "KIET Group of Institutions - [KIET]",
+    "project_college": "uptac-kiet-group-of-institutions-ghaziabad",
+    "match_score": 0.8571,
+    "rating_raw": 9.7,
+    "rating_5": 4.85
+  },
+  {
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "match_score": 0.94,
+    "rating_raw": 7.3,
+    "rating_5": 3.65
+  },
+  {
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "match_score": 0.94,
+    "rating_raw": 5.7,
+    "rating_5": 2.85
+  },
+  {
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "match_score": 0.8889,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "match_score": 0.94,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "match_score": 0.94,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "match_score": 0.94,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "match_score": 0.94,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "match_score": 0.94,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "match_score": 0.94,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_college": "Central University of Haryana - [CUH]",
+    "project_college": "central-university-of-haryana",
+    "match_score": 0.94,
+    "rating_raw": 7,
+    "rating_5": 3.5
+  },
+  {
+    "dataset_college": "College of Engineering and Technology",
+    "project_college": "uptac-b-b-s-college-of-engineering-and-technology-allahabad",
+    "match_score": 0.94,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_college": "KIET Group of Institutions - [KIET]",
+    "project_college": "uptac-kiet-group-of-institutions-ghaziabad",
+    "match_score": 0.8571,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_college": "Vellore Institute of Technology - [VIT]",
+    "project_college": "vit-vellore",
+    "match_score": 1,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_college": "KIET Group of Institutions - [KIET]",
+    "project_college": "uptac-kiet-group-of-institutions-ghaziabad",
+    "match_score": 0.8571,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_college": "Vellore Institute of Technology - [VIT]",
+    "project_college": "vit-vellore",
+    "match_score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_college": "KIET Group of Institutions - [KIET]",
+    "project_college": "uptac-kiet-group-of-institutions-ghaziabad",
+    "match_score": 0.8571,
+    "rating_raw": 7,
+    "rating_5": 3.5
+  },
+  {
+    "dataset_college": "KIET Group of Institutions - [KIET]",
+    "project_college": "uptac-kiet-group-of-institutions-ghaziabad",
+    "match_score": 0.8571,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "match_score": 1,
+    "rating_raw": 7.3,
+    "rating_5": 3.65
+  },
+  {
+    "dataset_college": "KIET Group of Institutions - [KIET]",
+    "project_college": "uptac-kiet-group-of-institutions-ghaziabad",
+    "match_score": 0.8571,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_college": "KIET Group of Institutions - [KIET]",
+    "project_college": "uptac-kiet-group-of-institutions-ghaziabad",
+    "match_score": 0.8571,
+    "rating_raw": 9.7,
+    "rating_5": 4.85
+  },
+  {
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "match_score": 1,
+    "rating_raw": 9.3,
+    "rating_5": 4.65
+  },
+  {
+    "dataset_college": "KIET Group of Institutions - [KIET]",
+    "project_college": "uptac-kiet-group-of-institutions-ghaziabad",
+    "match_score": 0.8571,
+    "rating_raw": 5.7,
+    "rating_5": 2.85
+  },
+  {
+    "dataset_college": "Maulana Azad National Institute of Technology - [MANIT]",
+    "project_college": "maulana-azad-national-institute-of-technology-bhopal",
+    "match_score": 0.75,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_college": "KIET Group of Institutions - [KIET]",
+    "project_college": "uptac-kiet-group-of-institutions-ghaziabad",
+    "match_score": 0.8571,
+    "rating_raw": 9.7,
+    "rating_5": 4.85
+  },
+  {
+    "dataset_college": "NIT Silchar",
+    "project_college": "nit-silchar",
+    "match_score": 1,
+    "rating_raw": 7.3,
+    "rating_5": 3.65
+  },
+  {
+    "dataset_college": "Vellore Institute of Technology - [VIT University]",
+    "project_college": "vit-vellore",
+    "match_score": 1,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_college": "Babu Banarasi Das Northern India Institute of Technology - [BBDNIIT]",
+    "project_college": "uptac-babu-banarasi-das-northern-india-institute-of-technology-lucknow",
+    "match_score": 0.8333,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_college": "Vellore Institute of Technology - [VIT University]",
+    "project_college": "vit-vellore",
+    "match_score": 1,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_college": "Vellore Institute of Technology - [VIT University]",
+    "project_college": "vit-vellore",
+    "match_score": 1,
+    "rating_raw": 10,
+    "rating_5": 5
+  },
+  {
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "match_score": 0.8889,
+    "rating_raw": 7.5,
+    "rating_5": 3.75
+  },
+  {
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "match_score": 0.8889,
+    "rating_raw": 6.7,
+    "rating_5": 3.35
+  },
+  {
+    "dataset_college": "Vellore Institute of Technology - [VIT University]",
+    "project_college": "vit-vellore",
+    "match_score": 1,
+    "rating_raw": 7,
+    "rating_5": 3.5
+  },
+  {
+    "dataset_college": "Vellore Institute of Technology - [VIT]",
+    "project_college": "vit-vellore",
+    "match_score": 1,
+    "rating_raw": 7.3,
+    "rating_5": 3.65
+  },
+  {
+    "dataset_college": "Sant Longowal Institute of Engineering and Technology - [SLIET]",
+    "project_college": "sant-longowal-institute-of-engineering-and-technology",
+    "match_score": 0.94,
+    "rating_raw": 8.2,
+    "rating_5": 4.1
+  },
+  {
+    "dataset_college": "NIT Trichy",
+    "project_college": "nit-trichy",
+    "match_score": 1,
+    "rating_raw": 9.2,
+    "rating_5": 4.6
+  },
+  {
+    "dataset_college": "College of Engineering",
+    "project_college": "uptac-a-n-a-college-of-engineering-management-bareilly",
+    "match_score": 0.94,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "match_score": 0.8889,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 6.2,
+    "rating_5": 3.1
+  },
+  {
+    "dataset_college": "Birla Institute of Technology - [BIT Mesra]",
+    "project_college": "bit-mesra",
+    "match_score": 0.94,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_college": "SVS Group of Institutions",
+    "project_college": "uptac-svs-group-of-institutions-meerut",
+    "match_score": 0.94,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "match_score": 0.94,
+    "rating_raw": 8.7,
+    "rating_5": 4.35
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "match_score": 0.94,
+    "rating_raw": 9.5,
+    "rating_5": 4.75
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 10,
+    "rating_5": 5
+  },
+  {
+    "dataset_college": "Vellore Institute of Technology - [VIT University]",
+    "project_college": "vit-vellore",
+    "match_score": 1,
+    "rating_raw": 10,
+    "rating_5": 5
+  },
+  {
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "match_score": 0.8889,
+    "rating_raw": 7.8,
+    "rating_5": 3.9
+  },
+  {
+    "dataset_college": "Indian Institute of Information Technology Design and Manufacturing - [IIITDM]",
+    "project_college": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+    "match_score": 0.8,
+    "rating_raw": 2.8,
+    "rating_5": 2.8
+  },
+  {
+    "dataset_college": "Vellore Institute of Technology - [VIT University]",
+    "project_college": "vit-vellore",
+    "match_score": 1,
+    "rating_raw": 10,
+    "rating_5": 5
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_college": "G L Bajaj Institute of Technology and Management",
+    "project_college": "uptac-g-l-bajaj-institute-of-technology-management-gautam-buddh-nagar",
+    "match_score": 0.94,
+    "rating_raw": 7.5,
+    "rating_5": 3.75
+  },
+  {
+    "dataset_college": "Jadavpur University - [JU]",
+    "project_college": "jadavpur-university",
+    "match_score": 0.94,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_college": "College of Engineering",
+    "project_college": "uptac-a-n-a-college-of-engineering-management-bareilly",
+    "match_score": 0.94,
+    "rating_raw": 7.7,
+    "rating_5": 3.85
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 9.2,
+    "rating_5": 4.6
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 8.5,
+    "rating_5": 4.25
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 8.3,
+    "rating_5": 4.15
+  },
+  {
+    "dataset_college": "NIT Trichy",
+    "project_college": "nit-trichy",
+    "match_score": 1,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_college": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management - [ABVIIITM]",
+    "project_college": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+    "match_score": 0.8571,
+    "rating_raw": 7.3,
+    "rating_5": 3.65
+  },
+  {
+    "dataset_college": "Gurukula Kangri Vishwavidyalaya - [GKV]",
+    "project_college": "gurukula-kangri-vishwavidyalaya-haridwar",
+    "match_score": 0.75,
+    "rating_raw": 5.8,
+    "rating_5": 2.9
+  },
+  {
+    "dataset_college": "MNNIT Allahabad - Motilal Nehru National Institute of Technology - [MNNIT]",
+    "project_college": "motilal-nehru-national-institute-of-technology-allahabad",
+    "match_score": 0.8889,
+    "rating_raw": 8,
+    "rating_5": 4
+  },
+  {
+    "dataset_college": "Sant Longowal Institute of Engineering and Technology - [SLIET]",
+    "project_college": "sant-longowal-institute-of-engineering-and-technology",
+    "match_score": 0.94,
+    "rating_raw": 9.2,
+    "rating_5": 4.6
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 8.5,
+    "rating_5": 4.25
+  },
+  {
+    "dataset_college": "Delhi Technological University - [DTU]",
+    "project_college": "dtu-delhi",
+    "match_score": 0.8,
+    "rating_raw": 6.7,
+    "rating_5": 3.35
+  },
+  {
+    "dataset_college": "Jadavpur University - [JU]",
+    "project_college": "jadavpur-university",
+    "match_score": 0.94,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  },
+  {
+    "dataset_college": "Jadavpur University - [JU]",
+    "project_college": "jadavpur-university",
+    "match_score": 0.94,
+    "rating_raw": 9,
+    "rating_5": 4.5
+  }
+]

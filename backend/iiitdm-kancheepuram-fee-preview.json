@@ -1,0 +1,52 @@
+{
+  "branch_fee": {
+    "college_id": "indian-institute-of-information-technology-design-manufacturing-kancheepuram",
+    "branch_id": null,
+    "program": "B.Tech",
+    "fee_scope": "all_btech_branches",
+    "academic_year": 2026,
+    "source_label": "IIITDM Kancheepuram Official B.Tech Fee Structure 2026-27",
+    "source_url": "http://old.iiitdm.ac.in/img/academics/Fee_Structure_2026-27.pdf",
+    "verification_status": "pending_review"
+  },
+  "fee_variants": [
+    {
+      "semester": 1,
+      "fee_period": "semester",
+      "student_category": "B.Tech regular - tuition applicable",
+      "income_min": null,
+      "income_max": null,
+      "residence_type": "hosteller",
+      "room_type": null,
+      "tuition_fee": 99000,
+      "admission_fee": 500,
+      "institute_fee": 109300,
+      "hostel_fee": 23696,
+      "mess_fee": 16800,
+      "caution_deposit": null,
+      "other_fee": null,
+      "total_fee": 149796,
+      "is_one_time_included": true,
+      "verification_status": "pending_review"
+    },
+    {
+      "semester": 1,
+      "fee_period": "semester",
+      "student_category": "SC/ST/PwD - tuition exempt",
+      "income_min": null,
+      "income_max": null,
+      "residence_type": "hosteller",
+      "room_type": null,
+      "tuition_fee": 0,
+      "admission_fee": 500,
+      "institute_fee": null,
+      "hostel_fee": 23696,
+      "mess_fee": 16800,
+      "caution_deposit": null,
+      "other_fee": null,
+      "total_fee": null,
+      "is_one_time_included": true,
+      "verification_status": "pending_review"
+    }
+  ]
+}

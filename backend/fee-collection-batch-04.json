@@ -1,0 +1,100 @@
+﻿[
+  {
+    "college_id": "indian-institute-of-technology-hyderabad",
+    "college_name": "Indian Institute of Technology Hyderabad",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 100000,
+    "academic_fee_per_semester": 115675,
+    "hostel_fee_per_semester": 18000,
+    "mess_fee_per_semester": 14430,
+    "first_semester_fee": 168993,
+    "annual_academic_fee": 231350,
+    "one_time_fee": 13000,
+    "security_deposit": 6000,
+
+    "source_kind": "official",
+    "source_label": "IIT Hyderabad UG Fee Structure July-December 2026",
+    "source_url": "https://www.iith.ac.in/academics/assets/files/fee/2026/jan-jun-2026/Fee_Structure_Jul-Dec2026Semester_15.05-1.pdf",
+
+    "source_priority": 100,
+    "confidence_score": 100,
+    "verification_status": "high_confidence",
+    "extraction_method": "manual",
+
+    "notes": "Newly enrolled UG GEN/OBC July 2026. Academic fee per semester = tuition 100000 + institutional charges 14675 + student welfare 1000. Hostel and mess kept separate. First-semester grand total includes one-time fee and annual medical insurance."
+  },
+
+  {
+    "college_id": "iit-gandhinagar",
+    "college_name": "IIT Gandhinagar",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "source_kind": "official",
+    "source_label": "IIT Gandhinagar BTech Admissions 2026-27",
+    "source_url": "https://iitgn.ac.in/admissions/btech",
+
+    "source_priority": 100,
+    "confidence_score": 65,
+    "verification_status": "pending_review",
+    "extraction_method": "manual",
+
+    "notes": "Official B.Tech 2026-27 admission page confirmed. Numeric fee structure requires separate extraction."
+  },
+
+  {
+    "college_id": "indian-institute-of-technology-bhubaneswar",
+    "college_name": "Indian Institute of Technology Bhubaneswar",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "source_kind": "official",
+    "source_label": "IIT Bhubaneswar Official Fee Structure",
+    "source_url": "https://www.iitbbs.ac.in/index.php/home/academics/fee-structure/",
+
+    "source_priority": 100,
+    "confidence_score": 60,
+    "verification_status": "pending_review",
+    "extraction_method": "manual",
+
+    "notes": "Official B.Tech fee page found. Current listed B.Tech structure requires applicability verification for fresh 2026 entrants before normalization."
+  },
+
+  {
+    "college_id": "indian-institute-of-technology-indore",
+    "college_name": "Indian Institute of Technology Indore",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "source_kind": "official",
+    "source_label": "IIT Indore Autumn 2026 Fee Notice",
+    "source_url": "https://academic.iiti.ac.in/Admission/2026/fee_notice_2026_autumn.pdf",
+
+    "source_priority": 100,
+    "confidence_score": 75,
+    "verification_status": "pending_review",
+    "extraction_method": "manual",
+
+    "notes": "Official notice shows B.Tech 2026 academic amount 101000, mess advance 17000 and hostel charges 16000. Academic amount has a seat-acceptance-fee deduction note, so values are intentionally not normalized yet."
+  },
+
+  {
+    "college_id": "indian-institute-of-technology-jammu",
+    "college_name": "Indian Institute of Technology Jammu",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "source_kind": "official",
+    "source_label": "IIT Jammu B.Tech 2026 Fee Structure",
+    "source_url": "https://www.iitjammu.ac.in/fee",
+
+    "source_priority": 100,
+    "confidence_score": 70,
+    "verification_status": "pending_review",
+    "extraction_method": "manual",
+
+    "notes": "Official IIT Jammu fee portal contains a dedicated B.Tech 2026 Batch fee structure. Numeric breakdown still requires extraction."
+  }
+]

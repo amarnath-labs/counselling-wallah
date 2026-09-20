@@ -1,0 +1,50 @@
+[
+  {
+    "college_id": "uptac-abes-institute-of-technology-ghaziabad",
+    "college_name": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+    "academic_year": 2026,
+    "source_url": "https://www.abesit.in/admission/",
+    "source_type": "official_html",
+    "fee_period": "unknown",
+    "normalized": {
+      "tuition_fee": 80000,
+      "admission_fee": null,
+      "hostel_fee": 115000,
+      "mess_fee": null,
+      "caution_deposit": null,
+      "total_fee": 2026
+    },
+    "all_amounts": [
+      0,
+      1000,
+      2025,
+      2026,
+      2027,
+      5000,
+      7500,
+      9228,
+      10000,
+      15000,
+      61100,
+      80000,
+      97000,
+      115000,
+      120000,
+      133000,
+      155000,
+      161611,
+      165000,
+      300150,
+      604800,
+      50200031526069
+    ],
+    "confidence_score": 70,
+    "status": "REVIEW",
+    "reasons": [
+      "btech_detected",
+      "tuition_found",
+      "total_found",
+      "hostel_found"
+    ]
+  }
+]

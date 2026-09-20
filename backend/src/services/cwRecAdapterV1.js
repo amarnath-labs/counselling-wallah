@@ -730,6 +730,21 @@ export function adaptCounsellingRowToCWRecInput(
 
     closingRanks,
 
+    r1OpeningRank:
+      row?.r1OpeningRank ??
+      row?.admission?.r1OpeningRank ??
+      row?.historicalFit?.r1OpeningRank ??
+      row?.openingRank ??
+      null,
+
+    lastRoundClosingRank:
+      row?.lastRoundClosingRank ??
+      row?.admission?.lastRoundClosingRank ??
+      row?.historicalFit?.lastRoundClosingRank ??
+      row?.closingRank ??
+      null,
+
+
     historicalRows,
 
     admissionContextScore,

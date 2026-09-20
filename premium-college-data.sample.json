@@ -1,0 +1,20 @@
+[
+  {
+    "college_id": 1,
+    "nirf_rank": 10,
+    "nirf_score": 72.4,
+    "accreditation": "NAAC A++",
+    "median_package": 1200000,
+    "average_package": 1450000,
+    "highest_package": 5200000,
+    "placement_rate": 91.5,
+    "tuition_fee": 125000,
+    "hostel_fee": 45000,
+    "other_fee": 18000,
+    "total_annual_fee": 188000,
+    "academic_year": 2025,
+    "source_label": "TEST DATA - DO NOT USE IN PRODUCTION",
+    "source_url": null,
+    "verification_status": "test"
+  }
+]

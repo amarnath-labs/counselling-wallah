@@ -1,0 +1,163 @@
+{
+  "source": "https://josaa.admissions.nic.in/applicant/SeatAllotmentResult/CurrentORCR.aspx",
+  "counsellingType": "JOSAA",
+  "year": 2026,
+  "discoveredAt": "2026-09-13T14:20:42.361Z",
+  "rounds": [
+    {
+      "round": "1",
+      "roundLabel": "1",
+      "instituteTypes": [
+        {
+          "value": "ALL",
+          "label": "ALL",
+          "selected": false
+        },
+        {
+          "value": "CFI",
+          "label": "Government Funded Technical Institutions",
+          "selected": false
+        },
+        {
+          "value": "IIT",
+          "label": "Indian Institute of Technology",
+          "selected": false
+        },
+        {
+          "value": "3IT",
+          "label": "Indian Institute of Information Technology",
+          "selected": false
+        },
+        {
+          "value": "NIT",
+          "label": "National Institute of Technology",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "round": "2",
+      "roundLabel": "2",
+      "instituteTypes": [
+        {
+          "value": "ALL",
+          "label": "ALL",
+          "selected": false
+        },
+        {
+          "value": "CFI",
+          "label": "Government Funded Technical Institutions",
+          "selected": false
+        },
+        {
+          "value": "IIT",
+          "label": "Indian Institute of Technology",
+          "selected": false
+        },
+        {
+          "value": "3IT",
+          "label": "Indian Institute of Information Technology",
+          "selected": false
+        },
+        {
+          "value": "NIT",
+          "label": "National Institute of Technology",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "round": "3",
+      "roundLabel": "3",
+      "instituteTypes": [
+        {
+          "value": "ALL",
+          "label": "ALL",
+          "selected": false
+        },
+        {
+          "value": "CFI",
+          "label": "Government Funded Technical Institutions",
+          "selected": false
+        },
+        {
+          "value": "IIT",
+          "label": "Indian Institute of Technology",
+          "selected": false
+        },
+        {
+          "value": "3IT",
+          "label": "Indian Institute of Information Technology",
+          "selected": false
+        },
+        {
+          "value": "NIT",
+          "label": "National Institute of Technology",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "round": "4",
+      "roundLabel": "4",
+      "instituteTypes": [
+        {
+          "value": "ALL",
+          "label": "ALL",
+          "selected": false
+        },
+        {
+          "value": "CFI",
+          "label": "Government Funded Technical Institutions",
+          "selected": false
+        },
+        {
+          "value": "IIT",
+          "label": "Indian Institute of Technology",
+          "selected": false
+        },
+        {
+          "value": "3IT",
+          "label": "Indian Institute of Information Technology",
+          "selected": false
+        },
+        {
+          "value": "NIT",
+          "label": "National Institute of Technology",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "round": "5",
+      "roundLabel": "5",
+      "instituteTypes": [
+        {
+          "value": "ALL",
+          "label": "ALL",
+          "selected": false
+        },
+        {
+          "value": "CFI",
+          "label": "Government Funded Technical Institutions",
+          "selected": false
+        },
+        {
+          "value": "IIT",
+          "label": "Indian Institute of Technology",
+          "selected": false
+        },
+        {
+          "value": "3IT",
+          "label": "Indian Institute of Information Technology",
+          "selected": false
+        },
+        {
+          "value": "NIT",
+          "label": "National Institute of Technology",
+          "selected": false
+        }
+      ]
+    }
+  ]
+}

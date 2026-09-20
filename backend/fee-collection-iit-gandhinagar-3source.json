@@ -1,0 +1,83 @@
+﻿[
+  {
+    "college_id": "iit-gandhinagar",
+    "college_name": "IIT Gandhinagar",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 100000,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": 200000,
+    "annual_total_fee": null,
+    "total_course_fee": null,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "shiksha",
+    "source_label": "Shiksha IIT Gandhinagar BTech Fees 2026",
+    "source_url": "https://www.shiksha.com/college/iit-gandhinagar-indian-institute-of-technology-32705/fees",
+    "source_priority": 65,
+    "confidence_score": 78,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "Shiksha reports INR 8 lakh total B.Tech tuition. Tuition per semester normalized as INR 100000 over 8 semesters. Hostel/mess semester amounts not normalized because a single clear semester amount was not established."
+  },
+  {
+    "college_id": "iit-gandhinagar",
+    "college_name": "IIT Gandhinagar",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": 100000,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": 200000,
+    "annual_total_fee": null,
+    "total_course_fee": null,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "collegedunia",
+    "source_label": "Collegedunia IIT Gandhinagar BTech Fees 2026",
+    "source_url": "https://collegedunia.com/university/25495-iit-gandhinagar-indian-institute-of-technology-iitg-gandhinagar/bachelor-of-technology-btech-full-time",
+    "source_priority": 70,
+    "confidence_score": 78,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "Collegedunia reports INR 8 lakh total tuition and INR 11.85 lakh overall B.Tech fee. Only the tuition consensus is normalized. Overall total is not imported because secondary sources conflict."
+  },
+  {
+    "college_id": "iit-gandhinagar",
+    "college_name": "IIT Gandhinagar",
+    "program": "B.Tech",
+    "academic_year": 2026,
+
+    "tuition_fee_per_semester": null,
+    "academic_fee_per_semester": null,
+    "hostel_fee_per_semester": null,
+    "mess_fee_per_semester": null,
+    "first_semester_fee": null,
+    "first_year_fee": null,
+    "annual_academic_fee": null,
+    "annual_total_fee": null,
+    "total_course_fee": null,
+    "one_time_fee": null,
+    "security_deposit": null,
+
+    "source_kind": "careers360",
+    "source_label": "Careers360 IIT Gandhinagar Fees 2026",
+    "source_url": "https://www.careers360.com/university/indian-institute-of-technology-gandhinagar/fees",
+    "source_priority": 65,
+    "confidence_score": 65,
+    "verification_status": "review_recommended",
+    "extraction_method": "manual",
+    "notes": "Careers360 reports INR 8.73 lakh tuition, INR 9.60 lakh total B.Tech fee and INR 3.49 lakh hostel fee over the course. These conflict with other sources, so no normalized numeric fields are imported from this source."
+  }
+]

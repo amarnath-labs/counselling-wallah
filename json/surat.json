@@ -1,0 +1,754 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 1,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This is a standalone response for the 31st and final NIT (SVNIT Surat), completing the full set of standard NITs after six batches. Cumulative total: 30 NITs now processed across the entire project (MANIT Bhopal, NIT Trichy, NIT Warangal, NIT Surathkal, NIT Rourkela, VNIT Nagpur, NIT Calicut, NIT Durgapur, NIT Kurukshetra, MNNIT Allahabad, MNIT Jaipur, NIT Silchar, NIT Agartala, NIT Jamshedpur, NIT Raipur, NIT Patna, NIT Hamirpur, NIT Jalandhar, NIT Srinagar, NIT Delhi, NIT Goa, NIT Puducherry, NIT Uttarakhand, NIT Meghalaya, NIT Manipur, NIT Mizoram, NIT Nagaland, NIT Arunachal Pradesh, NIT Sikkim, NIT Andhra Pradesh, SVNIT Surat)."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Surat",
+        "verified_name": "Sardar Vallabhbhai National Institute of Technology, Surat (SVNIT)",
+        "city": "Surat",
+        "state": "Gujarat",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "One of the original Regional Engineering Colleges, established 1961 as Sardar Vallabhbhai Regional College of Engineering & Technology (SVRCET); granted Deemed University / NIT status on 4 December 2002; declared Institute of National Importance in 2007. Single main campus (~250-265 acres depending on source) on Ichchhanath-Dumas Road, Surat, described across multiple sources as unusually centrally-located within the city compared to many other NITs. Explicitly verified DISTINCT from IIIT Surat — a separate, newer public-private-partnership institute currently operating temporarily from the SVNIT campus while its own facility is under construction, but institutionally independent. Named after Sardar Vallabhbhai Patel, India's first Home Minister."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews page (multiple, including rating-sorted) and placement page retrieved with substantial branch- and batch-specific review content."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page and multiple Q&A pages (via s4 mirror subdomain) retrieved with substantive narrative review and discussion content."},
+        {"platform": "Careers360", "status": "available", "notes": "Reviews page retrieved with substantial narrative content; a specific numeric aggregate rating with review count was not directly confirmed on the reviews page itself, though extensive Q&A content was available."},
+        {"platform": "CollegeDekho", "status": "available", "notes": "Reviews page retrieved with substantive narrative review content, including specific hostel-block naming detail."},
+        {"platform": "GetMyUni", "status": "available", "notes": "Reviews page retrieved with narrative content."},
+        {"platform": "CollegeBatch", "status": "available", "notes": "Campus-life-specific review page retrieved with narrative content."},
+        {"platform": "Quora", "status": "available", "notes": "Multiple distinct threads located, including hostel-specific detail with named hostel buildings (Mother Teresa Bhavan, Gajjar Bhavan, etc.)."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "Targeted search for SVNIT/NIT Surat on Reddit did not surface genuine reddit.com-hosted threads in this session; marked unavailable rather than fabricated."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/sardar-vallabhbhai-national-institute-of-technology-surat-24414/reviews",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 734,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Read 734 Sardar Vallabhbhai National Institute of Technology, Surat Reviews on Placements, Faculty, Facilities & Infrastructure.' No overall star aggregate co-visible in this specific snippet."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/sardar-vallabhbhai-national-institute-of-technology-surat-24414/placement",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "Contains a course-level 'placement rating of this course is 3.8/5' figure (stored in platform_aspect_ratings) but no overall institutional aggregate visible in retrieved snippet."
+        },
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/25509-sardar-vallabhbhai-national-institute-of-technology-svnit-surat",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": null,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "unavailable",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "No overall aggregate rating or review count visible in retrieved snippet; page instead noted NIRF rank 66 (2025) and a separate Collegedunia-internal ranking of 41st for B.Tech."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "Shiksha", "aspect": "value_for_money", "rating": 3.8, "rating_scale": "out of 5", "source_url": "https://www.shiksha.com/college/sardar-vallabhbhai-national-institute-of-technology-surat-24414/placement", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "SVNIT Surat",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/university/sardar-vallabhbhai-national-institute-of-technology-surat/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Civil Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "neutral",
+              "evidence_summary": "'Placements in civil engineering are average because mostly students are applying for masters or a government job, but average placement of department of civil is 7.21 LPA and placement ratio is 47%. Highest package is 13 LPA, this is according to data of 2024-25.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Quality of teaching is considered best for civil engineering. Faculty are very supportive and course curriculum is perfect for civil engineering. Also in SVNIT they provide student exchange program with IIT Bombay, [and] IIT Bombay gives opportunity of masters without GATE exam. SVNIT's practical education is very good for students.'"
+            }
+          ]
+        },
+        {
+          "college_name": "SVNIT Surat",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/university/sardar-vallabhbhai-national-institute-of-technology-surat/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements are good enough, the bar is raising each year. The AI department is just booming even if it is new. And the oldest department of SVNIT, the mechanical department, is also giving fabulous placements.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'New buildings are good but need a better canteen. It is becoming a need now.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The college has a nice green campus with plenty of space, the classrooms are okay but some of [the] equipment is [old/aged]. The library is great and has a lot of books and very good environment; Wi-Fi is very strong and very good; the infrastructure is really valid.'"
+            }
+          ]
+        },
+        {
+          "college_name": "SVNIT Surat",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25509-sardar-vallabhbhai-national-institute-of-technology-svnit-surat/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The placements are decent in the college. At the start of final year, students are eligible for sitting in placements. Almost 90 out of 120 students in our class got placed.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'SVNIT Surat is standing on very vast land of around 250 acres. The most fascinating thing is SVNIT is situated in the posh area of the city Surat.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Generally a class comprises of around 60-70 students coming from different parts of India. Talking about my class, we are the class of 65 students where there are 13 girls and rest are boys. So it is 1:4 gender ratio.'"
+            }
+          ]
+        },
+        {
+          "college_name": "SVNIT Surat",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/25509-sardar-vallabhbhai-national-institute-of-technology-svnit-surat/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements percentage in SVNIT has more for chemical while the packages are high for ECE and CSE. ECE with 50 LPA and CSE with 52 LPA. Civil and mech are not bad but less placement percentage.'"
+            },
+            {
+              "aspect": "academics",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'It's [a] good [college], new branches like AI, VLSI [are being introduced]. Active student clubs, technical events, and seminars that help in overall skill development and industry exposure.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Hostel food quality and mess variety need improvement for better student satisfaction. Administrative work like documentation and approvals can be a bit slow.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Our most of faculties are done with PhD from IIT and NIT. Some of them are from IISc also. They forward their conceptual knowledge very easily, they communicate to students very friendly and are very lenient.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'The only thing I found dislike about is our classroom structure. Classrooms are big with no sound system where some professors speak so slow that we are even not able to listen to them.'"
+            }
+          ]
+        },
+        {
+          "college_name": "SVNIT Surat",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/sardar-vallabhbhai-national-institute-of-technology-surat-24414/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electrical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electrical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2029.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electrical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'At SVNIT college, around 70-80% of students are placed at campus placements. Other students also get placements through off-campus opportunities. The highest package in my branch is 40 LPA, and the average package is 14 LPA, which is much better than other local colleges in Surat.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Connectivity is overall good. The metro is going to start in the upcoming year but the number of trains from Surat to Bihar is still very low, which is a problem during festivals like Chhath Puja.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Overall people are very loving, helpful, and friendly. I just love it.'"
+            }
+          ]
+        },
+        {
+          "college_name": "SVNIT Surat",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/sardar-vallabhbhai-national-institute-of-technology-surat-24414/reviews-9?sort_by=highest+rating",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "SVNIT placements are not much good, but faculty members are good",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "M.Tech",
+          "course": "M.Tech Mechanical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2023, explicitly M.Tech-scoped.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Mechanical Engineering",
+              "scope": "programme",
+              "sentiment": "negative",
+              "evidence_summary": "'About 60% of the students got placed in 2020 from mechanical engineering. The highest salary package offered was 6.5 LPA, which was provided by L&T. The lowest salary package offered was 3.5 LPA in TCS.'"
+            },
+            {
+              "aspect": "internships",
+              "target_branch": "Mechanical Engineering",
+              "scope": "programme",
+              "sentiment": "neutral",
+              "evidence_summary": "'Around 20% of students got internships from our course.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Facilities are quite good in Sardar Vallabhbhai National Institute of Technology. Departments are also good. Our college has good Wi-Fi, labs, library and classroom facilities.'"
+            }
+          ]
+        },
+        {
+          "college_name": "SVNIT Surat",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/sardar-vallabhbhai-national-institute-of-technology-surat-24414/reviews-9?sort_by=highest+rating",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Mechanical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Mechanical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Mechanical Engineering",
+              "scope": "branch",
+              "sentiment": "mixed",
+              "evidence_summary": "'The average placement rate of SVNIT is more than 70% for top branches. Other branches have comparatively low placements. In the mechanical branch, the placement rate is more than 50%. The top recruiting core companies for mechanical engineering students are L&T, MG Motors.'"
+            },
+            {
+              "aspect": "internships",
+              "target_branch": "Mechanical Engineering",
+              "scope": "branch",
+              "sentiment": "negative",
+              "evidence_summary": "'In the mechanical branch, the internship rate is very low. Many have to go for non-core companies and research to get internships. So, students have to go outside and find internships on their own if they want to get placed in core companies.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Hostel facilities are good for 3rd and 4th-year students, as they have a separate hostel which is the 2nd best hostel on the campus, after the girls' hostel. The first-year hostel is average.'"
+            }
+          ]
+        },
+        {
+          "college_name": "SVNIT Surat",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/sardar-vallabhbhai-national-institute-of-technology-svnit-surat/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": "Computer Science and Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Computer Science and Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements for computer science department is excellent, almost 100% placement. Placements for mechanical engineering is also good, many core companies come for placements every year. Even major companies like HPCL and BPCL come and offer very high packages. Average salary: 5 LPA. Highest salary: 25-30 LPA (computer science), 10-15 LPA (other streams).'"
+            }
+          ]
+        },
+        {
+          "college_name": "SVNIT Surat",
+          "source": "GetMyUni",
+          "source_type": "aggregator",
+          "source_url": "https://www.getmyuni.com/college/sardar-vallabhbhai-national-institute-of-technology-svnit-surat/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Students are of all society, it's your way how you get through it, overall no ragging.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The institute has good infrastructure. It has a good inside and outside environment; food is available of all type.'"
+            },
+            {
+              "aspect": "internships",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'I had two internships; one in Cadila Ankleshwar and second in GNFC Bharuch. Our college invites various types of companies so not to worry about different field interest.'"
+            }
+          ]
+        },
+        {
+          "college_name": "SVNIT Surat",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/What-are-the-hostel-amenities-provided-to-students-at-SVNIT-Surat-Are-room-coolers-available-P-S-I-got-admission-in-SVNIT-Surat",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "What are the hostel amenities provided to students at SVNIT Surat? Are room coolers available? P.S- I got admission in SVNIT Surat",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Here in SVNIT we have awesome hostels for both girls and boys (Best in all the NITs, believe me, even they have accepted it). Girls hostel is Mother Teresa Bhavan, a good ventilated 8 floor hostel, single rooms with delicious mess food.'"
+            }
+          ]
+        },
+        {
+          "college_name": "SVNIT Surat",
+          "source": "Collegedunia (Q&A mirror)",
+          "source_type": "discussion",
+          "source_url": "https://s4.collegedunia.com/qna/question/31108-how-are-the-hostels-at-svnit",
+          "source_review_id": "31108",
+          "author_display_name": null,
+          "review_title": "how are the hostels at svnit",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This page aggregates multiple distinct answers; the mess-food complaint and the more positive overall hostel assessment appear to be from different contributors on the same thread.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'According to my friends at SVNIT, hostel food is extremely monotonous. It is mostly comprised of Gujarati dishes, which are not liked by them.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'SVNIT offers decent hostel accommodation. Students are offered single rooms from 2nd year onwards. Mess facilities are good. The food offered is hygienic.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Boys are allowed to stay outside hostel premises till 11pm, but freshers have to wait for around 3 months to acquire such freedom. Hostel rooms have a good LAN connection and Wi-Fi facility. Most of the hostel buildings are newly constructed. The campus is located beside a beautiful lake, and birds like peacocks and parrots are a common sight within the college premises.'"
+            },
+            {
+              "aspect": "administration",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The entire campus, including the hostels, have a zero ragging policy.'"
+            }
+          ]
+        },
+        {
+          "college_name": "SVNIT Surat",
+          "source": "Collegedunia (Q&A mirror)",
+          "source_type": "discussion",
+          "source_url": "https://s4.collegedunia.com/qna/question/31133-what-things-should-i-compulsarily-know-before-joining-svnit-surat",
+          "source_review_id": "31133",
+          "author_display_name": "Amit Sharma",
+          "review_title": "What things should I compulsarily know before joining SVNIT Surat?",
+          "review_date": "2024-01-05",
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Author explicitly identified as having studied at NIT Surat.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'SVNIT has one of the best hostels in India among technical institutes. The hostels for third and final year boys are great, but first and second year hostels are also good.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The professors are decent in some of the departments, and not up to the mark in others. First and second year students are mostly taught by teaching assistants. It is your responsibility to gain knowledge from your teachers.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The college gym facility is excellent. The Badminton, Lawn Tennis and Basketball courts are decent. There is a huge Cricket cum Football ground on campus, but it is not maintained properly by the college administration.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'SVNIT is one of the few NITs with a campus in the city center. Malls, shops, and movie theaters are all located within a 2 km radius.'"
+            }
+          ]
+        },
+        {
+          "college_name": "SVNIT Surat",
+          "source": "Careers360",
+          "source_type": "discussion",
+          "source_url": "https://www.careers360.com/question-how-is-the-electrical-branch-in-svnit-surat/amp",
+          "source_review_id": null,
+          "author_display_name": "NAVEEN MEENA",
+          "review_title": "How is the electrical branch in svnit surat",
+          "review_date": "2019-12-08",
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electrical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electrical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electrical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Almost 70% of students were placed in electrical branch with an average salary package offered was around 5.9 LPA and maximum salary package offered was around 12-19 LPA. Only 2-3 core companies visit every year and offer up to 10 LPA, which is a decent placement scenario as in India but not matching with top IITs.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Infrastructure including hostels and the library is very good, but the classroom complex, labs, sports complex, student activity centre are not up to the mark. The ground needs a lot of maintenance throughout the year, and courts in particular hostels should be improved.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": "Electrical Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Teachers are really good for electrical branch except some, as there are always some exceptions.'"
+            }
+          ]
+        },
+        {
+          "college_name": "SVNIT Surat",
+          "source": "Careers360",
+          "source_type": "discussion",
+          "source_url": "https://www.careers360.com/question-nit-surat-is-good-for-integrated-msc-in-physics",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "nit surat is good for integrated MSc in physics",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "Integrated M.Sc",
+          "course": "Integrated M.Sc Physics",
+          "course_verified": true,
+          "department": null,
+          "branch": "Physics",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Explicitly Integrated M.Sc-scoped, distinct from B.Tech evidence.",
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Physics",
+              "scope": "programme",
+              "sentiment": "negative",
+              "evidence_summary": "'SVNIT Surat is not good in MSc in Physics placement, around 10-20% of the students get placed in this department with average package of 12-13 LPA.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The infrastructure is absolutely good. The labs and classrooms are well-equipped with smart teaching aids. Hostel has a very high-speed Wi-Fi internet.'"
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 14,
+        "independent_sources": 6,
+        "reviews_with_dates": 2,
+        "reviews_last_24_months": 0,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 14
+      },
+
+      "limitations": [
+        "Reddit: targeted search for SVNIT/NIT Surat on Reddit did not surface genuine reddit.com-hosted threads in this session, despite a dedicated search attempt; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "A specific numeric aggregate rating (X.X/5 with review count) for this institution's overall student sentiment was not conclusively isolated in this session's Careers360 and Collegedunia searches, unlike most other colleges in this dataset; only a Shiksha review_count (734) and a course-level value-for-money sub-rating (3.8/5) were confirmed.",
+        "Placement sentiment shows genuine branch-level variation across sources: CSE and ECE are consistently described as strong (packages in the 50+ LPA range for top offers), while Mechanical, Civil, and Physics/M.Sc show more modest and sometimes explicitly negative outcomes — this variation is preserved at the branch level rather than averaged.",
+        "One Collegedunia Q&A page aggregates multiple distinct contributor answers on hostel food quality with directly conflicting sentiment (one describing food as 'monotonous,' another as 'good' and 'hygienic') — both preserved independently as genuine variation rather than reconciled.",
+        "Only two reviews in this extraction batch carried explicit visible dates (2019, 2024); neither falls within the last 24 months from the current date.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~730+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+// Optional integration helper.
+// Add this import in profileCombinationScorer.js:
+//
+// import {
+//   buildQuestionProfileMap,
+// } from './questionProfileMapper.js';
+//
+// Then near the beginning of profileCombinationScore(question, profile):
+//
+// const inferred =
+//   buildQuestionProfileMap(
+//     question
+//   );
+//
+// const enrichedQuestion = {
+//   ...question,
+//   streams:
+//     inferred.streams,
+//   subjects:
+//     inferred.subjects,
+//   entranceExams:
+//     inferred.entranceExams,
+//   targetCourses:
+//     inferred.targetCourses,
+//   interestClusters:
+//     inferred.interestClusters,
+//   careerFamilies:
+//     inferred.careerFamilies,
+//   skills:
+//     inferred.skills,
+//   degrees:
+//     inferred.degrees,
+//   branches:
+//     inferred.branches,
+// };
+//
+// Use enrichedQuestion instead of question for the existing metadata matching logic.
+//
+// This allows all 3500 questions to participate in combination-aware ranking
+// even when their original DB metadata is sparse.

@@ -1,0 +1,649 @@
+{
+  "batch_metadata": {
+    "extraction_date": null,
+    "colleges_requested": 5,
+    "colleges_completed": 1,
+    "incomplete_colleges": [],
+    "note": "This response contains college 5 of 5 in the fifth batch (NIT Mizoram). This completes the fifth batch of 5 NITs (NIT Puducherry, NIT Uttarakhand, NIT Meghalaya, NIT Manipur, NIT Mizoram), bringing the cumulative total to 25 of 31 standard NITs processed across five batches."
+  },
+  "colleges": [
+    {
+      "college_identity": {
+        "input_name": "NIT Mizoram",
+        "verified_name": "National Institute of Technology Mizoram (NITMZ)",
+        "city": "Aizawl (Chaltlang/Tanhril/Durtlang, temporary campus)",
+        "state": "Mizoram",
+        "country": "India",
+        "identity_verified": true,
+        "identity_notes": "One of ten new NITs established 2010. Classes initially began at VNIT Nagpur before shifting to Aizawl in 2011. Currently operates from a temporary, rented, multi-block campus (academic blocks and 4 hostel blocks spread across separate locations — three hostel blocks at Tanhril, one at Durtlang — requiring significant travel between blocks). A permanent campus (~190-191 acres) near Lengpui Airport has been under construction since a 2012 foundation-stone laying, with reviews consistently describing it as still 2-3+ years from completion. Explicitly verified DISTINCT from Mizoram University (a separate central university) and other unrelated Aizawl institutions (RIPANS, ICFAI University Mizoram, College of Teachers Education) that appeared in adjacent search results."
+      },
+
+      "source_availability": [
+        {"platform": "Shiksha", "status": "available", "notes": "Reviews page, faculty page, course-specific page, and main overview page (with Q&A content) retrieved with substantial branch- and batch-specific review content."},
+        {"platform": "Collegedunia", "status": "available", "notes": "Reviews page and hostel-specific page retrieved with substantive narrative review content."},
+        {"platform": "Careers360", "status": "available", "notes": "Aggregate rating confirmed via an Aizawl-city Thermal Engineering listing page (small sample size); reviews page and facilities page also retrieved."},
+        {"platform": "Zollege", "status": "available", "notes": "Reviews page and placement-specific page retrieved with substantive narrative review content."},
+        {"platform": "Quora", "status": "available", "notes": "At least one distinct thread located on hostel conditions during the temporary-campus period."},
+        {"platform": "Reddit", "status": "unavailable", "notes": "Targeted search for NIT Mizoram/NITMZ on Reddit did not surface genuine reddit.com-hosted threads in this session; marked unavailable rather than fabricated."},
+        {"platform": "Google Reviews", "status": "unavailable", "notes": "No Maps/Places tool available this session; no verifiable live aggregate located via web search."}
+      ],
+
+      "platform_aggregate_observations": [
+        {
+          "platform": "Collegedunia",
+          "source_url": "https://collegedunia.com/university/28298-national-institute-of-technology-nit-aizawl/reviews",
+          "aggregate_rating": 3.4,
+          "rating_scale": "out of 5",
+          "review_count": 51,
+          "verified_review_count": 51,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'3.4 · (51 Verified Reviews).' Star distribution: 5-star 21%, 4-star 48%, 3-star 26%, 2-star 5%, 1-star 0%. Sub-ratings: Academic 3.7, Faculty 3.6, Infrastructure 3.0, Accommodation 3.1, Social Life 3.3, Placement 3.8."
+        },
+        {
+          "platform": "Shiksha",
+          "source_url": "https://www.shiksha.com/college/nit-mizoram-national-institute-of-technology-aizawl-39180/compare",
+          "aggregate_rating": 3.6,
+          "rating_scale": "out of 5",
+          "review_count": 92,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'Aizawl | 3.6(92 Reviews) | 115 Student Q&A.'"
+        },
+        {
+          "platform": "Careers360",
+          "source_url": "https://engineering.careers360.com/colleges/list-of-thermal-engineering-colleges-in-aizawl",
+          "aggregate_rating": 3.8,
+          "rating_scale": "out of 5",
+          "review_count": 6,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "observed_at": null,
+          "evidence_strength": "snippet",
+          "notes": "'NIT Mizoram - National Institute of Technology Mizoram ... Rating: 3.8/5, 6 Reviews.' EXTREMELY SMALL SAMPLE SIZE explicitly noted — very low confidence given only 6 underlying reviews."
+        },
+        {
+          "platform": "CollegeDekho",
+          "source_url": "https://www.collegedekho.com/colleges/nit-mizoram-campus",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 3,
+          "verified_review_count": 3,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "'(3 Verified Reviews).' No overall star aggregate co-visible in this specific snippet. EXTREMELY SMALL SAMPLE SIZE."
+        },
+        {
+          "platform": "CollegeBatch",
+          "source_url": "https://www.collegebatch.com/607-national-institute-of-technology-hostel-fees-facilities-aizawl",
+          "aggregate_rating": null,
+          "rating_scale": null,
+          "review_count": 2,
+          "verified_review_count": null,
+          "observed_values": [],
+          "observation_status": "confirmed",
+          "evidence_strength": "snippet",
+          "observed_at": null,
+          "notes": "'2 Reviews.' No aggregate rating visible in retrieved snippet. EXTREMELY SMALL SAMPLE SIZE."
+        }
+      ],
+
+      "platform_aspect_ratings": [
+        {"platform": "Collegedunia", "aspect": "academics", "rating": 3.7, "rating_scale": "out of 5", "source_url": "https://collegedunia.com/university/28298-national-institute-of-technology-nit-aizawl/reviews", "observed_at": null},
+        {"platform": "Collegedunia", "aspect": "faculty", "rating": 3.6, "rating_scale": "out of 5", "source_url": "https://collegedunia.com/university/28298-national-institute-of-technology-nit-aizawl/reviews", "observed_at": null},
+        {"platform": "Collegedunia", "aspect": "infrastructure", "rating": 3.0, "rating_scale": "out of 5", "source_url": "https://collegedunia.com/university/28298-national-institute-of-technology-nit-aizawl/reviews", "observed_at": null},
+        {"platform": "Collegedunia", "aspect": "hostel", "rating": 3.1, "rating_scale": "out of 5", "source_url": "https://collegedunia.com/university/28298-national-institute-of-technology-nit-aizawl/reviews", "observed_at": null},
+        {"platform": "Collegedunia", "aspect": "campus_life", "rating": 3.3, "rating_scale": "out of 5", "source_url": "https://collegedunia.com/university/28298-national-institute-of-technology-nit-aizawl/reviews", "observed_at": null},
+        {"platform": "Collegedunia", "aspect": "placements", "rating": 3.8, "rating_scale": "out of 5", "source_url": "https://collegedunia.com/university/28298-national-institute-of-technology-nit-aizawl/reviews", "observed_at": null}
+      ],
+
+      "review_items": [
+        {
+          "college_name": "NIT Mizoram",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/28298-national-institute-of-technology-nit-aizawl/reviews",
+          "source_review_id": null,
+          "author_display_name": "Mudavath pooja",
+          "review_title": null,
+          "review_date": "2025-04-08",
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Civil Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": 4.3,
+          "rating_scale": "out of 5",
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Enrolled 2022.",
+          "aspect_evidence": [
+            {
+              "aspect": "faculty",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculty are highly qualified and help to gain more practical knowledge. They are very friendly so doubts clearly become more easy. Good quality equipment in laboratory and good library with wide variety of books.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Mizoram",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-mizoram-national-institute-of-technology-aizawl-39180/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Placement of NIT Mizoram is good. 80 to 90% of students are placed. The average package is 8 LPA, and many companies are visiting the campus like Wipro, TCS, Infosys, etc.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Mizoram",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-mizoram-national-institute-of-technology-aizawl-39180/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Last year, almost 83% of students in my branch (S3 batch) were placed by several companies. According to me, it's a decent and good placement rate.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'The hostel infrastructure in NIT Mizoram is decent — not too bad, not too good. It is okay, but the Wi-Fi is slow, and the labs are good. However, the classrooms need work. The hostel facility is not good because sometimes we face a shortage of water.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'When I talk about faculty, they are good, but in our branch, they are too strict. They give us too many assignments and check them strictly, which is why I am saying they are strict. However, some faculty members help us learn construction topics easily.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Mizoram",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-mizoram-national-institute-of-technology-aizawl-39180/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How life goes in NIT Mizoram",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Last year, more than 90 percent of students were placed. Right now, the highest package is 21 LPA, the lowest is 4 LPA, and the average package is 9 LPA.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Mizoram",
+          "source": "Shiksha",
+          "source_type": "rating_platform",
+          "source_url": "https://www.shiksha.com/college/nit-mizoram-national-institute-of-technology-aizawl-39180/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electrical Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electrical Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "Batch of 2029. This item explicitly documents the distinctive multi-block, non-permanent hostel arrangement.",
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Electricity is almost 24/7. Wi-Fi speed is decent, but one may face problems with it on particular floors.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Hostels are divided into 4 parts. Hostel 3 is for all first-year boys, while hostels 1 and 2 are combined for the rest of the year boys. There are only 2 girls' hostels.'"
+            },
+            {
+              "aspect": "faculty",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Faculty members are supportive. Students' skill development often gets prioritized over other work. You can literally grab knowledge from professors in classes, they don't hesitate to tell even the basics to students.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Not much of a crowd. Students actively participate in extracurricular activities. Events are fun, and all students are given equal opportunities.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Mizoram",
+          "source": "Collegedunia",
+          "source_type": "rating_platform",
+          "source_url": "https://collegedunia.com/university/28298-national-institute-of-technology-nit-aizawl/hostel",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'We pay the hostel and mess fees every sem; it's total about 40000. I think the hostel and mess fees is very high and the quality of the food they provide is not good at all.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "neutral",
+              "evidence_summary": "'Hostel availability is good. Every student gets [a] hostel in NIT MZ from 1st year. In hostel there are 3 students in one room. Size of room is big so that three people can easily fit in one room. And mess food is average, not good, also not bad.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'College is located a good distance from hostel so students have to do daily travel which is very scary in this type of route[s]. And blocks are also located a long distance.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Mizoram",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/university/national-institute-of-technology-mizoram/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "extraction_note": "This item quantifies the specific hostel-to-campus distance issue with concrete figures — one of the most specific accounts of this recurring theme found in this dataset.",
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Since it doesn't have [a] permanent campus, all the blocks are placed at least 1 km far. No playground is there. Girls' hostel is 12 km away from college and boys' hostel is 7 km away. All year girls stay in [the] same hostel but boys have separate hostels for [a] particular year.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Mizoram is [a] safe place, people here are very nature-friendly.'"
+            },
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Overall it is average. Construction for permanent campus is going on. Maybe 2-3 years it will take. Mess is about 1 km away from ECE block, and if you have combined class with other branch then you have to walk 1 km to [the] other block. Many problems are there but if you will live here for [a] long time you will love it and explore mountains and hills.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Mizoram",
+          "source": "Careers360",
+          "source_type": "rating_platform",
+          "source_url": "https://www.careers360.com/university/national-institute-of-technology-mizoram/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'The Institute has hostels, proper mess, sports facilities, classrooms which can accommodate more than 70 students with proper seats. The hostel and mess are clean and hygienic.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Mizoram",
+          "source": "Zollege",
+          "source_type": "aggregator",
+          "source_url": "https://zollege.in/university/187619-national-institute-of-technology-nit-aizawl/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Electronics and Communication Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Electronics and Communication Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Electronics and Communication Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placement is decent only for ECE, EE, and CSE branch; they got a median of 9.5 LPA and also this year one of our senior got 21 LPA package from ECE department. One senior from 3rd year got 44 LPA PPO from Microsoft.'"
+            },
+            {
+              "aspect": "location",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'I chose this college because of its location as it is located in a hilly area in Mizoram Aizawl so [the] scenario is breathtaking.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Mizoram",
+          "source": "Zollege",
+          "source_type": "aggregator",
+          "source_url": "https://zollege.in/university/187619-national-institute-of-technology-nit-aizawl/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "B.Tech",
+          "course": "B.Tech Civil Engineering",
+          "course_verified": true,
+          "department": null,
+          "branch": "Civil Engineering",
+          "branch_verified": true,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": "Civil Engineering",
+              "scope": "branch",
+              "sentiment": "positive",
+              "evidence_summary": "'Placement offers are good: 100 percent placement offers in my civil engineering and about 84 percent in CSE and 90 percent in ECE and other branches have about 60 to 80 percent of placement.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Mizoram",
+          "source": "Zollege",
+          "source_type": "aggregator",
+          "source_url": "https://zollege.in/university/187619-national-institute-of-technology-nit-aizawl/reviews",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "infrastructure",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "negative",
+              "evidence_summary": "'Facilities are best. Campus and infrastructure is not good.'"
+            },
+            {
+              "aspect": "campus_life",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Campus life is not that bad; we are in Aizawl, one of [the] beautiful cit[ies] in India; we wander everywhere.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Mizoram",
+          "source": "Zollege",
+          "source_type": "aggregator",
+          "source_url": "https://zollege.in/university/187619-national-institute-of-technology-nit-aizawl/placement",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": null,
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "actual_student_review",
+          "content_access": "snippet_only",
+          "evidence_strength": "snippet",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "placements",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "positive",
+              "evidence_summary": "'Placements are good for students because [the] number of students is less so every student faces less competition in placements. There are good companies to visit like Vedanta, JSW, Adani and many more. There is an internship opportunity that is also good in this college because many students just focus on core [placements]; placement in the core is good in comparison to non-core.'"
+            },
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Hostels are in good condition and [the] view through [the] window is very nice. Travelling, food, campus — these are very bad in NIT Mizoram. Hostel mess is not good, limited variety is given by the mess.'"
+            }
+          ]
+        },
+        {
+          "college_name": "NIT Mizoram",
+          "source": "Quora",
+          "source_type": "discussion",
+          "source_url": "https://www.quora.com/How-is-the-inside-view-of-the-NIT-Mizoram-hostel",
+          "source_review_id": null,
+          "author_display_name": null,
+          "review_title": "How is the inside view of the NIT Mizoram hostel?",
+          "review_date": null,
+          "observed_at": null,
+          "content_type": "qa_answer",
+          "content_access": "full",
+          "evidence_strength": "full_review",
+          "programme_level": "unknown",
+          "course": null,
+          "course_verified": false,
+          "department": null,
+          "branch": null,
+          "branch_verified": false,
+          "rating": null,
+          "rating_scale": null,
+          "duplicate_status": "unknown",
+          "duplicate_of": null,
+          "aspect_evidence": [
+            {
+              "aspect": "hostel",
+              "target_branch": null,
+              "scope": "college",
+              "sentiment": "mixed",
+              "evidence_summary": "'Since NIT Mizoram is running under [a] temporary campus, hostel from inside isn't well enough. Walls and ceilings are only cemented not painted but worth living. Every bed hasn't [a] plug-in, you have to use [an] extension. But Wi-Fi is there, what else we need more. But outside... [the] mountain vie[w is nice]' (sentence truncated in retrieved snippet)."
+            }
+          ]
+        }
+      ],
+
+      "evidence_stats": {
+        "items_analyzed": 13,
+        "independent_sources": 5,
+        "reviews_with_dates": 1,
+        "reviews_last_24_months": 1,
+        "confirmed_duplicates": 0,
+        "probable_duplicates": 0,
+        "unknown_duplicate_status": 12
+      },
+
+      "limitations": [
+        "Reddit: targeted search for NIT Mizoram/NITMZ on Reddit did not surface genuine reddit.com-hosted threads in this session, despite a dedicated search attempt; marked unavailable, no items fabricated.",
+        "Google Reviews/Maps: no tool access and no verifiable live aggregate found via search; marked unavailable, no items fabricated.",
+        "A recurring, well-corroborated theme across at least four independent sources (Shiksha, Collegedunia, Careers360, Zollege) is the significant logistical burden of the institution's temporary, multi-block campus arrangement — hostels located several kilometers from academic blocks (specifically: girls' hostel 12km, boys' hostel 7km from college per one detailed account), requiring substantial daily travel.",
+        "Several platform aggregates for this institution are based on very small sample sizes (Careers360: 6 reviews, CollegeDekho: 3 reviews, CollegeBatch: 2 reviews) — all explicitly flagged for low confidence given the tiny underlying samples.",
+        "Only one review in this extraction batch carried an explicit visible date (April 2025, within the last 24 months from the current date); reviews_with_dates and reviews_last_24_months both reflect this single dated item.",
+        "observed_at is null throughout because no real retrieval-timestamp capture mechanism was available this session; per instruction, no placeholder timestamps were invented.",
+        "This extraction reflects only the specific pages/snippets retrieved in this session, not an exhaustive crawl of all ~90+ reviews reported on Shiksha for this institution.",
+        "No numerical sentiment score, aspect score, overall score, or confidence label appears anywhere in this output, per instruction."
+      ]
+    }
+  ]
+}

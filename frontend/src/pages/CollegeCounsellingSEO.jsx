@@ -138,6 +138,10 @@ export default function CollegeCounsellingSEO() {
           <Link to="/uptac-college-predictor">
             UPTAC College Predictor 2026
           </Link>
+
+          <Link to="/uptac-cutoff-2025">
+            UPTAC Cutoff 2025
+          </Link>
         </div>
       </section>
     </main>

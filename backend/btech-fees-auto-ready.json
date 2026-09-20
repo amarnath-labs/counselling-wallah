@@ -1,0 +1,171 @@
+[
+  {
+    "college_id": "national-institute-of-technology-rourkela",
+    "name": "National Institute of Technology, Rourkela",
+    "source_url": "https://www.nitrkl.ac.in/docs/Announcement/14072026180430277.pdf",
+    "source_type": "pdf",
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "confidence_score": 90,
+    "status": "auto_ready",
+    "features": {
+      "btech": true,
+      "scope": "all_btech_branches_candidate",
+      "tuition": true,
+      "admission": true,
+      "hostel": true,
+      "mess": true,
+      "total": true,
+      "caution": true,
+      "annual": false,
+      "semester": true,
+      "category": true,
+      "incomeRule": true,
+      "exemption": true,
+      "foreign": true,
+      "amounts": 18,
+      "signals": 49,
+      "semesters": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "tuitionCandidates": [
+        0,
+        8,
+        9,
+        2000,
+        7500,
+        20833,
+        62500
+      ]
+    },
+    "extracted": {
+      "admission_fee": 2500,
+      "hostel_fee_candidate": 5000,
+      "mess_fee_candidate": 30000,
+      "caution_deposit": 10000
+    },
+    "reasons": [
+      "tuition_detected",
+      "hostel_detected",
+      "mess_detected",
+      "total_detected",
+      "semesters:2,4,6,8,10",
+      "income_rule_detected",
+      "waiver_or_exemption_detected",
+      "foreign_fee_structure_also_present"
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-sikkim",
+    "name": "National Institute of Technology Sikkim",
+    "source_url": "https://nitsikkim.ac.in/documents/Fee%20Structure/2025_jan/B.Tech%20Fee%20structure%20for%202025-26.pdf",
+    "source_type": "pdf",
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "confidence_score": 75,
+    "status": "auto_ready",
+    "features": {
+      "btech": true,
+      "scope": "all_btech_branches_candidate",
+      "tuition": true,
+      "admission": true,
+      "hostel": true,
+      "mess": false,
+      "total": false,
+      "caution": false,
+      "annual": true,
+      "semester": true,
+      "category": true,
+      "incomeRule": true,
+      "exemption": true,
+      "foreign": false,
+      "amounts": 18,
+      "signals": 12,
+      "semesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "tuitionCandidates": [
+        2
+      ]
+    },
+    "extracted": {
+      "admission_fee": null,
+      "hostel_fee_candidate": 0,
+      "mess_fee_candidate": null,
+      "caution_deposit": null
+    },
+    "reasons": [
+      "tuition_detected",
+      "hostel_detected",
+      "semesters:1,2,3,4,5,6,7,8",
+      "income_rule_detected",
+      "waiver_or_exemption_detected"
+    ],
+    "verification_status": "pending_review"
+  },
+  {
+    "college_id": "national-institute-of-technology-mizoram",
+    "name": "National Institute of Technology, Mizoram",
+    "source_url": "https://nitmz.ac.in/wp-content/uploads/2025/02/NEW_FEE_STRUCTURE_FOR_BTECH.pdf",
+    "source_type": "pdf",
+    "fee_scope_candidate": "all_btech_branches_candidate",
+    "confidence_score": 70,
+    "status": "auto_ready",
+    "features": {
+      "btech": true,
+      "scope": "all_btech_branches_candidate",
+      "tuition": true,
+      "admission": false,
+      "hostel": false,
+      "mess": false,
+      "total": true,
+      "caution": false,
+      "annual": true,
+      "semester": true,
+      "category": true,
+      "incomeRule": true,
+      "exemption": false,
+      "foreign": false,
+      "amounts": 23,
+      "signals": 20,
+      "semesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "tuitionCandidates": [
+        0,
+        20833,
+        62500
+      ]
+    },
+    "extracted": {
+      "admission_fee": null,
+      "hostel_fee_candidate": null,
+      "mess_fee_candidate": null,
+      "caution_deposit": null
+    },
+    "reasons": [
+      "tuition_detected",
+      "total_detected",
+      "semesters:1,2,3,4,5,6,7,8",
+      "income_rule_detected"
+    ],
+    "verification_status": "pending_review"
+  }
+]

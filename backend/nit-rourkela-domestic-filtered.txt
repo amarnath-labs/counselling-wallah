@@ -1,0 +1,450 @@
+﻿
+  nit-rourkela-fee-signals.txt:2:NIT ROURKELA FEE SIGNALS
+  nit-rourkela-fee-signals.txt:3:=======================================
+  nit-rourkela-fee-signals.txt:4:
+> nit-rourkela-fee-signals.txt:5:COLLEGE: National Institute of Technology, Rourkela
+  nit-rourkela-fee-signals.txt:6:SOURCE: 
+https://www.nitrkl.ac.in/docs/Announcement/14072026180430277.pdf
+> nit-rourkela-fee-signals.txt:7:SCOPE: all_btech_branches_candidate
+  nit-rourkela-fee-signals.txt:8:SIGNALS: 49
+  nit-rourkela-fee-signals.txt:9:
+  nit-rourkela-fee-signals.txt:10:===== SIGNAL 1 =====
+> nit-rourkela-fee-signals.txt:11:LINE: 1 Admission fee(one time) 2500 0
+> nit-rourkela-fee-signals.txt:12:CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in 
+Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 
+5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat 
+Rent 5000 5000
+> nit-rourkela-fee-signals.txt:13:AMOUNTS: 2500, 62500, 5000
+  nit-rourkela-fee-signals.txt:14:
+  nit-rourkela-fee-signals.txt:15:===== SIGNAL 2 =====
+> nit-rourkela-fee-signals.txt:16:LINE: 2 Tuition fee* 62500 62500
+> nit-rourkela-fee-signals.txt:17:CONTEXT: 2nd semester | (Amount in Rs.) | 1 
+Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 
+| 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 
+5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0
+> nit-rourkela-fee-signals.txt:18:AMOUNTS: 2500, 62500, 5000, 10000
+  nit-rourkela-fee-signals.txt:19:
+  nit-rourkela-fee-signals.txt:20:===== SIGNAL 3 =====
+> nit-rourkela-fee-signals.txt:21:LINE: 1 Tuition fee* 62500 62500
+> nit-rourkela-fee-signals.txt:22:CONTEXT: (Amount in Rs.) | 4th semester | (Amount in 
+Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment fee 5000 5000
+> nit-rourkela-fee-signals.txt:23:AMOUNTS: 62500, 5000
+  nit-rourkela-fee-signals.txt:24:
+  nit-rourkela-fee-signals.txt:25:===== SIGNAL 4 =====
+> nit-rourkela-fee-signals.txt:26:LINE: 1 Tuition fee* 62500 62500
+> nit-rourkela-fee-signals.txt:27:CONTEXT: (Amount in Rs.) | 6th semester | (Amount in 
+Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment fee 5000 5000
+> nit-rourkela-fee-signals.txt:28:AMOUNTS: 62500, 5000
+  nit-rourkela-fee-signals.txt:29:
+  nit-rourkela-fee-signals.txt:30:===== SIGNAL 5 =====
+> nit-rourkela-fee-signals.txt:31:LINE: 1 Tuition fee* 62500 62500
+> nit-rourkela-fee-signals.txt:32:CONTEXT: (Amount in Rs.) | 8th semester | (Amount in 
+Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 
+5000
+> nit-rourkela-fee-signals.txt:33:AMOUNTS: 62500, 5000
+  nit-rourkela-fee-signals.txt:34:
+  nit-rourkela-fee-signals.txt:35:===== SIGNAL 6 =====
+> nit-rourkela-fee-signals.txt:36:LINE: *For, SC/ST/PH/Family income<1lakh (Tuition 
+fee completely exempted).
+> nit-rourkela-fee-signals.txt:37:CONTEXT: 8 Mess Advance*** 30000 30000 | 9 
+Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh 
+(Tuition fee completely exempted). | *For, student’s having family income between 
+1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. | Rs. 20,833). 
+| **Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount 
+mentioned against mess advance is an approximate amount. | Sd/-
+> nit-rourkela-fee-signals.txt:38:AMOUNTS: 30000, 2500, 114500, 111500, 20833
+  nit-rourkela-fee-signals.txt:39:
+  nit-rourkela-fee-signals.txt:40:===== SIGNAL 7 =====
+> nit-rourkela-fee-signals.txt:41:LINE: *For, student’s having family income between 
+1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e.
+> nit-rourkela-fee-signals.txt:42:CONTEXT: 9 Convocation Fee 2500 0 | Total : 114,500 
+111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | 
+*For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is 
+one third of Tuition fees i.e. | Rs. 20,833). | **Other fees include Examination fee, 
+Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an 
+approximate amount. | Sd/- | Asst. Registrar (Academic)
+> nit-rourkela-fee-signals.txt:43:AMOUNTS: 2500, 114500, 111500, 20833
+  nit-rourkela-fee-signals.txt:44:
+  nit-rourkela-fee-signals.txt:45:===== SIGNAL 8 =====
+> nit-rourkela-fee-signals.txt:46:LINE: 1 Admission fee(one time) 2500 0
+> nit-rourkela-fee-signals.txt:47:CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in 
+Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 
+5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat 
+Rent 5000 5000
+> nit-rourkela-fee-signals.txt:48:AMOUNTS: 2500, 62500, 5000
+  nit-rourkela-fee-signals.txt:49:
+  nit-rourkela-fee-signals.txt:50:===== SIGNAL 9 =====
+> nit-rourkela-fee-signals.txt:51:LINE: 2 Tuition fee* 62500 62500
+> nit-rourkela-fee-signals.txt:52:CONTEXT: 2nd semester | (Amount in Rs.) | 1 
+Admission fee(one time) 2500 0 | 2 Tuition fee* 62500 62500 | 3 Other fees** 5000 5000 
+| 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 
+5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0
+> nit-rourkela-fee-signals.txt:53:AMOUNTS: 2500, 62500, 5000, 10000
+  nit-rourkela-fee-signals.txt:54:
+  nit-rourkela-fee-signals.txt:55:===== SIGNAL 10 =====
+> nit-rourkela-fee-signals.txt:56:LINE: 1 Tuition fee* 62500 62500
+> nit-rourkela-fee-signals.txt:57:CONTEXT: (Amount in Rs.) | 4th semester | (Amount in 
+Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment fee 5000 5000
+> nit-rourkela-fee-signals.txt:58:AMOUNTS: 62500, 5000
+  nit-rourkela-fee-signals.txt:59:
+  nit-rourkela-fee-signals.txt:60:===== SIGNAL 11 =====
+> nit-rourkela-fee-signals.txt:61:LINE: 1 Tuition fee* 62500 62500
+> nit-rourkela-fee-signals.txt:62:CONTEXT: (Amount in Rs.) | 6th semester | (Amount in 
+Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment fee 5000 5000
+> nit-rourkela-fee-signals.txt:63:AMOUNTS: 62500, 5000
+  nit-rourkela-fee-signals.txt:64:
+  nit-rourkela-fee-signals.txt:65:===== SIGNAL 12 =====
+> nit-rourkela-fee-signals.txt:66:LINE: 1 Tuition fee* 62500 62500
+> nit-rourkela-fee-signals.txt:67:CONTEXT: (Amount in Rs.) | 8th semester | (Amount in 
+Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment fee 5000 5000
+> nit-rourkela-fee-signals.txt:68:AMOUNTS: 62500, 5000
+  nit-rourkela-fee-signals.txt:69:
+  nit-rourkela-fee-signals.txt:70:===== SIGNAL 13 =====
+> nit-rourkela-fee-signals.txt:71:LINE: 1 Tuition fee* 62500 62500
+> nit-rourkela-fee-signals.txt:72:CONTEXT: (Amount in Rs.) | 10th semester | (Amount 
+in Rs.) | 1 Tuition fee* 62500 62500 | 2 Other fees ** 5000 5000 | 3 Student Activity 
+fee 2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 
+5000 5000
+> nit-rourkela-fee-signals.txt:73:AMOUNTS: 62500, 5000
+  nit-rourkela-fee-signals.txt:74:
+  nit-rourkela-fee-signals.txt:75:===== SIGNAL 14 =====
+> nit-rourkela-fee-signals.txt:76:LINE: *For, SC/ST/PH/Family income<1lakh (Tuition 
+fee completely exempted).
+> nit-rourkela-fee-signals.txt:77:CONTEXT: 8 Mess Advance*** 30000 30000 | 9 
+Convocation Fee 2500 0 | Total : 114,500 111,500 | *For, SC/ST/PH/Family income<1lakh 
+(Tuition fee completely exempted). | *For, student’s having family income between 
+1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. Rs. 20,833). | 
+**Other fees include Examination fee, Library fee, Electricity fee etc. | ***Amount 
+mentioned against mess advance is an approximate amount. | Sd/- | Asst. Registrar 
+(Academic)
+> nit-rourkela-fee-signals.txt:78:AMOUNTS: 30000, 2500, 114500, 111500, 20833
+  nit-rourkela-fee-signals.txt:79:
+  nit-rourkela-fee-signals.txt:80:===== SIGNAL 15 =====
+> nit-rourkela-fee-signals.txt:81:LINE: *For, student’s having family income between 
+1lakh to 5lakh per annum (Tuition fee is one third of Tuition fees i.e. Rs. 20,833).
+> nit-rourkela-fee-signals.txt:82:CONTEXT: 9 Convocation Fee 2500 0 | Total : 114,500 
+111,500 | *For, SC/ST/PH/Family income<1lakh (Tuition fee completely exempted). | 
+*For, student’s having family income between 1lakh to 5lakh per annum (Tuition fee is 
+one third of Tuition fees i.e. Rs. 20,833). | **Other fees include Examination fee, 
+Library fee, Electricity fee etc. | ***Amount mentioned against mess advance is an 
+approximate amount. | Sd/- | Asst. Registrar (Academic) | -- 2 of 8 --
+> nit-rourkela-fee-signals.txt:83:AMOUNTS: 2500, 114500, 111500, 20833
+  nit-rourkela-fee-signals.txt:84:
+  nit-rourkela-fee-signals.txt:85:===== SIGNAL 16 =====
+> nit-rourkela-fee-signals.txt:86:LINE: 1 Admission fee(one time) 2500 0
+> nit-rourkela-fee-signals.txt:87:CONTEXT: (Amount in Rs.) | 2nd semester | (Amount in 
+Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees* 5000 
+5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat 
+Rent 5000 5000
+> nit-rourkela-fee-signals.txt:88:AMOUNTS: 2500, 7500, 5000
+  nit-rourkela-fee-signals.txt:89:
+  nit-rourkela-fee-signals.txt:90:===== SIGNAL 17 =====
+> nit-rourkela-fee-signals.txt:91:LINE: 2 Tuition fee 7500 7500
+> nit-rourkela-fee-signals.txt:92:CONTEXT: 2nd semester | (Amount in Rs.) | 1 
+Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees* 5000 5000 | 4 
+Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 
+5000 | 7 Caution money(one time Refundable) 10000 0
+> nit-rourkela-fee-signals.txt:93:AMOUNTS: 2500, 7500, 5000, 10000
+  nit-rourkela-fee-signals.txt:94:
+  nit-rourkela-fee-signals.txt:95:===== SIGNAL 18 =====
+> nit-rourkela-fee-signals.txt:96:LINE: 1 Tuition fee 7500 7500
+> nit-rourkela-fee-signals.txt:97:CONTEXT: (Amount in Rs.) | 4th semester | (Amount in 
+Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 2000 
+2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall Establishment 
+Fee 5000 5000
+> nit-rourkela-fee-signals.txt:98:AMOUNTS: 7500, 5000
+  nit-rourkela-fee-signals.txt:99:
+  nit-rourkela-fee-signals.txt:100:===== SIGNAL 19 =====
+> nit-rourkela-fee-signals.txt:101:LINE: 1 Tuition fee 7500 7500
+> nit-rourkela-fee-signals.txt:102:CONTEXT: (Amount in Rs.) | 6th semester | (Amount 
+in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment Fee 5000 5000
+> nit-rourkela-fee-signals.txt:103:AMOUNTS: 7500, 5000
+  nit-rourkela-fee-signals.txt:104:
+  nit-rourkela-fee-signals.txt:105:===== SIGNAL 20 =====
+> nit-rourkela-fee-signals.txt:106:LINE: 1 Tuition fee 7500 7500
+> nit-rourkela-fee-signals.txt:107:CONTEXT: (Amount in Rs.) | 8th semester | (Amount 
+in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment Fee 5000 5000
+> nit-rourkela-fee-signals.txt:108:AMOUNTS: 7500, 5000
+  nit-rourkela-fee-signals.txt:109:
+  nit-rourkela-fee-signals.txt:110:===== SIGNAL 21 =====
+> nit-rourkela-fee-signals.txt:111:LINE: 1 Tuition fee 7500 7500
+> nit-rourkela-fee-signals.txt:112:CONTEXT: (Amount in Rs.) | 10th semester | (Amount 
+in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees* 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 
+5000
+> nit-rourkela-fee-signals.txt:113:AMOUNTS: 7500, 5000
+  nit-rourkela-fee-signals.txt:114:
+  nit-rourkela-fee-signals.txt:115:===== SIGNAL 22 =====
+> nit-rourkela-fee-signals.txt:116:LINE: 1 Admission fee(one time) 2500 0
+> nit-rourkela-fee-signals.txt:117:CONTEXT: (Amount in Rs.) | 2nd semester | (Amount 
+in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 
+5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat 
+Rent 5000 5000
+> nit-rourkela-fee-signals.txt:118:AMOUNTS: 2500, 62500, 5000
+  nit-rourkela-fee-signals.txt:119:
+  nit-rourkela-fee-signals.txt:120:===== SIGNAL 23 =====
+> nit-rourkela-fee-signals.txt:121:LINE: 2 Tuition fee 62500 62500
+> nit-rourkela-fee-signals.txt:122:CONTEXT: 2nd semester | (Amount in Rs.) | 1 
+Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 
+4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 
+5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0
+> nit-rourkela-fee-signals.txt:123:AMOUNTS: 2500, 62500, 5000, 10000
+  nit-rourkela-fee-signals.txt:124:
+  nit-rourkela-fee-signals.txt:125:===== SIGNAL 24 =====
+> nit-rourkela-fee-signals.txt:126:LINE: 1 Tuition fee 62500 62500
+> nit-rourkela-fee-signals.txt:127:CONTEXT: (Amount in Rs.) | 4th semester | (Amount 
+in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment fee 5000 5000
+> nit-rourkela-fee-signals.txt:128:AMOUNTS: 62500, 5000
+  nit-rourkela-fee-signals.txt:129:
+  nit-rourkela-fee-signals.txt:130:===== SIGNAL 25 =====
+> nit-rourkela-fee-signals.txt:131:LINE: 1 Tuition fee 62500 62500
+> nit-rourkela-fee-signals.txt:132:CONTEXT: (Amount in Rs.) | 6th semester | (Amount 
+in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment fee 5000 5000
+> nit-rourkela-fee-signals.txt:133:AMOUNTS: 62500, 5000
+  nit-rourkela-fee-signals.txt:134:
+  nit-rourkela-fee-signals.txt:135:===== SIGNAL 26 =====
+> nit-rourkela-fee-signals.txt:136:LINE: 1 Tuition fee 62500 62500
+> nit-rourkela-fee-signals.txt:137:CONTEXT: (Amount in Rs.) | 8th semester | (Amount 
+in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 
+5000
+> nit-rourkela-fee-signals.txt:138:AMOUNTS: 62500, 5000
+  nit-rourkela-fee-signals.txt:139:
+  nit-rourkela-fee-signals.txt:140:===== SIGNAL 27 =====
+> nit-rourkela-fee-signals.txt:141:LINE: 1 Admission fee(one time) 2500 0
+> nit-rourkela-fee-signals.txt:142:CONTEXT: (Amount in Rs.) | 2nd semester | (Amount 
+in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 
+5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat 
+Rent 5000 5000
+> nit-rourkela-fee-signals.txt:143:AMOUNTS: 2500, 62500, 5000
+  nit-rourkela-fee-signals.txt:144:
+  nit-rourkela-fee-signals.txt:145:===== SIGNAL 28 =====
+> nit-rourkela-fee-signals.txt:146:LINE: 2 Tuition fee 62500 62500
+> nit-rourkela-fee-signals.txt:147:CONTEXT: 2nd semester | (Amount in Rs.) | 1 
+Admission fee(one time) 2500 0 | 2 Tuition fee 62500 62500 | 3 Other fees 5000 5000 | 
+4 Student Activity fee 2000 2000 | 5 Medical fee 2000 2000 | 6 Hostel seat Rent 5000 
+5000 | 7 Caution money(one time-Refundable if program is completed) 10000 0
+> nit-rourkela-fee-signals.txt:148:AMOUNTS: 2500, 62500, 5000, 10000
+  nit-rourkela-fee-signals.txt:149:
+  nit-rourkela-fee-signals.txt:150:===== SIGNAL 29 =====
+> nit-rourkela-fee-signals.txt:151:LINE: 1 Tuition fee 62500 62500
+> nit-rourkela-fee-signals.txt:152:CONTEXT: (Amount in Rs.) | 4th semester | (Amount 
+in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment fee 5000 5000
+> nit-rourkela-fee-signals.txt:153:AMOUNTS: 62500, 5000
+  nit-rourkela-fee-signals.txt:154:
+  nit-rourkela-fee-signals.txt:155:===== SIGNAL 30 =====
+> nit-rourkela-fee-signals.txt:156:LINE: 1 Tuition fee 62500 62500
+> nit-rourkela-fee-signals.txt:157:CONTEXT: (Amount in Rs.) | 6th semester | (Amount 
+in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment fee 5000 5000
+> nit-rourkela-fee-signals.txt:158:AMOUNTS: 62500, 5000
+  nit-rourkela-fee-signals.txt:159:
+  nit-rourkela-fee-signals.txt:160:===== SIGNAL 31 =====
+> nit-rourkela-fee-signals.txt:161:LINE: 1 Tuition fee 62500 62500
+> nit-rourkela-fee-signals.txt:162:CONTEXT: (Amount in Rs.) | 8th semester | (Amount 
+in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment fee 5000 5000
+> nit-rourkela-fee-signals.txt:163:AMOUNTS: 62500, 5000
+  nit-rourkela-fee-signals.txt:164:
+  nit-rourkela-fee-signals.txt:165:===== SIGNAL 32 =====
+> nit-rourkela-fee-signals.txt:166:LINE: 1 Tuition fee 62500 62500
+> nit-rourkela-fee-signals.txt:167:CONTEXT: (Amount in Rs.) | 10th semester | (Amount 
+in Rs.) | 1 Tuition fee 62500 62500 | 2 Other fees 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 
+5000
+> nit-rourkela-fee-signals.txt:168:AMOUNTS: 62500, 5000
+  nit-rourkela-fee-signals.txt:169:
+  nit-rourkela-fee-signals.txt:170:===== SIGNAL 33 =====
+> nit-rourkela-fee-signals.txt:171:LINE: 1 Admission fee(one time) 2500 0
+> nit-rourkela-fee-signals.txt:172:CONTEXT: (Amount in Rs.) | 2nd semester | (Amount 
+in Rs.) | 1 Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees 
+5000 5000 | 4 Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel 
+seat Rent 5000 5000
+> nit-rourkela-fee-signals.txt:173:AMOUNTS: 2500, 7500, 5000
+  nit-rourkela-fee-signals.txt:174:
+  nit-rourkela-fee-signals.txt:175:===== SIGNAL 34 =====
+> nit-rourkela-fee-signals.txt:176:LINE: 2 Tuition fee 7500 7500
+> nit-rourkela-fee-signals.txt:177:CONTEXT: 2nd semester | (Amount in Rs.) | 1 
+Admission fee(one time) 2500 0 | 2 Tuition fee 7500 7500 | 3 Other fees 5000 5000 | 4 
+Student Activity fee 2000 2000 | 5 Medical fees 2000 2000 | 6 Hostel seat Rent 5000 
+5000 | 7 Caution money(one time Refundable) 10000 0
+> nit-rourkela-fee-signals.txt:178:AMOUNTS: 2500, 7500, 5000, 10000
+  nit-rourkela-fee-signals.txt:179:
+  nit-rourkela-fee-signals.txt:180:===== SIGNAL 35 =====
+> nit-rourkela-fee-signals.txt:181:LINE: 1 Tuition fee 7500 7500
+> nit-rourkela-fee-signals.txt:182:CONTEXT: (Amount in Rs.) | 4th semester | (Amount 
+in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment Fee 5000 5000
+> nit-rourkela-fee-signals.txt:183:AMOUNTS: 7500, 5000
+  nit-rourkela-fee-signals.txt:184:
+  nit-rourkela-fee-signals.txt:185:===== SIGNAL 36 =====
+> nit-rourkela-fee-signals.txt:186:LINE: 1 Tuition fee 7500 7500
+> nit-rourkela-fee-signals.txt:187:CONTEXT: (Amount in Rs.) | 6th semester | (Amount 
+in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment Fee 5000 5000
+> nit-rourkela-fee-signals.txt:188:AMOUNTS: 7500, 5000
+  nit-rourkela-fee-signals.txt:189:
+  nit-rourkela-fee-signals.txt:190:===== SIGNAL 37 =====
+> nit-rourkela-fee-signals.txt:191:LINE: 1 Tuition fee 7500 7500
+> nit-rourkela-fee-signals.txt:192:CONTEXT: (Amount in Rs.) | 8th semester | (Amount 
+in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Hostel seat Rent 5000 5000 | 6 Hall 
+Establishment Fee 5000 5000
+> nit-rourkela-fee-signals.txt:193:AMOUNTS: 7500, 5000
+  nit-rourkela-fee-signals.txt:194:
+  nit-rourkela-fee-signals.txt:195:===== SIGNAL 38 =====
+> nit-rourkela-fee-signals.txt:196:LINE: 1 Tuition fee 7500 7500
+> nit-rourkela-fee-signals.txt:197:CONTEXT: (Amount in Rs.) | 10th semester | (Amount 
+in Rs.) | 1 Tuition fee 7500 7500 | 2 Other fees 5000 5000 | 3 Student Activity fee 
+2000 2000 | 4 Medical fees 2000 2000 | 5 Souvenir fee 500 0 | 6 Hostel seat Rent 5000 
+5000
+> nit-rourkela-fee-signals.txt:198:AMOUNTS: 7500, 5000
+  nit-rourkela-fee-signals.txt:199:
+  nit-rourkela-fee-signals.txt:200:===== SIGNAL 39 =====
+> nit-rourkela-fee-signals.txt:201:LINE: 1 Admission fee(one time) INR 2500 INR 2500 0 
+0
+> nit-rourkela-fee-signals.txt:202:CONTEXT: Countries | Non-SAARC | Countries | 1 
+Admission fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 
+2000 USD 4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 
+5000 INR 5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical 
+fee INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 
+5000 INR 5000
+> nit-rourkela-fee-signals.txt:203:AMOUNTS: 2500, 4000, 5000
+  nit-rourkela-fee-signals.txt:204:
+  nit-rourkela-fee-signals.txt:205:===== SIGNAL 40 =====
+> nit-rourkela-fee-signals.txt:206:LINE: 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 
+4000
+> nit-rourkela-fee-signals.txt:207:CONTEXT: Non-SAARC | Countries | 1 Admission 
+fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 
+4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 
+5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical fee INR 
+2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 
+5000 | 7 Caution money(one time-Refundable if program is
+> nit-rourkela-fee-signals.txt:208:AMOUNTS: 2500, 4000, 5000
+  nit-rourkela-fee-signals.txt:209:
+  nit-rourkela-fee-signals.txt:210:===== SIGNAL 41 =====
+> nit-rourkela-fee-signals.txt:211:LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 
+4000
+> nit-rourkela-fee-signals.txt:212:CONTEXT: Countries | Non-SAARC | Countries | 1 
+Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library 
+Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 
+2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 
+5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 
+5000 INR 5000 INR 5000 INR 5000
+> nit-rourkela-fee-signals.txt:213:AMOUNTS: 4000, 5000
+  nit-rourkela-fee-signals.txt:214:
+  nit-rourkela-fee-signals.txt:215:===== SIGNAL 42 =====
+> nit-rourkela-fee-signals.txt:216:LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 
+4000
+> nit-rourkela-fee-signals.txt:217:CONTEXT: Countries | Non-SAARC | Countries | 1 
+Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library 
+Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 
+2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 
+5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 
+5000 INR 5000 INR 5000 INR 5000
+> nit-rourkela-fee-signals.txt:218:AMOUNTS: 4000, 5000
+  nit-rourkela-fee-signals.txt:219:
+  nit-rourkela-fee-signals.txt:220:===== SIGNAL 43 =====
+> nit-rourkela-fee-signals.txt:221:LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 
+4000
+> nit-rourkela-fee-signals.txt:222:CONTEXT: Countries | Non-SAARC | Countries | 1 
+Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library, 
+Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 
+2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 
+5 Souvenir fee in pre final year INR 500 INR 500 0 0 | 6 Hostel seat Rent INR 5000 INR 
+5000 INR 5000 INR 5000
+> nit-rourkela-fee-signals.txt:223:AMOUNTS: 4000, 5000
+  nit-rourkela-fee-signals.txt:224:
+  nit-rourkela-fee-signals.txt:225:===== SIGNAL 44 =====
+> nit-rourkela-fee-signals.txt:226:LINE: 1 Admission fee(one time) INR 2500 INR 2500 0 
+0
+> nit-rourkela-fee-signals.txt:227:CONTEXT: Countries | Non-SAARC | Countries | 1 
+Admission fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 
+2000 USD 4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 
+5000 INR 5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical 
+fee INR 2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 
+5000 INR 5000
+> nit-rourkela-fee-signals.txt:228:AMOUNTS: 2500, 4000, 5000
+  nit-rourkela-fee-signals.txt:229:
+  nit-rourkela-fee-signals.txt:230:===== SIGNAL 45 =====
+> nit-rourkela-fee-signals.txt:231:LINE: 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 
+4000
+> nit-rourkela-fee-signals.txt:232:CONTEXT: Non-SAARC | Countries | 1 Admission 
+fee(one time) INR 2500 INR 2500 0 0 | 2 Tuition fee USD 2000 USD 4000 USD 2000 USD 
+4000 | 3 Other fees (Exam, Library, Electricity etc.) INR 5000 INR 5000 INR 5000 INR 
+5000 | 4 Student Activity fee INR 2000 INR 2000 INR 2000 INR 2000 | 5 Medical fee INR 
+2000 INR 2000 INR 2000 INR 2000 | 6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 
+5000 | 7 Caution money(one time-Refundable if program is completed) INR 10000 INR 
+10000 0 0
+> nit-rourkela-fee-signals.txt:233:AMOUNTS: 2500, 4000, 5000, 10000
+  nit-rourkela-fee-signals.txt:234:
+  nit-rourkela-fee-signals.txt:235:===== SIGNAL 46 =====
+> nit-rourkela-fee-signals.txt:236:LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 
+4000
+> nit-rourkela-fee-signals.txt:237:CONTEXT: Countries | Non-SAARC | Countries | 1 
+Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library 
+Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 
+2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 
+5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 
+5000 INR 5000 INR 5000 INR 5000
+> nit-rourkela-fee-signals.txt:238:AMOUNTS: 4000, 5000
+  nit-rourkela-fee-signals.txt:239:
+  nit-rourkela-fee-signals.txt:240:===== SIGNAL 47 =====
+> nit-rourkela-fee-signals.txt:241:LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 
+4000
+> nit-rourkela-fee-signals.txt:242:CONTEXT: Countries | Non-SAARC | Countries | 1 
+Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library 
+Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 
+2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 
+5 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 6 Hall Establishment fee INR 
+5000 INR 5000 INR 5000 INR 5000
+> nit-rourkela-fee-signals.txt:243:AMOUNTS: 4000, 5000
+  nit-rourkela-fee-signals.txt:244:
+  nit-rourkela-fee-signals.txt:245:===== SIGNAL 48 =====
+> nit-rourkela-fee-signals.txt:246:LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 
+4000
+> nit-rourkela-fee-signals.txt:247:CONTEXT: Countries | Non-SAARC | Countries | 1 
+Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library, 
+Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 
+2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 
+6 Hostel seat Rent INR 5000 INR 5000 INR 5000 INR 5000 | 7 Hall Establishment fee INR 
+5000 INR 5000 INR 5000 INR 5000
+> nit-rourkela-fee-signals.txt:248:AMOUNTS: 4000, 5000
+  nit-rourkela-fee-signals.txt:249:
+  nit-rourkela-fee-signals.txt:250:===== SIGNAL 49 =====
+> nit-rourkela-fee-signals.txt:251:LINE: 1 Tuition fee USD 2000 USD 4000 USD 2000 USD 
+4000
+> nit-rourkela-fee-signals.txt:252:CONTEXT: Countries | Non-SAARC | Countries | 1 
+Tuition fee USD 2000 USD 4000 USD 2000 USD 4000 | 2 Other fees (Exam, Library, 
+Electricity etc.) INR 5000 INR 5000 INR 5000 INR 5000 | 3 Student Activity fee INR 
+2000 INR 2000 INR 2000 INR 2000 | 4 Medical fees INR 2000 INR 2000 INR 2000 INR 2000 | 
+5 Souvenir fee in pre final year INR 500 INR 500 0 0 | 6 Hostel seat Rent INR 5000 INR 
+5000 INR 5000 INR 5000
+> nit-rourkela-fee-signals.txt:253:AMOUNTS: 4000, 5000
+
+
