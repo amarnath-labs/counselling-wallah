@@ -63,6 +63,7 @@ const allowedOrigins =
     'http://localhost:5173',
     'http://localhost:5174',
 
+        'http://localhost:5175',
     'https://counselling-wallah-frontend.vercel.app',
     'https://trumarg.com',
     'https://www.trumarg.com',
@@ -614,6 +615,22 @@ app.use(
 
 app.use(
   '/api/dev/cw-rec',
+  cwRecV1DevRouter
+);
+
+
+/*
+|--------------------------------------------------------------------------
+| TRUMARG PUBLIC RECOMMENDATION API V1
+|--------------------------------------------------------------------------
+|
+| Stable production alias.
+| Existing /api/dev/cw-rec route remains temporarily for compatibility.
+|
+*/
+
+app.use(
+  '/api/v1',
   cwRecV1DevRouter
 );
 

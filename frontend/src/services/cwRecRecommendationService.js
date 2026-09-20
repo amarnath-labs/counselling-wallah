@@ -1,3 +1,7 @@
+import {
+  rankPersonalizedRecommendationsV1,
+} from './personalizedRecommendationEngineV1.js';
+
 import { API_BASE_URL } from './apiClient';
 
 const WEIGHTS = Object.freeze({
@@ -665,7 +669,7 @@ function getAnnualBudget(profile = {}) {
 export async function fetchCWRecommendations(
   profile = {},
   {
-    limit = 1000,
+    limit = 100,
     locationMode = 'NONE',
   } = {}
 ) {
@@ -848,7 +852,7 @@ export async function fetchCWRecommendations(
       Math.max(
         1,
         Math.min(
-          1000,
+          100,
           Number(limit) || 100
         )
       )
@@ -856,7 +860,7 @@ export async function fetchCWRecommendations(
   );
 
   const url =
-    `${API_BASE_URL}/dev/cw-rec/recommendations?${params.toString()}`;
+    `${API_BASE_URL}/v1/recommendations?${params.toString()}`;
 
   console.log(
     '[CW-REC FRONTEND]',
@@ -875,7 +879,7 @@ export async function fetchCWRecommendations(
   const payload =
     await response.json();
 
-  const rows =
+  const adaptedRows =
     Array.isArray(payload?.data)
       ? payload.data.map(
           (row) =>
@@ -885,6 +889,33 @@ export async function fetchCWRecommendations(
             )
         )
       : [];
+
+
+  const rows =
+    rankPersonalizedRecommendationsV1(
+      adaptedRows,
+      {
+        ...profile,
+
+        rank,
+
+        annualBudget:
+          getAnnualBudget(
+            profile
+          ),
+
+        homeState:
+          profile?.homeState ??
+          profile?.state ??
+          null,
+
+        preferredBranches:
+          profile?.preferredBranches ??
+          profile?.branchPreferences ??
+          profile?.branches ??
+          [],
+      }
+    );
 
   return {
     data: rows,

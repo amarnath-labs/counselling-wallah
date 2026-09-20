@@ -1,11 +1,12 @@
 import {
+  API_BASE_URL,
+} from './apiClient.js';
+
+import {
   apiGet,
 } from './apiClient';
 const API_BASE =
-  import.meta.env.VITE_API_BASE_URL ||
-  'https://counsellingwallah-backend.onrender.com/api';
-
-
+  API_BASE_URL;
 /*
 |--------------------------------------------------------------------------
 | API REQUEST
