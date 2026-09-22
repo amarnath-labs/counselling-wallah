@@ -76,6 +76,38 @@ export default function Profile() {
   const p =
     profile || {};
 
+  const normalizedSelectedExamId =
+    String(
+      selectedExamId || ''
+    )
+      .trim()
+      .toLowerCase();
+
+  const normalizedProfileExamId =
+    String(
+      p?.examId || ''
+    )
+      .trim()
+      .toLowerCase();
+
+  const normalizedProfileExamName =
+    String(
+      p?.exam || ''
+    )
+      .trim()
+      .toLowerCase();
+
+  const isJeeMainProfile =
+    normalizedSelectedExamId ===
+      'jee-main' ||
+    normalizedProfileExamId ===
+      'jee-main' ||
+    normalizedProfileExamName ===
+      'jee main' ||
+    normalizedProfileExamName ===
+      'jee mains';
+
+
   /*
   |--------------------------------------------------------------------------
   | PROGRAM TYPE
@@ -595,15 +627,7 @@ export default function Profile() {
             Preferences
           </h3>
           {/* TRUMARG JOSAA CSAB SELECTOR */}
-          {
-            String(
-              selectedExamId ||
-              p?.examId ||
-              ''
-            )
-              .trim()
-              .toLowerCase() ===
-              'jee-main' && (
+          {isJeeMainProfile && (
               <div className="field">
 
                 <label>
