@@ -96,6 +96,41 @@ const PREMIUM_WEIGHTS = {
 
 
 
+
+function recommendationUniqueKey(
+  row
+) {
+  const collegeId =
+    row?.collegeId ??
+    row?.college?.id ??
+    row?.college_id ??
+    row?.collegeName ??
+    row?.college?.name ??
+    'college';
+
+  const branchName =
+    row?.branch?.name ??
+    row?.branchName ??
+    row?.branch_name ??
+    row?.program ??
+    'branch';
+
+  return (
+    String(
+      collegeId
+    )
+      .trim()
+      .toLowerCase() +
+    '::' +
+    String(
+      branchName
+    )
+      .trim()
+      .toLowerCase()
+  );
+}
+
+
 function dedupeRecommendationRowsSafe(rows) {
   const seen =
     new Set();
