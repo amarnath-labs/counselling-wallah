@@ -95,6 +95,66 @@ const PREMIUM_WEIGHTS = {
 };
 
 
+
+function dedupeRecommendationRowsSafe(rows) {
+  const seen =
+    new Set();
+
+  const output =
+    [];
+
+  for (
+    const row of
+    rows || []
+  ) {
+    if (!row) {
+      continue;
+    }
+
+    const collegeId =
+      String(
+        row?.collegeId ??
+        row?.college?.id ??
+        row?.college_id ??
+        row?.collegeName ??
+        row?.college?.name ??
+        ''
+      )
+        .trim()
+        .toLowerCase();
+
+    const branchName =
+      String(
+        row?.branch?.name ??
+        row?.branchName ??
+        row?.branch_name ??
+        row?.branchId ??
+        row?.branch_id ??
+        ''
+      )
+        .trim()
+        .toLowerCase();
+
+    const key =
+      collegeId +
+      '::' +
+      branchName;
+
+    if (
+      seen.has(key)
+    ) {
+      continue;
+    }
+
+    seen.add(key);
+
+    output.push(row);
+  }
+
+  return output;
+}
+
+
 function getEffectiveReviewComponent(
   row
 ) {
@@ -2949,7 +3009,7 @@ export default function RecommendationSlide({
     useMemo(
       () => {
         const uniqueRows =
-          dedupeRecommendationRows(
+          dedupeRecommendationRowsSafe(
             rows
           );
 
@@ -3026,7 +3086,7 @@ const groupedRows =
         ];
 
         const uniqueRows =
-          dedupeRecommendationRows(
+          dedupeRecommendationRowsSafe(
             rows
           );
 
