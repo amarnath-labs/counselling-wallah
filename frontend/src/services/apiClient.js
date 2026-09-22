@@ -30,10 +30,16 @@ function normalizeApiBaseUrl(value) {
 |--------------------------------------------------------------------------
 */
 
+const localApiUrl =
+  'http://localhost:4000/api';
+
+const productionApiUrl =
+  '/api';
+
 const API_BASE_URL =
   import.meta.env.DEV
-    ? 'http://localhost:4000/api'
-    : '/api';
+    ? localApiUrl
+    : productionApiUrl;
 
 
 console.log(
