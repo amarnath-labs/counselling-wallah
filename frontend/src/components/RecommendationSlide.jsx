@@ -11,6 +11,8 @@ import {
 
 import DecisionIntelligencePanel from './DecisionIntelligencePanel';
 
+import ReviewStandard100Panel from './ReviewStandard100Panel';
+
 const PARTS = [
   [
     'rank',
@@ -1488,6 +1490,113 @@ function ReviewIntelligencePanel({
     reviewV3?.evidence ||
     {};
 
+  /*
+  |--------------------------------------------------------------------------
+  | TRUMARG REVIEW 50 UI V4
+  |--------------------------------------------------------------------------
+  */
+
+  const reviewAspectLabels = {
+    placements: 'Placements',
+    faculty: 'Faculty / Teaching',
+    hostel: 'Hostel',
+    infrastructure: 'Infrastructure',
+    academics: 'Academics',
+    campus_life: 'Campus Life',
+    administration: 'Administration',
+    internships: 'Internships',
+    value_for_money: 'Value for Money',
+    location: 'Location',
+  };
+
+  const reviewAspectRows =
+    Object.entries(
+      reviewAspectLabels
+    ).map(
+      ([key, label]) => {
+        const data =
+          reviewV3?.aspects?.[key] ||
+          {};
+
+        const reviewCount =
+          Number.isFinite(
+            Number(
+              data?.effectiveReviewCount
+            )
+          )
+            ? Number(
+                data.effectiveReviewCount
+              )
+            : 0;
+
+        const sourceCount =
+          Number.isFinite(
+            Number(
+              data?.effectiveSourceCount
+            )
+          )
+            ? Number(
+                data.effectiveSourceCount
+              )
+            : 0;
+
+        const maxSourceShare =
+          Number.isFinite(
+            Number(
+              data?.maxSourceShare
+            )
+          )
+            ? Number(
+                data.maxSourceShare
+              )
+            : null;
+
+        const aspectScore =
+          Number.isFinite(
+            Number(
+              data?.score
+            )
+          )
+            ? Number(
+                data.score
+              )
+            : null;
+
+        const ready =
+          reviewCount >= 50 &&
+          sourceCount >= 3 &&
+          maxSourceShare !== null &&
+          maxSourceShare <= 0.60 &&
+          aspectScore !== null;
+
+        return {
+          key,
+          label,
+          reviewCount,
+          sourceCount,
+          maxSourceShare,
+          aspectScore,
+          ready,
+          missingReviews:
+            Math.max(
+              0,
+              50 - reviewCount
+            ),
+          missingSources:
+            Math.max(
+              0,
+              3 - sourceCount
+            ),
+        };
+      }
+    );
+
+  const readyReviewAspects =
+    reviewAspectRows.filter(
+      item =>
+        item.ready
+    ).length;
+
 
   return (
     <section
@@ -1959,7 +2068,14 @@ function ReviewIntelligencePanel({
               : 0,
         }}
       >
-        <CoverageChip
+        
+      {/*
+      Review threshold diagnostic cards removed from UI.
+      Review Intelligence data/scoring remains active.
+      */}
+
+
+      <CoverageChip
           label="Reviews"
           value={
             coverage
@@ -2453,7 +2569,7 @@ function RecommendationCard({
                         index
                       }
                     >
-                      âœ“ {reason}
+                      ✓ {reason}
                     </p>
                   )
                 )
@@ -2515,6 +2631,20 @@ function RecommendationCard({
         }
       />
 
+      {/* ==========================================
+          TRUMARG REVIEW STANDARD 100
+      ========================================== */}
+
+      <ReviewStandard100Panel
+        collegeId={
+          row?.collegeId ||
+          row?.college_id ||
+          row?.college?.id ||
+          row?.college?.collegeId ||
+          null
+        }
+      />
+
 
       {/* ==========================================
           DATA POLICY
@@ -2557,107 +2687,165 @@ function RecommendationCard({
 |
 */
 
+function recommendationSerialScore(
+  row
+) {
+  const toNumber = (
+    value
+  ) => {
+    if (
+      value === null ||
+      value === undefined ||
+      value === ''
+    ) {
+      return null;
+    }
+
+    const parsed =
+      Number(value);
+
+    return Number.isFinite(
+      parsed
+    )
+      ? parsed
+      : null;
+  };
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | OVERALL MATCH
+  |--------------------------------------------------------------------------
+  */
+
+  const overallScore =
+    toNumber(
+      row?.matchScore ??
+      row?.premium?.score ??
+      row?.premium?.finalScore ??
+      row?.overall
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | REVIEW INTELLIGENCE
+  |--------------------------------------------------------------------------
+  |
+  | This is the standalone Review Intelligence score /100.
+  |
+  | We DO NOT convert missing review data to zero.
+  |--------------------------------------------------------------------------
+  */
+
+  const reviewScore =
+    toNumber(
+      row
+        ?.reviewIntelligenceV3
+        ?.score
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | SERIAL RANKING SCORE
+  |--------------------------------------------------------------------------
+  |
+  | User requested:
+  |
+  | (Overall Score + Review Score) / 2
+  |
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    overallScore !== null &&
+    reviewScore !== null
+  ) {
+    return (
+      overallScore +
+      reviewScore
+    ) / 2;
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | MISSING REVIEW FALLBACK
+  |--------------------------------------------------------------------------
+  |
+  | Missing evidence stays unknown.
+  | Never use review = 0.
+  |
+  | Such rows retain their Overall Score.
+  |--------------------------------------------------------------------------
+  */
+
+  return overallScore;
+}
+
+
 function sortWithinBucket(
   a,
   b
 ) {
-  const nirfA =
-    Number(
-      a?.nirfRank ??
-      a?.quality?.nirfRank ??
-      a?.college?.nirfRank
-    );
+  const toNumber = (
+    value
+  ) => {
+    if (
+      value === null ||
+      value === undefined ||
+      value === ''
+    ) {
+      return null;
+    }
 
-  const nirfB =
-    Number(
-      b?.nirfRank ??
-      b?.quality?.nirfRank ??
-      b?.college?.nirfRank
-    );
+    const parsed =
+      Number(value);
 
+    return Number.isFinite(
+      parsed
+    )
+      ? parsed
+      : null;
+  };
 
-  const hasNirfA =
-    Number.isFinite(
-      nirfA
-    ) &&
-    nirfA > 0;
-
-  const hasNirfB =
-    Number.isFinite(
-      nirfB
-    ) &&
-    nirfB > 0;
-
-
-  /*
-  |--------------------------------------------------------------------------
-  | NIRF RANK
-  |--------------------------------------------------------------------------
-  */
-
-  if (
-    hasNirfA &&
-    hasNirfB &&
-    nirfA !== nirfB
-  ) {
-    return (
-      nirfA -
-      nirfB
-    );
-  }
-
-
-  if (
-    hasNirfA &&
-    !hasNirfB
-  ) {
-    return -1;
-  }
-
-
-  if (
-    !hasNirfA &&
-    hasNirfB
-  ) {
-    return 1;
-  }
-
-
-  /*
-  |--------------------------------------------------------------------------
-  | CLOSING RANK
-  |--------------------------------------------------------------------------
-  */
 
   const cutoffA =
-    Number(
-      a?.branch?.closingRank ??
+    toNumber(
+      a?.lastRoundClosingRank ??
+      a?.admission
+        ?.lastRoundClosingRank ??
+      a?.historicalFit
+        ?.lastRoundClosingRank ??
+      a?.branch
+        ?.closingRank ??
       a?.closingRank
     );
 
+
   const cutoffB =
-    Number(
-      b?.branch?.closingRank ??
+    toNumber(
+      b?.lastRoundClosingRank ??
+      b?.admission
+        ?.lastRoundClosingRank ??
+      b?.historicalFit
+        ?.lastRoundClosingRank ??
+      b?.branch
+        ?.closingRank ??
       b?.closingRank
     );
 
 
-  const hasCutoffA =
-    Number.isFinite(
-      cutoffA
-    ) &&
-    cutoffA > 0;
-
-  const hasCutoffB =
-    Number.isFinite(
-      cutoffB
-    ) &&
-    cutoffB > 0;
-
+  /*
+  |--------------------------------------------------------------------------
+  | PRIMARY: LOW CUTOFF RANK FIRST
+  |--------------------------------------------------------------------------
+  */
 
   if (
-    hasCutoffA &&
-    hasCutoffB &&
+    cutoffA !== null &&
+    cutoffB !== null &&
     cutoffA !== cutoffB
   ) {
     return (
@@ -2668,16 +2856,16 @@ function sortWithinBucket(
 
 
   if (
-    hasCutoffA &&
-    !hasCutoffB
+    cutoffA !== null &&
+    cutoffB === null
   ) {
     return -1;
   }
 
 
   if (
-    !hasCutoffA &&
-    hasCutoffB
+    cutoffA === null &&
+    cutoffB !== null
   ) {
     return 1;
   }
@@ -2685,33 +2873,54 @@ function sortWithinBucket(
 
   /*
   |--------------------------------------------------------------------------
-  | MATCH SCORE TIE BREAKER
+  | TIE BREAKER: HIGHER OVERALL SCORE FIRST
   |--------------------------------------------------------------------------
   */
 
   const scoreA =
-    Number(
-      a?.premium?.score ??
+    toNumber(
       a?.matchScore ??
-      a?.overall ??
-      0
-    );
+      a?.premium?.score ??
+      a?.overall
+    ) ?? -1;
+
 
   const scoreB =
-    Number(
-      b?.premium?.score ??
+    toNumber(
       b?.matchScore ??
-      b?.overall ??
-      0
+      b?.premium?.score ??
+      b?.overall
+    ) ?? -1;
+
+
+  if (
+    scoreA !== scoreB
+  ) {
+    return (
+      scoreB -
+      scoreA
     );
+  }
 
 
-  return (
-    scoreB -
-    scoreA
+  /*
+  |--------------------------------------------------------------------------
+  | FINAL TIE: COLLEGE NAME
+  |--------------------------------------------------------------------------
+  */
+
+  return String(
+    a?.collegeName ??
+    a?.college?.name ??
+    ''
+  ).localeCompare(
+    String(
+      b?.collegeName ??
+      b?.college?.name ??
+      ''
+    )
   );
 }
-
 
 export default function RecommendationSlide({
   rows = [],
@@ -2720,7 +2929,93 @@ export default function RecommendationSlide({
   onUnlock,
   onLogin,
 }) {
-  const groupedRows =
+  
+  /*
+  |--------------------------------------------------------------------------
+  | GLOBAL SERIAL RANKING
+  |--------------------------------------------------------------------------
+  |
+  | Serial number:
+  |
+  |   (Overall Match + Review Score) / 2
+  |
+  | Review missing -> Overall Match fallback.
+  |
+  | Admission bucket remains unchanged.
+  |--------------------------------------------------------------------------
+  */
+
+  const globalAverageRankMap =
+    useMemo(
+      () => {
+        const uniqueRows =
+          dedupeRecommendationRows(
+            rows
+          );
+
+        const sortedRows =
+          [...uniqueRows].sort(
+            (a, b) => {
+              const scoreA =
+                recommendationSerialScore(
+                  a
+                );
+
+              const scoreB =
+                recommendationSerialScore(
+                  b
+                );
+
+              if (
+                scoreA !== null &&
+                scoreB !== null &&
+                scoreA !== scoreB
+              ) {
+                return (
+                  scoreB -
+                  scoreA
+                );
+              }
+
+              if (
+                scoreA !== null &&
+                scoreB === null
+              ) {
+                return -1;
+              }
+
+              if (
+                scoreA === null &&
+                scoreB !== null
+              ) {
+                return 1;
+              }
+
+              return 0;
+            }
+          );
+
+        const rankMap =
+          new Map();
+
+        sortedRows.forEach(
+          (row, index) => {
+            rankMap.set(
+              recommendationUniqueKey(
+                row
+              ),
+              index
+            );
+          }
+        );
+
+        return rankMap;
+      },
+      [rows]
+    );
+
+
+const groupedRows =
     useMemo(
       () => {
         const bucketOrder = [
@@ -2730,20 +3025,24 @@ export default function RecommendationSlide({
           'backup',
         ];
 
+        const uniqueRows =
+          dedupeRecommendationRows(
+            rows
+          );
 
         return bucketOrder
           .map(
             (bucket) => {
               const bucketRows =
-                [...rows]
+                uniqueRows
                   .filter(
                     (row) =>
                       row &&
                       String(
-                        row?.bucket ||
+                        row?.bucket ??
                         row?.premium
                           ?.admissionBucket
-                          ?.key ||
+                          ?.key ??
                         ''
                       )
                         .trim()
@@ -2754,7 +3053,6 @@ export default function RecommendationSlide({
                     sortWithinBucket
                   );
 
-
               return {
                 bucket,
                 rows:
@@ -2764,13 +3062,10 @@ export default function RecommendationSlide({
           )
           .filter(
             (group) =>
-              group.rows.length >
-              0
+              group.rows.length > 0
           );
       },
-      [
-        rows,
-      ]
+      [rows]
     );
 
 
@@ -2870,8 +3165,27 @@ export default function RecommendationSlide({
         <div className="recommendation-buckets">
           {groupedRows.map(
             (
-              group
+              group,
+              groupIndex
             ) => {
+
+              const serialOffset =
+                groupedRows
+                  .slice(
+                    0,
+                    groupIndex
+                  )
+                  .reduce(
+                    (
+                      total,
+                      previousGroup
+                    ) =>
+                      total +
+                      previousGroup.rows.length,
+                    0
+                  );
+
+
               const labels = {
                 dream:
                   'Dream',
@@ -2902,6 +3216,9 @@ export default function RecommendationSlide({
                     group.bucket
                   }
                   className="recommendation-bucket"
+                  data-bucket={
+                    group.bucket
+                  }
                 >
                   <div className="recommendation-bucket__header">
                     <div>
@@ -2954,12 +3271,17 @@ export default function RecommendationSlide({
                         return (
                           <RecommendationCard
                             key={
-                              `${group.bucket}-${collegeId}-${branchName}-${index}`
+                              group.bucket +
+                              '::' +
+                              recommendationUniqueKey(
+                                row
+                              )
                             }
                             row={
                               row
                             }
                             index={
+                              serialOffset +
                               index
                             }
                             allRows={rows}
