@@ -73,6 +73,40 @@ export default function CollegeCard({
   row,
   mode = 'locked',
 }) {
+
+  const resultCounsellingType =
+    String(
+      row?.counsellingType ||
+      row?.counselling_type ||
+      ''
+    )
+      .trim()
+      .toUpperCase();
+
+  const activeHistorySource =
+    resultCounsellingType ===
+      'CSAB_SPECIAL'
+      ? 'csab'
+      : 'josaa';
+
+
+
+  const counsellingType =
+    String(
+      row?.counsellingType ||
+      row?.counselling_type ||
+      ''
+    )
+      .trim()
+      .toUpperCase();
+
+
+  const counsellingMatchLabel =
+    counsellingType ===
+      'CSAB_SPECIAL'
+      ? 'CSAB Match'
+      : 'JoSAA Match';
+
   const {
     addCompare,
     addChoice,
@@ -279,6 +313,53 @@ export default function CollegeCard({
 
   /*
   |--------------------------------------------------------------------------
+  | PERSONALIZED V2 DISPLAY SOURCE
+  |--------------------------------------------------------------------------
+  |
+  | Display V2 when available.
+  | Legacy premium remains fallback only.
+  | Admission bucket logic stays untouched.
+  |
+  */
+
+  const personalizedV2 =
+    row?.personalizedV2 || null;
+
+  const personalizedV2Score =
+    Number.isFinite(
+      Number(
+        personalizedV2?.rawScore
+      )
+    )
+      ? Number(
+          personalizedV2.rawScore
+        )
+      : null;
+
+  const personalizedV2RankingScore =
+    Number.isFinite(
+      Number(
+        personalizedV2?.rankingScore
+      )
+    )
+      ? Number(
+          personalizedV2.rankingScore
+        )
+      : null;
+
+  const personalizedV2Coverage =
+    Number.isFinite(
+      Number(
+        personalizedV2?.coverage
+      )
+    )
+      ? Number(
+          personalizedV2.coverage
+        )
+      : null;
+
+  /*
+  |--------------------------------------------------------------------------
   | ORIGINAL CARD PERCENTAGE
   |--------------------------------------------------------------------------
   */
@@ -305,11 +386,18 @@ export default function CollegeCard({
   */
 
   const premiumScore =
-    Number.isFinite(
-      Number(premium?.score)
-    )
-      ? Number(premium.score)
-      : null;
+    personalizedV2Score ??
+    (
+      Number.isFinite(
+        Number(
+          premium?.score
+        )
+      )
+        ? Number(
+            premium.score
+          )
+        : null
+    );
 
   const premiumCategory =
     premium?.category || null;
@@ -364,6 +452,10 @@ export default function CollegeCard({
 
   const loadAdmissionHistory =
     async () => {
+
+      setHistoryTab(
+        activeHistorySource
+      );
 
       if (historyOpen) {
         setHistoryOpen(false);
@@ -605,7 +697,7 @@ export default function CollegeCard({
         >
 
           <div>
-            JoSAA Match:{' '}
+            {counsellingMatchLabel}:{' '}
 
             <strong
               style={{
@@ -845,7 +937,7 @@ export default function CollegeCard({
                         (route) => {
 
                           if (
-                            historyTab !==
+                            activeHistorySource !==
                             route.key
                           ) {
                             return null;
@@ -878,8 +970,19 @@ export default function CollegeCard({
 
 
                           const bucket =
-                            intelligence
-                              .historicalBucket;
+                            row?.bucket
+                              ? String(
+                                  row.bucket
+                                )
+                                  .charAt(0)
+                                  .toUpperCase() +
+                                String(
+                                  row.bucket
+                                )
+                                  .slice(1)
+                                  .toLowerCase()
+                              : intelligence
+                                  .historicalBucket;
 
 
                           return (
@@ -1481,7 +1584,7 @@ export default function CollegeCard({
                             index
                           }
                         >
-                          âœ“ {reason}
+                          ✓ {reason}
                         </div>
                       )
                     )}
