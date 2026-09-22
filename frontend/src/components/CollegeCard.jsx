@@ -74,6 +74,36 @@ export default function CollegeCard({
   mode = 'locked',
 }) {
 
+  /*
+  |--------------------------------------------------------------------------
+  | CANONICAL ADMISSION DISPLAY
+  |--------------------------------------------------------------------------
+  |
+  | Same row.bucket is used by:
+  | - bucket section
+  | - JoSAA / CSAB Match
+  | - Admission Intelligence headline
+  |--------------------------------------------------------------------------
+  */
+
+  const canonicalAdmissionBucket =
+    String(
+      row?.bucket ||
+      row?.admission?.bucket ||
+      row?.historicalFit?.bucket ||
+      'target'
+    )
+      .trim()
+      .toLowerCase();
+
+  const canonicalAdmission =
+    meta[
+      canonicalAdmissionBucket
+    ] ||
+    meta.target;
+
+
+
   const rowCounsellingType =
     String(
       row?.counsellingType ||
@@ -595,7 +625,7 @@ export default function CollegeCard({
         className="cw-meter"
         style={{
           background:
-            `conic-gradient(${admission.color} ${
+            `conic-gradient(${canonicalAdmission.color} ${
               currentMatch * 3.6
             }deg,#EAF0FF 0)`,
         }}
@@ -720,10 +750,10 @@ export default function CollegeCard({
             <strong
               style={{
                 color:
-                  admission.color,
+                  canonicalAdmission.color,
               }}
             >
-              {admission.label}
+              {canonicalAdmission.label}
             </strong>
 
             {hasPlacement
@@ -1438,10 +1468,10 @@ export default function CollegeCard({
                   className="admission-label"
                   style={{
                     color:
-                      admission.color,
+                      canonicalAdmission.color,
                   }}
                 >
-                  {admission.label}
+                  {canonicalAdmission.label}
                 </span>
 
                 {premiumCategory?.label && (
