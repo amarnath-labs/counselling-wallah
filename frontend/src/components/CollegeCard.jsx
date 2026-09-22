@@ -74,6 +74,24 @@ export default function CollegeCard({
   mode = 'locked',
 }) {
 
+  const rowCounsellingType =
+    String(
+      row?.counsellingType ||
+      row?.counselling_type ||
+      row?.counselling?.type ||
+      ''
+    )
+      .trim()
+      .toUpperCase();
+
+  const activeCounsellingSource =
+    rowCounsellingType ===
+      'CSAB_SPECIAL'
+      ? 'csab'
+      : 'josaa';
+
+
+
   const resultCounsellingType =
     String(
       row?.counsellingType ||
@@ -150,7 +168,7 @@ export default function CollegeCard({
   const [
     historyTab,
     setHistoryTab,
-  ] = useState('josaa');
+  ] = useState(activeCounsellingSource);
 
 
   const [
@@ -869,41 +887,13 @@ export default function CollegeCard({
                       </div>
 
 
-                      <div className="admission-history-tabs">
-
-                        <button
-                          type="button"
-                          className={
-                            historyTab === 'josaa'
-                              ? 'history-tab active'
-                              : 'history-tab'
-                          }
-                          onClick={() =>
-                            setHistoryTab(
-                              'josaa'
-                            )
-                          }
-                        >
-                          JoSAA
-                        </button>
-
-
-                        <button
-                          type="button"
-                          className={
-                            historyTab === 'csab'
-                              ? 'history-tab active'
-                              : 'history-tab'
-                          }
-                          onClick={() =>
-                            setHistoryTab(
-                              'csab'
-                            )
-                          }
-                        >
-                          CSAB Special
-                        </button>
-
+                      <div className="history-source-label">
+                        {
+                          activeCounsellingSource ===
+                            'csab'
+                            ? 'CSAB Special'
+                            : 'JoSAA'
+                        }
                       </div>
 
 
