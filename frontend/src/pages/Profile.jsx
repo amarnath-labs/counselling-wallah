@@ -627,7 +627,7 @@ export default function Profile() {
             Preferences
           </h3>
           {/* TRUMARG JOSAA CSAB SELECTOR */}
-          {isJeeMainProfile && (
+          {(
               <div className="field">
 
                 <label>
