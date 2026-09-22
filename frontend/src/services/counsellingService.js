@@ -6,7 +6,9 @@ import {
   apiGet,
 } from './apiClient';
 const API_BASE =
-  API_BASE_URL;
+  import.meta.env.DEV
+    ? 'http://localhost:4000/api'
+    : '/api';
 /*
 |--------------------------------------------------------------------------
 | API REQUEST

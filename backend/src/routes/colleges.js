@@ -1849,8 +1849,18 @@ router.get(
         isUnfilteredCatalogRequest
       ) {
         res.set(
+          'Cache-Control',
+          'public, max-age=0, must-revalidate'
+        );
+
+        res.set(
           'CDN-Cache-Control',
-          'public, s-maxage=300, stale-while-revalidate=60'
+          'public, s-maxage=300, stale-while-revalidate=600'
+        );
+
+        res.set(
+          'Cloudflare-CDN-Cache-Control',
+          'public, max-age=300, stale-while-revalidate=600'
         );
       }
 

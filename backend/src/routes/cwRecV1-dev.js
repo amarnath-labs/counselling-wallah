@@ -999,6 +999,35 @@ router.get(
     res
   ) => {
     try {
+
+      /*
+      |--------------------------------------------------------------------------
+      | CLOUDFLARE / CDN CACHE
+      |--------------------------------------------------------------------------
+      |
+      | Public GET endpoint.
+      | Full query string remains part of the cache key.
+      |
+      | Browser: revalidate
+      | Edge: 5 minutes
+      | Stale: 10 minutes
+      |--------------------------------------------------------------------------
+      */
+
+      res.set(
+        'Cache-Control',
+        'public, max-age=0, must-revalidate'
+      );
+
+      res.set(
+        'CDN-Cache-Control',
+        'public, s-maxage=300, stale-while-revalidate=600'
+      );
+
+      res.set(
+        'Cloudflare-CDN-Cache-Control',
+        'public, max-age=300, stale-while-revalidate=600'
+      );
       /* =====================================
          REQUEST
       ===================================== */

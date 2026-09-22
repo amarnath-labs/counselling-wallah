@@ -51,7 +51,8 @@ const API_BASE_URL =
         ) ||
         localApiUrl
       )
-    : '/api';
+    : productionApiUrl;
+
 
 console.log(
   '[API] Environment:',
