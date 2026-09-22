@@ -1,4 +1,4 @@
-import express from 'express';
+﻿import express from 'express';
 
 import {
   FACTOR_STATUS,
@@ -1090,6 +1090,38 @@ router.get(
             .branchPreferences
         );
 
+      /*
+      |--------------------------------------------------------------------------
+      | PROGRAM FAMILY SEPARATION
+      |--------------------------------------------------------------------------
+      |
+      | Architecture is a separate programme family.
+      | It must not be mixed with B.Tech engineering branches.
+      |--------------------------------------------------------------------------
+      */
+
+      const architectureOnlyRequest =
+        branchPreferences.length > 0 &&
+        branchPreferences.every(
+          (branch) =>
+            /architecture|planning|b\.?\s*arch|b\.?\s*plan/i.test(
+              String(
+                branch || ''
+              )
+            )
+        );
+
+
+      const architectureBranchName = (
+        value
+      ) =>
+        /architecture|planning|b\.?\s*arch|b\.?\s*plan/i.test(
+          String(
+            value || ''
+          )
+        );
+
+
 
       const rawLimit =
         Number(
@@ -1457,6 +1489,44 @@ router.get(
             ------------------------------------
             */
 
+            /*
+            |--------------------------------------------------------------
+            | TRUMARG PROGRAM FAMILY HARD FILTER
+            |--------------------------------------------------------------
+            |
+            | Architecture request:
+            |   keep Architecture / B.Arch rows only.
+            |
+            | Engineering request:
+            |   exclude Architecture / B.Arch rows.
+            |
+            | This does NOT modify admission bucket logic.
+            |--------------------------------------------------------------
+            */
+
+            const candidateIsArchitecture =
+              architectureBranchName(
+                row.branch_name
+              );
+
+
+            if (
+              architectureOnlyRequest &&
+              !candidateIsArchitecture
+            ) {
+              return null;
+            }
+
+
+            if (
+              !architectureOnlyRequest &&
+              branchPreferences.length > 0 &&
+              candidateIsArchitecture
+            ) {
+              return null;
+            }
+
+
             const branchPreference =
               scoreBranchPreference({
                 branchName:
@@ -1819,7 +1889,8 @@ router.get(
                 CWREC_VERSION,
             };
           }
-        );
+        ).filter(Boolean)
+          /* TRUMARG PROGRAM FILTER NULL CLEANUP */;
 
 
       /* =====================================
@@ -1996,4 +2067,5 @@ router.get(
 
 
 export default router;
+
 

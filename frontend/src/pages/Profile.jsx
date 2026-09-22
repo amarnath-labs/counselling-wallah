@@ -52,6 +52,7 @@ const BRANCHES = [
   'Electrical',
   'Mechanical',
   'Civil',
+  'Architecture',
 ];
 
 export default function Profile() {
@@ -74,6 +75,105 @@ export default function Profile() {
 
   const p =
     profile || {};
+
+  /*
+  |--------------------------------------------------------------------------
+  | PROGRAM TYPE
+  |--------------------------------------------------------------------------
+  |
+  | Engineering and Architecture are intentionally separate.
+  |--------------------------------------------------------------------------
+  */
+
+  const isArchitectureBranch = (
+    branch
+  ) =>
+    /architecture|planning|b\.?\s*arch|b\.?\s*plan/i.test(
+      String(
+        branch || ''
+      )
+    );
+
+
+  const selectedProgramType =
+    p?.programType ||
+    (
+      Array.isArray(
+        p?.branches
+      ) &&
+      p.branches.some(
+        isArchitectureBranch
+      )
+        ? 'architecture'
+        : 'engineering'
+    );
+
+
+  const visibleBranches =
+    selectedProgramType ===
+    'architecture'
+      ? BRANCHES.filter(
+          isArchitectureBranch
+        )
+      : BRANCHES.filter(
+          (branch) =>
+            !isArchitectureBranch(
+              branch
+            )
+        );
+
+
+  const selectProgramType = (
+    programType
+  ) => {
+    if (
+      programType ===
+      'architecture'
+    ) {
+      setProfile({
+        ...p,
+
+        programType:
+          'architecture',
+
+        branches: [
+          'Architecture',
+        ],
+      });
+
+      return;
+    }
+
+
+    const engineeringBranches =
+      Array.isArray(
+        p?.branches
+      )
+        ? p.branches.filter(
+            (branch) =>
+              !isArchitectureBranch(
+                branch
+              )
+          )
+        : [];
+
+
+    setProfile({
+      ...p,
+
+      programType:
+        'engineering',
+
+      branches:
+        engineeringBranches.length
+          ? engineeringBranches
+          : [
+              'CSE',
+              'IT',
+            ],
+    });
+  };
+
 
   /*
   |--------------------------------------------------------------------------
@@ -494,16 +594,156 @@ export default function Profile() {
           <h3>
             Preferences
           </h3>
+          {/* TRUMARG JOSAA CSAB SELECTOR */}
+          {
+            String(
+              selectedExamId ||
+              p?.examId ||
+              ''
+            )
+              .trim()
+              .toLowerCase() ===
+              'jee-main' && (
+              <div className="field">
+
+                <label>
+                  Counselling
+                </label>
+
+                <div className="chip-select">
+
+                  <button
+                    type="button"
+                    className={
+                      `chip ${
+                        (
+                          p?.counsellingMode ||
+                          'josaa'
+                        ) ===
+                        'josaa'
+                          ? 'on'
+                          : ''
+                      }`
+                    }
+                    onClick={() =>
+                      set(
+                        'counsellingMode',
+                        'josaa'
+                      )
+                    }
+                  >
+                    JoSAA
+                  </button>
+
+                  <button
+                    type="button"
+                    className={
+                      `chip ${
+                        p?.counsellingMode ===
+                        'csab'
+                          ? 'on'
+                          : ''
+                      }`
+                    }
+                    onClick={() =>
+                      set(
+                        'counsellingMode',
+                        'csab'
+                      )
+                    }
+                  >
+                    CSAB
+                  </button>
+
+                </div>
+
+                <div
+                  style={{
+                    marginTop: 7,
+                    fontSize: 11,
+                    color: '#64748B',
+                  }}
+                >
+                  {
+                    p?.counsellingMode ===
+                    'csab'
+                      ? 'Using CSAB Special cutoff data'
+                      : 'Using JoSAA cutoff data'
+                  }
+                </div>
+
+              </div>
+            )
+          }
+
+
 
           <div className="field">
 
             <label>
-              Preferred Branches
+              Engineering / Architecture
             </label>
 
             <div className="chip-select">
 
-              {BRANCHES.map(
+              <button
+                type="button"
+                className={
+                  `chip ${
+                    selectedProgramType ===
+                    'engineering'
+                      ? 'on'
+                      : ''
+                  }`
+                }
+                onClick={() =>
+                  selectProgramType(
+                    'engineering'
+                  )
+                }
+              >
+                Engineering
+              </button>
+
+
+              <button
+                type="button"
+                className={
+                  `chip ${
+                    selectedProgramType ===
+                    'architecture'
+                      ? 'on'
+                      : ''
+                  }`
+                }
+                onClick={() =>
+                  selectProgramType(
+                    'architecture'
+                  )
+                }
+              >
+                Architecture
+              </button>
+
+            </div>
+
+          </div>
+
+
+          <div className="field">
+
+            <label>
+              {
+                selectedProgramType ===
+                'architecture'
+                  ? 'Preferred Architecture Program'
+                  : 'Preferred Engineering Branches'
+              }
+            </label>
+
+            <div className="chip-select">
+
+              {visibleBranches.map(
                 (branch) => {
 
                   const selected =

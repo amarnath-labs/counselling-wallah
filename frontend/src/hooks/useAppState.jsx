@@ -1099,12 +1099,37 @@ export function AppStateProvider({
       };
 
 
-      const requestExamId =
+      /*
+      | TRUMARG COUNSELLING DATA SOURCE
+      |
+      | selected/base exam stays jee-main.
+      | Only the API data source switches to csab.
+      */
+
+      const baseExamId =
         String(
           p.examId || ''
         )
           .trim()
           .toLowerCase();
+
+
+      const counsellingMode =
+        String(
+          p.counsellingMode ||
+          'josaa'
+        )
+          .trim()
+          .toLowerCase();
+
+
+      const requestExamId =
+        baseExamId ===
+          'jee-main' &&
+        counsellingMode ===
+          'csab'
+          ? 'csab'
+          : baseExamId;
 
 
       if (
@@ -1133,7 +1158,9 @@ export function AppStateProvider({
         ...p,
 
         examId:
-          requestExamId,
+          baseExamId,
+
+        counsellingMode,
       };
 
 
@@ -1285,7 +1312,7 @@ export function AppStateProvider({
 
 
         setResultsExamId(
-          requestExamId
+          baseExamId
         );
 
 

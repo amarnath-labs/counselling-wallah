@@ -1,4 +1,5 @@
 ﻿import {
+
   useEffect,
   useMemo,
   useState,
@@ -12,6 +13,7 @@ import {
 import PageHero from '../components/PageHero';
 import CollegeCard from '../components/CollegeCard';
 import RecommendationSlide from '../components/RecommendationSlide';
+import ChoiceFillingPlan from '../components/ChoiceFillingPlan';
 import '../styles/recommendationSlide.css';
 
 import {
@@ -25,6 +27,7 @@ import {
 import {
   getMyPaymentAccess,
   normalizePaymentAccess,
+  startCashfreeCheckout,
 } from '../services/paymentService';
 
 import {
@@ -38,6 +41,11 @@ import {
 } from '../services/cwRecRecommendationService';
 
 import {
+  applyPersonalizedV2Shadow,
+} from '../services/personalizedRecommendationV2';
+
+
+import {
   getExamName,
 } from '../services/examService';
 
@@ -46,6 +54,7 @@ const EMPTY_ACCESS = {
   hasPaidPlan: false,
   collegePredictor: false,
   recommendation: false,
+  choiceFillingPlan: false,
   callSupport: false,
 };
 
@@ -68,10 +77,60 @@ export default function Results() {
   const nav =
     useNavigate();
 
+
+  /*
+  |--------------------------------------------------------------------------
+  | TRUMARG RECOMMENDATION COUNSELLING SOURCE
+  |--------------------------------------------------------------------------
+  |
+  | JEE Main remains the visible/base exam.
+  |
+  | JoSAA:
+  |   API examId = jee-main
+  |
+  | CSAB:
+  |   API examId = csab
+  |--------------------------------------------------------------------------
+  */
+
+  const baseRecommendationExamId =
+    String(
+      selectedExamId ||
+      profile?.examId ||
+      ''
+    )
+      .trim()
+      .toLowerCase();
+
+
+  const recommendationExamId =
+    baseRecommendationExamId ===
+      'jee-main' &&
+    String(
+      profile?.counsellingMode ||
+      'josaa'
+    )
+      .trim()
+      .toLowerCase() ===
+      'csab'
+      ? 'csab'
+      : baseRecommendationExamId;
+
+  /* TRUMARG CHOICE VIEW RESTORE */
   const [
     activeView,
     setActiveView,
-  ] = useState('search');
+  ] = useState(() => {
+    const requestedView =
+      new URLSearchParams(
+        window.location.search
+      ).get('view');
+
+    return requestedView ===
+      'choice-plan'
+        ? 'choice-plan'
+        : 'search';
+  });
 
   const [
     filters,
@@ -220,6 +279,24 @@ export default function Results() {
         ?.recommendation
     );
 
+/*
+|--------------------------------------------------------------------------
+| TRUMARG CHOICE-FILLING PLAN ACCESS
+|--------------------------------------------------------------------------
+|
+| Separate Rs 999 entitlement.
+| Rs 99 recommendation access does NOT automatically unlock this.
+|
+*/
+
+const hasChoicePlanAccess =
+  Boolean(
+    paymentAccess?.choiceFillingPlan ||
+    paymentAccess?.choicePlan ||
+    paymentAccess?.planId ===
+      'choice-plan'
+  );
+
   /*
   |--------------------------------------------------------------------------
   | EXISTING RESULT LOGIC - UNCHANGED
@@ -232,9 +309,17 @@ export default function Results() {
 
       async function loadCWRecommendations() {
         if (
-          activeView !== 'recommendation' ||
+          ![
+            'recommendation',
+            'choice-plan',
+          ].includes(
+            activeView
+          ) ||
           accessLoading ||
-          !hasRecommendationAccess ||
+          !(
+            hasRecommendationAccess ||
+            hasChoicePlanAccess
+          ) ||
           !profile?.rank
         ) {
           return;
@@ -254,8 +339,7 @@ export default function Results() {
                 ...profile,
 
                 examId:
-                  selectedExamId ||
-                  profile?.examId,
+                  recommendationExamId,
               },
               {
                 limit: 100,
@@ -267,12 +351,75 @@ export default function Results() {
             return;
           }
 
-          setRecommendationRows(
+          const rawRecommendationRows =
             Array.isArray(
               response?.data
             )
               ? response.data
-              : []
+              : [];
+
+
+          const v2ShadowRows =
+            applyPersonalizedV2Shadow(
+              rawRecommendationRows,
+              {
+                ...profile,
+
+                examId:
+                  selectedExamId || profile?.examId,
+              }
+            );
+
+
+          console.log(
+            "[TRUMARG-V2-REAL]",
+            {
+              rawCount:
+                rawRecommendationRows.length,
+
+              v2Count:
+                Array.isArray(
+                  v2ShadowRows
+                )
+                  ? v2ShadowRows.length
+                  : null,
+
+              firstRow:
+                v2ShadowRows?.[0] || null,
+
+              firstPersonalizedV2:
+                v2ShadowRows?.[0]
+                  ?.personalizedV2 ||
+                null,
+
+              firstRawScore:
+                v2ShadowRows?.[0]
+                  ?.personalizedV2
+                  ?.rawScore ??
+                null,
+
+              firstRankingScore:
+                v2ShadowRows?.[0]
+                  ?.personalizedV2
+                  ?.rankingScore ??
+                null,
+
+              firstCoverage:
+                v2ShadowRows?.[0]
+                  ?.personalizedV2
+                  ?.coverage ??
+                null,
+
+              firstPremiumScore:
+                v2ShadowRows?.[0]
+                  ?.premium
+                  ?.score ??
+                null,
+            }
+          );
+
+          setRecommendationRows(
+            v2ShadowRows
           );
 
           setRecommendationMeta(
@@ -310,6 +457,7 @@ export default function Results() {
       activeView,
       accessLoading,
       hasRecommendationAccess,
+      hasChoicePlanAccess,
       profile,
       selectedExamId,
     ]
@@ -736,7 +884,77 @@ export default function Results() {
                 </span>
               </span>
             </button>
-          </aside>
+          
+
+            {/* ==========================================
+                TRUMARG CHOICE PLAN TAB
+            ========================================== */}
+
+            <button
+              type="button"
+              onClick={() =>
+                setActiveView(
+                  'choice-plan'
+                )
+              }
+              style={
+                tabButtonStyle(
+                  activeView ===
+                    'choice-plan',
+                  'green'
+                )
+              }
+            >
+              <span
+                style={
+                  tabIconStyle
+                }
+              >
+                PLAN
+              </span>
+
+              <span>
+                <strong
+                  style={{
+                    display:
+                      'block',
+                    marginBottom:
+                      4,
+                  }}
+                >
+                  Choice-Filling Plan
+                </strong>
+
+                <small>
+                  Ordered counselling list
+                </small>
+
+                <span
+                  style={{
+                    display:
+                      'inline-block',
+                    marginTop:
+                      7,
+                    padding:
+                      '2px 7px',
+                    borderRadius:
+                      999,
+                    background:
+                      '#EAF8F1',
+                    color:
+                      '#166534',
+                    fontSize:
+                      10,
+                    fontWeight:
+                      800,
+                  }}
+                >
+                  ₹999
+                </span>
+              </span>
+            </button>
+
+</aside>
 
           {/* ==================================================
               SLIDE CONTENT
@@ -990,6 +1208,94 @@ export default function Results() {
                   )}
                 </section>
               )}
+
+              {/* ==============================================
+                  TRUMARG CHOICE PLAN VIEW
+              ============================================== */}
+
+              {activeView ===
+                'choice-plan' && (
+                <section>
+                  <ChoiceFillingPlan
+                    rows={
+                      recommendationRows
+                        .length
+                        ? recommendationRows
+                        : rows
+                    }
+
+                    profile={{
+                      ...profile,
+
+                      rank:
+                        Number(
+                          profile?.rank
+                        ) ||
+                        null,
+                    }}
+
+                    hasPlanAccess={
+                      hasChoicePlanAccess
+                    }
+
+                    isLoggedIn={
+                      Boolean(
+                        user
+                      )
+                    }
+
+                    
+                    onUnlock={async () => {
+                      if (!user) {
+                        nav(
+                          '/login?redirect=' +
+                          encodeURIComponent(
+                            '/results?view=choice-plan'
+                          )
+                        );
+
+                        return;
+                      }
+
+                      try {
+                        sessionStorage.setItem(
+                          'trumarg-payment-return',
+                          '/results?view=choice-plan'
+                        );
+
+                        await startCashfreeCheckout(
+                          'choice-plan'
+                        );
+                      } catch (error) {
+                        console.error(
+                          '[CHOICE PLAN PAYMENT ERROR]',
+                          error
+                        );
+
+                        window.alert(
+                          error?.message ||
+                          'Unable to start payment. Please try again.'
+                        );
+                      }
+                    }}
+
+                    onLogin={() =>
+                      nav(
+                        '/login?redirect=/results'
+                      )
+                    }
+
+                    dataAsOf={
+                      recommendationMeta
+                        ?.dataAsOf ||
+                      recommendationMeta
+                        ?.year ||
+                      null
+                    }
+                  />
+                </section>
+              )}
+
             </div>
           </main>
         </div>
@@ -1014,7 +1320,7 @@ export default function Results() {
             .container.section aside {
               position: static !important;
               display: grid !important;
-              grid-template-columns: 1fr 1fr !important;
+              grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
               gap: 8px !important;
             }
           }
@@ -1288,7 +1594,7 @@ function PremiumRecommendationPreview({
                       lineHeight: 1.45,
                     }}
                   >
-                    âœ“ {reason}
+                    ✓ {reason}
                   </p>
                 ))
             ) : (
@@ -1603,7 +1909,7 @@ function PremiumUnlock({
         <PremiumFeature
           icon="ðŸ’Ž"
           title="Exact Match Score"
-          text="Unlock the complete 0â€“100 personalized match score."
+          text="Unlock the complete 0–100 personalized match score."
         />
 
         <PremiumFeature
@@ -1705,4 +2011,5 @@ function Pill({
     </div>
   );
 }
+
 
