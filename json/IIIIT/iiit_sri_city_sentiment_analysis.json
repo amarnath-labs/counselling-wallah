@@ -1,0 +1,102 @@
+{
+  "institution": "IIIT Sri City (Indian Institute of Information Technology, Sri City)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 11,
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.5,
+    "confidence": "medium",
+    "overall_rating_out_of_5": 4.1
+  },
+  "category_ratings": {
+    "college_infrastructure": 3.5,
+    "academics": 4.2,
+    "placements": 3.9,
+    "value_for_money": 2.3,
+    "campus_life": 3.3
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 55,
+    "neutral_percent": 22,
+    "negative_percent": 23
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Academics",
+      "sentiment": "Strongly Positive",
+      "notes": "Highest-rated category (4.2/5); rigorous, well-structured curriculum with strong emphasis on core computer science subjects; several professors described as excellent and genuinely supportive."
+    },
+    {
+      "theme": "Placements",
+      "sentiment": "Positive",
+      "notes": "Around 92-93% of students placed, especially in CS backgrounds; average packages reported in the 15-18 LPA range in some comparisons; strong industry connections noted for a relatively new institute."
+    },
+    {
+      "theme": "Modern (if minimal) Infrastructure",
+      "sentiment": "Moderately Positive",
+      "notes": "Classrooms equipped with projectors and ACs; academic block well maintained; clean, modern, minimal aesthetic even while campus is still developing."
+    },
+    {
+      "theme": "Calm, Focused Environment",
+      "sentiment": "Positive",
+      "notes": "Quiet, peaceful campus located inside Sri City away from urban noise, helping students focus on studies and projects."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Value for Money",
+      "sentiment": "Strongly Negative",
+      "notes": "Lowest-rated category by a wide margin (2.3/5); fees seen as high relative to facilities, with students feeling some things 'do not match the amount we pay.'"
+    },
+    {
+      "theme": "Campus Development Stage",
+      "sentiment": "Negative",
+      "notes": "Campus still developing; described as lacking fancy buildings, with limited sports and recreational facilities; some reviews rate infrastructure as merely average."
+    },
+    {
+      "theme": "Isolation",
+      "sentiment": "Mixed",
+      "notes": "Location inside Sri City, away from a big city, makes campus life feel isolated to some students, even though it aids focus."
+    },
+    {
+      "theme": "Faculty Consistency",
+      "sentiment": "Mixed",
+      "notes": "Faculty quality described as mixed — some genuinely good and supportive, others reported as relying heavily on reading slides with less engagement."
+    },
+    {
+      "theme": "Institute Youth/Reputation Building",
+      "sentiment": "Neutral/Mixed",
+      "notes": "As a newer institute, it is still building its industry reputation and position relative to older, more established IIITs like IIIT Pune."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Balanced academics with decent placements and calm campus — modern but minimal classrooms, 92-93% students placed",
+      "sentiment": "Positive",
+      "score": 0.65
+    },
+    {
+      "review_snippet": "For me the value for money is medium, fees are on the higher side, some things do not match the amount we pay",
+      "sentiment": "Negative",
+      "score": -0.5
+    },
+    {
+      "review_snippet": "Quiet campus, strong academics, growth depends on self effort — infrastructure decent but not extraordinary",
+      "sentiment": "Mixed/Positive",
+      "score": 0.3
+    },
+    {
+      "review_snippet": "It was a decent experience — average college in terms of infrastructure, nothing great, wouldn't give it above 3",
+      "sentiment": "Negative",
+      "score": -0.3
+    },
+    {
+      "review_snippet": "IIIT Sri City is a newer institute with modern infrastructure, strong industry connection, and excellent placements around 15-18 LPA average",
+      "sentiment": "Positive",
+      "score": 0.75
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Sri City is positive overall, anchored by strong academics and solid placement outcomes for a relatively young institute. However, value for money stands out as a clear weak point, alongside a still-developing campus and some inconsistency in faculty engagement — patterns common among newer-generation IIITs that are still building out infrastructure and industry reputation.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study."
+}

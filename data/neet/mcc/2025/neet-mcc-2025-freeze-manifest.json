@@ -1,0 +1,274 @@
+{
+  "exam": "NEET UG",
+  "counselling": "MCC",
+  "year": 2025,
+  "status": "complete-frozen",
+  "frozenAt": "2026-09-23T18:30:38.862Z",
+  "validationPassed": true,
+  "continuity": {
+    "round1": {
+      "rows": 26608,
+      "unique": 26608,
+      "expectedLast": 26608,
+      "missing": [],
+      "complete": true
+    },
+    "round2": {
+      "rows": 35551,
+      "unique": 35551,
+      "expectedLast": 35551,
+      "missing": [],
+      "complete": true
+    }
+  },
+  "expectedCounts": {
+    "rows": {
+      "round-1-rows.json": 26608,
+      "round-2-rows.json": 35551,
+      "round-3-rows.json": 39479
+    },
+    "orcr": {
+      "round-1-orcr.json": 3113,
+      "round-2-orcr.json": 2838,
+      "round-3-orcr.json": 2439,
+      "stray-orcr.json": 617,
+      "special-stray-orcr.json": 173
+    }
+  },
+  "rejectFiles": [
+    {
+      "file": "round-1-rejected.json",
+      "count": 0
+    },
+    {
+      "file": "round-2-rejected.json",
+      "count": 0
+    },
+    {
+      "file": "round-3-rejected.json",
+      "count": 0
+    },
+    {
+      "file": "special-stray-rejected.json",
+      "count": 0
+    },
+    {
+      "file": "stray-rejected.json",
+      "count": 0
+    }
+  ],
+  "checks": [
+    {
+      "check": "round-1-rows.json count",
+      "expected": 26608,
+      "actual": 26608,
+      "passed": true
+    },
+    {
+      "check": "round-2-rows.json count",
+      "expected": 35551,
+      "actual": 35551,
+      "passed": true
+    },
+    {
+      "check": "round-3-rows.json count",
+      "expected": 39479,
+      "actual": 39479,
+      "passed": true
+    },
+    {
+      "check": "round-1-orcr.json count",
+      "expected": 3113,
+      "actual": 3113,
+      "passed": true
+    },
+    {
+      "check": "round-2-orcr.json count",
+      "expected": 2838,
+      "actual": 2838,
+      "passed": true
+    },
+    {
+      "check": "round-3-orcr.json count",
+      "expected": 2439,
+      "actual": 2439,
+      "passed": true
+    },
+    {
+      "check": "stray-orcr.json count",
+      "expected": 617,
+      "actual": 617,
+      "passed": true
+    },
+    {
+      "check": "special-stray-orcr.json count",
+      "expected": 173,
+      "actual": 173,
+      "passed": true
+    },
+    {
+      "check": "Round 1 continuity",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Round 2 continuity",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "round-1-rejected.json zero",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "round-2-rejected.json zero",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "round-3-rejected.json zero",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "special-stray-rejected.json zero",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "check": "stray-rejected.json zero",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    }
+  ],
+  "files": [
+    {
+      "name": "round-1-orcr.json",
+      "bytes": 1192726,
+      "sha256": "740703b5f8c16ba33a6bd235745ba2b71bb77d24f480ffa830805df6836afaba"
+    },
+    {
+      "name": "round-1-rejected.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "name": "round-1-rows.json",
+      "bytes": 11842547,
+      "sha256": "8dcec234358c7752c032bc3bdae0a795fafd903783b3f28dda45847f5ce138cf"
+    },
+    {
+      "name": "round-1-summary.json",
+      "bytes": 691,
+      "sha256": "729f312c7e3736f238c4b4d858f50d7ba920acb83d124f42349931692e8f4651"
+    },
+    {
+      "name": "round-2-orcr.json",
+      "bytes": 1310163,
+      "sha256": "887cba221d022ca4fb1829bd22f51314e4b94af024b429eedec9201796f90a81"
+    },
+    {
+      "name": "round-2-quota-dictionary.json",
+      "bytes": 1133,
+      "sha256": "67c10b22d0c1e1415db8b941533cc50f21b30e89ab407aa34c5235e853fd7b0a"
+    },
+    {
+      "name": "round-2-rejected.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "name": "round-2-rows.json",
+      "bytes": 20361007,
+      "sha256": "9f475963847c7fbf05bad08fdd28bf7132c7efaa8ad7fa749e7ed683d734c948"
+    },
+    {
+      "name": "round-2-summary.json",
+      "bytes": 875,
+      "sha256": "060506a910abcb168fdf947ca54ce5e82042c6a3c7c1d84cbeb8a29482016a5b"
+    },
+    {
+      "name": "round-2-validation.json",
+      "bytes": 366,
+      "sha256": "65bff8661d82ccb0eb0cb97cf7aa2e878bd3522e510b2ca80c96c002bae9b8aa"
+    },
+    {
+      "name": "round-3-orcr.json",
+      "bytes": 1010683,
+      "sha256": "df8437ab125fb4452181f55bd01d8301611eb666f0d9f7f9c87746a855a954d5"
+    },
+    {
+      "name": "round-3-rejected.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "name": "round-3-rows.json",
+      "bytes": 31232039,
+      "sha256": "fb957656d48744eb3395a0bfe36b431eee754609d0aa7594ebab006169e2a948"
+    },
+    {
+      "name": "round-3-summary.json",
+      "bytes": 1361,
+      "sha256": "e87a1d163e031199f23270f1914ea9d87e3fa175da5dd934c12f4916dcfced84"
+    },
+    {
+      "name": "round-3-validation.json",
+      "bytes": 562,
+      "sha256": "c9e0719ec11930c6573fc60ff5e15ac367a32172f1fcc777985de46dc9ec26f5"
+    },
+    {
+      "name": "simple-rounds-report.json",
+      "bytes": 2152,
+      "sha256": "2fced1d89b37abf2966c0ae58863bb6909c29f654875284b0605d902298845ef"
+    },
+    {
+      "name": "special-stray-orcr.json",
+      "bytes": 69332,
+      "sha256": "b8d77cde1a52cc06c4b67f0e75fe08d0f33326dea768288516717867fe3379c2"
+    },
+    {
+      "name": "special-stray-rejected.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "name": "special-stray-rows.json",
+      "bytes": 120699,
+      "sha256": "a7103ce5fed0d7b87149f5d32f943d45fdb2210658c0b77c608070111cbbf66c"
+    },
+    {
+      "name": "special-stray-summary.json",
+      "bytes": 547,
+      "sha256": "b854b9de7f1587ce91be22cf798f436f26cb20cf65d6b2787b419ae6f4127347"
+    },
+    {
+      "name": "stray-orcr.json",
+      "bytes": 241275,
+      "sha256": "a5dbe82fa23a8e95b8c3a03da2ce6fbe3977f1ac85b07d8d62f19d669db285e9"
+    },
+    {
+      "name": "stray-rejected.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "name": "stray-rows.json",
+      "bytes": 508583,
+      "sha256": "9babac569261bc2fbaff22263a5033d4e1a403564e738afc2ab54ff6f80d0277"
+    },
+    {
+      "name": "stray-summary.json",
+      "bytes": 557,
+      "sha256": "66c0af15bb7e9275a3e0275dccfff77a42e2d0cb9871a8a507ccfef6193758ed"
+    }
+  ]
+}

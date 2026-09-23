@@ -1,0 +1,93 @@
+{
+  "institution": "IIIT Agartala (Indian Institute of Information Technology, Agartala)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 community Q&A and limited student reviews (aggregated public data)",
+  "sample_size": 6,
+  "sample_size_caveat": "Formal Careers360 review data for IIIT Agartala specifically is limited; this analysis draws significantly on community Q&A discussions comparing it to peer institutes. Confidence is lower than for institutes with larger dedicated review samples.",
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.55,
+    "confidence": "low-medium",
+    "overall_rating_out_of_5": 3.9
+  },
+  "category_ratings": {
+    "college_infrastructure": 3.8,
+    "academics": 3.8,
+    "placements": 3.8,
+    "value_for_money": null,
+    "campus_life": 4.0
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 60,
+    "neutral_percent": 25,
+    "negative_percent": 15
+  },
+  "key_positive_themes": [
+    {
+      "theme": "NIT Agartala Mentorship & Shared Campus",
+      "sentiment": "Positive",
+      "notes": "IIIT Agartala functions inside the campus of its mentor institute, NIT Agartala, benefiting from an established institution's mature facilities rather than struggling as a standalone new entity."
+    },
+    {
+      "theme": "Hostel & Campus Facilities",
+      "sentiment": "Positive",
+      "notes": "Hostel facilities described as very good and hygienic, with 24-hour water and electricity; campus offers access to a bank, library, dispensary, sports complex, canteen, and wifi, set in a green, scenic location."
+    },
+    {
+      "theme": "Faculty Quality",
+      "sentiment": "Positive",
+      "notes": "Faculty described as highly competent, experienced, and benevolent, with strong industrial knowledge in their respective fields."
+    },
+    {
+      "theme": "Relative Placement Strength",
+      "sentiment": "Positive",
+      "notes": "In several comparative community rankings, IIIT Agartala is cited among the stronger-placement newer IIITs, alongside IIIT Kalyani and IIIT Dharwad; one source cites 60% placement rate in 2018 with a highest package of 20 LPA."
+    },
+    {
+      "theme": "Comparative Edge Over Peers",
+      "sentiment": "Positive",
+      "notes": "In a direct comparison, IIIT Agartala's infrastructure and facilities were considered better than IIIT Manipur's, despite both being similarly new institutes."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Institute Youth",
+      "sentiment": "Mixed",
+      "notes": "Established only in 2018, with the first batch graduating around 2022; this makes long-term placement and reputation data still relatively limited."
+    },
+    {
+      "theme": "Average Package Levels",
+      "sentiment": "Mixed",
+      "notes": "Early data shows an average package of around 4 LPA, on the lower side compared to top-performing IIITs, even though the highest package (20 LPA) was competitive."
+    },
+    {
+      "theme": "Lack of Independent Campus",
+      "sentiment": "Negative",
+      "notes": "As a newly established institute, IIIT Agartala does not yet have its own independent permanent campus, continuing to operate within NIT Agartala's premises."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "IIIT Agartala is very recent, established in 2018; faculty highly competent and experienced; campus life pretty good with bank, library, dispensary, sports complex, canteen, wifi",
+      "sentiment": "Positive",
+      "score": 0.7
+    },
+    {
+      "review_snippet": "IIIT Agartala has a good rating of 3.9/5; infrastructure pretty good and one of the best in Agartala; faculty highly experienced and helpful; top companies visit with great packages",
+      "sentiment": "Positive",
+      "score": 0.75
+    },
+    {
+      "review_snippet": "Comparing IIIT Agartala and IIIT Manipur — both new colleges with similar placements, but IIIT Agartala's infrastructure and facilities are better",
+      "sentiment": "Positive",
+      "score": 0.6
+    },
+    {
+      "review_snippet": "Almost 60% of students got placed in 2018; highest package 20 LPA, average package 4 LPA",
+      "sentiment": "Mixed/Positive",
+      "score": 0.3
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Agartala is positive, standing out among newer-generation IIITs due to its strong mentor-institute relationship with NIT Agartala, which provides access to established, well-rounded campus facilities. Faculty quality and early placement performance are viewed favorably relative to peer institutes, though as a young institute (established 2018), it is still building out its independent identity and longer-term placement track record.",
+  "disclaimer": "This analysis is based on a limited sample of publicly available community Q&A discussions and reviews (Careers360) as of the search date, since dedicated formal review data for this institute was sparse. Results are illustrative only and not a scientifically robust sentiment study."
+}

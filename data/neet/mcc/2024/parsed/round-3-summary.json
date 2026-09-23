@@ -1,0 +1,50 @@
+{
+  "segmentedRows": 36761,
+  "parsedRows": 36761,
+  "rejectedRows": 0,
+  "firstRankRaw": "1.01",
+  "lastRankRaw": "1395905",
+  "decimalSourceRanks": 18,
+  "round3StatusCounts": {
+    "Did not opt for Upgradation": 12682,
+    "Did not fill up fresh choices.": 11027,
+    "No Upgradation": 4199,
+    "Not Allotted": 2271,
+    "Upgraded": 2536,
+    "Fresh Allotted in 3nd Round": 4046
+  },
+  "rowsWithRound3Seat": 6582,
+  "rowsWithoutRound3Seat": 30179,
+  "round3CourseCounts": {
+    "MBBS": 5749,
+    "BDS": 636,
+    "B.Sc. Nursing": 197
+  },
+  "round3AllottedCategoryCounts": {
+    "Open": 3279,
+    "OBC": 1453,
+    "EWS": 502,
+    "SC": 844,
+    "ST": 421,
+    "OBC PwD": 31,
+    "Open PwD": 45,
+    "EWS PwD": 2,
+    "ST PwD": 2,
+    "SC PwD": 3
+  },
+  "round3CandidateCategoryCounts": {
+    "General": 1951,
+    "OBC": 2586,
+    "EWS": 614,
+    "SC": 913,
+    "ST": 434,
+    "OBC PwD": 43,
+    "NULL": 1,
+    "General PwD": 32,
+    "EWS PwD": 3,
+    "ST PwD": 2,
+    "SC PwD": 3
+  },
+  "cwRankRows": 1,
+  "orcrGroups": 3182
+}

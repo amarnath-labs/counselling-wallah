@@ -1,0 +1,93 @@
+{
+  "institution": "IIIT Una (Indian Institute of Information Technology, Una)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 4,
+  "sample_size_caveat": "Sample size is small (4 reviews), so confidence in this sentiment analysis is moderate rather than high.",
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.68,
+    "confidence": "medium",
+    "overall_rating_out_of_5": 4.0
+  },
+  "category_ratings": {
+    "college_infrastructure": 3.8,
+    "academics": 3.5,
+    "placements": 4.0,
+    "value_for_money": 3.8,
+    "campus_life": 4.4
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 68,
+    "neutral_percent": 20,
+    "negative_percent": 12
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Own Permanent Campus",
+      "sentiment": "Strongly Positive",
+      "notes": "Unlike several newer IIITs (Vadodara, Kota, Trichy), IIIT Una already has its own permanent campus located in Saloh, Una, with dedicated admin and academic blocks."
+    },
+    {
+      "theme": "Placements (Rapid Growth)",
+      "sentiment": "Strongly Positive",
+      "notes": "Average package rose from 12.1 LPA (2022) to 15 LPA (2023); highest package reached 46.5 LPA on-campus and 60 LPA off-campus in 2023; described by a reviewer as 'the fastest growing IIIT.'"
+    },
+    {
+      "theme": "Sports & Campus Facilities",
+      "sentiment": "Positive",
+      "notes": "Extensive sports infrastructure including athletics track, football and cricket grounds, volleyball, table tennis, lawn tennis, basketball, badminton courts, plus indoor chess and carrom facilities."
+    },
+    {
+      "theme": "Campus Life",
+      "sentiment": "Strongly Positive",
+      "notes": "Highest-rated category (4.4/5); students describe a vibrant environment with cultural and technical events, auditoriums, and social development opportunities."
+    },
+    {
+      "theme": "Faculty Qualifications",
+      "sentiment": "Positive",
+      "notes": "Student-to-teacher ratio around 15:1, with a majority of faculty holding PhD degrees; faculty described as supportive and proficient."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Academics - Teaching Quality",
+      "sentiment": "Mixed",
+      "notes": "Lowest-rated category (3.5/5); quality of teaching described as only 'about average' despite well-qualified faculty."
+    },
+    {
+      "theme": "Exam Structure",
+      "sentiment": "Mixed",
+      "notes": "Frequent CT1, CT2, and end-semester exam cycle described by some students as making the semester hectic."
+    },
+    {
+      "theme": "Hostel Water-logging",
+      "sentiment": "Minor Negative",
+      "notes": "Occasional water-clogging in hostel areas reported during the rainy season."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "IIIT Una is the fastest growing IIIT, a must join college — own permanent campus, state-of-the-art labs, average package 15 LPA in 2023",
+      "sentiment": "Positive",
+      "score": 0.9
+    },
+    {
+      "review_snippet": "Giving my college a good review as it is growing each year — decent academics, placements on the rise, average package 15 LPA",
+      "sentiment": "Positive",
+      "score": 0.75
+    },
+    {
+      "review_snippet": "Just sometimes in rainy season water clogs in hostel",
+      "sentiment": "Negative",
+      "score": -0.2
+    },
+    {
+      "review_snippet": "Mid term end term process make things hectic, but overall good when you get support",
+      "sentiment": "Mixed",
+      "score": 0.2
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Una is strongly positive and stands out among the newer-generation IIITs for already having its own permanent campus and a rapidly improving placement trajectory. Campus life and sports facilities are particular strengths, while academics/teaching quality is the relative weak point, alongside minor infrastructure issues like seasonal hostel water-logging.",
+  "disclaimer": "This analysis is based on a small sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study."
+}

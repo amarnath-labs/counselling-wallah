@@ -333,7 +333,7 @@ export default function Results() {
 
               <span className="count">
                 {group.length}{' '}
-                options Â·{' '}
+                options -{' '}
                 {
                   bucketMeta[
                     bucket
@@ -467,7 +467,7 @@ export default function Results() {
           ).toLocaleString(
             'en-IN'
           )}` +
-          ` Â· Category: ` +
+          ` - Category: ` +
           `${profile?.category ||
             'General'}`
         }
@@ -1159,7 +1159,7 @@ function PremiumRecommendationPreview({
                       lineHeight: 1.45,
                     }}
                   >
-                    âœ“ {reason}
+                    ✓ {reason}
                   </p>
                 ))
             ) : (
@@ -1291,7 +1291,7 @@ function PremiumRecommendationPreview({
                       fontSize: 9,
                     }}
                   >
-                    Â· {weight}
+                    - {weight}
                   </small>
                 </span>
 
@@ -1403,7 +1403,7 @@ function PremiumLockedRow({
 
         {weight && (
           <small>
-            {' '}Â· {weight}
+            {' '}- {weight}
           </small>
         )}
 
@@ -1474,7 +1474,7 @@ function PremiumUnlock({
         <PremiumFeature
           icon="ðŸ’Ž"
           title="Exact Match Score"
-          text="Unlock the complete 0â€“100 personalized match score."
+          text="Unlock the complete 0–100 personalized match score."
         />
 
         <PremiumFeature

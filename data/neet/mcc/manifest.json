@@ -1,0 +1,42 @@
+{
+  "exam": "NEET UG",
+  "source": "Medical Counselling Committee (MCC)",
+  "fetchedAt": "2026-09-23T03:24:17.820Z",
+  "years": {
+    "2024": {
+      "status": "pending-manifest",
+      "documents": []
+    },
+    "2025": {
+      "status": "pending-manifest",
+      "documents": []
+    },
+    "2026": {
+      "status": "partial",
+      "documents": [
+        {
+          "year": 2026,
+          "round": "round-1",
+          "title": "Final Allotment Result for Round 1 of UG Counselling 2026",
+          "documentUrl": "https://mcc.nic.in/document/final-allotment-result-for-round-1-of-ug-counselling-2026/",
+          "pdfUrl": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/08/20260824606525705.pdf",
+          "status": "downloaded",
+          "localFile": "C:\\Users\\amarn\\Downloads\\Counselling-Wallah phase-2\\data\\neet\\mcc\\2026\\raw\\round-1.pdf",
+          "bytes": 4592896,
+          "error": null
+        },
+        {
+          "year": 2026,
+          "round": "round-2",
+          "title": "Final Result UG Round 2 Counselling 2026 dated 12.09.2026",
+          "documentUrl": "https://mcc.nic.in/document/final-result-ug-round-2-counselling-2026-dated-12-09-2026/",
+          "pdfUrl": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/09/20260912351980769.pdf",
+          "status": "downloaded",
+          "localFile": "C:\\Users\\amarn\\Downloads\\Counselling-Wallah phase-2\\data\\neet\\mcc\\2026\\raw\\round-2.pdf",
+          "bytes": 9121674,
+          "error": null
+        }
+      ]
+    }
+  }
+}

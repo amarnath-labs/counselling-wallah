@@ -1,0 +1,36 @@
+{
+  "completed": {
+    "assam-university-silchar": {
+      "collegeName": "Assam University, Silchar",
+      "status": "evidence-building",
+      "reviews": 0,
+      "at": "2026-09-22T08:08:06.839Z"
+    },
+    "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior": {
+      "collegeName": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+      "status": "evidence-building",
+      "reviews": 0,
+      "at": "2026-09-22T08:08:07.863Z"
+    },
+    "birla-institute-of-technology-deoghar-off-campus": {
+      "collegeName": "Birla Institute of Technology, Deoghar Off-Campus",
+      "status": "evidence-building",
+      "reviews": 0,
+      "at": "2026-09-22T08:08:08.904Z"
+    },
+    "birla-institute-of-technology-mesra-ranchi": {
+      "collegeName": "Birla Institute of Technology, Mesra, Ranchi",
+      "status": "evidence-building",
+      "reviews": 0,
+      "at": "2026-09-22T08:08:09.945Z"
+    },
+    "birla-institute-of-technology-patna-off-campus": {
+      "collegeName": "Birla Institute of Technology, Patna Off-Campus",
+      "status": "evidence-building",
+      "reviews": 0,
+      "at": "2026-09-22T08:08:10.977Z"
+    }
+  },
+  "failed": {},
+  "updatedAt": "2026-09-22T08:08:10.978Z"
+}

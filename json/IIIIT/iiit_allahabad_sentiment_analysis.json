@@ -1,0 +1,92 @@
+{
+  "institution": "IIIT Allahabad (Indian Institute of Information Technology, Allahabad)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews (aggregated public review data)",
+  "sample_size": 84,
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.72,
+    "confidence": "high",
+    "overall_rating_out_of_5": 4.5
+  },
+  "category_ratings": {
+    "college_infrastructure": 4.4,
+    "academics": 4.1,
+    "placements": 4.3,
+    "value_for_money": 3.3,
+    "campus_life": 4.3
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 68,
+    "neutral_percent": 20,
+    "negative_percent": 12
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Placements",
+      "sentiment": "Positive",
+      "notes": "Strong placement record; average package reported higher than some IITs; 100% B.Tech placement in 2022; companies like Google, Amazon, Sumo Logic, Goldman Sachs visit campus."
+    },
+    {
+      "theme": "Infrastructure",
+      "sentiment": "Positive",
+      "notes": "Air-conditioned classrooms, well-equipped labs, hostels, mess, library, and campus-wide wifi frequently praised."
+    },
+    {
+      "theme": "Faculty & Academics",
+      "sentiment": "Positive",
+      "notes": "Faculty described as well-qualified; curriculum considered strong and updated for most UG branches like ECE, IT."
+    },
+    {
+      "theme": "Coding Culture",
+      "sentiment": "Positive",
+      "notes": "Students highlight a strong coding environment and culture throughout the year."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Value for Money",
+      "sentiment": "Negative",
+      "notes": "Lowest-rated category (3.3/5); some students feel fees are high relative to facilities offered."
+    },
+    {
+      "theme": "PhD/Research Support",
+      "sentiment": "Negative",
+      "notes": "PhD scholars report inadequate research support, citing outdated curriculum expectations and lack of basic tools/subscriptions."
+    },
+    {
+      "theme": "Sports Facilities",
+      "sentiment": "Mixed/Negative",
+      "notes": "Limited to a few sports (cricket, football, volleyball); some hostels lack extensive facilities."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Top IIIT, it developed my character a lot - strong infra, good academics, high average package",
+      "sentiment": "Positive",
+      "score": 0.85
+    },
+    {
+      "review_snippet": "The rise and fall of IIIT Allahabad - PhD curriculum not fully updated, no research subscription support",
+      "sentiment": "Negative",
+      "score": -0.4
+    },
+    {
+      "review_snippet": "Excellent coding environment and culture",
+      "sentiment": "Positive",
+      "score": 0.9
+    },
+    {
+      "review_snippet": "Infrastructure just average, hostels lack facilities, but academics among best in country",
+      "sentiment": "Mixed",
+      "score": 0.3
+    },
+    {
+      "review_snippet": "90% ECE placement in 2022, average salary ~15 LPA, top package 82 LPA",
+      "sentiment": "Positive",
+      "score": 0.88
+    }
+  ],
+  "conclusion": "Overall sentiment toward IIIT Allahabad is strongly positive, driven primarily by its placement outcomes, infrastructure, and academic reputation as a top-tier IIIT. The main recurring criticism relates to perceived value for money and gaps in PhD/research-level support.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study."
+}

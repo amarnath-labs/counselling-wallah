@@ -1,0 +1,102 @@
+{
+  "institution": "IIIT Kalyani (Indian Institute of Information Technology, Kalyani)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 10,
+  "overall_sentiment": {
+    "label": "Moderately Positive",
+    "score": 0.42,
+    "confidence": "medium-high",
+    "overall_rating_out_of_5": 3.8
+  },
+  "category_ratings": {
+    "college_infrastructure": 3.4,
+    "academics": 3.5,
+    "placements": 3.2,
+    "value_for_money": 2.5,
+    "campus_life": 3.3
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 48,
+    "neutral_percent": 26,
+    "negative_percent": 26
+  },
+  "key_positive_themes": [
+    {
+      "theme": "CSE Placements",
+      "sentiment": "Positive",
+      "notes": "One review cited ~92% on-campus placement rate in a recent phase (64 of 70 registered students placed); average package around 10.22 LPA and highest 15 LPA for that cohort; considered among stronger-placement IIITs in some comparative rankings alongside IIIT Agartala and IIIT Dharwad."
+    },
+    {
+      "theme": "Classroom Infrastructure",
+      "sentiment": "Positive",
+      "notes": "Classrooms equipped with digital boards, projectors, and air conditioning; individual bench/table seating noted positively."
+    },
+    {
+      "theme": "Faculty Quality",
+      "sentiment": "Positive",
+      "notes": "Faculty members described as highly qualified; curriculum aligned with industry standards and structured to allow time for projects."
+    },
+    {
+      "theme": "Scholarships",
+      "sentiment": "Positive",
+      "notes": "Multiple national and state-level scholarships available to help offset otherwise high fees."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "No Permanent Campus",
+      "sentiment": "Negative",
+      "notes": "As a relatively new institute, IIIT Kalyani lacks its own permanent campus; classes run from WEBEL IT Park, Kalyani; permanent campus (around 50 acres) still under construction."
+    },
+    {
+      "theme": "Value for Money",
+      "sentiment": "Strongly Negative",
+      "notes": "Lowest-rated category (2.5/5); total course fees around 12 lakh (some reports ~11 lakh including hostel/mess), seen as high relative to a temporary, third-party campus setup."
+    },
+    {
+      "theme": "Mess Services",
+      "sentiment": "Negative",
+      "notes": "General student consensus reported as negative regarding mess food quality in some reviews, despite other reviews calling it hygienic — indicating inconsistency."
+    },
+    {
+      "theme": "Placements (Overall/Non-CS)",
+      "sentiment": "Mixed",
+      "notes": "Placements rated only 3.2/5 overall; non-CS branches reportedly see lower packages (~6-7 LPA), and one reference notes an average package as low as 6 LPA with 70% placement in an earlier batch."
+    },
+    {
+      "theme": "Limited Campus Life",
+      "sentiment": "Negative",
+      "notes": "Operating out of a third-party building with off-campus hostels limits club activity and overall campus culture compared to institutes with dedicated campuses."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "The next giant IIIT Kalyani — no permanent campus yet, classes at WEBEL IT Park, but AC classrooms; 92% on-campus placement, average 10.22 LPA",
+      "sentiment": "Mixed/Positive",
+      "score": 0.4
+    },
+    {
+      "review_snippet": "The Institute has decent infrastructure, classrooms average in size with ACs and projectors; general consensus negative for mess services",
+      "sentiment": "Mixed",
+      "score": 0.0
+    },
+    {
+      "review_snippet": "The college is good — good facilities, digital boards, projectors, hygienic food in hostel mess",
+      "sentiment": "Positive",
+      "score": 0.7
+    },
+    {
+      "review_snippet": "IIIT Kalyani has average package of around 6 lakh with 70% students placed",
+      "sentiment": "Negative",
+      "score": -0.2
+    },
+    {
+      "review_snippet": "Fees of IIITs are very high compared to government medical colleges and local private colleges",
+      "sentiment": "Negative",
+      "score": -0.4
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Kalyani is moderately positive, with reasonably strong CSE-specific placement results and decent classroom infrastructure offsetting significant concerns. The clearest weak points are value for money and the institute's continued lack of a permanent campus, echoing a pattern seen across several newer-generation IIITs, along with some inconsistency in mess quality and placement outcomes across branches.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study."
+}

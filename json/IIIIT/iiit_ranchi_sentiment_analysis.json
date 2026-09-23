@@ -1,0 +1,97 @@
+{
+  "institution": "IIIT Ranchi (Indian Institute of Information Technology, Ranchi)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 12,
+  "overall_sentiment": {
+    "label": "Strongly Positive",
+    "score": 0.75,
+    "confidence": "high",
+    "overall_rating_out_of_5": 4.3
+  },
+  "category_ratings": {
+    "college_infrastructure": 3.5,
+    "academics": 4.7,
+    "placements": 4.7,
+    "value_for_money": 4.4,
+    "campus_life": 4.3
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 72,
+    "neutral_percent": 16,
+    "negative_percent": 12
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Placements",
+      "sentiment": "Strongly Positive",
+      "notes": "Top-rated category (4.7/5); average package reported at 15.95 LPA in 2023 (per institute brochure/LinkedIn), highest package 83 LPA on-campus; core companies like Nvidia, Logic Fruit, and Synopsys have visited campus."
+    },
+    {
+      "theme": "Academics",
+      "sentiment": "Strongly Positive",
+      "notes": "Also rated 4.7/5; faculty are highly qualified PhD holders described as supportive and friendly; curriculum is updated and industry/future-ready, including optional specialization tracks like Machine Learning and Antenna Design."
+    },
+    {
+      "theme": "Hostel & Campus Amenities",
+      "sentiment": "Positive",
+      "notes": "Good hostel facilities with individual bed, table, and cupboard per student; decent daily food menu including eggs every morning and non-veg dishes three days a week; fully furnished labs."
+    },
+    {
+      "theme": "Value for Money",
+      "sentiment": "Positive",
+      "notes": "Rated 4.4/5 — fees considered justified given the institute's national importance status and strong career outcomes."
+    },
+    {
+      "theme": "Location & Campus Life",
+      "sentiment": "Positive",
+      "notes": "Good connectivity (6 km from airport, 5 km from railway station); pleasant Ranchi weather; active campus life with many organized events, clubs, and societies."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "No Permanent Campus",
+      "sentiment": "Negative",
+      "notes": "IIIT Ranchi currently operates from rented campuses (locations including Jupmi and Namkum in Ranchi, with earlier years reportedly at NIT Jamshedpur); permanent campus construction targeted for completion around 2024."
+    },
+    {
+      "theme": "Mess Food Quality",
+      "sentiment": "Negative",
+      "notes": "While hostel facilities are praised, mess food quality is repeatedly noted as not being as good as other aspects of student life."
+    },
+    {
+      "theme": "Placement Figure Variance",
+      "sentiment": "Mixed",
+      "notes": "Some reviews cite more modest figures (average package 8-9 LPA, on-campus highest 16 LPA, off-campus highest 35 LPA) for certain batches/branches, contrasting with the higher headline figures (15.95 LPA average, 83 LPA highest) reported elsewhere — suggesting variance across years or branches."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Honest review of IIIT Ranchi — classes in rented campus, hostel very good but mess food not that good, average package 15.95 LPA, highest 83 LPA in 2023",
+      "sentiment": "Positive",
+      "score": 0.75
+    },
+    {
+      "review_snippet": "IIIT Ranchi running in two rented campuses (Jupmi and Namkum) due to ongoing permanent campus construction, but both have best facilities for students",
+      "sentiment": "Mixed/Positive",
+      "score": 0.4
+    },
+    {
+      "review_snippet": "Average package of placements between 8 to 9 lakhs, highest 16 lakhs on-campus, 35 lakhs off-campus; core companies like Nvidia, Logic Fruit, Synopsys visited",
+      "sentiment": "Positive",
+      "score": 0.7
+    },
+    {
+      "review_snippet": "Giving review to my college — all necessary infrastructure, very good and advanced equipment for BTech, MTech, and PhD students",
+      "sentiment": "Positive",
+      "score": 0.8
+    },
+    {
+      "review_snippet": "IIIT Ranchi is not in Ranchi, running at NIT Jamshedpur, building under construction, will take 4-5 years — students enjoy all NIT facilities and faculties",
+      "sentiment": "Mixed (Historical)",
+      "score": 0.3
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Ranchi is strongly positive, standing out for excellent academics and placement outcomes — among the best of any IIIT reviewed, with packages reaching as high as 83 LPA and core-sector recruiters like Nvidia and Synopsys visiting campus. The primary drawback remains the lack of a permanent campus, with the institute currently operating from rented facilities, alongside mess food quality as a recurring minor complaint.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study."
+}

@@ -258,7 +258,11 @@ export function normalizePaymentAccess(
         (
           planId === 'basic' ||
           planId === 'finder' ||
-          planId === 'support'
+          planId === 'support' ||
+          planId === 'choice-plan' ||
+          planId === 'choice-plan' ||
+          planId === 'choice-plan' ||
+          planId === 'choice-plan'
         )
       ),
 
@@ -268,7 +272,18 @@ export function normalizePaymentAccess(
         raw.recommendations ??
         (
           planId === 'finder' ||
-          planId === 'support'
+          planId === 'support' ||
+        planId === 'choice-plan'
+        )
+      ),
+
+    choiceFillingPlan:
+      Boolean(
+        raw.choiceFillingPlan ??
+        raw.choice_filling_plan ??
+        raw.choicePlan ??
+        (
+          planId === 'choice-plan'
         )
       ),
 
@@ -277,7 +292,8 @@ export function normalizePaymentAccess(
         raw.callSupport ??
         raw.call_support ??
         (
-          planId === 'support'
+          planId === 'support' ||
+        planId === 'choice-plan'
         )
       ),
   };

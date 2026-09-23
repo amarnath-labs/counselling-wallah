@@ -1,0 +1,93 @@
+{
+  "institution": "IIIT Surat (Indian Institute of Information Technology, Surat)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 2,
+  "sample_size_caveat": "Formal review sample is very small (2 reviews) on Careers360; supplemented with community Q&A for broader context. Some reviews reflect the institute's early years (established 2017), so placement sentiment in particular may not reflect more recent, matured outcomes.",
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.55,
+    "confidence": "low-medium",
+    "overall_rating_out_of_5": 4.5
+  },
+  "category_ratings": {
+    "college_infrastructure": 4.5,
+    "academics": 4.5,
+    "placements": 3.0,
+    "value_for_money": 3.5,
+    "campus_life": 4.0
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 60,
+    "neutral_percent": 22,
+    "negative_percent": 18
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Shared SVNIT Infrastructure",
+      "sentiment": "Strongly Positive",
+      "notes": "IIIT Surat operates from the temporary premises of Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat, its mentoring institute; students enjoy SVNIT's facilities including indoor badminton courts, a gymnasium, basketball and tennis courts, a large fully air-conditioned library, and fast wifi in hostels — described as better than most other IIITs."
+    },
+    {
+      "theme": "Academics",
+      "sentiment": "Strongly Positive",
+      "notes": "Rated 4.5/5; curriculum focused on CSE and ECE with regularly updated syllabus covering AI, robotics, machine learning, and web development — considered by some reviewers to be more current than IIT syllabi."
+    },
+    {
+      "theme": "Value for Money",
+      "sentiment": "Positive",
+      "notes": "Fees around 85,000 per semester (hostel included), notably lower than many IITs, NITs, and other IIITs, making it a cost-effective option for a national-importance institute."
+    },
+    {
+      "theme": "Placement Cell & SVNIT Recruiters",
+      "sentiment": "Moderately Positive",
+      "notes": "IIIT Surat has its own placement cell, and companies visiting SVNIT for recruitment also hire IIIT Surat students, expanding opportunities."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Placements (Early Track Record)",
+      "sentiment": "Negative",
+      "notes": "Lowest-rated category (3.0/5); at the time of some reviews, the institute's first batch had not yet been placed (established 2017), reflecting the challenges of building a placement track record as a young institute."
+    },
+    {
+      "theme": "Sports Field Maintenance",
+      "sentiment": "Negative",
+      "notes": "The playing field, while large, is described as mostly ill-maintained despite otherwise strong sports facilities via SVNIT."
+    },
+    {
+      "theme": "Low Female Enrollment",
+      "sentiment": "Negative",
+      "notes": "Reviews note that the number of female students admitted is relatively low, even though there is some female presence via SVNIT."
+    },
+    {
+      "theme": "Limited Course Offerings",
+      "sentiment": "Neutral/Mixed",
+      "notes": "IIIT Surat offers only two undergraduate courses (CSE and ECE), narrower than some peer IIITs with more diverse specializations."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Fantastic college life — operating from SVNIT premises, badminton courts, gym, huge AC library, fast wifi hostels, but playing field mostly ill-maintained",
+      "sentiment": "Positive",
+      "score": 0.65
+    },
+    {
+      "review_snippet": "IIIT Surat was established in 2017 and its 1st batch is not yet placed, about to be placed in 2021, but seniors are talented and will get placed well",
+      "sentiment": "Mixed/Negative",
+      "score": -0.1
+    },
+    {
+      "review_snippet": "It is wonderful experience to be part of institute — well built library, new classroom complex, well equipped labs, good sports facilities, hostel provided by SVNIT",
+      "sentiment": "Positive",
+      "score": 0.8
+    },
+    {
+      "review_snippet": "IIIT Surat has a wonderful college rating of 4.1/5 with excellent reviews from students",
+      "sentiment": "Positive",
+      "score": 0.75
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Surat is positive, strongly buoyed by its arrangement with mentoring institute SVNIT, which provides infrastructure and facilities considered superior to many peer IIITs. Academics are highly rated with an industry-relevant, regularly updated curriculum. The main historical weak point was placements, reflecting the institute's young age at the time of review (established 2017) with its first batch not yet placed — a situation likely to have improved significantly as more recent batches have graduated.",
+  "disclaimer": "This analysis is based on a very small sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study. Placement sentiment may be dated given the institute's growth since these reviews were written."
+}

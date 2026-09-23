@@ -15,6 +15,9 @@ import {
 } from './reviewAspectInsightsService.js';
 
 
+import {
+  getExternalReviewIntelligence,
+} from './externalReviewJsonService.js';
 /* =========================================================
    HELPERS
 ========================================================= */
@@ -2336,6 +2339,37 @@ INNER JOIN colleges c
       const requestedBranch =
         row.branch_name ||
         null;
+
+      /*
+      |--------------------------------------------------------------------------
+      | EXTERNAL JSON STUDENT EXPERIENCE INTELLIGENCE
+      |--------------------------------------------------------------------------
+      |
+      | Display-only.
+      |
+      | IMPORTANT:
+      | - Does NOT replace Review Intelligence V3.
+      | - Does NOT modify bucket.
+      | - Does NOT modify CW-REC score.
+      | - Does NOT modify ordering.
+      |
+      */
+
+      const externalReviewIntelligence =
+        getExternalReviewIntelligence({
+          collegeName:
+            row.college_name ||
+            row.collegeName ||
+            row.name ||
+            null,
+        });
+
+
+      row.externalReviewIntelligence =
+        externalReviewIntelligence ||
+        null;
+
+
 
 
       const cacheKey =

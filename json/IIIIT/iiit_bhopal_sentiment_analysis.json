@@ -1,0 +1,92 @@
+{
+  "institution": "IIIT Bhopal (Indian Institute of Information Technology, Bhopal)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 14,
+  "overall_sentiment": {
+    "label": "Moderately Positive",
+    "score": 0.48,
+    "confidence": "medium-high",
+    "overall_rating_out_of_5": 3.7
+  },
+  "category_ratings": {
+    "college_infrastructure": 3.1,
+    "academics": 3.8,
+    "placements": 3.8,
+    "value_for_money": 3.4,
+    "campus_life": 3.3
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 52,
+    "neutral_percent": 26,
+    "negative_percent": 22
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Placements (Improving)",
+      "sentiment": "Positive",
+      "notes": "2024 data shows highest package of 34.4 LPA and average CSE package of 14.7 LPA; top recruiters include Amazon, Intuit, Nvidia, and Qualcomm; placements described as steadily improving each year."
+    },
+    {
+      "theme": "Coding Culture & Academics",
+      "sentiment": "Positive",
+      "notes": "Strong coding culture with regular contests; supportive faculty (about 80% from mentoring institute MANIT); industry-oriented curriculum contributing to good placement outcomes, especially in CSE/IT."
+    },
+    {
+      "theme": "Shared MANIT Infrastructure",
+      "sentiment": "Moderately Positive",
+      "notes": "College runs on MANIT Bhopal's lush green ~600-acre campus; wifi available campus-wide; vehicles allowed on campus; labs well-equipped with updated systems; transport (bus) facilities and cafeteria options (including MANIT Cafeteria and Nescafe stalls) available."
+    },
+    {
+      "theme": "Product-Based Company Placements",
+      "sentiment": "Positive",
+      "notes": "Many students land roles in product-based companies, reflecting a strong technical/coding skill emphasis."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "No Independent Campus",
+      "sentiment": "Negative",
+      "notes": "Lowest-rated category (3.1/5); classes run in MANIT's shared campus with no permanent, independent IIIT Bhopal campus yet."
+    },
+    {
+      "theme": "Off-Campus Hostels",
+      "sentiment": "Negative",
+      "notes": "Hostels are located off-campus and described as average; distance between hostels and academic buildings reduces student involvement in campus activities."
+    },
+    {
+      "theme": "Campus Life",
+      "sentiment": "Mixed",
+      "notes": "Described as 'balanced but not very vibrant' due to the temporary MANIT setup; fests, clubs, and coding events are active but limited by shared facilities."
+    },
+    {
+      "theme": "Value for Money",
+      "sentiment": "Mixed",
+      "notes": "Fees considered relatively high for a newer, still-developing institute; value for money rated as moderate rather than excellent."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Good academics and placements but avg infrastructure — classes run in MANIT's campus, hostels off-campus and average, no permanent campus yet",
+      "sentiment": "Mixed/Positive",
+      "score": 0.3
+    },
+    {
+      "review_snippet": "Excellent placement record, especially in the IT sector — highest package 34.4 LPA in 2024, average CSE package 14.7 LPA, recruiters Amazon, Intuit, Nvidia, Qualcomm",
+      "sentiment": "Positive",
+      "score": 0.85
+    },
+    {
+      "review_snippet": "Lack of an independent campus impacts student life; limited extracurricular and campus activities due to temporary setup",
+      "sentiment": "Negative",
+      "score": -0.5
+    },
+    {
+      "review_snippet": "This is newly established IIIT, classes conducted in MANIT, lab equipment also used from MANIT, hostel facility for boys only in 1st year",
+      "sentiment": "Mixed (Historical)",
+      "score": 0.0
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Bhopal is moderately positive, driven by steadily improving placements with strong recruiters like Amazon, Nvidia, and Qualcomm, alongside a solid coding culture and industry-relevant curriculum. The institute's clearest weakness is its continued lack of an independent campus, operating instead from MANIT Bhopal's shared facilities with off-campus hostels — a pattern common among several newer-generation IIITs — which dampens overall campus life and infrastructure sentiment.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study."
+}

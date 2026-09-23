@@ -1,4 +1,4 @@
-﻿import 'dotenv/config';
+import 'dotenv/config';
 
 import express from 'express';
 import cors from 'cors';
@@ -13,14 +13,22 @@ import collegeRedisCache from './middleware/collegeRedisCache.js';
 import { pool } from './db/pool.js';
 
 import healthRouter from './routes/health.js';
+
+import reviewsRouter from './routes/reviews.js';
+import requestIdMiddleware from './middleware/requestId.js';
+import systemHealthRouter from './routes/systemHealth.js';
+
 import authRouter from './routes/auth.js';
 import examsRouter from './routes/exams.js';
 import collegesRouter from './routes/colleges.js';
 import counsellingRouter from './routes/counselling.js';
 import cwRecV1DevRouter from './routes/cwRecV1-dev.js';
+
+import neetRecommendationsRouter from './routes/neetRecommendations.js';
 import paymentsRouter from './routes/payments.js';
 import feedbackRouter from './routes/feedback.js';
 
+import reviewEnrichmentRouter from './routes/reviewEnrichment.js';
 import careerAssessmentRouter
   from './routes/careerAssessment.js';
 
@@ -314,6 +322,18 @@ app.use(
 |--------------------------------------------------------------------------
 */
 
+
+app.use(
+  '/api/reviews',
+  reviewsRouter
+);
+
+
+app.use(
+  '/api/review-enrichment',
+  reviewEnrichmentRouter
+);
+
 app.use(
   (
     req,
@@ -413,6 +433,17 @@ console.log(
 
 /*
 |--------------------------------------------------------------------------
+| REQUEST ID
+|--------------------------------------------------------------------------
+*/
+
+app.use(
+  requestIdMiddleware
+);
+
+
+/*
+|--------------------------------------------------------------------------
 | API ROOT
 |--------------------------------------------------------------------------
 */
@@ -448,6 +479,22 @@ app.get(
 app.use(
   '/api/health',
   healthRouter
+);
+
+
+/*
+|--------------------------------------------------------------------------
+| SYSTEM HEALTH
+|--------------------------------------------------------------------------
+|
+| GET /api/health/system/live
+| GET /api/health/system/ready
+|
+*/
+
+app.use(
+  '/api/health/system',
+  systemHealthRouter
 );
 
 
@@ -616,6 +663,11 @@ app.use(
 app.use(
   '/api/dev/cw-rec',
   cwRecV1DevRouter
+);
+
+app.use(
+  '/api/neet',
+  neetRecommendationsRouter
 );
 
 

@@ -1,0 +1,47 @@
+[
+  {
+    "key": "round-1",
+    "pages": 1107,
+    "characters": 4585346,
+    "nonEmptyLines": 260401,
+    "pdfBytes": 4123031,
+    "output": "data/neet/mcc/2025/text/round-1.txt",
+    "status": "success"
+  },
+  {
+    "key": "round-2",
+    "pages": 3237,
+    "characters": 6116374,
+    "nonEmptyLines": 704843,
+    "pdfBytes": 9808078,
+    "output": "data/neet/mcc/2025/text/round-2.txt",
+    "status": "success"
+  },
+  {
+    "key": "round-3",
+    "pages": 1930,
+    "characters": 6557697,
+    "nonEmptyLines": 854998,
+    "pdfBytes": 8917291,
+    "output": "data/neet/mcc/2025/text/round-3.txt",
+    "status": "success"
+  },
+  {
+    "key": "stray",
+    "pages": 52,
+    "characters": 197698,
+    "nonEmptyLines": 11144,
+    "pdfBytes": 182146,
+    "output": "data/neet/mcc/2025/text/stray.txt",
+    "status": "success"
+  },
+  {
+    "key": "special-stray",
+    "pages": 14,
+    "characters": 49573,
+    "nonEmptyLines": 2726,
+    "pdfBytes": 46920,
+    "output": "data/neet/mcc/2025/text/special-stray.txt",
+    "status": "success"
+  }
+]

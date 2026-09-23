@@ -340,6 +340,11 @@ export function adaptCWRecRow(row, studentRank = null) {
       row?.reviewIntelligenceV3 ??
       null,
 
+
+    externalReviewIntelligence:
+      row?.externalReviewIntelligence ??
+      null,
+
     collegeId:
       row?.collegeId,
 

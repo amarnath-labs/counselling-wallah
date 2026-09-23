@@ -194,15 +194,68 @@ async function ensureStatsTable() {
 }
 
 async function getColleges() {
+  /*
+  |--------------------------------------------------------------------------
+  | TRUMARG JOSAA-ONLY GOOGLE REVIEW EXTRACTION
+  |--------------------------------------------------------------------------
+  |
+  | Only:
+  | IIT
+  | NIT
+  | IIIT
+  | GFTI
+  |
+  |--------------------------------------------------------------------------
+  */
+
   const result =
     await pool.query(`
-      SELECT
+      SELECT DISTINCT
         id,
         name,
         city,
-        state
+        state,
+        LOWER(
+          COALESCE(
+            type,
+            ''
+          )
+        ) AS type
+
       FROM colleges
-      ORDER BY name
+
+      WHERE
+        LOWER(
+          COALESCE(
+            type,
+            ''
+          )
+        ) IN (
+          'iit',
+          'nit',
+          'iiit',
+          'gfti',
+          'gftis'
+        )
+
+        OR LOWER(name)
+          LIKE
+          'indian institute of technology%'
+
+        OR LOWER(name)
+          LIKE
+          'iit %'
+
+        OR LOWER(name)
+          LIKE
+          'national institute of technology%'
+
+        OR LOWER(name)
+          LIKE
+          '%indian institute of information technology%'
+
+      ORDER BY
+        name
     `);
 
   return result.rows;

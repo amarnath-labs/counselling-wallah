@@ -1,3 +1,6 @@
+import ExternalReviewIntelligence from './ExternalReviewIntelligence';
+import '../styles/externalReviewIntelligence.css';
+import '../styles/personalizedRecommendationV2.css';
 import {
   useMemo,
 } from 'react';
@@ -1012,7 +1015,7 @@ function LockedRecommendation({
       </div>
 
       <div className="rec-locked__icon">
-        ðŸ”’
+        ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ¢â‚¬â„¢
       </div>
 
       <h2>
@@ -1101,7 +1104,7 @@ function LockedRecommendation({
         }
       >
         {isLoggedIn
-          ? 'Unlock Recommendation â‚¹99'
+          ? 'Unlock Recommendation ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¹99'
           : 'Login to Unlock'}
       </button>
     </section>
@@ -1374,10 +1377,18 @@ function ReviewEvidenceCard({
             1.65,
         }}
       >
-        â€œ{evidence.text}â€
+        ÃƒÂ¢Ã¢"šÂ¬Ã…"{evidence.text}ÃƒÂ¢Ã¢"šÂ¬Ã‚Â
       </p>
 
-      <div
+      
+        {row?.externalReviewIntelligence ? (
+          <ExternalReviewIntelligence
+            data={
+              row.externalReviewIntelligence
+            }
+          />
+        ) : null}
+<div
         style={{
           display:
             'flex',
@@ -1411,7 +1422,7 @@ function ReviewEvidenceCard({
 
         {evidence?.branch && (
           <>
-            <span>Â·</span>
+            <span>Ãƒ"šÃ‚-</span>
 
             <span>
               {evidence.branch}
@@ -1421,7 +1432,7 @@ function ReviewEvidenceCard({
 
         {date && (
           <>
-            <span>Â·</span>
+            <span>Ãƒ"šÃ‚-</span>
 
             <span>
               {date}
@@ -1432,7 +1443,7 @@ function ReviewEvidenceCard({
         {evidence
           ?.evidenceStrength && (
           <>
-            <span>Â·</span>
+            <span>Ãƒ"šÃ‚-</span>
 
             <span>
               {String(
@@ -1448,7 +1459,7 @@ function ReviewEvidenceCard({
 
         {evidence?.sourceUrl && (
           <>
-            <span>Â·</span>
+            <span>Ãƒ"šÃ‚-</span>
 
             <a
               href={
@@ -1845,7 +1856,7 @@ function ReviewIntelligencePanel({
             }}
           >
             {score === null
-              ? '—'
+              ? 'Ã¢â‚¬"'
               : formatNumber(
                   score,
                   1
@@ -2351,416 +2362,1331 @@ function CoverageChip({
 |--------------------------------------------------------------------------
 */
 
+/*
+|--------------------------------------------------------------------------
+| PERSONALIZED RECOMMENDATION V2
+|--------------------------------------------------------------------------
+|
+| Presentation-only redesign.
+|
+| Important:
+| - Admission / ranking calculations are NOT changed here.
+| - Existing premium breakdown is only displayed.
+| - External JSON review intelligence is displayed separately.
+| - Overall Match is NOT presented as admission probability.
+|
+*/
+
+
+function recV2FirstNumber(
+  ...values
+) {
+  for (
+    const value of values
+  ) {
+    const parsed =
+      num(
+        value
+      );
+
+
+    if (
+      parsed !== null
+    ) {
+      return parsed;
+    }
+  }
+
+
+  return null;
+}
+
+
+function recV2FirstText(
+  ...values
+) {
+  for (
+    const value of values
+  ) {
+    if (
+      typeof value ===
+        'string' &&
+      value.trim()
+    ) {
+      return value.trim();
+    }
+  }
+
+
+  return null;
+}
+
+
+function recV2LabelValue(
+  value
+) {
+  if (
+    typeof value ===
+      'string'
+  ) {
+    return value;
+  }
+
+
+  if (
+    value &&
+    typeof value ===
+      'object'
+  ) {
+    return (
+      value.label ||
+      value.name ||
+      null
+    );
+  }
+
+
+  return null;
+}
+
+
+function recV2FormatRank(
+  value
+) {
+  const parsed =
+    num(
+      value
+    );
+
+
+  if (
+    parsed === null
+  ) {
+    return 'Not available';
+  }
+
+
+  return Math.round(
+    parsed
+  ).toLocaleString(
+    'en-IN'
+  );
+}
+
+
+function recV2Performance(
+  value,
+  max
+) {
+  const parsed =
+    num(
+      value
+    );
+
+
+  if (
+    parsed === null ||
+    !max
+  ) {
+    return null;
+  }
+
+
+  return Math.max(
+    0,
+    Math.min(
+      100,
+      (
+        parsed /
+        max
+      ) *
+        100
+    )
+  );
+}
+
+
+function RecV2ScoreRow({
+  label,
+  value,
+  max,
+}) {
+  const score =
+    num(
+      value
+    );
+
+  const percentage =
+    recV2Performance(
+      score,
+      max
+    );
+
+
+  return (
+    <div
+      className="tr-rec-score-row"
+    >
+      <div
+        className="tr-rec-score-row__top"
+      >
+        <span>
+          {label}
+        </span>
+
+        <strong
+          className={
+            score === null
+              ? 'tr-rec-score-row__pending'
+              : ''
+          }
+        >
+          {score === null
+            ? 'Data pending'
+            : `${Math.round(
+                score * 10
+              ) / 10} / ${max}`}
+        </strong>
+      </div>
+
+      <div
+        className="tr-rec-score-track"
+      >
+        <div
+          className="tr-rec-score-fill"
+          style={{
+            width:
+              `${percentage ?? 0}%`,
+          }}
+        />
+      </div>
+    </div>
+  );
+}
+
+
+function RecV2Reason({
+  children,
+  tone = 'positive',
+}) {
+  return (
+    <div
+      className={
+        `tr-rec-reason tr-rec-reason--${tone}`
+      }
+    >
+      <span
+        className="tr-rec-reason__icon"
+      >
+        {tone === 'positive'
+          ? 'âœ“'
+          : 'âš '}
+      </span>
+
+      <span>
+        {children}
+      </span>
+    </div>
+  );
+}
+
+
+function RecV2AdmissionReality({
+  admission,
+  openingRank,
+  closingRank,
+  historicalText,
+}) {
+  return (
+    <section
+      className="tr-rec-panel tr-rec-admission"
+    >
+      <div
+        className="tr-rec-section-heading"
+      >
+        <div>
+          <span
+            className="tr-rec-kicker"
+          >
+            ADMISSION REALITY
+          </span>
+
+          <h4>
+            Historical admission fit
+          </h4>
+        </div>
+
+        <span
+          className="tr-rec-admission-chip"
+        >
+          {admission}
+        </span>
+      </div>
+
+      <div
+        className="tr-rec-admission-grid"
+      >
+        <div>
+          <span>
+            Round 1 Opening Rank
+          </span>
+
+          <strong>
+            {recV2FormatRank(
+              openingRank
+            )}
+          </strong>
+        </div>
+
+        <div>
+          <span>
+            Last Round Closing Rank
+          </span>
+
+          <strong>
+            {recV2FormatRank(
+              closingRank
+            )}
+          </strong>
+        </div>
+      </div>
+
+      <p
+        className="tr-rec-admission-note"
+      >
+        {historicalText ||
+          'Historical competitiveness is based on available counselling cutoff evidence.'}
+      </p>
+    </section>
+  );
+}
+
+
+function RecV2PersonalFit({
+  strong,
+  weak,
+}) {
+  return (
+    <section
+      className="tr-rec-panel"
+    >
+      <div
+        className="tr-rec-section-heading"
+      >
+        <div>
+          <span
+            className="tr-rec-kicker"
+          >
+            WHY THIS FITS YOU
+          </span>
+
+          <h4>
+            Your strongest and weakest fit factors
+          </h4>
+        </div>
+      </div>
+
+      <div
+        className="tr-rec-fit-grid"
+      >
+        <div
+          className="tr-rec-fit-column tr-rec-fit-column--positive"
+        >
+          <div
+            className="tr-rec-fit-title"
+          >
+            Strong for you
+          </div>
+
+          {strong.length ? (
+            strong
+              .slice(
+                0,
+                4
+              )
+              .map(
+                (
+                  reason,
+                  index
+                ) => (
+                  <RecV2Reason
+                    key={
+                      `strong-${index}`
+                    }
+                  >
+                    {reason}
+                  </RecV2Reason>
+                )
+              )
+          ) : (
+            <p
+              className="tr-rec-muted"
+            >
+              Strong factors will appear
+              when verified profile data
+              is available.
+            </p>
+          )}
+        </div>
+
+        <div
+          className="tr-rec-fit-column tr-rec-fit-column--risk"
+        >
+          <div
+            className="tr-rec-fit-title"
+          >
+            Reduces the match
+          </div>
+
+          {weak.length ? (
+            weak
+              .slice(
+                0,
+                4
+              )
+              .map(
+                (
+                  reason,
+                  index
+                ) => (
+                  <RecV2Reason
+                    key={
+                      `weak-${index}`
+                    }
+                    tone="risk"
+                  >
+                    {reason}
+                  </RecV2Reason>
+                )
+              )
+          ) : (
+            <p
+              className="tr-rec-muted"
+            >
+              No major reducing factor
+              is currently available.
+            </p>
+          )}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
+function RecV2DecisionSummary({
+  index,
+  row,
+  admission,
+  openingRank,
+  closingRank,
+  overall,
+  breakdown,
+  confidence,
+  dataCoverage,
+}) {
+  const admissionScore =
+    num(
+      breakdown?.rank
+    );
+
+  const branchScore =
+    num(
+      breakdown?.branch
+    );
+
+  const qualityScore =
+    num(
+      breakdown?.quality
+    );
+
+  const reviewScore =
+    num(
+      breakdown?.reviews
+    );
+
+  const budgetScore =
+    num(
+      breakdown?.budget
+    );
+
+  const locationScore =
+    num(
+      breakdown?.location
+    );
+
+
+  const studentRank =
+    recV2FirstNumber(
+      row?.historicalFit
+        ?.studentRank,
+
+      row?.admission
+        ?.studentRank,
+
+      row?.premium
+        ?.historicalFit
+        ?.studentRank,
+
+      row?.studentRank,
+      row?.student_rank
+    );
+
+
+  const nirfRank =
+    recV2FirstNumber(
+      row?.nirfRank,
+      row?.nirf_rank,
+      row?.college?.nirfRank,
+      row?.college?.nirf_rank
+    );
+
+
+  const scoreParts = [
+    {
+      label:
+        'Admission Fit',
+      value:
+        admissionScore,
+      max:
+        50,
+    },
+    {
+      label:
+        'Branch Match',
+      value:
+        branchScore,
+      max:
+        15,
+    },
+    {
+      label:
+        'College Quality',
+      value:
+        qualityScore,
+      max:
+        15,
+    },
+    {
+      label:
+        'Review Intelligence',
+      value:
+        reviewScore,
+      max:
+        10,
+    },
+    {
+      label:
+        'Budget',
+      value:
+        budgetScore,
+      max:
+        7,
+    },
+    {
+      label:
+        'Location',
+      value:
+        locationScore,
+      max:
+        3,
+    },
+  ];
+
+
+  const availableScoreParts =
+    scoreParts.filter(
+      part =>
+        part.value !==
+        null
+    );
+
+
+  const calculatedTotal =
+    availableScoreParts.reduce(
+      (
+        total,
+        part
+      ) =>
+        total +
+        part.value,
+      0
+    );
+
+
+  const displayTotal =
+    overall !== null
+      ? overall
+      : calculatedTotal;
+
+
+  let admissionExplanation =
+    `Admission Fit contributes up to 50 points and is based on your historical admission position for this course.`;
+
+
+  if (
+    studentRank !== null &&
+    openingRank !== null &&
+    closingRank !== null
+  ) {
+    admissionExplanation =
+      `Your rank is ${recV2FormatRank(
+        studentRank
+      )}. Historical Round 1 opening rank is ${recV2FormatRank(
+        openingRank
+      )} and the last-round closing rank is ${recV2FormatRank(
+        closingRank
+      )}. This places the option in the ${admission} admission category and gives ${admissionScore === null
+        ? 'the available'
+        : `${Math.round(
+            admissionScore * 10
+          ) / 10}/50`} Admission Fit contribution.`;
+  }
+  else if (
+    openingRank !== null &&
+    closingRank !== null
+  ) {
+    admissionExplanation =
+      `Admission Fit uses the historical admission window from Round 1 opening rank ${recV2FormatRank(
+        openingRank
+      )} to last-round closing rank ${recV2FormatRank(
+        closingRank
+      )}. The current result is ${admission}, contributing ${admissionScore === null
+        ? 'the available admission score'
+        : `${Math.round(
+            admissionScore * 10
+          ) / 10}/50`} to the recommendation score.`;
+  }
+
+
+  const scoreFormula =
+    availableScoreParts
+      .map(
+        part =>
+          `${part.label} ${
+            Math.round(
+              part.value *
+              10
+            ) / 10
+          }/${part.max}`
+      )
+      .join(
+        ' + '
+      );
+
+
+  let rankExplanation =
+    `This option is currently shown at #${index + 1} after TruMarg's recommendation ordering.`;
+
+
+  if (
+    nirfRank !== null &&
+    closingRank !== null
+  ) {
+    rankExplanation =
+      `Within its admission category, TruMarg orders options using college quality rank first, historical closing rank next, and personalized match score as a later tie-breaker. This option has NIRF rank ${Math.round(
+        nirfRank
+      )}, historical closing rank ${recV2FormatRank(
+        closingRank
+      )}, and Overall Match ${displayTotal === null
+        ? 'not available'
+        : `${Math.round(
+            displayTotal
+          )}/100`}, resulting in position #${index + 1}.`;
+  }
+  else if (
+    closingRank !== null
+  ) {
+    rankExplanation =
+      `Within its admission category, TruMarg uses historical closing rank and personalized match evidence to order options when available. This option has closing rank ${recV2FormatRank(
+        closingRank
+      )} and Overall Match ${displayTotal === null
+        ? 'not available'
+        : `${Math.round(
+            displayTotal
+          )}/100`}, placing it at #${index + 1} in the current list.`;
+  }
+
+
+  return (
+    <section
+      className="tr-rec-panel tr-rec-decision"
+    >
+      <div
+        className="tr-rec-decision__content"
+      >
+        <span
+          className="tr-rec-kicker"
+        >
+          TRUMARG SCORE EXPLAINER
+        </span>
+
+        <h4>
+          How this recommendation was calculated
+        </h4>
+
+
+        <div
+          className="tr-rec-explain-block"
+        >
+          <strong>
+            Admission Fit
+          </strong>
+
+          <p>
+            {admissionExplanation}
+          </p>
+        </div>
+
+
+        <div
+          className="tr-rec-explain-block"
+        >
+          <strong>
+            Overall Match Score
+          </strong>
+
+          <p>
+            {scoreFormula
+              ? `${scoreFormula} = ${Math.round(
+                  displayTotal *
+                  10
+                ) / 10}/100.`
+              : 'Score components are shown above when data is available.'}
+          </p>
+
+          <small>
+            Overall Match measures suitability for your profile.
+            It is not an admission probability.
+          </small>
+        </div>
+
+
+        <div
+          className="tr-rec-explain-block"
+        >
+          <strong>
+            Why this is #{index + 1}
+          </strong>
+
+          <p>
+            {rankExplanation}
+          </p>
+        </div>
+      </div>
+
+
+      <div
+        className="tr-rec-confidence"
+      >
+        <span>
+          Recommendation Confidence
+        </span>
+
+        <strong>
+          {confidence}
+        </strong>
+
+        <small>
+          {dataCoverage !== null
+            ? `${Math.round(
+                dataCoverage
+              )}% data coverage`
+            : 'Coverage unavailable'}
+        </small>
+      </div>
+    </section>
+  );
+}
+
 function RecommendationCard({
   row,
   index,
   allRows = [],
 }) {
+  /*
+  |----------------------------------------------------------------------
+  | Existing calculated data
+  |----------------------------------------------------------------------
+  */
+
   const premium =
-    row?.premium || {};
+    row?.premium ||
+    {};
 
   const breakdown =
     premium?.breakdown ||
     {};
 
-  const reviewV3 =
-    getReviewV3(row);
+
+  /*
+  |----------------------------------------------------------------------
+  | College / branch
+  |----------------------------------------------------------------------
+  */
+
+  const college =
+    recV2FirstText(
+      row?.college?.name,
+      row?.collegeName,
+      row?.college_name,
+      row?.name
+    ) ||
+    'College';
+
+
+  const branch =
+    recV2FirstText(
+      row?.branch?.name,
+      row?.branchName,
+      row?.branch_name,
+      row?.program,
+      row?.courseName
+    ) ||
+    'Branch';
 
 
   /*
-  |--------------------------------------------------------------------------
-  | V3 REVIEW COMPONENT
-  |--------------------------------------------------------------------------
-  |
-  | reviewIntelligenceV3.component is already /10.
-  |
-  | Do not convert score 76.66 manually here.
-  |--------------------------------------------------------------------------
+  |----------------------------------------------------------------------
+  | Overall score
+  |----------------------------------------------------------------------
   */
 
-  const reviewComponent =
-    num(
-      reviewV3?.component
+  const overall =
+    recV2FirstNumber(
+      premium?.score,
+      row?.matchScore,
+      row?.overall
     );
 
 
-  const effectiveBreakdown = {
-    ...breakdown,
+  /*
+  |----------------------------------------------------------------------
+  | Admission bucket
+  |
+  | Use already-calculated bucket.
+  | DO NOT recalculate admission logic here.
+  |----------------------------------------------------------------------
+  */
 
-    reviews:
-      reviewComponent !==
-      null
-        ? reviewComponent
-        : breakdown?.reviews,
-  };
+  const admission =
+    recV2FirstText(
+      recV2LabelValue(
+        row?.bucket
+      ),
 
+      recV2LabelValue(
+        row?.admission?.bucket
+      ),
+
+      recV2LabelValue(
+        row?.admission?.label
+      ),
+
+      recV2LabelValue(
+        row?.historicalFit?.bucket
+      ),
+
+      recV2LabelValue(
+        row?.historicalFit?.label
+      ),
+
+      recV2LabelValue(
+        premium?.admissionBucket
+      ),
+
+      recV2LabelValue(
+        premium?.historicalFit?.bucket
+      ),
+
+      recV2LabelValue(
+        premium?.historicalFit?.label
+      )
+    ) ||
+    'Admission Fit';
+
+
+  /*
+  |----------------------------------------------------------------------
+  | Premium category
+  |----------------------------------------------------------------------
+  */
+
+  const category =
+    recV2FirstText(
+      recV2LabelValue(
+        premium?.category
+      ),
+
+      recV2LabelValue(
+        premium?.matchCategory
+      ),
+
+      recV2LabelValue(
+        premium?.matchLabel
+      )
+    ) ||
+    'Consider';
+
+
+  /*
+  |----------------------------------------------------------------------
+  | Historical ranks
+  |----------------------------------------------------------------------
+  */
+
+  const openingRank =
+    recV2FirstNumber(
+      row?.historicalFit
+        ?.round1OpeningRank,
+
+      row?.historicalFit
+        ?.openingRank,
+
+      row?.admission
+        ?.round1OpeningRank,
+
+      row?.admission
+        ?.openingRank,
+
+      premium?.historicalFit
+        ?.round1OpeningRank,
+
+      premium?.historicalFit
+        ?.openingRank,
+
+      row?.round1OpeningRank,
+      row?.openingRank,
+      row?.opening_rank
+    );
+
+
+  const closingRank =
+    recV2FirstNumber(
+      row?.historicalFit
+        ?.lastRoundClosingRank,
+
+      row?.historicalFit
+        ?.finalClosingRank,
+
+      row?.historicalFit
+        ?.closingRank,
+
+      row?.admission
+        ?.lastRoundClosingRank,
+
+      row?.admission
+        ?.closingRank,
+
+      premium?.historicalFit
+        ?.lastRoundClosingRank,
+
+      premium?.historicalFit
+        ?.finalClosingRank,
+
+      premium?.historicalFit
+        ?.closingRank,
+
+      row?.lastRoundClosingRank,
+      row?.closingRank,
+      row?.closing_rank
+    );
+
+
+  /*
+  |----------------------------------------------------------------------
+  | Historical explanation
+  |----------------------------------------------------------------------
+  */
+
+  const historicalText =
+    recV2FirstText(
+      row?.historicalFit
+        ?.description,
+
+      row?.historicalFit
+        ?.reason,
+
+      row?.admission
+        ?.reason,
+
+      premium?.historicalFit
+        ?.description,
+
+      premium?.historicalFit
+        ?.reason,
+
+      openingRank !== null &&
+      closingRank !== null
+        ? `Historical fit uses Round 1 opening ${recV2FormatRank(
+            openingRank
+          )} to final closing ${recV2FormatRank(
+            closingRank
+          )}.`
+        : null
+    );
+
+
+  /*
+  |----------------------------------------------------------------------
+  | Reasons
+  |----------------------------------------------------------------------
+  */
 
   const strong =
     Array.isArray(
-      premium?.reasons?.strong
+      premium
+        ?.reasons
+        ?.strong
     )
-      ? premium.reasons.strong
+      ? premium
+          .reasons
+          .strong
       : [];
 
 
   const weak =
     Array.isArray(
-      premium?.reasons?.weak
+      premium
+        ?.reasons
+        ?.weak
     )
-      ? premium.reasons.weak
+      ? premium
+          .reasons
+          .weak
       : [];
 
 
-  const college =
-    row?.college?.name ||
-    row?.college_name ||
-    'College';
+  /*
+  |----------------------------------------------------------------------
+  | Confidence + coverage
+  |----------------------------------------------------------------------
+  */
 
+  const confidence =
+    recV2FirstText(
+      recV2LabelValue(
+        premium?.confidence
+      ),
 
-  const branch =
-    row?.branch?.name ||
-    row?.branch_name ||
-    'Branch';
+      premium
+        ?.recommendationConfidence,
 
+      premium
+        ?.confidenceLabel
+    ) ||
+    'Medium';
 
-  const overall =
-    num(
-      premium?.score
-    );
-
-
-  const admission =
-    row?.bucket ||
-    row?.admission?.bucket ||
-    row?.admission?.label ||
-    row?.historicalFit?.bucket ||
-    row?.historicalFit?.label ||
-    premium?.admissionBucket?.label ||
-    premium?.admissionBucket ||
-    'Admission fit';
-
-
-  const finalCategory =
-    getFinalPremiumCategory(
-      row
-    );
-
-  const category =
-    finalCategory.label;
-
-  const rankingMeta =
-    getPremiumRankingMeta(
-      row
-    );
 
   const dataCoverage =
-    rankingMeta.coverage;
+    recV2FirstNumber(
+      premium?.dataCoverage,
+      premium?.coverage,
+      row?.dataCoverage
+    );
+
+
+  /*
+  |----------------------------------------------------------------------
+  | External review JSON
+  |----------------------------------------------------------------------
+  */
+
+  const studentExperience =
+    row
+      ?.externalReviewIntelligence ||
+    null;
 
 
   return (
-    <article className="rec-card">
-      <div className="rec-card__rank">
-        #{index + 1}
-      </div>
+    <article
+      className="tr-rec-card"
+    >
+      {/* =====================================================
+          1. DECISION HEADER
+      ====================================================== */}
 
-
-      {/* ==========================================
-          HEADER
-      ========================================== */}
-
-      <div className="rec-card__header">
-        <div>
-          <div className="rec-kicker">
-            PERSONALIZED
-            RECOMMENDATION
-          </div>
+      <header
+        className="tr-rec-hero"
+      >
+        <div
+          className="tr-rec-hero__content"
+        >
+          <span
+            className="tr-rec-kicker"
+          >
+            #{index + 1} PERSONALIZED RECOMMENDATION
+          </span>
 
           <h3>
             {college}
           </h3>
 
-          <p>
+          <p
+            className="tr-rec-branch"
+          >
             {branch}
           </p>
 
-          <div className="rec-labels">
-            <span className="rec-admission-label">
+          <div
+            className="tr-rec-labels"
+          >
+            <span
+              className={
+                `tr-rec-bucket tr-rec-bucket--${String(
+                  admission
+                )
+                  .toLowerCase()
+                  .replace(
+                    /[^a-z]+/g,
+                    '-'
+                  )}`
+              }
+            >
               {admission}
             </span>
 
-            <span className="rec-premium-label">
+            <span
+              className="tr-rec-category"
+            >
               {category}
             </span>
           </div>
         </div>
 
-
-        <div className="rec-overall">
+        <div
+          className="tr-rec-overall"
+        >
           <span>
             Overall Match
           </span>
 
           <strong>
             {overall === null
-              ? '—'
+              ? '-'
               : Math.round(
                   overall
                 )}
 
-            {overall !== null && (
-              <small>
-                /100
-              </small>
-            )}
+            <small>
+              /100
+            </small>
           </strong>
 
-          <span
-            style={{
-              display:
-                'block',
-
-              marginTop:
-                5,
-
-              fontSize:
-                9,
-
-              opacity:
-                0.72,
-            }}
-          >
-            Data Coverage:{' '}
-
-            <b>
-              {dataCoverage}%
-            </b>
-          </span>
+          {dataCoverage !== null ? (
+            <small
+              className="tr-rec-overall__coverage"
+            >
+              Data Coverage:{' '}
+              {Math.round(
+                dataCoverage
+              )}%
+            </small>
+          ) : null}
         </div>
-      </div>
+      </header>
 
 
-      {/* ==========================================
-          HISTORICAL FIT
-      ========================================== */}
+      {/* =====================================================
+          2. ADMISSION REALITY
+      ====================================================== */}
 
-      {premium
-        ?.historicalFit
-        ?.label && (
-        <div className="rec-historical-fit">
-          Historical Fit:{' '}
-          {
-            premium
-              .historicalFit
-              .label
-          }
-        </div>
-      )}
+      <RecV2AdmissionReality
+        admission={
+          admission
+        }
+        openingRank={
+          openingRank
+        }
+        closingRank={
+          closingRank
+        }
+        historicalText={
+          historicalText
+        }
+      />
 
 
-      {!rankingMeta
-        .coreComplete && (
-        <div
-          style={{
-            marginTop:
-              10,
+      {/* =====================================================
+          3. WHY THIS FITS YOU
+      ====================================================== */}
 
-            padding:
-              '9px 11px',
+      <RecV2PersonalFit
+        strong={
+          strong
+        }
+        weak={
+          weak
+        }
+      />
 
-            border:
-              '1px solid #FDE68A',
 
-            borderRadius:
-              9,
+      {/* =====================================================
+          4. STUDENT EXPERIENCE
+          EXTERNAL JSON ONLY
+      ====================================================== */}
 
-            background:
-              '#FFFBEB',
-
-            color:
-              '#92400E',
-
-            fontSize:
-              10.5,
-
-            lineHeight:
-              1.45,
-          }}
+      {studentExperience ? (
+        <section
+          className="tr-rec-student-experience"
         >
-          <strong>
-            Limited confidence:
-          </strong>{' '}
-
-          this score is based on
-          available verified factors.
-
-          {' '}
-
-          Missing core data:{' '}
-
-          <strong>
-            {rankingMeta
-              .missingCoreFactors
-              .join(', ')}
-          </strong>.
-        </div>
-      )}
-
-
-      {/* ==========================================
-          MAIN SCORE + REASONS
-      ========================================== */}
-
-      <div className="rec-main-grid">
-        <section className="rec-breakdown">
-          <span className="rec-section-kicker">
-            SCORE BREAKDOWN
+          <ExternalReviewIntelligence
+            data={
+              studentExperience
+            }
+          />
+        </section>
+      ) : (
+        <section
+          className="tr-rec-panel"
+        >
+          <span
+            className="tr-rec-kicker"
+          >
+            STUDENT EXPERIENCE
           </span>
 
           <h4>
-            How your match is
-            calculated
+            Student evidence is not available yet
           </h4>
 
+          <p
+            className="tr-rec-muted"
+          >
+            TruMarg will show source-backed
+            student experience here when
+            compatible review evidence is
+            available for this exact institution.
+          </p>
+        </section>
+      )}
+
+
+      {/* =====================================================
+          5. SCORE EXPLANATION
+      ====================================================== */}
+
+      <section
+        className="tr-rec-panel tr-rec-score-panel"
+      >
+        <div
+          className="tr-rec-section-heading"
+        >
+          <div>
+            <span
+              className="tr-rec-kicker"
+            >
+              SCORE EXPLANATION
+            </span>
+
+            <h4>
+              How your match is calculated
+            </h4>
+          </div>
+
+          <div
+            className="tr-rec-score-total"
+          >
+            <strong>
+              {overall === null
+                ? '-'
+                : Math.round(
+                    overall
+                  )}
+            </strong>
+
+            <span>
+              /100
+            </span>
+          </div>
+        </div>
+
+        <div
+          className="tr-rec-score-list"
+        >
           {PARTS.map(
-            ([
-              key,
-              label,
-              max,
-            ]) => (
-              <ScoreRow
-                key={key}
-                label={label}
-                value={
-                  effectiveBreakdown[
-                    key
-                  ]
+            (
+              [
+                key,
+                label,
+                max,
+              ]
+            ) => (
+              <RecV2ScoreRow
+                key={
+                  key
                 }
-                max={max}
+                label={
+                  label
+                }
+                value={
+                  breakdown
+                    ?.[key]
+                }
+                max={
+                  max
+                }
               />
             )
           )}
-        </section>
+        </div>
+
+        <div
+          className="tr-rec-score-policy"
+        >
+          Overall Match is a personalized
+          recommendation score, not an
+          admission probability.
+        </div>
+      </section>
 
 
-        <section className="rec-explanation">
-          <div className="rec-reason-box rec-reason-box--strong">
-            <h4>
-              Why this is strong
-            </h4>
+      {/* =====================================================
+          6. DECISION SUMMARY
+      ====================================================== */}
 
-            {strong.length ? (
-              strong
-                .slice(
-                  0,
-                  4
-                )
-                .map(
-                  (
-                    reason,
-                    index
-                  ) => (
-                    <p
-                      key={
-                        index
-                      }
-                    >
-                      ✓ {reason}
-                    </p>
-                  )
-                )
-            ) : (
-              <p className="rec-muted">
-                Strong factors
-                will appear when
-                verified data is
-                available.
-              </p>
-            )}
-          </div>
-
-
-          <div className="rec-reason-box rec-reason-box--weak">
-            <h4>
-              What reduces the score
-            </h4>
-
-            {weak.length ? (
-              weak
-                .slice(
-                  0,
-                  4
-                )
-                .map(
-                  (
-                    reason,
-                    index
-                  ) => (
-                    <p
-                      key={
-                        index
-                      }
-                    >
-                      – {reason}
-                    </p>
-                  )
-                )
-            ) : (
-              <p className="rec-muted">
-                No major reducing
-                factor is currently
-                available.
-              </p>
-            )}
-          </div>
-        </section>
-      </div>
-
-
-      {/* ==========================================
-          REVIEW INTELLIGENCE V3
-      ========================================== */}
-
-      <ReviewIntelligencePanel
-        reviewV3={
-          reviewV3
+      <RecV2DecisionSummary
+        index={
+          index
         }
-      />
-
-      {/* ==========================================
-          TRUMARG REVIEW STANDARD 100
-      ========================================== */}
-
-      <ReviewStandard100Panel
-        collegeId={
-          row?.collegeId ||
-          row?.college_id ||
-          row?.college?.id ||
-          row?.college?.collegeId ||
-          null
+        row={
+          row
+        }
+        admission={
+          admission
+        }
+        openingRank={
+          openingRank
+        }
+        closingRank={
+          closingRank
+        }
+        overall={
+          overall
+        }
+        breakdown={
+          breakdown
+        }
+        confidence={
+          confidence
+        }
+        dataCoverage={
+          dataCoverage
         }
       />
 
 
-      {/* ==========================================
-          DATA POLICY
-      ========================================== */}
-
-            <DecisionIntelligencePanel
-        row={row}
-        index={index}
-        rows={allRows}
-      />
-
-<div className="rec-data-note">
-        Missing quality, review,
-        fee or location data stays
-        unknown — no artificial
-        default score.
+      <div
+        className="tr-rec-data-policy"
+      >
+        Missing quality, review, fee or
+        location data stays unknown.
+        TruMarg does not insert artificial
+        default evidence.
       </div>
     </article>
   );
 }
-
 
 /*
 |--------------------------------------------------------------------------

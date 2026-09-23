@@ -1,0 +1,38 @@
+{
+  "round1": {
+    "round": 1,
+    "parsedRows": 26608,
+    "validSNoRows": 26608,
+    "uniqueSNo": 26608,
+    "expectedFirstSNo": 1,
+    "expectedLastSNo": 26608,
+    "actualMinSNo": 1,
+    "actualMaxSNo": 26608,
+    "missingCount": 0,
+    "missingSNo": [],
+    "duplicateCount": 0,
+    "duplicates": [],
+    "outOfRangeCount": 0,
+    "outOfRange": [],
+    "arithmeticCheck": true,
+    "complete": true
+  },
+  "round2": {
+    "round": 2,
+    "parsedRows": 35551,
+    "validSNoRows": 35551,
+    "uniqueSNo": 35551,
+    "expectedFirstSNo": 1,
+    "expectedLastSNo": 35551,
+    "actualMinSNo": 1,
+    "actualMaxSNo": 35551,
+    "missingCount": 0,
+    "missingSNo": [],
+    "duplicateCount": 0,
+    "duplicates": [],
+    "outOfRangeCount": 0,
+    "outOfRange": [],
+    "arithmeticCheck": true,
+    "complete": true
+  }
+}

@@ -299,6 +299,34 @@ export default function PaymentResult() {
             )
           );
 
+          /*
+          |--------------------------------------------------------------------------
+          | TRUMARG VERIFIED CHOICE RETURN
+          |--------------------------------------------------------------------------
+          */
+
+          if (
+            normalizedAccess
+              ?.choiceFillingPlan
+          ) {
+            const returnPath =
+              sessionStorage.getItem(
+                'trumarg-payment-return'
+              ) ||
+              '/results?view=choice-plan';
+
+            sessionStorage.removeItem(
+              'trumarg-payment-return'
+            );
+
+            window.location.replace(
+              returnPath
+            );
+
+            return;
+          }
+
+
         } catch (
           error
         ) {

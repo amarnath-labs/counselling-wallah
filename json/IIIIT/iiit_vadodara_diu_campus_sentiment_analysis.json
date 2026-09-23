@@ -1,0 +1,98 @@
+{
+  "institution": "IIITV-ICD (Indian Institute of Information Technology Vadodara - International Campus Diu)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Shiksha.com reviews, CollegeDekho, and Careers360 (aggregated public review data)",
+  "sample_size": 13,
+  "important_distinction_note": "IIITV-ICD is a satellite campus of IIIT Vadodara, located at Education Hub, Kevdi, Diu (Union Territory of Dadra & Nagar Haveli and Daman & Diu), established in 2020. Degrees are awarded by the parent institute, IIIT Vadodara. Notably, dedicated reviews on Shiksha.com rate this campus considerably better than the main IIIT Vadodara campus, whose reviews (aggregated on Careers360) reflect a much lower overall sentiment (2.9/5) due to its own lack of a permanent campus.",
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.65,
+    "confidence": "medium",
+    "overall_rating_out_of_5": 4.0
+  },
+  "category_ratings": {
+    "college_infrastructure": 4.4,
+    "academics_faculty": 3.9,
+    "placements": 3.6,
+    "value_for_money": 3.9,
+    "campus_life": 4.2
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 68,
+    "neutral_percent": 20,
+    "negative_percent": 12
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Modern Dedicated Campus",
+      "sentiment": "Strongly Positive",
+      "notes": "Part of a modern 25-acre Education Hub with dedicated academic buildings, labs, and library spaces; classrooms and hostels are new and well-maintained, offering a clean, functional environment."
+    },
+    {
+      "theme": "Hostel & Food Quality",
+      "sentiment": "Strongly Positive",
+      "notes": "Hostels described as great, with mess and food quality rated better than most colleges by reviewers; 24/7 wifi availability."
+    },
+    {
+      "theme": "Campus Life",
+      "sentiment": "Strongly Positive",
+      "notes": "Rated 4.2/5; well-organized sports facilities and good medical facilities with a doctor available most weekdays."
+    },
+    {
+      "theme": "Faculty",
+      "sentiment": "Positive",
+      "notes": "Teachers described as highly qualified, supportive, and good mentors; curriculum kept up to date for computing and software skills."
+    },
+    {
+      "theme": "Growing Placements",
+      "sentiment": "Positive",
+      "notes": "More than 50% of students get placed by the end of the placement process (not all in the first round); highest package reported up to 40 LPA; supported by the main IIIT Vadodara placement cell with tech and consulting recruiters."
+    },
+    {
+      "theme": "Institutional Backing",
+      "sentiment": "Positive",
+      "notes": "Administered by the Board of Governors, Finance Committee, and Senate of IIIT Vadodara, with government partnership (UT Administration of DNH & DD) and Ministry of Education oversight, lending institutional credibility despite being a newer satellite campus."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Fees vs Amenities Gap",
+      "sentiment": "Negative",
+      "notes": "At least one reviewer notes a gap between what students pay and the infrastructure/amenities received in return, even while acknowledging the academic curriculum and degree value hold merit."
+    },
+    {
+      "theme": "Placement Process Not Immediate",
+      "sentiment": "Mixed",
+      "notes": "Not all students are placed in the first round of the placement process; outcomes depend significantly on individual student effort and vary by round."
+    },
+    {
+      "theme": "Relatively Young Campus",
+      "sentiment": "Neutral/Mixed",
+      "notes": "Established only in 2020, meaning the campus is still relatively new and building its independent reputation, track record, and alumni network."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "I am in the second year and am really impressed till now — more than 50% of students get placed, hostels great, mess and food quality better than most colleges, wifi available at all times",
+      "sentiment": "Strongly Positive",
+      "score": 0.85
+    },
+    {
+      "review_snippet": "IIITVICD is average for B.Tech — modern 25-acre Education Hub, dedicated academic buildings, labs, library, 24/7 wifi, classrooms and hostels new and well maintained",
+      "sentiment": "Positive",
+      "score": 0.6
+    },
+    {
+      "review_snippet": "This creates the gap between what students are paying and the infrastructure or amenities they receive in return, while academic curriculum and degree value hold merit",
+      "sentiment": "Mixed/Negative",
+      "score": -0.2
+    },
+    {
+      "review_snippet": "IIITVICD has an impressive placement record with the highest package being 40 LPA, amongst top-notch colleges in India",
+      "sentiment": "Positive",
+      "score": 0.8
+    }
+  ],
+  "conclusion": "Sentiment toward IIITV-ICD (the Diu satellite campus) is notably positive and stands out as a genuine bright spot compared to its parent institute's troubled main Vadodara campus. Strong infrastructure, good hostel and food quality, supportive faculty, and improving placements (up to 40 LPA highest package) drive favorable sentiment, though some students note a gap between fees paid and amenities received, and the campus is still relatively young in building its full track record.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews (Shiksha.com, CollegeDekho) and official information as of the search date and is illustrative, not a scientifically exhaustive sentiment study. Prospective students should note this campus's reviews differ meaningfully from those of the main IIIT Vadodara campus, despite sharing the same parent institute and degree-granting authority."
+}

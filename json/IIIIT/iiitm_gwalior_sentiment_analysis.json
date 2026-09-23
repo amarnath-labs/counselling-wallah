@@ -1,0 +1,92 @@
+{
+  "institution": "ABV-IIITM Gwalior (Atal Bihari Vajpayee Indian Institute of Information Technology and Management, Gwalior)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews (aggregated public review data)",
+  "sample_size": 54,
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.6,
+    "confidence": "high",
+    "overall_rating_out_of_5": 4.1
+  },
+  "category_ratings": {
+    "college_infrastructure": 4.0,
+    "academics": 3.6,
+    "placements": 3.8,
+    "value_for_money": 2.0,
+    "campus_life": 4.0
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 58,
+    "neutral_percent": 22,
+    "negative_percent": 20
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Placements",
+      "sentiment": "Positive",
+      "notes": "~90% placement rate; average package around 15 LPA; highest package reported at 52 LPA; recruiters include Microsoft, Google, Goldman Sachs, Flipkart, Amazon."
+    },
+    {
+      "theme": "Infrastructure",
+      "sentiment": "Positive",
+      "notes": "AC classrooms and hallways, squash and badminton courts, centralized library, 24/7 free medical facilities, strong campus-wide wifi."
+    },
+    {
+      "theme": "Alumni Network",
+      "sentiment": "Positive",
+      "notes": "Strong alumni network active through clubs like IEEE; notable alumni in leadership roles at KPMG, Dell, Palo Alto Networks, IHS Markit."
+    },
+    {
+      "theme": "Faculty",
+      "sentiment": "Positive",
+      "notes": "Faculty largely PhD holders, described as highly qualified and providing quality education."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Value for Money",
+      "sentiment": "Strongly Negative",
+      "notes": "Lowest-rated category by far (2.0/5) — the most consistent complaint among reviewers relative to fees paid."
+    },
+    {
+      "theme": "College Management",
+      "sentiment": "Negative",
+      "notes": "Some students explicitly express dissatisfaction with institute management, even while praising infrastructure."
+    },
+    {
+      "theme": "Academics",
+      "sentiment": "Mixed",
+      "notes": "Rated lower (3.6/5) compared to infra and campus life, suggesting curriculum or teaching delivery concerns for some students."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "good experience great experience - AC hallways, squash courts, strong alumni network via IEEE",
+      "sentiment": "Positive",
+      "score": 0.85
+    },
+    {
+      "review_snippet": "ABV college is nice but I doesn't like her management",
+      "sentiment": "Mixed/Negative",
+      "score": -0.2
+    },
+    {
+      "review_snippet": "Centralized library, good food, free 24/7 medical facilities, excellent wifi",
+      "sentiment": "Positive",
+      "score": 0.8
+    },
+    {
+      "review_snippet": "90% placement rate, avg package 15 LPA, highest package 52 LPA, recruiters include Microsoft, Google, Goldman Sachs",
+      "sentiment": "Positive",
+      "score": 0.9
+    },
+    {
+      "review_snippet": "Value for Money rated 2/5 — recurring theme across reviews",
+      "sentiment": "Negative",
+      "score": -0.5
+    }
+  ],
+  "conclusion": "Sentiment toward ABV-IIITM Gwalior is net positive, anchored by solid placements, strong infrastructure, and a good alumni network. However, sentiment is noticeably weaker than peer IIITs due to a sharply low Value for Money score (2.0/5) and some criticism of institute management.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study."
+}

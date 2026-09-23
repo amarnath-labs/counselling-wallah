@@ -1,0 +1,53 @@
+{
+  "totalRows": 36761,
+  "dashPatternCounts": {
+    "0": 26109,
+    "4": 7781,
+    "8": 2871
+  },
+  "currentSeatTailParsed": 6581,
+  "currentSeatTailFailures": [
+    {
+      "rankRaw": "73045",
+      "status": "Fresh Allotted in 3nd Round",
+      "text": "73045 - - - - - - - - Delhi NCR Children/ Widows of Personne l of the Armed Forces (CW) DU Quota University College of Medical Sciences, New Delhi,Dilshad Garden, Delhi (NCT), 110095 MBBS Open - 1 Fresh Allotted in 3nd Round( CW Rank : 18 )"
+    }
+  ],
+  "courseCounts": {
+    "MBBS": 5748,
+    "BDS": 636,
+    "B.Sc. Nursing": 197
+  },
+  "allottedCategoryCounts": {
+    "Open": 3278,
+    "OBC": 1453,
+    "EWS": 502,
+    "SC": 844,
+    "ST": 421,
+    "OBC PwD": 31,
+    "Open PwD": 45,
+    "EWS PwD": 2,
+    "ST PwD": 2,
+    "SC PwD": 3
+  },
+  "candidateCategoryCounts": {
+    "General": 1951,
+    "OBC": 2586,
+    "EWS": 614,
+    "SC": 913,
+    "ST": 434,
+    "OBC PwD": 43,
+    "GNYes": 32,
+    "EWS PwD": 3,
+    "ST PwD": 2,
+    "SC PwD": 3
+  },
+  "cwRows": [
+    {
+      "rankRaw": "73045",
+      "status": "Fresh Allotted in 3nd Round",
+      "text": "73045 - - - - - - - - Delhi NCR Children/ Widows of Personne l of the Armed Forces (CW) DU Quota University College of Medical Sciences, New Delhi,Dilshad Garden, Delhi (NCT), 110095 MBBS Open - 1 Fresh Allotted in 3nd Round( CW Rank : 18 )"
+    }
+  ],
+  "nriRows": []
+}

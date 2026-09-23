@@ -1,0 +1,93 @@
+{
+  "institution": "IIIT Tiruchirappalli / IIIT Trichy (Indian Institute of Information Technology, Tiruchirappalli)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 3,
+  "sample_size_caveat": "Sample size is very small (3 reviews), so confidence in this sentiment analysis is lower than for institutes with larger review samples.",
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.55,
+    "confidence": "low-medium",
+    "overall_rating_out_of_5": 4.0
+  },
+  "category_ratings": {
+    "college_infrastructure": 3.7,
+    "academics": 4.0,
+    "placements": 3.7,
+    "value_for_money": 3.7,
+    "campus_life": 4.3
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 60,
+    "neutral_percent": 22,
+    "negative_percent": 18
+  },
+  "key_positive_themes": [
+    {
+      "theme": "NIT Trichy Mentorship (PPP model)",
+      "sentiment": "Positive",
+      "notes": "IIIT Trichy operates under a public-private partnership mentored by NIT Trichy, a top-10 Indian university, lending credibility and access to a prestigious host institute."
+    },
+    {
+      "theme": "Campus Life",
+      "sentiment": "Strongly Positive",
+      "notes": "Highest-rated category (4.3/5); students report a rich learning and campus experience."
+    },
+    {
+      "theme": "Infrastructure & Amenities",
+      "sentiment": "Positive",
+      "notes": "Classrooms with smart boards and projectors, well-maintained labs, campus wifi, and hygienic mess food with clean hostel/mess areas."
+    },
+    {
+      "theme": "Academics",
+      "sentiment": "Positive",
+      "notes": "Curriculum for ECE described as updated to match industry and research needs; faculty described as approachable and friendly in teaching style."
+    },
+    {
+      "theme": "Placements (Early Data)",
+      "sentiment": "Positive",
+      "notes": "2021 batch placement data showed 63% placement rate, highest CTC of 19.5 LPA, and average CTC of 8.70 LPA — solid results for a young institute."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Temporary/Borrowed Campus",
+      "sentiment": "Negative",
+      "notes": "IIIT Trichy currently uses NIT Trichy as its host campus rather than having its own; described as a newly established institute still running a temporary setup."
+    },
+    {
+      "theme": "Hostel Distance",
+      "sentiment": "Negative",
+      "notes": "Hostel accommodation requires commuting 25 km from another college hostel, or arranging private rental housing nearby — a notable inconvenience."
+    },
+    {
+      "theme": "Institute Youth",
+      "sentiment": "Neutral/Mixed",
+      "notes": "First batch graduated only in 2019, meaning placement track record and alumni network are still relatively new and developing compared to older IIITs."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Campus Life is too good as I learnt many things here — smart boards, projectors, hygienic food, clean hostel and mess",
+      "sentiment": "Positive",
+      "score": 0.8
+    },
+    {
+      "review_snippet": "IIIT Trichy is awesome, have an eye to grab opportunities — but hostel is 25 km away, need own rental room nearby",
+      "sentiment": "Mixed",
+      "score": 0.2
+    },
+    {
+      "review_snippet": "2021 batch: 63% placed, highest CTC 19.5 LPA, average CTC 8.70 LPA",
+      "sentiment": "Positive",
+      "score": 0.65
+    },
+    {
+      "review_snippet": "Since the college is newly open, its temporary campus is presently running at NIT Trichy",
+      "sentiment": "Neutral/Mixed",
+      "score": 0.0
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Trichy is positive, with strong marks for campus life and academics, benefiting from its mentorship under the well-regarded NIT Trichy. The main drawback is its temporary, borrowed campus setup, particularly the inconvenient hostel distance, along with the natural growing pains of being a young institute with a still-developing placement track record. Given the very small review sample, these findings should be treated as indicative rather than conclusive.",
+  "disclaimer": "This analysis is based on a very small sample of publicly available student reviews and Q&A threads (Careers360) as of the search date. Given the limited sample size (3 reviews), results are illustrative only and not a scientifically robust sentiment study."
+}

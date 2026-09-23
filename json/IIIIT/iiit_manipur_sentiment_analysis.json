@@ -1,0 +1,97 @@
+{
+  "institution": "IIIT Manipur (Indian Institute of Information Technology, Manipur)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data, spanning 2019-2024)",
+  "sample_size": 14,
+  "overall_sentiment": {
+    "label": "Strongly Positive (with notable improvement trend)",
+    "score": 0.72,
+    "confidence": "high",
+    "overall_rating_out_of_5": 4.6
+  },
+  "category_ratings": {
+    "college_infrastructure": 4.1,
+    "academics": 4.4,
+    "placements": 4.4,
+    "value_for_money": 4.3,
+    "campus_life": 4.1
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 72,
+    "neutral_percent": 16,
+    "negative_percent": 12
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Placements (Recent Years)",
+      "sentiment": "Strongly Positive",
+      "notes": "Recent reviews report near-universal placement for many students; highest package 46 LPA, average around 12 LPA, lowest 8 LPA; top recruiters include Amazon, Jio, Infosys, and Publicis Sapient — a dramatic improvement from 2019 when no companies visited campus."
+    },
+    {
+      "theme": "Academics & Library",
+      "sentiment": "Strongly Positive",
+      "notes": "Curriculum regularly updated to match IIIT and industry standards; large library with over 10,000 books; supportive and well-qualified faculty in recent reviews."
+    },
+    {
+      "theme": "Infrastructure Improvement",
+      "sentiment": "Positive",
+      "notes": "WiFi accessibility in every classroom, smart board facilities, hygienic and clean food — a marked improvement from earlier reports of basic whiteboards and limited labs."
+    },
+    {
+      "theme": "Value for Money",
+      "sentiment": "Positive",
+      "notes": "Rated 4.3/5; being an IIIT is seen as offering strong value compared to private colleges and GFTIs claiming similar placement stats."
+    },
+    {
+      "theme": "Campus Life",
+      "sentiment": "Positive",
+      "notes": "Students describe a dynamic campus life with tech fests and events; hostel life described as a unique, memorable experience."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Transit Campus",
+      "sentiment": "Negative",
+      "notes": "IIIT Manipur currently operates from a transit campus in Mantripukhri, Imphal (opposite the Software Technology Park), rather than a dedicated permanent campus."
+    },
+    {
+      "theme": "Historical Growing Pains (2019)",
+      "sentiment": "Negative (Historical)",
+      "notes": "Early reviews from 2019 described no placement record at all, faculty issues, only four functional labs (with one under construction), and average canteen food — reflecting the institute's very early stage."
+    },
+    {
+      "theme": "Branch-wise Placement Variance",
+      "sentiment": "Mixed",
+      "notes": "Placements are noted as being strongest in IT and ECE branches, implying other branches may see comparatively fewer opportunities."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Dynamic campus life with strong academics and community — good infrastructure including academic building, libraries, hostels, computer labs, sports facilities",
+      "sentiment": "Positive",
+      "score": 0.85
+    },
+    {
+      "review_snippet": "A decent college — good campus, hostel facilities for both genders, wifi, library, recent tech fest organized, placements decent especially IT and ECE",
+      "sentiment": "Positive",
+      "score": 0.6
+    },
+    {
+      "review_snippet": "Highest salary offered is 46 LPA, average about 12 LPA, lowest 8 LPA; top recruiters Amazon, Jio, Infosys, Publicis Sapient",
+      "sentiment": "Strongly Positive",
+      "score": 0.9
+    },
+    {
+      "review_snippet": "Honest review (2019): no placement record until now, none of the companies visited campus, infrastructure not that good, faculty an issue",
+      "sentiment": "Negative (Historical)",
+      "score": -0.6
+    },
+    {
+      "review_snippet": "Being an IIIT itself makes it great value for money among GFTIs and private colleges claiming better placement stats",
+      "sentiment": "Positive",
+      "score": 0.7
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Manipur has improved dramatically over time, evolving from a rocky start in 2019 — with no placements and basic facilities — to a strongly positive standing today, with excellent recent placement figures (up to 46 LPA) and much-improved infrastructure and academics. The institute still operates from a transit campus rather than a dedicated permanent one, and placement strength appears to vary somewhat by branch, but overall trajectory and current sentiment are clearly positive.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews and Q&A threads (Careers360) spanning multiple years as of the search date, and is illustrative, not a scientifically exhaustive sentiment study. Sentiment reflects a mix of both older (2019) and more recent (2024) reviews to capture the institute's growth trajectory."
+}

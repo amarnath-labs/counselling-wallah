@@ -1,0 +1,235 @@
+{
+  "exam": "NEET UG",
+  "counselling": "MCC",
+  "year": 2024,
+  "status": "complete",
+  "rounds": {
+    "round1": {
+      "rowCount": 26109,
+      "rejectedCount": 0,
+      "orcrGroups": 2969,
+      "firstRankRaw": "1.01",
+      "lastRankRaw": "1394835",
+      "hashes": {
+        "rows": "5571a812d7b6914bf11b3f2b07bbbaa353f2b78cefb0cc4c609bea8c68f73ea8",
+        "rejected": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "orcr": "9c6c74ee999bb5752c9e574bec952ab138484534a0a5a6c52aaafa3870ca8bef",
+        "summary": "f6a6b4134f4d09c92a81367332f4327c60f0e0bdb74e8a732db7476d8cc2ebd6"
+      },
+      "summary": {
+        "detectedRowStarts": 26109,
+        "parsedRows": 26109,
+        "rejectedRows": 0,
+        "firstSNo": 1,
+        "lastSNo": 26109,
+        "firstRankRaw": "1.01",
+        "lastRankRaw": "1394835",
+        "decimalSourceRanks": 17,
+        "cwRankRows": 36,
+        "courseCounts": {
+          "MBBS": 21995,
+          "BDS": 3648,
+          "B.Sc. Nursing": 466
+        },
+        "quotaCounts": {
+          "Open Seat Quota": 2650,
+          "All India": 8361,
+          "Delhi University Quota": 542,
+          "Deemed/Paid Seats Quota": 11924,
+          "IP University Quota": 256,
+          "Foreign Country Quota": 7,
+          "Aligarh Muslim University (AMU) Quota": 88,
+          "Internal -Puducherry UT Domicile": 60,
+          "Employees State Insurance Scheme(ESI)": 470,
+          "Delhi NCR Children/Widows of Personnel of the Armed Forces (CW) Quota": 34,
+          "Non-Resident Indian(AMU)Quota": 10,
+          "Muslim OBC Quota": 4,
+          "B.Sc Nursing All India": 310,
+          "Muslim Quota": 15,
+          "Muslim Women Quota": 5,
+          "Muslim Minority Quota": 182,
+          "Non-Resident Indian": 900,
+          "B.Sc Nursing Delhi NCR": 98,
+          "Employees State Insurance Scheme Nursing Quota (ESI-IP Quota Nursing)": 56,
+          "Jamia Internal Quota": 3,
+          "Jain Minority Quota": 131,
+          "B.Sc Nursing Delhi NCR CW Quota": 2,
+          "Muslim ST Quota": 1
+        },
+        "allottedCategoryCounts": {
+          "Open": 18355,
+          "OBC": 3300,
+          "SC": 1827,
+          "EWS": 1195,
+          "ST": 908,
+          "Open PwD": 240,
+          "OBC PwD": 148,
+          "EWS PwD": 45,
+          "ST PwD": 24,
+          "SC PwD": 67
+        },
+        "candidateCategoryCounts": {
+          "General": 12009,
+          "OBC": 8355,
+          "SC": 2443,
+          "EWS": 1779,
+          "ST": 991,
+          "General PwD": 171,
+          "OBC PwD": 206,
+          "EWS PwD": 59,
+          "ST PwD": 25,
+          "SC PwD": 71
+        },
+        "orcrGroups": 2969
+      }
+    },
+    "round2": {
+      "rowCount": 33890,
+      "rejectedCount": 0,
+      "orcrGroups": 2617,
+      "firstRankRaw": "1.01",
+      "lastRankRaw": "1395905",
+      "hashes": {
+        "rows": "a0297fb2279e9927e65d06e9f44073dccf5536b657d22c58d87abe01b9e25056",
+        "rejected": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "orcr": "c11cd5ac5adb562a743468c99faa90673600c058463fcb8f154d5149d1ed2cf8",
+        "summary": "1a71709a3f1f7d4d318b4dd7046b918b0c537ec3d2e8dc29dbb77860c16d064b"
+      },
+      "summary": {
+        "detectedRowStarts": 33890,
+        "parsedRows": 33890,
+        "rejectedRows": 0,
+        "firstSNo": 1,
+        "lastSNo": 33890,
+        "firstRankRaw": "1.01",
+        "lastRankRaw": "1395905",
+        "decimalSourceRanks": 18,
+        "round1StatusCounts": {
+          "Reported": 16023,
+          "Not Reported": 9751,
+          "NULL": 7781,
+          "Seat Surrendered": 329,
+          "Seat Cancelled": 6
+        },
+        "round2StatusCounts": {
+          "Did not opt for Upgradation": 9117,
+          "Did not fill up fresh choices.": 3772,
+          "Fresh Allotted in 2nd Round": 11170,
+          "Upgraded": 1211,
+          "No Upgradation": 4800,
+          "Not Allotted": 3820
+        },
+        "rowsWithRound2Seat": 12381,
+        "rowsWithoutRound2Seat": 21509,
+        "round2CourseCounts": {
+          "MBBS": 10776,
+          "BDS": 1276,
+          "B.Sc. Nursing": 329
+        },
+        "round2AllottedCategoryCounts": {
+          "Open": 7415,
+          "OBC": 2205,
+          "EWS": 804,
+          "SC": 1180,
+          "ST": 576,
+          "OBC PwD": 70,
+          "Open PwD": 98,
+          "SC PwD": 19,
+          "ST PwD": 5,
+          "EWS PwD": 9
+        },
+        "round2CandidateCategoryCounts": {
+          "General": 4504,
+          "OBC": 4559,
+          "EWS": 1076,
+          "SC": 1418,
+          "ST": 621,
+          "General PwD": 64,
+          "OBC PwD": 93,
+          "SC PwD": 20,
+          "EWS PwD": 20,
+          "ST PwD": 6
+        },
+        "orcrGroups": 2617
+      }
+    },
+    "round3": {
+      "rowCount": 36761,
+      "rejectedCount": 0,
+      "orcrGroups": 3182,
+      "firstRankRaw": "1.01",
+      "lastRankRaw": "1395905",
+      "hashes": {
+        "rows": "a52d7aece37950fef31599fe57fd18bbf2e9e23babd522f5b88d6ce5c1424f2e",
+        "rejected": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "orcr": "6a93859a3d18ae101d185e9a3e0528e38c3a8a2a61a68101429aa1a4891c373e",
+        "summary": "1d04f50eca390356e6631a333f9c9159bfb204ecd22950bea49e0245821ccadd"
+      },
+      "summary": {
+        "segmentedRows": 36761,
+        "parsedRows": 36761,
+        "rejectedRows": 0,
+        "firstRankRaw": "1.01",
+        "lastRankRaw": "1395905",
+        "decimalSourceRanks": 18,
+        "round3StatusCounts": {
+          "Did not opt for Upgradation": 12682,
+          "Did not fill up fresh choices.": 11027,
+          "No Upgradation": 4199,
+          "Not Allotted": 2271,
+          "Upgraded": 2536,
+          "Fresh Allotted in 3nd Round": 4046
+        },
+        "rowsWithRound3Seat": 6582,
+        "rowsWithoutRound3Seat": 30179,
+        "round3CourseCounts": {
+          "MBBS": 5749,
+          "BDS": 636,
+          "B.Sc. Nursing": 197
+        },
+        "round3AllottedCategoryCounts": {
+          "Open": 3279,
+          "OBC": 1453,
+          "EWS": 502,
+          "SC": 844,
+          "ST": 421,
+          "OBC PwD": 31,
+          "Open PwD": 45,
+          "EWS PwD": 2,
+          "ST PwD": 2,
+          "SC PwD": 3
+        },
+        "round3CandidateCategoryCounts": {
+          "General": 1951,
+          "OBC": 2586,
+          "EWS": 614,
+          "SC": 913,
+          "ST": 434,
+          "OBC PwD": 43,
+          "NULL": 1,
+          "General PwD": 32,
+          "EWS PwD": 3,
+          "ST PwD": 2,
+          "SC PwD": 3
+        },
+        "cwRankRows": 1,
+        "orcrGroups": 3182
+      }
+    }
+  },
+  "validation": {
+    "round1RejectedZero": true,
+    "round2RejectedZero": true,
+    "round3RejectedZero": true,
+    "round1Rows": true,
+    "round2Rows": true,
+    "round3Rows": true,
+    "round1FirstRank": true,
+    "round2FirstRank": true,
+    "round3FirstRank": true,
+    "round1LastRank": true,
+    "round2LastRank": true,
+    "round3LastRank": true
+  },
+  "validationPassed": true
+}

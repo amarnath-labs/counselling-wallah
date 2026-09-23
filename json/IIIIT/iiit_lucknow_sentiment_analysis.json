@@ -1,0 +1,97 @@
+{
+  "institution": "IIIT Lucknow (Indian Institute of Information Technology, Lucknow)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 35,
+  "overall_sentiment": {
+    "label": "Strongly Positive",
+    "score": 0.8,
+    "confidence": "high",
+    "overall_rating_out_of_5": 4.5
+  },
+  "category_ratings": {
+    "college_infrastructure": 4.2,
+    "academics": 4.6,
+    "placements": 4.6,
+    "value_for_money": 4.4,
+    "campus_life": 4.2
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 78,
+    "neutral_percent": 14,
+    "negative_percent": 8
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Placements",
+      "sentiment": "Strongly Positive",
+      "notes": "Top-rated category (4.6/5); recruiters include JP Morgan, Citibank, Goldman Sachs, Deloitte, Amazon, and Flipkart; average package around 18.65 LPA, highest reported at 43 LPA; strong internship structure (PS1/PS2); some students received multiple job offers."
+    },
+    {
+      "theme": "Academics",
+      "sentiment": "Strongly Positive",
+      "notes": "Also rated 4.6/5; faculty largely PhD holders educated at IITs; curriculum well-structured and considered stress-free relative to workload."
+    },
+    {
+      "theme": "Modern Facilities",
+      "sentiment": "Positive",
+      "notes": "Fully centralized AC classrooms, high-speed campus-wide wifi, well-equipped labs, and a giant library; 50-acre campus located in Lucknow's IT-city special economic zone (SEZ)."
+    },
+    {
+      "theme": "Value for Money",
+      "sentiment": "Positive",
+      "notes": "Rated 4.4/5 — among the highest of any IIIT reviewed, reflecting strong perceived return given placement outcomes."
+    },
+    {
+      "theme": "Student Support",
+      "sentiment": "Positive",
+      "notes": "Seniors and staff described as supportive, helping with both coding skills and overall college experience."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Hostel Infrastructure Still Developing",
+      "sentiment": "Negative",
+      "notes": "Boys' hostel not yet built as a separate facility, leading to congestion; first-year students are temporarily housed off-campus, about 2-3 km from college."
+    },
+    {
+      "theme": "Campus Still Under Construction",
+      "sentiment": "Mixed",
+      "notes": "Some facilities, including labs in earlier years, were still under construction; campus described as a 'little boring' at times due to limited space for casual activities."
+    },
+    {
+      "theme": "Limited Greenery/Campus Feel",
+      "sentiment": "Minor Negative",
+      "notes": "One review notes limited greenery, though academic-focused facilities compensate for this."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Absolutely recommend IIIT Lucknow — separate boys hostel not yet built, first years temporarily housed off-campus 2-3 km away",
+      "sentiment": "Mixed/Positive",
+      "score": 0.5
+    },
+    {
+      "review_snippet": "Placement stats show average 14 LPA, good coding environment, fees worth every penny",
+      "sentiment": "Positive",
+      "score": 0.85
+    },
+    {
+      "review_snippet": "One of the best IIITs in Uttar Pradesh — JP Morgan, Citibank, Goldman Sachs, Amazon, Flipkart hire from campus, each student can get up to 3 job offers",
+      "sentiment": "Strongly Positive",
+      "score": 0.95
+    },
+    {
+      "review_snippet": "IIIT Lucknow highest package is 43 LPA, average package is 18.65 LPA",
+      "sentiment": "Positive",
+      "score": 0.9
+    },
+    {
+      "review_snippet": "IIIT Lucknow in 2020 — academic building and hostel exist but other facilities still in construction, labs not yet ready",
+      "sentiment": "Negative",
+      "score": -0.3
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Lucknow is strongly positive and stands out as one of the best-performing institutes among all IIITs analyzed, driven by excellent placements with top-tier recruiters and highly rated academics. The main area for improvement remains physical infrastructure completion, particularly separate hostel facilities, as the institute continues to mature since its establishment under the PPP model.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study."
+}

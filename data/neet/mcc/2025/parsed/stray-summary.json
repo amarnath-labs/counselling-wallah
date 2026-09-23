@@ -1,0 +1,32 @@
+{
+  "parsedRows": 1129,
+  "rejectedRows": 0,
+  "quotaDictionarySize": 28,
+  "uniqueInstitutes": 368,
+  "courseCounts": {
+    "MBBS": 802,
+    "BDS": 266,
+    "B.Sc. Nursing": 61
+  },
+  "allottedCategoryCounts": {
+    "Open": 731,
+    "OBC": 151,
+    "SC": 128,
+    "ST": 51,
+    "EWS": 50,
+    "Open PwD": 10,
+    "OBC PwD": 8
+  },
+  "candidateCategoryCounts": {
+    "OBC": 421,
+    "General": 382,
+    "SC": 161,
+    "EWS": 93,
+    "ST": 54,
+    "OBC PwD": 13,
+    "General PwD": 5
+  },
+  "nriPriorityRows": 38,
+  "firstRank": 4952,
+  "lastRank": 1284136
+}

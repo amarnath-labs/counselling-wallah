@@ -1,0 +1,102 @@
+{
+  "institution": "IIIT Nagpur (Indian Institute of Information Technology, Nagpur)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 11,
+  "overall_sentiment": {
+    "label": "Positive (with notable placement variance)",
+    "score": 0.5,
+    "confidence": "medium-high",
+    "overall_rating_out_of_5": 4.4
+  },
+  "category_ratings": {
+    "college_infrastructure": 3.9,
+    "academics": 4.1,
+    "placements": 3.9,
+    "value_for_money": 3.5,
+    "campus_life": 3.5
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 55,
+    "neutral_percent": 24,
+    "negative_percent": 21
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Permanent Campus",
+      "sentiment": "Positive",
+      "notes": "IIIT Nagpur has shifted to its own permanent 100-acre campus, though a large portion of the campus area still needs development."
+    },
+    {
+      "theme": "Specialized Academics",
+      "sentiment": "Positive",
+      "notes": "Offers core branches (ECE, CSE) plus specializations in Human Gaming, Data Science, AI/ML, and IoT, with a standard CGPA-based semester system."
+    },
+    {
+      "theme": "Placements (Best Case)",
+      "sentiment": "Positive",
+      "notes": "Official summary reports encouraging placement records with average packages up to 14 LPA and a highest package of 89 LPA, positioning it among stronger newer IIITs."
+    },
+    {
+      "theme": "Campus Life",
+      "sentiment": "Positive",
+      "notes": "Active campus culture with annual events including Kshitij (institute gathering), Tantrafiesta (technical fest), and Abhivyakti (cultural fest), plus numerous student clubs."
+    },
+    {
+      "theme": "Fee Waivers",
+      "sentiment": "Positive",
+      "notes": "Full tuition fee waiver available for General-EWS category students with family income below Rs 1 lakh per year, under Government of India rules."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Placement Inconsistency",
+      "sentiment": "Negative",
+      "notes": "Significant variance across reviews — one ECE-focused review cites an average package of just 3-4 LPA, another cites 3.87 LPA average with 7.10 LPA highest, while the official summary cites up to 14 LPA average and 89 LPA highest, suggesting placements vary widely by branch, batch, or year."
+    },
+    {
+      "theme": "Campus Still Developing",
+      "sentiment": "Negative",
+      "notes": "Despite shifting to the permanent 100-acre campus, a large chunk of the area remains undeveloped; COVID-related delays also slowed the shift from earlier temporary arrangements."
+    },
+    {
+      "theme": "Teaching Practicality",
+      "sentiment": "Negative",
+      "notes": "Some reviews criticize teaching as overly theoretical, focused on grades rather than providing practical, industry-relevant knowledge."
+    },
+    {
+      "theme": "Value for Money & Campus Life",
+      "sentiment": "Mixed",
+      "notes": "Both rated at the lower end (3.5/5) relative to other categories, reflecting some dissatisfaction with cost-to-experience ratio for a still-developing institute."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Review of IIIT Nagpur — new permanent campus being built, spacious classrooms with projectors, but average package just 3 to 4 lakhs per annum",
+      "sentiment": "Mixed/Negative",
+      "score": -0.1
+    },
+    {
+      "review_snippet": "I definitely recommend this college — placement records very encouraging, average packages up to 14 LPA, highest 89 LPA",
+      "sentiment": "Strongly Positive",
+      "score": 0.85
+    },
+    {
+      "review_snippet": "Life is pretty chill and exciting — shifted to permanent 100-acre campus recently, but large chunk still needs development",
+      "sentiment": "Mixed/Positive",
+      "score": 0.3
+    },
+    {
+      "review_snippet": "Average package was 3.87 LPA and highest was 7.10 LPA, all students happy with their placements",
+      "sentiment": "Mixed",
+      "score": 0.2
+    },
+    {
+      "review_snippet": "IIIT Nagpur is not fit now to take admission, current scenario is very disturbing",
+      "sentiment": "Negative",
+      "score": -0.5
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Nagpur is positive overall, bolstered by its transition to a permanent 100-acre campus, diverse specialized academic offerings, and headline placement figures reaching as high as 89 LPA. However, there is notable inconsistency in reported placement outcomes across branches and years, with some reviews citing much more modest average packages (3-4 LPA), indicating the institute's placement strength may be concentrated in specific branches or improving unevenly over time.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study."
+}

@@ -1,0 +1,93 @@
+{
+  "institution": "IIIT Pune (Indian Institute of Information Technology, Pune)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 23,
+  "institute_disambiguation_note": "This analysis covers IIIT Pune (the government/national-importance institute). A separate private institute, 'International Institute of Information Technology, Pune (I2IT)', also exists with distinctly lower ratings (2.9/5 overall) and should not be confused with IIIT Pune.",
+  "overall_sentiment": {
+    "label": "Moderately Positive",
+    "score": 0.4,
+    "confidence": "medium-high",
+    "overall_rating_out_of_5": 3.8
+  },
+  "category_ratings": {
+    "college_infrastructure": 3.3,
+    "academics": 3.2,
+    "placements": 3.6,
+    "value_for_money": 3.3,
+    "campus_life": 3.1
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 50,
+    "neutral_percent": 26,
+    "negative_percent": 24
+  },
+  "key_positive_themes": [
+    {
+      "theme": "New Permanent Campus",
+      "sentiment": "Positive",
+      "notes": "IIIT Pune has moved to a new permanent campus offering better classrooms, upgraded computer labs, and a cleaner hostel environment — a significant step up from the earlier temporary campus shared with Trinity Academy of Engineering near Bopdev Ghat, about 15 km from Pune railway station."
+    },
+    {
+      "theme": "Academic Infrastructure",
+      "sentiment": "Positive",
+      "notes": "Classrooms and laboratories well equipped for technical education; computing resources sufficient for advanced coursework and projects."
+    },
+    {
+      "theme": "Placements",
+      "sentiment": "Moderately Positive",
+      "notes": "Highest-rated category (3.6/5); considered good value for money given the quality of education and placement opportunities."
+    },
+    {
+      "theme": "Focused Study Environment",
+      "sentiment": "Positive",
+      "notes": "Peaceful, organized campus ambiance suited to focused studying; students spend time on academics, projects, and placement preparation."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Campus Life",
+      "sentiment": "Negative",
+      "notes": "Lowest-rated category (3.1/5); campus environment described as heavily academics-and-placement focused with limited extracurricular vibrancy compared to other institutes."
+    },
+    {
+      "theme": "Campus Size & Development Stage",
+      "sentiment": "Mixed",
+      "notes": "Campus described as not very large; while newly upgraded, it is still at a developing stage in terms of full amenities."
+    },
+    {
+      "theme": "Fees vs Historical Placements",
+      "sentiment": "Negative",
+      "notes": "Some community Q&A responses note that fees are relatively high, and in past years placement outcomes were considered weaker compared to peer IIITs like IIIT Kota."
+    },
+    {
+      "theme": "Academics Rating",
+      "sentiment": "Mixed",
+      "notes": "Academics rated 3.2/5, among the lower scores in this category compared to other IIITs analyzed, despite adequate infrastructure."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Good choice for students who want strong technical learning — functional infrastructure, good value for money given education and placement quality",
+      "sentiment": "Positive",
+      "score": 0.6
+    },
+    {
+      "review_snippet": "To summarise it you will get excellent college life — new permanent campus better in all ways, big step up from earlier temporary campus",
+      "sentiment": "Positive",
+      "score": 0.7
+    },
+    {
+      "review_snippet": "For CS I would recommend IIIT Kota over IIIT Pune as fees in IIIT Pune is high too and there were not many placements in past years",
+      "sentiment": "Negative",
+      "score": -0.5
+    },
+    {
+      "review_snippet": "Currently sharing campus with Trinity Academy of Engineering near Bopdev Ghat, Pune, nearly 15 kilometers from Pune railway station",
+      "sentiment": "Negative (Historical)",
+      "score": -0.3
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Pune is moderately positive, with the recent transition to a new permanent campus marking a clear improvement over its earlier temporary, shared setup. However, ratings across academics and campus life remain relatively middling compared to top-performing IIITs, and some historical concerns persist about fees relative to placement outcomes in past years.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study. Care was taken to distinguish IIIT Pune from the separate, lower-rated private institute I2IT Pune."
+}

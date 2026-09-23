@@ -1,0 +1,169 @@
+{
+  "startedAt": "2026-09-22T07:33:02.654Z",
+  "options": {
+    "limit": 3,
+    "startAfter": null,
+    "delayMs": 1000,
+    "retry": 1,
+    "onlyMissing": false
+  },
+  "totalSelected": 3,
+  "processed": 3,
+  "qualified": 0,
+  "skipped": 0,
+  "failed": 0,
+  "addedReviews": 0,
+  "colleges": [
+    {
+      "collegeId": "uptac-a-n-a-college-of-engineering-management-bareilly",
+      "collegeName": "A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT,BAREILLY",
+      "skipped": false,
+      "beforeReviews": 0,
+      "afterReviews": 0,
+      "standardMet": false,
+      "steps": [
+        {
+          "source": "Shiksha",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Collegedunia",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Careers360",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Quora",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "GetMyUni",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Zollege",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeBatch",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeDekho",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        }
+      ]
+    },
+    {
+      "collegeId": "uptac-abes-engg-college-ghaziabad",
+      "collegeName": "ABES ENGG.COLLEGE,GHAZIABAD",
+      "skipped": false,
+      "beforeReviews": 0,
+      "afterReviews": 0,
+      "standardMet": false,
+      "steps": [
+        {
+          "source": "Shiksha",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Collegedunia",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Careers360",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Quora",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "GetMyUni",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Zollege",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeBatch",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeDekho",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        }
+      ]
+    },
+    {
+      "collegeId": "uptac-abes-institute-of-technology-ghaziabad",
+      "collegeName": "ABES INSTITUTE OF TECHNOLOGY,GHAZIABAD",
+      "skipped": false,
+      "beforeReviews": 0,
+      "afterReviews": 0,
+      "standardMet": false,
+      "steps": [
+        {
+          "source": "Shiksha",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Collegedunia",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Careers360",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Quora",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "GetMyUni",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Zollege",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeBatch",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeDekho",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        }
+      ]
+    }
+  ],
+  "finishedAt": "2026-09-22T07:33:04.862Z"
+}

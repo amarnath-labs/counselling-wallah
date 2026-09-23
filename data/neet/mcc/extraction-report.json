@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-09-23T03:27:03.444Z",
+  "results": [
+    {
+      "year": 2026,
+      "round": "round-1",
+      "pdf": "C:\\Users\\amarn\\Downloads\\Counselling-Wallah phase-2\\data\\neet\\mcc\\2026\\raw\\round-1.pdf",
+      "text": "C:\\Users\\amarn\\Downloads\\Counselling-Wallah phase-2\\data\\neet\\mcc\\2026\\text\\round-1.txt",
+      "pages": 1272,
+      "characters": 4874214,
+      "nonEmptyLines": 292785
+    },
+    {
+      "year": 2026,
+      "round": "round-2",
+      "pdf": "C:\\Users\\amarn\\Downloads\\Counselling-Wallah phase-2\\data\\neet\\mcc\\2026\\raw\\round-2.pdf",
+      "text": "C:\\Users\\amarn\\Downloads\\Counselling-Wallah phase-2\\data\\neet\\mcc\\2026\\text\\round-2.txt",
+      "pages": 2666,
+      "characters": 6851018,
+      "nonEmptyLines": 659125
+    }
+  ]
+}

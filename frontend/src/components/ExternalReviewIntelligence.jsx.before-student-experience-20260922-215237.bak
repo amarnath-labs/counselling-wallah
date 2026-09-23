@@ -1,0 +1,626 @@
+function scoreLabel(value) {
+  const n =
+    Number(value);
+
+  if (!Number.isFinite(n)) {
+    return '—';
+  }
+
+  return `${n.toFixed(1)} / 5`;
+}
+
+
+function RatingRow({
+  label,
+  value,
+}) {
+  if (
+    value === null ||
+    value === undefined
+  ) {
+    return null;
+  }
+
+
+  return (
+    <div className="eri-rating-row">
+      <span>
+        {label}
+      </span>
+
+      <strong>
+        {scoreLabel(value)}
+      </strong>
+    </div>
+  );
+}
+
+
+function ThemeCard({
+  item,
+  positive = true,
+}) {
+  if (!item) {
+    return null;
+  }
+
+
+  return (
+    <div
+      className={
+        positive
+          ? 'eri-theme eri-theme--positive'
+          : 'eri-theme eri-theme--negative'
+      }
+    >
+      <div className="eri-theme-title">
+        <span>
+          {positive ? '✓' : '⚠'}
+        </span>
+
+        <strong>
+          {item.theme}
+        </strong>
+      </div>
+
+
+      {item.sentiment ? (
+        <div className="eri-theme-sentiment">
+          {item.sentiment}
+        </div>
+      ) : null}
+
+
+      {item.notes ? (
+        <p>
+          {item.notes}
+        </p>
+      ) : null}
+    </div>
+  );
+}
+
+
+function EvidenceProgress({
+  current = 0,
+  threshold = 50,
+}) {
+  const safeCurrent =
+    Math.max(
+      0,
+      Number(current) || 0
+    );
+
+  const safeThreshold =
+    Math.max(
+      1,
+      Number(threshold) || 50
+    );
+
+  const percent =
+    Math.min(
+      100,
+      Math.round(
+        (
+          safeCurrent /
+          safeThreshold
+        ) * 100
+      )
+    );
+
+
+  return (
+    <div className="eri-progress-wrap">
+      <div className="eri-progress-head">
+        <span>
+          Evidence threshold
+        </span>
+
+        <strong>
+          {safeCurrent} / {safeThreshold}
+        </strong>
+      </div>
+
+      <div className="eri-progress-track">
+        <div
+          className="eri-progress-bar"
+          style={{
+            width: `${percent}%`,
+          }}
+        />
+      </div>
+    </div>
+  );
+}
+
+
+export default function ExternalReviewIntelligence({
+  data,
+}) {
+  if (!data) {
+    return null;
+  }
+
+
+  const sentiment =
+    data.studentSentiment ||
+    {};
+
+  const evidence =
+    data.evidence ||
+    {};
+
+  const ratings =
+    data.ratings ||
+    {};
+
+  const breakdown =
+    data.sentimentBreakdown ||
+    {};
+
+  const positives =
+    Array.isArray(
+      data.positiveThemes
+    )
+      ? data.positiveThemes
+      : [];
+
+  const negatives =
+    Array.isArray(
+      data.negativeThemes
+    )
+      ? data.negativeThemes
+      : [];
+
+  const rankingImpact =
+    data.rankingImpact ||
+    {};
+
+
+  return (
+    <section className="eri">
+      <div className="eri-header">
+        <div>
+          <div className="eri-eyebrow">
+            Student Experience Intelligence
+          </div>
+
+          <h3>
+            {data.institution ||
+              'Student experience'}
+          </h3>
+        </div>
+
+
+        <div className="eri-status">
+          <strong>
+            {sentiment.label ||
+              'Evidence available'}
+          </strong>
+
+          <span>
+            {evidence.level ||
+              sentiment.confidence ||
+              'Limited'}{' '}
+            Evidence
+          </span>
+        </div>
+      </div>
+
+
+      <div className="eri-summary-grid">
+        <div className="eri-stat">
+          <span>
+            Overall sentiment
+          </span>
+
+          <strong>
+            {sentiment.label ||
+              '—'}
+          </strong>
+        </div>
+
+
+        <div className="eri-stat">
+          <span>
+            Usable evidence
+          </span>
+
+          <strong>
+            {evidence.usableEvidence ??
+              '—'}
+          </strong>
+        </div>
+
+
+        <div className="eri-stat">
+          <span>
+            Independent sources
+          </span>
+
+          <strong>
+            {evidence.sourceCount ??
+              '—'}
+          </strong>
+        </div>
+
+
+        <div className="eri-stat">
+          <span>
+            Evidence level
+          </span>
+
+          <strong>
+            {evidence.level ||
+              '—'}
+          </strong>
+        </div>
+      </div>
+
+
+      <EvidenceProgress
+        current={
+          evidence.usableEvidence
+        }
+        threshold={
+          evidence.threshold || 50
+        }
+      />
+
+
+      {!evidence.rankingEligible ? (
+        <div className="eri-limited">
+          <strong>
+            Limited ranking influence
+          </strong>
+
+          <p>
+            The available student-review
+            evidence is useful for
+            understanding reported
+            experience, but it has not yet
+            cleared TruMarg's full
+            ranking-evidence requirement of
+            at least 50 usable evidence
+            items from multiple independent
+            sources.
+          </p>
+        </div>
+      ) : (
+        <div className="eri-qualified">
+          <strong>
+            Ranking-grade evidence
+          </strong>
+
+          <p>
+            This profile clears TruMarg's
+            minimum review-evidence
+            threshold.
+          </p>
+        </div>
+      )}
+
+
+      <div className="eri-section">
+        <h4>
+          What students report
+        </h4>
+
+        <div className="eri-ratings">
+          <RatingRow
+            label="Infrastructure"
+            value={
+              ratings.infrastructure
+            }
+          />
+
+          <RatingRow
+            label="Campus Life"
+            value={
+              ratings.campusLife
+            }
+          />
+
+          <RatingRow
+            label="Academics & Faculty"
+            value={
+              ratings.academicsFaculty
+            }
+          />
+
+          <RatingRow
+            label="Value for Money"
+            value={
+              ratings.valueForMoney
+            }
+          />
+
+          <RatingRow
+            label="Placements"
+            value={
+              ratings.placements
+            }
+          />
+        </div>
+      </div>
+
+
+      {(
+        breakdown.positive !== null &&
+        breakdown.positive !== undefined
+      ) ||
+      (
+        breakdown.neutral !== null &&
+        breakdown.neutral !== undefined
+      ) ||
+      (
+        breakdown.negative !== null &&
+        breakdown.negative !== undefined
+      ) ? (
+        <div className="eri-section">
+          <h4>
+            Sentiment mix
+          </h4>
+
+          <div className="eri-sentiment-grid">
+            <div>
+              <strong>
+                {breakdown.positive ??
+                  0}%
+              </strong>
+
+              <span>
+                Positive
+              </span>
+            </div>
+
+
+            <div>
+              <strong>
+                {breakdown.neutral ??
+                  0}%
+              </strong>
+
+              <span>
+                Neutral
+              </span>
+            </div>
+
+
+            <div>
+              <strong>
+                {breakdown.negative ??
+                  0}%
+              </strong>
+
+              <span>
+                Negative
+              </span>
+            </div>
+          </div>
+        </div>
+      ) : null}
+
+
+      {positives.length > 0 ? (
+        <div className="eri-section">
+          <h4>
+            Students commonly appreciate
+          </h4>
+
+          <div className="eri-theme-list">
+            {positives.map(
+              (
+                item,
+                index
+              ) => (
+                <ThemeCard
+                  key={
+                    `positive-${index}`
+                  }
+                  item={item}
+                  positive
+                />
+              )
+            )}
+          </div>
+        </div>
+      ) : null}
+
+
+      {negatives.length > 0 ? (
+        <div className="eri-section">
+          <h4>
+            Things to consider
+          </h4>
+
+          <div className="eri-theme-list">
+            {negatives.map(
+              (
+                item,
+                index
+              ) => (
+                <ThemeCard
+                  key={
+                    `negative-${index}`
+                  }
+                  item={item}
+                  positive={false}
+                />
+              )
+            )}
+          </div>
+        </div>
+      ) : null}
+
+
+      {data.distinctionNote ? (
+        <div
+          className="
+            eri-section
+            eri-distinction
+          "
+        >
+          <h4>
+            Important distinction
+          </h4>
+
+          <p>
+            {data.distinctionNote}
+          </p>
+        </div>
+      ) : null}
+
+
+      {data.conclusion ? (
+        <div
+          className="
+            eri-section
+            eri-reality
+          "
+        >
+          <div className="eri-eyebrow">
+            TruMarg Reality Check
+          </div>
+
+          <h4>
+            Student-reported reality
+          </h4>
+
+          <p>
+            {data.conclusion}
+          </p>
+        </div>
+      ) : null}
+
+
+      <div className="eri-section">
+        <h4>
+          Evidence transparency
+        </h4>
+
+        <div className="eri-evidence-table">
+          <div>
+            <span>
+              Usable evidence
+            </span>
+
+            <strong>
+              {evidence.usableEvidence ??
+                '—'}
+            </strong>
+          </div>
+
+
+          <div>
+            <span>
+              Threshold
+            </span>
+
+            <strong>
+              {evidence.threshold ??
+                50}
+            </strong>
+          </div>
+
+
+          <div>
+            <span>
+              Evidence level
+            </span>
+
+            <strong>
+              {evidence.level ||
+                '—'}
+            </strong>
+          </div>
+
+
+          <div>
+            <span>
+              Confidence
+            </span>
+
+            <strong>
+              {sentiment.confidence ||
+                '—'}
+            </strong>
+          </div>
+        </div>
+
+
+        {Array.isArray(
+          evidence.sources
+        ) &&
+        evidence.sources.length >
+          0 ? (
+          <p className="eri-sources">
+            <strong>
+              Sources considered:
+            </strong>{' '}
+
+            {evidence.sources.join(
+              ', '
+            )}
+          </p>
+        ) : null}
+      </div>
+
+
+      {rankingImpact.reason ? (
+        <div className="eri-ranking-impact">
+          <strong>
+            Ranking impact
+          </strong>
+
+          <p>
+            {rankingImpact.reason}
+          </p>
+        </div>
+      ) : null}
+
+
+      {data.reportedOverallRating !==
+        null &&
+      data.reportedOverallRating !==
+        undefined ? (
+        <div className="eri-reported-rating">
+          <strong>
+            Reported aggregate rating:
+          </strong>{' '}
+
+          {scoreLabel(
+            data.reportedOverallRating
+          )}
+
+          <div className="eri-small-note">
+            Informational only. TruMarg
+            does not treat this as a
+            standardized verified rating.
+          </div>
+        </div>
+      ) : null}
+
+
+      {data.analysisDate ? (
+        <div className="eri-analysis-date">
+          Analysis date:{' '}
+          {data.analysisDate}
+        </div>
+      ) : null}
+
+
+      {data.disclaimer ? (
+        <div className="eri-disclaimer">
+          <strong>
+            About this evidence
+          </strong>
+
+          <p>
+            {data.disclaimer}
+          </p>
+        </div>
+      ) : null}
+    </section>
+  );
+}

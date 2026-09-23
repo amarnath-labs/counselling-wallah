@@ -1,0 +1,819 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+
+const __filename =
+  fileURLToPath(import.meta.url);
+
+const __dirname =
+  path.dirname(__filename);
+
+
+/*
+|--------------------------------------------------------------------------
+| PROJECT ROOT
+|--------------------------------------------------------------------------
+*/
+
+const PROJECT_ROOT =
+  path.resolve(
+    __dirname,
+    '..',
+    '..',
+    '..'
+  );
+
+
+const JSON_ROOT =
+  path.join(
+    PROJECT_ROOT,
+    'json'
+  );
+
+
+const IIIT_ROOT =
+  path.join(
+    JSON_ROOT,
+    'IIIIT'
+  );
+
+
+/*
+|--------------------------------------------------------------------------
+| CACHE
+|--------------------------------------------------------------------------
+*/
+
+let loaded = false;
+
+const intelligenceByInstitution =
+  new Map();
+
+
+/*
+|--------------------------------------------------------------------------
+| NORMALIZATION
+|--------------------------------------------------------------------------
+*/
+
+function normalize(value) {
+  return String(value ?? '')
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(
+      /[\u0300-\u036f]/g,
+      ''
+    )
+    .replace(
+      /\binternational campus\b/g,
+      ' international campus '
+    )
+    .replace(
+      /\bindian institute of information technology\b/g,
+      ' iiit '
+    )
+    .replace(
+      /\bnational institute of technology\b/g,
+      ' nit '
+    )
+    .replace(
+      /[^a-z0-9]+/g,
+      ' '
+    )
+    .replace(
+      /\s+/g,
+      ' '
+    )
+    .trim();
+}
+
+
+function compact(value) {
+  return normalize(value)
+    .replace(
+      /\s+/g,
+      ''
+    );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| SAFE NUMBER
+|--------------------------------------------------------------------------
+*/
+
+function numberOrNull(value) {
+  const n =
+    Number(value);
+
+  return Number.isFinite(n)
+    ? n
+    : null;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| EVIDENCE LEVEL
+|--------------------------------------------------------------------------
+*/
+
+function getEvidenceLevel({
+  sampleSize,
+  sourceCount,
+}) {
+  const n =
+    Number(sampleSize) || 0;
+
+  const sources =
+    Number(sourceCount) || 0;
+
+
+  let level;
+
+  if (n <= 9) {
+    level =
+      'Insufficient';
+  }
+  else if (n <= 24) {
+    level =
+      'Very Limited';
+  }
+  else if (n <= 49) {
+    level =
+      'Limited';
+  }
+  else if (n <= 99) {
+    level =
+      'Moderate';
+  }
+  else if (n <= 249) {
+    level =
+      'Strong';
+  }
+  else {
+    level =
+      'Very Strong';
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | 3-source requirement
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    sources < 3 &&
+    [
+      'Moderate',
+      'Strong',
+      'Very Strong',
+    ].includes(level)
+  ) {
+    return 'Limited';
+  }
+
+
+  return level;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| SOURCE PARSER
+|--------------------------------------------------------------------------
+*/
+
+function parseSources(dataSource) {
+  if (!dataSource) {
+    return [];
+  }
+
+
+  return String(dataSource)
+    .split(
+      /,|\band\b/gi
+    )
+    .map(
+      (item) =>
+        item
+          .replace(
+            /\(.*?\)/g,
+            ''
+          )
+          .trim()
+    )
+    .filter(Boolean);
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| BUILD USER-FACING PROFILE
+|--------------------------------------------------------------------------
+*/
+
+function buildProfile(raw) {
+  if (
+    !raw ||
+    typeof raw !== 'object'
+  ) {
+    return null;
+  }
+
+
+  const sources =
+    parseSources(
+      raw.data_source
+    );
+
+
+  const sampleSize =
+    Number(
+      raw.sample_size
+    ) || 0;
+
+
+  const evidenceLevel =
+    getEvidenceLevel({
+      sampleSize,
+      sourceCount:
+        sources.length,
+    });
+
+
+  const ratings =
+    raw.category_ratings ||
+    {};
+
+
+  const sentiment =
+    raw.overall_sentiment ||
+    {};
+
+
+  const breakdown =
+    raw.sentiment_breakdown ||
+    {};
+
+
+  return {
+    version:
+      'json-review-v1',
+
+    institution:
+      raw.institution ??
+      null,
+
+    analysisDate:
+      raw.analysis_date ??
+      null,
+
+    studentSentiment: {
+      label:
+        sentiment.label ??
+        null,
+
+      score:
+        numberOrNull(
+          sentiment.score
+        ),
+
+      /*
+      | Do NOT expose a high-confidence
+      | label when evidence < 50.
+      */
+
+      confidence:
+        sampleSize < 50
+          ? 'Limited'
+          : (
+              sentiment.confidence ??
+              null
+            ),
+    },
+
+
+    evidence: {
+      usableEvidence:
+        sampleSize,
+
+      threshold:
+        50,
+
+      sourceCount:
+        sources.length,
+
+      sources,
+
+      level:
+        evidenceLevel,
+
+      rankingEligible:
+        sampleSize >= 50 &&
+        sources.length >= 3,
+    },
+
+
+    ratings: {
+      infrastructure:
+        numberOrNull(
+          ratings
+            .college_infrastructure
+        ),
+
+      academicsFaculty:
+        numberOrNull(
+          ratings
+            .academics_faculty
+        ),
+
+      placements:
+        numberOrNull(
+          ratings
+            .placements
+        ),
+
+      valueForMoney:
+        numberOrNull(
+          ratings
+            .value_for_money
+        ),
+
+      campusLife:
+        numberOrNull(
+          ratings
+            .campus_life
+        ),
+    },
+
+
+    sentimentBreakdown: {
+      positive:
+        numberOrNull(
+          breakdown
+            .positive_percent
+        ),
+
+      neutral:
+        numberOrNull(
+          breakdown
+            .neutral_percent
+        ),
+
+      negative:
+        numberOrNull(
+          breakdown
+            .negative_percent
+        ),
+    },
+
+
+    positiveThemes:
+      Array.isArray(
+        raw.key_positive_themes
+      )
+        ? raw.key_positive_themes
+        : [],
+
+
+    negativeThemes:
+      Array.isArray(
+        raw.key_negative_themes
+      )
+        ? raw.key_negative_themes
+        : [],
+
+
+    distinctionNote:
+      raw
+        .important_distinction_note ??
+      null,
+
+
+    conclusion:
+      raw.conclusion ??
+      null,
+
+
+    disclaimer:
+      raw.disclaimer ??
+      null,
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Rating is informational only
+    |--------------------------------------------------------------------------
+    |
+    | Do not treat this as verified
+    | standardized student rating.
+    |
+    */
+
+    reportedOverallRating:
+      numberOrNull(
+        sentiment
+          .overall_rating_out_of_5
+      ),
+
+
+    rankingImpact: {
+      enabled:
+        false,
+
+      reason:
+        sampleSize >= 50 &&
+        sources.length >= 3
+          ? 'Eligible for future V2.1 scoring after validation.'
+          : 'Below TruMarg 50-usable-evidence threshold.',
+    },
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| REGISTER ALIASES
+|--------------------------------------------------------------------------
+*/
+
+function registerProfile(profile) {
+  if (
+    !profile?.institution
+  ) {
+    return;
+  }
+
+
+  const names =
+    new Set([
+      profile.institution,
+
+      normalize(
+        profile.institution
+      ),
+
+      compact(
+        profile.institution
+      ),
+    ]);
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | IIIT Vadodara Diu aliases
+  |--------------------------------------------------------------------------
+  */
+
+  const normalized =
+    normalize(
+      profile.institution
+    );
+
+
+  if (
+    normalized.includes(
+      'iiit'
+    ) &&
+    normalized.includes(
+      'vadodara'
+    ) &&
+    (
+      normalized.includes(
+        'diu'
+      ) ||
+      normalized.includes(
+        'international campus'
+      )
+    )
+  ) {
+    [
+      'IIITV-ICD',
+      'IIIT Vadodara International Campus Diu',
+      'Indian Institute of Information Technology Vadodara International Campus Diu',
+      'Indian Institute of Information Technology Vadodara - International Campus Diu',
+    ]
+      .forEach(
+        (alias) => {
+          names.add(alias);
+          names.add(
+            normalize(alias)
+          );
+          names.add(
+            compact(alias)
+          );
+        }
+      );
+  }
+
+
+  for (
+    const name of names
+  ) {
+    const key =
+      compact(name);
+
+    if (!key) {
+      continue;
+    }
+
+
+    intelligenceByInstitution
+      .set(
+        key,
+        profile
+      );
+  }
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| LOAD ONE JSON FILE
+|--------------------------------------------------------------------------
+*/
+
+function loadJsonFile(
+  filePath
+) {
+  try {
+    const text =
+      fs.readFileSync(
+        filePath,
+        'utf8'
+      );
+
+
+    const parsed =
+      JSON.parse(
+        text
+      );
+
+
+    const rows =
+      Array.isArray(parsed)
+        ? parsed
+        : [parsed];
+
+
+    for (
+      const raw of rows
+    ) {
+      const profile =
+        buildProfile(
+          raw
+        );
+
+
+      if (profile) {
+        registerProfile(
+          profile
+        );
+      }
+    }
+  }
+  catch (error) {
+    console.error(
+      '[EXTERNAL REVIEW JSON]',
+      filePath,
+      error.message
+    );
+  }
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| WALK DIRECTORY
+|--------------------------------------------------------------------------
+*/
+
+function walkJsonFiles(
+  directory,
+  {
+    recursive = true,
+  } = {}
+) {
+  if (
+    !fs.existsSync(
+      directory
+    )
+  ) {
+    return;
+  }
+
+
+  const entries =
+    fs.readdirSync(
+      directory,
+      {
+        withFileTypes:
+          true,
+      }
+    );
+
+
+  for (
+    const entry of entries
+  ) {
+    const fullPath =
+      path.join(
+        directory,
+        entry.name
+      );
+
+
+    if (
+      entry.isDirectory()
+    ) {
+      if (recursive) {
+        walkJsonFiles(
+          fullPath,
+          {
+            recursive,
+          }
+        );
+      }
+
+      continue;
+    }
+
+
+    if (
+      entry.isFile() &&
+      entry.name
+        .toLowerCase()
+        .endsWith(
+          '.json'
+        )
+    ) {
+      loadJsonFile(
+        fullPath
+      );
+    }
+  }
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| LOAD ALL
+|--------------------------------------------------------------------------
+*/
+
+export function loadExternalReviewJson() {
+  if (loaded) {
+    return;
+  }
+
+
+  loaded =
+    true;
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | IIIT folder
+  |--------------------------------------------------------------------------
+  */
+
+  walkJsonFiles(
+    IIIT_ROOT,
+    {
+      recursive:
+        true,
+    }
+  );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Root JSON folder
+  |--------------------------------------------------------------------------
+  |
+  | This allows your NIT JSON files
+  | currently stored directly under /json.
+  |
+  | Child IIIT files may be seen again,
+  | but Map alias registration makes
+  | the final result deterministic.
+  |
+  */
+
+  walkJsonFiles(
+    JSON_ROOT,
+    {
+      recursive:
+        false,
+    }
+  );
+
+
+  console.log(
+    `[EXTERNAL REVIEW JSON] loaded ${intelligenceByInstitution.size} aliases`
+  );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| MATCH
+|--------------------------------------------------------------------------
+*/
+
+export function getExternalReviewIntelligence({
+  collegeName,
+}) {
+  loadExternalReviewJson();
+
+
+  if (!collegeName) {
+    return null;
+  }
+
+
+  const exactKey =
+    compact(
+      collegeName
+    );
+
+
+  const exact =
+    intelligenceByInstitution
+      .get(
+        exactKey
+      );
+
+
+  if (exact) {
+    return exact;
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Conservative fallback match
+  |--------------------------------------------------------------------------
+  */
+
+  const target =
+    normalize(
+      collegeName
+    );
+
+
+  for (
+    const profile of
+    new Set(
+      intelligenceByInstitution
+        .values()
+    )
+  ) {
+    const candidate =
+      normalize(
+        profile.institution
+      );
+
+
+    if (
+      candidate === target
+    ) {
+      return profile;
+    }
+  }
+
+
+  return null;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| DEBUG
+|--------------------------------------------------------------------------
+*/
+
+export function getExternalReviewStats() {
+  loadExternalReviewJson();
+
+
+  const uniqueProfiles =
+    new Set(
+      intelligenceByInstitution
+        .values()
+    );
+
+
+  return {
+    aliases:
+      intelligenceByInstitution
+        .size,
+
+    institutions:
+      uniqueProfiles.size,
+  };
+}

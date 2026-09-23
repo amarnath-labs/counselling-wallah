@@ -789,11 +789,64 @@ function resolveAspectEvidenceEligibility({
       };
     }
 
-    const evidenceBranch =
+    /*
+    |--------------------------------------------------------------------------
+    | STRICT BRANCH EVIDENCE RESOLUTION
+    |--------------------------------------------------------------------------
+    |
+    | Never allow target_branch to silently override a conflicting
+    | VERIFIED review-item branch.
+    |
+    */
+
+    const targetEvidenceBranch =
       canonicalizeBranch(
-        targetBranch ||
-        itemBranch
+        targetBranch
       );
+
+
+    const verifiedItemBranch =
+      branchVerified &&
+      itemBranch
+        ? canonicalizeBranch(
+            itemBranch
+          )
+        : null;
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | CONFLICT = REJECT
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      targetEvidenceBranch &&
+      verifiedItemBranch &&
+      targetEvidenceBranch !==
+        verifiedItemBranch
+    ) {
+      return {
+        usable: false,
+
+        reason:
+          "different_branch",
+
+        scopeReason:
+          "branch_target_item_conflict",
+      };
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | USE EXPLICIT TARGET, OTHERWISE VERIFIED ITEM BRANCH
+    |--------------------------------------------------------------------------
+    */
+
+    const evidenceBranch =
+      targetEvidenceBranch ||
+      verifiedItemBranch;
 
     if (!evidenceBranch) {
       return {
@@ -1531,6 +1584,28 @@ function constructAspectScore({
   const reviewIds =
     new Set();
 
+
+  /*
+  |--------------------------------------------------------------------------
+  | STRICT SOURCE-DIVERSITY EVIDENCE
+  |--------------------------------------------------------------------------
+  |
+  | Uses distinct review_item_id after:
+  |
+  | - duplicate cleaning
+  | - scope resolution
+  | - preferred-scope selection
+  |
+  |--------------------------------------------------------------------------
+  */
+
+  const sourceReviewIds =
+    new Map();
+
+
+  const sourceAttributedReviewIds =
+    new Set();
+
   let branchEvidenceCount = 0;
   let programmeEvidenceCount = 0;
   let collegeEvidenceCount = 0;
@@ -1551,11 +1626,73 @@ function constructAspectScore({
       );
     }
 
-    reviewIds.add(
+    const reviewId =
       String(
         row.review_item_id
-      )
+      );
+
+
+    reviewIds.add(
+      reviewId
     );
+
+
+    const strictSourceKey =
+      row.source_id
+        ? `id:${row.source_id}`
+        : row.source_name
+          ? `name:${normalizeText(
+              row.source_name
+            )}`
+          : null;
+
+
+    if (
+      strictSourceKey
+    ) {
+      const strictSourceName =
+        row.source_name ??
+        String(
+          row.source_id
+        );
+
+
+      if (
+        !sourceReviewIds.has(
+          strictSourceKey
+        )
+      ) {
+        sourceReviewIds.set(
+          strictSourceKey,
+          {
+            sourceKey:
+              strictSourceKey,
+
+            source:
+              strictSourceName,
+
+            reviewIds:
+              new Set(),
+          }
+        );
+      }
+
+
+      sourceReviewIds
+        .get(
+          strictSourceKey
+        )
+        .reviewIds
+        .add(
+          reviewId
+        );
+
+
+      sourceAttributedReviewIds
+        .add(
+          reviewId
+        );
+    }
 
     if (
       row.resolvedScope ===
@@ -1606,6 +1743,102 @@ function constructAspectScore({
   |--------------------------------------------------------------------------
   */
 
+  /*
+  |--------------------------------------------------------------------------
+  | STRICT SOURCE DISTRIBUTION
+  |--------------------------------------------------------------------------
+  */
+
+
+  const effectiveReviewCount =
+    sourceAttributedReviewIds
+      .size;
+
+
+  const sourceDistribution =
+    [...sourceReviewIds.values()]
+      .map(
+        entry => ({
+          sourceKey:
+            entry.sourceKey,
+
+          source:
+            entry.source,
+
+          effectiveCount:
+            entry.reviewIds.size,
+        })
+      )
+      .filter(
+        entry =>
+          entry.effectiveCount >
+          0
+      )
+      .sort(
+        (
+          left,
+          right
+        ) =>
+          right.effectiveCount -
+          left.effectiveCount
+      );
+
+
+  const effectiveSourceCount =
+    sourceDistribution.length;
+
+
+  const sourceDistributionWithShare =
+    sourceDistribution.map(
+      entry => ({
+        ...entry,
+
+        share:
+          effectiveReviewCount >
+          0
+            ? Number(
+                (
+                  entry.effectiveCount /
+                  effectiveReviewCount
+                ).toFixed(
+                  4
+                )
+              )
+            : 0,
+      })
+    );
+
+
+  const maxSourceShare =
+    sourceDistributionWithShare.length
+      ? Math.max(
+          ...sourceDistributionWithShare.map(
+            entry =>
+              entry.share
+          )
+        )
+      : null;
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | FINAL STRICT GATE
+  |--------------------------------------------------------------------------
+  |
+  | >= 50 effective source-attributed reviews
+  | >= 3 independent sources
+  | largest source <= 60%
+  |
+  |--------------------------------------------------------------------------
+  */
+
+  const sourceDominancePass =
+    maxSourceShare !==
+      null &&
+    maxSourceShare <=
+      0.60;
+
+
   let scopeUsed = null;
 
   if (
@@ -1650,6 +1883,17 @@ function constructAspectScore({
 
     reviewCount:
       reviewIds.size,
+
+    effectiveReviewCount,
+
+    effectiveSourceCount,
+
+    sourceDistribution:
+      sourceDistributionWithShare,
+
+    maxSourceShare,
+
+    sourceDominancePass,
 
     evidenceCount:
       preferredRows.length +

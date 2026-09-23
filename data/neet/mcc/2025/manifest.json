@@ -1,0 +1,72 @@
+[
+  {
+    "year": 2025,
+    "authority": "MCC",
+    "exam": "NEET UG",
+    "key": "round-1",
+    "title": "Final Result for Round-I of NEET UG Counselling 2025",
+    "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/08/20250813289226788.pdf",
+    "localFile": "data/neet/mcc/2025/raw/round-1.pdf",
+    "bytes": 4123031,
+    "sha256": "95c607c2dbd784c1c0b0a386e9859a022dea36522fc6931727ed9cb67869a8f0",
+    "verifiedPdf": true,
+    "fetchedAt": "2026-09-23T04:32:45.024Z",
+    "status": "downloaded"
+  },
+  {
+    "year": 2025,
+    "authority": "MCC",
+    "exam": "NEET UG",
+    "key": "round-2",
+    "title": "Final Result for Round 2 of UG Counselling 2025",
+    "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/09/202509182057444522.pdf",
+    "localFile": "data/neet/mcc/2025/raw/round-2.pdf",
+    "bytes": 9808078,
+    "sha256": "a4575f18bf6cffe64f603203a16f4b59904046206002b30d10b2d39a2c0980eb",
+    "verifiedPdf": true,
+    "fetchedAt": "2026-09-23T04:32:46.142Z",
+    "status": "downloaded"
+  },
+  {
+    "year": 2025,
+    "authority": "MCC",
+    "exam": "NEET UG",
+    "key": "round-3",
+    "title": "Final Allotment Result for Round 3 of UG Counselling 2025",
+    "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/10/202510231856675154.pdf",
+    "localFile": "data/neet/mcc/2025/raw/round-3.pdf",
+    "bytes": 8917291,
+    "sha256": "6d670410f5100ab341a29e108b0f3c65ae5c0edfb515fdcf7cae4fa183d807c6",
+    "verifiedPdf": true,
+    "fetchedAt": "2026-09-23T04:32:46.991Z",
+    "status": "downloaded"
+  },
+  {
+    "year": 2025,
+    "authority": "MCC",
+    "exam": "NEET UG",
+    "key": "stray",
+    "title": "Final Allotment Result for Stray Vacacy Round UG 2025",
+    "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/11/2025111596488171.pdf",
+    "localFile": "data/neet/mcc/2025/raw/stray.pdf",
+    "bytes": 182146,
+    "sha256": "bd3cb53e523e97d540e749871a6c67e5779e8d931298e5d751c68df4e412e636",
+    "verifiedPdf": true,
+    "fetchedAt": "2026-09-23T04:32:47.065Z",
+    "status": "downloaded"
+  },
+  {
+    "year": 2025,
+    "authority": "MCC",
+    "exam": "NEET UG",
+    "key": "special-stray",
+    "title": "Final Result for Special Stray Round of UG counselling 2025",
+    "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/12/202512231822103663.pdf",
+    "localFile": "data/neet/mcc/2025/raw/special-stray.pdf",
+    "bytes": 46920,
+    "sha256": "13d44cd2ec47aad4e9e5bc78fa16139a6b6f3de356c36caeec07d20ba4e1d41f",
+    "verifiedPdf": true,
+    "fetchedAt": "2026-09-23T04:32:47.116Z",
+    "status": "downloaded"
+  }
+]

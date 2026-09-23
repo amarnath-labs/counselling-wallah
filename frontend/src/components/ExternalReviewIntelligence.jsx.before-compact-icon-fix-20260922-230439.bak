@@ -1,0 +1,1256 @@
+import {
+  useState,
+} from 'react';
+
+
+function numberOrNull(
+  value
+) {
+  const number =
+    Number(
+      value
+    );
+
+
+  return Number.isFinite(
+    number
+  )
+    ? number
+    : null;
+}
+
+
+function ratingText(
+  value
+) {
+  const number =
+    numberOrNull(
+      value
+    );
+
+
+  if (
+    number === null
+  ) {
+    return 'Not available';
+  }
+
+
+  return `${number.toFixed(1)} / 5`;
+}
+
+
+function getPublicEvidenceLabel(
+  evidence
+) {
+  const count =
+    Number(
+      evidence?.usableEvidence ??
+      0
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | User-facing label
+  |--------------------------------------------------------------------------
+  |
+  | Below 50 reviews = Limited Evidence.
+  |
+  | Internally evidence.level can still preserve:
+  | Insufficient / Very Limited / Limited.
+  |
+  */
+
+  if (
+    count < 50
+  ) {
+    return 'Limited Evidence';
+  }
+
+
+  return (
+    evidence?.level ||
+    'Evidence Available'
+  );
+}
+
+
+function RatingRow({
+  label,
+  value,
+}) {
+  if (
+    value === null ||
+    value === undefined
+  ) {
+    return null;
+  }
+
+
+  return (
+    <div
+      className="sei-rating-row"
+    >
+      <span>
+        {label}
+      </span>
+
+      <strong>
+        {ratingText(value)}
+      </strong>
+    </div>
+  );
+}
+
+
+function Theme({
+  item,
+  type,
+}) {
+  if (
+    !item
+  ) {
+    return null;
+  }
+
+
+  const positive =
+    type === 'positive';
+
+
+  return (
+    <div
+      className={
+        positive
+          ? 'sei-theme sei-theme--positive'
+          : 'sei-theme sei-theme--warning'
+      }
+    >
+      <div
+        className="sei-theme__title"
+      >
+        <span
+          className="sei-theme__icon"
+        >
+          {positive ? 'Ã¢Å“â€œ' : 'Ã¢Å¡Â '}
+        </span>
+
+        <strong>
+          {item.theme ||
+            'Student feedback'}
+        </strong>
+      </div>
+
+
+      {item.notes ? (
+        <p>
+          {item.notes}
+        </p>
+      ) : null}
+    </div>
+  );
+}
+
+
+function normalizeAspectKey(
+  value
+) {
+  return String(
+    value ?? ''
+  )
+    .trim()
+    .toLowerCase()
+    .replace(
+      /&/g,
+      'and'
+    )
+    .replace(
+      /[^a-z0-9]+/g,
+      ' '
+    )
+    .trim();
+}
+
+
+function aspectDisplayName(
+  value
+) {
+  const key =
+    normalizeAspectKey(
+      value
+    );
+
+
+  const names = {
+    infrastructure:
+      'Infrastructure',
+
+    placements:
+      'Placements',
+
+    placement:
+      'Placements',
+
+    faculty:
+      'Faculty & Academics',
+
+    academics:
+      'Faculty & Academics',
+
+    'academics faculty':
+      'Faculty & Academics',
+
+    hostel:
+      'Hostel & Mess',
+
+    'hostel mess':
+      'Hostel & Mess',
+
+    campus:
+      'Campus Life',
+
+    'campus life':
+      'Campus Life',
+
+    'value for money':
+      'Value for Money',
+
+    location:
+      'Location',
+
+    administration:
+      'Administration',
+
+    internships:
+      'Internships',
+  };
+
+
+  return (
+    names[
+      key
+    ] ||
+    String(
+      value ?? 'Student Experience'
+    )
+  );
+}
+
+
+function groupWrittenEvidence(
+  items
+) {
+  const groups =
+    new Map();
+
+
+  for (
+    const item of items
+  ) {
+    if (
+      !item
+    ) {
+      continue;
+    }
+
+
+    const title =
+      aspectDisplayName(
+        item.theme
+      );
+
+
+    const notes =
+      String(
+        item.notes ?? ''
+      )
+        .trim();
+
+
+    if (
+      !notes
+    ) {
+      continue;
+    }
+
+
+    if (
+      !groups.has(
+        title
+      )
+    ) {
+      groups.set(
+        title,
+        []
+      );
+    }
+
+
+    const list =
+      groups.get(
+        title
+      );
+
+
+    if (
+      !list.some(
+        existing =>
+          existing.notes ===
+          notes
+      )
+    ) {
+      list.push({
+        ...item,
+        notes,
+      });
+    }
+  }
+
+
+  return [
+    ...groups.entries(),
+  ].map(
+    (
+      [
+        title,
+        rows,
+      ]
+    ) => ({
+      title,
+      rows,
+    })
+  );
+}
+
+
+function WrittenEvidenceSection({
+  title,
+  items,
+  warning = false,
+}) {
+  const groups =
+    groupWrittenEvidence(
+      items
+    );
+
+
+  if (
+    groups.length === 0
+  ) {
+    return null;
+  }
+
+
+  return (
+    <div
+      className="sei-section"
+    >
+      <h4>
+        {title}
+      </h4>
+
+      <div
+        className="sei-written-list"
+      >
+        {groups.map(
+          group => (
+            <div
+              key={
+                group.title
+              }
+              className={
+                warning
+                  ? 'sei-written-card sei-written-card--warning'
+                  : 'sei-written-card'
+              }
+            >
+              <div
+                className="sei-written-title"
+              >
+                {group.title}
+              </div>
+
+              {group.rows.map(
+                (
+                  item,
+                  index
+                ) => (
+                  <div
+                    key={
+                      `${group.title}-${index}`
+                    }
+                    className="sei-written-item"
+                  >
+                    <p>
+                      {item.notes}
+                    </p>
+
+                    {item.source ? (
+                      <div
+                        className="sei-written-source"
+                      >
+                        Student-reported evidence
+                        {' Â· '}
+                        {item.source}
+                      </div>
+                    ) : null}
+                  </div>
+                )
+              )}
+            </div>
+          )
+        )}
+      </div>
+    </div>
+  );
+}
+
+function SentimentMix({
+  data,
+}) {
+  const positive =
+    numberOrNull(
+      data?.positive
+    );
+
+  const neutral =
+    numberOrNull(
+      data?.neutral
+    );
+
+  const negative =
+    numberOrNull(
+      data?.negative
+    );
+
+
+  if (
+    positive === null &&
+    neutral === null &&
+    negative === null
+  ) {
+    return null;
+  }
+
+
+  return (
+    <div
+      className="sei-sentiment-grid"
+    >
+      <div
+        className="sei-sentiment-item"
+      >
+        <strong>
+          {positive ?? 0}%
+        </strong>
+
+        <span>
+          Positive
+        </span>
+      </div>
+
+
+      <div
+        className="sei-sentiment-item"
+      >
+        <strong>
+          {neutral ?? 0}%
+        </strong>
+
+        <span>
+          Neutral
+        </span>
+      </div>
+
+
+      <div
+        className="sei-sentiment-item"
+      >
+        <strong>
+          {negative ?? 0}%
+        </strong>
+
+        <span>
+          Negative
+        </span>
+      </div>
+    </div>
+  );
+}
+
+
+export default function ExternalReviewIntelligence({
+  data,
+}) {
+  const [
+    expanded,
+    setExpanded,
+  ] =
+    useState(
+      false
+    );
+
+
+  if (
+    !data
+  ) {
+    return null;
+  }
+
+
+  const sentiment =
+    data.studentSentiment ||
+    {};
+
+
+  const evidence =
+    data.evidence ||
+    {};
+
+
+  const ratings =
+    data.ratings ||
+    {};
+
+
+  const breakdown =
+    data.sentimentBreakdown ||
+    {};
+
+
+  const positiveThemes =
+    Array.isArray(
+      data.positiveThemes
+    )
+      ? data.positiveThemes
+      : [];
+
+
+  const negativeThemes =
+    Array.isArray(
+      data.negativeThemes
+    )
+      ? data.negativeThemes
+      : [];
+
+
+  const evidenceCount =
+    Number(
+      evidence.usableEvidence ??
+      0
+    );
+
+
+  const threshold =
+    Number(
+      evidence.threshold ??
+      50
+    );
+
+
+  const publicEvidenceLabel =
+    getPublicEvidenceLabel(
+      evidence
+    );
+
+
+  const progress =
+    Math.max(
+      0,
+      Math.min(
+        100,
+        Math.round(
+          (
+            evidenceCount /
+            Math.max(
+              threshold,
+              1
+            )
+          ) * 100
+        )
+      )
+    );
+
+
+  return (
+    <section
+      className="sei"
+    >
+      {/* =====================================================
+          COMPACT CARD
+      ====================================================== */}
+
+      <div
+        className="sei-kicker"
+      >
+        STUDENT EXPERIENCE
+      </div>
+
+
+      <div
+        className="sei-top"
+      >
+        <div>
+          <div
+            className="sei-sentiment"
+          >
+            {sentiment.label ||
+              'Student feedback available'}
+          </div>
+
+          <div
+            className="sei-evidence-label"
+          >
+            {publicEvidenceLabel}
+          </div>
+        </div>
+
+
+        <div
+          className="sei-evidence-count"
+        >
+          <strong>
+            {evidenceCount}
+          </strong>
+
+          <span>
+            usable evidence items
+          </span>
+        </div>
+      </div>
+
+
+      {evidenceCount < threshold ? (
+        <div
+          className="sei-limited-note"
+        >
+          Review evidence is currently
+          below TruMarg's {threshold}-usable-review
+          threshold. It helps explain
+          student-reported experience,
+          but does not receive full
+          ranking influence.
+        </div>
+      ) : null}
+
+
+      {/* =====================================================
+          RATINGS
+      ====================================================== */}
+
+      <div
+        className="sei-rating-list"
+      >
+        <RatingRow
+          label="Infrastructure"
+          value={
+            ratings.infrastructure
+          }
+        />
+
+        <RatingRow
+          label="Campus Life"
+          value={
+            ratings.campusLife
+          }
+        />
+
+        <RatingRow
+          label="Academics & Faculty"
+          value={
+            ratings.academicsFaculty
+          }
+        />
+
+        <RatingRow
+          label="Value for Money"
+          value={
+            ratings.valueForMoney
+          }
+        />
+
+        <RatingRow
+          label="Placements"
+          value={
+            ratings.placements
+          }
+        />
+      </div>
+
+
+      {/* =====================================================
+          COMPACT POSITIVES
+      ====================================================== */}
+
+      {positiveThemes.length >
+      0 ? (
+        <div
+          className="sei-compact-block"
+        >
+          <h4>
+            Students like
+          </h4>
+
+          {positiveThemes
+            .slice(
+              0,
+              3
+            )
+            .map(
+              (
+                item,
+                index
+              ) => (
+                <div
+                  className="sei-compact-point"
+                  key={
+                    `compact-positive-${index}`
+                  }
+                >
+                  <span>
+                    Ã¢Å“â€œ
+                  </span>
+
+                  <span>
+                    {item.theme}
+                  </span>
+                </div>
+              )
+            )}
+        </div>
+      ) : null}
+
+
+      {/* =====================================================
+          COMPACT NEGATIVES
+      ====================================================== */}
+
+      {negativeThemes.length >
+      0 ? (
+        <div
+          className="sei-compact-block"
+        >
+          <h4>
+            Watch for
+          </h4>
+
+          {negativeThemes
+            .slice(
+              0,
+              3
+            )
+            .map(
+              (
+                item,
+                index
+              ) => (
+                <div
+                  className="sei-compact-point sei-compact-point--warning"
+                  key={
+                    `compact-negative-${index}`
+                  }
+                >
+                  <span>
+                    Ã¢Å¡Â 
+                  </span>
+
+                  <span>
+                    {item.theme}
+                  </span>
+                </div>
+              )
+            )}
+        </div>
+      ) : null}
+
+
+      {/* =====================================================
+          THRESHOLD
+      ====================================================== */}
+
+      <div
+        className="sei-progress"
+      >
+        <div
+          className="sei-progress__header"
+        >
+          <span>
+            Evidence threshold
+          </span>
+
+          <strong>
+            {evidenceCount} / {threshold}
+          </strong>
+        </div>
+
+        <div
+          className="sei-progress__track"
+        >
+          <div
+            className="sei-progress__fill"
+            style={{
+              width:
+                `${progress}%`,
+            }}
+          />
+        </div>
+      </div>
+
+
+      {/* =====================================================
+          EXPAND BUTTON
+      ====================================================== */}
+
+      <button
+        type="button"
+        className="sei-expand-button"
+        onClick={
+          () =>
+            setExpanded(
+              value =>
+                !value
+            )
+        }
+      >
+        {expanded
+          ? 'Hide full Reality Check'
+          : 'View full Reality Check'}
+
+        <span>
+          {expanded
+            ? 'Ã¢â€ â€˜'
+            : 'Ã¢â€ â€™'}
+        </span>
+      </button>
+
+
+      {/* =====================================================
+          FULL INTELLIGENCE
+      ====================================================== */}
+
+      {expanded ? (
+        <div
+          className="sei-expanded"
+        >
+          <div
+            className="sei-divider"
+          />
+
+
+          <div
+            className="sei-section"
+          >
+            <h3>
+              Student Experience Intelligence
+            </h3>
+
+            {data.institution ? (
+              <p
+                className="sei-institution"
+              >
+                {data.institution}
+              </p>
+            ) : null}
+
+
+            <div
+              className="sei-summary-line"
+            >
+              <span>
+                Student sentiment
+              </span>
+
+              <strong>
+                {sentiment.label ||
+                  'Not available'}
+              </strong>
+            </div>
+
+
+            <div
+              className="sei-summary-line"
+            >
+              <span>
+                Evidence level
+              </span>
+
+              <strong>
+                {publicEvidenceLabel}
+              </strong>
+            </div>
+
+
+            <p
+              className="sei-body-copy"
+            >
+              Based on{' '}
+              <strong>
+                {evidenceCount}
+              </strong>{' '}
+              review/evidence items
+              from{' '}
+              <strong>
+                {evidence.sourceCount ??
+                  0}
+              </strong>{' '}
+              public sources.
+            </p>
+          </div>
+
+
+          {/* ===============================================
+              SENTIMENT MIX
+          ================================================ */}
+
+          <div
+            className="sei-section"
+          >
+            <h4>
+              Sentiment mix
+            </h4>
+
+            <SentimentMix
+              data={
+                breakdown
+              }
+            />
+          </div>
+
+
+          {/* ===============================================
+              ALL POSITIVE THEMES
+          ================================================ */}
+
+          {positiveThemes.length >
+          0 ? (
+            <div
+              className="sei-section"
+            >
+              <h4>
+                Students commonly appreciate
+              </h4>
+
+              <div
+                className="sei-theme-list"
+              >
+                {positiveThemes.map(
+                  (
+                    item,
+                    index
+                  ) => (
+                    <Theme
+                      key={
+                        `positive-${index}`
+                      }
+                      item={
+                        item
+                      }
+                      type="positive"
+                    />
+                  )
+                )}
+              </div>
+            </div>
+          ) : null}
+
+
+          {/* ===============================================
+              ALL NEGATIVE THEMES
+          ================================================ */}
+
+          {negativeThemes.length >
+          0 ? (
+            <div
+              className="sei-section"
+            >
+              <h4>
+                Things to consider
+              </h4>
+
+              <div
+                className="sei-theme-list"
+              >
+                {negativeThemes.map(
+                  (
+                    item,
+                    index
+                  ) => (
+                    <Theme
+                      key={
+                        `negative-${index}`
+                      }
+                      item={
+                        item
+                      }
+                      type="negative"
+                    />
+                  )
+                )}
+              </div>
+            </div>
+          ) : null}
+
+
+          {/* ===============================================
+              REALITY CHECK
+          ================================================ */}
+
+          <div
+            className="sei-reality"
+          >
+            <div
+              className="sei-kicker"
+            >
+              TRUMARG REALITY CHECK
+            </div>
+
+
+            <h4>
+              What students report
+            </h4>
+
+            <p>
+              Available student feedback
+              is summarized from the
+              evidence currently available
+              for this institution.
+              Infrastructure, academics,
+              placements, campus life and
+              value-for-money signals are
+              kept separate so one strong
+              area does not hide a weaker
+              one.
+            </p>
+
+
+            {data.conclusion ? (
+              <>
+                <h4>
+                  TruMarg interpretation
+                </h4>
+
+                <p>
+                  {data.conclusion}
+                </p>
+              </>
+            ) : null}
+          </div>
+
+
+          {/* ===============================================
+              JSON-WRITTEN STUDENT EXPERIENCE
+          ================================================ */}
+
+          <WrittenEvidenceSection
+            title="What students report"
+            items={
+              positiveThemes
+            }
+          />
+
+
+          <WrittenEvidenceSection
+            title="Things to consider"
+            items={
+              negativeThemes
+            }
+            warning
+          />
+
+          {/* ===============================================
+              DISTINCTION
+          ================================================ */}
+
+          {data.distinctionNote ? (
+            <div
+              className="sei-distinction"
+            >
+              <h4>
+                Important distinction
+              </h4>
+
+              <p>
+                {data.distinctionNote}
+              </p>
+            </div>
+          ) : null}
+
+
+          {/* ===============================================
+              EVIDENCE
+          ================================================ */}
+
+          <div
+            className="sei-section"
+          >
+            <h4>
+              Evidence
+            </h4>
+
+            <div
+              className="sei-evidence-grid"
+            >
+              <div>
+                <span>
+                  Usable evidence
+                </span>
+
+                <strong>
+                  {evidenceCount}
+                </strong>
+              </div>
+
+
+              <div>
+                <span>
+                  Evidence threshold
+                </span>
+
+                <strong>
+                  {threshold}
+                </strong>
+              </div>
+
+
+              <div>
+                <span>
+                  Evidence level
+                </span>
+
+                <strong>
+                  {publicEvidenceLabel}
+                </strong>
+              </div>
+
+
+              <div>
+                <span>
+                  Overall sentiment
+                </span>
+
+                <strong>
+                  {sentiment.label ||
+                    'Not available'}
+                </strong>
+              </div>
+
+
+              <div>
+                <span>
+                  Confidence
+                </span>
+
+                <strong>
+                  {sentiment.confidence ||
+                    'Limited'}
+                </strong>
+              </div>
+
+
+              <div>
+                <span>
+                  Ranking influence
+                </span>
+
+                <strong>
+                  {evidence.rankingEligible
+                    ? 'Eligible'
+                    : 'Limited'}
+                </strong>
+              </div>
+            </div>
+          </div>
+
+
+          {/* ===============================================
+              SOURCES
+          ================================================ */}
+
+          {Array.isArray(
+            evidence.sources
+          ) &&
+          evidence.sources.length >
+            0 ? (
+            <div
+              className="sei-section"
+            >
+              <h4>
+                Sources considered
+              </h4>
+
+              <div
+                className="sei-source-list"
+              >
+                {evidence.sources.map(
+                  (
+                    source,
+                    index
+                  ) => (
+                    <span
+                      key={
+                        `${source}-${index}`
+                      }
+                    >
+                      {source}
+                    </span>
+                  )
+                )}
+              </div>
+            </div>
+          ) : null}
+
+
+          {/* ===============================================
+              CLAIM SAFETY
+          ================================================ */}
+
+          <div
+            className="sei-claim-note"
+          >
+            Placement figures or package
+            numbers appearing in student
+            feedback are treated as
+            student-reported claims, not
+            as verified official placement
+            statistics. Official placement
+            data is evaluated separately.
+          </div>
+
+
+          {/* ===============================================
+              DATE
+          ================================================ */}
+
+          {data.analysisDate ? (
+            <div
+              className="sei-date"
+            >
+              Analysis date:{' '}
+              {data.analysisDate}
+            </div>
+          ) : null}
+
+
+          {/* ===============================================
+              DISCLAIMER
+          ================================================ */}
+
+          {data.disclaimer ? (
+            <div
+              className="sei-disclaimer"
+            >
+              <strong>
+                About this evidence
+              </strong>
+
+              <p>
+                {data.disclaimer}
+              </p>
+            </div>
+          ) : null}
+        </div>
+      ) : null}
+    </section>
+  );
+}

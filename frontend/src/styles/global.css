@@ -293,7 +293,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,[t
 }
 /* =========================================================
    FREE + LOCKED + PREMIUM RESULT LAYOUT
-   APPEND ONLY â€” DO NOT REPLACE EXISTING GLOBAL.CSS
+   APPEND ONLY — DO NOT REPLACE EXISTING GLOBAL.CSS
 ========================================================= */
 
 .free-result-section {
@@ -2066,4 +2066,72 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,[t
   .admission-profile-context__item--wide {
     grid-column: auto;
   }
+}
+
+
+/* =========================================================
+   TRUMARG ADMISSION BUCKET COLORS V2
+   ========================================================= */
+
+.recommendation-bucket[data-bucket="dream"] {
+  border-left: 4px solid #DC2626;
+}
+
+.recommendation-bucket[data-bucket="dream"]
+.recommendation-bucket__header {
+  background: #FFF1F2;
+  border-color: #FECDD3;
+}
+
+.recommendation-bucket[data-bucket="dream"]
+.recommendation-bucket__header h3 {
+  color: #B91C1C;
+}
+
+
+.recommendation-bucket[data-bucket="target"] {
+  border-left: 4px solid #D97706;
+}
+
+.recommendation-bucket[data-bucket="target"]
+.recommendation-bucket__header {
+  background: #FFFBEB;
+  border-color: #FDE68A;
+}
+
+.recommendation-bucket[data-bucket="target"]
+.recommendation-bucket__header h3 {
+  color: #B45309;
+}
+
+
+.recommendation-bucket[data-bucket="safe"] {
+  border-left: 4px solid #16A34A;
+}
+
+.recommendation-bucket[data-bucket="safe"]
+.recommendation-bucket__header {
+  background: #F0FDF4;
+  border-color: #BBF7D0;
+}
+
+.recommendation-bucket[data-bucket="safe"]
+.recommendation-bucket__header h3 {
+  color: #15803D;
+}
+
+
+.recommendation-bucket[data-bucket="backup"] {
+  border-left: 4px solid #2563EB;
+}
+
+.recommendation-bucket[data-bucket="backup"]
+.recommendation-bucket__header {
+  background: #EFF6FF;
+  border-color: #BFDBFE;
+}
+
+.recommendation-bucket[data-bucket="backup"]
+.recommendation-bucket__header h3 {
+  color: #1D4ED8;
 }

@@ -1,0 +1,3459 @@
+/*
+|--------------------------------------------------------------------------
+| COUNSELLING WALLAH
+| REVIEW INTELLIGENCE ENGINE V3
+|--------------------------------------------------------------------------
+|
+| FINAL RULES
+|
+| - B.Tech recommendation intelligence
+| - actual review sentences used
+| - branch/programme/college scope
+| - exact branch alias matching
+| - confirmed/probable duplicates excluded
+| - source-balanced sentiment
+| - platform aspect ratings separate
+| - platform aggregate ratings separate
+| - missing data stays null
+| - no fake confidence
+| - no arbitrary V2 65/35 blend
+|
+*/
+
+
+/*
+|--------------------------------------------------------------------------
+| CANONICAL ASPECTS
+|--------------------------------------------------------------------------
+*/
+
+const CANONICAL_ASPECTS = [
+  "placements",
+  "faculty",
+  "hostel",
+  "infrastructure",
+  "academics",
+  "campus_life",
+  "administration",
+  "internships",
+  "value_for_money",
+  "location",
+];
+
+
+/*
+|--------------------------------------------------------------------------
+| ASPECT SCOPE POLICY
+|--------------------------------------------------------------------------
+*/
+
+const BRANCH_SENSITIVE_ASPECTS = new Set([
+  "placements",
+  "faculty",
+  "academics",
+  "internships",
+]);
+
+
+const COLLEGE_WIDE_ASPECTS = new Set([
+  "hostel",
+  "infrastructure",
+  "campus_life",
+  "administration",
+  "value_for_money",
+  "location",
+]);
+
+
+/*
+|--------------------------------------------------------------------------
+| SENTIMENT SCORE
+|--------------------------------------------------------------------------
+|
+| Explicit neutral only = 50.
+| Missing/no-opinion is NOT neutral.
+|
+*/
+
+const SENTIMENT_SCORE = {
+  positive: 100,
+  mixed: 50,
+  neutral: 50,
+  negative: 0,
+};
+
+
+/*
+|--------------------------------------------------------------------------
+| BRANCH ALIAS REGISTRY
+|--------------------------------------------------------------------------
+|
+| Exact alias mapping only.
+| No fuzzy cross-branch matching.
+|
+*/
+
+const BRANCH_ALIASES = new Map([
+  [
+    "cse",
+    "computer_science_and_engineering",
+  ],
+  [
+    "computer science",
+    "computer_science_and_engineering",
+  ],
+  [
+    "computer science engineering",
+    "computer_science_and_engineering",
+  ],
+  [
+    "computer science and engineering",
+    "computer_science_and_engineering",
+  ],
+
+  [
+    "ece",
+    "electronics_and_communication_engineering",
+  ],
+  [
+    "electronics communication engineering",
+    "electronics_and_communication_engineering",
+  ],
+  [
+    "electronics and communication",
+    "electronics_and_communication_engineering",
+  ],
+  [
+    "electronics and communication engineering",
+    "electronics_and_communication_engineering",
+  ],
+
+  [
+    "ee",
+    "electrical_engineering",
+  ],
+  [
+    "electrical engineering",
+    "electrical_engineering",
+  ],
+
+  [
+    "eee",
+    "electrical_and_electronics_engineering",
+  ],
+  [
+    "electrical electronics engineering",
+    "electrical_and_electronics_engineering",
+  ],
+  [
+    "electrical and electronics engineering",
+    "electrical_and_electronics_engineering",
+  ],
+
+  [
+    "me",
+    "mechanical_engineering",
+  ],
+  [
+    "mechanical engineering",
+    "mechanical_engineering",
+  ],
+
+  [
+    "ce",
+    "civil_engineering",
+  ],
+  [
+    "civil engineering",
+    "civil_engineering",
+  ],
+
+  [
+    "chemical engineering",
+    "chemical_engineering",
+  ],
+
+  [
+    "it",
+    "information_technology",
+  ],
+  [
+    "information technology",
+    "information_technology",
+  ],
+
+  [
+    "artificial intelligence",
+    "artificial_intelligence",
+  ],
+  [
+    "ai",
+    "artificial_intelligence",
+  ],
+
+  [
+    "artificial intelligence and data science",
+    "artificial_intelligence_and_data_science",
+  ],
+  [
+    "ai and ds",
+    "artificial_intelligence_and_data_science",
+  ],
+
+  [
+    "data science",
+    "data_science",
+  ],
+
+  [
+    "metallurgy",
+    "metallurgical_engineering",
+  ],
+  [
+    "metallurgical engineering",
+    "metallurgical_engineering",
+  ],
+  [
+    "metallurgical and materials engineering",
+    "metallurgical_and_materials_engineering",
+  ],
+
+  [
+    "production engineering",
+    "production_engineering",
+  ],
+
+  [
+    "biotechnology",
+    "biotechnology",
+  ],
+
+  [
+    "biomedical engineering",
+    "biomedical_engineering",
+  ],
+
+  [
+    "materials engineering",
+    "materials_engineering",
+  ],
+
+  [
+    "mining engineering",
+    "mining_engineering",
+  ],
+
+  [
+    "architecture",
+    "architecture",
+  ],
+
+  [
+    "engineering physics",
+    "engineering_physics",
+  ],
+]);
+
+
+/*
+|--------------------------------------------------------------------------
+| GENERIC HELPERS
+|--------------------------------------------------------------------------
+*/
+
+
+/*
+|--------------------------------------------------------------------------
+| REVIEW COLLEGE ID ALIASES
+|--------------------------------------------------------------------------
+|
+| Explicit verified aliases only.
+| No fuzzy college matching.
+|
+*/
+
+const REVIEW_COLLEGE_ID_ALIASES = new Map([
+  [
+    "maulana-azad-national-institute-of-technology-bhopal",
+    "manit-bhopal",
+  ],
+]);
+
+
+function resolveReviewCollegeId(
+  collegeId
+) {
+  const id =
+    String(
+      collegeId ?? ""
+    )
+      .trim()
+      .toLowerCase();
+
+  if (!id) {
+    return null;
+  }
+
+  return (
+    REVIEW_COLLEGE_ID_ALIASES.get(
+      id
+    ) ??
+    id
+  );
+}
+
+
+function normalizeText(value) {
+  return String(value ?? "")
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+
+function round2(value) {
+  if (
+    value === null ||
+    value === undefined
+  ) {
+    return null;
+  }
+
+  const number = Number(value);
+
+  if (!Number.isFinite(number)) {
+    return null;
+  }
+
+  return (
+    Math.round(number * 100) /
+    100
+  );
+}
+
+
+function average(values) {
+  const usable = values
+    .map(Number)
+    .filter(Number.isFinite);
+
+  if (!usable.length) {
+    return null;
+  }
+
+  return (
+    usable.reduce(
+      (sum, value) =>
+        sum + value,
+      0
+    ) / usable.length
+  );
+}
+
+
+function normalizeRating(
+  rating,
+  ratingScale
+) {
+  if (
+    rating === null ||
+    rating === undefined ||
+    ratingScale === null ||
+    ratingScale === undefined
+  ) {
+    return null;
+  }
+
+  const r = Number(rating);
+  const scale = Number(ratingScale);
+
+  if (
+    !Number.isFinite(r) ||
+    !Number.isFinite(scale) ||
+    scale <= 0 ||
+    r < 0 ||
+    r > scale
+  ) {
+    return null;
+  }
+
+  return round2(
+    Math.max(
+      0,
+      Math.min(
+        100,
+        (r / scale) * 100
+      )
+    )
+  );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| BRANCH NORMALIZATION
+|--------------------------------------------------------------------------
+*/
+
+
+function canonicalizeBranch(value) {
+  /*
+  |--------------------------------------------------------------------------
+  | Remove counselling duration / degree suffix
+  |--------------------------------------------------------------------------
+  */
+
+  const cleanedLabel =
+    String(value ?? "")
+      .trim()
+      .replace(
+        /\s*\(\s*\d+\s+years?\b[\s\S]*$/i,
+        ""
+      )
+      .trim();
+
+
+  const normalized =
+    normalizeText(
+      cleanedLabel
+    );
+
+
+  if (!normalized) {
+    return null;
+  }
+
+
+  if (
+    BRANCH_ALIASES.has(
+      normalized
+    )
+  ) {
+    return BRANCH_ALIASES.get(
+      normalized
+    );
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Strict fallback
+  |--------------------------------------------------------------------------
+  |
+  | No fuzzy matching.
+  |
+  */
+
+  return normalized.replace(
+    /\s+/g,
+    "_"
+  );
+}
+
+
+function canonicalizeAspect(value) {
+  const normalized =
+    normalizeText(value)
+      .replace(/\s+/g, "_");
+
+  if (
+    CANONICAL_ASPECTS.includes(
+      normalized
+    )
+  ) {
+    return normalized;
+  }
+
+  return null;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| SCOPE NORMALIZATION
+|--------------------------------------------------------------------------
+*/
+
+function normalizeScope(value) {
+  const scope =
+    normalizeText(value);
+
+  if (scope === "branch") {
+    return "branch";
+  }
+
+  if (
+    scope === "programme" ||
+    scope === "program"
+  ) {
+    return "programme";
+  }
+
+  if (
+    scope === "college" ||
+    scope === "institution"
+  ) {
+    return "college";
+  }
+
+  /*
+  |--------------------------------------------------------------------------
+  | Department is not exact branch.
+  |--------------------------------------------------------------------------
+  */
+
+  if (scope === "department") {
+    return "programme";
+  }
+
+  return null;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| PROGRAMME NORMALIZATION
+|--------------------------------------------------------------------------
+*/
+
+function normalizeProgramme(value) {
+  return normalizeText(value);
+}
+
+
+function isBTechProgramme(value) {
+  const programme =
+    normalizeProgramme(value);
+
+  return (
+    programme === "b tech" ||
+    programme === "btech" ||
+    programme ===
+      "integrated b tech m tech" ||
+    programme ===
+      "integrated btech mtech"
+  );
+}
+
+
+function isUnknownProgramme(value) {
+  const programme =
+    normalizeProgramme(value);
+
+  return (
+    !programme ||
+    programme === "unknown"
+  );
+}
+
+
+function isClearlyExcludedProgramme(
+  value
+) {
+  const programme =
+    normalizeProgramme(value);
+
+  if (!programme) {
+    return false;
+  }
+
+  const excluded = new Set([
+    "m tech",
+    "mtech",
+    "mba",
+    "m sc",
+    "msc",
+    "integrated m sc",
+    "integrated msc",
+    "mca",
+    "phd",
+    "ph d",
+    "b arch",
+    "barch",
+  ]);
+
+  return excluded.has(programme);
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| COLLEGE-WIDE ASPECT CHECK
+|--------------------------------------------------------------------------
+*/
+
+function aspectAllowsCollegeWideEvidence(
+  aspect
+) {
+  return COLLEGE_WIDE_ASPECTS.has(
+    aspect
+  );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| SAFE SCOPE RECOVERY
+|--------------------------------------------------------------------------
+|
+| IMPORTANT FIX:
+|
+| Older MANIT data contains many scope = NULL observations.
+|
+| We recover scope only from explicit evidence.
+|
+| We DO NOT blindly convert null scope to college.
+|
+*/
+
+function recoverScope({
+  rawScope,
+  aspect,
+  targetBranch,
+  itemBranch,
+  branchVerified,
+  programmeLevel,
+  courseVerified,
+}) {
+  /*
+  |--------------------------------------------------------------------------
+  | Explicit scope always wins.
+  |--------------------------------------------------------------------------
+  */
+
+  const explicit =
+    normalizeScope(rawScope);
+
+  if (explicit) {
+    return explicit;
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Explicit target branch
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    targetBranch &&
+    BRANCH_SENSITIVE_ASPECTS.has(
+      aspect
+    )
+  ) {
+    return "branch";
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Verified review branch
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    branchVerified &&
+    itemBranch &&
+    BRANCH_SENSITIVE_ASPECTS.has(
+      aspect
+    )
+  ) {
+    return "branch";
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | College-wide aspects
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    COLLEGE_WIDE_ASPECTS.has(
+      aspect
+    )
+  ) {
+    return "college";
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Verified B.Tech programme
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    isBTechProgramme(
+      programmeLevel
+    ) &&
+    courseVerified
+  ) {
+    return "programme";
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | No safe recovery
+  |--------------------------------------------------------------------------
+  */
+
+  return null;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| EVIDENCE ELIGIBILITY
+|--------------------------------------------------------------------------
+*/
+
+function resolveAspectEvidenceEligibility({
+  aspect,
+  scope,
+  programmeLevel,
+  courseVerified,
+  branchVerified,
+  itemBranch,
+  targetBranch,
+  requestedBranch,
+}) {
+  /*
+  |--------------------------------------------------------------------------
+  | Explicit non-B.Tech programme
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    isClearlyExcludedProgramme(
+      programmeLevel
+    )
+  ) {
+    /*
+    |--------------------------------------------------------------------------
+    | College-wide exception
+    |--------------------------------------------------------------------------
+    |
+    | M.Tech-specific placement must not affect B.Tech.
+    |
+    | But genuinely shared:
+    | - hostel
+    | - infrastructure
+    | - campus life
+    | - administration
+    | - location
+    | - value for money
+    |
+    | may remain institution-wide.
+    |
+    */
+
+    if (
+      scope === "college" &&
+      aspectAllowsCollegeWideEvidence(
+        aspect
+      )
+    ) {
+      return {
+        usable: true,
+        scope: "college",
+        scopeReason:
+          "college_wide_cross_programme",
+      };
+    }
+
+    return {
+      usable: false,
+      reason:
+        "excluded_programme",
+    };
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Branch evidence
+  |--------------------------------------------------------------------------
+  */
+
+  if (scope === "branch") {
+    if (!requestedBranch) {
+      return {
+        usable: false,
+        reason:
+          "branch_scope_without_requested_branch",
+      };
+    }
+
+    const evidenceBranch =
+      canonicalizeBranch(
+        targetBranch ||
+        itemBranch
+      );
+
+    if (!evidenceBranch) {
+      return {
+        usable: false,
+        reason:
+          "branch_scope_missing_branch",
+      };
+    }
+
+    if (
+      evidenceBranch !==
+      requestedBranch
+    ) {
+      return {
+        usable: false,
+        reason:
+          "different_branch",
+      };
+    }
+
+    return {
+      usable: true,
+      scope: "branch",
+      scopeReason:
+        branchVerified
+          ? "verified_exact_branch"
+          : "exact_branch_alias_match",
+    };
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Programme evidence
+  |--------------------------------------------------------------------------
+  */
+
+  if (scope === "programme") {
+    if (
+      isBTechProgramme(
+        programmeLevel
+      )
+    ) {
+      return {
+        usable: true,
+        scope: "programme",
+        scopeReason:
+          "btech_programme",
+      };
+    }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Programme unknown but verified course
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      isUnknownProgramme(
+        programmeLevel
+      ) &&
+      courseVerified
+    ) {
+      return {
+        usable: true,
+        scope: "programme",
+        scopeReason:
+          "verified_course_unknown_programme",
+      };
+    }
+
+    return {
+      usable: false,
+      reason:
+        "unverified_programme_scope",
+    };
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | College evidence
+  |--------------------------------------------------------------------------
+  */
+
+  if (scope === "college") {
+    if (
+      aspectAllowsCollegeWideEvidence(
+        aspect
+      )
+    ) {
+      return {
+        usable: true,
+        scope: "college",
+        scopeReason:
+          "college_wide_aspect",
+      };
+    }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Branch-sensitive aspect can use college evidence only as fallback.
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      BRANCH_SENSITIVE_ASPECTS.has(
+        aspect
+      )
+    ) {
+      return {
+        usable: true,
+        scope: "college",
+        scopeReason:
+          "college_level_fallback",
+      };
+    }
+
+    return {
+      usable: true,
+      scope: "college",
+      scopeReason:
+        "college_scope",
+    };
+  }
+
+
+  return {
+    usable: false,
+    reason:
+      "unresolved_scope",
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| PER-ASPECT SCOPE PRECEDENCE
+|--------------------------------------------------------------------------
+*/
+
+function selectPreferredScope(
+  aspect,
+  rows
+) {
+  if (!rows.length) {
+    return [];
+  }
+
+  const branchRows =
+    rows.filter(
+      (row) =>
+        row.resolvedScope ===
+        "branch"
+    );
+
+  const programmeRows =
+    rows.filter(
+      (row) =>
+        row.resolvedScope ===
+        "programme"
+    );
+
+  const collegeRows =
+    rows.filter(
+      (row) =>
+        row.resolvedScope ===
+        "college"
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Branch-sensitive
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    BRANCH_SENSITIVE_ASPECTS.has(
+      aspect
+    )
+  ) {
+    if (branchRows.length) {
+      return branchRows;
+    }
+
+    if (programmeRows.length) {
+      return programmeRows;
+    }
+
+    return collegeRows;
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | College-wide
+  |--------------------------------------------------------------------------
+  */
+
+  if (
+    COLLEGE_WIDE_ASPECTS.has(
+      aspect
+    )
+  ) {
+    if (collegeRows.length) {
+      return collegeRows;
+    }
+
+    if (programmeRows.length) {
+      return programmeRows;
+    }
+
+    return branchRows;
+  }
+
+
+  if (branchRows.length) {
+    return branchRows;
+  }
+
+  if (programmeRows.length) {
+    return programmeRows;
+  }
+
+  return collegeRows;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| REVIEW SENTENCE CLEANING
+|--------------------------------------------------------------------------
+*/
+
+function cleanSentence(value) {
+  const text =
+    String(value ?? "")
+      .trim()
+      .replace(
+        /^['"]+|['"]+$/g,
+        ""
+      )
+      .trim();
+
+  return text || null;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| EXPLAINABILITY EVIDENCE OBJECT
+|--------------------------------------------------------------------------
+*/
+
+function buildEvidenceObject(row) {
+  return {
+    reviewItemId:
+      String(
+        row.review_item_id
+      ),
+
+    text:
+      cleanSentence(
+        row.evidence_summary
+      ),
+
+    sentiment:
+      row.sentiment ??
+      null,
+
+    source:
+      row.source_name ??
+      null,
+
+    sourceType:
+      row.source_type ??
+      null,
+
+    sourceUrl:
+      row.source_url ??
+      null,
+
+    scope:
+      row.resolvedScope ??
+      null,
+
+    scopeReason:
+      row.scopeReason ??
+      null,
+
+    branch:
+      row.target_branch ||
+      row.branch_text ||
+      null,
+
+    programme:
+      row.programme_level ??
+      null,
+
+    course:
+      row.course ??
+      null,
+
+    contentAccess:
+      row.content_access ??
+      null,
+
+    evidenceStrength:
+      row.evidence_strength ??
+      null,
+
+    reviewDate:
+      row.review_date ??
+      null,
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| REPRESENTATIVE SENTENCES
+|--------------------------------------------------------------------------
+*/
+
+function pickRepresentativeEvidence(
+  rows,
+  sentiment,
+  limit = 2
+) {
+  const output = [];
+  const seen = new Set();
+
+  for (const row of rows) {
+    if (
+      row.sentiment !== sentiment
+    ) {
+      continue;
+    }
+
+    const text =
+      cleanSentence(
+        row.evidence_summary
+      );
+
+    if (!text) {
+      continue;
+    }
+
+    const normalized =
+      normalizeText(text);
+
+    if (
+      !normalized ||
+      seen.has(normalized)
+    ) {
+      continue;
+    }
+
+    seen.add(normalized);
+
+    output.push(
+      buildEvidenceObject(row)
+    );
+
+    if (
+      output.length >= limit
+    ) {
+      break;
+    }
+  }
+
+  return output;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| SOURCE-BALANCED TEXT SENTIMENT
+|--------------------------------------------------------------------------
+|
+| Step 1:
+| average observations inside each source.
+|
+| Step 2:
+| average source-level scores.
+|
+| This prevents 50 Shiksha observations from overpowering 5 Careers360
+| observations purely because of extraction volume.
+|
+*/
+
+function calculateSourceBalancedTextScore(
+  rows
+) {
+  const sourceBuckets =
+    new Map();
+
+  for (const row of rows) {
+    const sentiment =
+      normalizeText(
+        row.sentiment
+      ).replace(
+        /\s+/g,
+        "_"
+      );
+
+    if (
+      sentiment ===
+      "no_opinion"
+    ) {
+      continue;
+    }
+
+    const value =
+      SENTIMENT_SCORE[
+        sentiment
+      ];
+
+    if (
+      value === undefined
+    ) {
+      continue;
+    }
+
+    const sourceKey =
+      row.source_id
+        ? `id:${row.source_id}`
+        : `name:${normalizeText(
+            row.source_name
+          )}`;
+
+    if (
+      !sourceBuckets.has(
+        sourceKey
+      )
+    ) {
+      sourceBuckets.set(
+        sourceKey,
+        []
+      );
+    }
+
+    sourceBuckets
+      .get(sourceKey)
+      .push(value);
+  }
+
+  const sourceScores = [];
+
+  for (
+    const values of
+    sourceBuckets.values()
+  ) {
+    const score =
+      average(values);
+
+    if (score !== null) {
+      sourceScores.push(
+        score
+      );
+    }
+  }
+
+  return {
+    score:
+      round2(
+        average(
+          sourceScores
+        )
+      ),
+
+    sourceCount:
+      sourceScores.length,
+
+    sourceScores:
+      sourceScores.map(
+        round2
+      ),
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| INDIVIDUAL REVIEW RATING
+|--------------------------------------------------------------------------
+|
+| Kept as diagnostic.
+|
+| Generic author star rating is NOT copied into every aspect because the
+| rating normally reflects the full college experience.
+|
+*/
+
+function calculateIndividualRatingChannel(
+  rows
+) {
+  const reviewRatings =
+    new Map();
+
+  for (const row of rows) {
+    const reviewId =
+      String(
+        row.review_item_id
+      );
+
+    if (
+      reviewRatings.has(
+        reviewId
+      )
+    ) {
+      continue;
+    }
+
+    const score =
+      normalizeRating(
+        row.review_rating,
+        row.review_rating_scale
+      );
+
+    if (score === null) {
+      continue;
+    }
+
+    reviewRatings.set(
+      reviewId,
+      score
+    );
+  }
+
+  const values =
+    [...reviewRatings.values()];
+
+  return {
+    score:
+      round2(
+        average(values)
+      ),
+
+    reviewCount:
+      values.length,
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| PLATFORM ASPECT CHANNEL
+|--------------------------------------------------------------------------
+*/
+
+function calculatePlatformAspectChannel(
+  rows
+) {
+  const sourceBuckets =
+    new Map();
+
+  for (const row of rows) {
+    const score =
+      normalizeRating(
+        row.rating,
+        row.rating_scale
+      );
+
+    if (score === null) {
+      continue;
+    }
+
+    const sourceKey =
+      row.source_id
+        ? `id:${row.source_id}`
+        : `name:${normalizeText(
+            row.source_name
+          )}`;
+
+    if (
+      !sourceBuckets.has(
+        sourceKey
+      )
+    ) {
+      sourceBuckets.set(
+        sourceKey,
+        []
+      );
+    }
+
+    sourceBuckets
+      .get(sourceKey)
+      .push(score);
+  }
+
+  const sourceScores = [];
+
+  for (
+    const values of
+    sourceBuckets.values()
+  ) {
+    const score =
+      average(values);
+
+    if (score !== null) {
+      sourceScores.push(
+        score
+      );
+    }
+  }
+
+  return {
+    score:
+      round2(
+        average(
+          sourceScores
+        )
+      ),
+
+    sourceCount:
+      sourceScores.length,
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| ASPECT SCORE CONSTRUCTION
+|--------------------------------------------------------------------------
+|
+| Active numerical channels:
+|
+| 1. textual sentiment
+| 2. platform-provided aspect rating
+|
+| Individual author overall rating is retained diagnostically but not
+| automatically mixed into an aspect.
+|
+*/
+
+function constructAspectScore({
+  aspect,
+  textualRows,
+  platformAspectRows,
+}) {
+  /*
+  |--------------------------------------------------------------------------
+  | Scope precedence
+  |--------------------------------------------------------------------------
+  */
+
+  const preferredRows =
+    selectPreferredScope(
+      aspect,
+      textualRows
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Channels
+  |--------------------------------------------------------------------------
+  */
+
+  const textual =
+    calculateSourceBalancedTextScore(
+      preferredRows
+    );
+
+  const individualRating =
+    calculateIndividualRatingChannel(
+      preferredRows
+    );
+
+  const platformAspect =
+    calculatePlatformAspectChannel(
+      platformAspectRows
+    );
+
+
+  const channels = [];
+
+  if (
+    textual.score !== null
+  ) {
+    channels.push({
+      channel:
+        "textual_sentiment",
+
+      score:
+        textual.score,
+    });
+  }
+
+
+  if (
+    platformAspect.score !== null
+  ) {
+    channels.push({
+      channel:
+        "platform_aspect_rating",
+
+      score:
+        platformAspect.score,
+    });
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | No arbitrary weighting.
+  |--------------------------------------------------------------------------
+  |
+  | Available independent channels are averaged.
+  |
+  */
+
+  const score =
+    round2(
+      average(
+        channels.map(
+          (channel) =>
+            channel.score
+        )
+      )
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Evidence counts
+  |--------------------------------------------------------------------------
+  */
+
+  const sourceIds =
+    new Set();
+
+  const reviewIds =
+    new Set();
+
+  let branchEvidenceCount = 0;
+  let programmeEvidenceCount = 0;
+  let collegeEvidenceCount = 0;
+
+
+  for (const row of preferredRows) {
+    if (row.source_id) {
+      sourceIds.add(
+        `id:${row.source_id}`
+      );
+    } else if (
+      row.source_name
+    ) {
+      sourceIds.add(
+        `name:${normalizeText(
+          row.source_name
+        )}`
+      );
+    }
+
+    reviewIds.add(
+      String(
+        row.review_item_id
+      )
+    );
+
+    if (
+      row.resolvedScope ===
+      "branch"
+    ) {
+      branchEvidenceCount++;
+    }
+
+    if (
+      row.resolvedScope ===
+      "programme"
+    ) {
+      programmeEvidenceCount++;
+    }
+
+    if (
+      row.resolvedScope ===
+      "college"
+    ) {
+      collegeEvidenceCount++;
+    }
+  }
+
+
+  for (
+    const row of
+    platformAspectRows
+  ) {
+    if (row.source_id) {
+      sourceIds.add(
+        `id:${row.source_id}`
+      );
+    } else if (
+      row.source_name
+    ) {
+      sourceIds.add(
+        `name:${normalizeText(
+          row.source_name
+        )}`
+      );
+    }
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Scope used
+  |--------------------------------------------------------------------------
+  */
+
+  let scopeUsed = null;
+
+  if (
+    preferredRows.some(
+      (row) =>
+        row.resolvedScope ===
+        "branch"
+    )
+  ) {
+    scopeUsed = "branch";
+  } else if (
+    preferredRows.some(
+      (row) =>
+        row.resolvedScope ===
+        "programme"
+    )
+  ) {
+    scopeUsed = "programme";
+  } else if (
+    preferredRows.some(
+      (row) =>
+        row.resolvedScope ===
+        "college"
+    )
+  ) {
+    scopeUsed = "college";
+  } else if (
+    platformAspect.score !== null
+  ) {
+    scopeUsed =
+      "platform_aspect";
+  }
+
+
+  return {
+    score,
+
+    scopeUsed,
+
+    sourceCount:
+      sourceIds.size,
+
+    reviewCount:
+      reviewIds.size,
+
+    evidenceCount:
+      preferredRows.length +
+      platformAspectRows.length,
+
+    branchEvidenceCount,
+    programmeEvidenceCount,
+    collegeEvidenceCount,
+
+    channelsUsed:
+      channels.map(
+        (channel) =>
+          channel.channel
+      ),
+
+    channelScores: {
+      textualSentiment:
+        textual.score,
+
+      /*
+      |--------------------------------------------------------------------------
+      | Diagnostic only
+      |--------------------------------------------------------------------------
+      */
+
+      individualReviewRating:
+        individualRating.score,
+
+      platformAspectRating:
+        platformAspect.score,
+    },
+
+    representativePositiveSentences:
+      pickRepresentativeEvidence(
+        preferredRows,
+        "positive",
+        2
+      ),
+
+    representativeNegativeSentences:
+      pickRepresentativeEvidence(
+        preferredRows,
+        "negative",
+        2
+      ),
+
+    representativeMixedSentences:
+      pickRepresentativeEvidence(
+        preferredRows,
+        "mixed",
+        2
+      ),
+
+    representativeNeutralSentences:
+      pickRepresentativeEvidence(
+        preferredRows,
+        "neutral",
+        1
+      ),
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| PLATFORM AGGREGATE CHANNEL
+|--------------------------------------------------------------------------
+|
+| This remains separate from final aspect intelligence.
+|
+| review_count alone is NEVER converted to rating.
+|
+*/
+
+function calculatePlatformAggregateChannel(
+  rows
+) {
+  const sourceBuckets =
+    new Map();
+
+  let volumeOnlyCount = 0;
+  let totalReportedReviews = 0;
+
+  for (const row of rows) {
+    const reviewCount =
+      Number(
+        row.review_count
+      );
+
+    if (
+      Number.isFinite(
+        reviewCount
+      ) &&
+      reviewCount > 0
+    ) {
+      totalReportedReviews +=
+        reviewCount;
+    }
+
+
+    const score =
+      normalizeRating(
+        row.aggregate_rating,
+        row.rating_scale
+      );
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Review count but no rating
+    |--------------------------------------------------------------------------
+    */
+
+    if (score === null) {
+      if (
+        Number.isFinite(
+          reviewCount
+        ) &&
+        reviewCount > 0
+      ) {
+        volumeOnlyCount++;
+      }
+
+      continue;
+    }
+
+
+    const sourceKey =
+      row.source_id
+        ? `id:${row.source_id}`
+        : `name:${normalizeText(
+            row.source_name
+          )}`;
+
+
+    if (
+      !sourceBuckets.has(
+        sourceKey
+      )
+    ) {
+      sourceBuckets.set(
+        sourceKey,
+        []
+      );
+    }
+
+
+    sourceBuckets
+      .get(sourceKey)
+      .push(score);
+  }
+
+
+  const sourceScores = [];
+
+  for (
+    const values of
+    sourceBuckets.values()
+  ) {
+    const score =
+      average(values);
+
+    if (score !== null) {
+      sourceScores.push(
+        score
+      );
+    }
+  }
+
+
+  return {
+    score:
+      round2(
+        average(
+          sourceScores
+        )
+      ),
+
+    sourceCount:
+      sourceScores.length,
+
+    volumeOnlyCount,
+
+    totalReportedReviews,
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| DATABASE — TEXTUAL ASPECT EVIDENCE
+|--------------------------------------------------------------------------
+*/
+
+async function loadReviewAspectEvidence(
+  client,
+  collegeId
+) {
+  const { rows } =
+    await client.query(
+      `
+        SELECT
+          ras.id
+            AS aspect_row_id,
+
+          ras.review_item_id,
+          ras.aspect,
+          ras.target_branch,
+          ras.scope,
+          ras.sentiment,
+          ras.evidence_summary,
+
+          cri.college_id,
+          cri.source_id,
+          cri.source_review_id,
+          cri.source_url,
+
+          cri.author_display_name,
+          cri.review_title,
+          cri.review_date,
+          cri.observed_at,
+
+          cri.content_type,
+          cri.content_access,
+          cri.evidence_strength,
+
+          cri.programme_level,
+          cri.course,
+          cri.course_verified,
+
+          cri.department,
+
+          cri.branch_text,
+          cri.branch_verified,
+
+          cri.rating
+            AS review_rating,
+
+          cri.rating_scale
+            AS review_rating_scale,
+
+          cri.duplicate_status,
+          cri.duplicate_of,
+
+          rs.name
+            AS source_name,
+
+          rs.source_type
+
+        FROM
+          review_aspect_sentiments ras
+
+        INNER JOIN
+          college_review_items cri
+          ON cri.id =
+             ras.review_item_id
+
+        LEFT JOIN
+          review_sources rs
+          ON rs.id =
+             cri.source_id
+
+        WHERE
+          cri.college_id = $1
+
+        ORDER BY
+          ras.aspect,
+          cri.id,
+          ras.id
+      `,
+      [collegeId]
+    );
+
+  return rows;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| DATABASE — PLATFORM AGGREGATES
+|--------------------------------------------------------------------------
+*/
+
+async function loadPlatformAggregates(
+  client,
+  collegeId
+) {
+  const { rows } =
+    await client.query(
+      `
+        SELECT
+          ras.*,
+
+          rs.name
+            AS source_name,
+
+          rs.source_type
+
+        FROM
+          review_aggregate_snapshots ras
+
+        LEFT JOIN
+          review_sources rs
+          ON rs.id =
+             ras.source_id
+
+        WHERE
+          ras.college_id = $1
+
+        ORDER BY
+          ras.id
+      `,
+      [collegeId]
+    );
+
+  return rows;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| DATABASE — PLATFORM ASPECT RATINGS
+|--------------------------------------------------------------------------
+*/
+
+async function loadPlatformAspectRatings(
+  client,
+  collegeId
+) {
+  const { rows } =
+    await client.query(
+      `
+        SELECT
+          rpar.*,
+
+          rs.name
+            AS source_name,
+
+          rs.source_type
+
+        FROM
+          review_platform_aspect_ratings rpar
+
+        LEFT JOIN
+          review_sources rs
+          ON rs.id =
+             rpar.source_id
+
+        WHERE
+          rpar.college_id = $1
+
+        ORDER BY
+          rpar.aspect,
+          rpar.id
+      `,
+      [collegeId]
+    );
+
+  return rows;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| TEXTUAL EVIDENCE CLEANING
+|--------------------------------------------------------------------------
+*/
+
+function prepareTextualEvidence(
+  rows,
+  requestedBranch
+) {
+  const usable = [];
+
+  const stats = {
+    rawAspectEvidence:
+      rows.length,
+
+    confirmedDuplicateDropped:
+      0,
+
+    probableDuplicateDropped:
+      0,
+
+    unknownDuplicateCount:
+      0,
+
+    unresolvedScopeDropped:
+      0,
+
+    excludedProgrammeDropped:
+      0,
+
+    differentBranchDropped:
+      0,
+
+    branchWithoutRequestedBranchDropped:
+      0,
+
+    invalidAspectDropped:
+      0,
+
+    invalidSentimentDropped:
+      0,
+
+    noOpinionDropped:
+      0,
+  };
+
+
+  for (const row of rows) {
+    /*
+    |--------------------------------------------------------------------------
+    | Duplicate handling
+    |--------------------------------------------------------------------------
+    */
+
+    const duplicateStatus =
+      normalizeText(
+        row.duplicate_status
+      ).replace(
+        /\s+/g,
+        "_"
+      );
+
+
+    if (
+      duplicateStatus ===
+      "confirmed_duplicate"
+    ) {
+      stats
+        .confirmedDuplicateDropped++;
+
+      continue;
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Probable duplicate:
+    | strict exclusion until resolved.
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      duplicateStatus ===
+      "probable_duplicate"
+    ) {
+      stats
+        .probableDuplicateDropped++;
+
+      continue;
+    }
+
+
+    if (
+      !duplicateStatus ||
+      duplicateStatus ===
+      "unknown"
+    ) {
+      stats
+        .unknownDuplicateCount++;
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Aspect
+    |--------------------------------------------------------------------------
+    */
+
+    const aspect =
+      canonicalizeAspect(
+        row.aspect
+      );
+
+    if (!aspect) {
+      stats
+        .invalidAspectDropped++;
+
+      continue;
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Sentiment
+    |--------------------------------------------------------------------------
+    */
+
+    const sentiment =
+      normalizeText(
+        row.sentiment
+      ).replace(
+        /\s+/g,
+        "_"
+      );
+
+
+    const validSentiments =
+      new Set([
+        "positive",
+        "mixed",
+        "neutral",
+        "negative",
+        "no_opinion",
+      ]);
+
+
+    if (
+      !validSentiments.has(
+        sentiment
+      )
+    ) {
+      stats
+        .invalidSentimentDropped++;
+
+      continue;
+    }
+
+
+    if (
+      sentiment ===
+      "no_opinion"
+    ) {
+      stats.noOpinionDropped++;
+
+      continue;
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Scope recovery
+    |--------------------------------------------------------------------------
+    */
+
+    const scope =
+      recoverScope({
+        rawScope:
+          row.scope,
+
+        aspect,
+
+        targetBranch:
+          row.target_branch,
+
+        itemBranch:
+          row.branch_text,
+
+        branchVerified:
+          row.branch_verified,
+
+        programmeLevel:
+          row.programme_level,
+
+        courseVerified:
+          row.course_verified,
+      });
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Eligibility
+    |--------------------------------------------------------------------------
+    */
+
+    const resolution =
+      resolveAspectEvidenceEligibility({
+        aspect,
+        scope,
+
+        programmeLevel:
+          row.programme_level,
+
+        courseVerified:
+          row.course_verified,
+
+        branchVerified:
+          row.branch_verified,
+
+        itemBranch:
+          row.branch_text,
+
+        targetBranch:
+          row.target_branch,
+
+        requestedBranch,
+      });
+
+
+    if (!resolution.usable) {
+      switch (
+        resolution.reason
+      ) {
+        case "excluded_programme":
+          stats
+            .excludedProgrammeDropped++;
+          break;
+
+        case "different_branch":
+          stats
+            .differentBranchDropped++;
+          break;
+
+        case "branch_scope_without_requested_branch":
+          stats
+            .branchWithoutRequestedBranchDropped++;
+          break;
+
+        case "unresolved_scope":
+          stats
+            .unresolvedScopeDropped++;
+          break;
+
+        default:
+          break;
+      }
+
+      continue;
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Usable observation
+    |--------------------------------------------------------------------------
+    */
+
+    usable.push({
+      ...row,
+
+      aspect,
+      sentiment,
+
+      resolvedScope:
+        resolution.scope,
+
+      scopeReason:
+        resolution.scopeReason,
+    });
+  }
+
+
+  return {
+    rows: usable,
+    stats,
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| PLATFORM ASPECT PREPARATION
+|--------------------------------------------------------------------------
+*/
+
+function preparePlatformAspectRows(
+  rows
+) {
+  const grouped =
+    Object.fromEntries(
+      CANONICAL_ASPECTS.map(
+        (aspect) => [
+          aspect,
+          [],
+        ]
+      )
+    );
+
+
+  for (const row of rows) {
+    const aspect =
+      canonicalizeAspect(
+        row.aspect
+      );
+
+    if (!aspect) {
+      continue;
+    }
+
+
+    const score =
+      normalizeRating(
+        row.rating,
+        row.rating_scale
+      );
+
+    if (score === null) {
+      continue;
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Exclude explicitly unrelated programme aspect ratings.
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      isClearlyExcludedProgramme(
+        row.programme_scope
+      )
+    ) {
+      continue;
+    }
+
+
+    grouped[aspect].push(row);
+  }
+
+
+  return grouped;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| COVERAGE
+|--------------------------------------------------------------------------
+*/
+
+function buildCoverage({
+  rawTextRows,
+  usableTextRows,
+  aggregateRows,
+  platformAspectRows,
+  aspectResults,
+}) {
+  const usableReviewIds =
+    new Set();
+
+  const usableSourceIds =
+    new Set();
+
+
+  let datedReviews = 0;
+  let recentReviews = 0;
+
+  let branchEvidence = 0;
+  let programmeEvidence = 0;
+  let collegeEvidence = 0;
+
+  let snippetOnlyCount = 0;
+  let fullReviewCount = 0;
+
+  let unknownDuplicateCount = 0;
+  let confirmedDuplicateCount = 0;
+  let probableDuplicateCount = 0;
+
+
+  const seenDate =
+    new Set();
+
+  const seenAccess =
+    new Set();
+
+  const seenDuplicate =
+    new Set();
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Recent = last 24 months
+  |--------------------------------------------------------------------------
+  */
+
+  const recentCutoff =
+    new Date();
+
+  recentCutoff.setMonth(
+    recentCutoff.getMonth() - 24
+  );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Raw review-level coverage
+  |--------------------------------------------------------------------------
+  */
+
+  for (const row of rawTextRows) {
+    const reviewId =
+      String(
+        row.review_item_id
+      );
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Duplicate item count
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      !seenDuplicate.has(
+        reviewId
+      )
+    ) {
+      seenDuplicate.add(
+        reviewId
+      );
+
+      const status =
+        normalizeText(
+          row.duplicate_status
+        ).replace(
+          /\s+/g,
+          "_"
+        );
+
+
+      if (
+        !status ||
+        status === "unknown"
+      ) {
+        unknownDuplicateCount++;
+      }
+
+
+      if (
+        status ===
+        "confirmed_duplicate"
+      ) {
+        confirmedDuplicateCount++;
+      }
+
+
+      if (
+        status ===
+        "probable_duplicate"
+      ) {
+        probableDuplicateCount++;
+      }
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Dates
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      row.review_date &&
+      !seenDate.has(
+        reviewId
+      )
+    ) {
+      seenDate.add(reviewId);
+
+      datedReviews++;
+
+      const date =
+        new Date(
+          row.review_date
+        );
+
+      if (
+        !Number.isNaN(
+          date.getTime()
+        ) &&
+        date >= recentCutoff
+      ) {
+        recentReviews++;
+      }
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Full vs snippet
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      !seenAccess.has(
+        reviewId
+      )
+    ) {
+      seenAccess.add(
+        reviewId
+      );
+
+      const contentAccess =
+        normalizeText(
+          row.content_access
+        );
+
+      const evidenceStrength =
+        normalizeText(
+          row.evidence_strength
+        );
+
+
+      if (
+        contentAccess ===
+          "full" ||
+        evidenceStrength ===
+          "full review"
+      ) {
+        fullReviewCount++;
+      } else {
+        snippetOnlyCount++;
+      }
+    }
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Usable evidence coverage
+  |--------------------------------------------------------------------------
+  */
+
+  for (
+    const row of
+    usableTextRows
+  ) {
+    usableReviewIds.add(
+      String(
+        row.review_item_id
+      )
+    );
+
+
+    if (row.source_id) {
+      usableSourceIds.add(
+        `id:${row.source_id}`
+      );
+    } else if (
+      row.source_name
+    ) {
+      usableSourceIds.add(
+        `name:${normalizeText(
+          row.source_name
+        )}`
+      );
+    }
+
+
+    if (
+      row.resolvedScope ===
+      "branch"
+    ) {
+      branchEvidence++;
+    }
+
+
+    if (
+      row.resolvedScope ===
+      "programme"
+    ) {
+      programmeEvidence++;
+    }
+
+
+    if (
+      row.resolvedScope ===
+      "college"
+    ) {
+      collegeEvidence++;
+    }
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Numeric aggregate sources
+  |--------------------------------------------------------------------------
+  */
+
+  const aggregateSourceIds =
+    new Set();
+
+  let aggregateVolumeOnlySources =
+    0;
+
+
+  for (const row of aggregateRows) {
+    const score =
+      normalizeRating(
+        row.aggregate_rating,
+        row.rating_scale
+      );
+
+
+    if (score !== null) {
+      if (row.source_id) {
+        aggregateSourceIds.add(
+          `id:${row.source_id}`
+        );
+      } else if (
+        row.source_name
+      ) {
+        aggregateSourceIds.add(
+          `name:${normalizeText(
+            row.source_name
+          )}`
+        );
+      }
+
+      continue;
+    }
+
+
+    const reviewCount =
+      Number(
+        row.review_count
+      );
+
+
+    if (
+      Number.isFinite(
+        reviewCount
+      ) &&
+      reviewCount > 0
+    ) {
+      aggregateVolumeOnlySources++;
+    }
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Platform aspect sources
+  |--------------------------------------------------------------------------
+  */
+
+  const platformAspectSourceIds =
+    new Set();
+
+
+  for (
+    const rows of
+    Object.values(
+      platformAspectRows
+    )
+  ) {
+    for (const row of rows) {
+      if (row.source_id) {
+        platformAspectSourceIds.add(
+          `id:${row.source_id}`
+        );
+      } else if (
+        row.source_name
+      ) {
+        platformAspectSourceIds.add(
+          `name:${normalizeText(
+            row.source_name
+          )}`
+        );
+      }
+    }
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Available/missing aspects
+  |--------------------------------------------------------------------------
+  */
+
+  const availableAspects =
+    Object.entries(
+      aspectResults
+    )
+      .filter(
+        ([, value]) =>
+          value.score !== null
+      )
+      .map(
+        ([aspect]) =>
+          aspect
+      );
+
+
+  const missingAspects =
+    CANONICAL_ASPECTS.filter(
+      (aspect) =>
+        !availableAspects.includes(
+          aspect
+        )
+    );
+
+
+  return {
+    usableReviews:
+      usableReviewIds.size,
+
+    independentSources:
+      usableSourceIds.size,
+
+    datedReviews,
+    recentReviews,
+
+    branchEvidence,
+    programmeEvidence,
+    collegeEvidence,
+
+    aggregateSources:
+      aggregateSourceIds.size,
+
+    aggregateVolumeOnlySources,
+
+    platformAspectSources:
+      platformAspectSourceIds.size,
+
+    unknownDuplicateCount,
+    confirmedDuplicateCount,
+    probableDuplicateCount,
+
+    snippetOnlyCount,
+    fullReviewCount,
+
+    availableAspects,
+    missingAspects,
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| EXPLAINABILITY
+|--------------------------------------------------------------------------
+*/
+
+function buildExplainability(
+  aspects,
+  coverage
+) {
+  const scored =
+    Object.entries(aspects)
+      .filter(
+        ([, value]) =>
+          value.score !== null
+      )
+      .map(
+        ([aspect, value]) => ({
+          aspect,
+          score:
+            value.score,
+        })
+      );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Strengths
+  |--------------------------------------------------------------------------
+  */
+
+  const strengths =
+    [...scored]
+      .filter(
+        (item) =>
+          item.score >= 65
+      )
+      .sort(
+        (a, b) =>
+          b.score - a.score
+      )
+      .slice(0, 3)
+      .map(
+        (item) =>
+          item.aspect
+      );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Concerns
+  |--------------------------------------------------------------------------
+  */
+
+  const concerns =
+    [...scored]
+      .filter(
+        (item) =>
+          item.score < 50
+      )
+      .sort(
+        (a, b) =>
+          a.score - b.score
+      )
+      .slice(0, 3)
+      .map(
+        (item) =>
+          item.aspect
+      );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Mixed/conflicting aspects
+  |--------------------------------------------------------------------------
+  */
+
+  const mixedAspects =
+    Object.entries(aspects)
+      .filter(
+        ([, value]) =>
+          value
+            .representativePositiveSentences
+            .length > 0 &&
+          value
+            .representativeNegativeSentences
+            .length > 0
+      )
+      .map(
+        ([aspect]) =>
+          aspect
+      );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Warnings
+  |--------------------------------------------------------------------------
+  */
+
+  const warnings = [];
+
+
+  if (
+    coverage.datedReviews === 0
+  ) {
+    warnings.push(
+      "No dated review evidence available"
+    );
+  } else if (
+    coverage.recentReviews === 0
+  ) {
+    warnings.push(
+      "No dated review evidence from the last 24 months"
+    );
+  }
+
+
+  if (
+    coverage
+      .unknownDuplicateCount >
+    0
+  ) {
+    warnings.push(
+      `${coverage.unknownDuplicateCount} review items have unknown duplicate status`
+    );
+  }
+
+
+  if (
+    coverage
+      .probableDuplicateCount >
+    0
+  ) {
+    warnings.push(
+      `${coverage.probableDuplicateCount} probable duplicate review items were excluded from scoring`
+    );
+  }
+
+
+  if (
+    coverage.snippetOnlyCount >
+    coverage.fullReviewCount
+  ) {
+    warnings.push(
+      "Evidence is predominantly snippet-based"
+    );
+  }
+
+
+  if (
+    coverage.branchEvidence === 0
+  ) {
+    warnings.push(
+      "No usable exact branch-specific evidence"
+    );
+  }
+
+
+  if (
+    coverage.missingAspects.length >
+    0
+  ) {
+    warnings.push(
+      `Missing aspects: ${coverage.missingAspects.join(
+        ", "
+      )}`
+    );
+  }
+
+
+  return {
+    strengths,
+    concerns,
+    mixedAspects,
+    warnings,
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| REVIEW INTELLIGENCE SCORE
+|--------------------------------------------------------------------------
+|
+| Available aspects only.
+|
+| Missing aspects removed from denominator.
+|
+| Currently no arbitrary aspect weight is invented.
+| Therefore available aspect scores are equally aggregated.
+|
+*/
+
+function calculateReviewIntelligenceScore(
+  aspects
+) {
+  const scores =
+    Object.values(aspects)
+      .map(
+        (value) =>
+          value.score
+      )
+      .filter(
+        (value) =>
+          value !== null &&
+          Number.isFinite(
+            Number(value)
+          )
+      );
+
+
+  return round2(
+    average(scores)
+  );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| REVIEW COMPONENT — 10 POINTS
+|--------------------------------------------------------------------------
+|
+| IMPORTANT FIX:
+|
+| null review score → null component
+|
+| NOT:
+| null → Number(null) → 0
+|
+*/
+
+export function getReviewComponentV3(
+  reviewIntelligenceScore,
+  weight = 10
+) {
+  if (
+    reviewIntelligenceScore === null ||
+    reviewIntelligenceScore === undefined
+  ) {
+    return null;
+  }
+
+
+  const score =
+    Number(
+      reviewIntelligenceScore
+    );
+
+  const reviewWeight =
+    Number(weight);
+
+
+  if (
+    !Number.isFinite(score) ||
+    !Number.isFinite(
+      reviewWeight
+    )
+  ) {
+    return null;
+  }
+
+
+  return round2(
+    (score / 100) *
+    reviewWeight
+  );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| MAIN V3 ENGINE
+|--------------------------------------------------------------------------
+*/
+
+export async function getCollegeReviewIntelligenceV3(
+  client,
+  {
+    collegeId,
+    branch = null,
+  }
+) {
+  /*
+  |--------------------------------------------------------------------------
+  | Missing college
+  |--------------------------------------------------------------------------
+  */
+
+  if (!collegeId) {
+    return {
+      version: "3",
+
+      collegeId: null,
+
+      requestedBranch:
+        branch ?? null,
+
+      canonicalBranch:
+        canonicalizeBranch(
+          branch
+        ),
+
+      score: null,
+
+      component: null,
+
+      aspects:
+        Object.fromEntries(
+          CANONICAL_ASPECTS.map(
+            (aspect) => [
+              aspect,
+              {
+                score: null,
+                scopeUsed: null,
+                sourceCount: 0,
+                reviewCount: 0,
+                evidenceCount: 0,
+                branchEvidenceCount: 0,
+                programmeEvidenceCount: 0,
+                collegeEvidenceCount: 0,
+                channelsUsed: [],
+                channelScores: {
+                  textualSentiment:
+                    null,
+
+                  individualReviewRating:
+                    null,
+
+                  platformAspectRating:
+                    null,
+                },
+
+                representativePositiveSentences:
+                  [],
+
+                representativeNegativeSentences:
+                  [],
+
+                representativeMixedSentences:
+                  [],
+
+                representativeNeutralSentences:
+                  [],
+              },
+            ]
+          )
+        ),
+
+      aggregate: {
+        score: null,
+        sourceCount: 0,
+        volumeOnlyCount: 0,
+        totalReportedReviews: 0,
+      },
+
+      evidence: {
+        usableReviews: 0,
+        independentSources: 0,
+
+        datedReviews: 0,
+        recentReviews: 0,
+
+        branchEvidence: 0,
+        programmeEvidence: 0,
+        collegeEvidence: 0,
+
+        aggregateSources: 0,
+        aggregateVolumeOnlySources:
+          0,
+
+        platformAspectSources: 0,
+
+        unknownDuplicateCount: 0,
+        confirmedDuplicateCount: 0,
+        probableDuplicateCount: 0,
+
+        snippetOnlyCount: 0,
+        fullReviewCount: 0,
+
+        availableAspects: [],
+        missingAspects:
+          [...CANONICAL_ASPECTS],
+
+        cleaning: null,
+      },
+
+      strengths: [],
+      concerns: [],
+      mixedAspects: [],
+
+      missingAspects:
+        [...CANONICAL_ASPECTS],
+
+      warnings: [
+        "Missing college id",
+      ],
+    };
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Requested branch
+  |--------------------------------------------------------------------------
+  */
+
+  const requestedBranch =
+    canonicalizeBranch(
+      branch
+    );
+
+
+  const reviewCollegeId =
+    resolveReviewCollegeId(
+      collegeId
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Load all channels
+  |--------------------------------------------------------------------------
+  */
+
+  const [
+    rawTextRows,
+    aggregateRows,
+    rawPlatformAspectRows,
+  ] =
+    await Promise.all([
+      loadReviewAspectEvidence(
+        client,
+        reviewCollegeId
+      ),
+
+      loadPlatformAggregates(
+        client,
+        reviewCollegeId
+      ),
+
+      loadPlatformAspectRatings(
+        client,
+        reviewCollegeId
+      ),
+    ]);
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Clean text evidence
+  |--------------------------------------------------------------------------
+  */
+
+  const prepared =
+    prepareTextualEvidence(
+      rawTextRows,
+      requestedBranch
+    );
+
+
+  const usableTextRows =
+    prepared.rows;
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Group text evidence by aspect
+  |--------------------------------------------------------------------------
+  */
+
+  const textualByAspect =
+    Object.fromEntries(
+      CANONICAL_ASPECTS.map(
+        (aspect) => [
+          aspect,
+          [],
+        ]
+      )
+    );
+
+
+  for (
+    const row of
+    usableTextRows
+  ) {
+    textualByAspect[
+      row.aspect
+    ].push(row);
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Prepare platform aspect channel
+  |--------------------------------------------------------------------------
+  */
+
+  const platformAspectRows =
+    preparePlatformAspectRows(
+      rawPlatformAspectRows
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Build every aspect
+  |--------------------------------------------------------------------------
+  */
+
+  const aspects = {};
+
+
+  for (
+    const aspect of
+    CANONICAL_ASPECTS
+  ) {
+    aspects[aspect] =
+      constructAspectScore({
+        aspect,
+
+        textualRows:
+          textualByAspect[
+            aspect
+          ],
+
+        platformAspectRows:
+          platformAspectRows[
+            aspect
+          ],
+      });
+  }
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Final Review Intelligence 0–100
+  |--------------------------------------------------------------------------
+  */
+
+  const score =
+    calculateReviewIntelligenceScore(
+      aspects
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Review component /10
+  |--------------------------------------------------------------------------
+  */
+
+  const component =
+    getReviewComponentV3(
+      score,
+      10
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Separate platform aggregate diagnostic
+  |--------------------------------------------------------------------------
+  */
+
+  const aggregate =
+    calculatePlatformAggregateChannel(
+      aggregateRows
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Evidence coverage
+  |--------------------------------------------------------------------------
+  */
+
+  const evidence =
+    buildCoverage({
+      rawTextRows,
+      usableTextRows,
+      aggregateRows,
+      platformAspectRows,
+      aspectResults:
+        aspects,
+    });
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Explainability
+  |--------------------------------------------------------------------------
+  */
+
+  const explainability =
+    buildExplainability(
+      aspects,
+      evidence
+    );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | Final V3 contract
+  |--------------------------------------------------------------------------
+  */
+
+  return {
+    version: "3",
+
+    collegeId,
+
+    reviewCollegeId,
+
+    requestedBranch:
+      branch ?? null,
+
+    canonicalBranch:
+      requestedBranch,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Core scores
+    |--------------------------------------------------------------------------
+    */
+
+    score,
+
+    component,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Per-aspect intelligence
+    |--------------------------------------------------------------------------
+    */
+
+    aspects,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Platform aggregate is deliberately separate.
+    |--------------------------------------------------------------------------
+    |
+    | It is not silently blended into Review Intelligence.
+    |
+    */
+
+    aggregate,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Evidence / coverage
+    |--------------------------------------------------------------------------
+    */
+
+    evidence: {
+      ...evidence,
+
+      cleaning:
+        prepared.stats,
+    },
+
+    /*
+    |--------------------------------------------------------------------------
+    | Explainability
+    |--------------------------------------------------------------------------
+    */
+
+    strengths:
+      explainability.strengths,
+
+    concerns:
+      explainability.concerns,
+
+    mixedAspects:
+      explainability
+        .mixedAspects,
+
+    missingAspects:
+      evidence
+        .missingAspects,
+
+    warnings:
+      explainability.warnings,
+  };
+}

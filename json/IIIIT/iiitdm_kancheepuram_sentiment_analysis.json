@@ -1,0 +1,92 @@
+{
+  "institution": "IIITDM Kancheepuram (Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 60,
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.68,
+    "confidence": "medium-high",
+    "overall_rating_out_of_5": 4.2
+  },
+  "category_ratings": {
+    "college_infrastructure": 4.6,
+    "academics": 4.4,
+    "placements": 3.9,
+    "value_for_money": null,
+    "campus_life": null
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 65,
+    "neutral_percent": 22,
+    "negative_percent": 13
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Infrastructure",
+      "sentiment": "Positive",
+      "notes": "Large 52-acre campus; well-maintained classrooms with projectors and mics; good labs, library, sports centres and hostels; strong ethernet connectivity."
+    },
+    {
+      "theme": "Academics",
+      "sentiment": "Positive",
+      "notes": "Highly qualified faculty combining industry and academic experience; strong reputation particularly for Mechanical Engineering and design-focused programs."
+    },
+    {
+      "theme": "Reputation",
+      "sentiment": "Positive",
+      "notes": "Frequently cited as having the best placement reputation among peer IIITs in some comparisons, with highest recorded package of 20 LPA."
+    },
+    {
+      "theme": "Campus Environment",
+      "sentiment": "Positive",
+      "notes": "Campus described as clean and well-organized; hostels have good ethernet supply."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Placements",
+      "sentiment": "Negative/Mixed",
+      "notes": "Weakest-rated category (3.9/5); average package reported in the 6-8 LPA range in several reviews; one review cited only ~17 students placed in 2019-20; some students recommend IIITDM Jabalpur over Kancheepuram for placement support."
+    },
+    {
+      "theme": "Food Quality",
+      "sentiment": "Mixed",
+      "notes": "Mess/food quality described as 'just ok' rather than good."
+    },
+    {
+      "theme": "Fee vs Outcome Concerns",
+      "sentiment": "Mixed",
+      "notes": "Some students note fees can be a consideration relative to placement outcomes, especially for less popular branches."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "A great blend of learning, innovation, and growth — well-maintained infra, good ethernet, but food just ok",
+      "sentiment": "Positive",
+      "score": 0.7
+    },
+    {
+      "review_snippet": "It is a decent college in terms of faculty and infrastructure; average placement generally ranges between 6-7 lakhs",
+      "sentiment": "Mixed",
+      "score": 0.2
+    },
+    {
+      "review_snippet": "IIIT Kancheepuram has recorded the highest package till now at 20 LPA, best quoted in relation to placement and reputation",
+      "sentiment": "Positive",
+      "score": 0.85
+    },
+    {
+      "review_snippet": "IIITDM Jabalpur has better infrastructure and better placement assistance training programs than IIITDM Kancheepuram",
+      "sentiment": "Negative (comparative)",
+      "score": -0.3
+    },
+    {
+      "review_snippet": "Campus and infrastructure and placement really good according to reviews and NIRF/Careers360 ratings",
+      "sentiment": "Positive",
+      "score": 0.75
+    }
+  ],
+  "conclusion": "Sentiment toward IIITDM Kancheepuram is positive overall, strongly driven by its large, well-equipped campus and strong academic/faculty reputation, especially in design and mechanical engineering. Placements are the clear relative weak point, with average packages trailing some peer IIITs and mixed opinions on placement support, even though the institute holds a historically high headline package figure.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study. Value for Money and Campus Life category scores were not consistently available in the sampled data."
+}

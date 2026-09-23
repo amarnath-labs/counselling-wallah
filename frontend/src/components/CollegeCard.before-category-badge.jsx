@@ -169,14 +169,14 @@ export default function CollegeCard({
       direction ===
       'MORE_ACCESSIBLE'
     ) {
-      return '↑ More Accessible';
+      return 'More Accessible';
     }
 
     if (
       direction ===
       'MORE_COMPETITIVE'
     ) {
-      return '↓ More Competitive';
+      return 'More Competitive';
     }
 
     if (

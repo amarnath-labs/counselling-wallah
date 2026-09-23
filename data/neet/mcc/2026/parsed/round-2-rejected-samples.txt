@@ -1,0 +1,1976 @@
+========================================
+ROUND 2 REJECTED SAMPLE INSPECTION
+========================================
+Total rejected: 197
+Round-1 side failures: 56
+Round-2 side failures: 141
+
+
+========================================
+RANK: 8667
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: All India
+  01: BRD Medical College,
+  02: Gorakhpur
+  03: MBBS
+  04: Seat
+  05: Cancelled
+  06: -
+  07: -
+  08: -
+  09: -
+  10: -
+  11: -
+  12: Did not fill up
+  13: fresh choices.
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 8689
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: All India
+  01: Government Medical
+  02: College, Nagaur
+  03: MBBS
+  04: -
+  05: -
+  06: -
+  07: -
+  08: -
+  09: -
+  10: -
+  11: Did not fill up
+  12: fresh choices.
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 9261
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: All India
+  01: Bangalore Medical College
+  02: and Research Institute,
+  03: Bangalore
+  04: MBBS
+  05: -
+  06: -
+  07: -
+  08: -
+  09: -
+  10: -
+  11: -
+  12: Did not fill up
+  13: fresh choices.
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 9730
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: All India
+  01: Anugrah Narayan Magadh
+  02: Medical College, Gaya
+  03: MBBS
+  04: -
+  05: -
+  06: -
+  07: -
+  08: -
+  09: -
+  10: -
+  11: Allotted
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 10376
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: All India
+  01: Shaheed Nirmal Mahto
+  02: Medical College &
+  03: Hospital, Dhanbad
+  04: (formely known as
+  05: Patliputra Medical College,
+  06: Dhanbad)
+  07: MBBS
+  08: -
+  09: All India
+  10: RG Kar Medical College,
+  11: Kolkata , R G Kar Medical
+  12: College
+  13: 1 Khudiram bose sarani,
+  14: Kolkata
+  15: MBBS
+  16: OBC
+  17: OBC
+  18: 25
+  19: Fresh Allotted
+  20: in 2nd Round
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 11196
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: All India
+  01: NAMO Medical Education
+  02: & Research Institute, Govt
+  03: Medical College Silvassa
+  04: MBBS
+  05: Seat
+  06: Cancelled
+  07: All India
+  08: Government Medical College,
+  09: Bhavnagar , Government
+  10: Medical College, Near Life
+  11: Science Department, Gradi
+  12: Gate, Maharaja
+  13: Krishnakumarsinghji B
+  14: MBBS
+  15: EWS
+  16: EWS
+  17: 32
+  18: Fresh Allotted
+  19: in 2nd Round
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 11297
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: All India
+  01: Government Medical
+  02: College, Krishnagiri
+  03: MBBS
+  04: -
+  05: -
+  06: -
+  07: -
+  08: -
+  09: -
+  10: -
+  11: Allotted
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 11426
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: All India
+  01: Dr. LAXMINARAYAN
+  02: PANDEY GOVT.
+  03: MEDICAL COLLEGE,
+  04: RATLAM
+  05: MBBS
+  06: -
+  07: All India
+  08: Government Medical College,
+  09: Bharatpur, Rajasthan ,
+  10: Rampura, NH-21,Sever
+  11: Road,Bharatpur,Rajasthan
+  12: MBBS
+  13: OBC
+  14: OBC
+  15: 19
+  16: Fresh Allotted
+  17: in 2nd Round
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 11701
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: All India
+  01: Anugrah Narayan Magadh
+  02: Medical College, Gaya
+  03: MBBS
+  04: -
+  05: -
+  06: -
+  07: -
+  08: -
+  09: -
+  10: -
+  11: Did not fill up
+  12: fresh choices.
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 12595
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: All India
+  01: Dr. LAXMINARAYAN
+  02: PANDEY GOVT.
+  03: MEDICAL COLLEGE,
+  04: RATLAM
+  05: MBBS
+  06: -
+  07: All India
+  08: Government Medical College,
+  09: Bhilwara, Rajasthan , Sindari
+  10: Ke Balaji Road, Sanganer,
+  11: Bhilwara
+  12: MBBS
+  13: EWS
+  14: EWS
+  15: 33
+  16: Fresh Allotted
+  17: in 2nd Round
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 16233
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: All India
+  01: Government Medical
+  02: college and District
+  03: Hospital, Ratnagiri
+  04: MBBS
+  05: -
+  06: All India
+  07: Government Medical College,
+  08: Jalgaon , GOVERNMENT
+  09: MEDICAL COLLEGE, JILHA
+  10: PETH, NEAR MAIN POST
+  11: OFFICE, JALGAON
+  12: MBBS
+  13: Open
+  14: OBC
+  15: 9
+  16: Fresh Allotted
+  17: in 2nd Round
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 16842
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: All India
+  01: Government Medical
+  02: College, Mahabubnagar
+  03: MBBS
+  04: Seat
+  05: Cancelled
+  06: All India
+  07: Government Medical College,
+  08: Thiruvallur , BLOCK 1 MASTER
+  09: PLAN COMPLEX,
+  10: THIRUVALLUR
+  11: COLLECTORATE,
+  12: PERUMBAKKAM VILLAGE,
+  13: THIRUVALLUR, TAMIL NADU
+  14: MBBS
+  15: Open
+  16: OBC
+  17: 29
+  18: Fresh Allotted
+  19: in 2nd Round
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 17509
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: All India
+  01: Punyashloka Lokmata
+  02: Devi Ahilyabai Holkar
+  03: Autonomous State Medical
+  04: College Auraiya
+  05: MBBS
+  06: -
+  07: -
+  08: -
+  09: -
+  10: -
+  11: -
+  12: -
+  13: Allotted
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 18759
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: Open Seat
+  01: Quota
+  02: AIIMS, Gorakhpur
+  03: MBBS
+  04: -
+  05: Open Seat
+  06: Quota
+  07: AIIMS, Gorakhpur , AIIMS
+  08: Gorakhpur, Medical College
+  09: Building, Kunraghat, Gorakhpur
+  10: MBBS
+  11: SC
+  12: SC
+  13: 7
+  14: Fresh Allotted
+  15: in 2nd Round
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 21038
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: All India
+  01: Government Medical
+  02: College, Rajanna Sircilla
+  03: MBBS
+  04: -
+  05: All India
+  06: GMERS Medical College,
+  07: Rajpipla , GMERS Medical
+  08: College, Rajpipla
+  09: Near Jakat Naka, Vadia Palace,
+  10: Rajpipla
+  11: Dist Narmada, GUJARAT.
+  12: MBBS
+  13: Open
+  14: OBC
+  15: 184
+  16: Fresh Allotted
+  17: in 2nd Round
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 13213
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": null,
+  "institute": null,
+  "course": null,
+  "status": null
+}
+
+FULL BLOCK:
+  00: -
+  01: -
+  02: -
+  03: -
+  04: All India
+  05: Jawaharlal Nehru Medical
+  06: College, Bhagalpur , SUKHRAJ
+  07: RAI PATH, BHAGALPUR
+  08: MBBS
+  09: Open
+  10: OBC
+  11: 35
+  12: Fresh Allotted
+  13: in 2nd Round
+  14: 13216
+  15: Delhi NCR
+  16: Children/Wi
+  17: dows of
+  18: Personnel
+  19: of the
+  20: Armed
+  21: Forces
+  22: (CW) DU
+  23: Quota
+  24: University College of
+  25: Medical Sciences & GTB
+  26: Hospital, New Delhi
+  27: MBBS
+  28: Reported
+  29: -
+  30: -
+  31: -
+  32: -
+  33: -
+  34: -
+  35: Did not opt
+  36: for
+  37: Upgradation.
+
+CURRENT TOKENS:
+  00: All India
+  01: Jawaharlal Nehru Medical
+  02: College, Bhagalpur , SUKHRAJ
+  03: RAI PATH, BHAGALPUR
+  04: MBBS
+  05: Open
+  06: OBC
+  07: 35
+  08: Fresh Allotted
+  09: in 2nd Round
+  10: 13216
+  11: Delhi NCR
+  12: Children/Wi
+  13: dows of
+  14: Personnel
+  15: of the
+  16: Armed
+  17: Forces
+  18: (CW) DU
+  19: Quota
+  20: University College of
+  21: Medical Sciences & GTB
+  22: Hospital, New Delhi
+  23: MBBS
+  24: Reported
+  25: -
+  26: -
+  27: -
+  28: -
+  29: -
+  30: -
+  31: Did not opt
+  32: for
+  33: Upgradation.
+
+
+========================================
+RANK: 13511
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "All India",
+  "institute": "GDC,PT.BDS UNIV.OF HEALTH SCI,ROHTAK",
+  "course": "BDS",
+  "status": "Reported"
+}
+
+FULL BLOCK:
+  00: All India
+  01: GDC,PT.BDS UNIV.OF
+  02: HEALTH SCI,ROHTAK
+  03: BDS
+  04: Reported
+  05: All India
+  06: Soban Singh jeena Government
+  07: institute of Medical science &
+  08: Research, Almora , Near Vikas
+  09: Bhawan Pandeykhola Almora
+  10: MBBS
+  11: Open
+  12: General
+  13: 28
+  14: Upgraded
+  15: 13512
+  16: Delhi NCR
+  17: Children/Wi
+  18: dows of
+  19: Personnel
+  20: of the
+  21: Armed
+  22: Forces
+  23: (CW) IP
+  24: Quota
+  25: ESIC Medical College &
+  26: Hospital, Basaidarapur,
+  27: New Delhi
+  28: MBBS
+  29: Reported
+  30: Delhi NCR
+  31: Children/Wid
+  32: ows of
+  33: Personnel of
+  34: the Armed
+  35: Forces (CW)
+  36: IP Quota
+  37: ESIC Medical College &
+  38: Hospital, Basaidarapur, New
+  39: Delhi , ESIC MEDICAL
+  40: COLLEGE AND HOSPITAL
+  41: BASAIDARAPUR, New Delhi
+  42: MBBS
+  43: OBC
+  44: OBC
+  45: 13
+  46: Retained
+
+CURRENT TOKENS:
+  00: All India
+  01: Soban Singh jeena Government
+  02: institute of Medical science &
+  03: Research, Almora , Near Vikas
+  04: Bhawan Pandeykhola Almora
+  05: MBBS
+  06: Open
+  07: General
+  08: 28
+  09: Upgraded
+  10: 13512
+  11: Delhi NCR
+  12: Children/Wi
+  13: dows of
+  14: Personnel
+  15: of the
+  16: Armed
+  17: Forces
+  18: (CW) IP
+  19: Quota
+  20: ESIC Medical College &
+  21: Hospital, Basaidarapur,
+  22: New Delhi
+  23: MBBS
+  24: Reported
+  25: Delhi NCR
+  26: Children/Wid
+  27: ows of
+  28: Personnel of
+  29: the Armed
+  30: Forces (CW)
+  31: IP Quota
+  32: ESIC Medical College &
+  33: Hospital, Basaidarapur, New
+  34: Delhi , ESIC MEDICAL
+  35: COLLEGE AND HOSPITAL
+  36: BASAIDARAPUR, New Delhi
+  37: MBBS
+  38: OBC
+  39: OBC
+  40: 13
+  41: Retained
+
+
+========================================
+RANK: 15056
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": null,
+  "institute": null,
+  "course": null,
+  "status": null
+}
+
+FULL BLOCK:
+  00: -
+  01: -
+  02: -
+  03: -
+  04: All India
+  05: Soban Singh jeena Government
+  06: institute of Medical science &
+  07: Research, Almora , Near Vikas
+  08: Bhawan Pandeykhola Almora
+  09: MBBS
+  10: OBC
+  11: OBC
+  12: 19
+  13: Fresh Allotted
+  14: in 2nd Round
+  15: 15057
+  16: Delhi NCR
+  17: Children/Wi
+  18: dows of
+  19: Personnel
+  20: of the
+  21: Armed
+  22: Forces
+  23: (CW) DU
+  24: Quota
+  25: Maulana Azad Medical
+  26: College, New Delhi
+  27: MBBS
+  28: Reported
+  29: -
+  30: -
+  31: -
+  32: -
+  33: -
+  34: -
+  35: Did not opt
+  36: for
+  37: Upgradation.
+
+CURRENT TOKENS:
+  00: All India
+  01: Soban Singh jeena Government
+  02: institute of Medical science &
+  03: Research, Almora , Near Vikas
+  04: Bhawan Pandeykhola Almora
+  05: MBBS
+  06: OBC
+  07: OBC
+  08: 19
+  09: Fresh Allotted
+  10: in 2nd Round
+  11: 15057
+  12: Delhi NCR
+  13: Children/Wi
+  14: dows of
+  15: Personnel
+  16: of the
+  17: Armed
+  18: Forces
+  19: (CW) DU
+  20: Quota
+  21: Maulana Azad Medical
+  22: College, New Delhi
+  23: MBBS
+  24: Reported
+  25: -
+  26: -
+  27: -
+  28: -
+  29: -
+  30: -
+  31: Did not opt
+  32: for
+  33: Upgradation.
+
+
+========================================
+RANK: 27940
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "Self- Financed Merit Seat",
+  "institute": "Kasturba Medical College, Manipal",
+  "course": "MBBS",
+  "status": "Reported"
+}
+
+FULL BLOCK:
+  00: Self-
+  01: Financed
+  02: Merit Seat
+  03: Kasturba Medical College,
+  04: Manipal
+  05: MBBS
+  06: Reported
+  07: Self-Financed
+  08: Merit Seat
+  09: Kasturba Medical College,
+  10: Manipal , Madhav Nagar,
+  11: Manipal, Karnataka State India
+  12: MBBS
+  13: Open
+  14: General
+  15: 102
+  16: Retained
+  17: 27947
+  18: Delhi NCR
+  19: Children/Wi
+  20: dows of
+  21: Personnel
+  22: of the
+  23: Armed
+  24: Forces
+  25: (CW) DU
+  26: Quota
+  27: Maulana Azad Medical
+  28: College, New Delhi
+  29: MBBS
+  30: Reported
+  31: -
+  32: -
+  33: -
+  34: -
+  35: -
+  36: -
+  37: Did not opt
+  38: for
+  39: Upgradation.
+
+CURRENT TOKENS:
+  00: Self-Financed
+  01: Merit Seat
+  02: Kasturba Medical College,
+  03: Manipal , Madhav Nagar,
+  04: Manipal, Karnataka State India
+  05: MBBS
+  06: Open
+  07: General
+  08: 102
+  09: Retained
+  10: 27947
+  11: Delhi NCR
+  12: Children/Wi
+  13: dows of
+  14: Personnel
+  15: of the
+  16: Armed
+  17: Forces
+  18: (CW) DU
+  19: Quota
+  20: Maulana Azad Medical
+  21: College, New Delhi
+  22: MBBS
+  23: Reported
+  24: -
+  25: -
+  26: -
+  27: -
+  28: -
+  29: -
+  30: Did not opt
+  31: for
+  32: Upgradation.
+
+
+========================================
+RANK: 42984
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": null,
+  "institute": null,
+  "course": null,
+  "status": null
+}
+
+FULL BLOCK:
+  00: -
+  01: -
+  02: -
+  03: -
+  04: Open Seat
+  05: Quota
+  06: AIIMS, Nagpur , PLOT NO 2
+  07: SECTOR 20 MIHAN NAGPUR
+  08: MBBS
+  09: Open PwD
+  10: GNYes
+  11: 3
+  12: Fresh Allotted
+  13: in 2nd Round
+
+CURRENT TOKENS:
+  00: Open Seat
+  01: Quota
+  02: AIIMS, Nagpur , PLOT NO 2
+  03: SECTOR 20 MIHAN NAGPUR
+  04: MBBS
+  05: Open PwD
+  06: GNYes
+  07: 3
+  08: Fresh Allotted
+  09: in 2nd Round
+
+
+========================================
+RANK: 49241
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "Open Seat Quota",
+  "institute": "AIIMS, Jodhpur",
+  "course": "MBBS",
+  "status": "Reported"
+}
+
+FULL BLOCK:
+  00: Open Seat
+  01: Quota
+  02: AIIMS, Jodhpur
+  03: MBBS
+  04: Reported
+  05: Open Seat
+  06: Quota
+  07: AIIMS, Jodhpur , BASNI
+  08: PHASE - II, JODHPUR-342005
+  09: MBBS
+  10: Open PwD
+  11: GNYes
+  12: 0
+  13: Retained
+
+CURRENT TOKENS:
+  00: Open Seat
+  01: Quota
+  02: AIIMS, Jodhpur , BASNI
+  03: PHASE - II, JODHPUR-342005
+  04: MBBS
+  05: Open PwD
+  06: GNYes
+  07: 0
+  08: Retained
+
+
+========================================
+RANK: 51971
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "All India",
+  "institute": "Dr. Radhakrishnan Government Medical College, Hamirpur, H.P",
+  "course": "MBBS",
+  "status": "Seat Surrendered"
+}
+
+FULL BLOCK:
+  00: All India
+  01: Dr. Radhakrishnan
+  02: Government Medical
+  03: College, Hamirpur, H.P
+  04: MBBS
+  05: Seat
+  06: Surrendered
+  07: All India
+  08: Employees State Insurance
+  09: Corporation Medical
+  10: College,Alwar , ESIC Medical
+  11: College and Hospital Desula
+  12: MIA Alwar Rajasthan India
+  13: 301030
+  14: MBBS
+  15: SC
+  16: SC
+  17: 1
+  18: Fresh Allotted
+  19: in 2nd Round
+  20: 51989
+  21: Delhi NCR
+  22: Children/Wi
+  23: dows of
+  24: Personnel
+  25: of the
+  26: Armed
+  27: Forces
+  28: (CW) DU
+  29: Quota
+  30: Maulana Azad Institute of
+  31: Dental Sciences, New
+  32: Delhi
+  33: BDS
+  34: Reported
+  35: Delhi NCR
+  36: Children/Wid
+  37: ows of
+  38: Personnel of
+  39: the Armed
+  40: Forces (CW)
+  41: DU Quota
+  42: Maulana Azad Institute of
+  43: Dental Sciences, New Delhi ,
+  44: MAMC Complex, B.S. Zafar
+  45: Marg, New Delhi
+  46: BDS
+  47: OBC
+  48: OBC
+  49: 0
+  50: Retained
+
+CURRENT TOKENS:
+  00: All India
+  01: Employees State Insurance
+  02: Corporation Medical
+  03: College,Alwar , ESIC Medical
+  04: College and Hospital Desula
+  05: MIA Alwar Rajasthan India
+  06: 301030
+  07: MBBS
+  08: SC
+  09: SC
+  10: 1
+  11: Fresh Allotted
+  12: in 2nd Round
+  13: 51989
+  14: Delhi NCR
+  15: Children/Wi
+  16: dows of
+  17: Personnel
+  18: of the
+  19: Armed
+  20: Forces
+  21: (CW) DU
+  22: Quota
+  23: Maulana Azad Institute of
+  24: Dental Sciences, New
+  25: Delhi
+  26: BDS
+  27: Reported
+  28: Delhi NCR
+  29: Children/Wid
+  30: ows of
+  31: Personnel of
+  32: the Armed
+  33: Forces (CW)
+  34: DU Quota
+  35: Maulana Azad Institute of
+  36: Dental Sciences, New Delhi ,
+  37: MAMC Complex, B.S. Zafar
+  38: Marg, New Delhi
+  39: BDS
+  40: OBC
+  41: OBC
+  42: 0
+  43: Retained
+
+
+========================================
+RANK: 66813
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "Aligarh Muslim University (AMU) Quota",
+  "institute": "Dr. Ziauddin Ahmed Dental College and Hospital,ALIGARH",
+  "course": "BDS",
+  "status": "Not Reported"
+}
+
+FULL BLOCK:
+  00: Aligarh
+  01: Muslim
+  02: University
+  03: (AMU)
+  04: Quota
+  05: Dr. Ziauddin Ahmed Dental
+  06: College and
+  07: Hospital,ALIGARH
+  08: BDS
+  09: Not
+  10: Reported
+  11: Open Seat
+  12: Quota
+  13: Jawaharlal Nehru Medical
+  14: College, Aligarh , ALIGARH
+  15: MUSLIM UNIVERSITY,
+  16: ALIGARH
+  17: MBBS
+  18: Open PwD
+  19: GNYes
+  20: 1
+  21: Fresh Allotted
+  22: in 2nd Round
+
+CURRENT TOKENS:
+  00: Open Seat
+  01: Quota
+  02: Jawaharlal Nehru Medical
+  03: College, Aligarh , ALIGARH
+  04: MUSLIM UNIVERSITY,
+  05: ALIGARH
+  06: MBBS
+  07: Open PwD
+  08: GNYes
+  09: 1
+  10: Fresh Allotted
+  11: in 2nd Round
+
+
+========================================
+RANK: 68466
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "Non-Resident Indian(AMU)Quota",
+  "institute": "Jawaharlal Nehru Medical College, Aligarh",
+  "course": "MBBS",
+  "status": "Reported"
+}
+
+FULL BLOCK:
+  00: Non-
+  01: Resident
+  02: Indian(AMU
+  03: )Quota
+  04: Jawaharlal Nehru Medical
+  05: College, Aligarh
+  06: MBBS
+  07: Reported
+  08: Non-Resident
+  09: Indian(AMU)
+  10: Quota
+  11: Jawaharlal Nehru Medical
+  12: College, Aligarh , ALIGARH
+  13: MUSLIM UNIVERSITY,
+  14: ALIGARH
+  15: MBBS
+  16: Open
+  17: General
+  18: 0
+  19: Retained
+
+CURRENT TOKENS:
+  00: Non-Resident
+  01: Indian(AMU)
+  02: Quota
+  03: Jawaharlal Nehru Medical
+  04: College, Aligarh , ALIGARH
+  05: MUSLIM UNIVERSITY,
+  06: ALIGARH
+  07: MBBS
+  08: Open
+  09: General
+  10: 0
+  11: Retained
+
+
+========================================
+RANK: 106988
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": null,
+  "institute": null,
+  "course": null,
+  "status": null
+}
+
+FULL BLOCK:
+  00: -
+  01: -
+  02: -
+  03: -
+  04: All India
+  05: Government Medical College,
+  06: Nalgonda , OFFICE OF THE
+  07: PRINCIPAL, GOVERNMENT
+  08: MEDICAL
+  09: COLLGEGE,GANDHAMVARI
+  10: GUDEM,SLBC,SAGAR
+  11: ROAD,NALGONDA,TELA
+  12: MBBS
+  13: SC
+  14: SC
+  15: 97
+  16: Fresh Allotted
+  17: in 2nd Round
+  18: 107039
+  19: Delhi NCR
+  20: Children/Wi
+  21: dows of
+  22: Personnel
+  23: of the
+  24: Armed
+  25: Forces
+  26: (CW) DU
+  27: Quota
+  28: Lady Hardinge Medical
+  29: College, New Delhi
+  30: MBBS
+  31: Reported
+  32: -
+  33: -
+  34: -
+  35: -
+  36: -
+  37: -
+  38: Did not opt
+  39: for
+  40: Upgradation.
+
+CURRENT TOKENS:
+  00: All India
+  01: Government Medical College,
+  02: Nalgonda , OFFICE OF THE
+  03: PRINCIPAL, GOVERNMENT
+  04: MEDICAL
+  05: COLLGEGE,GANDHAMVARI
+  06: GUDEM,SLBC,SAGAR
+  07: ROAD,NALGONDA,TELA
+  08: MBBS
+  09: SC
+  10: SC
+  11: 97
+  12: Fresh Allotted
+  13: in 2nd Round
+  14: 107039
+  15: Delhi NCR
+  16: Children/Wi
+  17: dows of
+  18: Personnel
+  19: of the
+  20: Armed
+  21: Forces
+  22: (CW) DU
+  23: Quota
+  24: Lady Hardinge Medical
+  25: College, New Delhi
+  26: MBBS
+  27: Reported
+  28: -
+  29: -
+  30: -
+  31: -
+  32: -
+  33: -
+  34: Did not opt
+  35: for
+  36: Upgradation.
+
+
+========================================
+RANK: 110281
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "Non-Resident Indian(AMU)Quota",
+  "institute": "Jawaharlal Nehru Medical College, Aligarh",
+  "course": "MBBS",
+  "status": "Not Reported"
+}
+
+FULL BLOCK:
+  00: Non-
+  01: Resident
+  02: Indian(AMU
+  03: )Quota
+  04: Jawaharlal Nehru Medical
+  05: College, Aligarh
+  06: MBBS
+  07: Not
+  08: Reported
+  09: Non-Resident
+  10: Indian(AMU)
+  11: Quota
+  12: Jawaharlal Nehru Medical
+  13: College, Aligarh , ALIGARH
+  14: MUSLIM UNIVERSITY,
+  15: ALIGARH
+  16: MBBS
+  17: Open
+  18: General
+  19: 7
+  20: Fresh Allotted
+  21: in 2nd
+  22: Round( NRI
+  23: Priority : 1 )
+
+CURRENT TOKENS:
+  00: Non-Resident
+  01: Indian(AMU)
+  02: Quota
+  03: Jawaharlal Nehru Medical
+  04: College, Aligarh , ALIGARH
+  05: MUSLIM UNIVERSITY,
+  06: ALIGARH
+  07: MBBS
+  08: Open
+  09: General
+  10: 7
+  11: Fresh Allotted
+  12: in 2nd
+  13: Round( NRI
+  14: Priority : 1 )
+
+
+========================================
+RANK: 118549
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "All India",
+  "institute": "Pt. B D Sharma Postgraduate Institute of Medical Sciences, Rohtak (Haryana)",
+  "course": "MBBS",
+  "status": "Reported"
+}
+
+FULL BLOCK:
+  00: All India
+  01: Pt. B D Sharma
+  02: Postgraduate Institute of
+  03: Medical Sciences, Rohtak
+  04: (Haryana)
+  05: MBBS
+  06: Reported
+  07: Open Seat
+  08: Quota
+  09: AIIMS Bathinda , Jodhpur
+  10: Romana near Giani Zail Singh
+  11: College Mandi Dabwali Road
+  12: Bathinda
+  13: MBBS
+  14: Open PwD
+  15: GNYes
+  16: 4
+  17: Upgraded
+
+CURRENT TOKENS:
+  00: Open Seat
+  01: Quota
+  02: AIIMS Bathinda , Jodhpur
+  03: Romana near Giani Zail Singh
+  04: College Mandi Dabwali Road
+  05: Bathinda
+  06: MBBS
+  07: Open PwD
+  08: GNYes
+  09: 4
+  10: Upgraded
+
+
+========================================
+RANK: 124961
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": null,
+  "institute": null,
+  "course": null,
+  "status": null
+}
+
+FULL BLOCK:
+  00: -
+  01: -
+  02: -
+  03: -
+  04: All India
+  05: Government Medical College,
+  06: Machilipatnam , KARA
+  07: AGRAHARAM, NEAR RADAR
+  08: STATION, MACHILIPATNAM,
+  09: KRISHNA DISTRICT, ANDHRA
+  10: PRADESH -521002
+  11: MBBS
+  12: ST
+  13: ST
+  14: 134
+  15: Fresh Allotted
+  16: in 2nd Round
+  17: 124962
+  18: Delhi NCR
+  19: Children/Wi
+  20: dows of
+  21: Personnel
+  22: of the
+  23: Armed
+  24: Forces
+  25: (CW) DU
+  26: Quota
+  27: University College of
+  28: Medical Sciences & GTB
+  29: Hospital, New Delhi
+  30: MBBS
+  31: Reported
+  32: -
+  33: -
+  34: -
+  35: -
+  36: -
+  37: -
+  38: Did not opt
+  39: for
+  40: Upgradation.
+
+CURRENT TOKENS:
+  00: All India
+  01: Government Medical College,
+  02: Machilipatnam , KARA
+  03: AGRAHARAM, NEAR RADAR
+  04: STATION, MACHILIPATNAM,
+  05: KRISHNA DISTRICT, ANDHRA
+  06: PRADESH -521002
+  07: MBBS
+  08: ST
+  09: ST
+  10: 134
+  11: Fresh Allotted
+  12: in 2nd Round
+  13: 124962
+  14: Delhi NCR
+  15: Children/Wi
+  16: dows of
+  17: Personnel
+  18: of the
+  19: Armed
+  20: Forces
+  21: (CW) DU
+  22: Quota
+  23: University College of
+  24: Medical Sciences & GTB
+  25: Hospital, New Delhi
+  26: MBBS
+  27: Reported
+  28: -
+  29: -
+  30: -
+  31: -
+  32: -
+  33: -
+  34: Did not opt
+  35: for
+  36: Upgradation.
+
+
+========================================
+RANK: 130546
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "Self- Financed Merit Seat",
+  "institute": "JSS Medical College, Mysore",
+  "course": "MBBS",
+  "status": "Reported"
+}
+
+FULL BLOCK:
+  00: Self-
+  01: Financed
+  02: Merit Seat
+  03: JSS Medical College,
+  04: Mysore
+  05: MBBS
+  06: Reported
+  07: Self-Financed
+  08: Merit Seat
+  09: JSS Medical College, Mysore ,
+  10: The Principal JSS Medical
+  11: College and Hospital Medical
+  12: Institutions Campus S S Nagar
+  13: Mysuru
+  14: MBBS
+  15: Open
+  16: General
+  17: 4
+  18: Retained
+  19: 130549
+  20: Delhi NCR
+  21: Children/Wi
+  22: dows of
+  23: Personnel
+  24: of the
+  25: Armed
+  26: Forces
+  27: (CW) IP
+  28: Quota
+  29: Atal Bihari Vajpayee
+  30: Institute of Medical
+  31: Sciences and Dr. RML
+  32: Hospital, New Delhi
+  33: MBBS
+  34: Reported
+  35: -
+  36: -
+  37: -
+  38: -
+  39: -
+  40: -
+  41: Did not opt
+  42: for
+  43: Upgradation.
+
+CURRENT TOKENS:
+  00: Self-Financed
+  01: Merit Seat
+  02: JSS Medical College, Mysore ,
+  03: The Principal JSS Medical
+  04: College and Hospital Medical
+  05: Institutions Campus S S Nagar
+  06: Mysuru
+  07: MBBS
+  08: Open
+  09: General
+  10: 4
+  11: Retained
+  12: 130549
+  13: Delhi NCR
+  14: Children/Wi
+  15: dows of
+  16: Personnel
+  17: of the
+  18: Armed
+  19: Forces
+  20: (CW) IP
+  21: Quota
+  22: Atal Bihari Vajpayee
+  23: Institute of Medical
+  24: Sciences and Dr. RML
+  25: Hospital, New Delhi
+  26: MBBS
+  27: Reported
+  28: -
+  29: -
+  30: -
+  31: -
+  32: -
+  33: -
+  34: Did not opt
+  35: for
+  36: Upgradation.
+
+
+========================================
+RANK: 130979
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "All India",
+  "institute": "Lady Hardinge Medical College, New Delhi",
+  "course": "MBBS",
+  "status": "Reported"
+}
+
+FULL BLOCK:
+  00: All India
+  01: Lady Hardinge Medical
+  02: College, New Delhi
+  03: MBBS
+  04: Reported
+  05: All India
+  06: Lady Hardinge Medical College,
+  07: New Delhi , Lady Hardinge
+  08: Medical College, Shaheed
+  09: Bhagat Singh Marg, New Delhi
+  10: (Female Seat only )
+  11: MBBS
+  12: Open PwD
+  13: GNYes
+  14: 0
+  15: Retained
+
+CURRENT TOKENS:
+  00: All India
+  01: Lady Hardinge Medical College,
+  02: New Delhi , Lady Hardinge
+  03: Medical College, Shaheed
+  04: Bhagat Singh Marg, New Delhi
+  05: (Female Seat only )
+  06: MBBS
+  07: Open PwD
+  08: GNYes
+  09: 0
+  10: Retained
+
+
+========================================
+RANK: 131953
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "Open Seat Quota",
+  "institute": "Jawaharlal Nehru Medical College, Aligarh",
+  "course": "MBBS",
+  "status": "Reported"
+}
+
+FULL BLOCK:
+  00: Open Seat
+  01: Quota
+  02: Jawaharlal Nehru Medical
+  03: College, Aligarh
+  04: MBBS
+  05: Reported
+  06: Open Seat
+  07: Quota
+  08: Jawaharlal Nehru Medical
+  09: College, Aligarh , ALIGARH
+  10: MUSLIM UNIVERSITY,
+  11: ALIGARH
+  12: MBBS
+  13: Open PwD
+  14: GNYes
+  15: 0
+  16: Retained
+
+CURRENT TOKENS:
+  00: Open Seat
+  01: Quota
+  02: Jawaharlal Nehru Medical
+  03: College, Aligarh , ALIGARH
+  04: MUSLIM UNIVERSITY,
+  05: ALIGARH
+  06: MBBS
+  07: Open PwD
+  08: GNYes
+  09: 0
+  10: Retained
+
+
+========================================
+RANK: 135454
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": null,
+  "institute": null,
+  "course": null,
+  "status": null
+}
+
+FULL BLOCK:
+  00: -
+  01: -
+  02: -
+  03: -
+  04: All India
+  05: Shri Krishna Medical College,
+  06: Muzzafarpur , UMANAGAR
+  07: MUZAFFARPUR
+  08: MBBS
+  09: Open PwD
+  10: GNYes
+  11: 1
+  12: Fresh Allotted
+  13: in 2nd Round
+
+CURRENT TOKENS:
+  00: All India
+  01: Shri Krishna Medical College,
+  02: Muzzafarpur , UMANAGAR
+  03: MUZAFFARPUR
+  04: MBBS
+  05: Open PwD
+  06: GNYes
+  07: 1
+  08: Fresh Allotted
+  09: in 2nd Round
+
+
+========================================
+RANK: 147152
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": null,
+  "institute": null,
+  "course": null,
+  "status": null
+}
+
+FULL BLOCK:
+  00: -
+  01: -
+  02: -
+  03: -
+  04: All India
+  05: H.B.T. Medical College & Dr.
+  06: R.N. Cooper Municipal General
+  07: Hospital, Juhu, Mumbai , JUHU,
+  08: VILEPARLE WEST MUMBAI
+  09: MBBS
+  10: Open PwD
+  11: GNYes
+  12: 4
+  13: Fresh Allotted
+  14: in 2nd Round
+
+CURRENT TOKENS:
+  00: All India
+  01: H.B.T. Medical College & Dr.
+  02: R.N. Cooper Municipal General
+  03: Hospital, Juhu, Mumbai , JUHU,
+  04: VILEPARLE WEST MUMBAI
+  05: MBBS
+  06: Open PwD
+  07: GNYes
+  08: 4
+  09: Fresh Allotted
+  10: in 2nd Round
+
+
+========================================
+RANK: 161837
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "Open Seat Quota",
+  "institute": "AIIMS Rajkot",
+  "course": "MBBS",
+  "status": "Reported"
+}
+
+FULL BLOCK:
+  00: Open Seat
+  01: Quota
+  02: AIIMS Rajkot
+  03: MBBS
+  04: Reported
+  05: Open Seat
+  06: Quota
+  07: AIIMS Rajkot , Admission cell,
+  08: Academic section, First floor,
+  09: Academic block, Permanent
+  10: Campus, AIIMS Rajkot, Khand
+  11: MBBS
+  12: Open PwD
+  13: GNYes
+  14: 0
+  15: Retained
+
+CURRENT TOKENS:
+  00: Open Seat
+  01: Quota
+  02: AIIMS Rajkot , Admission cell,
+  03: Academic section, First floor,
+  04: Academic block, Permanent
+  05: Campus, AIIMS Rajkot, Khand
+  06: MBBS
+  07: Open PwD
+  08: GNYes
+  09: 0
+  10: Retained
+
+
+========================================
+RANK: 167218
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "Open Seat Quota",
+  "institute": "AIIMS, Madurai",
+  "course": "MBBS",
+  "status": "Reported"
+}
+
+FULL BLOCK:
+  00: Open Seat
+  01: Quota
+  02: AIIMS, Madurai
+  03: MBBS
+  04: Reported
+  05: Open Seat
+  06: Quota
+  07: AIIMS, Madurai , AIIMS
+  08: MADURAI
+  09: MBBS
+  10: Open PwD
+  11: GNYes
+  12: 5
+  13: Retained
+
+CURRENT TOKENS:
+  00: Open Seat
+  01: Quota
+  02: AIIMS, Madurai , AIIMS
+  03: MADURAI
+  04: MBBS
+  05: Open PwD
+  06: GNYes
+  07: 5
+  08: Retained
+
+
+========================================
+RANK: 198801
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: Self-
+  01: Financed
+  02: Merit Seat
+  03: Shri B M Patil Medical
+  04: College, Hospital &
+  05: Research Centre,
+  06: Vijayapura (Bijapur
+  07: MBBS
+  08: Seat
+  09: Cancelled
+  10: -
+  11: -
+  12: -
+  13: -
+  14: -
+  15: -
+  16: Not Allotted.
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 263119
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "Self- Financed Merit Seat",
+  "institute": "Instt. Of Medical Sciences & SUM Hospital, Bhubaneswar",
+  "course": "MBBS",
+  "status": "Reported"
+}
+
+FULL BLOCK:
+  00: Self-
+  01: Financed
+  02: Merit Seat
+  03: Instt. Of Medical Sciences
+  04: & SUM Hospital,
+  05: Bhubaneswar
+  06: MBBS
+  07: Reported
+  08: Self-Financed
+  09: Merit Seat
+  10: Kalinga Institute of Medical
+  11: Sciences, Bhubaneswar ,
+  12: CAMPUS-5
+  13: KUSHABHADRA CAMPUS
+  14: P.O-KIIT
+  15: BHUBANESWAR
+  16: MBBS
+  17: Open
+  18: General
+  19: 1
+  20: Upgraded
+  21: 263136
+  22: Delhi NCR
+  23: Children/Wi
+  24: dows of
+  25: Personnel
+  26: of the
+  27: Armed
+  28: Forces
+  29: (CW) DU
+  30: Quota
+  31: Lady Hardinge Medical
+  32: College, New Delhi
+  33: MBBS
+  34: Reported
+  35: -
+  36: -
+  37: -
+  38: -
+  39: -
+  40: -
+  41: Did not opt
+  42: for
+  43: Upgradation.
+
+CURRENT TOKENS:
+  00: Self-Financed
+  01: Merit Seat
+  02: Kalinga Institute of Medical
+  03: Sciences, Bhubaneswar ,
+  04: CAMPUS-5
+  05: KUSHABHADRA CAMPUS
+  06: P.O-KIIT
+  07: BHUBANESWAR
+  08: MBBS
+  09: Open
+  10: General
+  11: 1
+  12: Upgraded
+  13: 263136
+  14: Delhi NCR
+  15: Children/Wi
+  16: dows of
+  17: Personnel
+  18: of the
+  19: Armed
+  20: Forces
+  21: (CW) DU
+  22: Quota
+  23: Lady Hardinge Medical
+  24: College, New Delhi
+  25: MBBS
+  26: Reported
+  27: -
+  28: -
+  29: -
+  30: -
+  31: -
+  32: -
+  33: Did not opt
+  34: for
+  35: Upgradation.
+
+
+========================================
+RANK: 365084
+REASON: Could not parse Round 1 side.
+
+FULL BLOCK:
+  00: Open Seat
+  01: Quota
+  02: AIIMS, Bibi Nagar,
+  03: Hyderabad
+  04: MBBS
+  05: Seat
+  06: Cancelled
+  07: -
+  08: -
+  09: -
+  10: -
+  11: -
+  12: -
+  13: Did not fill up
+  14: fresh choices.
+
+CURRENT TOKENS:
+  <none>
+
+
+========================================
+RANK: 706841
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "Open Seat Quota",
+  "institute": "IMS BHU Dental, Varanasi",
+  "course": "BDS",
+  "status": "Seat Surrendered"
+}
+
+FULL BLOCK:
+  00: Open Seat
+  01: Quota
+  02: IMS BHU Dental, Varanasi
+  03: BDS
+  04: Seat
+  05: Surrendered
+  06: Open Seat
+  07: Quota
+  08: Faculty of Dentistry, Jamia
+  09: Millia Islamia, New Delhi ,
+  10: Faculty of Dentistry Jamia Millia
+  11: Islamia A Central University
+  12: Maulana Mohammad Ali Jauhar
+  13: Marg
+  14: BDS
+  15: Open PwD
+  16: GNYes
+  17: 42
+  18: Fresh Allotted
+  19: in 2nd Round
+
+CURRENT TOKENS:
+  00: Open Seat
+  01: Quota
+  02: Faculty of Dentistry, Jamia
+  03: Millia Islamia, New Delhi ,
+  04: Faculty of Dentistry Jamia Millia
+  05: Islamia A Central University
+  06: Maulana Mohammad Ali Jauhar
+  07: Marg
+  08: BDS
+  09: Open PwD
+  10: GNYes
+  11: 42
+  12: Fresh Allotted
+  13: in 2nd Round
+
+
+========================================
+RANK: 806244
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "Non-Resident Indian(AMU)Quota",
+  "institute": "Dr. Ziauddin Ahmed Dental College and Hospital,ALIGARH",
+  "course": "BDS",
+  "status": "Not Reported"
+}
+
+FULL BLOCK:
+  00: Non-
+  01: Resident
+  02: Indian(AMU
+  03: )Quota
+  04: Dr. Ziauddin Ahmed Dental
+  05: College and
+  06: Hospital,ALIGARH
+  07: BDS
+  08: Not
+  09: Reported
+  10: Non-Resident
+  11: Indian(AMU)
+  12: Quota
+  13: Dr. Ziauddin Ahmed Dental
+  14: College and Hospital,ALIGARH
+  15: , ALIGARH MUSLIM
+  16: UNIVERSITY, ALIGARH
+  17: BDS
+  18: Open
+  19: General
+  20: 1
+  21: Fresh Allotted
+  22: in 2nd
+  23: Round( NRI
+  24: Priority : 1 )
+
+CURRENT TOKENS:
+  00: Non-Resident
+  01: Indian(AMU)
+  02: Quota
+  03: Dr. Ziauddin Ahmed Dental
+  04: College and Hospital,ALIGARH
+  05: , ALIGARH MUSLIM
+  06: UNIVERSITY, ALIGARH
+  07: BDS
+  08: Open
+  09: General
+  10: 1
+  11: Fresh Allotted
+  12: in 2nd
+  13: Round( NRI
+  14: Priority : 1 )
+
+
+========================================
+RANK: 819022
+REASON: Could not parse Round 2 side.
+PREVIOUS PARSED: {
+  "quota": "Non-Resident Indian",
+  "institute": "K S Hegde Medical Academy, Mangalore",
+  "course": "MBBS",
+  "status": "Not Reported"
+}
+
+FULL BLOCK:
+  00: Non-
+  01: Resident
+  02: Indian
+  03: K S Hegde Medical
+  04: Academy, Mangalore
+  05: MBBS
+  06: Not
+  07: Reported
+  08: Non-Resident
+  09: Indian(AMU)
+  10: Quota
+  11: Dr. Ziauddin Ahmed Dental
+  12: College and Hospital,ALIGARH
+  13: , ALIGARH MUSLIM
+  14: UNIVERSITY, ALIGARH
+  15: BDS
+  16: Open
+  17: General
+  18: 1
+  19: Fresh Allotted
+  20: in 2nd
+  21: Round( NRI
+  22: Priority : 1 )
+
+CURRENT TOKENS:
+  00: Non-Resident
+  01: Indian(AMU)
+  02: Quota
+  03: Dr. Ziauddin Ahmed Dental
+  04: College and Hospital,ALIGARH
+  05: , ALIGARH MUSLIM
+  06: UNIVERSITY, ALIGARH
+  07: BDS
+  08: Open
+  09: General
+  10: 1
+  11: Fresh Allotted
+  12: in 2nd
+  13: Round( NRI
+  14: Priority : 1 )

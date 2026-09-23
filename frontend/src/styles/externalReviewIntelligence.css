@@ -1,0 +1,715 @@
+.sei {
+  margin-top: 18px;
+  padding: 20px;
+  border: 1px solid #e4e8f0;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow:
+    0 8px 26px rgba(15, 23, 42, 0.05);
+}
+
+.sei-kicker {
+  margin-bottom: 10px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  color: #64748b;
+}
+
+.sei-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.sei-sentiment {
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #172033;
+}
+
+.sei-evidence-label {
+  display: inline-flex;
+  margin-top: 7px;
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  color: #9a5314;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.sei-evidence-count {
+  min-width: 120px;
+  padding: 11px 13px;
+  border-radius: 14px;
+  background: #f7f8fb;
+  text-align: right;
+}
+
+.sei-evidence-count strong {
+  display: block;
+  font-size: 20px;
+  color: #172033;
+}
+
+.sei-evidence-count span {
+  display: block;
+  margin-top: 2px;
+  font-size: 11px;
+  color: #697386;
+}
+
+.sei-limited-note {
+  margin-top: 15px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #fffaf0;
+  border: 1px solid #f3e7c9;
+  font-size: 13px;
+  line-height: 1.55;
+  color: #66512f;
+}
+
+.sei-rating-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 17px;
+}
+
+.sei-rating-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 10px 12px;
+  border-radius: 11px;
+  background: #f8fafc;
+}
+
+.sei-rating-row span {
+  color: #4b5565;
+  font-size: 13px;
+}
+
+.sei-rating-row strong {
+  color: #1f2937;
+  font-size: 13px;
+}
+
+.sei-compact-block {
+  margin-top: 18px;
+}
+
+.sei-compact-block h4 {
+  margin: 0 0 8px;
+  font-size: 13px;
+  color: #20293a;
+}
+
+.sei-compact-point {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 7px;
+  font-size: 13px;
+  color: #315c41;
+}
+
+.sei-compact-point--warning {
+  color: #805523;
+}
+
+.sei-progress {
+  margin-top: 20px;
+}
+
+.sei-progress__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7px;
+  font-size: 11px;
+  color: #667085;
+}
+
+.sei-progress__header strong {
+  color: #344054;
+}
+
+.sei-progress__track {
+  width: 100%;
+  height: 7px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e9edf3;
+}
+
+.sei-progress__fill {
+  height: 100%;
+  border-radius: inherit;
+  background: #596df4;
+}
+
+.sei-expand-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  padding: 12px 14px;
+  border: 1px solid #dce2ec;
+  border-radius: 12px;
+  background: #fff;
+  color: #4255d4;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.sei-expand-button:hover {
+  background: #f8faff;
+}
+
+.sei-expanded {
+  margin-top: 6px;
+}
+
+.sei-divider {
+  height: 1px;
+  margin: 22px 0;
+  background: #e7eaf0;
+}
+
+.sei-section {
+  margin-top: 24px;
+}
+
+.sei-section h3 {
+  margin: 0;
+  color: #172033;
+  font-size: 20px;
+}
+
+.sei-section h4 {
+  margin: 0 0 11px;
+  color: #20293a;
+  font-size: 15px;
+}
+
+.sei-institution {
+  margin: 6px 0 18px;
+  color: #667085;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.sei-summary-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 7px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #f8fafc;
+  font-size: 13px;
+}
+
+.sei-summary-line span {
+  color: #667085;
+}
+
+.sei-body-copy {
+  margin: 14px 0 0;
+  color: #4b5565;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.sei-sentiment-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.sei-sentiment-item {
+  padding: 14px 10px;
+  border-radius: 12px;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.sei-sentiment-item strong {
+  display: block;
+  color: #172033;
+  font-size: 18px;
+}
+
+.sei-sentiment-item span {
+  display: block;
+  margin-top: 3px;
+  color: #667085;
+  font-size: 11px;
+}
+
+.sei-theme-list {
+  display: grid;
+  gap: 10px;
+}
+
+.sei-theme {
+  padding: 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 13px;
+}
+
+.sei-theme--positive {
+  background: #f5fbf7;
+}
+
+.sei-theme--warning {
+  background: #fffaf3;
+}
+
+.sei-theme__title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #263142;
+  font-size: 13px;
+}
+
+.sei-theme__icon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  border-radius: 50%;
+}
+
+
+/* Positive icon */
+.sei-theme__icon--positive {
+  background: #e4f6ea;
+  border: 1px solid #8fc9a2;
+}
+
+.sei-theme__icon--positive::before {
+  content: "";
+  width: 6px;
+  height: 3px;
+  border-left: 2px solid #2f7d4a;
+  border-bottom: 2px solid #2f7d4a;
+  transform: rotate(-45deg) translateY(-1px);
+}
+
+
+/* Warning icon */
+.sei-theme__icon--warning {
+  border-radius: 4px;
+  background: #fff4dd;
+  border: 1px solid #ddb76d;
+}
+
+.sei-theme__icon--warning::before {
+  content: "";
+  width: 2px;
+  height: 7px;
+  border-radius: 2px;
+  background: #9a641b;
+  transform: translateY(-1px);
+}
+
+.sei-theme__icon--warning::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #9a641b;
+}
+
+.sei-theme p {
+  margin: 7px 0 0;
+  color: #596273;
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.sei-reality {
+  margin-top: 25px;
+  padding: 17px;
+  border-radius: 15px;
+  background: #f6f7ff;
+  border: 1px solid #e0e4ff;
+}
+
+.sei-reality h4 {
+  margin: 14px 0 6px;
+  color: #263142;
+  font-size: 14px;
+}
+
+.sei-reality p {
+  margin: 0;
+  color: #505a6c;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.sei-distinction {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 13px;
+  background: #f0f7ff;
+  border: 1px solid #d7e8fb;
+}
+
+.sei-distinction h4 {
+  margin: 0 0 7px;
+  color: #24415f;
+  font-size: 14px;
+}
+
+.sei-distinction p {
+  margin: 0;
+  color: #506174;
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.sei-evidence-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.sei-evidence-grid > div {
+  padding: 11px;
+  border-radius: 11px;
+  background: #f8fafc;
+}
+
+.sei-evidence-grid span,
+.sei-evidence-grid strong {
+  display: block;
+}
+
+.sei-evidence-grid span {
+  color: #768094;
+  font-size: 10px;
+}
+
+.sei-evidence-grid strong {
+  margin-top: 4px;
+  color: #273043;
+  font-size: 12px;
+}
+
+.sei-source-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.sei-source-list span {
+  display: inline-flex;
+  padding: 6px 9px;
+  border-radius: 999px;
+  background: #f1f4f9;
+  color: #505b6e;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.sei-claim-note {
+  margin-top: 22px;
+  padding: 13px 14px;
+  border-radius: 12px;
+  background: #fffaf0;
+  color: #66512f;
+  font-size: 11px;
+  line-height: 1.65;
+}
+
+.sei-date {
+  margin-top: 16px;
+  color: #8490a3;
+  font-size: 10px;
+}
+
+.sei-disclaimer {
+  margin-top: 15px;
+  padding-top: 14px;
+  border-top: 1px solid #e5e7eb;
+  color: #727d8f;
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.sei-disclaimer p {
+  margin: 5px 0 0;
+}
+
+@media (max-width: 720px) {
+  .sei {
+    padding: 16px;
+  }
+
+  .sei-top {
+    flex-direction: column;
+  }
+
+  .sei-evidence-count {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+  .sei-evidence-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 460px) {
+  .sei-evidence-grid,
+  .sei-sentiment-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* ============================================================
+   JSON-WRITTEN STUDENT EXPERIENCE
+   ============================================================ */
+
+.sei-written-list {
+  display: grid;
+  gap: 12px;
+}
+
+.sei-written-card {
+  padding: 14px 15px;
+  border: 1px solid #e6eaf1;
+  border-radius: 14px;
+  background: #fbfcfe;
+}
+
+.sei-written-card--warning {
+  background: #fffaf3;
+  border-color: #f0e2c7;
+}
+
+.sei-written-title {
+  margin-bottom: 8px;
+  color: #20293a;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.sei-written-item + .sei-written-item {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #eceff4;
+}
+
+.sei-written-item p {
+  margin: 0;
+  color: #4c566a;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.sei-written-source {
+  margin-top: 7px;
+  color: #8993a5;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+
+/* ============================================================
+   COMPACT STUDENT EXPERIENCE ICONS
+   Encoding-safe: no Unicode characters required
+   ============================================================ */
+
+.sei-compact-point {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.sei-compact-icon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  flex: 0 0 15px;
+}
+
+
+/* Positive check */
+.sei-compact-icon--positive {
+  border-radius: 50%;
+  background: #e8f6ec;
+}
+
+.sei-compact-icon--positive::before {
+  content: "";
+  width: 6px;
+  height: 3px;
+  border-left: 2px solid #39794d;
+  border-bottom: 2px solid #39794d;
+  transform: rotate(-45deg) translateY(-1px);
+}
+
+
+/* Warning */
+.sei-compact-icon--warning {
+  border-radius: 4px;
+  background: #fff2d9;
+  border: 1px solid #e3be74;
+}
+
+.sei-compact-icon--warning::before {
+  content: "";
+  width: 2px;
+  height: 7px;
+  border-radius: 2px;
+  background: #9a651d;
+  transform: translateY(-1px);
+}
+
+.sei-compact-icon--warning::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #9a651d;
+}
+
+
+/* ============================================================
+   REALITY CHECK ARROW
+   ============================================================ */
+
+.sei-expand-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.sei-expand-arrow {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  flex: 0 0 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+.sei-expanded + .sei-expand-arrow,
+.sei-expand-button[aria-expanded="true"] .sei-expand-arrow {
+  transform: rotate(225deg);
+}
+
+/* ============================================================
+   MOJIBAKE-SAFE REVIEW ICONS
+   ============================================================ */
+
+.sei-compact-point {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sei-compact-point::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
+  box-sizing: border-box;
+}
+
+
+/* students like */
+.sei-compact-point:not(.sei-compact-point--warning)::before {
+  border-radius: 50%;
+  background: #e7f5eb;
+  border: 1px solid #9ac8a8;
+}
+
+
+/* watch for */
+.sei-compact-point--warning::before {
+  border-radius: 4px;
+  background: #fff4dc;
+  border: 1px solid #ddb86b;
+}
+
+
+/* expanded positive / negative cards */
+.sei-theme__icon {
+  position: relative;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.sei-theme--positive .sei-theme__icon {
+  background: #e7f5eb;
+  border: 1px solid #9ac8a8;
+}
+
+.sei-theme--warning .sei-theme__icon {
+  border-radius: 4px;
+  background: #fff4dc;
+  border: 1px solid #ddb86b;
+}
+
+
+/* ============================================================
+   REALITY CHECK BUTTON - NO TEXT SYMBOL
+   ============================================================ */
+
+.sei-expand-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sei-expand-button::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+.sei-expand-button[aria-expanded="true"]::after {
+  transform: rotate(225deg);
+}

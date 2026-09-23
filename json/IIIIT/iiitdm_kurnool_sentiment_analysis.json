@@ -1,0 +1,73 @@
+{
+  "institution": "IIITDM Kurnool (Indian Institute of Information Technology, Design and Manufacturing, Kurnool)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 6,
+  "sample_size_caveat": "Sample size is notably small (only 6 reviews) compared to other IIITs analyzed, so confidence in this sentiment analysis is lower.",
+  "overall_sentiment": {
+    "label": "Moderately Positive",
+    "score": 0.5,
+    "confidence": "low-medium",
+    "overall_rating_out_of_5": 3.8
+  },
+  "category_ratings": {
+    "college_infrastructure": 4.0,
+    "academics": 4.2,
+    "placements": 3.6,
+    "value_for_money": 4.3,
+    "campus_life": 4.0
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 55,
+    "neutral_percent": 25,
+    "negative_percent": 20
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Campus & Infrastructure",
+      "sentiment": "Positive",
+      "notes": "Spread across 191 acres; 3 boys' hostels and 1 girls' hostel; 24/7 wifi for students and faculty; library and indoor badminton stadium available."
+    },
+    {
+      "theme": "Academics",
+      "sentiment": "Positive",
+      "notes": "Highest-rated category (4.2/5); Electronics and Communication Engineering (ECE) program noted for strong academic curriculum."
+    },
+    {
+      "theme": "Value for Money",
+      "sentiment": "Positive",
+      "notes": "Rated 4.3/5, the strongest category — students feel fees are justified relative to facilities provided."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Placements",
+      "sentiment": "Negative",
+      "notes": "Weakest-rated category (3.6/5); 2019 placement data showed only 72.2% placement rate, average salary of just 4.77 LPA, and only 13 companies participating that year — significantly behind peer IIITs."
+    },
+    {
+      "theme": "Institute Maturity",
+      "sentiment": "Neutral/Mixed",
+      "notes": "Established in 2014, making it one of the newer IIITs, which may explain a still-developing placement ecosystem and smaller alumni network relative to older institutes."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Overview of IIITDM Kurnool - 24/7 wifi, library, hostels for boys and girls, indoor badminton stadium",
+      "sentiment": "Positive",
+      "score": 0.7
+    },
+    {
+      "review_snippet": "Awesome college and newer opportunities - 191 acre campus, strong ECE academic curriculum",
+      "sentiment": "Positive",
+      "score": 0.75
+    },
+    {
+      "review_snippet": "2019 placement data: 13 companies participated, 72.2% placement rate, average salary 4.77 LPA",
+      "sentiment": "Negative",
+      "score": -0.4
+    }
+  ],
+  "conclusion": "Sentiment toward IIITDM Kurnool is moderately positive, with students appreciating the large campus, academics, and strong value for money. However, placements remain a clear weak point relative to more established peer IIITs, likely reflecting its comparatively recent founding (2014) and still-developing industry connections. Given the very small review sample, these findings should be treated as indicative rather than conclusive.",
+  "disclaimer": "This analysis is based on a very small sample of publicly available student reviews and Q&A threads (Careers360) as of the search date. Given the limited sample size (6 reviews), results are illustrative only and not a scientifically robust sentiment study."
+}

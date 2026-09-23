@@ -1,0 +1,56 @@
+[
+  {
+    "rank": 1,
+    "found": true,
+    "expectedAllotted": "Open",
+    "actualAllotted": "Open",
+    "expectedCandidate": "General",
+    "actualCandidate": "General",
+    "pass": true
+  },
+  {
+    "rank": 5866,
+    "found": true,
+    "expectedAllotted": "Open PwD",
+    "actualAllotted": "Open PwD",
+    "expectedCandidate": "EWS PwD",
+    "actualCandidate": "EWS PwD",
+    "pass": true
+  },
+  {
+    "rank": 20015,
+    "found": true,
+    "expectedAllotted": "OBC PwD",
+    "actualAllotted": "OBC PwD",
+    "expectedCandidate": "OBC PwD",
+    "actualCandidate": "OBC PwD",
+    "pass": true
+  },
+  {
+    "rank": 49241,
+    "found": true,
+    "expectedAllotted": "Open PwD",
+    "actualAllotted": "Open PwD",
+    "expectedCandidate": "General PwD",
+    "actualCandidate": "General PwD",
+    "pass": true
+  },
+  {
+    "rank": 54144,
+    "found": true,
+    "expectedAllotted": "Open PwD",
+    "actualAllotted": "Open PwD",
+    "expectedCandidate": "OBC PwD",
+    "actualCandidate": "OBC PwD",
+    "pass": true
+  },
+  {
+    "rank": 263229,
+    "found": true,
+    "expectedAllotted": "Open PwD",
+    "actualAllotted": "Open PwD",
+    "expectedCandidate": "General PwD",
+    "actualCandidate": "General PwD",
+    "pass": true
+  }
+]

@@ -16,6 +16,10 @@ import {
   fetchCutoffHistory,
 } from '../services/counsellingService';
 
+import {
+  fetchNeetAdmissionHistory,
+} from '../services/neetRecommendationService';
+
 const meta = {
   dream: {
     label: 'Dream',
@@ -149,11 +153,41 @@ export default function CollegeCard({
       .toUpperCase();
 
 
+  const isNeetCard =
+    String(
+      row?.examId ||
+      ''
+    )
+      .trim()
+      .toLowerCase() ===
+      'neet' ||
+    String(
+      row?.sourceExam ||
+      ''
+    )
+      .trim()
+      .toLowerCase() ===
+      'neet ug' ||
+    row?.neetMccAuthoritative ===
+      true;
+
+
+  const neetCourseName =
+    String(
+      row?.course ||
+      row?.branchName ||
+      row?.branch?.name ||
+      'NEET'
+    ).trim();
+
+
   const counsellingMatchLabel =
-    counsellingType ===
-      'CSAB_SPECIAL'
-      ? 'CSAB Match'
-      : 'JoSAA Match';
+    isNeetCard
+      ? `${neetCourseName} Rank Match`
+      : counsellingType ===
+          'CSAB_SPECIAL'
+        ? 'CSAB Match'
+        : 'JoSAA Match';
 
   const {
     addCompare,
@@ -251,28 +285,28 @@ export default function CollegeCard({
       direction ===
       'MORE_ACCESSIBLE'
     ) {
-      return '↑ More Accessible';
+      return 'More Accessible';
     }
 
     if (
       direction ===
       'MORE_COMPETITIVE'
     ) {
-      return '↓ More Competitive';
+      return 'More Competitive';
     }
 
     if (
       direction ===
       'VOLATILE'
     ) {
-      return 'â†• Volatile';
+      return 'Volatile';
     }
 
     if (
       direction ===
       'STABLE'
     ) {
-      return '→ Stable';
+      return 'Stable';
     }
 
     return (
@@ -524,6 +558,167 @@ export default function CollegeCard({
       }
 
 
+      /*
+      |--------------------------------------------------------------------------
+      | NEET MCC ADMISSION HISTORY
+      |--------------------------------------------------------------------------
+      |
+      | NEET branch IDs are strings, not engineering DB IDs.
+      | Therefore NEET must be handled before numeric branchId validation.
+      |
+      */
+
+      if (
+        isNeetCard
+      ) {
+
+        setHistoryLoading(true);
+        setHistoryError('');
+
+        try {
+
+          const response =
+            await fetchNeetAdmissionHistory({
+              collegeName:
+                row?.collegeName ||
+                college?.name ||
+                '',
+
+              course:
+                row?.course ||
+                row?.branchName ||
+                branch?.name ||
+                '',
+
+              category:
+                row?.category ||
+                branch?.category ||
+                profile?.category ||
+                'Open',
+
+              quota:
+                row?.quota ||
+                branch?.quota ||
+                '',
+
+              rank:
+                profile?.rank ??
+                row?.admission
+                  ?.studentRank ??
+                null,
+            });
+
+
+          console.log(
+            '[NEET MCC ADMISSION HISTORY]',
+            response
+          );
+
+
+          setHistoryData(
+            response?.data ??
+            null
+          );
+
+
+          /*
+           * Current history renderer uses its
+           * JoSAA slot as the primary route slot.
+           * NEET backend maps MCC history there
+           * for UI compatibility.
+           */
+
+          setHistoryTab(
+            'josaa'
+          );
+
+        } catch (error) {
+
+          console.error(
+            '[NEET MCC ADMISSION HISTORY]',
+            error
+          );
+
+
+          setHistoryError(
+            error?.message ||
+            'Unable to load MCC historical admission data.'
+          );
+
+        } finally {
+
+          setHistoryLoading(false);
+        }
+
+
+        return;
+      }
+
+
+      if (isNeetCard) {
+
+        setHistoryLoading(true);
+        setHistoryError('');
+
+        try {
+
+          const response =
+            await fetchNeetAdmissionHistory({
+              collegeName:
+                row?.collegeName ||
+                college?.name,
+
+              course:
+                row?.course ||
+                row?.branchName ||
+                branch?.name,
+
+              category:
+                row?.category ||
+                profile?.category ||
+                'Open',
+
+              quota:
+                row?.quota ||
+                '',
+
+              rank:
+                profile?.rank ||
+                row?.admission?.studentRank,
+            });
+
+          console.log(
+            '[NEET HISTORY OK]',
+            response
+          );
+
+          setHistoryData(
+            response?.data || null
+          );
+
+          setHistoryTab('josaa');
+
+        } catch (error) {
+
+          console.error(
+            '[NEET HISTORY ERROR]',
+            error
+          );
+
+          setHistoryError(
+            error?.message ||
+            'Unable to load MCC history.'
+          );
+
+        } finally {
+
+          setHistoryLoading(false);
+        }
+
+        return;
+      }
+
+
       const branchId =
         Number(
           branch?.id
@@ -653,7 +848,7 @@ export default function CollegeCard({
             .join(', ')}
 
           {college.type
-            ? ` Â· ${college.type}`
+            ? ` Ã‚· ${college.type}`
             : ''}
 
         </div>
@@ -726,7 +921,7 @@ export default function CollegeCard({
           {hasFees && (
             <span className="meta-chip">
 
-              â‚¹
+              Ã¢"š¹
               {(
                 fees /
                 100000
@@ -757,7 +952,7 @@ export default function CollegeCard({
             </strong>
 
             {hasPlacement
-              ? ` Â· Placement ${placement}%`
+              ? ` Ã‚· Placement ${placement}%`
               : ''}
           </div>
 
@@ -806,7 +1001,9 @@ export default function CollegeCard({
                     <>
 
                       <div className="admission-history-title">
-                        Historical Admission Intelligence
+                        {isNeetCard
+                          ? 'MCC Historical Admission Intelligence'
+                          : 'Historical Admission Intelligence'}
                       </div>
 
 
@@ -830,9 +1027,17 @@ export default function CollegeCard({
 
                             <strong>
                               {
-                                branch?.category ||
-                                profile?.category ||
-                                '—'
+                                isNeetCard
+                                  ? (
+                                      profile?.category ||
+                                      row?.category ||
+                                      'General'
+                                    )
+                                  : (
+                                      branch?.category ||
+                                      profile?.category ||
+                                      '—'
+                                    )
                               }
                             </strong>
                           </div>
@@ -873,14 +1078,19 @@ export default function CollegeCard({
 
                             <strong>
                               {
-                                branch?.quota === 'HS'
-                                  ? 'Home State'
-                                  : branch?.quota === 'OS'
-                                    ? 'Other State'
-                                    : branch?.quota === 'AI'
-                                      ? 'All India'
-                                      : branch?.quota ||
-                                        '—'
+                                isNeetCard
+                                  ? (
+                                      row?.quota ||
+                                      'Open Seat Quota'
+                                    )
+                                  : branch?.quota === 'HS'
+                                    ? 'Home State'
+                                    : branch?.quota === 'OS'
+                                      ? 'Other State'
+                                      : branch?.quota === 'AI'
+                                        ? 'All India'
+                                        : branch?.quota ||
+                                          '—'
                               }
                             </strong>
                           </div>
@@ -893,14 +1103,16 @@ export default function CollegeCard({
 
                             <strong>
                               {
-                                branch?.gender ===
-                                  'Female-only (including Supernumerary)'
-                                  ? 'Female-only'
+                                isNeetCard
+                                  ? 'Gender-Neutral'
                                   : branch?.gender ===
-                                      'Gender-Neutral'
-                                    ? 'Gender-Neutral'
-                                    : branch?.gender ||
-                                      '—'
+                                      'Female-only (including Supernumerary)'
+                                    ? 'Female-only'
+                                    : branch?.gender ===
+                                        'Gender-Neutral'
+                                      ? 'Gender-Neutral'
+                                      : branch?.gender ||
+                                        '—'
                               }
                             </strong>
                           </div>
@@ -919,10 +1131,12 @@ export default function CollegeCard({
 
                       <div className="history-source-label">
                         {
-                          activeCounsellingSource ===
-                            'csab'
-                            ? 'CSAB Special'
-                            : 'JoSAA'
+                          isNeetCard
+                            ? 'MCC'
+                            : activeCounsellingSource ===
+                                'csab'
+                              ? 'CSAB Special'
+                              : 'JoSAA'
                         }
                       </div>
 
@@ -930,7 +1144,10 @@ export default function CollegeCard({
                       {[
                         {
                           key: 'josaa',
-                          label: 'JoSAA',
+                          label:
+                            isNeetCard
+                              ? 'MCC'
+                              : 'JoSAA',
                           rows:
                             historyData
                               ?.josaa ||
@@ -983,7 +1200,9 @@ export default function CollegeCard({
                                 {route.key ===
                                 'csab'
                                   ? 'CSAB Special is not applicable for this option.'
-                                  : 'JoSAA historical data unavailable.'}
+                                  : isNeetCard
+                                    ? 'MCC historical data unavailable for this option.'
+                                    : 'JoSAA historical data unavailable.'}
                               </div>
                             );
                           }
@@ -1130,7 +1349,9 @@ export default function CollegeCard({
                                 <div>
 
                                   <span>
-                                    Latest Final Closing
+                                    {isNeetCard
+      ? 'Selected Round Closing'
+      : 'Latest Final Closing'}
                                   </span>
 
                                   <strong>
@@ -1396,7 +1617,7 @@ export default function CollegeCard({
               </div>
 
               <div className="best-premium-lock">
-                ðŸ”’
+                Ã°Å¸"'
               </div>
 
             </div>
@@ -1604,7 +1825,7 @@ export default function CollegeCard({
                             index
                           }
                         >
-                          ✓ {reason}
+                          âœ“ {reason}
                         </div>
                       )
                     )}

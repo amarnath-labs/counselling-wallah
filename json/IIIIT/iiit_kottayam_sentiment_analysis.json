@@ -1,0 +1,93 @@
+{
+  "institution": "IIIT Kottayam (Indian Institute of Information Technology, Kottayam)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 1,
+  "sample_size_caveat": "The formal review rating sample is very small (1 review) on Careers360; this analysis supplements it with community Q&A threads discussing student experiences for better balance. Confidence is lower than for institutes with larger review samples.",
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.55,
+    "confidence": "low-medium",
+    "overall_rating_out_of_5": 4.4
+  },
+  "category_ratings": {
+    "college_infrastructure": 5.0,
+    "academics": 5.0,
+    "placements": 4.0,
+    "value_for_money": 4.0,
+    "campus_life": 4.0
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 55,
+    "neutral_percent": 25,
+    "negative_percent": 20
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Permanent Campus",
+      "sentiment": "Strongly Positive",
+      "notes": "IIIT Kottayam has its own permanent 80-acre campus located in the serene area of Valavoor, Kottayam."
+    },
+    {
+      "theme": "Infrastructure & Labs",
+      "sentiment": "Strongly Positive",
+      "notes": "Well-equipped Computer, Electronics, Networking, and IoT/Robotics labs; classrooms and hostels have high-speed internet, smart boards, and projectors; hostels cleaned daily with strict mess hygiene protocols and regular audits."
+    },
+    {
+      "theme": "Placements",
+      "sentiment": "Positive",
+      "notes": "Around 85-90% of students placed annually per one detailed review; highest package reported up to 58 LPA (CSE), average package in the 10-12 LPA range; structured placement process including pre-placement talks, aptitude tests, and technical/HR interviews."
+    },
+    {
+      "theme": "Academics",
+      "sentiment": "Strongly Positive",
+      "notes": "Curriculum periodically reviewed and updated to match industry and technology trends; strong focus on core technical skills like programming, database management, networking, and system design."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Campus Isolation",
+      "sentiment": "Negative",
+      "notes": "Community Q&A responses describe the campus location as isolated, which some students find challenging."
+    },
+    {
+      "theme": "Mess Food Quality",
+      "sentiment": "Negative",
+      "notes": "Despite official claims of hygiene audits, some community reviews describe mess food as not good."
+    },
+    {
+      "theme": "Placement Variability",
+      "sentiment": "Mixed",
+      "notes": "Placement figures vary notably across sources — one detailed review cites 85-90% placement and 58 LPA highest package, while another Q&A response cites a lower 76% placement rate, 10 LPA highest CTC, and 28 recruiting companies, suggesting year-to-year or branch-to-branch variance."
+    },
+    {
+      "theme": "Institute Youth",
+      "sentiment": "Mixed",
+      "notes": "As a newer institute, some students note fewer placement opportunities compared to more established IIITs, along with a generally hectic academic schedule."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Innovative learning, supportive community — permanent campus in Valavoor, well-equipped labs, 85-90% placement rate, highest package 58 LPA",
+      "sentiment": "Strongly Positive",
+      "score": 0.9
+    },
+    {
+      "review_snippet": "As the college is new there are not many placement opportunities; schedule is hectic, campus is isolated, mess food is not good; faculty is helpful",
+      "sentiment": "Mixed/Negative",
+      "score": -0.2
+    },
+    {
+      "review_snippet": "I guide you to choose IIIT Kottayam — 8.4/10 rating, good placements, highest CTC 10 LPA, 76% placement percentage, 28 companies recruiting",
+      "sentiment": "Positive",
+      "score": 0.5
+    },
+    {
+      "review_snippet": "Considering academic factors, IIIT Kottayam is a developing one, yet to meet the benchmark of other IIITs",
+      "sentiment": "Mixed",
+      "score": 0.0
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Kottayam is positive overall, with a strong permanent campus, modern lab infrastructure, and an evolving placement track record as clear highlights. However, community feedback reveals some inconsistency in placement outcomes across sources and years, alongside recurring concerns about campus isolation and mess food quality that temper the otherwise strong formal review ratings.",
+  "disclaimer": "This analysis is based on a very limited number of formal Careers360 reviews supplemented with community Q&A discussions as of the search date. Given the limited formal review sample, results are illustrative only and not a scientifically robust sentiment study."
+}

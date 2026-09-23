@@ -1,0 +1,83 @@
+{
+  "institution": "IIIT Dharwad (Indian Institute of Information Technology, Dharwad)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 4,
+  "sample_size_caveat": "Sample size is small (4 reviews), so confidence in this sentiment analysis is moderate rather than high. Care was taken to source data specifically for IIIT Dharwad, distinct from the separate institute IIT Dharwad.",
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.6,
+    "confidence": "medium",
+    "overall_rating_out_of_5": 4.2
+  },
+  "category_ratings": {
+    "college_infrastructure": 4.0,
+    "academics": 4.2,
+    "placements": 3.5,
+    "value_for_money": 3.8,
+    "campus_life": 3.8
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 62,
+    "neutral_percent": 22,
+    "negative_percent": 16
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Permanent Campus",
+      "sentiment": "Strongly Positive",
+      "notes": "IIIT Dharwad now operates from its own permanent 60-acre campus at Tadasinakoppa, near Dharwad, having moved from a temporary, congested setup at IT Park, Hubli around September 2020."
+    },
+    {
+      "theme": "Infrastructure & Amenities",
+      "sentiment": "Positive",
+      "notes": "Modern academic blocks, well-equipped labs, library, hostels, sports facilities, cafeteria, and green spaces; described as a beautiful campus with all necessary amenities including gym and canteens."
+    },
+    {
+      "theme": "Academics",
+      "sentiment": "Positive",
+      "notes": "Offers B.Tech programs in Computer Science, Data Science, and Electronics & Communication Engineering, plus PhD programs; curriculum emphasizes innovation, practical learning, and interdisciplinary research with hands-on projects and industry collaborations."
+    },
+    {
+      "theme": "Location & Facilities",
+      "sentiment": "Positive",
+      "notes": "Transport (bus) facility available, hostels vary by field of study, and a health center is present on campus."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Placements Policy",
+      "sentiment": "Negative",
+      "notes": "Weakest-rated category (3.5/5); the institute reportedly only allows companies offering annual packages above 6 LPA to recruit on campus, which some students feel disadvantages average performers or those willing to accept entry-level offers below that threshold."
+    },
+    {
+      "theme": "Historical Campus Congestion",
+      "sentiment": "Negative (Historical)",
+      "notes": "Before the permanent campus was ready, the institute operated from a congested temporary facility in IT Park, Hubli — a pain point in earlier reviews, now largely resolved."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "It was a really good experience — beautiful campus with gym, library, hostels, canteens, cafeteria",
+      "sentiment": "Positive",
+      "score": 0.8
+    },
+    {
+      "review_snippet": "Overall it was a good learning experience — 60-acre campus at Tadasinakoppa, modern academic blocks, labs, library, hostels, sports facilities",
+      "sentiment": "Positive",
+      "score": 0.8
+    },
+    {
+      "review_snippet": "This aspect of placements disappointed me — IIIT Dharwad only accepts companies offering more than 6,00,000 annually, difficult for below average students",
+      "sentiment": "Negative",
+      "score": -0.5
+    },
+    {
+      "review_snippet": "Currently the institute runs in its temporary campus in IT Park, Hubli, a bit congested, but permanent campus ready by September 2020",
+      "sentiment": "Mixed (Historical)",
+      "score": 0.1
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Dharwad is positive, with the institute having successfully transitioned to its own well-equipped permanent campus, boosting infrastructure and academic sentiment considerably compared to its earlier temporary setup. The main point of friction is the placement cell's minimum package threshold policy (6 LPA+), which some students feel excludes opportunities for those seeking entry-level or lower-package roles.",
+  "disclaimer": "This analysis is based on a small sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study."
+}

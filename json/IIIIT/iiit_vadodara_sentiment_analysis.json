@@ -1,0 +1,97 @@
+{
+  "institution": "IIIT Vadodara (Indian Institute of Information Technology, Vadodara)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 100,
+  "overall_sentiment": {
+    "label": "Mixed to Negative",
+    "score": 0.15,
+    "confidence": "high",
+    "overall_rating_out_of_5": 2.9
+  },
+  "category_ratings": {
+    "college_infrastructure": 2.1,
+    "academics": 3.0,
+    "placements": 2.5,
+    "value_for_money": 2.0,
+    "campus_life": 2.9
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 32,
+    "neutral_percent": 30,
+    "negative_percent": 38
+  },
+  "key_positive_themes": [
+    {
+      "theme": "IIITV-ICD (Diu International Campus)",
+      "sentiment": "Positive",
+      "notes": "Modern 25-acre Education Hub with dedicated academic buildings, labs, library spaces, and 24/7 wifi; classrooms and hostels described as new and well maintained."
+    },
+    {
+      "theme": "Academics",
+      "sentiment": "Moderately Positive",
+      "notes": "Structured B.Tech curriculum (e.g., CSE via JEE Main) with experienced faculty engaging students in coding, theory, and projects; relatively best-rated category (3.0/5)."
+    },
+    {
+      "theme": "Placements (Growing)",
+      "sentiment": "Cautiously Positive",
+      "notes": "Placements described as growing with support from the main IIIT Vadodara placement cell; tech and consulting recruiters and expanding opportunities noted, though from a low base."
+    },
+    {
+      "theme": "Facilities on Paper",
+      "sentiment": "Neutral/Positive",
+      "notes": "Official facilities list includes hostels, gym, sports, medical, digital library, and campus-wide wifi."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "No Permanent Campus",
+      "sentiment": "Strongly Negative",
+      "notes": "Despite being established in 2013, IIIT Vadodara still lacks its own permanent campus; classes run out of a single block within Government Engineering College (GEC), Gandhinagar, with limited space not purpose-built for the institute."
+    },
+    {
+      "theme": "Infrastructure",
+      "sentiment": "Strongly Negative",
+      "notes": "Lowest-rated category (2.1/5) — the clear standout weak point compared to all peer IIITs reviewed."
+    },
+    {
+      "theme": "Value for Money",
+      "sentiment": "Strongly Negative",
+      "notes": "Rated just 2.0/5 — students feel fees are not justified given the temporary, under-resourced infrastructure."
+    },
+    {
+      "theme": "Campus Life & Uncertainty",
+      "sentiment": "Negative",
+      "notes": "Students express uncertainty about when a permanent campus will be ready, with no clear timeline for major development, dampening overall campus life sentiment."
+    },
+    {
+      "theme": "Placements",
+      "sentiment": "Negative",
+      "notes": "Rated 2.5/5, below most peer IIITs, though marginally improving at the newer Diu campus."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "IIITVICD is average for Btech — modern 25-acre hub, well-maintained classrooms and hostels, growing placements",
+      "sentiment": "Mixed/Positive",
+      "score": 0.3
+    },
+    {
+      "review_snippet": "I was always hoping for a good campus life — no permanent campus since 2013, classes in a single block at GEC Gandhinagar, space limited",
+      "sentiment": "Negative",
+      "score": -0.7
+    },
+    {
+      "review_snippet": "Temporary arrangement serves basic needs but lacks dedicated resources and environment expected from a fully established institute",
+      "sentiment": "Negative",
+      "score": -0.5
+    },
+    {
+      "review_snippet": "Speed accessing internet with wifi facility covers all over campus; digital library and hygienic cafeteria available",
+      "sentiment": "Positive",
+      "score": 0.5
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Vadodara is the most negative among the IIITs analyzed so far, driven overwhelmingly by the institute's lack of a permanent campus more than a decade after establishment. While academics and the newer Diu international campus show some positive signals, low infrastructure and value-for-money scores reflect real student frustration with the temporary, space-constrained setup.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study."
+}

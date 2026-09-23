@@ -32,6 +32,12 @@ export const EXAMS = [
     active: true,
   },
   {
+    id: 'neet',
+    name: 'NEET UG',
+    desc: 'National Eligibility cum Entrance Test for undergraduate medical admissions.',
+    active: true,
+  },
+  {
     id: 'cuet',
     name: 'CUET',
     desc: 'Common university entrance for central universities.',

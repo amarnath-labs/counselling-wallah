@@ -1,0 +1,134 @@
+{
+  "rows": 33890,
+  "statusCounts": {
+    "Did not opt for Upgradation": 9117,
+    "Did not fill up fresh choices": 3772,
+    "Fresh Allotted in 2nd Round": 11170,
+    "Upgraded": 1211,
+    "No Upgradation": 4800,
+    "Not Allotted": 3820
+  },
+  "unknownStatuses": [],
+  "candidateLikeCounts": {
+    "General": 4504,
+    "OBC": 4559,
+    "EWS": 1076,
+    "SC": 1418,
+    "ST": 621,
+    "GNYes": 64,
+    "OBC PwD": 93,
+    "SC PwD": 20,
+    "EWS PwD": 20,
+    "ST PwD": 6
+  },
+  "decimalRanks": [
+    {
+      "lineIndex": 54,
+      "sno": 1,
+      "rankRaw": "1.01",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 59,
+      "sno": 2,
+      "rankRaw": "1.02",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 64,
+      "sno": 3,
+      "rankRaw": "1.03",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 69,
+      "sno": 4,
+      "rankRaw": "1.04",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 74,
+      "sno": 5,
+      "rankRaw": "1.05",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 79,
+      "sno": 6,
+      "rankRaw": "1.06",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 84,
+      "sno": 7,
+      "rankRaw": "1.07",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 89,
+      "sno": 8,
+      "rankRaw": "1.08",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 94,
+      "sno": 9,
+      "rankRaw": "1.09",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 99,
+      "sno": 10,
+      "rankRaw": "1.1",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 104,
+      "sno": 11,
+      "rankRaw": "1.11",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 109,
+      "sno": 12,
+      "rankRaw": "1.12",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 114,
+      "sno": 13,
+      "rankRaw": "1.13",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 119,
+      "sno": 14,
+      "rankRaw": "1.14",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 124,
+      "sno": 15,
+      "rankRaw": "1.15",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 129,
+      "sno": 16,
+      "rankRaw": "1.16",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 134,
+      "sno": 17,
+      "rankRaw": "1.17",
+      "rest": "Open Seat"
+    },
+    {
+      "lineIndex": 46197,
+      "sno": 6222,
+      "rankRaw": "9743.5",
+      "rest": "- - - - All India Government Medical"
+    }
+  ]
+}

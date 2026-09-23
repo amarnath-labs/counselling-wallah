@@ -1,0 +1,92 @@
+{
+  "institution": "IIITDM Jabalpur (PDPM Indian Institute of Information Technology, Design and Manufacturing, Jabalpur)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews (aggregated public review data)",
+  "sample_size": 65,
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.78,
+    "confidence": "high",
+    "overall_rating_out_of_5": 4.5
+  },
+  "category_ratings": {
+    "college_infrastructure": 4.4,
+    "academics": 4.2,
+    "placements": 4.0,
+    "value_for_money": 4.0,
+    "campus_life": 4.4
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 74,
+    "neutral_percent": 16,
+    "negative_percent": 10
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Infrastructure",
+      "sentiment": "Positive",
+      "notes": "Modern smart classrooms, advanced laboratories, campus-wide wifi, well-equipped digital and physical library; clean, green, peaceful campus."
+    },
+    {
+      "theme": "Academics",
+      "sentiment": "Positive",
+      "notes": "Strong, industry-oriented curriculum focused on design, technology, and practical skills; knowledgeable and supportive faculty; regularly updated syllabus."
+    },
+    {
+      "theme": "Placements",
+      "sentiment": "Positive",
+      "notes": "177+ companies visited in 2020; average salary around 9.9 LPA, median around 8.5 LPA; decent-to-good placement outcomes overall."
+    },
+    {
+      "theme": "Value for Money",
+      "sentiment": "Positive",
+      "notes": "Rated 4.0/5 — notably better perceived value compared to some peer IIITs."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Hostel Facilities",
+      "sentiment": "Mixed/Negative",
+      "notes": "Hostels described as decent but with room for improvement in maintenance and food quality."
+    },
+    {
+      "theme": "Faculty Experience Variability",
+      "sentiment": "Mixed",
+      "notes": "Some reviews note less-experienced faculty in certain departments and inconsistent teaching quality across subjects."
+    },
+    {
+      "theme": "Placement Timing/Pandemic Impact",
+      "sentiment": "Negative (contextual)",
+      "notes": "Some older reviews mention placement difficulty during COVID period, with fewer students placed by certain points in the year."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Strong academics with practical and industry focus — modern infra, smart classrooms, good IT facilities",
+      "sentiment": "Positive",
+      "score": 0.85
+    },
+    {
+      "review_snippet": "Hostels decent with basic amenities, though maintenance and food quality may need improvement",
+      "sentiment": "Mixed",
+      "score": 0.1
+    },
+    {
+      "review_snippet": "It is a good college although most faculties are less experienced; placements are decent if not good",
+      "sentiment": "Mixed",
+      "score": 0.2
+    },
+    {
+      "review_snippet": "177+ companies visited for placements in 2020, average salary 9.9 LPA, median 8.5 LPA",
+      "sentiment": "Positive",
+      "score": 0.8
+    },
+    {
+      "review_snippet": "Very few placed till 4th year due to COVID pandemic situation, hoping for the best",
+      "sentiment": "Negative",
+      "score": -0.4
+    }
+  ],
+  "conclusion": "Sentiment toward IIITDM Jabalpur is strongly positive and the most well-balanced among peer IIITs reviewed, with no single category showing a major weakness. Strengths lie in infrastructure, academics, and value for money, while minor concerns exist around hostel upkeep and variability in faculty experience.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study."
+}

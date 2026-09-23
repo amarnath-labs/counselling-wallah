@@ -22,56 +22,143 @@ import {
 const PLANS = [
   {
     id: 'basic',
-    level: 1,
+
     name: 'COLLEGE PREDICTOR',
-    price: 49,
-    subtitle: 'Check Your College Chances',
-    description:
-      'Get college admission chances based on your rank and counselling data.',
-    features: [
-      'College Predictor',
-      'Rank-based admission chances',
-      'Dream / Target / Safe / Backup',
-      'College & branch options',
+
+    amount: '₹49',
+
+    numericAmount: 49,
+
+    subtitle:
+      'Check Your College Chances',
+
+    items: [
+      'Eligible college list',
+      'Rank/category/quota based prediction',
+      'Round-wise cutoff details',
+      'College-wise cutoff information',
+      'Basic filters',
     ],
+
+    button:
+      'Get College Predictor',
+
+    popular: false,
   },
 
   {
     id: 'finder',
-    level: 2,
+
     name: 'RECOMMENDATION',
-    price: 99,
-    subtitle: 'Personalized College Recommendations',
-    popular: true,
-    description:
-      'Get personalized recommendations using rank, branch preference, college quality and more.',
-    features: [
+
+    amount: '₹99',
+
+    numericAmount: 99,
+
+    subtitle:
+      'Personalized College Recommendations',
+
+    items: [
       'Everything in College Predictor',
-      'Personalized Recommendations',
-      'Premium Match Score',
-      'Branch Preference Analysis',
-      'College Quality Analysis',
-      'Budget & Location Match',
+      'Dream / Target / Safe / Backup',
+      'Personalized recommendation score',
+      'Branch preference matching',
+      'Budget + location matching',
+      'College comparison',
+      'Preference-list builder',
     ],
+
+    button:
+      'Unlock Recommendations',
+
+    popular: true,
+  },
+
+  {
+    id: 'choice-plan',
+
+    name: 'CHOICE-FILLING PLAN',
+
+    amount: '₹999',
+
+    numericAmount: 999,
+
+    subtitle:
+      'Build Your Final Counselling Preference Order',
+
+    items: [
+      'Everything in Recommendation',
+      'Personalized ordered choice-filling list',
+      'Dream / Target / Safe / Backup balance',
+      'College + branch priority ordering',
+      'Freeze / Float / Slide guidance',
+      'Risk preference controls',
+      'Compare any 2 choices',
+      'Last-resort safe options',
+      'Download choice list as CSV',
+      'Print-ready counselling plan',
+    ],
+
+    button:
+      'Unlock Choice-Filling Plan',
+
+    popular: false,
   },
 
   {
     id: 'support',
-    level: 3,
+
     name: 'CALL SUPPORT',
-    price: 599,
-    subtitle: 'Personal Counselling Support',
-    description:
-      'Get premium recommendation access plus personal counselling support.',
-    features: [
+
+    amount: '₹599',
+
+    numericAmount: 599,
+
+    subtitle:
+      'Talk to a Counsellor',
+
+    items: [
       'Everything in Recommendation',
-      'Personal Counselling Call',
-      'Choice Filling Guidance',
-      'College Selection Support',
-      'Priority Assistance',
+      '1-to-1 counselling call',
+      'Personalized counselling guidance',
+      'Choice-list review',
+      'Document guidance',
+      'Deadline guidance',
+      'Priority support',
     ],
+
+    button:
+      'Book Counselling Call',
+
+    popular: false,
   },
-];
+]/* TRUMARG PLAN SCHEMA COMPATIBILITY */
+.map(
+  (plan) => ({
+    ...plan,
+
+    price:
+      plan.price ??
+      plan.numericAmount ??
+      null,
+
+    description:
+      plan.description ??
+      plan.subtitle ??
+      '',
+
+    features:
+      Array.isArray(
+        plan.features
+      )
+        ? plan.features
+        : Array.isArray(
+            plan.items
+          )
+          ? plan.items
+          : [],
+  })
+);
 
 
 function getPlanLevel(

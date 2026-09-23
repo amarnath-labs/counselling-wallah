@@ -1,0 +1,655 @@
+/* ============================================================
+   TRUMARG PERSONALIZED RECOMMENDATION V2
+   ============================================================ */
+
+.tr-rec-card {
+  position: relative;
+  margin: 0 0 24px;
+  padding: 26px;
+  border: 1px solid #e5e8f0;
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow:
+    0 12px 34px
+    rgba(15, 23, 42, 0.055);
+  color: #17213b;
+}
+
+
+/* ============================================================
+   HERO
+   ============================================================ */
+
+.tr-rec-hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  padding-bottom: 22px;
+}
+
+.tr-rec-hero__content {
+  min-width: 0;
+  flex: 1;
+}
+
+.tr-rec-kicker {
+  display: block;
+  margin-bottom: 7px;
+  color: #6857d9;
+  font-size: 10px;
+  line-height: 1.25;
+  font-weight: 800;
+  letter-spacing: 0.115em;
+}
+
+.tr-rec-hero h3 {
+  margin: 0;
+  max-width: 680px;
+  color: #15213f;
+  font-size: 23px;
+  line-height: 1.25;
+  font-weight: 800;
+}
+
+.tr-rec-branch {
+  margin: 7px 0 0;
+  color: #717b91;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.tr-rec-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.tr-rec-bucket,
+.tr-rec-category {
+  display: inline-flex;
+  align-items: center;
+  min-height: 29px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.tr-rec-bucket {
+  background: #fff6dd;
+  color: #92660b;
+}
+
+.tr-rec-bucket--safe {
+  background: #eaf8ef;
+  color: #237a44;
+}
+
+.tr-rec-bucket--backup {
+  background: #edf4ff;
+  color: #315fba;
+}
+
+.tr-rec-bucket--target {
+  background: #fff3df;
+  color: #a8640b;
+}
+
+.tr-rec-bucket--dream {
+  background: #fff2dd;
+  color: #8a5a08;
+}
+
+.tr-rec-category {
+  background: #f0edff;
+  color: #5e4ed0;
+}
+
+
+/* ============================================================
+   OVERALL MATCH
+   ============================================================ */
+
+.tr-rec-overall {
+  width: 142px;
+  flex: 0 0 142px;
+  padding: 17px 15px;
+  border-radius: 18px;
+  background:
+    linear-gradient(
+      145deg,
+      #192a60,
+      #273b7a
+    );
+  text-align: center;
+  color: white;
+}
+
+.tr-rec-overall > span {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 10px;
+  opacity: 0.88;
+}
+
+.tr-rec-overall strong {
+  display: block;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.tr-rec-overall strong small {
+  margin-left: 2px;
+  font-size: 11px;
+  font-weight: 700;
+  opacity: 0.85;
+}
+
+.tr-rec-overall__coverage {
+  display: block;
+  margin-top: 9px;
+  font-size: 8.5px;
+  opacity: 0.8;
+}
+
+
+/* ============================================================
+   SHARED PANEL
+   ============================================================ */
+
+.tr-rec-panel {
+  margin-top: 16px;
+  padding: 20px;
+  border: 1px solid #e7eaf1;
+  border-radius: 18px;
+  background: #ffffff;
+}
+
+.tr-rec-panel h4 {
+  margin: 0;
+  color: #182542;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 800;
+}
+
+.tr-rec-section-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+
+/* ============================================================
+   ADMISSION REALITY
+   ============================================================ */
+
+.tr-rec-admission {
+  background:
+    linear-gradient(
+      135deg,
+      #fbfcff,
+      #f6f8ff
+    );
+}
+
+.tr-rec-admission-chip {
+  display: inline-flex;
+  padding: 7px 11px;
+  border-radius: 999px;
+  background: #fff3dd;
+  color: #94610a;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.tr-rec-admission-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.tr-rec-admission-grid > div {
+  padding: 14px 15px;
+  border: 1px solid #e8ebf2;
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.tr-rec-admission-grid span {
+  display: block;
+  margin-bottom: 5px;
+  color: #7a8498;
+  font-size: 10px;
+}
+
+.tr-rec-admission-grid strong {
+  display: block;
+  color: #17233f;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.tr-rec-admission-note {
+  margin: 14px 0 0;
+  color: #606b81;
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+
+/* ============================================================
+   FIT REASONS
+   ============================================================ */
+
+.tr-rec-fit-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.tr-rec-fit-column {
+  min-height: 145px;
+  padding: 16px;
+  border-radius: 15px;
+}
+
+.tr-rec-fit-column--positive {
+  border: 1px solid #dbeee1;
+  background: #f7fcf8;
+}
+
+.tr-rec-fit-column--risk {
+  border: 1px solid #f1dfd5;
+  background: #fffaf7;
+}
+
+.tr-rec-fit-title {
+  margin-bottom: 11px;
+  color: #24314e;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.tr-rec-reason {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 9px;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.tr-rec-reason--positive {
+  color: #34744a;
+}
+
+.tr-rec-reason--risk {
+  color: #a15b40;
+}
+
+.tr-rec-reason__icon {
+  flex: 0 0 auto;
+  font-weight: 900;
+}
+
+
+/* ============================================================
+   STUDENT EXPERIENCE
+   ============================================================ */
+
+.tr-rec-student-experience {
+  margin-top: 16px;
+}
+
+/*
+   Keep ExternalReviewIntelligence visually integrated
+   into the recommendation instead of looking like
+   a separate legacy product.
+*/
+
+.tr-rec-student-experience .sei {
+  margin-top: 0;
+  border-radius: 18px;
+  border-color: #e7eaf1;
+  box-shadow: none;
+}
+
+
+/* ============================================================
+   SCORE BREAKDOWN
+   ============================================================ */
+
+.tr-rec-score-panel {
+  background: #fbfcff;
+}
+
+.tr-rec-score-total {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  color: #22366f;
+}
+
+.tr-rec-score-total strong {
+  font-size: 27px;
+  line-height: 1;
+}
+
+.tr-rec-score-total span {
+  color: #778198;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.tr-rec-score-list {
+  display: grid;
+  gap: 13px;
+  margin-top: 19px;
+}
+
+.tr-rec-score-row__top {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 6px;
+  color: #667188;
+  font-size: 11px;
+}
+
+.tr-rec-score-row__top strong {
+  color: #1b2948;
+  font-size: 11px;
+}
+
+.tr-rec-score-row__pending {
+  color: #9aa2b2 !important;
+  font-weight: 600 !important;
+}
+
+.tr-rec-score-track {
+  height: 6px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e9edf4;
+}
+
+.tr-rec-score-fill {
+  height: 100%;
+  min-width: 0;
+  border-radius: inherit;
+  background:
+    linear-gradient(
+      90deg,
+      #536bd9,
+      #7964d7
+    );
+}
+
+.tr-rec-score-policy {
+  margin-top: 17px;
+  padding-top: 13px;
+  border-top: 1px solid #e8ebf2;
+  color: #818a9d;
+  font-size: 10px;
+  line-height: 1.55;
+}
+
+
+/* ============================================================
+   DECISION SUMMARY
+   ============================================================ */
+
+.tr-rec-decision {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  background:
+    linear-gradient(
+      135deg,
+      #ffffff,
+      #fafbff
+    );
+}
+
+.tr-rec-decision__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.tr-rec-decision__content p {
+  max-width: 650px;
+  margin: 9px 0 0;
+  color: #657086;
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.tr-rec-confidence {
+  width: 150px;
+  flex: 0 0 150px;
+  padding: 14px;
+  border-radius: 14px;
+  background: #f2faf5;
+  text-align: center;
+}
+
+.tr-rec-confidence span {
+  display: block;
+  color: #768297;
+  font-size: 9px;
+}
+
+.tr-rec-confidence strong {
+  display: block;
+  margin-top: 4px;
+  color: #244f35;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.tr-rec-confidence small {
+  display: block;
+  margin-top: 4px;
+  color: #768297;
+  font-size: 8.5px;
+}
+
+
+/* ============================================================
+   DATA POLICY
+   ============================================================ */
+
+.tr-rec-data-policy {
+  margin-top: 15px;
+  color: #8992a3;
+  font-size: 9.5px;
+  line-height: 1.55;
+}
+
+.tr-rec-muted {
+  margin: 8px 0 0;
+  color: #818a9d;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+
+/* ============================================================
+   TABLET
+   ============================================================ */
+
+@media (
+  max-width: 820px
+) {
+  .tr-rec-card {
+    padding: 20px;
+  }
+
+  .tr-rec-hero {
+    gap: 16px;
+  }
+
+  .tr-rec-hero h3 {
+    font-size: 20px;
+  }
+
+  .tr-rec-overall {
+    width: 125px;
+    flex-basis: 125px;
+  }
+
+  .tr-rec-fit-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* ============================================================
+   MOBILE
+   ============================================================ */
+
+@media (
+  max-width: 620px
+) {
+  .tr-rec-card {
+    margin-bottom: 18px;
+    padding: 16px;
+    border-radius: 18px;
+  }
+
+  .tr-rec-hero {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .tr-rec-overall {
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns:
+      1fr auto;
+    align-items: center;
+    gap: 4px 12px;
+    padding: 14px 16px;
+    text-align: left;
+  }
+
+  .tr-rec-overall > span {
+    margin: 0;
+  }
+
+  .tr-rec-overall strong {
+    grid-row:
+      1 /
+      span 2;
+    grid-column: 2;
+    font-size: 27px;
+  }
+
+  .tr-rec-overall__coverage {
+    margin: 0;
+  }
+
+  .tr-rec-panel {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .tr-rec-section-heading {
+    gap: 10px;
+  }
+
+  .tr-rec-admission-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tr-rec-fit-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tr-rec-decision {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .tr-rec-confidence {
+    width: auto;
+  }
+}
+
+
+/* ============================================================
+   VERY SMALL MOBILE
+   ============================================================ */
+
+@media (
+  max-width: 420px
+) {
+  .tr-rec-card {
+    padding: 13px;
+  }
+
+  .tr-rec-hero h3 {
+    font-size: 18px;
+  }
+
+  .tr-rec-section-heading {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .tr-rec-admission-chip {
+    width: fit-content;
+  }
+
+  .tr-rec-score-total {
+    margin-top: 2px;
+  }
+}
+/* ============================================================
+   SCORE EXPLAINER
+   ============================================================ */
+
+.tr-rec-explain-block {
+  margin-top: 16px;
+}
+
+.tr-rec-explain-block + .tr-rec-explain-block {
+  padding-top: 15px;
+  border-top: 1px solid #e8ebf2;
+}
+
+.tr-rec-explain-block > strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #24314e;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.tr-rec-explain-block p {
+  margin: 0;
+  color: #657086;
+  font-size: 11.5px;
+  line-height: 1.7;
+}
+
+.tr-rec-explain-block small {
+  display: block;
+  margin-top: 6px;
+  color: #8992a3;
+  font-size: 9.5px;
+  line-height: 1.55;
+}

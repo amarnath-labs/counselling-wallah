@@ -1,0 +1,97 @@
+{
+  "institution": "IIIT Guwahati (Indian Institute of Information Technology, Guwahati)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 13,
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.62,
+    "confidence": "medium",
+    "overall_rating_out_of_5": 3.9
+  },
+  "category_ratings": {
+    "college_infrastructure": 3.8,
+    "academics": 3.8,
+    "placements": 3.9,
+    "value_for_money": 4.0,
+    "campus_life": 4.0
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 62,
+    "neutral_percent": 24,
+    "negative_percent": 14
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Infrastructure",
+      "sentiment": "Positive",
+      "notes": "Well-furnished AC classrooms and labs, clean and silent library, big campus with sports areas; hostels equipped with gym, pool table, table tennis, foosball, air hockey, and music rooms."
+    },
+    {
+      "theme": "Placements",
+      "sentiment": "Positive",
+      "notes": "Around 85-90% placement rate reported in ECE; highest package around 16 LPA; top recruiters include Samsung and L&T; ~70% internship conversion."
+    },
+    {
+      "theme": "Faculty",
+      "sentiment": "Positive",
+      "notes": "Teachers described as helpful, well-qualified, and supportive in gaining industry experience; curriculum kept updated with latest trends."
+    },
+    {
+      "theme": "Value for Money & Campus Life",
+      "sentiment": "Positive",
+      "notes": "Highest-rated categories (4.0/5 each); scenic, green campus contributes positively to overall experience."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Mess Food Quality",
+      "sentiment": "Negative",
+      "notes": "Recurring complaint that mess food needs to be made healthier and updated."
+    },
+    {
+      "theme": "Location",
+      "sentiment": "Mixed",
+      "notes": "Campus situated far from the city, which some students note as a drawback."
+    },
+    {
+      "theme": "Library & Institute Maturity",
+      "sentiment": "Mixed",
+      "notes": "Library described as a little small, attributed to the institute being relatively new (established 2013); expected to improve over time."
+    },
+    {
+      "theme": "Package Variance",
+      "sentiment": "Mixed",
+      "notes": "Wide gap between highest (16 LPA) and lowest (4 LPA) packages indicates inconsistent placement outcomes across branches/students."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Mess food should be made healthy and updated — well-furnished AC classrooms and labs, clean library, but food not good",
+      "sentiment": "Mixed",
+      "score": 0.1
+    },
+    {
+      "review_snippet": "Almost 90% of students were placed in ECE, highest package 16 LPA, lowest 4 LPA, top recruiters Samsung and L&T",
+      "sentiment": "Positive",
+      "score": 0.8
+    },
+    {
+      "review_snippet": "Every hostel has gym, pool table, table tennis, carrom, foosball, air hockey, music room, library, sports grounds",
+      "sentiment": "Positive",
+      "score": 0.9
+    },
+    {
+      "review_snippet": "Library is a little small being a new institute but it is definitely going to improve",
+      "sentiment": "Mixed",
+      "score": 0.2
+    },
+    {
+      "review_snippet": "College fees per semester is Rs 112500 excluding mess and hostel charges",
+      "sentiment": "Neutral",
+      "score": 0.0
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Guwahati is positive and fairly balanced across categories, with particular strength in value for money and campus life. As a relatively young institute (established 2013), it shows some growing pains — a still-developing library and food quality concerns — but strong hostel amenities, decent placement rates, and supportive faculty keep overall sentiment favorable.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study. Care was taken to source data specifically for IIIT Guwahati, distinct from the separate institute IIT Guwahati."
+}

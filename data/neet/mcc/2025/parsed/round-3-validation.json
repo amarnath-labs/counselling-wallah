@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Rank 1 AIIMS Delhi",
+    "found": true,
+    "round1Institute": "AIIMS, New Delhi",
+    "round1Status": "Reported",
+    "round3HasSeat": false,
+    "round3Status": "Did not opt for Upgradation",
+    "pass": true
+  },
+  {
+    "name": "Rank 393 upgraded",
+    "found": true,
+    "status": "Upgraded",
+    "pass": true
+  },
+  {
+    "name": "Rank 1317215 NRI fresh",
+    "found": true,
+    "quota": "Non-Resident Indian",
+    "option": 1,
+    "nriPriority": 2,
+    "status": "Fresh Allotted in 3nd Round( NRI Priority : 2 )",
+    "pass": true
+  }
+]

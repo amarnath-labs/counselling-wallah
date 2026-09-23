@@ -1,4 +1,4 @@
-﻿import { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import PageHero from '../components/PageHero';
@@ -106,6 +106,45 @@ export default function Profile() {
       'jee main' ||
     normalizedProfileExamName ===
       'jee mains';
+
+
+  const isJeeAdvancedProfile =
+    normalizedSelectedExamId ===
+      'jee-advanced' ||
+    normalizedProfileExamId ===
+      'jee-advanced' ||
+    normalizedProfileExamName ===
+      'jee advanced';
+
+
+  const isUptacProfile =
+    normalizedSelectedExamId ===
+      'uptac' ||
+    normalizedProfileExamId ===
+      'uptac' ||
+    normalizedProfileExamName ===
+      'uptac';
+
+
+  const isNeetProfile =
+    normalizedSelectedExamId ===
+      'neet' ||
+    normalizedProfileExamId ===
+      'neet' ||
+    normalizedProfileExamName ===
+      'neet' ||
+    normalizedProfileExamName ===
+      'neet ug';
+
+
+  const isJeeProfile =
+    isJeeMainProfile ||
+    isJeeAdvancedProfile;
+
+
+  const isEngineeringProfile =
+    isJeeProfile ||
+    isUptacProfile;
 
 
   /*
@@ -254,6 +293,33 @@ export default function Profile() {
           ]
     );
   };
+
+  const toggleMedicalCourse = (
+    course
+  ) => {
+    const current =
+      Array.isArray(
+        p?.medicalCourses
+      )
+        ? p.medicalCourses
+        : [];
+
+    set(
+      'medicalCourses',
+      current.includes(
+        course
+      )
+        ? current.filter(
+            item =>
+              item !== course
+          )
+        : [
+            ...current,
+            course,
+          ]
+    );
+  };
+
 
   /*
   |--------------------------------------------------------------------------
@@ -627,7 +693,7 @@ export default function Profile() {
             Preferences
           </h3>
           {/* TRUMARG JOSAA CSAB SELECTOR */}
-          {(
+          {isJeeProfile && (
               <div className="field">
 
                 <label>
@@ -701,6 +767,150 @@ export default function Profile() {
           }
 
 
+
+          {isUptacProfile && (
+            <div className="field">
+
+              <label>
+                Counselling
+              </label>
+
+              <div className="chip-select">
+
+                <button
+                  type="button"
+                  className="chip on"
+                  disabled
+                >
+                  UPTAC
+                </button>
+
+              </div>
+
+              <div
+                style={{
+                  marginTop: 7,
+                  fontSize: 11,
+                  color: '#64748B',
+                }}
+              >
+                Using UPTAC counselling cutoff data
+              </div>
+
+            </div>
+          )}
+
+
+          {isNeetProfile && (
+            <>
+              <div className="field">
+
+                <label>
+                  Counselling
+                </label>
+
+                <div className="chip-select">
+
+                  <button
+                    type="button"
+                    className={
+                      `chip ${
+                        p?.counsellingMode !== 'state'
+                          ? 'on'
+                          : ''
+                      }`
+                    }
+                    onClick={() =>
+                      set(
+                        'counsellingMode',
+                        'mcc'
+                      )
+                    }
+                  >
+                    MCC / All India
+                  </button>
+
+
+                  <button
+                    type="button"
+                    className={
+                      `chip ${
+                        p?.counsellingMode ===
+                        'state'
+                          ? 'on'
+                          : ''
+                      }`
+                    }
+                    onClick={() =>
+                      set(
+                        'counsellingMode',
+                        'state'
+                      )
+                    }
+                  >
+                    State Counselling
+                  </button>
+
+                </div>
+
+              </div>
+
+
+              <div className="field">
+
+                <label>
+                  Preferred Medical Courses
+                </label>
+
+                <div className="chip-select">
+
+                  {[
+                    'MBBS',
+                    'BDS',
+                    'B.Sc. Nursing',
+                  ].map(
+                    course => {
+
+                      const selected =
+                        Array.isArray(
+                          p?.medicalCourses
+                        ) &&
+                        p.medicalCourses.includes(
+                          course
+                        );
+
+                      return (
+                        <button
+                          key={course}
+                          type="button"
+                          className={
+                            `chip ${
+                              selected
+                                ? 'on'
+                                : ''
+                            }`
+                          }
+                          onClick={() =>
+                            toggleMedicalCourse(
+                              course
+                            )
+                          }
+                        >
+                          {course}
+                        </button>
+                      );
+                    }
+                  )}
+
+                </div>
+
+              </div>
+            </>
+          )}
+
+
+          {isEngineeringProfile && (
+            <>
 
           <div className="field">
 
@@ -804,6 +1014,10 @@ export default function Profile() {
             </div>
 
           </div>
+
+            </>
+          )}
+
 
           <div className="grid-2">
 
@@ -988,7 +1202,13 @@ export default function Profile() {
           }
         >
           {resultsLoading
-            ? 'Checking JoSAA Cutoffs...'
+            ? (
+                isNeetProfile
+                  ? 'Checking NEET Cutoffs...'
+                  : isUptacProfile
+                    ? 'Checking UPTAC Cutoffs...'
+                    : 'Checking JoSAA Cutoffs...'
+              )
             : 'Generate My College Options →'}
         </Button>
 

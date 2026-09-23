@@ -1,0 +1,109 @@
+{
+  "institution": "IIIT Raichur (Indian Institute of Information Technology, Raichur)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 official statistics and Q&A, CollegeDunia reviews, Shiksha.com reviews (aggregated public data)",
+  "sample_size": 20,
+  "important_note": "This institute shows a notable divergence between official placement statistics and individual student review sentiment, which is flagged explicitly below rather than averaged away.",
+  "overall_sentiment": {
+    "label": "Mixed / Contested",
+    "score": 0.05,
+    "confidence": "medium",
+    "overall_rating_out_of_5": "Varies by source: 2.8/5 (Shiksha), ~3.9/5 average across CollegeDunia categories"
+  },
+  "category_ratings": {
+    "college_infrastructure": 2.7,
+    "academics": 3.5,
+    "placements": 3.0,
+    "value_for_money": 2.6,
+    "campus_life": 2.3,
+    "ratings_note": "Ratings shown are from Shiksha.com's more critical review base; CollegeDunia shows notably higher scores (Academic 4.2, Faculty 4.3, Infrastructure 3.8, Accommodation 4.0, Social Life 4.3, Placement 3.9) for the same institute, indicating a split in reviewer sentiment by platform."
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 38,
+    "neutral_percent": 22,
+    "negative_percent": 40
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Official Placement Statistics (2025)",
+      "sentiment": "Positive",
+      "notes": "Careers360's official data reports a 68.8% placement rate for 2025, average package of 18 LPA, highest package over 46 LPA, median 14 LPA, lowest 6 LPA; recruiters cited include Infosys, Amazon, and Microsoft."
+    },
+    {
+      "theme": "IIT Hyderabad Mentorship",
+      "sentiment": "Positive",
+      "notes": "Students are invited to IIT Hyderabad's campus (the mentor institute) for workshops and seminars, supplementing academic development."
+    },
+    {
+      "theme": "Basic Facilities at Transit Campus",
+      "sentiment": "Moderately Positive",
+      "notes": "Despite operating from a temporary transit campus at GEC Raichur, computer labs, hostel accommodation, auditorium, and playgrounds are reported as available."
+    },
+    {
+      "theme": "CollegeDunia Reviewer Ratings",
+      "sentiment": "Positive",
+      "notes": "CollegeDunia reviewers rate the institute considerably higher across categories: Academic 4.2, Faculty 4.3, Infrastructure 3.8, Accommodation 4.0, Social Life 4.3, Placement 3.9, with 75% of reviews giving 4 or 5 stars."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Alleged Placement Data Discrepancy",
+      "sentiment": "Strongly Negative",
+      "notes": "A detailed Shiksha.com review from a 2024 passout alleges that not a single student from their batch was placed, and that the college's claimed ~18 LPA average package figure is based on selectively calculating averages from only 5-6 placed students in a prior year while excluding the rest, calling official figures misleading."
+    },
+    {
+      "theme": "No Dedicated Placement Officer",
+      "sentiment": "Strongly Negative",
+      "notes": "The same review claims the college lacks a placement officer and that the director reportedly stated placement assistance is 'not their duty' — a serious institutional governance concern if accurate."
+    },
+    {
+      "theme": "Infrastructure (Critical View)",
+      "sentiment": "Negative",
+      "notes": "Shiksha reviews describe infrastructure as very poor, lacking proper hostels, entertainment facilities, and even medical staff on campus."
+    },
+    {
+      "theme": "Campus Life",
+      "sentiment": "Negative",
+      "notes": "Lowest-rated category on Shiksha (2.3/5), reflecting significant dissatisfaction with the overall student experience."
+    },
+    {
+      "theme": "Transit/Temporary Campus",
+      "sentiment": "Negative",
+      "notes": "Currently functioning from a temporary transit campus at Government Engineering College (GEC) Raichur rather than an independent, dedicated facility."
+    },
+    {
+      "theme": "Rating Platform Divergence",
+      "sentiment": "Flagged as a Concern",
+      "notes": "The stark difference between CollegeDunia's relatively favorable ratings and Shiksha's much harsher, detailed criticism (including specific placement fraud allegations) suggests either inconsistent experiences across batches/years or potential review manipulation on one or both platforms; this should be independently verified by prospective students."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Placement Experience: from 6th semester eligible for internships, placed in 7th semester, highest around 20 LPA, average 9-10 LPA, 70% placement rate (CollegeDunia)",
+      "sentiment": "Positive",
+      "score": 0.6
+    },
+    {
+      "review_snippet": "Worst thing is in our batch no one selected for placement, because placement cell didn't ask companies to visit college (CollegeDunia)",
+      "sentiment": "Strongly Negative",
+      "score": -0.8
+    },
+    {
+      "review_snippet": "As a 2024 passout, not even a single student got placed; college is showing old data claiming average package around 18 LPA, but that's fake; no placement officer (Shiksha)",
+      "sentiment": "Strongly Negative",
+      "score": -0.9
+    },
+    {
+      "review_snippet": "Infrastructure is as poor as you can imagine, no proper hostels, no entertainment facilities, no medical staff (Shiksha)",
+      "sentiment": "Strongly Negative",
+      "score": -0.8
+    },
+    {
+      "review_snippet": "In 2025, IIIT Raichur placement rate was 68.8%, highest package over 46 LPA, median 14 LPA, companies like Infosys, Amazon, Microsoft participated (Careers360 official)",
+      "sentiment": "Positive",
+      "score": 0.75
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Raichur is genuinely mixed and contested across sources. Official aggregated statistics (Careers360) and CollegeDunia reviewer ratings paint a reasonably positive picture with strong recent placement figures, while a detailed Shiksha.com review raises serious, specific allegations of placement data manipulation, absence of a placement officer, and poor infrastructure. Given this divergence, prospective students should treat any single source with caution and seek direct, current verification (e.g., from enrolled students or recent alumni) before relying on aggregate ratings alone.",
+  "disclaimer": "This analysis is based on a sample of publicly available reviews and statistics from Careers360, CollegeDunia, and Shiksha.com as of the search date and is illustrative, not a scientifically exhaustive sentiment study. The significant divergence between sources for this particular institute is a genuine finding, not an analysis error, and is highlighted rather than averaged out."
+}

@@ -1,0 +1,28 @@
+{
+  "completed": {
+    "uptac-a-n-a-college-of-engineering-management-bareilly": {
+      "status": "processed",
+      "beforeReviews": 0,
+      "afterReviews": 0,
+      "addedReviews": 0,
+      "at": "2026-09-22T07:33:02.794Z"
+    },
+    "uptac-abes-engg-college-ghaziabad": {
+      "status": "processed",
+      "beforeReviews": 0,
+      "afterReviews": 0,
+      "addedReviews": 0,
+      "at": "2026-09-22T07:33:03.826Z"
+    },
+    "uptac-abes-institute-of-technology-ghaziabad": {
+      "status": "processed",
+      "beforeReviews": 0,
+      "afterReviews": 0,
+      "addedReviews": 0,
+      "at": "2026-09-22T07:33:04.861Z"
+    }
+  },
+  "failed": {},
+  "lastCollegeId": "uptac-abes-institute-of-technology-ghaziabad",
+  "updatedAt": "2026-09-22T07:33:04.862Z"
+}

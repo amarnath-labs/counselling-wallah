@@ -1,0 +1,108 @@
+{
+  "institution": "IIIT Bhagalpur (Indian Institute of Information Technology, Bhagalpur)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 3,
+  "sample_size_caveat": "Sample size is very small (3 reviews), so confidence in this sentiment analysis is lower than for institutes with larger review samples.",
+  "overall_sentiment": {
+    "label": "Mixed to Moderately Positive",
+    "score": 0.15,
+    "confidence": "low-medium",
+    "overall_rating_out_of_5": 3.5
+  },
+  "category_ratings": {
+    "college_infrastructure": 3.3,
+    "academics": 3.3,
+    "placements": 3.0,
+    "value_for_money": 3.0,
+    "campus_life": 3.3
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 42,
+    "neutral_percent": 24,
+    "negative_percent": 34
+  },
+  "key_positive_themes": [
+    {
+      "theme": "IIT Guwahati Mentorship",
+      "sentiment": "Positive",
+      "notes": "IIIT Bhagalpur is mentored by IIT Guwahati, giving it access to academic expertise, research resources, and expert guidance in setting up laboratories."
+    },
+    {
+      "theme": "IT Infrastructure",
+      "sentiment": "Positive",
+      "notes": "Modern labs, high-speed internet via National Knowledge Network (1gbps), digital library, tech-enabled classrooms; over 300 network nodes with dedicated Dell PowerEdge servers."
+    },
+    {
+      "theme": "Academics",
+      "sentiment": "Moderately Positive",
+      "notes": "CSE curriculum focuses on AI, data science, and coding; professors described as reputed, knowledgeable, and experienced; workshops, hackathons, and research projects offered."
+    },
+    {
+      "theme": "Scenic Location",
+      "sentiment": "Positive",
+      "notes": "Campus surrounded by fantastic scenery including the river Ganges, providing a peaceful environment for students and staff."
+    },
+    {
+      "theme": "Best-Case Placements",
+      "sentiment": "Positive",
+      "notes": "One review cites a highest package offered of 23 LPA, with placement support and guidance sessions provided by the college."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "Hostel & Mess Quality",
+      "sentiment": "Negative",
+      "notes": "Only triple-sharing hostel rooms are available; mess facility described as very poor."
+    },
+    {
+      "theme": "Value for Money",
+      "sentiment": "Negative",
+      "notes": "Rated among the lowest categories (3.0/5); total expenses around 15 lakh for a 4-year B.Tech considered very costly relative to facilities provided; one reviewer explicitly states they would not personally recommend the institute on this basis."
+    },
+    {
+      "theme": "Placement Decline & Weak Coding Culture",
+      "sentiment": "Negative",
+      "notes": "Placements described as average compared to other IIITs/NITs; while previous batches saw good placements, recent trends (attributed partly to broader economic conditions) show decline; coding culture noted as not strong."
+    },
+    {
+      "theme": "Campus Location & Life",
+      "sentiment": "Negative",
+      "notes": "Campus is under construction and situated in a remote area far from Bhagalpur city; people around campus described as not very helpful or interactive; campus life rated as poor by one reviewer."
+    },
+    {
+      "theme": "Hectic Syllabus & Lab Equipment",
+      "sentiment": "Negative",
+      "notes": "Syllabus described as hectic across all branches, leaving little time for self-development; some labs reportedly have low-spec PCs unable to support required software."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Educational — modern labs, high-speed internet, digital library, but triple sharing bedrooms only and mess facility very poor",
+      "sentiment": "Mixed",
+      "score": -0.1
+    },
+    {
+      "review_snippet": "College is very costly in terms of facilities provided, total expenses around 15 lakhs for 4-year B.Tech, will personally not recommend it",
+      "sentiment": "Negative",
+      "score": -0.7
+    },
+    {
+      "review_snippet": "Poor campus life, campus under construction, situated in remote area far from main Bhagalpur city, people around campus not very helpful",
+      "sentiment": "Negative",
+      "score": -0.6
+    },
+    {
+      "review_snippet": "Placements are quite good if one has great skills, highest package offered is 23 LPA, college provides support and guidance",
+      "sentiment": "Positive",
+      "score": 0.6
+    },
+    {
+      "review_snippet": "IIIT Bhagalpur is mentored by IIT Guwahati, giving access to academic expertise, resources, and research-oriented faculty",
+      "sentiment": "Positive",
+      "score": 0.65
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Bhagalpur is mixed, with modern IT infrastructure and IIT Guwahati mentorship as genuine strengths, offset by significant concerns around cost relative to facilities, poor hostel and mess quality, a remote and still-developing campus location, and inconsistent recent placement performance. Among the newer IIITs reviewed, this stands out as one with more pronounced student dissatisfaction, particularly regarding value for money.",
+  "disclaimer": "This analysis is based on a very small sample of publicly available student reviews and Q&A threads (Careers360) as of the search date. Given the limited sample size (3 reviews), results are illustrative only and not a scientifically robust sentiment study."
+}

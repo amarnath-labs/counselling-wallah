@@ -1,4 +1,4 @@
-﻿import {
+import {
   useMemo,
   useState,
 } from 'react';
@@ -40,6 +40,14 @@ const ENABLED_EXAMS = [
       'Explore Uttar Pradesh engineering college options through UPTAC counselling.',
     active: true,
   },
+
+  {
+    id: 'neet',
+    name: 'NEET UG',
+    desc:
+      'Explore MBBS, BDS and other medical admission possibilities using your NEET UG rank.',
+    active: true,
+  },
 ];
 
 
@@ -57,7 +65,7 @@ export default function Exams() {
 
   /*
   |--------------------------------------------------------------------------
-  | ONLY THREE ENABLED EXAMS
+  | ENABLED EXAMS
   |--------------------------------------------------------------------------
   */
 
@@ -121,6 +129,7 @@ export default function Exams() {
           'jee-main',
           'jee-advanced',
           'uptac',
+          'neet',
         ]);
 
       if (
@@ -181,7 +190,7 @@ export default function Exams() {
     <>
       <PageHero
         title="Choose Your Exam"
-        description="Select JEE Main, JEE Advanced or UPTAC to continue with TruMarg college recommendations."
+        description="Select JEE Main, JEE Advanced, UPTAC or NEET UG to continue with TruMarg college recommendations."
         crumb={
           <>
             <a href="/">
@@ -219,7 +228,7 @@ export default function Exams() {
             </h3>
 
             <p>
-              Only JEE Main, JEE Advanced and UPTAC are currently available.
+              JEE Main, JEE Advanced, UPTAC and NEET UG are currently available.
             </p>
           </div>
         )}

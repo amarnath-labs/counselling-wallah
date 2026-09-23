@@ -1,0 +1,1096 @@
+﻿import fs from 'fs';
+import path from 'path';
+import {
+  fileURLToPath,
+} from 'url';
+
+
+const __filename =
+  fileURLToPath(
+    import.meta.url
+  );
+
+const __dirname =
+  path.dirname(
+    __filename
+  );
+
+
+const DATA_ROOT =
+  path.resolve(
+    __dirname,
+    '../../../data/neet/mcc'
+  );
+
+
+const DEFAULT_COURSES = [
+  'MBBS',
+  'BDS',
+  'B.Sc. Nursing',
+];
+
+
+/*
+|--------------------------------------------------------------------------
+| HELPERS
+|--------------------------------------------------------------------------
+*/
+
+function normalize(
+  value
+) {
+  return String(
+    value ?? ''
+  )
+    .trim()
+    .toLowerCase();
+}
+
+
+function normalizeCategory(
+  value
+) {
+  const key =
+    normalize(
+      value
+    )
+      .replace(
+        /[^a-z0-9]/g,
+        ''
+      );
+
+
+  const map = {
+    general:
+      'Open',
+
+    gen:
+      'Open',
+
+    open:
+      'Open',
+
+    ur:
+      'Open',
+
+    ews:
+      'EWS',
+
+    obc:
+      'OBC',
+
+    obcncl:
+      'OBC',
+
+    sc:
+      'SC',
+
+    st:
+      'ST',
+
+    generalpwd:
+      'Open PwD',
+
+    openpwd:
+      'Open PwD',
+
+    obcpwd:
+      'OBC PwD',
+
+    ewspwd:
+      'EWS PwD',
+
+    scpwd:
+      'SC PwD',
+
+    stpwd:
+      'ST PwD',
+  };
+
+
+  return (
+    map[key] ||
+    String(
+      value ||
+      'Open'
+    ).trim()
+  );
+}
+
+
+function normalizeCourse(
+  value
+) {
+  const raw =
+    String(
+      value ?? ''
+    )
+      .trim();
+
+  const key =
+    normalize(
+      raw
+    )
+      .replace(
+        /[^a-z0-9]/g,
+        ''
+      );
+
+
+  if (
+    key ===
+    'mbbs'
+  ) {
+    return 'MBBS';
+  }
+
+
+  if (
+    key ===
+    'bds'
+  ) {
+    return 'BDS';
+  }
+
+
+  if (
+    key ===
+      'bscnursing' ||
+    key ===
+      'nursing'
+  ) {
+    return 'B.Sc. Nursing';
+  }
+
+
+  return raw;
+}
+
+
+function normalizeRound(
+  value
+) {
+  const raw =
+    String(
+      value ?? '1'
+    )
+      .trim()
+      .toLowerCase();
+
+
+  if (
+    raw ===
+      'stray' ||
+    raw.includes(
+      'stray vacancy'
+    )
+  ) {
+    return {
+      key:
+        'stray',
+
+      label:
+        'Stray Vacancy',
+    };
+  }
+
+
+  if (
+    raw.includes(
+      'special'
+    ) &&
+    raw.includes(
+      'stray'
+    )
+  ) {
+    return {
+      key:
+        'special-stray',
+
+      label:
+        'Special Stray',
+    };
+  }
+
+
+  const match =
+    raw.match(
+      /(\d+)/
+    );
+
+
+  const number =
+    match
+      ? Number(
+          match[1]
+        )
+      : 1;
+
+
+  return {
+    key:
+      `round-${number}`,
+
+    label:
+      `Round ${number}`,
+  };
+}
+
+
+function readJson(
+  file
+) {
+  return JSON.parse(
+    fs.readFileSync(
+      file,
+      'utf8'
+    )
+  );
+}
+
+
+function loadOrcrRows({
+  year,
+  round,
+}) {
+  const yearDir =
+    path.join(
+      DATA_ROOT,
+      String(
+        year
+      ),
+      'parsed'
+    );
+
+
+  if (
+    !fs.existsSync(
+      yearDir
+    )
+  ) {
+    throw new Error(
+      `NEET MCC data is not available for ${year}.`
+    );
+  }
+
+
+  const roundInfo =
+    normalizeRound(
+      round
+    );
+
+
+  const file =
+    path.join(
+      yearDir,
+      `${roundInfo.key}-orcr.json`
+    );
+
+
+  if (
+    !fs.existsSync(
+      file
+    )
+  ) {
+    throw new Error(
+      `NEET MCC ${year} ${roundInfo.label} data is not available.`
+    );
+  }
+
+
+  const payload =
+    readJson(
+      file
+    );
+
+
+  const rows =
+    Array.isArray(
+      payload
+    )
+      ? payload
+      : Array.isArray(
+          payload?.rows
+        )
+        ? payload.rows
+        : Array.isArray(
+            payload?.data
+          )
+          ? payload.data
+          : [];
+
+
+  return {
+    file,
+    roundInfo,
+    rows,
+  };
+}
+
+
+function safeSlug(
+  value
+) {
+  const slug =
+    String(
+      value ?? ''
+    )
+      .normalize(
+        'NFKD'
+      )
+      .replace(
+        /[\u0300-\u036f]/g,
+        ''
+      )
+      .toLowerCase()
+      .replace(
+        /[^a-z0-9]+/g,
+        '-'
+      )
+      .replace(
+        /^-+|-+$/g,
+        ''
+      )
+      .slice(
+        0,
+        90
+      );
+
+
+  return (
+    slug ||
+    'neet-college'
+  );
+}
+
+
+function getAdmissionBucket(
+  studentRank,
+  closingRank
+) {
+  const rank =
+    Number(
+      studentRank
+    );
+
+  const cutoff =
+    Number(
+      closingRank
+    );
+
+
+  if (
+    !Number.isFinite(
+      rank
+    ) ||
+    rank <= 0 ||
+    !Number.isFinite(
+      cutoff
+    ) ||
+    cutoff <= 0
+  ) {
+    return 'target';
+  }
+
+
+  const ratio =
+    rank /
+    cutoff;
+
+
+  if (
+    ratio <=
+    0.60
+  ) {
+    return 'backup';
+  }
+
+
+  if (
+    ratio <=
+    0.85
+  ) {
+    return 'safe';
+  }
+
+
+  if (
+    ratio <=
+    1.05
+  ) {
+    return 'target';
+  }
+
+
+  return 'dream';
+}
+
+
+function getAdmissionScore(
+  studentRank,
+  closingRank
+) {
+  const rank =
+    Number(
+      studentRank
+    );
+
+  const cutoff =
+    Number(
+      closingRank
+    );
+
+
+  if (
+    !Number.isFinite(
+      rank
+    ) ||
+    rank <= 0 ||
+    !Number.isFinite(
+      cutoff
+    ) ||
+    cutoff <= 0
+  ) {
+    return null;
+  }
+
+
+  const ratio =
+    rank /
+    cutoff;
+
+
+  /*
+   * Compatibility score only.
+   * This is NOT TruMarg's final premium score.
+   */
+
+  if (
+    ratio <=
+    0.60
+  ) {
+    return 90;
+  }
+
+
+  if (
+    ratio <=
+    0.85
+  ) {
+    return 82;
+  }
+
+
+  if (
+    ratio <=
+    1.00
+  ) {
+    return 74;
+  }
+
+
+  if (
+    ratio <=
+    1.05
+  ) {
+    return 65;
+  }
+
+
+  return 45;
+}
+
+
+function normalizeRow(
+  row,
+  studentRank
+) {
+  const institute =
+    String(
+      row?.institute ||
+      'Medical College'
+    ).trim();
+
+
+  const course =
+    normalizeCourse(
+      row?.course ||
+      'MBBS'
+    );
+
+
+  const openingRank =
+    Number(
+      row?.openingRank
+    );
+
+
+  const closingRank =
+    Number(
+      row?.closingRank
+    );
+
+
+  const category =
+    String(
+      row?.category ||
+      'Open'
+    ).trim();
+
+
+  const quota =
+    String(
+      row?.quota ||
+      ''
+    ).trim();
+
+
+  const year =
+    Number(
+      row?.year
+    );
+
+
+  const round =
+    String(
+      row?.round ??
+      ''
+    ).trim();
+
+
+  const collegeId =
+    `neet-${safeSlug(
+      institute
+    )}`;
+
+
+  const branchId =
+    `${collegeId}-${safeSlug(
+      course
+    )}`;
+
+
+  const bucket =
+    getAdmissionBucket(
+      studentRank,
+      closingRank
+    );
+
+
+  const admissionScore =
+    getAdmissionScore(
+      studentRank,
+      closingRank
+    );
+
+
+  return {
+    examId:
+      'neet',
+
+    sourceExam:
+      'NEET UG',
+
+    counsellingType:
+      'MCC',
+
+    authority:
+      row?.authority ||
+      row?.counselling ||
+      'MCC',
+
+    collegeId,
+
+    collegeName:
+      institute,
+
+    college: {
+      id:
+        collegeId,
+
+      name:
+        institute,
+
+      city:
+        '',
+
+      state:
+        '',
+
+      type:
+        'Medical',
+    },
+
+    city:
+      '',
+
+    state:
+      '',
+
+    type:
+      'Medical',
+
+    collegeType:
+      'Medical',
+
+    branchId,
+
+    branchName:
+      course,
+
+    branch: {
+      id:
+        branchId,
+
+      name:
+        course,
+
+      openingRank:
+        Number.isFinite(
+          openingRank
+        )
+          ? openingRank
+          : null,
+
+      closingRank:
+        Number.isFinite(
+          closingRank
+        )
+          ? closingRank
+          : null,
+    },
+
+    course,
+
+    year,
+
+    round,
+
+    quota,
+
+    category,
+
+    gender:
+      null,
+
+    openingRank:
+      Number.isFinite(
+        openingRank
+      )
+        ? openingRank
+        : null,
+
+    closingRank:
+      Number.isFinite(
+        closingRank
+      )
+        ? closingRank
+        : null,
+
+    allotmentCount:
+      Number(
+        row?.allotmentCount ??
+        row?.allotments ??
+        0
+      ),
+
+    admissionBucket:
+      bucket,
+
+    bucket,
+
+    admission: {
+      bucket,
+
+      score:
+        admissionScore,
+
+      status:
+        admissionScore ===
+        null
+          ? 'UNAVAILABLE'
+          : 'AVAILABLE',
+
+      studentRank:
+        Number(
+          studentRank
+        ),
+
+      openingRank:
+        Number.isFinite(
+          openingRank
+        )
+          ? openingRank
+          : null,
+
+      closingRank:
+        Number.isFinite(
+          closingRank
+        )
+          ? closingRank
+          : null,
+    },
+
+    /*
+     * Existing CollegeCard percentage meter reads row.overall.
+     * Keep NEET compatibility without changing JEE/UPTAC.
+     */
+
+    overall:
+      admissionScore,
+
+    overallScore:
+      admissionScore,
+
+    score:
+      admissionScore,
+
+    recommendationScore:
+      admissionScore,
+
+    verified:
+      true,
+
+    isVerified:
+      true,
+
+    verificationStatus:
+      'VERIFIED',
+
+    source:
+      'MCC official allotment OR-CR',
+
+    sourceLabel:
+      'MCC official allotment OR-CR',
+
+    dataSource:
+      'MCC',
+
+    cwRecAuthoritative:
+      false,
+
+    neetMccAuthoritative:
+      true,
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| MAIN SERVICE
+|--------------------------------------------------------------------------
+*/
+
+export async function fetchNeetRecommendations({
+  rank,
+  year = 2026,
+  round = 1,
+  category = 'Open',
+  courses = [],
+  counsellingMode = 'mcc',
+  limit = 100,
+}) {
+  const studentRank =
+    Number(
+      rank
+    );
+
+
+  if (
+    !Number.isInteger(
+      studentRank
+    ) ||
+    studentRank <= 0
+  ) {
+    throw new Error(
+      'Valid NEET rank is required.'
+    );
+  }
+
+
+  const targetYear =
+    Number(
+      year
+    );
+
+
+  if (
+    ![
+      2024,
+      2025,
+      2026,
+    ].includes(
+      targetYear
+    )
+  ) {
+    throw new Error(
+      'NEET MCC data is currently available for 2024, 2025 and 2026.'
+    );
+  }
+
+
+  const mode =
+    normalize(
+      counsellingMode
+    );
+
+
+  if (
+    mode &&
+    mode !==
+      'mcc' &&
+    mode !==
+      'all india' &&
+    mode !==
+      'all-india'
+  ) {
+    throw new Error(
+      'State counselling data is not connected yet. Please select MCC / All India.'
+    );
+  }
+
+
+  const wantedCategory =
+    normalizeCategory(
+      category
+    );
+
+
+  const requestedCourses =
+    (
+      Array.isArray(
+        courses
+      )
+        ? courses
+        : String(
+            courses || ''
+          ).split(',')
+    )
+      .map(
+        normalizeCourse
+      )
+      .filter(
+        Boolean
+      );
+
+
+  const wantedCourses =
+    requestedCourses.length
+      ? requestedCourses
+      : DEFAULT_COURSES;
+
+
+  const safeLimit =
+    Math.min(
+      Math.max(
+        Number(
+          limit
+        ) || 100,
+        1
+      ),
+      500
+    );
+
+
+  const {
+    file,
+    roundInfo,
+    rows,
+  } =
+    loadOrcrRows({
+      year:
+        targetYear,
+
+      round,
+    });
+
+
+  const normalizedCategory =
+    normalize(
+      wantedCategory
+    );
+
+
+  const wantedCourseKeys =
+    new Set(
+      wantedCourses.map(
+        course =>
+          normalize(
+            normalizeCourse(
+              course
+            )
+          )
+      )
+    );
+
+
+  const filtered =
+    rows
+      .filter(
+        row => {
+
+          const rowCategory =
+            normalize(
+              row?.category
+            );
+
+
+          const rowCourse =
+            normalize(
+              normalizeCourse(
+                row?.course
+              )
+            );
+
+
+          const closingRank =
+            Number(
+              row?.closingRank
+            );
+
+
+          /*
+           * Historical feasibility:
+           * candidate rank must be at or better
+           * than that row's historical closing rank.
+           */
+
+          const rankEligible =
+            Number.isFinite(
+              closingRank
+            ) &&
+            closingRank >=
+              studentRank;
+
+
+          return (
+            rowCategory ===
+              normalizedCategory &&
+            wantedCourseKeys.has(
+              rowCourse
+            ) &&
+            rankEligible
+          );
+        }
+      )
+      .map(
+        row =>
+          normalizeRow(
+            row,
+            studentRank
+          )
+      );
+
+
+  /*
+   * Closest historical closing ranks first.
+   * Tie-breaker: lower opening rank.
+   */
+
+  filtered.sort(
+    (
+      a,
+      b
+    ) => {
+
+      const aDistance =
+        Math.abs(
+          Number(
+            a.closingRank
+          ) -
+          studentRank
+        );
+
+
+      const bDistance =
+        Math.abs(
+          Number(
+            b.closingRank
+          ) -
+          studentRank
+        );
+
+
+      if (
+        aDistance !==
+        bDistance
+      ) {
+        return (
+          aDistance -
+          bDistance
+        );
+      }
+
+
+      return (
+        Number(
+          a.openingRank ||
+          Number.MAX_SAFE_INTEGER
+        ) -
+        Number(
+          b.openingRank ||
+          Number.MAX_SAFE_INTEGER
+        )
+      );
+    }
+  );
+
+
+  const data =
+    filtered.slice(
+      0,
+      safeLimit
+    );
+
+
+  return {
+    data,
+
+    meta: {
+      exam:
+        'NEET UG',
+
+      authority:
+        'MCC',
+
+      year:
+        targetYear,
+
+      round:
+        roundInfo.label,
+
+      category:
+        wantedCategory,
+
+      courses:
+        wantedCourses,
+
+      sourceRows:
+        rows.length,
+
+      eligibleRows:
+        filtered.length,
+
+      count:
+        data.length,
+
+      dataStatus:
+        targetYear ===
+          2026
+          ? 'partial-current-year'
+          : 'historical',
+
+      sourceFile:
+        path.relative(
+          path.resolve(
+            __dirname,
+            '../../..'
+          ),
+          file
+        ),
+    },
+
+    scoringVersion:
+      'NEET-MCC-ORCR-V1',
+  };
+}

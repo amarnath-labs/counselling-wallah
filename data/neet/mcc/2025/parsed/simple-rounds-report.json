@@ -1,0 +1,110 @@
+[
+  {
+    "key": "round-1",
+    "status": "success",
+    "parsedRows": 26607,
+    "rejectedRows": 0,
+    "quotaDictionarySize": 28,
+    "uniqueInstitutes": 572,
+    "courseCounts": {
+      "MBBS": 22148,
+      "BDS": 3980,
+      "B.Sc. Nursing": 479
+    },
+    "allottedCategoryCounts": {
+      "Open": 18553,
+      "OBC": 3424,
+      "SC": 1903,
+      "EWS": 1240,
+      "ST": 944,
+      "Open PwD": 260,
+      "OBC PwD": 161,
+      "SC PwD": 61,
+      "EWS PwD": 44,
+      "ST PwD": 17
+    },
+    "candidateCategoryCounts": {
+      "General": 12074,
+      "OBC": 8656,
+      "SC": 2506,
+      "EWS": 1799,
+      "ST": 1024,
+      "OBC PwD": 233,
+      "General PwD": 163,
+      "SC PwD": 68,
+      "EWS PwD": 66,
+      "ST PwD": 18
+    },
+    "nriPriorityRows": 557,
+    "firstRank": 1,
+    "lastRank": 1315471
+  },
+  {
+    "key": "stray",
+    "status": "success",
+    "parsedRows": 1129,
+    "rejectedRows": 0,
+    "quotaDictionarySize": 28,
+    "uniqueInstitutes": 368,
+    "courseCounts": {
+      "MBBS": 802,
+      "BDS": 266,
+      "B.Sc. Nursing": 61
+    },
+    "allottedCategoryCounts": {
+      "Open": 731,
+      "OBC": 151,
+      "SC": 128,
+      "ST": 51,
+      "EWS": 50,
+      "Open PwD": 10,
+      "OBC PwD": 8
+    },
+    "candidateCategoryCounts": {
+      "OBC": 421,
+      "General": 382,
+      "SC": 161,
+      "EWS": 93,
+      "ST": 54,
+      "OBC PwD": 13,
+      "General PwD": 5
+    },
+    "nriPriorityRows": 38,
+    "firstRank": 4952,
+    "lastRank": 1284136
+  },
+  {
+    "key": "special-stray",
+    "status": "success",
+    "parsedRows": 264,
+    "rejectedRows": 0,
+    "quotaDictionarySize": 28,
+    "uniqueInstitutes": 105,
+    "courseCounts": {
+      "BDS": 147,
+      "MBBS": 66,
+      "B.Sc. Nursing": 51
+    },
+    "allottedCategoryCounts": {
+      "Open": 153,
+      "SC": 41,
+      "OBC": 36,
+      "ST": 23,
+      "EWS": 9,
+      "Open PwD": 1,
+      "OBC PwD": 1
+    },
+    "candidateCategoryCounts": {
+      "OBC": 98,
+      "General": 66,
+      "SC": 48,
+      "EWS": 25,
+      "ST": 25,
+      "General PwD": 1,
+      "OBC PwD": 1
+    },
+    "nriPriorityRows": 5,
+    "firstRank": 14628,
+    "lastRank": 1227396
+  }
+]

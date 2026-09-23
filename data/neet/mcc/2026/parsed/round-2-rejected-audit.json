@@ -1,0 +1,69 @@
+{
+  "rejectedRows": 0,
+  "reasonCounts": [],
+  "firstTokenCounts": [],
+  "currentFirstTokenCounts": [],
+  "tokenHits": {
+    "Converted": {
+      "count": 0,
+      "sampleRanks": []
+    },
+    "Changed": {
+      "count": 0,
+      "sampleRanks": []
+    },
+    "Cancelled": {
+      "count": 0,
+      "sampleRanks": []
+    },
+    "Resigned": {
+      "count": 0,
+      "sampleRanks": []
+    },
+    "Joined": {
+      "count": 0,
+      "sampleRanks": []
+    },
+    "Not Joined": {
+      "count": 0,
+      "sampleRanks": []
+    },
+    "Not reported": {
+      "count": 0,
+      "sampleRanks": []
+    },
+    "Not Reported": {
+      "count": 0,
+      "sampleRanks": []
+    },
+    "Seat Surrendered": {
+      "count": 0,
+      "sampleRanks": []
+    },
+    "Fresh": {
+      "count": 0,
+      "sampleRanks": []
+    },
+    "Allotted": {
+      "count": 0,
+      "sampleRanks": []
+    },
+    "Retained": {
+      "count": 0,
+      "sampleRanks": []
+    },
+    "Upgraded": {
+      "count": 0,
+      "sampleRanks": []
+    },
+    "PwD": {
+      "count": 0,
+      "sampleRanks": []
+    },
+    "NRI": {
+      "count": 0,
+      "sampleRanks": []
+    }
+  },
+  "samplesByReason": {}
+}

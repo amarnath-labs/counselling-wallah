@@ -1,0 +1,1575 @@
+import fs from 'fs';
+import path from 'path';
+
+
+const ROOT =
+  path.resolve(
+    './data/neet/mcc/2025'
+  );
+
+
+const TEXT_DIR =
+  path.join(
+    ROOT,
+    'text'
+  );
+
+
+const OUTPUT_DIR =
+  path.join(
+    ROOT,
+    'parsed'
+  );
+
+
+const JOBS = [
+  {
+    key:
+      'round-1',
+
+    round:
+      'Round 1',
+  },
+
+  {
+    key:
+      'stray',
+
+    round:
+      'Stray Vacancy',
+  },
+
+  {
+    key:
+      'special-stray',
+
+    round:
+      'Special Stray',
+  },
+];
+
+
+const COURSES =
+  new Set([
+    'MBBS',
+    'BDS',
+    'B.Sc Nursing',
+    'B.SC NURSING',
+    'B.Sc. Nursing',
+  ]);
+
+
+const ALLOTTED_BASE =
+  new Set([
+    'Open',
+    'OBC',
+    'SC',
+    'ST',
+    'EWS',
+  ]);
+
+
+const CANDIDATE_BASE =
+  new Set([
+    'General',
+    'OBC',
+    'SC',
+    'ST',
+    'EWS',
+  ]);
+
+
+function ensureDir(
+  dir
+) {
+  fs.mkdirSync(
+    dir,
+    {
+      recursive: true,
+    }
+  );
+}
+
+
+function normalize(
+  value
+) {
+  return String(
+    value ?? ''
+  )
+    .replace(
+      /\s+/g,
+      ' '
+    )
+    .trim();
+}
+
+
+function normalizeKey(
+  value
+) {
+  return normalize(
+    value
+  )
+    .toLowerCase()
+    .replace(
+      /\s*-\s*/g,
+      '-'
+    )
+    .replace(
+      /\(\s+/g,
+      '('
+    )
+    .replace(
+      /\s+\)/g,
+      ')'
+    );
+}
+
+
+function linesFromText(
+  text
+) {
+  return String(
+    text || ''
+  )
+    .replace(
+      /\r\n/g,
+      '\n'
+    )
+    .replace(
+      /\r/g,
+      '\n'
+    )
+    .split(
+      '\n'
+    )
+    .map(
+      normalize
+    )
+    .filter(
+      Boolean
+    );
+}
+
+
+function isInteger(
+  value
+) {
+  return /^\d+$/.test(
+    String(
+      value ?? ''
+    )
+  );
+}
+
+
+function isPageNoise(
+  value
+) {
+  return (
+    /^Page No\.\s*\d+$/i.test(
+      value
+    ) ||
+
+    /^\d{2}-\d{2}-\d{4}\s+\d{2}:\d{2}:\d{2}\s+(AM|PM)$/i.test(
+      value
+    ) ||
+
+    /NEET-UG Counselling Seats Allotment/i.test(
+      value
+    ) ||
+
+    /^Revised NEET-UG Counselling/i.test(
+      value
+    ) ||
+
+    /^Note\*:-/i.test(
+      value
+    )
+  );
+}
+
+
+function normalizeCategory(
+  value
+) {
+  const text =
+    normalize(
+      value
+    );
+
+
+  const lower =
+    text.toLowerCase();
+
+
+  const map = {
+    /*
+     * MCC compressed PwD candidate codes
+     */
+
+    'gnyes':
+      'General PwD',
+
+    'bcyes':
+      'OBC PwD',
+
+    'ewyes':
+      'EWS PwD',
+
+    'scyes':
+      'SC PwD',
+
+    'styes':
+      'ST PwD',
+
+    'open':
+      'Open',
+
+    'open pwd':
+      'Open PwD',
+
+    'general':
+      'General',
+
+    'general pwd':
+      'General PwD',
+
+    'obc':
+      'OBC',
+
+    'obc pwd':
+      'OBC PwD',
+
+    'sc':
+      'SC',
+
+    'sc pwd':
+      'SC PwD',
+
+    'st':
+      'ST',
+
+    'st pwd':
+      'ST PwD',
+
+    'ews':
+      'EWS',
+
+    'ews pwd':
+      'EWS PwD',
+  };
+
+
+  return (
+    map[
+      lower
+    ] ||
+    text
+  );
+}
+
+
+function readCategory(
+  tokens,
+  start,
+  allowedBase
+) {
+
+  if (
+    start >=
+    tokens.length
+  ) {
+    return null;
+  }
+
+
+  const first =
+    normalizeCategory(
+      tokens[
+        start
+      ]
+    );
+
+
+  if (
+    /\sPwD$/i.test(
+      first
+    )
+  ) {
+    return {
+      value:
+        first,
+
+      consumed:
+        1,
+    };
+  }
+
+
+  if (
+    !allowedBase.has(
+      first
+    )
+  ) {
+    return null;
+  }
+
+
+  if (
+    normalize(
+      tokens[
+        start + 1
+      ]
+    )
+      .toLowerCase() ===
+    'pwd'
+  ) {
+    return {
+      value:
+        `${first} PwD`,
+
+      consumed:
+        2,
+    };
+  }
+
+
+  return {
+    value:
+      first,
+
+    consumed:
+      1,
+  };
+}
+
+
+function parseCategories(
+  tokens
+) {
+
+  const allotted =
+    readCategory(
+      tokens,
+      0,
+      ALLOTTED_BASE
+    );
+
+
+  if (
+    !allotted
+  ) {
+    return null;
+  }
+
+
+  const candidate =
+    readCategory(
+      tokens,
+      allotted.consumed,
+      CANDIDATE_BASE
+    );
+
+
+  if (
+    !candidate
+  ) {
+    return null;
+  }
+
+
+  const consumed =
+    allotted.consumed +
+    candidate.consumed;
+
+
+  return {
+    allottedCategory:
+      allotted.value,
+
+    candidateCategory:
+      candidate.value,
+
+    extraTokens:
+      tokens.slice(
+        consumed
+      ),
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| Extract MCC quota descriptions from the PDF glossary
+|--------------------------------------------------------------------------
+*/
+
+
+function extractQuotaNames(
+  lines
+) {
+
+  const start =
+    lines.findIndex(
+      line =>
+        /^Quota Abbrevation$/i.test(
+          line
+        )
+    );
+
+
+  const end =
+    lines.findIndex(
+      (
+        line,
+        index
+      ) =>
+        index >
+          start &&
+        /^Allotted Category Abbrevations$/i.test(
+          line
+        )
+    );
+
+
+  if (
+    start <
+      0 ||
+    end <=
+      start
+  ) {
+    throw new Error(
+      'Quota glossary not found.'
+    );
+  }
+
+
+  const names =
+    new Set();
+
+
+  /*
+   * Glossary is:
+   *
+   * abbreviation
+   * description
+   */
+
+  let i =
+    start + 3;
+
+
+  while (
+    i + 1 <
+    end
+  ) {
+
+    const code =
+      normalize(
+        lines[i]
+      );
+
+
+    const description =
+      normalize(
+        lines[
+          i + 1
+        ]
+      );
+
+
+    if (
+      code &&
+      description &&
+      code.length <=
+        12
+    ) {
+      names.add(
+        description
+      );
+    }
+
+
+    i +=
+      2;
+  }
+
+
+  return [
+    ...names
+  ].sort(
+    (
+      a,
+      b
+    ) =>
+      b.length -
+      a.length
+  );
+}
+
+
+function matchQuotaAt(
+  tokens,
+  start,
+  quotaNames
+) {
+
+  const max =
+    Math.min(
+      10,
+      tokens.length -
+        start
+    );
+
+
+  for (
+    let count =
+      max;
+    count >=
+      1;
+    count -=
+      1
+  ) {
+
+    const candidate =
+      normalizeKey(
+        tokens
+          .slice(
+            start,
+            start +
+              count
+          )
+          .join(
+            ' '
+          )
+      );
+
+
+    for (
+      const quota of
+      quotaNames
+    ) {
+
+      if (
+        candidate ===
+        normalizeKey(
+          quota
+        )
+      ) {
+
+        return {
+          quota,
+
+          consumed:
+            count,
+        };
+      }
+    }
+  }
+
+
+  return null;
+}
+
+
+function removeHeadersAndNoise(
+  lines
+) {
+
+  const result = [];
+
+
+  const headerWords =
+    new Set([
+      'SNo',
+      'Rank',
+      'Allotted Quota',
+      'Allotted Institute',
+      'Course',
+      'Alloted',
+      'Category',
+      'Candidate',
+      'Remarks',
+    ]);
+
+
+  for (
+    const line of
+    lines
+  ) {
+
+    if (
+      isPageNoise(
+        line
+      )
+    ) {
+      continue;
+    }
+
+
+    if (
+      headerWords.has(
+        line
+      )
+    ) {
+      continue;
+    }
+
+
+    result.push(
+      line
+    );
+  }
+
+
+  return result;
+}
+
+
+function findTableStart(
+  lines
+) {
+
+  for (
+    let i = 0;
+    i <
+      lines.length -
+        2;
+    i += 1
+  ) {
+
+    if (
+      lines[i] ===
+        'SNo' &&
+      lines[
+        i + 1
+      ] ===
+        'Rank'
+    ) {
+      return i;
+    }
+  }
+
+
+  return -1;
+}
+
+
+function findCourseIndex(
+  block
+) {
+
+  for (
+    let i = 0;
+    i <
+      block.length;
+    i += 1
+  ) {
+
+    if (
+      COURSES.has(
+        block[i]
+      )
+    ) {
+      return i;
+    }
+  }
+
+
+  return -1;
+}
+
+
+function findRemarkIndex(
+  block,
+  start
+) {
+
+  for (
+    let i =
+      start;
+    i <
+      block.length;
+    i += 1
+  ) {
+
+    if (
+      /^Allotted(?:\s*\(|$)/i.test(
+        block[i]
+      )
+    ) {
+      return i;
+    }
+  }
+
+
+  return -1;
+}
+
+
+function parseRows(
+  dataLines,
+  quotaNames,
+  round
+) {
+
+  const rows = [];
+  const rejected = [];
+
+
+  let i = 0;
+
+
+  while (
+    i <
+    dataLines.length
+  ) {
+
+    /*
+     * Simple MCC table row:
+     *
+     * SNo
+     * Rank
+     */
+
+    if (
+      !isInteger(
+        dataLines[i]
+      ) ||
+      !isInteger(
+        dataLines[
+          i + 1
+        ]
+      )
+    ) {
+      i +=
+        1;
+
+      continue;
+    }
+
+
+    const sno =
+      Number(
+        dataLines[i]
+      );
+
+
+    const rank =
+      Number(
+        dataLines[
+          i + 1
+        ]
+      );
+
+
+    let next =
+      i + 2;
+
+
+    while (
+      next <
+      dataLines.length
+    ) {
+
+      if (
+        isInteger(
+          dataLines[next]
+        ) &&
+        isInteger(
+          dataLines[
+            next + 1
+          ]
+        )
+      ) {
+        break;
+      }
+
+
+      next +=
+        1;
+    }
+
+
+    const block =
+      dataLines.slice(
+        i + 2,
+        next
+      );
+
+
+    const quotaMatch =
+      matchQuotaAt(
+        block,
+        0,
+        quotaNames
+      );
+
+
+    if (
+      !quotaMatch
+    ) {
+
+      rejected.push({
+        sno,
+        rank,
+        block,
+
+        reason:
+          'Quota not identified.',
+      });
+
+
+      i =
+        next;
+
+      continue;
+    }
+
+
+    const courseIndex =
+      findCourseIndex(
+        block
+      );
+
+
+    if (
+      courseIndex <
+        0 ||
+      courseIndex <=
+        quotaMatch.consumed
+    ) {
+
+      rejected.push({
+        sno,
+        rank,
+        block,
+
+        reason:
+          'Course/institute structure not identified.',
+      });
+
+
+      i =
+        next;
+
+      continue;
+    }
+
+
+    const remarkIndex =
+      findRemarkIndex(
+        block,
+        courseIndex + 1
+      );
+
+
+    if (
+      remarkIndex <
+      0
+    ) {
+
+      rejected.push({
+        sno,
+        rank,
+        block,
+
+        reason:
+          'Allotment remark not identified.',
+      });
+
+
+      i =
+        next;
+
+      continue;
+    }
+
+
+    const categoryTokens =
+      block.slice(
+        courseIndex + 1,
+        remarkIndex
+      );
+
+
+    const categories =
+      parseCategories(
+        categoryTokens
+      );
+
+
+    if (
+      !categories ||
+      categories
+        .extraTokens
+        .length >
+        0
+    ) {
+
+      rejected.push({
+        sno,
+        rank,
+        block,
+        categoryTokens,
+
+        reason:
+          'Category structure not identified.',
+      });
+
+
+      i =
+        next;
+
+      continue;
+    }
+
+
+    const institute =
+      normalize(
+        block
+          .slice(
+            quotaMatch.consumed,
+            courseIndex
+          )
+          .join(
+            ' '
+          )
+      );
+
+
+    const remarks =
+      normalize(
+        block
+          .slice(
+            remarkIndex
+          )
+          .join(
+            ' '
+          )
+      );
+
+
+    if (
+      !institute
+    ) {
+
+      rejected.push({
+        sno,
+        rank,
+        block,
+
+        reason:
+          'Institute missing.',
+      });
+
+
+      i =
+        next;
+
+      continue;
+    }
+
+
+    rows.push({
+      exam:
+        'NEET UG',
+
+      authority:
+        'MCC',
+
+      year:
+        2025,
+
+      round,
+
+      sno,
+
+      rank,
+
+      quota:
+        quotaMatch.quota,
+
+      institute,
+
+      course:
+        block[
+          courseIndex
+        ],
+
+      allottedCategory:
+        categories
+          .allottedCategory,
+
+      candidateCategory:
+        categories
+          .candidateCategory,
+
+      remarks,
+
+      nriPriority:
+        (() => {
+
+          const match =
+            remarks.match(
+              /NRI\s+Priority\s*:\s*(\d+)/i
+            );
+
+
+          return match
+            ? Number(
+                match[1]
+              )
+            : null;
+        })(),
+    });
+
+
+    i =
+      next;
+  }
+
+
+  return {
+    rows,
+    rejected,
+  };
+}
+
+
+function aggregateORCR(
+  rows
+) {
+
+  const groups =
+    new Map();
+
+
+  for (
+    const row of rows
+  ) {
+
+    const key =
+      [
+        row.institute,
+        row.course,
+        row.quota,
+        row.allottedCategory,
+      ]
+        .map(
+          normalizeKey
+        )
+        .join(
+          '||'
+        );
+
+
+    let group =
+      groups.get(
+        key
+      );
+
+
+    if (
+      !group
+    ) {
+
+      group = {
+        exam:
+          row.exam,
+
+        authority:
+          row.authority,
+
+        year:
+          row.year,
+
+        round:
+          row.round,
+
+        institute:
+          row.institute,
+
+        course:
+          row.course,
+
+        quota:
+          row.quota,
+
+        category:
+          row.allottedCategory,
+
+        openingRank:
+          row.rank,
+
+        closingRank:
+          row.rank,
+
+        allotmentCount:
+          0,
+      };
+
+
+      groups.set(
+        key,
+        group
+      );
+    }
+
+
+    group.openingRank =
+      Math.min(
+        group.openingRank,
+        row.rank
+      );
+
+
+    group.closingRank =
+      Math.max(
+        group.closingRank,
+        row.rank
+      );
+
+
+    group.allotmentCount +=
+      1;
+  }
+
+
+  return [
+    ...groups.values(),
+  ].sort(
+    (
+      a,
+      b
+    ) =>
+      a.openingRank -
+      b.openingRank
+  );
+}
+
+
+function countBy(
+  rows,
+  field
+) {
+
+  const counts =
+    new Map();
+
+
+  for (
+    const row of rows
+  ) {
+
+    const value =
+      row[field] ??
+      'NULL';
+
+
+    counts.set(
+      value,
+      (
+        counts.get(
+          value
+        ) ||
+        0
+      ) +
+      1
+    );
+  }
+
+
+  return Object.fromEntries(
+    [...counts.entries()]
+      .sort(
+        (
+          a,
+          b
+        ) =>
+          b[1] -
+          a[1]
+      )
+  );
+}
+
+
+function summarize(
+  rows,
+  rejected,
+  quotaNames
+) {
+
+  return {
+    parsedRows:
+      rows.length,
+
+    rejectedRows:
+      rejected.length,
+
+    quotaDictionarySize:
+      quotaNames.length,
+
+    uniqueInstitutes:
+      new Set(
+        rows.map(
+          row =>
+            row.institute
+        )
+      ).size,
+
+    courseCounts:
+      countBy(
+        rows,
+        'course'
+      ),
+
+    allottedCategoryCounts:
+      countBy(
+        rows,
+        'allottedCategory'
+      ),
+
+    candidateCategoryCounts:
+      countBy(
+        rows,
+        'candidateCategory'
+      ),
+
+    nriPriorityRows:
+      rows.filter(
+        row =>
+          row.nriPriority !==
+          null
+      ).length,
+
+    firstRank:
+      rows.length
+        ? Math.min(
+            ...rows.map(
+              row =>
+                row.rank
+            )
+          )
+        : null,
+
+    lastRank:
+      rows.length
+        ? Math.max(
+            ...rows.map(
+              row =>
+                row.rank
+            )
+          )
+        : null,
+  };
+}
+
+
+function parseJob(
+  job
+) {
+
+  const input =
+    path.join(
+      TEXT_DIR,
+      `${job.key}.txt`
+    );
+
+
+  console.log(
+    '\n\n========================================'
+  );
+
+  console.log(
+    `PARSING 2025 ${job.round}`
+  );
+
+  console.log(
+    '========================================'
+  );
+
+
+  const text =
+    fs.readFileSync(
+      input,
+      'utf8'
+    );
+
+
+  const allLines =
+    linesFromText(
+      text
+    );
+
+
+  const quotaNames =
+    extractQuotaNames(
+      allLines
+    );
+
+
+  const start =
+    findTableStart(
+      allLines
+    );
+
+
+  if (
+    start <
+      0
+  ) {
+    throw new Error(
+      `${job.key}: table start not found`
+    );
+  }
+
+
+  const dataLines =
+    removeHeadersAndNoise(
+      allLines.slice(
+        start + 2
+      )
+    );
+
+
+  const {
+    rows,
+    rejected,
+  } =
+    parseRows(
+      dataLines,
+      quotaNames,
+      job.round
+    );
+
+
+  const orcr =
+    aggregateORCR(
+      rows
+    );
+
+
+  const summary =
+    summarize(
+      rows,
+      rejected,
+      quotaNames
+    );
+
+
+  fs.writeFileSync(
+    path.join(
+      OUTPUT_DIR,
+      `${job.key}-rows.json`
+    ),
+
+    JSON.stringify(
+      rows,
+      null,
+      2
+    ),
+
+    'utf8'
+  );
+
+
+  fs.writeFileSync(
+    path.join(
+      OUTPUT_DIR,
+      `${job.key}-rejected.json`
+    ),
+
+    JSON.stringify(
+      rejected,
+      null,
+      2
+    ),
+
+    'utf8'
+  );
+
+
+  fs.writeFileSync(
+    path.join(
+      OUTPUT_DIR,
+      `${job.key}-orcr.json`
+    ),
+
+    JSON.stringify(
+      orcr,
+      null,
+      2
+    ),
+
+    'utf8'
+  );
+
+
+  fs.writeFileSync(
+    path.join(
+      OUTPUT_DIR,
+      `${job.key}-summary.json`
+    ),
+
+    JSON.stringify(
+      summary,
+      null,
+      2
+    ),
+
+    'utf8'
+  );
+
+
+  console.log(
+    JSON.stringify(
+      summary,
+      null,
+      2
+    )
+  );
+
+
+  console.log(
+    '\nFirst 5 rows:'
+  );
+
+
+  console.table(
+    rows
+      .slice(
+        0,
+        5
+      )
+      .map(
+        row => ({
+          rank:
+            row.rank,
+
+          quota:
+            row.quota,
+
+          institute:
+            row.institute,
+
+          course:
+            row.course,
+
+          allotted:
+            row.allottedCategory,
+
+          candidate:
+            row.candidateCategory,
+
+          remarks:
+            row.remarks,
+        })
+      )
+  );
+
+
+  return {
+    job,
+    rows,
+    rejected,
+    orcr,
+    summary,
+  };
+}
+
+
+function run() {
+
+  ensureDir(
+    OUTPUT_DIR
+  );
+
+
+  const reports = [];
+
+
+  for (
+    const job of
+    JOBS
+  ) {
+
+    try {
+
+      const result =
+        parseJob(
+          job
+        );
+
+
+      reports.push({
+        key:
+          job.key,
+
+        status:
+          'success',
+
+        ...result.summary,
+      });
+
+    } catch (
+      error
+    ) {
+
+      console.error(
+        `${job.key} FAILED: ${error.message}`
+      );
+
+
+      reports.push({
+        key:
+          job.key,
+
+        status:
+          'failed',
+
+        error:
+          error.message,
+      });
+    }
+  }
+
+
+  console.log(
+    '\n\n========================================'
+  );
+
+  console.log(
+    '2025 SIMPLE ROUND PARSING COMPLETE'
+  );
+
+  console.log(
+    '========================================'
+  );
+
+
+  console.table(
+    reports
+  );
+
+
+  fs.writeFileSync(
+    path.join(
+      OUTPUT_DIR,
+      'simple-rounds-report.json'
+    ),
+
+    JSON.stringify(
+      reports,
+      null,
+      2
+    ),
+
+    'utf8'
+  );
+}
+
+
+run();

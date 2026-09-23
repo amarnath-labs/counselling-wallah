@@ -1,0 +1,97 @@
+{
+  "institution": "IIIT Kota (Indian Institute of Information Technology, Kota)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 55,
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.55,
+    "confidence": "high",
+    "overall_rating_out_of_5": 4.3
+  },
+  "category_ratings": {
+    "college_infrastructure": 4.1,
+    "academics": 3.8,
+    "placements": 4.1,
+    "value_for_money": 3.0,
+    "campus_life": 4.3
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 58,
+    "neutral_percent": 20,
+    "negative_percent": 22
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Placements",
+      "sentiment": "Strongly Positive",
+      "notes": "Highest package reported up to 43 LPA in CSE (also cited as 25-30 LPA in some reviews); average package around 8-10 LPA; 85-95% placement rate; recruiters include Amazon and Flipkart."
+    },
+    {
+      "theme": "Shared MNIT Jaipur Infrastructure",
+      "sentiment": "Positive",
+      "notes": "IIIT Kota runs from the 300+ acre MNIT Jaipur campus, giving students access to established labs, library, sports facilities, swimming pool, AC laboratories, and a well-regarded hostel."
+    },
+    {
+      "theme": "Faculty & Curriculum",
+      "sentiment": "Positive",
+      "notes": "Faculty described by many as well-qualified and supportive, keeping students updated with new technologies; academic schedule seen as good with only two focused branches (CSE and ECE)."
+    },
+    {
+      "theme": "Campus Life",
+      "sentiment": "Positive",
+      "notes": "Highest-rated category (4.3/5); active student clubs organizing various activities."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "No Independent Campus",
+      "sentiment": "Negative",
+      "notes": "IIIT Kota's own campus (allotted since 2013, ~100 acres in Kota) remains under construction; institute currently has no independent identity, operating fully within MNIT Jaipur."
+    },
+    {
+      "theme": "Value for Money",
+      "sentiment": "Negative",
+      "notes": "Lowest-rated category (3.0/5); some students feel high fees (~2.5 lakh per 8 months) are not well justified against facilities received."
+    },
+    {
+      "theme": "No Independent Placement Cell",
+      "sentiment": "Mixed",
+      "notes": "Placements are managed by MNIT rather than IIIT Kota's own cell; some students report facing partiality relative to MNIT students during placement season."
+    },
+    {
+      "theme": "Faculty Permanence & Hostel Conditions",
+      "sentiment": "Negative",
+      "notes": "Some reviews cite lack of permanent faculty (mix of MNIT and contracted staff), limited practical/lab learning, and poor conditions in boys' hostel and toilets, plus wifi issues."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Until the campus runs in MNIT, everything would be up to mark — highest package 29.25 lakhs, more than 85% placed",
+      "sentiment": "Positive",
+      "score": 0.7
+    },
+    {
+      "review_snippet": "IIIT Kota placement is awesome; Amazon hires 6 students, highest package 30 lac, average package 6 lac",
+      "sentiment": "Positive",
+      "score": 0.85
+    },
+    {
+      "review_snippet": "I would rate value for money 0 but it's not possible — 2.5 lakh per 8 months just for land, electricity, food, water facility",
+      "sentiment": "Negative",
+      "score": -0.7
+    },
+    {
+      "review_snippet": "AVERAGE - boys hostel and toilet condition pathetic, internet and wifi issues common, no permanent faculty",
+      "sentiment": "Negative",
+      "score": -0.6
+    },
+    {
+      "review_snippet": "Maximum package is 43 LPA in CSE, with 10.06 LPA average package and 95.65% students placed",
+      "sentiment": "Positive",
+      "score": 0.9
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Kota is positive overall, buoyed significantly by strong placement outcomes and access to MNIT Jaipur's well-established infrastructure while its own campus remains under construction. The main friction points are value for money and the institute's continued lack of an independent campus and placement cell more than a decade after being allotted land, alongside some hostel and faculty-permanence concerns.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study."
+}

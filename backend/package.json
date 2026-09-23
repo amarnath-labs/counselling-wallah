@@ -9,7 +9,8 @@
     "db:migrate": "node src/db/migrate.js",
     "db:seed": "node src/db/seed.js",
     "db:import-premium": "node src/db/importPremiumCollegeData.js",
-    "check": "node --check src/server.js && node --check src/db/migrate.js && node --check src/db/seed.js && node --check src/db/importPremiumCollegeData.js"
+    "check": "node --check src/server.js && node --check src/db/migrate.js && node --check src/db/seed.js && node --check src/db/importPremiumCollegeData.js",
+    "smoke:production": "node scripts/smoke-production.mjs"
   },
   "dependencies": {
     "@napi-rs/canvas": "^1.0.8",

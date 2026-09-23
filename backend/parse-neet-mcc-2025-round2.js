@@ -1,0 +1,2752 @@
+﻿import fs from 'fs';
+import path from 'path';
+
+
+const INPUT =
+  path.resolve(
+    './data/neet/mcc/2025/text/round-2.txt'
+  );
+
+
+const OUTPUT_DIR =
+  path.resolve(
+    './data/neet/mcc/2025/parsed'
+  );
+
+
+const COURSES =
+  new Set([
+    'MBBS',
+    'BDS',
+    'B.Sc Nursing',
+    'B.SC NURSING',
+    'B.Sc. Nursing',
+  ]);
+
+
+const ALLOTTED_BASE =
+  new Set([
+    'Open',
+    'OBC',
+    'SC',
+    'ST',
+    'EWS',
+  ]);
+
+
+const CANDIDATE_BASE =
+  new Set([
+    'General',
+    'OBC',
+    'SC',
+    'ST',
+    'EWS',
+  ]);
+
+
+/*
+|--------------------------------------------------------------------------
+| BASIC HELPERS
+|--------------------------------------------------------------------------
+*/
+
+
+function ensureDir(
+  dir
+) {
+  fs.mkdirSync(
+    dir,
+    {
+      recursive: true,
+    }
+  );
+}
+
+
+function normalize(
+  value
+) {
+  return String(
+    value ?? ''
+  )
+    .replace(
+      /\s+/g,
+      ' '
+    )
+    .trim();
+}
+
+
+function getLines(
+  text
+) {
+  return String(
+    text || ''
+  )
+    .replace(
+      /\r\n/g,
+      '\n'
+    )
+    .replace(
+      /\r/g,
+      '\n'
+    )
+    .split(
+      '\n'
+    )
+    .map(
+      normalize
+    )
+    .filter(
+      Boolean
+    );
+}
+
+
+function isInteger(
+  value
+) {
+  return /^\d+$/.test(
+    String(
+      value ?? ''
+    )
+  );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| SOURCE RANK VALIDATOR
+|--------------------------------------------------------------------------
+|
+| MCC 2025 contains a genuine source rank:
+|
+|   13767.5
+|
+| SNo must remain integer, but rank may be integer or decimal.
+|
+*/
+
+function isSourceRank(
+  value
+) {
+  return /^\d+(?:\.\d+)?$/.test(
+    String(
+      value ?? ''
+    )
+  );
+}
+
+
+function isPageNoise(
+  value
+) {
+  return (
+    /^Page No\.\s*\d+$/i.test(
+      value
+    ) ||
+
+    /^\d{2}-\d{2}-\d{4}\s+\d{2}:\d{2}:\d{2}\s+(AM|PM)$/i.test(
+      value
+    ) ||
+
+    /^NEET-UG\s+Counselling Seats Allotment/i.test(
+      value
+    ) ||
+
+    /^Note\*:-/i.test(
+      value
+    )
+  );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| CATEGORY NORMALIZATION
+|--------------------------------------------------------------------------
+*/
+
+
+function normalizeCategory(
+  value
+) {
+  const text =
+    normalize(
+      value
+    );
+
+
+  const lower =
+    text.toLowerCase();
+
+
+  const map = {
+    'gnyes':
+      'General PwD',
+
+    'bcyes':
+      'OBC PwD',
+
+    'ewyes':
+      'EWS PwD',
+
+    'scyes':
+      'SC PwD',
+
+    'styes':
+      'ST PwD',
+
+    'open':
+      'Open',
+
+    'open pwd':
+      'Open PwD',
+
+    'general':
+      'General',
+
+    'general pwd':
+      'General PwD',
+
+    'obc':
+      'OBC',
+
+    'obc pwd':
+      'OBC PwD',
+
+    'sc':
+      'SC',
+
+    'sc pwd':
+      'SC PwD',
+
+    'st':
+      'ST',
+
+    'st pwd':
+      'ST PwD',
+
+    'ews':
+      'EWS',
+
+    'ews pwd':
+      'EWS PwD',
+  };
+
+
+  return (
+    map[
+      lower
+    ] ||
+    text
+  );
+}
+
+
+function readCategory(
+  tokens,
+  start,
+  allowedBase
+) {
+  if (
+    start >=
+    tokens.length
+  ) {
+    return null;
+  }
+
+
+  const first =
+    normalizeCategory(
+      tokens[
+        start
+      ]
+    );
+
+
+  /*
+   * Already combined:
+   * Open PwD
+   * OBC PwD
+   */
+
+  if (
+    /\sPwD$/i.test(
+      first
+    )
+  ) {
+    return {
+      value:
+        first,
+
+      consumed:
+        1,
+    };
+  }
+
+
+  if (
+    !allowedBase.has(
+      first
+    )
+  ) {
+    return null;
+  }
+
+
+  /*
+   * PDF split form:
+   *
+   * Open
+   * PwD
+   */
+
+  if (
+    normalize(
+      tokens[
+        start + 1
+      ]
+    )
+      .toLowerCase() ===
+    'pwd'
+  ) {
+    return {
+      value:
+        `${first} PwD`,
+
+      consumed:
+        2,
+    };
+  }
+
+
+  return {
+    value:
+      first,
+
+    consumed:
+      1,
+  };
+}
+
+
+function parseCategories(
+  tokens
+) {
+  const allotted =
+    readCategory(
+      tokens,
+      0,
+      ALLOTTED_BASE
+    );
+
+
+  if (
+    !allotted
+  ) {
+    return null;
+  }
+
+
+  const candidate =
+    readCategory(
+      tokens,
+      allotted.consumed,
+      CANDIDATE_BASE
+    );
+
+
+  if (
+    !candidate
+  ) {
+    return null;
+  }
+
+
+  const consumed =
+    allotted.consumed +
+    candidate.consumed;
+
+
+  return {
+    allottedCategory:
+      allotted.value,
+
+    candidateCategory:
+      candidate.value,
+
+    consumed,
+
+    extraTokens:
+      tokens.slice(
+        consumed
+      ),
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| EXTRACT QUOTA DESCRIPTIONS FROM MCC GLOSSARY
+|--------------------------------------------------------------------------
+|
+| Instead of hard-coding only a few quota names,
+| use MCC's own quota abbreviation glossary.
+|
+|--------------------------------------------------------------------------
+*/
+
+
+function extractQuotaNames(
+  lines
+) {
+  const start =
+    lines.findIndex(
+      line =>
+        /^Quota Abbrevation$/i.test(
+          line
+        )
+    );
+
+
+  const end =
+    lines.findIndex(
+      (
+        line,
+        index
+      ) =>
+        index >
+          start &&
+        /^Allotted Category Abbrevations$/i.test(
+          line
+        )
+    );
+
+
+  const quotas =
+    new Set();
+
+
+  if (
+    start >= 0 &&
+    end >
+      start
+  ) {
+
+    /*
+     * Structure:
+     *
+     * Abbrevation
+     * Description
+     * SA
+     * (AMU) Self finance All India
+     * SI
+     * ...
+     */
+
+    let descriptionIndex =
+      -1;
+
+
+    for (
+      let i =
+        start;
+      i <
+        end;
+      i += 1
+    ) {
+      if (
+        /^Description$/i.test(
+          lines[i]
+        )
+      ) {
+        descriptionIndex =
+          i;
+
+        break;
+      }
+    }
+
+
+    if (
+      descriptionIndex >=
+      0
+    ) {
+
+      for (
+        let i =
+          descriptionIndex + 1;
+        i + 1 <
+          end;
+        i += 2
+      ) {
+
+        const code =
+          normalize(
+            lines[i]
+          );
+
+
+        const description =
+          normalize(
+            lines[
+              i + 1
+            ]
+          );
+
+
+        /*
+         * MCC abbreviation is short.
+         * The following line is quota description.
+         */
+
+        if (
+          code.length <=
+            10 &&
+          description
+        ) {
+          quotas.add(
+            description
+          );
+        }
+      }
+    }
+  }
+
+
+  /*
+   * Important canonical/fallback values.
+   */
+
+  [
+    'Open Seat Quota',
+    'All India',
+    'Self-Financed Merit Seat',
+    'Self- Financed Merit Seat',
+
+    'Delhi University Quota',
+    'IP University Quota',
+
+    'Employees State Insurance Scheme(ESI)',
+    'Employees State Insurance Scheme(ES I)',
+    'Employees State Insurance Scheme Nursing Quota (ESI-IP Quota Nursing)',
+
+    'Foreign Country Quota',
+    'Internal -Puducherry UT Domicile',
+
+    'Jain Minority Quota',
+    'Jamia Internal Quota',
+
+    'Muslim Minority Quota',
+    'Muslim OBC Quota',
+    'Muslim Quota',
+    'Muslim ST Quota',
+    'Muslim Women Quota',
+
+    'Non-Resident Indian',
+    'Non-Resident Indian(AMU)Quota',
+    'Non-Resident Indian(Jamia)Quota',
+
+    '(AMU) Self finance All India',
+    '(AMU)Self finance internal',
+    'Aligarh Muslim University (AMU) Quota',
+
+    'B.Sc Nursing All India',
+    'B.Sc Nursing Delhi NCR',
+    'B.Sc Nursing Delhi NCR CW Quota',
+    'B.Sc Nursing IP CW Quota',
+
+    'Delhi NCR Children/Widows of Personnel of the Armed Forces (CW) DU Quota',
+    'Delhi NCR Children/Widows of Personnel of the Armed Forces (CW) IP Quota',
+  ].forEach(
+    value =>
+      quotas.add(
+        value
+      )
+  );
+
+
+  return [
+    ...quotas
+  ].sort(
+    (
+      a,
+      b
+    ) =>
+      b.length -
+      a.length
+  );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| REMOVE REPEATED PAGE TABLE HEADERS
+|--------------------------------------------------------------------------
+*/
+
+
+function removeTableHeaders(
+  lines
+) {
+  const result = [];
+
+
+  for (
+    let i = 0;
+    i <
+      lines.length;
+    i += 1
+  ) {
+
+    if (
+      isPageNoise(
+        lines[i]
+      )
+    ) {
+      continue;
+    }
+
+
+    /*
+     * Repeated Round-2 page header begins:
+     *
+     * Round 1
+     * Round 2
+     * Rank
+     * ...
+     * Remarks
+     *
+     * Remove entire header block.
+     */
+
+    if (
+      /^Round 1$/i.test(
+        lines[i]
+      ) &&
+      /^Round 2$/i.test(
+        lines[
+          i + 1
+        ] || ''
+      )
+    ) {
+
+      let remarksSeen =
+        0;
+
+
+      let cursor =
+        i;
+
+
+      while (
+        cursor <
+          lines.length &&
+        cursor <
+          i + 40
+      ) {
+
+        if (
+          /^Remarks$/i.test(
+            lines[
+              cursor
+            ]
+          )
+        ) {
+          remarksSeen +=
+            1;
+
+
+          if (
+            remarksSeen ===
+            2
+          ) {
+            i =
+              cursor;
+
+            break;
+          }
+        }
+
+
+        cursor +=
+          1;
+      }
+
+
+      continue;
+    }
+
+
+    result.push(
+      lines[i]
+    );
+  }
+
+
+  return result;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| QUOTA MATCHER
+|--------------------------------------------------------------------------
+*/
+
+
+function quotaMatchKey(
+  value
+) {
+  return String(
+    value || ''
+  )
+    .toLowerCase()
+
+    // Normalize all whitespace
+    .replace(
+      /\s+/g,
+      ' '
+    )
+
+    // MCC PDF frequently breaks:
+    // ES I -> ESI
+    .replace(
+      /\bes\s+i\b/g,
+      'esi'
+    )
+
+    // Self- Financed -> Self-Financed
+    .replace(
+      /\bself-\s+financed\b/g,
+      'self-financed'
+    )
+
+    // ESI- IP -> ESI-IP
+    .replace(
+      /\besi-\s+ip\b/g,
+      'esi-ip'
+    )
+
+    // Handle spaces around hyphens
+    .replace(
+      /\s*-\s*/g,
+      '-'
+    )
+
+    // Repair MCC PDF word breaks:
+    // Children/Wi + dows
+    // Children/Wid + ows
+    .replace(
+      /\bwi\s+dows\b/g,
+      'widows'
+    )
+    .replace(
+      /\bwid\s+ows\b/g,
+      'widows'
+    )
+
+    // Remove harmless spaces around brackets
+    .replace(
+      /\(\s+/g,
+      '('
+    )
+    .replace(
+      /\s+\)/g,
+      ')'
+    )
+    .replace(
+      /\)\s+/g,
+      ')'
+    )
+
+    /*
+     * MCC 2025 Jamia NRI PDF extraction:
+     *
+     *   Non- Resident Indian(Jami a)Quota
+     *   Non-Resident Indian(Jami a)Quota
+     *
+     * Canonical:
+     *
+     *   Non-Resident Indian(Jamia)Quota
+     */
+
+    .replace(
+      /\bnon-\s*resident\b/g,
+      'non-resident'
+    )
+
+    .replace(
+      /\bindian\(\s*jami\s+a\s*\)quota\b/g,
+      'indian(jamia)quota'
+    )
+
+        /*
+     * MCC 2025 broken Deemed/Paid quota.
+     *
+     * PDF extraction can produce:
+     *   Deemed/Pa id Seats Quota
+     *   Deemed / Pa id Seats Quota
+     *
+     * Canonical glossary value:
+     *   Deemed/Paid Seats Quota
+     */
+    .replace(
+      /\bpa\s+id\b/g,
+      'paid'
+    )
+    .replace(
+      /deemed\s*\/\s*paid/g,
+      'deemed/paid'
+    )
+.trim();
+}
+
+
+function matchQuotaAt(
+  tokens,
+  start,
+  quotaNames
+) {
+  if (
+    tokens[
+      start
+    ] ===
+    '-'
+  ) {
+    return {
+      value:
+        null,
+
+      consumed:
+        1,
+
+      missing:
+        true,
+    };
+  }
+
+
+  /*
+   * Join a reasonable number of PDF lines.
+   */
+
+  const maxParts =
+    Math.min(
+      12,
+      tokens.length -
+        start
+    );
+
+
+  for (
+    let partCount =
+      maxParts;
+    partCount >=
+      1;
+    partCount -=
+      1
+  ) {
+
+    const candidate =
+      normalize(
+        tokens
+          .slice(
+            start,
+            start +
+              partCount
+          )
+          .join(
+            ' '
+          )
+      );
+
+
+    for (
+      const quota of
+      quotaNames
+    ) {
+
+      if (
+        quotaMatchKey(
+          candidate
+        ) ===
+        quotaMatchKey(
+          quota
+        )
+      ) {
+        return {
+          value:
+            quota,
+
+          consumed:
+            partCount,
+
+          missing:
+            false,
+        };
+      }
+    }
+  }
+
+
+  return null;
+}
+
+
+function looksLikeQuotaStart(
+  tokens,
+  index,
+  quotaNames
+) {
+  if (
+    tokens[
+      index
+    ] ===
+    '-'
+  ) {
+    return true;
+  }
+
+
+  return Boolean(
+    matchQuotaAt(
+      tokens,
+      index,
+      quotaNames
+    )
+  );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| ROW START DETECTION
+|--------------------------------------------------------------------------
+|
+| Round 2 has no SNo.
+|
+| Each row starts with Rank.
+|
+| Option number is also numeric, so numeric alone is NOT sufficient.
+|
+| Rank must be followed by a valid quota or "-".
+|
+|--------------------------------------------------------------------------
+*/
+
+
+function findRowStarts(
+  tokens,
+  quotaNames
+) {
+  const starts = [];
+
+
+  for (
+    let i = 0;
+    i <
+      tokens.length - 2;
+    i += 1
+  ) {
+
+    /*
+     * 2025 Round 2 rows begin:
+     *
+     * SNo
+     * Rank
+     * previous-round quota or "-"
+     */
+
+    if (
+      !isInteger(
+        tokens[i]
+      ) ||
+      !isSourceRank(
+        tokens[
+          i + 1
+        ]
+      )
+    ) {
+      continue;
+    }
+
+
+    if (
+      !looksLikeQuotaStart(
+        tokens,
+        i + 2,
+        quotaNames
+      )
+    ) {
+      continue;
+    }
+
+
+    starts.push(
+      i
+    );
+  }
+
+
+  return starts;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| COURSE FINDER
+|--------------------------------------------------------------------------
+*/
+
+
+function findCourseIndex(
+  tokens,
+  start = 0
+) {
+  for (
+    let i =
+      start;
+    i <
+      tokens.length;
+    i += 1
+  ) {
+
+    if (
+      COURSES.has(
+        tokens[i]
+      )
+    ) {
+      return i;
+    }
+  }
+
+
+  return -1;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| ROUND 1 REMARK PARSER INSIDE ROUND 2 FILE
+|--------------------------------------------------------------------------
+*/
+
+
+function parseRound1Remark(
+  tokens,
+  start
+) {
+  const candidates = [
+    {
+      parts:
+        [
+          'Seat',
+          'Cancelled',
+        ],
+
+      value:
+        'Seat Cancelled',
+    },
+
+    {
+      parts:
+        [
+          'Not',
+          'Reported',
+        ],
+
+      value:
+        'Not Reported',
+    },
+
+    {
+      parts:
+        [
+          'Seat',
+          'Surrendered',
+        ],
+
+      value:
+        'Seat Surrendered',
+    },
+
+    {
+      parts:
+        [
+          'Reported',
+        ],
+
+      value:
+        'Reported',
+    },
+
+    {
+      parts:
+        [
+          'Resigned',
+        ],
+
+      value:
+        'Resigned',
+    },
+
+    {
+      parts:
+        [
+          'Joined',
+        ],
+
+      value:
+        'Joined',
+    },
+
+    {
+      parts:
+        [
+          'Not',
+          'Joined',
+        ],
+
+      value:
+        'Not Joined',
+    },
+
+    {
+      parts:
+        [
+          'Cancelled',
+        ],
+
+      value:
+        'Cancelled',
+    },
+  ];
+
+
+  for (
+    const candidate of
+    candidates
+  ) {
+
+    const actual =
+      normalize(
+        tokens
+          .slice(
+            start,
+            start +
+              candidate.parts.length
+          )
+          .join(
+            ' '
+          )
+      );
+
+
+    const expected =
+      normalize(
+        candidate.parts.join(
+          ' '
+        )
+      );
+
+
+    if (
+      actual
+        .toLowerCase() ===
+      expected
+        .toLowerCase()
+    ) {
+
+      return {
+        value:
+          candidate.value,
+
+        consumed:
+          candidate.parts.length,
+      };
+    }
+  }
+
+
+  return null;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| CANONICAL ROUND 2 REMARK
+|--------------------------------------------------------------------------
+*/
+
+
+function canonicalRound2Remark(
+  tokens
+) {
+  const text =
+    normalize(
+      tokens.join(
+        ' '
+      )
+    );
+
+
+  const lower =
+    text.toLowerCase();
+
+
+  if (
+    lower.includes(
+      'fresh allotted'
+    ) &&
+    lower.includes(
+      '2nd round'
+    )
+  ) {
+    return 'Fresh Allotted in 2nd Round';
+  }
+
+
+  if (
+    lower ===
+      'retained' ||
+    lower.includes(
+      'retained'
+    )
+  ) {
+    return 'Retained';
+  }
+
+
+  if (
+    lower.includes(
+      'not allotted'
+    )
+  ) {
+    return 'Not Allotted';
+  }
+
+
+  if (
+    lower.includes(
+      'did not opt'
+    ) &&
+    lower.includes(
+      'upgradation'
+    )
+  ) {
+    return 'Did not opt for Upgradation';
+  }
+
+
+  if (
+    lower.includes(
+      'upgraded'
+    )
+  ) {
+    return 'Upgraded';
+  }
+
+
+  if (
+    lower.includes(
+      'allotted'
+    )
+  ) {
+    return text;
+  }
+
+
+  return text;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| PARSE ROUND 1 SIDE OF ONE ROW
+|--------------------------------------------------------------------------
+*/
+
+
+function parsePreviousRound(
+  tokens,
+  quotaNames
+) {
+
+  /*
+   * Fresh candidate can have:
+   *
+   * -
+   * -
+   * -
+   * -
+   *
+   * for Round 1.
+   */
+
+  if (
+    tokens.length >=
+      4 &&
+    tokens[0] ===
+      '-' &&
+    tokens[1] ===
+      '-' &&
+    tokens[2] ===
+      '-' &&
+    tokens[3] ===
+      '-'
+  ) {
+
+    return {
+      previous: {
+        quota:
+          null,
+
+        institute:
+          null,
+
+        course:
+          null,
+
+        status:
+          null,
+      },
+
+      consumed:
+        4,
+    };
+  }
+
+
+  const quotaMatch =
+    matchQuotaAt(
+      tokens,
+      0,
+      quotaNames
+    );
+
+
+  if (
+    !quotaMatch ||
+    quotaMatch.missing
+  ) {
+    return null;
+  }
+
+
+  const courseIndex =
+    findCourseIndex(
+      tokens,
+      quotaMatch.consumed
+    );
+
+
+  if (
+    courseIndex <
+      0
+  ) {
+    return null;
+  }
+
+
+  const institute =
+    normalize(
+      tokens
+        .slice(
+          quotaMatch.consumed,
+          courseIndex
+        )
+        .join(
+          ' '
+        )
+    );
+
+
+  if (
+    !institute
+  ) {
+    return null;
+  }
+
+
+  /*
+   * MCC sometimes has an allotted Round-1
+   * institute/course but the Round-1 Remarks
+   * cell itself is blank and extracted as "-".
+   */
+
+  if (
+    tokens[
+      courseIndex + 1
+    ] ===
+    '-'
+  ) {
+    return {
+      previous: {
+        quota:
+          quotaMatch.value,
+
+        institute,
+
+        course:
+          tokens[
+            courseIndex
+          ],
+
+        status:
+          null,
+      },
+
+      consumed:
+        courseIndex + 2,
+    };
+  }
+
+
+  const remark =
+    parseRound1Remark(
+      tokens,
+      courseIndex + 1
+    );
+
+
+  if (
+    !remark
+  ) {
+    return null;
+  }
+
+
+  return {
+    previous: {
+      quota:
+        quotaMatch.value,
+
+      institute,
+
+      course:
+        tokens[
+          courseIndex
+        ],
+
+      status:
+        remark.value,
+    },
+
+    consumed:
+      courseIndex +
+      1 +
+      remark.consumed,
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| PARSE CURRENT ROUND SIDE
+|--------------------------------------------------------------------------
+*/
+
+
+function parseCurrentRound(
+  tokens,
+  quotaNames
+) {
+
+  /*
+   * No Round-2 allotment:
+   *
+   * -
+   * -
+   * -
+   * -
+   * -
+   * -
+   * Did not opt for Upgradation.
+   *
+   * or Not Allotted.
+   */
+
+  if (
+    tokens.length >=
+      6 &&
+    tokens
+      .slice(
+        0,
+        6
+      )
+      .every(
+        value =>
+          value ===
+          '-'
+      )
+  ) {
+
+    return {
+      current: {
+        quota:
+          null,
+
+        institute:
+          null,
+
+        course:
+          null,
+
+        allottedCategory:
+          null,
+
+        candidateCategory:
+          null,
+
+        optionNo:
+          null,
+
+        status:
+          canonicalRound2Remark(
+            tokens.slice(
+              6
+            )
+          ),
+
+        hasSeat:
+          false,
+      },
+
+      consumed:
+        tokens.length,
+    };
+  }
+
+
+  const quotaMatch =
+    matchQuotaAt(
+      tokens,
+      0,
+      quotaNames
+    );
+
+
+  if (
+    !quotaMatch ||
+    quotaMatch.missing
+  ) {
+    return null;
+  }
+
+
+  const courseIndex =
+    findCourseIndex(
+      tokens,
+      quotaMatch.consumed
+    );
+
+
+  if (
+    courseIndex <
+      0
+  ) {
+    return null;
+  }
+
+
+  const institute =
+    normalize(
+      tokens
+        .slice(
+          quotaMatch.consumed,
+          courseIndex
+        )
+        .join(
+          ' '
+        )
+    );
+
+
+  if (
+    !institute
+  ) {
+    return null;
+  }
+
+
+  /*
+   * Parse current-round fields structurally:
+   *
+   * Course
+   * -> Allotted Category
+   * -> Candidate Category
+   * -> Option No.
+   * -> Remarks
+   *
+   * Do NOT search from the right because NRI
+   * remarks can themselves contain numbers,
+   * e.g. "NRI Priority : 1".
+   */
+
+  const categoryStart =
+    courseIndex + 1;
+
+
+  const allottedCategory =
+    readCategory(
+      tokens,
+      categoryStart,
+      ALLOTTED_BASE
+    );
+
+
+  if (
+    !allottedCategory
+  ) {
+    return null;
+  }
+
+
+  const candidateStart =
+    categoryStart +
+    allottedCategory.consumed;
+
+
+  const candidateCategory =
+    readCategory(
+      tokens,
+      candidateStart,
+      CANDIDATE_BASE
+    );
+
+
+  if (
+    !candidateCategory
+  ) {
+    return null;
+  }
+
+
+  const optionIndex =
+    candidateStart +
+    candidateCategory.consumed;
+
+
+  if (
+    !isInteger(
+      tokens[
+        optionIndex
+      ]
+    )
+  ) {
+    return null;
+  }
+
+
+  const categories = {
+    allottedCategory:
+      allottedCategory.value,
+
+    candidateCategory:
+      candidateCategory.value,
+  };
+
+
+  const status =
+    canonicalRound2Remark(
+      tokens.slice(
+        optionIndex + 1
+      )
+    );
+
+
+  return {
+    current: {
+      quota:
+        quotaMatch.value,
+
+      institute,
+
+      course:
+        tokens[
+          courseIndex
+        ],
+
+      allottedCategory:
+        categories
+          .allottedCategory,
+
+      candidateCategory:
+        categories
+          .candidateCategory,
+
+      optionNo:
+        Number(
+          tokens[
+            optionIndex
+          ]
+        ),
+
+      status,
+
+      hasSeat:
+        true,
+    },
+
+    consumed:
+      tokens.length,
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| ROW PARSER
+|--------------------------------------------------------------------------
+*/
+
+
+function parseRows(
+  tokens,
+  quotaNames
+) {
+  const starts =
+    findRowStarts(
+      tokens,
+      quotaNames
+    );
+
+
+  const rows = [];
+  const rejected = [];
+
+
+  for (
+    let index = 0;
+    index <
+      starts.length;
+    index += 1
+  ) {
+
+    const start =
+      starts[
+        index
+      ];
+
+
+    const end =
+      index + 1 <
+        starts.length
+        ? starts[
+            index + 1
+          ]
+        : tokens.length;
+
+
+    const sno =
+      Number(
+        tokens[
+          start
+        ]
+      );
+
+
+    const rank =
+      Number(
+        tokens[
+          start + 1
+        ]
+      );
+
+
+    const block =
+      tokens.slice(
+        start + 2,
+        end
+      );
+
+
+    if (
+      block.length ===
+      0
+    ) {
+      continue;
+    }
+
+
+    const previous =
+      parsePreviousRound(
+        block,
+        quotaNames
+      );
+
+
+    if (
+      !previous
+    ) {
+
+      rejected.push({
+        rank,
+
+        block,
+
+        reason:
+          'Could not parse Round 1 side.',
+      });
+
+      continue;
+    }
+
+
+    const currentTokens =
+      block.slice(
+        previous.consumed
+      );
+
+
+    const current =
+      parseCurrentRound(
+        currentTokens,
+        quotaNames
+      );
+
+
+    if (
+      !current
+    ) {
+
+      rejected.push({
+        rank,
+
+        previous:
+          previous.previous,
+
+        currentTokens,
+
+        block,
+
+        reason:
+          'Could not parse Round 2 side.',
+      });
+
+      continue;
+    }
+
+
+    rows.push({
+      exam:
+        'NEET UG',
+
+      authority:
+        'MCC',
+
+      year:
+        2025,
+
+      sno,
+
+      rank,
+
+      round1:
+        previous.previous,
+
+      round2:
+        current.current,
+    });
+  }
+
+
+  return {
+    rows,
+    rejected,
+    detectedRowStarts:
+      starts.length,
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| ROUND 2 OR-CR
+|--------------------------------------------------------------------------
+|
+| Only records with an actual current Round-2 seat
+| are allowed into cutoff aggregation.
+|
+|--------------------------------------------------------------------------
+*/
+
+
+function aggregateORCR(
+  rows
+) {
+  const groups =
+    new Map();
+
+
+  const eligibleRows =
+    rows.filter(
+      row =>
+        row.round2
+          ?.hasSeat ===
+        true
+    );
+
+
+  for (
+    const row of
+    eligibleRows
+  ) {
+
+    const seat =
+      row.round2;
+
+
+    const key =
+      [
+        seat.institute,
+        seat.course,
+        seat.quota,
+        seat.allottedCategory,
+      ]
+        .map(
+          normalize
+        )
+        .join(
+          '||'
+        );
+
+
+    let group =
+      groups.get(
+        key
+      );
+
+
+    if (
+      !group
+    ) {
+
+      group = {
+        exam:
+          'NEET UG',
+
+        authority:
+          'MCC',
+
+        year:
+          2025,
+
+        round:
+          'Round 2',
+
+        institute:
+          seat.institute,
+
+        course:
+          seat.course,
+
+        quota:
+          seat.quota,
+
+        category:
+          seat.allottedCategory,
+
+        openingRank:
+          row.rank,
+
+        closingRank:
+          row.rank,
+
+        allotmentCount:
+          0,
+
+        freshAllottedCount:
+          0,
+
+        retainedCount:
+          0,
+
+        upgradedCount:
+          0,
+      };
+
+
+      groups.set(
+        key,
+        group
+      );
+    }
+
+
+    group.openingRank =
+      Math.min(
+        group.openingRank,
+        row.rank
+      );
+
+
+    group.closingRank =
+      Math.max(
+        group.closingRank,
+        row.rank
+      );
+
+
+    group.allotmentCount +=
+      1;
+
+
+    const status =
+      normalize(
+        seat.status
+      );
+
+
+    if (
+      status ===
+      'Fresh Allotted in 2nd Round'
+    ) {
+      group.freshAllottedCount +=
+        1;
+    }
+
+
+    if (
+      status ===
+      'Retained'
+    ) {
+      group.retainedCount +=
+        1;
+    }
+
+
+    if (
+      status ===
+      'Upgraded'
+    ) {
+      group.upgradedCount +=
+        1;
+    }
+  }
+
+
+  return [
+    ...groups.values(),
+  ].sort(
+    (
+      a,
+      b
+    ) => {
+
+      if (
+        a.openingRank !==
+        b.openingRank
+      ) {
+        return (
+          a.openingRank -
+          b.openingRank
+        );
+      }
+
+
+      return (
+        a.closingRank -
+        b.closingRank
+      );
+    }
+  );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| SUMMARY
+|--------------------------------------------------------------------------
+*/
+
+
+function countBy(
+  rows,
+  getter
+) {
+  const map =
+    new Map();
+
+
+  for (
+    const row of rows
+  ) {
+
+    const value =
+      normalize(
+        getter(
+          row
+        ) ||
+        'NULL'
+      );
+
+
+    map.set(
+      value,
+      (
+        map.get(
+          value
+        ) ||
+        0
+      ) +
+      1
+    );
+  }
+
+
+  return Object.fromEntries(
+    [...map.entries()]
+      .sort(
+        (
+          a,
+          b
+        ) =>
+          b[1] -
+          a[1]
+      )
+  );
+}
+
+
+function summarize(
+  rows,
+  rejected,
+  detectedRowStarts
+) {
+
+  const withCurrentSeat =
+    rows.filter(
+      row =>
+        row.round2
+          ?.hasSeat ===
+        true
+    );
+
+
+  const withoutCurrentSeat =
+    rows.filter(
+      row =>
+        row.round2
+          ?.hasSeat !==
+        true
+    );
+
+
+  return {
+    detectedRowStarts,
+
+    parsedRows:
+      rows.length,
+
+    rejectedRows:
+      rejected.length,
+
+    rowsWithRound2Seat:
+      withCurrentSeat.length,
+
+    rowsWithoutRound2Seat:
+      withoutCurrentSeat.length,
+
+    firstRank:
+      rows.length
+        ? Math.min(
+            ...rows.map(
+              row =>
+                row.rank
+            )
+          )
+        : null,
+
+    lastRank:
+      rows.length
+        ? Math.max(
+            ...rows.map(
+              row =>
+                row.rank
+            )
+          )
+        : null,
+
+    round1StatusCounts:
+      countBy(
+        rows,
+        row =>
+          row.round1
+            ?.status
+      ),
+
+    round2StatusCounts:
+      countBy(
+        rows,
+        row =>
+          row.round2
+            ?.status
+      ),
+
+    round2CourseCounts:
+      countBy(
+        withCurrentSeat,
+        row =>
+          row.round2
+            ?.course
+      ),
+
+    round2AllottedCategoryCounts:
+      countBy(
+        withCurrentSeat,
+        row =>
+          row.round2
+            ?.allottedCategory
+      ),
+  };
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| KNOWN VALIDATIONS FROM ACTUAL PDF PROBE
+|--------------------------------------------------------------------------
+*/
+
+
+function validateKnownRows(
+  rows
+) {
+  const tests = [];
+
+
+  const rank1 =
+    rows.find(
+      row =>
+        row.rank ===
+        1
+    );
+
+
+  tests.push({
+    name:
+      'Rank 1 AIIMS Delhi previous seat',
+
+    found:
+      Boolean(
+        rank1
+      ),
+
+    sno:
+      rank1?.sno ??
+      null,
+
+    rank:
+      rank1?.rank ??
+      null,
+
+    previousInstitute:
+      rank1?.round1
+        ?.institute ||
+      null,
+
+    previousStatus:
+      rank1?.round1
+        ?.status ||
+      null,
+
+    currentSeat:
+      rank1?.round2
+        ?.hasSeat ??
+      null,
+
+    currentStatus:
+      rank1?.round2
+        ?.status ||
+      null,
+
+    pass:
+      Boolean(
+        rank1
+      ) &&
+      rank1.sno ===
+        1 &&
+      rank1.round1
+        ?.institute
+        ?.toLowerCase()
+        .includes(
+          'aiims, new delhi'
+        ) &&
+      rank1.round1
+        ?.status ===
+        'Reported' &&
+      rank1.round2
+        ?.hasSeat ===
+        false &&
+      rank1.round2
+        ?.status ===
+        'Did not opt for Upgradation',
+  });
+
+
+  const sequential =
+    rows
+      .slice(
+        0,
+        Math.min(
+          100,
+          rows.length
+        )
+      )
+      .every(
+        (
+          row,
+          index
+        ) =>
+          Number.isInteger(
+            row.sno
+          ) &&
+          row.sno ===
+            index + 1
+      );
+
+
+  tests.push({
+    name:
+      'First 100 SNo sequential',
+
+    found:
+      rows.length >=
+      100,
+
+    pass:
+      sequential,
+  });
+
+
+  return tests;
+}
+
+/*
+|--------------------------------------------------------------------------
+| RUN
+|--------------------------------------------------------------------------
+*/
+
+
+function run() {
+
+  ensureDir(
+    OUTPUT_DIR
+  );
+
+
+  const rawText =
+    fs.readFileSync(
+      INPUT,
+      'utf8'
+    );
+
+
+  const rawLines =
+    getLines(
+      rawText
+    );
+
+
+  const quotaNames =
+    extractQuotaNames(
+      rawLines
+    );
+
+
+  console.log(
+    `Quota descriptions detected: ${quotaNames.length}`
+  );
+
+
+  const tableLines =
+    removeTableHeaders(
+      rawLines
+    );
+
+
+  /*
+   * Skip glossary.
+   *
+   * First real Round-2 row begins with rank 1
+   * followed by a quota.
+   */
+
+  let firstRowIndex =
+    -1;
+
+
+  for (
+    let i = 0;
+    i <
+      tableLines.length;
+    i += 1
+  ) {
+
+    if (
+      tableLines[i] ===
+        '1' &&
+      tableLines[
+        i + 1
+      ] ===
+        '1' &&
+      looksLikeQuotaStart(
+        tableLines,
+        i + 2,
+        quotaNames
+      )
+    ) {
+      firstRowIndex =
+        i;
+
+      break;
+    }
+  }
+
+
+  if (
+    firstRowIndex <
+    0
+  ) {
+    throw new Error(
+      'Could not locate first Round-2 data row.'
+    );
+  }
+
+
+  const tokens =
+    tableLines.slice(
+      firstRowIndex
+    );
+
+
+  const {
+    rows,
+    rejected,
+    detectedRowStarts,
+  } =
+    parseRows(
+      tokens,
+      quotaNames
+    );
+
+
+  const orcr =
+    aggregateORCR(
+      rows
+    );
+
+
+  const summary =
+    summarize(
+      rows,
+      rejected,
+      detectedRowStarts
+    );
+
+
+  const validation =
+    validateKnownRows(
+      rows
+    );
+
+
+  fs.writeFileSync(
+    path.join(
+      OUTPUT_DIR,
+      'round-2-rows.json'
+    ),
+
+    JSON.stringify(
+      rows,
+      null,
+      2
+    ),
+
+    'utf8'
+  );
+
+
+  fs.writeFileSync(
+    path.join(
+      OUTPUT_DIR,
+      'round-2-rejected.json'
+    ),
+
+    JSON.stringify(
+      rejected,
+      null,
+      2
+    ),
+
+    'utf8'
+  );
+
+
+  fs.writeFileSync(
+    path.join(
+      OUTPUT_DIR,
+      'round-2-orcr.json'
+    ),
+
+    JSON.stringify(
+      orcr,
+      null,
+      2
+    ),
+
+    'utf8'
+  );
+
+
+  fs.writeFileSync(
+    path.join(
+      OUTPUT_DIR,
+      'round-2-summary.json'
+    ),
+
+    JSON.stringify(
+      summary,
+      null,
+      2
+    ),
+
+    'utf8'
+  );
+
+
+  fs.writeFileSync(
+    path.join(
+      OUTPUT_DIR,
+      'round-2-validation.json'
+    ),
+
+    JSON.stringify(
+      validation,
+      null,
+      2
+    ),
+
+    'utf8'
+  );
+
+
+  fs.writeFileSync(
+    path.join(
+      OUTPUT_DIR,
+      'round-2-quota-dictionary.json'
+    ),
+
+    JSON.stringify(
+      quotaNames,
+      null,
+      2
+    ),
+
+    'utf8'
+  );
+
+
+  console.log(
+    '\n========================================'
+  );
+
+  console.log(
+    'NEET 2025 ROUND 2 PARSE COMPLETE'
+  );
+
+  console.log(
+    '========================================'
+  );
+
+
+  console.log(
+    '\nSUMMARY'
+  );
+
+
+  console.log(
+    JSON.stringify(
+      summary,
+      null,
+      2
+    )
+  );
+
+
+  console.log(
+    '\nKNOWN VALIDATION'
+  );
+
+
+  console.table(
+    validation
+  );
+
+
+  const failed =
+    validation.filter(
+      item =>
+        !item.pass
+    );
+
+
+  console.log(
+    '\n========================================'
+  );
+
+
+  if (
+    failed.length ===
+      0
+  ) {
+
+    console.log(
+      'ALL KNOWN ROUND-2 TESTS PASSED'
+    );
+
+  } else {
+
+    console.log(
+      `${failed.length} KNOWN TEST(S) FAILED`
+    );
+
+  }
+
+
+  console.log(
+    '========================================'
+  );
+
+
+  console.log(
+    '\nFIRST 10 CURRENT ROUND-2 SEATS'
+  );
+
+
+  console.table(
+    rows
+      .filter(
+        row =>
+          row.round2
+            ?.hasSeat
+      )
+      .slice(
+        0,
+        10
+      )
+      .map(
+        row => ({
+          rank:
+            row.rank,
+
+          quota:
+            row.round2
+              .quota,
+
+          institute:
+            row.round2
+              .institute,
+
+          course:
+            row.round2
+              .course,
+
+          category:
+            row.round2
+              .allottedCategory,
+
+          candidate:
+            row.round2
+              .candidateCategory,
+
+          option:
+            row.round2
+              .optionNo,
+
+          status:
+            row.round2
+              .status,
+        })
+      )
+  );
+
+
+  console.log(
+    '\nAIIMS NEW DELHI ROUND-2 OR-CR'
+  );
+
+
+  console.table(
+    orcr
+      .filter(
+        row =>
+          row.course ===
+            'MBBS' &&
+          row.institute
+            .toLowerCase()
+            .includes(
+              'aiims, new delhi'
+            )
+      )
+      .map(
+        row => ({
+          quota:
+            row.quota,
+
+          category:
+            row.category,
+
+          openingRank:
+            row.openingRank,
+
+          closingRank:
+            row.closingRank,
+
+          allotments:
+            row.allotmentCount,
+
+          fresh:
+            row.freshAllottedCount,
+
+          retained:
+            row.retainedCount,
+        })
+      )
+  );
+
+
+  console.log(
+    '\nOUTPUT FILES'
+  );
+
+
+  console.log(
+    path.join(
+      OUTPUT_DIR,
+      'round-2-rows.json'
+    )
+  );
+
+  console.log(
+    path.join(
+      OUTPUT_DIR,
+      'round-2-orcr.json'
+    )
+  );
+
+  console.log(
+    path.join(
+      OUTPUT_DIR,
+      'round-2-rejected.json'
+    )
+  );
+}
+
+
+run();
+

@@ -1,0 +1,331 @@
+.eri {
+  margin-top: 22px;
+  padding: 22px;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow:
+    0 8px 30px rgba(15, 23, 42, 0.05);
+}
+
+.eri-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.eri-header h3 {
+  margin: 6px 0 0;
+  font-size: 1.15rem;
+  line-height: 1.45;
+}
+
+.eri-eyebrow {
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+
+.eri-status {
+  min-width: 135px;
+  padding: 10px 14px;
+  border-radius: 14px;
+  background: #f3f4f6;
+  text-align: center;
+}
+
+.eri-status strong,
+.eri-status span {
+  display: block;
+}
+
+.eri-status span {
+  margin-top: 3px;
+  font-size: 0.78rem;
+  opacity: 0.68;
+}
+
+.eri-summary-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.eri-stat {
+  padding: 14px;
+  border-radius: 14px;
+  background: #f8fafc;
+}
+
+.eri-stat span,
+.eri-stat strong {
+  display: block;
+}
+
+.eri-stat span {
+  font-size: 0.76rem;
+  opacity: 0.65;
+}
+
+.eri-stat strong {
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+.eri-progress-wrap {
+  margin-top: 16px;
+}
+
+.eri-progress-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 7px;
+  font-size: 0.8rem;
+}
+
+.eri-progress-track {
+  width: 100%;
+  height: 8px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e5e7eb;
+}
+
+.eri-progress-bar {
+  height: 100%;
+  border-radius: inherit;
+  background: currentColor;
+  opacity: 0.7;
+}
+
+.eri-limited,
+.eri-qualified {
+  margin-top: 16px;
+  padding: 14px 16px;
+  border-radius: 14px;
+}
+
+.eri-limited {
+  background: #fff7ed;
+}
+
+.eri-qualified {
+  background: #f0fdf4;
+}
+
+.eri-limited p,
+.eri-qualified p {
+  margin: 6px 0 0;
+  line-height: 1.6;
+}
+
+.eri-section {
+  margin-top: 24px;
+}
+
+.eri-section h4 {
+  margin: 0 0 12px;
+  font-size: 1rem;
+}
+
+.eri-ratings {
+  display: grid;
+  gap: 8px;
+}
+
+.eri-rating-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 11px 14px;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.eri-sentiment-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.eri-sentiment-grid > div {
+  padding: 14px;
+  text-align: center;
+  border-radius: 14px;
+  background: #f8fafc;
+}
+
+.eri-sentiment-grid strong,
+.eri-sentiment-grid span {
+  display: block;
+}
+
+.eri-sentiment-grid strong {
+  font-size: 1.2rem;
+}
+
+.eri-sentiment-grid span {
+  margin-top: 4px;
+  font-size: 0.78rem;
+  opacity: 0.66;
+}
+
+.eri-theme-list {
+  display: grid;
+  gap: 10px;
+}
+
+.eri-theme {
+  padding: 15px 16px;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+}
+
+.eri-theme-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.eri-theme-sentiment {
+  margin-top: 5px;
+  font-size: 0.77rem;
+  opacity: 0.65;
+}
+
+.eri-theme p {
+  margin: 8px 0 0;
+  line-height: 1.65;
+}
+
+.eri-theme--positive {
+  background: #f0fdf4;
+}
+
+.eri-theme--negative {
+  background: #fff7ed;
+}
+
+.eri-distinction {
+  padding: 16px;
+  border-radius: 14px;
+  background: #eff6ff;
+}
+
+.eri-distinction p,
+.eri-reality p {
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+
+.eri-reality {
+  padding: 18px;
+  border-radius: 16px;
+  background: #f8fafc;
+}
+
+.eri-evidence-table {
+  display: grid;
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.eri-evidence-table > div {
+  padding: 12px;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.eri-evidence-table span,
+.eri-evidence-table strong {
+  display: block;
+}
+
+.eri-evidence-table span {
+  font-size: 0.74rem;
+  opacity: 0.64;
+}
+
+.eri-evidence-table strong {
+  margin-top: 4px;
+}
+
+.eri-sources {
+  margin: 12px 0 0;
+  line-height: 1.6;
+}
+
+.eri-ranking-impact,
+.eri-reported-rating {
+  margin-top: 18px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: #f9fafb;
+}
+
+.eri-ranking-impact p {
+  margin: 5px 0 0;
+}
+
+.eri-small-note {
+  margin-top: 5px;
+  font-size: 0.76rem;
+  opacity: 0.65;
+}
+
+.eri-analysis-date {
+  margin-top: 18px;
+  font-size: 0.76rem;
+  opacity: 0.6;
+}
+
+.eri-disclaimer {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid #e5e7eb;
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+
+.eri-disclaimer p {
+  margin: 5px 0 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 760px) {
+  .eri {
+    padding: 16px;
+  }
+
+  .eri-header {
+    flex-direction: column;
+  }
+
+  .eri-status {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+  .eri-summary-grid,
+  .eri-evidence-table {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .eri-summary-grid,
+  .eri-evidence-table,
+  .eri-sentiment-grid {
+    grid-template-columns: 1fr;
+  }
+}

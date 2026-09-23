@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Rank 1 no-upgradation",
+    "rank": 1,
+    "found": true,
+    "round1Institute": "AIIMS, New Delhi",
+    "round1Status": "Reported",
+    "round2HasSeat": false,
+    "round2Status": "Did not opt for Upgradation",
+    "pass": true
+  },
+  {
+    "name": "Rank 9731 fresh Round-2 seat",
+    "rank": 9731,
+    "found": true,
+    "institute": "Shri Atal Bihari Vajpayee Medical College & Research Institute , SHIVAJINAGAR, BENGALURU",
+    "course": "MBBS",
+    "allottedCategory": "OBC",
+    "candidateCategory": "OBC",
+    "optionNo": 6,
+    "status": "Fresh Allotted in 2nd Round",
+    "pass": true
+  },
+  {
+    "name": "Rank 34962 retained",
+    "rank": 34962,
+    "found": true,
+    "institute": "Osmania Medical College, Hyderabad , HYDERABAD",
+    "category": "SC",
+    "status": "Retained",
+    "pass": true
+  }
+]

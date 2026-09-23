@@ -1,4 +1,8 @@
 import {
+  fetchNeetRecommendations,
+} from '../services/neetRecommendationService';
+
+import {
   createContext,
   useContext,
   useEffect,
@@ -1192,6 +1196,54 @@ export function AppStateProvider({
         */
 
         if (
+          requestExamId ===
+          'neet'
+        ) {
+
+          console.log(
+            '[NEET] Calling MCC recommendation API...'
+          );
+
+
+          /*
+           * Do not reuse stale engineering branches.
+           * NEET uses profile.medicalCourses.
+           */
+
+          const neetProfile = {
+            ...exactProfile,
+
+            branches:
+              [],
+
+            preferredBranches:
+              [],
+
+            branchPreferences:
+              [],
+          };
+
+
+          rows =
+            await fetchNeetRecommendations(
+              neetProfile,
+              {
+                limit:
+                  100,
+              }
+            );
+
+
+          console.log(
+            '[NEET] Rows received:',
+            Array.isArray(
+              rows
+            )
+              ? rows.length
+              : 0
+          );
+
+        } else if (
           requestExamId ===
           'uptac'
         ) {

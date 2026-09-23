@@ -205,9 +205,9 @@ function normalizeApiRow(
   | These values come from:
   |
   | college_sentiment_summary
-  |        â†“
+  |        ↓
   | counselling backend API
-  |        â†“
+  |        ↓
   | recommendationService
   |
   | Missing review data MUST stay null.

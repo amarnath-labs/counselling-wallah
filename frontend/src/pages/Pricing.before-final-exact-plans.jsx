@@ -245,7 +245,7 @@ export default function Pricing() {
                       color: 'var(--ink)',
                     }}
                   >
-                    âœ“ {item}
+                    ✓ {item}
                   </div>
                 ))}
               </div>

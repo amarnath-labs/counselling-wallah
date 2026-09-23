@@ -38,6 +38,19 @@ const PLANS = {
     amount: 599,
     level: 3,
   },
+
+  /*
+  |--------------------------------------------------------------------------
+  | TRUMARG CHOICE PLAN 999
+  |--------------------------------------------------------------------------
+  */
+
+  'choice-plan': {
+    id: 'choice-plan',
+    name: 'Choice-Filling Plan',
+    amount: 999,
+    level: 4,
+  },
 };
 
 
@@ -291,6 +304,7 @@ router.post(
             AND status = 'verified'
           ORDER BY
             CASE plan_id
+              WHEN 'choice-plan' THEN 4
               WHEN 'support' THEN 3
               WHEN 'finder' THEN 2
               WHEN 'basic' THEN 1
@@ -797,6 +811,23 @@ router.get(
     next
   ) => {
     try {
+      /*
+      |--------------------------------------------------------------------------
+      | TRUMARG AGGREGATED PAYMENT ENTITLEMENTS
+      |--------------------------------------------------------------------------
+      |
+      | Products are NOT treated as one simple hierarchy.
+      |
+      | A user may own:
+      | - College Predictor
+      | - Recommendation
+      | - Choice-Filling Plan
+      | - Call Support
+      |
+      | independently.
+      |--------------------------------------------------------------------------
+      */
+
       const result =
         await pool.query(
           `
@@ -809,15 +840,8 @@ router.get(
           WHERE user_id = $1
             AND status = 'verified'
           ORDER BY
-            CASE plan_id
-              WHEN 'support' THEN 3
-              WHEN 'finder' THEN 2
-              WHEN 'basic' THEN 1
-              ELSE 0
-            END DESC,
             verified_at DESC NULLS LAST,
             id DESC
-          LIMIT 1
           `,
           [
             String(
@@ -827,55 +851,147 @@ router.get(
         );
 
 
-      const row =
-        result.rows?.[0] ||
+      const rows =
+        Array.isArray(
+          result.rows
+        )
+          ? result.rows
+          : [];
+
+
+      const purchasedPlans =
+        new Set(
+          rows
+            .map(
+              row =>
+                String(
+                  row?.plan_id ||
+                  ''
+                )
+                  .trim()
+                  .toLowerCase()
+            )
+            .filter(Boolean)
+        );
+
+
+      const hasBasic =
+        purchasedPlans.has(
+          'basic'
+        );
+
+      const hasFinder =
+        purchasedPlans.has(
+          'finder'
+        );
+
+      const hasSupport =
+        purchasedPlans.has(
+          'support'
+        );
+
+      const hasChoicePlan =
+        purchasedPlans.has(
+          'choice-plan'
+        );
+
+
+      const collegePredictor =
+        hasBasic ||
+        hasFinder ||
+        hasSupport ||
+        hasChoicePlan;
+
+
+      const recommendation =
+        hasFinder ||
+        hasSupport ||
+        hasChoicePlan;
+
+
+      const choiceFillingPlan =
+        hasChoicePlan;
+
+
+      const callSupport =
+        hasSupport;
+
+
+      /*
+      |--------------------------------------------------------------------------
+      | Compatibility primary plan
+      |--------------------------------------------------------------------------
+      */
+
+      let planId = null;
+
+      if (hasChoicePlan) {
+        planId =
+          'choice-plan';
+      } else if (hasSupport) {
+        planId =
+          'support';
+      } else if (hasFinder) {
+        planId =
+          'finder';
+      } else if (hasBasic) {
+        planId =
+          'basic';
+      }
+
+
+      const primaryRow =
+        rows.find(
+          row =>
+            String(
+              row?.plan_id ||
+              ''
+            )
+              .trim()
+              .toLowerCase() ===
+            planId
+        ) ||
         null;
-
-
-      const planId =
-        row?.plan_id ||
-        null;
-
-
-      const level =
-        planId
-          ? PLANS[
-              planId
-            ]?.level || 0
-          : 0;
 
 
       return res.json({
-        success:
-          true,
+        success: true,
 
         access: {
           planId,
 
           planName:
-            row?.plan_name ||
-            null,
+            primaryRow?.plan_name ||
+            (
+              planId
+                ? PLANS[
+                    planId
+                  ]?.name ||
+                  null
+                : null
+            ),
 
           hasPaidPlan:
-            level > 0,
+            purchasedPlans.size >
+            0,
 
-          collegePredictor:
-            level >= 1,
+          collegePredictor,
 
-          recommendation:
-            level >= 2,
+          recommendation,
 
-          callSupport:
-            level >= 3,
+          choiceFillingPlan,
+
+          callSupport,
+
+          purchasedPlans:
+            Array.from(
+              purchasedPlans
+            ),
         },
       });
 
-    } catch (
-      error
-    ) {
-      next(
-        error
-      );
+    } catch (error) {
+      next(error);
     }
   }
 );

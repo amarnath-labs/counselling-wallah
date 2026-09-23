@@ -1,0 +1,41 @@
+{
+  "detectedRowStarts": 35551,
+  "parsedRows": 35551,
+  "rejectedRows": 0,
+  "rowsWithRound2Seat": 15321,
+  "rowsWithoutRound2Seat": 20230,
+  "firstRank": 1,
+  "lastRank": 1315566,
+  "round1StatusCounts": {
+    "Reported": 15169,
+    "Not Reported": 11173,
+    "NULL": 8940,
+    "Seat Surrendered": 264,
+    "Seat Cancelled": 5
+  },
+  "round2StatusCounts": {
+    "Fresh Allotted in 2nd Round": 12901,
+    "Did not opt for Upgradation": 8081,
+    "Did not fill up fresh choices.": 4507,
+    "No Upgradation": 3968,
+    "Not Allotted": 3674,
+    "Upgraded": 2420
+  },
+  "round2CourseCounts": {
+    "MBBS": 13572,
+    "BDS": 1428,
+    "B.Sc. Nursing": 321
+  },
+  "round2AllottedCategoryCounts": {
+    "Open": 9791,
+    "OBC": 2458,
+    "SC": 1315,
+    "EWS": 865,
+    "ST": 618,
+    "Open PwD": 135,
+    "OBC PwD": 99,
+    "EWS PwD": 17,
+    "SC PwD": 16,
+    "ST PwD": 7
+  }
+}

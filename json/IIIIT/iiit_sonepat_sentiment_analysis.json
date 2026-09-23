@@ -1,0 +1,102 @@
+{
+  "institution": "IIIT Sonepat (Indian Institute of Information Technology, Sonepat)",
+  "analysis_date": "2026-09-22",
+  "data_source": "Careers360 student reviews and Q&A (aggregated public review data)",
+  "sample_size": 12,
+  "overall_sentiment": {
+    "label": "Positive",
+    "score": 0.55,
+    "confidence": "medium-high",
+    "overall_rating_out_of_5": 3.9
+  },
+  "category_ratings": {
+    "college_infrastructure": 3.5,
+    "academics": 4.0,
+    "placements": 4.0,
+    "value_for_money": 3.9,
+    "campus_life": 3.6
+  },
+  "sentiment_breakdown": {
+    "positive_percent": 58,
+    "neutral_percent": 24,
+    "negative_percent": 18
+  },
+  "key_positive_themes": [
+    {
+      "theme": "Placements",
+      "sentiment": "Strongly Positive",
+      "notes": "Around 82% placement rate; 22 companies participated in a recent drive; recruiters include Adobe Systems, IBM, Paytm, Accolite, ION Trading; highest package reported at 42 LPA, average around 8-9 LPA."
+    },
+    {
+      "theme": "Faculty Quality",
+      "sentiment": "Positive",
+      "notes": "Professors described as highly qualified, drawn from IITs, NITs, and even foreign universities; supportive in guiding both academics and career paths."
+    },
+    {
+      "theme": "Transit Campus Amenities",
+      "sentiment": "Moderately Positive",
+      "notes": "Despite being temporary, the transit campus (SBIT) has AC classrooms, projectors/smart boards, well-equipped labs, wifi, and a functional library."
+    },
+    {
+      "theme": "Academics",
+      "sentiment": "Positive",
+      "notes": "Rated 4.0/5; curriculum structured with coding fundamentals in year one, moving to applied projects from year two onward."
+    },
+    {
+      "theme": "Land & Future Campus",
+      "sentiment": "Neutral/Positive",
+      "notes": "300-acre permanent campus land allocated, with plans for full facilities including hostels, library, gymnasium, and sports grounds once construction completes."
+    }
+  ],
+  "key_negative_themes": [
+    {
+      "theme": "No Permanent Campus",
+      "sentiment": "Negative",
+      "notes": "Currently operating from a transit campus (SBIT, Pallri, near Bahalgarh) rather than its own facility; girls' hostel is temporarily located at IIT Delhi Technopark for safety reasons."
+    },
+    {
+      "theme": "Limited Campus Culture",
+      "sentiment": "Negative",
+      "notes": "Temporary setup limits fest culture to mainly one sports fest ('Agnito'); students report reduced enthusiasm for coding culture due to the transit environment."
+    },
+    {
+      "theme": "Cost Perception",
+      "sentiment": "Mixed",
+      "notes": "Some students find the institute expensive relative to its status as a newer, still NIRF-unranked institute."
+    },
+    {
+      "theme": "Mess Food",
+      "sentiment": "Mixed",
+      "notes": "Food described as average, though supplemented by a 24/7 vending machine."
+    }
+  ],
+  "sample_reviews_analyzed": [
+    {
+      "review_snippet": "Honest review of IIIT Sonipat — running in transit campus SBIT, only one fest (sports fest Agnito) due to temporary setup",
+      "sentiment": "Mixed",
+      "score": 0.1
+    },
+    {
+      "review_snippet": "Worthy academics but quite expensive in money — transit campus impacts coding culture negatively, but professors are coordinating",
+      "sentiment": "Mixed",
+      "score": 0.0
+    },
+    {
+      "review_snippet": "82% of total students placed, 22 companies participated, recruiters include Adobe, IBM, Paytm; highest package 42 LPA, average 8-9 LPA",
+      "sentiment": "Positive",
+      "score": 0.85
+    },
+    {
+      "review_snippet": "Very good infrastructure, wifi campus, canteen food tastes good, safe environment for girls with transportation service",
+      "sentiment": "Positive",
+      "score": 0.75
+    },
+    {
+      "review_snippet": "In the mess, food served is average; 3 grounds for basketball, football, cricket; high-speed wifi via Jio Fibernet",
+      "sentiment": "Mixed/Positive",
+      "score": 0.4
+    }
+  ],
+  "conclusion": "Sentiment toward IIIT Sonepat is positive and fairly well-rounded, with strong placement outcomes and well-qualified faculty as clear strengths. Like several other newer IIITs, its main drawback is the lack of a permanent campus, currently operating from a transit facility, which dampens campus culture and coding community enthusiasm even though day-to-day academic amenities remain functional.",
+  "disclaimer": "This analysis is based on a sample of publicly available student reviews and Q&A threads (Careers360) as of the search date and is illustrative, not a scientifically exhaustive sentiment study."
+}

@@ -1,0 +1,363 @@
+{
+  "startedAt": "2026-09-22T08:08:06.695Z",
+  "totalJosaaColleges": 5,
+  "processed": 5,
+  "qualified": 0,
+  "evidenceBuilding": 5,
+  "skipped": 0,
+  "failed": 0,
+  "newReviews": 0,
+  "colleges": [
+    {
+      "collegeId": "assam-university-silchar",
+      "collegeName": "Assam University, Silchar",
+      "collegeType": "gfti",
+      "skipped": false,
+      "qualified": false,
+      "beforeReviews": 0,
+      "afterReviews": 0,
+      "addedReviews": 0,
+      "standard": {
+        "targetReviews": 100,
+        "minimumSources": 3,
+        "maximumSingleSourceShare": 0.6,
+        "usableReviews": 0,
+        "reviewsNeeded": 100,
+        "independentSources": 0,
+        "sourcesNeeded": 3,
+        "maxSourceShare": null,
+        "dominantSource": null,
+        "sourceDistribution": [],
+        "ready": false
+      },
+      "steps": [
+        {
+          "source": "Google Places",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Shiksha",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Collegedunia",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Careers360",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Quora",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "GetMyUni",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Zollege",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeBatch",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeDekho",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        }
+      ]
+    },
+    {
+      "collegeId": "atal-bihari-vajpayee-indian-institute-of-information-technology-management-gwalior",
+      "collegeName": "Atal Bihari Vajpayee Indian Institute of Information Technology & Management Gwalior",
+      "collegeType": "iiit",
+      "skipped": false,
+      "qualified": false,
+      "beforeReviews": 0,
+      "afterReviews": 0,
+      "addedReviews": 0,
+      "standard": {
+        "targetReviews": 100,
+        "minimumSources": 3,
+        "maximumSingleSourceShare": 0.6,
+        "usableReviews": 0,
+        "reviewsNeeded": 100,
+        "independentSources": 0,
+        "sourcesNeeded": 3,
+        "maxSourceShare": null,
+        "dominantSource": null,
+        "sourceDistribution": [],
+        "ready": false
+      },
+      "steps": [
+        {
+          "source": "Google Places",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Shiksha",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Collegedunia",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Careers360",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Quora",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "GetMyUni",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Zollege",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeBatch",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeDekho",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        }
+      ]
+    },
+    {
+      "collegeId": "birla-institute-of-technology-deoghar-off-campus",
+      "collegeName": "Birla Institute of Technology, Deoghar Off-Campus",
+      "collegeType": "gfti",
+      "skipped": false,
+      "qualified": false,
+      "beforeReviews": 0,
+      "afterReviews": 0,
+      "addedReviews": 0,
+      "standard": {
+        "targetReviews": 100,
+        "minimumSources": 3,
+        "maximumSingleSourceShare": 0.6,
+        "usableReviews": 0,
+        "reviewsNeeded": 100,
+        "independentSources": 0,
+        "sourcesNeeded": 3,
+        "maxSourceShare": null,
+        "dominantSource": null,
+        "sourceDistribution": [],
+        "ready": false
+      },
+      "steps": [
+        {
+          "source": "Google Places",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Shiksha",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Collegedunia",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Careers360",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Quora",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "GetMyUni",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Zollege",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeBatch",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeDekho",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        }
+      ]
+    },
+    {
+      "collegeId": "birla-institute-of-technology-mesra-ranchi",
+      "collegeName": "Birla Institute of Technology, Mesra, Ranchi",
+      "collegeType": "gfti",
+      "skipped": false,
+      "qualified": false,
+      "beforeReviews": 0,
+      "afterReviews": 0,
+      "addedReviews": 0,
+      "standard": {
+        "targetReviews": 100,
+        "minimumSources": 3,
+        "maximumSingleSourceShare": 0.6,
+        "usableReviews": 0,
+        "reviewsNeeded": 100,
+        "independentSources": 0,
+        "sourcesNeeded": 3,
+        "maxSourceShare": null,
+        "dominantSource": null,
+        "sourceDistribution": [],
+        "ready": false
+      },
+      "steps": [
+        {
+          "source": "Google Places",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Shiksha",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Collegedunia",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Careers360",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Quora",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "GetMyUni",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Zollege",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeBatch",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeDekho",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        }
+      ]
+    },
+    {
+      "collegeId": "birla-institute-of-technology-patna-off-campus",
+      "collegeName": "Birla Institute of Technology, Patna Off-Campus",
+      "collegeType": "gfti",
+      "skipped": false,
+      "qualified": false,
+      "beforeReviews": 0,
+      "afterReviews": 0,
+      "addedReviews": 0,
+      "standard": {
+        "targetReviews": 100,
+        "minimumSources": 3,
+        "maximumSingleSourceShare": 0.6,
+        "usableReviews": 0,
+        "reviewsNeeded": 100,
+        "independentSources": 0,
+        "sourcesNeeded": 3,
+        "maxSourceShare": null,
+        "dominantSource": null,
+        "sourceDistribution": [],
+        "ready": false
+      },
+      "steps": [
+        {
+          "source": "Google Places",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Shiksha",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Collegedunia",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Careers360",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Quora",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "GetMyUni",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "Zollege",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeBatch",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        },
+        {
+          "source": "CollegeDekho",
+          "mode": "authorized-import",
+          "status": "NO_IMPORT_FILE"
+        }
+      ]
+    }
+  ],
+  "finishedAt": "2026-09-22T08:08:10.978Z"
+}
