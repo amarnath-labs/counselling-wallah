@@ -1923,6 +1923,78 @@ function findHistoricalInstituteRow({
     );
 
 
+  /*
+  |--------------------------------------------------------------------------
+  | EXACT INSTITUTE MATCH FIRST
+  |--------------------------------------------------------------------------
+  |
+  | Prevents:
+  | P.M.C.PATNA -> I.G.I.M.S. PATNA
+  | N.M.C.PATNA -> another PATNA college
+  |
+  | Exact normalized identity is authoritative whenever available.
+  |--------------------------------------------------------------------------
+  */
+
+  const exactCandidates =
+    rows
+      .filter(
+        row =>
+          historyTextKey(
+            normalizeCourse(
+              row?.course
+            )
+          ) ===
+            targetCourse &&
+          historyTextKey(
+            row?.category
+          ) ===
+            targetCategory &&
+          instituteIdentityKey(
+            row?.institute
+          ) ===
+            targetInstitute
+      )
+      .map(
+        row => {
+
+          const quotaScore =
+            targetQuota
+              ? tokenSimilarity(
+                  targetQuota,
+                  row?.quota
+                )
+              : 1;
+
+          return {
+            row,
+
+            score:
+              1 +
+              (
+                quotaScore *
+                0.01
+              ),
+          };
+        }
+      )
+      .sort(
+        (
+          a,
+          b
+        ) =>
+          b.score -
+          a.score
+      );
+
+
+  if (
+    exactCandidates.length
+  ) {
+    return exactCandidates[0];
+  }
+
+
   const candidates =
     rows
       .filter(
@@ -2218,6 +2290,7 @@ export async function fetchNeetAdmissionHistory({
             file:
               path.join(
                 STATE_DATA_ROOT,
+                'bihar',
                 String(
                   year
                 ),
@@ -2263,7 +2336,7 @@ export async function fetchNeetAdmissionHistory({
         );
 
 
-      const rows =
+      const rawHistoryRows =
         Array.isArray(
           payload
         )
@@ -2277,6 +2350,14 @@ export async function fetchNeetAdmissionHistory({
               )
               ? payload.data
               : [];
+
+
+      const rows =
+        isStateHistory
+          ? rawHistoryRows.map(
+              normalizeBiharStateRow
+            )
+          : rawHistoryRows;
 
 
       const match =
@@ -2593,7 +2674,9 @@ export async function fetchNeetAdmissionHistory({
         true,
 
       route:
-        'MCC',
+        isStateHistory
+          ? 'STATE'
+          : 'MCC',
 
       collegeName,
 

@@ -1173,9 +1173,11 @@ export default function CollegeCard({
 
                       <div className="history-source-label">
                         {
-                          isNeetCard
-                            ? 'MCC'
-                            : activeCounsellingSource ===
+                          isNeetStateCard
+                            ? 'BCECEB UGMAC'
+                            : isNeetCard
+                              ? 'MCC'
+                              : activeCounsellingSource ===
                                 'csab'
                               ? 'CSAB Special'
                               : 'JoSAA'
@@ -1187,7 +1189,9 @@ export default function CollegeCard({
                         {
                           key: 'josaa',
                           label:
-                            isNeetCard
+                            isNeetStateCard
+                              ? 'BCECEB UGMAC'
+                              : isNeetCard
                               ? 'MCC'
                               : 'JoSAA',
                           rows:
