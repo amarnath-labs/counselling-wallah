@@ -13,10 +13,14 @@ import {
 } from '../services/examService';
 
 const STATES = [
+  'Andaman and Nicobar Islands',
   'Andhra Pradesh',
+  'Arunachal Pradesh',
   'Assam',
   'Bihar',
+  'Chandigarh',
   'Chhattisgarh',
+  'Dadra and Nagar Haveli and Daman and Diu',
   'Delhi',
   'Goa',
   'Gujarat',
@@ -26,6 +30,8 @@ const STATES = [
   'Jharkhand',
   'Karnataka',
   'Kerala',
+  'Ladakh',
+  'Lakshadweep',
   'Madhya Pradesh',
   'Maharashtra',
   'Manipur',
@@ -33,6 +39,7 @@ const STATES = [
   'Mizoram',
   'Nagaland',
   'Odisha',
+  'Puducherry',
   'Punjab',
   'Rajasthan',
   'Sikkim',
@@ -42,7 +49,6 @@ const STATES = [
   'Uttar Pradesh',
   'Uttarakhand',
   'West Bengal',
-  'Other',
 ];
 
 const BRANCHES = [
@@ -1136,7 +1142,11 @@ export default function Profile() {
               >
 
                 <option value="">
-                  Any
+                  {
+                    p?.counsellingMode === 'state'
+                      ? 'Select State'
+                      : 'Any'
+                  }
                 </option>
 
                 {STATES.map(
