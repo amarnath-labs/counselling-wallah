@@ -163,6 +163,31 @@ export async function fetchNeetRecommendations(
   );
 
 
+  if (
+    neetCounsellingMode ===
+      'state'
+  ) {
+
+    const selectedState =
+      String(
+        profile?.prefState ||
+        profile?.state ||
+        ''
+      )
+        .trim();
+
+
+    if (
+      selectedState
+    ) {
+      params.set(
+        'state',
+        selectedState
+      );
+    }
+  }
+
+
   params.set(
     'limit',
     String(
