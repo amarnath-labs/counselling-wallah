@@ -22,6 +22,12 @@ const DATA_ROOT =
     '../../../data/neet/mcc'
   );
 
+const STATE_DATA_ROOT =
+  path.resolve(
+    __dirname,
+    '../../../data/neet/state'
+  );
+
 
 const DEFAULT_COURSES = [
   'MBBS',
@@ -328,6 +334,352 @@ function loadOrcrRows({
 }
 
 
+
+function normalizeStateKey(
+  value
+) {
+  return String(
+    value || ''
+  )
+    .trim()
+    .toLowerCase()
+    .replace(
+      /[^a-z0-9]+/g,
+      '-'
+    )
+    .replace(
+      /^-+|-+$/g,
+      ''
+    );
+}
+
+
+function normalizeBiharStateRow(
+  row
+) {
+  return {
+    ...row,
+
+    openingRank:
+      Number(
+        row?.neetOpeningRank
+      ),
+
+    closingRank:
+      Number(
+        row?.neetClosingRank
+      ),
+
+    category:
+      normalizeCategory(
+        row?.category
+      ),
+
+    quota:
+      row?.quota ||
+      'Bihar State Counselling',
+
+    authority:
+      row?.authority ||
+      'BCECEB',
+
+    counselling:
+      row?.counselling ||
+      'UGMAC',
+
+    counsellingType:
+      'STATE',
+
+    state:
+      'Bihar',
+
+    neetStateAuthoritative:
+      true,
+  };
+}
+
+
+function resolveBiharStateFile({
+  year,
+  round,
+}) {
+
+  const y =
+    Number(
+      year
+    );
+
+  const roundText =
+    String(
+      round ?? ''
+    )
+      .trim()
+      .toLowerCase();
+
+
+  const roundNumber =
+    Number(
+      round
+    );
+
+
+  if (
+    y === 2026
+  ) {
+
+    if (
+      roundNumber === 1 ||
+      roundText === 'round 1' ||
+      roundText === 'r1'
+    ) {
+      return {
+        fileName:
+          'round-1-orcr.json',
+
+        roundInfo: {
+          key:
+            'round-1',
+
+          label:
+            'Round 1',
+        },
+      };
+    }
+
+    throw new Error(
+      'Bihar UGMAC 2026 currently has verified Round 1 data only.'
+    );
+  }
+
+
+  if (
+    y === 2025
+  ) {
+
+    if (
+      roundNumber === 1 ||
+      roundNumber === 2 ||
+      roundText === 'round 1' ||
+      roundText === 'round 2' ||
+      roundText === 'combined round 1 + round 2' ||
+      roundText === 'combined'
+    ) {
+      return {
+        fileName:
+          'round-1-2-combined-orcr.json',
+
+        roundInfo: {
+          key:
+            'round-1-2-combined',
+
+          label:
+            'Combined Round 1 + Round 2',
+        },
+      };
+    }
+
+    throw new Error(
+      'Bihar UGMAC 2025 currently has verified Combined Round 1 + Round 2 data only.'
+    );
+  }
+
+
+  if (
+    y === 2024
+  ) {
+
+    if (
+      roundNumber === 3 ||
+      roundText === 'round 3' ||
+      roundText === 'r3'
+    ) {
+      return {
+        fileName:
+          'round-3-orcr.json',
+
+        roundInfo: {
+          key:
+            'round-3',
+
+          label:
+            'Round 3',
+        },
+      };
+    }
+
+
+    if (
+      roundText === 'special stray' ||
+      roundText === 'special stray vacancy' ||
+      roundText === 'special-stray'
+    ) {
+      return {
+        fileName:
+          'special-stray-orcr.json',
+
+        roundInfo: {
+          key:
+            'special-stray',
+
+          label:
+            'Special Stray Vacancy',
+        },
+      };
+    }
+
+
+    throw new Error(
+      'Bihar UGMAC 2024 currently has verified Round 3 and Special Stray Vacancy data only.'
+    );
+  }
+
+
+  throw new Error(
+    `Bihar UGMAC data is not available for ${year}.`
+  );
+}
+
+
+function loadBiharStateOrcrRows({
+  year,
+  round,
+}) {
+
+  const resolved =
+    resolveBiharStateFile({
+      year,
+      round,
+    });
+
+
+  const yearDir =
+    path.join(
+      STATE_DATA_ROOT,
+      'bihar',
+      String(
+        year
+      ),
+      'parsed'
+    );
+
+
+  if (
+    !fs.existsSync(
+      yearDir
+    )
+  ) {
+    throw new Error(
+      `Bihar UGMAC data is not available for ${year}.`
+    );
+  }
+
+
+  const file =
+    path.join(
+      yearDir,
+      resolved.fileName
+    );
+
+
+  if (
+    !fs.existsSync(
+      file
+    )
+  ) {
+    throw new Error(
+      `Bihar UGMAC ${year} ${resolved.roundInfo.label} data is not available.`
+    );
+  }
+
+
+  const payload =
+    readJson(
+      file
+    );
+
+
+  const rawRows =
+    Array.isArray(
+      payload
+    )
+      ? payload
+      : Array.isArray(
+          payload?.rows
+        )
+        ? payload.rows
+        : Array.isArray(
+            payload?.data
+          )
+          ? payload.data
+          : [];
+
+
+  const rows =
+    rawRows.map(
+      normalizeBiharStateRow
+    );
+
+
+  return {
+    file,
+    roundInfo:
+      resolved.roundInfo,
+    rows,
+  };
+}
+
+
+function loadNeetRows({
+  year,
+  round,
+  counsellingMode,
+  state,
+}) {
+
+  const mode =
+    normalize(
+      counsellingMode
+    );
+
+
+  const isState =
+    mode === 'state' ||
+    mode === 'state counselling' ||
+    mode === 'state-counselling';
+
+
+  if (
+    !isState
+  ) {
+    return loadOrcrRows({
+      year,
+      round,
+    });
+  }
+
+
+  const stateKey =
+    normalizeStateKey(
+      state
+    );
+
+
+  if (
+    stateKey !== 'bihar'
+  ) {
+    throw new Error(
+      `State counselling for ${state || 'selected state'} is not connected yet.`
+    );
+  }
+
+
+  return loadBiharStateOrcrRows({
+    year,
+    round,
+  });
+}
+
+
 function safeSlug(
   value
 ) {
@@ -505,6 +857,11 @@ function normalizeRow(
   row,
   studentRank
 ) {
+  const isStateRow =
+    row?.neetStateAuthoritative === true ||
+    normalize(
+      row?.counsellingType
+    ) === 'state';
   const institute =
     String(
       row?.institute ||
@@ -592,12 +949,21 @@ function normalizeRow(
       'NEET UG',
 
     counsellingType:
-      'MCC',
+      isStateRow
+        ? 'STATE'
+        : 'MCC',
 
     authority:
-      row?.authority ||
-      row?.counselling ||
-      'MCC',
+      isStateRow
+        ? (
+            row?.authority ||
+            'BCECEB'
+          )
+        : (
+            row?.authority ||
+            row?.counselling ||
+            'MCC'
+          ),
 
     collegeId,
 
@@ -615,7 +981,12 @@ function normalizeRow(
         '',
 
       state:
-        '',
+      isStateRow
+        ? (
+            row?.state ||
+            'Bihar'
+          )
+        : '',
 
       type:
         'Medical',
@@ -625,7 +996,12 @@ function normalizeRow(
       '',
 
     state:
-      '',
+      isStateRow
+        ? (
+            row?.state ||
+            'Bihar'
+          )
+        : '',
 
     type:
       'Medical',
@@ -758,19 +1134,28 @@ function normalizeRow(
       'VERIFIED',
 
     source:
-      'MCC official allotment OR-CR',
+      isStateRow
+        ? 'BCECEB UGMAC official opening-closing rank'
+        : 'MCC official allotment OR-CR',
 
     sourceLabel:
-      'MCC official allotment OR-CR',
+      isStateRow
+        ? 'BCECEB UGMAC official opening-closing rank'
+        : 'MCC official allotment OR-CR',
 
     dataSource:
-      'MCC',
+      isStateRow
+        ? 'BCECEB'
+        : 'MCC',
 
     cwRecAuthoritative:
       false,
 
     neetMccAuthoritative:
-      true,
+      !isStateRow,
+
+    neetStateAuthoritative:
+      isStateRow,
   };
 }
 
@@ -788,6 +1173,7 @@ export async function fetchNeetRecommendations({
   category = 'Open',
   courses = [],
   counsellingMode = 'mcc',
+  state = '',
   limit = 100,
 }) {
   const studentRank =
@@ -835,17 +1221,37 @@ export async function fetchNeetRecommendations({
     );
 
 
+  const isStateMode =
+    mode === 'state' ||
+    mode === 'state counselling' ||
+    mode === 'state-counselling';
+
+
+  const isMccMode =
+    !mode ||
+    mode === 'mcc' ||
+    mode === 'all india' ||
+    mode === 'all-india';
+
+
   if (
-    mode &&
-    mode !==
-      'mcc' &&
-    mode !==
-      'all india' &&
-    mode !==
-      'all-india'
+    !isStateMode &&
+    !isMccMode
   ) {
     throw new Error(
-      'State counselling data is not connected yet. Please select MCC / All India.'
+      `Unsupported NEET counselling mode: ${counsellingMode}`
+    );
+  }
+
+
+  if (
+    isStateMode &&
+    normalizeStateKey(
+      state
+    ) !== 'bihar'
+  ) {
+    throw new Error(
+      `State counselling for ${state || 'selected state'} is not connected yet.`
     );
   }
 
@@ -897,11 +1303,16 @@ export async function fetchNeetRecommendations({
     roundInfo,
     rows,
   } =
-    loadOrcrRows({
+    loadNeetRows({
       year:
         targetYear,
 
       round,
+
+      counsellingMode:
+        mode,
+
+      state,
     });
 
 
@@ -1051,7 +1462,19 @@ export async function fetchNeetRecommendations({
         'NEET UG',
 
       authority:
-        'MCC',
+        isStateMode
+          ? 'BCECEB'
+          : 'MCC',
+
+      counsellingType:
+        isStateMode
+          ? 'STATE'
+          : 'MCC',
+
+      state:
+        isStateMode
+          ? 'Bihar'
+          : '',
 
       year:
         targetYear,
@@ -1091,7 +1514,9 @@ export async function fetchNeetRecommendations({
     },
 
     scoringVersion:
-      'NEET-MCC-ORCR-V1',
+      isStateMode
+        ? 'NEET-STATE-ORCR-V1'
+        : 'NEET-MCC-ORCR-V1',
   };
 }
 

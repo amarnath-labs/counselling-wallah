@@ -60,6 +60,10 @@ router.get(
               .counsellingMode ??
             'mcc',
 
+          state:
+            req.query.state ??
+            '',
+
           limit:
             req.query.limit ??
             100,
