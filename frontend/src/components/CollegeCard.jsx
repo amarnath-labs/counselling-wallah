@@ -181,6 +181,21 @@ export default function CollegeCard({
     ).trim();
 
 
+  const isNeetStateCard =
+    isNeetCard &&
+    (
+      row?.neetStateAuthoritative ===
+        true ||
+      String(
+        row?.counsellingType ||
+        ''
+      )
+        .trim()
+        .toUpperCase() ===
+        'STATE'
+    );
+
+
   const counsellingMatchLabel =
     isNeetCard
       ? `${neetCourseName} Rank Match`
@@ -606,6 +621,31 @@ export default function CollegeCard({
                 row?.admission
                   ?.studentRank ??
                 null,
+
+              round:
+                row?.round ||
+                profile?.round ||
+                1,
+
+              counsellingMode:
+                (
+                  row?.neetStateAuthoritative ===
+                    true ||
+                  String(
+                    row?.counsellingType ||
+                    ''
+                  )
+                    .trim()
+                    .toUpperCase() ===
+                    'STATE'
+                )
+                  ? 'state'
+                  : 'mcc',
+
+              state:
+                row?.state ||
+                profile?.prefState ||
+                '',
             });
 
 
@@ -1001,9 +1041,11 @@ export default function CollegeCard({
                     <>
 
                       <div className="admission-history-title">
-                        {isNeetCard
-                          ? 'MCC Historical Admission Intelligence'
-                          : 'Historical Admission Intelligence'}
+                        {isNeetStateCard
+                          ? 'BCECEB UGMAC Historical Admission Intelligence'
+                          : isNeetCard
+                            ? 'MCC Historical Admission Intelligence'
+                            : 'Historical Admission Intelligence'}
                       </div>
 
 
@@ -1200,9 +1242,11 @@ export default function CollegeCard({
                                 {route.key ===
                                 'csab'
                                   ? 'CSAB Special is not applicable for this option.'
-                                  : isNeetCard
-                                    ? 'MCC historical data unavailable for this option.'
-                                    : 'JoSAA historical data unavailable.'}
+                                  : isNeetStateCard
+                                    ? 'BCECEB UGMAC historical data unavailable for this option.'
+                                    : isNeetCard
+                                      ? 'MCC historical data unavailable for this option.'
+                                      : 'JoSAA historical data unavailable.'}
                               </div>
                             );
                           }

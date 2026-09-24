@@ -141,6 +141,18 @@ export async function fetchNeetRecommendations(
   );
 
 
+  if (
+    profile?.gender
+  ) {
+    params.set(
+      'gender',
+      String(
+        profile.gender
+      )
+    );
+  }
+
+
   const rawCounsellingMode =
     String(
       profile?.counsellingMode ||
@@ -281,6 +293,8 @@ export async function fetchNeetAdmissionHistory({
   quota,
   rank,
   round,
+  counsellingMode = 'mcc',
+  state = '',
 }) {
   const params =
     new URLSearchParams();
@@ -344,6 +358,33 @@ export async function fetchNeetAdmissionHistory({
       'round',
       String(
         round
+      )
+    );
+  }
+
+
+  params.set(
+    'counsellingMode',
+    String(
+      counsellingMode ||
+      'mcc'
+    )
+  );
+
+
+  if (
+    String(
+      counsellingMode
+    )
+      .trim()
+      .toLowerCase() ===
+      'state' &&
+    state
+  ) {
+    params.set(
+      'state',
+      String(
+        state
       )
     );
   }

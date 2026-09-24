@@ -53,6 +53,10 @@ router.get(
             req.query.category ??
             'Open',
 
+          gender:
+            req.query.gender ??
+            '',
+
           courses,
 
           counsellingMode:
@@ -147,6 +151,15 @@ router.get(
           round:
             req.query.round ??
             1,
+
+          counsellingMode:
+            req.query
+              .counsellingMode ??
+            'mcc',
+
+          state:
+            req.query.state ??
+            '',
         });
 
 
@@ -175,7 +188,7 @@ router.get(
 
           error:
             error?.message ||
-            'Unable to load NEET MCC history.',
+            'Unable to load NEET admission history.',
         });
     }
   }

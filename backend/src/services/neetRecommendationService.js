@@ -1171,6 +1171,7 @@ export async function fetchNeetRecommendations({
   year = 2026,
   round = 1,
   category = 'Open',
+  gender = '',
   courses = [],
   counsellingMode = 'mcc',
   state = '',
@@ -1322,6 +1323,12 @@ export async function fetchNeetRecommendations({
     );
 
 
+  const normalizedGender =
+    normalize(
+      gender
+    );
+
+
   const wantedCourseKeys =
     new Set(
       wantedCourses.map(
@@ -1374,13 +1381,37 @@ export async function fetchNeetRecommendations({
               studentRank;
 
 
+          const seatType =
+            normalize(
+              row?.seatType ||
+              ''
+            );
+
+
+          const stateSeatEligible =
+            !isStateMode ||
+            (
+              normalizedGender ===
+                'female'
+                ? (
+                    seatType ===
+                      'general' ||
+                    seatType ===
+                      'female'
+                  )
+                : seatType ===
+                    'general'
+            );
+
+
           return (
             rowCategory ===
               normalizedCategory &&
             wantedCourseKeys.has(
               rowCourse
             ) &&
-            rankEligible
+            rankEligible &&
+            stateSeatEligible
           );
         }
       )
@@ -2105,7 +2136,29 @@ export async function fetchNeetAdmissionHistory({
   quota = '',
   rank,
   round = 1,
+  counsellingMode = 'mcc',
+  state = '',
 }) {
+  const historyMode =
+    normalize(
+      counsellingMode
+    );
+
+  const isStateHistory =
+    historyMode === 'state' ||
+    historyMode === 'state counselling' ||
+    historyMode === 'state-counselling';
+
+  if (
+    isStateHistory &&
+    normalizeStateKey(
+      state
+    ) !== 'bihar'
+  ) {
+    throw new Error(
+      `State history for ${state || 'selected state'} is not connected yet.`
+    );
+  }
   const studentRank =
     Number(
       rank
@@ -2126,6 +2179,62 @@ export async function fetchNeetAdmissionHistory({
     [];
 
 
+  const loadHistoryFiles =
+    year => {
+
+      if (
+        !isStateHistory
+      ) {
+        return loadYearOrcrFiles(
+          year
+        );
+      }
+
+
+      const stateFiles = {
+        2026: [
+          'round-1-orcr.json',
+        ],
+
+        2025: [
+          'round-1-2-combined-orcr.json',
+        ],
+
+        2024: [
+          'round-3-orcr.json',
+          'special-stray-orcr.json',
+        ],
+      };
+
+
+      return (
+        stateFiles[year] ||
+        []
+      )
+        .map(
+          name => ({
+            name,
+
+            file:
+              path.join(
+                STATE_DATA_ROOT,
+                String(
+                  year
+                ),
+                'parsed',
+                name
+              ),
+          })
+        )
+        .filter(
+          info =>
+            fs.existsSync(
+              info.file
+            )
+        );
+    };
+
+
   for (
     const year of
     [
@@ -2135,7 +2244,7 @@ export async function fetchNeetAdmissionHistory({
     ]
   ) {
     const files =
-      loadYearOrcrFiles(
+      loadHistoryFiles(
         year
       );
 
@@ -2176,7 +2285,11 @@ export async function fetchNeetAdmissionHistory({
           collegeName,
           course,
           category,
-          quota,
+
+          quota:
+            isStateHistory
+              ? ''
+              : quota,
         });
 
 
@@ -2409,7 +2522,9 @@ export async function fetchNeetAdmissionHistory({
 
   const intelligence = {
     route:
-      'MCC',
+      isStateHistory
+        ? 'STATE'
+        : 'MCC',
 
     available:
       availableYears >
