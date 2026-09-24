@@ -5,10 +5,19 @@ import { redisGetJson, redisSetJson } from '../services/redisCache.js';
 import { buildHistoricalAdmissionIntelligence } from '../services/historicalAdmissionIntelligence.js';
 const router = Router();
 
+const RESULTS_CACHE_VERSION =
+  String(
+    process.env.RESULTS_CACHE_VERSION ||
+    'v3'
+  ).trim() || 'v3';
 
-const RESULTS_CACHE_TTL_MS = 60 * 1000;
-const REDIS_RESULTS_TTL_SECONDS = 5 * 60;
-const RESULTS_CACHE_MAX_ENTRIES = 200;
+
+const RESULTS_CACHE_TTL_MS =
+  5 * 60 * 1000;
+const REDIS_RESULTS_TTL_SECONDS =
+  30 * 60;
+const RESULTS_CACHE_MAX_ENTRIES =
+  1000;
 
 const resultsCache = new Map();
 const resultsInFlight = new Map();
@@ -366,7 +375,7 @@ router.get(
            * Round 1, Round 2, Round 3...
            */
           round =
-            `Round ${roundNumber}`;
+            roundNumber;
         }
       }
 
@@ -510,7 +519,7 @@ router.get(
       }
 
       const redisCacheKey =
-        `cw:results:${resultsCacheKey}`;
+        `trumarg:${RESULTS_CACHE_VERSION}:results:${resultsCacheKey}`;
 
       const redisPayload =
         await redisGetJson(

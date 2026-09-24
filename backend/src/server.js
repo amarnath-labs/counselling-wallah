@@ -13,6 +13,7 @@ import collegeRedisCache from './middleware/collegeRedisCache.js';
 import { pool } from './db/pool.js';
 
 import healthRouter from './routes/health.js';
+import healthScaleRouter from './routes/healthScale.js';
 
 import reviewsRouter from './routes/reviews.js';
 import requestIdMiddleware from './middleware/requestId.js';
@@ -475,6 +476,11 @@ app.get(
 | HEALTH
 |--------------------------------------------------------------------------
 */
+
+app.use(
+  '/api/health',
+  healthScaleRouter
+);
 
 app.use(
   '/api/health',
@@ -962,14 +968,110 @@ app.use(
 |--------------------------------------------------------------------------
 */
 
-app.listen(
-  PORT,
-  '0.0.0.0',
-  () => {
+const server =
+  app.listen(
+    PORT,
+    '0.0.0.0',
+    () => {
 
-    console.log(
-      `Counselling Wallah API listening on 0.0.0.0:${PORT}`
+      console.log(
+        `TruMarg API listening on 0.0.0.0:${PORT}`
+      );
+
+    }
+  );
+
+
+let shutdownStarted =
+  false;
+
+
+async function gracefulShutdown(
+  signal
+) {
+
+  if (
+    shutdownStarted
+  ) {
+    return;
+  }
+
+  shutdownStarted =
+    true;
+
+  console.log(
+    `[SERVER] ${signal} received. Starting graceful shutdown...`
+  );
+
+
+  /*
+  |--------------------------------------------------------------------------
+  | HARD STOP FALLBACK
+  |--------------------------------------------------------------------------
+  */
+
+  const forceExitTimer =
+    setTimeout(
+      () => {
+
+        console.error(
+          '[SERVER] Graceful shutdown timeout exceeded'
+        );
+
+        process.exit(1);
+
+      },
+      15_000
     );
 
-  }
+  forceExitTimer.unref();
+
+
+  server.close(
+    async () => {
+
+      console.log(
+        '[SERVER] HTTP server closed'
+      );
+
+      try {
+
+        await pool.end();
+
+        console.log(
+          '[SERVER] PostgreSQL pool closed'
+        );
+
+        process.exit(0);
+
+      } catch (error) {
+
+        console.error(
+          '[SERVER] Shutdown error:',
+          error
+        );
+
+        process.exit(1);
+      }
+    }
+  );
+}
+
+
+process.on(
+  'SIGTERM',
+  () =>
+    gracefulShutdown(
+      'SIGTERM'
+    )
 );
+
+
+process.on(
+  'SIGINT',
+  () =>
+    gracefulShutdown(
+      'SIGINT'
+    )
+);
+
