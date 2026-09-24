@@ -32,6 +32,7 @@ function makeResultsCacheKey(values) {
     values.requestedQuota || '',
     values.requestedGender || '',
     values.homeState || '',
+    values.requestedLimit || '',
   ].join('|');
 }
 
@@ -355,6 +356,43 @@ router.get(
           '1'
         ).trim();
 
+      /*
+      |--------------------------------------------------------------------------
+      | OPTIONAL RESPONSE LIMIT
+      |--------------------------------------------------------------------------
+      |
+      | Existing frontend behavior remains unchanged when limit is absent.
+      |
+      | Example:
+      |
+      |   ?limit=50
+      |
+      | Useful for high-traffic first-page/mobile requests.
+      |--------------------------------------------------------------------------
+      */
+
+      const requestedLimitRaw =
+        Number.parseInt(
+          String(
+            req.query.limit ||
+            ''
+          ),
+          10
+        );
+
+      const requestedLimit =
+        Number.isInteger(
+          requestedLimitRaw
+        ) &&
+        requestedLimitRaw > 0
+          ? Math.min(
+              requestedLimitRaw,
+              500
+            )
+          : null;
+
+
+
       if (examId === 'uptac') {
 
         const roundNumber =
@@ -503,6 +541,7 @@ router.get(
           requestedQuota,
           requestedGender,
           homeState,
+          requestedLimit,
         });
 
       const cachedEntry =
@@ -1029,9 +1068,20 @@ router.get(
             |--------------------------------------------------------------------------
             */
 
+            const totalCount =
+              finalRows.length;
+
+            const responseRows =
+              requestedLimit
+                ? finalRows.slice(
+                    0,
+                    requestedLimit
+                  )
+                : finalRows;
+
             const responsePayload = {
               data:
-                finalRows,
+                responseRows,
 
               meta: {
                 examId,
@@ -1049,7 +1099,12 @@ router.get(
                 homeState,
 
                 count:
-                  finalRows.length,
+                  responseRows.length,
+
+                totalCount,
+
+                limit:
+                  requestedLimit,
               },
             };
 
