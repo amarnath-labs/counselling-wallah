@@ -550,6 +550,11 @@ router.get(
         );
 
       if (cachedEntry) {
+        res.set(
+          'X-TruMarg-Cache',
+          'LOCAL'
+        );
+
         return sendCachedResults(
           req,
           res,
@@ -577,6 +582,11 @@ router.get(
           );
 
         if (redisEntry) {
+          res.set(
+            'X-TruMarg-Cache',
+            'REDIS'
+          );
+
           return sendCachedResults(
             req,
             res,
@@ -1144,6 +1154,11 @@ router.get(
           );
         }
       }
+
+      res.set(
+        'X-TruMarg-Cache',
+        'DB'
+      );
 
       return res.json(
         responsePayload
