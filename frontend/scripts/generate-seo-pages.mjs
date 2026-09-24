@@ -21,7 +21,11 @@ const BASE_FILE =
 */
 
 const SITE_URL =
-  'https://YOUR-DOMAIN.com'
+  String(
+    process.env.SITE_URL ||
+    ''
+  )
+    .trim()
     .replace(
       /\/+$/,
       ''
@@ -29,8 +33,12 @@ const SITE_URL =
 
 
 if (
+  !SITE_URL ||
   SITE_URL.includes(
     'YOUR-DOMAIN'
+  ) ||
+  !/^https?:\/\//i.test(
+    SITE_URL
   )
 ) {
   throw new Error(
