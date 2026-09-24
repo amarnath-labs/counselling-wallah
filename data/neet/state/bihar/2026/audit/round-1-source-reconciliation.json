@@ -1,0 +1,19 @@
+{
+  "coordinateSourceRows": 195,
+  "parsedRows": 195,
+  "rejectedRows": 0,
+  "duplicateGroups": 0,
+  "suspiciousInstitutes": [],
+  "complete": true,
+  "yearStatus": "current-partial",
+  "detectedColumnCenters": [
+    396.88,
+    489.26,
+    573.18,
+    642.07,
+    715.45,
+    788.11
+  ],
+  "rejected": [],
+  "duplicates": []
+}

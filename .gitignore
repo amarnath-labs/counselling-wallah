@@ -14,3 +14,6 @@ uptac_*.html
 uptac_csv_rows.txt
 .vercel
 .env*
+*.bak
+*.before-*
+patch-bihar-2025-add-sm.mjs

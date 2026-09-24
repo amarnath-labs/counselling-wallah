@@ -1,0 +1,175 @@
+﻿import fs from 'fs';
+import path from 'path';
+
+const file =
+  path.resolve(
+    './data/neet/state/bihar/sources.json'
+  );
+
+const sources = {
+  exam:
+    'NEET UG',
+
+  counselling:
+    'Bihar UGMAC',
+
+  authority:
+    'BCECEB',
+
+  state:
+    'Bihar',
+
+  updatedAt:
+    new Date().toISOString(),
+
+  years: {
+
+    2024: [
+
+      {
+        type:
+          'notice-board',
+
+        round:
+          null,
+
+        official:
+          true,
+
+        url:
+          'https://bceceboard.bihar.gov.in/NoticeBoard_2024.php',
+
+        purpose:
+          'UGMAC 2024 official notice discovery'
+      },
+
+      {
+        type:
+          'opening-closing-rank',
+
+        round:
+          'Round 3',
+
+        official:
+          true,
+
+        url:
+          'https://bceceboard.bihar.gov.in/pdf_Web/UGMAC2024_TOCRANK.pdf',
+
+        fileName:
+          'round-3-opening-closing-rank.pdf',
+
+        coursesExpected: [
+          'MBBS',
+          'BDS'
+        ]
+      },
+
+      {
+        type:
+          'opening-closing-rank',
+
+        round:
+          'Special Stray Vacancy',
+
+        official:
+          true,
+
+        url:
+          'https://bceceboard.bihar.gov.in/pdf_Web/UGMAC2024_SSVOCRANK.pdf',
+
+        fileName:
+          'special-stray-opening-closing-rank.pdf',
+
+        coursesExpected: [
+          'MBBS',
+          'BDS'
+        ]
+      }
+
+    ],
+
+
+    2025: [
+
+      {
+        type:
+          'notice-board',
+
+        round:
+          null,
+
+        official:
+          true,
+
+        url:
+          'https://bceceboard.bihar.gov.in/NoticeBoard_2025.php',
+
+        purpose:
+          'UGMAC 2025 official notice discovery'
+      },
+
+      {
+        type:
+          'opening-closing-rank',
+
+        round:
+          'Combined Round 1 + Round 2',
+
+        official:
+          true,
+
+        url:
+          'https://bceceboard.bihar.gov.in/pdf_Web/UGMAC25_SOCRANK.pdf',
+
+        fileName:
+          'round-1-2-combined-opening-closing-rank.pdf',
+
+        coursesExpected: [
+          'MBBS',
+          'BDS'
+        ]
+      }
+
+    ],
+
+
+    2026: [
+      {
+        type:
+          'status',
+
+        round:
+          null,
+
+        official:
+          true,
+
+        status:
+          'current-partial',
+
+        note:
+          'Do not mark full year complete until official UGMAC 2026 counselling cycle and cutoff publications are available.'
+      }
+    ]
+  }
+};
+
+
+fs.writeFileSync(
+  file,
+  JSON.stringify(
+    sources,
+    null,
+    2
+  ),
+  'utf8'
+);
+
+console.log(
+  'Bihar official source registry created:'
+);
+
+console.log(
+  file
+);

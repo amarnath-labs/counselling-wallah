@@ -1,760 +1,1146 @@
-import fs from 'node:fs';
-import path from 'node:path';
+﻿import fs from 'fs';
+import path from 'path';
 
-const DIST_DIR =
-  path.resolve('dist');
+const DIST =
+  path.resolve(
+    './dist'
+  );
 
-const sourcePath =
+const BASE_FILE =
   path.join(
-    DIST_DIR,
+    DIST,
     'index.html'
   );
 
-if (!fs.existsSync(sourcePath)) {
+/*
+|--------------------------------------------------------------------------
+| IMPORTANT
+|--------------------------------------------------------------------------
+| Replace this with your real production domain.
+|--------------------------------------------------------------------------
+*/
+
+const SITE_URL =
+  'https://YOUR-DOMAIN.com'
+    .replace(
+      /\/+$/,
+      ''
+    );
+
+
+if (
+  SITE_URL.includes(
+    'YOUR-DOMAIN'
+  )
+) {
   throw new Error(
-    'dist/index.html not found. Run vite build first.'
+    'Set the real production domain in SITE_URL before running the SEO generator.'
   );
 }
 
+
+if (
+  !fs.existsSync(
+    BASE_FILE
+  )
+) {
+  throw new Error(
+    'dist/index.html not found. Run Vite build first.'
+  );
+}
+
+
 const baseHtml =
   fs.readFileSync(
-    sourcePath,
+    BASE_FILE,
     'utf8'
   );
 
 
-const routes = [
+const pages = [
+
   {
-    path: 'college-predictor',
+    path:
+      '/college-predictor',
 
     title:
-      'College Predictor 2026 - JEE Main, JEE Advanced & UPTAC | TruMarg',
+      'College Predictor 2026 – JEE Main, UPTAC & More | TruMarg',
 
     description:
-      'Use TruMarg College Predictor 2026 to explore engineering colleges using JEE Main or UPTAC rank, category, quota and historical cutoff data.',
+      'Use TruMarg College Predictor 2026 to discover college and branch options based on rank, category, quota and historical counselling data.',
 
-    canonical:
-      'https://www.trumarg.com/college-predictor',
-
-    heading:
-      'College Predictor 2026 - JEE Main & UPTAC College Predictor',
+    h1:
+      'College Predictor 2026 – Find Colleges Based on Your Rank',
 
     intro:
-      'Explore college and branch possibilities using rank, category, quota, counselling preferences and historical cutoff data.',
+      'TruMarg helps students discover realistic college and branch options using rank, category, quota, counselling history and admission trends.',
 
-    staticHtml: `
-      <section>
-        <h2>Choose Your College Predictor</h2>
+    sections: [
+      {
+        title:
+          'How TruMarg College Predictor Works',
 
-        <article>
-          <h3>JEE Main College Predictor 2026</h3>
-          <p>
-            Explore relevant NIT, IIIT, GFTI and engineering
-            college options using your JEE Main admission profile
-            and historical cutoff information.
-          </p>
+        text:
+          'Enter your exam details, rank, category and preferences. TruMarg compares your profile with historical counselling data and organizes relevant options into Dream, Target, Safe and Backup admission ranges.'
+      },
 
-          <p>
-            <a href="/jee-main-college-predictor">
-              JEE Main College Predictor 2026
-            </a>
-          </p>
-        </article>
+      {
+        title:
+          'Admission Data Used',
 
-        <article>
-          <h3>UPTAC College Predictor 2026</h3>
-          <p>
-            Explore UPTAC engineering college and branch
-            possibilities using rank, category, counselling
-            preferences and historical cutoff information.
-          </p>
+        text:
+          'TruMarg uses historical counselling information such as opening ranks, closing ranks, counselling rounds, category, quota and branch information where reliable official data is available.'
+      },
 
-          <p>
-            <a href="/uptac-college-predictor">
-              UPTAC College Predictor 2026
-            </a>
-          </p>
-        </article>
-      </section>
+      {
+        title:
+          'Personalized College Recommendations',
 
-      <section>
-        <h2>How TruMarg College Predictor Works</h2>
+        text:
+          'Recommendations can consider admission feasibility, branch preference, college information and other student preferences rather than showing only a raw cutoff list.'
+      }
+    ],
 
-        <ol>
-          <li>Select the relevant entrance exam or counselling route.</li>
-          <li>Enter your rank and applicable admission details.</li>
-          <li>Add category, quota, home-state and branch preferences where applicable.</li>
-          <li>TruMarg compares your profile with historical admission and cutoff information.</li>
-          <li>Review relevant college and branch possibilities.</li>
-        </ol>
-      </section>
+    faq: [
+      {
+        q:
+          'What is a college predictor?',
 
-      <section>
-        <h2>Historical Cutoff Based College Prediction</h2>
+        a:
+          'A college predictor compares student admission details with historical counselling data to identify relevant college and course options.'
+      },
 
-        <p>
-          Historical opening and closing ranks help students
-          understand previous admission patterns. Future cutoffs
-          can change because of competition, seat availability,
-          category, quota, counselling rules and student choices.
-        </p>
-      </section>
+      {
+        q:
+          'Does TruMarg guarantee admission?',
 
-      <section>
-        <h2>Dream, Target, Safe and Backup Options</h2>
+        a:
+          'No. Historical cutoffs and counselling patterns can help estimate admission possibilities, but future cutoffs can change.'
+      },
 
-        <p>
-          TruMarg may organize college recommendations into
-          Dream, Target, Safe and Backup categories to make
-          counselling choices easier to compare. These categories
-          are guidance estimates and do not guarantee admission.
-        </p>
-      </section>
+      {
+        q:
+          'Which exams are supported?',
 
-      <section>
-        <h2>Explore More TruMarg Guidance</h2>
+        a:
+          'TruMarg currently supports selected engineering counselling systems including JEE Main and UPTAC, with additional admission systems being added.'
+      }
+    ],
 
-        <ul>
-          <li>
-            <a href="/college-counselling">
-              College Counselling and Admission Guidance
-            </a>
-          </li>
+    links: [
+      [
+        '/jee-main-college-predictor',
+        'JEE Main College Predictor 2026'
+      ],
 
-          <li>
-            <a href="/career-guidance">
-              Career Guidance for Students
-            </a>
-          </li>
-        </ul>
-      </section>
-    `
+      [
+        '/uptac-college-predictor',
+        'UPTAC College Predictor 2026'
+      ],
+
+      [
+        '/college-counselling',
+        'College Counselling'
+      ]
+    ]
   },
 
 
   {
-    path: 'jee-main-college-predictor',
+    path:
+      '/jee-main-college-predictor',
 
     title:
-      'JEE Main College Predictor 2026 | TruMarg',
+      'JEE Main College Predictor 2026 – NIT, IIIT & GFTI | TruMarg',
 
     description:
-      'Use TruMarg JEE Main College Predictor 2026 to explore NIT, IIIT, GFTI and engineering college options using rank, category, quota and historical cutoff data.',
+      'Predict NIT, IIIT and GFTI college options using JEE Main rank, category, quota and historical JoSAA and CSAB counselling data with TruMarg.',
 
-    canonical:
-      'https://www.trumarg.com/jee-main-college-predictor',
-
-    heading:
+    h1:
       'JEE Main College Predictor 2026',
 
     intro:
-      'Predict relevant NIT, IIIT, GFTI and engineering college options using your JEE Main admission profile.',
+      'Use your JEE Main rank, category, quota and preferences to explore NIT, IIIT, GFTI and other counselling options using historical admission data.',
 
-    staticHtml: `
-      <section>
-        <h2>JEE Main College Prediction Using Your Rank</h2>
+    sections: [
+      {
+        title:
+          'Predict NIT, IIIT and GFTI Options',
 
-        <p>
-          TruMarg uses your JEE Main admission profile together
-          with available historical opening and closing rank
-          information to organize relevant college and branch
-          possibilities.
-        </p>
-      </section>
+        text:
+          'TruMarg evaluates relevant college and branch combinations using historical JoSAA and CSAB admission information.'
+      },
 
-      <section>
-        <h2>Information Used by the JEE Main Predictor</h2>
+      {
+        title:
+          'JoSAA and CSAB Historical Cutoffs',
 
-        <ul>
-          <li>JEE Main rank</li>
-          <li>Category</li>
-          <li>Home state</li>
-          <li>Applicable quota</li>
-          <li>Branch preferences</li>
-          <li>Other relevant counselling details</li>
-        </ul>
-      </section>
+        text:
+          'Opening rank, closing rank, counselling round, category and quota can materially change admission possibilities. TruMarg keeps these dimensions separate while evaluating historical admission data.'
+      },
 
-      <section>
-        <h2>JEE Main Predictor Coverage</h2>
+      {
+        title:
+          'Home State and Other State Quota',
 
-        <ul>
-          <li>NIT college and branch possibilities</li>
-          <li>IIIT college and branch possibilities</li>
-          <li>GFTI college and branch possibilities</li>
-          <li>Historical opening and closing rank comparisons</li>
-        </ul>
-      </section>
+        text:
+          'For institutions where state quota rules apply, the applicable quota is considered separately instead of treating every candidate as belonging to the same seat pool.'
+      },
 
-      <section>
-        <h2>How the JEE Main College Predictor Works</h2>
+      {
+        title:
+          'Dream, Target, Safe and Backup Options',
 
-        <ol>
-          <li>Start the JEE Main prediction flow.</li>
-          <li>Enter your rank and admission details.</li>
-          <li>Add category, home state, quota and branch preferences where applicable.</li>
-          <li>TruMarg compares your profile with available historical cutoff information.</li>
-          <li>Review relevant college and branch possibilities.</li>
-        </ol>
-      </section>
+        text:
+          'TruMarg groups admission possibilities to make large counselling result sets easier to understand. These are historical-data-based guidance categories and are not admission guarantees.'
+      }
+    ],
 
-      <section>
-        <h2>Historical Cutoff Methodology</h2>
+    faq: [
+      {
+        q:
+          'Can I predict NIT admission using JEE Main rank?',
 
-        <p>
-          Historical cutoffs are useful for understanding previous
-          admission patterns but cannot guarantee future admission.
-          Cutoffs may change because of applicant demand, seat
-          availability, category, quota and counselling-round
-          movement.
-        </p>
-      </section>
+        a:
+          'Historical JoSAA and CSAB opening and closing ranks can be used to compare your JEE Main rank with previous counselling outcomes.'
+      },
 
-      <section>
-        <h2>Related College Prediction Tools</h2>
+      {
+        q:
+          'Does category affect JEE college prediction?',
 
-        <ul>
-          <li>
-            <a href="/uptac-college-predictor">
-              UPTAC College Predictor 2026
-            </a>
-          </li>
+        a:
+          'Yes. Admission cutoffs differ across categories, quotas, branches and counselling rounds.'
+      },
 
-          <li>
-            <a href="/college-predictor">
-              All College Predictors
-            </a>
-          </li>
+      {
+        q:
+          'Are JoSAA and CSAB the same?',
 
-          <li>
-            <a href="/college-counselling">
-              College Counselling Guidance
-            </a>
-          </li>
-        </ul>
-      </section>
-    `
+        a:
+          'They are separate counselling processes and should be evaluated using their respective historical admission data.'
+      }
+    ],
+
+    links: [
+      [
+        '/college-predictor',
+        'College Predictor 2026'
+      ],
+
+      [
+        '/uptac-college-predictor',
+        'UPTAC College Predictor'
+      ],
+
+      [
+        '/college-counselling',
+        'College Counselling Guide'
+      ]
+    ]
   },
 
 
   {
-    path: 'uptac-college-predictor',
+    path:
+      '/uptac-college-predictor',
 
     title:
-      'UPTAC College Predictor 2026 | TruMarg',
+      'UPTAC College Predictor 2026 – AKTU College Predictor | TruMarg',
 
     description:
-      'Use TruMarg UPTAC College Predictor 2026 to explore engineering colleges and branches using rank, category, preferences and historical cutoff data.',
+      'Use TruMarg UPTAC College Predictor to discover AKTU and UPTAC college and branch options using JEE Main rank, category and historical counselling cutoffs.',
 
-    canonical:
-      'https://www.trumarg.com/uptac-college-predictor',
-
-    heading:
+    h1:
       'UPTAC College Predictor 2026',
 
     intro:
-      'Explore UPTAC college and branch possibilities using your rank, category and counselling preferences.',
+      'Explore UPTAC college and branch options using your admission profile and historical counselling data.',
 
-    staticHtml: `
-      <section>
-        <h2>UPTAC College Prediction Using Historical Cutoffs</h2>
+    sections: [
+      {
+        title:
+          'UPTAC and AKTU College Prediction',
 
-        <p>
-          TruMarg compares your admission profile with available
-          historical UPTAC opening and closing rank information
-          to organize relevant engineering college and branch
-          possibilities.
-        </p>
-      </section>
+        text:
+          'TruMarg analyzes college, branch, category and historical opening and closing rank information from UPTAC counselling data.'
+      },
 
-      <section>
-        <h2>Information Used by the UPTAC Predictor</h2>
+      {
+        title:
+          'College and Branch Options',
 
-        <ul>
-          <li>Applicable rank</li>
-          <li>Category</li>
-          <li>Counselling preferences</li>
-          <li>Branch preferences</li>
-          <li>Applicable quota and admission details</li>
-        </ul>
-      </section>
+        text:
+          'Instead of showing only a cutoff table, TruMarg can organize eligible college and branch combinations according to admission feasibility and student preferences.'
+      },
 
-      <section>
-        <h2>UPTAC Historical Data</h2>
+      {
+        title:
+          'Historical UPTAC Cutoffs',
 
-        <p>
-          TruMarg uses historical UPTAC counselling cutoff
-          information where available, including college,
-          branch, category and counselling-round data.
-        </p>
+        text:
+          'Previous counselling rounds provide useful evidence about admission patterns, although actual future cutoffs may change because of seat availability and applicant demand.'
+      }
+    ],
 
-        <p>
-          Historical cutoff information is used as guidance.
-          Future UPTAC cutoffs can change because of seat
-          availability, applicant demand, counselling rules,
-          category and student preferences.
-        </p>
-      </section>
+    faq: [
+      {
+        q:
+          'Is UPTAC based on JEE Main rank?',
 
-      <section>
-        <h2>How the UPTAC College Predictor Works</h2>
+        a:
+          'Admission rules depend on the applicable UPTAC programme and counselling process. TruMarg uses the relevant counselling data for supported programmes.'
+      },
 
-        <ol>
-          <li>Start the UPTAC prediction flow.</li>
-          <li>Enter your rank and applicable admission details.</li>
-          <li>Add category and branch preferences.</li>
-          <li>TruMarg compares your profile with historical UPTAC cutoff information.</li>
-          <li>Review relevant college and branch possibilities.</li>
-        </ol>
-      </section>
+      {
+        q:
+          'Is UPTAC College Predictor the same as AKTU College Predictor?',
 
-      <section>
-        <h2>Dream, Target, Safe and Backup Options</h2>
+        a:
+          'Students often use both terms while searching for engineering college options participating in the UPTAC counselling ecosystem.'
+      }
+    ],
 
-        <p>
-          College possibilities may be organized into Dream,
-          Target, Safe and Backup categories to support counselling
-          planning. These classifications are guidance estimates,
-          not guaranteed admission outcomes.
-        </p>
-      </section>
+    links: [
+      [
+        '/college-predictor',
+        'College Predictor'
+      ],
 
-      <section>
-        <h2>Related College Prediction Tools</h2>
+      [
+        '/jee-main-college-predictor',
+        'JEE Main College Predictor'
+      ],
 
-        <ul>
-          <li>
-            <a href="/jee-main-college-predictor">
-              JEE Main College Predictor 2026
-            </a>
-          </li>
-
-          <li>
-            <a href="/college-predictor">
-              All College Predictors
-            </a>
-          </li>
-
-          <li>
-            <a href="/college-counselling">
-              College Counselling Guidance
-            </a>
-          </li>
-        </ul>
-      </section>
-    `
+      [
+        '/uptac-cutoff-2025',
+        'UPTAC Cutoff 2025'
+      ]
+    ]
   },
 
 
   {
-    path: 'uptac-cutoff-2025',
+    path:
+      '/uptac-cutoff-2025',
 
     title:
-      'UPTAC Cutoff 2025 - Round & Category Wise | TruMarg',
+      'UPTAC Cutoff 2025 – College & Branch Closing Ranks | TruMarg',
 
     description:
-      'Explore UPTAC Cutoff 2025 with historical opening and closing rank data by counselling round and category. Use TruMarg data to plan college counselling.',
+      'Explore UPTAC 2025 college and branch cutoff information including historical opening and closing ranks for counselling analysis on TruMarg.',
 
-    canonical:
-      'https://www.trumarg.com/uptac-cutoff-2025',
-
-    heading:
+    h1:
       'UPTAC Cutoff 2025',
 
     intro:
-      'Explore historical UPTAC 2025 opening and closing rank data by counselling round and category.',
+      'Explore historical UPTAC college and branch admission data to understand previous counselling outcomes.',
 
-    staticHtml: `
-      <section>
-        <h2>UPTAC 2025 Cutoff Data Overview</h2>
+    sections: [
+      {
+        title:
+          'UPTAC Opening and Closing Ranks',
 
-        <p>
-          TruMarg's UPTAC 2025 dataset contains
-          10,804 historical cutoff records used
-          to understand previous counselling
-          patterns.
-        </p>
-      </section>
+        text:
+          'Opening and closing ranks provide historical evidence about the range in which seats were allotted for specific college and branch combinations.'
+      },
 
-      <section>
-        <h2>UPTAC Cutoff 2025 by Counselling Round</h2>
+      {
+        title:
+          'Use Cutoffs With College Predictor',
 
-        <ul>
-          <li>Round 1: 3,853 cutoff records</li>
-          <li>Round 2: 2,531 cutoff records</li>
-          <li>Round 3: 1,674 cutoff records</li>
-          <li>Round 4: 932 cutoff records</li>
-          <li>Round 6: 996 cutoff records</li>
-          <li>Round 7: 818 cutoff records</li>
-        </ul>
-      </section>
+        text:
+          'Historical cutoffs become more useful when compared with the student rank, category and programme preferences.'
+      }
+    ],
 
-      <section>
-        <h2>UPTAC Cutoff 2025 by Category</h2>
+    faq: [
+      {
+        q:
+          'Can past UPTAC cutoffs predict future admission?',
 
-        <ul>
-          <li>OPEN: 6,495 cutoff records</li>
-          <li>OBC: 1,702 cutoff records</li>
-          <li>EWS: 1,386 cutoff records</li>
-          <li>SC: 1,045 cutoff records</li>
-          <li>ST: 176 cutoff records</li>
-        </ul>
-      </section>
+        a:
+          'They can provide useful historical context, but they do not guarantee future admission because counselling outcomes change each year.'
+      }
+    ],
 
-      <section>
-        <h2>How to Use UPTAC Opening and Closing Ranks</h2>
+    links: [
+      [
+        '/uptac-college-predictor',
+        'UPTAC College Predictor'
+      ],
 
-        <p>
-          Opening and closing ranks show historical
-          admission boundaries for particular
-          colleges, branches, categories and
-          counselling rounds. Previous cutoffs are
-          useful for planning but do not guarantee
-          future admission.
-        </p>
-      </section>
-
-      <section>
-        <h2>Use the UPTAC College Predictor</h2>
-
-        <p>
-          Instead of checking thousands of cutoff
-          records manually, use the TruMarg UPTAC
-          College Predictor to explore relevant
-          college and branch possibilities.
-        </p>
-
-        <ul>
-          <li>
-            <a href="/uptac-college-predictor">
-              UPTAC College Predictor 2026
-            </a>
-          </li>
-
-          <li>
-            <a href="/college-counselling">
-              College Counselling Guidance
-            </a>
-          </li>
-
-          <li>
-            <a href="/college-predictor">
-              All College Predictors
-            </a>
-          </li>
-        </ul>
-      </section>
-    
-    `
+      [
+        '/college-predictor',
+        'College Predictor'
+      ]
+    ]
   },
 
 
   {
-    path: 'college-counselling',
+    path:
+      '/college-counselling',
 
     title:
-      'College Counselling & Admission Guidance | TruMarg',
+      'College Counselling Guide 2026 – Admission Choices | TruMarg',
 
     description:
-      'Explore college counselling and admission guidance with TruMarg. Understand colleges, branches, counselling rounds, cutoffs and admission possibilities.',
+      'Understand college counselling, admission cutoffs, branch choices, counselling rounds and college selection with TruMarg.',
 
-    canonical:
-      'https://www.trumarg.com/college-counselling',
-
-    heading:
-      'College Counselling & Admission Guidance',
+    h1:
+      'College Counselling Guide 2026',
 
     intro:
-      'Understand college options, counselling rounds, branches, previous cutoffs and admission possibilities with TruMarg.',
+      'Understand how ranks, cutoffs, categories, quotas and counselling rounds affect college admission decisions.',
 
-    staticHtml: `
-      <section>
-        <h2>Data-Driven College Counselling Guidance</h2>
+    sections: [
+      {
+        title:
+          'How College Counselling Works',
 
-        <p>
-          TruMarg helps students compare admission possibilities
-          using rank information, historical cutoffs, college
-          options and branch preferences.
-        </p>
-      </section>
+        text:
+          'Counselling generally combines student eligibility, rank, category, seat availability, preferences and programme rules to determine allotment outcomes.'
+      },
 
-      <section>
-        <h2>College Counselling Tools</h2>
+      {
+        title:
+          'Understanding Historical Cutoffs',
 
-        <ul>
-          <li>
-            <a href="/college-predictor">
-              College Predictor 2026
-            </a>
-          </li>
+        text:
+          'Historical opening and closing ranks are useful references, but future counselling outcomes can move because demand and seat availability change.'
+      }
+    ],
 
-          <li>
-            <a href="/jee-main-college-predictor">
-              JEE Main College Predictor
-            </a>
-          </li>
+    faq: [],
 
-          <li>
-            <a href="/uptac-college-predictor">
-              UPTAC College Predictor
-            </a>
-          </li>
-        </ul>
-      </section>
-    `
+    links: [
+      [
+        '/college-predictor',
+        'College Predictor 2026'
+      ],
+
+      [
+        '/jee-main-college-predictor',
+        'JEE Main College Predictor'
+      ]
+    ]
   },
 
 
   {
-    path: 'career-guidance',
+    path:
+      '/career-guidance',
 
     title:
-      'Career Guidance for Students & Career Assessment | TruMarg',
+      'Career Guidance for Students – Explore Career Paths | TruMarg',
 
     description:
-      'Get career guidance for students with TruMarg. Explore interests, strengths, preferences and suitable career paths through structured assessment.',
+      'Explore student career guidance, interests, strengths, education pathways and career possibilities with TruMarg.',
 
-    canonical:
-      'https://www.trumarg.com/career-guidance',
-
-    heading:
+    h1:
       'Career Guidance for Students',
 
     intro:
-      'Explore career directions based on interests, strengths, preferences and your academic journey.',
+      'Explore education and career pathways using interests, strengths and personal preferences.',
 
-    staticHtml: `
-      <section>
-        <h2>Structured Career Guidance for Students</h2>
+    sections: [],
 
-        <p>
-          TruMarg career guidance helps students explore career
-          directions by considering interests, strengths,
-          preferences and academic context.
-        </p>
+    faq: [],
 
-        <p>
-          <a href="/career-discovery">
-            Start Career Assessment
-          </a>
-        </p>
-      </section>
-
-      <section>
-        <h2>What Career Assessment Can Explore</h2>
-
-        <ul>
-          <li>Student interests</li>
-          <li>Strength patterns</li>
-          <li>Work preferences</li>
-          <li>Academic context</li>
-          <li>Suitable career directions</li>
-        </ul>
-      </section>
-    `
+    links: [
+      [
+        '/college-predictor',
+        'College Predictor'
+      ]
+    ]
   },
 
 
   {
-    path: 'about',
+    path:
+      '/about',
 
     title:
-      'About TruMarg - College & Career Guidance Platform',
+      'About TruMarg – College & Career Guidance Platform',
 
     description:
-      'Learn about TruMarg, a college prediction and career guidance platform helping students make informed academic and career decisions.',
+      'Learn about TruMarg, a student-focused platform for college recommendations, counselling intelligence and career guidance.',
 
-    canonical:
-      'https://www.trumarg.com/about',
-
-    heading:
+    h1:
       'About TruMarg',
 
     intro:
-      'TruMarg helps students explore colleges, admission possibilities and career paths.',
+      'TruMarg is designed to help students understand college admission options and explore education and career pathways.',
 
-    staticHtml: `
-      <section>
-        <h2>College and Career Decision Support</h2>
+    sections: [],
 
-        <p>
-          TruMarg provides tools for college prediction,
-          admission guidance and structured career exploration
-          to help students make more informed academic decisions.
-        </p>
+    faq: [],
 
-        <ul>
-          <li>
-            <a href="/college-predictor">
-              College Predictor
-            </a>
-          </li>
+    links: [
+      [
+        '/college-predictor',
+        'College Predictor'
+      ],
 
-          <li>
-            <a href="/college-counselling">
-              College Counselling Guidance
-            </a>
-          </li>
-
-          <li>
-            <a href="/career-guidance">
-              Career Guidance
-            </a>
-          </li>
-        </ul>
-      </section>
-    `
+      [
+        '/career-guidance',
+        'Career Guidance'
+      ]
+    ]
   }
+
 ];
 
 
-function replaceTitle(
-  html,
-  title
+function escapeHtml(
+  value
 ) {
-  return html.replace(
-    /<title>[\s\S]*?<\/title>/i,
-    `<title>${title}</title>`
-  );
+
+  return String(
+    value || ''
+  )
+    .replaceAll(
+      '&',
+      '&amp;'
+    )
+    .replaceAll(
+      '<',
+      '&lt;'
+    )
+    .replaceAll(
+      '>',
+      '&gt;'
+    )
+    .replaceAll(
+      '"',
+      '&quot;'
+    );
 }
 
 
-function replaceDescription(
-  html,
-  description
+function removeExistingSeo(
+  html
 ) {
-  return html.replace(
-    /<meta\s+name="description"[\s\S]*?>/i,
-    `<meta name="description" content="${description}" />`
-  );
+
+  return html
+    .replace(
+      /<title>[\s\S]*?<\/title>/i,
+      ''
+    )
+
+    .replace(
+      /<meta[^>]+name=["']description["'][^>]*>/gi,
+      ''
+    )
+
+    .replace(
+      /<link[^>]+rel=["']canonical["'][^>]*>/gi,
+      ''
+    )
+
+    .replace(
+      /<meta[^>]+property=["']og:[^"']+["'][^>]*>/gi,
+      ''
+    )
+
+    .replace(
+      /<meta[^>]+name=["']twitter:[^"']+["'][^>]*>/gi,
+      ''
+    );
 }
 
 
-function replaceCanonical(
-  html,
-  canonical
+function faqSchema(
+  faq
 ) {
-  return html.replace(
-    /<link\s+rel="canonical"[\s\S]*?>/i,
-    `<link rel="canonical" href="${canonical}" />`
-  );
+
+  if (
+    !faq?.length
+  ) {
+    return null;
+  }
+
+
+  return {
+    '@context':
+      'https://schema.org',
+
+    '@type':
+      'FAQPage',
+
+    mainEntity:
+      faq.map(
+        item => ({
+          '@type':
+            'Question',
+
+          name:
+            item.q,
+
+          acceptedAnswer: {
+            '@type':
+              'Answer',
+
+            text:
+              item.a
+          }
+        })
+      )
+  };
 }
 
 
-function replaceOpenGraph(
-  html,
-  route
+function breadcrumbSchema(
+  page
 ) {
-  html = html.replace(
-    /<meta\s+property="og:title"[\s\S]*?>/i,
-    `<meta property="og:title" content="${route.title}" />`
-  );
 
-  html = html.replace(
-    /<meta\s+property="og:description"[\s\S]*?>/i,
-    `<meta property="og:description" content="${route.description}" />`
-  );
+  return {
+    '@context':
+      'https://schema.org',
 
-  html = html.replace(
-    /<meta\s+property="og:url"[\s\S]*?>/i,
-    `<meta property="og:url" content="${route.canonical}" />`
-  );
+    '@type':
+      'BreadcrumbList',
 
-  return html;
+    itemListElement: [
+      {
+        '@type':
+          'ListItem',
+
+        position:
+          1,
+
+        name:
+          'Home',
+
+        item:
+          SITE_URL
+      },
+
+      {
+        '@type':
+          'ListItem',
+
+        position:
+          2,
+
+        name:
+          page.h1,
+
+        item:
+          SITE_URL +
+          page.path
+      }
+    ]
+  };
 }
 
 
-function addStaticContent(
-  html,
-  route
+function webpageSchema(
+  page
 ) {
-  const content = `
-    <main
-      id="seo-static-content"
-      data-seo-static="true"
-    >
-      <header>
-        <h1>${route.heading}</h1>
-        <p>${route.intro}</p>
-      </header>
 
-      ${route.staticHtml || ''}
-    </main>
-  `;
+  return {
+    '@context':
+      'https://schema.org',
 
-  const rootMarker =
-    '<div id="root"></div>';
+    '@type':
+      'WebPage',
 
-  if (!html.includes(rootMarker)) {
-    throw new Error(
-      `Root marker not found while generating /${route.path}`
+    name:
+      page.h1,
+
+    description:
+      page.description,
+
+    url:
+      SITE_URL +
+      page.path,
+
+    isPartOf: {
+      '@type':
+        'WebSite',
+
+      name:
+        'TruMarg',
+
+      url:
+        SITE_URL
+    }
+  };
+}
+
+
+function createStaticContent(
+  page
+) {
+
+  const sections =
+    page.sections
+      .map(
+        section =>
+          `
+<section>
+  <h2>${escapeHtml(section.title)}</h2>
+  <p>${escapeHtml(section.text)}</p>
+</section>
+`
+      )
+      .join(
+        '\n'
+      );
+
+
+  const faq =
+    page.faq?.length
+      ? `
+<section>
+  <h2>Frequently Asked Questions</h2>
+
+  ${page.faq
+    .map(
+      item =>
+        `
+<div>
+  <h3>${escapeHtml(item.q)}</h3>
+  <p>${escapeHtml(item.a)}</p>
+</div>
+`
+    )
+    .join('\n')}
+</section>
+`
+      : '';
+
+
+  const links =
+    page.links?.length
+      ? `
+<nav aria-label="Related TruMarg tools">
+  <h2>Related Tools</h2>
+
+  <ul>
+    ${page.links
+      .map(
+        ([url, label]) =>
+          `
+<li>
+  <a href="${url}">
+    ${escapeHtml(label)}
+  </a>
+</li>
+`
+      )
+      .join('\n')}
+  </ul>
+</nav>
+`
+      : '';
+
+
+  return `
+<div
+  id="trumarg-seo-content"
+  style="
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    line-height: 1.65;
+  "
+>
+  <main>
+    <h1>
+      ${escapeHtml(page.h1)}
+    </h1>
+
+    <p>
+      ${escapeHtml(page.intro)}
+    </p>
+
+    ${sections}
+
+    ${faq}
+
+    ${links}
+  </main>
+</div>
+`;
+}
+
+
+function generatePage(
+  page
+) {
+
+  const canonical =
+    SITE_URL +
+    page.path;
+
+
+  let html =
+    removeExistingSeo(
+      baseHtml
+    );
+
+
+  const schemas = [
+    webpageSchema(
+      page
+    ),
+
+    breadcrumbSchema(
+      page
+    )
+  ];
+
+
+  const faq =
+    faqSchema(
+      page.faq
+    );
+
+
+  if (faq) {
+    schemas.push(
+      faq
     );
   }
 
-  return html.replace(
-    rootMarker,
-    `<div id="root">${content}</div>`
-  );
-}
 
+  const head =
+`
+<title>${escapeHtml(page.title)}</title>
 
-for (const route of routes) {
-  let html =
-    baseHtml;
+<meta
+  name="description"
+  content="${escapeHtml(page.description)}"
+/>
+
+<meta
+  name="robots"
+  content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+/>
+
+<link
+  rel="canonical"
+  href="${canonical}"
+/>
+
+<meta
+  property="og:type"
+  content="website"
+/>
+
+<meta
+  property="og:site_name"
+  content="TruMarg"
+/>
+
+<meta
+  property="og:title"
+  content="${escapeHtml(page.title)}"
+/>
+
+<meta
+  property="og:description"
+  content="${escapeHtml(page.description)}"
+/>
+
+<meta
+  property="og:url"
+  content="${canonical}"
+/>
+
+<meta
+  name="twitter:card"
+  content="summary_large_image"
+/>
+
+<meta
+  name="twitter:title"
+  content="${escapeHtml(page.title)}"
+/>
+
+<meta
+  name="twitter:description"
+  content="${escapeHtml(page.description)}"
+/>
+
+${schemas
+  .map(
+    schema =>
+      `
+<script type="application/ld+json">
+${JSON.stringify(schema)}
+</script>
+`
+  )
+  .join('\n')}
+`;
+
 
   html =
-    replaceTitle(
-      html,
-      route.title
+    html.replace(
+      '</head>',
+      `${head}
+</head>`
     );
+
+
+  const staticContent =
+    createStaticContent(
+      page
+    );
+
 
   html =
-    replaceDescription(
-      html,
-      route.description
+    html.replace(
+      /<div\s+id=["']root["']\s*><\/div>/i,
+      `<div id="root">${staticContent}</div>`
     );
 
-  html =
-    replaceCanonical(
-      html,
-      route.canonical
-    );
 
-  html =
-    replaceOpenGraph(
-      html,
-      route
-    );
-
-  html =
-    addStaticContent(
-      html,
-      route
-    );
-
-  const targetDir =
+  const folder =
     path.join(
-      DIST_DIR,
-      route.path
+      DIST,
+      page.path.replace(
+        /^\/+/,
+        ''
+      )
     );
+
 
   fs.mkdirSync(
-    targetDir,
+    folder,
     {
-      recursive: true
+      recursive:
+        true
     }
   );
 
+
   fs.writeFileSync(
     path.join(
-      targetDir,
+      folder,
       'index.html'
     ),
     html,
     'utf8'
   );
 
+
   console.log(
-    `Generated: /${route.path}`
+    'Generated:',
+    page.path
   );
 }
+
+
+for (
+  const page of pages
+) {
+
+  generatePage(
+    page
+  );
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| HOMEPAGE
+|--------------------------------------------------------------------------
+*/
+
+let homepage =
+  removeExistingSeo(
+    baseHtml
+  );
+
+
+const homeTitle =
+  'TruMarg – College Predictor & Career Guidance';
+
+
+const homeDescription =
+  'TruMarg helps students discover college options using counselling data, admission intelligence and personalized education guidance.';
+
+
+const homepageSchema = [
+
+  {
+    '@context':
+      'https://schema.org',
+
+    '@type':
+      'WebSite',
+
+    name:
+      'TruMarg',
+
+    url:
+      SITE_URL
+  },
+
+  {
+    '@context':
+      'https://schema.org',
+
+    '@type':
+      'Organization',
+
+    name:
+      'TruMarg',
+
+    url:
+      SITE_URL
+  }
+
+];
+
+
+homepage =
+  homepage.replace(
+    '</head>',
+
+`
+<title>${homeTitle}</title>
+
+<meta
+  name="description"
+  content="${homeDescription}"
+/>
+
+<link
+  rel="canonical"
+  href="${SITE_URL}/"
+/>
+
+<meta
+  name="robots"
+  content="index,follow,max-image-preview:large"
+/>
+
+${homepageSchema
+  .map(
+    schema =>
+      `
+<script type="application/ld+json">
+${JSON.stringify(schema)}
+</script>
+`
+  )
+  .join('\n')}
+
+</head>
+`
+  );
+
+
+fs.writeFileSync(
+  BASE_FILE,
+  homepage,
+  'utf8'
+);
+
+
+/*
+|--------------------------------------------------------------------------
+| SITEMAP
+|--------------------------------------------------------------------------
+*/
+
+const sitemapUrls = [
+  '/',
+  ...pages.map(
+    page =>
+      page.path
+  )
+];
+
+
+const sitemap =
+`<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+>
+${sitemapUrls
+  .map(
+    url =>
+      `  <url>
+    <loc>${SITE_URL}${url === '/' ? '/' : url}</loc>
+    <changefreq>${url === '/' ? 'daily' : 'weekly'}</changefreq>
+    <priority>${url === '/' ? '1.0' : '0.8'}</priority>
+  </url>`
+  )
+  .join('\n')}
+</urlset>
+`;
+
+
+fs.writeFileSync(
+  path.join(
+    DIST,
+    'sitemap.xml'
+  ),
+  sitemap,
+  'utf8'
+);
+
+
+/*
+|--------------------------------------------------------------------------
+| ROBOTS
+|--------------------------------------------------------------------------
+*/
+
+const robots =
+`User-agent: *
+Allow: /
+
+Sitemap: ${SITE_URL}/sitemap.xml
+`;
+
+
+fs.writeFileSync(
+  path.join(
+    DIST,
+    'robots.txt'
+  ),
+  robots,
+  'utf8'
+);
+
+
+console.log(
+  '\n========================================'
+);
+
+console.log(
+  'TRUMARG SEO GENERATION COMPLETE'
+);
+
+console.log(
+  '========================================'
+);
+
+console.log(
+  'Domain:',
+  SITE_URL
+);
+
+console.log(
+  'SEO pages:',
+  pages.length
+);
+
+console.log(
+  'Sitemap:',
+  SITE_URL + '/sitemap.xml'
+);
+
+console.log(
+  'Robots:',
+  SITE_URL + '/robots.txt'
+);
