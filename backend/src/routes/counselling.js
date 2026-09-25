@@ -995,24 +995,7 @@ router.get(
       | EXECUTE QUERY
       |--------------------------------------------------------------------------
       */
-
-      console.log(
-        '[COUNSELLING] Query params:',
-        {
-          examId,
-          rank,
-          year,
-          round,
-          category,
-          quota:
-            requestedQuota,
-          gender:
-            requestedGender,
-          homeState,
-        }
-      );
-
-      let payloadPromise =
+let payloadPromise =
         resultsInFlight.get(
           resultsCacheKey
         );
