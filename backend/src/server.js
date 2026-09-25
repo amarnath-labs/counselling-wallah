@@ -1,4 +1,4 @@
-import 'dotenv/config';
+﻿import 'dotenv/config';
 
 import express from 'express';
 import cors from 'cors';
@@ -775,6 +775,25 @@ app.use(
 );
 
 
+
+/*
+|--------------------------------------------------------------------------
+| LOADER.IO BACKEND VERIFICATION
+|--------------------------------------------------------------------------
+*/
+
+app.get(
+  '/loaderio-98d882296b5a0c06adfa54d1c631f2f9.txt',
+  (_req, res) => {
+    return res
+      .status(200)
+      .type('text/plain')
+      .send(
+        'loaderio-98d882296b5a0c06adfa54d1c631f2f9'
+      );
+  }
+);
+
 /*
 |--------------------------------------------------------------------------
 | 404
@@ -1074,4 +1093,5 @@ process.on(
       'SIGINT'
     )
 );
+
 
