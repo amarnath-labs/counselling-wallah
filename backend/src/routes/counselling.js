@@ -5,6 +5,24 @@ import { redisGetJson, redisSetJson } from '../services/redisCache.js';
 import { buildHistoricalAdmissionIntelligence } from '../services/historicalAdmissionIntelligence.js';
 const router = Router();
 
+function publicResultsCache(
+  req,
+  res,
+  next
+) {
+  res.set(
+    'Cache-Control',
+    'public, max-age=30, s-maxage=300, stale-while-revalidate=600'
+  );
+
+  res.set(
+    'CDN-Cache-Control',
+    'public, s-maxage=300, stale-while-revalidate=600'
+  );
+
+  next();
+}
+
 const RESULTS_CACHE_VERSION =
   String(
     process.env.RESULTS_CACHE_VERSION ||
@@ -264,6 +282,7 @@ router.get(
 
 router.get(
   '/results',
+  publicResultsCache,
   async (req, res, next) => {
 
     try {
@@ -1009,13 +1028,7 @@ router.get(
 
             const { rows } =
               queryResult;
-
-            console.log(
-              '[COUNSELLING] DB rows:',
-              rows.length
-            );
-
-            /*
+/*
             |--------------------------------------------------------------------------
             | REMOVE DUPLICATES
             |--------------------------------------------------------------------------
