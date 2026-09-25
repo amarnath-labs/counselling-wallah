@@ -1,9 +1,18 @@
 import { Router } from 'express';
 import { pool } from '../db/pool.js';
-import { gzipSync } from 'node:zlib';
+import { gzip } from 'node:zlib';
 import { redisGetJson, redisSetJson } from '../services/redisCache.js';
 import { buildHistoricalAdmissionIntelligence } from '../services/historicalAdmissionIntelligence.js';
+import {
+  getAdmissionResultsFromIndex,
+  prewarmAdmissionResultsIndex,
+} from '../services/admissionResultsIndex.js';
 const router = Router();
+
+void prewarmAdmissionResultsIndex()
+  .catch((error) => {
+    console.error('[ADMISSION INDEX PREWARM ERROR]', error);
+  });
 
 function publicResultsCache(
   req,
@@ -26,8 +35,8 @@ function publicResultsCache(
 const RESULTS_CACHE_VERSION =
   String(
     process.env.RESULTS_CACHE_VERSION ||
-    'v3'
-  ).trim() || 'v3';
+    'v4'
+  ).trim() || 'v4';
 
 
 const RESULTS_CACHE_TTL_MS =
@@ -92,15 +101,7 @@ function writeResultsCache(key, payload) {
   const serialized =
     JSON.stringify(payload);
 
-  const gzipped =
-    gzipSync(
-      serialized,
-      {
-        level: 1,
-      }
-    );
-
-  resultsCache.set(key, {
+  const entry = {
     createdAt:
       Date.now(),
 
@@ -108,8 +109,25 @@ function writeResultsCache(key, payload) {
 
     serialized,
 
-    gzipped,
-  });
+    gzipped:
+      null,
+  };
+
+  resultsCache.set(
+    key,
+    entry
+  );
+
+  gzip(
+    serialized,
+    { level: 1 },
+    (error, buffer) => {
+      if (error) return;
+      if (resultsCache.get(key) === entry) {
+        entry.gzipped = buffer;
+      }
+    }
+  );
 }
 
 function sendCachedResults(
@@ -133,7 +151,8 @@ function sendCachedResults(
   if (
     acceptEncoding.includes(
       'gzip'
-    )
+    ) &&
+    entry.gzipped
   ) {
     res.set(
       'Content-Encoding',
@@ -583,6 +602,33 @@ router.get(
 
       const redisCacheKey =
         `trumarg:${RESULTS_CACHE_VERSION}:results:${resultsCacheKey}`;
+
+      /* IN-MEMORY ADMISSION INDEX FAST PATH */
+      try {
+        const indexedResult =
+          await getAdmissionResultsFromIndex({
+            examId,
+            rank,
+            year,
+            round,
+            category,
+            requestedQuota,
+            requestedGender,
+            homeState,
+            requestedLimit,
+          });
+
+        if (indexedResult?.payload) {
+          writeResultsCache(resultsCacheKey, indexedResult.payload);
+          void redisSetJson(redisCacheKey, indexedResult.payload, REDIS_RESULTS_TTL_SECONDS);
+          res.set('X-TruMarg-Cache', indexedResult.source);
+          const indexedEntry = readResultsCache(resultsCacheKey);
+          if (indexedEntry) return sendCachedResults(req, res, indexedEntry);
+          return res.json(indexedResult.payload);
+        }
+      } catch (indexError) {
+        console.error('[ADMISSION INDEX FALLBACK]', indexError);
+      }
 
       const redisPayload =
         await redisGetJson(
