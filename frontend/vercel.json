@@ -1,4 +1,4 @@
-{
+﻿{
   "headers": [
     {
       "source": "/colleges-catalog.json",
@@ -13,7 +13,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://counsellingwallah-backend.onrender.com/api/:path*"
+      "destination": "https://trumarg-backend-360774344521.asia-south1.run.app/api/:path*"
     },
     {
       "source": "/college-predictor",
@@ -74,3 +74,4 @@
   ],
   "$schema": "https://openapi.vercel.sh/vercel.json"
 }
+
