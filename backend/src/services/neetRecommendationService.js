@@ -269,13 +269,90 @@ function loadOrcrRows({
     );
 
 
+  let resolvedYear =
+    Number(
+      year
+    );
+
+  let resolvedYearDir =
+    yearDir;
+
   if (
     !fs.existsSync(
-      yearDir
+      resolvedYearDir
     )
   ) {
-    throw new Error(
-      `NEET MCC data is not available for ${year}.`
+    const parentDir =
+      path.dirname(
+        yearDir
+      );
+
+    const availableYears =
+      fs.existsSync(
+        parentDir
+      )
+        ? fs
+            .readdirSync(
+              parentDir,
+              {
+                withFileTypes: true,
+              }
+            )
+            .filter(
+              entry =>
+                entry.isDirectory() &&
+                /^\d{4}$/.test(
+                  entry.name
+                )
+            )
+            .map(
+              entry =>
+                Number(
+                  entry.name
+                )
+            )
+            .filter(
+              value =>
+                Number.isInteger(
+                  value
+                )
+            )
+            .sort(
+              (a, b) =>
+                b - a
+            )
+        : [];
+
+    const latestAvailableYear =
+      availableYears.find(
+        availableYear =>
+          availableYear <=
+          resolvedYear
+      ) ??
+      availableYears[0] ??
+      null;
+
+    if (
+      latestAvailableYear === null
+    ) {
+      throw new Error(
+        `NEET MCC data is not available for ${year}.`
+      );
+    }
+
+    resolvedYear =
+      latestAvailableYear;
+
+    resolvedYearDir =
+      path.join(
+        parentDir,
+        String(
+          resolvedYear
+        )
+      );
+
+    console.log(
+      `[NEET MCC] Requested year ${year} not available. Using latest available data year ${resolvedYear}.`
     );
   }
 
@@ -288,7 +365,7 @@ function loadOrcrRows({
 
   const file =
     path.join(
-      yearDir,
+      resolvedYearDir,
       `${roundInfo.key}-orcr.json`
     );
 
@@ -488,11 +565,82 @@ function resolveBiharStateFile({
     y === 2024
   ) {
 
+    /*
+    |--------------------------------------------------------------------------
+    | ROUND 1
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      roundNumber === 1 ||
+      roundText === 'round 1' ||
+      roundText === 'r1'
+    ) {
+
+      return {
+        fileName:
+          'round-1-orcr.json',
+
+        roundInfo: {
+          key:
+            'round-1',
+
+          label:
+            'Round 1',
+        },
+      };
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | ROUND 2 REQUEST
+    |--------------------------------------------------------------------------
+    |
+    | BCECEB published a combined First + Second Round OR-CR document.
+    |
+    | We may use it when the user requests Round 2, but the source identity
+    | must remain "Combined Round 1 + Round 2".
+    |--------------------------------------------------------------------------
+    */
+
+    if (
+      roundNumber === 2 ||
+      roundText === 'round 2' ||
+      roundText === 'r2' ||
+      roundText ===
+        'combined round 1 + round 2' ||
+      roundText ===
+        'combined'
+    ) {
+
+      return {
+        fileName:
+          'round-1-2-combined-orcr.json',
+
+        roundInfo: {
+          key:
+            'round-1-2-combined',
+
+          label:
+            'Combined Round 1 + Round 2',
+        },
+      };
+    }
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | ROUND 3
+    |--------------------------------------------------------------------------
+    */
+
     if (
       roundNumber === 3 ||
       roundText === 'round 3' ||
       roundText === 'r3'
     ) {
+
       return {
         fileName:
           'round-3-orcr.json',
@@ -508,11 +656,21 @@ function resolveBiharStateFile({
     }
 
 
+    /*
+    |--------------------------------------------------------------------------
+    | SPECIAL STRAY
+    |--------------------------------------------------------------------------
+    */
+
     if (
-      roundText === 'special stray' ||
-      roundText === 'special stray vacancy' ||
-      roundText === 'special-stray'
+      roundText ===
+        'special stray' ||
+      roundText ===
+        'special stray vacancy' ||
+      roundText ===
+        'special-stray'
     ) {
+
       return {
         fileName:
           'special-stray-orcr.json',
@@ -529,7 +687,7 @@ function resolveBiharStateFile({
 
 
     throw new Error(
-      'Bihar UGMAC 2024 currently has verified Round 3 and Special Stray Vacancy data only.'
+      'Bihar UGMAC 2024 currently has verified Round 1, Combined Round 1 + Round 2, Round 3 and Special Stray Vacancy data.'
     );
   }
 
@@ -2273,6 +2431,8 @@ export async function fetchNeetAdmissionHistory({
         ],
 
         2024: [
+          'round-1-orcr.json',
+          'round-1-2-combined-orcr.json',
           'round-3-orcr.json',
           'special-stray-orcr.json',
         ],
@@ -2713,3 +2873,5 @@ export async function fetchNeetAdmissionHistory({
     },
   };
 }
+
+
